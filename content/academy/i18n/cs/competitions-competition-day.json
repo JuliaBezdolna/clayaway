@@ -45,29 +45,29 @@
     "origin": "interpreter-academy"
   },
   "title": "Závodní den od začátku do konce",
-  "summary": "Co se děje v den závodů ve {{tm:sporting}} a {{tm:compak}}: prezentace, vaše číslo, skupiny a pořadí střelby, zpoždění, výsledky a konec dne.",
+  "summary": "Co se děje v den závodů ve {{tm:sporting}} a {{tm:compak}}: prezentace, vaše číslo, {{term:squad|skupiny}} a pořadí střelby, zpoždění, výsledky a konec dne.",
   "body": {
     "sport-competition-day-p1": "Den začíná prezentací: střelec potvrdí {{term:entry|přihlášku}}, dostane {{term:competitor-number|startovní číslo}} a připne si ho na horní část zad, celé viditelné. Pak si všichni zkontrolují seznamy {{term:squad|skupin}} a {{term:shooting-times|časy střelby}}. Skupina je losem určená skupinka až šesti střelců, kteří střílí společně. Dodržovat harmonogram je vlastní odpovědnost střelce.",
     "competitions-competition-day-p1": "Přijeďte včas: prezentace, hledání vlastní skupiny i příprava zaberou čas. {{term:competitor-number|Číslo}} se připevňuje mezi lopatky a pas, nesmí se přehnout ani ustřihnout. Než půjdete na stanoviště, vezměte si {{term:hearing-protection|ochranu sluchu}} a {{term:safety-glasses|střelecké brýle}}. V obou disciplínách platí, že střelec, který se dostaví bez nich, se počítá za nepřítomného a platí pro něj pravidla o zpoždění (viz níže).",
     "competitions-competition-day-p2": "Oblékněte se slušně a bezpečně: kraťasy mohou končit {{fact:rules.dress-shorts-length}}, horní díl potřebuje rukáv a sandály nejsou povolené. Zbraň noste otevřenou (zlomenou v kloubu, aby každý viděl, že není nabitá) a bez řemene. {{term:semi-automatic|Samonabíjecí brokovnice}} se nosí s otevřeným závěrem (odtaženým závorníkem). Všechna pravidla: {{lesson:rules-dress-and-safety}}.",
     "competitions-competition-day-p3": "Chcete si ověřit, že zbraň funguje? Udělejte to před položkou, na speciálním {{term:gun-test|zkušebním stanovišti}}, pokud ho střelnice má. Zkušební výstřely na závodním stanovišti nejsou dovolené.",
     "competitions-competition-day-practice": {
-      "sporting": "Trénovat na závodních střelištích před závody nesmí nikdo. Trénujte na jiných střelnicích.",
-      "compak": "{{term:practice|Trénovat}} na stejných letech terčů (trajektoriích) jako na závodech smíte, ale {{term:trajectory-setting-table|tabulka nastavení drah}} musí být jiná. Tato tabulka je schéma, které určuje, ze kterých vrhaček se střílí na každém stanovišti. Na mistrovství kontinentu a světa začíná oficiální trénink {{fact:training.compak-championship-practice}}."
+      "sporting": "Trénovat na závodních {{term:layout|střelištích}} před závody nesmí nikdo. Trénujte na jiných střelnicích.",
+      "compak": "{{term:practice|Trénink}} na stejných letech terčů (trajektoriích) jako na závodech je dovolen, ale {{term:trajectory-setting-table|tabulka nastavení drah}} musí být jiná. Tato tabulka je schéma, které určuje, ze kterých vrhaček se střílí na každém stanovišti. Na mistrovství kontinentu a světa začíná oficiální trénink {{fact:training.compak-championship-practice}}."
     },
-    "sport-competition-day-p2": "Ve {{tm:sporting}} skupina na stanovišti nejdřív vystřílí všechny {{term:single-target|jednotlivé terče}}, pak {{term:double|dvojstřely}}, a na každém novém stanovišti střílí první jiný střelec ({{term:rotation|pořadí střelby}} se střídá). Než kdokoli vystřelí, ukážou prvnímu střelci skupiny terče: každý se vypustí, aby bylo vidět, jak letí.",
+    "sport-competition-day-p2": "Ve {{tm:sporting}} skupina na stanovišti nejdřív vystřílí všechny {{term:single-target|jednotlivé terče}}, pak {{term:double|dvojstřely}}, a na každém novém stanovišti střílí první jiný střelec, protože se mění {{term:rotation|pořadí střelby}}. Než kdokoli vystřelí, ukážou prvnímu střelci skupiny terče: každý se vypustí, aby bylo vidět, jak letí.",
     "competitions-competition-day-p5": "Když se {{tm:compak}} střílí po skupinách, plná skupina má šest střelců: pět stojí na pěti stanovištích a šestý čeká za stanovištěm 1. Je-li střelců méně, jedno stanoviště zůstane prázdné. Jakmile všichni odstřílí terče ze svého stanoviště, skupina se posune o jedno stanoviště doprava. Střelec ze stanoviště 5 jde čekat za stanoviště 1 a čekající střelec nastoupí na stanoviště 1. Takto to pokračuje, dokud každý nestřílel z všech pěti stanovišť. Před svou položkou dojděte na pole Compak, které vám bylo přiděleno, a nahlaste se rozhodčímu: to je povinné. V {{term:compak-in-line|Compak v řadě}} se střelci nepřesouvají po skupinách: nastupují na stanoviště 1 jeden po druhém a postupují řadou až na stanoviště 5.",
-    "competitions-competition-day-ready": "Když přijde vaše řada, buďte hned připraveni, s náboji na celou položku. Ve {{tm:compak}} rozhodčí nemusí chybějícího střelce hledat. Jak jsou stanoviště uspořádaná: {{lesson:targets-sporting-layout}} a {{lesson:targets-compak-layout}}.",
-    "sport-competition-day-p3": "{{term:round|Položka}} je 25 terčů: jedno {{term:layout|střeliště}} ve {{tm:sporting}}, jedno pole ve {{tm:compak}}. Mezinárodní závod má 200 terčů, tedy osm položek během několika dní. Rozhodčí zapisuje každý terč do {{term:score-sheet|položkového listu}}, obvykle X za zásah a O za chybu. Ve {{tm:sporting}} střelci kontrolují svůj výsledek při odchodu ze stanoviště, ve {{tm:compak}} podepisují list na konci položky.",
-    "sport-competition-day-p4": "Zpoždění je nákladné. Ve {{tm:sporting}} rozhodčí vyvolá jméno střelce třikrát během jedné minuty; střelec, který zmešká svou řadu, dostane nuly za neodstřílené terče. Ve {{tm:compak}} dostane střelec, který se dostaví poté, co první střelec skupiny už zavolal první terč (požádal o jeho vypuštění), {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-ready": "Když přijde vaše řada, buďte hned připraveni, s náboji na celou {{term:round|položku}}. V {{tm:compak}} rozhodčí nemusí chybějícího střelce hledat. Jak jsou stanoviště uspořádaná: {{lesson:targets-sporting-layout}} a {{lesson:targets-compak-layout}}.",
+    "sport-competition-day-p3": "{{term:round|Položka}} je 25 terčů: jedno {{term:layout|střeliště}} ve {{tm:sporting}}, jedno pole v {{tm:compak}}. Mezinárodní závod má 200 terčů, tedy osm položek během několika dní. Rozhodčí zapisuje každý terč do {{term:score-sheet|položkového listu}}, obvykle X za zásah a O za chybu. Ve {{tm:sporting}} střelci kontrolují svůj výsledek při odchodu ze stanoviště, v {{tm:compak}} podepisují list na konci položky.",
+    "sport-competition-day-p4": "Zpoždění je nákladné. Ve {{tm:sporting}} rozhodčí vyvolá jméno střelce třikrát během jedné minuty; střelec, který zmešká svou řadu, dostane nuly za neodstřílené terče. V {{tm:compak}} dostane střelec, který se dostaví poté, co první střelec skupiny už zavolal první terč (požádal o jeho vypuštění), {{fact:competitions.compak-late-zeros}}.",
     "competitions-competition-day-late-inline": "V {{term:compak-in-line|Compak v řadě}} jste považováni za opozdilce, když nastaly obě věci: počítačový systém už zrušil vaše startovní číslo a další střelec stojí na stanovišti 1. Trest je stejný: {{fact:competitions.compak-late-zeros}}.",
-    "competitions-competition-day-late": "Zpozdili jste se z důvodu, který jste nemohli ovlivnit? Nevracejte se ke skupině sami: písemně se odvolejte k {{term:jury|jury}} (orgánu, který řídí závody), ve {{tm:compak}} ještě téhož dne. Pokud jury souhlasí, odstřílíte položku s jinou skupinou. Podrobněji: {{lesson:rules-call-and-time}}.",
-    "sport-competition-day-p5": "Pokud mají střelci shodu na jednom z prvních tří míst, rozhoduje {{fact:competitions.shoot-off-format}}. V náhlé smrti se střílí dál a vypadává první, kdo chybuje. Pod třetím místem rozstřel není: střelci se shodným výsledkem se o místo dělí. Jejich pořadí v seznamu určuje {{term:countback|zpětná kalkulace}}: jejich výsledky se porovnávají {{fact:competitions.countback-order}}. Den končí výsledkovou tabulí a vyhlášením výsledků.",
+    "competitions-competition-day-late": "Zpozdili jste se z důvodu, který jste nemohli ovlivnit? Nevracejte se ke skupině sami: písemně se odvolejte k {{term:jury|jury}} (orgánu, který řídí závody), v {{tm:compak}} ještě téhož dne. Pokud jury souhlasí, odstřílíte položku s jinou skupinou. Podrobněji: {{lesson:rules-call-and-time}}.",
+    "sport-competition-day-p5": "Pokud mají střelci shodu na jednom z prvních tří míst, rozhoduje {{fact:competitions.shoot-off-format}}. V {{term:sudden-death|náhlé smrti}} se střílí dál a vypadává první, kdo chybuje. Pod třetím místem rozstřel není: střelci se shodným výsledkem se o místo dělí. Jejich pořadí v seznamu určuje {{term:countback|zpětná kalkulace}}: jejich výsledky se porovnávají {{fact:competitions.countback-order}}. Den končí výsledkovou tabulí a {{term:prize-giving|vyhlášením výsledků}}.",
     "competitions-competition-day-end": "Mohli byste být v rozstřelu? Zůstaňte poblíž a dosažitelní: střílet možná budete muset {{fact:rules.shootoff-ready-time}}. Na mezinárodních závodech musí být každý medailista na {{term:prize-giving|vyhlášení výsledků}} – v dresu reprezentace nebo v slušných kalhotách a saku. Jak číst výsledky: {{lesson:watching-reading-results}}."
   },
   "note": {
     "competitions-competition-day-n1": "V turech ClayAway, které se právě připravují, se slovo „squad“ používá i pro podskupinu zájezdu. Na závodech vždy znamená skupinu, která střílí společně, takže upřesněte, co máte na mysli.",
-    "competitions-competition-day-n-parent": "Dívejte se z místa pro diváky a u stanoviště se chovejte tiše. Rada zavolaná během položky se počítá jako {{term:coaching|koučování}}: rozhodčí za ni může dítěti dát žlutou kartu. Více: {{lesson:juniors-support-without-pressure}}."
+    "competitions-competition-day-n-parent": "Dívejte se z místa pro diváky a u stanoviště se chovejte tiše. Rada zavolaná během položky se počítá jako {{term:coaching|koučování}}: rozhodčí za ni může dítěti dát {{term:yellow-card|žlutou kartu}}. Více: {{lesson:juniors-support-without-pressure}}."
   },
   "phrases": {
     "sport-competition-day-ph1": {
@@ -91,13 +91,13 @@
     "sport-competition-day-kp1": "Prezentace, startovní číslo na zádech, seznamy skupin a časy.",
     "competitions-competition-day-kp1": "Bez ochrany sluchu a střeleckých brýlí na stanovišti jste považováni za nepřítomné.",
     "competitions-competition-day-kp-ready": "Buďte připraveni ve svou řadu, s náboji na celou položku; zbraň zkoušejte jen na zkušebním stanovišti.",
-    "sport-competition-day-kp4": "Zpoždění stojí nuly; ve {{tm:compak}} {{fact:competitions.compak-late-zeros}}.",
+    "sport-competition-day-kp4": "Zpoždění stojí nuly; v {{tm:compak}} {{fact:competitions.compak-late-zeros}}.",
     "sport-competition-day-kp5": "Shoda v první trojici: rozstřel na 25, pak náhlá smrt; nižší shody: zpětná kalkulace."
   },
   "did_you_know": "Ve {{tm:sporting}} čeká skupina co nejblíž stanovišti, ale na místě, kde neruší toho, kdo střílí.",
   "quiz": {
     "competitions-competition-day-q-protection": {
-      "q": "Co se stane, když přijdete na stanoviště bez ochrany sluchu nebo střeleckých brýlí?",
+      "q": "Co se stane, když přijdete na stanoviště bez {{term:hearing-protection|ochrany sluchu}} nebo {{term:safety-glasses|střeleckých brýlí}}?",
       "options": {
         "a": "Smíte střílet, ale dostanete varování",
         "b": "Jste považováni za nepřítomné a nesmíte střílet",
@@ -112,20 +112,20 @@
         "b": "Kdekoli na střelnici, pokud je okolí volné",
         "c": "Na speciálním zkušebním stanovišti, pokud ho střelnice má"
       },
-      "explain": "Zkušební výstřely na závodním stanovišti nejsou dovolené v žádné z disciplín; k tomu slouží zkušební stanoviště."
+      "explain": "{{term:gun-test|Zkušební výstřely}} na závodním stanovišti nejsou dovolené v žádné z disciplín; k tomu slouží zkušební stanoviště."
     },
     "sport-competition-day-q2": {
-      "q": "Ve {{tm:compak}} po skupinách dorazí střelec poté, co první střelec zavolal první terč. Co se stane?",
+      "q": "V {{tm:compak}} po {{term:squad|skupinách}} dorazí střelec poté, co první střelec zavolal první terč. Co se stane?",
       "options": {
         "a": "Nic, přidá se",
-        "b": "Dostane za tuto položku 25 nul",
-        "c": "Odstřílí položku později sám bez sankce",
+        "b": "Dostane za tuto {{term:round|položku}} 25 nul",
+        "c": "Odstřílí {{term:round|položku}} později sám bez sankce",
         "d": "Ztratí jeden terč"
       },
-      "explain": "Ve {{tm:compak}} po skupinách stojí pozdní příchod po prvním zavolání {{fact:competitions.compak-late-zeros}}. Z důvodu, který jste nemohli ovlivnit, se lze týž den písemně odvolat k jury."
+      "explain": "V {{tm:compak}} po skupinách stojí pozdní příchod po prvním zavolání {{fact:competitions.compak-late-zeros}}. Z důvodu, který jste nemohli ovlivnit, se lze týž den písemně odvolat k jury."
     },
     "competitions-competition-day-q1": {
-      "q": "Kolik nejvíc střelců může být ve skupině?",
+      "q": "Kolik nejvíc střelců může být v {{term:squad|skupině}}?",
       "options": {
         "a": "4",
         "b": "6",
@@ -136,9 +136,9 @@
     "sport-competition-day-q3": {
       "q": "Dva střelci mají shodu na 5. místě. Jak se určí jejich pořadí?",
       "options": {
-        "a": "Rozstřelem na 25 terčů o toto místo",
+        "a": "{{term:shoot-off|Rozstřelem}} na 25 terčů o toto místo",
         "b": "Losem po skončení závodů",
-        "c": "Dělí se o místo; pořadí určí zpětná kalkulace od 8. střeliště nebo Compak",
+        "c": "Dělí se o místo; pořadí určí {{term:countback|zpětná kalkulace}} od 8. {{term:layout|střeliště}} nebo Compak",
         "d": "Podle věku, mladší střelec se umístí výš"
       },
       "explain": "Rozstřely jsou jen pro první trojici. Níže se střelci se shodou dělí o místo a zpětná kalkulace porovnává 8. střeliště nebo Compak, pak 7. a tak dále."
@@ -159,7 +159,7 @@
         "b": "Zavřenou a nenabitou, na řemeni přes ramena",
         "c": "Zavřenou, se zajištěnou pojistkou, hlavněmi k zemi"
       },
-      "explain": "Zbraně se nosí otevřené a řemeny nejsou povolené; samonabíjecí brokovnice se nosí s otevřeným závěrem."
+      "explain": "Zbraně se nosí otevřené a řemeny nejsou povolené; {{term:semi-automatic|samonabíjecí brokovnice}} se nosí s otevřeným závěrem."
     }
   }
 }

@@ -31,13 +31,13 @@
     "origin": null
   },
   "title": "O que observar: pratos, doubles e a rotina pré-tiro",
-  "summary": "Aprenda a notar o tipo de prato, a sua trajetória, o tipo de double e a rotina do atirador no {{tm:sporting}} e no {{tm:compak}}, para que os tiros deixem de parecer todos iguais.",
+  "summary": "Aprenda a notar o tipo de {{term:target|prato}}, a sua {{term:trajectory|trajetória}}, o tipo de double e a rotina do atirador no {{tm:sporting}} e no {{tm:compak}}, para que os tiros deixem de parecer todos iguais.",
   "body": {
-    "watching-what-to-look-at-p1": "Ao início, todos os tiros parecem iguais: um prato voa, um estrondo, pedaços. Um espetador experiente vê muito mais. No {{tm:sporting}} e no {{tm:compak}} cada prato é um pequeno enigma, e é interessante ver como o atirador o resolve.",
+    "watching-what-to-look-at-p1": "Ao início, todos os tiros parecem iguais: um {{term:target|prato}} voa, um estrondo, pedaços. Um espetador experiente vê muito mais. No {{tm:sporting}} e no {{tm:compak}} cada prato é um pequeno enigma, e é interessante ver como o atirador o resolve.",
     "watching-what-to-look-at-p2": "Comece pelo tipo de {{term:target|prato}}. O mais comum é o {{term:standard-target|prato normal}}. O {{term:midi|midi}} e o {{term:mini|mini}} são mais pequenos e parecem mais longe do que estão. Uma {{term:battue|batida}} é fina e plana, e voa de lado. Um {{term:rabbit|coelho}} rola e salta pelo solo. Tamanhos e outros tipos: {{lesson:targets-target-types}}.",
-    "watching-what-to-look-at-p3": "A seguir, a {{term:trajectory|trajetória}}, o caminho que o prato segue. Pode vir ao encontro do atirador ({{term:incomer|de entrada}}), afastar-se ({{term:going-away|de saída}}), cruzar pela frente ({{term:crosser|transversal}}), subir quase na vertical ({{term:teal|teal}}) ou voar num arco largo ({{term:looper|prato em arco}}). Tente nomear a trajetória antes do tiro. É exatamente isso que treina o jogo de Prática «Nomeie a trajetória».",
+    "watching-what-to-look-at-p3": "A seguir, a {{term:trajectory|trajetória}}, o caminho que o prato segue. Pode ser um prato {{term:incomer|de entrada}}, que vem ao encontro do atirador; {{term:going-away|de saída}}, que se afasta; {{term:crosser|transversal}}, que cruza pela frente; um {{term:teal|teal}}, que sobe quase na vertical; ou um {{term:looper|prato em arco}}, que voa num arco largo. Tente nomear a trajetória antes do tiro. É exatamente isso que treina o jogo de Prática «Nomeie a trajetória».",
     "watching-what-to-look-at-directions": "Esquerda e direita costumam ser dadas do lado do atirador. Se estiver de frente para o atirador, o «da esquerda para a direita» dele é, para si, da direita para a esquerda.",
-    "watching-what-to-look-at-p4": "Os {{term:double|doubles}} são dois pratos para um só pedido: o atirador pede uma vez e dispara sobre os dois. Observe-os separadamente. No {{term:double-on-report|double ao tiro}}, o segundo prato é lançado quando o atirador dispara sobre o primeiro. No {{term:simultaneous-double|double simultâneo}}, os dois pratos saem no mesmo instante. No {{term:rafale-double|rafale}}, dois pratos saem da mesma {{term:trap|máquina}} (a máquina lançadora), um depois do outro, pela mesma linha. Mais em {{lesson:targets-singles-and-doubles}}.",
+    "watching-what-to-look-at-p4": "Os {{term:double|doubles}} são dois pratos para um só pedido: o atirador pede uma vez e dispara sobre os dois. Observe-os separadamente. No {{term:double-on-report|double ao tiro}}, o segundo prato é lançado quando o atirador dispara sobre o primeiro. No {{term:simultaneous-double|double simultâneo}}, os dois pratos saem no mesmo instante. No {{term:rafale-double|rafale}}, dois pratos saem da mesma {{term:trap|máquina}}, a máquina lançadora, um depois do outro, pela mesma linha. Mais em {{lesson:targets-singles-and-doubles}}.",
     "watching-what-to-look-at-compare": {
       "sporting": "As {{term:squad|esquadras}} de {{fact:rules.squad-max-shooters}} caminham de posto em posto por todo o campo. Em cada posto atiram normalmente primeiro aos simples, depois aos doubles: ao tiro, simultâneos ou rafale. A {{term:stock|coronha}} é a parte da arma que vai ao ombro. Até o prato aparecer, o seu topo tem de ficar abaixo da {{term:jacket-line|linha do colete}}, traçada {{fact:rules.sporting-jacket-line}} (uma linha imaginária que passa pelos dois ombros). Assim vê-se todo o gesto de {{term:gun-mount|pôr a arma à cara}}: a arma a subir até ao ombro e à cara.",
       "compak": "Uma {{term:squad|esquadra}} de {{fact:rules.squad-max-shooters}} atira a partir de cinco postos em linha, a pratos de seis máquinas (as máquinas que lançam os pratos). Os atiradores atiram por turnos, cinco pratos cada; quando o atirador do posto 5 termina, todos avançam um posto para a direita. Os doubles são ao tiro ou simultâneos. Quando um atirador de {{tm:compak}} pede o prato, a arma pode já estar ao ombro ou ainda baixada: as regras deixam isso livre. Por isso alguns atiradores pedem o prato com a arma já «montada», ou seja, ao ombro."
@@ -57,7 +57,7 @@
   "did_you_know": "Durante parte do voo, a {{term:battue|batida}} só mostra o rebordo, uma linha fina e difícil de ver. Depois inclina-se, mostra a face plana e cai rapidamente. Observe como os atiradores escolhem o momento de disparar.",
   "quiz": {
     "watching-what-to-look-at-q1": {
-      "q": "Que prato rola e salta pelo solo?",
+      "q": "Que {{term:target|prato}} rola e salta pelo solo?",
       "options": {
         "a": "Batida",
         "b": "Midi",
@@ -84,16 +84,16 @@
       "explain": "Muitos treinadores sugerem os mesmos passos na mesma ordem; o tempo pode variar um pouco dentro do limite."
     },
     "watching-what-to-look-at-q2": {
-      "q": "O que é um double ao tiro?",
+      "q": "O que é um {{term:double-on-report|double ao tiro}}?",
       "options": {
-        "a": "O tiro ao primeiro prato lança o segundo",
-        "b": "Os dois pratos são lançados no mesmo instante",
-        "c": "Dispara-se duas vezes sobre o mesmo prato"
+        "a": "O tiro ao primeiro {{term:target|prato}} lança o segundo",
+        "b": "Os dois {{term:target|pratos}} são lançados no mesmo instante",
+        "c": "Dispara-se duas vezes sobre o mesmo {{term:target|prato}}"
       },
       "explain": "O som do primeiro tiro lança o segundo prato."
     },
     "watching-what-to-look-at-q3": {
-      "q": "Onde está a coronha de um atirador de {{tm:sporting}} antes de o prato aparecer?",
+      "q": "Onde está a {{term:stock|coronha}} de um atirador de {{tm:sporting}} antes de o {{term:target|prato}} aparecer?",
       "options": {
         "a": "Já junto à cara",
         "b": "Apoiada no pé",

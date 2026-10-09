@@ -28,14 +28,14 @@
     "origin": null
   },
   "title": "Prędkość i odrzut",
-  "summary": "Co znaczy prędkość na pudełku naboju, czemu szybciej nie znaczy lepiej oraz od czego zależy odrzut — dla strzelców {{tm:sporting}} i {{tm:compak}}.",
+  "summary": "Co znaczy prędkość na pudełku naboju, czemu szybciej nie znaczy lepiej oraz od czego zależy {{term:recoil|odrzut}} — dla strzelców {{tm:sporting}} i {{tm:compak}}.",
   "body": {
     "cartridges-velocity-recoil-p1": "Na pudełku często podaje się {{term:velocity|prędkość}} śrutu, w metrach na sekundę albo stopach na sekundę (fps). Dla naboi sportowych wynosi ona zwykle {{fact:gear.shot-velocity}}.",
     "cartridges-velocity-recoil-p2": "Porównuj prędkości ostrożnie. Śrut szybko traci prędkość po wyjściu z lufy, więc ważne jest, gdzie dokładnie mierzy się prędkość. Europejscy producenci (zgodnie z regułami badań C.I.P.) mierzą ją zwykle 2,5 m od wylotu i piszą „V2,5”; niektórzy piszą „V1”, mierzone na 1 m, co daje wyższą liczbę. Oznaczenia nie są zawsze konsekwentne, więc traktuj tę liczbę jako orientacyjną.",
     "cartridges-velocity-recoil-p7": "Amerykańscy producenci podają stopy na sekundę, mierzone około 3 stóp (0,9 m) od wylotu. Brytyjskie pudełka czasem podają szacowaną prędkość wylotową. Więc ta sama liczba nie musi znaczyć tej samej prędkości.",
-    "cartridges-velocity-recoil-p3": "Szybszy nabój nieco skraca czas, w którym śrut dolatuje do rzutka, ale kopie mocniej, a jego rozrzut nie jest wcale lepszy. Wielu trenerów radzi nie gonić za prędkością, a wybrać nabój, z którym strzelasz równo i który cię nie męczy.",
-    "cartridges-velocity-recoil-p4": "{{term:recoil|Odrzut}} to pchnięcie broni w ramię podczas strzału. Rośnie z ciężejszą naważką i wyższą prędkością, a spada z ciężejszą bronią. Gazowy {{term:semi-automatic|półautomat}} rozkłada pchnięcie w czasie, więc wielu strzelcom wydaje się łagodniejszy.",
-    "cartridges-velocity-recoil-p5": "Jeszcze większe znaczenie ma {{term:gun-fit|dopasowanie strzelby}} i prawidłowe {{term:gun-mount|złożenie się do strzału}}. Broń, która ci pasuje i mocno leży w ramieniu, odczuwa się dużo łagodniej niż ta, która opiera się na ramieniu zewnętrznym albo na kości. Pomaga też dobra stopka i stabilna postawa. Więcej: {{lesson:gun-fit}} i {{lesson:health-recoil-shoulder-neck}}.",
+    "cartridges-velocity-recoil-p3": "Szybszy {{term:cartridge|nabój}} nieco skraca czas, w którym śrut dolatuje do rzutka, ale kopie mocniej, a jego rozrzut nie jest wcale lepszy. Wielu trenerów radzi nie gonić za prędkością, a wybrać nabój, z którym strzelasz równo i który cię nie męczy.",
+    "cartridges-velocity-recoil-p4": "{{term:recoil|Odrzut}} to pchnięcie broni w ramię podczas strzału. Rośnie z cięższą naważką i wyższą prędkością, a spada z cięższą bronią. Gazowy {{term:semi-automatic|półautomat}} rozkłada pchnięcie w czasie, więc wielu strzelcom wydaje się łagodniejszy.",
+    "cartridges-velocity-recoil-p5": "Jeszcze większe znaczenie ma {{term:gun-fit|dopasowanie strzelby}} i prawidłowe {{term:gun-mount|złożenie się do strzału}}. Broń, która ci pasuje i mocno leży w ramieniu, odczuwa się dużo łagodniej niż ta, która opiera się na ramieniu zewnętrznym albo na kości. Pomaga też dobra {{term:recoil-pad|stopka}} i stabilna postawa. Więcej: {{lesson:gun-fit}} i {{lesson:health-recoil-shoulder-neck}}.",
     "cartridges-velocity-recoil-p6": "W dniu {{tm:sporting}} albo {{tm:compak}} możesz oddać 100–200 strzałów. Silny odrzut męczy i może z czasem nauczyć cię {{term:flinch|szarpnięcia}} przed strzałem. Więc lżejszy nabój na treningu, na przykład 24 g, jest rozsądnym wyborem, a nie słabością."
   },
   "note": {},
@@ -50,14 +50,14 @@
   "did_you_know": "Śrut dolatuje do rzutka na 30 m w ciągu około jednej dziesiątej sekundy. W tym czasie przecinający się rzutek zdąży przemieścić się o metr albo dwa, dlatego strzelcy dają mu {{term:lead|wyprzedzenie}}.",
   "quiz": {
     "cartridges-velocity-recoil-q1": {
-      "q": "Co robi odrzut słabszym?",
+      "q": "Co robi {{term:recoil|odrzut}} słabszym?",
       "options": {
-        "a": "Ciężejsza naważka",
+        "a": "Cięższa naważka",
         "b": "Wyższa prędkość",
-        "c": "Ciężejsza broń",
+        "c": "Cięższa broń",
         "d": "Za krótka kolba"
       },
-      "explain": "Ciężejsza broń lepiej wchłania pchnięcie; ciężejsza naważka i wyższa prędkość zwiększają odrzut."
+      "explain": "Cięższa broń lepiej wchłania pchnięcie; cięższa naważka i wyższa prędkość zwiększają odrzut."
     },
     "cartridges-velocity-recoil-q2": {
       "q": "Czemu nie warto porównywać prędkości naboi różnych producentów bezpośrednio?",

@@ -34,21 +34,21 @@
     "origin": null
   },
   "title": "Dýchání: co dělat a kdy",
-  "summary": "Pomalé dýchání tělo zklidňuje, ale záleží na načasování. Co zkusit v tréninkové dny, před stanovištěm, při zavolání a po minutí.",
+  "summary": "Pomalé dýchání tělo zklidňuje, ale záleží na načasování. Co zkusit v tréninkové dny, před stanovištěm, při {{term:call|zavolání}} a po minutí.",
   "body": {
     "mind-breathing-p1": "Když jste ve stresu, tělo reaguje samo: srdce bije rychleji, dech se stává povrchním. Dýchání je jedna z mála částí této reakce, kterou lze přímo ovládat. Mnohé studie ukazují, že pomalé dýchání, {{fact:mind.slow-breathing-rate}}, tělo zklidňuje: srdeční rytmus se přehodí na klidnější, pružnější tempo (výzkumníci to měří jako variabilitu srdečního rytmu).",
     "mind-breathing-p2": "Zda zvyšuje výsledek, je mnohem méně jasné. Malé studie se sportovními střelci a jedna studie s policisty, kteří stříleli z pistole, zaznamenaly přínos, ale studii ve {{tm:sporting}} nebo {{tm:compak}} jsme nenašli.",
     "mind-breathing-steps": [
       "Tréninkové dny: 5–10 minut pomalého dýchání, {{fact:mind.slow-breathing-rate}}, například nádech na 4 sekundy a výdech na 6.",
       "2–5 minut před stanovištěm: 6–10 pomalých vdechů, výdech delší, pokud je to pohodlné.",
-      "V {{term:pre-shot-routine|rutině}}, těsně před zavoláním: jeden přirozený výdech a uvolněná ramena, pak {{term:call|zavolání}}.",
+      "V {{term:pre-shot-routine|rutině}}, těsně před {{term:call|zavoláním}}: jeden přirozený výdech a uvolněná ramena, pak {{term:call|zavolání}}.",
       "Po minutém terči: jeden pomalý výdech jako signál k restartu."
     ],
     "mind-breathing-p3": "Pokud pomalé dýchání trénujete v běžné dny, tělo se učí zklidňovat rychleji, takže v den závodu to může přijít snáz. Pomoci může i snímač tepu, který ukazuje srdeční rytmus naživo (tomu se říká biofeedback), ale nemusíte ho mít.",
     "mind-breathing-p4": "Před stanovištěm čas netlačí, takže pár pomalých vdechů může snížit napětí, aniž by čemu vadilo. V {{tm:compak}}, pokud má vaše skupina šest střelců, se k tomu dobře hodí čekání za prvním číslem ({{rule:compak:ch17-squad-rotation}}).",
     "mind-breathing-p5": "Těsně před zavoláním dýchejte krátce a přirozeně. V jedné laboratorní studii pomalé dýchání v nastaveném tempu zpomalilo reakční čas. Stendová střelba začíná reakcí na terč, a prodleva po zavolání je často těžko předvídatelná (ve {{tm:sporting}}, a v {{tm:compak}} při ručním spuštění). Proto tady stačí jeden lehký výdech.",
     "mind-breathing-p6": "Po minutí může jeden pomalý výdech ukončit danou epizodu s terčem. Funguje jako signál k restartu: viz {{lesson:mind-reset-after-miss}}.",
-    "mind-competition-nerves-p3": "Možná jste slyšeli o {{term:box-breathing|box breathing}} (čtvercovém dýchání): nádech, pauza, výdech a pauza, každá fáze na čtyři doby. Je to jedna z možností, kterou lze zkusit. Když ho výzkumníci porovnali s jinými způsoby dýchání, nebylo lepší; v jedné studii zafungoval lépe prostě výdech delší než nádech.",
+    "mind-competition-nerves-p3": "Možná jste slyšeli o {{term:box-breathing|čtvercovém dýchání}}: nádech, pauza, výdech a pauza, každá fáze na čtyři doby. Je to jedna z možností, kterou lze zkusit. Když ho výzkumníci porovnali s jinými způsoby dýchání, nebylo lepší; v jedné studii zafungoval lépe prostě výdech delší než nádech.",
     "mind-breathing-p7": "„Fyziologický vzdech“ je dva nádechy nosem a jeden dlouhý výdech. V jedné studii pět minut denně tohoto dýchání zlepšilo náladu. Studii o něm těsně před výstřelem jsme nenašli.",
     "mind-breathing-p8": "Mnoha lidem pomáhá relaxovat výdech delší než nádech. Studie se neshodují, zda to přidává něco navíc, takže si vyberte rytmus, který vám vyhovuje.",
     "mind-breathing-warn": "Dechová cvičení by měla být snadná. Pokud se vám zatočí hlava nebo se vám nedostává dechu, vraťte se k běžnému dýchání. Pokud máte onemocnění srdce nebo plic, poraďte se nejdřív s lékařem."
@@ -67,7 +67,7 @@
   "did_you_know": "Pomalé dýchání, {{fact:mind.slow-breathing-rate}}, se někdy nazývá rezonanční: v tomto tempu tep i dech obvykle stoupají a klesají společně.",
   "quiz": {
     "mind-breathing-q1": {
-      "q": "Co můžete zkusit těsně před zavoláním?",
+      "q": "Co můžete zkusit těsně před {{term:call|zavoláním}}?",
       "options": {
         "a": "Deset pomalých vdechů, šest za minutu",
         "b": "Jeden přirozený výdech, ramena dolů",

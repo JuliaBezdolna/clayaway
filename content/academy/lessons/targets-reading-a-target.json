@@ -121,14 +121,14 @@
       "t": "p",
       "disc": "both",
       "en": "Start with the {{term:target-menu|target menu}}: which traps, in what order, and whether there are special targets. Then watch closely while the targets are shown (the {{term:target-presentation|presentation}}). In {{tm:sporting}} the targets of a stand are shown before shooting to the first shooter of the squad. Doubles on report are not shown. {{tm:compak}} has its own way of showing targets. The details are in {{lesson:rules-viewing-targets}}.",
-      "uk": "Почніть із {{term:target-menu|меню мішеней}}: які машинки, у якому порядку, чи є особливі мішені. Потім уважно подивіться {{term:target-presentation|показ мішеней}} (presentation). У {{tm:sporting}} мішені місця перед стрільбою показують першому стрільцеві групи. Дуплети на постріл не показують. У {{tm:compak}} показ влаштований по-своєму. Подробиці — в уроці {{lesson:rules-viewing-targets}}."
+      "uk": "Почніть із {{term:target-menu|меню мішеней}}: які {{term:trap|машинки}}, у якому порядку, чи є особливі мішені. Потім уважно подивіться {{term:target-presentation|показ мішеней}}. У {{tm:sporting}} мішені місця перед стрільбою показують першому стрільцеві групи. {{term:double-on-report|Дуплети на постріл}} не показують. У {{tm:compak}} показ влаштований по-своєму. Подробиці — в уроці {{lesson:rules-viewing-targets}}."
     },
     {
       "k": "targets-reading-a-target-p3",
       "t": "p",
       "disc": "both",
       "en": "Ask yourself simple questions. Where do I first see the target clearly? That is your {{term:pick-up-point|pick-up point}}, where your eyes start following it. Where is it easiest to break? That is your {{term:break-point|break point}}. There the target should still be clearly visible, not dropping behind trees or flying beyond a {{term:shooting-limit|shooting limit}}.",
-      "uk": "Ставте собі прості запитання. Де я вперше чітко бачу мішень? Це ваша {{term:pick-up-point|точка підхоплення}} (pick-up point), звідки очі починають за нею стежити. Де її найзручніше розбити? Це ваша {{term:break-point|точка пострілу}} (break point). Там мішень ще має бути добре видно: вона не повинна падати за дерева чи вилітати за {{term:shooting-limit|межу зони стрільби}}."
+      "uk": "Ставте собі прості запитання. Де я вперше чітко бачу мішень? Це ваша {{term:pick-up-point|точка підхоплення}}, звідки очі починають за нею стежити. Де її найзручніше розбити? Це ваша {{term:break-point|точка пострілу}}. Там мішень ще має бути добре видно: вона не повинна падати за дерева чи вилітати за {{term:shooting-limit|межу зони стрільби}}."
     },
     {
       "k": "targets-reading-a-target-points",
@@ -149,7 +149,7 @@
       "t": "p",
       "disc": "both",
       "en": "Watch how others shoot, but think for yourself: each shooter has their own tempo. While the targets are being shown, many coaches suggest following them with your eyes only.",
-      "uk": "Дивіться, як стріляють інші, але думайте своєю головою: кожен має свій темп. Під час показу мішеней багато тренерів радять стежити за ними лише очима."
+      "uk": "Дивіться, як стріляють інші, але думайте своєю головою: кожен має свій темп. Під час показу мішеней багато тренерів радять стежити за ними лише очима, без {{term:mock-shooting|імітації стрільби}}."
     },
     {
       "k": "targets-reading-a-target-mock",
@@ -159,7 +159,7 @@
       "uk": "{{term:mock-shooting|Імітація стрільби}}: {{term:gun-mount|вкладка}} (рушницю приставляють до плеча) і ведення рушниці вздовж лінії, якою, як ви очікуєте, полетить мішень",
       "sporting": {
         "en": "Not allowed anywhere on the ground. The first time, the referee gives a warning. If you do it again, your next hit target is scored as a miss (zero).",
-        "uk": "Заборонена будь-де на стрільбищі. Першого разу суддя робить попередження. Якщо повторите, наступну мішень, яку ви розіб’єте, запишуть як промах (zero)."
+        "uk": "Заборонена будь-де на стрільбищі. Першого разу суддя робить попередження. Якщо повторите, наступну мішень, яку ви розіб’єте, запишуть як {{term:zero|промах}}."
       },
       "compak": {
         "en": "Not allowed outside the shooting stations, or while another squad member is shooting. While the targets are being shown, the gun is open and unloaded.",
@@ -207,14 +207,14 @@
   "did_you_know": {
     "k": "targets-reading-a-target-dyk",
     "en": "In {{tm:sporting}} doubles on report are not shown, but you have already seen both targets: doubles are made only of targets shown as singles from the same stand.",
-    "uk": "У {{tm:sporting}} дуплети на постріл не показують, але обидві мішені ви вже бачили: дуплети складають лише з мішеней, показаних як одиночні з того самого місця."
+    "uk": "У {{tm:sporting}} дуплети на постріл не показують, але обидві мішені ви вже бачили: {{term:double|дуплети}} складають лише з мішеней, показаних як одиночні з того самого місця."
   },
   "quiz": [
     {
       "k": "targets-reading-a-target-q1",
       "q": {
         "en": "What is the break point?",
-        "uk": "Що таке точка пострілу (break point)?"
+        "uk": "Що таке {{term:break-point|точка пострілу}}?"
       },
       "options": [
         {
@@ -236,7 +236,7 @@
       "correct": "a",
       "explain": {
         "en": "The break point is the place on the trajectory that you choose in advance.",
-        "uk": "Точка пострілу (break point) — місце на траєкторії, яке ви обираєте заздалегідь."
+        "uk": "{{term:break-point|Точка пострілу}} — місце на траєкторії, яке ви обираєте заздалегідь."
       }
     },
     {
@@ -244,7 +244,7 @@
       "disc": "sporting",
       "q": {
         "en": "In {{tm:sporting}}, while the targets are being shown, may you mount the gun and swing it along the target's line?",
-        "uk": "Чи можна в {{tm:sporting}} під час показу мішеней вкладати рушницю й «вести» нею мішень?"
+        "uk": "Чи можна в {{tm:sporting}} під час показу мішеней робити {{term:gun-mount|вкладку}} й «вести» рушницею мішень?"
       },
       "options": [
         {

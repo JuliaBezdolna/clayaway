@@ -29,17 +29,17 @@
     "origin": null
   },
   "title": "Arten von Wettkämpfen",
-  "summary": "Vereinsschießen, nationale Veranstaltungen, Grand Prix und Meisterschaften in {{tm:sporting}} und {{tm:compak}}: wie sie sich unterscheiden und wo ein Anfänger beginnen kann.",
+  "summary": "{{term:club-shoot|Vereinsschießen}}, nationale Veranstaltungen, Grand Prix und {{term:championship|Meisterschaften|pl}} in {{tm:sporting}} und {{tm:compak}}: wie sie sich unterscheiden und wo ein Anfänger beginnen kann.",
   "body": {
-    "competitions-types-of-events-p1": "Wettkämpfe in {{tm:sporting}} und {{tm:compak}} reichen von einem freundschaftlichen {{term:club-shoot|Vereinsschießen}} bis zu einer Welt-{{term:championship|Meisterschaft}}. Die internationalen Regeln beider Disziplinen schreibt {{term:fitasc|FITASC}}, der internationale Verband, der sie leitet. Wie der Sport organisiert ist: {{lesson:intro-fitasc-and-organisation}}.",
+    "competitions-types-of-events-p1": "Wettkämpfe in {{tm:sporting}} und {{tm:compak}} reichen von einem freundschaftlichen {{term:club-shoot|Vereinsschießen}} bis zu einer {{term:championship|Weltmeisterschaft}}. Die internationalen Regeln beider Disziplinen schreibt {{term:fitasc|FITASC}}, der internationale Verband, der sie leitet. Wie der Sport organisiert ist: {{lesson:intro-fitasc-and-organisation}}.",
     "competitions-types-of-events-p2": "Ein Vereinsschießen ist ein guter Einstieg. Vereine und Schießstände veranstalten sie, oft an Wochenenden. Meist gibt es weniger Scheiben als bei großen Veranstaltungen, das Tempo ist ruhiger, und man erklärt Ihnen gern, was zu tun ist. Der {{term:organiser|Veranstalter}} legt die Anzahl der Scheiben, das Format und einen Teil der Regeln fest, lesen Sie also das Programm.",
     "competitions-types-of-events-p3": "Danach folgen nationale Veranstaltungen: nationale Meisterschaften und Pokale, die vom {{term:national-federation|nationalen Verband}} oder einem von ihm beauftragten Verein ausgerichtet werden. Ihre Regeln ähneln oft den internationalen, und die Ergebnisse können bei der Auswahl der Nationalmannschaft zählen.",
     "competitions-types-of-events-p4": "Internationale FITASC-Wettkämpfe stehen Schützen aus vielen Ländern offen. Dazu gehören {{term:grand-prix|Grand-Prix}}-Veranstaltungen und auf höchster Ebene die Europa- und Weltmeisterschaften. Ein internationaler Wettkampf umfasst meist {{fact:basics.international-targets}}, über mehrere Tage.",
     "competitions-types-of-events-cmp1": {
-      "sporting": "Die 200 Scheiben werden auf acht {{term:layout|Layouts}} geschossen, eine {{term:round|Runde}} von 25 auf jedem. Bei Grand-Prix-Veranstaltungen ist auch eine „Linie“ erlaubt: eine Reihe von {{fact:competitions.sporting-grand-prix-line}}.",
-      "compak": "Die 200 Scheiben werden auf acht Compak-Feldern geschossen (ein Compak ist ein Feld mit fünf Positionen und sechs Wurfmaschinen). Es gibt vier Arten von Feldern: Sie unterscheiden sich darin, wie viele Einzelscheiben und Doubletten von jeder Position geschossen werden und welcher Art diese Doubletten sind. Bei Kontinental- und Weltmeisterschaften stellt der gastgebende Verein {{fact:competitions.compak-championship-machines}} (sechs für jedes Feld) nur für diese Veranstaltung auf, damit alle unter denselben Bedingungen schießen."
+      "sporting": "Die 200 Scheiben werden auf acht Layouts geschossen, eine {{term:round|Runde}} von 25 auf jedem. Bei Grand-Prix-Veranstaltungen ist auch eine „Linie“ erlaubt: eine Reihe von {{fact:competitions.sporting-grand-prix-line}}.",
+      "compak": "Die 200 Scheiben werden auf acht Compak-Feldern geschossen – ein Compak ist ein Feld mit fünf Positionen und sechs {{term:trap|Wurfmaschinen|pl}}. Es gibt vier Arten von Feldern: Sie unterscheiden sich darin, wie viele Einzelscheiben und {{term:double|Doubletten|pl}} von jeder Position geschossen werden und welcher Art diese Doubletten sind. Bei Kontinental- und Weltmeisterschaften stellt der gastgebende Verein {{fact:competitions.compak-championship-machines}} (sechs für jedes Feld) nur für diese Veranstaltung auf, damit alle unter denselben Bedingungen schießen."
     },
-    "competitions-types-of-events-p5": "Große Meisterschaften werten neben Einzelpersonen auch {{term:team|Mannschaften}}: Die Ergebnisse der Mitglieder einer Nationalmannschaft werden zusammengezählt. Schützen werden außerdem nach Alter und Geschlecht in {{term:category|Klassen}} eingeteilt. Beides erklärt {{lesson:competitions-categories-and-shoot-offs}}.",
+    "competitions-types-of-events-p5": "Große Meisterschaften werten neben Einzelpersonen auch {{term:team|Mannschaften|pl}}: Die Ergebnisse der Mitglieder einer Nationalmannschaft werden zusammengezählt. Schützen werden außerdem nach Alter und Geschlecht in {{term:category|Klassen|pl}} eingeteilt. Beides erklärt {{lesson:competitions-categories-and-shoot-offs}}.",
     "competitions-types-of-events-start": "Viele Trainer empfehlen, mit ein paar Vereinsschießen zu beginnen. So gewöhnen Sie sich ohne großen Druck an den Ablauf, die {{term:squad|Rotte}} und den {{term:referee|Schiedsrichter}}. Wie Sie sich anmelden: {{lesson:competitions-how-to-enter}}."
   },
   "note": {
@@ -61,32 +61,32 @@
         "b": "200",
         "c": "150"
       },
-      "explain": "Ein internationaler Wettkampf umfasst meist 200 Scheiben, geschossen in Runden von 25."
+      "explain": "Ein internationaler Wettkampf umfasst meist 200 Scheiben, geschossen in {{term:round|Runden|pl}} von 25."
     },
     "competitions-types-of-events-q2": {
       "q": "Wer legt meist das Format eines Vereinsschießens fest?",
       "options": {
         "a": "Die Schützen, am Tag selbst",
-        "b": "Der Schiedsrichter am ersten Standplatz",
-        "c": "Der Veranstalter, im Programm"
+        "b": "Der {{term:referee|Schiedsrichter}} am ersten Standplatz",
+        "c": "Der {{term:organiser|Veranstalter}}, im Programm"
       },
       "explain": "Der Veranstalter legt Anzahl der Scheiben und Format eines Vereinsschießens fest, und das Programm nennt sie."
     },
     "competitions-types-of-events-q3": {
-      "q": "Warum werden bei Kontinental- und Weltmeisterschaften in {{tm:compak}} neue Wurfmaschinen verwendet?",
+      "q": "Warum werden bei Kontinental- und Weltmeisterschaften in {{tm:compak}} neue {{term:trap|Wurfmaschinen|pl}} verwendet?",
       "options": {
         "a": "Damit die Bedingungen für alle gleich sind",
         "b": "Weil alte Maschinen gesetzlich verboten sind",
         "c": "Damit die Scheiben schneller fliegen"
       },
-      "explain": "Der gastgebende Verein darf nicht die Maschinen verwenden, auf denen er normalerweise schießt: Für die Meisterschaft werden {{fact:competitions.compak-championship-machines}} aufgestellt."
+      "explain": "Der gastgebende Verein darf nicht die Maschinen verwenden, auf denen er normalerweise schießt: Für die {{term:championship|Meisterschaft}} werden {{fact:competitions.compak-championship-machines}} aufgestellt."
     },
     "competitions-types-of-events-q4": {
       "q": "Welches besondere Format von {{tm:sporting}} ist nur bei Grand-Prix-Veranstaltungen erlaubt?",
       "options": {
-        "a": "Rotten von zehn Schützen an einem Standplatz",
-        "b": "Eine Linie aus 3 Standplätzen mit je 5 Wurfmaschinen",
-        "c": "Runden von 50 Scheiben auf einem Layout"
+        "a": "{{term:squad|Rotten|pl}} von zehn Schützen an einem Standplatz",
+        "b": "Eine Linie aus 3 Standplätzen mit je 5 {{term:trap|Wurfmaschinen|pl}}",
+        "c": "{{term:round|Runden|pl}} von 50 Scheiben auf einem Layout"
       },
       "explain": "Eine Linie aus 3 Standplätzen mit je 5 Wurfmaschinen ist nur bei Grand-Prix-Veranstaltungen erlaubt."
     }

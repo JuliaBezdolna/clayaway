@@ -20,17 +20,21 @@
     "chokes-fixed-and-multichoke-q4": "14c51674",
     "chokes-fixed-and-multichoke-dyk": "51b43287"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Chokes fixos e intermutáveis",
   "summary": "Os chokes ou estão maquinados no cano para sempre ou são tubos roscados que se podem trocar. As duas opções, e quando as regras do {{tm:sporting}} e do {{tm:compak}} permitem trocá-los.",
   "body": {
-    "chokes-fixed-and-multichoke-p1": "Um {{term:fixed-choke|choke fixo}} é maquinado no cano de fábrica, e só um {{term:gunsmith|armeiro}} o pode mudar. Muitas armas antigas e clássicas são feitas assim. Uma sobreposta desse tipo tem normalmente dois estrangulamentos diferentes, por exemplo 1/4 e 1/2, e o atirador trabalha com o que tem.",
-    "chokes-fixed-and-multichoke-p2": "Os {{term:multichoke|chokes intermutáveis}} (multichoke) são tubos roscados curtos, aparafusados na boca do cano com uma {{term:choke-key|chave de chokes}}. A maioria das armas de competição modernas tem-nos. A arma vem com um jogo de vários chokes, e o atirador monta os que convêm aos pratos.",
+    "chokes-fixed-and-multichoke-p1": "Um {{term:fixed-choke|choke fixo}} é maquinado no cano de fábrica, e só um {{term:gunsmith|armeiro}} o pode mudar. Muitas armas antigas e clássicas são feitas assim. Uma {{term:over-and-under|sobreposta}} desse tipo tem normalmente dois estrangulamentos diferentes, por exemplo 1/4 e 1/2, e o atirador trabalha com o que tem.",
+    "chokes-fixed-and-multichoke-p2": "Os {{term:multichoke|chokes intermutáveis|pl}} são tubos roscados curtos, aparafusados na {{term:muzzle|boca do cano}} com uma {{term:choke-key|chave de chokes}}. A maioria das armas de competição modernas tem-nos. A arma vem com um jogo de vários chokes, e o atirador monta os que convêm aos pratos.",
     "chokes-fixed-and-multichoke-p3": "Os tubos ou ficam embutidos (ao nível da ponta do cano) ou são {{term:extended-choke|prolongados}}: saem para fora da boca, muitas vezes 1 a 5 cm. Muitos chokes prolongados podem ser rodados à mão, e a sua marcação pode ler-se sem os retirar.",
     "chokes-fixed-and-multichoke-p4": "As roscas e os tamanhos variam entre fabricantes e até entre modelos do mesmo fabricante. Um choke de outro sistema pode não encaixar, ou enroscar-se mal, o que é perigoso. Compre apenas chokes feitos para a sua arma.",
     "chokes-fixed-and-multichoke-cmp1": {
       "sporting": "Pode trocar um choke, a arma inteira ou um cano entre postos, ou entre os simples e os doubles, se isso não causar atraso. Depois de entrar no posto, não há mais trocas.",
-      "compak": "Dentro de uma ronda não pode trocar a arma, os canos ou os chokes. Só se trocam entre rondas; a exceção é uma avaria da arma. Por isso escolha chokes que sirvam para todos os pratos da ronda."
+      "compak": "Dentro de uma ronda não pode trocar a arma, os canos ou os chokes. Só se trocam entre rondas; a exceção é uma {{term:malfunction|avaria}} da arma. Por isso escolha chokes que sirvam para todos os pratos da ronda."
     }
   },
   "note": {},
@@ -61,7 +65,7 @@
         "c": "Não, só entre rondas",
         "d": "Sim, a qualquer momento da ronda"
       },
-      "explain": "No {{tm:compak}} é proibido trocar a arma, os canos ou os chokes dentro de uma ronda; a exceção é uma avaria."
+      "explain": "No {{tm:compak}} é proibido trocar a arma, os canos ou os chokes dentro de uma ronda; a exceção é uma {{term:malfunction|avaria}}."
     },
     "chokes-fixed-and-multichoke-q3": {
       "q": "Porque não deve montar um choke de outro sistema?",
@@ -74,12 +78,12 @@
       "explain": "Os sistemas de choke diferem; um choke errado pode danificar o cano."
     },
     "chokes-fixed-and-multichoke-q4": {
-      "q": "O que é um choke prolongado?",
+      "q": "O que é um {{term:extended-choke|choke prolongado}}?",
       "options": {
         "a": "Um choke mais fechado do que full",
         "b": "Um choke maquinado no cano",
-        "c": "Um choke feito só para chumbo de aço",
-        "d": "Um tubo que sai para fora da boca do cano"
+        "c": "Um choke feito só para {{term:steel-shot|chumbo de aço}}",
+        "d": "Um tubo que sai para fora da {{term:muzzle|boca do cano}}"
       },
       "explain": "Os chokes prolongados saem para fora da boca do cano, por isso a sua marcação pode ler-se sem os retirar."
     }

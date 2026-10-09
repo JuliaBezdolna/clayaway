@@ -44,7 +44,7 @@
   },
   "title": "Uma sessão de treino completa, passo a passo",
   "body": {
-    "interpreter-session-script-p1": "Antes da sessão, passe cinco minutos com o {{term:coach|treinador}}. Combine um sinal de pausa e aprenda os seus {{term:hand-signal|sinais com as mãos}}. Pergunte que método de avanço ensina (como quer que o atirador se coloque à frente do prato) e que palavras usa para o {{term:lead|avanço}}. Depois o grupo junta-se para o briefing de {{term:safety|segurança}}: interprete-o {{term:consecutive-interpreting|em consecutiva}}, frase a frase, com firmeza e por completo.",
+    "interpreter-session-script-p1": "Antes da sessão, passe cinco minutos com o {{term:coach|treinador}}. Combine um sinal de pausa e aprenda os seus {{term:hand-signal|sinais com as mãos}}. Pergunte que método de {{term:lead|avanço}} ensina (como quer que o atirador se coloque à frente do prato) e que palavras usa para o {{term:lead|avanço}}. Depois o grupo junta-se para o briefing de {{term:safety|segurança}}: interprete-o {{term:consecutive-interpreting|em consecutiva}}, frase a frase, com firmeza e por completo.",
     "interpreter-session-script-p2": "No primeiro posto, o treinador começa normalmente sem cartuchos: um teste de {{term:eye-dominance|dominância ocular}}, depois a {{term:stance|posição dos pés}} e a {{term:ready-position|posição de partida}}. No {{tm:sporting}} a arma começa em baixo, abaixo da linha do colete; no {{tm:compak}} a posição da arma no pedido é livre. Sussurre as correções dele por trás ({{term:chuchotage|chuchotage}}) enquanto ele ajusta pés e mãos.",
     "interpreter-session-script-p3": "Segue-se a leitura do prato. O treinador mostra-o, pergunta onde o atirador o vê nítido pela primeira vez, e define o {{term:pick-up-point|ponto de visão}}, o {{term:hold-point|ponto de espera}} e o {{term:break-point|ponto de tiro}}. Use as mesmas três palavras na sua língua o dia inteiro, para que o convidado as aprenda.",
     "interpreter-session-script-p4": "Agora o tiro. Entre pratos, o treinador dá indicações de duas a cinco palavras. Reproduza-as, tão curtas como o treinador as disse e pela mesma ordem, enquanto a arma está aberta. Quando o treinador nomeia a causa de uma falha, como «{{term:miss-behind|behind}}», «over the top» ou «you stopped», traduza-a juntamente com a correção. O atirador precisa das duas coisas: o que correu mal e o que mudar. Transmita o elogio com a mesma energia.",
@@ -62,7 +62,7 @@
       "say": "As armas ficam abertas até estarem no posto e eu dizer «carregar»."
     },
     "interpreter-session-script-ph3": {
-      "meaning": "Teste de dominância ocular: se o dedo saltar, o olho direito não é o olho diretor.",
+      "meaning": "Teste de dominância ocular: se o dedo saltar, o olho direito não é o {{term:master-eye|olho diretor}}.",
       "say": "Aponte para o meu nariz, com os dois olhos abertos. Agora feche o olho esquerdo."
     },
     "interpreter-session-script-ph4": {
@@ -90,7 +90,7 @@
       "say": "Digamos três pés — é essa a imagem que quer."
     },
     "interpreter-session-script-ph10": {
-      "meaning": "Falha por cima, causada pela face a sair da coronha.",
+      "meaning": "Falha por cima, causada pela face a sair da {{term:stock|coronha}}.",
       "say": "Por cima. Levantou a cabeça — fique na arma."
     },
     "interpreter-session-script-ph11": {
@@ -98,11 +98,11 @@
       "say": "Pulverizou-o! Outra vez igual."
     },
     "interpreter-session-script-ph12": {
-      "meaning": "Falha atrás porque o movimento parou ({{term:stopping-the-gun|parar a mão}}); {{term:follow-through|acompanhe}}.",
+      "meaning": "Falha atrás por {{term:stopping-the-gun|parar a mão}}: o movimento parou; é preciso {{term:follow-through|acompanhamento}}.",
       "say": "Parou a arma. Mantenha-a a mexer durante o tiro."
     },
     "interpreter-session-script-ph13": {
-      "meaning": "O coelho é lançado pelo som do tiro ao transversal.",
+      "meaning": "O {{term:rabbit|coelho}} é lançado pelo som do tiro ao {{term:crosser|transversal}}.",
       "say": "A seguir é um double ao tiro: primeiro o transversal, depois o coelho."
     },
     "interpreter-session-script-ph14": {
@@ -131,7 +131,7 @@
   },
   "quiz": {
     "interpreter-session-script-q1": {
-      "q": "Quando se interpreta o briefing de segurança, e como?",
+      "q": "Quando se interpreta o briefing de {{term:safety|segurança}}, e como?",
       "options": {
         "a": "Brevemente, em chuchotage, enquanto carregam",
         "b": "No início, em consecutiva e por completo",
@@ -141,7 +141,7 @@
       "explain": "A segurança vem primeiro e não pode ser encurtada; o modo consecutivo permite que cada regra seja bem compreendida."
     },
     "interpreter-session-script-q2": {
-      "q": "O treinador diz «Behind it. Give it more.» Qual é a interpretação correta entre pratos?",
+      "q": "O {{term:coach|treinador}} diz «Behind it. Give it more.» Qual é a interpretação correta entre pratos?",
       "options": {
         "a": "Duas partes curtas: «atrás», «mais avanço»",
         "b": "Uma frase mais longa e suave, com conselhos",
@@ -161,5 +161,5 @@
       "explain": "Usar sempre as mesmas palavras ajuda o convidado a aprender as três ideias; se as mudar, três ideias parecem seis."
     }
   },
-  "summary": "Uma sessão típica com um treinador estrangeiro, do primeiro encontro à análise final. As frases que é provável ouvir, pela ordem em que surgem, e como as transmitir."
+  "summary": "Uma sessão típica com um {{term:coach|treinador}} estrangeiro, do primeiro encontro à análise final. As frases que é provável ouvir, pela ordem em que surgem, e como as transmitir."
 }

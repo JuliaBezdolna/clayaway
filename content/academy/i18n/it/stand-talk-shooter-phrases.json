@@ -40,27 +40,31 @@
     "stand-talk-shooter-phrases-q3": "3c1980a8",
     "stand-talk-shooter-phrases-q4": "ff7a7a32"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Le frasi che servono al tiratore in pedana",
-  "summary": "Frasi brevi in inglese per l'istruttore, l'arbitro e la tua batteria: cosa dire e quando, e dove finisce una domanda cortese e comincia la pressione sull'arbitro.",
+  "summary": "Frasi brevi in inglese per il {{term:coach|istruttore}}, il {{term:referee|arbitro}} e la tua {{term:squad|batteria}}: cosa dire e quando, e dove finisce una domanda cortese e comincia la pressione sull'arbitro.",
   "body": {
-    "stand-talk-shooter-phrases-p1": "In pedana si ascolta soprattutto. Eppure alcune frasi brevi aiutano molto: per raccontare all'istruttore cosa hai visto, per comportarti correttamente con l'arbitro e per essere cortese con la tua batteria. Cosa dice l'arbitro è nella lezione {{lesson:referee-calls}}.",
+    "stand-talk-shooter-phrases-p1": "In pedana si ascolta soprattutto. Eppure alcune frasi brevi aiutano molto: per raccontare al {{term:coach|istruttore}} cosa hai visto, per comportarti correttamente con il {{term:referee|arbitro}} e per essere cortese con la tua {{term:squad|batteria}}. Cosa dice l'arbitro è nella lezione {{lesson:referee-calls}}.",
     "stand-talk-shooter-phrases-h1": "Con l'istruttore",
-    "stand-talk-shooter-phrases-p2": "Dopo un errore, l'{{term:coach|istruttore}} ha bisogno della tua immagine (quello che hai visto al momento dello sparo). Dì dove hai visto il piattello e dove pensi sia andato il colpo: «I saw it late», «I think I was behind», «I lost it in the trees». Se non sei sicuro, dillo. Anche «I don't know» è un'informazione utile.",
-    "stand-talk-shooter-phrases-p3": "Chiedi quello di cui hai bisogno. In allenamento puoi chiedere di rivedere il piattello, di andare un po' più piano, o che l'istruttore mostri la linea con le mani. Chiedilo mentre il fucile è aperto, non durante la tua routine.",
+    "stand-talk-shooter-phrases-p2": "Dopo un errore, il {{term:coach|istruttore}} ha bisogno della tua immagine (quello che hai visto al momento dello sparo). Dì dove hai visto il piattello e dove pensi sia andato il colpo: «I saw it late», «I think I was behind», «I lost it in the trees». Se non sei sicuro, dillo. Anche «I don't know» è un'informazione utile.",
+    "stand-talk-shooter-phrases-p3": "Chiedi quello di cui hai bisogno. In allenamento puoi chiedere di rivedere il piattello, di andare un po' più piano, o che l'istruttore mostri la linea con le mani. Chiedilo mentre il fucile è aperto, non durante la tua {{term:pre-shot-routine|routine pre-tiro}}.",
     "stand-talk-shooter-phrases-h2": "Con l'arbitro",
     "stand-talk-shooter-phrases-p4": "Con l'arbitro, il regolamento ti concede pochissime parole. La {{term:call|chiamata}} è un «Pull!» o «Ready!» breve e chiaro, detto sempre nello stesso modo. Il piattello deve poi arrivare {{fact:rules.release-within-3s}}; se arriva più tardi, l'arbitro dichiara un {{term:no-bird|No Bird}}.",
     "stand-talk-shooter-phrases-cmp1": {
       "sporting": "Alza subito una mano, in pedana, e dì «Protest!» o «Appeal!». Una volta che chiami il piattello successivo, il regolamento considera questo come accettazione della decisione, quindi protesta prima di richiamare.",
       "compak": "Alza subito un braccio, prima che il tiratore successivo chiami, e dì «Protest!» o «Appeal!». Poi spiega il motivo."
     },
-    "stand-talk-shooter-phrases-p5": "Dopo un {{term:protest|reclamo}}, dì brevemente il motivo: «I saw a piece come off» (un {{term:visible-piece|pezzo visibile}} rende valido un colpito) oppure «It came late». Poi accetta la risposta. Se l'arbitro è sicuro, la decisione resta valida ed è definitiva. La procedura completa, incluso l'{{term:appeal|appello}} alla giuria, è nella lezione {{lesson:competitions-results-and-protests}}.",
-    "stand-talk-shooter-phrases-p6": "Domande calme e brevi sono normali: «Was that a No Bird?» o «Can I see it again?». Nello {{tm:sporting}} il tiratore in pedana può chiedere di rivedere i piattelli (una {{term:target-presentation|presentazione}}). L'arbitro può ripetere ogni piattello del menu della pedana, il suo elenco di piattelli, {{fact:stand-talk.sporting-reshow-limit}}. Nel {{tm:compak}} sparato by squad, c'è una sola presentazione al giorno: al mattino, per la prima batteria. Dopo un'interruzione di {{fact:rules.reshow-after-interruption}}, i sei piattelli singoli vengono mostrati di nuovo. Nel {{tm:compak}} {{term:compak-in-line|in line}}, il primo tiratore può vedere i singoli prima della partenza, e l'arbitro mostra il primo piattello di un doppio prima che venga sparato. Dettagli: {{lesson:rules-viewing-targets}}.",
+    "stand-talk-shooter-phrases-p5": "Dopo un {{term:protest|reclamo}}, dì brevemente il motivo: «I saw a piece come off» — un {{term:visible-piece|pezzo visibile}} rende valido un colpito — oppure «It came late». Poi accetta la risposta. Se l'arbitro è sicuro, la decisione resta valida ed è definitiva. La procedura completa, incluso l'{{term:appeal|appello}} alla {{term:jury|giuria}}, è nella lezione {{lesson:competitions-results-and-protests}}.",
+    "stand-talk-shooter-phrases-p6": "Domande calme e brevi sono normali: «Was that a No Bird?» o «Can I see it again?». Nello {{tm:sporting}} il tiratore in pedana può chiedere di rivedere i piattelli — una {{term:target-presentation|presentazione}}. L'arbitro può ripetere ogni piattello del menu della pedana, il suo elenco di piattelli, {{fact:stand-talk.sporting-reshow-limit}}. Nel {{tm:compak}} sparato by squad, c'è una sola presentazione al giorno: al mattino, per la prima batteria. Dopo un'interruzione di {{fact:rules.reshow-after-interruption}}, i sei piattelli singoli vengono mostrati di nuovo. Nel {{tm:compak}} {{term:compak-in-line|in line}}, il primo tiratore può vedere i singoli prima della partenza, e l'arbitro mostra il primo piattello di un {{term:double|doppio}} prima che venga sparato. Dettagli: {{lesson:rules-viewing-targets}}.",
     "stand-talk-shooter-phrases-h3": "Con la batteria e il puller",
     "stand-talk-shooter-phrases-p7": "Il dialogo nella {{term:squad|batteria}} è breve e amichevole. Saluta l'arbitro e la batteria all'inizio. Dì «Well shot» dopo una buona pedana e «Bad luck» dopo un errore. Alla fine, ringrazia il {{term:trapper|puller}} e l'arbitro. Mentre qualcuno sta tirando, resta in silenzio. Altre consuetudini: {{lesson:culture-sportsmanship-referee}}.",
     "stand-talk-shooter-phrases-h4": "Dove inizia la pressione",
-    "stand-talk-shooter-phrases-p8": "Il reclamo è un tuo diritto; discutere non lo è. Contestare una decisione definitiva dopo che il tiro è ripreso, o fare apertamente una scena sulle decisioni dell'{{term:referee|arbitro}}, conta come {{term:attempt-to-influence|tentativo di influenzare}} l'arbitro. Lo stesso vale quando altri tiratori o spettatori criticano apertamente una decisione. Seguono sanzioni ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
-    "stand-talk-shooter-phrases-tip1": "Se l'inglese non è la tua lingua, concorda in anticipo con il tuo istruttore o {{term:interpreter|interprete}} le parole di cui hai più bisogno: la chiamata e «Protest!». In gara un interprete può spesso aiutarti a parlare con l'arbitro. Il regolamento non menziona gli interpreti, quindi concordalo con l'arbitro o l'organizzatore prima della serie. L'{{term:coaching|assistenza tecnica}} non è consentita ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
+    "stand-talk-shooter-phrases-p8": "Il reclamo è un tuo diritto; discutere non lo è. Contestare una decisione definitiva dopo che il tiro è ripreso, o fare apertamente una scena sulle decisioni del {{term:referee|arbitro}}, conta come {{term:attempt-to-influence|tentativo di influenzare}} l'arbitro. Lo stesso vale quando altri tiratori o spettatori criticano apertamente una decisione. Seguono sanzioni ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "stand-talk-shooter-phrases-tip1": "Se l'inglese non è la tua lingua, concorda in anticipo con il tuo istruttore o {{term:interpreter|interprete}} le parole di cui hai più bisogno: la chiamata e «Protest!». In gara un interprete può spesso aiutarti a parlare con l'arbitro. Il regolamento non menziona gli interpreti, quindi concordalo con l'arbitro o l'organizzatore prima della serie. La {{term:coaching|assistenza tecnica}} non è consentita ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
   },
   "note": {
     "stand-talk-shooter-phrases-n1": "Quando il tuo tiratore presenta un reclamo, traduci subito e parola per parola il reclamo e il motivo, poi la decisione dell'arbitro. Non aggiungere alcuna opinione tua."
@@ -83,7 +87,7 @@
       "say": "Posso rivedere quel piattello, per favore?"
     },
     "stand-talk-shooter-phrases-ph5": {
-      "meaning": "Chiedi all'istruttore di mostrare l'anticipo o la linea con un gesto; utile quando le parole sono difficili.",
+      "meaning": "Chiedi all'istruttore di mostrare il {{term:lead|anticipo}} o la linea con un gesto; utile quando le parole sono difficili.",
       "say": "Puoi mostrarmelo con le mani?"
     },
     "stand-talk-shooter-phrases-ph6": {
@@ -116,7 +120,7 @@
   },
   "quiz": {
     "stand-talk-shooter-phrases-q1": {
-      "q": "Nello {{tm:sporting}} pensi che l'arbitro abbia segnato il tuo colpito come zero. Quando devi reclamare?",
+      "q": "Nello {{tm:sporting}} pensi che il {{term:referee|arbitro}} abbia segnato il tuo colpito come zero. Quando devi reclamare?",
       "options": {
         "a": "Alla fine della serie, al tabellino",
         "b": "Subito, prima di chiamare il piattello successivo",
@@ -126,17 +130,17 @@
       "explain": "Reclama subito, in pedana, con la mano alzata. Chiamare il piattello successivo conta come accettazione dell'ultima decisione."
     },
     "stand-talk-shooter-phrases-q2": {
-      "q": "Che cosa conta come tentativo di influenzare l'arbitro?",
+      "q": "Che cosa conta come {{term:attempt-to-influence|tentativo di influenzare}} il {{term:referee|arbitro}}?",
       "options": {
         "a": "Chiedere con calma: «Was that a No Bird?»",
         "b": "Alzare la mano e dire «Protest!»",
         "c": "Dire «Well shot» a un compagno di batteria",
         "d": "Continuare a discutere dopo che il tiro è ripreso"
       },
-      "explain": "Un reclamo immediato è un tuo diritto, e le domande calme vanno bene. Contestare una decisione definitiva dopo che il tiro riprende conta come tentativo di influenzare."
+      "explain": "Un {{term:protest|reclamo}} immediato è un tuo diritto, e le domande calme vanno bene. Contestare una decisione definitiva dopo che il tiro riprende conta come tentativo di influenzare."
     },
     "stand-talk-shooter-phrases-q3": {
-      "q": "Dopo un errore in allenamento l'istruttore chiede «What did you see?». Cosa lo aiuta di più?",
+      "q": "Dopo un errore in allenamento il {{term:coach|istruttore}} chiede «What did you see?». Cosa lo aiuta di più?",
       "options": {
         "a": "La tua immagine onesta, anche se non sei sicuro",
         "b": "Un rapido «scusa, colpa mia»",
@@ -146,14 +150,14 @@
       "explain": "L'istruttore cerca la causa dell'errore, e la tua immagine è l'indizio principale. Anche «I don't know» è utile."
     },
     "stand-talk-shooter-phrases-q4": {
-      "q": "Nel {{tm:compak}}, fino a quando puoi reclamare contro la decisione di un arbitro?",
+      "q": "Nel {{tm:compak}}, fino a quando puoi reclamare contro la decisione di un {{term:referee|arbitro}}?",
       "options": {
         "a": "Fino alla fine della serie",
         "b": "Fino a quando firmi il tabellino",
         "c": "Prima che il tiratore successivo chiami",
         "d": "Fino alla mattina successiva"
       },
-      "explain": "Nel {{tm:compak}} il reclamo avviene subito, prima che il tiratore successivo chiami, con il braccio alzato e «Protest!» o «Appeal!»."
+      "explain": "Nel {{tm:compak}} il {{term:protest|reclamo}} avviene subito, prima che il tiratore successivo chiami, con il braccio alzato e «Protest!» o «Appeal!»."
     }
   }
 }

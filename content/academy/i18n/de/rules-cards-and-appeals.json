@@ -41,16 +41,16 @@
     "origin": "interpreter-academy"
   },
   "title": "Verwarnungen, Karten und Strafen",
-  "summary": "Wie Strafen in {{tm:sporting}} und {{tm:compak}} funktionieren. Zuerst eine Verwarnung mit Gelber Karte; eine Rote Karte für die Wiederholung eines Verstoßes auf dem Standplatz; Sanktionen der Jury, bis zum Ausschluss, für andere Wiederholungen und schweres Fehlverhalten.",
+  "summary": "Wie Strafen in {{tm:sporting}} und {{tm:compak}} funktionieren. Zuerst eine {{term:warning|Verwarnung}} mit {{term:yellow-card|Gelber Karte}}; eine {{term:red-card|Rote Karte}} für die Wiederholung eines Verstoßes auf dem Standplatz; Sanktionen der Jury, bis zum {{term:expulsion|Ausschluss}}, für andere Wiederholungen und schweres Fehlverhalten.",
   "body": {
-    "referee-cards-p1": "Die Strafen der FITASC steigen schrittweise. Mit der Anmeldung zu einem Wettkampf akzeptieren Sie die Regeln und die Strafen. Beim ersten Regelverstoß erhalten Sie normalerweise eine {{term:warning|Verwarnung}}, angezeigt mit einer {{term:yellow-card|Gelben Karte}}. In {{tm:sporting}} ist ein klassisches Beispiel die Flintenhaltung. Ein Schaft über der Linie auf der Weste, oder eine Flinte, die angeschlagen wird, bevor die Scheibe erscheint, bringt eine mündliche Verwarnung und eine Gelbe Karte.",
+    "referee-cards-p1": "Die Strafen der FITASC steigen schrittweise. Mit der Anmeldung zu einem Wettkampf akzeptieren Sie die Regeln und die Strafen. Beim ersten Regelverstoß erhalten Sie normalerweise eine {{term:warning|Verwarnung}}, angezeigt mit einer {{term:yellow-card|Gelben Karte}}. In {{tm:sporting}} ist ein klassisches Beispiel die {{term:gun-position|Flintenhaltung}}. Ein {{term:stock|Schaft}} über der Linie auf der Weste, oder eine Flinte, die angeschlagen wird, bevor die Scheibe erscheint, bringt eine mündliche Verwarnung und eine Gelbe Karte.",
     "rules-cards-and-appeals-cmp1": {
-      "sporting": "Wiederholen Sie nach der Verwarnung einen Verstoß auf dem Standplatz auf demselben {{term:layout|Layout}} (Flintenhaltung oder zu früher Anschlag, das Zeitlimit, Schießen auf einen erklärten No Bird), gibt es eine {{term:red-card|Rote Karte}}. Eine Einzelscheibe wird als Null gewertet; Doubletten nach der Tabelle im Regel-Leitfaden.",
+      "sporting": "Wiederholen Sie nach der Verwarnung einen Verstoß auf dem Standplatz auf demselben {{term:layout|Layout}} – Flintenhaltung oder zu früher {{term:gun-mount|Anschlag}}, das {{term:firing-time|Zeitlimit}}, Schießen auf einen erklärten No Bird –, gibt es eine {{term:red-card|Rote Karte}}. Eine Einzelscheibe wird als Null gewertet; {{term:double|Doubletten|pl}} nach der Tabelle im Regel-Leitfaden.",
       "compak": "Wiederholen Sie nach der Verwarnung einen Verstoß auf dem Standplatz auf demselben {{tm:compak}}-Layout (dem Feld, auf dem Sie schießen), gibt es eine Rote Karte. Das betrifft das Zeitlimit, das Ablehnen einer Scheibe, Schießen auf einen erklärten No Bird und die Regeln zu Funktionsstörungen. Eine Einzelscheibe wird als Null gewertet; Doubletten nach der Tabelle im Regel-Leitfaden."
     },
     "referee-cards-p2": "Dieselbe Stufenfolge gilt für das Schießen auf einen erklärten No Bird und für das Überschreiten des Zeitlimits; siehe {{lesson:rules-call-and-time}}.",
     "referee-cards-p3": "{{term:coaching|Coaching}}, also wenn Ihnen jemand während des Wettkampfs Rat oder Anweisungen gibt, wird ebenfalls bestraft. Sie erhalten eine Gelbe Karte, Wiederholungen werden von der Jury sanktioniert, und der Schiedsrichter weist die coachende Person aus dem Schießbereich.",
-    "referee-cards-p4": "Andere wiederholte Verstöße (zum Beispiel Kleidung, Startnummer, Coaching oder Verhalten) gehen an die {{term:jury|Jury}}, das Gremium der Offiziellen des Wettkampfs. Dasselbe gilt für {{term:refusal-to-comply|Weigerung, der Anweisung zu folgen}} (Entscheidungen des Schiedsrichters nicht zu befolgen) und einen {{term:attempt-to-influence|Beeinflussungsversuch}} gegenüber dem Schiedsrichter. Die Jury kann eine Scheibe als verloren werten, eine ganze Runde von {{fact:rules.round-targets}} streichen oder Sie vom Wettkampf ausschließen. Die Flinte zu werfen, Beleidigung oder Gewalt und absichtliches Schießen auf lebende Tiere können den sofortigen {{term:expulsion|Ausschluss}} bedeuten. Ein Ausschluss bleibt fünf Jahre lang bei der FITASC vermerkt und bringt keine Rückerstattung.",
+    "referee-cards-p4": "Andere wiederholte Verstöße – zum Beispiel Kleidung, Startnummer, Coaching oder {{term:conduct|Verhalten}} – gehen an die {{term:jury|Jury}}, das Gremium der Offiziellen des Wettkampfs. Dasselbe gilt für {{term:refusal-to-comply|Weigerung, der Anweisung zu folgen}} – Entscheidungen des Schiedsrichters nicht zu befolgen – und einen {{term:attempt-to-influence|Beeinflussungsversuch}} gegenüber dem Schiedsrichter. Die Jury kann eine Scheibe als verloren werten, eine ganze Runde von {{fact:rules.round-targets}} streichen oder Sie vom Wettkampf ausschließen. Die Flinte zu werfen, Beleidigung oder Gewalt und absichtliches Schießen auf lebende Tiere können den sofortigen {{term:expulsion|Ausschluss}} bedeuten. Ein Ausschluss bleibt fünf Jahre lang bei der FITASC vermerkt und bringt keine Rückerstattung.",
     "rules-cards-and-appeals-p7": "Setzen Sie nach einer endgültigen Entscheidung die Strecke fort und lassen Sie es los. Die Entscheidung nach Wiederaufnahme der Strecke weiter zu bestreiten oder sie offen zu kritisieren, gilt als Beeinflussungsversuch gegenüber dem Schiedsrichter.",
     "rules-cards-and-appeals-protest": "Sind Sie mit einer Entscheidung nicht einverstanden, legen Sie sofort auf dem Standplatz {{term:protest|Protest}} ein: Heben Sie die Hand und sagen Sie „protest“ oder „appeal“. Wie Proteste und Einsprüche bei der Jury funktionieren, steht in {{lesson:competitions-results-and-protests}}.",
     "rules-cards-and-appeals-tip1": "Eine Gelbe Karte ist nicht das Ende Ihrer Runde. Viele Trainer empfehlen einen ruhigen Atemzug, einen kurzen Blick auf die Ursache, und dann Ihre gewohnte Routine. Mehr in {{lesson:mind-reset-after-miss}}."
@@ -98,19 +98,19 @@
       "q": "Der Schiedsrichter sieht, wie ein Trainer einem Schützen während eines Wettkampfs Ratschläge gibt. Was sagen die Regeln?",
       "options": {
         "a": "Nichts, Ratschläge sind erlaubt",
-        "b": "Eine Rote Karte für den Trainer",
-        "c": "Eine Gelbe Karte für den Schützen",
+        "b": "Eine {{term:red-card|Rote Karte}} für den Trainer",
+        "c": "Eine {{term:yellow-card|Gelbe Karte}} für den Schützen",
         "d": "Die Runde wird annulliert"
       },
       "explain": "Beide Regelwerke geben dem Schützen eine Gelbe Karte, und die coachende Person muss den Schießbereich verlassen."
     },
     "referee-cards-q1": {
-      "q": "{{tm:sporting}}: Nach einer Gelben Karte für zu frühes Anschlagen schlägt der Schütze auf demselben Layout bei einer Einzelscheibe wieder zu früh an. Was folgt?",
+      "q": "{{tm:sporting}}: Nach einer {{term:yellow-card|Gelben Karte}} für zu frühes {{term:gun-mount|Anschlagen}} schlägt der Schütze auf demselben Layout bei einer Einzelscheibe wieder zu früh an. Was folgt?",
       "options": {
-        "a": "Nur eine weitere Verwarnung",
-        "b": "Eine Rote Karte und eine Null",
+        "a": "Nur eine weitere {{term:warning|Verwarnung}}",
+        "b": "Eine {{term:red-card|Rote Karte}} und eine Null",
         "c": "Ein No Bird, erneut geschossen",
-        "d": "Sofortiger Ausschluss"
+        "d": "Sofortiger {{term:expulsion|Ausschluss}}"
       },
       "explain": "Nach der ersten Verwarnung bringt eine Wiederholung auf demselben Layout eine Rote Karte; bei einer Einzelscheibe ist die Scheibe Null."
     },
@@ -143,7 +143,7 @@
       "explain": "Treffer, Fehlschuss, No Bird und Flugbahn entscheidet allein der Schiedsrichter, und diese Entscheidung ist endgültig."
     },
     "rules-cards-and-appeals-q3": {
-      "q": "Wie hoch ist die Kaution für einen Einspruch bei der Jury in {{tm:sporting}}?",
+      "q": "Wie hoch ist die Kaution für einen {{term:protest|Einspruch}} bei der Jury in {{tm:sporting}}?",
       "options": {
         "a": "10 % der Startgebühr",
         "b": "40 % der Startgebühr",

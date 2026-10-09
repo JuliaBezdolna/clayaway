@@ -36,7 +36,7 @@
     "origin": null
   },
   "body": {
-    "gear-ear-protection-p1": "{{term:hearing-protection|Ochrana sluchu}} je ve {{tm:sporting}} a {{tm:compak}} povinná pro každého na střelišti nebo poblíž: pro střelce, rozhodčí, personál i diváky. Střelec, který přijde na stanoviště bez ní, se počítá za nepřítomného a nestřílí.",
+    "gear-ear-protection-p1": "{{term:hearing-protection|Ochrana sluchu}} je ve {{tm:sporting}} a {{tm:compak}} povinná pro každého na střelišti nebo poblíž: pro střelce, {{term:referee|rozhodčí}}, personál i diváky. Střelec, který přijde na stanoviště bez ní, se počítá za nepřítomného a nestřílí.",
     "health-hearing-p1": "Výstřel z brokovnice je velmi hlučný: {{fact:gear.gunshot-peak-db}}. Pro krátké náhlé zvuky jako rána (impulsní hluk) je běžná bezpečná mez {{fact:gear.impulse-noise-limits}}. Každý výstřel bez ochrany tedy mez překračuje, a den na střelnici znamená stovky výstřelů — vašich i cizích.",
     "health-hearing-p2": "Ztráta sluchu způsobená hlukem se hromadí postupně a bezbolestně. Odumírají drobné citlivé buňky vnitřního ucha a znovu nenarostou. Obvykle to začíná u vysokých tónů: řeč, zvlášť v hlučném prostředí, se stává méně srozumitelnou, a mnozí si to nejprve nevšimnou. Při další nechráněné střelbě se ztráta rozšiřuje na další zvuky. Ztracený sluch se nedá vrátit — lze ho jen chránit.",
     "health-hearing-p3": "Zvonění nebo hučení v uších (tinitus) po střelbě je častá první výstraha: ochrana nebyla dostatečná. Zkontrolujte, jak sedí špunty a chrániče, nebo zvolte silnější. Pokud vám po střelbě zvoní v uších nebo zvuky znějí tlumeně, dejte si zkontrolovat sluch u ušního, nosního a krčního lékaře (ORL) nebo audiologa. Pokud se sluch náhle zhorší, vyhledejte neprodleně lékařskou pomoc.",
@@ -61,14 +61,14 @@
   },
   "quiz": {
     "gear-ear-protection-q1": {
-      "q": "Co dělají elektronické chrániče sluchu?",
+      "q": "Co dělají {{term:electronic-ear-muffs|elektronické chrániče sluchu}}?",
       "options": {
         "a": "Zesilují tiché zvuky a tlumí výstřel",
         "b": "Počítají, kolik ran jste vystřelili",
         "c": "Nahrazují potřebu ochranných brýlí",
         "d": "Hrají hudbu mezi položkami"
       },
-      "explain": "Slyšíte rozhodčího a povely, a sluch je přitom chráněný."
+      "explain": "Slyšíte {{term:referee|rozhodčího}} a povely, a sluch je přitom chráněný."
     },
     "gear-ear-protection-q2": {
       "q": "Proč jsou pro brokovnici lepší chrániče s tenčími mušlemi?",
@@ -101,7 +101,7 @@
       "explain": "Ztráta sluchu způsobená hlukem je trvalá, proto chraňte sluch od první rány."
     },
     "health-hearing-q2": {
-      "q": "Co je dvojitá ochrana sluchu?",
+      "q": "Co je {{term:double-hearing-protection|dvojitá ochrana sluchu}}?",
       "options": {
         "a": "Dva páry špuntů najednou",
         "b": "Chrániče nasazené přes teplou čepici",
@@ -111,7 +111,7 @@
       "explain": "Špunty pod chrániči dávají navíc rezervu ochrany."
     },
     "health-hearing-q3": {
-      "q": "Co se podle pravidel FITASC stane se střelcem, který přijde na stanoviště bez ochrany sluchu?",
+      "q": "Co se podle pravidel FITASC stane se střelcem, který přijde na stanoviště bez {{term:hearing-protection|ochrany sluchu}}?",
       "options": {
         "a": "Počítá se za nepřítomného",
         "b": "Střílí, ale s varováním",

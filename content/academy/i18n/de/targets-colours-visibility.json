@@ -29,13 +29,13 @@
   "origin": "interpreter-academy"
  },
  "title": "Farben, Licht und Sichtbarkeit",
- "summary": "Warum sich die Farbe einer Scheibe abheben muss, wie Licht und Hintergrund das Sichtbare verändern, und wann Wetter zu einem No Bird führt oder nicht.",
+ "summary": "Warum sich die Farbe einer {{term:target|Scheibe}} abheben muss, wie Licht und Hintergrund das Sichtbare verändern, und wann Wetter zu einem No Bird führt oder nicht.",
  "body": {
-  "targets-colours-visibility-p1": "Beide Regelwerke verlangen dasselbe: Die Farbe einer Scheibe muss sich klar vom Hintergrund abheben. Zweifarbige Scheiben werden nicht empfohlen. Die Farbe ist also kein Scheibentyp. Der Parcoursbauer (die Person, die die Wurfmaschinen platziert und die Flugbahnen festlegt) wählt für jede Flugbahn eine Farbe, damit Sie die Scheibe sehen können.",
-  "targets-colours-visibility-p2": "Sie werden von schwarzen, orangefarbenen, weißen, gelben und rosa Scheiben hören. Viele Parcoursbauer verwenden Schwarz vor dem Himmel und Orange vor Bäumen und Gras. Eine „blazed“-Scheibe hat eine leuchtend orange lackierte Kuppel. Vorsicht: Wenn ein Trainer „the orange one“ sagt, meint er eine Farbe, keine Größe. Eine schwarze Midi und eine orangefarbene Standardscheibe können vom selben Stand kommen.",
-  "targets-colours-visibility-p3": "Wird eine Scheibe der falschen Farbe geworfen, ruft der Schiedsrichter No Bird, und sie wird erneut geworfen. In beiden Disziplinen kann das Schießen bei einem plötzlichen starken Platzregen oder einem heftigen, vermutlich kurzen Sturm unterbrochen werden. Bei {{tm:sporting}} entscheidet das der Schiedsrichter, bei {{tm:compak}} der Oberschiedsrichter (Head Referee); könnte die Unterbrechung lange dauern, wird die Jury informiert. Die {{tm:compak}}-Regeln fügen hinzu, dass schlechtes Wetter allein kein Grund für ein No Bird ist: Ein Treffer zählt, und ein Fehlschuss bleibt ein Fehlschuss, bei jedem Wetter.",
-  "targets-colours-visibility-p4": "Licht verändert alles. Trainer sprechen von Gegenlicht (die Sonne hinter der Scheibe), flachem Licht an grauen Tagen, Schatten unter Bäumen und dem Hintergrund hinter der Scheibe: Himmel, Baumreihe oder Boden. Eine Scheibe kann vor dunklen Bäumen „verschwinden“ und vor dem Himmel „hervorspringen“. Deshalb wechseln Schützen im Laufe des Tages die Glasfarbe ihrer Schießbrille.",
-  "targets-colours-visibility-tip1": "An einem neuen Schießstand probieren viele Schützen am ersten Standplatz zwei {{term:lens-tint|Glasfarben}} aus und behalten die, die die Scheibe am klarsten zeigt. Siehe {{lesson:gear-shooting-glasses}}."
+  "targets-colours-visibility-p1": "Beide Regelwerke verlangen dasselbe: Die Farbe einer {{term:target|Scheibe}} muss sich klar vom Hintergrund abheben. Zweifarbige Scheiben werden nicht empfohlen. Die Farbe ist also kein Scheibentyp. Der {{term:course-designer|Parcoursbauer}} – die Person, die die {{term:trap|Wurfmaschinen|pl}} platziert und die Flugbahnen festlegt – wählt für jede Flugbahn eine Farbe, damit Sie die Scheibe sehen können.",
+  "targets-colours-visibility-p2": "Sie werden von schwarzen, orangefarbenen, weißen, gelben und rosa Scheiben hören. Viele Parcoursbauer verwenden Schwarz vor dem Himmel und Orange vor Bäumen und Gras. Eine „blazed“-Scheibe hat eine leuchtend orange lackierte Kuppel. Vorsicht: Wenn ein Trainer „the orange one“ sagt, meint er eine Farbe, keine Größe. Eine schwarze Midi und eine orangefarbene {{term:standard-target|Standardscheibe}} können vom selben Stand kommen.",
+  "targets-colours-visibility-p3": "Wird eine Scheibe der falschen Farbe geworfen, ruft der Schiedsrichter No Bird, und sie wird erneut geworfen. In beiden Disziplinen kann das Schießen bei einem plötzlichen starken Platzregen oder einem heftigen, vermutlich kurzen Sturm unterbrochen werden. Bei {{tm:sporting}} entscheidet das der Schiedsrichter, bei {{tm:compak}} der {{term:chief-referee|Oberschiedsrichter}}; könnte die Unterbrechung lange dauern, wird die Jury informiert. Die {{tm:compak}}-Regeln fügen hinzu, dass schlechtes Wetter allein kein Grund für ein No Bird ist: Ein Treffer zählt, und ein Fehlschuss bleibt ein Fehlschuss, bei jedem Wetter.",
+  "targets-colours-visibility-p4": "Licht verändert alles. Trainer sprechen von Gegenlicht (die Sonne hinter der Scheibe), flachem Licht an grauen Tagen, Schatten unter Bäumen und dem Hintergrund hinter der Scheibe: Himmel, Baumreihe oder Boden. Eine Scheibe kann vor dunklen Bäumen „verschwinden“ und vor dem Himmel „hervorspringen“. Deshalb wechseln Schützen im Laufe des Tages die {{term:lens-tint|Glasfarbe}} ihrer {{term:safety-glasses|Schießbrille}}.",
+  "targets-colours-visibility-tip1": "An einem neuen Schießstand probieren viele Schützen am ersten Standplatz zwei Glasfarben aus und behalten die, die die Scheibe am klarsten zeigt. Siehe {{lesson:gear-shooting-glasses}}."
  },
  "note": {
   "targets-colours-visibility-p5": "Behalten Sie beim Übersetzen Farb- und Lichtworte genau und kurz: „sie kommt aus den dunklen Bäumen heraus“, „du verlierst sie in der Sonne“. Sie erklären, warum ein Schütze verfehlt hat, und sind daher wichtig."
@@ -63,7 +63,7 @@
  },
  "quiz": {
   "targets-colours-visibility-q1": {
-   "q": "Was verlangen die Regeln von der Farbe einer Scheibe?",
+   "q": "Was verlangen die Regeln von der Farbe einer {{term:target|Scheibe}}?",
    "options": {
     "a": "Sie muss immer orange oder weiß sein",
     "b": "Sie muss sich vom Hintergrund abheben",
@@ -76,11 +76,11 @@
    "q": "Bei {{tm:compak}} beginnt es stark zu regnen, und ein Schütze verfehlt. Kann er wegen des Wetters ein No Bird verlangen?",
    "options": {
     "a": "Ja, Wetter rechtfertigt immer eins",
-    "b": "Nur für die erste Scheibe einer Dublette",
+    "b": "Nur für die erste Scheibe einer Doublette",
     "c": "Nur wenn die Jury zustimmt",
     "d": "Nein, Wetter ist kein Grund für ein No Bird"
    },
-   "explain": "Die {{tm:compak}}-Regeln sagen, dass schlechtes Wetter kein Grund für ein No Bird ist: Der Fehlschuss bleibt ein Fehlschuss. Unabhängig davon darf der Oberschiedsrichter das Schießen bei einem plötzlichen, vermutlich kurzen Sturm unterbrechen."
+   "explain": "Die {{tm:compak}}-Regeln sagen, dass schlechtes Wetter kein Grund für ein No Bird ist: Der Fehlschuss bleibt ein Fehlschuss. Unabhängig davon darf der {{term:chief-referee|Oberschiedsrichter}} das Schießen bei einem plötzlichen, vermutlich kurzen Sturm unterbrechen."
   },
   "targets-colours-visibility-q3": {
    "q": "Ein Trainer sagt „Watch the orange one.“ Was beschreibt er?",

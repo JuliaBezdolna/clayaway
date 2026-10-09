@@ -36,15 +36,15 @@
   "title": "A töltény felépítése",
   "summary": "Hüvely, csappantyú, lőpor, fojtás, sörét és peremezés: mi van egy koronglövő töltényben, hogyan hat minden rész a lövésre, és milyen töltényeket tiltanak a {{tm:sporting}} és a {{tm:compak}} szabályai.",
   "body": {
-    "gear-cartridges-p1": "Egy {{term:cartridge|töltény}} mindent tartalmaz egy lövéshez: a {{term:hull|hüvelyt}} (hull) a fém fenékkel, a {{term:primer|csappantyút}} (primer), a {{term:powder|lőport}} (powder), a {{term:wad|fojtást}} (wad) és a sörétet. A lövészek „shell”-nek is hívják. Az {{term:empties|„empties”}} a kilőtt hüvelyeket jelenti.",
-    "cartridges-anatomy-p2": "A hüvely (hull, case) egy cső, leggyakrabban műanyag, fém fenékkel alul. Papírhüvelyek is léteznek, és néhány lőtér ezeket részesíti előnyben, mert kevesebb szemetet hagynak. Egy kilőtt hüvely rendszerint 65–70 mm hosszú, és illenie kell a fegyvered {{term:chamber|tölténykamrájához}} (lásd: {{lesson:gun-gauge-and-barrels}}).",
+    "gear-cartridges-p1": "Egy {{term:cartridge|töltény}} mindent tartalmaz egy lövéshez: a {{term:hull|hüvelyt}} a fém fenékkel, a {{term:primer|csappantyút}}, a {{term:powder|lőport}}, a {{term:wad|fojtást}} és a sörétet. A lövészek „shell”-nek is hívják. Az {{term:empties|„empties”}} a kilőtt hüvelyeket jelenti.",
+    "cartridges-anatomy-p2": "A {{term:hull|hüvely}} (angolul case is) egy cső, leggyakrabban műanyag, fém fenékkel alul. Papírhüvelyek is léteznek, és néhány lőtér ezeket részesíti előnyben, mert kevesebb szemetet hagynak. Egy kilőtt hüvely rendszerint 65–70 mm hosszú, és illenie kell a fegyvered {{term:chamber|tölténykamrájához}} – lásd: {{lesson:gun-gauge-and-barrels}}.",
     "cartridges-anatomy-p3": "A fenék közepén ül a csappantyú. Amikor az ütőszeg ráüt, a csappantyú szikrát ad, és meggyújtja a lőport. A lőpor nem robban, hanem nagyon gyorsan ég el, és a gázok előretolják a sörétterhet a csövön.",
-    "cartridges-anatomy-p4": "A lőpor és a sörét között ül a fojtás. Dugóként működik: megakadályozza, hogy a forró gáz elfújja a szemek mellett, párnázza a lökést, és összetartja a szemeket, miközben a csövön haladnak. Egy műanyag fojtásnak rendszerint van egy „csészéje”, amely védi a szemeket, és gyakran kicsit szűkebb sörétképet ad.",
-    "cartridges-anatomy-p8": "Egy {{term:fibre-wad|rostfojtás vagy filcfojtás}} (fibre wad) lebomlik a természetben, ezért sok lőtér ezt kéri. Léteznek lebomló műanyag fojtások is, de néhány lőtér nem fogadja el őket.",
-    "cartridges-anatomy-p5": "A fojtás fölött van a sörét: több száz apró szem. A hüvely tetejét a {{term:crimp|peremezés}} (crimp) zárja le, leggyakrabban egy 6 vagy 8 hajtású csillag. Egy jó peremezés szilárdan a helyén tart mindent, és segít, hogy minden töltény ugyanúgy süljön el, mint az előző.",
-    "cartridges-anatomy-p6": "A {{tm:sporting}} és a {{tm:compak}} FITASC szabályai tiltják az újratöltött töltényeket, azaz a kilőtt, majd újra megtöltött hüvelyeket, például otthon. Tiltják a szórókat (olyan betéteket, amelyek szándékosan szélesebbre szórják a sörétet) és bármilyen más különleges eszközt a töltény belsejében is. Tilos a vegyes méretű vagy minőségű sörét, a fekete lőpor és a nyomjelzők (olyan töltények, amelyek izzó nyomot hagynak) is. Tehát versenyre hozz gyári, a szabályoknak megfelelő töltényeket.",
-    "cartridges-anatomy-p7": "A dobozon rendszerint fel van tüntetve a kaliber, a hüvelyhossz, a töltetsúly, a sörétszám vagy -átmérő, a sörét anyaga és a fojtás típusa, és gyakran a sebesség is. Tanuld meg kiolvasni a dobozt, és tudni fogod, mit töltesz.",
-    "gear-cartridges-p5": "Néhány lőtér saját környezetvédelmi szabályokat ad hozzá edzéshez, például csak rostfojtás vagy csak acélsörét: nézd meg a lőtér szabályait egy út előtt. Az üres hüvelyek a lőálláson lévő kukába kerülnek, és a félautomatával lövők felszedik a kilökött hüvelyeiket, amikor elmennek.",
+    "cartridges-anatomy-p4": "A lőpor és a sörét között ül a fojtás. Dugóként működik: megakadályozza, hogy a forró gáz elfújja a szemek mellett, párnázza a lökést, és összetartja a szemeket, miközben a csövön haladnak. Egy műanyag fojtásnak rendszerint van egy „csészéje”, amely védi a szemeket, és gyakran kicsit szűkebb {{term:pattern|sörétképet}} ad.",
+    "cartridges-anatomy-p8": "Egy {{term:fibre-wad|rostfojtás vagy filcfojtás}} lebomlik a természetben, ezért sok lőtér ezt kéri. Léteznek lebomló műanyag fojtások is, de néhány lőtér nem fogadja el őket.",
+    "cartridges-anatomy-p5": "A fojtás fölött van a sörét: több száz apró szem. A hüvely tetejét a {{term:crimp|peremezés}} zárja le, leggyakrabban egy 6 vagy 8 hajtású csillag. Egy jó peremezés szilárdan a helyén tart mindent, és segít, hogy minden töltény ugyanúgy süljön el, mint az előző.",
+    "cartridges-anatomy-p6": "A {{tm:sporting}} és a {{tm:compak}} FITASC szabályai tiltják a {{term:reloaded-cartridge|újratöltött töltényeket}}, azaz a kilőtt, majd újra megtöltött hüvelyeket, például otthon. Tiltják a szórókat (olyan betéteket, amelyek szándékosan szélesebbre szórják a sörétet) és bármilyen más különleges eszközt a töltény belsejében is. Tilos a vegyes méretű vagy minőségű sörét, a fekete lőpor és a nyomjelzők (olyan töltények, amelyek izzó nyomot hagynak) is. Tehát versenyre hozz gyári, a szabályoknak megfelelő töltényeket.",
+    "cartridges-anatomy-p7": "A dobozon rendszerint fel van tüntetve a {{term:gauge|kaliber}}, a hüvelyhossz, a {{term:load-weight|töltetsúly}}, a {{term:shot-size|sörétszám}} vagy a sörétátmérő, a sörét anyaga és a fojtás típusa, és gyakran a sebesség is. Tanuld meg kiolvasni a dobozt, és tudni fogod, mit töltesz.",
+    "gear-cartridges-p5": "Néhány lőtér saját környezetvédelmi szabályokat ad hozzá edzéshez, például csak rostfojtás vagy csak {{term:steel-shot|acélsörét}}: nézd meg a lőtér szabályait egy út előtt. Az üres hüvelyek a lőálláson lévő kukába kerülnek, és a {{term:semi-automatic|félautomatával}} lövők felszedik a kilökött hüvelyeiket, amikor elmennek.",
     "cartridges-anatomy-p9": "A dobozon lévő három számnak saját órája van: a kaliber ({{lesson:gun-gauge-and-barrels}}), a sörétszám ({{lesson:cartridges-shot-size}}) és a töltetsúly ({{lesson:cartridges-load-weight}})."
   },
   "note": {},
@@ -54,7 +54,7 @@
       "say": "Az üres hüvelyeket a gyűjtőbe, kérlek, ne a fűre."
     },
     "gear-cartridges-ph4": {
-      "meaning": "Ezen a lőtéren ólomsörét nem megengedett (helyi szabály, nem FITASC-szabály).",
+      "meaning": "Ezen a lőtéren {{term:lead-shot|ólomsörét}} nem megengedett (helyi szabály, nem FITASC-szabály).",
       "say": "Ezen a lőtéren csak acélsörét."
     }
   },
@@ -98,7 +98,7 @@
       "explain": "Az újratöltött töltények, a szórók, a vegyes sörét, a fekete lőpor és a nyomjelzők tilosak."
     },
     "cartridges-anatomy-q4": {
-      "q": "Mi a töltény peremezése (crimp)?",
+      "q": "Mi a töltény {{term:crimp|peremezése}}?",
       "options": {
         "a": "Az összehajtott tető, amely zárja a hüvelyt",
         "b": "A fém fenék a csappantyúval",

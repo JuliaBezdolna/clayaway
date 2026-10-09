@@ -33,8 +33,8 @@
   "summary": "Strzelanie do rzutków jest otwarte dla każdego wieku: juniorzy, kobiety, weterani i całe rodziny strzelają razem. Wyjaśniamy, jak działają kategorie i jak znaleźć towarzystwo w klubie.",
   "body": {
     "intro-who-shoots-p1": "Strzelanie do rzutków jest jednym z niewielu sportów, w którym nastolatek, jedno z rodziców i babcia czy dziadek mogą strzelać obok siebie na tym samym polu. Celność, uwaga i samokontrola liczą się tu bardziej niż siła czy wzrost.",
-    "intro-who-shoots-p2": "Aby zawody były sprawiedliwe, wyniki liczy się też w {{term:category|kategoriach}}. Oprócz {{term:open-ranking|klasyfikacji open}} dla wszystkich, są kategorie wiekowe i według płci. Na międzynarodowych zawodach FITASC od 1 stycznia 2027 roku to: {{fact:basics.fitasc-categories-2027}}. Zawody krajowe i klubowe mogą mieć własne kategorie, więc sprawdź program przed zgłoszeniem. Więcej o kategoriach i {{term:shoot-off|dogrywkach}} (dodatkowych rzutkach, które rozstrzygają remis): {{lesson:competitions-categories-and-shoot-offs}}.",
-    "intro-who-shoots-p3": "Dzieci zaczynają wyłącznie pod nadzorem dorosłych i {{term:coach|trenera}}. Minimalny wiek i przepisy dla niepełnoletnich zależą od prawa kraju i przepisów strzelnicy. Młodzi strzelcy często dostają lżejszą broń z węższą lufą (20 {{term:gauge|kalibru}} zamiast zwykłego 12). Strzela się z niej lekkimi nabojami: to właśnie lekki nabój łagodzi {{term:recoil|odrzut}} (poczucie uderzenia w ramię), bo przy tym samym naboju lżejsza broń kopie mocniej. Więcej: {{lesson:juniors-starting-age}}.",
+    "intro-who-shoots-p2": "Aby zawody były sprawiedliwe, wyniki liczy się też w kategoriach. Oprócz {{term:open-ranking|klasyfikacji open}} dla wszystkich, są kategorie wiekowe i według płci. Na międzynarodowych zawodach FITASC od 1 stycznia 2027 roku to: {{fact:basics.fitasc-categories-2027}}. Zawody krajowe i klubowe mogą mieć własne kategorie, więc sprawdź program przed zgłoszeniem. Więcej o kategoriach i {{term:shoot-off|dogrywkach}}, czyli dodatkowych rzutkach, które rozstrzygają remis: {{lesson:competitions-categories-and-shoot-offs}}.",
+    "intro-who-shoots-p3": "Dzieci zaczynają wyłącznie pod nadzorem dorosłych i {{term:coach|trenera}}. Minimalny wiek i przepisy dla niepełnoletnich zależą od prawa kraju i przepisów strzelnicy. Młodzi strzelcy często dostają lżejszą broń z węższą lufą: {{term:gauge|kaliber}} 20 zamiast zwykłego 12. Strzela się z niej lekkimi nabojami: to właśnie lekki nabój łagodzi {{term:recoil|odrzut}}, czyli uderzenie w ramię, bo przy tym samym naboju lżejsza broń kopie mocniej. Więcej: {{lesson:juniors-starting-age}}.",
     "intro-who-shoots-p4": "Na zawodach strzela się w {{term:squad|grupach}}: niewielkich zespołach ustalanych przez losowanie. W {{tm:sporting}}, a także w {{tm:compak}}, gdy strzela się go w formacie by squad, w grupie jest {{fact:rules.squad-max-shooters}}. Możesz trafić obok mistrza, co jest dobrą okazją, by uczyć się, po prostu obserwując.",
     "intro-who-shoots-p5": "Wiele osób strzela dla odpoczynku i towarzystwa i wcale nie startuje w zawodach. Strzelnica to też miejsce, gdzie można poznać ludzi, wymienić się doświadczeniem i spędzić weekend z rodziną.",
     "women-clothing-community-start-p4": "Wiele klubów organizuje dni kobiet (ladies' days) i kobiece grupy treningowe. Można tam spróbować strzelania w spokojnej atmosferze, pożyczyć broń i porozmawiać z doświadczonymi strzelczyniami. W niektórych klubach są też trenerki. Zapytaj w swoim klubie.",
@@ -43,7 +43,7 @@
       "Zarezerwuj zajęcia próbne z trenerem na strzelnicy.",
       "Strzelaj z broni strzelnicy, lekkimi nabojami.",
       "Zabierz {{term:safety-glasses|okulary strzeleckie}} i {{term:hearing-protection|ochronniki słuchu}} albo pożycz je na strzelnicy.",
-      "Po kilku zajęciach zrób {{term:gun-fit|dopasowanie strzelby}} (kolbę dopasowuje się do twojej budowy); tylko potem myśl o własnej broni.",
+      "Po kilku zajęciach zrób {{term:gun-fit|dopasowanie strzelby}}, czyli dopasowanie kolby do twojej budowy; dopiero potem myśl o własnej broni.",
       "Zapytaj na strzelnicy, jakie przepisy dotyczące broni i naboi obowiązują w twoim kraju."
     ]
   },
@@ -68,7 +68,7 @@
       "explain": "Na zawodach międzynarodowych obowiązuje tabela kategorii FITASC (nowa — od 1 stycznia 2027 roku); zawody krajowe i klubowe mogą mieć własne, a program je podaje."
     },
     "intro-who-shoots-q2": {
-      "q": "Ile co najwyżej osób liczy jedna grupa (squad)?",
+      "q": "Ile co najwyżej osób liczy jedna {{term:squad|grupa}}?",
       "options": {
         "a": "Trzy",
         "b": "Dziesięć",
@@ -83,7 +83,7 @@
         "b": "Strzelają tylko pod nadzorem",
         "c": "Nigdzie nie mogą strzelać"
       },
-      "explain": "Dzieci strzelają tylko z dorosłymi i trenerem, a minimalny wiek określają prawo i przepisy strzelnicy."
+      "explain": "Dzieci strzelają tylko z dorosłymi i {{term:coach|trenerem}}, a minimalny wiek określają prawo i przepisy strzelnicy."
     },
     "women-clothing-community-start-q3": {
       "q": "Co radzi ta lekcja przed kupnem własnej broni?",
@@ -92,7 +92,7 @@
         "b": "Kupić używaną broń znajomych",
         "c": "Postrzelać kilka razy, potem zrobić dopasowanie"
       },
-      "explain": "Najpierw doświadczenie i dopasowanie strzelby, potem zakup."
+      "explain": "Najpierw doświadczenie i {{term:gun-fit|dopasowanie strzelby}}, potem zakup."
     }
   }
 }

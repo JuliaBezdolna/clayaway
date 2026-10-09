@@ -37,9 +37,9 @@
   "summary": "Co znamenají „za terčem“, „před terčem“, „nad“, „pod“ a „škrtnutý“, co obvykle způsobuje každou z těchto chyb a jak se škrtnutý terč počítá.",
   "body": {
     "faults-behind-in-front-p1": "Každá chyba má směr. Trenér, který stojí za střelcem, obvykle nejdřív řekne, kam šla rána vzhledem k terči, a teprve potom proč.",
-    "faults-behind-in-front-p2": "Behind („za terčem“) znamená, že rána prošla za letícím terčem: chybělo předsazení, nebo zbraň zpomalila. Je to velmi častá chyba na přeletových terčích. In front („před terčem“) je opak: příliš velké předsazení, často po přehnané opravě. Mnozí trenéři mají chybu před terčem rádi: ukazuje, že zbraň zůstala v pohybu.",
-    "faults-behind-in-front-p3": "Over (také „high“, „over the top“ – nad terčem) a under („low“ – pod terčem) popisují svislou chybu. Nad terčem je časté u padajících terčů, zajíců a příletových terčů a často souvisí se zvednutím hlavy z pažby. Pod terčem je typické u stoupajících terčů, které v okamžiku výstřelu ještě stoupají.",
-    "faults-behind-in-front-p4": "Chipped („škrtnutý“) znamená, že se odlomil jen malý kousek. Pro trenéra je to napůl pochvala, napůl oprava: terč zachytil okraj {{term:pattern|obrazce zásahu}}, mraku broků. Pro rozhodčího je to zásah, pokud je úlomek vidět. Tady je jeden detail pravidel, na který pozor: terč, který se rozbije – i kdyby se celý nebo zčásti proměnil v prach –, je zásah v obou disciplínách. Terč, který letí dál vcelku a vypustí jen obláček prachu nebo dýmu, bez jakéhokoli viditelného úlomku, je chyba (zero). V tréninkovém slangu „smoked it“ znamená dokonalý, středový zásah, při kterém se terč rozpadne na prach, a „dusted it“ se používá v obou významech, takže když si nejste jistí, zeptejte se.",
+    "faults-behind-in-front-p2": "Behind („za terčem“) znamená, že rána prošla za letícím terčem: chybělo {{term:lead|předsazení}}, nebo zbraň zpomalila. Je to velmi častá chyba na přeletových terčích. In front („před terčem“) je opak: příliš velké předsazení, často po přehnané opravě. Mnozí trenéři mají chybu před terčem rádi: ukazuje, že zbraň zůstala v pohybu.",
+    "faults-behind-in-front-p3": "Over (také „high“, „over the top“ – nad terčem) a under („low“ – pod terčem) popisují svislou chybu. Nad terčem je časté u {{term:dropping-target|padajících terčů}}, zajíců a {{term:incomer|příletových terčů}} a často souvisí se zvednutím hlavy ze {{term:stock|pažby}}. Pod terčem je typické u {{term:springing-target|stoupajících terčů}}, které v okamžiku výstřelu ještě stoupají.",
+    "faults-behind-in-front-p4": "Chipped („škrtnutý“) znamená, že se odlomil jen malý kousek. Pro trenéra je to napůl pochvala, napůl oprava: terč zachytil okraj {{term:pattern|obrazce zásahu}}, mraku broků. Pro rozhodčího je to zásah, pokud je úlomek vidět. Tady je jeden detail pravidel, na který pozor: terč, který se rozbije – i kdyby se celý nebo zčásti proměnil v prach –, je zásah v obou disciplínách. Terč, který letí dál vcelku a vypustí jen obláček prachu nebo dýmu, bez jakéhokoli viditelného úlomku, je {{term:zero|chyba}}. V tréninkovém slangu „smoked it“ znamená dokonalý, středový zásah, při kterém se terč rozpadne na prach, a „dusted it“ se používá v obou významech, takže když si nejste jistí, zeptejte se.",
     "technique-follow-through-and-mistakes-p5": "Mnohé z těchto chyb jsou zvenčí dobře vidět. Trenér, který stojí za vámi, vidí, kam šla rána a co dělaly vaše hlava, ruce i nohy. Sami si ale můžete opravit tu nesprávnou věc: chybu za terčem ze zastavené zbraně větší předsazení nevyléčí."
   },
   "note": {
@@ -75,7 +75,7 @@
   "key_points": {
     "faults-behind-in-front-kp1": "Trenér nejdřív pojmenuje směr: za terčem, před terčem, nad, pod.",
     "faults-behind-in-front-kp2": "Za terčem = málo předsazení nebo zpomalující zbraň; před terčem = příliš předsazení.",
-    "faults-behind-in-front-kp3": "Viditelný úlomek, nebo terč rozbitý na prach, je zásah; celý terč, který vypustí jen prach nebo dým, je chyba (zero).",
+    "faults-behind-in-front-kp3": "{{term:visible-piece|Viditelný úlomek}}, nebo terč rozbitý na prach, je zásah; celý terč, který vypustí jen prach nebo dým, je {{term:zero|chyba}}.",
     "faults-behind-in-front-kp4": "„Smoked it“ je pochvala trenéra, ne „dým“ z pravidel: nezaměňujte je.",
     "faults-behind-in-front-kp5": "Opravujte příčinu, ne jen směr: víc předsazení nevyléčí zastavenou zbraň."
   },
@@ -92,11 +92,11 @@
       "explain": "Přidané předsazení nevyléčí zastavenou zbraň; opravit je třeba příčinu."
     },
     "faults-behind-in-front-q2": {
-      "q": "Od terče se odlomí malý, ale jasně viditelný kousek. Trenér řekne „just chipped it“. Jak to ohodnotí rozhodčí?",
+      "q": "Od terče se odlomí malý, ale jasně {{term:visible-piece|viditelný kousek}}. Trenér řekne „just chipped it“. Jak to ohodnotí rozhodčí?",
       "options": {
         "a": "Chyba, protože většina terče letěla dál",
         "b": "No Bird",
-        "c": "One (zásah)",
+        "c": "One",
         "d": "Zásah, jen pokud souhlasí trenér"
       },
       "explain": "Alespoň jeden viditelný úlomek znamená zásah v {{tm:sporting}} i {{tm:compak}}; rozhoduje jen rozhodčí."

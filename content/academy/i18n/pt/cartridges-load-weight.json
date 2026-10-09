@@ -28,15 +28,15 @@
     "origin": null
   },
   "title": "Carga de chumbo",
-  "summary": "O que é a carga, em que diferem os cartuchos de 24 g e 28 g, que limite estabelecem as regras do {{tm:sporting}} e do {{tm:compak}}, e como se verificam os cartuchos.",
+  "summary": "O que é a {{term:load-weight|carga}}, em que diferem os {{term:cartridge|cartuchos}} de 24 g e 28 g, que limite estabelecem as regras do {{tm:sporting}} e do {{tm:compak}}, e como se verificam os cartuchos.",
   "body": {
-    "cartridges-load-weight-p1": "A {{term:load-weight|carga}} é o peso do chumbo num cartucho, em gramas. A caixa mostra-a em números grandes, por exemplo «24 g» ou «28 g». Nos EUA e no Reino Unido às vezes dá-se em onças: 1 onça é cerca de 28 g.",
-    "gear-cartridges-p4": "As regras do {{tm:sporting}} e do {{tm:compak}} estabelecem os mesmos limites. A carga é {{fact:gear.fitasc-shot-load}}, portanto até cerca de 28,6 g, seja qual for o calibre. O chumbo tem de ser {{fact:gear.fitasc-shot-diameter}}. Os cartuchos recarregados, os dispersores, a mistura de números de chumbo, a pólvora negra e os traçadores são proibidos.",
+    "cartridges-load-weight-p1": "A {{term:load-weight|carga}} é o peso do chumbo num {{term:cartridge|cartucho}}, em gramas. A caixa mostra-a em números grandes, por exemplo «24 g» ou «28 g». Nos EUA e no Reino Unido às vezes dá-se em onças: 1 onça é cerca de 28 g.",
+    "gear-cartridges-p4": "As regras do {{tm:sporting}} e do {{tm:compak}} estabelecem os mesmos limites. A carga é {{fact:gear.fitasc-shot-load}}, portanto até cerca de 28,6 g, seja qual for o {{term:gauge|calibre}}. O chumbo tem de ser {{fact:gear.fitasc-shot-diameter}}. Os {{term:reloaded-cartridge|cartuchos recarregados}}, os dispersores, a mistura de números de chumbo, a {{term:powder|pólvora}} negra e os traçadores são proibidos.",
     "cartridges-load-weight-cmp1": {
       "sporting": "Antes de começar num posto, o {{term:referee|árbitro}} pode pedir-lhe dois cartuchos para verificar: um do bolso direito do colete e um do esquerdo.",
       "compak": "Se uma verificação mostrar que os seus cartuchos não cumprem as regras, todos os tiros que disparou com eles antes dessa verificação contam como {{term:zero|ZERO}}, isto é, como falha. O júri pode manter os resultados se o atirador não pudesse saber e não tiver obtido qualquer vantagem, desde que a falha seja corrigida logo que detetada."
     },
-    "cartridges-load-weight-p3": "Muitos atiradores de {{tm:sporting}} usam 28 g em competição: mais grãos dão uma chumbada mais densa, especialmente em pratos distantes. A desvantagem é um {{term:recoil|recuo}} mais forte, e ao longo de um dia de 100 a 200 pratos sente-se.",
+    "cartridges-load-weight-p3": "Muitos atiradores de {{tm:sporting}} usam 28 g em competição: mais grãos dão uma {{term:pattern|chumbada}} mais densa, especialmente em pratos distantes. A desvantagem é um {{term:recoil|recuo}} mais forte, e ao longo de um dia de 100 a 200 pratos sente-se.",
     "cartridges-load-weight-p4": "Os cartuchos de 24 g são mais leves, empurram menos e costumam ser um pouco mais baratos. Para treino e para pratos próximos e médios costumam bastar e cansam menos; em pratos distantes, os 28 g dão uma chumbada mais densa. Existem até cargas ainda mais leves, de 21 g, sobretudo para calibre 20 ou para o ensino.",
     "cartridges-load-weight-p6": "Muitos treinadores sugerem que os principiantes comecem com 24 g. Menos recuo significa menos fadiga e menos risco de aprender a ter um {{term:flinch|tique}} antes do tiro. Pode passar a 28 g mais tarde, quando a sua técnica estiver consistente."
   },
@@ -51,12 +51,12 @@
     "cartridges-load-weight-kp1": "A carga é o peso do chumbo em gramas; 1 onça é cerca de 28 g.",
     "gear-cartridges-kp4": "Limites: 28 g de chumbo (+2%), grãos de 2,0–2,5 mm; sem recargas, mistura de chumbo, pólvora negra ou traçadores.",
     "cartridges-load-weight-kp3": "28 g dá uma chumbada mais densa em pratos distantes; 24 g é mais suave para treino e principiantes.",
-    "cartridges-load-weight-kp4": "{{tm:sporting}}: o árbitro pode verificar dois cartuchos; {{tm:compak}}: os tiros com cartuchos não conformes contam como zero."
+    "cartridges-load-weight-kp4": "{{tm:sporting}}: o {{term:referee|árbitro}} pode verificar dois cartuchos; {{tm:compak}}: os tiros com cartuchos não conformes contam como zero."
   },
   "did_you_know": "1 onça são 28,35 g, por isso o clássico cartucho britânico «1 oz» corresponde quase exatamente ao limite de 28 g da FITASC.",
   "quiz": {
     "gear-cartridges-q2": {
-      "q": "Qual é a carga máxima de chumbo segundo as regras da FITASC?",
+      "q": "Qual é a {{term:load-weight|carga}} máxima de chumbo segundo as regras da FITASC?",
       "options": {
         "a": "24 g, sem tolerância",
         "b": "28 g, com uma tolerância de +2%",
@@ -66,17 +66,17 @@
       "explain": "As duas disciplinas permitem no máximo 28 g de chumbo, +2%."
     },
     "cartridges-load-weight-q2": {
-      "q": "Porque sugerem muitos treinadores cartuchos de 24 g para principiantes?",
+      "q": "Porque sugerem muitos treinadores {{term:cartridge|cartuchos}} de 24 g para principiantes?",
       "options": {
         "a": "Empurram menos e cansam menos",
         "b": "Só eles são permitidos para principiantes",
         "c": "Dão a chumbada mais densa",
         "d": "Voam mais longe do que cargas mais pesadas"
       },
-      "explain": "Menos recuo ajuda a manter uma boa técnica e a evitar um tique."
+      "explain": "Menos {{term:recoil|recuo}} ajuda a manter uma boa técnica e a evitar um tique."
     },
     "cartridges-load-weight-q3": {
-      "q": "Quantos cartuchos pode o árbitro levar para verificação no {{tm:sporting}}?",
+      "q": "Quantos {{term:cartridge|cartuchos}} pode o {{term:referee|árbitro}} levar para verificação no {{tm:sporting}}?",
       "options": {
         "a": "Nenhum: as verificações não são permitidas",
         "b": "Um, de qualquer bolso do colete",
@@ -86,7 +86,7 @@
       "explain": "O árbitro pode levar dois cartuchos, um de cada bolso do colete."
     },
     "cartridges-load-weight-q1": {
-      "q": "No {{tm:compak}} uma verificação mostra que os cartuchos de um atirador não cumprem as regras. Como são pontuados os tiros disparados com eles antes da verificação?",
+      "q": "No {{tm:compak}} uma verificação mostra que os {{term:cartridge|cartuchos}} de um atirador não cumprem as regras. Como são pontuados os tiros disparados com eles antes da verificação?",
       "options": {
         "a": "Repetem-se mais tarde",
         "b": "Contam como No Bird",

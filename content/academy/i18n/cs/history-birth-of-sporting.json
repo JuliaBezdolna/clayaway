@@ -30,11 +30,11 @@
   "summary": "{{tm:sporting}} vznikl z přání lovců trénovat na terčích, které létají jako zvěř. FITASC z něj v 60. letech 20. století udělala mezinárodní disciplínu.",
   "body": {
     "history-birth-of-sporting-p1": "Úřední název disciplíny je {{tm:sporting}}. Parcours de Chasse francouzsky znamená „lovecká trasa“. Terče se pohybují tak, jak létá nebo běhá skutečná zvěř (ptáci a zvířata, na která se loví): na střelce, od něj, napříč, vysoko nebo nízko, někdy mezi stromy. Lovci tak mohli trénovat, aniž by stříleli na živé zvíře.",
-    "history-birth-of-sporting-p2": "Lovci takto trénovali na přirozeném terénu dávno před jakýmikoli úředními pravidly, zejména ve Velké Británii. Tam se tomuto formátu říká {{term:english-sporting|English Sporting}} a dnes má svá vlastní pravidla. Každý klub si trasu i střeliště stavěl po svém, takže výsledky z různých akcí se těžko srovnávaly.",
+    "history-birth-of-sporting-p2": "Lovci takto trénovali na přirozeném terénu dávno před jakýmikoli úředními pravidly, zejména ve Velké Británii. Tam se tomuto formátu říká {{term:english-sporting|English Sporting}} a dnes má svá vlastní pravidla. Každý klub si trasu i {{term:layout|střeliště}} stavěl po svém, takže výsledky z různých akcí se těžko srovnávaly.",
     "history-birth-of-sporting-p3": "{{term:fitasc|FITASC}} proměnila tuto myšlenku v mezinárodní disciplínu se společnými pravidly. Dokumenty samotné FITASC uvádějí dva různé roky. Současný regulérní řád (vydání 2025) říká {{fact:community.sporting-rules-dates}}, a stránka historie FITASC uvádí rok 1967. Čestná odpověď je tedy: disciplínou FITASC se stala někdy v 60. letech 20. století.",
     "history-birth-of-sporting-p4": "Poté disciplína rychle rostla. FITASC pořádá {{fact:community.sporting-championships}}. V USA je podobný formát známý jako sporting clays; řídí ho {{term:nsca|NSCA}} podle vlastních pravidel.",
-    "history-birth-of-sporting-p5": "Dnešní regulérní řád to stále říká jasně: disciplína kopíruje loveckou situaci. Střílí se z lovecké zbraně na terče vypouštěné nad skutečným terénem. Trasa se skládá z několika {{term:layout|střelišť}} a na každém se střílí {{fact:targets.sporting-layout-targets}} (dvojstřel jsou dva terče, tedy dalších 10). Mezinárodní soutěž má {{fact:basics.international-targets}}.",
-    "history-birth-of-sporting-p6": "Lovecké kořeny jsou vidět i v detailech. Ve {{term:ready-position|výchozí poloze}} se {{term:stock|pažba}} (zadní část zbraně, která se opírá o rameno) dotýká těla. Ale její horní část zůstává pod čárou vyznačenou na vestě, {{fact:rules.sporting-jacket-line}}. Vypadá to jako zbraň lovce, který čeká na ptáka. {{term:gun-mount|Zalícení}} (pohyb zbraně k ramenu) dělá střelec až poté, co byl terč vypuštěn a je vidět."
+    "history-birth-of-sporting-p5": "Dnešní regulérní řád to stále říká jasně: disciplína kopíruje loveckou situaci. Střílí se z lovecké zbraně na terče vypouštěné nad skutečným terénem. Trasa se skládá z několika {{term:layout|střelišť}} a na každém se střílí {{fact:targets.sporting-layout-targets}}; každý {{term:double|dvojstřel}} tvoří dva terče, tedy dalších 10. Mezinárodní soutěž má {{fact:basics.international-targets}}.",
+    "history-birth-of-sporting-p6": "Lovecké kořeny jsou vidět i v detailech. V {{term:ready-position|výchozí poloze}} se {{term:stock|pažba}}, zadní část zbraně, která se opírá o rameno, dotýká těla. Ale její horní část zůstává pod čárou vyznačenou na vestě, {{fact:rules.sporting-jacket-line}}. Vypadá to jako zbraň lovce, který čeká na ptáka. {{term:gun-mount|Zalícení}}, tedy pohyb zbraně k ramenu, dělá střelec až poté, co byl terč vypuštěn a je vidět."
   },
   "note": {},
   "phrases": {},
@@ -42,7 +42,7 @@
     "history-birth-of-sporting-kp1": "Parcours de Chasse znamená „lovecká trasa“: terče se pohybují jako zvěř.",
     "history-birth-of-sporting-kp2": "Podobná střelba existovala dávno před pravidly, zejména ve Velké Británii.",
     "history-birth-of-sporting-kp3": "Dokumenty FITASC uvádějí jako začátek rok 1960 nebo 1967; čestná odpověď jsou 60. léta 20. století.",
-    "history-birth-of-sporting-kp4": "Na jednom střelišti se střílí {{fact:targets.sporting-layout-targets}} (dvojstřel jsou dva terče, tedy dalších 10); mezinárodní soutěž má {{fact:basics.international-targets}}.",
+    "history-birth-of-sporting-kp4": "Na jednom střelišti se střílí {{fact:targets.sporting-layout-targets}}; každý {{term:double|dvojstřel}} tvoří dva terče, tedy dalších 10; mezinárodní soutěž má {{fact:basics.international-targets}}.",
     "history-birth-of-sporting-kp5": "FITASC pořádá {{fact:community.sporting-championships}}."
   },
   "did_you_know": "Pravidla {{tm:sporting}} patří FITASC: stojí to na obálce, hned u roku vzniku disciplíny.",
@@ -66,13 +66,13 @@
       "explain": "Pravidla uvádějí rok 1960 na obálce a 1967 na poslední straně, proto říkáme: 60. léta 20. století."
     },
     "history-birth-of-sporting-q3": {
-      "q": "Kolik terčů se střílí na jednom střelišti {{tm:sporting}}?",
+      "q": "Kolik terčů se střílí na jednom {{term:layout|střelišti}} {{tm:sporting}}?",
       "options": {
         "a": "10",
         "b": "25",
         "c": "100"
       },
-      "explain": "Na každém střelišti se střílí {{fact:targets.sporting-layout-targets}} (dvojstřel jsou dva terče, tedy dalších 10)."
+      "explain": "Na každém střelišti se střílí {{fact:targets.sporting-layout-targets}}; každý {{term:double|dvojstřel}} tvoří dva terče, tedy dalších 10."
     }
   }
 }

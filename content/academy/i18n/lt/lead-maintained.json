@@ -31,13 +31,13 @@
   "title": "Maintained lead: būkite priekyje ir likite priekyje",
   "summary": "Kaip pastovus pralenkimas veikia žingsnis po žingsnio su kertančiu taikiniu, kuriems taikiniams jis dažnai tinka ir kokia jo tipinė klaida – tarpo matavimas.",
   "body": {
-    "lead-maintained-p1": "{{term:maintained-lead|Pastovus pralenkimas}} (maintained lead, JAV – sustained lead) laiko vamzdžių galus priekyje taikinio nuo pradžios iki pat šūvio. Štai kaip tai atrodo žingsnis po žingsnio su {{term:crosser|kertančiu taikiniu}} (taikiniu, skriejančiu skersai priešais jus):",
+    "lead-maintained-p1": "{{term:maintained-lead|Pastovus pralenkimas}} – JAV jis vadinamas sustained lead – laiko vamzdžių galus priekyje taikinio nuo pradžios iki pat šūvio. Štai kaip tai atrodo žingsnis po žingsnio su {{term:crosser|kertančiu taikiniu}}, skriejančiu skersai priešais jus:",
     "lead-maintained-p2": [
       "Pradžia: vamzdžių galai laukia {{term:hold-point|laikymo taške}}, toli priekyje ant taikinio kelio, kad taikinys skrietų jų pusėn; akys žiūri atgal, į {{term:pick-up-point|pastebėjimo tašką}}.",
       "Įvedimas: kai taikinys artėja, šautuvas pajuda, ir vamzdžių galai įsijungia į liniją priekyje jo, o ne už jo; tai {{term:insertion-point|įsijungimo taškas}}.",
       "Vedimas: iš pradžių vamzdžių galai juda kiek lėčiau už taikinį, tad jis pats priartėja, kol tarpas tarp jų tampa toks, kokio reikia. Tada vamzdžių galus veskite taikinio greičiu, ir tarpas nekinta.",
-      "Šūvis: į gaiduką spaudžiama, kai tarpas teisingas ir šautuvas vis dar juda.",
-      "Po šūvio šautuvas juda toliau ({{term:follow-through|palydėjimas}})."
+      "Šūvis: į {{term:trigger|gaiduką}} spaudžiama, kai tarpas teisingas ir šautuvas vis dar juda.",
+      "Po šūvio šautuvas juda toliau – {{term:follow-through|palydėjimas}}."
     ],
     "lead-maintained-p3": "Privalumai: tikslumas, nedidelis šautuvo judesys, greitis tarp taikinių, o pralenkimą lengva koreguoti. Tinka pastoviems, nuspėjamiems taikiniams: tolimiems kertantiems, tolygiai skrendantiems aukštiems taikiniams.",
     "lead-maintained-p4": "Trūkumai: jį dažnai vadina sunkiausiu metodu įsisavinti, o šaulys turi iš anksto žinoti taikinio greitį ir liniją. Kadangi šautuvas ne greitesnis už taikinį, šaulys mato didžiausią tarpą iš visų judančio šautuvo metodų. Tai gundo nemažai šaulių jį matuoti, lėtėti ir sustoti.",
@@ -71,17 +71,17 @@
   },
   "quiz": {
     "lead-maintained-q1": {
-      "q": "Kur taikant maintained lead vamzdžio žiotys įsijungia į taikinio liniją?",
+      "q": "Kur taikant {{term:maintained-lead|pastovų pralenkimą}} vamzdžio žiotys įsijungia į taikinio liniją?",
       "options": {
         "a": "Už taikinio",
         "b": "Ant taikinio",
         "c": "Prieš taikinį",
         "d": "Po mašinėle"
       },
-      "explain": "Žiotys įvedamos prieš taikinį ir lieka priekyje; už taikinio — tai swing-through, ant taikinio — pull-away."
+      "explain": "Žiotys įvedamos prieš taikinį ir lieka priekyje; už taikinio — tai {{term:swing-through|pravedimas pro taikinį}}, ant taikinio — {{term:pull-away|atitraukimas nuo taikinio}}."
     },
     "lead-maintained-q2": {
-      "q": "Kokia tipinė maintained lead šaulių klaida?",
+      "q": "Kokia tipinė šaulių, taikančių {{term:maintained-lead|pastovų pralenkimą}}, klaida?",
       "options": {
         "a": "Pradeda per toli už taikinio",
         "b": "Matuoja tarpą ir sustabdo šautuvą",
@@ -91,7 +91,7 @@
       "explain": "Tarpas didelis ir matomas, todėl šauliai gundomi jį tikrinti; šautuvas sulėtėja ar sustoja, ir šratai praskrieja už taikinio."
     },
     "lead-maintained-q3": {
-      "q": "Kuriam taikiniui dažnai rekomenduojamas maintained lead?",
+      "q": "Kuriam taikiniui dažnai rekomenduojamas {{term:maintained-lead|pastovus pralenkimas}}?",
       "options": {
         "a": "Tolimam, nuspėjamam kertančiam taikiniui",
         "b": "Šokinėjančiam rabbit trumpame tarpe",

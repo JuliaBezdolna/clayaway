@@ -43,16 +43,16 @@
     "origin": "interpreter-academy"
   },
   "title": "Posição da arma antes de o prato aparecer",
-  "summary": "Em {{tm:sporting}} a coronha fica abaixo de uma linha no colete até o prato aparecer. Em {{tm:compak}} a posição da arma no pedido é livre.",
+  "summary": "Em {{tm:sporting}} a {{term:stock|coronha}} fica abaixo de uma linha no colete até o prato aparecer. Em {{tm:compak}} a posição da arma no pedido é livre.",
   "body": {
     "rules-gun-position-p1": "Numa competição de {{tm:sporting}}, os atiradores pedem o prato com a arma baixa. Isto é uma regra, não uma questão de estilo. {{tm:compak}} não tem esta regra.",
     "rules-gun-position-cmp1": {
-      "sporting": "Arma baixa: a parte superior traseira da coronha mantém-se abaixo da linha do colete até ver o prato.",
+      "sporting": "Arma baixa: a parte superior traseira da {{term:stock|coronha}} mantém-se abaixo da linha do colete até ver o prato.",
       "compak": "Livre: a arma já pode estar ao ombro, ou mais baixo. Não há linha no colete, mas o disparo tem sempre de ser feito a partir do ombro."
     },
-    "sporting-gun-position-p1": "No {{tm:sporting}}, antes de pedir o prato, tem os dois pés dentro do {{term:shooting-stand|posto}}. O talão da coronha (o canto superior traseiro, a parte que entra no ombro) toca no corpo. O ponto superior traseiro da coronha, normalmente o próprio talão, fica abaixo da linha do colete. Mantém esta {{term:ready-position|posição de partida}} até o prato ter saído da máquina e estar à vista.",
-    "sporting-gun-position-p2": "A {{term:jacket-line|linha}} é marcada no colete ou no casaco {{fact:rules.sporting-jacket-line}} (uma linha horizontal imaginária que atravessa os dois ombros), paralela a ela. A sua cor destaca-se do colete, para que o árbitro a veja. A regra abrange todos os tipos de coronha: normal, Monte Carlo (com a crista elevada, a aresta superior da coronha onde assenta a face) e {{term:adjustable-comb|crista ajustável}}.",
-    "sporting-gun-position-p3": "Só pode subir a arma ao ombro ({{term:gun-mount|montá-la}}) depois de o prato aparecer. Todos os pratos, o {{term:rabbit|coelho}} incluído, atiram-se com a arma no ombro; não é permitido disparar à anca.",
+    "sporting-gun-position-p1": "No {{tm:sporting}}, antes de pedir o prato, tem os dois pés dentro do {{term:shooting-stand|posto}}. O talão da coronha (o canto superior traseiro, a parte que entra no ombro) toca no corpo. O ponto superior traseiro da coronha, normalmente o próprio talão, fica abaixo da linha do colete. Mantém esta {{term:ready-position|posição de partida}} até o prato ter saído da {{term:trap|máquina}} e estar à vista.",
+    "sporting-gun-position-p2": "A {{term:jacket-line|linha}} é marcada no colete ou no casaco {{fact:rules.sporting-jacket-line}} (uma linha horizontal imaginária que atravessa os dois ombros), paralela a ela. A sua cor destaca-se do colete, para que o árbitro a veja. A regra abrange todos os tipos de coronha: normal, Monte Carlo — com a {{term:comb|crista}} elevada, a aresta superior da coronha onde assenta a face — e {{term:adjustable-comb|crista ajustável}}.",
+    "sporting-gun-position-p3": "Só pode subir a arma ao ombro — a {{term:gun-mount|montagem}} — depois de o prato aparecer. Todos os pratos, o {{term:rabbit|coelho}} incluído, atiram-se com a arma no ombro; não é permitido disparar à anca.",
     "rules-gun-position-p5": "Uma exceção: num {{term:double|double}}, pode segurar a arma como quiser entre o primeiro e o segundo prato. Antes do primeiro prato, continua a aplicar-se a posição baixa.",
     "sporting-gun-position-p4": "Penalizações: na primeira vez que pedir o prato numa posição incorreta ou montar a arma cedo demais, o árbitro dá uma advertência verbal e mostra um {{term:yellow-card|cartão amarelo}}. Repetir no mesmo {{term:layout|percurso}} custa {{term:red-card|cartão vermelho}}: um simples conta zero, e os doubles seguem a tabela do guia de regras ({{rule:sporting:ch12-red-card}}).",
     "sporting-gun-position-p5": "Montar a arma e movê-la ao longo da linha onde espera o prato, antes de pedir, é {{term:mock-shooting|simulacro de tiro}}, e também é proibido. Na primeira vez dá uma advertência. Se voltar a acontecer, o próximo prato que acertar conta zero.",
@@ -63,7 +63,7 @@
   },
   "phrases": {
     "sporting-gun-position-ph1": {
-      "meaning": "Árbitro: ponha a coronha abaixo da linha do colete antes de pedir o prato.",
+      "meaning": "Árbitro: ponha a {{term:stock|coronha}} abaixo da linha do colete antes de pedir o prato.",
       "say": "Arma em baixo, por favor."
     },
     "sporting-gun-position-ph2": {
@@ -92,10 +92,10 @@
     }
   },
   "key_points": {
-    "sporting-gun-position-kp1": "{{tm:sporting}}: antes do pedido, os dois pés no posto, o talão da coronha a tocar no corpo e a parte de cima da coronha abaixo da linha do colete.",
+    "sporting-gun-position-kp1": "{{tm:sporting}}: antes do pedido, os dois pés no {{term:shooting-stand|posto}}, o talão da {{term:stock|coronha}} a tocar no corpo e a parte de cima da coronha abaixo da linha do colete.",
     "sporting-gun-position-kp2": "{{tm:sporting}}: a linha do colete fica {{fact:rules.sporting-jacket-line}} (uma linha que atravessa os dois ombros), numa cor contrastante.",
     "sporting-gun-position-kp3": "{{tm:sporting}}: só pode montar a arma quando o prato aparece; a posição da arma só é livre entre os dois pratos de um double.",
-    "sporting-gun-position-kp4": "{{tm:sporting}}: a primeira infração vale uma advertência com cartão amarelo; a seguinte no mesmo percurso, cartão vermelho.",
+    "sporting-gun-position-kp4": "{{tm:sporting}}: a primeira infração vale uma advertência com {{term:yellow-card|cartão amarelo}}; a seguinte no mesmo {{term:layout|percurso}}, {{term:red-card|cartão vermelho}}.",
     "rules-gun-position-kp4": "{{tm:compak}}: a posição no pedido é livre e não há linha no colete; o disparo é sempre feito a partir do ombro."
   },
   "did_you_know": "O início com a arma baixa costuma explicar-se pelas raízes de caça do {{tm:sporting}}: um caçador raramente espera a ave com a arma já ao ombro.",
@@ -125,10 +125,10 @@
         "b": "Antes do primeiro prato de um double",
         "c": "Enquanto espera por um coelho"
       },
-      "explain": "A posição livre só é permitida entre os dois pratos de um double; antes do primeiro aplica-se a posição de partida."
+      "explain": "A posição livre só é permitida entre os dois pratos de um double; antes do primeiro aplica-se a {{term:ready-position|posição de partida}}."
     },
     "sporting-gun-position-q1": {
-      "q": "No primeiro posto, um atirador pede o prato com a arma já ao ombro. É a primeira infração deste tipo neste percurso. O que decide o árbitro?",
+      "q": "No primeiro {{term:shooting-stand|posto}}, um atirador pede o prato com a arma já ao ombro. É a primeira infração deste tipo neste {{term:layout|percurso}}. O que decide o árbitro?",
       "options": {
         "a": "O prato conta zero",
         "b": "Uma advertência e cartão amarelo",
@@ -138,17 +138,17 @@
       "explain": "A primeira infração de posição da arma é uma advertência verbal com cartão amarelo."
     },
     "sporting-gun-position-q2": {
-      "q": "Antes, neste percurso, um atirador recebeu cartão amarelo por posição da arma. Agora, num simples, a coronha está acima da linha do colete no pedido. Decisão?",
+      "q": "Antes, neste {{term:layout|percurso}}, um atirador recebeu {{term:yellow-card|cartão amarelo}} por posição da arma. Agora, num simples, a {{term:stock|coronha}} está acima da linha do colete no pedido. Decisão?",
       "options": {
         "a": "Outro cartão amarelo",
         "b": "No Bird, repete-se",
-        "c": "Cartão vermelho, e repete-se",
-        "d": "Cartão vermelho, e zero"
+        "c": "{{term:red-card|Cartão vermelho}}, e repete-se",
+        "d": "{{term:red-card|Cartão vermelho}}, e zero"
       },
       "explain": "Depois da advertência, uma nova infração no mesmo percurso é cartão vermelho: zero num simples."
     },
     "sporting-gun-position-q3": {
-      "q": "{{tm:sporting}}. O árbitro já tinha advertido um atirador por simulacro de tiro. Antes do pedido seguinte, o atirador volta a montar a arma e a movê-la ao longo da linha do prato, e depois parte o prato. Como se pontua?",
+      "q": "{{tm:sporting}}. O árbitro já tinha advertido um atirador por {{term:mock-shooting|simulacro de tiro}}. Antes do pedido seguinte, o atirador volta a montar a arma e a movê-la ao longo da linha do prato, e depois parte o prato. Como se pontua?",
       "options": {
         "a": "Um, com uma segunda advertência",
         "b": "Zero",
@@ -158,7 +158,7 @@
       "explain": "Depois de uma primeira advertência por simulacro de tiro, uma repetição custa o próximo prato que o atirador acertar: conta zero."
     },
     "compak-gun-and-call-q1": {
-      "q": "Em {{tm:compak}} um atirador pede o prato com a arma baixa e, quando o coelho aparece, dispara à anca sem montar a arma. É permitido?",
+      "q": "Em {{tm:compak}} um atirador pede o prato com a arma baixa e, quando o {{term:rabbit|coelho}} aparece, dispara à anca sem montar a arma. É permitido?",
       "options": {
         "a": "Sim, a posição da arma é livre",
         "b": "Não, cada tiro é disparado a partir do ombro",
@@ -168,7 +168,7 @@
       "explain": "Em {{tm:compak}} pode pedir o prato com a arma ao ombro ou em baixo, mas cada prato tem de ser atirado com a arma ao ombro."
     },
     "gear-protection-clothes-q2": {
-      "q": "Um atirador de {{tm:sporting}} usa uma coronha Monte Carlo, com a crista elevada. A regra da linha do colete aplica-se?",
+      "q": "Um atirador de {{tm:sporting}} usa uma {{term:stock|coronha}} Monte Carlo, com a {{term:comb|crista}} elevada. A regra da linha do colete aplica-se?",
       "options": {
         "a": "Sim, abrange todos os tipos de coronha",
         "b": "Não, só as coronhas normais",

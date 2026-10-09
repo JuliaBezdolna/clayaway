@@ -59,7 +59,7 @@
   "did_you_know": "Manche Schützen behandeln eine Runde von 25 Scheiben als 25 kleine Wettkämpfe von je einer Scheibe. Das ist eine andere Art zu sagen „eine Scheibe nach der anderen“.",
   "quiz": {
     "mind-process-goals-q1": {
-      "q": "Welches ist ein Prozessziel?",
+      "q": "Welches ist ein {{term:process-goal|Prozessziel}}?",
       "options": {
         "a": "Die diesjährige Vereinsmeisterschaft gewinnen",
         "b": "22 von 25 auf diesem Layout treffen",
@@ -83,7 +83,7 @@
         "b": "Eine persönliche Norm",
         "c": "Ein Prozessziel"
       },
-      "explain": "Es ist Ihre eigene Norm: Sie liegt zwischen einem Prozessziel und einem Ergebnisziel."
+      "explain": "Es ist Ihre eigene Norm: Sie liegt zwischen einem {{term:process-goal|Prozessziel}} und einem Ergebnisziel."
     }
   }
 }

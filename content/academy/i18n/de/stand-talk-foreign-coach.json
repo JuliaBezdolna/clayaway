@@ -44,21 +44,25 @@
     "stand-talk-foreign-coach-q2": "a6a771ab",
     "stand-talk-foreign-coach-q3": "0bba8449"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Trainieren mit einem Trainer, der eine andere Sprache spricht",
-  "summary": "Wie Schützen, Trainer und Veranstalter ein Training mit einem Trainer aus einem anderen Land vorbereiten, mit oder ohne Dolmetscher, und was sich bei einem Wettkampf ändert.",
+  "summary": "Wie Schützen, {{term:coach|Trainer}} und Veranstalter ein Training mit einem Trainer aus einem anderen Land vorbereiten, mit oder ohne Dolmetscher, und was sich bei einem Wettkampf ändert.",
   "body": {
     "stand-talk-foreign-coach-p1": "Viele Schützen trainieren mit einem {{term:coach|Trainer}} aus einem anderen Land, zu Hause oder auf einer Reise. Es funktioniert gut, wenn sich alle ein wenig vorbereiten: der Trainer, der Schütze und, falls vorhanden, der {{term:interpreter|Dolmetscher}}. Viele Missverständnisse entstehen aus Wörtern, über die sich niemand vorher verständigt hat.",
-    "stand-talk-foreign-coach-safety": "{{term:safety|Sicherheit}} geht vor. Stellen Sie sicher, dass jeder Schütze die Sicherheitseinweisung verstanden hat, bevor jemand lädt. Ist sich jemand unsicher, lassen Sie sie dolmetschen oder noch einmal zeigen.",
+    "stand-talk-foreign-coach-safety": "vor allem anderen. Stellen Sie sicher, dass jeder Schütze die Sicherheitseinweisung verstanden hat, bevor jemand lädt. Ist sich jemand unsicher, lassen Sie sie dolmetschen oder noch einmal zeigen.",
     "stand-talk-foreign-coach-h1": "Mit Dolmetscher",
     "stand-talk-foreign-coach-steps": [
-      "Vereinbaren Sie vor dem Training die wichtigsten Begriffe: die Wörter des Trainers für Vorhalt und Fehlschüsse sowie für {{term:pick-up-point|pick-up point}}, {{term:hold-point|hold point}} und {{term:break-point|break point}}.",
+      "Vereinbaren Sie vor dem Training die wichtigsten Begriffe: die Wörter des Trainers für {{term:lead|Vorhalt}} und Fehlschüsse sowie für {{term:pick-up-point|pick-up point}}, {{term:hold-point|hold point}} und {{term:break-point|break point}}.",
       "Vereinbaren Sie die {{term:hand-signal|Handzeichen}} des Trainers und ein Pausenzeichen, etwa eine erhobene Handfläche.",
       "Der Trainer spricht in kurzen Sätzen und wartet auf die Übersetzung.",
       "Sprechen Sie nur, wenn die Flinte offen ist, nicht während der Routine des Schützen.",
       "Prüfen Sie nach einer Erklärung das Verständnis: Lassen Sie sich vom Schützen zeigen, nicht nur „ja“ sagen."
     ],
-    "stand-talk-foreign-coach-p2": "Kurze Hinweise am Stand werden oft von hinten geflüstert ({{term:chuchotage|Chuchotage}}). Einweisungen und Nachbesprechungen funktionieren besser, wenn der Trainer ein oder zwei Sätze sagt, eine Pause macht und der Dolmetscher übersetzt ({{term:consecutive-interpreting|Konsekutivdolmetschen}}). Mehr für Dolmetscher: {{lesson:interpreter-position}}.",
+    "stand-talk-foreign-coach-p2": "Kurze Hinweise am Stand werden oft von hinten geflüstert – {{term:chuchotage|Chuchotage}}. Einweisungen und Nachbesprechungen funktionieren besser, wenn der Trainer ein oder zwei Sätze sagt, eine Pause macht und der Dolmetscher übersetzt – {{term:consecutive-interpreting|Konsekutivdolmetschen}}. Mehr für Dolmetscher: {{lesson:interpreter-position}}.",
     "stand-talk-foreign-coach-h2": "Beim Wettkampf",
     "stand-talk-foreign-coach-p3": "Beim Wettkampf ändern die Regeln alles. In beiden Disziplinen ist {{term:coaching|Coaching}} während des Wettkampfs verboten: Der Schütze erhält eine {{term:yellow-card|Gelbe Karte}}, und der Trainer wird aus dem Schießbereich gewiesen ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Die Regeln erwähnen Dolmetscher nicht, daher könnte die Weitergabe eines Rats als Coaching gelten. Der Dolmetscher gibt nur offizielle Informationen von Schiedsrichter, {{term:jury|Jury}} und Veranstalter weiter. Planen Sie jedes Coaching für Trainingstage und Nachbesprechungen.",
     "stand-talk-foreign-coach-h3": "Ohne Dolmetscher",
@@ -94,7 +98,7 @@
       "say": "Weniger."
     },
     "stand-talk-foreign-coach-ph7": {
-      "meaning": "Wo die Mündungen warten, wenn Sie abrufen.",
+      "meaning": "Wo die {{term:muzzle|Mündungen|pl}} warten, wenn Sie abrufen.",
       "say": "Haltepunkt."
     },
     "stand-talk-foreign-coach-ph8": {
@@ -110,11 +114,11 @@
       "say": "Anschlagen."
     },
     "stand-talk-foreign-coach-ph11": {
-      "meaning": "Die Flinte nach dem Schuss weiterbewegen ({{term:follow-through|Nachschwingen}}).",
+      "meaning": "Die Flinte nach dem Schuss weiterbewegen – {{term:follow-through|Nachschwingen}}.",
       "say": "Zu Ende bringen."
     },
     "stand-talk-foreign-coach-ph12": {
-      "meaning": "Die Wange auf dem Schaft halten.",
+      "meaning": "Die Wange auf dem {{term:stock|Schaft}} halten.",
       "say": "Kopf unten."
     },
     "stand-talk-foreign-coach-ph13": {
@@ -151,7 +155,7 @@
   },
   "quiz": {
     "stand-talk-foreign-coach-q1": {
-      "q": "Ein Trainer und ein Schütze haben keine gemeinsame Sprache. Was hilft im ersten Training am meisten?",
+      "q": "Ein {{term:coach|Trainer}} und ein Schütze haben keine gemeinsame Sprache. Was hilft im ersten Training am meisten?",
       "options": {
         "a": "Lange Erklärungen, langsam gesprochen",
         "b": "Mehr Scheiben schweigend schießen",
@@ -161,7 +165,7 @@
       "explain": "Ein kleiner vereinbarter Wortschatz und die Zeichen des Trainers tragen den größten Teil eines Trainings; lange Erklärungen und Telefone während der Routine stören."
     },
     "stand-talk-foreign-coach-q2": {
-      "q": "Beim Wettkampf bittet der Trainer des Schützen den Dolmetscher, einen Tipp weiterzugeben. Was ist die sichere Praxis?",
+      "q": "Beim Wettkampf bittet der {{term:coach|Trainer}} des Schützen den Dolmetscher, einen Tipp weiterzugeben. Was ist die sichere Praxis?",
       "options": {
         "a": "Leise zwischen den Scheiben weitergeben",
         "b": "Weitergeben, wenn der Schiedsrichter nickt",
@@ -171,7 +175,7 @@
       "explain": "Coaching während des Wettkampfs ist verboten, und die Regeln erwähnen Dolmetscher nicht. Nur Schiedsrichter, Jury und Veranstalter weiterzugeben schützt den Schützen."
     },
     "stand-talk-foreign-coach-q3": {
-      "q": "Wann sollten Trainer und Dolmetscher mit dem Schützen am Stand sprechen?",
+      "q": "Wann sollten {{term:coach|Trainer}} und Dolmetscher mit dem Schützen am Stand sprechen?",
       "options": {
         "a": "Während der Schütze anschlägt",
         "b": "Kurz vor dem Abruf",

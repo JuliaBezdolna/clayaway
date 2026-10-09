@@ -34,7 +34,7 @@
     "clayarena-find-your-results-p2": "Tabela pokazuje wasze miejsce i liczbę rozbitych rzutków. {{term:round|Seria}} to {{fact:rules.round-targets}}, a wasz wynik łączny to suma waszych serii. Międzynarodowe zawody {{tm:sporting}} to zwykle {{fact:basics.international-targets}}. {{term:club-shoot|Zawody klubowe}} często mają mniej rzutków: format ustala organizator. Jak czytać tabelę: {{lesson:watching-reading-results}}.",
     "clayarena-find-your-results-p3": "Z tabeli wyników możecie otworzyć swój {{term:shooter-profile|profil zawodnika}}. Zbiera on wasze starty, które są na ClayArenie, i wasze najważniejsze liczby. Siebie można też poszukać na liście zawodników, którą można filtrować według kraju.",
     "clayarena-find-your-results-p4": "Imiona na stronie są zapisane tak, jak w dokumentach zawodów. Zawody międzynarodowe zwykle używają liter łacińskich. Zawody krajowe mogą używać lokalnego alfabetu, na przykład cyrylicy na zawodach ukraińskich. Jeśli nie możecie się znaleźć, spróbujcie lokalnego zapisu imienia i różnych wariantów w alfabecie łacińskim.",
-    "clayarena-find-your-results-p5": "ClayArena bierze wyniki z {{term:score-sheet|kart wyników}} zawodów — oficjalnych arkuszy, do których {{term:referee|sędzia}} wpisuje każde trafienie i chybienie. Dlatego najważniejsza kontrola odbywa się jeszcze na strzelnicy, nie na stronie. W waszym profilu będzie dokładnie to, co zapisał sędzia.",
+    "clayarena-find-your-results-p5": "ClayArena bierze wyniki ze {{term:score-sheet|kart wyników}} zawodów — oficjalnych arkuszy, do których {{term:referee|sędzia}} wpisuje każde trafienie i chybienie. Dlatego najważniejsza kontrola odbywa się jeszcze na strzelnicy, nie na stronie. W waszym profilu będzie dokładnie to, co zapisał sędzia.",
     "clayarena-find-your-results-compare": {
       "sporting": "Sprawdzajcie swój wynik na karcie (w {{tm:sporting}} tak nazywa się karta wyników grupy), opuszczając każde stanowisko. Jeśli jest błędny, powiedzcie o tym sędziemu natychmiast: decyduje tylko sędzia, i jego decyzji nie można zaskarżyć.",
       "compak": "Podpisujcie kartę wyników na koniec każdej serii. Jeśli odmówicie podpisu, żadnej późniejszej skargi nie przyjmą."
@@ -55,7 +55,7 @@
       "q": "Skąd pochodzą wyniki na ClayArenie?",
       "options": {
         "a": "Wpisują je sami zawodnicy",
-        "b": "Z kart wyników",
+        "b": "Ze kart wyników",
         "c": "Liczy je trener"
       },
       "explain": "Wyniki pochodzą z kart wyników, więc sprawdzajcie swój wynik, gdy jeszcze jesteście na strzelnicy."
@@ -80,11 +80,11 @@
       "explain": "Imiona są zapisane tak, jak w dokumentach zawodów: łacinką albo lokalnym alfabetem. To samo nazwisko można też zapisać łacinką w więcej niż jeden sposób."
     },
     "clayarena-find-your-results-q4": {
-      "q": "Kiedy zawodnik {{tm:compak}} podpisuje kartę wyników?",
+      "q": "Kiedy zawodnik {{tm:compak}} podpisuje {{term:score-sheet|kartę wyników}}?",
       "options": {
-        "a": "Na koniec każdej serii",
+        "a": "Na koniec każdej {{term:round|serii}}",
         "b": "Tylko po ostatnim dniu",
-        "c": "Podpisuje sędzia, nie zawodnik"
+        "c": "Podpisuje {{term:referee|sędzia}}, nie zawodnik"
       },
       "explain": "Zawodnik podpisuje na koniec każdej serii; bez podpisu żadnej późniejszej skargi nie przyjmą.",
       "rule_ref": "compak:ch15-signing"

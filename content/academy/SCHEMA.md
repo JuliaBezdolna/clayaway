@@ -181,11 +181,11 @@ has `null` titles. Missing interface strings (`ui/<lang>.json`) fall back to Eng
 
 | Token | Output |
 |---|---|
-| `{{term:id\|form}}` | link to `/<p>glossary/<id>/` with the glossary's `term_local`; `form` is the inflected form (uk, lt, fi, cs, pl). Running text: unchanged in step 1 of the term rule (§9); the term chips of the lesson show the label “English (local)” |
+| `{{term:id\|form}}` | link to `/<p>glossary/<id>/`. `form` = the local word as the sentence needs it (the inflected form: uk «зайця», pl «punktem zbicia»). **Term rule, step 2 (§9, 09.10.2026):** on a page in another language than English the text is “<English> (<form>)” at the FIRST mention of the term on the lesson page and “<English>” at every later one (English = the glossary headword; no form: the glossary `term_local`; a form that is the English word, a spelling variant or a transliteration of it, or a case form of such a glossary word — uk «сонопулом» — is not repeated: “Sonopull”). English pages: the form, else the English name, as before. The English is lower case in mid-sentence (“swing-through”, “rabbit”) and gets a capital only at a sentence start when the form starts with one; names, acronyms and calls stay as written (FITASC, No Bird, ZZ target, Zero, names with ™/®). The link covers the whole text. Do not write the English next to a token by hand (warning `term-gloss-dup`). **Plural:** `{{term:id\|form\|pl}}` puts the English into the plural too (“cartridges (Patronen)”); fr and pt forms are found by their ending, `\|sg` turns it off; other third parts are an error. A form that is the English name with a case ending (fi “FITASCille”) is shown as written, once. A form that is the English name itself in quotes («Protest!», „trap“) stays as written inside the quotes, and the local word of the first mention follows the closing quote („behind“ (za terčem)) unless the author wrote own brackets there. Put the token on the whole noun phrase (`{{term:steel-shot\|сталевий дріб}}`, not `{{term:steel-shot\|сталевий}} дріб`) and on a noun, never on a verb (`term-verb`) |
 | `{{tm:sporting}}`, `{{tm:compak}}` | "Parcours de Chasse – Sporting™" (later in the same lesson "Sporting™") and "Compak® Sporting" |
 | `{{rule:book:id}}` | link to the rules guide item with `?lang=` (the guide itself is noindex) |
 | `{{lesson:id}}` | link to that lesson in the same language, with its title in that language |
-| `{{fact:id}}` | the text of fact `id` from `facts.json`, or `{{fact:<file>.<id>}}` from `facts/<file>.json` (other languages: `i18n/<lang>/_facts.json`) |
+| `{{fact:id}}` (a fact text may hold `{{term:…}}` tokens; they follow the term rule of the text around the fact) | the text of fact `id` from `facts.json`, or `{{fact:<file>.<id>}}` from `facts/<file>.json` (other languages: `i18n/<lang>/_facts.json`) |
 
 Migrated texts still contain the literal trademark names; use the tokens in everything new.
 
@@ -362,8 +362,27 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   word that is the same as the English or a plain transliteration (uk «батю» = Battue) is not repeated. The English is the glossary's English term,
   the local word the glossary's `term_local` (`docs/glossary/data/i18n/<lang>.js`), composed by ONE helper, `docs/shared/terms.js`. **Step 1
   (08.10.2026): labels** — term chips, glossary headwords and lists, search results, animation tabs and names, lead-lab methods, quiz options with
-  `term` (§3), Practice answers. Words on the canvas: English only. **Step 2 (next): running text** of lessons (`{{term:id}}` tokens without a form
-  still show the local name, `localTerm()` in the build). DEVELOPERS.md §4l.
+  `term` (§3), Practice answers. Words on the canvas: English only. **Step 2 (09.10.2026): running text** of lessons — every `{{term:…}}` token
+  (§6): “<English> (<form>)” at the first mention of the term on the lesson page, “<English>” later. What counts as one page (reading order of the
+  page and the app): body (the animation right after the first paragraph) → key points → did you know → Stand Talk phrases → notes. On their own
+  (shown elsewhere too): the title, the summary / meta description, the caption of the animation, a key point with `checklist` (route checklist),
+  each phrase in `phrases.json` (Practice), and every quiz or exam question (question → each option on its own → explanation; an option with
+  `term` counts as a mention). A body block of one discipline (`disc`, and each column of a `compare` block) is folded for readers of the other
+  discipline: it sees what the common text explained before it, but its own mentions do not count for the common text. The static page and the
+  app data come from the same build (`view()`, `quizItem()` in `scripts/build_academy.mjs`), the rule itself from `docs/shared/terms.js`
+  (`mention()`, `scope()`, `atStart()`, `casedEn()`). Authors: link the FIRST mention of a term in each text with a token (the build warns
+  `term-untokenised` for confident misses), write the case form in the token after a preposition (`term-grammar`), and never add the English
+  by hand next to a token (`term-gloss-dup`). Quiz and exam options with free text are always LATER mentions (“English” only, no brackets; the
+  explanation explains them), so the brackets never single out an option; still, do not name a term only in the right option (or in every
+  option but the right one: `term-quiz-giveaway`) — write plain local words in the options and the term in the question or the explanation.
+  Options with `term` (§3) show the label “English (local)” only when EVERY option of the question has `term`; in a question that mixes them,
+  the term options show their own text of the language like the others (a lone label with brackets would give the answer away). Labels get
+  brackets only when every label of the question has a local word to show (“Battue · Midi · Rabbit (заєць)” → all English only). Do not add
+  a hand-written gloss to one option only (“One (влучання)” among plain options).
+  Titles and summaries carry no term tokens (they feed `<title>`, og and `{{lesson:id}}` links). Articles: the page prints the English first,
+  so an article that depends on the next sound agrees with the English word (hu “az organiser (rendező)”); fr treats an English word as
+  masculine (“le muzzle (bouche du canon) … il pointe”) unless a feminine analogy is obvious (“une trajectory (trajectoire)”). The article or
+  preposition before `{{tm:…}}` is set by the build (it “lo Sporting™ / il Parcours…”, cs “ve / v”, pl “ze / z”). DEVELOPERS.md §4l.
 - **Wording:** plain and cautious (no proven / best / ideal / never outside safety rules): "many coaches suggest", "you can try".
   A professional term plus a short plain explanation. Ukrainian terms: вкладка (gun mount), заєць (rabbit, owner decision 07.10.2026), дуплет, точка пострілу, точка підхоплення,
   точка утримання (hold point), провідне око (master eye), передпостріловий ритуал, стрілецьке місце (у Compak® — номер),
@@ -402,6 +421,20 @@ the 9 overlays, facts and their translations, `_shared.json`, `ui/*.json`, block
 entry (`glossary.js`, `learn_terms.js`, `i18n/<lang>.js`, `i18n/ui-<lang>.json`); ids, token ids, URLs, `src`, `sources` and
 aliases are not checked. The plain English "trap"/"trapper" (the machine and its operator) is allowed. Patterns:
 `OTHER_DISCIPLINE_RE` in `scripts/academy/lint.mjs`.
+
+Term rule, step 2 (§6, §9; warnings, counted per language in the console; `--term-report <dir>` writes `<dir>/<lang>.json` = `{counts,
+files_with_findings, skipped_everyday, files: {<file to edit>: [{type, lesson, item, term, text, msg}]}}` for uk and the 9 overlays):
+`term-gloss-dup` — a token followed by a hand-written bracket that repeats its English name (`{{term:recoil|Віддача}} (recoil)`,
+`(набій; cartridge, shell)`) or the English written right before a token in brackets (`cylinder ({{term:cylinder|циліндр}})`): the page
+prints the English itself, delete the hand-written part; `term-untokenised` — confident hits only: a glossary word of a term (`term_local` /
+`alt`, at least 5 letters) in a lesson text of that language while the lesson has no token of that term in that language — a phrase with word
+endings, a single word only as the glossary writes it or in a form the lessons already write inside a token of that term; everyday terms
+(`UNTOK_SKIP_IDS`: target, shotgun, coach, referee, safety, …) are only counted (`skipped_everyday`) unless the lesson lists the term in its
+chips; homonyms of a language (`UNTOK_SKIP_WORDS`: uk «приклад» = example, fr “à l'avance”) never count; `term-grammar` (heuristic, check by
+eye; uk, pl, cs, lt) — a token right after a preposition that needs a case, with no form or with the dictionary form, at a mention that shows
+the brackets; `term-verb` (heuristic) — a token where the sentence needs a verb (after a modal verb or a negation, de "Sie" after it, a hu
+infinitive, a fi question form): the page would print an English noun there; `term-quiz-giveaway` — the tokens of the options single out one
+option. The report also counts tokens per lesson and summaries with tokens per language (`tokens`), to see when the languages drift apart.
 
 Option terms (§3, owner rule 08.10.2026): an option `term` that is not in the glossary is an error (`term-unknown`); an option whose English text
 is not a name of its term (headword, display name, aka or their start) is a warning (`quiz-term-option`). The rules trainer bank (`docs/rules/data/

@@ -37,15 +37,15 @@
     "origin": "interpreter-academy"
   },
   "title": "Como ler um placar e resultados",
-  "summary": "O que significam X e O numa folha de marcação, como se constrói um total de 200, como se resolvem os empates e como ler uma tabela de resultados na ClayArena.",
+  "summary": "O que significam X e O numa {{term:score-sheet|folha de marcação}}, como se constrói um total de 200, como se resolvem os empates e como ler uma tabela de resultados na ClayArena.",
   "body": {
     "watching-reading-results-p1": "No tiro aos pratos, o resultado é simples: o número de pratos partidos. Uma {{term:round|série}} é {{fact:rules.round-targets}} tanto no {{tm:sporting}} como no {{tm:compak}}, e uma competição internacional é {{fact:basics.international-targets}}. Por isso, o resultado mais alto possível é 200 em 200.",
-    "referee-scoring-p1": "Cada prato acaba numa folha de marcação. No {{tm:sporting}} é o árbitro que a preenche, ou alguém sob a sua supervisão. No modelo oficial da FITASC, cada prato aparece pela letra da sua máquina (A, B, C…), com X para um acerto e O para uma falha. A folha tem também um total e uma coluna para assinaturas. Antes de a esquadra passar ao posto seguinte, o árbitro fotografa a folha.",
-    "watching-reading-results-compak": "No {{tm:compak}} atirado por esquadra, o árbitro mantém a folha de marcação e marca um acerto com X e uma falha com O. O árbitro anuncia cada zero em voz alta ou com um sinal sonoro, para que um atirador que discorde possa protestar de imediato. No {{term:compak-in-line|Compak em linha}}, onde um sistema eletrónico aprovado regista os resultados ({{term:electronic-refereeing|arbitragem eletrónica}}), os resultados aparecem num ecrã.",
-    "referee-scoring-p2": "No {{tm:sporting}} tem de verificar o seu resultado ao sair de cada posto. Se discordar de uma marcação, diga-o ao árbitro de imediato: o árbitro decide, talvez depois de ouvir outras pessoas, e essa decisão não pode ser objeto de recurso. No {{tm:compak}} assina a folha de marcação no fim da série; se se recusar a assinar, perde o direito de reclamar.",
+    "referee-scoring-p1": "Cada prato acaba numa {{term:score-sheet|folha de marcação}}. No {{tm:sporting}} é o {{term:referee|árbitro}} que a preenche, ou alguém sob a sua supervisão. No modelo oficial da FITASC, cada prato aparece pela letra (A, B, C…) da sua {{term:trap|máquina}}, com X para um acerto e O para uma falha. A folha tem também um total e uma coluna para assinaturas. Antes de a esquadra passar ao posto seguinte, o árbitro fotografa a folha.",
+    "watching-reading-results-compak": "No {{tm:compak}} atirado por esquadra, o {{term:referee|árbitro}} mantém a {{term:score-sheet|folha de marcação}} e marca um acerto com X e uma falha com O. O árbitro anuncia cada zero em voz alta ou com um sinal sonoro, para que um atirador que discorde possa protestar de imediato. No {{term:compak-in-line|Compak em linha}}, onde um sistema eletrónico aprovado regista os resultados — {{term:electronic-refereeing|arbitragem eletrónica}} —, os resultados aparecem num ecrã.",
+    "referee-scoring-p2": "No {{tm:sporting}} tem de verificar o seu resultado ao sair de cada posto. Se discordar de uma marcação, diga-o ao {{term:referee|árbitro}} de imediato: o árbitro decide, talvez depois de ouvir outras pessoas, e essa decisão não pode ser objeto de recurso. No {{tm:compak}} assina a {{term:score-sheet|folha de marcação}} no fim da série; se se recusar a assinar, perde o direito de reclamar.",
     "watching-reading-results-p3": "Em eventos internacionais, os resultados de cada série vão para um placar central ou um sistema eletrónico. Junto a cada nome, normalmente vê o resultado de cada série e o total. Assim, pode ver não só quem lidera, mas também quem atira de forma constante e quem teve uma série má.",
     "watching-reading-results-p4": "Totais iguais são comuns. Os empates pelos três primeiros lugares resolvem-se por {{fact:competitions.shoot-off-format}} (na morte súbita, o primeiro atirador a falhar fica eliminado). Abaixo do terceiro lugar, os atiradores empatados partilham o lugar, e o {{term:countback|desempate pela ordem inversa}} define a sua ordem na lista. Como funcionam os dois: {{lesson:competitions-categories-and-shoot-offs}}.",
-    "watching-reading-results-p5": "Além da {{term:open-ranking|classificação geral}}, há {{term:category|categorias}}, como {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} e {{term:veteran|Veteran}}, e uma classificação por {{term:team|equipas}}. Por isso, uma entrega de prémios pode ter vários vencedores, um em cada classificação.",
+    "watching-reading-results-p5": "Além da {{term:open-ranking|classificação geral}}, há {{term:category|categorias}}, como {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} e {{term:veteran|Veteran}}, e uma classificação por {{term:team|equipas}}. Por isso, uma {{term:prize-giving|entrega de prémios}} pode ter vários vencedores, um em cada classificação.",
     "watching-reading-results-p6": "Depois de uma competição, os resultados aparecem na ClayArena. A tabela mostra o lugar de cada atirador e o número de pratos partidos. A partir daí, pode abrir o {{term:shooter-profile|perfil do atirador}}, com as suas competições e números como a {{term:accuracy|precisão}} e o {{term:best-score|melhor resultado}}. Mais: {{lesson:clayarena-find-your-results}}.",
     "watching-reading-results-same-targets": "Compare resultados só com o mesmo número de pratos, e de preferência do mesmo evento: os percursos em stands diferentes têm dificuldades diferentes. 90 em 100 e 180 em 200 são a mesma percentagem, mas um evento mais longo é um teste diferente."
   },
@@ -76,7 +76,7 @@
   "did_you_know": "No {{tm:sporting}}, cada posto de um percurso tem a sua própria cor de lápis na folha de marcação. Quando a esquadra avança, um asterisco marca o atirador que leva a folha para o posto seguinte.",
   "quiz": {
     "referee-scoring-q1": {
-      "q": "Numa folha de marcação da FITASC, o que significa O?",
+      "q": "Numa {{term:score-sheet|folha de marcação}} da FITASC, o que significa O?",
       "options": {
         "a": "Um acerto",
         "b": "Um No Bird",
@@ -86,11 +86,11 @@
       "explain": "Na folha padrão da FITASC, um acerto marca-se com X e uma falha com O."
     },
     "referee-scoring-q3": {
-      "q": "No {{tm:compak}}, o seu atirador recusa-se a assinar a folha de marcação. Qual é a consequência?",
+      "q": "No {{tm:compak}}, o seu atirador recusa-se a assinar a {{term:score-sheet|folha de marcação}}. Qual é a consequência?",
       "options": {
         "a": "Perde o direito de fazer qualquer reclamação",
-        "b": "A série é atirada outra vez",
-        "c": "O árbitro assina e nada muda",
+        "b": "A {{term:round|série}} é atirada outra vez",
+        "c": "O {{term:referee|árbitro}} assina e nada muda",
         "d": "Leva automaticamente 25 zeros"
       },
       "explain": "As regras do {{tm:compak}} dizem que um atirador que se recuse a assinar perde o direito de reclamar."
@@ -108,7 +108,7 @@
       "q": "Como se resolvem os empates pelos três primeiros lugares?",
       "options": {
         "a": "Por sorteio",
-        "b": "Por um desempate (shoot-off)",
+        "b": "Por um desempate",
         "c": "Pela idade do atirador"
       },
       "explain": "Para os três primeiros há um desempate de 25 pratos, depois morte súbita."
@@ -123,7 +123,7 @@
       "explain": "Verifique o resultado ao sair de cada posto e levante qualquer discordância de imediato; mais tarde não há recurso."
     },
     "watching-reading-results-q-photo": {
-      "q": "No {{tm:sporting}}, o que faz o árbitro com a folha de marcação antes de a esquadra passar ao posto seguinte?",
+      "q": "No {{tm:sporting}}, o que faz o {{term:referee|árbitro}} com a {{term:score-sheet|folha de marcação}} antes de a esquadra passar ao posto seguinte?",
       "options": {
         "a": "Fotografa-a",
         "b": "Leva-a logo ao júri",

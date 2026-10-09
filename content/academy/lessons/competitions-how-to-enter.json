@@ -125,7 +125,7 @@
         "дати, місце й дисципліна;",
         "кількість мішеней і формат;",
         "розклад, кінцевий термін заявок і {{term:entry-fee|стартовий внесок}};",
-        "{{term:category|категорії}} та призи;",
+        "{{term:category|категорії|pl}} та призи;",
         "контакти організатора й місцеві правила, якщо вони є."
       ]
     },
@@ -133,7 +133,7 @@
       "k": "competitions-how-to-enter-p2",
       "t": "p",
       "en": "An {{term:entry|entry}} is your registration for the competition. It is often made online in advance and confirmed at the desk on the day. The entry fee is paid with the entry or at registration. Ask early whether the fee is refunded if you cannot come.",
-      "uk": "{{term:entry|Заявка}} — це ваша реєстрація на змагання (entry). Її часто подають заздалегідь онлайн, а на місці лише підтверджують у секретаріаті. Стартовий внесок сплачують разом із заявкою або під час реєстрації. Заздалегідь запитайте, чи повертають внесок, якщо ви не зможете приїхати."
+      "uk": "{{term:entry|Заявка}} — це ваша реєстрація на змагання. Її часто подають заздалегідь онлайн, а на місці лише підтверджують у секретаріаті. Стартовий внесок сплачують разом із заявкою або під час реєстрації. Заздалегідь запитайте, чи повертають внесок, якщо ви не зможете приїхати."
     },
     {
       "k": "competitions-how-to-enter-fee-rules",
@@ -159,20 +159,20 @@
       "k": "competitions-how-to-enter-efp-residents",
       "t": "tip",
       "en": "The pass is issued only to residents of EU countries and of the Schengen states that apply the EU firearms rules (Switzerland, Norway, Iceland and Liechtenstein). If you live elsewhere, read {{lesson:travel-gun-outside-eu}}, or ask the organiser whether you can hire a gun at the ground.",
-      "uk": "Цей паспорт видають лише мешканцям країн ЄС, а також Швейцарії, Норвегії, Ісландії та Ліхтенштейну — країн Шенгену, які застосовують правила ЄС щодо зброї. Якщо ви живете деінде, прочитайте урок {{lesson:travel-gun-outside-eu}} або запитайте організатора, чи можна взяти рушницю напрокат на стрільбищі."
+      "uk": "Цей паспорт видають лише мешканцям країн ЄС, а також Швейцарії, Норвегії, Ісландії та Ліхтенштейну — країн Шенгену, які застосовують правила ЄС щодо зброї. Якщо ви живете деінде, прочитайте урок {{lesson:travel-gun-outside-eu}} або запитайте організатора, чи є на стрільбищі {{term:gun-rental|прокат рушниць}}."
     },
     {
       "k": "competitions-how-to-enter-release",
       "t": "p",
       "disc": "both",
       "en": "This concerns only guns fitted with a {{term:release-trigger|release trigger}}. It fires when the finger lets go, not when it pulls. If the law of the host country bans such triggers, the programme of an international competition must say so.",
-      "uk": "Це стосується лише рушниць із {{term:release-trigger|релізним спуском}} (release trigger). Він спрацьовує, коли палець відпускає спуск, а не тисне на нього. Якщо закон країни, де проходять змагання, забороняє такі спуски, програма міжнародних змагань має про це повідомити."
+      "uk": "Це стосується лише рушниць із {{term:release-trigger|релізним спуском}}. Він спрацьовує, коли палець відпускає спуск, а не тисне на нього. Якщо закон країни, де проходять змагання, забороняє такі спуски, програма міжнародних змагань має про це повідомити."
     },
     {
       "k": "competitions-how-to-enter-p5",
       "t": "p",
       "en": "After entries close, the organiser publishes the {{term:shooting-times|shooting times}} and the {{term:squad|squad}} lists. A squad is a small group of up to six shooters who shoot each round together; the list tells you which squad you are in and when it starts. Keeping to the schedule is your own responsibility, including any delays or changes during the event.",
-      "uk": "Після закриття заявок організатор публікує {{term:shooting-times|розклад стрільби}} (shooting times) і списки {{term:squad|груп}}. Група (squad) — це до шести стрільців, які стріляють раунд разом; зі списку ви дізнаєтеся, у якій ви групі й коли вона стартує. Стежити за розкладом, зокрема за затримками чи змінами під час змагань, — ваша власна відповідальність."
+      "uk": "Після закриття заявок організатор публікує {{term:shooting-times|розклад стрільби}} і списки {{term:squad|груп}}. {{term:squad|Група}} — це до шести стрільців, які стріляють раунд разом; зі списку ви дізнаєтеся, у якій ви групі й коли вона стартує. Стежити за розкладом, зокрема за затримками чи змінами під час змагань, — ваша власна відповідальність."
     },
     {
       "k": "competitions-how-to-enter-absent-day-one",
@@ -194,7 +194,7 @@
       "k": "competitions-how-to-enter-n-parent",
       "for": "parent",
       "en": "For a junior, ask the organiser in advance whether a parent’s written consent or a federation licence is needed, and who may supervise the child at the ground.",
-      "uk": "Для юніора заздалегідь запитайте організатора, чи потрібні письмова згода батьків або ліцензія федерації і хто може наглядати за дитиною на стрільбищі."
+      "uk": "Для юніора заздалегідь запитайте організатора, чи потрібні {{term:guardian-consent|письмова згода батьків}} або ліцензія федерації і хто може наглядати за дитиною на стрільбищі."
     }
   ],
   "phrases": [],
@@ -230,7 +230,7 @@
   "did_you_know": {
     "k": "competitions-how-to-enter-dyk",
     "en": "Where release triggers are allowed, a gun with one carries a fluorescent sticker with a large “R” on the outside of the stock, so that everyone on the stand knows.",
-    "uk": "Там, де релізні спуски дозволені, рушницю з таким спуском позначають флуоресцентною наліпкою з великою літерою «R» на зовнішньому боці приклада, щоб про це знали всі на стрілецькому місці."
+    "uk": "Там, де релізні спуски дозволені, рушницю з таким спуском позначають флуоресцентною наліпкою з великою літерою «R» на зовнішньому боці {{term:stock|приклада}}, щоб про це знали всі на стрілецькому місці."
   },
   "quiz": [
     {

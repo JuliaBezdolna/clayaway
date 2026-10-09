@@ -48,12 +48,12 @@
   "body": {
     "targets-compak-layout-p1": "A {{tm:compak}} a FITASC kompakt versenyszáma. {{fact:community.compak-created}}. A {{tm:sporting}}-tól eltérően, amely természetes terepen terül el, a Compak-mezőt egy rögzített terv szerint, állandó méretekkel építik.",
     "sport-compak-layout-p1": "A {{tm:compak}} egyetlen mezőn fér el. A lövészek előtt egy 35–40 m széles és 25 m mély téglalap van megjelölve, mindegyik sarkán zászlós kilóccal. A szabályok minden mezőn megkövetelik. Szélcsendben minden korongnak a repülése valamely pontján át kell haladnia ezen a téglalapon.",
-    "targets-compak-layout-p2": "A sarokkilócok kb. 50 cm magasak. A {{term:fly-over-zone|téglalap}} oldalait AB, BC, CD és AD néven nevezik, és az AD a lövészek felé néző oldal. A lőállások vonala párhuzamos az AD-vel, és 4–8 m-rel mögötte van, a 3-as lőállás a közepével szemben.",
-    "sport-compak-layout-p2": "Öt lőállás, mindegyik 1 m-es négyzet, egy vonalban áll, középpontjaik között 2–5 m-rel. Balról jobbra 1-től 5-ig vannak számozva. Minden lőálláson van egy {{term:firing-angle-limiter|lőszögkorlátozó}} (Firing Angle Limiter), egy csövekből álló keret. Ez korlátozza, mennyire mozdulhat a fegyver oldalra, felfelé vagy lefelé, és megakadályozza, hogy a lövész előredőljön vagy -lépjen.",
-    "sport-compak-layout-p3": "Hat dobógép, A-tól F-ig balról jobbra, mindegyiken egy betűs tábla van. Lehetnek a lövészek előtt, mellett vagy mögött; a vonal mögötti dobógép egy {{term:tower|toronyban}} áll, {{fact:targets.compak-tower-height}}. Minden Compak-mezőn három kötelező röppálya van. Kettő {{term:crosser|kereszteződés}}: egy balról jobbra repül, a másik jobbról balra, és mindkettő átszeli az AB és CD oldalakat. A harmadik egy {{term:going-away|elmenő korong}}, amely a lövészektől távolodva repül a BC oldal fölött. A többi röppályát a rendező választja; ezek rövidek maradnak, hogy ne érjenek el a szomszédos mezőig.",
-    "compak-layout-rotation-p3": "Egy {{term:round|kör}} 25 korong, öt minden lőálláson. Egy lőállás öt korongja a három keverék egyikéből áll: {{fact:targets.compak-station-menus}}. Egy mezőn minden dublé egyféle: vagy on report (a második korong akkor indul, amikor az elsőre lősz), vagy szimultán (mindkettő egyszerre indul). A {{term:target-menu|kottát}}, a lőállás korongjainak sorrendben felsorolt listáját, minden lőálláson kifüggesztik. A lőállások láncban kapcsolódnak: {{fact:targets.compak-double-chain}}.",
+    "targets-compak-layout-p2": "A sarokkilócok kb. 50 cm magasak. A {{term:fly-over-zone|téglalap}} oldalait AB, BC, CD és AD néven nevezik, és az AD a lövészek felé néző oldal. A {{term:shooting-stand|lőállások}} vonala párhuzamos az AD-vel, és 4–8 m-rel mögötte van, a 3-as lőállás a közepével szemben.",
+    "sport-compak-layout-p2": "Öt lőállás, mindegyik 1 m-es négyzet, egy vonalban áll, középpontjaik között 2–5 m-rel. Balról jobbra 1-től 5-ig vannak számozva. Minden lőálláson van egy {{term:firing-angle-limiter|lőszögkorlátozó}}, egy csövekből álló keret. Ez korlátozza, mennyire mozdulhat a fegyver oldalra, felfelé vagy lefelé, és megakadályozza, hogy a lövész előredőljön vagy -lépjen.",
+    "sport-compak-layout-p3": "Hat {{term:trap|dobógép}}, A-tól F-ig balról jobbra, mindegyiken egy betűs tábla van. Lehetnek a lövészek előtt, mellett vagy mögött; a vonal mögötti dobógép egy {{term:tower|toronyban}} áll, {{fact:targets.compak-tower-height}}. Minden Compak-mezőn három kötelező röppálya van. Kettő {{term:crosser|kereszteződés}}: egy balról jobbra repül, a másik jobbról balra, és mindkettő átszeli az AB és CD oldalakat. A harmadik egy {{term:going-away|elmenő korong}}, amely a lövészektől távolodva repül a BC oldal fölött. A többi röppályát a rendező választja; ezek rövidek maradnak, hogy ne érjenek el a szomszédos mezőig.",
+    "compak-layout-rotation-p3": "Egy {{term:round|kör}} 25 korong, öt minden lőálláson. Egy lőállás öt korongja a három keverék egyikéből áll: {{fact:targets.compak-station-menus}}. Egy mezőn minden {{term:double|dublé}} egyféle: vagy on report (a második korong akkor indul, amikor az elsőre lősz), vagy szimultán (mindkettő egyszerre indul). A {{term:target-menu|kottát}}, a lőállás korongjainak sorrendben felsorolt listáját, minden lőálláson kifüggesztik. A lőállások láncban kapcsolódnak: {{fact:targets.compak-double-chain}}.",
     "targets-compak-layout-p5": "A FITASC {{fact:targets.compak-setting-tables}} kínál, és azt tanácsolja, hogy versenyeken ezeket használják. A kotta olvasását az {{lesson:targets-menu}} óra magyarázza el.",
-    "compak-layout-rotation-p4": "Hogyan mozog egy legfeljebb hatfős rotte a lőállások mentén: az 1-es lőálláson álló lövész lő elsőként, és egy hatodik lövész vár az 1-es lőállás mögött. Amikor az 5-ös lőálláson álló lövész végzett, mindenki egy lőállással jobbra lép. Az 5-ös lőállás lövésze az 1-es lőállás mögé megy várni, és aki ott várt, az az 1-es lőállásra lép. A lőállást nyitott és üres fegyverrel váltsd, anélkül hogy zavarnád azt, aki még lő.",
+    "compak-layout-rotation-p4": "Hogyan mozog egy legfeljebb hatfős {{term:squad|rotte}} a lőállások mentén: az 1-es lőálláson álló lövész lő elsőként, és egy hatodik lövész vár az 1-es lőállás mögött. Amikor az 5-ös lőálláson álló lövész végzett, mindenki egy lőállással jobbra lép. Az 5-ös lőállás lövésze az 1-es lőállás mögé megy várni, és aki ott várt, az az 1-es lőállásra lép. A lőállást nyitott és üres fegyverrel váltsd, anélkül hogy zavarnád azt, aki még lő.",
     "targets-compak-layout-p6": "Legfeljebb 10 másodperced van arra, hogy korongot kérj, miután az előző lőállás korongját ellőtték. Amikor rád kerül a sor, legyél azonnal készen, töltényekkel az egész körre.",
     "sport-compak-layout-p5": "Néhány versenyen a {{tm:compak}}-ot in line formában lövik: minden lövész az 1-es lőálláson kezd, és az 5-ösön végez. Kérdezd meg a rendezőt, melyik rendszert használják, mert az eljárás eltér.",
     "targets-compak-layout-p7": {
@@ -76,7 +76,7 @@
       "say": "Vigyázz a keretre – ne lendíts túl az oszlopon."
     },
     "compak-layout-rotation-ph1": {
-      "meaning": "Rotáció, miután az 5-ös lőálláson álló lövész végzett.",
+      "meaning": "{{term:rotation|Rotáció}}, miután az 5-ös lőálláson álló lövész végzett.",
       "say": "Egy lőállással jobbra."
     },
     "compak-layout-rotation-ph2": {
@@ -141,7 +141,7 @@
       "explain": "A várakozó lövész az 1-es lőállás mögött áll, és minden rotáció után belép oda."
     },
     "sport-compak-layout-q3": {
-      "q": "Mire való a lőszögkorlátozó (Firing Angle Limiter)?",
+      "q": "Mire való a {{term:firing-angle-limiter|lőszögkorlátozó}}?",
       "options": {
         "a": "Korlátozza a lendítést, és megakadályozza az előrelépést",
         "b": "Méri minden kidobott korong sebességét",

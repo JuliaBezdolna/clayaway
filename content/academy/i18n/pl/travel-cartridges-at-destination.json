@@ -28,12 +28,12 @@
     "origin": "pl-wave-2026-10"
   },
   "title": "Naboje na miejscu",
-  "summary": "Kupienie naboi na miejscu jest często prostsze niż ich przewożenie. Zwróćcie uwagę na lokalne przepisy zakupu, wymagania FITASC co do naboi i strzelnice, które dopuszczają tylko śrut stalowy.",
+  "summary": "Kupienie naboi na miejscu jest często prostsze niż ich przewożenie. Zwróćcie uwagę na lokalne przepisy zakupu, wymagania FITASC co do naboi i strzelnice, które dopuszczają tylko {{term:steel-shot|śrut stalowy}}.",
   "body": {
     "travel-cartridges-at-destination-p1": "Zawody {{tm:sporting}} albo {{tm:compak}} wymagają setek {{term:cartridge|naboi}}, a limity linii lotniczych pozwalają zabrać tylko kilka pudełek: zob. {{lesson:travel-flying-with-guns}}. Dlatego naboje zwykle kupuje się na miejscu: w sklepie strzelnicy, u lokalnego sprzedawcy albo przez organizatora, który często ma własnego dostawcę.",
-    "travel-cartridges-at-destination-p2": "Zamówcie naboje z wyprzedzeniem, zwłaszcza jeśli potrzebujecie konkretnej marki, konkretnej {{term:load-weight|naważki}} (wagi śrutu w naboju) albo kalibru 20. Popularne naboje mogą się skończyć w trakcie dużych zawodów. Zapytajcie, gdzie i kiedy można je odebrać.",
+    "travel-cartridges-at-destination-p2": "Zamówcie naboje z wyprzedzeniem, zwłaszcza jeśli potrzebujecie konkretnej marki, konkretnej {{term:load-weight|naważki}}, czyli wagi śrutu w naboju, albo kalibru 20. Popularne naboje mogą się skończyć w trakcie dużych zawodów. Zapytajcie, gdzie i kiedy można je odebrać.",
     "travel-cartridges-at-destination-p3": "Kupno naboi też reguluje prawo. W wielu krajach sprzedawca prosi o pokazanie zezwolenia na broń, {{term:european-firearms-pass|Europejskiej Karty Broni Palnej}} albo zezwolenia czasowego. Przepisy dla obcokrajowców mogą różnić się od tych dla mieszkańców, więc sprawdźcie to u organizatora albo na strzelnicy.",
-    "travel-cartridges-at-destination-p4": "Zawody FITASC mają przepisy dotyczące naboi, takie same w obu dyscyplinach. Nabój może mieć {{fact:gear.fitasc-shot-load}}. Śrut musi być {{fact:gear.fitasc-shot-diameter}}. Niedozwolone: naboje przeładowane (ponownie napełnione w domu) i rozpraszacze (wkładki w naboju, przez które śrut rozlatuje się szerzej). Zakazane są też: śrut mieszany (śrutki różnych rozmiarów lub rodzajów w jednym naboju), czarny proch i naboje świecące, czyli trasujące (pokazujące drogę śrutu) ({{rule:sporting:ch7-cartridges}}, {{rule:compak:ch18-cartridge-bans}}).",
+    "travel-cartridges-at-destination-p4": "Zawody FITASC mają przepisy dotyczące naboi, takie same w obu dyscyplinach. Nabój może mieć {{fact:gear.fitasc-shot-load}}. Śrut musi być {{fact:gear.fitasc-shot-diameter}}. Niedozwolone: naboje elaborowane (ponownie napełnione w domu) i rozpraszacze (wkładki w naboju, przez które śrut rozlatuje się szerzej). Zakazane są też: śrut mieszany (śrutki różnych rozmiarów lub rodzajów w jednym naboju), czarny proch i naboje smugowe (pokazujące drogę śrutu) ({{rule:sporting:ch7-cartridges}}, {{rule:compak:ch18-cartridge-bans}}).",
     "travel-cartridges-at-destination-p7": "Czytajcie etykietę na pudełku, a nieznane naboje wypróbujcie najpierw na treningu, przed zawodami. Więcej o naważce: {{lesson:cartridges-load-weight}}.",
     "travel-cartridges-at-destination-p5": "Niektóre strzelnice dopuszczają tylko {{term:steel-shot|śrut stalowy}} albo inny śrut bezołowiowy, ze względu na przepisy środowiskowe. Stal nie nadaje się do każdej broni i każdego {{term:choke|czoka}}. Poszukajcie na lufach cechy dla śrutu stalowego (małe wybite znaki pokazujące, na co przebadano broń) i zapytajcie {{term:gunsmith|rusznikarza}} ({{lesson:chokes-steel-shot}}). O takich ograniczeniach dowiedzcie się przed wyjazdem: mogą obowiązywać też w dni treningowe.",
     "travel-cartridges-at-destination-p6": "Obliczcie, ile naboi potrzebujecie, z niewielkim zapasem. Przewiezienie reszty do domu może być trudne, a w wielu krajach naboi nie można sprzedać ani przekazać innej osobie — najpierw sprawdźcie lokalne prawo. W hotelu przechowujcie naboje tak, jak wymagają przepisy kraju, i nie zostawiajcie ich w samochodzie."
@@ -43,14 +43,14 @@
   "key_points": {
     "travel-cartridges-at-destination-kp1": "Naboje na zawody zwykle kupuje się na miejscu: zamówcie z wyprzedzeniem.",
     "travel-cartridges-at-destination-kp2": "Zakup może wymagać dokumentów: sprawdźcie lokalne przepisy.",
-    "travel-cartridges-at-destination-kp3": "Przepisy FITASC: {{fact:gear.fitasc-shot-load}}, naboje przeładowane są zakazane.",
+    "travel-cartridges-at-destination-kp3": "Przepisy FITASC: {{fact:gear.fitasc-shot-load}}, naboje elaborowane są zakazane.",
     "travel-cartridges-at-destination-kp4": "Niektóre strzelnice dopuszczają tylko śrut stalowy: sprawdźcie broń i czoki.",
     "travel-cartridges-at-destination-kp5": "Obliczcie ilość tak, żeby prawie nic nie zostało."
   },
   "did_you_know": "Śrutka stalowa {{fact:gear.steel-vs-lead-weight}}, dlatego w locie szybciej traci prędkość.",
   "quiz": {
     "travel-cartridges-at-destination-q1": {
-      "q": "Czemu naboje na zawody zwykle kupuje się na miejscu?",
+      "q": "Czemu {{term:cartridge|naboje}} na zawody zwykle kupuje się na miejscu?",
       "options": {
         "a": "Bo FITASC wymaga naboi od gospodarzy",
         "b": "Bo za granicą naboje są zawsze tańsze",
@@ -65,12 +65,12 @@
         "b": "24 g ołowiu, bez tolerancji",
         "c": "32 g ołowiu, z tolerancją +5%"
       },
-      "explain": "W obu dyscyplinach limit to 28 g śrutu ołowianego z tolerancją +2%."
+      "explain": "W obu dyscyplinach limit to 28 g {{term:lead-shot|śrutu ołowianego}} z tolerancją +2%."
     },
     "travel-cartridges-at-destination-q3": {
-      "q": "Strzelnica dopuszcza tylko śrut stalowy. Co warto sprawdzić?",
+      "q": "Strzelnica dopuszcza tylko {{term:steel-shot|śrut stalowy}}. Co warto sprawdzić?",
       "options": {
-        "a": "Czy sklep sprzedaje naboje przeładowane",
+        "a": "Czy sklep sprzedaje naboje elaborowane",
         "b": "Czy wasza broń i czoki nadają się do stali",
         "c": "Czy na trening można jeszcze używać ołowiu"
       },

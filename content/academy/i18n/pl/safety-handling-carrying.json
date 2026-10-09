@@ -30,19 +30,19 @@
     "origin": null
   },
   "title": "Obchodzenie się z bronią i jej noszenie na strzelnicy",
-  "summary": "Otwarta broń, stojak na broń, pokrowiec i zasada „zapytaj, zanim dotkniesz”: jak obchodzić się z bronią między stanowiskami.",
+  "summary": "Otwarta broń, {{term:gun-rack|stojak na broń}}, {{term:gun-slip|pokrowiec}} i zasada „zapytaj, zanim dotkniesz”: jak obchodzić się z bronią między stanowiskami.",
   "body": {
     "safety-handling-carrying-p1": "Ta lekcja dodaje praktyczne szczegóły do {{lesson:safety-core-rules}}. Z każdą bronią, nawet rozładowaną, obchodzi się bardzo ostrożnie. Między stanowiskami nosi się ją otwartą: {{term:over-and-under|bok}} złamany (otwarty na zawiasie), {{term:semi-automatic|półautomat}} z otwartym zamkiem (ruchomą częścią, która podaje nabój). {{term:muzzle|Wylot lufy}} jest skierowany prosto w górę albo prosto w dół.",
     "safety-handling-carrying-p2": "Wielu strzelców nosi otwarty bok na zgięciu ramienia, z lufami w stronę ziemi. Pasy i rzemienie na broni są niedozwolone w obu dyscyplinach.",
     "safety-handling-carrying-p3": "Gdy broń nie jest potrzebna, postaw ją pionowo w {{term:gun-rack|stojaku na broń}} albo w innym miejscu, które wskazuje strzelnica. Półautomat stoi tam z otwartym zamkiem. Nie opieraj broni o samochód, drzewo czy stół: może się zsunąć i upaść.",
     "safety-handling-carrying-p4": "Między samochodem a miejscem strzelania broń przenosi się w {{term:gun-slip|pokrowcu}} albo {{term:hard-case|futerale}}. Wyjmuj ją tylko tam, gdzie pozwala na to strzelnica, a to często nie jest parking.",
-    "safety-handling-carrying-p5": "Nie dotykaj czyjejś broni bez zgody właściciela. Jeśli chcesz ją obejrzeć, zapytaj: właściciel sam ją otworzy i poda ci. Jeśli ktoś prosi, byś pokazał, że twoja broń jest rozładowana, otwórz ją i pokaż komory nabojowe. Trenerzy nazywają to „{{term:show-clear|show clear}}”.",
-    "safety-handling-carrying-p6": "Nie {{term:gun-mount|wkładaj się}} do strzału (nie podnoś broni do ramienia i policzka) i nie wodź nią, jakbyś śledził rzutek. To nazywa się {{term:mock-shooting|imitacją strzelania}}. Oba regulaminy to zabraniają, ale wyznaczają granicę w różnych miejscach.",
+    "safety-handling-carrying-p5": "Nie dotykaj czyjejś broni bez zgody właściciela. Jeśli chcesz ją obejrzeć, zapytaj: właściciel sam ją otworzy i poda ci. Jeśli ktoś prosi, byś pokazał, że twoja broń jest rozładowana, otwórz ją i pokaż {{term:chamber|komory nabojowe}}. Trenerzy nazywają to „{{term:show-clear|show clear}}”.",
+    "safety-handling-carrying-p6": "Nie podnoś broni do ramienia i policzka, czyli nie rób {{term:gun-mount|złożenia się}}, i nie wódź nią, jakbyś śledził rzutek. To nazywa się {{term:mock-shooting|imitacją strzelania}}. Oba regulaminy to zabraniają, ale wyznaczają granicę w różnych miejscach.",
     "safety-handling-carrying-mock-where": {
       "sporting": "Wszędzie na strzelnicy: poza stanowiskiem, na stanowisku przed wywołaniem rzutka i podczas pokazu rzutków.",
       "compak": "Poza stanowiskami (numerami) i wtedy, gdy strzela inny członek grupy."
     },
-    "safety-handling-carrying-mock-rule": "W {{tm:sporting}} za imitację strzelania albo przypadkowy strzał najpierw dostaje się {{term:warning|ostrzeżenie}}. Jeśli to się powtórzy, następny trafiony rzutek zapisuje się jako przepadek (zero).",
+    "safety-handling-carrying-mock-rule": "W {{tm:sporting}} za imitację strzelania albo przypadkowy strzał najpierw dostaje się {{term:warning|ostrzeżenie}}. Jeśli to się powtórzy, następny trafiony rzutek zapisuje się jako {{term:zero|chybiony}}.",
     "safety-handling-carrying-p7": "By sprawdzić, czy broń działa, skorzystaj ze stanowiska do {{term:gun-test|strzałów próbnych}}, jeśli strzelnica je ma — zwykle blisko klubu. Strzały próbne na stanowisku zawodów są niedozwolone."
   },
   "note": {},
@@ -71,10 +71,10 @@
         "b": "Opartą o samochód, zamkniętą i rozładowaną",
         "c": "Leżącą na ziemi przy stanowisku"
       },
-      "explain": "Broń stoi pionowo w stojaku albo innym wyznaczonym przez strzelnicę miejscu, żeby nie mogła upaść; półautomat stoi z otwartym zamkiem."
+      "explain": "Broń stoi pionowo w stojaku albo innym wyznaczonym przez strzelnicę miejscu, żeby nie mogła upaść; {{term:semi-automatic|półautomat}} stoi z otwartym zamkiem."
     },
     "safety-handling-carrying-q3": {
-      "q": "Gdzie można oddać strzał próbny z broni?",
+      "q": "Gdzie można oddać {{term:gun-test|strzał próbny}} z broni?",
       "options": {
         "a": "Na pierwszym stanowisku zawodów, przed serią",
         "b": "Na stanowisku do strzałów próbnych, jeśli strzelnica je ma",
@@ -89,7 +89,7 @@
         "b": "Wywołanie rzutka bez żadnego naboju w broni",
         "c": "Przyłożenie broni do ramienia i wodzenie nią za wyobrażonym rzutkiem"
       },
-      "explain": "Imitacja strzelania to złożenie się do strzału i wodzenie bronią, jakby za rzutkiem. W {{tm:sporting}} jest niedozwolona nigdzie na strzelnicy, nawet na stanowisku przed wywołaniem. W {{tm:compak}} jest niedozwolona poza stanowiskami i wtedy, gdy strzela inny członek grupy."
+      "explain": "Imitacja strzelania to {{term:gun-mount|złożenie się do strzału}} i wodzenie bronią, jakby za rzutkiem. W {{tm:sporting}} jest niedozwolona nigdzie na strzelnicy, nawet na stanowisku przed wywołaniem. W {{tm:compak}} jest niedozwolona poza stanowiskami i wtedy, gdy strzela inny członek grupy."
     }
   }
 }

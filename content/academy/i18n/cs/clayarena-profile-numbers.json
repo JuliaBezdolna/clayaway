@@ -31,16 +31,16 @@
     "origin": null
   },
   "title": "Co znamenají čísla v profilu",
-  "summary": "Úspěšnost, nejlepší výsledek, čisté položky, podíl umístění v top 10 a index výkonnosti pomáhají vidět formu střelce, ale nenahrazují samotné výsledky.",
+  "summary": "Úspěšnost, nejlepší výsledek, {{term:perfect-round|čisté položky}}, podíl umístění v top 10 a index výkonnosti pomáhají vidět formu střelce, ale nenahrazují samotné výsledky.",
   "body": {
     "clayarena-profile-numbers-p1": "{{term:shooter-profile|Profil střelce}} na ClayArena ukazuje několik čísel. Počítají se ze soutěží {{tm:sporting}} a {{tm:compak}}, které jsou na webu, a profil je může zobrazovat samostatně pro každou disciplínu. Pomáhají na první pohled vidět úroveň a stabilitu střelce.",
     "clayarena-profile-numbers-p2": "{{term:accuracy|Úspěšnost}} je podíl zasažených terčů z terčů vystřelených na soutěži. Například 150 zasažených ze 200 je 75 %. Profil může zobrazovat průměrnou úspěšnost za všechny dokončené soutěže střelce a nejvyšší úspěšnost na jedné soutěži.",
-    "clayarena-profile-numbers-p3": "{{term:best-score|Nejlepší výsledek}} je nejvyšší součet, který střelec dosáhl na jedné soutěži. Součty srovnávejte jen při stejném počtu terčů. Mezinárodní soutěž {{tm:sporting}} má {{fact:basics.international-targets}}, zatímco mnoho klubových závodů má terčů méně. Pokud se počet terčů liší, srovnávejte raději úspěšnost. Ta umožňuje srovnat různé počty terčů, ale střeliště, počasí a úroveň soutěže se stejně liší, tak ji berte jen jako přibližné vodítko.",
-    "clayarena-profile-numbers-perfect": "Čistá položka (perfect round) je série bez jediné chyby. V disciplínách FITASC to znamená {{term:round|položku}}, ve které jsou zasaženy všechny {{fact:rules.round-targets}}. Profil počítá, kolik takových sérií má střelec.",
-    "clayarena-profile-numbers-p4": "{{term:top-10-rate|Podíl umístění v top 10}} je podíl soutěží, na kterých střelec skončil v první desítce své {{term:category|kategorie}} nebo celkového pořadí. Závisí i na tom, kdo další střílí: umístit se v desítce na velké mezinárodní akci je těžší než na {{term:club-shoot|klubovém závodě}}. Malá kategorie s jen několika střelci také umístění v desítce usnadňuje.",
+    "clayarena-profile-numbers-p3": "{{term:best-score|Nejlepší výsledek}} je nejvyšší součet, který střelec dosáhl na jedné soutěži. Součty srovnávejte jen při stejném počtu terčů. Mezinárodní soutěž {{tm:sporting}} má {{fact:basics.international-targets}}, zatímco mnoho klubových závodů má terčů méně. Pokud se počet terčů liší, srovnávejte raději úspěšnost. Ta umožňuje srovnat různé počty terčů, ale {{term:layout|střeliště}}, počasí a úroveň soutěže se stejně liší, tak ji berte jen jako přibližné vodítko.",
+    "clayarena-profile-numbers-perfect": "{{term:perfect-round|Čistá položka}} je série bez jediné chyby. V disciplínách FITASC to znamená {{term:round|položku}}, ve které jsou zasaženy všechny {{fact:rules.round-targets}}. Profil počítá, kolik takových sérií má střelec.",
+    "clayarena-profile-numbers-p4": "{{term:top-10-rate|Podíl umístění v top 10}} je podíl soutěží, na kterých střelec skončil v první desítce své kategorie nebo celkového pořadí. Závisí i na tom, kdo další střílí: umístit se v desítce na velké mezinárodní akci je těžší než na {{term:club-shoot|klubovém závodě}}. Malá kategorie s jen několika střelci také umístění v desítce usnadňuje.",
     "clayarena-profile-numbers-p5": "{{term:performance-index|Index výkonnosti}} je jedno číslo, které ClayArena vypočítá z výsledků střelce v jedné disciplíně. Umožňuje sledovat vývoj v čase, aniž byste procházeli každou výsledkovou tabulku. Není to oficiální žebříček {{term:fitasc|FITASC}}.",
     "clayarena-profile-numbers-other": "V profilu můžou být i další čísla a sekce, například historie výstupů, pohled po sezónách nebo srovnání s vítězi. Jejich názvy se mohou měnit s vývojem webu, tak si přečtěte vysvětlení přímo na webu.",
-    "clayarena-profile-numbers-p6": "Čísla neříkají všechno. Některá {{term:layout|střeliště}} (sady stanovišť a terčů, které se na nich vypouštějí) jsou snadná a jiná těžká, a počasí může výsledky hodně změnit. Proto čísla z jedné soutěže říkají málo; spolehlivější jsou čísla za několik soutěží.",
+    "clayarena-profile-numbers-p6": "Čísla neříkají všechno. Některá střeliště (sady stanovišť a terčů, které se na nich vypouštějí) jsou snadná a jiná těžká, a počasí může výsledky hodně změnit. Proto čísla z jedné soutěže říkají málo; spolehlivější jsou čísla za několik soutěží.",
     "clayarena-profile-numbers-p7": "Pro začátečníka je užitečné číst profil tak, že se srovnává sám se sebou: jak se vaše úspěšnost změnila za sezónu. Srovnávat se se silnými střelci může být zajímavé, ale o vašem vlastním pokroku to říká málo."
   },
   "note": {},
@@ -81,7 +81,7 @@
       "explain": "Proto jsou spolehlivější čísla za několik soutěží."
     },
     "clayarena-profile-numbers-q4": {
-      "q": "Co je čistá položka?",
+      "q": "Co je {{term:perfect-round|čistá položka}}?",
       "options": {
         "a": "Série bez jediné chyby",
         "b": "Položka odstřílená do hodiny",
@@ -96,7 +96,7 @@
         "b": "Úspěšnost: oba výsledky 90 %",
         "c": "Nic"
       },
-      "explain": "Při různém počtu terčů srovnávejte úspěšnost, ne součty. Střeliště, počasí i úroveň soutěže se stejně liší, tak to berte jako přibližné vodítko."
+      "explain": "Při různém počtu terčů srovnávejte úspěšnost, ne součty. {{term:layout|Střeliště}}, počasí i úroveň soutěže se stejně liší, tak to berte jako přibližné vodítko."
     }
   }
 }

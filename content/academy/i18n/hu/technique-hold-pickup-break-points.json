@@ -36,11 +36,11 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "basics-three-points-p1": "Minden korong előtt a lövész három pontot jelöl ki. Az első a {{term:pick-up-point|korongfelvételi pont}} (pick-up point): ott látja a szem először tisztán a korongot. Kicsit távolabb van a dobógéptől, nem rögtön mellette, ahol a korong még csak elmosódott folt. A második a {{term:hold-point|fegyvertartási pont}} (hold point): ott várnak a csövek a korong kérésekor, általában a korong vonalán vagy kicsivel alatta, a felvételi pont és a lövési pont között. A harmadik a {{term:break-point|lövési pont}} (break point): ott akarja a lövész eltalálni a korongot.",
+    "basics-three-points-p1": "Minden korong előtt a lövész három pontot jelöl ki. Az első a {{term:pick-up-point|korongfelvételi pont}}: ott látja a szem először tisztán a korongot. Kicsit távolabb van a dobógéptől, nem rögtön mellette, ahol a korong még csak elmosódott folt. A második a {{term:hold-point|fegyvertartási pont}}: ott várnak a csövek a korong kérésekor, általában a korong vonalán vagy kicsivel alatta, a felvételi pont és a lövési pont között. A harmadik a {{term:break-point|lövési pont}}: ott akarja a lövész eltalálni a korongot.",
     "basics-three-points-p2": "A tervezés sorrendje: először válaszd ki a lövési pontot, és állítsd be hozzá a lábaidat. Aztán fordulj vissza a felsőtesteddel, és irányítsd a csöveket a fegyvertartási pontra. Végül tedd a szemed a korongfelvételi pontra. A {{tm:sporting}}-ban a tus addig lent marad, amíg a korong meg nem jelenik, így ott a fegyvertartási pont egyszerűen azt jelenti, hová mutatnak a csövek, amíg a fegyver lent van.",
     "basics-three-points-p3": "Tipikus hibák a lövési ponttal: ha túl messze van, a mozdulat gyors és kontrollálatlan lesz, vagy a korong már esik. Ha túl közel van, túl kevés a mozgás: a lövész „böki” a korongot, lassan rámutat a fegyverrel, mint egy puskával, a lendítés helyett. A fegyvertartási ponttal: ha túl közel van a dobógéphez, a korong megelőzi a csöveket, és a fegyvernek kergetnie kell azt. Ha túl messze van, túl kevés hely marad a koronggal való mozgásra, és a lövész böki vagy megállítja a fegyvert.",
-    "technique-hold-pickup-break-points-p3": "A pontos tartási pont a korongtól és az alkalmazott lead-módtól függ. {{term:maintained-lead|Elévezetésnél}} (a csövek egész idő alatt a korong előtt vannak) általában messzebb van a vonalon. {{term:swing-through|Áthúzásnál}} (a csövek a korong mögött indulnak, és megelőzik) közelebb van a dobógéphez. A lövési pontot ott válaszd, ahol a korongot tisztán és egyenletesen látod, még mielőtt a fák mögé esne. Mindhárom pont beállításában segít az edződ.",
-    "basics-three-points-p4": "A korongot „kiolvasod” – meghatározod a vonalát, sebességét és távolságát –, amíg a lövés előtt megmutatják ({{term:target-presentation|bemutatás}}). A {{tm:sporting}}-ban a bíró minden röppályát megmutat a csoport első lövészének. Kérésre a lőálláson álló lövész a kotta minden korongját újra láthatja, legfeljebb kétszer. A {{tm:compak}}-ban rotténként a szóló korongokat, majd a szimultán dubléket csak egyszer mutatják meg naponta, reggel, az első rottének. {{fact:rules.reshow-after-interruption}} szünet után a szóló korongokat újra megmutatják. Többet a bemutatásról: {{lesson:rules-viewing-targets}}.",
+    "technique-hold-pickup-break-points-p3": "A pontos tartási pont a korongtól és az alkalmazott lead-módtól függ. {{term:maintained-lead|Elévezetésnél}} – a csövek egész idő alatt a korong előtt vannak – általában messzebb van a vonalon. {{term:swing-through|Áthúzásnál}} – a csövek a korong mögött indulnak, és megelőzik – közelebb van a dobógéphez. A lövési pontot ott válaszd, ahol a korongot tisztán és egyenletesen látod, még mielőtt a fák mögé esne. Mindhárom pont beállításában segít az edződ.",
+    "basics-three-points-p4": "A korongot „kiolvasod” – meghatározod a vonalát, sebességét és távolságát –, amíg a lövés előtt megmutatják – {{term:target-presentation|bemutatás}}. A {{tm:sporting}}-ban a bíró minden röppályát megmutat a csoport első lövészének. Kérésre a lőálláson álló lövész a {{term:target-menu|kotta}} minden korongját újra láthatja, legfeljebb kétszer. A {{tm:compak}}-ban rotténként a szóló korongokat, majd a {{term:simultaneous-double|szimultán dubléket}} csak egyszer mutatják meg naponta, reggel, az első rottének. {{fact:rules.reshow-after-interruption}} szünet után a szóló korongokat újra megmutatják. Többet a bemutatásról: {{lesson:rules-viewing-targets}}.",
     "technique-hold-pickup-break-points-limit": "A {{tm:sporting}}-ban rajtad áll, hogy minden korongot ott törj el, ahol a bíró látja. Figyelj a {{term:shooting-limit|lőterület határára}}: az ezen túl vagy egy természetes akadály mögött eltalált korongot nem számítják. Ezt egyedül a bíró dönti el, és a döntése nem fellebbezhető.",
     "basics-three-points-sim": "Animáció: a feliratok mutatják a korongfelvételi pontot, a fegyvertartási pontot és a lövési pontot; a korong a lövési pontnál törik szét."
   },
@@ -91,7 +91,7 @@
         "c": "A fegyvernek majdnem nincs hova mozdulnia",
         "d": "A korong lelassul"
       },
-      "explain": "A dobógép közelében a korong teljes sebességgel húz el a csövek mellett, így a fegyvernek kergetnie kell. A mozgási hely hiánya a túl messzire helyezett fegyvertartási pont problémája."
+      "explain": "A {{term:trap|dobógép}} közelében a korong teljes sebességgel húz el a csövek mellett, így a fegyvernek kergetnie kell. A mozgási hely hiánya a túl messzire helyezett fegyvertartási pont problémája."
     },
     "basics-three-points-q3": {
       "q": "A {{tm:sporting}}-ban a lőálláson álló lövész újra kéri a bemutatást. Legfeljebb mennyi jár egy korongra a kottából?",
@@ -104,7 +104,7 @@
       "explain": "A bíró kérésre újra megmutatja, de legfeljebb kétszer minden korongra a kottából."
     },
     "technique-hold-pickup-break-points-q1": {
-      "q": "Mi a fegyvertartási pont (hold point)?",
+      "q": "Mi a {{term:hold-point|fegyvertartási pont}}?",
       "options": {
         "a": "Ahol a csövek várnak, amikor kéred a korongot",
         "b": "Ahol a töltényeket tartják",

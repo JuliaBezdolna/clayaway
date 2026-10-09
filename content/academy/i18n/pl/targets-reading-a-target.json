@@ -29,16 +29,16 @@
     "origin": null
   },
   "title": "Jak „przeczytać” rzutek",
-  "summary": "Na co zwracać uwagę podczas pokazu rzutków: skąd rzutek się pojawia, dokąd leci, gdzie go rozbijesz i czego nie można robić.",
+  "summary": "Na co zwracać uwagę podczas {{term:target-presentation|pokazu rzutków}}: skąd rzutek się pojawia, dokąd leci, gdzie go rozbijesz i czego nie można robić.",
   "body": {
     "targets-reading-a-target-p1": "„Przeczytać” rzutek znaczy zrozumieć, jeszcze przed strzałem, jak on leci: skąd się pojawia, jak szybko się rusza, gdzie zakręca, wznosi się czy opada. Doświadczeni strzelcy robią to na każdym stanowisku, i to często decyduje o różnicy między trafieniem a pudłem. Ma to znaczenie tak samo w {{tm:sporting}}, jak i w {{tm:compak}}.",
-    "targets-reading-a-target-p2": "Zacznij od {{term:target-menu|menu rzutków}}: które wyrzutnie, w jakiej kolejności i czy są rzutki specjalne. Potem uważnie obejrzyj {{term:target-presentation|pokaz rzutków}} (presentation). W {{tm:sporting}} rzutki stanowiska pokazuje się przed strzelaniem pierwszemu strzelcowi grupy. Dubletów po strzale nie pokazuje się. {{tm:compak}} ma własny sposób pokazywania rzutków. Szczegóły są w lekcji {{lesson:rules-viewing-targets}}.",
-    "targets-reading-a-target-p3": "Zadaj sobie proste pytania. Gdzie pierwszy raz widzę rzutek wyraźnie? To twój {{term:pick-up-point|punkt podjęcia rzutka}} (pick-up point), od którego oczy zaczynają go śledzić. Gdzie najłatwiej go rozbić? To twój {{term:break-point|punkt strzału}} (break point). Tam rzutek powinien być jeszcze dobrze widoczny — nie opadać za drzewa i nie lecieć poza {{term:shooting-limit|granicę strzelania}}.",
-    "targets-reading-a-target-points": "Jak razem działają {{term:hold-point|punkt wyjściowy lufy}} (hold point), punkt podjęcia rzutka i punkt strzału, wyjaśnia lekcja {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p2": "Zacznij od {{term:target-menu|menu rzutków}}: które {{term:trap|wyrzutnie}}, w jakiej kolejności i czy są rzutki specjalne. Potem uważnie obejrzyj {{term:target-presentation|pokaz rzutków}}. W {{tm:sporting}} rzutki stanowiska pokazuje się przed strzelaniem pierwszemu strzelcowi grupy. {{term:double-on-report|Dubletów po strzale}} nie pokazuje się. {{tm:compak}} ma własny sposób pokazywania rzutków. Szczegóły są w lekcji {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Zadaj sobie proste pytania. Gdzie pierwszy raz widzę rzutek wyraźnie? To twój {{term:pick-up-point|punkt podjęcia rzutka}}, od którego oczy zaczynają go śledzić. Gdzie najłatwiej go rozbić? To twój {{term:break-point|punkt strzału}}. Tam rzutek powinien być jeszcze dobrze widoczny — nie opadać za drzewa i nie lecieć poza {{term:shooting-limit|granicę strzelania}}.",
+    "targets-reading-a-target-points": "Jak razem działają {{term:hold-point|punkt wyjściowy lufy}}, punkt podjęcia rzutka i punkt strzału, wyjaśnia lekcja {{lesson:technique-hold-pickup-break-points}}.",
     "targets-reading-a-target-p4": "Zwróć uwagę na prędkość, odległość i kąt, a także na to, co rzutek robi: wznosi się, zwalnia czy opada. Wiatr może podnieść rzutek albo go zepchnąć, a ciemna linia drzew lub jasne niebo zmieniają to, jak go widzisz. Rzutek, który zwalnia, potrzebuje mniejszego {{term:lead|wyprzedzenia}} niż ten lecący z pełną prędkością.",
     "targets-reading-a-target-p5": "Obserwuj, jak strzelają inni, ale myśl własną głową: każdy strzelec ma swoje tempo. Podczas pokazu rzutków wielu trenerów radzi śledzić je tylko oczami.",
     "targets-reading-a-target-mock": {
-      "sporting": "Niedozwolone nigdzie na strzelnicy. Pierwszy raz sędzia daje ostrzeżenie. Jeśli zrobisz to ponownie, twój następny trafiony rzutek liczy się jako pudło (zero).",
+      "sporting": "Niedozwolone nigdzie na strzelnicy. Pierwszy raz sędzia daje ostrzeżenie. Jeśli zrobisz to ponownie, twój następny trafiony rzutek liczy się jako {{term:zero|pudło}}.",
       "compak": "Niedozwolone poza stanowiskami strzeleckimi albo gdy strzela inny członek grupy. Podczas pokazu rzutków broń jest otwarta i rozładowana."
     },
     "targets-reading-a-target-p6": "Trajektorie {{tm:sporting}} mają {{term:difficulty-class|klasy trudności}}: {{fact:targets.sporting-difficulty-classes}}. Nie zniechęcaj się, jeśli nie trafisz rzutka klasy C: ma być trudny. Czytanie rzutków łatwiej opanować z wykwalifikowanym trenerem, który pokaże, na co patrzeć."
@@ -49,22 +49,22 @@
     "targets-reading-a-target-kp1": "Najpierw menu, potem uważnie obejrzyj pokaz rzutków.",
     "targets-reading-a-target-kp2": "Znajdź punkt podjęcia rzutka, gdzie pierwszy raz widzisz go wyraźnie, i punkt strzału, gdzie go rozbijesz.",
     "targets-reading-a-target-kp3": "Zwróć uwagę na prędkość, kąt, wiatr, tło i to, czy rzutek zwalnia.",
-    "targets-reading-a-target-kp4": "Śledź oczami; w {{tm:sporting}} ćwiczenia celowania są niedozwolone nigdzie na strzelnicy, w {{tm:compak}} — poza stanowiskami i gdy strzela ktoś inny.",
+    "targets-reading-a-target-kp4": "Śledź oczami; w {{tm:sporting}} {{term:mock-shooting|ćwiczenia celowania}} są niedozwolone nigdzie na strzelnicy, w {{tm:compak}} — poza stanowiskami i gdy strzela ktoś inny.",
     "targets-reading-a-target-kp5": "Klasy trudności {{tm:sporting}}: {{fact:targets.sporting-difficulty-classes}}."
   },
-  "did_you_know": "W {{tm:sporting}} dubletów po strzale nie pokazuje się, ale oba rzutki już widziałeś: dublety składa się tylko z rzutków pokazanych jako pojedyncze z tego samego stanowiska.",
+  "did_you_know": "W {{tm:sporting}} dubletów po strzale nie pokazuje się, ale oba rzutki już widziałeś: {{term:double|dublety}} składa się tylko z rzutków pokazanych jako pojedyncze z tego samego stanowiska.",
   "quiz": {
     "targets-reading-a-target-q1": {
-      "q": "Co to punkt strzału (break point)?",
+      "q": "Co to {{term:break-point|punkt strzału}}?",
       "options": {
         "a": "Miejsce, gdzie planujesz rozbić rzutek",
         "b": "Miejsce, gdzie stoi wyrzutnia, która go wyrzuca",
         "c": "Miejsce, gdzie rzutek pada na ziemię"
       },
-      "explain": "Punkt strzału (break point) to miejsce na trajektorii, które wybierasz z wyprzedzeniem."
+      "explain": "{{term:break-point|Punkt strzału}} to miejsce na trajektorii, które wybierasz z wyprzedzeniem."
     },
     "targets-reading-a-target-q2": {
-      "q": "Czy w {{tm:sporting}} podczas pokazu rzutków można złożyć broń i prowadzić nią po linii rzutka?",
+      "q": "Czy w {{tm:sporting}} podczas {{term:target-presentation|pokazu rzutków}} można złożyć broń i prowadzić nią po linii rzutka?",
       "options": {
         "a": "Tak, to dobre przygotowanie",
         "b": "Nie, to ćwiczenia celowania",

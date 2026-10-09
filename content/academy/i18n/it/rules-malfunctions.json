@@ -44,23 +44,27 @@
     "compak-malfunctions-q2": "6d7c5bb8",
     "compak-malfunctions-q3": "33252bbe"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Malfunzionamenti del fucile o della cartuccia",
-  "summary": "Cosa fare quando il fucile non spara, e come viene conteggiato un malfunzionamento nel {{tm:sporting}} e nel {{tm:compak}}.",
+  "summary": "Cosa fare quando il fucile non spara, e come viene conteggiato un {{term:malfunction|malfunzionamento}} nel {{tm:sporting}} e nel {{tm:compak}}.",
   "body": {
-    "sporting-malfunctions-p1": "Un {{term:malfunction|malfunzionamento}} è un guasto del fucile o della cartuccia: un colpo mancato, una seconda canna che non spara, oppure entrambe le canne che sparano insieme ({{term:double-discharge|doppia scarica}}).",
-    "sporting-malfunctions-p2": "Prima di tutto, cosa deve fare il tiratore: restate dove siete, con il fucile puntato verso il campo. Non apritelo e non toccate la {{term:safety-catch|sicura}} finché l'arbitro non lo ha esaminato. Aprire il fucile o toccare la sicura prima significa che il piattello o i piattelli valgono zero. Non cercate di smontare un fucile carico sulla pedana.",
-    "safety-malfunction-p3": "Perché non aprire subito il fucile? A volte una cartuccia parte in ritardo, una frazione di secondo o più dopo che è stato premuto il grilletto: un {{term:hang-fire|colpo ritardato}}. Se in quel momento il fucile è aperto o punta di lato, è pericoloso. Quindi in allenamento senza arbitro, aspettate con il fucile puntato in direzione sicura prima di aprirlo; il vostro istruttore o il regolamento del campo vi diranno quanto aspettare.",
+    "sporting-malfunctions-p1": "Un {{term:malfunction|malfunzionamento}} è un guasto del fucile o della cartuccia: un colpo mancato, una seconda {{term:barrel|canna}} che non spara, oppure entrambe le canne che sparano insieme — {{term:double-discharge|doppia scarica}}.",
+    "sporting-malfunctions-p2": "Prima di tutto, cosa deve fare il tiratore: restate dove siete, con il fucile puntato verso il campo. Non apritelo e non toccate la {{term:safety-catch|sicura}} finché il {{term:referee|arbitro}} non lo ha esaminato. Aprire il fucile o toccare la sicura prima significa che il piattello o i piattelli valgono zero. Non cercate di smontare un fucile carico sulla pedana.",
+    "safety-malfunction-p3": "Perché non aprire subito il fucile? A volte una cartuccia parte in ritardo, una frazione di secondo o più dopo che è stato premuto il {{term:trigger|grilletto}}: un {{term:hang-fire|colpo ritardato}}. Se in quel momento il fucile è aperto o punta di lato, è pericoloso. Quindi in allenamento senza arbitro, aspettate con il fucile puntato in direzione sicura prima di aprirlo; il vostro istruttore o il regolamento del campo vi diranno quanto aspettare.",
     "rules-malfunctions-cmp1": {
-      "sporting": "Per {{term:round|serie}} di {{fact:rules.round-targets}}. Il primo incidente è un No bird con un avvertimento, e il piattello si ripete. Dal secondo, il piattello non si ripete più ma vale zero.",
-      "compak": "Per serie di {{fact:rules.round-targets}}. Il primo incidente è un No bird con un {{term:yellow-card|cartellino giallo}}. Un secondo dello stesso tipo porta un {{term:red-card|cartellino rosso}}, e i piattelli a cui non si è sparato valgono zero."
+      "sporting": "Per {{term:round|serie}} di {{fact:rules.round-targets}}. Il primo incidente è un No bird con un {{term:warning|avvertimento}}, e il piattello si ripete. Dal secondo, il piattello non si ripete più ma vale zero.",
+      "compak": "Per {{term:round|serie}} di {{fact:rules.round-targets}}. Il primo incidente è un No bird con uno {{term:yellow-card|cartellino giallo}}. Un secondo dello stesso tipo porta un {{term:red-card|cartellino rosso}}, e i piattelli a cui non si è sparato valgono zero."
     },
-    "sporting-malfunctions-p4": "Il vostro primo malfunzionamento nella serie, caso per caso. (1) Il primo colpo non parte: tirate di nuovo il singolo o il doppio. Se avete comunque sparato il secondo colpo, quel risultato conta. (2) Su un singolo, il secondo colpo non parte: lo tirate di nuovo, e nella ripetizione conta solo una rottura con il secondo colpo. Quindi sbagliate di proposito il primo colpo. (3) Entrambe le canne sparano insieme su un singolo, o sul primo piattello di un doppio: No bird, non si registra nulla, e tirate di nuovo. Come si ripete ciascun tipo di doppio è nella guida alle regole ({{rule:sporting:ch6-malfunction-second-shot}}).",
-    "sporting-malfunctions-p5": "Se il fucile viene riparato prima che la batteria finisca la pedana, potete tirare la pedana per ultimi, con il permesso dell'arbitro. Se non si può riparare, potete passare subito a un altro fucile, con l'accordo dell'arbitro, oppure finire più tardi in un'altra batteria se la giuria lo permette. Salvo il caso di un malfunzionamento, non potete cambiare fucile, strozzatore o canne una volta in pedana.",
-    "compak-malfunctions-p3": "Il vostro primo malfunzionamento nella serie. Se entrambe le canne sparano insieme o la prima cartuccia non parte, il singolo o il doppio viene lanciato di nuovo, e il tentativo fallito non conta nulla. Se la seconda cartuccia non parte su un singolo, il piattello viene lanciato di nuovo, ma solo il secondo colpo può farlo valere. Quindi sbagliate di proposito il primo colpo. Per i doppi, vedi la guida alle regole ({{rule:compak:ch20-gun-failure-second-shot}}).",
-    "compak-malfunctions-p4": "Dopo un malfunzionamento avete {{fact:rules.compak-repair-time}} per rimettere in funzione il fucile o sostituirlo. In via eccezionale, potete farvi prestare un fucile da qualcuno fuori dalla vostra batteria o gruppo, con l'accordo del proprietario e dell'arbitro. Senza un fucile funzionante, i piattelli rimanenti valgono zero. Per il resto, fucile, strozzatore o canne non si possono cambiare all'interno di una serie.",
+    "sporting-malfunctions-p4": "Il vostro primo malfunzionamento nella serie, caso per caso. (1) Il primo colpo non parte: tirate di nuovo il singolo o il {{term:double|doppio}}. Se avete comunque sparato il secondo colpo, quel risultato conta. (2) Su un singolo, il secondo colpo non parte: lo tirate di nuovo, e nella ripetizione conta solo una rottura con il secondo colpo. Quindi sbagliate di proposito il primo colpo. (3) Entrambe le canne sparano insieme su un singolo, o sul primo piattello di un doppio: No bird, non si registra nulla, e tirate di nuovo. Come si ripete ciascun tipo di doppio è nella guida alle regole ({{rule:sporting:ch6-malfunction-second-shot}}).",
+    "sporting-malfunctions-p5": "Se il fucile viene riparato prima che la {{term:squad|batteria}} finisca la pedana, potete tirare la pedana per ultimi, con il permesso dell'arbitro. Se non si può riparare, potete passare subito a un altro fucile, con l'accordo dell'arbitro, oppure finire più tardi in un'altra batteria se la {{term:jury|giuria}} lo permette. Salvo il caso di un malfunzionamento, non potete cambiare fucile, {{term:choke|strozzatore}} o canne una volta in pedana.",
+    "compak-malfunctions-p3": "Il vostro primo malfunzionamento nella serie. Se entrambe le canne sparano insieme o la prima cartuccia non parte, il singolo o il {{term:double|doppio}} viene lanciato di nuovo, e il tentativo fallito non conta nulla. Se la seconda cartuccia non parte su un singolo, il piattello viene lanciato di nuovo, ma solo il secondo colpo può farlo valere. Quindi sbagliate di proposito il primo colpo. Per i doppi, vedi la guida alle regole ({{rule:compak:ch20-gun-failure-second-shot}}).",
+    "compak-malfunctions-p4": "Dopo un malfunzionamento avete {{fact:rules.compak-repair-time}} per rimettere in funzione il fucile o sostituirlo. In via eccezionale, potete farvi prestare un fucile da qualcuno fuori dalla vostra {{term:squad|batteria}} o gruppo, con l'accordo del proprietario e dell'arbitro. Senza un fucile funzionante, i piattelli rimanenti valgono zero. Per il resto, fucile, {{term:choke|strozzatore}} o canne non si possono cambiare all'interno di una serie.",
     "compak-malfunctions-p5": "La {{term:rabbit|lepre}} è il piattello che rotola sul terreno. In entrambe le discipline, se la mancate con il primo colpo e poi si rompe da sola prima del vostro secondo colpo, è un No bird. Può succedere quando urta una pietra. Nella ripetizione conta solo il secondo colpo, come dopo un malfunzionamento al secondo colpo.",
-    "rules-malfunctions-p7": "Controllate il fucile e le cartucce prima della serie, sul {{term:gun-test|banco di prova}} vicino al clubhouse, se c'è. I colpi di prova sulla pedana di tiro non sono permessi in nessuna delle due discipline."
+    "rules-malfunctions-p7": "Controllate il fucile e le cartucce prima della {{term:round|serie}}, sul {{term:gun-test|banco di prova}} vicino al clubhouse, se c'è. I colpi di prova sulla pedana di tiro non sono permessi in nessuna delle due discipline."
   },
   "note": {
     "rules-malfunctions-n1": "Trasmettete subito e alla lettera le parole dell'arbitro: «resti lì, non apra il fucile». Spiegate le ragioni solo dopo il controllo."
@@ -100,9 +104,9 @@
     }
   },
   "key_points": {
-    "sporting-malfunctions-kp1": "Dopo un guasto, restate fermi con il fucile chiuso e puntato verso il campo; aprirlo prima del controllo dell'arbitro costa il piattello.",
-    "sporting-malfunctions-kp2": "Primo incidente in una serie: No bird e avvertimento (nel {{tm:compak}}, cartellino giallo).",
-    "compak-malfunctions-kp1": "Secondo incidente nella stessa serie: nessuna ripetizione. Nel {{tm:sporting}} il piattello vale zero. Nel {{tm:compak}} un secondo guasto dello stesso tipo porta un cartellino rosso, e i piattelli a cui non si è sparato valgono zero.",
+    "sporting-malfunctions-kp1": "Dopo un guasto, restate fermi con il fucile chiuso e puntato verso il campo; aprirlo prima del controllo del {{term:referee|arbitro}} costa il piattello.",
+    "sporting-malfunctions-kp2": "Primo incidente in una serie: No bird e {{term:warning|avvertimento}} — nel {{tm:compak}}, {{term:yellow-card|cartellino giallo}}.",
+    "compak-malfunctions-kp1": "Secondo incidente nella stessa serie: nessuna ripetizione. Nel {{tm:sporting}} il piattello vale zero. Nel {{tm:compak}} un secondo guasto dello stesso tipo porta un {{term:red-card|cartellino rosso}}, e i piattelli a cui non si è sparato valgono zero.",
     "sporting-malfunctions-kp4": "Il secondo colpo non parte su un singolo: nella ripetizione conta solo una rottura con il secondo colpo.",
     "rules-malfunctions-kp5": "{{tm:compak}}: {{fact:rules.compak-repair-time}} per riparare il fucile o sostituirlo."
   },
@@ -110,67 +114,125 @@
   "quiz": {
     "rules-malfunctions-q1": {
       "q": "La vostra cartuccia non parte. Cosa fate prima di tutto?",
-      "options": { "a": "Aprire il fucile e controllare la cartuccia", "b": "Ricaricare subito e richiamare", "c": "Restare fermi, fucile chiuso, e aspettare l'arbitro" },
+      "options": {
+        "a": "Aprire il fucile e controllare la cartuccia",
+        "b": "Ricaricare subito e richiamare",
+        "c": "Restare fermi, fucile chiuso, e aspettare il arbitro"
+      },
       "explain": "Aprire il fucile o toccare la sicura prima del controllo dell'arbitro significa che il piattello vale zero."
     },
     "rules-malfunctions-q2": {
-      "q": "Nel {{tm:sporting}}, succede un secondo malfunzionamento del fucile nella stessa serie, su un singolo. Qual è il risultato?",
-      "options": { "a": "Zero", "b": "No bird", "c": "Uno" },
+      "q": "Nel {{tm:sporting}}, succede un secondo {{term:malfunction|malfunzionamento}} del fucile nella stessa {{term:round|serie}}, su un singolo. Qual è il risultato?",
+      "options": {
+        "a": "Zero",
+        "b": "No bird",
+        "c": "Uno"
+      },
       "explain": "Solo il primo malfunzionamento in una serie è un No bird; dal secondo, il piattello vale zero."
     },
     "rules-malfunctions-q3": {
       "q": "Quanto tempo avete nel {{tm:compak}} per riparare o sostituire il fucile?",
-      "options": { "a": "30 secondi", "b": "2 minuti", "c": "10 minuti" },
+      "options": {
+        "a": "30 secondi",
+        "b": "2 minuti",
+        "c": "10 minuti"
+      },
       "explain": "Avete {{fact:rules.compak-repair-time}}; senza un fucile funzionante, i piattelli non tirati valgono zero."
     },
     "safety-malfunction-q1": {
-      "q": "In allenamento, senza arbitro, il fucile scatta ma non spara. Cosa dovete fare?",
-      "options": { "a": "Aprirlo subito e guardare", "b": "Tenerlo puntato in direzione sicura e aspettare prima di aprirlo", "c": "Girarvi e mostrarlo all'istruttore" },
-      "explain": "Una cartuccia può partire in ritardo (un colpo ritardato), quindi tenete la volata in direzione sicura e aspettate prima di aprire il fucile. Il vostro istruttore o il regolamento del campo diranno quanto aspettare."
+      "q": "In allenamento, senza {{term:referee|arbitro}}, il fucile scatta ma non spara. Cosa dovete fare?",
+      "options": {
+        "a": "Aprirlo subito e guardare",
+        "b": "Tenerlo puntato in direzione sicura e aspettare prima di aprirlo",
+        "c": "Girarvi e mostrarlo all'istruttore"
+      },
+      "explain": "Una cartuccia può partire in ritardo — un {{term:hang-fire|colpo ritardato}} —, quindi tenete la {{term:muzzle|volata}} in direzione sicura e aspettate prima di aprire il fucile. Il vostro istruttore o il regolamento del campo diranno quanto aspettare."
     },
     "safety-malfunction-q2": {
-      "q": "Dopo un colpo mancato, inserite la sicura prima che l'arbitro abbia guardato il fucile. Cosa succede?",
-      "options": { "a": "Il piattello vale zero", "b": "Ricevete un piattello extra", "c": "Niente: il fucile è più sicuro" },
+      "q": "Dopo un colpo mancato, inserite la sicura prima che il {{term:referee|arbitro}} abbia guardato il fucile. Cosa succede?",
+      "options": {
+        "a": "Il piattello vale zero",
+        "b": "Ricevete un piattello extra",
+        "c": "Niente: il fucile è più sicuro"
+      },
       "explain": "Toccare la sicura prima del controllo dell'arbitro costa il piattello, proprio come aprire il fucile. Aspettate, fucile puntato verso il campo."
     },
     "safety-malfunction-q3": {
       "q": "Perché un fucile che si è inceppato non si apre subito?",
-      "options": { "a": "Per non sporcare la cartuccia", "b": "Perché la cartuccia potrebbe partire in ritardo", "c": "Perché fa più bella figura" },
-      "explain": "Un colpo ritardato è raro ma pericoloso, quindi il fucile deve restare puntato in direzione sicura."
+      "options": {
+        "a": "Per non sporcare la cartuccia",
+        "b": "Perché la cartuccia potrebbe partire in ritardo",
+        "c": "Perché fa più bella figura"
+      },
+      "explain": "Un {{term:hang-fire|colpo ritardato}} è raro ma pericoloso, quindi il fucile deve restare puntato in direzione sicura."
     },
     "competitions-scoring-basics-q2": {
-      "q": "{{tm:sporting}}: il vostro fucile si guasta su una pedana (primo incidente), e viene riparato mentre la vostra batteria sta ancora tirando su quella pedana. Cosa potete fare?",
-      "options": { "a": "Tirare la pedana per ultimi, se l'arbitro lo permette", "b": "Niente: i piattelli rimanenti valgono zero", "c": "Tirarla il giorno dopo" },
+      "q": "{{tm:sporting}}: il vostro fucile si guasta su una pedana (primo incidente), e viene riparato mentre la vostra {{term:squad|batteria}} sta ancora tirando su quella pedana. Cosa potete fare?",
+      "options": {
+        "a": "Tirare la pedana per ultimi, se il arbitro lo permette",
+        "b": "Niente: i piattelli rimanenti valgono zero",
+        "c": "Tirarla il giorno dopo"
+      },
       "explain": "Se il fucile viene riparato prima che la batteria finisca la pedana, potete tirarla per ultimi, con il permesso dell'arbitro."
     },
     "sporting-malfunctions-q1": {
-      "q": "Primo problema al fucile della serie: su un singolo, la prima cartuccia non parte. Il tiratore aspetta l'arbitro, fucile puntato verso il campo. Decisione?",
-      "options": { "a": "Zero", "b": "No bird e un avvertimento", "c": "Uno", "d": "Cartellino giallo e zero" },
+      "q": "Primo problema al fucile della {{term:round|serie}}: su un singolo, la prima cartuccia non parte. Il tiratore aspetta il {{term:referee|arbitro}}, fucile puntato verso il campo. Decisione?",
+      "options": {
+        "a": "Zero",
+        "b": "No bird e un {{term:warning|avvertimento}}",
+        "c": "Uno",
+        "d": "{{term:yellow-card|Cartellino giallo}} e zero"
+      },
       "explain": "In una serie, il primo incidente con il fucile o le munizioni è un No bird con un avvertimento, e il singolo si ripete."
     },
     "sporting-malfunctions-q2": {
-      "q": "La cartuccia non parte e il tiratore, seccato, apre il fucile per guardare l'innesco prima che arrivi l'arbitro. Decisione?",
-      "options": { "a": "No bird", "b": "Il piattello si ripete dopo un avvertimento", "c": "Zero", "d": "Cartellino rosso e il piattello si ripete" },
+      "q": "La cartuccia non parte e il tiratore, seccato, apre il fucile per guardare il {{term:primer|innesco}} prima che arrivi il {{term:referee|arbitro}}. Decisione?",
+      "options": {
+        "a": "No bird",
+        "b": "Il piattello si ripete dopo un {{term:warning|avvertimento}}",
+        "c": "Zero",
+        "d": "{{term:red-card|Cartellino rosso}} e il piattello si ripete"
+      },
       "explain": "Aprire il fucile o toccare la sicura prima del controllo dell'arbitro significa che il piattello vale zero."
     },
     "sporting-malfunctions-q3": {
       "q": "Singolo, primo incidente: il primo colpo sbaglia e la seconda cartuccia non parte, quindi il piattello si ripete. Nella ripetizione il tiratore lo rompe con il primo colpo. Decisione?",
-      "options": { "a": "Uno", "b": "Di nuovo No bird", "c": "Uno, con avvertimento", "d": "Zero" },
+      "options": {
+        "a": "Uno",
+        "b": "Di nuovo No bird",
+        "c": "Uno, con avvertimento",
+        "d": "Zero"
+      },
       "explain": "Dopo un guasto al secondo colpo, il singolo ripetuto può essere rotto solo con il secondo colpo, quindi il primo deve essere un errore volontario."
     },
     "compak-malfunctions-q1": {
-      "q": "Primo incidente della serie nel {{tm:compak}}: la prima cartuccia non parte su un singolo. Il tiratore aspetta correttamente. Decisione?",
-      "options": { "a": "No bird e un cartellino giallo", "b": "Zero, senza ripetizione", "c": "Cartellino rosso e zero", "d": "Uno, il colpo è valido" },
-      "explain": "Il primo incidente di fucile o cartuccia in una serie è un No bird con un primo avvertimento mostrato con un cartellino giallo."
+      "q": "Primo incidente della {{term:round|serie}} nel {{tm:compak}}: la prima cartuccia non parte su un singolo. Il tiratore aspetta correttamente. Decisione?",
+      "options": {
+        "a": "No bird e uno {{term:yellow-card|cartellino giallo}}",
+        "b": "Zero, senza ripetizione",
+        "c": "{{term:red-card|Cartellino rosso}} e zero",
+        "d": "Uno, il colpo è valido"
+      },
+      "explain": "Il primo incidente di fucile o cartuccia in una serie è un No bird con un primo {{term:warning|avvertimento}} mostrato con un cartellino giallo."
     },
     "compak-malfunctions-q2": {
-      "q": "Il fucile di un tiratore si guasta, e vuole farsi prestare il fucile di un compagno di batteria. È permesso?",
-      "options": { "a": "Sì, con il consenso del proprietario", "b": "Sì, se l'arbitro è d'accordo", "c": "Sì, senza condizioni", "d": "No, solo da qualcuno fuori dalla batteria" },
+      "q": "Il fucile di un tiratore si guasta, e vuole farsi prestare il fucile di un compagno di {{term:squad|batteria}}. È permesso?",
+      "options": {
+        "a": "Sì, con il consenso del proprietario",
+        "b": "Sì, se il arbitro è d'accordo",
+        "c": "Sì, senza condizioni",
+        "d": "No, solo da qualcuno fuori dalla batteria"
+      },
       "explain": "Il {{tm:compak}} vieta di condividere un fucile all'interno di un gruppo. Il prestito eccezionale è possibile solo da fuori, con l'accordo del proprietario e dell'arbitro."
     },
     "compak-malfunctions-q3": {
-      "q": "Secondo guasto al fucile dello stesso tipo in questa serie, su un singolo a cui il tiratore non ha potuto sparare. Decisione?",
-      "options": { "a": "Di nuovo No bird", "b": "No bird e un avvertimento", "c": "Zero, con cartellino rosso", "d": "Il piattello viene presentato di nuovo" },
+      "q": "Secondo guasto al fucile dello stesso tipo in questa {{term:round|serie}}, su un singolo a cui il tiratore non ha potuto sparare. Decisione?",
+      "options": {
+        "a": "Di nuovo No bird",
+        "b": "No bird e un {{term:warning|avvertimento}}",
+        "c": "Zero, con {{term:red-card|cartellino rosso}}",
+        "d": "Il piattello viene presentato di nuovo"
+      },
       "explain": "Dal secondo incidente dello stesso tipo, i piattelli a cui non si è sparato valgono zero."
     }
   }

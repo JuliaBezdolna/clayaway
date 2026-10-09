@@ -44,12 +44,16 @@
     "stand-talk-foreign-coach-q2": "a6a771ab",
     "stand-talk-foreign-coach-q3": "0bba8449"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Edzés egy másik nyelvet beszélő edzővel",
   "summary": "Hogyan készülnek a lövők, az edzők és a rendezők egy másik országból jött edzővel tartott edzésre, tolmáccsal vagy anélkül, és mi változik egy versenyen.",
   "body": {
-    "stand-talk-foreign-coach-p1": "Sok lövő egy másik országból jött {{term:coach|edzővel}} edz, otthon vagy egy utazáson. Ez jól működik, ha mindenki egy kicsit felkészül: az edző, a lövő, és ha van, a {{term:interpreter|tolmács}}. Sok félreértés abból ered, hogy senki nem egyezett meg előre a szavakban.",
-    "stand-talk-foreign-coach-safety": "A {{term:safety|biztonság}} mindenekelőtt. Győződjön meg róla, hogy minden lövő megértette a biztonsági eligazítást, mielőtt bárki tölt. Ha valaki nem biztos benne, tolmácsolja vagy mutassa meg újra.",
+    "stand-talk-foreign-coach-p1": "Sok lövő egy másik országból jött {{term:coach|edzővel}} edz, otthon vagy egy utazáson. Ez jól működik, ha mindenki egy kicsit felkészül: az edző, a lövő, és ha van, az {{term:interpreter|tolmács}}. Sok félreértés abból ered, hogy senki nem egyezett meg előre a szavakban.",
+    "stand-talk-foreign-coach-safety": "mindenekelőtt. Győződjön meg róla, hogy minden lövő megértette a biztonsági eligazítást, mielőtt bárki tölt. Ha valaki nem biztos benne, tolmácsolja vagy mutassa meg újra.",
     "stand-talk-foreign-coach-h1": "Tolmáccsal",
     "stand-talk-foreign-coach-steps": [
       "Az edzés előtt egyezzen meg a kulcsszavakban: az edző szavai az elétartásra és a hibákra, valamint a {{term:pick-up-point|korongfelvételi pontra}}, a {{term:hold-point|fegyvertartási pontra}} és a {{term:break-point|lövési pontra}}.",
@@ -58,7 +62,7 @@
       "Csak akkor beszéljen, amikor a fegyver nyitva van, ne a lövő rutinja közben.",
       "Egy magyarázat után ellenőrizze a megértést: kérje meg a lövőt, hogy mutassa meg, ne csak azt mondja: „igen”."
     ],
-    "stand-talk-foreign-coach-p2": "A lőálláson a rövid jelzőszavakat gyakran hátulról suttogják el ({{term:chuchotage|suttogó tolmácsolás}}). Az eligazítások és a megbeszélések jobban mennek, ha az edző egy-két mondatot mond, szünetet tart, és a tolmács fordít ({{term:consecutive-interpreting|konszekutív tolmácsolás}}). Többet a tolmácsoknak: {{lesson:interpreter-position}}.",
+    "stand-talk-foreign-coach-p2": "A lőálláson a rövid jelzőszavakat gyakran hátulról suttogják el – {{term:chuchotage|suttogó tolmácsolás}}. Az eligazítások és a megbeszélések jobban mennek, ha az edző egy-két mondatot mond, szünetet tart, és a tolmács fordít – {{term:consecutive-interpreting|konszekutív tolmácsolás}}. Többet a tolmácsoknak: {{lesson:interpreter-position}}.",
     "stand-talk-foreign-coach-h2": "Egy versenyen",
     "stand-talk-foreign-coach-p3": "Egy versenyen a szabályok mindent megváltoztatnak. Mindkét versenyszámban a verseny alatti {{term:coaching|edzői irányítás}} tilos: a lövő {{term:yellow-card|sárga lapot}} kap, és az edzőt kiküldik a lövészeti területről ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). A szabályok nem említik a tolmácsokat, ezért egy tanács továbbadását edzői irányításnak lehet tekinteni. A tolmács csak a bírótól, a {{term:jury|zsűritől}} és a rendezőtől kapott hivatalos információt adja tovább. Minden edzői tanácsot a gyakorlónapokra és a megbeszélésekre tervezzen.",
     "stand-talk-foreign-coach-h3": "Tolmács nélkül",
@@ -70,7 +74,7 @@
   "note": {},
   "phrases": {
     "stand-talk-foreign-coach-ph1": {
-      "meaning": "A lövés a korong mögött ment el (kevés volt az {{term:lead|elétartás}}, vagy megállt a fegyver; az edző megmondja, melyik).",
+      "meaning": "A lövés a korong mögött ment el – kevés volt a {{term:lead|elétartás}}, vagy megállt a fegyver; az edző megmondja, melyik.",
       "say": "Mögötte."
     },
     "stand-talk-foreign-coach-ph2": {
@@ -94,7 +98,7 @@
       "say": "Kevesebbet."
     },
     "stand-talk-foreign-coach-ph7": {
-      "meaning": "Ahol a csőtorkolatok várnak, amikor korongot kér.",
+      "meaning": "Ahol a {{term:muzzle|csőtorkolatok}} várnak, amikor korongot kér.",
       "say": "Fegyvertartási pont."
     },
     "stand-talk-foreign-coach-ph8": {
@@ -110,7 +114,7 @@
       "say": "Vállba vétel."
     },
     "stand-talk-foreign-coach-ph11": {
-      "meaning": "Tartsa mozgásban a fegyvert a lövés után is ({{term:follow-through|elkísérés}}).",
+      "meaning": "Tartsa mozgásban a fegyvert a lövés után is – {{term:follow-through|elkísérés}}.",
       "say": "Vigye végig."
     },
     "stand-talk-foreign-coach-ph12": {

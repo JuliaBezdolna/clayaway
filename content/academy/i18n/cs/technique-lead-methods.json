@@ -40,18 +40,18 @@
     "origin": "interpreter-academy"
   },
   "title": "Předsazení: proč se střílí před terč",
-  "summary": "Proč musí dávka broků mířit před pohyblivý terč, čím se liší skutečné a vnímané předsazení a jak fungují čtyři metody výnosu.",
+  "summary": "Proč musí dávka broků mířit před pohyblivý terč, čím se liší skutečné {{term:lead|předsazení}} a {{term:perceived-lead|vnímané předsazení}} a jak fungují čtyři metody výnosu.",
   "body": {
-    "lead-why-p1": "Broky potřebují zlomek sekundy, aby doletěly k terči, a za tu dobu terč popostoupí dál. Pokud tedy zbraň míří přímo na {{term:crosser|přeletový terč}} (terč letící napříč před vámi) a tam zůstane, broky proletí za ním. Hlavně musí mířit před terč, aby se broky a terč setkaly. Tento rozdíl je {{term:lead|předsazení}}, anglicky lead, v britské angličtině také „forward allowance“.",
+    "lead-why-p1": "Broky potřebují zlomek sekundy, aby doletěly k terči, a za tu dobu terč popostoupí dál. Pokud tedy zbraň míří přímo na {{term:crosser|přeletový terč}}, tedy terč letící napříč před vámi, a tam zůstane, broky proletí za ním. Hlavně musí mířit před terč, aby se broky a terč setkaly. Tento rozdíl je {{term:lead|předsazení}}, anglicky lead, v britské angličtině také „forward allowance“.",
     "lead-why-p2": "Předsazení roste se rychlostí terče, jeho vzdáleností a úhlem. Při stejné rychlosti a vzdálenosti potřebuje nejvíc předsazení terč letící přesně napříč (full crosser). Terč letící přímo na střelce nebo od něj potřebuje bočního předsazení téměř žádné, i když stoupající a klesající terče potřebují předsazení svislé (nad nebo pod terč).",
     "lead-why-p3": "Skutečná čísla překvapí. Pro orientaci: skutečné předsazení na přeletovém terči ve vzdálenosti kolem 20 m se často odhaduje takto: {{fact:technique.crosser-lead-20m}}. Předsazení roste s vzdáleností rychle – dokonce o něco rychleji než sama vzdálenost, protože dávka broků za letu zpomaluje. Pokud tedy vzdálený terč vypadá od vašich hlavní stejně daleko jako blízký, skutečné předsazení ve vzduchu je mnohem větší.",
-    "lead-why-p4": "Skutečné předsazení je reálná vzdálenost před terčem ve vzduchu. Mezeru, kterou střelec vidí mezi ústím hlavně a terčem, nazýváme {{term:perceived-lead|vnímané předsazení}} – také „obraz předsazení“ nebo „mířicí obraz“. Metr na 20 m vypadá u ústí jako pár centimetrů. Zvolená metoda tento obraz mění. Pohybují-li se hlavně rychlostí terče (maintained lead), vidíte celou mezeru. Pohybují-li se rychleji než terč (swing through), vidíte jen malou mezeru, nebo žádnou. V té zlomkové chvíli před výstřelem rychle se pohybující zbraň sama urazí zbytek cesty vpřed. U metody ambush se zbraň nehýbe, takže musíte vidět mezeru ještě větší než skutečné předsazení, protože terč letí dál i během vaší reakce.",
+    "lead-why-p4": "Skutečné předsazení je reálná vzdálenost před terčem ve vzduchu. Mezeru, kterou střelec vidí mezi {{term:muzzle|ústím hlavně}} a terčem, nazýváme {{term:perceived-lead|vnímané předsazení}} – také „obraz předsazení“ nebo „mířicí obraz“. Metr na 20 m vypadá u ústí jako pár centimetrů. Zvolená metoda tento obraz mění. Pohybují-li se hlavně rychlostí terče (maintained lead), vidíte celou mezeru. Pohybují-li se rychleji než terč (swing through), vidíte jen malou mezeru, nebo žádnou. V té zlomkové chvíli před výstřelem rychle se pohybující zbraň sama urazí zbytek cesty vpřed. U metody ambush se zbraň nehýbe, takže musíte vidět mezeru ještě větší než skutečné předsazení, protože terč letí dál i během vaší reakce.",
     "lead-why-p5": "Mnoha pravorukým střelcům se zdá, že přeletový terč zleva doprava potřebuje víc předsazení než zprava doleva. Skutečné předsazení je stejné, liší se jen vnímání. Trenérovo „four feet“ tedy popisuje obraz, ne měření.",
     "technique-lead-methods-p2": "Trenéři učí předsazení prostřednictvím metody – způsobu, jak dostat hlavně před terč. Běžné jsou čtyři metody. Pro daný terč je skutečné předsazení u každé z nich stejné; mění se jen obraz, který vidíte.",
     "technique-lead-methods-p3": "{{term:maintained-lead|Maintained lead}}: hlavně od začátku míří před terč, nechají ho přiblížit se na požadovanou mezeru, pak se pohybují jeho rychlostí a tuto mezeru udržují. Mnoho trenérů ji doporučuje pro dlouhé, předvídatelné terče. Víc: {{lesson:lead-maintained}}.",
     "technique-lead-methods-p4": "{{term:pull-away|Pull away}}: hlavně namíříte na terč (nebo na jeho přední hranu), chvíli se s ním pohybujete, pak plynule vyjdete před něj a vystřelíte. Mnoho trenérů s ní začíná učit nováčky a často se hodí na šikmé terče (letící pod úhlem od vás nebo k vám) a na terče ve vzestupu. Víc: {{lesson:lead-pull-away}}.",
     "technique-lead-methods-p5": "{{term:swing-through|Swing through}}: hlavně startují vzadu, pohybují se rychleji než terč, projdou jím a vystřelí, jakmile vyjdou před něj. Často se hodí na blízké, rychlé terče a terče nad hlavou. Víc: {{lesson:lead-swing-through}}.",
-    "technique-lead-methods-ambush": "{{term:ambush|Ambush}}: hlavně nehybně čekají v bodě vpředu a na spoušť se tiskne ještě předtím, než terč tento bod dosáhne. Může pomoct u terče, který je vidět jen na okamžik. Víc: {{lesson:lead-ambush-instinctive}}.",
+    "technique-lead-methods-ambush": "{{term:ambush|Ambush}}: hlavně nehybně čekají v bodě vpředu a na {{term:trigger|spoušť}} se tiskne ještě předtím, než terč tento bod dosáhne. Může pomoct u terče, který je vidět jen na okamžik. Víc: {{lesson:lead-ambush-instinctive}}.",
     "technique-lead-methods-p6": "Žádná metoda není „správnější“ než jiná. Zkušení střelci často volí metodu podle konkrétního terče. Začátečníkovi se obvykle lépe daří, když si s trenérem nejprve osvojí jednu metodu. U všech tří metod s pohyblivou zbraní se zbraň pohybuje i po výstřelu; viz {{lesson:technique-follow-through-and-mistakes}}."
   },
   "note": {
@@ -81,7 +81,7 @@
   "did_you_know": "Dva střelci mohou rozbít tentýž terč a popsat předsazení úplně jinak: jeden „vidí“ metr, druhý půl metru. Rozdíl je v tom, jak rychle každý z nich vede zbraň.",
   "quiz": {
     "lead-why-q1": {
-      "q": "Co je vnímané předsazení?",
+      "q": "Co je {{term:perceived-lead|vnímané předsazení}}?",
       "options": {
         "a": "Skutečná vzdálenost před terčem ve vzduchu",
         "b": "Mezera, kterou střelec vidí mezi ústím a terčem",
@@ -91,7 +91,7 @@
       "explain": "Vnímané předsazení je obraz u ústí; skutečné předsazení je reálná vzdálenost ve vzduchu a je mnohem větší."
     },
     "lead-why-q2": {
-      "q": "Z metod s pohyblivou zbraní, která obvykle dává největší vnímané předsazení?",
+      "q": "Z metod s pohyblivou zbraní, která obvykle dává největší {{term:perceived-lead|vnímané předsazení}}?",
       "options": {
         "a": "Swing through",
         "b": "Pull away",
@@ -101,17 +101,17 @@
       "explain": "U maintained lead se zbraň nepohybuje rychleji než terč, takže sama nic nepřidává a vidět musíte celou mezeru. U ambush, kde zbraň stojí, je viditelná mezera ještě větší."
     },
     "lead-why-q3": {
-      "q": "Který terč nepotřebuje téměř žádné boční předsazení?",
+      "q": "Který terč nepotřebuje téměř žádné boční {{term:lead|předsazení}}?",
       "options": {
         "a": "Terč letící přímo od střelce",
         "b": "Dlouhý přelet",
         "c": "Šikmo od nás pod úhlem 45°",
         "d": "Přelet na 40 m"
       },
-      "explain": "Přímo vzdalující se terč nemá žádný boční pohyb; pokud potřebuje předsazení, je svislé."
+      "explain": "Přímo {{term:going-away|vzdalující se terč}} nemá žádný boční pohyb; pokud potřebuje předsazení, je svislé."
     },
     "technique-lead-methods-q1": {
-      "q": "Proč je potřeba předsazení?",
+      "q": "Proč je potřeba {{term:lead|předsazení}}?",
       "options": {
         "a": "Aby se broky a terč setkaly",
         "b": "Aby se snížila zpětná rázová síla",
@@ -129,7 +129,7 @@
       "explain": "Maintained lead: hlavně od začátku vpředu a udržují mezeru."
     },
     "technique-lead-methods-q3": {
-      "q": "Který terč potřebuje nejmenší předsazení?",
+      "q": "Který terč potřebuje nejmenší {{term:lead|předsazení}}?",
       "options": {
         "a": "Vzdálený rychlý přeletový terč",
         "b": "Terč letící přímo od vás",
@@ -145,7 +145,7 @@
         "c": "Maintained lead",
         "d": "Ambush"
       },
-      "explain": "U ambush zbraň stojí a terč letí dál i během reakční doby. Mezera, kterou vidíte v okamžiku rozhodnutí, proto musí být větší než skutečné předsazení."
+      "explain": "U ambush zbraň stojí a terč letí dál i během reakční doby. Mezera, kterou vidíte v okamžiku rozhodnutí, proto musí být větší než skutečné {{term:lead|předsazení}}."
     }
   }
 }

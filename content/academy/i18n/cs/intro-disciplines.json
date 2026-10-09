@@ -26,14 +26,14 @@
     "origin": null
   },
   "body": {
-    "intro-disciplines-p1": "{{tm:sporting}} napodobuje lov. {{term:shooting-stand|Střelecká stanoviště}}, tedy vyznačená místa, odkud se střílí, jsou rozmístěná v přírodním terénu: v polích, u lesa, na svazích. Terče létají tak, jako by letěla koroptev, kachna nebo bažant, nebo se kutálejí jako zajíc. Každé {{term:layout|střeliště}} (layout), tedy skupina stanovišť, dává {{fact:targets.sporting-layout-targets}} (dvojstřel jsou dva terče, tedy dalších 10). Oba terče {{term:double|dvojstřelu}} letí současně, nebo jeden po druhém.",
+    "intro-disciplines-p1": "{{tm:sporting}} napodobuje lov. {{term:shooting-stand|Střelecká stanoviště}}, tedy vyznačená místa, odkud se střílí, jsou rozmístěná v přírodním terénu: v polích, u lesa, na svazích. Terče létají tak, jako by letěla koroptev, kachna nebo bažant, nebo se kutálejí jako zajíc. Každé {{term:layout|střeliště}}, tedy skupina stanovišť, dává {{fact:targets.sporting-layout-targets}}; každý {{term:double|dvojstřel}} tvoří dva terče, tedy dalších 10. Oba terče {{term:double|dvojstřelu}} letí současně, nebo jeden po druhém.",
     "intro-disciplines-p2": "{{tm:compak}} je kompaktní verze. Vše se odehrává na jednom poli, kde je {{fact:basics.compak-field}}. Střelec projde všech pět stanovišť a na každém vystřelí 5 terčů – 25 za {{term:round|položku}}. Pole Compak zabere málo místa, takže si ho klub snadno vybuduje.",
     "intro-disciplines-cmp": {
-      "sporting": "Procházíte trať od stanoviště ke stanovišti a každé má vlastní terče. Dvojstřel může být {{term:double-on-report|na hlášenou}}, kdy váš první výstřel uvolní druhý terč, nebo {{term:simultaneous-double|současný}}, kdy letí oba najednou. {{term:rafale-double|Následný dvojstřel}} (rafale) jsou dva terče ze stejné vrhačky, jeden hned za druhým.",
+      "sporting": "Procházíte trať od stanoviště ke stanovišti a každé má vlastní terče. Dvojstřel může být {{term:double-on-report|na hlášenou}}, kdy váš první výstřel uvolní druhý terč, nebo {{term:simultaneous-double|současný}}, kdy letí oba najednou. {{term:rafale-double|Následný dvojstřel}} jsou dva terče ze stejné {{term:trap|vrhačky}}, jeden hned za druhým.",
       "compak": "Zůstáváte na jednom poli a po každém svém kole se posunete o jedno stanoviště doprava. Dvojstřel je {{term:double-on-report|na hlášenou}}, kdy váš první výstřel uvolní druhý terč, nebo {{term:simultaneous-double|současný}}, kdy letí oba najednou."
     },
     "intro-disciplines-p3": "Mezinárodní závody v obou disciplínách bývají obvykle {{fact:basics.international-targets}}. V obou můžete na {{term:single-target|jednotlivý terč}} vystřelit dvakrát: pokud první rána mine, druhá ho ještě může rozbít.",
-    "intro-disciplines-p6": "Obě disciplíny patří pod {{term:fitasc|FITASC}}, mezinárodní federaci, která pro ně píše pravidla. Základy mají společné: bezpečnost, {{term:gun-mount|zalícení}} (pohyb, kterým se zbraň přiloží k líci a rameni) a schopnost „přečíst“ terč."
+    "intro-disciplines-p6": "Obě disciplíny patří pod {{term:fitasc|FITASC}}, mezinárodní federaci, která pro ně píše pravidla. Základy mají společné: bezpečnost, {{term:gun-mount|zalícení}}, tedy pohyb, kterým se zbraň přiloží k líci a rameni, a schopnost „přečíst“ terč."
   },
   "note": {},
   "phrases": {},
@@ -45,13 +45,13 @@
   },
   "quiz": {
     "intro-disciplines-q1": {
-      "q": "Kolik terčů dává jedno střeliště (layout) v {{tm:sporting}}?",
+      "q": "Kolik terčů dává jedno {{term:layout|střeliště}} v {{tm:sporting}}?",
       "options": {
         "a": "10",
         "b": "25",
         "c": "50"
       },
-      "explain": "Každé střeliště dává {{fact:targets.sporting-layout-targets}} (dvojstřel jsou dva terče, tedy dalších 10)."
+      "explain": "Každé střeliště dává {{fact:targets.sporting-layout-targets}}; každý {{term:double|dvojstřel}} tvoří dva terče, tedy dalších 10."
     },
     "intro-disciplines-q2": {
       "q": "Kolik vrhaček je na jednom poli Compak?",
@@ -63,7 +63,7 @@
       "explain": "Pole {{tm:compak}} má {{fact:basics.compak-field}}."
     },
     "intro-disciplines-q-course": {
-      "q": "Ve které disciplíně procházíte trať od stanoviště ke stanovišti?",
+      "q": "Ve které disciplíně procházíte trať od {{term:shooting-stand|stanoviště}} ke stanovišti?",
       "options": {
         "a": "{{tm:compak}}",
         "b": "V obou stejně",
@@ -72,7 +72,7 @@
       "explain": "Ve {{tm:sporting}} přecházíte od stanoviště ke stanovišti v přírodním terénu; v {{tm:compak}} zůstáváte na jednom poli a posouváte se o jedno stanoviště doprava."
     },
     "intro-disciplines-q-second-shot": {
-      "q": "Prvním výstřelem jste minuli jednotlivý terč. Co dovolují pravidla?",
+      "q": "Prvním výstřelem jste minuli {{term:single-target|jednotlivý terč}}. Co dovolují pravidla?",
       "options": {
         "a": "Rozhodčí terč zopakuje",
         "b": "Musíte zbraň okamžitě zlomit",

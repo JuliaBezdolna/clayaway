@@ -25,13 +25,17 @@
     "referee-calls-q2": "b4dbd757",
     "referee-calls-q3": "f04cc074"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Che cosa dice l'arbitro in pedana",
-  "summary": "Le parole brevi della pedana: la chiamata, il caricamento e i fucili aperti, «one», «zero» e «No Bird», e la parola formale del tiratore per il reclamo.",
+  "summary": "Le parole brevi della pedana: la {{term:call|chiamata}}, il {{term:loading|caricamento}} e i fucili aperti, «one», «zero» e «No Bird», e la parola formale del tiratore per il {{term:protest|reclamo}}.",
   "body": {
-    "referee-calls-p1": "La pedana ha un suo linguaggio breve. Quando è pronto, il tiratore dà la {{term:call|chiamata}}, di solito «Pull!» o «Ready!». Nello {{tm:sporting}} l'{{term:referee|arbitro}} trasmette la chiamata al {{term:trapper|puller}} con un segnale acustico. Il piattello deve partire {{fact:rules.release-within-3s}} da quel segnale; un piattello più tardivo è un {{term:no-bird|No Bird}}. Nel {{tm:compak}} anche un lancio manuale deve avvenire {{fact:rules.release-within-3s}} dalla chiamata. Un lancio a comando vocale ({{term:sonopull|sonopull}}: un microfono che lancia il piattello quando sente la chiamata) ha un ritardo fisso di {{fact:rules.sonopull-delay}}.",
+    "referee-calls-p1": "La pedana ha un suo linguaggio breve. Quando è pronto, il tiratore dà la {{term:call|chiamata}}, di solito «Pull!» o «Ready!». Nello {{tm:sporting}} il {{term:referee|arbitro}} trasmette la chiamata al {{term:trapper|puller}} con un segnale acustico. Il piattello deve partire {{fact:rules.release-within-3s}} da quel segnale; un piattello più tardivo è un {{term:no-bird|No Bird}}. Nel {{tm:compak}} anche un lancio manuale deve avvenire {{fact:rules.release-within-3s}} dalla chiamata. Un lancio a {{term:sonopull|comando vocale}} — un microfono che lancia il piattello quando sente la chiamata — ha un ritardo fisso di {{fact:rules.sonopull-delay}}.",
     "referee-calls-p2": "Prima che qualcuno spari, l'arbitro decide quando si possono caricare e chiudere i fucili. Il regolamento permette il {{term:loading|caricamento}} solo in pedana, con il fucile puntato verso il campo, dopo che l'arbitro ha detto che il tiro può iniziare. Durante la {{term:target-presentation|presentazione}} dei piattelli, e ogni volta che il tiro si interrompe, i fucili sono aperti e scarichi. Si richiudono solo con il permesso dell'arbitro. Nel {{tm:compak}} l'arbitro avvia la serie con «Start» o «Competition».",
-    "referee-calls-p3": "Dopo ogni piattello il regolamento prevede solo tre risultati: «{{term:one|one}}» (colpito), «{{term:zero|zero}}» (perso) e «No Bird» (il piattello non conta ed è lanciato di nuovo). Sul campo sentirai anche «dead» o «good» per un colpito e «lost» per un mancato; alcuni arbitri non dicono nulla dopo un colpito. Nel {{tm:compak}} l'arbitro annuncia ogni zero ad alta voce o con un segnale acustico, così un tiratore in disaccordo può reclamare subito.",
+    "referee-calls-p3": "Dopo ogni piattello il regolamento prevede solo tre risultati: «{{term:one|one}}» per un colpito, «{{term:zero|zero}}» per un piattello perso e «No Bird» (il piattello non conta ed è lanciato di nuovo). Sul campo sentirai anche «dead» o «good» per un colpito e «lost» per un mancato; alcuni arbitri non dicono nulla dopo un colpito. Nel {{tm:compak}} l'arbitro annuncia ogni zero ad alta voce o con un segnale acustico, così un tiratore in disaccordo può reclamare subito.",
     "referee-calls-p4": "Anche il tiratore ha una parola formale. Per non essere d'accordo con una decisione, alza subito una mano, in pedana, e dì «{{term:protest|Protest!}}» o «{{term:appeal|Appeal!}}» ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Altre frasi utili al tiratore: {{lesson:stand-talk-shooter-phrases}}."
   },
   "note": {
@@ -68,11 +72,11 @@
     "referee-calls-kp2": "Si carica solo in pedana e solo quando l'arbitro lo consente; fucili aperti durante la presentazione e le pause",
     "referee-calls-kp3": "Parole del regolamento: uno = colpito, zero = perso, No bird = si rilancia",
     "referee-calls-kp4": "{{tm:compak}}: ogni zero viene annunciato ad alta voce o con un segnale acustico",
-    "referee-calls-kp5": "Reclamo = mano alzata + «Protest!» o «Appeal!»"
+    "referee-calls-kp5": "{{term:protest|Reclamo}} = mano alzata + «Protest!» o «Appeal!»"
   },
   "quiz": {
     "referee-calls-q1": {
-      "q": "Nello {{tm:sporting}} il piattello parte cinque secondi dopo il segnale dell'arbitro. Qual è la decisione dell'arbitro?",
+      "q": "Nello {{tm:sporting}} il piattello parte cinque secondi dopo il segnale del {{term:referee|arbitro}}. Qual è la decisione dell'arbitro?",
       "options": {
         "a": "Conta normalmente",
         "b": "No Bird",
@@ -86,13 +90,13 @@
       "options": {
         "a": "Mentre si dirige verso la pedana successiva",
         "b": "Dietro la pedana, mentre aspetta",
-        "c": "In pedana, dopo che l'arbitro lo consente",
+        "c": "In pedana, dopo che il arbitro lo consente",
         "d": "Appena lo dice l'istruttore"
       },
-      "explain": "Il caricamento è consentito solo in pedana, con il fucile puntato verso il campo, e solo dopo che l'arbitro ha detto che il tiro può iniziare."
+      "explain": "Il {{term:loading|caricamento}} è consentito solo in pedana, con il fucile puntato verso il campo, e solo dopo che l'arbitro ha detto che il tiro può iniziare."
     },
     "referee-calls-q3": {
-      "q": "Quali parole aprono un reclamo formale in pedana?",
+      "q": "Quali parole aprono un {{term:protest|reclamo}} formale in pedana?",
       "options": {
         "a": "«Protest!», con la mano alzata",
         "b": "«No Bird!», con la mano alzata",

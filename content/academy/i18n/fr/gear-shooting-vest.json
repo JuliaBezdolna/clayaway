@@ -29,12 +29,12 @@
     "origin": null
   },
   "title": "Le gilet de tir",
-  "summary": "Pourquoi un tireur porte un gilet, ce qu'il contient (poches, épaulière, la ligne de veste du {{tm:sporting}}), pourquoi le {{tm:compak}} n'a pas besoin de ligne, et comment choisir son premier gilet.",
+  "summary": "Pourquoi un tireur porte un gilet, ce qu'il contient — poches, {{term:shoulder-pad|épaulière}}, le {{term:jacket-line|ligne de veste}} du {{tm:sporting}} —, pourquoi le {{tm:compak}} n'a pas besoin de ligne, et comment choisir son premier gilet.",
   "body": {
     "gear-shooting-vest-p1": "Le {{term:shooting-vest|gilet de tir}} est la partie la plus visible de l'équipement d'un tireur. Ce n'est pas une question de mode : le gilet garde les cartouches à portée de main, protège l'épaule du {{term:recoil|recul}} et aide à épauler toujours de la même façon.",
-    "gear-shooting-vest-p2": "Les poches sont le cœur d'un gilet. Il y a généralement deux grandes poches avant pour les cartouches, à gauche et à droite, pour pouvoir charger d'une main comme de l'autre. Il y a souvent une poche séparée ou un sac en filet pour les {{term:empties|douilles vides}}, et de petites poches pour les chokes, une clé à choke et des bouchons d'oreilles. Les cartouches ne doivent pas tomber quand vous vous penchez.",
-    "gear-shooting-vest-p3": "Sur l'épaule se trouve une {{term:shoulder-pad|épaulière}} (shoulder pad), un insert lisse en matériau plus souple ou plus ferme. La crosse se pose sur elle : la surface lisse ne s'accroche pas au tissu pendant l'épaulé, et le rembourrage adoucit un peu le recul. L'épaulière doit être sur l'épaule avec laquelle vous tirez, et beaucoup de gilets en ont une des deux côtés.",
-    "gear-protection-clothes-p3": "Pour le {{tm:sporting}}, le gilet porte une {{term:jacket-line|ligne}} horizontale contrastée {{fact:rules.sporting-jacket-line}} et parallèle à elle. Avant d'appeler le plateau, et jusqu'à ce qu'il apparaisse, le haut de la crosse doit rester sous cette ligne, et l'arbitre le vérifie. Au {{tm:compak}}, il n'y a pas de telle ligne, car la {{term:gun-position|position du fusil}} au moment de l'appel est libre.",
+    "gear-shooting-vest-p2": "Les poches sont le cœur d'un gilet. Il y a généralement deux grandes poches avant pour les cartouches, à gauche et à droite, pour pouvoir charger d'une main comme de l'autre. Il y a souvent une poche séparée ou un sac en filet pour les {{term:empties|douilles vides|pl}}, et de petites poches pour les chokes, un {{term:choke-key|clé à choke}} et des {{term:earplugs|bouchons d'oreilles|pl}}. Les cartouches ne doivent pas tomber quand vous vous penchez.",
+    "gear-shooting-vest-p3": "Sur l'épaule se trouve un {{term:shoulder-pad|épaulière}}, un insert lisse en matériau plus souple ou plus ferme. Le {{term:stock|crosse}} se pose dessus : la surface lisse ne s'accroche pas au tissu pendant le {{term:gun-mount|épaulé}}, et le rembourrage adoucit un peu le recul. L'épaulière doit être sur l'épaule avec laquelle vous tirez, et beaucoup de gilets en ont une des deux côtés.",
+    "gear-protection-clothes-p3": "Pour le {{tm:sporting}}, le gilet porte un {{term:jacket-line|ligne de veste}}, une bande horizontale contrastée {{fact:rules.sporting-jacket-line}} et parallèle à elle. Avant d'appeler le plateau, et jusqu'à ce qu'il apparaisse, le haut de la crosse doit rester sous cette ligne, et l'arbitre le vérifie. Au {{tm:compak}}, il n'y a pas de telle ligne, car la {{term:gun-position|position du fusil}} au moment de l'appel est libre.",
     "gear-shooting-vest-p4": "Beaucoup de gilets sont vendus avec la ligne déjà cousue ; sinon, vous pouvez en coudre ou en coller une. Si vous prévoyez de pratiquer les deux disciplines, choisissez un gilet avec la ligne : il convient partout.",
     "women-clothing-community-start-p1": "Les gilets existent en différentes coupes, y compris des coupes pensées pour les femmes, qui tiennent compte de la poitrine et d'épaules plus étroites. Quand le gilet est bien ajusté, l'épaulière se trouve exactement là où vient la crosse et ne gêne pas l'épaulé. Dans un gilet mal ajusté, la crosse peut s'accrocher au tissu ou aux coutures.",
     "gear-shooting-vest-p6": "Comment choisir son premier gilet : il doit être ample sans flotter, essayez-le donc par-dessus les vêtements avec lesquels vous tirerez. Épaulez un fusil vide et vérifié, ou au moins reproduisez le mouvement avec les bras : le tissu ne doit pas se froisser et accrocher la crosse. Les gilets d'été ont un dos en filet ; les plus épais sont pour le froid. Dans les deux disciplines, un gilet ne peut pas se porter directement sur la peau."
@@ -60,17 +60,17 @@
       "explain": "Le règlement du {{tm:sporting}} exige une ligne 25 cm sous l'axe de l'épaule, parallèle à celui-ci."
     },
     "gear-shooting-vest-q2": {
-      "q": "À quoi sert l'épaulière d'un gilet ?",
+      "q": "À quoi sert le {{term:shoulder-pad|épaulière}} d'un gilet ?",
       "options": {
-        "a": "Pour que la crosse se place en douceur",
+        "a": "Pour que le crosse se place en douceur",
         "b": "Pour ranger des chokes de rechange et une clé",
         "c": "Pour afficher le numéro du tireur",
         "d": "Pour garder le gilet chaud en hiver"
       },
-      "explain": "Une épaulière lisse aide à un épaulé net et absorbe un peu le recul."
+      "explain": "Une épaulière lisse aide à un {{term:gun-mount|épaulé}} net et absorbe un peu le {{term:recoil|recul}}."
     },
     "gear-shooting-vest-q3": {
-      "q": "Le règlement du {{tm:compak}} exige-t-il une ligne de veste ?",
+      "q": "Le règlement du {{tm:compak}} exige-t-il un {{term:jacket-line|ligne de veste}} ?",
       "options": {
         "a": "Oui, exactement comme au {{tm:sporting}}",
         "b": "Oui, mais seulement pour les juniors",
@@ -82,12 +82,12 @@
     "women-clothing-community-start-q1": {
       "q": "En quoi un gilet coupé pour votre morphologie aide-t-il ?",
       "options": {
-        "a": "L'épaulière se trouve là où vient la crosse",
-        "b": "Il a beaucoup plus de poches à cartouches",
+        "a": "Le {{term:shoulder-pad|épaulière}} se trouve là où vient le {{term:stock|crosse}}",
+        "b": "Il a beaucoup plus de {{term:cartridge-pouch|poches à cartouches}}",
         "c": "C'est le modèle le moins cher du magasin",
         "d": "Il remplace la ligne au {{tm:sporting}}"
       },
-      "explain": "Une coupe qui tient compte de la poitrine et des épaules maintient l'épaulière en place, si bien qu'elle ne gêne pas l'épaulé."
+      "explain": "Une coupe qui tient compte de la poitrine et des épaules maintient l'épaulière en place, si bien qu'elle ne gêne pas le {{term:gun-mount|épaulé}}."
     }
   },
   "did_you_know": "Les gilets ont souvent des épaulières des deux côtés, car beaucoup de tireurs sont gauchers ou tirent de l'épaule gauche en raison de leur {{term:master-eye|œil directeur}}."

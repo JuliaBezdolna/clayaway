@@ -115,7 +115,7 @@
       "k": "rules-gun-position-p1",
       "t": "p",
       "en": "At a {{tm:sporting}} competition, shooters call for the target with the gun held low. This is a rule, not a matter of style. {{tm:compak}} has no such rule.",
-      "uk": "На змаганнях із {{tm:sporting}} стрільці кличуть мішень, тримаючи рушницю низько. Це правило, а не питання стилю. У {{tm:compak}} такого правила немає."
+      "uk": "На змаганнях із {{tm:sporting}} стрільці кличуть мішень, тримаючи рушницю низько. Це правило про {{term:gun-position|положення рушниці}}, а не питання стилю. У {{tm:compak}} такого правила немає."
     },
     {
       "k": "rules-gun-position-cmp1",
@@ -127,7 +127,7 @@
       "sporting": {
         "rule_ref": "sporting:ch3-ready-position",
         "en": "Gun low: the top back of the stock is kept under the vest line until you see the target.",
-        "uk": "Рушниця внизу: задній верх приклада лишається нижче лінії на жилеті, доки не з’явиться мішень."
+        "uk": "Рушниця внизу: задній верх {{term:stock|приклада}} лишається нижче {{term:jacket-line|лінії на жилеті}}, доки не з’явиться мішень."
       },
       "compak": {
         "rule_ref": "compak:ch17-gun-position",
@@ -143,7 +143,7 @@
       "rule_ref": "sporting:ch3-ready-position",
       "anchor": "sporting-gun-position",
       "en": "In {{tm:sporting}}, before you call, both your feet are inside the {{term:shooting-stand|stand}}. The heel of the stock (its top back corner, the part that goes into your shoulder) touches your body. The highest back point of the stock, usually the heel itself, stays below the line on the vest. You keep this {{term:ready-position|ready position}} until the target has left the trap and you can see it.",
-      "uk": "У {{tm:sporting}} перед командою ви стоїте обома ногами в межах {{term:shooting-stand|стрілецького місця}}. П’ятка приклада (його верхній задній кут, та частина, що ляже в плече) торкається тіла. Найвища задня точка приклада — зазвичай сама п’ятка — лишається нижче лінії на жилеті. Це {{term:ready-position|вихідне положення}} ви тримаєте, доки мішень не вилетить із машинки й ви її не побачите."
+      "uk": "У {{tm:sporting}} перед командою ви стоїте обома ногами в межах {{term:shooting-stand|стрілецького місця}}. П’ятка приклада (його верхній задній кут, та частина, що ляже в плече) торкається тіла. Найвища задня точка приклада — зазвичай сама п’ятка — лишається нижче лінії на жилеті. Це {{term:ready-position|вихідне положення}} ви тримаєте, доки мішень не вилетить із {{term:trap|машинки}} й ви її не побачите."
     },
     {
       "k": "sporting-gun-position-p2",
@@ -152,7 +152,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch3-jacket-line",
       "en": "The {{term:jacket-line|line}} is marked on the vest or jacket {{fact:rules.sporting-jacket-line}} (an imaginary horizontal line through both shoulders), parallel to it. Its colour stands out against the vest, so the referee can see it. The rule covers all kinds of stock: standard, Monte Carlo (with a raised comb, the top edge of the stock where your cheek rests) and {{term:adjustable-comb|adjustable comb}}.",
-      "uk": "{{term:jacket-line|Лінію}} наносять на жилет чи куртку {{fact:rules.sporting-jacket-line}} (уявної горизонтальної лінії через обидва плечі), паралельно до неї. Її колір помітно відрізняється від жилета, щоб суддя її бачив. Правило стосується будь-якого приклада: звичайного, Monte Carlo (з піднятим гребенем — верхнім краєм приклада, на який лягає щока) і з {{term:adjustable-comb|регульованим гребенем}}."
+      "uk": "{{term:jacket-line|Лінію}} наносять на {{term:shooting-vest|жилет}} чи куртку {{fact:rules.sporting-jacket-line}} (уявної горизонтальної лінії через обидва плечі), паралельно до неї. Її колір помітно відрізняється від жилета, щоб суддя її бачив. Правило стосується будь-якого приклада: звичайного, Monte Carlo (з піднятим гребенем — верхнім краєм приклада, на який лягає щока) і з {{term:adjustable-comb|регульованим гребенем}}."
     },
     {
       "k": "sporting-gun-position-p3",
@@ -161,7 +161,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch3-mounting",
       "en": "You may bring the gun up to your shoulder ({{term:gun-mount|mount}} it) only once the target appears. All targets, the {{term:rabbit|rabbit}} too, are shot with the gun at the shoulder; shooting from the hip is not allowed.",
-      "uk": "Вкладати рушницю ({{term:gun-mount|вкладка}}), тобто піднімати її до плеча, можна лише тоді, коли з’явилася мішень. По всіх мішенях, і по {{term:rabbit|зайцю}} теж, стріляють із рушницею біля плеча; стріляти від стегна заборонено."
+      "uk": "{{term:gun-mount|Вкладку}}, тобто підйом рушниці до плеча, роблять лише тоді, коли з’явилася мішень. По всіх мішенях, і по {{term:rabbit|зайцю}} теж, стріляють із рушницею біля плеча; стріляти від стегна заборонено."
     },
     {
       "k": "rules-gun-position-p5",

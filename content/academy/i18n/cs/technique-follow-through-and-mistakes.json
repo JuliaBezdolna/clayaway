@@ -36,11 +36,11 @@
   "title": "Dotažení švihu, rychlost zbraně a tempo",
   "summary": "Proč se zbraň pohybuje i po výstřelu, jak rychlost zbraně určuje vaši metodu výnosu a kde si přečíst o častých chybách.",
   "body": {
-    "basics-follow-through-p1": "Dotažení švihu (follow-through) znamená, že zbraň se po stisku spouště dál pohybuje po dráze terče, jako švih v golfu nebo tenisu. Mezi rozhodnutím vystřelit a odchodem broků z hlavní je malá prodleva; pokud se zbraň u spouště zastaví, rána jde za terč. Trenéři po výstřelu sledují ústí: pokud ztuhne nebo klesne, dotažení chybělo.",
+    "basics-follow-through-p1": "{{term:follow-through|Dotažení švihu}} znamená, že zbraň se po stisku spouště dál pohybuje po dráze terče, jako švih v golfu nebo tenisu. Mezi rozhodnutím vystřelit a odchodem broků z hlavní je malá prodleva; pokud se zbraň u spouště zastaví, rána jde za terč. Trenéři po výstřelu sledují ústí: pokud ztuhne nebo klesne, dotažení chybělo.",
     "basics-follow-through-p2": "{{term:gun-speed|Rychlost zbraně}} udává, jak rychle se hlavně pohybují ve srovnání s terčem, a určuje metodu výnosu. Stejná rychlost jako terč je {{term:maintained-lead|maintained lead}}. Rychlejší než terč je {{term:swing-through|swing through}}. Stejná rychlost a pak krátké zrychlení je {{term:pull-away|pull away}}. Nehybná zbraň čekající v bodě je {{term:ambush|ambush}}. Příliš pomalá zbraň zaostává; příliš rychlá podle trenérů terč přestřelí, a střelec ji pak často zastaví.",
     "basics-follow-through-p3": "Tempo je to, jak rychle se celý výstřel provede; rytmus je to, jak je rovnoměrný. Rychlý, blízký terč chce svižné tempo, dlouhý pomalý přeletový terč klidnější, ale rytmus zůstává plynulý. Mnoho trenérů říká, že střelci s jedním tempem na všechno ztrácejí terče, které potřebují opak.",
-    "basics-follow-through-p4": "„Stay in the gun“ – zůstaňte ve zbrani: tvář na pažbě a oči na terči, dokud se nerozbije. Tak jste připraveni i na druhý výstřel (trenéři říkají „druhá hlaveň“), protože na jednotlivý terč smíte vystřelit dvakrát.",
-    "technique-follow-through-and-mistakes-faults": "Za mnoha minutými terči stojí jen pár typických chyb: zastavení zbraně, zvednutí hlavy, pozdní nebo předčasné zalícení a ztráta druhého terče dvojstřelu. Každá z nich má vlastní lekci: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} a {{lesson:faults-pairs-transition}}. Jak poznat, kam šla rána, najdete v lekci {{lesson:faults-behind-in-front}}."
+    "basics-follow-through-p4": "„Stay in the gun“ – zůstaňte ve zbrani: tvář na {{term:stock|pažbě}} a oči na terči, dokud se nerozbije. Tak jste připraveni i na druhý výstřel (trenéři říkají „druhá hlaveň“), protože na {{term:single-target|jednotlivý terč}} smíte vystřelit dvakrát.",
+    "technique-follow-through-and-mistakes-faults": "Za mnoha minutými terči stojí jen pár typických chyb: zastavení zbraně, zvednutí hlavy, pozdní nebo předčasné {{term:gun-mount|zalícení}} a ztráta druhého terče {{term:double|dvojstřelu}}. Každá z nich má vlastní lekci: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} a {{lesson:faults-pairs-transition}}. Jak poznat, kam šla rána, najdete v lekci {{lesson:faults-behind-in-front}}."
   },
   "note": {
     "basics-follow-through-p5": "„Finish the shot“ překládejte jako pokračování v pohybu, ne jako zastavení."
@@ -93,7 +93,7 @@
         "c": "Nulová: zbraň čeká",
         "d": "Pomalejší než terč"
       },
-      "explain": "U maintained lead se ústí pohybuje rychlostí terče a odstup zůstává stálý. Čekající zbraň je ambush (čekaná), rychlejší je swing-through."
+      "explain": "U {{term:maintained-lead|udržovaného předsazení}} se ústí pohybuje rychlostí terče a odstup zůstává stálý. Čekající zbraň je {{term:ambush|čekání na terč}}, rychlejší je {{term:swing-through|přešvihnutí}}."
     },
     "basics-follow-through-q3": {
       "q": "Jaký je rozdíl mezi tempem a rytmem?",
@@ -106,7 +106,7 @@
       "explain": "Trenéři mění tempo pro každý terč a zachovávají plynulý rytmus, proto obě slova překládejte zvlášť."
     },
     "technique-follow-through-and-mistakes-q1": {
-      "q": "Co je dotažení švihu (follow-through)?",
+      "q": "Co je {{term:follow-through|dotažení švihu}}?",
       "options": {
         "a": "Zbraň se pohybuje dál i po výstřelu",
         "b": "Druhý výstřel na stejný terč",
@@ -126,11 +126,11 @@
     "technique-follow-through-and-mistakes-q3": {
       "q": "Co často způsobí ránu nad terčem?",
       "options": {
-        "a": "Zvednutí hlavy z pažby",
+        "a": "Zvednutí hlavy ze pažby",
         "b": "Příliš těžký náboj",
         "c": "Správný postoj"
       },
-      "explain": "Když se hlava zvedne, oko už se nedívá podél lišty a zbraň střílí výš."
+      "explain": "Když se hlava zvedne, oko už se nedívá podél {{term:rib|lišty}} a zbraň střílí výš."
     }
   }
 }

@@ -36,14 +36,14 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "chokes-what-is-a-choke-p1": "Když brokovnice vystřelí, z ústí nevyletí jedna kule, ale mráček několika set broků. Během letu se postupně rozptyluje. Stopa, kterou tento mráček zanechá na terči nebo ocelové desce, se nazývá {{term:pattern|obrazec zásahu}} (pattern).",
-    "gear-chokes-p1": "{{term:choke|Zahrdlení}} (choke) je malé zúžení hlavně u ústí. Určuje, jak rychle se broky rozptylují. Těsnější zahrdlení udržuje broky semknuté déle a dává hustší zásah na vzdálené terče. Otevřenější je pustí rozptýlit se dřív a dává širší, odpouštějivější zásah na blízké terče.",
-    "chokes-what-is-a-choke-p2": "Míra, o kolik zahrdlení zužuje hlaveň, se nazývá {{term:constriction|zúžení}} (constriction). Například vnitřek hlavně má 18,5 mm a zahrdlení ho stáhne na 18,0 mm – zúžení je tedy 0,5 mm. Udává se v milimetrech nebo v tisícinách palce („thou“, také „points“). Hlaveň bez jakéhokoli zúžení se nazývá {{term:cylinder|válec}} (cylinder).",
+    "chokes-what-is-a-choke-p1": "Když brokovnice vystřelí, z ústí nevyletí jedna kule, ale mráček několika set broků. Během letu se postupně rozptyluje. Stopa, kterou tento mráček zanechá na terči nebo ocelové desce, se nazývá {{term:pattern|obrazec zásahu}}.",
+    "gear-chokes-p1": "{{term:choke|Zahrdlení}} je malé zúžení hlavně u ústí. Určuje, jak rychle se broky rozptylují. Těsnější zahrdlení udržuje broky semknuté déle a dává hustší zásah na vzdálené terče. Otevřenější je pustí rozptýlit se dřív a dává širší, odpouštějivější zásah na blízké terče.",
+    "chokes-what-is-a-choke-p2": "Míra, o kolik zahrdlení zužuje hlaveň, se nazývá {{term:constriction|zúžení}}. Například vnitřek hlavně má 18,5 mm a zahrdlení ho stáhne na 18,0 mm – zúžení je tedy 0,5 mm. Udává se v milimetrech nebo v tisícinách palce („thou“, také „points“). Hlaveň bez jakéhokoli zúžení se nazývá {{term:cylinder|válec}}.",
     "chokes-what-is-a-choke-p4": "Široký zásah odpouští drobné chyby v navádění na blízkých terčích. Na velkou vzdálenost se ale rozptýlí a mezi broky vznikají „díry“, kterými terč může proletět nerozbitý. Hustý zásah zůstává semknutý i dál, ale potřebuje přesnější navádění, takže neexistuje jedno správné zahrdlení – jen to, které sedí dané vzdálenosti.",
-    "gear-chokes-p2": "Většina soutěžních zbraní má {{term:multichoke|výměnné zahrdlení}}: krátké trubičky zašroubované do ústí {{term:choke-key|klíčem na zahrdlení}} (choke key). Starší zbraně mohou mít {{term:fixed-choke|pevné zahrdlení}} vytočené v samotné hlavni. Trubičky různých výrobců si často nesednou, a výrobci varují, že bez nich se ze zbraně s výměnným zahrdlením nemá střílet.",
+    "gear-chokes-p2": "Většina soutěžních zbraní má {{term:multichoke|výměnné zahrdlení}}: krátké trubičky zašroubované do ústí {{term:choke-key|klíčem na zahrdlení}}. Starší zbraně mohou mít {{term:fixed-choke|pevné zahrdlení}} vytočené v samotné hlavni. Trubičky různých výrobců si často nesednou, a výrobci varují, že bez nich se ze zbraně s výměnným zahrdlením nemá střílet.",
     "chokes-what-is-a-choke-p6": "V {{tm:sporting}} a {{tm:compak}} létají terče na různých vzdálenostech, tak je výběr zahrdlení součástí vašeho plánu. V {{term:over-and-under|kozlici}} může mít každá hlaveň svoje zahrdlení: třeba otevřenější pro první, bližší výstřel a těsnější pro druhý.",
-    "gear-chokes-p4": "Trenéři říkají například: „quarter and half“ (čtvrtina a půlka), „open up the bottom barrel“ (otevřete spodní hlaveň), nebo „go tighter in the top“ (zpřísněte v horní) či „change chokes for this stand“ (vyměňte zahrdlení na toto stanoviště). Názvy od válce po plné zahrdlení, zlomky a značení: {{lesson:chokes-names-and-marks}}.",
-    "gear-chokes-p5": "Pravidla se mezi disciplínami liší. V {{tm:sporting}} lze zahrdlení měnit mezi stanovišti nebo mezi jednotlivými terči a dvojstřely, pokud to nezpůsobí zpoždění. Jakmile střelec vstoupí na stanoviště, měnit už nelze. V {{tm:compak}} se zbraň, hlavně ani zahrdlení v rámci položky nemění vůbec, jen mezi položkami, kromě případu poruchy."
+    "gear-chokes-p4": "Trenéři říkají například: „quarter and half“ (čtvrtina a půlka), „open up the bottom barrel“ (otevřete spodní hlaveň), nebo „go tighter in the top“ (zpřísněte v horní) či „change chokes for this stand“ (vyměňte zahrdlení na toto stanoviště). Názvy od válce po {{term:full-choke|plné zahrdlení}}, zlomky a značení: {{lesson:chokes-names-and-marks}}.",
+    "gear-chokes-p5": "Pravidla se mezi disciplínami liší. V {{tm:sporting}} lze zahrdlení měnit mezi stanovišti nebo mezi jednotlivými terči a {{term:double|dvojstřely}}, pokud to nezpůsobí zpoždění. Jakmile střelec vstoupí na stanoviště, měnit už nelze. V {{tm:compak}} se zbraň, hlavně ani zahrdlení v rámci položky nemění vůbec, jen mezi položkami, kromě případu poruchy."
   },
   "note": {
     "chokes-what-is-a-choke-n1": "Zachovejte názvy zahrdlení přesně tak, jak je řekl trenér. Nepřepočítávejte je na milimetry: hodnoty se mezi výrobci liší."
@@ -67,7 +67,7 @@
     }
   },
   "key_points": {
-    "chokes-what-is-a-choke-kp1": "Obrazec zásahu (pattern) je stopa mráčku broků na terči nebo desce.",
+    "chokes-what-is-a-choke-kp1": "{{term:pattern|Obrazec zásahu}} je stopa mráčku broků na terči nebo desce.",
     "gear-chokes-kp1": "Zahrdlení zužuje ústí: těsnější pro vzdálené terče, otevřenější pro blízké.",
     "gear-chokes-kp2": "Výměnné trubičky se šroubují klíčem na zahrdlení; výrobci varují, že bez nich se nemá střílet.",
     "chokes-what-is-a-choke-kp4": "Zahrdlení volte podle vzdálenosti, na kterou budete střílet.",
@@ -75,7 +75,7 @@
   },
   "quiz": {
     "gear-chokes-q1": {
-      "q": "Které zahrdlení dává nejširší zásah?",
+      "q": "Které {{term:choke|zahrdlení}} dává nejširší zásah?",
       "options": {
         "a": "Full (plné)",
         "b": "Improved modified (tři čtvrtiny)",
@@ -95,7 +95,7 @@
       "explain": "Větší zúžení udržuje broky semknuté déle, takže na stejnou vzdálenost je zásah užší a hustší."
     },
     "chokes-what-is-a-choke-q3": {
-      "q": "Proč je velmi otevřené zahrdlení špatná volba pro vzdálený terč?",
+      "q": "Proč je velmi otevřené {{term:choke|zahrdlení}} špatná volba pro vzdálený terč?",
       "options": {
         "a": "Dává mnohem silnější zpětný ráz než jiná",
         "b": "Je zakázané pro terče nad 30 m",
@@ -105,17 +105,17 @@
       "explain": "Široký zásah se na velkou vzdálenost rozptýlí a terč může proletět mezi broky."
     },
     "chokes-what-is-a-choke-q1": {
-      "q": "Co je zahrdlení?",
+      "q": "Co je {{term:choke|zahrdlení}}?",
       "options": {
         "a": "Zúžení hlavně u ústí",
-        "b": "Pojistka za uzavírací pákou",
+        "b": "{{term:safety-catch|Pojistka}} za uzavírací pákou",
         "c": "Typ náboje pro brokový sport",
-        "d": "Horní hrana pažby, pro tvář"
+        "d": "Horní hrana {{term:stock|pažby}}, pro tvář"
       },
       "explain": "Zahrdlení zužuje vývrt u ústí a udržuje broky semknuté."
     },
     "gear-chokes-q2": {
-      "q": "V {{tm:sporting}} chce střelec, který už stojí na stanovišti, vyměnit zahrdlení. Smí to?",
+      "q": "V {{tm:sporting}} chce střelec, který už stojí na stanovišti, vyměnit {{term:choke|zahrdlení}}. Smí to?",
       "options": {
         "a": "Ano, pokud to nezpůsobí zpoždění",
         "b": "Ne, ne poté, co je na stanovišti",
@@ -126,6 +126,6 @@
     }
   },
   "title": "Co je to zahrdlení",
-  "summary": "Zahrdlení je zúžení hlavně u ústí, které udržuje broky semknutější. Určuje, jak široký je zásah na vzdálenosti terče, a pravidla {{tm:sporting}} a {{tm:compak}} říkají, kdy ho smíte měnit.",
+  "summary": "{{term:choke|Zahrdlení}} je zúžení hlavně u ústí, které udržuje broky semknutější. Určuje, jak široký je zásah na vzdálenosti terče, a pravidla {{tm:sporting}} a {{tm:compak}} říkají, kdy ho smíte měnit.",
   "did_you_know": "Zúžení zahrdlení je drobné. I plné zahrdlení zmenší průměr vývrtu ráže 12 jen o asi 1 mm. To je asi 0,5 mm na každé straně – méně než tloušťka platební karty."
 }

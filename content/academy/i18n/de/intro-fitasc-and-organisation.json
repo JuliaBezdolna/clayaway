@@ -38,10 +38,10 @@
  "summary": "Wer die Regeln von {{tm:sporting}} und {{tm:compak}} schreibt, und wie Vereine, nationale Verbände und internationale Wettkämpfe zusammenhängen.",
  "body": {
   "sport-fitasc-p1": "Die FITASC ist der internationale Verband für das jagdliche Wurfscheibenschießen. Sie schreibt und aktualisiert die Regeln von {{tm:sporting}} und {{tm:compak}}; die Ausgaben, denen wir folgen, sind vom 01.01.2025. {{tm:compak}} ist zudem eine von der FITASC geschützte Marke, deshalb wird der Name immer mit ® geschrieben.",
-  "sport-fitasc-p2": "Der Sport ist wie eine Pyramide aufgebaut. Vereine und Schießstände stehen an der Basis, darüber die nationalen Verbände, und die nationalen Verbände sind Mitglieder der FITASC. Die {{term:layout|Layouts}} (Gruppen von Standplätzen mit ihren Wurfmaschinen) für nationale Wettkämpfe genehmigt der nationale Verband, die für internationale Wettkämpfe die FITASC. Ein Verband kann einen Wettkampf an einen Verein übergeben, bleibt aber für die Anwendung der Regeln verantwortlich.",
+  "sport-fitasc-p2": "Der Sport ist wie eine Pyramide aufgebaut. Vereine und Schießstände stehen an der Basis, darüber die nationalen Verbände, und die nationalen Verbände sind Mitglieder der FITASC. Die Layouts – Gruppen von Standplätzen mit ihren {{term:trap|Wurfmaschinen|pl}} – für nationale Wettkämpfe genehmigt der nationale Verband, die für internationale Wettkämpfe die FITASC. Ein Verband kann einen Wettkampf an einen Verein übergeben, bleibt aber für die Anwendung der Regeln verantwortlich.",
   "intro-fitasc-and-organisation-p6": "Was das für einen Einsteiger bedeutet: Bei internationalen Wettkämpfen gelten in allen Ländern dieselben FITASC-Regeln, und viele nationale Verbände bauen ihre eigenen Regeln darauf auf. Nationale Wettkämpfe und Vereinswettkämpfe können trotzdem eigene Regeln verwenden, lesen Sie also bei jedem Wettkampf die Ausschreibung.",
-  "sport-fitasc-p3": "Am Schießstand wenden {{term:referee|Schiedsrichter}} die Regeln an. Jeder Schiedsrichter hat ein Zertifikat eines nationalen Verbands, und der {{term:chief-referee|Oberschiedsrichter}} braucht ein internationales FITASC-Zertifikat. Bei internationalen Wettkämpfen behandelt eine {{term:jury|Jury}} (ein kleines Gremium von Offiziellen) {{term:protest|Proteste}} (formelle Beschwerden gegen eine Entscheidung), Strafen und technische Probleme.",
-  "intro-fitasc-and-organisation-p5": "Internationale Wettkämpfe gibt es auf verschiedenen Ebenen: {{term:grand-prix|Grand-Prix}}-Wettkämpfe sowie Kontinental- und Welt{{term:championship|meisterschaften}}. Sie umfassen meist {{fact:basics.international-targets}}, über mehrere Tage. Die Ergebnisse werden auf drei Arten gewertet: in der {{term:open-ranking|offenen Wertung}} (alle zusammen), nach {{term:category|Klasse}} (Alters- und Geschlechtsgruppen) und nach nationaler {{term:team|Mannschaft}}.",
+  "sport-fitasc-p3": "Am Schießstand wenden {{term:referee|Schiedsrichter}} die Regeln an. Jeder Schiedsrichter hat ein Zertifikat eines nationalen Verbands, und der {{term:chief-referee|Oberschiedsrichter}} braucht ein internationales FITASC-Zertifikat. Bei internationalen Wettkämpfen behandelt eine {{term:jury|Jury}} (ein kleines Gremium von Offiziellen) {{term:protest|Proteste|pl}} (formelle Beschwerden gegen eine Entscheidung), Strafen und technische Probleme.",
+  "intro-fitasc-and-organisation-p5": "Internationale Wettkämpfe gibt es auf verschiedenen Ebenen: {{term:grand-prix|Grand-Prix}}-Wettkämpfe sowie Kontinental- und Weltmeisterschaften. Sie umfassen meist {{fact:basics.international-targets}}, über mehrere Tage. Die Ergebnisse werden auf drei Arten gewertet: in der {{term:open-ranking|offenen Wertung}} – alle zusammen –, nach {{term:category|Klasse}} – Alters- und Geschlechtsgruppen – und nach nationaler {{term:team|Mannschaft}}.",
   "sport-fitasc-p4": "Es gibt auch andere Organisationen. In Großbritannien und den USA betreiben Verbände wie {{term:cpsa|CPSA}} und {{term:nsca|NSCA}} eigene Versionen des Sports mit eigenen Regeln und eigenen Begriffen. Eine davon ist {{term:english-sporting|English Sporting}}. Ein britischer oder amerikanischer Trainer kann diese Begriffe auch bei einem FITASC-Wettkampf verwenden; {{lesson:interpreter-english-sporting-vs-fitasc}} zeigt, wie Sie damit umgehen.",
   "sport-fitasc-p5": "ClayArena ist die Plattform hinter diesem Kurs. Sie veröffentlicht Wettkampfkalender, ein Glossar und eine Zusammenfassung der FITASC-Regeln in einfacher Sprache. {{term:clayaway|ClayAway}}, ihr Service für Trainingsreisen, wird gerade vorbereitet. Denken Sie daran: Nur der offizielle FITASC-Text zählt (er ist verbindlich); eine Zusammenfassung ist eine Orientierung, nicht die Regel selbst."
  },
@@ -69,7 +69,7 @@
   "intro-fitasc-and-organisation-kp5": "Internationale Wettkämpfe folgen denselben FITASC-Regeln; nationale Wettkämpfe und Vereinswettkämpfe können eigene haben, lesen Sie also die Ausschreibung.",
   "sport-fitasc-kp4": "Verbindlich ist nur der offizielle FITASC-Text; ClayArena bietet eine Zusammenfassung."
  },
- "did_you_know": "Wird ein Schütze von einem FITASC-Wettkampf {{term:expulsion|ausgeschlossen}}, wird das an die FITASC-Zentrale gemeldet, die es fünf Jahre lang registriert.",
+ "did_you_know": "Ein {{term:expulsion|Ausschluss}} von einem FITASC-Wettkampf wird an die FITASC-Zentrale gemeldet, die ihn fünf Jahre lang registriert.",
  "quiz": {
   "sport-fitasc-q1": {
    "q": "Wer genehmigt die Layouts für einen internationalen {{tm:sporting}}-Wettkampf?",
@@ -82,17 +82,17 @@
    "explain": "Nationale Layouts genehmigt der nationale Verband, internationale die FITASC."
   },
   "sport-fitasc-q2": {
-   "q": "Welches Zertifikat muss der Oberschiedsrichter haben?",
+   "q": "Welches Zertifikat muss der {{term:chief-referee|Oberschiedsrichter}} haben?",
    "options": {
     "a": "Ein internationales FITASC-Zertifikat",
     "b": "Einen Mitgliedsausweis des Vereins, sonst nichts",
     "c": "Eine nationale Trainerlizenz seines Vereins",
     "d": "Keines: jeder erfahrene Schütze kann es machen"
    },
-   "explain": "Schiedsrichter am Stand brauchen ein nationales Zertifikat; der Oberschiedsrichter braucht ein internationales der FITASC."
+   "explain": "{{term:referee|Schiedsrichter}} am Stand brauchen ein nationales Zertifikat; der Oberschiedsrichter braucht ein internationales der FITASC."
   },
   "sport-fitasc-q3": {
-   "q": "Bei einem Streit über die Entscheidung eines Schiedsrichters zeigt jemand die Regelzusammenfassung von ClayArena. Wie viel zählt sie?",
+   "q": "Bei einem Streit über die Entscheidung eines {{term:referee|Schiedsrichters}} zeigt jemand die Regelzusammenfassung von ClayArena. Wie viel zählt sie?",
    "options": {
     "a": "Sie zählt mehr als der offizielle FITASC-Text",
     "b": "Sie ist nur eine Orientierung; der FITASC-Text entscheidet",

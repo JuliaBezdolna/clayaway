@@ -38,10 +38,10 @@
  "summary": "Quem escreve as regras do {{tm:sporting}} e do {{tm:compak}}, e como se encaixam os clubes, as federações nacionais e as competições internacionais.",
  "body": {
   "sport-fitasc-p1": "A {{term:fitasc|FITASC}} é a federação internacional do tiro aos pratos de estilo caça. Escreve e atualiza as regras do {{tm:sporting}} e do {{tm:compak}}; as edições que seguimos têm a data de 01/01/2025. O {{tm:compak}} é também uma marca protegida pela FITASC, e é por isso que o nome se escreve sempre com ®.",
-  "sport-fitasc-p2": "A modalidade está organizada como uma pirâmide. Na base estão os clubes e os campos de tiro, acima deles as {{term:national-federation|federações nacionais}}, e as federações nacionais são membros da FITASC. Os {{term:layout|percursos}} (grupos de postos com as suas máquinas) das competições nacionais são aprovados pela federação nacional; os das competições internacionais, pela FITASC. Uma federação pode confiar uma prova a um clube, mas continua responsável pela aplicação das regras.",
+  "sport-fitasc-p2": "A modalidade está organizada como uma pirâmide. Na base estão os clubes e os campos de tiro, acima deles as {{term:national-federation|federações nacionais}}, e as federações nacionais são membros da FITASC. Os {{term:layout|percursos}} — grupos de postos com as suas {{term:trap|máquinas}} — das competições nacionais são aprovados pela federação nacional; os das competições internacionais, pela FITASC. Uma federação pode confiar uma prova a um clube, mas continua responsável pela aplicação das regras.",
   "intro-fitasc-and-organisation-p6": "O que isto significa para um principiante: nas competições internacionais, as regras da FITASC são iguais em todos os países, e muitas federações nacionais constroem as suas próprias regras a partir delas. As provas nacionais e de clube podem ter regras próprias, por isso leia o programa de cada competição.",
   "sport-fitasc-p3": "No campo de tiro, as regras são aplicadas pelos {{term:referee|árbitros}}. Cada árbitro tem um certificado de uma federação nacional, e o {{term:chief-referee|árbitro principal}} precisa de um certificado internacional da FITASC. Nas provas internacionais, um {{term:jury|júri}} (uma pequena comissão de responsáveis) trata dos {{term:protest|protestos}} (reclamações formais contra uma decisão), das penalizações e dos problemas técnicos.",
-  "intro-fitasc-and-organisation-p5": "As competições internacionais têm níveis diferentes: provas de {{term:grand-prix|Grand Prix}}, e {{term:championship|campeonatos}} continentais e mundiais. São normalmente {{fact:basics.international-targets}}, ao longo de vários dias. Os resultados contam-se de três formas: na {{term:open-ranking|classificação geral}} (todos juntos), por {{term:category|categoria}} (grupos de idade e género) e por {{term:team|equipa}} nacional.",
+  "intro-fitasc-and-organisation-p5": "As competições internacionais têm níveis diferentes: provas de {{term:grand-prix|Grand Prix}}, e {{term:championship|campeonatos}} continentais e mundiais. São normalmente {{fact:basics.international-targets}}, ao longo de vários dias. Os resultados contam-se de três formas: na {{term:open-ranking|classificação geral}}, em que todos competem juntos; por {{term:category|categoria}}, isto é, por grupos de idade e género; e por {{term:team|equipa}} nacional.",
   "sport-fitasc-p4": "Existem também outras entidades. No Reino Unido e nos EUA, associações como a {{term:cpsa|CPSA}} e a {{term:nsca|NSCA}} organizam as suas próprias versões da modalidade, com regras e palavras diferentes. Uma delas é o {{term:english-sporting|English Sporting}}. Um treinador britânico ou americano pode usar essas palavras numa prova FITASC; a lição {{lesson:interpreter-english-sporting-vs-fitasc}} mostra como lidar com isso.",
   "sport-fitasc-p5": "A ClayArena é a plataforma por detrás deste curso. Publica calendários de competições, um glossário e um resumo em linguagem simples das regras da FITASC. O {{term:clayaway|ClayAway}}, o seu serviço de turnês de treino, está a ser preparado. Lembre-se: só o texto oficial da FITASC é vinculativo; um resumo é um guia, não a regra em si."
  },
@@ -69,10 +69,10 @@
   "intro-fitasc-and-organisation-kp5": "As provas internacionais seguem as mesmas regras da FITASC; as nacionais e de clube podem ter as suas próprias, por isso leia o programa.",
   "sport-fitasc-kp4": "Só o texto oficial da FITASC é vinculativo; a ClayArena oferece um resumo."
  },
- "did_you_know": "Quando um atirador é {{term:expulsion|expulso}} (afastado de uma competição FITASC), isso é comunicado à sede da FITASC, que guarda o registo durante cinco anos.",
+ "did_you_know": "Quando há a {{term:expulsion|expulsão}} de um atirador de uma competição FITASC, isso é comunicado à sede da FITASC, que guarda o registo durante cinco anos.",
  "quiz": {
   "sport-fitasc-q1": {
-   "q": "Quem aprova os percursos de uma competição internacional de {{tm:sporting}}?",
+   "q": "Quem aprova os {{term:layout|percursos}} de uma competição internacional de {{tm:sporting}}?",
    "options": {
     "a": "O clube local",
     "b": "A federação nacional",
@@ -82,17 +82,17 @@
    "explain": "Os percursos nacionais são aprovados pela federação nacional; os internacionais, pela FITASC."
   },
   "sport-fitasc-q2": {
-   "q": "Que certificado tem de ter o árbitro principal?",
+   "q": "Que certificado tem de ter o {{term:chief-referee|árbitro principal}}?",
    "options": {
     "a": "Um certificado internacional da FITASC",
     "b": "Apenas o cartão de sócio de um clube",
     "c": "Uma licença nacional de treinador do seu clube",
     "d": "Nenhum: qualquer atirador experiente pode sê-lo"
    },
-   "explain": "Os árbitros de posto precisam de um certificado nacional; o árbitro principal precisa de um certificado internacional da FITASC."
+   "explain": "Os {{term:referee|árbitros}} de posto precisam de um certificado nacional; o árbitro principal precisa de um certificado internacional da FITASC."
   },
   "sport-fitasc-q3": {
-   "q": "Durante uma discussão sobre a decisão de um árbitro, alguém mostra o resumo das regras da ClayArena. Que valor tem?",
+   "q": "Durante uma discussão sobre a decisão de um {{term:referee|árbitro}}, alguém mostra o resumo das regras da ClayArena. Que valor tem?",
    "options": {
     "a": "Vale mais do que o texto oficial da FITASC",
     "b": "É apenas um guia; decide o texto da FITASC",

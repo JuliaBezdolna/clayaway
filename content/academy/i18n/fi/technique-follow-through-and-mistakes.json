@@ -37,10 +37,10 @@
  "title": "Saatto, aseen nopeus ja tempo",
  "summary": "Miksi ase jatkaa liikettä laukauksen jälkeen, miten aseen nopeus määrittää ennakkomenetelmäsi, ja mistä lukea tavallisista virheistä.",
  "body": {
-  "basics-follow-through-p1": "Saatto (follow-through) tarkoittaa, että ase jatkaa liikettä kiekon linjaa pitkin liipaisimen painamisen jälkeen, kuten golf- tai tennislyönnissä. Laukaisupäätöksen ja haulien piipusta lähdön välillä on pieni viive; jos ase pysähtyy liipaisimella, laukaus menee taakse. Valmentajat seuraavat piipunsuita laukauksen jälkeen: jos ne jähmettyvät tai painuvat alas, saatto puuttui.",
+  "basics-follow-through-p1": "{{term:follow-through|Saatto}} tarkoittaa, että ase jatkaa liikettä kiekon linjaa pitkin liipaisimen painamisen jälkeen, kuten golf- tai tennislyönnissä. Laukaisupäätöksen ja haulien piipusta lähdön välillä on pieni viive; jos ase pysähtyy liipaisimella, laukaus menee taakse. Valmentajat seuraavat piipunsuita laukauksen jälkeen: jos ne jähmettyvät tai painuvat alas, saatto puuttui.",
   "basics-follow-through-p2": "{{term:gun-speed|Aseen nopeus}} on se, kuinka nopeasti piipunsuut liikkuvat kiekkoon verrattuna, ja se määrittää ennakkomenetelmän. Sama nopeus kuin kiekolla on {{term:maintained-lead|pysyvä ennakko}}. Kiekkoa nopeampi on {{term:swing-through|läpiveto}}. Sama nopeus, jonka jälkeen lyhyt kiihdytys, on {{term:pull-away|edestä irtiveto}}. Paikallaan pisteessä odottava ase on {{term:ambush|väijytys}}. Liian hidas ase jää jälkeen; valmentajat sanovat, että liian nopea menee yli, ja ampuja pysäyttää sen usein silloin.",
-  "basics-follow-through-p3": "Tempo on se, kuinka nopeasti koko laukaus tehdään; rytmi on sen tasaisuus. Nopea, lähellä oleva kiekko vaatii nopean tempon, pitkä ja hidas sivukiekko rauhallisemman, mutta rytmi pysyy sujuvana. Monet valmentajat sanovat, että ampujat, joilla on yksi tempo kaikkeen, menettävät ne kiekot, jotka vaativat päinvastaista.",
-  "basics-follow-through-p4": "”Stay in the gun” — pysy aseessa: poski tukilla ja katse kiekossa, kunnes se rikkoutuu. Näin olet myös valmis toiseen laukaukseen (valmentajat sanovat ”toinen piippu”), koska yksittäiskiekkoon saa ampua kaksi laukausta.",
+  "basics-follow-through-p3": "Tempo on se, kuinka nopeasti koko laukaus tehdään; rytmi on sen tasaisuus. Nopea, lähellä oleva kiekko vaatii nopean tempon, pitkä ja hidas {{term:crosser|sivukiekko}} rauhallisemman, mutta rytmi pysyy sujuvana. Monet valmentajat sanovat, että ampujat, joilla on yksi tempo kaikkeen, menettävät ne kiekot, jotka vaativat päinvastaista.",
+  "basics-follow-through-p4": "”Stay in the gun” — pysy aseessa: poski tukilla ja katse kiekossa, kunnes se rikkoutuu. Näin olet myös valmis toiseen laukaukseen (valmentajat sanovat ”toinen piippu”), koska {{term:single-target|yksittäiskiekkoon}} saa ampua kaksi laukausta.",
   "technique-follow-through-and-mistakes-faults": "Moni ohilaukaus johtuu muutamasta yleisestä virheestä: aseen pysäyttämisestä, pään nostamisesta, liian myöhäisestä tai aikaisesta nostosta ja parin toisen kiekon menettämisestä. Joka virheellä on oma oppituntinsa: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} ja {{lesson:faults-pairs-transition}}. Miten lukea, mihin laukaus meni, kerrotaan {{lesson:faults-behind-in-front}}.",
   "basics-follow-through-sim": "Animaatio: valitse vaihtoehto, jossa ase pysähtyy liipaisimella, ja laukaus menee kiekon taakse, vaikka ennakko näytti oikealta."
  },
@@ -94,7 +94,7 @@
     "c": "Nolla: ase odottaa",
     "d": "Kiekkoa hitaampi"
    },
-   "explain": "Pysyvässä ennakossa piipunsuut liikkuvat kiekon nopeudella, ja väli pysyy samana. Odottava ase on väijytys (ambush); nopeampi on läpiveto."
+   "explain": "Pysyvässä ennakossa piipunsuut liikkuvat kiekon nopeudella, ja väli pysyy samana. Odottava ase on {{term:ambush|väijytys}}; nopeampi on {{term:swing-through|läpiveto}}."
   },
   "basics-follow-through-q3": {
    "q": "Mikä on tempon ja rytmin ero?",
@@ -107,7 +107,7 @@
    "explain": "Valmentajat muuttavat tempoa jokaisen kiekon mukaan ja pitävät rytmin sujuvana, joten käännä molemmat sanat erikseen."
   },
   "technique-follow-through-and-mistakes-q1": {
-   "q": "Mikä on saatto (follow-through)?",
+   "q": "Mikä on {{term:follow-through|saatto}}?",
    "options": {
     "a": "Ase jatkaa liikettä laukauksen jälkeen",
     "b": "Toinen laukaus samaan kiekkoon",
@@ -131,7 +131,7 @@
     "b": "Liian painava patruuna",
     "c": "Oikea ampuma-asento"
    },
-   "explain": "Kun pää nousee, silmä ei enää katso kiskoa pitkin, ja ase ampuu korkealle."
+   "explain": "Kun pää nousee, silmä ei enää katso {{term:rib|kiskoa}} pitkin, ja ase ampuu korkealle."
   }
  },
  "did_you_know": "Päätöksen ampua ja laukauksen lähtemisen välillä nopea sivukiekko ehtii liikkua eteenpäin. Siksi piipunsuiden täytyy pysyä liikkeessä: niiden täytyy pysyä edellä sen lyhyen viiveen aikana."

@@ -29,7 +29,7 @@
     "origin": null
   },
   "body": {
-    "gear-chokes-p3": "Názvy pocházejí z angličtiny, od nejotevřenějšího po nejtěsnější: cylinder ({{term:cylinder|válec}}), improved cylinder, light modified, modified, improved modified, full. Evropané je často označují zlomky: quarter – „čtvrtina“ ({{term:improved-cylinder|improved cylinder}}), half – „polovina“, „půlčok“ ({{term:modified|modified}}), three-quarter – „tři čtvrtiny“ ({{term:improved-modified|improved modified}}) a full – „plný“ ({{term:full-choke|full}}). Mnohé italské zbraně značí zahrdlení {{term:star-marks|hvězdičkami}}, a tam platí obrácená logika: víc hvězdiček znamená otevřenější zahrdlení.",
+    "gear-chokes-p3": "Názvy pocházejí z angličtiny, od nejotevřenějšího po nejtěsnější: {{term:cylinder|válec}}, improved cylinder, light modified, modified, improved modified, full. Evropané je často označují zlomky: quarter – „čtvrtina“, tedy {{term:improved-cylinder|čtvrtinové zahrdlení}}; half – „polovina“, „půlčok“, tedy {{term:modified|poloviční zahrdlení}}; three-quarter – „tři čtvrtiny“, tedy {{term:improved-modified|tříčtvrtinové zahrdlení}}; a full – „plný“, tedy {{term:full-choke|plné zahrdlení}}. Mnohé italské zbraně značí {{term:choke|zahrdlení}} pomocí {{term:star-marks|hvězdiček}}, a tam platí obrácená logika: víc hvězdiček znamená otevřenější zahrdlení.",
     "chokes-names-and-marks-p1": "Níže jsou typická {{term:constriction|zúžení}} pro ráži 12. Jeden thou je tisícina palce, přibližně 0,025 mm. Skutečné hodnoty závisí na výrobci a dokonce i na vývrtu konkrétní hlavně.",
     "chokes-names-and-marks-p2": [
       "Cylinder: žádné zúžení, 0 mm.",
@@ -55,7 +55,7 @@
   },
   "quiz": {
     "chokes-names-and-marks-q1": {
-      "q": "Jaké je přibližné zúžení zahrdlení modified (1/2) v ráži 12?",
+      "q": "Jaké je přibližné zúžení {{term:choke|zahrdlení}} modified (1/2) v ráži 12?",
       "options": {
         "a": "0 mm",
         "b": "Přibližně 0,25 mm",
@@ -65,7 +65,7 @@
       "explain": "Modified je přibližně 0,5 mm, tedy kolem 20 thou."
     },
     "chokes-names-and-marks-q2": {
-      "q": "Co znamená zahrdlení se čtyřmi hvězdičkami na zbrani Beretta?",
+      "q": "Co znamená {{term:choke|zahrdlení}} se čtyřmi hvězdičkami na zbrani Beretta?",
       "options": {
         "a": "Full",
         "b": "Improved cylinder (1/4)",
@@ -75,7 +75,7 @@
       "explain": "V systému hvězdiček platí: víc hvězdiček = otevřenější zahrdlení; čtyři hvězdičky jsou improved cylinder."
     },
     "chokes-names-and-marks-q4": {
-      "q": "Které zahrdlení se v evropském úzu nazývá „polovina“?",
+      "q": "Které {{term:choke|zahrdlení}} se v evropském úzu nazývá „polovina“?",
       "options": {
         "a": "Modified",
         "b": "Improved cylinder",
@@ -85,7 +85,7 @@
       "explain": "Polovina (1/2) je modified; čtvrtina je improved cylinder, tři čtvrtiny improved modified."
     },
     "chokes-names-and-marks-q3": {
-      "q": "Které zahrdlení je nejotevřenější?",
+      "q": "Které {{term:choke|zahrdlení}} je nejotevřenější?",
       "options": {
         "a": "Full",
         "b": "Improved modified",
@@ -95,7 +95,7 @@
       "explain": "Cylinder nemá žádné zúžení."
     },
     "gear-chokes-q3": {
-      "q": "Na italské zbrani je zahrdlení s pěti hvězdičkami…",
+      "q": "Na italské zbrani je {{term:choke|zahrdlení}} s pěti hvězdičkami…",
       "options": {
         "a": "nejotevřenější",
         "b": "nejtěsnější",

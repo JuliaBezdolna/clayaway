@@ -48,11 +48,11 @@
   "origin": "interpreter-academy"
  },
  "title": "L'annonce, les délais et le retard",
- "summary": "Comment annoncer le plateau, à quelle vitesse il doit partir, combien de temps vous avez en {{tm:sporting}} et en {{tm:compak}}, et ce que coûte un retard.",
+ "summary": "Comment annoncer le plateau, à quelle vitesse il doit partir, combien de temps vous avez en {{tm:sporting}} et en {{tm:compak}}, et ce que coûte un {{term:lateness|retard}}.",
  "body": {
-  "rules-call-and-time-p1": "Un plateau ne vole pas tout seul : vous l'{{term:call|annoncez}} par un mot court comme « pull » ou « ready ». Le règlement fixe ensuite la rapidité avec laquelle le plateau doit partir et le temps dont vous disposez.",
-  "sporting-time-and-lateness-p1": "Le {{tm:sporting}} garde un rythme régulier, protégé par plusieurs règles. Vous annoncez, et l'arbitre relaie votre annonce au {{term:trapper|pulleur}} (la personne qui lance les plateaux) par un signal sonore. À partir de ce signal, le plateau doit être en l'air {{fact:rules.release-within-3s}}. S'il part plus tard, l'arbitre annonce un {{term:no-bird|No bird}}, et le plateau est relancé.",
-  "compak-gun-and-call-p2": "En {{tm:compak}}, un lanceur peut être déclenché à la main, par télécommande ou par {{term:sonopull|sonopull}} (un système à microphone qui déclenche le lanceur dès qu'il entend votre annonce). Déclenché à la main, le plateau doit partir entre 0 et 3 secondes après l'annonce. Un sonopull attend toujours {{fact:rules.sonopull-delay}} après l'annonce, donc le délai est le même chaque fois. Les épreuves internationales tirées {{term:compak-in-line|en ligne}} (les tireurs entrent un par un au poste 1 et avancent le long de la ligne jusqu'au poste 5) n'utilisent que le sonopull. Un plateau qui part plus de 3 secondes trop tard, ou sans que vous l'ayez annoncé, est un No bird.",
+  "rules-call-and-time-p1": "Un plateau ne vole pas tout seul : vous le demandez par un {{term:call|annonce}}, un mot court comme « pull » ou « ready ». Le règlement fixe ensuite la rapidité avec laquelle le plateau doit partir et le temps dont vous disposez.",
+  "sporting-time-and-lateness-p1": "Le {{tm:sporting}} garde un rythme régulier, protégé par plusieurs règles. Vous annoncez, et le {{term:referee|arbitre}} relaie votre annonce au {{term:trapper|pulleur}} — la personne qui lance les plateaux — par un signal sonore. À partir de ce signal, le plateau doit être en l'air {{fact:rules.release-within-3s}}. S'il part plus tard, l'arbitre annonce un {{term:no-bird|No bird}}, et le plateau est relancé.",
+  "compak-gun-and-call-p2": "En {{tm:compak}}, un {{term:trap|lanceur}} peut être déclenché à la main, par télécommande ou par {{term:sonopull|sonopull}} (un système à microphone qui déclenche le lanceur dès qu'il entend votre annonce). Déclenché à la main, le plateau doit partir entre 0 et 3 secondes après l'annonce. Un sonopull attend toujours {{fact:rules.sonopull-delay}} après l'annonce, donc le délai est le même chaque fois. Les épreuves internationales tirées {{term:compak-in-line|en ligne}} — les tireurs entrent un par un au poste 1 et avancent le long de la ligne jusqu'au poste 5 — n'utilisent que le sonopull. Un plateau qui part plus de 3 secondes trop tard, ou sans que vous l'ayez annoncé, est un No bird.",
   "rules-call-and-time-p3": "Dans les deux disciplines, le seul plateau que vous pouvez refuser est celui que vous n'avez pas annoncé : c'est un No bird.",
   "rules-call-and-time-cmp1": {
    "sporting": "Vous ne pouvez pas le refuser. S'il a été lancé correctement et que vous ne tirez pas, il est compté zéro.",
@@ -62,17 +62,17 @@
    "sporting": "Vous avez {{fact:rules.sporting-time-between-targets}}.",
    "compak": "Vous avez {{fact:rules.compak-time-to-call}}."
   },
-  "sporting-time-and-lateness-p2": "La première fois que vous dépassez la limite, l'arbitre donne un avertissement. Ensuite, les sanctions du carton rouge s'appliquent ({{rule:sporting:ch12-red-card}}). Quand l'arbitre a rendu une décision définitive, par exemple après une réclamation de votre part, vous devez reprendre le tir {{fact:rules.sporting-resume-after-ruling}}. Si vous ne le faites pas, ou si vous retardez délibérément, cela compte comme un {{term:refusal-to-comply|refus d'obtempérer}} : une infraction distincte que le jury peut sanctionner.",
-  "compak-gun-and-call-p3": "La première fois que vous dépassez la limite, l'arbitre note un avertissement sur la {{term:score-sheet|feuille de marque}}. Si cela se reproduit dans la même {{term:round|série}}, c'est un carton rouge : un plateau simple est compté zéro, et les doublés suivent le tableau du guide des règles ({{rule:compak:ch21-penalty-table}}). Quand l'arbitre a rendu une décision définitive, vous devez reprendre le tir {{fact:rules.compak-resume-after-ruling}}. Si vous ne le faites pas, ou si vous retardez délibérément, cela compte comme un refus d'obtempérer, que le jury peut sanctionner.",
-  "rules-call-and-time-p7": "Beaucoup d'entraîneurs suggèrent une {{term:pre-shot-routine|routine de pré-tir}} courte et régulière, qui entre largement dans la limite. Par exemple : monter sur le poste, charger quand l'arbitre l'autorise, prendre sa position d'attente, expirer, puis annoncer. Plus de détails dans la leçon {{lesson:mind-routine-under-pressure}}.",
-  "sporting-time-and-lateness-p3": "{{term:lateness|Retard}} : si vous êtes absent au départ de votre planche, l'arbitre appelle votre nom et votre numéro, trois fois en une minute. Si vous arrivez pendant que la planche tire encore les plateaux simples du premier poste et que votre tour n'est pas encore passé, vous rejoignez sans pénalité. Après cela, tous les plateaux que vous n'avez pas tirés sont comptés zéro, et vous ne pouvez pas rattraper plus tard les postes manqués avec une autre planche.",
+  "sporting-time-and-lateness-p2": "La première fois que vous dépassez la limite, l'arbitre donne un avertissement. Ensuite, les sanctions du {{term:red-card|carton rouge}} s'appliquent ({{rule:sporting:ch12-red-card}}). Quand l'arbitre a rendu une décision définitive, par exemple après une réclamation de votre part, vous devez reprendre le tir {{fact:rules.sporting-resume-after-ruling}}. Si vous ne le faites pas, ou si vous retardez délibérément, cela compte comme un {{term:refusal-to-comply|refus d'obtempérer}} : une infraction distincte que le jury peut sanctionner.",
+  "compak-gun-and-call-p3": "La première fois que vous dépassez la limite, l'arbitre note un avertissement sur le {{term:score-sheet|feuille de marque}}. Si cela se reproduit dans le même {{term:round|série}}, c'est un carton rouge : un plateau simple est compté zéro, et les doublés suivent le tableau du guide des règles ({{rule:compak:ch21-penalty-table}}). Quand l'arbitre a rendu une décision définitive, vous devez reprendre le tir {{fact:rules.compak-resume-after-ruling}}. Si vous ne le faites pas, ou si vous retardez délibérément, cela compte comme un refus d'obtempérer, que le jury peut sanctionner.",
+  "rules-call-and-time-p7": "Beaucoup d'entraîneurs suggèrent une {{term:pre-shot-routine|routine de pré-tir}} courte et régulière, qui entre largement dans la limite. Par exemple : monter sur le poste, charger quand l'arbitre l'autorise, prendre sa {{term:ready-position|position d'attente}}, expirer, puis annoncer. Plus de détails dans la leçon {{lesson:mind-routine-under-pressure}}.",
+  "sporting-time-and-lateness-p3": "{{term:lateness|Retard}} : si vous êtes absent au départ de votre {{term:squad|planche}}, l'arbitre appelle votre nom et votre numéro, trois fois en une minute. Si vous arrivez pendant que la planche tire encore les plateaux simples du premier poste et que votre tour n'est pas encore passé, vous rejoignez sans pénalité. Après cela, tous les plateaux que vous n'avez pas tirés sont comptés zéro, et vous ne pouvez pas rattraper plus tard les postes manqués avec une autre planche.",
   "sporting-time-and-lateness-p4": "Si vous étiez en retard pour des raisons indépendantes de votre volonté, ne rejoignez pas la planche pour cette série ; faites une réclamation écrite au jury. S'il l'accepte, vous tirez la série avec une autre planche. S'il la refuse, chaque parcours non tiré compte comme 25 zéros.",
-  "compak-dress-and-conduct-p3": "En {{tm:compak}}, vous devez vous présenter à temps à l'arbitre et confirmer votre présence. Outre le format en ligne, il existe le format par planche : une {{term:squad|planche}} de {{fact:rules.squad-max-shooters}} tire la série ensemble, en passant de poste en poste. Dans ce format, un tireur qui arrive après la première annonce de la planche pour la série reçoit 25 zéros pour cette série. Une réclamation se fait par écrit au jury, le même jour.",
+  "compak-dress-and-conduct-p3": "En {{tm:compak}}, vous devez vous présenter à temps à l'arbitre et confirmer votre présence. Outre le format en ligne, il existe le format par planche : un {{term:squad|planche}} de {{fact:rules.squad-max-shooters}} tire la série ensemble, en passant de poste en poste. Dans ce format, un tireur qui arrive après la première annonce de la planche pour la série reçoit 25 zéros pour cette série. Une réclamation se fait par écrit au jury, le même jour.",
   "rules-call-and-time-cmp3": {
    "sporting": "Soyez prêt {{fact:rules.shootoff-ready-time}}. Si vous n'êtes pas là, vous êtes disqualifié.",
    "compak": "Soyez prêt {{fact:rules.shootoff-ready-time}}. Si vous êtes absent, vous êtes considéré comme ayant déclaré forfait."
   },
-  "rules-call-and-time-tip2": "Mettez vos protections auditives et vos lunettes avant de monter sur le poste : dans les deux disciplines, un tireur qui en est dépourvu est considéré comme absent ({{lesson:rules-dress-and-safety}})."
+  "rules-call-and-time-tip2": "Mettez vos {{term:hearing-protection|protections auditives|pl}} et vos lunettes avant de monter sur le poste : dans les deux disciplines, un tireur qui en est dépourvu est considéré comme absent ({{lesson:rules-dress-and-safety}})."
  },
  "note": {
   "sporting-time-and-lateness-p6": "Ne retardez pas la planche avec une longue traduction : restez bref maintenant et donnez les détails après le poste."
@@ -140,7 +140,7 @@
    "explain": "Un plateau que vous n'avez pas annoncé est un No bird, et c'est le seul que vous pouvez refuser."
   },
   "sporting-time-and-lateness-q1": {
-   "q": "Le tireur annonce et l'arbitre relaie le signal, mais le plateau part environ cinq secondes plus tard. Décision ?",
+   "q": "Le tireur annonce et le {{term:referee|arbitre}} relaie le signal, mais le plateau part environ cinq secondes plus tard. Décision ?",
    "options": {
     "a": "Zéro",
     "b": "No bird",
@@ -150,7 +150,7 @@
    "explain": "Le plateau doit partir dans les trois secondes suivant le signal de l'arbitre ; plus tard, c'est un No bird, et il est relancé."
   },
   "sporting-time-and-lateness-q2": {
-   "q": "Un tireur arrive alors que la planche tire encore les plateaux simples au poste 1, avant que son tour ne soit venu. Que se passe-t-il ?",
+   "q": "Un tireur arrive alors que le {{term:squad|planche}} tire encore les plateaux simples au poste 1, avant que son tour ne soit venu. Que se passe-t-il ?",
    "options": {
     "a": "Il rejoint sans pénalité",
     "b": "25 zéros",
@@ -165,7 +165,7 @@
     "a": "Zéro sur le plateau suivant",
     "b": "Carton rouge",
     "c": "Aucune conséquence",
-    "d": "Un avertissement de l'arbitre"
+    "d": "Un avertissement du arbitre"
    },
    "explain": "La limite est de quinze secondes ; la première fois qu'elle est dépassée, l'arbitre avertit, et ce n'est qu'ensuite que les sanctions suivent."
   },
@@ -180,7 +180,7 @@
    "explain": "Un sonopull lance toujours le plateau {{fact:rules.sonopull-delay}} après l'annonce. Seul un plateau de plus de 3 secondes en retard est un No bird."
   },
   "compak-gun-and-call-q3": {
-   "q": "Pour la deuxième fois dans la même série, un tireur prend plus de dix secondes pour annoncer. Le plateau est un simple. Décision ?",
+   "q": "Pour la deuxième fois dans le même {{term:round|série}}, un tireur prend plus de dix secondes pour annoncer. Le plateau est un simple. Décision ?",
    "options": {
     "a": "Zéro",
     "b": "Encore un simple avertissement",
@@ -190,14 +190,14 @@
    "explain": "Après le premier avertissement, une répétition dans la même série est sanctionnée selon le tableau : un plateau simple est compté zéro."
   },
   "compak-dress-and-conduct-q2": {
-   "q": "{{tm:compak}} par planche. Un tireur arrive juste après que le premier tireur de la planche a annoncé le premier plateau de la série. Que se passe-t-il ?",
+   "q": "{{tm:compak}} par {{term:squad|planche}}. Un tireur arrive juste après que le premier tireur de la planche a annoncé le premier plateau du {{term:round|série}}. Que se passe-t-il ?",
    "options": {
     "a": "Aucune pénalité",
     "b": "Zéro sur le premier plateau seulement",
     "c": "Tire en fin de planche",
     "d": "25 zéros pour la série"
    },
-   "explain": "La limite est la première annonce de la planche. Après celle-ci, le tireur en retard reçoit 25 zéros ; une réclamation écrite au jury le même jour est possible."
+   "explain": "La limite est la première annonce de la planche. Après celle-ci, en cas de {{term:lateness|retard}}, le tireur reçoit 25 zéros ; une réclamation écrite au jury le même jour est possible."
   }
  }
 }

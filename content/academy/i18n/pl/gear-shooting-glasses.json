@@ -37,7 +37,7 @@
   "title": "Okulary strzeleckie i kolory szkieł",
   "summary": "Czemu okulary są obowiązkowe w {{tm:sporting}} i {{tm:compak}}, jak chronią, do czego służą szkła żółte, pomarańczowe, fioletowe i dymne oraz co robić, jeśli potrzebujesz okularów korekcyjnych.",
   "body": {
-    "gear-shooting-glasses-p1": "{{term:safety-glasses|Okulary strzeleckie}} chronią oczy przed odpryskami rzutka, odbitymi śrucinami, gałązkami i pyłem. Na zawodach FITASC są obowiązkowe, a strzelca, który przyjdzie na stanowisko bez nich, uznaje się za nieobecnego. Kto jeszcze musi je nosić, trochę różni się między dyscyplinami.",
+    "gear-shooting-glasses-p1": "{{term:safety-glasses|Okulary strzeleckie}} chronią oczy przed odpryskami {{term:target|rzutka}}, odbitymi śrucinami, gałązkami i pyłem. Na zawodach FITASC są obowiązkowe, a strzelca, który przyjdzie na stanowisko bez nich, uznaje się za nieobecnego. Kto jeszcze musi je nosić, trochę różni się między dyscyplinami.",
     "gear-shooting-glasses-cmp1": {
       "sporting": "Strzelcy, sędziowie, obsługa i każdy blisko stanowiska muszą nosić okulary strzeleckie, bez wyjątków.",
       "compak": "Zawodnicy, sędziowie i obsługa muszą nosić okulary ochronne."
@@ -45,10 +45,10 @@
     "gear-shooting-glasses-p2": "Najważniejsza jest odporność na uderzenia. Szkła strzeleckie robi się z poliwęglanu albo podobnych materiałów, które się nie rozpryskują, a dobre oprawki chronią oczy też z boku. Zwykłe okulary słoneczne do tego nie wystarczą. Szukaj oznaczenia normy ochrony oczu: w Europie zwykle EN 166, w USA ANSI Z87.1.",
     "gear-shooting-glasses-p3": "{{term:lens-tint|Kolor szkieł}} nie zrobi z ciebie lepszego strzelca, ale może pomóc lepiej widzieć rzutek na określonym tle. Wielu strzelców używa żółtego w pochmurną pogodę, mgłę i o zmierzchu, a pomarańczowego jako uniwersalnego. Fioletowy może rozjaśniać pomarańczowy rzutek na tle drzew i trawy, a szary dymny zmniejsza jasność w silnym słońcu, nie zmieniając kolorów.",
     "gear-shooting-glasses-p4": "Są też szkła przezroczyste — na bardzo ciemną pogodę i wieczorne światło. Kolor to kwestia wygody; ochronę daje szkło odporne na uderzenia. Początkującemu wystarczą okulary ze zmiennymi szkłami: przezroczyste albo lekko żółte plus jedno ciemniejsze. Najpierw postrzelaj, zauważ, przy jakim świetle masz trudności, a potem dodawaj szkła.",
-    "gear-shooting-glasses-p5": "Okulary strzeleckie mają specjalny kształt. Gdy składasz się do strzału, głowa lekko się nachyla do kolby, i patrzysz przez górną część szkła. Dlatego oprawki mają wysoki mostek (część, która opiera się na nosie) i duże szkła, by pole widzenia się nie zwężało.",
+    "gear-shooting-glasses-p5": "Okulary strzeleckie mają specjalny kształt. Gdy składasz się do strzału, głowa lekko się nachyla do {{term:stock|kolby}}, i patrzysz przez górną część szkła. Dlatego oprawki mają wysoki mostek (część, która opiera się na nosie) i duże szkła, by pole widzenia się nie zwężało.",
     "health-eyes-vision-p4": "Jeśli nosisz okulary korekcyjne, są dwie główne drogi. Jedna to okulary strzeleckie ze szkłami korekcyjnymi, zamówione u optyka, który zna optykę sportową. Druga to oprawka z osobną {{term:prescription-insert|wkładką korekcyjną}} za wymiennymi barwnymi szkłami.",
     "health-eyes-vision-p8": "Codzienne okulary są odpowiednie tylko wtedy, gdy ich szkła mają certyfikat odporności na uderzenia i korygują wzrok na odległość. Przed kupnem przedyskutuj wybór z okulistą albo optykiem.",
-    "health-eyes-vision-p5": "Strzelec patrzy na rzutek w dal, więc najważniejszy jest ostry wzrok na odległość. Od około 40. roku życia u wielu osób rozwija się starczowzroczność (presbiopia): widzenie z bliska się utrudnia, a {{term:bead|muszka}} może się rozmywać.",
+    "health-eyes-vision-p5": "Strzelec patrzy na rzutek w dal, więc najważniejszy jest ostry wzrok na odległość. Od około 40. roku życia u wielu osób rozwija się {{term:presbyopia|starczowzroczność}}: widzenie z bliska się utrudnia, a {{term:bead|muszka}} może się rozmywać.",
     "gear-shooting-glasses-bead-coaches": "Wielu trenerów mówi, że to ma mniejsze znaczenie, niż się wydaje, bo wzrok powinien być na rzutku, nie na muszce.",
     "health-eyes-vision-p7": "Sprawdzaj wzrok regularnie, zwłaszcza jeśli rzutki stały się trudniejsze do zauważenia o zmierzchu albo w jasnym świetle. Jeśli z wiekiem zaczynasz chybiać w jedną stronę, warto też ponownie sprawdzić {{term:master-eye|oko dominujące}}: zob. {{lesson:technique-master-eye}}."
   },
@@ -121,7 +121,7 @@
         "c": "Swoje oko dominujące, z trenerem",
         "d": "Długość luf swojej broni"
       },
-      "explain": "Dominacja oka może z wiekiem słabnąć albo się zmieniać, co przesuwa strzały; sprawdź to z trenerem."
+      "explain": "{{term:eye-dominance|Dominacja oka}} może z wiekiem słabnąć albo się zmieniać, co przesuwa strzały; sprawdź to z trenerem."
     }
   }
 }

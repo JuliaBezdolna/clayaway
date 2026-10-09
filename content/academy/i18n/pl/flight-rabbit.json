@@ -32,14 +32,14 @@
     "origin": "interpreter-academy"
   },
   "title": "Rabbit: toczący się, podskakujący i wyskakujący",
-  "summary": "Rzutek rabbit: jak toczy się, podskakuje i wyskakuje, czemu często potrzebuje mniejszego wyprzedzenia, niż się wydaje, oraz zasada No Bird, gdy pęknie sam.",
+  "summary": "Rzutek rabbit: jak toczy się, podskakuje i wyskakuje, czemu często potrzebuje mniejszego {{term:lead|wyprzedzenia}}, niż się wydaje, oraz zasada No Bird, gdy pęknie sam.",
   "body": {
     "flight-rabbit-p1": "Rabbit to rzutek o średnicy 110 mm z grubym, wytrzymałym obrzeżem, wyrzucany na krawędzi tak, że toczy się po ziemi jak biegnący zając. To rzutek specjalny, więc w {{tm:sporting}} musi być podany w menu rzutków stanowiska.",
     "flight-rabbit-p2": "Trenerzy opisują, jak biegnie: rolling rabbit toczy się płynnie; hopping (bouncing) rabbit podskakuje na nierównościach i kamieniach; bolting rabbit wyskakuje z zarośli i pędzi szybko. Rabbity mogą biec w poprzek, na strzelca lub od niego.",
     "flight-rabbit-p3": "Rabbit jest ciężki i szybko zwalnia, więc strzelcy często strzelają za daleko przed nim (dają za duże wyprzedzenie). Wielu trenerów radzi trzymać broń nisko i strzelać w dolną przednią krawędź rabbita. Wtedy, jeśli nagle podskoczy, wskoczy w śrut, a nie nad niego. Często widać go tylko w krótkiej szczelinie między krzakami, więc {{term:break-point|punkt strzału}} trzeba zaplanować dokładnie.",
-    "flight-rabbit-p4": "Przepisy: każdy rzutek, także rabbita, strzela się z bronią przy ramieniu; strzał „z biodra” jest niedozwolony w obu dyscyplinach. Przypadek szczególny: pierwszy strzał chybia, a przed drugim rabbit pęka sam, na przykład na kamieniu. To {{term:no-bird|No Bird}}, i rabbita podaje się ponownie. Przy powtórce liczy się tylko trafienie drugim strzałem, więc pierwszy strzał oddaje się celowo niecelnie. Jeśli rozbijesz go pierwszym strzałem, liczy się to jako pudło (zero).",
-    "targets-special-presentations-p6": "Bezpieczeństwo jest szczególnie ważne przy rabbicie, bo biegnie nisko, tuż nad ziemią. Strzelaj tylko w dozwolonej strefie, nigdy nie prowadź luf w stronę ludzi czy wyrzutni i nie strzelaj poza {{term:shooting-limit|granicę strzelania}}.",
-    "flight-rabbit-p5": "„{{term:fur-and-feather|Fur and feather}}” to żargon {{term:english-sporting|English Sporting}} na dublet z rabbita („fur”) i rzutka powietrznego („feather”)."
+    "flight-rabbit-p4": "Przepisy: każdy rzutek, także rabbita, strzela się z bronią przy ramieniu; strzał „z biodra” jest niedozwolony w obu dyscyplinach. Przypadek szczególny: pierwszy strzał chybia, a przed drugim rabbit pęka sam, na przykład na kamieniu. To {{term:no-bird|No Bird}}, i rabbita podaje się ponownie. Przy powtórce liczy się tylko trafienie drugim strzałem, więc pierwszy strzał oddaje się celowo niecelnie. Jeśli rozbijesz go pierwszym strzałem, liczy się to jako {{term:zero|pudło}}.",
+    "targets-special-presentations-p6": "Bezpieczeństwo jest szczególnie ważne przy rabbicie, bo biegnie nisko, tuż nad ziemią. Strzelaj tylko w dozwolonej strefie, nigdy nie prowadź luf w stronę ludzi czy {{term:trap|wyrzutni}} i nie strzelaj poza {{term:shooting-limit|granicę strzelania}}.",
+    "flight-rabbit-p5": "„{{term:fur-and-feather|Fur and feather}}” to żargon {{term:english-sporting|English Sporting}} na {{term:double|dublet}} z rabbita („fur”) i rzutka powietrznego („feather”)."
   },
   "note": {
     "flight-rabbit-n1": "Nazwy rabbita różnią się między językami. Wybierz jedno słowo i trzymaj się go przez całą sesję."
@@ -54,7 +54,7 @@
       "say": "Strzelaj mu w nogi."
     },
     "flight-rabbit-ph3": {
-      "meaning": "Rabbit szybko traci prędkość, więc potrzebuje mniejszego wyprzedzenia.",
+      "meaning": "Rabbit szybko traci prędkość, więc potrzebuje mniejszego {{term:lead|wyprzedzenia}}.",
       "say": "Mocno zwalnia — mniej wyprzedzenia, niż myślisz."
     },
     "flight-rabbit-ph4": {
@@ -82,7 +82,7 @@
       "explain": "Przepisy obu dyscyplin traktują to jako No Bird; przy powtórce strzelec musi celowo chybić pierwszym strzałem."
     },
     "flight-rabbit-q2": {
-      "q": "Czemu trenerzy ostrzegają przed za dużym wyprzedzeniem na rabbicie?",
+      "q": "Czemu trenerzy ostrzegają przed za dużym {{term:lead|wyprzedzeniem}} na rabbicie?",
       "options": {
         "a": "Przepisy ograniczają wyprzedzenie",
         "b": "Jest ciężki i szybko zwalnia",
@@ -94,10 +94,10 @@
     "flight-rabbit-q3": {
       "q": "Co znaczy „fur and feather”?",
       "options": {
-        "a": "Dublet z rabbita i rzutka powietrznego",
+        "a": "{{term:double|Dublet}} z rabbita i rzutka powietrznego",
         "b": "Myśliwski kodeks ubioru",
         "c": "Rzutek z przyklejonymi piórami",
-        "d": "Dublet z dwóch rabbitów"
+        "d": "{{term:double|Dublet}} z dwóch rabbitów"
       },
       "explain": "W żargonie angielskiego Sportingu „fur” to rabbit, a „feather” rzutek latający."
     },

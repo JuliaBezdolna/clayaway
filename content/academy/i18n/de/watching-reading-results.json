@@ -40,12 +40,12 @@
   "summary": "Was X und O auf einem Protokoll bedeuten, wie sich eine Summe aus 200 Scheiben zusammensetzt, wie Gleichstände entschieden werden und wie Sie eine Ergebnistabelle auf ClayArena lesen.",
   "body": {
     "watching-reading-results-p1": "Im Wurfscheibenschießen ist das Ergebnis einfach: die Zahl der zerbrochenen Scheiben. Eine {{term:round|Runde}} ist sowohl in {{tm:sporting}} als auch im {{tm:compak}} {{fact:rules.round-targets}}, und ein internationaler Wettkampf ist {{fact:basics.international-targets}}. Das höchstmögliche Ergebnis ist also 200 von 200.",
-    "referee-scoring-p1": "Jede Scheibe landet auf einer Ergebniskarte. In {{tm:sporting}} führt der Schiedsrichter die Karte, oder eine Person unter seiner Aufsicht. Auf der Standardkarte der FITASC steht bei jeder Scheibe der Buchstabe ihrer Maschine (A, B, C …), mit X für einen Treffer und O für einen Fehlschuss. Die Karte hat außerdem eine Summe und eine Spalte für Unterschriften. Bevor die Rotte zum nächsten Stand weiterzieht, fotografiert der Schiedsrichter die Karte.",
-    "watching-reading-results-compak": "Im {{tm:compak}}, das in der Rotte geschossen wird, führt der Schiedsrichter das Protokoll und markiert einen Treffer mit X und einen Fehlschuss mit O. Jede Null kündigt der Schiedsrichter laut oder mit einem Signalton an, damit ein nicht einverstandener Schütze sofort protestieren kann. In {{term:compak-in-line|Compak in Linie}}, wo ein zugelassenes elektronisches System die Ergebnisse erfasst ({{term:electronic-refereeing|elektronische Schiedsrichter- und Ergebniserfassung}}), erscheinen die Ergebnisse auf einem Bildschirm.",
+    "referee-scoring-p1": "Jede Scheibe landet auf einer Ergebniskarte. In {{tm:sporting}} führt der {{term:referee|Schiedsrichter}} die Karte, oder eine Person unter seiner Aufsicht. Auf der Standardkarte der FITASC steht bei jeder Scheibe der Buchstabe ihrer Maschine (A, B, C …), mit X für einen Treffer und O für einen Fehlschuss. Die Karte hat außerdem eine Summe und eine Spalte für Unterschriften. Bevor die Rotte zum nächsten Stand weiterzieht, fotografiert der Schiedsrichter die Karte.",
+    "watching-reading-results-compak": "Im {{tm:compak}}, das in der Rotte geschossen wird, führt der Schiedsrichter das Protokoll und markiert einen Treffer mit X und einen Fehlschuss mit O. Jede Null kündigt der Schiedsrichter laut oder mit einem Signalton an, damit ein nicht einverstandener Schütze sofort protestieren kann. In {{term:compak-in-line|Compak in Linie}}, wo ein zugelassenes elektronisches System die Ergebnisse erfasst – {{term:electronic-refereeing|elektronische Schiedsrichter- und Ergebniserfassung}} –, erscheinen die Ergebnisse auf einem Bildschirm.",
     "referee-scoring-p2": "In {{tm:sporting}} müssen Sie Ihr Ergebnis prüfen, wenn Sie jeden Stand verlassen. Sind Sie mit einer Markierung nicht einverstanden, sagen Sie es dem Schiedsrichter sofort: Er entscheidet, eventuell nach Rückfrage bei anderen, und diese Entscheidung lässt sich nicht anfechten. Im {{tm:compak}} unterschreiben Sie das Protokoll am Ende der Runde; verweigern Sie die Unterschrift, verlieren Sie das Recht auf Beschwerde.",
     "watching-reading-results-p3": "Bei internationalen Wettkämpfen fließen die Rundenergebnisse in eine zentrale Ergebnistafel oder ein elektronisches System. Neben jedem Namen sehen Sie meist das Ergebnis jeder Runde und die Gesamtsumme. So sehen Sie nicht nur, wer führt, sondern auch, wer gleichmäßig schießt und wer eine schlechte Runde hatte.",
     "watching-reading-results-p4": "Gleiche Summen kommen häufig vor. Gleichstände um die ersten drei Plätze entscheidet {{fact:competitions.shoot-off-format}} (im Sudden Death scheidet der erste aus, der fehlt). Unterhalb des dritten Platzes teilen sich gleichstehende Schützen den Platz, und {{term:countback|Countback}} legt ihre Reihenfolge in der Liste fest. Wie beides funktioniert: {{lesson:competitions-categories-and-shoot-offs}}.",
-    "watching-reading-results-p5": "Neben der {{term:open-ranking|offenen Wertung}} gibt es {{term:category|Klassen}} wie {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} und {{term:veteran|Veteran}} sowie eine {{term:team|Mannschaftswertung}}. Eine Siegerehrung kann also mehrere Gewinner haben, einen in jeder Wertung.",
+    "watching-reading-results-p5": "Neben der {{term:open-ranking|offenen Wertung}} gibt es {{term:category|Klassen|pl}} wie {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} und {{term:veteran|Veteran}} sowie eine {{term:team|Mannschaftswertung}}. Eine {{term:prize-giving|Siegerehrung}} kann also mehrere Gewinner haben, einen in jeder Wertung.",
     "watching-reading-results-p6": "Nach einem Wettkampf erscheinen die Ergebnisse auf ClayArena. Die Tabelle zeigt den Platz jedes Schützen und die Zahl der zerbrochenen Scheiben. Von dort aus öffnen Sie das {{term:shooter-profile|Schützenprofil}} mit dessen Wettkämpfen und Kennzahlen wie {{term:accuracy|Trefferquote}} und {{term:best-score|Bestergebnis}}. Mehr dazu: {{lesson:clayarena-find-your-results}}.",
     "watching-reading-results-same-targets": "Vergleichen Sie Ergebnisse nur über dieselbe Scheibenzahl und möglichst aus demselben Wettkampf: Layouts auf verschiedenen Anlagen unterscheiden sich im Schwierigkeitsgrad. 90 von 100 und 180 von 200 sind derselbe Prozentsatz, aber ein längerer Wettkampf ist eine andere Prüfung."
   },
@@ -89,8 +89,8 @@
       "q": "Im {{tm:compak}} weigert sich Ihr Schütze, das Protokoll zu unterschreiben. Was ist die Folge?",
       "options": {
         "a": "Er verliert das Recht auf jede Beschwerde",
-        "b": "Die Runde wird neu geschossen",
-        "c": "Der Schiedsrichter unterschreibt, und nichts ändert sich",
+        "b": "Die {{term:round|Runde}} wird neu geschossen",
+        "c": "Der {{term:referee|Schiedsrichter}} unterschreibt, und nichts ändert sich",
         "d": "Er erhält automatisch 25 Nullen"
       },
       "explain": "Die {{tm:compak}}-Regeln besagen, dass ein Schütze, der die Unterschrift verweigert, das Recht auf Beschwerde verliert."
@@ -123,7 +123,7 @@
       "explain": "Prüfen Sie Ihr Ergebnis beim Verlassen jedes Standes und melden Sie Einwände sofort; später gibt es keine Beschwerde mehr."
     },
     "watching-reading-results-q-photo": {
-      "q": "Was macht der Schiedsrichter im {{tm:sporting}} mit der Ergebniskarte, bevor die Rotte zum nächsten Stand weiterzieht?",
+      "q": "Was macht der {{term:referee|Schiedsrichter}} im {{tm:sporting}} mit der Ergebniskarte, bevor die Rotte zum nächsten Stand weiterzieht?",
       "options": {
         "a": "Er fotografiert sie",
         "b": "Er bringt sie sofort zur Jury",

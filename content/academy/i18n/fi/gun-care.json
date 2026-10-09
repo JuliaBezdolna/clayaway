@@ -32,7 +32,7 @@
   "summary": "Miten asetta puhdistetaan turvallisesti ampumisen ja sateen jälkeen, miten sitä säilytetään ja miksi {{tm:sporting}}- ja {{tm:compak}}-ampujat varaavat vuosittaisen huollon.",
   "body": {
     "gun-care-p1": "Puhdistus alkaa turvallisuudesta. Varmista, että ase on tyhjä: avaa se ja katso molempiin {{term:chamber|patruunapesiin}}. Vie kaikki patruunat pois työpisteeltä, jotta et vahingossa laita yhtä takaisin aseeseen.",
-    "gun-care-p2": "Pura ase: irrota {{term:fore-end|etutukki}}, sitten piiput {{term:receiver|lukonkehyksestä}}. Jos sinulla on vaihtosupistajat, kierrä ne irti {{term:choke-key|supistaja-avaimella}}; ne puhdistetaan erikseen (katso {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p2": "Pura ase: irrota {{term:fore-end|etutukki}}, sitten {{term:barrel|piiput}} {{term:receiver|lukonkehyksestä}}. Jos sinulla on {{term:multichoke|vaihtosupistajat}}, kierrä ne irti {{term:choke-key|supistaja-avaimella}}; ne puhdistetaan erikseen (katso {{lesson:chokes-pattern-testing-and-care}}).",
     "gun-care-p3": [
       "Puhdista piippujen sisäpinnat joka ampumapäivän jälkeen.",
       "Kostuta ne puhdistusaineella ja vedä piippuharja (pieni teräsharja tangossa) läpi muutaman kerran.",
@@ -59,9 +59,9 @@
       "q": "Mitä on tehtävä ensin, ennen aseen puhdistamista?",
       "options": {
         "a": "Voidella sarana ja koukut",
-        "b": "Kiertää molemmat supistajat irti",
+        "b": "Kiertää molemmat {{term:choke|supistajat}} irti",
         "c": "Tarkistaa, että ase on tyhjä",
-        "d": "Irrottaa perälevy"
+        "d": "Irrottaa {{term:recoil-pad|perälevy}}"
       },
       "explain": "Turvallisuus ensin: avaa ase ja tarkista molemmat patruunapesät."
     },

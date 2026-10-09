@@ -30,11 +30,11 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "targets-traps-p1": "{{term:trap|Vrhačka}} (trap) je stroj, který hází terče. Vrhačky mohou být ruční nebo automatické (pravidla {{tm:compak}} uvádějí i poloautomatické). Ve {{tm:sporting}} jsou vrhačky stanoviště označeny písmeny zleva doprava, jak je vidět ze stanoviště: A, B, C a tak dále (pravidla uvádějí A až D). V {{tm:compak}} je šest vrhaček A až F, každá s tabulkou s písmenem.",
-    "targets-traps-p2": "Střelec si vyžádá terč {{term:call|zavoláním}} (call): pravidla uvádějí „pull“ nebo „ready“, i když v praxi se slova liší. Ve {{tm:sporting}} poté rozhodčí dá zvukový signál {{term:trapper|obsluze vrhačky}} (trapper) — člověku, který vypouští terče. Terč musí vylétnout do tří sekund od tohoto signálu.",
-    "targets-traps-p3": "V {{tm:compak}} lze terč vypustit třemi způsoby: ručně, dálkovým ovladačem nebo přes {{term:sonopull|sonopull}} (fonický systém). Fonický systém je mikrofon, který zaslechne zavolání střelce a sám vypustí terč. Při ručním vypouštění vyletí terč 0 až 3 sekundy po zavolání; fonický systém čeká pevně 0,5 sekundy. Na mezinárodních závodech {{term:compak-in-line|„v řadě“}}, kde každý střelec postupně projde stanoviště 1 až 5, se používá jen fonický systém se schválenými systémy FITASC pro {{term:electronic-refereeing|elektronické rozhodování}} a výsledky.",
+    "targets-traps-p1": "{{term:trap|Vrhačka}} je stroj, který hází terče. Vrhačky mohou být ruční nebo automatické (pravidla {{tm:compak}} uvádějí i poloautomatické). Ve {{tm:sporting}} jsou vrhačky stanoviště označeny písmeny zleva doprava, jak je vidět ze stanoviště: A, B, C a tak dále (pravidla uvádějí A až D). V {{tm:compak}} je šest vrhaček A až F, každá s tabulkou s písmenem.",
+    "targets-traps-p2": "Střelec si vyžádá terč {{term:call|zavoláním}}: pravidla uvádějí „pull“ nebo „ready“, i když v praxi se slova liší. Ve {{tm:sporting}} poté rozhodčí dá zvukový signál {{term:trapper|obsluze vrhačky}} — člověku, který vypouští terče. Terč musí vylétnout do tří sekund od tohoto signálu.",
+    "targets-traps-p3": "V {{tm:compak}} lze terč vypustit třemi způsoby: ručně, dálkovým ovladačem nebo přes {{term:sonopull|fonický systém}}. Fonický systém je mikrofon, který zaslechne zavolání střelce a sám vypustí terč. Při ručním vypouštění vyletí terč 0 až 3 sekundy po zavolání; fonický systém čeká pevně 0,5 sekundy. Na mezinárodních závodech {{term:compak-in-line|„v řadě“}}, kde každý střelec postupně projde stanoviště 1 až 5, se používá jen fonický systém se schválenými systémy FITASC pro {{term:electronic-refereeing|elektronické rozhodování}} a výsledky.",
     "targets-traps-p4": "Hlasové vypouštění má na stanovišti mikrofon. Může ho spustit i váš hlas. Na takovém stanovišti mlčte, když je střelec připraven: šeptejte mezi terči nebo odstupte.",
-    "targets-traps-p5": "Chyby vrhačky jsou {{term:no-bird|No Bird}} (terč se opakuje) v obou disciplínách. Například: terč se rozbil při vyhození, vyletěl ze špatné vrhačky, vyletěl bez zavolání, nebo vyletěl později než tři sekundy po zavolání. Ve {{tm:sporting}} je to No Bird i tehdy, když z vrhaček stejného stanoviště vyletí dva terče místo jednoho. V {{tm:compak}} je to No Bird, když jiný stroj téhož pole omylem vyhodí terč."
+    "targets-traps-p5": "Chyby vrhačky jsou v obou disciplínách {{term:no-bird|nový terč}}: terč se opakuje. Například: terč se rozbil při vyhození, vyletěl ze špatné vrhačky, vyletěl bez zavolání, nebo vyletěl později než tři sekundy po zavolání. Ve {{tm:sporting}} je to No Bird i tehdy, když z vrhaček stejného stanoviště vyletí dva terče místo jednoho. V {{tm:compak}} je to No Bird, když jiný stroj téhož pole omylem vyhodí terč."
   },
   "note": {
     "targets-traps-n1": "Při překladu zachovejte latinková písmena vrhaček: používá je menu i protokol.",
@@ -73,7 +73,7 @@
       "explain": "Terč vypuštěný později než za tři sekundy je No Bird."
     },
     "targets-traps-q2": {
-      "q": "Jaké pevné zpoždění má fonický systém (sonopull) v {{tm:compak}}?",
+      "q": "Jaké pevné zpoždění má {{term:sonopull|fonický systém}} v {{tm:compak}}?",
       "options": {
         "a": "0 sekund",
         "b": "3 sekundy",
@@ -86,13 +86,13 @@
       "q": "Jste na stanovišti s hlasovým vypouštěním a střelec je připraven. Co uděláte?",
       "options": {
         "a": "Dám střelci poslední radu nahlas",
-        "b": "Požádám obsluhu vrhačky, aby chvíli počkala",
-        "c": "Zopakuji za něj slovo zavolání",
+        "b": "Požádám {{term:trapper|obsluhu vrhačky}}, aby chvíli počkala",
+        "c": "Zopakuji za něj slovo {{term:call|zavolání}}",
         "d": "Mlčím; šeptám jen mezi terči"
       },
       "explain": "Váš hlas může spustit mikrofon a vypustit terč, který nikdo nezavolal."
     }
   },
   "title": "Vrhačky, vypouštění a obsluha vrhačky",
-  "summary": "Co je vrhačka, jak se vrhačky označují písmeny, jak zavolání vypustí terč ve {{tm:sporting}} a {{tm:compak}} a které chyby vrhačky jsou No Bird."
+  "summary": "Co je {{term:trap|vrhačka}}, jak se vrhačky označují písmeny, jak {{term:call|zavolání}} vypustí terč ve {{tm:sporting}} a {{tm:compak}} a které chyby vrhačky jsou No Bird."
 }

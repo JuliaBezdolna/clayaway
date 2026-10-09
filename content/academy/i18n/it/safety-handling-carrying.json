@@ -30,14 +30,14 @@
     "origin": null
   },
   "title": "Maneggio e trasporto del fucile al campo",
-  "summary": "Fucile aperto, rastrelliera, fodero e la regola «chiedi prima di toccare»: come maneggiare un fucile tra una pedana e l'altra.",
+  "summary": "Fucile aperto, {{term:gun-rack|rastrelliera}}, {{term:gun-slip|fodero}} e la regola «chiedi prima di toccare»: come maneggiare un fucile tra una pedana e l'altra.",
   "body": {
     "safety-handling-carrying-p1": "Questa lezione aggiunge i dettagli pratici a {{lesson:safety-core-rules}}. Ogni fucile, anche scarico, si maneggia con grande attenzione. Tra una pedana e l'altra si porta aperto: un {{term:over-and-under|sovrapposto}} spezzato (aperto alla cerniera), un {{term:semi-automatic|semiautomatico}} con l'otturatore (la parte mobile che carica la cartuccia) aperto. La {{term:muzzle|volata}} punta dritta verso l'alto o dritta verso il basso.",
     "safety-handling-carrying-p2": "Molti tiratori portano il sovrapposto aperto sull'avambraccio, con le canne verso il basso. Le cinghie non sono ammesse sui fucili in nessuna delle due discipline.",
     "safety-handling-carrying-p3": "Quando non usi il fucile, mettilo in piedi in una {{term:gun-rack|rastrelliera}} o in un altro posto che il campo prevede. Il semiautomatico sta lì con l'otturatore aperto. Non appoggiare un fucile a un'auto, a un albero o a un tavolo: può scivolare e cadere.",
     "safety-handling-carrying-p4": "Tra l'auto e l'area di tiro, il fucile viaggia in un {{term:gun-slip|fodero}} o in una {{term:hard-case|valigetta}}. Toglilo solo dove il campo lo permette, e spesso non è il parcheggio.",
-    "safety-handling-carrying-p5": "Non toccare il fucile di un'altra persona senza il permesso del proprietario. Se vuoi guardarlo, chiedi: il proprietario lo aprirà e te lo passerà. Se qualcuno ti chiede di mostrare che il tuo fucile è scarico, aprilo e mostra le camere. Gli istruttori lo chiamano «{{term:show-clear|show clear}}».",
-    "safety-handling-carrying-p6": "Non {{term:gun-mount|imbracciare}} il fucile (portarlo alla spalla e alla guancia) e muoverlo come se stessi seguendo un piattello. Si chiama {{term:mock-shooting|simulazione di tiro}}. Entrambi i regolamenti la vietano, ma tracciano il confine in punti diversi.",
+    "safety-handling-carrying-p5": "Non toccare il fucile di un'altra persona senza il permesso del proprietario. Se vuoi guardarlo, chiedi: il proprietario lo aprirà e te lo passerà. Se qualcuno ti chiede di mostrare che il tuo fucile è scarico, aprilo e mostra le {{term:chamber|camere}}. Gli istruttori lo chiamano «{{term:show-clear|show clear}}».",
+    "safety-handling-carrying-p6": "Non imbracciare il fucile (portarlo alla spalla e alla guancia) e muoverlo come se stessi seguendo un piattello. Si chiama {{term:mock-shooting|simulazione di tiro}}. Entrambi i regolamenti la vietano, ma tracciano il confine in punti diversi.",
     "safety-handling-carrying-mock-where": {
       "sporting": "Ovunque nel campo di tiro: fuori dalla pedana, in pedana prima di chiamare il piattello, e mentre i piattelli vengono mostrati.",
       "compak": "Fuori dalle pedane di tiro, e mentre tira un altro membro della batteria."
@@ -48,10 +48,10 @@
   "note": {},
   "phrases": {},
   "key_points": {
-    "safety-handling-carrying-kp1": "Porta il fucile aperto, volata dritta in alto o in basso; niente cinghie",
+    "safety-handling-carrying-kp1": "Porta il fucile aperto, {{term:muzzle|volata}} dritta in alto o in basso; niente cinghie",
     "safety-handling-carrying-kp2": "Quando non serve: in piedi in una rastrelliera, non appoggiato a qualcosa",
     "safety-handling-carrying-kp3": "Fodero o valigetta tra l'auto e l'area di tiro",
-    "safety-handling-carrying-kp4": "Chiedi prima di toccare il fucile di un altro; niente simulazione di tiro"
+    "safety-handling-carrying-kp4": "Chiedi prima di toccare il fucile di un altro; niente {{term:mock-shooting|simulazione di tiro}}"
   },
   "did_you_know": "Un fucile aperto è anche un gesto di cortesia: mostra a chi è vicino che non ha nulla di cui preoccuparsi.",
   "quiz": {
@@ -83,7 +83,7 @@
       "explain": "I colpi di prova vanno fatti sulla pedana di prova; spararli su una pedana di gara è proibito."
     },
     "safety-handling-carrying-q4": {
-      "q": "Cos'è la simulazione di tiro?",
+      "q": "Cos'è la {{term:mock-shooting|simulazione di tiro}}?",
       "options": {
         "a": "Sparare a un piattello vero con una cartuccia leggera da allenamento",
         "b": "Chiamare il piattello senza nessuna cartuccia nel fucile",

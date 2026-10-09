@@ -50,9 +50,9 @@
   "title": "O pedido do prato, os limites de tempo e os atrasos",
   "summary": "Como se pede o prato, a que velocidade tem de saír, quanto tempo tem em {{tm:sporting}} e {{tm:compak}}, e o que custa um atraso.",
   "body": {
-    "rules-call-and-time-p1": "Um prato não voa por si só: você {{term:call|pede-o}} com uma palavra curta, como «pull» ou «ready». As regras definem depois a rapidez com que o prato tem de saír e quanto tempo pode demorar.",
-    "sporting-time-and-lateness-p1": "O {{tm:sporting}} mantém um ritmo apertado, e várias regras protegem-no. O atirador pede o prato, e o árbitro transmite o pedido ao {{term:trapper|pulleur}} com um sinal sonoro. A partir desse sinal, o prato tem de estar no ar {{fact:rules.release-within-3s}}. Se sair mais tarde, o árbitro declara {{term:no-bird|No Bird}} e o prato é lançado outra vez.",
-    "compak-gun-and-call-p2": "No {{tm:compak}} uma máquina pode ser acionada à mão, por telecomando ou por um {{term:sonopull|sonopull}} (um sistema de microfone que a aciona quando ouve o pedido). Com lançamento manual, o prato tem de sair 0 a 3 segundos depois do pedido. Um sonopull espera sempre {{fact:rules.sonopull-delay}} depois do pedido, por isso o tempo é sempre igual. As provas internacionais atiradas {{term:compak-in-line|em linha}} (os atiradores entram no posto 1 um a um e avançam ao longo da linha até ao posto 5) usam apenas sonopull. Um prato lançado mais de 3 segundos depois do pedido, ou um prato que o atirador não pediu, é No Bird.",
+    "rules-call-and-time-p1": "Um prato não voa por si só: você pede-o com uma palavra curta, o {{term:call|pedido}}, como «pull» ou «ready». As regras definem depois a rapidez com que o prato tem de saír e quanto tempo pode demorar.",
+    "sporting-time-and-lateness-p1": "O {{tm:sporting}} mantém um ritmo apertado, e várias regras protegem-no. O atirador pede o prato, e o {{term:referee|árbitro}} transmite o pedido ao {{term:trapper|pulleur}} com um sinal sonoro. A partir desse sinal, o prato tem de estar no ar {{fact:rules.release-within-3s}}. Se sair mais tarde, o árbitro declara {{term:no-bird|No Bird}} e o prato é lançado outra vez.",
+    "compak-gun-and-call-p2": "No {{tm:compak}} uma {{term:trap|máquina}} pode ser acionada à mão, por telecomando ou por um {{term:sonopull|sonopull}} — um sistema de microfone que a aciona quando ouve o pedido. Com lançamento manual, o prato tem de sair 0 a 3 segundos depois do pedido. Um sonopull espera sempre {{fact:rules.sonopull-delay}} depois do pedido, por isso o tempo é sempre igual. As provas internacionais atiradas {{term:compak-in-line|em linha}} — os atiradores entram no posto 1 um a um e avançam ao longo da linha até ao posto 5 — usam apenas sonopull. Um prato lançado mais de 3 segundos depois do pedido, ou um prato que o atirador não pediu, é No Bird.",
     "rules-call-and-time-p3": "Nas duas disciplinas, o único prato que pode recusar é aquele que não pediu: é No Bird.",
     "rules-call-and-time-cmp1": {
       "sporting": "Não pode recusá-lo. Se foi lançado corretamente e não disparar, conta zero.",
@@ -62,12 +62,12 @@
       "sporting": "Tem {{fact:rules.sporting-time-between-targets}}.",
       "compak": "Tem {{fact:rules.compak-time-to-call}}."
     },
-    "sporting-time-and-lateness-p2": "Na primeira vez que exceder o limite, o árbitro dá uma advertência. Depois disso, aplicam-se as penalizações do cartão vermelho ({{rule:sporting:ch12-red-card}}). Depois de uma decisão final do árbitro, por exemplo após um protesto, tem de retomar o tiro {{fact:rules.sporting-resume-after-ruling}}. Se não o fizer, ou se se atrasar de propósito, conta como {{term:refusal-to-comply|recusa em obedecer}}: uma infração à parte que o júri pode sancionar.",
-    "compak-gun-and-call-p3": "Na primeira vez que exceder o limite, o árbitro anota uma advertência na {{term:score-sheet|folha de marcação}}. Se voltar a acontecer na mesma {{term:round|série}}, é cartão vermelho: um simples conta zero, e os doubles seguem a tabela do guia de regras ({{rule:compak:ch21-penalty-table}}). Depois de uma decisão final do árbitro, tem de retomar o tiro {{fact:rules.compak-resume-after-ruling}}. Se não o fizer, ou se se atrasar de propósito, conta como recusa em obedecer, que o júri pode sancionar.",
-    "rules-call-and-time-p7": "Muitos treinadores sugerem uma {{term:pre-shot-routine|rotina pré-tiro}} curta e constante, que caiba bem dentro do limite. Por exemplo: entrar no posto, carregar quando o árbitro permitir, assumir a posição de partida, expirar, e só então pedir o prato. Mais em {{lesson:mind-routine-under-pressure}}.",
-    "sporting-time-and-lateness-p3": "{{term:lateness|Atrasos}}: se faltar quando a sua esquadra começa, o árbitro chama o seu nome e número, três vezes no espaço de um minuto. Se chegar enquanto a esquadra ainda está a atirar os simples no primeiro posto e a sua vez ainda não tiver passado, junta-se sem penalização. Depois disso, todos os pratos que não atirou são zeros, e não pode recuperar mais tarde os postos falhados noutra esquadra.",
-    "sporting-time-and-lateness-p4": "Se se atrasou por motivos fora do seu controlo, não se junte à esquadra nessa série; recorra por escrito ao júri. Se o júri aceitar, atira a série noutra esquadra. Se recusar, cada percurso que não atirou conta como 25 zeros.",
-    "compak-dress-and-conduct-p3": "Em {{tm:compak}} tem de se apresentar ao árbitro com antecedência e confirmar a sua presença. Além do formato em linha, há o formato por esquadra: uma {{term:squad|esquadra}} de {{fact:rules.squad-max-shooters}} atira a série em conjunto, avançando de posto em posto. Neste formato, um atirador que chega depois do primeiro pedido da esquadra na série recebe 25 zeros nessa série. O recurso é feito por escrito ao júri, no próprio dia.",
+    "sporting-time-and-lateness-p2": "Na primeira vez que exceder o limite, o árbitro dá uma advertência. Depois disso, aplicam-se as penalizações do {{term:red-card|cartão vermelho}} — {{rule:sporting:ch12-red-card}}. Depois de uma decisão final do árbitro, por exemplo após um protesto, tem de retomar o tiro {{fact:rules.sporting-resume-after-ruling}}. Se não o fizer, ou se se atrasar de propósito, conta como {{term:refusal-to-comply|recusa em obedecer}}: uma infração à parte que o júri pode sancionar.",
+    "compak-gun-and-call-p3": "Na primeira vez que exceder o limite, o {{term:referee|árbitro}} anota uma advertência na {{term:score-sheet|folha de marcação}}. Se voltar a acontecer na mesma {{term:round|série}}, é {{term:red-card|cartão vermelho}}: um simples conta zero, e os doubles seguem a tabela do guia de regras ({{rule:compak:ch21-penalty-table}}). Depois de uma decisão final do árbitro, tem de retomar o tiro {{fact:rules.compak-resume-after-ruling}}. Se não o fizer, ou se se atrasar de propósito, conta como recusa em obedecer, que o júri pode sancionar.",
+    "rules-call-and-time-p7": "Muitos treinadores sugerem uma {{term:pre-shot-routine|rotina pré-tiro}} curta e constante, que caiba bem dentro do limite. Por exemplo: entrar no posto, carregar quando o {{term:referee|árbitro}} permitir, assumir a {{term:ready-position|posição de partida}}, expirar, e só então pedir o prato. Mais em {{lesson:mind-routine-under-pressure}}.",
+    "sporting-time-and-lateness-p3": "{{term:lateness|Atrasos}}: se faltar quando a sua {{term:squad|esquadra}} começa, o árbitro chama o seu nome e número, três vezes no espaço de um minuto. Se chegar enquanto a esquadra ainda está a atirar os simples no primeiro posto e a sua vez ainda não tiver passado, junta-se sem penalização. Depois disso, todos os pratos que não atirou são zeros, e não pode recuperar mais tarde os postos falhados noutra esquadra.",
+    "sporting-time-and-lateness-p4": "Se se atrasou por motivos fora do seu controlo, não se junte à esquadra nessa {{term:round|série}}; recorra por escrito ao júri. Se o júri aceitar, atira a série noutra esquadra. Se recusar, cada percurso que não atirou conta como 25 zeros.",
+    "compak-dress-and-conduct-p3": "Em {{tm:compak}} tem de se apresentar ao árbitro com antecedência e confirmar a sua presença. Além do formato em linha, há o formato por {{term:squad|esquadra}}: uma {{term:squad|esquadra}} de {{fact:rules.squad-max-shooters}} atira a série em conjunto, avançando de posto em posto. Neste formato, um atirador que chega depois do primeiro pedido da esquadra na série recebe 25 zeros nessa série. O recurso é feito por escrito ao júri, no próprio dia.",
     "rules-call-and-time-cmp3": {
       "sporting": "Esteja pronto {{fact:rules.shootoff-ready-time}}. Se não estiver presente, é desqualificado.",
       "compak": "Esteja pronto {{fact:rules.shootoff-ready-time}}. Se estiver ausente, é considerado desistente."
@@ -75,7 +75,7 @@
     "rules-call-and-time-tip2": "Coloque a proteção auditiva e os óculos antes de entrar no posto: nas duas disciplinas um atirador sem eles é considerado ausente ({{lesson:rules-dress-and-safety}})."
   },
   "note": {
-    "sporting-time-and-lateness-p6": "Não atrase a esquadra com uma tradução longa: seja breve agora e dê os detalhes depois do posto."
+    "sporting-time-and-lateness-p6": "Não atrase a {{term:squad|esquadra}} com uma tradução longa: seja breve agora e dê os detalhes depois do posto."
   },
   "phrases": {
     "sporting-time-and-lateness-ph1": {
@@ -99,7 +99,7 @@
       "say": "Dez segundos, peça o seu prato."
     },
     "compak-gun-and-call-ph4": {
-      "meaning": "Primeira vez acima dos 10 segundos; fica anotado na folha de marcação.",
+      "meaning": "Primeira vez acima dos 10 segundos; fica anotado na {{term:score-sheet|folha de marcação}}.",
       "say": "Advertência: tempo."
     }
   },
@@ -107,8 +107,8 @@
     "sporting-time-and-lateness-kp1": "Um prato lançado com mais de 3 segundos de atraso é No Bird, nas duas disciplinas.",
     "rules-call-and-time-kp2": "Não pode recusar um prato que pediu; um que não pediu é No Bird.",
     "rules-call-and-time-kp3": "{{tm:sporting}}: {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: {{fact:rules.compak-time-to-call}}.",
-    "compak-gun-and-call-kp3": "Acima do limite de tempo, a primeira vez traz advertência, e uma repetição traz cartão vermelho.",
-    "sporting-time-and-lateness-kp4": "Seja pontual: no {{tm:sporting}} os pratos perdidos por atraso contam zero; no {{tm:compak}}, chegar depois do primeiro pedido da esquadra custa 25 zeros."
+    "compak-gun-and-call-kp3": "Acima do {{term:firing-time|limite de tempo}}, a primeira vez traz advertência, e uma repetição traz {{term:red-card|cartão vermelho}}.",
+    "sporting-time-and-lateness-kp4": "Seja pontual: no {{tm:sporting}} os pratos perdidos por atraso contam zero; no {{tm:compak}}, chegar depois do primeiro pedido da {{term:squad|esquadra}} custa 25 zeros."
   },
   "did_you_know": "Em {{tm:compak}} em linha, é considerado atrasado a partir do momento em que o seu número é retirado no computador de pontuação e o atirador seguinte já está no posto 1.",
   "quiz": {
@@ -140,7 +140,7 @@
       "explain": "Um prato que não pediu é No Bird, e é o único tipo que pode recusar."
     },
     "sporting-time-and-lateness-q1": {
-      "q": "O atirador pede o prato e o árbitro transmite o sinal, mas o prato sai cerca de cinco segundos depois. Decisão?",
+      "q": "O atirador pede o prato e o {{term:referee|árbitro}} transmite o sinal, mas o prato sai cerca de cinco segundos depois. Decisão?",
       "options": {
         "a": "Zero",
         "b": "No Bird",
@@ -150,7 +150,7 @@
       "explain": "O prato tem de saír até três segundos depois do sinal do árbitro; um que saia mais tarde é No Bird e é lançado outra vez."
     },
     "sporting-time-and-lateness-q2": {
-      "q": "Um atirador chega enquanto a esquadra ainda está a atirar simples no posto 1, antes de a sua vez ter chegado. O que acontece?",
+      "q": "Um atirador chega enquanto a {{term:squad|esquadra}} ainda está a atirar simples no posto 1, antes de a sua vez ter chegado. O que acontece?",
       "options": {
         "a": "Junta-se sem penalização",
         "b": "25 zeros",
@@ -180,7 +180,7 @@
       "explain": "Um sonopull lança sempre o prato {{fact:rules.sonopull-delay}} depois do pedido. Só um prato com mais de 3 segundos de atraso é No Bird."
     },
     "compak-gun-and-call-q3": {
-      "q": "Pela segunda vez na mesma série, um atirador demora mais de 10 segundos a pedir o prato. É um simples. Decisão?",
+      "q": "Pela segunda vez na mesma {{term:round|série}}, um atirador demora mais de 10 segundos a pedir o prato. É um simples. Decisão?",
       "options": {
         "a": "Zero",
         "b": "Só mais uma advertência",
@@ -190,7 +190,7 @@
       "explain": "Depois da primeira advertência, uma repetição na mesma série é penalizada segundo a tabela: um simples conta zero."
     },
     "compak-dress-and-conduct-q2": {
-      "q": "{{tm:compak}} por esquadra. Um atirador chega um momento depois de o primeiro atirador da esquadra ter pedido o primeiro prato da série. O que acontece?",
+      "q": "{{tm:compak}} por {{term:squad|esquadra}}. Um atirador chega um momento depois de o primeiro atirador da esquadra ter pedido o primeiro prato da {{term:round|série}}. O que acontece?",
       "options": {
         "a": "Sem penalização",
         "b": "Zero no primeiro prato",

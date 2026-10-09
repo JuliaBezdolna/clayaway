@@ -33,9 +33,9 @@
   "title": "Kaip skaityti taikinių aprašą",
   "summary": "Kaip skaityti taikinių aprašą {{tm:sporting}} šaudymo vietoje ir {{tm:compak}} numeryje: mašinėlių tvarka, specialūs taikiniai ir kiekvieno dubleto tipas.",
   "body": {
-    "targets-menu-p1": "{{term:target-menu|Taikinių aprašas}} (target menu) – lenta prie šaudymo vietos, kuri sako šauliui, kas jo laukia: kokios mašinėlės, kokia tvarka ir kokie dubletai.",
-    "targets-menu-p2": "{{tm:sporting}} apraše mašinėlės surašytos šaudymo tvarka, ir jame privalo būti nurodyti visi specialūs taikiniai: {{fact:targets.sporting-menu-special-targets}}. Teisėjai iš anksto patikrina, ar mašinėlės atitinka aprašą. Išdėstymas duoda {{fact:targets.sporting-layout-targets}}. Dubletams naudojami tik taikiniai, kurie toje pačioje vietoje jau buvo parodyti kaip pavieniai, ir grupė pirmiausia šaudo pavienius.",
-    "targets-menu-p3": "Kiekvienas dubletas pažymimas pagal tipą. {{term:double-on-report|Dubletas pagal šūvio garsą}} (on report): antras taikinys išlekia nuo pirmo šūvio garso. {{term:simultaneous-double|Vienalaikis dubletas}} (simultaneous): abu taikiniai išlekia kartu. {{term:rafale-double|Rafalas}} (rafale): du taikiniai iš tos pačios mašinėlės, vienas po kito – tik {{tm:sporting}}. Aprašai skirtingose šaudyklose atrodo skirtingai, tad skaitykite žodžius, o ne tik raides.",
+    "targets-menu-p1": "{{term:target-menu|Taikinių aprašas}} – lenta prie šaudymo vietos, kuri sako šauliui, kas jo laukia: kokios {{term:trap|mašinėlės}}, kokia tvarka ir kokie {{term:double|dubletai}}.",
+    "targets-menu-p2": "{{tm:sporting}} apraše mašinėlės surašytos šaudymo tvarka, ir jame privalo būti nurodyti visi specialūs taikiniai: {{fact:targets.sporting-menu-special-targets}}. Teisėjai iš anksto patikrina, ar mašinėlės atitinka aprašą. {{term:layout|Išdėstymas}} duoda {{fact:targets.sporting-layout-targets}}. Dubletams naudojami tik taikiniai, kurie toje pačioje vietoje jau buvo parodyti kaip pavieniai, ir grupė pirmiausia šaudo pavienius.",
+    "targets-menu-p3": "Kiekvienas dubletas pažymimas pagal tipą. {{term:double-on-report|Dubletas pagal šūvio garsą}}: antras taikinys išlekia nuo pirmo šūvio garso. {{term:simultaneous-double|Vienalaikis dubletas}}: abu taikiniai išlekia kartu. {{term:rafale-double|Rafalas}}: du taikiniai iš tos pačios mašinėlės, vienas po kito – tik {{tm:sporting}}. Aprašai skirtingose šaudyklose atrodo skirtingai, tad skaitykite žodžius, o ne tik raides.",
     "targets-menu-ex1": "Pavyzdys: 4 vietų linijoje viena vieta turi tik 3 mašinėles, ir joje šaudomi 3 pavieniai ir 2 dubletai. Jos aprašas galėtų būti toks: pavieniai A, B, C, tada vienalaikis dubletas A + B ir rafalas C + C (raidės – tai mašinėlės). Šioje vietoje bent vienas dubletas turi būti vienalaikis arba rafalas: du dubletai pagal šūvio garsą neleidžiami ({{rule:sporting:ch2-doubles-three-traps}}).",
     "targets-menu-p4": "{{tm:compak}} aprašas kabo kiekviename iš penkių numerių. Kiekviename numeryje penki taikiniai, vienu iš trijų variantų: {{fact:targets.compak-station-menus}}. Pavieniai gali eiti iš mašinėlių bet kokia tvarka. Visuose penkiuose numeriuose yra tas pats dubleto tipas, o numeriai sujungti grandine: {{fact:targets.compak-double-chain}}. Varžyboms FITASC siūlo {{fact:targets.compak-setting-tables}}.",
     "targets-menu-tip1": "Prieš stodami į {{tm:compak}} numerį, daug šaulių tyliai sau pasikartoja aprašą: „A, tada F, tada B, tada C ir E pagal šūvio garsą“. Tai gali padėti prisiminti tvarką."
@@ -46,7 +46,7 @@
   },
   "phrases": {
     "targets-menu-ph1": {
-      "meaning": "3-ioji šaudymo vieta: trys pavieniai taikiniai, tada dubletas pagal šūvio garsą; iš viso penki taikiniai.",
+      "meaning": "3-ioji šaudymo vieta: trys {{term:single-target|pavieniai taikiniai}}, tada dubletas pagal šūvio garsą; iš viso penki taikiniai.",
       "say": "Skaitykite aprašą: trečiojoje vietoje turite A, tada F, tada B, tada dubletą C ir E pagal šūvio garsą."
     },
     "targets-menu-ph2": {

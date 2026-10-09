@@ -38,10 +38,10 @@
   "summary": "Qui écrit les règles du {{tm:sporting}} et du {{tm:compak}}, et comment s'articulent les clubs, les fédérations nationales et les compétitions internationales.",
   "body": {
     "sport-fitasc-p1": "La FITASC est la fédération internationale du tir sur plateaux de style chasse. Elle écrit et met à jour les règles du {{tm:sporting}} et du {{tm:compak}} ; les éditions en vigueur sont datées du 01/01/2025. {{tm:compak}} est aussi une marque protégée par la FITASC, c'est pourquoi son nom s'écrit toujours avec le symbole ®.",
-    "sport-fitasc-p2": "Le sport est organisé comme une pyramide. Les clubs et les stands de tir sont à la base, les fédérations nationales au-dessus, et les fédérations nationales sont membres de la FITASC. Les {{term:layout|parcours}} (groupes de postes avec leurs lanceurs) des compétitions nationales sont approuvés par la fédération nationale, ceux des compétitions internationales par la FITASC. Une fédération peut confier une compétition à un club, mais elle reste responsable de l'application des règles.",
+    "sport-fitasc-p2": "Le sport est organisé comme une pyramide. Les clubs et les stands de tir sont à la base, les fédérations nationales au-dessus, et les fédérations nationales sont membres de la FITASC. Les {{term:layout|parcours|pl}} — groupes de postes avec leurs {{term:trap|lanceurs}} — des compétitions nationales sont approuvés par la fédération nationale, ceux des compétitions internationales par la FITASC. Une fédération peut confier une compétition à un club, mais elle reste responsable de l'application des règles.",
     "intro-fitasc-and-organisation-p6": "Ce que cela signifie pour un débutant : aux compétitions internationales, les règles FITASC sont les mêmes dans tous les pays, et de nombreuses fédérations nationales construisent leurs propres règles sur cette base. Les compétitions nationales et de club peuvent encore avoir leurs propres règles : lisez donc le programme de chaque compétition.",
-    "sport-fitasc-p3": "Sur le stand de tir, les règles sont appliquées par les {{term:referee|arbitres}}. Chaque arbitre détient un certificat de sa fédération nationale, et le {{term:chief-referee|chef arbitre}} doit avoir un certificat international FITASC. Lors des compétitions internationales, un {{term:jury|jury}} (un petit collège d'officiels) traite les {{term:protest|réclamations}} (des plaintes formelles contre une décision), les pénalités et les problèmes techniques.",
-    "intro-fitasc-and-organisation-p5": "Les compétitions internationales ont différents niveaux : les épreuves {{term:grand-prix|Grand Prix}}, et les {{term:championship|championnats}} continentaux et mondiaux. Elles comptent généralement {{fact:basics.international-targets}}, répartis sur plusieurs jours. Les résultats sont calculés de trois façons : au {{term:open-ranking|classement scratch}} (tout le monde ensemble), par {{term:category|catégorie}} (groupes d'âge et de sexe) et par {{term:team|équipe}} nationale.",
+    "sport-fitasc-p3": "Sur le stand de tir, les règles sont appliquées par les {{term:referee|arbitres}}. Chaque arbitre détient un certificat de sa fédération nationale, et le {{term:chief-referee|chef arbitre}} doit avoir un certificat international FITASC. Lors des compétitions internationales, un {{term:jury|jury}} (un petit collège d'officiels) traite les {{term:protest|réclamations}} — des plaintes formelles contre une décision —, les pénalités et les problèmes techniques.",
+    "intro-fitasc-and-organisation-p5": "Les compétitions internationales ont différents niveaux : les épreuves {{term:grand-prix|Grand Prix}}, et les {{term:championship|championnats}} continentaux et mondiaux. Elles comptent généralement {{fact:basics.international-targets}}, répartis sur plusieurs jours. Les résultats sont calculés de trois façons : à l'{{term:open-ranking|classement scratch}} — tout le monde ensemble —, par {{term:category|catégorie}} (groupes d'âge et de sexe) et par {{term:team|équipe}} nationale.",
     "sport-fitasc-p4": "D'autres organisations existent aussi. En Grande-Bretagne et aux États-Unis, des associations comme la {{term:cpsa|CPSA}} et la {{term:nsca|NSCA}} gèrent leurs propres versions du sport, avec des règles et un vocabulaire différents. L'une d'elles est l'{{term:english-sporting|English Sporting}}. Un entraîneur britannique ou américain peut employer ces mots lors d'une compétition FITASC ; {{lesson:interpreter-english-sporting-vs-fitasc}} explique comment gérer cela.",
     "sport-fitasc-p5": "ClayArena est la plateforme à l'origine de ce cours. Elle publie des calendriers de compétitions, un glossaire et un résumé en langage simple des règles FITASC. {{term:clayaway|ClayAway}}, son service de stages d'entraînement, est en préparation. Retenez ceci : seul le texte officiel de la FITASC compte (il est contraignant) ; un résumé est un guide, pas la règle elle-même."
   },
@@ -71,27 +71,27 @@
   },
   "quiz": {
     "sport-fitasc-q1": {
-      "q": "Qui approuve les parcours d'une compétition internationale de {{tm:sporting}} ?",
+      "q": "Qui approuve les {{term:layout|parcours|pl}} d'une compétition internationale de {{tm:sporting}} ?",
       "options": {
         "a": "Le club local",
         "b": "La fédération nationale",
-        "c": "L'arbitre, le jour même",
+        "c": "Le arbitre, le jour même",
         "d": "La FITASC"
       },
       "explain": "Les parcours nationaux sont approuvés par la fédération nationale, les internationaux par la FITASC."
     },
     "sport-fitasc-q2": {
-      "q": "Quel certificat le chef arbitre doit-il détenir ?",
+      "q": "Quel certificat le {{term:chief-referee|chef arbitre}} doit-il détenir ?",
       "options": {
         "a": "Un certificat international FITASC",
         "b": "Une simple carte de membre de club",
         "c": "Une licence d'entraîneur délivrée par son club",
         "d": "Aucun : n'importe quel tireur expérimenté peut le faire"
       },
-      "explain": "Les arbitres de poste ont besoin d'un certificat national ; le chef arbitre, d'un certificat international délivré par la FITASC."
+      "explain": "Les {{term:referee|arbitres de poste}} ont besoin d'un certificat national ; le chef arbitre, d'un certificat international délivré par la FITASC."
     },
     "sport-fitasc-q3": {
-      "q": "Au cours d'un désaccord sur la décision d'un arbitre, quelqu'un montre le résumé des règles de ClayArena. Quelle est sa valeur ?",
+      "q": "Au cours d'un désaccord sur la décision d'un {{term:referee|arbitre}}, quelqu'un montre le résumé des règles de ClayArena. Quelle est sa valeur ?",
       "options": {
         "a": "Il compte plus que le texte officiel de la FITASC",
         "b": "C'est seulement un guide ; c'est le texte de la FITASC qui tranche",
@@ -128,5 +128,5 @@
       "explain": "Le jury veille à l'application des règles, règle les problèmes techniques, examine les appels et fixe les pénalités."
     }
   },
-  "did_you_know": "Quand un tireur est {{term:expulsion|exclu}} (renvoyé d'une compétition FITASC), le fait est signalé au siège de la FITASC, qui le conserve dans ses dossiers pendant cinq ans."
+  "did_you_know": "Quand un tireur est {{term:expulsion|exclu}} — renvoyé d'une compétition FITASC —, le fait est signalé au siège de la FITASC, qui le conserve dans ses dossiers pendant cinq ans."
 }

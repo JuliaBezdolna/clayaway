@@ -34,9 +34,9 @@
   "summary": "Wielu trenerów uczyło się na English Sporting albo amerykańskim Sporting Clays. Które z ich słów znaczą inaczej według przepisów FITASC — zaczynając od pozycji broni.",
   "body": {
     "interpreter-english-sporting-vs-fitasc-p1": "Wielu trenerów, z którymi będziecie pracować, wyrosło na {{term:english-sporting|English Sporting}}, który w Anglii prowadzi {{term:cpsa|CPSA}}, albo na amerykańskim Sporting Clays według przepisów {{term:nsca|NSCA}}. Ich słowa są bliskie słowom FITASC, ale przepisy za nimi są inne. Największa różnica to pozycja broni.",
-    "interpreter-english-sporting-vs-fitasc-p2": "Według przepisów NSCA, a także w English Sporting, jak się go zwykle strzela, strzelec może zaczynać „{{term:gun-up|gun up}}”, z bronią już {{term:gun-mount|złożoną}} przed komendą. W {{tm:sporting}} tak nie można. W {{term:ready-position|pozycji gotowości}} kolba zostaje poniżej linii na kamizelce, dopóki rzutek się nie pojawi, a każdy rzutek strzela się z ramienia. W {{tm:compak}} pozycja broni przy komendzie jest wolna, tak jak w przepisach NSCA. Dlatego „pre-mount this one” to ćwiczenie treningowe, ale na zawodach {{tm:sporting}} grozi za to {{term:yellow-card|żółta kartka}} ({{rule:sporting:ch12-yellow-card}}). Przetłumaczcie to, a jeśli gość ma wkrótce startować, zapytajcie trenera, czy przypomnieć o przepisie.",
-    "interpreter-english-sporting-vs-fitasc-p3": "Dublety mają różne nazwy. „{{term:true-pair|True pair}}” (brytyjskie i amerykańskie) to {{term:simultaneous-double|dublet symultaniczny}} FITASC: oba rzutki wylatują razem. „Report pair” to {{term:double-on-report|dublet po strzale}}: drugi rzutek wypuszcza odgłos waszego pierwszego strzału. „Following pair” to {{term:rafale-double|rafale}} FITASC: dwa rzutki z tej samej wyrzutni, jeden po drugim. „Show pair” to {{term:target-presentation|pokaz}} dubletu przed strzelaniem. „{{term:peg|Peg}}” to {{term:shooting-stand|stanowisko}}, „station” to amerykańskie słowo na stanowisko, a „{{term:cage|cage}}” to rama wokół niego.",
-    "interpreter-english-sporting-vs-fitasc-p4": "Różni się też mowa wyników. „{{term:hoa|HOA}}”, High Over All, to zwycięzca generalny. {{term:shooter-class|Klasy}} takie jak AA, A, B czy C to krajowe poziomy umiejętności, ustalane na podstawie zarejestrowanych wyników strzelca. To nie wiekowe {{term:category|kategorie}} FITASC i nie {{term:difficulty-class|klasy trudności}} FITASC A, B i C, które oceniają, jak trudna jest trajektoria.",
+    "interpreter-english-sporting-vs-fitasc-p2": "Według przepisów NSCA, a także w English Sporting, jak się go zwykle strzela, strzelec może zaczynać „{{term:gun-up|gun up}}”, z bronią już złożoną przed komendą. W {{tm:sporting}} tak nie można. Gdy strzelec jest w {{term:ready-position|pozycji gotowości}}, {{term:stock|kolba}} zostaje poniżej linii na kamizelce, dopóki rzutek się nie pojawi, a każdy rzutek strzela się z ramienia. W {{tm:compak}} pozycja broni przy komendzie jest wolna, tak jak w przepisach NSCA. Dlatego „pre-mount this one” to ćwiczenie treningowe, ale na zawodach {{tm:sporting}} grozi za to {{term:yellow-card|żółta kartka}} ({{rule:sporting:ch12-yellow-card}}). Przetłumaczcie to, a jeśli gość ma wkrótce startować, zapytajcie trenera, czy przypomnieć o przepisie.",
+    "interpreter-english-sporting-vs-fitasc-p3": "{{term:double|Dublety}} mają różne nazwy. „{{term:true-pair|True pair}}” (brytyjskie i amerykańskie) to {{term:simultaneous-double|dublet symultaniczny}} FITASC: oba rzutki wylatują razem. „Report pair” to {{term:double-on-report|dublet po strzale}}: drugi rzutek wypuszcza odgłos waszego pierwszego strzału. „Following pair” to {{term:rafale-double|rafale}} FITASC: dwa rzutki z tej samej {{term:trap|wyrzutni}}, jeden po drugim. „Show pair” to {{term:target-presentation|pokaz}} dubletu przed strzelaniem. „{{term:peg|Peg}}” to {{term:shooting-stand|stanowisko}}, „station” to amerykańskie słowo na stanowisko, a „{{term:cage|cage}}” to rama wokół niego.",
+    "interpreter-english-sporting-vs-fitasc-p4": "Różni się też mowa wyników. „{{term:hoa|HOA}}”, High Over All, to zwycięzca generalny. {{term:shooter-class|Klasy}} takie jak AA, A, B czy C to krajowe poziomy umiejętności, ustalane na podstawie zarejestrowanych wyników strzelca. To nie wiekowe {{term:category|kategorie|pl}} FITASC i nie {{term:difficulty-class|klasy trudności}} FITASC A, B i C, które oceniają, jak trudna jest trajektoria.",
     "interpreter-english-sporting-vs-fitasc-cmp": {
       "sporting": "Można: na {{term:double|dublet}} strzelec ma dwa naboje i może wystrzelić oba do tego samego rzutka.",
       "compak": "Nie można: jeden nabój na rzutek, a strzelanie obu nabojami do pierwszego rzutka jest zabronione."
@@ -79,9 +79,9 @@
       "q": "Brytyjski trener mówi „It’s a true pair”. Jaki jest termin FITASC?",
       "options": {
         "a": "Dublet po strzale",
-        "b": "Dublet rafale",
+        "b": "{{term:rafale-double|Dublet rafale}}",
         "c": "Dublet symultaniczny",
-        "d": "Prawidłowy dublet"
+        "d": "Prawidłowy {{term:double|dublet}}"
       },
       "explain": "„True pair” to brytyjska i amerykańska nazwa dwóch rzutków wypuszczonych razem, czyli dubletu symultanicznego FITASC.",
       "rule_ref": "sporting:ch4-simultaneous-double"
@@ -94,7 +94,7 @@
         "c": "English Sporting (CPSA)",
         "d": "Sporting Clays (NSCA)"
       },
-      "explain": "{{tm:sporting}} wymaga trzymania kolby poniżej linii na kamizelce aż do pojawienia się rzutka. {{tm:compak}} zostawia pozycję broni wolną, podobnie jak przepisy NSCA i English Sporting w zwyczajowej praktyce.",
+      "explain": "{{tm:sporting}} wymaga trzymania {{term:stock|kolby}} poniżej linii na kamizelce aż do pojawienia się rzutka. {{tm:compak}} zostawia pozycję broni wolną, podobnie jak przepisy NSCA i English Sporting w zwyczajowej praktyce.",
       "rule_ref": "sporting:ch3-ready-position"
     },
     "interpreter-english-sporting-vs-fitasc-q3": {

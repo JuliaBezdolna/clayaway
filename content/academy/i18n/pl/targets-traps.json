@@ -30,10 +30,10 @@
     "origin": "interpreter-academy"
   },
   "title": "Wyrzutnie, zwalnianie i operator wyrzutni",
-  "summary": "Co to wyrzutnia, jak oznacza się wyrzutnie, jak komenda zwalnia rzutek w {{tm:sporting}} i {{tm:compak}} oraz jakie błędy wyrzutni dają No Bird.",
+  "summary": "Co to {{term:trap|wyrzutnia}}, jak oznacza się wyrzutnie, jak komenda zwalnia rzutek w {{tm:sporting}} i {{tm:compak}} oraz jakie błędy wyrzutni dają No Bird.",
   "body": {
-    "targets-traps-p1": "{{term:trap|Wyrzutnia}} (trap) to maszyna, która wyrzuca rzutki. Wyrzutnie mogą być ręczne albo automatyczne (przepisy {{tm:compak}} wymieniają też półautomatyczne). W {{tm:sporting}} wyrzutnie stanowiska oznacza się literami od lewej do prawej, licząc od strzelca: A, B, C i dalej (regulamin wymienia A–D). W {{tm:compak}} sześć wyrzutni oznaczono od A do F, każda z tabliczką z literą.",
-    "targets-traps-p2": "Strzelec prosi o rzutek {{term:call|komendą}} (call): przepisy wymieniają „pull” albo „ready”, choć w praktyce słowa bywają różne. W {{tm:sporting}} sędzia po komendzie daje sygnał dźwiękowy {{term:trapper|operatorowi wyrzutni}} (trapper) — osobie, która zwalnia rzutki. Rzutek musi wylecieć w ciągu trzech sekund od tego sygnału.",
+    "targets-traps-p1": "{{term:trap|Wyrzutnia}} to maszyna, która wyrzuca rzutki. Wyrzutnie mogą być ręczne albo automatyczne (przepisy {{tm:compak}} wymieniają też półautomatyczne). W {{tm:sporting}} wyrzutnie stanowiska oznacza się literami od lewej do prawej, licząc od strzelca: A, B, C i dalej (regulamin wymienia A–D). W {{tm:compak}} sześć wyrzutni oznaczono od A do F, każda z tabliczką z literą.",
+    "targets-traps-p2": "Strzelec prosi o rzutek {{term:call|komendą}}: przepisy wymieniają „pull” albo „ready”, choć w praktyce słowa bywają różne. W {{tm:sporting}} sędzia po komendzie daje sygnał dźwiękowy {{term:trapper|operatorowi wyrzutni}} — osobie, która zwalnia rzutki. Rzutek musi wylecieć w ciągu trzech sekund od tego sygnału.",
     "targets-traps-p3": "W {{tm:compak}} rzutek można zwolnić trzema sposobami: ręcznie, pilotem albo {{term:sonopull|sonopullem}}. Sonopull to mikrofon, który słyszy komendę strzelca i sam zwalnia rzutek. Przy zwalnianiu ręcznym rzutek wylatuje od 0 do 3 sekund po komendzie; sonopull czeka zawsze 0,5 sekundy. Na międzynarodowych zawodach {{term:compak-in-line|„in line”}}, gdzie każdy strzelec po kolei przechodzi stanowiska od 1 do 5, używa się wyłącznie sonopullu, wraz z zatwierdzonym przez FITASC {{term:electronic-refereeing|elektronicznym sędziowaniem}} i liczeniem wyników.",
     "targets-traps-p4": "Zwalnianie głosem ma mikrofon na stanowisku. Twój własny głos też może je uruchomić. Na takim stanowisku milcz, gdy strzelec jest gotowy: szepcz między rzutkami albo się odsuń.",
     "targets-traps-p5": "Błędy wyrzutni to {{term:no-bird|No Bird}} w obu dyscyplinach. Na przykład: rzutek rozbity przy wyrzucie, rzutek z niewłaściwej wyrzutni, rzutek wyrzucony bez komendy albo wyrzucony później niż trzy sekundy po niej. W {{tm:sporting}} No Bird jest też wtedy, gdy z wyrzutni tego samego stanowiska wyleciały dwa rzutki, choć miał być jeden. W {{tm:compak}} No Bird jest, gdy inna maszyna tego samego pola omyłkowo wyrzuci rzutek."
@@ -86,7 +86,7 @@
       "explain": "Sonopull musi mieć stałe, niezmienne opóźnienie 0,5 sekundy."
     },
     "targets-traps-q3": {
-      "q": "Jesteś na stanowisku ze zwalnianiem głosem, a strzelec jest gotowy. Co robisz?",
+      "q": "Jesteś na stanowisku z {{term:sonopull|zwalnianiem głosem}}, a strzelec jest gotowy. Co robisz?",
       "options": {
         "a": "Głośno dajesz strzelcowi ostatnią radę",
         "b": "Prosisz operatora wyrzutni, żeby chwilę zaczekał",

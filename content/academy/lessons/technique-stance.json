@@ -105,7 +105,7 @@
       "t": "p",
       "core": true,
       "en": "The stance is how the shooter stands before the shot. The space is small: in {{tm:sporting}} the stand is a 1 m square or circle, and both feet must be inside it before the call. In {{tm:compak}} each station is a 1 m square with a Firing Angle Limiter, a frame that stops the shooter stepping forward and limits the swing.",
-      "uk": "Стійка (stance) — це те, як стрілець стоїть перед пострілом. Місця мало: у {{tm:sporting}} стрілецьке місце — квадрат або коло завширшки 1 м, і перед командою обидві ноги мають бути всередині. У {{tm:compak}} кожен номер — квадрат 1 м з обмежувачем кута стрільби (Firing Angle Limiter): рамкою, яка не дає вийти вперед і обмежує поворот рушниці.",
+      "uk": "{{term:stance|Стійка}} — це те, як стрілець стоїть перед пострілом. Місця мало: у {{tm:sporting}} кожне {{term:shooting-stand|стрілецьке місце}} — квадрат або коло завширшки 1 м, і перед командою обидві ноги мають бути всередині. У {{tm:compak}} кожен номер — квадрат 1 м з {{term:firing-angle-limiter|обмежувачем кута стрільби}} — рамкою, яка не дає вийти вперед і обмежує поворот рушниці.",
       "disc": "both",
       "anchor": "basics-stance"
     },
@@ -114,7 +114,7 @@
       "t": "p",
       "core": true,
       "en": "The key instruction: point your front foot at the {{term:break-point|break point}}, the spot where you plan to break the target. Then your body is relaxed and faces the right way at the moment you fire. Before you call, turn your upper body back from the hips towards the {{term:hold-point|hold point}}, the place where the barrels wait for the target. When the target flies, you simply turn back the way you came, like a spring unwinding. If your feet point at the trap instead, coaches warn, your body cannot turn far enough to reach the break point, and the gun stops or your head comes up.",
-      "uk": "Головна вказівка: носок передньої ноги — на {{term:break-point|точку пострілу}} (break point), туди, де ви плануєте розбити мішень. Тоді в мить пострілу тіло стоїть вільно й повернене саме туди, куди треба. Перед командою поверніть корпус від стегон назад, до {{term:hold-point|точки утримання}} — місця, де стволи чекають мішень. Коли мішень летить, ви просто повертаєтеся тим самим шляхом, наче пружина, що розкручується. Якщо ж ноги дивляться на машинку, застерігають тренери, повороту не вистачить ще до точки пострілу: рушниця зупиниться або голова підніметься."
+      "uk": "Головна вказівка: носок передньої ноги — на {{term:break-point|точку пострілу}}, туди, де ви плануєте розбити мішень. Тоді в мить пострілу тіло стоїть вільно й повернене саме туди, куди треба. Перед командою поверніть корпус від стегон назад, до {{term:hold-point|точки утримання}} — місця, де стволи чекають мішень. Коли мішень летить, ви просто повертаєтеся тим самим шляхом, наче пружина, що розкручується. Якщо ж ноги дивляться на {{term:trap|машинку}}, застерігають тренери, повороту не вистачить ще до точки пострілу: рушниця зупиниться або голова підніметься."
     },
     {
       "k": "basics-stance-p2",
@@ -327,7 +327,7 @@
       "correct": "a",
       "explain": {
         "en": "The ready-position rule asks for both feet inside the 1 m shooting stand before the shooter calls.",
-        "uk": "Правило вихідного положення вимагає, щоб перед командою обидві ноги стрільця були в межах стрілецького місця завширшки 1 м."
+        "uk": "Правило {{term:ready-position|вихідного положення}} вимагає, щоб перед командою обидві ноги стрільця були в межах стрілецького місця завширшки 1 м."
       },
       "disc": "sporting",
       "rule_ref": "sporting:ch3-ready-position"
@@ -413,7 +413,7 @@
           "k": "b",
           "term": "break-point",
           "en": "The break point",
-          "uk": "Для точки пострілу (break point)"
+          "uk": "Для точки пострілу"
         },
         {
           "k": "c",

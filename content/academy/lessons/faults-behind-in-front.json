@@ -98,21 +98,21 @@
       "t": "p",
       "core": true,
       "en": "Behind means the shot passed behind a moving target: not enough lead, or a gun that slowed down. It is a very common miss on crossers. In front is the opposite: too much lead, often after the shooter over-corrected. Many coaches like a miss in front: it shows the gun kept moving.",
-      "uk": "Behind («позаду») — дріб пройшов позаду рухомої мішені: забракло виносу (упередження) або рушниця сповільнилася. Це дуже частий промах на поперечних мішенях. In front («попереду») — навпаки: завеликий винос, часто після того, як стрілець перестарався з виправленням. Багатьох тренерів промах попереду навіть тішить: отже, рушниця не зупинялася."
+      "uk": "{{term:miss-behind|Позаду}} — дріб пройшов позаду рухомої мішені: забракло {{term:lead|виносу}} або рушниця сповільнилася. Це дуже частий промах на {{term:crosser|поперечних мішенях}}. {{term:miss-in-front|Попереду}} — навпаки: завеликий винос, часто після того, як стрілець перестарався з виправленням. Багатьох тренерів промах попереду навіть тішить: отже, рушниця не зупинялася."
     },
     {
       "k": "faults-behind-in-front-p3",
       "t": "p",
       "core": true,
       "en": "Over (also 'high', 'over the top') and under ('low') describe the vertical miss. Over is common on dropping targets, rabbits and incomers, and is often linked to the head coming off the stock. Under is typical on rising targets that are still climbing at the shot.",
-      "uk": "Over («вище»; також high, over the top) і under («нижче», low) — промахи по вертикалі. Вище — частий промах на мішенях, що падають, на зайці (rabbit) і на зустрічних мішенях; часто його спричиняє голова, яка відривається від приклада. Нижче — типово на мішенях, які ще набирають висоту в момент пострілу."
+      "uk": "{{term:miss-over|Вище}}, або over the top чи high, і {{term:miss-under|нижче}}, або low, — промахи по вертикалі. Вище — частий промах на {{term:dropping-target|мішенях, що падають}}, на {{term:rabbit|зайці}} і на {{term:incomer|зустрічних мішенях}}; часто його спричиняє голова, яка відривається від {{term:stock|приклада}}. Нижче — типово на мішенях, які ще набирають висоту в момент пострілу."
     },
     {
       "k": "faults-behind-in-front-p4",
       "t": "p",
       "core": true,
       "en": "Chipped means only a small piece came off. For the coach it is half praise, half correction: the clay was caught by the edge of the {{term:pattern|pattern}}, the cloud of shot. For the referee it is a hit, as long as the piece is visible. Watch out for one rule detail. A clay that breaks, even if it turns wholly or partly to dust, is a hit in both disciplines. A clay that flies on in one piece and gives off only a puff of dust or smoke, with no visible piece, is a miss (zero). In coach slang 'smoked it' means a perfect, centred hit that turns the clay to dust, and 'dusted it' is heard in both senses, so ask when unsure.",
-      "uk": "Chipped («зачепив», «скол») — відлетів лише маленький уламок. Для тренера це наполовину похвала, наполовину зауваження: мішень зачепило краєм {{term:pattern|осипу}} — хмари дробу. Для судді це влучання, якщо уламок видно. Тут є одна тонкість правил. Мішень, яка розбилася, навіть якщо вона повністю чи частково перетворилася на пил, — влучання в обох дисциплінах. Мішень, що летить далі цілою й лише пускає хмарку пилу чи диму без жодного видимого уламка, — промах (zero). Тренерським сленгом «smoked it» — влучання точно по центру, коли мішень розлітається на пил, а «dusted it» вживають в обох значеннях, тож перепитайте.",
+      "uk": "Буває й {{term:chip|«зачепив»}}, або скол: відлетів лише маленький уламок. Для тренера це наполовину похвала, наполовину зауваження: мішень зачепило краєм {{term:pattern|осипу}} — хмари дробу. Для судді це влучання, якщо є {{term:visible-piece|видимий уламок}}. Тут є одна тонкість правил. Мішень, яка розбилася, навіть якщо вона повністю чи частково перетворилася на пил, — влучання в обох дисциплінах. Мішень, що летить далі цілою й лише пускає хмарку пилу чи диму без жодного видимого уламка, — {{term:zero|промах}}. Тренерським сленгом «{{term:smoked-it|smoked it}}» — влучання точно по центру, коли мішень розлітається на пил, а «dusted it» вживають в обох значеннях, тож перепитайте.",
       "disc": "both"
     },
     {
@@ -311,7 +311,7 @@
           "k": "c",
           "term": "one",
           "en": "One (hit)",
-          "uk": "One (влучання)"
+          "uk": "One"
         },
         {
           "k": "d",
@@ -358,7 +358,7 @@
       "correct": "b",
       "explain": {
         "en": "In coach slang 'smoked it' is praise for a clay turned to dust, and the rules count that as a hit too. Only an intact clay that gives off a puff of dust or smoke, with no visible piece, is a zero.",
-        "uk": "Тренерським сленгом «smoked it» — похвала за мішень, розбиту на пил, і за правилами це теж влучання. Промах (zero) — лише ціла мішень, від якої піднялася хмарка пилу чи диму без видимого уламка."
+        "uk": "Тренерським сленгом «smoked it» — похвала за мішень, розбиту на пил, і за правилами це теж влучання. {{term:zero|Промах}} — лише ціла мішень, від якої піднялася хмарка пилу чи диму без видимого уламка."
       }
     }
   ],

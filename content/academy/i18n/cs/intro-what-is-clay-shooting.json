@@ -33,8 +33,8 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "sport-what-is-clay-p1": "Brokový sport (clay shooting) je disciplína, při níž střelec {{term:shotgun|brokovnicí}} rozbíjí malé létající terčíky. Takový terč se nazývá {{term:target|terč}} (target, clay); střelci mu často říkají bird, tedy „pták“, ale nikdo nestřílí na živá zvířata. Pravidla FITASC jasně říkají, že střelba na živá zvířata není dovolena, a na prvním místě je bezpečnost a ohled na životní prostředí.",
-    "sport-what-is-clay-p2": "Každý terč vypouští stroj zvaný {{term:trap|vrhačka}} (trap). Jeho dráha vzduchem (nebo po zemi) se nazývá {{term:trajectory|dráha letu}} (trajectory). Zbraň je brokovnice s hladkými hlavněmi (smooth-bore: uvnitř bez vývrtových drážek, na rozdíl od kulovnice). Vystřelí {{term:cartridge|náboj}} plný drobných kuliček zvaných broky (shot), které se rozptýlí do malého mráčku. Proto střelec míří tam, kam terč poletí, ne tam, kde právě je.",
+    "sport-what-is-clay-p1": "Brokový sport (clay shooting) je disciplína, při níž střelec {{term:shotgun|brokovnicí}} rozbíjí malé létající terčíky. Takový terč se nazývá {{term:target|terč}}; střelci mu často říkají bird, tedy „pták“, ale nikdo nestřílí na živá zvířata. Pravidla FITASC jasně říkají, že střelba na živá zvířata není dovolena, a na prvním místě je bezpečnost a ohled na životní prostředí.",
+    "sport-what-is-clay-p2": "Každý terč vypouští stroj zvaný {{term:trap|vrhačka}}. Jeho dráha vzduchem (nebo po zemi) se nazývá {{term:trajectory|dráha letu}}. Zbraň je brokovnice s hladkými hlavněmi (smooth-bore: uvnitř bez vývrtových drážek, na rozdíl od kulovnice). Vystřelí {{term:cartridge|náboj}} plný drobných kuliček zvaných broky (shot), které se rozptýlí do malého mráčku. Proto střelec míří tam, kam terč poletí, ne tam, kde právě je.",
     "intro-what-is-clay-shooting-p2": "Vrhačka terč roztočí a vrhne ho předem danou rychlostí a pod daným úhlem. Dráhy letu se hodně liší: terč může letět k vám, od vás, napříč před vámi, vysoko obloukem nebo se kutálet po zemi.",
     "sport-what-is-clay-p3": "Tento kurz se věnuje dvěma disciplínám (dvěma druhům brokového sportu) mezinárodní federace {{term:fitasc|FITASC}}. Parcours de Chasse – Sporting™ (zkráceně Sporting™) napodobuje lov. Jeho vrhačky bývají skryté nebo zakryté keři a stromy a terče létají jako koroptev, kachna nebo bažant, nebo se kutálejí jako zajíc. {{tm:compak}} je kompaktní verze: stejná pestrost terčů, ale na jednom malém poli s pěti stanovišti v řadě a šesti vrhačkami.",
     "sport-what-is-clay-p5": "Zásah je vidět okamžitě: terč se rozbije, nebo z něj aspoň odlétne {{term:visible-piece|viditelný úlomek}}. Právě tahle srozumitelnost dělá ze sportu snadno sledovatelnou podívanou a vám umožní pochopit ho hned od prvního dne.",
@@ -74,14 +74,14 @@
       "explain": "Bird je střelecký slangový název terče; pravidla FITASC zakazují střelbu na živá zvířata."
     },
     "sport-what-is-clay-q2": {
-      "q": "Čím vystřelí brokovnice?",
+      "q": "Čím vystřelí {{term:shotgun|brokovnice}}?",
       "options": {
         "a": "Jednou jedinou kulí",
         "b": "Malým šipkovitým projektilem",
         "c": "Mráčkem drobných kuliček (broků)",
         "d": "Kuličkou naplněnou barvou"
       },
-      "explain": "Broky vylétají z ústí hlavně jako malý mráček, proto střelec míří před pohybující se terč."
+      "explain": "Broky vylétají z {{term:muzzle|ústí hlavně}} jako malý mráček, proto střelec míří před pohybující se terč."
     },
     "sport-what-is-clay-q3": {
       "q": "Které tvrzení o {{tm:compak}} je správné?",
@@ -103,13 +103,13 @@
       "explain": "Střílí se jen na umělé terče vyhozené vrhačkou. Střelba na živá zvířata je zakázaná."
     },
     "intro-what-is-clay-shooting-q2": {
-      "q": "Co je to trap (vrhačka)?",
+      "q": "Co je to {{term:trap|vrhačka}}?",
       "options": {
         "a": "Brokovnice s krátkou hlavní",
         "b": "Rozhodčí, který vede stanoviště",
         "c": "Stroj, který vyhazuje terče"
       },
-      "explain": "Vrhačka (trap) je stroj, který vymrští terč do vzduchu, nebo ho kutálí po zemi."
+      "explain": "{{term:trap|Vrhačka}} je stroj, který vymrští terč do vzduchu, nebo ho kutálí po zemi."
     },
     "intro-what-is-clay-shooting-q3": {
       "q": "Proč střelec míří zbraní před pohybující se terč?",
@@ -122,6 +122,6 @@
     }
   },
   "title": "Co je brokový sport",
-  "summary": "Brokový sport je disciplína, při níž střelec brokovnicí rozbíjí létající terče. Vysvětlíme, jak to funguje a co jsou {{tm:sporting}} a {{tm:compak}}.",
+  "summary": "Brokový sport je disciplína, při níž střelec {{term:shotgun|brokovnicí}} rozbíjí létající terče. Vysvětlíme, jak to funguje a co jsou {{tm:sporting}} a {{tm:compak}}.",
   "did_you_know": "Terče se vyrábějí záměrně křehké, takže je rozbije i pár broků."
 }

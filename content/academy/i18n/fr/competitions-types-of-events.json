@@ -29,18 +29,18 @@
   "origin": null
  },
  "title": "Les types de compétitions",
- "summary": "Concours de club, compétitions nationales, Grand Prix et championnats en {{tm:sporting}} et en {{tm:compak}} : en quoi ils diffèrent et par où un débutant peut commencer.",
+ "summary": "{{term:club-shoot|Concours de club}}, compétitions nationales, Grand Prix et {{term:championship|championnats}} en {{tm:sporting}} et en {{tm:compak}} : en quoi ils diffèrent et par où un débutant peut commencer.",
  "body": {
   "competitions-types-of-events-p1": "Les compétitions de {{tm:sporting}} et de {{tm:compak}} vont d'un {{term:club-shoot|concours de club}} amical à un {{term:championship|championnat}} du monde. Le règlement international des deux disciplines est écrit par la {{term:fitasc|FITASC}}, la fédération internationale qui les gouverne. Comment ce sport est organisé : voir la leçon {{lesson:intro-fitasc-and-organisation}}.",
   "competitions-types-of-events-p2": "Un concours de club est une bonne façon de commencer. Les clubs et les stands de tir les organisent, souvent le week-end. Il y a généralement moins de plateaux qu'aux grandes épreuves, le rythme est plus calme, et on vous explique volontiers quoi faire. L'{{term:organiser|organisateur}} fixe le nombre de plateaux, le format et une partie des règles : lisez donc le programme.",
-  "competitions-types-of-events-p3": "Viennent ensuite les compétitions nationales : championnats et coupes du pays, organisés par la {{term:national-federation|fédération nationale}} ou par un club qu'elle désigne. Leurs règles sont souvent proches des règles internationales, et les résultats peuvent compter pour la sélection de l'équipe nationale.",
+  "competitions-types-of-events-p3": "Viennent ensuite les compétitions nationales : championnats et coupes du pays, organisés par la {{term:national-federation|fédération nationale}} ou par un club qu'elle désigne. Leurs règles sont souvent proches des règles internationales, et les résultats peuvent compter pour la sélection du {{term:team|équipe nationale}}.",
   "competitions-types-of-events-p4": "Les compétitions internationales FITASC sont ouvertes aux tireurs de nombreux pays. On y trouve les épreuves de {{term:grand-prix|Grand Prix}}, et au plus haut niveau les championnats d'Europe et du monde. Une compétition internationale compte généralement {{fact:basics.international-targets}}, sur plusieurs jours.",
   "competitions-types-of-events-cmp1": {
-   "sporting": "Les 200 plateaux se tirent sur huit {{term:layout|parcours}}, une {{term:round|série}} de 25 sur chacun. Aux épreuves de Grand Prix, une « ligne » est aussi permise : une rangée de {{fact:competitions.sporting-grand-prix-line}}.",
-   "compak": "Les 200 plateaux se tirent sur huit terrains de Compak (un Compak est un terrain avec cinq postes et six lanceurs). Les terrains sont de quatre types : ils diffèrent par le nombre de simples et de doublés tirés depuis chaque poste, et par le genre de ces doublés. Aux championnats continentaux et du monde, le club hôte installe {{fact:competitions.compak-championship-machines}} (six par terrain) seulement pour cette épreuve, afin que tout le monde tire dans les mêmes conditions."
+   "sporting": "Les 200 plateaux se tirent sur huit {{term:layout|parcours|pl}}, un {{term:round|série}} de 25 sur chacun. Aux épreuves de Grand Prix, une « ligne » est aussi permise : une rangée de {{fact:competitions.sporting-grand-prix-line}}.",
+   "compak": "Les 200 plateaux se tirent sur huit terrains de Compak — un Compak est un terrain avec cinq postes et six {{term:trap|lanceurs}}. Les terrains sont de quatre types : ils diffèrent par le nombre de simples et de doublés tirés depuis chaque poste, et par le genre de ces doublés. Aux championnats continentaux et du monde, le club hôte installe {{fact:competitions.compak-championship-machines}} (six par terrain) seulement pour cette épreuve, afin que tout le monde tire dans les mêmes conditions."
   },
-  "competitions-types-of-events-p5": "Les grands championnats classent aussi les {{term:team|équipes}}, en plus des individuels : les scores des membres d'une équipe nationale sont additionnés. Les tireurs sont aussi classés par {{term:category|catégories}} selon l'âge et le sexe. L'un et l'autre sont expliqués dans la leçon {{lesson:competitions-categories-and-shoot-offs}}.",
-  "competitions-types-of-events-start": "Beaucoup d'entraîneurs conseillent de commencer par quelques concours de club. Vous vous habituez ainsi au programme, à la {{term:squad|planche}} et à l'{{term:referee|arbitre}}, sans trop de pression. Comment s'inscrire : voir la leçon {{lesson:competitions-how-to-enter}}."
+  "competitions-types-of-events-p5": "Les grands championnats classent aussi les équipes, en plus des individuels : les scores des membres d'une équipe nationale sont additionnés. Les tireurs sont aussi classés par catégories selon l'âge et le sexe. L'un et l'autre sont expliqués dans la leçon {{lesson:competitions-categories-and-shoot-offs}}.",
+  "competitions-types-of-events-start": "Beaucoup d'entraîneurs conseillent de commencer par quelques concours de club. Vous vous habituez ainsi au programme, au {{term:squad|planche}} et au {{term:referee|arbitre}}, sans trop de pression. Comment s'inscrire : voir la leçon {{lesson:competitions-how-to-enter}}."
  },
  "note": {
   "competitions-types-of-events-n1": "Le niveau d'une épreuve compte pour les tireurs. Un Grand Prix FITASC est une épreuve internationale inscrite au calendrier de la FITASC ; des compétitions nationales ou de club peuvent aussi s'appeler Grand Prix. Traduisez le niveau exactement comme le dit le programme."
@@ -61,19 +61,19 @@
     "b": "200",
     "c": "150"
    },
-   "explain": "Une compétition internationale compte généralement 200 plateaux, tirés par séries de 25."
+   "explain": "Une compétition internationale compte généralement 200 plateaux, tirés par {{term:round|séries}} de 25."
   },
   "competitions-types-of-events-q2": {
-   "q": "Qui détermine généralement le format d'un concours de club ?",
+   "q": "Qui détermine généralement le format d'un {{term:club-shoot|concours de club}} ?",
    "options": {
     "a": "Les tireurs, le jour même",
-    "b": "L'arbitre du premier poste",
-    "c": "L'organisateur, dans le programme"
+    "b": "Le {{term:referee|arbitre}} du premier poste",
+    "c": "L'{{term:organiser|organisateur}}, dans le programme"
    },
    "explain": "L'organisateur fixe le nombre de plateaux et le format d'un concours de club, et le programme les indique."
   },
   "competitions-types-of-events-q3": {
-   "q": "Pourquoi les championnats continentaux et mondiaux de {{tm:compak}} utilisent-ils de nouvelles machines ?",
+   "q": "Pourquoi les {{term:championship|championnats}} continentaux et mondiaux de {{tm:compak}} utilisent-ils de nouvelles machines ?",
    "options": {
     "a": "Pour que les conditions soient égales pour tous",
     "b": "Parce que les anciennes machines sont interdites par la loi",
@@ -84,9 +84,9 @@
   "competitions-types-of-events-q4": {
    "q": "Quel format spécial de {{tm:sporting}} n'est permis qu'aux épreuves de Grand Prix ?",
    "options": {
-    "a": "Des planches de dix tireurs sur un même poste",
-    "b": "Une ligne de 3 postes avec 5 lanceurs chacun",
-    "c": "Des séries de 50 plateaux sur un seul parcours"
+    "a": "Des {{term:squad|planches}} de dix tireurs sur un même poste",
+    "b": "Une ligne de 3 postes avec 5 {{term:trap|lanceurs}} chacun",
+    "c": "Des {{term:round|séries}} de 50 plateaux sur un seul {{term:layout|parcours}}"
    },
    "explain": "Une ligne de 3 postes de tir avec 5 lanceurs chacun n'est permise qu'aux épreuves de Grand Prix."
   }

@@ -50,17 +50,17 @@
   "origin": "interpreter-academy"
  },
  "title": "Incidents de tir avec le fusil ou la cartouche",
- "summary": "Que faire quand le fusil ne part pas, et comment un incident de tir est compté en {{tm:sporting}} et en {{tm:compak}}.",
+ "summary": "Que faire quand le fusil ne part pas, et comment un {{term:malfunction|incident de tir}} est compté en {{tm:sporting}} et en {{tm:compak}}.",
  "body": {
-  "sporting-malfunctions-p1": "Un {{term:malfunction|incident de tir}} (malfunction) est une défaillance du fusil ou de la cartouche : un raté, un second canon qui ne part pas, ou les deux canons qui partent ensemble ({{term:double-discharge|double décharge}}).",
-  "sporting-malfunctions-p2": "D'abord, ce que le tireur doit faire : rester sur place, le fusil pointé vers le champ de tir. Ne l'ouvrez pas et ne touchez pas à la {{term:safety-catch|sûreté}} avant que l'arbitre ne l'ait examiné. Ouvrir le fusil ou toucher la sûreté avant signifie que le plateau ou les plateaux sont comptés zéro. N'essayez pas de démonter vous-même un fusil chargé sur le poste.",
-  "safety-malfunction-p3": "Pourquoi ne pas ouvrir le fusil tout de suite ? Il arrive qu'une cartouche parte en retard, une fraction de seconde ou plus après la détente : un {{term:hang-fire|raté}} (hang fire). Si le fusil est ouvert ou pointé de côté à ce moment-là, c'est dangereux. Donc à l'entraînement sans arbitre, attendez en gardant le fusil pointé dans une direction sûre avant de l'ouvrir ; votre instructeur ou le règlement du stand vous dira combien de temps.",
+  "sporting-malfunctions-p1": "Un {{term:malfunction|incident de tir}} est une défaillance du fusil ou de la cartouche : un raté, un second {{term:barrel|canon}} qui ne part pas, ou les deux canons qui partent ensemble — {{term:double-discharge|double décharge}}.",
+  "sporting-malfunctions-p2": "D'abord, ce que le tireur doit faire : rester sur place, le fusil pointé vers le champ de tir. Ne l'ouvrez pas et ne touchez pas au {{term:safety-catch|sûreté}} avant que le {{term:referee|arbitre}} ne l'ait examiné. Ouvrir le fusil ou toucher la sûreté avant signifie que le plateau ou les plateaux sont comptés zéro. N'essayez pas de démonter vous-même un fusil chargé sur le poste.",
+  "safety-malfunction-p3": "Pourquoi ne pas ouvrir le fusil tout de suite ? Il arrive qu'une cartouche parte en retard, une fraction de seconde ou plus après la détente : un {{term:hang-fire|long feu}}. Si le fusil est ouvert ou pointé de côté à ce moment-là, c'est dangereux. Donc à l'entraînement sans arbitre, attendez en gardant le fusil pointé dans une direction sûre avant de l'ouvrir ; votre instructeur ou le règlement du stand vous dira combien de temps.",
   "rules-malfunctions-cmp1": {
-   "sporting": "Par {{term:round|série}} de {{fact:rules.round-targets}}. Le premier incident est un No bird avec un avertissement, et le plateau est relancé. Dès le second, le plateau n'est pas relancé mais compté zéro.",
+   "sporting": "Par {{term:round|série}} de {{fact:rules.round-targets}}. Le premier incident est un No bird avec un {{term:warning|avertissement}}, et le plateau est relancé. Dès le second, le plateau n'est pas relancé mais compté zéro.",
    "compak": "Par série de {{fact:rules.round-targets}}. Le premier incident est un No bird avec un {{term:yellow-card|carton jaune}}. Un second du même type vaut un {{term:red-card|carton rouge}}, et les plateaux non tirés sont zéro."
   },
   "sporting-malfunctions-p4": "Votre premier incident de tir dans la série, cas par cas. (1) Le premier coup ne part pas : vous retirez le simple ou le doublé. Si vous avez tout de même tiré le second coup, son résultat compte. (2) Sur un simple, le second coup ne part pas : vous le retirez, et sur la reprise, seul un coup réussi au second tir compte. Manquez donc volontairement le premier coup. (3) Les deux canons partent ensemble sur un simple, ou sur le premier plateau d'un doublé : No bird, rien n'est noté, et vous tirez à nouveau. La façon dont chaque type de doublé est repris figure dans le guide des règles ({{rule:sporting:ch6-malfunction-second-shot}}).",
-  "sporting-malfunctions-p5": "Si votre fusil est réparé avant que la planche n'ait terminé le poste, vous pouvez tirer le poste en dernier, avec l'autorisation de l'arbitre. S'il ne peut pas être réparé, vous pouvez changer de fusil immédiatement, avec l'accord de l'arbitre, ou terminer plus tard avec une autre planche si le jury l'autorise. En dehors d'un incident de tir, vous ne pouvez pas changer de fusil, de choke ou de canons une fois sur le poste.",
+  "sporting-malfunctions-p5": "Si votre fusil est réparé avant que le {{term:squad|planche}} n'ait terminé le poste, vous pouvez tirer le poste en dernier, avec l'autorisation de l'arbitre. S'il ne peut pas être réparé, vous pouvez changer de fusil immédiatement, avec l'accord de l'arbitre, ou terminer plus tard avec une autre planche si le jury l'autorise. En dehors d'un incident de tir, vous ne pouvez pas changer de fusil, de choke ou de canons une fois sur le poste.",
   "compak-malfunctions-p3": "Votre premier incident de tir dans la série. Si les deux canons partent ensemble ou si la première cartouche ne part pas, le simple ou le doublé est relancé, et la tentative ratée ne compte pour rien. Si la seconde cartouche ne part pas sur un simple, le plateau est relancé, mais seul le second coup peut le compter. Manquez donc volontairement le premier coup. Pour les doublés, voir le guide des règles ({{rule:compak:ch20-gun-failure-second-shot}}).",
   "compak-malfunctions-p4": "Après un incident de tir, vous avez {{fact:rules.compak-repair-time}} pour remettre le fusil en état ou le remplacer. Exceptionnellement, vous pouvez emprunter un fusil à quelqu'un hors de votre propre planche ou groupe, avec l'accord du propriétaire et de l'arbitre. Sans fusil en état de marche, les plateaux restants sont zéro. Sinon, aucun fusil, choke ou canon ne peut être changé au sein d'une série.",
   "compak-malfunctions-p5": "Un {{term:rabbit|rabbit}} est le plateau qui roule au sol. Dans les deux disciplines, si vous le manquez au premier coup et qu'il se casse ensuite tout seul avant votre second coup, c'est un No bird. Cela peut arriver s'il heurte une pierre. Sur la reprise, seul le second coup compte, comme après un incident de tir au second coup.",
@@ -117,12 +117,12 @@
    "options": {
     "a": "Ouvrir le fusil et vérifier la cartouche",
     "b": "Recharger tout de suite et annoncer à nouveau",
-    "c": "Rester sur place, fusil fermé, et attendre l'arbitre"
+    "c": "Rester sur place, fusil fermé, et attendre le arbitre"
    },
-   "explain": "Ouvrir le fusil ou toucher la sûreté avant la vérification de l'arbitre signifie que le plateau est compté zéro."
+   "explain": "Ouvrir le fusil ou toucher le {{term:safety-catch|sûreté}} avant la vérification de l'arbitre signifie que le plateau est compté zéro."
   },
   "rules-malfunctions-q2": {
-   "q": "En {{tm:sporting}}, un second incident de tir survient dans la même série, sur un simple. Quel est le résultat ?",
+   "q": "En {{tm:sporting}}, un second {{term:malfunction|incident de tir}} survient dans le même {{term:round|série}}, sur un simple. Quel est le résultat ?",
    "options": {
     "a": "Zéro",
     "b": "No bird",
@@ -140,16 +140,16 @@
    "explain": "Vous avez {{fact:rules.compak-repair-time}} ; sans fusil en état de marche, les plateaux non tirés sont zéro."
   },
   "safety-malfunction-q1": {
-   "q": "À l'entraînement, sans arbitre, votre fusil fait un clic mais ne part pas. Que devez-vous faire ?",
+   "q": "À l'entraînement, sans {{term:referee|arbitre}}, votre fusil fait un clic mais ne part pas. Que devez-vous faire ?",
    "options": {
     "a": "L'ouvrir tout de suite et regarder",
     "b": "Le garder pointé dans une direction sûre et attendre avant de l'ouvrir",
     "c": "Vous retourner et le montrer à l'entraîneur"
    },
-   "explain": "Une cartouche peut partir en retard (un raté/hang fire), donc gardez la bouche du canon dans une direction sûre et attendez avant d'ouvrir le fusil. Votre instructeur ou le règlement du stand vous dira combien de temps."
+   "explain": "Une cartouche peut partir en retard, un {{term:hang-fire|long feu}}, donc gardez le {{term:muzzle|bouche du canon}} dans une direction sûre et attendez avant d'ouvrir le fusil. Votre instructeur ou le règlement du stand vous dira combien de temps."
   },
   "safety-malfunction-q2": {
-   "q": "Après un raté, vous mettez la sûreté avant que l'arbitre n'ait regardé le fusil. Que se passe-t-il ?",
+   "q": "Après un raté, vous mettez le {{term:safety-catch|sûreté}} avant que le {{term:referee|arbitre}} n'ait regardé le fusil. Que se passe-t-il ?",
    "options": {
     "a": "Le plateau est compté zéro",
     "b": "Vous obtenez un plateau supplémentaire",
@@ -164,36 +164,36 @@
     "b": "Parce que la cartouche peut partir en retard",
     "c": "Parce que c'est plus élégant"
    },
-   "explain": "Un raté à retardement (hang fire) est rare mais dangereux, donc le fusil doit rester pointé dans une direction sûre."
+   "explain": "Un {{term:hang-fire|long feu}} est rare mais dangereux, donc le fusil doit rester pointé dans une direction sûre."
   },
   "competitions-scoring-basics-q2": {
-   "q": "{{tm:sporting}} : votre fusil tombe en panne sur un poste (premier incident), et il est réparé pendant que votre planche tire encore ce poste. Que pouvez-vous faire ?",
+   "q": "{{tm:sporting}} : votre fusil tombe en panne sur un poste (premier incident), et il est réparé pendant que votre {{term:squad|planche}} tire encore ce poste. Que pouvez-vous faire ?",
    "options": {
-    "a": "Tirer le poste en dernier, si l'arbitre l'autorise",
+    "a": "Tirer le poste en dernier, si le arbitre l'autorise",
     "b": "Rien : les plateaux restants sont zéro",
     "c": "Le tirer le lendemain"
    },
    "explain": "Si le fusil est réparé avant que la planche n'ait terminé le poste, vous pouvez le tirer en dernier là, avec l'autorisation de l'arbitre."
   },
   "sporting-malfunctions-q1": {
-   "q": "Premier problème de fusil de la série : sur un simple, la première cartouche fait un raté. Le tireur attend, fusil vers le champ de tir, l'arbitre. Décision ?",
+   "q": "Premier problème de fusil du {{term:round|série}} : sur un simple, la première cartouche fait un raté. Le tireur attend, fusil vers le champ de tir, le {{term:referee|arbitre}}. Décision ?",
    "options": {
     "a": "Zéro",
-    "b": "No bird et un avertissement",
+    "b": "No bird et un {{term:warning|avertissement}}",
     "c": "Un",
-    "d": "Carton jaune et zéro"
+    "d": "{{term:yellow-card|Carton jaune}} et zéro"
    },
    "explain": "Dans une série, le premier incident avec le fusil ou les munitions est un No bird avec un avertissement, et le simple est relancé."
   },
   "sporting-malfunctions-q2": {
-   "q": "La cartouche fait un raté, et le tireur agacé ouvre le fusil pour regarder l'amorce avant l'arrivée de l'arbitre. Décision ?",
+   "q": "La cartouche fait un raté, et le tireur agacé ouvre le fusil pour regarder le {{term:primer|amorce}} avant l'arrivée du {{term:referee|arbitre}}. Décision ?",
    "options": {
     "a": "No bird",
-    "b": "Le plateau est relancé après un avertissement",
+    "b": "Le plateau est relancé après un {{term:warning|avertissement}}",
     "c": "Zéro",
-    "d": "Carton rouge, et le plateau est relancé"
+    "d": "{{term:red-card|Carton rouge}}, et le plateau est relancé"
    },
-   "explain": "Ouvrir le fusil ou toucher la sûreté avant la vérification de l'arbitre signifie que le plateau est compté zéro."
+   "explain": "Ouvrir le fusil ou toucher le {{term:safety-catch|sûreté}} avant la vérification de l'arbitre signifie que le plateau est compté zéro."
   },
   "sporting-malfunctions-q3": {
    "q": "Simple, premier incident : le premier coup manque et la seconde cartouche fait un raté, donc le plateau est relancé. Sur la reprise, le tireur le casse au premier coup. Décision ?",
@@ -206,31 +206,31 @@
    "explain": "Après une défaillance au second coup, le simple relancé ne peut être cassé qu'au second coup, donc le premier coup doit être un raté volontaire."
   },
   "compak-malfunctions-q1": {
-   "q": "Premier incident de la série en {{tm:compak}} : la première cartouche échoue sur un simple. Le tireur attend correctement. Décision ?",
+   "q": "Premier incident du {{term:round|série}} en {{tm:compak}} : la première cartouche échoue sur un simple. Le tireur attend correctement. Décision ?",
    "options": {
-    "a": "No bird et un carton jaune",
+    "a": "No bird et un {{term:yellow-card|carton jaune}}",
     "b": "Zéro, sans reprise",
-    "c": "Carton rouge et zéro",
+    "c": "{{term:red-card|Carton rouge}} et zéro",
     "d": "Un, le coup compte"
    },
-   "explain": "Le premier incident de fusil ou de cartouche dans une série est un No bird avec un premier avertissement signalé par un carton jaune."
+   "explain": "Le premier incident de fusil ou de cartouche dans une série est un No bird avec un premier {{term:warning|avertissement}} signalé par un carton jaune."
   },
   "compak-malfunctions-q2": {
-   "q": "Le fusil d'un tireur tombe en panne, et il veut emprunter le fusil d'un coéquipier de sa planche. Est-ce permis ?",
+   "q": "Le fusil d'un tireur tombe en panne, et il veut emprunter le fusil d'un coéquipier de son {{term:squad|planche}}. Est-ce permis ?",
    "options": {
     "a": "Oui, avec le consentement du propriétaire",
-    "b": "Oui, si l'arbitre est d'accord",
+    "b": "Oui, si le arbitre est d'accord",
     "c": "Oui, sans condition",
     "d": "Non, seulement auprès de quelqu'un hors de la planche"
    },
    "explain": "Le {{tm:compak}} interdit de partager un fusil au sein d'un groupe. Un emprunt exceptionnel ne se fait qu'en dehors de celui-ci, avec l'accord du propriétaire et de l'arbitre."
   },
   "compak-malfunctions-q3": {
-   "q": "Deuxième défaillance du fusil du même type dans cette série, sur un simple que le tireur n'a pas pu tirer. Décision ?",
+   "q": "Deuxième défaillance du fusil du même type dans ce {{term:round|série}}, sur un simple que le tireur n'a pas pu tirer. Décision ?",
    "options": {
     "a": "Encore No bird",
-    "b": "No bird et un avertissement",
-    "c": "Zéro, avec un carton rouge",
+    "b": "No bird et un {{term:warning|avertissement}}",
+    "c": "Zéro, avec un {{term:red-card|carton rouge}}",
     "d": "Le plateau est remontré"
    },
    "explain": "Dès le deuxième incident du même type, les plateaux non tirés sont comptés zéro."

@@ -51,11 +51,11 @@
   "title": "Dvojstřely: jak se střílejí a hodnotí",
   "summary": "Druhy dvojstřelů ve {{tm:sporting}} a {{tm:compak}}, kolik nábojů smíte vypálit na každý terč a co se stane, když jedna rána rozbije obě.",
   "body": {
-    "rules-doubles-p1": "{{term:double|Dvojstřel}} je dvojice terčů vypuštěná na jedno zavolání. V obou disciplínách existují dvojstřely na hlášenou i současné; jen {{tm:sporting}} má navíc následný dvojstřel (rafale). Část pravidel pro hodnocení se liší. Když se oba terče dvojstřelu hodnotí jako chyba, nazývá se to {{term:zero-zero|nula-nula}}.",
-    "sporting-singles-doubles-p1": "Nejdřív o jednotlivých terčích. V obou disciplínách smíte na {{term:single-target|jednotlivý terč}} vystřelit dva náboje, takže minutí první hlavní lze ještě zachránit druhou. Střeliště musí na každý jednotlivý terč nechat čas na dva výstřely.",
+    "rules-doubles-p1": "{{term:double|Dvojstřel}} je dvojice terčů vypuštěná na jedno zavolání. V obou disciplínách existují {{term:double-on-report|dvojstřely na hlášenou}} i současné; jen {{tm:sporting}} má navíc {{term:rafale-double|následný dvojstřel}}. Část pravidel pro hodnocení se liší. Když se oba terče dvojstřelu hodnotí jako chyba, nazývá se to {{term:zero-zero|nula-nula}}.",
+    "sporting-singles-doubles-p1": "Nejdřív o {{term:single-target|jednotlivých terčích}}. V obou disciplínách smíte na {{term:single-target|jednotlivý terč}} vystřelit dva náboje, takže minutí první hlavní lze ještě zachránit druhou. Střeliště musí na každý jednotlivý terč nechat čas na dva výstřely.",
     "rules-doubles-p2": "U {{term:double-on-report|dvojstřelu na hlášenou}} vaše zavolání vypustí první terč a vaše rána na něj vypustí druhý. U {{term:simultaneous-double|současného dvojstřelu}} vyletí oba terče najednou a smíte je brát v libovolném pořadí.",
     "rules-doubles-cmp1": {
-      "sporting": "Tři druhy: na hlášenou, současný (z jedné nebo dvou vrhaček) a {{term:rafale-double|následný dvojstřel (rafale)}}. V rafale vyletí dva terče ze stejné vrhačky po stejné dráze, jeden za druhým.",
+      "sporting": "Tři druhy: na hlášenou, současný (z jedné nebo dvou vrhaček) a {{term:rafale-double|následný dvojstřel}}. V rafale vyletí dva terče ze stejné {{term:trap|vrhačky}} po stejné dráze, jeden za druhým.",
       "compak": "Dva druhy: na hlášenou a současný. Současný dvojstřel pochází ze dvou různých vrhaček. Rafale neexistuje."
     },
     "sporting-singles-doubles-p2": "Ve {{tm:sporting}} vyletí druhý terč dvojstřelu na hlášenou 0 až 3 sekundy po vaší ráně na první terč. V rafale letí, jen co se vrhačka znovu nabije. Dvojstřel používá jen terče, které už letěly jako jednotlivé na tomto stanovišti, takže jste je už viděli v letu.",
@@ -73,7 +73,7 @@
       "compak": "Odmítnutí současného dvojstřelu: nula-nula. Na hlášenou: odmítnutý první terč je nula; dvojstřel se hází znovu, abyste odstřelili druhý, a hodnotí se jen on."
     },
     "sporting-singles-doubles-p4": "Nepravidelný terč je terč, pro který rozhodčí vyhlásí No Bird, například když vyletí rozbitý, mimo svou dráhu nebo z jiné vrhačky ({{lesson:rules-hit-and-no-bird}}). U dvojstřelu na hlášenou znamená nepravidelný první terč, že se celý dvojstřel hází znovu. Pokud je nepravidelný druhý terč, dvojstřel se střílí znovu a váš výsledek na prvním terči platí. Totéž platí, když první terč nebo jeho úlomky rozbijí druhý před vaší druhou ranou. U současného dvojstřelu, a ve {{tm:sporting}} i u rafale, nepravidelný terč znamená opakování bez zápisu. Jiný případ je, když jedna rána rozbije oba terče: viz výše.",
-    "rules-doubles-p7": "Sledujte předvedení terčů a čtěte {{term:target-menu|menu}} stanoviště, abyste znali nadcházející dvojstřely. Mnozí trenéři doporučují zvolit pořadí pro současný dvojstřel ještě před zavoláním."
+    "rules-doubles-p7": "Sledujte {{term:target-presentation|předvedení terčů}} a čtěte {{term:target-menu|menu}} stanoviště, abyste znali nadcházející dvojstřely. Mnozí trenéři doporučují zvolit pořadí pro současný dvojstřel ještě před zavoláním."
   },
   "note": {
     "compak-singles-doubles-p1": "{{tm:compak}} používá pro dvojstřely na hlášenou a současné dvojstřely stejná slova jako {{tm:sporting}} (rafale zde není), ale jeho dvojstřely se řídí jinými pravidly. Tlumočník, který přenese pravidla {{tm:sporting}}, odpoví špatně.",
@@ -123,7 +123,7 @@
   "did_you_know": "V {{tm:compak}} začíná dvojstřel na každém stanovišti posledním terčem předchozího stanoviště.",
   "quiz": {
     "rules-doubles-q1": {
-      "q": "Co vypustí druhý terč dvojstřelu na hlášenou?",
+      "q": "Co vypustí druhý terč {{term:double-on-report|dvojstřelu na hlášenou}}?",
       "options": {
         "a": "Rána na první terč",
         "b": "Druhé zavolání střelce",
@@ -132,7 +132,7 @@
       "explain": "Zavolání vypustí první terč a rána na něj vypustí druhý."
     },
     "rules-doubles-q2": {
-      "q": "Smíte v {{tm:compak}} vystřelit oba náboje na první terč dvojstřelu?",
+      "q": "Smíte v {{tm:compak}} vystřelit oba náboje na první terč {{term:double|dvojstřelu}}?",
       "options": {
         "a": "Ano, jako ve {{tm:sporting}}",
         "b": "Jen u současného dvojstřelu",
@@ -141,7 +141,7 @@
       "explain": "V {{tm:compak}} je to jeden náboj na každý terč, a úmyslné vystřelení obou na jeden terč se hodnotí jako nula-nula; ve {{tm:sporting}} smějí oba jít na jeden terč."
     },
     "rules-doubles-q3": {
-      "q": "Ve {{tm:sporting}} jedna rána rozbije oba terče dvojstřelu. Jak se to hodnotí?",
+      "q": "Ve {{tm:sporting}} jedna rána rozbije oba terče {{term:double|dvojstřelu}}. Jak se to hodnotí?",
       "options": {
         "a": "Zero a No Bird",
         "b": "One a one",
@@ -150,7 +150,7 @@
       "explain": "Ve {{tm:sporting}} se počítají oba terče; {{tm:compak}} má jiná pravidla."
     },
     "sporting-singles-doubles-q1": {
-      "q": "{{tm:sporting}}, současný dvojstřel. Střelec první ranou mine jeden terč, vystřelí na něj i druhý náboj a rozbije ho. Druhý terč letí dál. Rozhodnutí?",
+      "q": "{{tm:sporting}}, {{term:simultaneous-double|současný dvojstřel}}. Střelec první ranou mine jeden terč, vystřelí na něj i druhý náboj a rozbije ho. Druhý terč letí dál. Rozhodnutí?",
       "options": {
         "a": "One a zero",
         "b": "Zero a zero",
@@ -160,14 +160,14 @@
       "explain": "Ve {{tm:sporting}} smějí oba náboje dvojstřelu jít na jeden terč, takže rozbitý terč je „one“ a druhý „zero“. V {{tm:compak}} je úmyslné vystřelení obou na jeden terč nula-nula."
     },
     "sporting-singles-doubles-q2": {
-      "q": "{{tm:sporting}}, dvojstřel na hlášenou. Střelec rozbije první terč a jeho úlomek rozbije druhý ještě před druhou ranou. Rozhodnutí?",
+      "q": "{{tm:sporting}}, {{term:double-on-report|dvojstřel na hlášenou}}. Střelec rozbije první terč a jeho úlomek rozbije druhý ještě před druhou ranou. Rozhodnutí?",
       "options": {
         "a": "One a one",
         "b": "Opakování, první výsledek platí",
         "c": "Zero na druhém terči",
         "d": "One a zero"
       },
-      "explain": "Když první terč nebo jeho úlomky rozbijí druhý před druhou ranou, dvojstřel se opakuje a první výsledek platí."
+      "explain": "Když první terč nebo jeho úlomky rozbijí druhý před druhou ranou, {{term:double|dvojstřel}} se opakuje a první výsledek platí."
     },
     "sporting-singles-doubles-q3": {
       "q": "{{tm:sporting}}, rafale. Oba terče letí správně, ale střelec sklopí zbraň a bez platného důvodu nevystřelí na žádný. Rozhodnutí?",
@@ -177,10 +177,10 @@
         "c": "Jen žlutá karta",
         "d": "Zero a zero"
       },
-      "explain": "Správný terč, na který se bez platného důvodu nevystřelí, se nepočítá; u rafale nebo současného dvojstřelu to znamená zero a zero."
+      "explain": "Správný terč, na který se bez platného důvodu nevystřelí, se nepočítá; u rafale nebo {{term:simultaneous-double|současného dvojstřelu}} to znamená zero a zero."
     },
     "compak-singles-doubles-q1": {
-      "q": "Současný dvojstřel v {{tm:compak}}. Jedna rána rozbije oba terče; stává se to poprvé. Rozhodnutí?",
+      "q": "{{term:simultaneous-double|Současný dvojstřel}} v {{tm:compak}}. Jedna rána rozbije oba terče; stává se to poprvé. Rozhodnutí?",
       "options": {
         "a": "One a one",
         "b": "No Bird, střílí se znovu",
@@ -190,7 +190,7 @@
       "explain": "V {{tm:compak}} je současný dvojstřel rozbitý jednou ranou poprvé a podruhé No Bird, potřetí zero a zero."
     },
     "compak-singles-doubles-q2": {
-      "q": "Dvojstřel na hlášenou v {{tm:compak}}. Jedna rána rozbije oba terče. Rozhodnutí?",
+      "q": "{{term:double-on-report|Dvojstřel na hlášenou}} v {{tm:compak}}. Jedna rána rozbije oba terče. Rozhodnutí?",
       "options": {
         "a": "One a one, oba se počítají",
         "b": "Zero a zero pro oba",
@@ -200,17 +200,17 @@
       "explain": "U dvojstřelu na hlášenou se zapíše výsledek prvního terče a dvojstřel se střílí znovu, aby se zhodnotil druhý."
     },
     "compak-singles-doubles-q3": {
-      "q": "{{tm:compak}}, dvojstřel na hlášenou. První terč letí správně, ale střelec na něj nevystřelí. Rozhodnutí?",
+      "q": "{{tm:compak}}, {{term:double-on-report|dvojstřel na hlášenou}}. První terč letí správně, ale střelec na něj nevystřelí. Rozhodnutí?",
       "options": {
-        "a": "První je zero, dvojstřel znovu kvůli druhému",
-        "b": "Zero a zero za dvojstřel",
-        "c": "No Bird, dvojstřel se hází znovu",
+        "a": "První je zero, {{term:double|dvojstřel}} znovu kvůli druhému",
+        "b": "Zero a zero za {{term:double|dvojstřel}}",
+        "c": "No Bird, {{term:double|dvojstřel}} se hází znovu",
         "d": "Zero, druhý se už nestřílí"
       },
       "explain": "Nevystřelení na správně vypuštěný první terč je zero. Dvojstřel se pak hází znovu, aby se zhodnotil druhý terč (příručka rozhodčích)."
     },
     "rules-doubles-q4": {
-      "q": "V {{tm:compak}} na prvním terči dvojstřelu náhodou vystřelí obě hlavně najednou. Je to první porucha v položce. Co to je?",
+      "q": "V {{tm:compak}} na prvním terči {{term:double|dvojstřelu}} náhodou vystřelí obě hlavně najednou. Je to první porucha v položce. Co to je?",
       "options": {
         "a": "Porucha: No Bird, nový dvojstřel",
         "b": "Úmyslný dvojitý výstřel: nula-nula",

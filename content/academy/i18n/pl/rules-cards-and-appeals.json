@@ -41,16 +41,16 @@
     "origin": "interpreter-academy"
   },
   "title": "Ostrzeżenia, kartki i kary",
-  "summary": "Jak działają kary w {{tm:sporting}} i {{tm:compak}}. Najpierw ostrzeżenie z żółtą kartką; czerwona kartka za powtórzenie wykroczenia na stanowisku; sankcje jury, aż do wykluczenia, za inne powtórzenia i poważne naruszenia.",
+  "summary": "Jak działają kary w {{tm:sporting}} i {{tm:compak}}. Najpierw ostrzeżenie z {{term:yellow-card|żółtą kartką}}; {{term:red-card|czerwona kartka}} za powtórzenie wykroczenia na stanowisku; sankcje jury, aż do wykluczenia, za inne powtórzenia i poważne naruszenia.",
   "body": {
-    "referee-cards-p1": "Kary FITASC stają się surowsze krok po kroku. Zgłaszając się na zawody, akceptujesz przepisy i kary. Pierwsze naruszenie przepisu zwykle daje {{term:warning|ostrzeżenie}}, pokazane {{term:yellow-card|żółtą kartką}}. W {{tm:sporting}} klasycznym przykładem jest pozycja broni. Kolba powyżej linii na kamizelce, albo broń złożona przed pojawieniem się rzutka, daje ustne ostrzeżenie i żółtą kartkę.",
+    "referee-cards-p1": "Kary FITASC stają się surowsze krok po kroku. Zgłaszając się na zawody, akceptujesz przepisy i kary. Pierwsze naruszenie przepisu zwykle daje {{term:warning|ostrzeżenie}}, pokazane {{term:yellow-card|żółtą kartką}}. W {{tm:sporting}} klasycznym przykładem jest pozycja broni. {{term:stock|Kolba}} powyżej linii na kamizelce, albo broń złożona przed pojawieniem się rzutka, daje ustne ostrzeżenie i żółtą kartkę.",
     "rules-cards-and-appeals-cmp1": {
-      "sporting": "Powtórzenie wykroczenia na stanowisku na tej samej {{term:layout|osi}} po ostrzeżeniu (pozycja broni albo za wczesne złożenie się, limit czasu, strzelanie do ogłoszonego NO BIRD) przynosi {{term:red-card|czerwoną kartkę}}. Rzutek pojedynczy liczy się jako zero; dublety idą według tabeli w przewodniku po przepisach.",
-      "compak": "Powtórzenie wykroczenia na stanowisku na tej samej osi {{tm:compak}} (polu, na którym strzelasz) po ostrzeżeniu przynosi czerwoną kartkę. Obejmuje to limit czasu, odmowę rzutka, strzelanie do ogłoszonego NO BIRD i przepisy o niesprawności. Rzutek pojedynczy liczy się jako zero; dublety idą według tabeli w przewodniku po przepisach."
+      "sporting": "Powtórzenie wykroczenia na stanowisku na tej samej {{term:layout|osi}} po ostrzeżeniu (pozycja broni albo za wczesne złożenie się, limit czasu, strzelanie do ogłoszonego NO BIRD) przynosi {{term:red-card|czerwoną kartkę}}. Rzutek pojedynczy liczy się jako zero; {{term:double|dublety}} idą według tabeli w przewodniku po przepisach.",
+      "compak": "Powtórzenie wykroczenia na stanowisku na tej samej osi {{tm:compak}} (polu, na którym strzelasz) po ostrzeżeniu przynosi czerwoną kartkę. Obejmuje to {{term:firing-time|limit czasu}}, odmowę rzutka, strzelanie do ogłoszonego NO BIRD i przepisy o niesprawności. Rzutek pojedynczy liczy się jako zero; dublety idą według tabeli w przewodniku po przepisach."
     },
     "referee-cards-p2": "Ta sama skala obowiązuje przy strzelaniu do ogłoszonego NO BIRD i przy przekroczeniu limitu czasu; patrz {{lesson:rules-call-and-time}}.",
-    "referee-cards-p3": "{{term:coaching|Podpowiadanie}} (coaching) — czyli kiedy ktoś daje ci rady albo instrukcje w trakcie startu — też jest karane. Dostajesz żółtą kartkę, powtórzenia karze jury, a sędzia wyprasza osobę podpowiadającą poza strefę strzelania.",
-    "referee-cards-p4": "Inne powtórzone wykroczenia (na przykład ubiór, numer startowy, podpowiadanie albo zachowanie) idą do {{term:jury|jury}}, panelu oficjeli zawodów. Tak samo {{term:refusal-to-comply|odmowa podporządkowania się}} (niewykonywanie decyzji sędziego) i {{term:attempt-to-influence|próba wywierania wpływu}} na sędziego. Jury może zaliczyć jeden rzutek jako chybiony, przekreślić całą serię {{fact:rules.round-targets}}, albo wykluczyć cię z zawodów. Rzucenie bronią, wyzwiska albo przemoc, oraz celowe strzelanie do żywych zwierząt mogą znaczyć natychmiastowe {{term:expulsion|wykluczenie}}. Wykluczenie zostaje w rejestrze FITASC przez pięć lat i nie przynosi zwrotu pieniędzy.",
+    "referee-cards-p3": "{{term:coaching|Podpowiadanie}} — czyli kiedy ktoś daje ci rady albo instrukcje w trakcie startu — też jest karane. Dostajesz żółtą kartkę, powtórzenia karze jury, a sędzia wyprasza osobę podpowiadającą poza strefę strzelania.",
+    "referee-cards-p4": "Inne powtórzone wykroczenia (na przykład ubiór, numer startowy, podpowiadanie albo zachowanie) idą do {{term:jury|jury}}, panelu oficjeli zawodów. Tak samo {{term:refusal-to-comply|odmowa podporządkowania się}} decyzji sędziego i {{term:attempt-to-influence|próba wywierania wpływu na sędziego}}. Jury może zaliczyć jeden rzutek jako chybiony, przekreślić całą serię {{fact:rules.round-targets}}, albo wykluczyć cię z zawodów. Rzucenie bronią, wyzwiska albo przemoc, oraz celowe strzelanie do żywych zwierząt mogą znaczyć natychmiastowe {{term:expulsion|wykluczenie}}. Wykluczenie zostaje w rejestrze FITASC przez pięć lat i nie przynosi zwrotu pieniędzy.",
     "rules-cards-and-appeals-p7": "Po ostatecznej decyzji wznów strzelanie i puść to. Dalsze spieranie się o decyzję po wznowieniu strzelania, albo jej otwarte krytykowanie, liczy się jako próba wywierania wpływu na sędziego.",
     "rules-cards-and-appeals-protest": "Jeśli nie zgadzasz się z decyzją, zgłoś {{term:protest|protest}} natychmiast na stanowisku: podnieś rękę i powiedz „protest” albo „appeal”. Jak działają protesty i odwołania do jury, jest w {{lesson:competitions-results-and-protests}}.",
     "rules-cards-and-appeals-tip1": "Żółta kartka to nie koniec twojej serii. Wielu trenerów poleca jeden spokojny wydech, krótkie spojrzenie na to, co ją spowodowało, a potem swoją zwykłą rutynę. Więcej w {{lesson:mind-reset-after-miss}}."
@@ -98,14 +98,14 @@
       "q": "Sędzia widzi, że trener daje radę strzelcowi w trakcie zawodów. Co mówią przepisy?",
       "options": {
         "a": "Nic, rada jest dozwolona",
-        "b": "Czerwona kartka dla trenera",
-        "c": "Żółta kartka dla strzelca",
+        "b": "{{term:red-card|Czerwona kartka}} dla trenera",
+        "c": "{{term:yellow-card|Żółta kartka}} dla strzelca",
         "d": "Seria jest odwołana"
       },
       "explain": "Oba regulaminy dają strzelcowi żółtą kartkę, a osoba, która podpowiadała, musi opuścić strefę strzelania."
     },
     "referee-cards-q1": {
-      "q": "{{tm:sporting}}: po żółtej kartce za za wczesne złożenie się, strzelec znowu składa się za wcześnie na tej samej osi, na pojedynczym. Co z tego wynika?",
+      "q": "{{tm:sporting}}: po żółtej kartce za za wczesne {{term:gun-mount|złożenie się}}, strzelec znowu składa się za wcześnie na tej samej osi, na pojedynczym. Co z tego wynika?",
       "options": {
         "a": "Tylko kolejne ostrzeżenie",
         "b": "Czerwona kartka i zero",
@@ -143,11 +143,11 @@
       "explain": "Trafienie, chybienie, NO BIRD i trajektoria są decydowane tylko przez sędziego, i ta decyzja jest ostateczna."
     },
     "rules-cards-and-appeals-q3": {
-      "q": "Jaka jest kaucja za odwołanie do jury w {{tm:sporting}}?",
+      "q": "Jaka jest kaucja za {{term:appeal|odwołanie}} do jury w {{tm:sporting}}?",
       "options": {
-        "a": "10% wpisowego",
-        "b": "40% wpisowego",
-        "c": "Całe wpisowe"
+        "a": "10% {{term:entry-fee|wpisowego}}",
+        "b": "40% {{term:entry-fee|wpisowego}}",
+        "c": "Całe {{term:entry-fee|wpisowe}}"
       },
       "explain": "To {{fact:rules.sporting-jury-deposit}}; pieniądze wracają, jeśli jury zdecyduje na korzyść strzelca."
     },

@@ -36,16 +36,16 @@
   "origin": "interpreter-academy"
  },
  "title": "Was ein Choke ist",
- "summary": "Ein Choke ist eine Verengung des Laufs an der Mündung, die den Schrot zusammenhält. Er bestimmt, wie breit die Deckung an der Scheibe ist, und die Regeln von {{tm:sporting}} und {{tm:compak}} sagen, wann Sie ihn wechseln dürfen.",
+ "summary": "Ein Choke ist eine Verengung des Laufs an der {{term:muzzle|Mündung}}, die den Schrot zusammenhält. Er bestimmt, wie breit die Deckung an der Scheibe ist, und die Regeln von {{tm:sporting}} und {{tm:compak}} sagen, wann Sie ihn wechseln dürfen.",
  "body": {
-  "chokes-what-is-a-choke-p1": "Wenn eine Flinte feuert, verlässt nicht ein einzelnes Geschoss die Mündung, sondern eine Wolke von mehreren hundert Kugeln. Im Flug breitet sie sich allmählich aus. Die Spur, die diese Wolke auf einer Scheibe oder einer Stahlplatte hinterlässt, nennt man die {{term:pattern|Deckung}}.",
+  "chokes-what-is-a-choke-p1": "Wenn eine Flinte feuert, verlässt nicht ein einzelnes Geschoss die {{term:muzzle|Mündung}}, sondern eine Wolke von mehreren hundert Kugeln. Im Flug breitet sie sich allmählich aus. Die Spur, die diese Wolke auf einer Scheibe oder einer Stahlplatte hinterlässt, nennt man die {{term:pattern|Deckung}}.",
   "gear-chokes-p1": "Ein {{term:choke|Choke}} ist eine leichte Verengung des Laufs an der Mündung. Er bestimmt, wie schnell sich der Schrot ausbreitet. Ein engerer Choke hält den Schrot länger zusammen und ergibt eine dichtere Deckung für weite Scheiben. Ein offenerer Choke lässt ihn früher ausbreiten und ergibt eine breitere, verzeihendere Deckung für nahe Scheiben.",
   "chokes-what-is-a-choke-p2": "Wie stark ein Choke den Lauf verengt, nennt man die {{term:constriction|Engung}}. Zum Beispiel ist das Laufinnere 18,5 mm weit, und der Choke verengt es auf 18,0 mm, die Engung beträgt also 0,5 mm. Sie wird in Millimetern oder in Tausendstel Zoll („thou“, auch „Points“ genannt) angegeben. Ein Lauf ganz ohne Verengung heißt {{term:cylinder|Zylinder}}.",
   "chokes-what-is-a-choke-p4": "Eine breite Deckung verzeiht kleine Richtfehler bei nahen Scheiben. Auf weite Entfernung wird sie jedoch dünn und lässt Lücken, durch die eine Scheibe unversehrt schlüpfen kann. Eine enge Deckung bleibt weiter dicht, braucht aber präziseres Richten, es gibt also keinen einzig richtigen Choke, nur einen, der zur Entfernung passt.",
-  "gear-chokes-p2": "Die meisten Wettkampfflinten haben Wechselchokes: kurze Einsätze, die mit einem Chokeschlüssel in die Mündung geschraubt werden. Ältere Flinten haben oft feste Würgebohrungen, die in den Lauf gearbeitet sind. Einsätze verschiedener Hersteller passen oft nicht zueinander, und die Hersteller warnen, eine Flinte mit Wechselchokes nie ohne ihre Einsätze zu schießen.",
+  "gear-chokes-p2": "Die meisten Wettkampfflinten haben {{term:multichoke|Wechselchokes|pl}}: kurze Einsätze, die mit einem {{term:choke-key|Chokeschlüssel}} in die Mündung geschraubt werden. Ältere Flinten haben oft {{term:fixed-choke|feste Würgebohrungen|pl}}, die in den Lauf gearbeitet sind. Einsätze verschiedener Hersteller passen oft nicht zueinander, und die Hersteller warnen, eine Flinte mit Wechselchokes nie ohne ihre Einsätze zu schießen.",
   "chokes-what-is-a-choke-p6": "Bei {{tm:sporting}} und {{tm:compak}} fliegen die Scheiben auf viele verschiedene Entfernungen, die Wahl der Chokes ist also Teil Ihres Plans. Bei einer {{term:over-and-under|Bockflinte}} kann jeder Lauf seinen eigenen Choke haben, zum Beispiel einen offeneren für den ersten, näheren Schuss und einen engeren für den zweiten.",
-  "gear-chokes-p4": "Trainer sagen Dinge wie „Quarter and Half“, „Mach den unteren Lauf weiter auf“, „Nimm oben einen engeren“ oder „Wechsle für diesen Standplatz die Chokes“. Namen von Zylinder bis Vollchoke, die Bruchzahlen und die Markierungen: {{lesson:chokes-names-and-marks}}.",
-  "gear-chokes-p5": "Die Regeln unterscheiden sich zwischen den Disziplinen. Bei {{tm:sporting}} dürfen Chokes zwischen Standplätzen oder zwischen Einzelscheiben und Dupletten gewechselt werden, wenn das keine Verzögerung verursacht. Sobald der Schütze den Standplatz betreten hat, dürfen sie nicht mehr gewechselt werden. Bei {{tm:compak}} dürfen Flinte, Läufe und Chokes innerhalb einer Runde überhaupt nicht gewechselt werden, nur zwischen Runden, außer nach einer Funktionsstörung."
+  "gear-chokes-p4": "Trainer sagen Dinge wie „Quarter and Half“, „Mach den unteren Lauf weiter auf“, „Nimm oben einen engeren“ oder „Wechsle für diesen Standplatz die Chokes“. Namen von Zylinder bis {{term:full-choke|Vollchoke}}, die Bruchzahlen und die Markierungen: {{lesson:chokes-names-and-marks}}.",
+  "gear-chokes-p5": "Die Regeln unterscheiden sich zwischen den Disziplinen. Bei {{tm:sporting}} dürfen Chokes zwischen Standplätzen oder zwischen Einzelscheiben und Doubletten gewechselt werden, wenn das keine Verzögerung verursacht. Sobald der Schütze den Standplatz betreten hat, dürfen sie nicht mehr gewechselt werden. Bei {{tm:compak}} dürfen Flinte, Läufe und Chokes innerhalb einer Runde überhaupt nicht gewechselt werden, nur zwischen Runden, außer nach einer {{term:malfunction|Funktionsstörung}}."
  },
  "note": {
   "chokes-what-is-a-choke-n1": "Behalten Sie die Choke-Namen genau so, wie der Trainer sie sagt. Rechnen Sie sie nicht in Millimeter um: Die Werte unterscheiden sich zwischen den Herstellern."
@@ -78,7 +78,7 @@
  "did_you_know": "Choke-Engungen sind winzig. Selbst ein Vollchoke verengt eine 12er-Bohrung im Durchmesser nur um etwa 1 mm. Das sind etwa 0,5 mm auf jeder Seite, weniger als die Dicke einer Bankkarte.",
  "quiz": {
   "gear-chokes-q1": {
-   "q": "Welcher Choke ergibt die breiteste Garbe?",
+   "q": "Welcher Choke ergibt die breiteste {{term:pattern|Deckung}}?",
    "options": {
     "a": "Full",
     "b": "Improved Modified",
@@ -88,7 +88,7 @@
    "explain": "Cylinder hat keine Verengung, also breitet sich der Schrot am frühesten aus."
   },
   "chokes-what-is-a-choke-q2": {
-   "q": "Was passiert, wenn Sie die Engung erhöhen?",
+   "q": "Was passiert, wenn Sie die {{term:constriction|Engung}} erhöhen?",
    "options": {
     "a": "Die Deckung breitet sich früher aus",
     "b": "Die Deckung bleibt länger eng",
@@ -110,10 +110,10 @@
   "chokes-what-is-a-choke-q1": {
    "q": "Was ist ein Choke?",
    "options": {
-    "a": "Eine Verengung des Laufs an der Mündung",
-    "b": "Die Sicherung hinter dem Öffnungshebel",
+    "a": "Eine Verengung des Laufs an der {{term:muzzle|Mündung}}",
+    "b": "Die {{term:safety-catch|Sicherung}} hinter dem Öffnungshebel",
     "c": "Eine Art Patrone für Wurfscheiben",
-    "d": "Die Oberkante des Schafts, für die Wange"
+    "d": "Die Oberkante des {{term:stock|Schafts}}, für die Wange"
    },
    "explain": "Ein Choke verengt die Bohrung an der Mündung und hält den Schrot zusammen."
   },
@@ -122,10 +122,10 @@
    "options": {
     "a": "Ja, solange das keine Verzögerung verursacht",
     "b": "Nein, nicht mehr, sobald er auf dem Standplatz ist",
-    "c": "Ja, aber nur vor den Dupletten",
+    "c": "Ja, aber nur vor den Doubletten",
     "d": "Nur mit Erlaubnis der Jury"
    },
-   "explain": "Wechsel sind zwischen Standplätzen oder zwischen Einzelscheiben und Dupletten erlaubt, ohne Verzögerung, aber nicht mehr, sobald der Schütze den Standplatz betreten hat."
+   "explain": "Wechsel sind zwischen Standplätzen oder zwischen Einzelscheiben und Doubletten erlaubt, ohne Verzögerung, aber nicht mehr, sobald der Schütze den Standplatz betreten hat."
   }
  }
 }

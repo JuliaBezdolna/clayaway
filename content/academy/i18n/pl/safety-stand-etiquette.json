@@ -50,13 +50,13 @@
     "etiquette-on-the-stand-p1": "Strzelec na stanowisku potrzebuje pełnej koncentracji, od nabicia do otwarcia broni po ostatnim strzale. Przepisy pozwalają czekającym strzelcom stać blisko stanowiska, ale nie mogą oni przeszkadzać temu, kto strzela. W praktyce znaczy to: mów cicho albo wcale, żadnych nagłych ruchów w polu widzenia strzelca, broń otwarta, telefony wyciszone i w kieszeni. Przepisy nie wspominają o telefonach, ale na wielu strzelnicach oczekuje się tej uprzejmości.",
     "safety-stand-etiquette-p4": "Drobne dźwięki też mają znaczenie. Nie zatrzaskuj broni i nie odbieraj telefonu za kimś, kto strzela.",
     "etiquette-on-the-stand-p2": "Każdy, kto nie strzela, stoi za stanowiskiem, nigdy z boku albo przed nim: widzowie, trenerzy, tłumacze, a w {{tm:sporting}} także reszta grupy. W {{tm:compak}} każde stanowisko (ponumerowane miejsce) ma {{term:firing-angle-limiter|ogranicznik kąta strzału (F.A.L.)}}: ramę wokół strzelca, która nie dopuszcza nadmiernego wychylenia luf. Na wielu strzelnicach stanowiska {{tm:sporting}} mają {{term:cage|klatkę}} — ramę, która służy temu samemu celowi. Ci, którzy nie strzelają, czekają za klatką albo F.A.L., gdzie lufy nie mogą być skierowane. W {{tm:compak}} grupa stoi jedna przy drugiej, każdy strzelec na swoim stanowisku w swoim F.A.L. Czekający strzelec stoi za stanowiskiem 1, a ten, kto skończył, czeka, nie przeszkadzając następnemu.",
-    "etiquette-on-the-stand-p3": "Jeśli zakłócisz strzelcowi, wkraczają przepisy. Gdy sędzia widzi, że strzelcowi wyraźnie zakłócono, rzutek ogłasza się {{term:no-bird|No Bird}} (nie liczy się) i wyrzuca ponownie. Nie {{term:gun-mount|wkładaj się}} do strzału i nie wodź bronią, jakby za rzutkiem ({{term:mock-shooting|imitacja strzelania}}), gdy strzela członek grupy. W {{tm:sporting}} to niedozwolone nigdzie na strzelnicy. Strzela tylko ten, czyja jest kolej, i tylko do swojego rzutka.",
+    "etiquette-on-the-stand-p3": "Jeśli zakłócisz strzelcowi, wkraczają przepisy. Gdy sędzia widzi, że strzelcowi wyraźnie zakłócono, rzutek ogłasza się {{term:no-bird|No Bird}} (nie liczy się) i wyrzuca ponownie. Nie rób {{term:gun-mount|złożenia się}} do strzału i nie wódź bronią, jakby za rzutkiem, gdy strzela członek grupy: to {{term:mock-shooting|imitacja strzelania}}. W {{tm:sporting}} to niedozwolone nigdzie na strzelnicy. Strzela tylko ten, czyja jest kolej, i tylko do swojego rzutka.",
     "safety-stand-etiquette-p2": "Czasem przez pole strzelania przechodzą albo przelatują zwierzęta. Nie celuj w nie i nie strzelaj: oba regulaminy to zabraniają, a w {{tm:sporting}} umyślne strzelenie do żywego zwierzęcia może prowadzić do wykluczenia.",
     "safety-stand-etiquette-p5": "Podczas zawodów nikomu nie można mówić strzelcowi, jak ma strzelać. Przepisy nazywają to {{term:coaching|coachingiem}}. Strzelec dostaje {{term:yellow-card|żółtą kartkę}}, a osobę, która podpowiadała, sędzia wyprowadza z pola strzelania.",
-    "safety-stand-etiquette-p6": "Po strzelaniu otwórz broń i wyjmij {{term:empties|puste łuski}}; włóż je do koszyka, jeśli jest. Jeśli strzelasz z półautomatu, zbierz wyrzucone łuski, zanim zejdziesz ze stanowiska. Podziękowanie sędziemu i grupie to dobry nawyk."
+    "safety-stand-etiquette-p6": "Po strzelaniu otwórz broń i wyjmij {{term:empties|puste łuski}}; włóż je do koszyka, jeśli jest. Jeśli strzelasz z {{term:semi-automatic|półautomatu}}, zbierz wyrzucone {{term:hull|łuski}}, zanim zejdziesz ze stanowiska. Podziękowanie sędziemu i grupie to dobry nawyk."
   },
   "note": {
-    "etiquette-on-the-stand-p4": "Dla ciebie ta lekcja jest praktyczna. Przerwij mówienie, gdy twój gość wchodzi na stanowisko, nawet w połowie zdania. Nie odpowiadaj na pytania, gdy broń jest zamknięta. Odezwij się znowu tylko, gdy broń jest otwarta: między rzutkami, między dubletami albo po zejściu ze stanowiska. Niedosłyszana podpowiedź kosztuje mniej niż dublet zepsuty twoim głosem."
+    "etiquette-on-the-stand-p4": "Dla ciebie ta lekcja jest praktyczna. Przerwij mówienie, gdy twój gość wchodzi na stanowisko, nawet w połowie zdania. Nie odpowiadaj na pytania, gdy broń jest zamknięta. Odezwij się znowu tylko, gdy broń jest otwarta: między rzutkami, między dubletami albo po zejściu ze stanowiska. Niedosłyszana podpowiedź kosztuje mniej niż {{term:double|dublet}} zepsuty twoim głosem."
   },
   "phrases": {
     "etiquette-on-the-stand-ph1": {
@@ -86,7 +86,7 @@
   "did_you_know": "W {{tm:sporting}} przepisy wymieniają komendy „ready” i „pull”. Jakiego słowa byś nie użył, wielu trenerów radzi, by komenda była wyraźna i zawsze taka sama.",
   "quiz": {
     "safety-stand-etiquette-q1": {
-      "q": "Kiedy można wejść na stanowisko?",
+      "q": "Kiedy można wejść na {{term:shooting-stand|stanowisko}}?",
       "options": {
         "a": "Zaraz po tym, jak poprzedni strzelec odda ostatni strzał",
         "b": "Gdy stanowisko jest wolne i nadeszła twoja kolej",
@@ -101,10 +101,10 @@
         "b": "Tylko jeśli znajomy jest wykwalifikowanym trenerem",
         "c": "Nie: to liczy się jako podpowiadanie i jest karane"
       },
-      "explain": "Podpowiadanie podczas zawodów jest zabronione dla wszystkich, także trenerów: strzelec dostaje żółtą kartkę."
+      "explain": "Podpowiadanie podczas zawodów jest zabronione dla wszystkich, także trenerów: strzelec dostaje {{term:yellow-card|żółtą kartkę}}."
     },
     "etiquette-on-the-stand-q2": {
-      "q": "Głośna rozmowa telefoniczna za stanowiskiem wyraźnie przeszkadza strzelcowi w chwili strzału. Co może zdecydować sędzia?",
+      "q": "Głośna rozmowa telefoniczna za {{term:shooting-stand|stanowiskiem}} wyraźnie przeszkadza strzelcowi w chwili strzału. Co może zdecydować sędzia?",
       "options": {
         "a": "No Bird: rzutek wyrzuca się ponownie",
         "b": "Zero dla strzelca",
@@ -114,7 +114,7 @@
       "explain": "Jeśli sędzia widzi, że strzelcowi wyraźnie przeszkodzono, rzutek to No Bird."
     },
     "safety-stand-etiquette-q3": {
-      "q": "Ile czasu masz na wywołanie rzutka w {{tm:compak}}?",
+      "q": "Ile czasu masz na {{term:call|wywołanie rzutka}} w {{tm:compak}}?",
       "options": {
         "a": "Do 30 sekund",
         "b": "Do 10 sekund",
@@ -126,8 +126,8 @@
       "q": "Gdzie stoi tłumacz, gdy gość strzela?",
       "options": {
         "a": "Z boku strzelca, by widzieć jego twarz",
-        "b": "Przed stanowiskiem, by widzieć rzutek",
-        "c": "Za stanowiskiem, poza jakąkolwiek linią luf",
+        "b": "Przed {{term:shooting-stand|stanowiskiem}}, by widzieć rzutek",
+        "c": "Za {{term:shooting-stand|stanowiskiem}}, poza jakąkolwiek linią luf",
         "d": "Tam, gdzie nie widzi go sędzia"
       },
       "explain": "Każdy, kto nie strzela, czeka za stanowiskiem, klatką albo F.A.L.; z boku albo przed stanowiskiem jesteś na linii wychylenia luf albo blisko niej."

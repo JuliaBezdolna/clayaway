@@ -35,12 +35,12 @@
     "lead-pull-away-p2": [
       "„Na nim”: broń składa się na rzutek albo na jego przednią krawędź; lufy stykają się z jego linią.",
       "„Z nim”: lufy śledzą rzutek przez chwilę z jego prędkością, dopasowując linię i tempo.",
-      "„Odejście”: broń płynnie przyspiesza do przodu, aż pojawi się właściwy obraz wyprzedzenia.",
-      "„Strzał”: spust pociągasz, gdy broń wciąż przyspiesza albo się rusza.",
-      "Prowadzenie broni po strzale: broń porusza się dalej po strzale."
+      "„Odejście”: broń płynnie przyspiesza do przodu, aż pojawi się właściwy obraz {{term:lead|wyprzedzenia}}.",
+      "„Strzał”: {{term:trigger|spust}} pociągasz, gdy broń wciąż przyspiesza albo się rusza.",
+      "{{term:follow-through|Prowadzenie broni po strzale}}: broń porusza się dalej po strzale."
     ],
     "lead-pull-away-p3": "Zalety: śledzisz rzutek przez chwilę, zanim odejdziesz przed niego. To daje poczucie jego prędkości, odległości i toru, zanim zdecydujesz się strzelić, więc lufy dobrze trzymają jego linię. Pasuje do długich rzutków, rzutków skośnych (lecących pod kątem od ciebie lub do ciebie) i wznoszących się. Z powodu przyspieszenia widziane wyprzedzenie jest mniejsze niż przy stałym wyprzedzeniu.",
-    "lead-pull-away-p4": "Wady: wielkość przyspieszenia różni się między rzutkami, więc wymaga praktyki, by je poczuć. Zbyt długie śledzenie staje się „zbyt długim prowadzeniem rzutka” (riding the target), a zatrzymanie ruchu daje chybienie z tyłu.",
+    "lead-pull-away-p4": "Wady: wielkość przyspieszenia różni się między rzutkami, więc wymaga praktyki, by je poczuć. Zbyt długie śledzenie staje się {{term:riding-the-target|zbyt długim prowadzeniem rzutka}}, a zatrzymanie ruchu daje chybienie z tyłu.",
     "lead-pull-away-p5": "Trenerzy mówią „dotknij i jedź”, „złóż się na nim i odejdź”, albo czterotaktowe „na nim, z nim, odejście, strzał”."
   },
   "note": {
@@ -72,7 +72,7 @@
   },
   "quiz": {
     "lead-pull-away-q1": {
-      "q": "W pull away, co się dzieje tuż przed pociągnięciem za spust?",
+      "q": "W pull away, co się dzieje tuż przed pociągnięciem za {{term:trigger|spust}}?",
       "options": {
         "a": "Broń zatrzymuje się na rzutku",
         "b": "Broń przyspiesza przed rzutek",
@@ -92,7 +92,7 @@
       "explain": "„Riding the target” znaczy śledzenie go za długo, więc zwalnia, opada albo ucieka i linia się gubi."
     },
     "lead-pull-away-q3": {
-      "q": "W porównaniu ze stałym wyprzedzeniem, widziane wyprzedzenie w pull away jest zwykle…",
+      "q": "W porównaniu ze stałym wyprzedzeniem, {{term:perceived-lead|widziane wyprzedzenie}} w pull away jest zwykle…",
       "options": {
         "a": "mniejsze, bo przyspieszenie dodaje wyprzedzenia",
         "b": "większe, bo broń startuje na rzutku",

@@ -50,23 +50,23 @@
     "origin": null
   },
   "title": "Treinar com um treinador que fala outra língua",
-  "summary": "Como atiradores, treinadores e organizadores preparam uma sessão com um treinador de outro país, com ou sem intérprete, e o que muda numa competição.",
+  "summary": "Como atiradores, treinadores e organizadores preparam uma sessão com um {{term:coach|treinador}} de outro país, com ou sem intérprete, e o que muda numa competição.",
   "body": {
     "stand-talk-foreign-coach-p1": "Muitos atiradores treinam com um {{term:coach|treinador}} de outro país, em casa ou numa viagem. Funciona bem quando todos se preparam um pouco: o treinador, o atirador e, se houver, o {{term:interpreter|intérprete}}. Muitos mal-entendidos vêm de palavras que ninguém combinou antecipadamente.",
-    "stand-talk-foreign-coach-safety": "A {{term:safety|segurança}} vem primeiro. Certifique-se de que cada atirador entendeu as instruções de segurança antes de alguém carregar a arma. Se alguém não tiver a certeza, peça para traduzir ou mostrar tudo outra vez.",
+    "stand-talk-foreign-coach-safety": "primeiro que tudo. Certifique-se de que cada atirador entendeu as instruções de segurança antes de alguém carregar a arma. Se alguém não tiver a certeza, peça para traduzir ou mostrar tudo outra vez.",
     "stand-talk-foreign-coach-h1": "Com um intérprete",
     "stand-talk-foreign-coach-steps": [
-      "Antes da sessão, combine os termos-chave: as palavras do treinador para o avanço e os falhanços, e para o {{term:pick-up-point|ponto de visão}}, o {{term:hold-point|ponto de espera da arma}} e o {{term:break-point|ponto de tiro}}.",
+      "Antes da sessão, combine os termos-chave: as palavras do treinador para o {{term:lead|avanço}} e os falhanços, e para o {{term:pick-up-point|ponto de visão}}, o {{term:hold-point|ponto de espera da arma}} e o {{term:break-point|ponto de tiro}}.",
       "Combine os {{term:hand-signal|sinais de mão}} do treinador e um sinal de pausa, como a palma levantada.",
       "O treinador fala em frases curtas e espera pela tradução.",
       "Fale apenas quando a arma estiver aberta, não durante a rotina do atirador.",
       "Depois de uma explicação, verifique se foi entendida: peça ao atirador para mostrar, não só para dizer «sim»."
     ],
-    "stand-talk-foreign-coach-p2": "No posto, as indicações curtas costumam ser sussurradas por detrás ({{term:chuchotage|chuchotage}}). Antes e depois da sessão, a explicação costuma resultar bem quando o treinador diz uma ou duas frases, faz uma pausa, e o intérprete traduz ({{term:consecutive-interpreting|interpretação consecutiva}}). Mais para intérpretes: {{lesson:interpreter-position}}.",
+    "stand-talk-foreign-coach-p2": "No posto, as indicações curtas costumam ser sussurradas por detrás ({{term:chuchotage|chuchotage}}). Antes e depois da sessão, a explicação costuma resultar bem quando o treinador diz uma ou duas frases, faz uma pausa, e o intérprete traduz — {{term:consecutive-interpreting|interpretação consecutiva}}. Mais para intérpretes: {{lesson:interpreter-position}}.",
     "stand-talk-foreign-coach-h2": "Numa competição",
     "stand-talk-foreign-coach-p3": "Numa competição, as regras mudam tudo. Nas duas disciplinas, {{term:coaching|dar instruções}} durante a competição é proibido: o atirador recebe um {{term:yellow-card|cartão amarelo}}, e o treinador é mandado sair da zona de tiro ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). As regras não mencionam intérpretes, por isso transmitir um conselho pode ser tratado como dar instruções. O intérprete transmite apenas informação oficial do árbitro, do {{term:jury|júri}} e do organizador. Planeie todas as instruções para os dias de treino e os balanços.",
     "stand-talk-foreign-coach-h3": "Sem intérprete",
-    "stand-talk-foreign-coach-p4": "Sem intérprete, um pequeno vocabulário partilhado já ajuda muito. Cerca de vinte palavras-chave cobrem boa parte de uma sessão; vai encontrá-las nas frases abaixo. Aprenda-as antes da primeira lição, na língua do treinador.",
+    "stand-talk-foreign-coach-p4": "Sem intérprete, um pequeno vocabulário partilhado já ajuda muito. Cerca de vinte {{term:cue-word|palavras-chave}} cobrem boa parte de uma sessão; vai encontrá-las nas frases abaixo. Aprenda-as antes da primeira lição, na língua do treinador.",
     "stand-talk-foreign-coach-p5": "Mostre em vez de explicar. Peça ao treinador para traçar a linha com a mão, para apontar o ponto de visão e o ponto de tiro, ou para demonstrar {{term:gun-mount|como pôr a arma à cara}}. Vídeos curtos dos seus tiros ajudam os dois a ver a mesma coisa.",
     "stand-talk-foreign-coach-p6": "Depois da sessão, escreva os dois ou três pontos principais nas duas línguas, ou peça ao treinador para os enviar. Uma folha bilingue de uma página com as palavras-chave, os sinais do treinador e as vozes do árbitro ajuda também no dia seguinte.",
     "stand-talk-foreign-coach-tip1": "Para organizadores de viagens de treino: envie ao treinador e ao grupo a folha bilingue antes da viagem. Planeie um intérprete pelo menos para as instruções de segurança, mesmo que o resto da sessão decorra sem ele."
@@ -114,11 +114,11 @@
       "say": "Encare."
     },
     "stand-talk-foreign-coach-ph11": {
-      "meaning": "Mantenha a arma em movimento depois do tiro ({{term:follow-through|acompanhamento}}).",
+      "meaning": "Mantenha a arma em movimento depois do tiro — {{term:follow-through|acompanhamento}}.",
       "say": "Acompanhe."
     },
     "stand-talk-foreign-coach-ph12": {
-      "meaning": "Mantenha a cara na coronha.",
+      "meaning": "Mantenha a cara na {{term:stock|coronha}}.",
       "say": "Cara na coronha."
     },
     "stand-talk-foreign-coach-ph13": {
@@ -155,7 +155,7 @@
   },
   "quiz": {
     "stand-talk-foreign-coach-q1": {
-      "q": "Um treinador e um atirador não têm nenhuma língua em comum. O que ajuda mais na primeira sessão?",
+      "q": "Um {{term:coach|treinador}} e um atirador não têm nenhuma língua em comum. O que ajuda mais na primeira sessão?",
       "options": {
         "a": "Explicações longas, ditas devagar",
         "b": "Atirar mais pratos em silêncio",
@@ -165,7 +165,7 @@
       "explain": "Um pequeno vocabulário combinado e os sinais do treinador sustentam a maior parte de uma sessão; explicações longas e telemóveis durante a rotina estorvam."
     },
     "stand-talk-foreign-coach-q2": {
-      "q": "Numa competição, o treinador do atirador pede ao intérprete para transmitir uma dica. Qual é a prática segura?",
+      "q": "Numa competição, o {{term:coach|treinador}} do atirador pede ao intérprete para transmitir uma dica. Qual é a prática segura?",
       "options": {
         "a": "Transmitir baixinho entre pratos",
         "b": "Transmitir se o árbitro acenar com a cabeça",
@@ -175,7 +175,7 @@
       "explain": "Dar instruções durante a competição é proibido, e as regras não mencionam intérpretes. Transmitir só o que vem do árbitro, do júri e do organizador protege o atirador."
     },
     "stand-talk-foreign-coach-q3": {
-      "q": "Quando devem o treinador e o intérprete falar com o atirador no posto?",
+      "q": "Quando devem o {{term:coach|treinador}} e o intérprete falar com o atirador no posto?",
       "options": {
         "a": "Enquanto o atirador põe a arma à cara",
         "b": "Pouco antes do pedido",

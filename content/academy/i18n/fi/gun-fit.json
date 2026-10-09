@@ -39,18 +39,18 @@
   "title": "Aseen sovituksen perusteet",
   "summary": "Perän pituus, poskipakan korkeus, sivupoikkeama, perälevyn kulma ja paino: miksi aseen on sovittava ampujalle vartalosta riippumatta, ja miten sovitusta tarkistetaan {{tm:sporting}}- ja {{tm:compak}}-lajeissa.",
   "body": {
-    "gun-fit-p1": "Kiekkoammunnassa haulikkoa ei tähdätä niin kuin kivääriä, sitä suunnataan. Katsot kiekkoa, ase nousee poskelle, ja laukaus seuraa lähes heti. Kiväärissä on takatähtäin, joka suunnataan etutähtäimen kanssa samaan linjaan. Haulikossa takatähtäintä ei ole: sen tehtävän hoitaa silmäsi. Jos tukki ei aseta silmää oikeaan paikkaan piippujen yllä, hauli lentää sinne, minne ase osoittaa, ei sinne, minne katsot.",
-    "gun-fit-p2": "{{term:length-of-pull|Perän pituus}} (length of pull) on {{fact:gear.length-of-pull}}. Aikuisilla se on usein noin 36–38 cm (14¼–15 tuumaa), ja monissa valmiissa kilpailuaseissa se on noin 37,5 cm (14¾ tuumaa). Tämä on vain suuntaa antava.",
-    "women-gun-fit-p2": "Liian pitkä tukki tarttuu vaatteisiin aseen nostossa ja voi osua käsivarteen olkapään sijaan. Liian lyhyt antaa liipaisinkäden peukalon osua nenään rekyylissä. Tukkia lyhennetään, tai siihen vaihdetaan ohuempi tai paksumpi perälevy.",
-    "gun-fit-p3": "{{term:comb|Poskipakan}} korkeus (sovittajat sanovat myös ”drop”, eli miten paljon poskipakka on kiskon linjan alapuolella) määrää, kuinka korkealla silmäsi on kiskon yllä. Monet {{tm:sporting}}- ja {{tm:compak}}-ampujat pitävät siitä, että he näkevät hieman kiskoa jyvän edessä. Korkeampi poskipakka siirtää osumapistettä ylös, matalampi alas.",
+    "gun-fit-p1": "Kiekkoammunnassa haulikkoa ei tähdätä niin kuin kivääriä, sitä suunnataan. Katsot kiekkoa, ase nousee poskelle, ja laukaus seuraa lähes heti. Kiväärissä on takatähtäin, joka suunnataan etutähtäimen kanssa samaan linjaan. Haulikossa takatähtäintä ei ole: sen tehtävän hoitaa silmäsi. Jos {{term:stock|tukki}} ei aseta silmää oikeaan paikkaan piippujen yllä, hauli lentää sinne, minne ase osoittaa, ei sinne, minne katsot.",
+    "gun-fit-p2": "{{term:length-of-pull|Perän pituus}} on {{fact:gear.length-of-pull}}. Aikuisilla se on usein noin 36–38 cm (14¼–15 tuumaa), ja monissa valmiissa kilpailuaseissa se on noin 37,5 cm (14¾ tuumaa). Tämä on vain suuntaa antava.",
+    "women-gun-fit-p2": "Liian pitkä tukki tarttuu vaatteisiin {{term:gun-mount|aseen nostossa}} ja voi osua käsivarteen olkapään sijaan. Liian lyhyt antaa liipaisinkäden peukalon osua nenään rekyylissä. Tukkia lyhennetään, tai siihen vaihdetaan ohuempi tai paksumpi {{term:recoil-pad|perälevy}}.",
+    "gun-fit-p3": "{{term:comb|Poskipakan}} korkeus (sovittajat sanovat myös ”drop”, eli miten paljon poskipakka on kiskon linjan alapuolella) määrää, kuinka korkealla silmäsi on {{term:rib|kiskon}} yllä. Monet {{tm:sporting}}- ja {{tm:compak}}-ampujat pitävät siitä, että he näkevät hieman kiskoa jyvän edessä. Korkeampi poskipakka siirtää osumapistettä ylös, matalampi alas.",
     "women-gun-fit-p3": "Kasvot ja kaulat ovat hyvin erilaisia, niin yhdelle ampujalle sopiva poskipakan korkeus ei välttämättä sovi toiselle. Siksi monissa kilpailuaseissa on {{term:adjustable-comb|säädettävä poskipakka}}, jota nostetaan tai lasketaan tekemättä tukkia uudelleen.",
-    "gun-fit-p4": "{{term:cast|Sivupoikkeama}} (cast) on tukin lievä sivuttainen taipuma, jotta silmä asettuu täsmälleen kiskon yläpuolelle. Oikeakätiselle ampujalle tukki taipuu oikealle (cast off), vasenkätiselle vasemmalle (cast on). Kyse on muutamasta millimetristä, mutta sen puuttuessa ase voi toistuvasti osua sivuun.",
+    "gun-fit-p4": "{{term:cast|Sivupoikkeama}} on tukin lievä sivuttainen taipuma, jotta silmä asettuu täsmälleen kiskon yläpuolelle. Oikeakätiselle ampujalle tukki taipuu oikealle (cast off), vasenkätiselle vasemmalle (cast on). Kyse on muutamasta millimetristä, mutta sen puuttuessa ase voi toistuvasti osua sivuun.",
     "women-gun-fit-p1": "Valmistukit tehdään keskimääräisten mittojen mukaan, ja moni ampuja ei ole keskimääräinen. Ihmiset, joilla on lyhyemmät kädet, pidempi kaula tai erilainen rintakehän muoto, joutuvat usein kurkottamaan kahvaa kohti ja taivuttamaan kaulaa poskipakalle. He tuntevat myös enemmän rekyyliä. Syy on usein aseen mitoissa, ei ampujan voimassa.",
-    "women-gun-fit-p4": "Perälevyn kulma (pitch) on se kulma, jossa tukin pää (perä) on leikattu suhteessa piippuihin. Se määrää, lepääkö koko perä tasaisesti olkapäällä vai vain sen ylä- tai alakulma. Jos alakulma (toe) painuu rintaan, se on kipeää; sovittaja voi muuttaa kulmaa tai kääntää alakulman hieman ulospäin.",
+    "women-gun-fit-p4": "{{term:pitch|Perälevyn kulma}} on se kulma, jossa tukin pää (perä) on leikattu suhteessa piippuihin. Se määrää, lepääkö koko perä tasaisesti olkapäällä vai vain sen ylä- tai alakulma. Jos alakulma (toe) painuu rintaan, se on kipeää; sovittaja voi muuttaa kulmaa tai kääntää alakulman hieman ulospäin.",
     "women-gun-fit-p5": "{{term:grip|Pistoolikahvan}} ja {{term:fore-end|etutukin}} on sovittava käteen. Liian paksua kahvaa on vaikea pitää pienellä kädellä, ja sormi ei asetu kunnolla liipaisimelle.",
-    "women-gun-fit-p6": "Paino on kompromissi. Kevyt ase väsyttää käsivarsia vähemmän, mutta potkii voimakkaammin olkapäähän; raskaampi liikkuu vakaammin ja rekyyli on pehmeämpi, mutta väsyttää pitkän päivän aikana. Säännöt sallivat aseet, joissa {{fact:gear.fitasc-max-gauge}}, niin 20 kaliiperi käy; toinen vaihtoehto on kevyempi 12 kaliiperi kevyemmillä patruunoilla.",
+    "women-gun-fit-p6": "Paino on kompromissi. Kevyt ase väsyttää käsivarsia vähemmän, mutta potkii voimakkaammin olkapäähän; raskaampi liikkuu vakaammin ja {{term:recoil|rekyyli}} on pehmeämpi, mutta väsyttää pitkän päivän aikana. Säännöt sallivat aseet, joissa {{fact:gear.fitasc-max-gauge}}, niin 20 {{term:gauge|kaliiperi}} käy; toinen vaihtoehto on kevyempi 12 kaliiperi kevyemmillä patruunoilla.",
     "gun-fit-p5": "Sovitus riippuu myös {{term:master-eye|hallitsevasta silmästäsi}}. Jos se on vastakkaisella puolella kuin olkapää, jolta ammut, valmentajasi ehdottaa, mitä tehdä. Miten se tarkistetaan: {{lesson:technique-master-eye}}.",
-    "gun-fit-p6": "Sovituksen tekee valmentaja tai {{term:gun-fitter|aseen sovittaja}} (gun fitter). Usein ammutaan {{term:pattern-plate|koeammuntalevyyn}} {{fact:gear.fit-plate-distance}} etäisyydeltä ja katsotaan, osuuko osuma-alueen keskikohta siihen, mihin katsoit. Jotkin sovittajat käyttävät koeasetta (try gun), jonka tukki on täysin säädettävä.",
+    "gun-fit-p6": "Sovituksen tekee {{term:coach|valmentaja}} tai {{term:gun-fitter|aseen sovittaja}}. Usein ammutaan {{term:pattern-plate|koeammuntalevyyn}} {{fact:gear.fit-plate-distance}} etäisyydeltä ja katsotaan, osuuko osuma-alueen keskikohta siihen, mihin katsoit. Jotkin sovittajat käyttävät koeasetta (try gun), jonka tukki on täysin säädettävä.",
     "gun-fit-p7": "Sovitus muuttuu sinun mukana. Kokemuksen myötä asento ja nosto vakiintuvat, ja paksu talvivaatetus tekee tukista käytännössä pidemmän. Niin älä osta ensimmäistä asetta silmämäärin äläkä muuta kaikkea itse internetin vinkeillä: ammu useilla aseilla ja säädä sitten asteittain asiantuntijan kanssa."
   },
   "note": {},
@@ -65,7 +65,7 @@
   "did_you_know": "Koeaseen tukki on saranoilla ja liu'uilla, niin sovittaja voi muuttaa sen pituutta, korkeutta ja sivupoikkeamaa suoraan radalla, laukausten välissä.",
   "quiz": {
     "gun-fit-q1": {
-      "q": "Mikä on perän pituus (length of pull)?",
+      "q": "Mikä on {{term:length-of-pull|perän pituus}}?",
       "options": {
         "a": "Piippujen pituus patruunapesästä piipun suuhun",
         "b": "Etäisyys liipaisimesta perälevyn keskikohtaan",
@@ -85,7 +85,7 @@
       "explain": "Oikeakätisille se on cast off, oikealle; vasenkätisille cast on, vasemmalle."
     },
     "gun-fit-q3": {
-      "q": "Miksi aseen sovitus on tärkeä?",
+      "q": "Miksi {{term:gun-fit|aseen sovitus}} on tärkeä?",
       "options": {
         "a": "Silmä on tähtäin, niin tukin on asetettava se oikein",
         "b": "FITASCin säännöt vaativat sovitustodistuksen",
@@ -98,9 +98,9 @@
       "q": "Tukki tarttuu vaatteisiin ja osuu käsivarteen noston aikana. Mitä tavallisesti muutetaan?",
       "options": {
         "a": "Perän pituutta: tukkea lyhennetään",
-        "b": "Supistajia molemmissa piipuissa",
+        "b": "{{term:choke|Supistajia}} molemmissa piipuissa",
         "c": "Lasien linssien sävyä",
-        "d": "Käytettyjen patruunoiden haulilatausta"
+        "d": "Käytettyjen patruunoiden {{term:load-weight|haulilatausta}}"
       },
       "explain": "Liian pitkä perän pituus on yleinen ongelma; tukkea lyhennetään tai vaihdetaan ohuempi perälevy."
     },

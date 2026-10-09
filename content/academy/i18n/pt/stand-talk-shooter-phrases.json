@@ -46,9 +46,9 @@
     "origin": null
   },
   "title": "Frases de que o atirador precisa no posto",
-  "summary": "Frases curtas em inglês para o treinador, o árbitro e a sua esquadra: o que dizer e quando, e onde termina uma pergunta educada e começa a pressão sobre o árbitro.",
+  "summary": "Frases curtas em inglês para o {{term:coach|treinador}}, o {{term:referee|árbitro}} e a sua {{term:squad|esquadra}}: o que dizer e quando, e onde termina uma pergunta educada e começa a pressão sobre o árbitro.",
   "body": {
-    "stand-talk-shooter-phrases-p1": "No posto, sobretudo escuta-se. Ainda assim, algumas frases curtas ajudam muito: para dizer ao treinador o que viu, para lidar corretamente com o árbitro e para ser educado com a sua esquadra. O que diz o árbitro está em {{lesson:referee-calls}}.",
+    "stand-talk-shooter-phrases-p1": "No posto, sobretudo escuta-se. Ainda assim, algumas frases curtas ajudam muito: para dizer ao {{term:coach|treinador}} o que viu, para lidar corretamente com o {{term:referee|árbitro}} e para ser educado com a sua {{term:squad|esquadra}}. O que diz o árbitro está em {{lesson:referee-calls}}.",
     "stand-talk-shooter-phrases-h1": "Com o treinador",
     "stand-talk-shooter-phrases-p2": "Depois de um falhanço, o {{term:coach|treinador}} precisa da sua imagem (o que viu no momento do tiro). Diga onde viu o prato e para onde pensa que foi o tiro: «I saw it late», «I think I was behind», «I lost it in the trees». Se não tiver a certeza, diga-o. «I don't know» também é informação útil.",
     "stand-talk-shooter-phrases-p3": "Peça o que precisar. No treino pode pedir para ver o prato outra vez, para ir um pouco mais devagar, ou para o treinador mostrar a linha com as mãos. Peça com a arma aberta, não durante a sua rotina.",
@@ -58,8 +58,8 @@
       "sporting": "Levante a mão de imediato, no posto, e diga «Protest!» ou «Appeal!». Depois de pedir o prato seguinte, as regras consideram isso como aceitação da decisão, por isso proteste antes de pedir de novo.",
       "compak": "Levante o braço de imediato, antes de o próximo atirador pedir o prato, e diga «Protest!» ou «Appeal!». Depois dê o seu motivo."
     },
-    "stand-talk-shooter-phrases-p5": "Depois de um {{term:protest|protesto}}, diga em poucas palavras porquê: «I saw a piece come off» (um {{term:visible-piece|pedaço visível}} conta como acerto) ou «It came late». Depois aceite a resposta. Se o árbitro tiver a certeza, a decisão mantém-se e é final. O procedimento completo, incluindo o {{term:appeal|recurso}} ao júri, está em {{lesson:competitions-results-and-protests}}.",
-    "stand-talk-shooter-phrases-p6": "Perguntas calmas e curtas são normais: «Was that a No Bird?» ou «Can I see it again?». No {{tm:sporting}} o atirador no posto pode pedir para ver os pratos outra vez (uma {{term:target-presentation|mostra de pratos}}). O árbitro pode repetir cada prato do menu do posto, a sua lista de pratos, {{fact:stand-talk.sporting-reshow-limit}}. No {{tm:compak}} atirado by squad, há apenas uma mostra por dia: de manhã, para a primeira esquadra. Depois de uma interrupção de {{fact:rules.reshow-after-interruption}}, os seis simples são mostrados de novo. No {{tm:compak}} {{term:compak-in-line|in line}}, o primeiro atirador pode ver os simples antes do início, e o árbitro mostra o primeiro prato de um double antes de ser atirado. Detalhes: {{lesson:rules-viewing-targets}}.",
+    "stand-talk-shooter-phrases-p5": "Depois de um {{term:protest|protesto}}, diga em poucas palavras porquê: «I saw a piece come off» — um {{term:visible-piece|pedaço visível}} conta como acerto — ou «It came late». Depois aceite a resposta. Se o árbitro tiver a certeza, a decisão mantém-se e é final. O procedimento completo, incluindo o {{term:appeal|recurso}} ao júri, está em {{lesson:competitions-results-and-protests}}.",
+    "stand-talk-shooter-phrases-p6": "Perguntas calmas e curtas são normais: «Was that a No Bird?» ou «Can I see it again?». No {{tm:sporting}} o atirador no posto pode pedir para ver os pratos outra vez — uma {{term:target-presentation|mostra de pratos}}. O árbitro pode repetir cada prato do menu do posto, a sua lista de pratos, {{fact:stand-talk.sporting-reshow-limit}}. No {{tm:compak}} atirado by squad, há apenas uma mostra por dia: de manhã, para a primeira esquadra. Depois de uma interrupção de {{fact:rules.reshow-after-interruption}}, os seis simples são mostrados de novo. No {{tm:compak}} {{term:compak-in-line|in line}}, o primeiro atirador pode ver os simples antes do início, e o árbitro mostra o primeiro prato de um double antes de ser atirado. Detalhes: {{lesson:rules-viewing-targets}}.",
     "stand-talk-shooter-phrases-h3": "Com a esquadra e o pulleur",
     "stand-talk-shooter-phrases-p7": "A conversa na {{term:squad|esquadra}} é curta e simpática. Saúde o árbitro e a esquadra no início. Diga «Well shot» depois de um bom posto e «Bad luck» depois de um falhanço. No final, agradeça ao {{term:trapper|pulleur}} e ao árbitro. Enquanto alguém atira, mantenha-se em silêncio. Mais costumes: {{lesson:culture-sportsmanship-referee}}.",
     "stand-talk-shooter-phrases-h4": "Onde começa a pressão",
@@ -87,7 +87,7 @@
       "say": "Posso ver esse outra vez, por favor?"
     },
     "stand-talk-shooter-phrases-ph5": {
-      "meaning": "Peça ao treinador para mostrar o avanço ou a linha com um gesto; útil quando as palavras são difíceis.",
+      "meaning": "Peça ao treinador para mostrar o {{term:lead|avanço}} ou a linha com um gesto; útil quando as palavras são difíceis.",
       "say": "Pode mostrar-me com as mãos?"
     },
     "stand-talk-shooter-phrases-ph6": {
@@ -120,7 +120,7 @@
   },
   "quiz": {
     "stand-talk-shooter-phrases-q1": {
-      "q": "No {{tm:sporting}} pensa que o árbitro marcou o seu acerto como zero. Quando deve protestar?",
+      "q": "No {{tm:sporting}} pensa que o {{term:referee|árbitro}} marcou o seu acerto como zero. Quando deve protestar?",
       "options": {
         "a": "No final da série, junto ao cartão",
         "b": "De imediato, antes de pedir o prato seguinte",
@@ -130,7 +130,7 @@
       "explain": "Proteste de imediato, no posto, com a mão levantada. Pedir o prato seguinte conta como aceitar a última decisão."
     },
     "stand-talk-shooter-phrases-q2": {
-      "q": "Qual destas conta como uma tentativa de influenciar o árbitro?",
+      "q": "Qual destas conta como uma tentativa de influenciar o {{term:referee|árbitro}}?",
       "options": {
         "a": "Perguntar com calma: «Was that a No Bird?»",
         "b": "Levantar a mão e dizer «Protest!»",
@@ -140,7 +140,7 @@
       "explain": "Um protesto imediato é seu direito, e perguntas calmas não há problema. Questionar uma decisão final depois de o tiro ser retomado conta como tentativa de influenciar."
     },
     "stand-talk-shooter-phrases-q3": {
-      "q": "Depois de um falhanço no treino, o treinador pergunta «What did you see?». O que mais o ajuda?",
+      "q": "Depois de um falhanço no treino, o {{term:coach|treinador}} pergunta «What did you see?». O que mais o ajuda?",
       "options": {
         "a": "A sua imagem honesta, mesmo que não tenha certeza",
         "b": "Um rápido «desculpe, foi culpa minha»",
@@ -150,7 +150,7 @@
       "explain": "O treinador procura a causa do falhanço, e a sua imagem é a principal pista. «I don't know» também é uma resposta útil."
     },
     "stand-talk-shooter-phrases-q4": {
-      "q": "No {{tm:compak}}, até quando pode protestar contra uma decisão do árbitro?",
+      "q": "No {{tm:compak}}, até quando pode protestar contra uma decisão do {{term:referee|árbitro}}?",
       "options": {
         "a": "Até ao final da série",
         "b": "Até assinar a folha de marcação",

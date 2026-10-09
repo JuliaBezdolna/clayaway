@@ -39,8 +39,8 @@
   "title": "Stance: como colocar os pés no posto de tiro",
   "summary": "Pés, peso, joelhos e rotação do corpo: uma stance simples e compacta que permite acompanhar o prato com a arma sem esforço.",
   "body": {
-    "basics-stance-p1": "A stance é a forma como o atirador se coloca antes do tiro. O espaço é pequeno: no {{tm:sporting}} o posto é um quadrado ou um círculo de 1 m, e os dois pés têm de estar dentro dele antes do pedido do prato. No {{tm:compak}} cada posto é um quadrado de 1 m com um {{term:firing-angle-limiter|limitador do ângulo de tiro}}, uma estrutura que impede o atirador de avançar e limita o movimento da arma.",
-    "basics-stance-p3": "A instrução-chave: aponte o pé da frente para o {{term:break-point|ponto de tiro}}, o sítio onde planeia partir o prato. Assim, o corpo fica relaxado e virado na direção certa no momento do disparo. Antes de pedir o prato, rode a parte de cima do corpo a partir da anca para trás, até ao {{term:hold-point|ponto de espera da arma}}, o sítio onde os canos esperam o prato. Quando o prato sai, basta rodar de volta pelo mesmo caminho, como uma mola a desenrolar-se. Se, em vez disso, os pés apontarem para a máquina, avisam os treinadores, o corpo não consegue rodar o suficiente para chegar ao ponto de tiro, e a arma para ou a cabeça levanta-se.",
+    "basics-stance-p1": "A stance é a forma como o atirador se coloca antes do tiro. O espaço é pequeno: no {{tm:sporting}} o {{term:shooting-stand|posto}} é um quadrado ou um círculo de 1 m, e os dois pés têm de estar dentro dele antes do pedido do prato. No {{tm:compak}} cada posto é um quadrado de 1 m com um {{term:firing-angle-limiter|limitador do ângulo de tiro}}, uma estrutura que impede o atirador de avançar e limita o movimento da arma.",
+    "basics-stance-p3": "A instrução-chave: aponte o pé da frente para o {{term:break-point|ponto de tiro}}, o sítio onde planeia partir o prato. Assim, o corpo fica relaxado e virado na direção certa no momento do disparo. Antes de pedir o prato, rode a parte de cima do corpo a partir da anca para trás, até ao {{term:hold-point|ponto de espera da arma}}, o sítio onde os canos esperam o prato. Quando o prato sai, basta rodar de volta pelo mesmo caminho, como uma mola a desenrolar-se. Se, em vez disso, os pés apontarem para a {{term:trap|máquina}}, avisam os treinadores, o corpo não consegue rodar o suficiente para chegar ao ponto de tiro, e a arma para ou a cabeça levanta-se.",
     "basics-stance-p2": "A base habitual: pés à largura dos ombros, mais ou menos, e, num destro, o pé esquerdo ligeiramente à frente (um canhoto faz o espelho disto). Os joelhos ficam soltos, não bloqueados. O peso fica ligeiramente para a frente, cerca de 60 por cento no pé da frente. Os treinadores dizem «nose over toes» (o nariz por cima dos dedos dos pés).",
     "basics-stance-p4": "O corpo roda a partir da anca, não dos braços. Os pés podem ficar colocados de forma ligeiramente diferente para cada prato.",
     "technique-stance-balance": "Uma boa stance mantém-no equilibrado enquanto o corpo roda com o prato. Inclinar-se ligeiramente para a frente também ajuda a absorver o {{term:recoil|recuo}} em vez de ser empurrado para trás; veja {{lesson:health-recoil-shoulder-neck}}.",
@@ -91,12 +91,12 @@
     "basics-stance-q2": {
       "q": "O que exigem as regras do {{tm:sporting}} quanto aos pés antes do pedido?",
       "options": {
-        "a": "Os dois pés dentro do posto",
-        "b": "O pé da frente sobre a linha do posto",
+        "a": "Os dois pés dentro do {{term:shooting-stand|posto}}",
+        "b": "O pé da frente sobre a linha do {{term:shooting-stand|posto}}",
         "c": "Pés juntos",
         "d": "Nenhuma exigência"
       },
-      "explain": "A regra da posição de partida exige os dois pés dentro do posto de tiro de 1 m antes de o atirador pedir o prato."
+      "explain": "A regra da {{term:ready-position|posição de partida}} exige os dois pés dentro do posto de tiro de 1 m antes de o atirador pedir o prato."
     },
     "basics-stance-q3": {
       "q": "Um atirador canhoto. O treinador diz «Open your front foot». Que pé é?",
@@ -129,8 +129,8 @@
     "technique-stance-q3": {
       "q": "Onde têm de estar os pés do atirador no {{tm:sporting}} antes do pedido?",
       "options": {
-        "a": "Em qualquer sítio perto do posto",
-        "b": "Os dois dentro do posto de tiro",
+        "a": "Em qualquer sítio perto do {{term:shooting-stand|posto}}",
+        "b": "Os dois dentro do {{term:shooting-stand|posto de tiro}}",
         "c": "Um pé dentro, um fora"
       },
       "explain": "As regras do {{tm:sporting}} exigem os dois pés dentro do posto de tiro antes do pedido."

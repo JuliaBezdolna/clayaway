@@ -33,13 +33,13 @@
   "origin": null
  },
  "title": "Kaliber und Lauflänge",
- "summary": "Was 12er und 20er Kaliber bedeuten, welche Patronenlager- und Lauflängen Schützen wählen, und was die Regeln von {{tm:sporting}} und {{tm:compak}} erlauben.",
+ "summary": "Was 12er und 20er {{term:gauge|Kaliber}} bedeuten, welche {{term:chamber|Patronenlager}}- und Lauflängen Schützen wählen, und was die Regeln von {{tm:sporting}} und {{tm:compak}} erlauben.",
  "body": {
   "gear-cartridges-p2": "Das {{term:gauge|Kaliber}} wird nach der alten Methode gezählt: je kleiner die Zahl, desto weiter die Bohrung, also ist das 12er-Kaliber weiter als das 20er. Die FITASC erlaubt Flinten bis höchstens 12er-Kaliber, und die meisten Schützen verwenden 12er.",
   "gun-gauge-and-barrels-p1": "Die Zahl stammt aus einem alten Maß: wie viele Bleikugeln von der Breite der Bohrung zusammen ein englisches Pfund (etwa 454 g) wiegen. Eine 12er-Bohrung misst etwa 18,4–18,5 mm im Durchmesser, eine 20er-Bohrung etwa 15,6 mm.",
   "gun-gauge-and-barrels-p2": "Kleinere Kaliber wie 20 oder 28 sind bei {{tm:sporting}} und {{tm:compak}} erlaubt. Die Schrotgrenze ist für alle Flinten gleich: {{fact:gear.fitasc-shot-load}}. Eine 12er trägt diese volle Ladung leicht und ergibt eine dichte Deckung.",
-  "gun-gauge-and-barrels-p3": "Eine 20er ist leichter und passt oft zu Junioren und kleineren Schützen; Jugendmodelle sind oft 20er. Sie nimmt meist leichtere Patronen, etwa mit 21–24 g. Eine leichte Flinte stößt aber stärker in die Schulter, sodass sich eine 20er nicht unbedingt sanfter anfühlt als eine schwere 12er.",
-  "gun-gauge-and-barrels-p4": "Die Länge des {{term:chamber|Patronenlagers}} steht auf dem Lauf, meist 70 mm (2¾ Zoll) oder 76 mm (3 Zoll); viele moderne Wettkampfflinten haben 76-mm-Patronenlager. Wurfscheibenpatronen sind meist 65–70 mm lang. Die Länge auf der Schachtel ist die Länge der Hülse nach dem Schuss, wenn sich ihr gefalteter oberer Teil (die {{term:crimp|Bördelung}}) geöffnet hat. Eine ungeschossene Patrone wirkt kürzer als diese Angabe, verlassen Sie sich also nicht auf den Augenschein: Vergleichen Sie die Angabe auf der Schachtel mit der Markierung auf dem Lauf. Eine kürzere Patrone in einem längeren Patronenlager ist unbedenklich.",
+  "gun-gauge-and-barrels-p3": "Eine 20er ist leichter und passt oft zu Junioren und kleineren Schützen; Jugendmodelle sind oft 20er. Sie nimmt meist leichtere {{term:cartridge|Patronen|pl}}, etwa mit 21–24 g. Eine leichte {{term:shotgun|Flinte}} stößt aber stärker in die Schulter, sodass sich eine 20er nicht unbedingt sanfter anfühlt als eine schwere 12er.",
+  "gun-gauge-and-barrels-p4": "Die Länge des {{term:chamber|Patronenlagers}} steht auf dem Lauf, meist 70 mm (2¾ Zoll) oder 76 mm (3 Zoll); viele moderne Wettkampfflinten haben 76-mm-Patronenlager. Wurfscheibenpatronen sind meist 65–70 mm lang. Die Länge auf der Schachtel ist die Länge der {{term:hull|Hülse}} nach dem Schuss, wenn sich ihr gefalteter oberer Teil – die {{term:crimp|Bördelung}} – geöffnet hat. Eine ungeschossene Patrone wirkt kürzer als diese Angabe, verlassen Sie sich also nicht auf den Augenschein: Vergleichen Sie die Angabe auf der Schachtel mit der Markierung auf dem Lauf. Eine kürzere Patrone in einem längeren Patronenlager ist unbedenklich.",
   "gun-gauge-and-barrels-p5": "Verschießen Sie niemals Patronen, die länger sind als die Markierung des Patronenlagers. Prüfen Sie jedes Mal, dass das Kaliber auf der Patrone mit dem Kaliber der Flinte übereinstimmt.",
   "gun-gauge-and-barrels-p6": "Nach den FITASC-Regeln müssen {{term:barrel-length|Läufe}} {{fact:gear.fitasc-min-barrel}} sein. In der Praxis haben Wettkampf-Bockflinten 28-Zoll- (71 cm), 30-Zoll- (76 cm) oder 32-Zoll-Läufe (81 cm). Bei {{tm:sporting}} wählen viele Schützen 30 oder 32 Zoll.",
   "gun-gauge-and-barrels-p7": "Längere Läufe geben dem Auge eine längere Linie und eine ruhigere, gleichmäßigere Schwungbewegung, brauchen aber etwas mehr Kraft, um in Bewegung zu kommen. Kürzere sind leichter und schneller, lassen sich aber leichter ruckartig bewegen. Die Lauflänge ändert die Kraft des Schusses nur wenig; sie ändert vor allem, wie sich die Flinte in Ihren Händen bewegt.",
@@ -56,10 +56,10 @@
   "gun-gauge-and-barrels-kp4": "Verschießen Sie keine Patronen, die länger sind als das Patronenlager, und prüfen Sie, dass das Kaliber passt.",
   "gun-gauge-and-barrels-kp5": "Viele {{tm:sporting}}-Schützen verwenden 30- oder 32-Zoll-Läufe."
  },
- "did_you_know": "„12er Kaliber“ bedeutet, dass 12 Bleikugeln von der Breite der Bohrung zusammen ein Pfund wiegen. Jede Kugel würde etwa 38 g wiegen, mehr als die gesamte in einer FITASC-Patrone erlaubte Schrotladung.",
+ "did_you_know": "„12er Kaliber“ bedeutet, dass 12 Bleikugeln von der Breite der Bohrung zusammen ein Pfund wiegen. Jede Kugel würde etwa 38 g wiegen, mehr als die gesamte in einer FITASC-Patrone erlaubte {{term:load-weight|Schrotladung}}.",
  "quiz": {
   "gun-gauge-and-barrels-q1": {
-   "q": "Welche Bohrung ist bei den FITASC-Regeln die weiteste (das größte Kaliber)?",
+   "q": "Welche Bohrung ist bei den FITASC-Regeln die weiteste – das größte {{term:gauge|Kaliber}}?",
    "options": {
     "a": "10er Kaliber",
     "b": "12er Kaliber",
@@ -86,20 +86,20 @@
     "c": "Sie sind gleich",
     "d": "Das hängt vom Hersteller ab"
    },
-   "explain": "Je kleiner die Kaliberzahl, desto weiter die Bohrung: 12er-Kaliber ist etwa 18,4–18,5 mm, 20er-Kaliber etwa 15,6 mm."
+   "explain": "Je kleiner die Kaliberzahl, desto weiter die Bohrung: {{term:gauge|Kaliber}} 12 ist etwa 18,4–18,5 mm, Kaliber 20 etwa 15,6 mm."
   },
   "gear-cartridges-q3": {
-   "q": "Ein Kunde sagt, seine Flinte sei „12 gauge“. Was bedeutet das?",
+   "q": "Ein Kunde sagt, seine {{term:shotgun|Flinte}} sei „12 gauge“. Was bedeutet das?",
    "options": {
     "a": "Die Bohrungsgröße: weiter als 20er-Kaliber",
     "b": "Die Bohrung ist 12 Millimeter weit",
     "c": "Zwölf Patronen passen ins Magazin",
     "d": "Die Läufe sind 12 Zoll lang"
    },
-   "explain": "Kaliber ist eine alte Einheit: je kleiner die Zahl, desto weiter die Bohrung. Es handelt sich nicht um Millimeter."
+   "explain": "{{term:gauge|Kaliber}} ist eine alte Einheit: je kleiner die Zahl, desto weiter die Bohrung. Es handelt sich nicht um Millimeter."
   },
   "gun-gauge-and-barrels-q4": {
-   "q": "Ihre Flinte hat 70-mm-Patronenlager. Welche Patronen dürfen Sie darin nicht verschießen?",
+   "q": "Ihre {{term:shotgun|Flinte}} hat {{term:chamber|Patronenlager}} von 70 mm. Welche {{term:cartridge|Patronen|pl}} dürfen Sie darin nicht verschießen?",
    "options": {
     "a": "65-mm-Patronen desselben Kalibers",
     "b": "70-mm-Patronen desselben Kalibers",

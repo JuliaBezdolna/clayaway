@@ -38,13 +38,13 @@
   "title": "Co to jest czok",
   "summary": "Czok to zwężenie lufy przy wylocie, które utrzymuje śrut razem. Decyduje ono, jak szeroki jest rozrzut na odległości rzutka, a przepisy {{tm:sporting}} i {{tm:compak}} mówią, kiedy można go zmienić.",
   "body": {
-    "chokes-what-is-a-choke-p1": "Gdy strzelba strzela, z wylotu lufy wylatuje nie jeden pocisk, a chmura kilkuset śrucin. W locie chmura ta stopniowo się rozszerza. Śladu, który ta chmura zostawia na rzutku albo na stalowej płycie, nazywa się {{term:pattern|rozrzutem śrutu}}.",
+    "chokes-what-is-a-choke-p1": "Gdy strzelba strzela, z {{term:muzzle|wylotu lufy}} wylatuje nie jeden pocisk, a chmura kilkuset śrucin. W locie chmura ta stopniowo się rozszerza. Śladu, który ta chmura zostawia na rzutku albo na stalowej płycie, nazywa się {{term:pattern|rozrzutem śrutu}}.",
     "gear-chokes-p1": "{{term:choke|Czok}} to niewielkie zwężenie lufy przy wylocie. Decyduje o tym, jak szybko rozchodzi się śrut. Węższy czok dłużej utrzymuje śrut razem i daje gęstszy rozrzut na dalekie rzutki. Bardziej otwarty czok pozwala śrutowi rozejść się wcześniej i daje szerszy, bardziej wybaczający rozrzut na bliskie rzutki.",
-    "chokes-what-is-a-choke-p2": "To, jak bardzo czok zwęża lufę, nazywa się {{term:constriction|zwężeniem}}. Na przykład: wnętrze lufy ma 18,5 mm, a czok ściska je do 18,0 mm, więc zwężenie to 0,5 mm. Podaje się je w milimetrach albo w tysięcznych cala („thou”, zwanych też „points”). Lufę bez żadnego zwężenia nazywa się {{term:cylinder|walcem}} (cylinder).",
+    "chokes-what-is-a-choke-p2": "To, jak bardzo czok zwęża lufę, nazywa się {{term:constriction|zwężeniem}}. Na przykład: wnętrze lufy ma 18,5 mm, a czok ściska je do 18,0 mm, więc zwężenie to 0,5 mm. Podaje się je w milimetrach albo w tysięcznych cala („thou”, zwanych też „points”). Lufę bez żadnego zwężenia nazywa się {{term:cylinder|walcem}}.",
     "chokes-what-is-a-choke-p4": "Szeroki rozrzut wybacza drobne błędy naprowadzania na bliskich rzutkach. Na dużej odległości jednak rozprasza się i zostawia dziury, przez które rzutek może przelecieć nierozbity. Wąski rozrzut dłużej zostaje gęsty, ale wymaga precyzyjniejszego naprowadzania, więc nie ma jednego właściwego czoka — jest czok odpowiadający odległości.",
-    "gear-chokes-p2": "Większość broni do zawodów ma czoki wymienne (multichoke): krótkie tulejki wkręcane w wylot lufy kluczem do czoków. Starsza broń może mieć czoki stałe, wykonane w lufie. Tulejki różnych producentów często do siebie nie pasują, a producenci odradzają strzelanie z broni z czokami wymiennymi bez wkręconych tulejek.",
+    "gear-chokes-p2": "Większość broni do zawodów ma {{term:multichoke|czoki wymienne}}: krótkie tulejki wkręcane w wylot lufy {{term:choke-key|kluczem do czoków}}. Starsza broń może mieć {{term:fixed-choke|czoki stałe}}, wykonane w lufie. Tulejki różnych producentów często do siebie nie pasują, a producenci odradzają strzelanie z broni z czokami wymiennymi bez wkręconych tulejek.",
     "chokes-what-is-a-choke-p6": "W {{tm:sporting}} i {{tm:compak}} rzutki lecą na wielu różnych odległościach, więc wybór czoków jest częścią twojego planu. W {{term:over-and-under|boku}} każda lufa może mieć własny czok: na przykład bardziej otwarty na pierwszy, bliższy strzał i węższy na drugi.",
-    "gear-chokes-p4": "Trenerzy mówią na przykład „quarter and half” (ćwierć i pół), „open up the bottom barrel” (otwórz dolną lufę), „go tighter in the top” (zwęź w górnej) albo „change chokes for this stand” (zmień czoki na to stanowisko). Nazwy od cylindra do full, frakcje i oznaczenia: {{lesson:chokes-names-and-marks}}.",
+    "gear-chokes-p4": "Trenerzy mówią na przykład „quarter and half” (ćwierć i pół), „open up the bottom barrel” (otwórz dolną lufę), „go tighter in the top” (zwęź w górnej) albo „change chokes for this stand” (zmień czoki na to stanowisko). Nazwy od cylindra do full, ułamki i oznaczenia: {{lesson:chokes-names-and-marks}}.",
     "gear-chokes-p5": "Przepisy różnią się między dyscyplinami. W {{tm:sporting}} czoki można zmieniać między stanowiskami albo między rzutkami pojedynczymi a dubletami, jeśli nie powoduje to opóźnienia. Po wejściu strzelca na stanowisko zmiana jest już niemożliwa. W {{tm:compak}} broni, luf i czoków nie można zmieniać w ogóle w trakcie serii, tylko między seriami, z wyjątkiem sytuacji po awarii."
   },
   "note": {
@@ -111,9 +111,9 @@
       "q": "Co to jest czok?",
       "options": {
         "a": "Zwężenie lufy przy wylocie",
-        "b": "Bezpiecznik za dźwignią zamka",
+        "b": "{{term:safety-catch|Bezpiecznik}} za dźwignią zamka",
         "c": "Typ naboju do rzutków",
-        "d": "Górna krawędź kolby, na policzek"
+        "d": "Górna krawędź {{term:stock|kolby}}, na policzek"
       },
       "explain": "Czok zwęża przewód lufy przy wylocie i utrzymuje śrut razem."
     },

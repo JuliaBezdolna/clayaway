@@ -64,14 +64,14 @@
   },
   "quiz": {
     "interpreter-role-q1": {
-      "q": "Durante uma série de competição, o treinador pede-lhe para dizer ao atirador «more lead on the crosser». O que faz?",
+      "q": "Durante uma série de competição, o {{term:coach|treinador}} pede-lhe para dizer ao atirador «more lead on the crosser». O que faz?",
       "options": {
         "a": "Sussurra-o depressa enquanto ele carrega",
         "b": "Transmite-o depois do prato seguinte",
         "c": "Recusa com delicadeza: seria treino, o que é proibido",
         "d": "Pede ao árbitro que o transmita"
       },
-      "explain": "O treino durante a competição é proibido e o atirador levaria cartão amarelo; as regras não dizem se transmitir conselhos é permitido, por isso jogue pelo seguro."
+      "explain": "O treino durante a competição é proibido e o atirador levaria {{term:yellow-card|cartão amarelo}}; as regras não dizem se transmitir conselhos é permitido, por isso jogue pelo seguro."
     },
     "interpreter-role-q2": {
       "q": "O que dizem os regulamentos da FITASC sobre os intérpretes?",
@@ -84,7 +84,7 @@
       "explain": "Os regulamentos não mencionam os intérpretes, por isso a sua posição exata em competição é uma questão em aberto para a FITASC."
     },
     "interpreter-role-q3": {
-      "q": "No treino, o treinador diz «Not bad, but you stopped the gun.» Como traduz?",
+      "q": "No treino, o {{term:coach|treinador}} diz «Not bad, but you stopped the gun.» Como traduz?",
       "options": {
         "a": "Por completo e no mesmo tom, as duas partes",
         "b": "Só o elogio, para manter o convidado contente",
@@ -94,5 +94,5 @@
       "explain": "Não suaviza nem exagera: a mensagem inteira, no tom do treinador, sem nada da sua parte."
     }
   },
-  "summary": "No treino, o intérprete é a voz do treinador. Em competição o treino é proibido, por isso transmite apenas o que diz o árbitro, o júri e o organizador."
+  "summary": "No treino, o intérprete é a voz do {{term:coach|treinador}}. Em competição o treino é proibido, por isso transmite apenas o que diz o {{term:referee|árbitro}}, o júri e o organizador."
 }

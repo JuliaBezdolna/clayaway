@@ -40,7 +40,7 @@
     "origin": "new"
   },
   "title": "Rutyna przedstrzałowa: te same kroki w tej samej kolejności",
-  "summary": "Krótka rutyna przedstrzałowa pomaga strzelać tak samo na treningu i na zawodach: sześć kroków, które mieszczą się w limitach czasu {{tm:sporting}} i {{tm:compak}}.",
+  "summary": "Krótka rutyna przedstrzałowa pomaga strzelać tak samo na treningu i na zawodach: sześć kroków, które mieszczą się w {{term:firing-time|limitach czasu}} {{tm:sporting}} i {{tm:compak}}.",
   "body": {
     "mind-routine-under-pressure-p1": "{{term:pre-shot-routine|Rutyna przedstrzałowa}} to ustalony zestaw kroków, który powtarzasz przed każdym rzutkiem. Pomaga odczytać rzutek, ustawić się tak samo i zawołać tylko, gdy jesteś gotowy.",
     "mind-routine-under-pressure-p9": "Badania nad rutynami w wielu sportach pokazują mały do umiarkowanego efekt, także pod presją. Nie prowadzono ich w {{tm:sporting}} ani w {{tm:compak}}, ale najprawdopodobniej działa to tu tak samo.",
@@ -49,21 +49,21 @@
       "Stopy: ustaw {{term:stance|postawę}} pod {{term:break-point|punkt strzału}}, miejsce, gdzie planujesz rozbić rzutek.",
       "Broń: zajmij pozycję startową z lufami w {{term:hold-point|punkcie wyjściowym}}, gdzie czekają na komendę. W {{tm:sporting}} broń zaczyna opuszczona (patrz poniżej).",
       "Oczy: spójrz na {{term:pick-up-point|punkt podjęcia rzutka}}, gdzie pierwszy raz wyraźnie go widzisz, {{term:soft-focus|miękkim skupieniem wzroku}}: spokojnym, szerokim spojrzeniem.",
-      "Oddech i słowo-klucz: jeden naturalny wydech, opuszczone ramiona, potem twoje słowo-klucz.",
+      "Oddech i {{term:cue-word|słowo-klucz}}: jeden naturalny wydech, opuszczone ramiona, potem twoje słowo-klucz.",
       "Komenda: zawołaj {{term:call|komendę}} każdym razem tak samo i zostań w gotowości przez krótką zwłokę, zanim rzutek się pojawi.",
       "Rzutek: przełącz się na {{term:hard-focus|twarde skupienie wzroku}} na rzutku i trzymaj na nim wzrok aż po strzał."
     ],
     "mind-routine-under-pressure-compare": {
       "sporting": "Broń opuszczona: {{fact:mind.sporting-ready-position}} ({{rule:sporting:ch3-ready-position}}). Masz {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Po twojej komendzie sędzia daje sygnał {{term:trapper|operatorowi wyrzutni}}, a rzutek wylatuje {{fact:rules.release-within-3s}} od sygnału sędziego ({{rule:sporting:ch5-call-and-release}}).",
-      "compak": "Pozycja broni przy komendzie jest dowolna: złożona albo nie ({{rule:compak:ch17-gun-position}}). Masz {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Rzutek wylatuje {{fact:rules.release-within-3s}} od komendy przy ręcznym zwolnieniu albo {{fact:rules.sonopull-delay}} po niej z sonopullem (zwolnieniem głosowym) ({{rule:compak:ch2-trigger-manual}})."
+      "compak": "Pozycja broni przy komendzie jest dowolna: złożona albo nie ({{rule:compak:ch17-gun-position}}). Masz {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Rzutek wylatuje {{fact:rules.release-within-3s}} od komendy przy ręcznym zwolnieniu albo {{fact:rules.sonopull-delay}} po niej przy {{term:sonopull|zwolnieniu głosowym}} ({{rule:compak:ch2-trigger-manual}})."
     },
     "mind-routine-under-pressure-p4": "Zachowuj kolejność kroków, nie dokładną liczbę sekund. Zwłoka po komendzie może się różnić (w {{tm:sporting}}, i w {{tm:compak}} przy ręcznym zwolnieniu), więc czas może się trochę zmieniać. Zostawaj dobrze w granicach limitu: poproś trenera albo przyjaciela, żeby zmierzył twoją rutynę na treningu.",
-    "mind-routine-under-pressure-p5": "Jeśli coś cię rozprasza przed komendą, na przykład hałas, myśl albo słońce, nie zawołuj. Opuść broń, zrób wydech i zacznij rutynę od nowa, w granicach limitu czasu.",
+    "mind-routine-under-pressure-p5": "Jeśli coś cię rozprasza przed komendą, na przykład hałas, myśl albo słońce, nie zawołuj. Opuść broń, zrób wydech i zacznij rutynę od nowa, w granicach {{term:firing-time|limitu czasu}}.",
     "mind-routine-under-pressure-p7": "Na {{term:double|dublecie}} zaplanuj oba rzutki, zanim zawołasz: gdzie rozbijesz pierwszy i dokąd pójdzie wzrok na drugi. Traktuj je jak dwa osobne strzały.",
-    "mind-routine-under-pressure-p6": "Między stanowiskami dłuższa rutyna pomaga zostawić ostatnie stanowisko za sobą, niezależnie od wyniku. Otwórz broń, wyjmij puste łuski, wypij wody i spójrz na kolejne rzutki. W {{tm:compak}} zmieniasz numer z bronią otwartą i rozładowaną ({{rule:compak:ch17-call-time-and-changeover}}).",
+    "mind-routine-under-pressure-p6": "Między stanowiskami dłuższa rutyna pomaga zostawić ostatnie stanowisko za sobą, niezależnie od wyniku. Otwórz broń, wyjmij {{term:empties|puste łuski}}, wypij wody i spójrz na kolejne rzutki. W {{tm:compak}} zmieniasz numer z bronią otwartą i rozładowaną ({{rule:compak:ch17-call-time-and-changeover}}).",
     "mind-routine-under-pressure-warn": "Nabój wkładaj tylko na stanowisku, z bronią skierowaną w stronę strzelnicy, dopiero gdy sędzia zezwoli na rozpoczęcie strzelania ({{rule:sporting:ch8-loading}}, {{rule:compak:ch21-shooting-conduct}}).",
     "mind-routine-under-pressure-p8": "Zbuduj rutynę na treningu i zachowaj ją taką samą na zawodach. Ustal plan z trenerem przed zawodami, żeby w dniu startu wystarczyło go tylko wykonać.",
-    "mind-routine-under-pressure-coaching-rule": "W trakcie zawodów nikt nie może {{term:coaching|podpowiadać}} zawodnikowi ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
+    "mind-routine-under-pressure-coaching-rule": "W trakcie zawodów {{term:coaching|podpowiadanie}} zawodnikowi jest zabronione ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
   },
   "note": {
     "mind-routine-under-pressure-n1": "Milcz, kiedy strzelec wykonuje rutynę. Na treningu tłumacz między rzutkami i krótko; na zawodach przekazuj tylko decyzje sędziego i oficjalne komunikaty.",

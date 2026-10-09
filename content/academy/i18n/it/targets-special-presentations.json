@@ -34,11 +34,11 @@
   "title": "Traiettorie speciali: teal, chandelle, looper e piattelli in discesa",
   "summary": "Piattelli che scattano verso l'alto, salgono in curva, scavalcano o cadono: come distinguere teal, chandelle e looper, e perché i loro nomi variano tra i paesi.",
   "body": {
-    "flight-teal-chandelle-looper-p1": "Le traiettorie di questa lezione riguardano l'altezza e la curva più che l'angolo. I loro nomi sono parole usate dai tracciatori del percorso (le persone che montano le macchine), non termini del regolamento. Il regolamento elenca i tipi di piattello, e quello {{tm:compak}} chiede traiettorie varie: in salita, in discesa e alte, ad arco.",
-    "flight-teal-chandelle-looper-p2": "Un {{term:teal|teal}} (anche springing o rising teal, dal nome della piccola anatra alzavola; in italiano «candela») viene lanciato quasi in verticale: rallenta, resta sospeso un attimo in cima e ricade. Si tira o in salita, portando il fucile verso l'alto attraverso di esso da sotto, oppure in cima mentre resta sospeso. Un errore comune è fermare il fucile e «punzecchiare» il piattello mentre è sospeso in cima. Alcuni tracciatori usano «springing» (in italiano «frullo») per un piattello che sale ad angolo invece che in verticale, come un uccello che si alza spaventato dall'erba.",
+    "flight-teal-chandelle-looper-p1": "Le {{term:trajectory|traiettorie}} di questa lezione riguardano l'altezza e la curva più che l'angolo. I loro nomi sono parole usate dai {{term:course-designer|tracciatori del percorso}}, le persone che montano le {{term:trap|macchine}}, non termini del regolamento. Il regolamento elenca i tipi di piattello, e quello {{tm:compak}} chiede traiettorie varie: in salita, in discesa e alte, ad arco.",
+    "flight-teal-chandelle-looper-p2": "Un {{term:teal|teal}}, detto anche springing o rising teal (dal nome della piccola anatra alzavola), viene lanciato quasi in verticale: rallenta, resta sospeso un attimo in cima e ricade. Si tira o in salita, portando il fucile verso l'alto attraverso di esso da sotto, oppure in cima mentre resta sospeso. Un errore comune è {{term:stopping-the-gun|fermare il fucile}} e «punzecchiare» il piattello mentre è sospeso in cima. Alcuni tracciatori usano «springing» (in italiano «frullo») per un piattello che sale ad angolo invece che in verticale, come un uccello che si alza spaventato dall'erba.",
     "flight-teal-chandelle-looper-p3": "Una {{term:chandelle|chandelle}} (in francese «candela») sale ripida con una leggera curva, si incurva in cima e scende quasi in verticale. Molti tiratori la trovano più facile da colpire in salita. Una volta che si incurva e comincia a scendere, tira davanti a essa (dal lato verso cui si muove) e sotto di essa.",
-    "flight-teal-chandelle-looper-p4": "Un {{term:looper|looper}} vola in un ampio arco nel cielo, come un arcobaleno: sale, scavalca il culmine e cade. Di solito è un piattello standard; alcuni tracciatori lanciano su questa linea anche una battuta, che girando mostra la faccia. Segui la curva con il fucile, restando avanti al piattello e sotto di esso.",
-    "flight-teal-chandelle-looper-p5": "Un {{term:dropping-target|piattello in discesa}} (dropping target) è qualsiasi piattello nella parte discendente del suo volo. Poiché si muove sia verso il basso sia in avanti, tira sotto di esso e davanti a esso, con il fucile in movimento.",
+    "flight-teal-chandelle-looper-p4": "Un {{term:looper|looper}} vola in un ampio arco nel cielo, come un arcobaleno: sale, scavalca il culmine e cade. Di solito è uno {{term:standard-target|piattello standard}}; alcuni tracciatori lanciano su questa linea anche una {{term:battue|battuta}}, che girando mostra la faccia. Segui la curva con il fucile, restando avanti al piattello e sotto di esso.",
+    "flight-teal-chandelle-looper-p5": "Un {{term:dropping-target|piattello in discesa}} è qualsiasi piattello nella parte discendente del suo volo. Poiché si muove sia verso il basso sia in avanti, tira sotto di esso e davanti a esso, con il fucile in movimento.",
     "flight-teal-chandelle-looper-p6": "Attenzione: i nomi cambiano da paese a paese. Molti francofoni usano «chandelle» per un piattello che sale quasi in verticale, quello che un istruttore inglese chiama teal. In altre lingue una parola per «candela» può indicare entrambi. Ogni volta che senti chandelle o «candela», chiedi: dritto in su o ad arco?"
   },
   "note": {},
@@ -56,7 +56,7 @@
       "say": "La parabola si sta girando: sotto e davanti."
     },
     "flight-teal-chandelle-looper-ph4": {
-      "meaning": "Il secondo piattello del doppio sta cadendo; spara sotto di lui con il fucile in movimento.",
+      "meaning": "Il secondo piattello del {{term:double|doppio}} sta cadendo; spara sotto di lui con il fucile in movimento.",
       "say": "Il secondo scende: vai sotto e tieni il fucile in movimento."
     }
   },
@@ -64,7 +64,7 @@
     "flight-teal-chandelle-looper-kp1": "Teal (candela): sale quasi in verticale, si ferma, ricade; prendilo in salita o in cima.",
     "flight-teal-chandelle-looper-kp2": "Chandelle: salita ripida e curva, si incurva in alto, scende quasi in verticale.",
     "flight-teal-chandelle-looper-kp3": "Looper (parabola): ampio arco ad arcobaleno, di solito un piattello standard che scavalca il punto più alto e cade.",
-    "flight-teal-chandelle-looper-kp4": "In discesa: anticipo sotto e davanti; tieni il fucile in movimento.",
+    "flight-teal-chandelle-looper-kp4": "In discesa: {{term:lead|anticipo}} sotto e davanti; tieni il fucile in movimento.",
     "flight-teal-chandelle-looper-kp5": "I nomi variano: i francofoni dicono spesso «chandelle» per un teal, quindi chiedi cosa si intende."
   },
   "did_you_know": "La parola francese chandelle significa «candela»; è anche il nome di una manovra acrobatica in cui un aereo sale rapidamente mentre vira.",
@@ -80,7 +80,7 @@
       "explain": "È il teal (springing o rising teal, la candela). Il looper descrive un ampio arco nel cielo."
     },
     "flight-teal-chandelle-looper-q2": {
-      "q": "Dove va di solito l'anticipo su un piattello in discesa?",
+      "q": "Dove va di solito il {{term:lead|anticipo}} su un piattello in discesa?",
       "options": {
         "a": "Sopra e dietro",
         "b": "Sotto e davanti",

@@ -1354,12 +1354,11 @@ window.GLOSSARY_I18N.pt = {
    "long": "O atirador só pode recusar um prato que não pediu. No Sporting, um prato correto a que o atirador não disparou conta zero; num double simultâneo ou rafale, zero e zero. No Compak, a recusa é penalizada segundo o artigo 21.5: prato simples zero; primeiro prato de um double ao tiro zero, com o double repetido para marcar o segundo; double simultâneo zero-zero."
   },
   "hang-fire": {
-   "term_local": "falha do cartucho",
+   "term_local": "disparo retardado",
    "alt": [
-    "tiro retardado",
-    "nega"
+    "tiro retardado"
    ],
-   "note": "Rules don't separate hang fire from misfire; 'tiro retardado' for true hang fire.",
+   "note": "'Falha do cartucho' / 'nega' is a misfire; a delayed shot is 'disparo retardado'.",
    "conf": "medium",
    "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Tiro retardado: o cartucho dispara algum tempo depois de se premir o gatilho. É por isso que uma arma que falhou não se abre logo.",

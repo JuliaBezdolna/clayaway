@@ -1493,7 +1493,7 @@ window.GLOSSARY_I18N.pl = {
    "short": "Wkładanie nabojów do broni tylko na stanowisku i wyjmowanie ich potem."
   },
   "cease-fire": {
-   "term_local": "STOP",
+   "term_local": "stop",
    "alt": [
     "przerwać strzelanie"
    ],

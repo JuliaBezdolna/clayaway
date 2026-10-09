@@ -27,9 +27,9 @@
     "origin": null
   },
   "title": "Tradice: vyhlášení výsledků, družstva a zvyky",
-  "summary": "Jak probíhají ceremoniály a vyhlášení výsledků, jak soupeří družstva a jaké zvyky dělají ze soutěže {{tm:sporting}} nebo {{tm:compak}} oslavu.",
+  "summary": "Jak probíhají ceremoniály a {{term:prize-giving|vyhlášení výsledků}}, jak soupeří {{term:team|družstva}} a jaké zvyky dělají ze soutěže {{tm:sporting}} nebo {{tm:compak}} oslavu.",
   "body": {
-    "culture-traditions-p1": "Soutěž je víc než jen výsledek. Střelci mají zvyky, které z dlouhého dne dělají společnou oslavu: ceremoniály, vyhlášení výsledků, týmový duch a drobné projevy ohleduplnosti na střelnici.",
+    "culture-traditions-p1": "Soutěž je víc než jen výsledek. Střelci mají zvyky, které z dlouhého dne dělají společnou oslavu: ceremoniály, {{term:prize-giving|vyhlášení výsledků}}, týmový duch a drobné projevy ohleduplnosti na střelnici.",
     "culture-traditions-ties": "Pokud mají dva nebo víc střelců stejný výsledek na jedno z prvních tří míst, rozhoduje {{term:shoot-off|rozstřel}}: střílí se další terče a vítězí lepší výsledek. Často je to nejnapínavější okamžik dne a diváci se kolem shromáždí. Jak probíhají rozstřely a jiné shody: {{lesson:competitions-categories-and-shoot-offs}}.",
     "culture-traditions-p4": "Družstevní soutěže jsou vlastní tradicí. {{term:team|Družstvo}} je několik střelců z jedné země, nebo na klubových soutěžích z jednoho klubu. Jejich výsledky se sčítají pro družstevní pořadí. Družstva rozstřel nestřílí. Pokud skončí dvě družstva se stejným výsledkem, vyhrává to, jehož střelci společně lépe odstříleli poslední položku soutěže. Pokud je i tam shoda, rozhoduje předposlední, a tak dál.",
     "culture-traditions-ceremony": "Mezinárodní akce se otevírají i zavírají ceremoniálem. Při zahájení procházejí národní družstva v průvodu v týmovém oblečení nebo v elegantních kalhotách se sakem. Při zakončení musí všichni medailisté být na {{term:prize-giving|vyhlášení výsledků}}, oblečeni stejně.",
@@ -51,8 +51,8 @@
       "q": "Co musí udělat medailisté na mezinárodní akci?",
       "options": {
         "a": "Poslat po cenu spoluhráče",
-        "b": "Přijít na vyhlášení výsledků, řádně oblečeni",
-        "c": "Vystoupit na stupně vítězů ve střelecké vestě"
+        "b": "Přijít na {{term:prize-giving|vyhlášení výsledků}}, řádně oblečeni",
+        "c": "Vystoupit na stupně vítězů v {{term:shooting-vest|střelecké vestě}}"
       },
       "explain": "Všichni medailisté se zúčastní závěrečného ceremoniálu v týmovém oblečení, nebo v elegantních kalhotách se sakem."
     },
@@ -63,7 +63,7 @@
         "b": "Rozstřelem mezi družstvy",
         "c": "Losováním po soutěži"
       },
-      "explain": "Družstva rozstřel nestřílí. Rozhoduje poslední položka soutěže (v {{tm:sporting}} osmé střeliště, v {{tm:compak}} osmé pole); pokud je i tam shoda, rozhoduje předchozí, a tak dál."
+      "explain": "{{term:team|Družstva}} {{term:shoot-off|rozstřel}} nestřílí. Rozhoduje poslední položka soutěže (v {{tm:sporting}} osmé střeliště, v {{tm:compak}} osmé pole); pokud je i tam shoda, rozhoduje předchozí, a tak dál."
     },
     "culture-traditions-q-thanks": {
       "q": "Komu střelci obvykle děkují na konci dne?",

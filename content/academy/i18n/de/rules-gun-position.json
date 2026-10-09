@@ -43,16 +43,16 @@
     "origin": "interpreter-academy"
   },
   "title": "Flintenhaltung, bevor die Scheibe erscheint",
-  "summary": "In {{tm:sporting}} bleibt der Schaft bis zum Erscheinen der Scheibe unterhalb einer Linie auf der Weste. In {{tm:compak}} ist die Flintenhaltung beim Abruf frei.",
+  "summary": "In {{tm:sporting}} bleibt der {{term:stock|Schaft}} bis zum Erscheinen der Scheibe unterhalb einer Linie auf der Weste. In {{tm:compak}} ist die {{term:gun-position|Flintenhaltung}} beim Abruf frei.",
   "body": {
     "rules-gun-position-p1": "Bei einem {{tm:sporting}}-Wettkampf rufen Schützen die Scheibe mit tief gehaltener Flinte ab. Das ist eine Regel, keine Stilfrage. {{tm:compak}} hat keine solche Regel.",
     "rules-gun-position-cmp1": {
-      "sporting": "Flinte unten: Das hintere Ende des Schafts bleibt unter der Westenlinie, bis Sie die Scheibe sehen.",
+      "sporting": "Flinte unten: Das hintere Ende des {{term:stock|Schafts}} bleibt unter der Westenlinie, bis Sie die Scheibe sehen.",
       "compak": "Frei: Die Flinte darf schon an der Schulter sein oder tiefer. Es gibt keine Linie auf der Weste, aber der Schuss wird trotzdem aus der Schulter abgegeben."
     },
-    "sporting-gun-position-p1": "In {{tm:sporting}} stehen Sie vor dem Abruf mit beiden Füßen innerhalb des {{term:shooting-stand|Standplatzes}}. Die Schaftkappe (die obere hintere Ecke des Schafts, der Teil, der in die Schulter geht) berührt Ihren Körper. Der höchste hintere Punkt des Schafts, meist die Schaftkappe selbst, bleibt unterhalb der Linie auf der Weste. Diese {{term:ready-position|Bereitschaftsstellung}} halten Sie, bis die Scheibe die Wurfmaschine verlassen hat und Sie sie sehen können.",
-    "sporting-gun-position-p2": "Die {{term:jacket-line|Linie}} ist auf der Weste oder Jacke {{fact:rules.sporting-jacket-line}} (einer gedachten horizontalen Linie durch beide Schultern) markiert, parallel dazu. Ihre Farbe hebt sich von der Weste ab, damit der Schiedsrichter sie sehen kann. Die Regel gilt für jede Schaftform: Standard, Monte Carlo (mit erhöhtem Schaftrücken, der oberen Kante des Schafts, auf der die Wange ruht) und {{term:adjustable-comb|verstellbarem Schaftrücken}}.",
-    "sporting-gun-position-p3": "Die Flinte zur Schulter bringen ({{term:gun-mount|anschlagen}}) dürfen Sie erst, wenn die Scheibe erscheint. Alle Scheiben, auch der {{term:rabbit|Rollhase}}, werden mit der Flinte in der Schulter beschossen; Schießen aus der Hüfte ist nicht erlaubt.",
+    "sporting-gun-position-p1": "In {{tm:sporting}} stehen Sie vor dem Abruf mit beiden Füßen innerhalb des {{term:shooting-stand|Standplatzes}}. Die Schaftkappe (die obere hintere Ecke des Schafts, der Teil, der in die Schulter geht) berührt Ihren Körper. Der höchste hintere Punkt des Schafts, meist die Schaftkappe selbst, bleibt unterhalb der Linie auf der Weste. Diese {{term:ready-position|Bereitschaftsstellung}} halten Sie, bis die Scheibe die {{term:trap|Wurfmaschine}} verlassen hat und Sie sie sehen können.",
+    "sporting-gun-position-p2": "Die {{term:jacket-line|Linie}} ist auf der Weste oder Jacke {{fact:rules.sporting-jacket-line}} (einer gedachten horizontalen Linie durch beide Schultern) markiert, parallel dazu. Ihre Farbe hebt sich von der Weste ab, damit der Schiedsrichter sie sehen kann. Die Regel gilt für jede Schaftform: Standard, Monte Carlo – mit erhöhtem {{term:comb|Schaftrücken}}, der oberen Kante des Schafts, auf der die Wange ruht – und {{term:adjustable-comb|verstellbarem Schaftrücken}}.",
+    "sporting-gun-position-p3": "Den {{term:gun-mount|Anschlag}}, also die Flinte zur Schulter bringen, dürfen Sie erst machen, wenn die Scheibe erscheint. Alle Scheiben, auch der {{term:rabbit|Rollhase}}, werden mit der Flinte in der Schulter beschossen; Schießen aus der Hüfte ist nicht erlaubt.",
     "rules-gun-position-p5": "Eine Lockerung: Bei einer {{term:double|Doublette}} dürfen Sie die Flinte zwischen der ersten und der zweiten Scheibe beliebig halten. Vor der ersten Scheibe gilt weiterhin die tiefe Haltung.",
     "sporting-gun-position-p4": "Sanktionen: Rufen Sie zum ersten Mal in falscher Haltung ab oder schlagen Sie zu früh an, gibt der Schiedsrichter eine mündliche Verwarnung mit {{term:yellow-card|Gelber Karte}}. Wiederholt sich das auf demselben {{term:layout|Layout}}, gibt es die {{term:red-card|Rote Karte}}: Eine Einzelscheibe wird als Null gewertet, Doubletten nach der Tabelle im Regel-Leitfaden ({{rule:sporting:ch12-red-card}}).",
     "sporting-gun-position-p5": "Die Flinte vor dem Abruf anzuschlagen und entlang der Linie zu schwenken, auf der Sie die Scheibe erwarten, ist {{term:mock-shooting|Zielübungen}}, und das ist ebenfalls verboten. Das erste Mal bringt eine Verwarnung. Wiederholt es sich, wird die nächste getroffene Scheibe als Null gewertet.",
@@ -94,7 +94,7 @@
   "key_points": {
     "sporting-gun-position-kp1": "{{tm:sporting}}: vor dem Abruf beide Füße im Standplatz, die Schaftkappe (die obere hintere Ecke) am Körper und unterhalb der Westenlinie.",
     "sporting-gun-position-kp2": "{{tm:sporting}}: Die Westenlinie verläuft {{fact:rules.sporting-jacket-line}} (einer Linie durch beide Schultern), in einer Kontrastfarbe.",
-    "sporting-gun-position-kp3": "{{tm:sporting}}: nur anschlagen, wenn die Scheibe erscheint; die Flintenhaltung ist nur zwischen den beiden Scheiben einer Doublette frei.",
+    "sporting-gun-position-kp3": "{{tm:sporting}}: nur anschlagen, wenn die Scheibe erscheint; die {{term:gun-position|Flintenhaltung}} ist nur zwischen den beiden Scheiben einer Doublette frei.",
     "sporting-gun-position-kp4": "{{tm:sporting}}: Der erste Verstoß bringt eine Verwarnung mit Gelber Karte, der nächste auf demselben Layout eine Rote Karte.",
     "rules-gun-position-kp4": "{{tm:compak}}: Die Haltung beim Abruf ist frei, und es gibt keine Westenlinie; der Schuss wird trotzdem aus der Schulter abgegeben."
   },
@@ -121,24 +121,24 @@
     "rules-gun-position-q3": {
       "q": "Wann dürfen Sie die Flinte in {{tm:sporting}} beliebig halten?",
       "options": {
-        "a": "Zwischen den beiden Scheiben einer Doublette",
+        "a": "Zwischen den beiden Scheiben einer {{term:double|Doublette}}",
         "b": "Vor der ersten Scheibe einer Doublette",
-        "c": "Beim Warten auf einen Rollhasen"
+        "c": "Beim Warten auf einen {{term:rabbit|Rollhasen}}"
       },
-      "explain": "Die freie Haltung ist nur zwischen den beiden Scheiben einer Doublette erlaubt; vor der ersten gilt die Bereitschaftsstellung."
+      "explain": "Die freie Haltung ist nur zwischen den beiden Scheiben einer Doublette erlaubt; vor der ersten gilt die {{term:ready-position|Bereitschaftsstellung}}."
     },
     "sporting-gun-position-q1": {
-      "q": "Am ersten Standplatz ruft ein Schütze mit schon an der Schulter angelegter Flinte ab. Es ist der erste derartige Verstoß auf diesem Layout. Wie entscheidet der Schiedsrichter?",
+      "q": "Am ersten {{term:shooting-stand|Standplatz}} ruft ein Schütze mit schon an der Schulter angelegter Flinte ab. Es ist der erste derartige Verstoß auf diesem Layout. Wie entscheidet der Schiedsrichter?",
       "options": {
         "a": "Die Scheibe wird als Null gewertet",
-        "b": "Eine Verwarnung und eine Gelbe Karte",
+        "b": "Eine Verwarnung und eine {{term:yellow-card|Gelbe Karte}}",
         "c": "No Bird, und sonst nichts",
-        "d": "Ausschluss von der Veranstaltung"
+        "d": "{{term:expulsion|Ausschluss}} von der Veranstaltung"
       },
-      "explain": "Der erste Verstoß gegen die Flintenhaltung ist eine mündliche Verwarnung, unterstrichen durch die Gelbe Karte."
+      "explain": "Der erste Verstoß gegen die {{term:gun-position|Flintenhaltung}} ist eine mündliche Verwarnung, unterstrichen durch die Gelbe Karte."
     },
     "sporting-gun-position-q2": {
-      "q": "Zuvor hat ein Schütze auf diesem Layout eine Gelbe Karte für die Flintenhaltung erhalten. Jetzt, bei einer Einzelscheibe, liegt der Schaft beim Abruf über der Westenlinie. Entscheidung?",
+      "q": "Zuvor hat ein Schütze auf diesem Layout eine {{term:yellow-card|Gelbe Karte}} für die {{term:gun-position|Flintenhaltung}} erhalten. Jetzt, bei einer Einzelscheibe, liegt der {{term:stock|Schaft}} beim Abruf über der Westenlinie. Entscheidung?",
       "options": {
         "a": "Eine weitere Gelbe Karte",
         "b": "Ein No Bird, noch einmal geschossen",
@@ -148,7 +148,7 @@
       "explain": "Nach der Verwarnung ist ein weiterer Verstoß auf demselben Layout eine Rote Karte: Null bei einer Einzelscheibe."
     },
     "sporting-gun-position-q3": {
-      "q": "{{tm:sporting}}. Der Schiedsrichter hat einen Schützen schon einmal für Zielübungen verwarnt. Vor dem nächsten Abruf schlägt der Schütze erneut an und schwenkt entlang der Linie der Scheibe, dann trifft er sie. Wie wird gewertet?",
+      "q": "{{tm:sporting}}. Der Schiedsrichter hat einen Schützen schon einmal für {{term:mock-shooting|Zielübungen}} verwarnt. Vor dem nächsten Abruf schlägt der Schütze erneut an und schwenkt entlang der Linie der Scheibe, dann trifft er sie. Wie wird gewertet?",
       "options": {
         "a": "Treffer, mit einer zweiten Verwarnung",
         "b": "Null",
@@ -158,7 +158,7 @@
       "explain": "Nach einer ersten Verwarnung für Zielübungen kostet eine Wiederholung die nächste getroffene Scheibe: Sie wird als Null gewertet."
     },
     "compak-gun-and-call-q1": {
-      "q": "In {{tm:compak}} ruft ein Schütze mit tief gehaltener Flinte ab und schießt, wenn der Rollhase erscheint, von der Hüfte aus, ohne anzuschlagen. Ist das erlaubt?",
+      "q": "In {{tm:compak}} ruft ein Schütze mit tief gehaltener Flinte ab und schießt, wenn der {{term:rabbit|Rollhase}} erscheint, von der Hüfte aus, ohne anzuschlagen. Ist das erlaubt?",
       "options": {
         "a": "Ja, die Flintenhaltung ist frei",
         "b": "Nein, jeder Schuss wird aus der Schulter abgegeben",
@@ -168,7 +168,7 @@
       "explain": "In {{tm:compak}} dürfen Sie mit angeschlagener oder tiefer Flinte abrufen, aber jede Scheibe muss mit der Flinte in der Schulter beschossen werden."
     },
     "gear-protection-clothes-q2": {
-      "q": "Ein Schütze von {{tm:sporting}} verwendet einen Monte-Carlo-Schaft mit erhöhtem Schaftrücken. Gilt für ihn die Regel zur Westenlinie?",
+      "q": "Ein Schütze von {{tm:sporting}} verwendet einen {{term:stock|Schaft}} vom Typ Monte Carlo mit erhöhtem {{term:comb|Schaftrücken}}. Gilt für ihn die Regel zur Westenlinie?",
       "options": {
         "a": "Ja, sie gilt für jeden Schafttyp",
         "b": "Nein, nur für Standardschäfte",

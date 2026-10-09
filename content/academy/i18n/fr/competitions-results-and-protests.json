@@ -40,18 +40,18 @@
   "origin": "interpreter-academy"
  },
  "title": "Résultats, réclamations et appels",
- "summary": "Comment faire une réclamation sur le poste en {{tm:sporting}} et en {{tm:compak}}, ce qui peut être porté devant le jury, et comment reprendre le tir après une décision.",
+ "summary": "Comment faire un {{term:protest|réclamation}} sur le poste en {{tm:sporting}} et en {{tm:compak}}, ce qui peut être porté devant le jury, et comment reprendre le tir après une décision.",
  "body": {
   "competitions-results-and-protests-score": "Tout commence par le résultat : en {{tm:sporting}}, vérifiez votre feuille en quittant chaque poste, et en {{tm:compak}}, signez-la après chaque série. Comment la lire : {{lesson:watching-reading-results}}.",
-  "referee-appeals-p1": "Une réclamation doit se faire sur-le-champ. Levez la main et dites « Protest! » ou « Appeal! » pendant que vous êtes encore sur le poste. En {{tm:sporting}}, faites-le avant d'appeler le plateau suivant (demander qu'il soit lancé, par exemple en disant « pull ») : une fois l'appel fait, vous avez accepté la décision précédente. En {{tm:compak}}, faites-le avant que le tireur suivant appelle. L'arbitre arrête le tir et écoute votre motif.",
-  "referee-appeals-p2": "Si l'arbitre est sûr de lui, la décision est maintenue et devient définitive. En cas de doute, l'arbitre peut consulter un autre arbitre, le {{term:trapper|pulleur}} (la personne qui lance les plateaux) ou les tireurs de la planche, uniquement pour avis, puis il décide seul. Vous ne pouvez pas quitter le poste ni aller ramasser un plateau pour le vérifier. En {{tm:sporting}}, vous devez casser les plateaux là où l'arbitre peut les voir. Si l'arbitre juge qu'un plateau a été cassé derrière un buisson, un arbre ou un autre obstacle naturel, ou au-delà de la {{term:shooting-limit|limite de tir}}, cette décision ne peut pas faire l'objet d'un appel. La limite de tir est une ligne au-delà de laquelle les impacts ne comptent pas.",
-  "referee-appeals-p3": "Certaines décisions ne peuvent pas être portées devant le jury. En {{tm:sporting}}, ce sont « un » ou « zéro » (touché ou raté), un No Bird (le plateau est relancé) et la régularité de la trajectoire. En {{tm:compak}}, ce sont le touché ou le raté, un plateau défectueux (cassé ou mal formé) et un plateau qui a quitté sa trajectoire prévue. Toute autre décision de l'arbitre peut faire l'objet d'un appel écrit auprès du {{term:jury|jury}}, avec une {{term:deposit|caution}} (une somme versée avec l'appel). En {{tm:sporting}}, la caution est {{fact:rules.sporting-jury-deposit}}. En {{tm:compak}}, c'est le montant en vigueur le jour de la compétition, et vous ne pouvez faire appel que pour un fait survenu ce même jour. Si le jury vous donne raison, la caution vous est restituée.",
+  "referee-appeals-p1": "Un {{term:protest|réclamation}} doit se faire sur-le-champ. Levez la main et dites « Protest! » ou « Appeal! » pendant que vous êtes encore sur le poste. En {{tm:sporting}}, faites-le avant d'appeler le plateau suivant (demander qu'il soit lancé, par exemple en disant « pull ») : une fois l'appel fait, vous avez accepté la décision précédente. En {{tm:compak}}, faites-le avant que le tireur suivant appelle. Le {{term:referee|arbitre}} arrête le tir et écoute votre motif.",
+  "referee-appeals-p2": "Si l'arbitre est sûr de lui, la décision est maintenue et devient définitive. En cas de doute, l'arbitre peut consulter un autre arbitre, le {{term:trapper|pulleur}} — la personne qui lance les plateaux — ou les tireurs de la planche, uniquement pour avis, puis il décide seul. Vous ne pouvez pas quitter le poste ni aller ramasser un plateau pour le vérifier. En {{tm:sporting}}, vous devez casser les plateaux là où l'arbitre peut les voir. Si l'arbitre juge qu'un plateau a été cassé derrière un buisson, un arbre ou un autre obstacle naturel, ou au-delà du {{term:shooting-limit|limite de tir}}, cette décision ne peut pas faire l'objet d'un appel. La limite de tir est une ligne au-delà de laquelle les impacts ne comptent pas.",
+  "referee-appeals-p3": "Certaines décisions ne peuvent pas être portées devant le jury. En {{tm:sporting}}, ce sont « un » ou « zéro » (touché ou raté), un No Bird (le plateau est relancé) et la régularité de la trajectoire. En {{tm:compak}}, ce sont le touché ou le raté, un plateau défectueux (cassé ou mal formé) et un plateau qui a quitté sa trajectoire prévue. Toute autre décision de l'arbitre peut faire l'objet d'un appel écrit auprès du {{term:jury|jury}}, avec un {{term:deposit|caution}} — une somme versée avec l'appel. En {{tm:sporting}}, la caution est {{fact:rules.sporting-jury-deposit}}. En {{tm:compak}}, c'est le montant en vigueur le jour de la compétition, et vous ne pouvez faire appel que pour un fait survenu ce même jour. Si le jury vous donne raison, la caution vous est restituée.",
   "competitions-results-and-protests-p4": {
    "sporting": "Le jury peut demander à l'arbitre de changer sa décision, désigner un autre arbitre, ou changer lui-même la décision.",
    "compak": "Le jury peut donner des instructions à l'arbitre pour ses décisions futures, ou désigner un autre arbitre."
   },
   "competitions-results-and-protests-appeal-jury": "Les épreuves internationales peuvent aussi avoir un {{term:appeal-jury|jury d'appel}} : une seconde instance à laquelle vous pouvez vous adresser si vous n'êtes pas d'accord avec une décision du jury lui-même. En {{tm:compak}}, il en existe un à chaque compétition internationale. En {{tm:sporting}}, il est facultatif ; là où il n'y en a pas, les décisions du jury sont définitives.",
-  "referee-appeals-p4": "Après la décision définitive, vous devez reprendre le tir dans les quinze secondes en {{tm:sporting}} et dans les dix secondes en {{tm:compak}}. Si vous ne le faites pas, cela compte comme un {{term:refusal-to-comply|refus d'obtempérer}} (ne pas obéir à l'arbitre), ce qui est puni. Continuer à discuter, afficher son désaccord de façon démonstrative, ou le fait que d'autres personnes critiquent ouvertement la décision, comptent comme une {{term:attempt-to-influence|tentative d'influence}} sur l'arbitre, ce qui est puni aussi.",
+  "referee-appeals-p4": "Après la décision définitive, vous devez reprendre le tir dans les quinze secondes en {{tm:sporting}} et dans les dix secondes en {{tm:compak}}. Si vous ne le faites pas, cela compte comme un {{term:refusal-to-comply|refus d'obtempérer}} — ne pas obéir à l'arbitre —, ce qui est puni. Continuer à discuter, afficher son désaccord de façon démonstrative, ou le fait que d'autres personnes critiquent ouvertement la décision, comptent comme un {{term:attempt-to-influence|tentative d'influence}} sur l'arbitre, ce qui est puni aussi.",
   "competitions-results-and-protests-p5": "Réclamez donc calmement et poliment. Pour un refus d'obtempérer ou une tentative d'influence sur l'arbitre, le jury peut retirer un plateau ou une série entière, ou exclure le tireur de la compétition. Cartons et sanctions : {{lesson:rules-cards-and-appeals}}.",
   "competitions-results-and-protests-tip": "Avant de réclamer, respirez et dites clairement ce que vous avez vu. Une fois la décision définitive, laissez-la derrière vous et revenez à votre routine pour le plateau suivant : {{lesson:mind-reset-after-miss}}."
  },
@@ -90,7 +90,7 @@
  "did_you_know": "En {{tm:sporting}}, la caution d'un appel rejeté ne disparaît pas : elle est versée à une œuvre de charité choisie par le président de la FITASC.",
  "quiz": {
   "competitions-results-and-protests-q1": {
-   "q": "Comment faire une réclamation correctement ?",
+   "q": "Comment faire un {{term:protest|réclamation}} correctement ?",
    "options": {
     "a": "Après la série, au secrétariat de la compétition",
     "b": "Appeler le plateau suivant, puis expliquer pourquoi",
@@ -105,10 +105,10 @@
     "b": "Le fait qu'un plateau soit « un » ou « zéro »",
     "c": "Un avertissement concernant votre tenue"
    },
-   "explain": "Touché ou raté est décidé par le seul arbitre du poste, dans les deux disciplines. Les autres décisions de l'arbitre peuvent être portées devant le jury par écrit."
+   "explain": "Touché ou raté est décidé par le seul {{term:referee|arbitre}} du poste, dans les deux disciplines. Les autres décisions de l'arbitre peuvent être portées devant le jury par écrit."
   },
   "referee-appeals-q3": {
-   "q": "En {{tm:sporting}}, quel est le montant de la caution pour un appel écrit auprès du jury ?",
+   "q": "En {{tm:sporting}}, quel est le montant du {{term:deposit|caution}} pour un appel écrit auprès du jury ?",
    "options": {
     "a": "40 % du montant de l'engagement",
     "b": "Le montant total de l'engagement",
@@ -133,27 +133,27 @@
     "a": "Le fait qu'un plateau soit un ou zéro",
     "b": "Un No Bird",
     "c": "La régularité d'une trajectoire",
-    "d": "Une autre décision de l'arbitre, comme une pénalité de retard"
+    "d": "Une autre décision du arbitre, comme une pénalité de retard"
    },
-   "explain": "En {{tm:sporting}}, les décisions un/zéro, No Bird et de trajectoire sont définitives ; les autres décisions de l'arbitre peuvent être portées devant le jury par écrit, avec une caution."
+   "explain": "En {{tm:sporting}}, les décisions un/zéro, No Bird et de trajectoire sont définitives ; les autres décisions de l'arbitre peuvent être portées devant le jury par écrit, avec un {{term:deposit|caution}}."
   },
   "competitions-results-and-protests-q-deposit-back": {
-   "q": "En {{tm:sporting}}, qu'advient-il de la caution si le jury donne raison au tireur ?",
+   "q": "En {{tm:sporting}}, qu'advient-il du {{term:deposit|caution}} si le jury donne raison au tireur ?",
    "options": {
     "a": "Elle est versée à une œuvre de charité",
     "b": "Elle est restituée au tireur",
-    "c": "Elle est partagée avec l'arbitre"
+    "c": "Elle est partagée avec le arbitre"
    },
    "explain": "Un appel accepté fait restituer la caution ; un appel rejeté l'envoie à une œuvre de charité choisie par le président de la FITASC."
   },
   "competitions-results-and-protests-q-resume": {
-   "q": "En {{tm:compak}}, dans quel délai devez-vous reprendre le tir après la décision définitive de l'arbitre ?",
+   "q": "En {{tm:compak}}, dans quel délai devez-vous reprendre le tir après la décision définitive du {{term:referee|arbitre}} ?",
    "options": {
     "a": "Dans les 10 secondes",
     "b": "Dans la minute",
     "c": "Quand vous vous sentez prêt"
    },
-   "explain": "En {{tm:compak}}, on reprend dans les 10 secondes, en {{tm:sporting}} dans les 15 ; sinon cela compte comme un refus d'obtempérer."
+   "explain": "En {{tm:compak}}, on reprend dans les 10 secondes, en {{tm:sporting}} dans les 15 ; sinon cela compte comme un {{term:refusal-to-comply|refus d'obtempérer}}."
   }
  }
 }

@@ -24,15 +24,19 @@
     "interpreter-numbers-and-units-q2": "862c2542",
     "interpreter-numbers-and-units-q3": "58baa361"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Zahlen und Einheiten: Fuß, Yards, Kaliber, Schrotgrößen",
   "summary": "Yards und Meter, Richtungen nach dem Zifferblatt, Kaliberzahlen, Vorlagen, Schrotgrößen und Chokes: welche Zahlen man umrechnet, welche man unverändert lässt, und was die FITASC-Grenzen sind.",
   "body": {
-    "interpreter-numbers-and-units-p1": "Zuerst der Vorhalt. Britische und amerikanische {{term:coach|Trainer}} geben den {{term:lead|Vorhalt}} in Fuß oder Yards an: „give it three feet“, „a yard in front“. Das ist ein Bild (der Abstand, den der Schütze beim Schuss sehen soll), keine Messung. Behalten Sie die Einheit so, wie sie gesagt wurde, und rechnen Sie nicht mitten in einer Anweisung um. Mehr zu den Worten des Vorhalts: {{lesson:lead-how-coaches-say-it}}.",
+    "interpreter-numbers-and-units-p1": "Zuerst der {{term:lead|Vorhalt}}. Britische und amerikanische {{term:coach|Trainer}} geben den {{term:lead|Vorhalt}} in Fuß oder Yards an: „give it three feet“, „a yard in front“. Das ist ein Bild (der Abstand, den der Schütze beim Schuss sehen soll), keine Messung. Behalten Sie die Einheit so, wie sie gesagt wurde, und rechnen Sie nicht mitten in einer Anweisung um. Mehr zu den Worten des Vorhalts: {{lesson:lead-how-coaches-say-it}}.",
     "interpreter-numbers-and-units-p2": "Entfernungen zu Scheiben sind eine andere Sache. „It's about thirty yards“ kann zu „etwa 27 Meter“ werden, denn ein Yard sind {{fact:stand-talk.unit-yard}}. Behalten Sie das Wort „etwa“ bei. Richtungen kommen oft als {{term:clock-face|Zifferblatt}} über das Feld gelegt: Geradeaus ist 12, also bedeutet „pick it up at eleven o'clock“ leicht links. Behalten Sie die Uhr bei; machen Sie keine Gradangabe daraus.",
-    "interpreter-numbers-and-units-p3": "Das {{term:gauge|Kaliber}} funktioniert rückwärts. Ein „12-bore“ oder „12 gauge“ ist nicht 12 mm: Je kleiner die Zahl, desto weiter der Lauf, ein Kaliber 20 ist also enger. Beide FITASC-Regelwerke ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) erlauben Flinten, bei denen {{fact:gear.fitasc-max-gauge}}, mit {{term:barrel-length|Läufen}} {{fact:gear.fitasc-min-barrel}}. Bei {{tm:sporting}} liegt die Westenmarkierung {{fact:rules.sporting-jacket-line}}; britische Schützen nennen das vielleicht knapp unter zehn Zoll. Die Schulterachse ist eine gedachte Linie durch beide Schultern.",
-    "interpreter-numbers-and-units-p4": "{{term:cartridge|Patronen}}: Beide Regelwerke erlauben eine {{term:load-weight|Vorlage}} von {{fact:gear.fitasc-shot-load}}. Das liegt nahe an der „one-ounce load“, von der britische Schützen sprechen, denn eine Unze sind {{fact:stand-talk.unit-ounce}}. Der Schrot muss {{fact:gear.fitasc-shot-diameter}} sein. {{term:shot-size|Schrotnummern}} unterscheiden sich zwischen Ländern. Eine Nr. 9 hat fast überall etwa 2 mm, andere Nummern weichen zwischen britischem, amerikanischem und kontinentalem System leicht ab. Wenn es darauf ankommt, fragen Sie nach Millimetern ({{lesson:cartridges-shot-size}}).",
-    "interpreter-numbers-and-units-chokes": "{{term:choke|Chokes}} (die Verengung am Mündungsende des Laufs) werden als Namen, Brüche oder „thou“ (Tausendstel Zoll) angegeben. Übersetzen Sie sie im System, das der Trainer verwendet hat, und rechnen Sie nicht von einem System ins andere um."
+    "interpreter-numbers-and-units-p3": "Das {{term:gauge|Kaliber}} funktioniert rückwärts. Ein „12-bore“ oder „12 gauge“ ist nicht 12 mm: Je kleiner die Zahl, desto weiter der Lauf, ein Kaliber 20 ist also enger. Beide FITASC-Regelwerke ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) erlauben Flinten, bei denen {{fact:gear.fitasc-max-gauge}}, mit {{term:barrel-length|Läufen}} {{fact:gear.fitasc-min-barrel}}. Bei {{tm:sporting}} liegt die {{term:jacket-line|Westenmarkierung}} {{fact:rules.sporting-jacket-line}}; britische Schützen nennen das vielleicht knapp unter zehn Zoll. Die Schulterachse ist eine gedachte Linie durch beide Schultern.",
+    "interpreter-numbers-and-units-p4": "{{term:cartridge|Patronen|pl}}: Beide Regelwerke erlauben eine {{term:load-weight|Vorlage}} von {{fact:gear.fitasc-shot-load}}. Das liegt nahe an der „one-ounce load“, von der britische Schützen sprechen, denn eine Unze sind {{fact:stand-talk.unit-ounce}}. Der Schrot muss {{fact:gear.fitasc-shot-diameter}} sein. {{term:shot-size|Schrotnummern}} unterscheiden sich zwischen Ländern. Eine Nr. 9 hat fast überall etwa 2 mm, andere Nummern weichen zwischen britischem, amerikanischem und kontinentalem System leicht ab. Wenn es darauf ankommt, fragen Sie nach Millimetern ({{lesson:cartridges-shot-size}}).",
+    "interpreter-numbers-and-units-chokes": "Chokes (die Verengung am Mündungsende des Laufs) werden als Namen, Brüche oder „thou“ (Tausendstel Zoll) angegeben. Übersetzen Sie sie im System, das der Trainer verwendet hat, und rechnen Sie nicht von einem System ins andere um."
   },
   "note": {},
   "phrases": {
@@ -66,7 +70,7 @@
   },
   "quiz": {
     "interpreter-numbers-and-units-q1": {
-      "q": "Der Trainer sagt „It's about thirty yards.“ Wie geben Sie das einem Schützen weiter, der in Metern denkt?",
+      "q": "Der {{term:coach|Trainer}} sagt „It's about thirty yards.“ Wie geben Sie das einem Schützen weiter, der in Metern denkt?",
       "options": {
         "a": "„Etwa 27 Meter“",
         "b": "„Genau 27,43 Meter“",
@@ -76,7 +80,7 @@
       "explain": "Ein Yard ist etwas weniger als ein Meter (etwa 0,9 m), also sind dreißig Yards etwa 27 m. Behalten Sie „etwa“ bei: Die Zahl des Trainers ist eine Schätzung."
     },
     "interpreter-numbers-and-units-q2": {
-      "q": "Welches ist das größte bei {{tm:sporting}} und {{tm:compak}} erlaubte Kaliber?",
+      "q": "Welches ist das größte bei {{tm:sporting}} und {{tm:compak}} erlaubte {{term:gauge|Kaliber}}?",
       "options": {
         "a": "10",
         "b": "16",
@@ -86,14 +90,14 @@
       "explain": "Beide Regelwerke erlauben höchstens Kaliber 12; eine kleinere Kaliberzahl bedeutet eine weitere Bohrung, also ist 10 nicht erlaubt."
     },
     "interpreter-numbers-and-units-q3": {
-      "q": "Ein britischer Gast fragt, ob seine „one-ounce“-Patronen bei einem FITASC-Wettkampf zulässig sind. Was wissen Sie?",
+      "q": "Ein britischer Gast fragt, ob seine {{term:cartridge|Patronen|pl}} mit „one ounce“ bei einem FITASC-Wettkampf zulässig sind. Was wissen Sie?",
       "options": {
         "a": "Bis zu 36 g, etwa 1¼ Unzen",
         "b": "Jede Vorlage: Es gibt kein Limit",
         "c": "Eine Vorlage von 28 g (+2 %), etwa eine Unze",
         "d": "Nur 24-g-Vorlagen sind erlaubt"
       },
-      "explain": "Die Regeln erlauben eine Vorlage von bis zu 28 g mit einer Toleranz von +2 %, und eine Unze sind etwa 28,3 g. Auch die Schrotgröße (2,0–2,5 mm) muss passen."
+      "explain": "Die Regeln erlauben eine Vorlage von bis zu 28 g mit einer Toleranz von +2 %, und eine Unze sind etwa 28,3 g. Auch die {{term:shot-size|Schrotgröße}} – 2,0–2,5 mm – muss passen."
     }
   }
 }

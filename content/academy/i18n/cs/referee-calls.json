@@ -31,11 +31,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Co říká rozhodčí na stanovišti",
-  "summary": "Krátká slova stanoviště: povel, nabíjení a otevřené zbraně, „one“, „zero“ a „No Bird“, a formální slovo střelce pro protest.",
+  "summary": "Krátká slova stanoviště: {{term:call|povel}}, {{term:loading|nabíjení}} a otevřené zbraně, „one“, „zero“ a „No Bird“, a formální slovo střelce pro protest.",
   "body": {
-    "referee-calls-p1": "Stanoviště má svou vlastní krátkou řeč. Když je připraven, střelec dá {{term:call|povel}}, obvykle „Pull!“ nebo „Ready!“. V {{tm:sporting}} předává {{term:referee|rozhodčí}} povel {{term:trapper|obsluze vrhačky}} zvukovým signálem. Terč musí vylétnout {{fact:rules.release-within-3s}} od tohoto signálu; pozdější terč je {{term:no-bird|nový terč (No Bird)}}. V {{tm:compak}} musí i ruční spuštění přijít {{fact:rules.release-within-3s}} od povelu. Hlasem ovládané spuštění ({{term:sonopull|sonopull}}: mikrofon, který vypustí terč, jakmile zaslechne váš povel) má pevné zpoždění {{fact:rules.sonopull-delay}}.",
+    "referee-calls-p1": "Stanoviště má svou vlastní krátkou řeč. Když je připraven, střelec dá {{term:call|povel}}, obvykle „Pull!“ nebo „Ready!“. V {{tm:sporting}} předává {{term:referee|rozhodčí}} povel {{term:trapper|obsluze vrhačky}} zvukovým signálem. Terč musí vylétnout {{fact:rules.release-within-3s}} od tohoto signálu; pozdější terč je {{term:no-bird|nový terč}}. V {{tm:compak}} musí i ruční spuštění přijít {{fact:rules.release-within-3s}} od povelu. {{term:sonopull|Hlasem ovládané spuštění}}, tedy mikrofon, který vypustí terč, jakmile zaslechne váš povel, má pevné zpoždění {{fact:rules.sonopull-delay}}.",
     "referee-calls-p2": "Než kdokoli vystřelí, rozhodčí určuje, kdy se smí zbraně nabíjet a zavírat. Pravidla dovolují {{term:loading|nabíjení}} jen na stanovišti, se zbraní namířenou do pole, až poté, co rozhodčí řekne, že se může začít střílet. Během {{term:target-presentation|předvedení terčů}} a při každém přerušení jsou zbraně otevřené a vyprázdněné. Zavírají se znovu jen s dovolením rozhodčího. V {{tm:compak}} rozhodčí zahajuje kolo slovy „Start“ nebo „Competition“.",
-    "referee-calls-p3": "Po každém terči znají pravidla jen tři výsledky: „{{term:one|one}}“ (zásah), „{{term:zero|zero}}“ (chyba) a „No Bird“ (terč se nezapočítává a hodí se znovu). Na střelnici také uslyšíte „dead“ nebo „good“ při zásahu a „lost“ při chybě; někteří rozhodčí po zásahu mlčí. V {{tm:compak}} rozhodčí oznamuje každou nulu nahlas nebo zvukovým signálem, aby nesouhlasící střelec mohl hned podat protest.",
+    "referee-calls-p3": "Po každém terči znají pravidla jen tři výsledky: „{{term:one|zásah}}“, „{{term:zero|chyba}}“ a „No Bird“ (terč se nezapočítává a hodí se znovu). Na střelnici také uslyšíte „dead“ nebo „good“ při zásahu a „lost“ při chybě; někteří rozhodčí po zásahu mlčí. V {{tm:compak}} rozhodčí oznamuje každou nulu nahlas nebo zvukovým signálem, aby nesouhlasící střelec mohl hned podat protest.",
     "referee-calls-p4": "I střelec má své formální slovo. Pokud nesouhlasíte s rozhodnutím, hned na stanovišti zvedněte ruku a řekněte „{{term:protest|Protest!}}“ nebo „{{term:appeal|Appeal!}}“ ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Další fráze, které střelec potřebuje: {{lesson:stand-talk-shooter-phrases}}."
   },
   "note": {
@@ -76,12 +76,12 @@
   },
   "quiz": {
     "referee-calls-q1": {
-      "q": "V {{tm:sporting}} terč vyletí pět sekund po signálu rozhodčího. Jaké je rozhodnutí rozhodčího?",
+      "q": "V {{tm:sporting}} terč vyletí pět sekund po signálu {{term:referee|rozhodčího}}. Jaké je rozhodnutí rozhodčího?",
       "options": {
         "a": "Počítá se jako obvykle",
         "b": "No Bird",
-        "c": "Nula, protože střelec dal povel příliš brzy",
-        "d": "Jen varování pro obsluhu vrhačky"
+        "c": "Nula, protože střelec dal {{term:call|povel}} příliš brzy",
+        "d": "Jen varování pro {{term:trapper|obsluhu vrhačky}}"
       },
       "explain": "Terč musí vyletět do tří sekund od signálu rozhodčího; pozdější terč je No Bird a hodí se znovu."
     },

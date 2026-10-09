@@ -22,14 +22,18 @@
     "gear-what-to-buy-first-q2": "67a1ee5c",
     "gear-what-to-buy-first-q3": "9e554fe9"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "O que comprar primeiro, e o que comprar depois",
   "summary": "Uma ordem de compras sensata para quem começa em {{tm:sporting}} e {{tm:compak}}: primeiro proteção e conforto, a arma só depois de aulas e de uma adaptação.",
   "body": {
-    "gear-what-to-buy-first-p1": "Quem começa não precisa de comprar tudo de uma vez. Nas primeiras aulas o campo ou o treinador costumam emprestar uma arma, óculos, tampões e auscultadores. Primeiro descubra se gosta de tiro aos pratos, depois compre o equipamento aos poucos.",
+    "gear-what-to-buy-first-p1": "Quem começa não precisa de comprar tudo de uma vez. Nas primeiras aulas o campo ou o {{term:coach|treinador}} costumam emprestar uma arma, óculos, {{term:earplugs|tampões}} e auscultadores. Primeiro descubra se gosta de tiro aos pratos, depois compre o equipamento aos poucos.",
     "gear-what-to-buy-first-p2": "Primeiro, a sua própria proteção de olhos e ouvidos. Óculos que assentem bem e tampões ou auscultadores confortáveis são uma questão tanto de higiene como de segurança. Para começar, bastam {{term:safety-glasses|óculos de proteção}} resistentes a impacto com lente intercambiável e {{term:passive-ear-muffs|abafadores passivos}} ou bons {{term:earplugs|tampões auditivos}}.",
     "gear-what-to-buy-first-p3": "Segundo, calçado fechado e confortável e roupa em camadas que deixem pôr a arma à cara livremente. É provável que já tenha a maior parte disto em casa.",
-    "gear-what-to-buy-first-p4": "Terceiro, um {{term:shooting-vest|colete}}, assim que começar a atirar regularmente. Para {{tm:sporting}} escolha um colete com a {{term:jacket-line|linha}} (jacket line): uma faixa contrastante {{fact:rules.sporting-jacket-line}} e paralela a ela. Antes de pedir o prato, e enquanto este não aparece, o topo da coronha tem de ficar abaixo desta linha, e o árbitro verifica-o. O mesmo colete serve para {{tm:compak}}, onde a linha não é necessária.",
+    "gear-what-to-buy-first-p4": "Terceiro, um {{term:shooting-vest|colete}}, assim que começar a atirar regularmente. Para {{tm:sporting}} escolha um colete com a {{term:jacket-line|linha}}: uma faixa contrastante {{fact:rules.sporting-jacket-line}} e paralela a ela. Antes de pedir o prato, e enquanto este não aparece, o topo da {{term:stock|coronha}} tem de ficar abaixo desta linha, e o árbitro verifica-o. O mesmo colete serve para {{tm:compak}}, onde a linha não é necessária.",
     "gear-what-to-buy-first-p5": "Depois: a arma, uma {{term:cartridge-bag|bolsa de cartuchos}}, uma {{term:hard-case|mala rígida}}, {{term:electronic-ear-muffs|abafadores eletrónicos}} e lentes extra. Não compre a arma antes de algumas aulas: o treinador ajuda a ver que modelo e medidas lhe convêm e sugere uma {{term:gun-fit|adaptação da coronha}}. Mais: {{lesson:gun-first-gun}}.",
     "gear-what-to-buy-first-p7": "A compra, a guarda e o transporte de uma arma são regulados pela lei do seu país, por isso informe-se sobre as licenças com antecedência.",
     "gear-what-to-buy-first-p6": "Não corra atrás de peças caras: equipamento caro não substitui as aulas com um treinador. Gaste dinheiro em treino e cartuchos, e melhore o equipamento quando souber exatamente o que precisa."
@@ -63,7 +67,7 @@
         "c": "No primeiro dia no campo",
         "d": "Sempre que houver um bom saldo na loja"
       },
-      "explain": "O treinador ajuda a escolher o modelo e as medidas, e a lei diz-lhe de que licenças precisa."
+      "explain": "O {{term:coach|treinador}} ajuda a escolher o modelo e as medidas, e a lei diz-lhe de que licenças precisa."
     },
     "gear-what-to-buy-first-q3": {
       "q": "Que colete serve para as duas disciplinas?",

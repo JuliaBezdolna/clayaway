@@ -41,10 +41,10 @@
   "body": {
     "cartridges-lead-and-steel-p1": "Le plomb traditionnel est le {{term:lead-shot|plomb}}. Le plomb est lourd, donc une bille garde bien sa vitesse et son énergie ; il est aussi tendre, donc ménage les canons et les chokes. Le règlement FITASC du {{tm:sporting}} et du {{tm:compak}} est écrit pour le plomb. Il autorise {{fact:gear.fitasc-shot-load}}, {{fact:gear.fitasc-shot-diameter}}.",
     "cartridges-lead-and-steel-p2": "Mais le plomb est toxique pour l'environnement, surtout pour les oiseaux d'eau et l'eau elle-même. De plus en plus de stands et de pays le restreignent donc, et les règles changent souvent. Avant un voyage, vérifiez la loi du pays et les règles du stand.",
-    "cartridges-lead-and-steel-p3": "Les {{term:steel-shot|billes d'acier}} sont le remplacement sans plomb le plus courant. Une bille d'acier est {{fact:gear.steel-vs-lead-weight}} et beaucoup plus dure. Elle perd donc sa vitesse plus vite et ricoche davantage sur les surfaces dures.",
+    "cartridges-lead-and-steel-p3": "Les {{term:steel-shot|billes d'acier|pl}} sont le remplacement sans plomb le plus courant. Une bille d'acier est {{fact:gear.steel-vs-lead-weight}} et beaucoup plus dure. Elle perd donc sa vitesse plus vite et ricoche davantage sur les surfaces dures.",
     "cartridges-lead-and-steel-p4": "En raison des ricochets, les stands qui autorisent l'acier limitent souvent sa taille, par exemple à 2,5 mm, et parfois aussi la vitesse de la cartouche. Chaque stand fixe ses propres limites : lisez le règlement affiché au club ou demandez à l'organisateur.",
     "cartridges-lead-and-steel-p5": "Le {{term:soft-iron-shot|plomb en fer doux}} est un plomb sans plomb plus tendre que l'acier ordinaire, conçu pour être plus doux pour les canons et les chokes. Les alliages de bismuth et de tungstène sont des options plus coûteuses : plus lourds que l'acier, ils se comportent davantage comme du plomb.",
-    "cartridges-lead-and-steel-p6": "Les billes d'acier ont besoin d'une {{term:wad|bourre}} plastique protectrice ou spéciale, pour que l'acier dur ne raye pas le canon. Certains fabricants proposent des charges d'acier pour le tir sur plateaux avec des bourres biodégradables ou {{term:fibre-wad|fibre}} ; vérifiez ce qu'autorise votre stand. Quels chokes conviennent à l'acier : {{lesson:chokes-steel-shot}}.",
+    "cartridges-lead-and-steel-p6": "Les billes d'acier ont besoin d'un {{term:wad|bourre}} plastique protecteur ou spécial, pour que l'acier dur ne raye pas le canon. Certains fabricants proposent des charges d'acier pour le tir sur plateaux avec des {{term:fibre-wad|bourres biodégradables}} ou {{term:fibre-wad|fibre}} ; vérifiez ce qu'autorise votre stand. Quels chokes conviennent à l'acier : {{lesson:chokes-steel-shot}}.",
     "cartridges-lead-and-steel-p7": "Où le plomb de chasse est déjà interdit ou restreint, en date d'octobre 2026. Les lois changent, donc vérifiez le texte en vigueur avant de voyager.",
     "cartridges-lead-and-steel-p8": "Union européenne : {{fact:gear.eu-wetland-lead}}. L'UE prépare aussi une interdiction plus large du plomb de chasse loin de l'eau. Un comité de l'UE l'a approuvée en juin 2026 ; une fois devenue loi, plusieurs années s'écouleront avant son application, donc vérifiez l'état actuel avant de voyager.",
     "cartridges-lead-and-steel-p9": "Grande-Bretagne : la vente et l'utilisation du plomb de chasse seront interdites pour la plupart des tirs en plein air {{fact:gear.uk-lead-shot-2029}}.",
@@ -66,11 +66,11 @@
   },
   "quiz": {
     "cartridges-lead-and-steel-q1": {
-      "q": "Pourquoi les stands limitent-ils souvent la taille des billes d'acier ?",
+      "q": "Pourquoi les stands limitent-ils souvent la taille des {{term:steel-shot|billes d'acier|pl}} ?",
       "options": {
         "a": "L'acier est plus cher",
         "b": "L'acier dur ricoche davantage",
-        "c": "Un gros plomb n'entre pas dans la douille",
+        "c": "Un gros plomb n'entre pas dans le douille",
         "d": "La FITASC l'exige"
       },
       "explain": "Les billes d'acier dures rebondissent davantage sur les surfaces dures, c'est pourquoi les stands limitent la taille et la vitesse."

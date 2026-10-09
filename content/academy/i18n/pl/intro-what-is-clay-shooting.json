@@ -33,13 +33,13 @@
     "origin": "interpreter-academy"
   },
   "title": "Czym jest strzelanie do rzutków",
-  "summary": "Strzelanie do rzutków to sport, w którym z pomocą strzelby rozbija się lecące rzutki. Wyjaśniamy, jak to działa i co to są {{tm:sporting}} oraz {{tm:compak}}.",
+  "summary": "Strzelanie do rzutków to sport, w którym z pomocą {{term:shotgun|strzelby}} rozbija się lecące {{term:target|rzutki}}. Wyjaśniamy, jak to działa i co to są {{tm:sporting}} oraz {{tm:compak}}.",
   "body": {
-    "sport-what-is-clay-p1": "Strzelectwo do rzutków to sport, w którym strzelec rozbija ze strzelby małe lecące krążki. Krążek nazywa się rzutkiem (target, clay); strzelcy często mówią na niego „bird” (ptak), ale nikt nie strzela do żywych zwierząt. Przepisy FITASC mówią jasno, że strzelanie do żywych zwierząt jest niedozwolone, a bezpieczeństwo i troska o środowisko są na pierwszym miejscu.",
-    "sport-what-is-clay-p2": "Każdy rzutek wyrzuca maszyna zwana wyrzutnią. Jego droga w powietrzu (lub po ziemi) to trajektoria. Broń to strzelba gładkolufowa (gładkolufowa: bez gwintowych rowków w lufie, w przeciwieństwie do karabinu). Wystrzeliwuje nabój pełen małych śrucin zwanych śrutem, które rozchodzą się w niewielką chmurę. Dlatego strzelec kieruje strzelbę tam, dokąd rzutek leci, a nie tam, gdzie jest teraz.",
+    "sport-what-is-clay-p1": "Strzelectwo do rzutków to sport, w którym strzelec rozbija ze {{term:shotgun|strzelby}} małe lecące krążki. Krążek nazywa się {{term:target|rzutkiem}}; strzelcy często mówią na niego „bird” (ptak), ale nikt nie strzela do żywych zwierząt. Przepisy FITASC mówią jasno, że strzelanie do żywych zwierząt jest niedozwolone, a bezpieczeństwo i troska o środowisko są na pierwszym miejscu.",
+    "sport-what-is-clay-p2": "Każdy {{term:target|rzutek}} wyrzuca maszyna zwana {{term:trap|wyrzutnią}}. Jego droga w powietrzu (lub po ziemi) to trajektoria. Broń to strzelba gładkolufowa (gładkolufowa: bez gwintowych rowków w lufie, w przeciwieństwie do karabinu). Wystrzeliwuje {{term:cartridge|nabój}} pełen małych śrucin zwanych śrutem, które rozchodzą się w niewielką chmurę. Dlatego strzelec kieruje strzelbę tam, dokąd rzutek leci, a nie tam, gdzie jest teraz.",
     "intro-what-is-clay-shooting-p2": "Wyrzutnia obraca rzutek i wyrzuca go z ustaloną prędkością i pod ustalonym kątem. Trajektorie bywają bardzo różne: rzutek może lecieć w twoją stronę, od ciebie, przecinać twoją linię z boku, lecieć wysoko albo toczyć się po ziemi.",
     "sport-what-is-clay-p3": "Ten kurs dotyczy dwóch dyscyplin (dwóch odmian strzelania do rzutków) międzynarodowej federacji FITASC. Parcours de Chasse – Sporting™ (w skrócie Sporting™) naśladuje polowanie. Jej wyrzutnie są często skryte albo zasłonięte krzewami i drzewami, a rzutki lecą jak kuropatwa, kaczka czy bażant, albo toczą się jak zając. {{tm:compak}} to wersja zwarta: ta sama różnorodność rzutków, ale na jednym małym polu z pięcioma stanowiskami w linii i sześcioma wyrzutniami.",
-    "sport-what-is-clay-p5": "Trafienie widać od razu: rzutek pęka albo odpada od niego przynajmniej widoczny kawałek. Ta jasność sprawia, że sport łatwo się ogląda, a tobie łatwo go śledzić od pierwszego dnia.",
+    "sport-what-is-clay-p5": "Trafienie widać od razu: rzutek pęka albo odpada od niego przynajmniej {{term:visible-piece|widoczny kawałek}}. Ta jasność sprawia, że sport łatwo się ogląda, a tobie łatwo go śledzić od pierwszego dnia.",
     "intro-what-is-clay-shooting-p5": "Ten sport wyrósł z polowania. Strzelcy kiedyś trenowali na żywych ptakach; od końca XIX wieku zaczęły je zastępować rzutki gliniane. Dziś strzelanie do rzutków jest samodzielnym sportem, z przepisami, sędziami i międzynarodowymi zawodami. Więcej o historii: {{lesson:history-live-birds-to-clays}}.",
     "intro-what-is-clay-shooting-p6": "Można strzelać czysto dla przyjemności albo startować w zawodach. Wiele osób przyjeżdża na strzelnicę, by spędzić dzień na świeżym powietrzu z przyjaciółmi; niektórzy później biorą udział w zawodach klubowych i mistrzostwach. Dyscypliny porównujemy w lekcji {{lesson:intro-disciplines}}."
   },
@@ -77,7 +77,7 @@
       "explain": "„Bird” to w żargonie strzelców rzutek; przepisy FITASC zabraniają strzelania do żywych zwierząt."
     },
     "sport-what-is-clay-q2": {
-      "q": "Co wystrzeliwuje strzelba?",
+      "q": "Co wystrzeliwuje {{term:shotgun|strzelba}}?",
       "options": {
         "a": "Jeden pocisk",
         "b": "Małą strzałkę",
@@ -106,7 +106,7 @@
       "explain": "Strzela się tylko do sztucznych rzutków wyrzucanych przez wyrzutnię. Strzelanie do żywych zwierząt jest zabronione."
     },
     "intro-what-is-clay-shooting-q2": {
-      "q": "Co to jest wyrzutnia (trap)?",
+      "q": "Co to jest {{term:trap|wyrzutnia}}?",
       "options": {
         "a": "Strzelba z krótką lufą",
         "b": "Sędzia prowadzący stanowisko",
@@ -121,7 +121,7 @@
         "b": "Tak wymaga od wszystkich strzelców sędzia",
         "c": "Dzięki temu lufa nie dotyka rzutka"
       },
-      "explain": "Rzutek się przemieszcza, a śrut potrzebuje czasu, by dolecieć, więc strzelba jest skierowana tam, gdzie rzutek będzie za chwilę."
+      "explain": "Rzutek się przemieszcza, a śrut potrzebuje czasu, by dolecieć, więc {{term:shotgun|strzelba}} jest skierowana tam, gdzie rzutek będzie za chwilę."
     }
   }
 }

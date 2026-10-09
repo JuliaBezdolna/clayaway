@@ -31,15 +31,15 @@
   "title": "Priežiūra ir valymas",
   "summary": "Kaip saugiai valyti šautuvą po šaudymo ir po lietaus, kaip jį laikyti ir kodėl {{tm:sporting}} ir {{tm:compak}} šauliai kasmet užsisako serviso.",
   "body": {
-    "gun-care-p1": "Valymas pradedamas nuo saugos. Įsitikinkite, kad šautuvas neužtaisytas: atidarykite jį ir pažiūrėkite į abu {{term:chamber|šovinio lizdus}}. Nukelkite visus šovinius nuo darbo vietos, kad netyčia neįdėtumėte jų į šautuvą.",
-    "gun-care-p2": "Išardykite šautuvą: nuimkite {{term:fore-end|lovelį}}, tada vamzdžius nuo {{term:receiver|spynos}}. Jei turite keičiamus čokus, išsukite juos {{term:choke-key|čokų raktu}}; jie valomi atskirai (žr. {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p1": "Valymas pradedamas nuo saugos. Įsitikinkite, kad {{term:shotgun|šautuvas}} neužtaisytas: atidarykite jį ir pažiūrėkite į abu {{term:chamber|šovinio lizdus}}. Nukelkite visus šovinius nuo darbo vietos, kad netyčia neįdėtumėte jų į šautuvą.",
+    "gun-care-p2": "Išardykite šautuvą: nuimkite {{term:fore-end|lovelį}}, tada vamzdžius nuo {{term:receiver|spynos}}. Jei turite {{term:multichoke|keičiamus čokus}}, išsukite juos {{term:choke-key|čokų raktu}}; jie valomi atskirai (žr. {{lesson:chokes-pattern-testing-and-care}}).",
     "gun-care-p3": [
       "Vamzdžių kanalus valykite po kiekvienos šaudymo dienos.",
       "Sudrėkinkite juos valymo tirpalu ir kelis kartus pravalykite šepetėliu (bore brush) ant šompolo.",
       "Traukite šompolu švarius audinio gabalėlius (patches), kol jie išeis beveik švarūs.",
       "Baikite labai plonu aliejaus sluoksniu, o prieš kitą šaudymą kanalą nusausinkite."
     ],
-    "gun-care-p4": "Išorinius metalinius paviršius nuvalykite skudurėliu su lašu aliejaus, kad apsaugotumėte juos nuo pirštų atspaudų ir drėgmės. Medinės buožės aliejumi neperšlapinkite: jis įsigeria į medį. Šarnyrą ir vietas, kur vamzdžiai užsifiksuoja spynoje, švelniai patepkite specialiu ginklų tepalu.",
+    "gun-care-p4": "Išorinius metalinius paviršius nuvalykite skudurėliu su lašu aliejaus, kad apsaugotumėte juos nuo pirštų atspaudų ir drėgmės. Medinės {{term:stock|buožės}} aliejumi neperšlapinkite: jis įsigeria į medį. Šarnyrą ir vietas, kur {{term:barrel|vamzdžiai}} užsifiksuoja spynoje, švelniai patepkite specialiu ginklų tepalu.",
     "gun-care-p5": "Po lietaus šautuvą iš karto nusausinkite – šaudykloje ar viešbutyje. Nepalikite drėgno šautuvo per naktį {{term:gun-slip|minkštame dėkle}} ar uždarytame {{term:hard-case|lagamine}}: drėgmė ten lieka ilgai, ir atsiranda rūdys. Nusausinkite, nuvalykite, patepkite.",
     "gun-care-p6": "Laikykite šautuvą sausą, seife arba taip, kaip reikalauja jūsų šalies įstatymas; daug įstatymų taip pat prašo šovinius laikyti atskirai. Daug ginklininkų pataria laikyti šautuvą horizontaliai arba vamzdžio žiotimis žemyn, kad aliejus netekėtų į medinę buožę. Nenaudokite plieninės vatos ar šlifuojamųjų priemonių – jos subraižo dangą.",
     "gun-care-p7": "Kartą per metus arba po didelio šūvių skaičiaus nuvežkite šautuvą {{term:gunsmith|ginklininkui}} serviso. Po sudėjimo nebandykite šautuvo varžybų šaudymo vietoje. {{tm:sporting}} ir {{tm:compak}} {{term:gun-test|bandomasis šūvis}} šaudomas tik atskirame bandymo stende, jei šaudykla jį turi."
@@ -59,9 +59,9 @@
       "q": "Ką privaloma padaryti pirmiausia prieš valant šautuvą?",
       "options": {
         "a": "Patepti šarnyrą ir kablius",
-        "b": "Išsukti abu čokus",
+        "b": "Išsukti abu {{term:choke|čokus}}",
         "c": "Patikrinti, ar šautuvas neužtaisytas",
-        "d": "Nuimti buožės padą"
+        "d": "Nuimti {{term:recoil-pad|buožės padą}}"
       },
       "explain": "Sauga pirmiausia: atidarykite šautuvą ir patikrinkite abu šovinio lizdus."
     },

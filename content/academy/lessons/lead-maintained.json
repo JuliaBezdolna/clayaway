@@ -49,7 +49,7 @@
   },
   "summary": {
     "en": "How maintained lead works step by step on a crosser, which targets it often suits, and its typical fault: measuring the gap.",
-    "uk": "Як працює постійний винос (maintained lead) крок за кроком на поперечній мішені, яким мішеням він часто пасує і в чому його типова помилка — «міряти» проміжок."
+    "uk": "Як працює {{term:maintained-lead|постійний винос}} крок за кроком на поперечній мішені, яким мішеням він часто пасує і в чому його типова помилка — «міряти» проміжок."
   },
   "body": [
     {
@@ -57,7 +57,7 @@
       "t": "p",
       "core": true,
       "en": "{{term:maintained-lead|Maintained lead}} (in the US: sustained lead) keeps the muzzles in front of the target from the start to the shot. Here is how it looks, step by step, on a {{term:crosser|crosser}} (a target flying across in front of you):",
-      "uk": "{{term:maintained-lead|Постійний винос}} (maintained lead, у США — sustained lead) тримає стволи попереду мішені від початку і до пострілу. Ось як це виглядає крок за кроком на {{term:crosser|поперечній мішені}} (мішені, що летить упоперек перед вами):"
+      "uk": "{{term:maintained-lead|Постійний винос}}, у США — sustained lead, тримає стволи попереду мішені від початку і до пострілу. Ось як це виглядає крок за кроком на {{term:crosser|поперечній мішені}}, що летить упоперек перед вами:"
     },
     {
       "k": "lead-maintained-p2",
@@ -72,10 +72,10 @@
       ],
       "uk": [
         "Старт: стволи чекають у {{term:hold-point|точці утримання}} далеко на лінії польоту, щоб мішень летіла їм назустріч; очі дивляться назад, у бік {{term:pick-up-point|точки підхоплення}}.",
-        "Вхід: коли мішень наближається, рушниця рушає, і стволи виходять на лінію перед мішенню, а не позаду; це {{term:insertion-point|точка входу}} (insertion point).",
+        "Вхід: коли мішень наближається, рушниця рушає, і стволи виходять на лінію перед мішенню, а не позаду; це {{term:insertion-point|точка входу}}.",
         "Ведення: спершу стволи рухаються трохи повільніше за мішень, і вона сама наближається, доки проміжок не стане таким, як вам треба. Далі ведіть стволи зі швидкістю мішені — проміжок більше не змінюється.",
         "Постріл: спуск натискають, коли проміжок правильний, а рушниця ще рухається.",
-        "Після пострілу рушниця не зупиняється ({{term:follow-through|продовження руху}})."
+        "Після пострілу рушниця не зупиняється: це {{term:follow-through|продовження руху}}."
       ]
     },
     {
@@ -209,7 +209,7 @@
       "k": "lead-maintained-q1",
       "q": {
         "en": "In maintained lead, where do the muzzles join the target's line?",
-        "uk": "Де в maintained lead стволи виходять на лінію мішені?"
+        "uk": "Де в {{term:maintained-lead|постійному виносі}} стволи виходять на лінію мішені?"
       },
       "options": [
         {
@@ -236,14 +236,14 @@
       "correct": "c",
       "explain": {
         "en": "The muzzles are inserted ahead of the target and stay ahead; behind is swing-through, on the target is pull-away.",
-        "uk": "Стволи виходять попереду мішені й там лишаються; позаду — це swing-through, на мішені — pull-away."
+        "uk": "Стволи виходять попереду мішені й там лишаються; позаду — це {{term:swing-through|протяжка}}, на мішені — {{term:pull-away|вихід з мішені}}."
       }
     },
     {
       "k": "lead-maintained-q2",
       "q": {
         "en": "What is the typical fault of maintained-lead shooters?",
-        "uk": "Яка типова помилка стрільців, що користуються maintained lead?"
+        "uk": "Яка типова помилка стрільців, що користуються {{term:maintained-lead|постійним виносом}}?"
       },
       "options": [
         {
@@ -277,7 +277,7 @@
       "k": "lead-maintained-q3",
       "q": {
         "en": "For which target is maintained lead often recommended?",
-        "uk": "Для якої мішені часто радять maintained lead?"
+        "uk": "Для якої мішені часто радять {{term:maintained-lead|постійний винос}}?"
       },
       "options": [
         {

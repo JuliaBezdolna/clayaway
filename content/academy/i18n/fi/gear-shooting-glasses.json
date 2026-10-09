@@ -46,10 +46,10 @@
     "gear-shooting-glasses-p3": "{{term:lens-tint|Linssin väri}} ei tee sinusta osuvampaa ampujaa, mutta se voi auttaa näkemään kiekon paremmin tiettyä taustaa vasten. Monet ampujat käyttävät keltaista sateisella säällä, sumussa ja hämärässä, ja oranssia yleiskäyttöön. Violetti voi tehdä oranssin kiekon kirkkaammaksi puita ja ruohoa vasten, ja harmaa savunvärinen vähentää kirkkautta voimakkaassa auringossa muuttamatta värejä.",
     "gear-shooting-glasses-p4": "On myös kirkkaita linssejä erittäin pimeälle säälle ja iltavalolle. Väri on mukavuuskysymys; suoja tulee iskunkestävästä linssistä. Aloittelijalle riittävät lasit vaihdettavilla linsseillä: kirkas tai vaaleankeltainen plus yksi tummempi linssi. Ammu ensin, huomaa, missä valossa sinulla on vaikeuksia, ja lisää linsseja sitten.",
     "gear-shooting-glasses-p5": "Ampumalaseilla on erityinen muoto. Kun nostat aseen, pääsi kallistuu hieman tukkia kohti, ja katsot linssin yläosan läpi. Siksi kehyksissä on korkea nenäsilta (osa, joka lepää nenällä) ja suuret linssit, jotta näkökenttä ei rajoitu.",
-    "health-eyes-vision-p4": "Jos käytät silmälaseja näön vuoksi, on kaksi päävaihtoehtoa. Yksi on ampumalasit diopterilinsseillä, tilattuna optikolta, joka tuntee urheiluoptiikan. Toinen on kehys, jossa on erillinen {{term:prescription-insert|diopterivastake}} (prescription insert) vaihdettavien värillisten linssien takana.",
+    "health-eyes-vision-p4": "Jos käytät silmälaseja näön vuoksi, on kaksi päävaihtoehtoa. Yksi on ampumalasit diopterilinsseillä, tilattuna optikolta, joka tuntee urheiluoptiikan. Toinen on kehys, jossa on erillinen {{term:prescription-insert|diopterivastake}} vaihdettavien värillisten linssien takana.",
     "health-eyes-vision-p8": "Arkiset silmälasit sopivat vain, jos niiden linssit on sertifioitu iskunkestäviksi ja ne korjaavat kaukonäön. Keskustele valinnasta silmälääkärin tai optikon kanssa ennen ostoa.",
-    "health-eyes-vision-p5": "Ampuja katsoo kiekkoa kaukaa, niin tarkka kaukonäkö on tärkein. Noin 40 ikävuoden jälkeen monille kehittyy ikänäkö (presbyopia): lähelle näkeminen vaikeutuu, ja {{term:bead|jyvä}} saattaa näkyä epätarkkana.",
-    "gear-shooting-glasses-bead-coaches": "Monet valmentajat sanovat, että tämä merkitsee vähemmän kuin näyttää, koska katseen pitäisi olla kiekossa, ei jyvässä.",
+    "health-eyes-vision-p5": "Ampuja katsoo kiekkoa kaukaa, niin tarkka kaukonäkö on tärkein. Noin 40 ikävuoden jälkeen monille kehittyy {{term:presbyopia|ikänäkö}}: lähelle näkeminen vaikeutuu, ja {{term:bead|jyvä}} saattaa näkyä epätarkkana.",
+    "gear-shooting-glasses-bead-coaches": "Monet {{term:coach|valmentajat}} sanovat, että tämä merkitsee vähemmän kuin näyttää, koska katseen pitäisi olla kiekossa, ei jyvässä.",
     "health-eyes-vision-p7": "Tarkistuta näkösi säännöllisesti, varsinkin jos kiekkoja on tullut vaikeampi nähdä hämärässä tai kirkkaassa valossa. Jos alat iän myötä osumaan harhaan yhteen sivuun, kannattaa myös tarkistaa {{term:master-eye|hallitseva silmäsi}} uudelleen: katso {{lesson:technique-master-eye}}."
   },
   "note": {},
@@ -87,9 +87,9 @@
       "q": "Mihin monet ampujat käyttävät keltaista linssiä?",
       "options": {
         "a": "Kirkkaaseen keskipäivän aurinkoon",
-        "b": "Jotta kiekko näyttäisi suuremmalta",
+        "b": "Jotta {{term:target|kiekko}} näyttäisi suuremmalta",
         "c": "Kontrastiin himmeässä valossa ja hämärässä",
-        "d": "Suojaamaan silmiä rekyyliltä"
+        "d": "Suojaamaan silmiä {{term:recoil|rekyyliltä}}"
       },
       "explain": "Keltainen linssi voi parantaa kontrastia, kun valoa on vähän."
     },
@@ -104,7 +104,7 @@
       "explain": "Nämä merkinnät osoittavat, että lasit täyttävät silmänsuojauksen standardin, Euroopassa ja Yhdysvalloissa."
     },
     "health-eyes-vision-q2": {
-      "q": "Mikä on diopterivastake (prescription insert)?",
+      "q": "Mikä on {{term:prescription-insert|diopterivastake}}?",
       "options": {
         "a": "Diopterilinssi värillisten linssien takana",
         "b": "Tarra aseen jyvään",
@@ -121,7 +121,7 @@
         "c": "Hallitseva silmä, valmentajan kanssa",
         "d": "Aseesi piippujen pituus"
       },
-      "explain": "Silmän hallitsevuus voi heikentyä tai muuttua iän myötä, mikä voi siirtää osumia; tarkista se valmentajan kanssa."
+      "explain": "{{term:eye-dominance|Silmän hallitsevuus}} voi heikentyä tai muuttua iän myötä, mikä voi siirtää osumia; tarkista se valmentajan kanssa."
     }
   }
 }

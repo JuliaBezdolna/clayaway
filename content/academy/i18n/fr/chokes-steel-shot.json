@@ -28,11 +28,11 @@
     "origin": null
   },
   "title": "Les billes d'acier et les chokes",
-  "summary": "Les billes d'acier sont dures et ne se compriment pas dans le choke, donc leur gerbe est plus serrée. Quels chokes leur conviennent, comment lire les poinçons, et ce que cela signifie sur les stands de {{tm:sporting}} et {{tm:compak}} qui exigent l'acier.",
+  "summary": "Les {{term:steel-shot|billes d'acier|pl}} sont dures et ne se compriment pas dans le choke, donc leur {{term:pattern|gerbe}} est plus serrée. Quels chokes leur conviennent, comment lire les poinçons, et ce que cela signifie sur les stands de {{tm:sporting}} et {{tm:compak}} qui exigent l'acier.",
   "body": {
-    "chokes-steel-shot-p1": "Certains stands, surtout près de l'eau ou dans des zones protégées, n'autorisent que des plombs sans plomb, le plus souvent de l'{{term:steel-shot|acier}} ou du {{term:soft-iron-shot|fer doux}}. Le plomb lui-même est traité dans {{lesson:cartridges-lead-and-steel}}. Ici, nous regardons ce que cela signifie pour les chokes.",
-    "chokes-steel-shot-p2": "Un plomb {{term:lead-shot|de plomb}} est mou et se déforme légèrement en passant dans le choke. Un plomb d'acier est dur et ne se comprime pas. Le même choke donne donc une {{term:pattern|gerbe}} nettement plus serrée avec de l'acier, et beaucoup de tireurs montent un choke un cran plus ouvert : 1/4 au lieu de 1/2.",
-    "chokes-steel-shot-p3": "L'acier dur sollicite aussi davantage le choke. Beaucoup de fabricants et de distributeurs conseillent des chokes pas plus serrés que {{term:modified|modified}} (1/2) avec des charges d'acier standard. Pour l'acier haute performance (le type plus puissant, expliqué plus bas), certains suggèrent 1/4 au maximum. Un {{term:full-choke|full choke}} avec de l'acier est généralement déconseillé. La limite exacte dépend du fusil : lisez le manuel du fabricant.",
+    "chokes-steel-shot-p1": "Certains stands, surtout près de l'eau ou dans des zones protégées, n'autorisent que des plombs sans plomb, le plus souvent du {{term:steel-shot|acier}} ou du {{term:soft-iron-shot|fer doux}}. Le plomb lui-même est traité dans {{lesson:cartridges-lead-and-steel}}. Ici, nous regardons ce que cela signifie pour les chokes.",
+    "chokes-steel-shot-p2": "Un plomb {{term:lead-shot|de plomb}} est mou et se déforme légèrement en passant dans le choke. Un plomb d'acier est dur et ne se comprime pas. Le même choke donne donc un {{term:pattern|gerbe}} nettement plus serré avec de l'acier, et beaucoup de tireurs montent un choke un cran plus ouvert : 1/4 au lieu de 1/2.",
+    "chokes-steel-shot-p3": "L'acier dur sollicite aussi davantage le choke. Beaucoup de fabricants et de distributeurs conseillent des chokes pas plus serrés que {{term:modified|demi-choke}}, soit 1/2, avec des charges d'acier standard. Pour l'acier haute performance (le type plus puissant, expliqué plus bas), certains suggèrent 1/4 au maximum. Un {{term:full-choke|full choke}} avec de l'acier est généralement déconseillé. La limite exacte dépend du fusil : lisez le manuel du fabricant.",
     "chokes-steel-shot-p4": "Les chokes conçus pour l'acier portent souvent la mention « Steel » ou « Steel OK », et certains portent « Lead only ». Si un choke n'a aucune marque et que vous n'avez pas de manuel, demandez à un {{term:gunsmith|armurier}}.",
     "chokes-steel-shot-p5": [
       "Les vieux canons à parois minces, surtout avec un full choke {{term:fixed-choke|fixe}}, peuvent être endommagés par l'acier : un renflement en anneau peut apparaître près de la bouche.",
@@ -54,7 +54,7 @@
   },
   "quiz": {
     "chokes-steel-shot-q1": {
-      "q": "Pourquoi les billes d'acier donnent-elles une gerbe plus serrée que le plomb à travers le même choke ?",
+      "q": "Pourquoi les {{term:steel-shot|billes d'acier|pl}} donnent-elles un {{term:pattern|gerbe}} plus serré que le plomb à travers le même choke ?",
       "options": {
         "a": "L'acier est plus lourd que le plomb",
         "b": "Les billes d'acier, dures, ne se compriment pas dans le choke",
@@ -64,7 +64,7 @@
       "explain": "Le plomb tendre se déforme légèrement dans le choke ; l'acier dur ne se déforme pas, et reste donc plus compact."
     },
     "chokes-steel-shot-q2": {
-      "q": "Quel choke est généralement déconseillé avec des billes d'acier ?",
+      "q": "Quel choke est généralement déconseillé avec des {{term:steel-shot|billes d'acier|pl}} ?",
       "options": {
         "a": "Cylindre",
         "b": "Improved cylinder (1/4)",
@@ -81,10 +81,10 @@
         "c": "En tirant un coup et en regardant",
         "d": "Pas besoin : tous les chokes modernes le sont"
       },
-      "explain": "Cherchez le marquage sur le choke et vérifiez le manuel ; en cas de doute, demandez à un armurier."
+      "explain": "Cherchez le marquage sur le choke et vérifiez le manuel ; en cas de doute, demandez à un {{term:gunsmith|armurier}}."
     },
     "chokes-steel-shot-q4": {
-      "q": "Quelles cartouches d'acier nécessitent un fusil portant le poinçon fleur de lys pour billes d'acier ?",
+      "q": "Quelles cartouches d'acier nécessitent un fusil portant le poinçon fleur de lys pour {{term:steel-shot|billes d'acier}} ?",
       "options": {
         "a": "Les charges d'acier standard pour le tir sur plateaux",
         "b": "Les charges d'acier haute performance",

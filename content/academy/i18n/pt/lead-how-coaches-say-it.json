@@ -35,12 +35,12 @@
   },
   "title": "Como os treinadores falam do avanço e como traduzi-lo",
   "body": {
-    "lead-how-coaches-say-it-picture": "O espaço que o atirador vê na boca do cano, o {{term:perceived-lead|avanço percebido}}, é muito menor do que a distância real no ar. É mais uma razão para manter as palavras do treinador em vez de as transformar em metros.",
-    "lead-how-coaches-say-it-p1": "Primeiro, as unidades. Os treinadores britânicos e americanos falam do {{term:lead|avanço}} em pés e jardas: «give it four foot» (quatro pés, na forma britânica), «two feet in front» (dois pés à frente). Os treinadores da Europa continental usam muitas vezes metros. Um pé são {{fact:stand-talk.unit-foot}} e uma jarda {{fact:stand-talk.unit-yard}}. Mas um número de avanço não é uma medição: descreve a distância que o treinador quer que o atirador veja entre os canos e o prato no momento do tiro, a sua «imagem». Por isso mantenha o número e a unidade dele. Não os converta a meio de uma instrução. Se o atirador perguntar, explique por alto entre pratos.",
+    "lead-how-coaches-say-it-picture": "O espaço que o atirador vê na {{term:muzzle|boca do cano}}, o {{term:perceived-lead|avanço percebido}}, é muito menor do que a distância real no ar. É mais uma razão para manter as palavras do treinador em vez de as transformar em metros.",
+    "lead-how-coaches-say-it-p1": "Primeiro, as unidades. Os treinadores britânicos e americanos falam do {{term:lead|avanço}} em pés e jardas: «give it four foot» (quatro pés, na forma britânica), «two feet in front» (dois pés à frente). Os treinadores da Europa continental usam muitas vezes metros. Um pé são {{fact:stand-talk.unit-foot}} e uma jarda {{fact:stand-talk.unit-yard}}. Mas um número de avanço não é uma medição: descreve a distância que o {{term:coach|treinador}} quer que o atirador veja entre os canos e o prato no momento do tiro, a sua «imagem». Por isso mantenha o número e a unidade dele. Não os converta a meio de uma instrução. Se o atirador perguntar, explique por alto entre pratos.",
     "lead-how-coaches-say-it-p2": "Larguras de prato: «half a bird» (meio prato), «a bird's width» (a largura de um prato), «a clay's length» (o comprimento de um prato). Aqui «bird» significa o prato, não uma ave verdadeira. Larguras de cano: «a barrel's width» ou «two barrels» referem-se à distância vista na boca do cano. Cuidado: «two barrels» também pode ser sobre a arma. Se os dois canos dispararam ao mesmo tempo (a arma «doubled»), é um {{term:double-discharge|disparo duplo}}. «Two barrels» também pode significar que o prato foi atirado com os dois canos. Se não for claramente sobre o avanço, pergunte.",
     "lead-how-coaches-say-it-p3": "Palavras relativas: «more» (mais), «less» (menos), «a touch more» (um pouco mais), «double it» (o dobro), «half that» (metade disso), «same lead» (o mesmo avanço). Mantenha-as relativas e não invente um número. «Same lead» é importante: diz ao atirador para não acrescentar avanço depois de uma falha.",
     "lead-how-coaches-say-it-p4": "Direções: «in front» (à frente) e «behind» (atrás) referem-se ao sentido do voo do prato. «Over» é o mesmo que «high» (alto), e «under» o mesmo que «low» (baixo). Os treinadores usam um {{term:clock-face|mostrador de relógio}} de duas formas. Sobre o prato, as 12 horas são em cima e as 3 horas à direita, tal como o atirador vê: «you hit it at six» (acertou-lhe às seis) significa o rebordo de baixo. Sobre o campo, as 12 são em frente: «it comes from eleven» (vem das onze) é ligeiramente à esquerda.",
-    "lead-how-coaches-say-it-clock": "A esquerda e a direita sobre o prato só se tornam «à frente» ou «atrás» quando se sabe para onde ele voa. Num prato que voa da direita para a esquerda, uma chumbada às duas horas está acima e atrás dele.",
+    "lead-how-coaches-say-it-clock": "A esquerda e a direita sobre o prato só se tornam «à frente» ou «atrás» quando se sabe para onde ele voa. Num prato que voa da direita para a esquerda, uma {{term:pattern|chumbada}} às duas horas está acima e atrás dele.",
     "lead-how-coaches-say-it-p5": "Método: transmita o número, a unidade, aquilo com que se compara (um prato, um cano) e a direção, com exatidão e de forma breve, no ritmo do treinador. Se algo não for claro, pergunte-lhe numa palavra: «Feet?» (pés?). Tudo isto é para o treino: em competição o {{term:coaching|treino}} é proibido."
   },
   "note": {},
@@ -58,7 +58,7 @@
       "say": "O dobro."
     },
     "lead-how-coaches-say-it-ph4": {
-      "meaning": "O avanço estava certo; a falha veio de parar a arma.",
+      "meaning": "O avanço estava certo; a falha veio de {{term:stopping-the-gun|parar a arma}}.",
       "say": "O mesmo avanço, só não pare a arma."
     },
     "lead-how-coaches-say-it-ph5": {
@@ -79,14 +79,14 @@
   },
   "quiz": {
     "lead-how-coaches-say-it-q1": {
-      "q": "O treinador diz «Give it four foot» a um atirador que pensa em metros. O que diz?",
+      "q": "O {{term:coach|treinador}} diz «Give it four foot» a um atirador que pensa em metros. O que diz?",
       "options": {
         "a": "«Dê-lhe 1,22 metros»",
         "b": "«Dê-lhe cerca de um metro»",
         "c": "«Dê-lhe quatro pés»",
         "d": "«Dê-lhe quatro metros»"
       },
-      "explain": "Um número de avanço é a imagem do treinador; convertê-lo a meio de uma instrução acrescenta uma falsa precisão ou erros, e «quatro metros» muda completamente o sentido. Se o atirador perguntar, explique por alto entre pratos."
+      "explain": "Um número de {{term:lead|avanço}} é a imagem do treinador; convertê-lo a meio de uma instrução acrescenta uma falsa precisão ou erros, e «quatro metros» muda completamente o sentido. Se o atirador perguntar, explique por alto entre pratos."
     },
     "lead-how-coaches-say-it-q2": {
       "q": "O que significa «half a bird»?",
@@ -96,10 +96,10 @@
         "c": "Uma ave pequena a voar perto da máquina",
         "d": "Metade da série"
       },
-      "explain": "No tiro aos pratos, «bird» significa o prato, por isso o treinador pede um avanço de meia largura de prato."
+      "explain": "No tiro aos pratos, «bird» significa o prato, por isso o {{term:coach|treinador}} pede um {{term:lead|avanço}} de meia largura de prato."
     },
     "lead-how-coaches-say-it-q3": {
-      "q": "O treinador diz «Same lead, keep it moving». Porque tem «same lead» de ser traduzido?",
+      "q": "O {{term:coach|treinador}} diz «Same lead, keep it moving». Porque tem «same lead» de ser traduzido?",
       "options": {
         "a": "É uma voz usada pelo árbitro",
         "b": "Senão o atirador pode acrescentar avanço e falhar",
@@ -109,7 +109,7 @@
       "explain": "Depois de uma falha, a maioria dos atiradores acrescenta avanço por iniciativa própria; «same lead» diz-lhes que a causa foi a arma parada, não o avanço."
     },
     "lead-how-coaches-say-it-q4": {
-      "q": "Um prato voa da direita para a esquerda. O treinador diz «You were at two o'clock». Por onde passou a chumbada?",
+      "q": "Um prato voa da direita para a esquerda. O {{term:coach|treinador}} diz «You were at two o'clock». Por onde passou a {{term:pattern|chumbada}}?",
       "options": {
         "a": "Baixo e à frente do prato",
         "b": "Baixo e atrás do prato",
@@ -119,5 +119,5 @@
       "explain": "Duas horas sobre o prato é acima e à direita. Num prato que voa da direita para a esquerda, o seu lado direito está atrás dele, por isso a chumbada passou alta e atrás."
     }
   },
-  "summary": "Os treinadores descrevem o avanço em pés, larguras de prato, larguras de cano e posições do relógio. Como entender cada uma e transmiti-la sem alterar a imagem do treinador."
+  "summary": "Os treinadores descrevem o {{term:lead|avanço}} em pés, larguras de prato, larguras de cano e posições do relógio. Como entender cada uma e transmiti-la sem alterar a imagem do {{term:coach|treinador}}."
 }

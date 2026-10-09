@@ -28,14 +28,14 @@
   "title": "Dvi disciplinos",
   "summary": "Trumpas gidas apie {{tm:sporting}} ir {{tm:compak}}: kas jose bendra ir kuo jos skiriasi.",
   "body": {
-    "intro-disciplines-p1": "{{tm:sporting}} imituoja medžioklę. {{term:shooting-stand|Šaudymo vietos}} – pažymėti taškai, iš kurių šaudoma – išdėstytos natūralioje vietovėje: laukuose, prie miško, ant šlaitų. Taikiniai skrenda taip, kaip skristų kurapka, antis ar fazanas, arba rieda kaip triušis. Kiekvienas {{term:layout|išdėstymas}} (layout), tai yra grupė šaudymo vietų, duoda {{fact:targets.sporting-layout-targets}} (dubletas yra du taikiniai, tad dar 10 papildomai). Du {{term:double|dubleto}} taikiniai skrenda kartu arba vienas po kito.",
-    "intro-disciplines-p2": "{{tm:compak}} yra kompaktiška versija. Visa tai vyksta viename lauke, kuriame yra {{fact:basics.compak-field}}. Šaulys pereina visus penkis numerius ir kiekviename sušaudo 5 taikinius – 25 per {{term:round|seriją}}. Compak laukui reikia nedaug vietos, todėl klubui nesudėtinga jį įrengti.",
+    "intro-disciplines-p1": "{{tm:sporting}} imituoja medžioklę. {{term:shooting-stand|Šaudymo vietos}} – pažymėti taškai, iš kurių šaudoma – išdėstytos natūralioje vietovėje: laukuose, prie miško, ant šlaitų. Taikiniai skrenda taip, kaip skristų kurapka, antis ar fazanas, arba rieda kaip {{term:rabbit|triušis}}. Kiekvienas {{term:layout|išdėstymas}}, tai yra grupė šaudymo vietų, duoda {{fact:targets.sporting-layout-targets}} (dubletas yra du taikiniai, tad dar 10 papildomai). Du {{term:double|dubleto}} taikiniai skrenda kartu arba vienas po kito.",
+    "intro-disciplines-p2": "{{tm:compak}} yra kompaktiška versija. Visa tai vyksta viename lauke, kuriame yra {{fact:basics.compak-field}}. Šaulys pereina visus penkis numerius ir kiekviename iššauna po 5 taikinius – 25 per {{term:round|seriją}}. Compak laukui reikia nedaug vietos, todėl klubui nesudėtinga jį įrengti.",
     "intro-disciplines-cmp": {
-      "sporting": "Trasą einate nuo vienos šaudymo vietos iki kitos, ir kiekvienoje – savi taikiniai. Dubletas gali būti {{term:double-on-report|pagal šūvio garsą}} (pirmas šūvis paleidžia antrą taikinį) arba {{term:simultaneous-double|vienalaikis}}, kai abu taikiniai skrenda tuo pačiu metu. {{term:rafale-double|Savaiminis dubletas}} – du taikiniai iš tos pačios mašinėlės, vienas iškart po kito.",
+      "sporting": "Trasą einate nuo vienos šaudymo vietos iki kitos, ir kiekvienoje – savi taikiniai. Dubletas gali būti {{term:double-on-report|pagal šūvio garsą}} – pirmas šūvis paleidžia antrą taikinį – arba {{term:simultaneous-double|vienalaikis}}, kai abu taikiniai skrenda tuo pačiu metu. {{term:rafale-double|Savaiminis dubletas}} – du taikiniai iš tos pačios {{term:trap|mašinėlės}}, vienas iškart po kito.",
       "compak": "Likote viename lauke ir po kiekvieno savo ėjimo pereinate vienu numeriu į dešinę. Dubletas būna {{term:double-on-report|pagal šūvio garsą}} arba {{term:simultaneous-double|vienalaikis}}, kai abu taikiniai skrenda tuo pačiu metu."
     },
     "intro-disciplines-p3": "Tarptautinės varžybos abiejose disciplinose dažniausiai apima {{fact:basics.international-targets}}. Abiejose į {{term:single-target|pavienį taikinį}} leidžiama šauti du kartus: jei pirmas šūvis nepataiko, antru jį vis tiek galima sudaužyti.",
-    "intro-disciplines-p6": "Abi disciplinos priklauso {{term:fitasc|FITASC}} – tarptautinei federacijai, kuri rašo jų taisykles. Pagrindai bendri: sauga, {{term:gun-mount|šautuvo atrėmimas į petį}} (ginklo pakėlimas prie skruosto ir pečio) ir taikinio „skaitymas“."
+    "intro-disciplines-p6": "Abi disciplinos priklauso {{term:fitasc|FITASC}} – tarptautinei federacijai, kuri rašo jų taisykles. Pagrindai bendri: sauga, {{term:gun-mount|šautuvo atrėmimas į petį}} – ginklo pakėlimas prie skruosto ir pečio – ir taikinio „skaitymas“."
   },
   "note": {},
   "phrases": {},
@@ -48,7 +48,7 @@
   "did_you_know": "{{tm:compak}} {{fact:community.compak-created}}.",
   "quiz": {
     "intro-disciplines-q1": {
-      "q": "Kiek taikinių duoda vienas {{tm:sporting}} išdėstymas (layout)?",
+      "q": "Kiek taikinių duoda vienas {{term:layout|išdėstymas}} {{tm:sporting}} rungtyje?",
       "options": {
         "a": "10",
         "b": "25",

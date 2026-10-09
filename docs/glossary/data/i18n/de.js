@@ -1923,14 +1923,13 @@ window.GLOSSARY_I18N.de = {
    "conf": "medium"
   },
   "hang-fire": {
-   "term_local": "Versager",
+   "term_local": "Nachbrenner",
    "short": "Ein verzögerter Schuss: Die Patrone zündet einige Zeit nach dem Abziehen. Deshalb wird eine Flinte nach einem Versagen nicht sofort geöffnet.",
    "long": "Ein Nachbrenner ist selten, aber gefährlich: Beim Abziehen passiert nichts, und einen Moment später zündet die Patrone doch. Öffnet man die Flinte in diesem Moment, kann die Hülse nahe Gesicht und Händen zerplatzen. Daher nach jedem Versagen die Flinte im Anschlag halten oder zumindest in eine sichere Richtung richten und warten; viele Ausbilder raten, etwa 30 Sekunden zu warten. Bei FITASC-Wettkämpfen wird die Flinte nach einem Versagen nicht geöffnet und die Sicherung nicht berührt, bis der Schiedsrichter sie geprüft hat, sonst wird die Scheibe als verloren gewertet. Hier decken sich Sicherheits- und Schiedsrichterregeln.",
    "alt": [
-    "Nachbrenner",
     "Spätzündung"
    ],
-   "note": "Rules list 'Versager' (misfire); a delayed shot is 'Nachbrenner'.",
+   "note": "'Versager' is a misfire (the cartridge does not fire); a delayed shot is 'Nachbrenner'.",
    "conf": "medium",
    "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
   },

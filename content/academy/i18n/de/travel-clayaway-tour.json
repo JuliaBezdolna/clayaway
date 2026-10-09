@@ -28,9 +28,13 @@
     "travel-clayaway-tour-q3": "59cd224d",
     "travel-clayaway-tour-q2": "581d0951"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Mit einem Trainer auf einer ClayAway-Tour reisen",
-  "summary": "ClayAway ist ein Service von ClayArena, der gerade entsteht. Ein Trainer oder Veranstalter wird eine Gruppe zusammenstellen, und jeder Schütze wird ein einziges Paket aus Training, Unterkunft, Transfers und einem gemeinsamen Programm kaufen.",
+  "summary": "ClayAway ist ein Service von ClayArena, der gerade entsteht. Ein {{term:coach|Trainer}} oder Veranstalter wird eine Gruppe zusammenstellen, und jeder Schütze wird ein einziges Paket aus Training, Unterkunft, Transfers und einem gemeinsamen Programm kaufen.",
   "body": {
     "travel-clayaway-tour-p1": "Eine Reise selbst zu planen ist interessant, aber aufwendig. ClayArena bereitet einen anderen Weg vor: {{term:clayaway|ClayAway}}-Touren mit einem {{term:coach|Trainer}}. Ein Trainer oder ein Veranstalter wird eine Gruppe von Schützen zusammenstellen, und jeder Teilnehmer wird ein einziges Paket kaufen.",
     "travel-clayaway-tour-p2": "Das Paket soll Training an einem oder mehreren Schießständen, Unterkunft, Transfers und ein gemeinsames Programm umfassen, etwa Abendessen oder Ausflüge. Braucht die Gruppe einen, wird ein {{term:interpreter|Dolmetscher}} dazukommen, der die Fachbegriffe des Sports kennt.",
@@ -38,7 +42,7 @@
     "travel-clayaway-tour-p3": "Der größte Vorteil wird ein Trainer sein, der jeden Tag an Ihrer Seite ist. Ein Trainer, der die Stände kennt, kann mit der Technik für {{tm:sporting}} oder {{tm:compak}} helfen und mit den Scheiben, die Sie dort erwarten. Eine Gruppe mit demselben Hobby macht die Reise außerdem unterhaltsamer.",
     "travel-clayaway-tour-p4": "Die Zeiten im Tourprogramm werden in der Zeitzone des Austragungsorts angegeben, mit Angabe der Zone. Prüfen Sie nach dem Flug, dass Ihr Telefon die Ortszeit anzeigt. Lange Flüge nach Osten verlangen einen Puffertag: siehe {{lesson:travel-jet-lag}}.",
     "travel-clayaway-tour-p5": "Die Flintendokumente bleiben in der Verantwortung jedes Schützen. Der Tourveranstalter wird mit einem {{term:invitation-letter|Einladungsschreiben}} und Rat zu örtlichen Regeln helfen können, doch die Genehmigungen beantragt der Besitzer der Flinte. Ist die Mitnahme einer Flinte schwierig, fragen Sie, ob sich vor Ort eine mieten lässt. Mehr in {{lesson:travel-gun-in-eu}} und {{lesson:travel-gun-outside-eu}}.",
-    "travel-clayaway-tour-p6": "Umfasst eine Tour einen Wettkampf nach FITASC-Regeln, darf während dessen niemand einen Teilnehmer {{term:coaching|coachen}} ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Der Trainer arbeitet vor und nach dem Wettkampf mit Ihnen, am Stand schießen Sie allein. Ein Dolmetscher gibt dann nur offizielle Informationen weiter, damit das nicht als Coaching gilt. Andere Veranstaltungen können eigene Regeln haben: Lesen Sie das Programm.",
+    "travel-clayaway-tour-p6": "Umfasst eine Tour einen Wettkampf nach FITASC-Regeln, ist während dessen {{term:coaching|Coaching}} verboten ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Der Trainer arbeitet vor und nach dem Wettkampf mit Ihnen, am Stand schießen Sie allein. Ein Dolmetscher gibt dann nur offizielle Informationen weiter, damit das nicht als Coaching gilt. Andere Veranstaltungen können eigene Regeln haben: Lesen Sie das Programm.",
     "nextstep-organising-clayaway-tour-p2": "Für Veranstalter: Veranstalter und Trainer müssen nicht dieselbe Person sein. Der Veranstalter kann der Trainer sein, aber auch ein Manager, ein Verein, ein Schießstand oder eine Agentur. Verantwortlich für die Tour ist der Veranstalter.",
     "nextstep-organising-clayaway-tour-p3": "Jede Tour wird einen eigenen Namen tragen: Trainer oder Ort plus Format, zum Beispiel „Cyprus Shooting & Food Week“. Im Katalog und auf ihrer Karte wird die Tour die Kennzeichnung „ClayAway“ tragen. Der Veranstalter wird Trainer, Stände, Termine, Gruppengröße und Disziplinen festlegen.",
     "nextstep-organising-clayaway-tour-p4": "Planen Sie Hotel, Transfers zu den Ständen und das gemeinsame Programm zusammen. Sprechen die Teilnehmer unterschiedliche Sprachen, laden Sie einen Dolmetscher ein, der die Fachbegriffe des Sports kennt. Geben Sie den Zeitplan in der Zeitzone des Austragungsorts an, mit Angabe der Zone.",
@@ -75,7 +79,7 @@
       "explain": "Veranstalter und Trainer sind unterschiedliche Rollen, auch wenn ein Trainer ebenfalls eine Tour veranstalten kann."
     },
     "travel-clayaway-tour-q3": {
-      "q": "Darf der Tour-Trainer bei einem FITASC-Wettkampf am Stand Tipps geben?",
+      "q": "Darf der {{term:coach|Trainer}} der Tour bei einem FITASC-Wettkampf am Stand Tipps geben?",
       "options": {
         "a": "Ja, weil das zum Paket gehört",
         "b": "Ja, wenn der Schiedsrichter nichts dagegen hat",

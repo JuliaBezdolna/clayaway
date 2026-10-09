@@ -29,9 +29,9 @@
     "origin": null
   },
   "title": "Nazwy czoków, zwężenia i oznaczenia",
-  "summary": "Od cylindra do full: typowe zwężenia w milimetrach i thou, frakcje 1/4–1/2–3/4 oraz oznaczenia gwiazdkami używane w {{tm:sporting}} i {{tm:compak}}. Wartości są orientacyjne i różnią się między producentami.",
+  "summary": "Od cylindra do full: typowe zwężenia w milimetrach i thou, ułamki 1/4–1/2–3/4 oraz oznaczenia gwiazdkami używane w {{tm:sporting}} i {{tm:compak}}. Wartości są orientacyjne i różnią się między producentami.",
   "body": {
-    "gear-chokes-p3": "Nazwy pochodzą z angielskiego, od otwartego do najwęższego: cylinder ({{term:cylinder|walec}}), improved cylinder, light modified, modified, improved modified, full. Europejczycy często mówią o nich frakcjami: quarter — „ćwierć” ({{term:improved-cylinder|improved cylinder}}), half — „pół”, „półczok” ({{term:modified|modified}}), three-quarter — „trzy czwarte” ({{term:improved-modified|improved modified}}) i full — „pełny” ({{term:full-choke|full}}). Wiele włoskich strzelb oznacza czoki {{term:star-marks|gwiazdkami}}, i tam logika jest odwrotna: więcej gwiazdek znaczy bardziej otwarty czok.",
+    "gear-chokes-p3": "Nazwy pochodzą z angielskiego, od otwartego do najwęższego: {{term:cylinder|walec}}, improved cylinder, light modified, modified, improved modified, full. Europejczycy często mówią o nich ułamkami: quarter — „ćwierć”, czyli {{term:improved-cylinder|ćwierćczok}}; half — „pół”, czyli {{term:modified|półczok}}; three-quarter — „trzy czwarte”, czyli {{term:improved-modified|czok 3/4}}; i full — „pełny”, czyli {{term:full-choke|pełny czok}}. Wiele włoskich strzelb oznacza czoki {{term:star-marks|gwiazdkami}}, i tam logika jest odwrotna: więcej gwiazdek znaczy bardziej otwarty czok.",
     "chokes-names-and-marks-p1": "Poniżej typowe {{term:constriction|zwężenia}} dla kalibru 12. Jedno thou to tysięczna cala, czyli około 0,025 mm. Rzeczywiste wartości zależą od producenta, a nawet od przewodu konkretnej lufy.",
     "chokes-names-and-marks-p2": [
       "Cylinder: bez zwężenia, 0 mm.",
@@ -42,7 +42,7 @@
       "Improved modified (IM): około 0,65–0,75 mm (25–30 thou), 3/4.",
       "Full: około 0,9–1 mm (35–40 thou), 1/1 albo po prostu Full. Istnieją też węższe czoki (extra full), ale w strzelaniu do rzutków rzadko są potrzebne."
     ],
-    "chokes-names-and-marks-p5": "Frakcje są wygodne w rozmowie, ale to nie są dokładne milimetry: „1/2” jednego producenta może nieco różnić się od „1/2” innego.",
+    "chokes-names-and-marks-p5": "Ułamki są wygodne w rozmowie, ale to nie są dokładne milimetry: „1/2” jednego producenta może nieco różnić się od „1/2” innego.",
     "chokes-names-and-marks-p6": "Włoscy producenci, na przykład Beretta, używają {{term:star-marks|oznaczenia gwiazdkami}}: pięć gwiazdek dla cylinder, cztery dla improved cylinder (1/4), trzy dla modified (1/2), dwie dla improved modified (3/4) i jedna dla full. Inni producenci wycinają nacięcia na krawędzi tulejki, używają kolorowych pasków albo wypisują nazwę (IC, M, LM).",
     "chokes-names-and-marks-p7": "Najbardziej wiarygodne źródło to oznaczenie na samym czoku albo instrukcja broni. W razie wątpliwości {{term:gunsmith|rusznikarz}} zmierzy zwężenie specjalnym czujnikiem w minutę."
   },
@@ -51,7 +51,7 @@
   "key_points": {
     "chokes-names-and-marks-kp1": "Cylinder 0 · 1/8 ~0,1–0,15 mm · IC ~0,25 mm (1/4) · LM ~0,35–0,4 mm",
     "chokes-names-and-marks-kp2": "M ~0,5 mm (1/2) · IM ~0,65–0,75 mm (3/4) · Full ~0,9–1 mm (1/1)",
-    "gear-chokes-kp3": "Frakcje: ćwierć = improved cylinder, pół = modified, trzy czwarte = improved modified, full.",
+    "gear-chokes-kp3": "Ułamki: ćwierć = improved cylinder, pół = modified, trzy czwarte = improved modified, full.",
     "chokes-names-and-marks-kp4": "Gwiazdki: im więcej gwiazdek, tym bardziej otwarty czok.",
     "chokes-names-and-marks-kp5": "Wartości są orientacyjne i różnią się między producentami."
   },

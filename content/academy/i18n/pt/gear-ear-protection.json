@@ -30,17 +30,21 @@
     "health-hearing-q2": "414c31e1",
     "health-hearing-q3": "8a986efd"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Proteção auditiva: tampões e abafadores",
-  "summary": "Por que razão um tiro pode danificar a audição para sempre, que tampões e abafadores existem, e por que razão muitos atiradores de {{tm:sporting}} e {{tm:compak}} usam os dois em estandes ruidosos.",
+  "summary": "Por que razão um tiro pode danificar a audição para sempre, que {{term:earplugs|tampões}} e abafadores existem, e por que razão muitos atiradores de {{tm:sporting}} e {{tm:compak}} usam os dois em estandes ruidosos.",
   "body": {
-    "gear-ear-protection-p1": "A {{term:hearing-protection|proteção auditiva}} é obrigatória em {{tm:sporting}} e {{tm:compak}} para todos os que estão no percurso ou perto dele: atiradores, árbitros, pessoal e espectadores. Um atirador que chegue ao posto sem ela é considerado ausente e não atira.",
+    "gear-ear-protection-p1": "A {{term:hearing-protection|proteção auditiva}} é obrigatória em {{tm:sporting}} e {{tm:compak}} para todos os que estão no percurso ou perto dele: atiradores, {{term:referee|árbitros}}, pessoal e espectadores. Um atirador que chegue ao posto sem ela é considerado ausente e não atira.",
     "health-hearing-p1": "Um tiro de arma lisa é muito ruidoso: {{fact:gear.gunshot-peak-db}}. Para ruídos curtos e súbitos como um estampido (ruído impulsivo), o limite seguro habitual é {{fact:gear.impulse-noise-limits}}. Por isso cada tiro sem proteção excede o limite, e um dia no campo significa centenas de tiros, os seus e os dos outros.",
     "health-hearing-p2": "A perda de audição induzida por ruído acumula-se pouco a pouco e sem dor. Morrem pequenas células sensíveis do ouvido interno, que não se regeneram. Costuma começar pelos sons agudos: a fala, sobretudo num lugar ruidoso, torna-se menos clara, e muita gente não repara nisso no início. Se continuar a atirar sem proteção, a perda estende-se a mais sons. A audição perdida não se recupera; só se pode proteger.",
-    "health-hearing-p3": "Um zumbido ou chiar nos ouvidos (tinido) depois de atirar é um primeiro sinal de alerta comum: a sua proteção não bastou. Verifique como assentam os tampões e os abafadores, ou escolha uns mais fortes. Se os ouvidos zumbirem ou os sons parecerem amortecidos depois de atirar, faça um exame de audição a um médico otorrinolaringologista (ORL) ou a um audiologista. Se a audição piorar de repente, procure ajuda médica com urgência.",
-    "gear-ear-protection-p2": "Os {{term:earplugs|tampões auditivos}} são a opção mais simples. Os tampões de espuma são baratos: enrolam-se finos, inserem-se no ouvido e deixa-se que se expandam. Há também tampões de silicone reutilizáveis e tampões à medida, moldados ao seu ouvido. Os tampões que fecham bem o canal auditivo protegem bem; mal colocados, protegem muito pouco, por isso peça ao treinador para lhe mostrar.",
-    "gear-ear-protection-p3": "Os {{term:passive-ear-muffs|abafadores passivos}} simplesmente cobrem os ouvidos com conchas justas. São fáceis de pôr e tirar, mas através deles as vozes ouvem-se com menos clareza. Para uma arma lisa, escolha abafadores de conchas finas, porque as espessas podem chocar com a {{term:stock|coronha}} ao pôr a arma à cara.",
-    "gear-ear-protection-p4": "Os {{term:electronic-ear-muffs|abafadores eletrónicos}} têm microfones e altifalantes. Amplificam os sons baixos, como a voz do árbitro e as ordens, e cortam de imediato um som forte no momento do tiro. Ajudam a segurança e a comunicação, mas custam mais e precisam de pilhas ou de carregamento.",
+    "health-hearing-p3": "Um zumbido ou chiar nos ouvidos (tinido) depois de atirar é um primeiro sinal de alerta comum: a sua proteção não bastou. Verifique como assentam os {{term:earplugs|tampões|pl}} e os abafadores, ou escolha uns mais fortes. Se os ouvidos zumbirem ou os sons parecerem amortecidos depois de atirar, faça um exame de audição a um médico otorrinolaringologista (ORL) ou a um audiologista. Se a audição piorar de repente, procure ajuda médica com urgência.",
+    "gear-ear-protection-p2": "Os {{term:earplugs|tampões auditivos|pl}} são a opção mais simples. Os tampões de espuma são baratos: enrolam-se finos, inserem-se no ouvido e deixa-se que se expandam. Há também tampões de silicone reutilizáveis e tampões à medida, moldados ao seu ouvido. Os tampões que fecham bem o canal auditivo protegem bem; mal colocados, protegem muito pouco, por isso peça ao treinador para lhe mostrar.",
+    "gear-ear-protection-p3": "Os {{term:passive-ear-muffs|abafadores passivos|pl}} simplesmente cobrem os ouvidos com conchas justas. São fáceis de pôr e tirar, mas através deles as vozes ouvem-se com menos clareza. Para uma arma lisa, escolha abafadores de conchas finas, porque as espessas podem chocar com a {{term:stock|coronha}} ao pôr a arma à cara.",
+    "gear-ear-protection-p4": "Os {{term:electronic-ear-muffs|abafadores eletrónicos|pl}} têm microfones e altifalantes. Amplificam os sons baixos, como a voz do árbitro e as ordens, e cortam de imediato um som forte no momento do tiro. Ajudam a segurança e a comunicação, mas custam mais e precisam de pilhas ou de carregamento.",
     "gear-ear-protection-p5": "A proteção é indicada com um número, SNR na Europa e NRR nos EUA: quanto maior o número, mais forte a redução. Em estandes ruidosos, por exemplo sob um telhado ou junto a paredes, usar tampões e abafadores juntos dá uma margem extra. Não se podem simplesmente somar os dois números, mas um instituto americano de segurança no trabalho (NIOSH) mediu cerca de 15–20 dB mais de proteção com os dois do que apenas com um.",
     "health-hearing-p7": "A proteção só funciona quando assenta bem. Os tampões entram fundo o suficiente para fechar o canal auditivo, e as hastes dos óculos ou um boné não devem quebrar o ajuste dos abafadores. Os tampões à medida são confortáveis e assentam sempre da mesma maneira; use o SNR da embalagem como referência.",
     "gear-ear-protection-p6": "Para crianças e juniores a proteção auditiva importa ainda mais: os seus ouvidos danificam-se mais facilmente, por isso o limite seguro de ruído para crianças é definido mais baixo do que para adultos ({{fact:gear.impulse-noise-limits}}).",
@@ -60,14 +64,14 @@
   "did_you_know": "Os tampões de espuma destinam-se a um ou a poucos usos: gastos e sujos, ajustam-se pior e protegem menos.",
   "quiz": {
     "gear-ear-protection-q1": {
-      "q": "O que fazem os abafadores eletrónicos?",
+      "q": "O que fazem os {{term:electronic-ear-muffs|abafadores eletrónicos|pl}}?",
       "options": {
         "a": "Amplificam os sons baixos e cortam o tiro",
         "b": "Contam quantos tiros disparou",
         "c": "Substituem os óculos de proteção",
         "d": "Tocam música entre as séries"
       },
-      "explain": "Assim ouve o árbitro e as ordens enquanto a audição fica protegida."
+      "explain": "Assim ouve o {{term:referee|árbitro}} e as ordens enquanto a audição fica protegida."
     },
     "gear-ear-protection-q2": {
       "q": "Por que razão os abafadores de conchas finas são mais adequados para uma arma lisa?",
@@ -77,15 +81,15 @@
         "c": "O código de vestuário exige conchas finas",
         "d": "Não precisam de pilhas nenhumas"
       },
-      "explain": "A coronha chega à face, e uma concha espessa pode atrapalhar o pôr a arma à cara."
+      "explain": "A coronha chega à face, e uma concha espessa pode atrapalhar o {{term:gun-mount|pôr a arma à cara}}."
     },
     "gear-ear-protection-q3": {
       "q": "O que é sensato fazer num posto muito ruidoso, por exemplo sob um telhado?",
       "options": {
         "a": "Atirar sem proteção para ouvir com mais clareza",
-        "b": "Usar apenas um dos tampões",
-        "c": "Usar tampões e abafadores juntos",
-        "d": "Ficar mais perto da cabine da máquina"
+        "b": "Usar apenas um dos {{term:earplugs|tampões|pl}}",
+        "c": "Usar {{term:earplugs|tampões}} e abafadores juntos",
+        "d": "Ficar mais perto da cabine da {{term:trap|máquina}}"
       },
       "explain": "A proteção dupla reduz o som mais do que cada meio sozinho."
     },
@@ -100,11 +104,11 @@
       "explain": "A perda de audição induzida por ruído é permanente, por isso proteja a audição desde o primeiro tiro."
     },
     "health-hearing-q2": {
-      "q": "O que é a proteção auditiva dupla?",
+      "q": "O que é a {{term:double-hearing-protection|proteção auditiva dupla}}?",
       "options": {
-        "a": "Dois pares de tampões ao mesmo tempo",
+        "a": "Dois pares de {{term:earplugs|tampões}} ao mesmo tempo",
         "b": "Abafadores usados sobre um boné quente",
-        "c": "Tampões e abafadores juntos",
+        "c": "{{term:earplugs|Tampões}} e abafadores juntos",
         "d": "Abafadores com dois níveis de volume"
       },
       "explain": "Os tampões por baixo dos abafadores dão uma margem extra de proteção."

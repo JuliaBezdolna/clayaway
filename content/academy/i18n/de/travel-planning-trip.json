@@ -25,9 +25,13 @@
     "travel-planning-trip-q2": "aecc4829",
     "travel-planning-trip-q3": "ad4ffcea"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Die Reise planen",
-  "summary": "Anmeldung, eine Unterkunft nahe dem Stand, Transfers, Dokumente und frühzeitige Anreise: Daraus besteht eine gute Reise zu einem Wettkampf in {{tm:sporting}} oder {{tm:compak}}.",
+  "summary": "{{term:entry|Anmeldung}}, eine Unterkunft nahe dem Stand, Transfers, Dokumente und frühzeitige Anreise: Daraus besteht eine gute Reise zu einem Wettkampf in {{tm:sporting}} oder {{tm:compak}}.",
   "body": {
     "travel-planning-trip-p1": "Eine Reise zu einem Wettkampf in {{tm:sporting}} oder {{tm:compak}} beginnt mit dessen Programm. Es nennt die Termine, die Disziplinen, die Frist für die {{term:entry|Anmeldung}} und das {{term:entry-fee|Startgeld}}. Angemeldet wird über den {{term:organiser|Veranstalter}}. Beliebte Wettkämpfe können lange vor der Frist voll sein, warten Sie also nicht zu lange.",
     "travel-planning-trip-p2": "Suchen Sie eine Unterkunft nahe dem Stand. Die Strecke beginnt oft früh, und eine lange Fahrt jeden Tag kostet Kraft. Veranstalter schlagen oft Partnerhotels vor. Buchen Sie früh, und fragen Sie das Hotel, ob es Gäste mit Sportwaffen aufnimmt und wo eine Flinte sicher aufbewahrt werden kann.",
@@ -36,10 +40,10 @@
     "travel-planning-trip-p5": "Versuchen Sie, ein bis zwei Tage früher anzureisen. {{term:shooting-times|Schießzeiten}} werden in der Ortszeit angegeben. Nach einem Flug über mehrere Zeitzonen braucht der Körper vielleicht mehr Tage: siehe {{lesson:travel-jet-lag}}.",
     "travel-planning-trip-p8": "Eine frühe Anreise lässt auch Zeit zum Training. Wo Sie trainieren dürfen, hängt von der Disziplin ab.",
     "travel-planning-trip-p6": {
-      "sporting": "Vor dem Wettkampf darf niemand auf den Wettkampf-{{term:layout|Layouts}} trainieren – den für die Veranstaltung eingerichteten Ständen. Auf anderen Teilen des Geländes dürfen Sie trainieren ({{rule:sporting:ch15-no-practice}}).",
-      "compak": "Auf den Scheibenflügen (Flugbahnen) des Wettkampfs dürfen Sie trainieren, aber mit einer anderen {{term:trajectory-setting-table|Flugbahntabelle}}: dem Plan, welche Wurfmaschinen von jeder Schießstelle aus geschossen werden. Sie trainieren also nicht genau die Kombination, die Sie später schießen ({{rule:compak:ch6-practice}}). Bei Kontinental- und Welt­{{term:championship|meisterschaften}} öffnet das offizielle {{term:practice|Training}} {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+      "sporting": "Vor dem Wettkampf darf niemand auf den Layouts des Wettkampfs trainieren – den für die Veranstaltung eingerichteten Ständen. Auf anderen Teilen des Geländes dürfen Sie trainieren ({{rule:sporting:ch15-no-practice}}).",
+      "compak": "Auf den Scheibenflügen (Flugbahnen) des Wettkampfs dürfen Sie trainieren, aber mit einer anderen {{term:trajectory-setting-table|Flugbahntabelle}}: dem Plan, welche {{term:trap|Wurfmaschinen|pl}} von jeder Schießstelle aus geschossen werden. Sie trainieren also nicht genau die Kombination, die Sie später schießen ({{rule:compak:ch6-practice}}). Bei Kontinental- und Weltmeisterschaften öffnet das offizielle {{term:practice|Training}} {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
     },
-    "travel-planning-trip-p7": "Seien Sie an jedem Schießtag früh am Stand, denn {{term:lateness|Verspätung}} bedeutet verlorene Scheiben. Bei {{tm:sporting}} werden die Scheiben, für die Sie nicht da waren, als Nullen gewertet ({{rule:sporting:ch16-late-shooter}}). Bei {{tm:compak}} ist es strenger: Ein verspäteter Schütze erhält 25 Nullen, eine ganze Runde. Schießen Sie in einer {{term:squad|Rotte}} (einer Gruppe, die die Runde gemeinsam durchläuft), gelten Sie als verspätet, sobald der erste Schütze Ihrer Rotte die erste Scheibe abgerufen hat ({{rule:compak:ch9-late-squad}}).",
+    "travel-planning-trip-p7": "Seien Sie an jedem Schießtag früh am Stand, denn {{term:lateness|Verspätung}} bedeutet verlorene Scheiben. Bei {{tm:sporting}} werden die Scheiben, für die Sie nicht da waren, als Nullen gewertet ({{rule:sporting:ch16-late-shooter}}). Bei {{tm:compak}} ist es strenger: Ein verspäteter Schütze erhält 25 Nullen, eine ganze Runde. Schießen Sie in einer {{term:squad|Rotte}} – einer Gruppe, die die Runde gemeinsam durchläuft –, gelten Sie als verspätet, sobald der erste Schütze Ihrer Rotte die erste Scheibe abgerufen hat ({{rule:compak:ch9-late-squad}}).",
     "travel-planning-trip-tip": "Eine kurze Checkliste: Dokumente, Versicherung, Gehör- und Augenschutz, wetterfeste Kleidung, das Programm in Ortszeit und die Kontaktdaten des Veranstalters. Zeitpuffer ist ebenfalls eine gute Versicherung."
   },
   "note": {},
@@ -61,7 +65,7 @@
         "b": "Bei {{tm:compak}} darf man vor dem Wettkampf gar nicht trainieren",
         "c": "Bei {{tm:sporting}} darf man nur auf anderen Teilen des Geländes trainieren"
       },
-      "explain": "Bei {{tm:sporting}} sind die Wettkampflayouts für das Training gesperrt, man trainiert also auf anderen Teilen des Geländes. Bei {{tm:compak}} darf man auf den Wettkampf-Scheibenflügen trainieren, aber mit einer anderen Flugbahntabelle; bei Meisterschaften öffnet das offizielle Training {{fact:training.compak-championship-practice}}."
+      "explain": "Bei {{tm:sporting}} sind die Wettkampflayouts für das Training gesperrt, man trainiert also auf anderen Teilen des Geländes. Bei {{tm:compak}} darf man auf den Wettkampf-Scheibenflügen trainieren, aber mit einer anderen {{term:trajectory-setting-table|Flugbahntabelle}}; bei {{term:championship|Meisterschaften|pl}} öffnet das offizielle Training {{fact:training.compak-championship-practice}}."
     },
     "travel-planning-trip-q2": {
       "q": "Warum sollte man ein bis zwei Tage vor dem Wettkampf anreisen?",
@@ -73,7 +77,7 @@
       "explain": "Der Körper braucht nach einer langen Reise Zeit, und eine frühe Anreise erlaubt eine ruhige Vorbereitung."
     },
     "travel-planning-trip-q3": {
-      "q": "In welcher Zeit werden die Schießzeiten angegeben?",
+      "q": "In welcher Zeit werden die {{term:shooting-times|Schießzeiten}} angegeben?",
       "options": {
         "a": "In der Zeit Ihres Heimatlandes",
         "b": "In der Ortszeit am Austragungsort",

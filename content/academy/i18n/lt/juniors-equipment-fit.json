@@ -30,13 +30,13 @@
   "title": "Vaikui tinkanti įranga",
   "summary": "Suaugusio žmogaus šautuvas vaikui dažniausiai per ilgas ir per sunkus. Trumpesnė buožė, lengvas šautuvas, švelnūs šoviniai ir dydžiu tinkanti apsauga daro {{tm:sporting}} ir {{tm:compak}} saugesnius ir malonesnius.",
   "body": {
-    "juniors-equipment-fit-p1": "Suaugusio žmogaus šautuvas vaikui dažniausiai per ilgas ir per sunkus. Vaikas atsilenkia atgal, norėdamas jį išlaikyti, buožė trenkia į skruostą ir petį, o po kelių šūvių gali kilti baimė. Todėl {{term:gun-fit|ginklo pritaikymas}} jauniems šauliams dar svarbesnis nei suaugusiems.",
-    "juniors-equipment-fit-p2": "Pagrindinis dydis – {{term:length-of-pull|buožės ilgis}} (length of pull): {{fact:gear.length-of-pull}}. {{term:youth-gun|Jaunimo modeliai}} (youth gun) turi trumpesnę ir lengvesnę buožę, o kai kurie šautuvai – reguliuojamą buožę ir {{term:comb|skruostinę atramą}}. Vaikui augant, buožė pailginama tarpikliais, tad pritaikymą tikrinkite kiekvieną sezoną su treneriu arba {{term:gun-fitter|pritaikymo specialistu}}.",
-    "juniors-equipment-fit-p3": "Dažnai renkamasi lengvas 20 kalibro šautuvas – {{term:over-and-under|vertikalus dvivamzdis}} arba {{term:semi-automatic|pusiau automatinis}}. Dujinis pusiau automatinis atatranką paskleidžia per ilgesnį laiką, tad daugeliui šaulių ji atrodo švelnesnė. Lengvo užtaiso šoviniai taip pat mažina atatranką ir šaudyti tampa maloniau.",
+    "juniors-equipment-fit-p1": "Suaugusio žmogaus šautuvas vaikui dažniausiai per ilgas ir per sunkus. Vaikas atsilenkia atgal, norėdamas jį išlaikyti, {{term:stock|buožė}} trenkia į skruostą ir petį, o po kelių šūvių gali kilti baimė. Todėl {{term:gun-fit|ginklo pritaikymas}} jauniems šauliams dar svarbesnis nei suaugusiems.",
+    "juniors-equipment-fit-p2": "Pagrindinis dydis – {{term:length-of-pull|buožės ilgis}}: {{fact:gear.length-of-pull}}. {{term:youth-gun|Jaunimo modeliai|pl}} turi trumpesnę ir lengvesnę buožę, o kai kurie šautuvai – reguliuojamą buožę ir {{term:comb|skruostinę atramą}}. Vaikui augant, buožė pailginama tarpikliais, tad pritaikymą tikrinkite kiekvieną sezoną su treneriu arba {{term:gun-fitter|pritaikymo specialistu}}.",
+    "juniors-equipment-fit-p3": "Dažnai renkamasi lengvas 20 {{term:gauge|kalibro}} šautuvas – {{term:over-and-under|vertikalus dvivamzdis}} arba {{term:semi-automatic|pusiau automatinis}}. {{term:gas-operated|Dujinis pusiau automatinis}} {{term:recoil|atatranką}} paskleidžia per ilgesnį laiką, tad daugeliui šaulių ji atrodo švelnesnė. Lengvo užtaiso šoviniai taip pat mažina atatranką ir šaudyti tampa maloniau.",
     "juniors-equipment-fit-p4": "Apsauga taip pat turi tikti dydžiu: vaikiškos ausinės ar kamštukai, {{term:safety-glasses|saugos akiniai}} su smūgiams atspariais lęšiais ir kepurė su snapeliu. {{term:shooting-vest|Šaudymo liemenė}} neturi būti per didelė, antraip šautuvas prisidedant už ją kabinsis.",
     "juniors-equipment-fit-p7": "{{tm:sporting}} taisyklės priduria vieną dalyką: vaikai šaudyklos teritorijoje, už klubo pastato, visada turi dėvėti {{term:hearing-protection|klausos apsaugos priemones}}. Daugelis šeimų šio įpročio laikosi bet kurioje šaudykloje.",
     "juniors-equipment-fit-p5": "Drabužiai turi būti patogūs ir tinkami pagal orą. Abiejų disciplinų varžybose sandalai draudžiami, o šortai turi būti ilgi ir baigtis {{fact:rules.dress-shorts-length}}. Uždara avalynė su geru sukibimu reikalinga ir treniruotėje. Daugiau: {{lesson:gear-clothing-and-shoes}}.",
-    "juniors-equipment-fit-p6": "Nesiskubinkite pirkti brangios įrangos. Pirmiausia imkite klubo šautuvą nuomai, tada pažiūrėkite naudotus jaunimo modelius. Savą šautuvą verta pirkti, kai vaiko susidomėjimas jau stabilus, ir su trenerio patarimu. Apie pritaikymą bendrai: {{lesson:gun-fit}}."
+    "juniors-equipment-fit-p6": "Nesiskubinkite pirkti brangios įrangos. Pirmiausia imkite klubo {{term:gun-rental|šautuvą nuomai}}, tada pažiūrėkite naudotus jaunimo modelius. Savą šautuvą verta pirkti, kai vaiko susidomėjimas jau stabilus, ir su trenerio patarimu. Apie pritaikymą bendrai: {{lesson:gun-fit}}."
   },
   "note": {},
   "phrases": {},
@@ -60,10 +60,10 @@
       "explain": "Per ilgas šautuvas gadina stovėseną, stiprina atatrankos poveikį ir gali išgąsdinti vaiką."
     },
     "juniors-equipment-fit-q2": {
-      "q": "Kas yra buožės ilgis (length of pull)?",
+      "q": "Kas yra {{term:length-of-pull|buožės ilgis}}?",
       "options": {
-        "a": "Vamzdžių ilgis iki žiočių",
-        "b": "Atstumas nuo gaiduko iki buožės pado vidurio",
+        "a": "{{term:barrel-length|Vamzdžių ilgis}} iki žiočių",
+        "b": "Atstumas nuo gaiduko iki {{term:recoil-pad|buožės pado}} vidurio",
         "c": "Šautuvo svoris su čokais",
         "d": "Atstumas nuo plankos žemyn iki atramos viršaus"
       },

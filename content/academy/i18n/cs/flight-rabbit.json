@@ -32,14 +32,14 @@
     "origin": "interpreter-academy"
   },
   "title": "Zajíc: kutálející se, skákající a vyrážející",
-  "summary": "Terč zajíc: jak se kutálí, poskakuje a vyráží, proč často potřebuje menší předsazení, než se zdá, a pravidlo No Bird, když se rozbije sám.",
+  "summary": "Terč {{term:rabbit|zajíc}}: jak se kutálí, poskakuje a vyráží, proč často potřebuje menší {{term:lead|předsazení}}, než se zdá, a pravidlo No Bird, když se rozbije sám.",
   "body": {
     "flight-rabbit-p1": "{{term:rabbit|Zajíc}} je terč o průměru 110 mm se silným, pevným okrajem, který se hází na hranu, takže se kutálí po zemi jako běžící zajíc. Je to zvláštní terč, proto ho v {{tm:sporting}} musí uvádět {{term:target-menu|menu}} terčů na stanovišti.",
     "flight-rabbit-p2": "Trenéři popisují, jak běží: rolling rabbit (kutálející se) běží plynule; hopping, také bouncing (skákající) poskakuje na hrbolech a kamenech; bolting (vyrážející) vyrazí z krytu a běží rychle. Zajíci mohou běžet napříč, ke střelci nebo od něj.",
-    "flight-rabbit-p3": "Zajíc je těžký a rychle zpomaluje, takže střelci mu často dávají příliš velké předsazení. Mnozí trenéři radí držet hlavně nízko a mířit na spodní přední hranu zajíce. Pokud pak náhle poskočí, vskočí přímo do dávky broků, a ne nad ni. Často je vidět jen v krátké mezeře mezi keři, takže {{term:break-point|místo zásahu}} je třeba pečlivě naplánovat.",
+    "flight-rabbit-p3": "Zajíc je těžký a rychle zpomaluje, takže střelci mu často dávají příliš velké {{term:lead|předsazení}}. Mnozí trenéři radí držet hlavně nízko a mířit na spodní přední hranu zajíce. Pokud pak náhle poskočí, vskočí přímo do dávky broků, a ne nad ni. Často je vidět jen v krátké mezeře mezi keři, takže {{term:break-point|místo zásahu}} je třeba pečlivě naplánovat.",
     "flight-rabbit-p4": "Pravidla: každý terč, zajíce nevyjímaje, se střílí se zbraní u ramene; střelba „od boku“ není dovolena v žádné disciplíně. Zvláštní případ: první ranou minete, a dřív, než vystřelíte druhou, se zajíc sám rozbije, například o kámen. To je {{term:no-bird|No Bird}} a zajíc se vypustí znovu. Při opakování se počítá jen zásah druhou ranou, proto první ranou vědomě minete. Pokud ho rozbijete první ranou, počítá se to jako minutí (nula).",
-    "targets-special-presentations-p6": "Bezpečnost je u zajíců obzvlášť důležitá, protože běží nízko při zemi. Střílejte jen uvnitř povolené zóny, nikdy nemiřte hlavněmi na lidi nebo vrhačky a nestřílejte za {{term:shooting-limit|hranici střelby}}.",
-    "flight-rabbit-p5": "„{{term:fur-and-feather|Fur and feather}}“ je slangový výraz {{term:english-sporting|anglického sportingu}} pro dvojstřel ze zajíce („fur“) a vzdušného terče („feather“)."
+    "targets-special-presentations-p6": "Bezpečnost je u zajíců obzvlášť důležitá, protože běží nízko při zemi. Střílejte jen uvnitř povolené zóny, nikdy nemiřte hlavněmi na lidi nebo {{term:trap|vrhačky}} a nestřílejte za {{term:shooting-limit|hranici střelby}}.",
+    "flight-rabbit-p5": "„{{term:fur-and-feather|Fur and feather}}“ je slangový výraz {{term:english-sporting|anglického sportingu}} pro {{term:double|dvojstřel}} ze zajíce („fur“) a vzdušného terče („feather“)."
   },
   "note": {
     "flight-rabbit-n1": "Názvy pro terč zajíc se v jednotlivých jazycích liší. Vyberte si jedno slovo a držte se ho po celou dobu session."
@@ -71,7 +71,7 @@
   },
   "quiz": {
     "flight-rabbit-q1": {
-      "q": "První rána zajíce mine, pak se před druhou ranou rozbije o kámen. Co se stane?",
+      "q": "První rána {{term:rabbit|zajíce}} mine, pak se před druhou ranou rozbije o kámen. Co se stane?",
       "options": {
         "a": "Hodnotí se jako zásah, protože se rozbil",
         "b": "Hodnotí se nulou za první chybu",
@@ -81,7 +81,7 @@
       "explain": "Pravidla obou disciplín to považují za No Bird; při opakování musí střelec první ranou úmyslně minout."
     },
     "flight-rabbit-q2": {
-      "q": "Proč trenéři varují před příliš velkým předsazením u zajíce?",
+      "q": "Proč trenéři varují před příliš velkým {{term:lead|předsazením}} u {{term:rabbit|zajíce}}?",
       "options": {
         "a": "Pravidla předsazení omezují",
         "b": "Je těžký a rychle zpomaluje",
@@ -93,15 +93,15 @@
     "flight-rabbit-q3": {
       "q": "Co znamená „fur and feather“?",
       "options": {
-        "a": "Dvojstřel ze zajíce a vzdušného terče",
+        "a": "{{term:double|Dvojstřel}} z {{term:rabbit|zajíce}} a vzdušného terče",
         "b": "Pravidla loveckého oblečení",
         "c": "Terč s nalepeným peřím",
-        "d": "Dvojstřel ze dvou zajíců"
+        "d": "{{term:double|Dvojstřel}} ze dvou zajíců"
       },
       "explain": "Ve slangu anglického sportingu je „fur“ zajíc a „feather“ letící terč."
     },
     "targets-special-presentations-q2": {
-      "q": "Můžete v {{tm:sporting}} střílet zajíce „od boku“?",
+      "q": "Můžete v {{tm:sporting}} střílet {{term:rabbit|zajíce}} „od boku“?",
       "options": {
         "a": "Ano, ale jen na zajíce",
         "b": "Ne, každý terč se střílí se zbraní u ramene",

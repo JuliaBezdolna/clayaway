@@ -38,17 +38,17 @@
     "origin": "interpreter-academy"
   },
   "title": "A fegyver részei",
-  "summary": "Tus, tok, előagy, csövek, sín és szűkületek: egy bock fő részeinek elnevezése, hogy követni tudd az edzőt vagy a puskaművest a {{tm:sporting}}-ban és a {{tm:compak}}-ban.",
+  "summary": "Tus, tok, előagy, csövek, sín és szűkületek: egy bock fő részeinek elnevezése, hogy követni tudd az edzőt vagy a {{term:gunsmith|puskaművest}} a {{tm:sporting}}-ban és a {{tm:compak}}-ban.",
   "body": {
-    "gear-gun-parts-p1": "Az edzők folyton emlegetik a fegyver részeit, tanuljuk meg őket a lapockától a csőtorkolatig, egy {{term:over-and-under|bockon}}, a leggyakoribb versenyfegyveren. A {{term:stock|tus}} (stock) a lapockába kerül. A felső éle, ahol az arc nyugszik, a {{term:comb|pofadék}} (comb); a „raise the comb” vagy „drop the comb” a {{term:gun-fit|tusbeállításról}} szól. Az elsütő billentyűt húzó kezet fogó szűk rész a {{term:grip|markolat}} (grip), a végén lévő gumipárna pedig a {{term:recoil-pad|tusgumi}} (recoil pad).",
+    "gear-gun-parts-p1": "Az edzők folyton emlegetik a fegyver részeit, tanuljuk meg őket a lapockától a csőtorkolatig, egy {{term:over-and-under|bockon}}, a leggyakoribb versenyfegyveren. A {{term:stock|tus}} a lapockába kerül. A felső éle, ahol az arc nyugszik, a {{term:comb|pofadék}}; a „raise the comb” vagy „drop the comb” a {{term:gun-fit|tusbeállításról}} szól. Az elsütő billentyűt húzó kezet fogó szűk rész a {{term:grip|markolat}}, a végén lévő gumipárna pedig a {{term:recoil-pad|tusgumi}}.",
     "gun-parts-p2": "A tus fából vagy kompozit anyagból készül. A tusgumi lágyítja a lövés lökését, és különböző vastagságú párnák vagy közbetétek változtatják a tus hosszát.",
-    "gear-gun-parts-p2": "A fegyver fém középső része a {{term:receiver|tok}} (receiver, action). Felül van a {{term:top-lever|nyitókar}} (top lever): oldalra lökve a fegyver kinyílik. Mögötte van a {{term:safety-catch|biztosító}} (safety catch), gyakran a {{term:barrel-selector|sorrendváltóval}} (barrel selector, „szelektor”) egybeépítve, amely eldönti, melyik cső lő elsőként. Alul, a sátorvasban van az {{term:trigger|elsütő billentyű}} (trigger).",
+    "gear-gun-parts-p2": "A fegyver fém középső része a {{term:receiver|tok}}. Felül van a {{term:top-lever|nyitókar}}: oldalra lökve a fegyver kinyílik. Mögötte van a {{term:safety-catch|biztosító}}, gyakran a {{term:barrel-selector|sorrendváltóval}} egybeépítve, amely eldönti, melyik cső lő elsőként. Alul, a sátorvasban van a {{term:trigger|elsütő billentyű}}.",
     "gun-parts-p4": "A tok belsejében van az elsütőmechanizmus. A legtöbb versenybocknak egyetlen elsütő billentyűje van mindkét csőhöz.",
-    "gear-gun-parts-p3": "A fordított sütésű elsütő (release trigger) akkor sül el, amikor elengedik, nem amikor meghúzzák. Az ilyen fegyveren figyelmeztetésként matricát kell viselni nagy „R” betűvel, fluoreszkáló alapon, a tus külső oldalán.",
-    "gear-gun-parts-p4": "A csövek alatt a másik kéz fogja az {{term:fore-end|előagyat}} (fore-end). A {{term:barrel|csöveknek}} hátul {{term:chamber|tölténykamráik}} vannak a töltényekhez, elöl pedig {{term:muzzle|csőtorkolataik}} (muzzles), ahová a {{term:choke|szűkületeket}} becsavarják. Felül fut a {{term:rib|sín}} (rib) a végén egy {{term:bead|célgömbbel}} (bead). A célgömb egy viszonyítási pont, nem egy irányzék: „a korongot nézd, ne a célgömböt”.",
+    "gear-gun-parts-p3": "A {{term:release-trigger|fordított sütésű elsütő}} akkor sül el, amikor elengedik, nem amikor meghúzzák. Az ilyen fegyveren figyelmeztetésként matricát kell viselni nagy „R” betűvel, fluoreszkáló alapon, a tus külső oldalán.",
+    "gear-gun-parts-p4": "A csövek alatt a másik kéz fogja a {{term:fore-end|előagyat}}. Hátul, a {{term:barrel|csövek}} végén vannak a {{term:chamber|tölténykamrák}} a töltényekhez, elöl pedig a {{term:muzzle|csőtorkolatok}}, ahová a {{term:choke|szűkületeket}} becsavarják. Felül fut a {{term:rib|sín}} a végén egy {{term:bead|célgömbbel}}. A célgömb egy viszonyítási pont, nem egy irányzék: „a korongot nézd, ne a célgömböt”.",
     "gun-parts-p5": "Az előagy tartja a csöveket a tokon is: ha levesszük, a csövek is leválnak. Így szedik szét a fegyvert tisztításhoz és szállításhoz. A sín alul rendszerint rések vannak rajta (ez a „szellőztetett sín”), hogy a csövek hője kevésbé remegtesse a fölötte lévő levegőt. Sok fegyveren van egy kis középső célgömb is a sín felénél.",
-    "gun-parts-p7": "A tölténykamrák mellett vannak az {{term:ejector|ejektorok}} (ejectors): amikor a fegyvert kinyitják, kidobják a kilőtt hüvelyeket. Az egyszerűbb extraktorok csak kicsit kiemelik a hüvelyeket, és kézzel kell kivenni őket.",
-    "gear-gun-parts-p5": "Egy biztonsági szabály kapcsolódik a részekhez. Egy csütörtök vagy bármely más fegyver- vagy töltény{{term:malfunction|hiba}} után a lövész nem nyitja ki a fegyvert, és nem nyúl a biztosítóhoz, amíg a bíró meg nem nézte."
+    "gun-parts-p7": "A tölténykamrák mellett vannak az {{term:ejector|ejektor}} nevű alkatrészek: amikor a fegyvert kinyitják, kidobják a kilőtt hüvelyeket. Az egyszerűbb extraktorok csak kicsit kiemelik a hüvelyeket, és kézzel kell kivenni őket.",
+    "gear-gun-parts-p5": "Egy biztonsági szabály kapcsolódik a részekhez. Egy csütörtök vagy a fegyver vagy a töltény bármely más {{term:malfunction|hibája}} után a lövész nem nyitja ki a fegyvert, és nem nyúl a biztosítóhoz, amíg a bíró meg nem nézte."
   },
   "note": {
     "gun-parts-n1": "Két hamis barát: a „rib” a csövek fölötti sín, nem szó szerinti „borda”; a „break the gun” azt jelenti, hogy nyisd ki a csuklópántnál, nem hogy károsítsd."
@@ -78,7 +78,7 @@
     "gear-gun-parts-kp4": "A „break the gun” azt jelenti: nyisd ki; a „rib” a csövek fölötti sín, nem „borda”.",
     "gear-gun-parts-kp5": "Csütörtök után: ne nyisd ki a fegyvert, és ne nyúlj a biztosítóhoz, amíg a bíró meg nem nézte."
   },
-  "did_you_know": "A szelektív ejektorok csak a kilőtt hüvelyt dobják ki. Ha egy csőből lőttél, a másikban lévő kilőtlen töltényt csak kicsit emelik ki, hogy nyugodtan kivehesd kézzel.",
+  "did_you_know": "A szelektív ejektorok csak a kilőtt {{term:hull|hüvelyt}} dobják ki. Ha egy csőből lőttél, a másikban lévő kilőtlen töltényt csak kicsit emelik ki, hogy nyugodtan kivehesd kézzel.",
   "quiz": {
     "gear-gun-parts-q1": {
       "q": "Az edző azt mondja: „Raise the comb”. Melyik részre gondol?",
@@ -101,7 +101,7 @@
       "explain": "Mindkét szabálykönyv előírja az „R” figyelmeztető matricát, fluoreszkáló alapon, a tus külső oldalán."
     },
     "gun-parts-q1": {
-      "q": "Mire való a sorrendváltó (barrel selector)?",
+      "q": "Mire való a {{term:barrel-selector|sorrendváltó}}?",
       "options": {
         "a": "Hogy levegye a csöveket a tokról",
         "b": "Hogy változtassa a szűkületet a csőben",

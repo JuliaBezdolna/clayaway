@@ -51,12 +51,12 @@
   "title": "Doubles: como se atiram e se pontuam",
   "summary": "Os tipos de doubles em {{tm:sporting}} e {{tm:compak}}, quantos cartuchos pode disparar a cada prato, e o que acontece quando um só tiro parte os dois.",
   "body": {
-    "rules-doubles-p1": "Um {{term:double|double}} são dois pratos atirados num só pedido. As duas disciplinas têm doubles ao tiro e doubles simultâneos; só o {{tm:sporting}} tem também o rafale. Algumas regras de pontuação diferem. Quando os dois pratos de um double são pontuados como perdidos, chama-se-lhe {{term:zero-zero|zero-zero}}.",
-    "sporting-singles-doubles-p1": "Primeiro, os simples. Nas duas disciplinas pode disparar-se dois cartuchos a um {{term:single-target|simples}}, por isso uma falha com o primeiro cano ainda pode ser salva com o segundo. Um percurso tem de deixar tempo para dois tiros a cada simples.",
+    "rules-doubles-p1": "Um {{term:double|double}} são dois pratos atirados num só pedido. As duas disciplinas têm {{term:double-on-report|doubles ao tiro}} e {{term:simultaneous-double|doubles simultâneos}}; só o {{tm:sporting}} tem também o rafale. Algumas regras de pontuação diferem. Quando os dois pratos de um double são pontuados como perdidos, chama-se-lhe {{term:zero-zero|zero-zero}}.",
+    "sporting-singles-doubles-p1": "Primeiro, os {{term:single-target|simples|pl}}. Nas duas disciplinas pode disparar-se dois cartuchos a um {{term:single-target|simples|pl}}, por isso uma falha com o primeiro cano ainda pode ser salva com o segundo. Um percurso tem de deixar tempo para dois tiros a cada simples.",
     "rules-doubles-p2": "Num {{term:double-on-report|double ao tiro}}, o seu pedido lança o primeiro prato e o seu tiro a ele lança o segundo. Num {{term:simultaneous-double|double simultâneo}}, os dois pratos saem juntos, e pode atirá-los por qualquer ordem.",
     "rules-doubles-cmp1": {
-      "sporting": "Três tipos: ao tiro, simultâneo (de uma ou duas máquinas) e {{term:rafale-double|rafale}}. Num rafale, dois pratos saem da mesma máquina na mesma linha, um a seguir ao outro.",
-      "compak": "Dois tipos: ao tiro e simultâneo. Um double simultâneo vem de duas máquinas diferentes. Não há rafale."
+      "sporting": "Três tipos: ao tiro, simultâneo — de uma ou duas {{term:trap|máquinas}} — e {{term:rafale-double|rafale}}. Num rafale, dois pratos saem da mesma máquina na mesma linha, um a seguir ao outro.",
+      "compak": "Dois tipos: ao tiro e simultâneo. Um double simultâneo vem de duas {{term:trap|máquinas}} diferentes. Não há rafale."
     },
     "sporting-singles-doubles-p2": "No {{tm:sporting}} o segundo prato de um double ao tiro sai 0 a 3 segundos depois do tiro ao primeiro. Num rafale segue-se assim que a máquina tiver recarregado. Um double só usa pratos já atirados como simples nesse posto, por isso já os viu voar.",
     "rules-doubles-cmp2": {
@@ -72,8 +72,8 @@
       "sporting": "Não disparar a um double simultâneo ou rafale sem motivo válido: zero-zero. No double ao tiro, um primeiro prato a que não dispara é zero, e o double é lançado outra vez para poder atirar o segundo (guia rápido dos árbitros).",
       "compak": "Recusar um double simultâneo: zero-zero. No double ao tiro: um primeiro prato recusado é zero; o double é lançado outra vez para poder atirar o segundo, e só o segundo é pontuado."
     },
-    "sporting-singles-doubles-p4": "Um prato irregular é aquele que leva o árbitro a declarar No Bird, por exemplo um prato lançado partido, fora da sua linha ou da máquina errada ({{lesson:rules-hit-and-no-bird}}). Num double ao tiro, um primeiro prato irregular significa que todo o double se repete. Se for o segundo prato que é irregular, atira o double outra vez e mantém-se o resultado do primeiro. O mesmo se aplica se o primeiro prato ou os seus pedaços partirem o segundo antes do segundo tiro. Num double simultâneo, e num rafale no {{tm:sporting}}, um prato irregular significa repetição sem nada pontuado. Um só tiro que parte os dois pratos é um caso diferente: veja acima.",
-    "rules-doubles-p7": "Veja a mostra e leia o {{term:target-menu|menu}} do posto, para saber que doubles vêm a seguir. Muitos treinadores sugerem escolher a ordem de um double simultâneo antes de pedir o prato."
+    "sporting-singles-doubles-p4": "Um prato irregular é aquele que leva o árbitro a declarar No Bird, por exemplo um prato lançado partido, fora da sua linha ou da {{term:trap|máquina}} errada ({{lesson:rules-hit-and-no-bird}}). Num double ao tiro, um primeiro prato irregular significa que todo o double se repete. Se for o segundo prato que é irregular, atira o double outra vez e mantém-se o resultado do primeiro. O mesmo se aplica se o primeiro prato ou os seus pedaços partirem o segundo antes do segundo tiro. Num double simultâneo, e num rafale no {{tm:sporting}}, um prato irregular significa repetição sem nada pontuado. Um só tiro que parte os dois pratos é um caso diferente: veja acima.",
+    "rules-doubles-p7": "Veja a {{term:target-presentation|mostra}} e leia o {{term:target-menu|menu}} do posto, para saber que doubles vêm a seguir. Muitos treinadores sugerem escolher a ordem de um double simultâneo antes de pedir o prato."
   },
   "note": {
     "compak-singles-doubles-p1": "{{tm:compak}} usa os mesmos nomes que {{tm:sporting}} para os doubles ao tiro e os doubles simultâneos (não tem rafale), mas os seus doubles seguem regras diferentes. Um intérprete que transporte as regras do {{tm:sporting}} dará respostas erradas.",
@@ -85,7 +85,7 @@
       "say": "Double ao tiro: o segundo sai com o seu tiro."
     },
     "sporting-singles-doubles-ph2": {
-      "meaning": "No double rafale a ordem é livre.",
+      "meaning": "No {{term:rafale-double|double rafale}} a ordem é livre.",
       "say": "No rafale, atire primeiro a qualquer um."
     },
     "sporting-singles-doubles-ph3": {
@@ -123,7 +123,7 @@
   "did_you_know": "Em {{tm:compak}} o double de cada posto começa com o último prato do posto anterior.",
   "quiz": {
     "rules-doubles-q1": {
-      "q": "O que lança o segundo prato de um double ao tiro?",
+      "q": "O que lança o segundo prato de um {{term:double-on-report|double ao tiro}}?",
       "options": {
         "a": "O tiro ao primeiro prato",
         "b": "Um segundo pedido do atirador",
@@ -150,7 +150,7 @@
       "explain": "Em {{tm:sporting}} os dois pratos contam; {{tm:compak}} tem regras diferentes."
     },
     "sporting-singles-doubles-q1": {
-      "q": "{{tm:sporting}}, double simultâneo. O atirador falha um prato com o primeiro tiro, dispara o segundo cartucho ao mesmo prato e parte-o. O outro prato continua a voar. Decisão?",
+      "q": "{{tm:sporting}}, {{term:simultaneous-double|double simultâneo}}. O atirador falha um prato com o primeiro tiro, dispara o segundo cartucho ao mesmo prato e parte-o. O outro prato continua a voar. Decisão?",
       "options": {
         "a": "One e zero",
         "b": "Zero e zero",
@@ -160,7 +160,7 @@
       "explain": "Em {{tm:sporting}} os dois cartuchos de um double podem ir para um só prato, por isso o prato partido é «one» e o outro é «zero». Em {{tm:compak}} disparar os dois a um só prato de propósito é pontuado zero-zero."
     },
     "sporting-singles-doubles-q2": {
-      "q": "{{tm:sporting}}, double ao tiro. O atirador parte o primeiro prato, e um pedaço dele desfaz o segundo antes do segundo tiro. Decisão?",
+      "q": "{{tm:sporting}}, {{term:double-on-report|double ao tiro}}. O atirador parte o primeiro prato, e um pedaço dele desfaz o segundo antes do segundo tiro. Decisão?",
       "options": {
         "a": "One e one",
         "b": "Repete-se, mantém-se o primeiro resultado",
@@ -170,7 +170,7 @@
       "explain": "Quando o primeiro prato ou os seus pedaços partem o segundo antes do segundo tiro, o double repete-se e mantém-se o primeiro resultado."
     },
     "sporting-singles-doubles-q3": {
-      "q": "{{tm:sporting}}, double rafale. Os dois pratos voam corretamente, mas o atirador baixa a arma e não dispara a nenhum, sem motivo válido. Decisão?",
+      "q": "{{tm:sporting}}, {{term:rafale-double|double rafale}}. Os dois pratos voam corretamente, mas o atirador baixa a arma e não dispara a nenhum, sem motivo válido. Decisão?",
       "options": {
         "a": "No Bird",
         "b": "Zero e No Bird",
@@ -180,7 +180,7 @@
       "explain": "Um prato correto a que não se dispara sem motivo válido é perdido; num double rafale ou simultâneo isso significa zero e zero."
     },
     "compak-singles-doubles-q1": {
-      "q": "Double simultâneo em {{tm:compak}}. Um só tiro parte os dois pratos; é a primeira vez que isso acontece. Decisão?",
+      "q": "{{term:simultaneous-double|Double simultâneo}} em {{tm:compak}}. Um só tiro parte os dois pratos; é a primeira vez que isso acontece. Decisão?",
       "options": {
         "a": "One e one",
         "b": "No Bird, repete-se",
@@ -190,7 +190,7 @@
       "explain": "Em {{tm:compak}} um double simultâneo partido com um só tiro é No Bird na primeira e na segunda vez, e zero e zero à terceira."
     },
     "compak-singles-doubles-q2": {
-      "q": "Double ao tiro em {{tm:compak}}. Um só tiro parte os dois pratos. Decisão?",
+      "q": "{{term:double-on-report|Double ao tiro}} em {{tm:compak}}. Um só tiro parte os dois pratos. Decisão?",
       "options": {
         "a": "One e one, ambos contam",
         "b": "Zero e zero para ambos",
@@ -200,7 +200,7 @@
       "explain": "Num double ao tiro regista-se o resultado do primeiro prato, o segundo é No Bird, e o double atira-se outra vez para o pontuar."
     },
     "compak-singles-doubles-q3": {
-      "q": "{{tm:compak}}, double ao tiro. O primeiro prato voa corretamente, mas o atirador não lhe dispara. Decisão?",
+      "q": "{{tm:compak}}, {{term:double-on-report|double ao tiro}}. O primeiro prato voa corretamente, mas o atirador não lhe dispara. Decisão?",
       "options": {
         "a": "Zero no primeiro, o double repete-se para o segundo",
         "b": "Zero e zero para o double",
@@ -216,7 +216,7 @@
         "b": "Um disparo duplo deliberado: zero-zero",
         "c": "One e zero"
       },
-      "explain": "Um disparo duplo acidental é uma deficiência da arma, não um disparo duplo deliberado; zero-zero só se aplica a disparar os dois tiros a um só prato de propósito."
+      "explain": "Um disparo duplo acidental é uma {{term:malfunction|deficiência}} da arma, não um disparo duplo deliberado; zero-zero só se aplica a disparar os dois tiros a um só prato de propósito."
     }
   }
 }

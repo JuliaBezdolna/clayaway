@@ -38,16 +38,16 @@
     "origin": "interpreter-academy"
   },
   "title": "As peças da arma",
-  "summary": "Coronha, báscula, fuste, canos, fita e chokes: os nomes das principais peças de uma sobreposta, para conseguir acompanhar um treinador ou um armeiro no {{tm:sporting}} e no {{tm:compak}}.",
+  "summary": "{{term:stock|Coronha}}, {{term:receiver|báscula}}, {{term:fore-end|fuste}}, {{term:barrel|canos}}, fita e chokes: os nomes das principais peças de uma {{term:over-and-under|sobreposta}}, para conseguir acompanhar um treinador ou um {{term:gunsmith|armeiro}} no {{tm:sporting}} e no {{tm:compak}}.",
   "body": {
-    "gear-gun-parts-p1": "Os treinadores nomeiam constantemente as peças da arma, por isso aprenda-as do ombro até à boca do cano de uma {{term:over-and-under|sobreposta}}, a arma de competição mais comum. A {{term:stock|coronha}} apoia-se no ombro. A sua aresta superior, onde assenta a face, é a {{term:comb|crista}}; «raise the comb» ou «drop the comb» (subir ou baixar a crista) tem a ver com a {{term:gun-fit|adaptação da arma}}. A parte estreita agarrada pela mão do gatilho é o {{term:grip|punho}}, e a almofada de borracha na extremidade é a {{term:recoil-pad|chapa de coice}}.",
-    "gun-parts-p2": "A coronha é feita de madeira ou de um material compósito. A chapa de coice amortece o empurrão do tiro, e chapas ou calços de espessuras diferentes alteram o comprimento da coronha.",
-    "gear-gun-parts-p2": "A parte central metálica da arma é a {{term:receiver|báscula}} (receiver ou action). Em cima fica a {{term:top-lever|alavanca de abertura}} (top lever): empurre-a para o lado e a arma abre. Atrás dela está a {{term:safety-catch|patilha de segurança}}, muitas vezes combinada com o {{term:barrel-selector|seletor de canos}}, que decide qual dos canos dispara primeiro. Por baixo está o {{term:trigger|gatilho}}, dentro do guarda-mato.",
+    "gear-gun-parts-p1": "Os treinadores nomeiam constantemente as peças da arma, por isso aprenda-as do ombro até à {{term:muzzle|boca do cano}} de uma {{term:over-and-under|sobreposta}}, a arma de competição mais comum. A {{term:stock|coronha}} apoia-se no ombro. A sua aresta superior, onde assenta a face, é a {{term:comb|crista}}; «raise the comb» ou «drop the comb» (subir ou baixar a crista) tem a ver com a {{term:gun-fit|adaptação da arma}}. A parte estreita agarrada pela mão do {{term:trigger|gatilho}} é o {{term:grip|punho}}, e a almofada de borracha na extremidade é a {{term:recoil-pad|chapa de coice}}.",
+    "gun-parts-p2": "A coronha é feita de madeira ou de um material compósito. A chapa de coice amortece o empurrão do tiro, e chapas ou calços de espessuras diferentes alteram o {{term:length-of-pull|comprimento da coronha}}.",
+    "gear-gun-parts-p2": "A parte central metálica da arma é a {{term:receiver|báscula}}, também chamada action. Em cima fica a {{term:top-lever|alavanca de abertura}}: empurre-a para o lado e a arma abre. Atrás dela está a {{term:safety-catch|patilha de segurança}}, muitas vezes combinada com o {{term:barrel-selector|seletor de canos}}, que decide qual dos {{term:barrel|canos}} dispara primeiro. Por baixo está o {{term:trigger|gatilho}}, dentro do guarda-mato.",
     "gun-parts-p4": "Dentro da báscula fica o mecanismo de disparo. A maioria das sobrepostas de competição tem um único gatilho para os dois canos.",
-    "gear-gun-parts-p3": "Um gatilho de libertação (release trigger) dispara quando é solto, e não quando é premido. Uma arma assim tem de ter, como aviso, um autocolante com um «R» grande sobre fundo fluorescente no lado exterior da coronha.",
+    "gear-gun-parts-p3": "Um {{term:release-trigger|gatilho de libertação}} dispara quando é solto, e não quando é premido. Uma arma assim tem de ter, como aviso, um autocolante com um «R» grande sobre fundo fluorescente no lado exterior da coronha.",
     "gear-gun-parts-p4": "Por baixo dos canos, a outra mão segura o {{term:fore-end|fuste}}. Os {{term:barrel|canos}} têm atrás as {{term:chamber|câmaras}} para os cartuchos e à frente as {{term:muzzle|bocas}}, onde se enroscam os {{term:choke|chokes}}. Por cima corre a {{term:rib|fita}}, com um {{term:bead|ponto de mira}} na ponta. O ponto de mira é uma referência, não uma mira: «look at the target, not the bead» (olhe para o prato, não para o ponto de mira).",
     "gun-parts-p5": "O fuste também segura os canos à báscula: retire-o, e os canos saem. É assim que se desmonta a arma para limpeza e transporte. A fita costuma ter aberturas por baixo (uma «fita ventilada»), para que o calor dos canos faça tremer menos o ar por cima dela. Muitas armas têm um pequeno ponto de mira intermédio a meio da fita.",
-    "gun-parts-p7": "Junto às câmaras estão os {{term:ejector|ejetores}} (ejectors): quando a arma se abre, eles lançam para fora os invólucros disparados. Extratores mais simples apenas levantam um pouco os invólucros, e é preciso retirá-los à mão.",
+    "gun-parts-p7": "Junto às câmaras estão os {{term:ejector|ejetores}}: quando a arma se abre, eles lançam para fora os {{term:empties|invólucros|pl}} disparados. Extratores mais simples apenas levantam um pouco os invólucros, e é preciso retirá-los à mão.",
     "gear-gun-parts-p5": "Há uma regra de segurança ligada às peças: depois de uma falha de percussão ou de qualquer outra {{term:malfunction|falha}} da arma ou do cartucho, o atirador não deve abrir a arma nem tocar na segurança até o árbitro a ter examinado."
   },
   "note": {
@@ -78,57 +78,57 @@
     "gear-gun-parts-kp4": "«Break the gun» significa abrir a arma; a fita (rib) é a tira ao longo de cima dos canos.",
     "gear-gun-parts-kp5": "Depois de uma falha de percussão: não abrir a arma nem tocar na segurança antes de o árbitro verificar."
   },
-  "did_you_know": "Os ejetores seletivos lançam para fora apenas o invólucro disparado. Se disparou só um cano, o cartucho não disparado no outro é apenas levantado um pouco, e pode retirá-lo com calma à mão.",
+  "did_you_know": "Os ejetores seletivos lançam para fora apenas o {{term:hull|invólucro}} disparado. Se disparou só um cano, o cartucho não disparado no outro é apenas levantado um pouco, e pode retirá-lo com calma à mão.",
   "quiz": {
     "gear-gun-parts-q1": {
       "q": "O treinador diz «Raise the comb». De que peça está a falar?",
       "options": {
-        "a": "Da parte de cima da coronha, onde assenta a face",
+        "a": "Da parte de cima da {{term:stock|coronha}}, onde assenta a face",
         "b": "Do pequeno ponto de mira na ponta da fita",
-        "c": "Do guarda-mato à volta do gatilho",
-        "d": "Do tubo de choke na boca do cano"
+        "c": "Do guarda-mato à volta do {{term:trigger|gatilho}}",
+        "d": "Do tubo de choke na {{term:muzzle|boca do cano}}"
       },
-      "explain": "A crista é a parte de cima da coronha; subi-la levanta o olho acima da fita."
+      "explain": "A {{term:comb|crista}} é a parte de cima da coronha; subi-la levanta o olho acima da fita."
     },
     "gear-gun-parts-q2": {
-      "q": "O que tem de ter uma arma com gatilho de libertação?",
+      "q": "O que tem de ter uma arma com {{term:release-trigger|gatilho de libertação}}?",
       "options": {
         "a": "Um cano pintado de vermelho para avisar os outros",
-        "b": "Um autocolante com um «R» grande na coronha",
-        "c": "Uma segunda patilha de segurança, separada",
+        "b": "Um autocolante com um «R» grande na {{term:stock|coronha}}",
+        "c": "Uma segunda {{term:safety-catch|patilha de segurança}}, separada",
         "d": "Nada: não é exigida qualquer marcação"
       },
       "explain": "Os dois regulamentos exigem o autocolante de aviso com «R», sobre fundo fluorescente, no lado exterior da coronha."
     },
     "gun-parts-q1": {
-      "q": "Para que serve o seletor de canos?",
+      "q": "Para que serve o {{term:barrel-selector|seletor de canos}}?",
       "options": {
-        "a": "Para retirar os canos da báscula",
+        "a": "Para retirar os {{term:barrel|canos}} da {{term:receiver|báscula}}",
         "b": "Para mudar o choke no cano",
-        "c": "Para lançar para fora os invólucros disparados",
+        "c": "Para lançar para fora os {{term:empties|invólucros|pl}} disparados",
         "d": "Para escolher qual o cano que dispara primeiro"
       },
       "explain": "O seletor, muitas vezes combinado com a segurança, define a ordem dos canos."
     },
     "gun-parts-q2": {
-      "q": "O que fazem os ejetores quando se abre a arma?",
+      "q": "O que fazem os {{term:ejector|ejetores}} quando se abre a arma?",
       "options": {
-        "a": "Lançam para fora os invólucros disparados",
-        "b": "Fixam os canos à báscula",
+        "a": "Lançam para fora os {{term:empties|invólucros|pl}} disparados",
+        "b": "Fixam os {{term:barrel|canos}} à {{term:receiver|báscula}}",
         "c": "Definem qual o cano que dispara primeiro",
-        "d": "Amortecem o recuo do tiro"
+        "d": "Amortecem o {{term:recoil|recuo}} do tiro"
       },
       "explain": "Os ejetores lançam para fora os invólucros disparados; extratores mais simples apenas os levantam um pouco."
     },
     "gun-parts-q3": {
-      "q": "Que peça se retira primeiro para desmontar os canos?",
+      "q": "Que peça se retira primeiro para desmontar os {{term:barrel|canos}}?",
       "options": {
         "a": "A crista",
         "b": "O fuste",
         "c": "A fita",
         "d": "O ponto de mira"
       },
-      "explain": "O fuste segura os canos à báscula; depois de retirado, os canos saem."
+      "explain": "O fuste segura os canos à {{term:receiver|báscula}}; depois de retirado, os canos saem."
     },
     "gear-gun-parts-q3": {
       "q": "O que quer dizer um treinador com «Break your gun»?",

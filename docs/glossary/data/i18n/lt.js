@@ -304,7 +304,7 @@ window.GLOSSARY_I18N.lt = {
    "long": "Skeet čokas (žymimas SK) tik šiek tiek siauresnis už cilindrą: apie 0,1–0,15 mm susiaurinimo (4–6 thou), Europoje kartais vadinamas 1/8. Spiečius arti platus ir atleidžia mažas klaidas. Sporting™ ir Compak® Sporting jis naudojamas artimiems taikiniams, triušiams ir netoliese iššokantiems taikiniams. Tikslios vertės priklauso nuo gamintojo."
   },
   "improved-cylinder": {
-   "term_local": "ketvirtis skleistuvo (1/4)",
+   "term_local": "ketvirtinis čokas (1/4)",
    "alt": [
     "silpnas čokas",
     "IC"
@@ -312,10 +312,10 @@ window.GLOSSARY_I18N.lt = {
    "conf": "medium",
    "src": "https://www.medzioklezurnalas.lt/keiciami-lygiavamzdzio-skleistuvai-cokai",
    "short": "Silpnas susiaurinimas, apie 0,25 mm (10 thou); Europoje žymimas „1/4“, keturios žvaigždutės.",
-   "long": "Ketvirtis skleistuvo (IC, improved cylinder) yra vienas universaliausių čokų šaudant į lėkšteles. Apie 0,25 mm (apie 10 thou) susiaurinimas duoda platų, bet jau tankesnį nei cilindro spiečių. Jis naudojamas artimiems ir vidutinio atstumo taikiniams; daug Sporting™ ir Compak® Sporting šaulių laiko IC apatiniame vamzdyje kaip pagrindinį. Europoje jis vadinamas 1/4, o Beretta čokuose žymimas keturiomis žvaigždutėmis. Vertės milimetrais priklauso nuo gamintojo."
+   "long": "Ketvirtinis čokas (IC, improved cylinder) yra vienas universaliausių čokų šaudant į lėkšteles. Apie 0,25 mm (apie 10 thou) susiaurinimas duoda platų, bet jau tankesnį nei cilindro spiečių. Jis naudojamas artimiems ir vidutinio atstumo taikiniams; daug Sporting™ ir Compak® Sporting šaulių laiko IC apatiniame vamzdyje kaip pagrindinį. Europoje jis vadinamas 1/4, o Beretta čokuose žymimas keturiomis žvaigždutėmis. Vertės milimetrais priklauso nuo gamintojo."
   },
   "modified": {
-   "term_local": "pusė skleistuvo (1/2)",
+   "term_local": "pusčokas (1/2)",
    "alt": [
     "pusinis čokas",
     "M"
@@ -323,7 +323,7 @@ window.GLOSSARY_I18N.lt = {
    "conf": "high",
    "src": "https://lt.wikipedia.org/wiki/Čokas_(vamzdis)",
    "short": "Vidutinis susiaurinimas, apie 0,5 mm (20 thou); „1/2“, trys žvaigždutės.",
-   "long": "Pusė skleistuvo (M, modified) yra vidutinis čokas. Apie 0,5 mm (apie 20 thou) susiaurinimas išlaiko tankų spiečių vidutinio ir gana tolimo atstumo taikiniams. Europoje jis vadinamas 1/2, o Beretta čokuose žymimas trimis žvaigždutėmis. Daug šaulių M įsuka į viršutinį vamzdį antram, ilgesniam šūviui. Su plieniniais šratais gamintojai dažnai pataria nenaudoti nieko siauresnio už pusę skleistuvo; laikykitės savo šautuvo ir čokų instrukcijos."
+   "long": "Pusčokas (M, modified) yra vidutinis čokas. Apie 0,5 mm (apie 20 thou) susiaurinimas išlaiko tankų spiečių vidutinio ir gana tolimo atstumo taikiniams. Europoje jis vadinamas 1/2, o Beretta čokuose žymimas trimis žvaigždutėmis. Daug šaulių M įsuka į viršutinį vamzdį antram, ilgesniam šūviui. Su plieniniais šratais gamintojai dažnai pataria nenaudoti nieko siauresnio už pusčoką; laikykitės savo šautuvo ir čokų instrukcijos."
   },
   "improved-modified": {
    "term_local": "trys ketvirčiai (3/4)",
@@ -1174,14 +1174,15 @@ window.GLOSSARY_I18N.lt = {
    "long": "Šaulys gali atsisakyti tik to taikinio, kurio neprašė. Sportinge taisyklingas taikinys, į kurį šaulys nešovė, vertinamas nuliu; vienalaikiame ar savaiminiame (rafale) dublete – nulis ir nulis. Compak atsisakymas baudžiamas pagal 21.5: pavieniam – nulis; pirmam dubleto pagal šūvio garsą taikiniui – nulis, o dubletas kartojamas antram įvertinti; vienalaikiam dubletui – nulis-nulis."
   },
   "hang-fire": {
-   "term_local": "neiššauna šovinys",
+   "term_local": "uždelstas šūvis",
    "alt": [
-    "šovinio neiššovimas"
+    "pavėluotas šūvis"
    ],
    "conf": "high",
    "src": "https://www.sporting.lt/saudymas/taisykles/",
    "short": "Uždelstas šūvis: šovinys iššauna praėjus kuriam laikui po nuleistuko nuspaudimo. Todėl neiššovęs šautuvas iškart neatidaromas.",
-   "long": "Uždelstas šūvis retas, bet pavojingas: nuspaudus gaiduką nieko neįvyksta, o po akimirkos šovinys vis dėlto iššauna. Jei tą akimirką atlaužtumėte šautuvą, tūtelė gali sprogti prie veido ir rankų. Todėl po kiekvieno neiššovimo laikykite šautuvą atremtą į petį arba bent nukreiptą saugia kryptimi ir palaukite; daug instruktorių pataria laukti apie 30 sekundžių. FITASC varžybose po neiššovimo šautuvas neatlaužiamas ir saugiklis neliečiamas, kol jo nepatikrina teisėjas, antraip taikinys laikomas prarastu. Čia saugos ir teisėjavimo taisyklės sutampa."
+   "long": "Uždelstas šūvis retas, bet pavojingas: nuspaudus gaiduką nieko neįvyksta, o po akimirkos šovinys vis dėlto iššauna. Jei tą akimirką atlaužtumėte šautuvą, tūtelė gali sprogti prie veido ir rankų. Todėl po kiekvieno neiššovimo laikykite šautuvą atremtą į petį arba bent nukreiptą saugia kryptimi ir palaukite; daug instruktorių pataria laukti apie 30 sekundžių. FITASC varžybose po neiššovimo šautuvas neatlaužiamas ir saugiklis neliečiamas, kol jo nepatikrina teisėjas, antraip taikinys laikomas prarastu. Čia saugos ir teisėjavimo taisyklės sutampa.",
+   "note": "'Neiššauna šovinys' is a misfire; a delayed shot is 'uždelstas šūvis'."
   },
   "shooting-stand": {
    "term_local": "šaudymo vieta",
@@ -1574,7 +1575,7 @@ window.GLOSSARY_I18N.lt = {
    "long": "Trumpi šortai draudžiami; leidžiami tik ilgi bermudų tipo šortai, baigiantys ne daugiau kaip 5 cm virš kelio. Viršutiniai drabužiai turi būti bent trumpomis rankovėmis ir su apykakle ar apvalia iškirpte, o šaudymo liemenė ant nuogo kūno neleidžiama. Dėl saugumo sandalai draudžiami ir treniruotėse, ir varžybose. Atidarymo parade ir apdovanojimuose komandų nariai dėvi nacionalinės komandos aprangą arba tvarkingas kelnes su švarku, o kiekvienas prizininkas privalo dalyvauti apdovanojimuose. Už pirmą pažeidimą skiriamas įspėjimas; jei neištaisoma – tolesnės nuobaudos, iki žiuri sprendimu pašalinimo."
   },
   "empties": {
-   "term_local": "tūtelės",
+   "term_local": "tuščios tūtelės",
    "note": "Vartoti 'tūtelės', ne skolinius.",
    "conf": "high",
    "src": "https://www.sporting.lt/saudymas/taisykles/",
@@ -1930,7 +1931,7 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "low",
    "short": "Skirtumas tarp vamzdžio kanalo skersmens ir siauriausios čoko vietos, milimetrais arba tūkstantosiomis colio dalimis (thou).",
-   "long": "Susiaurinimas rodo, kiek čokas suspaudžia šratų debesį jam išeinant iš vamzdžio. Jis nurodomas milimetrais arba thou, tai yra colio tūkstantosiomis (1 thou – apie 0,025 mm). Pavyzdžiui, ketvirtis skleistuvo yra apie 0,25 mm (10 thou), pusė skleistuvo – apie 0,5 mm (20 thou), pilnas čokas – apie 0,9–1 mm. Tai tipinės 12 kalibro vertės: tikrieji skaičiai priklauso nuo gamintojo ir net nuo konkretaus vamzdžio kanalo skersmens. Ginklininkas gali tiksliai išmatuoti susiaurinimą matuokle."
+   "long": "Susiaurinimas rodo, kiek čokas suspaudžia šratų debesį jam išeinant iš vamzdžio. Jis nurodomas milimetrais arba thou, tai yra colio tūkstantosiomis (1 thou – apie 0,025 mm). Pavyzdžiui, ketvirtinis čokas yra apie 0,25 mm (10 thou), pusčokas – apie 0,5 mm (20 thou), pilnas čokas – apie 0,9–1 mm. Tai tipinės 12 kalibro vertės: tikrieji skaičiai priklauso nuo gamintojo ir net nuo konkretaus vamzdžio kanalo skersmens. Ginklininkas gali tiksliai išmatuoti susiaurinimą matuokle."
   },
   "light-modified": {
    "term_local": "lengvas modifikuotas čokas (LM, 3/8)",
@@ -1939,13 +1940,13 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "low",
    "short": "Susiaurinimas tarp IC ir M, apie 0,35–0,4 mm (15 thou); kartais žymimas „3/8“.",
-   "long": "Lengvas modifikuotas čokas (LM, 3/8) yra tarp ketvirčio ir pusės skleistuvo. Apie 0,35–0,4 mm (apie 15 thou) susiaurinimas duoda pastebimai tankesnį nei IC spiečių, bet vis dar pakankamai platų vidutiniams atstumams. Jis renkamasis taikiniams, kurie IC kiek per toli, o M – per arti. Kartais jis žymimas 3/8, o kai kurie gamintojai jo išvis nesiūlo. Patikrinkite žymėjimą ant paties čoko."
+   "long": "Lengvas modifikuotas čokas (LM, 3/8) yra tarp ketvirtinio čoko ir pusčoko. Apie 0,35–0,4 mm (apie 15 thou) susiaurinimas duoda pastebimai tankesnį nei IC spiečių, bet vis dar pakankamai platų vidutiniams atstumams. Jis renkamasis taikiniams, kurie IC kiek per toli, o M – per arti. Kartais jis žymimas 3/8, o kai kurie gamintojai jo išvis nesiūlo. Patikrinkite žymėjimą ant paties čoko."
   },
   "star-marks": {
    "term_local": "žvaigždučių žymėjimas",
    "conf": "low",
    "short": "Čokų žymėjimas žvaigždutėmis (ypač Beretta): ***** cilindras … * pilnas čokas; kuo daugiau žvaigždučių, tuo atviresnis čokas.",
-   "long": "Italijos gamintojai, visų pirma Beretta, susiaurinimą žymi žvaigždutėmis ant čoko ar vamzdžio. Schema tokia: penkios žvaigždutės – cilindras, keturios – ketvirtis skleistuvo (1/4), trys – pusė (1/2), dvi – trys ketvirčiai (3/4), viena – pilnas čokas. Pagrindinė taisyklė: kuo daugiau žvaigždučių, tuo atviresnis čokas. Kiti gamintojai daro įpjovas čoko krašte, naudoja spalvotas juosteles arba tiesiog užrašo pavadinimą (IC, M, LM). Jei žymėjimas nusitrynė, ginklininkas gali išmatuoti susiaurinimą."
+   "long": "Italijos gamintojai, visų pirma Beretta, susiaurinimą žymi žvaigždutėmis ant čoko ar vamzdžio. Schema tokia: penkios žvaigždutės – cilindras, keturios – ketvirtinis čokas (1/4), trys – pusė (1/2), dvi – trys ketvirčiai (3/4), viena – pilnas čokas. Pagrindinė taisyklė: kuo daugiau žvaigždučių, tuo atviresnis čokas. Kiti gamintojai daro įpjovas čoko krašte, naudoja spalvotas juosteles arba tiesiog užrašo pavadinimą (IC, M, LM). Jei žymėjimas nusitrynė, ginklininkas gali išmatuoti susiaurinimą."
   },
   "pattern-plate": {
    "term_local": "šaudymo plokštė",
@@ -2591,10 +2592,8 @@ window.GLOSSARY_I18N.lt = {
    "short": "Narystė šaudymo klube: dažniausiai metinis mokestis, už kurį dažnai gaunami pigesni taikiniai ir galimybė dalyvauti treniruotėse bei klubo varžybose."
   },
   "reloaded-cartridge": {
-   "term_local": "perkrautas šovinys",
-   "alt": [
-    "pakartotinai užtaisytas šovinys"
-   ],
+   "term_local": "pakartotinai užtaisytas šovinys",
+   "alt": [],
    "conf": "medium",
    "short": "Iššauta tūtelė, iš naujo pripildyta parako, kamštelio ir šratų, dažnai namuose; Sporting™ ir Compak® Sporting varžybose neleidžiama."
   },

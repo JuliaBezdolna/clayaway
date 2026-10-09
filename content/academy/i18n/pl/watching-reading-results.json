@@ -40,12 +40,12 @@
   "summary": "Co znaczą X i O w karcie wyników, jak powstaje suma z 200 rzutków, jak rozstrzyga się remisy i jak czytać tabelę wyników na ClayArenie.",
   "body": {
     "watching-reading-results-p1": "W strzelaniu do rzutków wynik liczy się prosto: liczba rozbitych rzutków. {{term:round|Seria}} to {{fact:rules.round-targets}} zarówno w {{tm:sporting}}, jak i w {{tm:compak}}, a zawody międzynarodowe to {{fact:basics.international-targets}}. Najwyższy możliwy wynik to więc 200 z 200.",
-    "referee-scoring-p1": "Każdy rzutek trafia na {{term:score-sheet|kartę wyników}} (score card). W {{tm:sporting}} kartę prowadzi {{term:referee|sędzia}} albo osoba pod jego nadzorem. Na standardowej karcie FITASC przy każdym rzutku stoi litera wyrzutni, z której wyleciał (A, B, C…), X — trafienie, O — pudło. Jest też suma i miejsce na podpisy. Zanim grupa przejdzie na następne stanowisko, sędzia fotografuje kartę.",
-    "watching-reading-results-compak": "W {{tm:compak}} strzelanym grupowo kartę wyników prowadzi sędzia: trafienie oznacza X, pudło — O. Każde zero sędzia ogłasza na głos albo sygnałem dźwiękowym, żeby niezgadzający się strzelec mógł od razu zgłosić protest. W {{term:compak-in-line|Compak in line}}, gdzie wyniki rejestruje zatwierdzony system elektroniczny ({{term:electronic-refereeing|elektroniczne sędziowanie}}), widać je na ekranie.",
+    "referee-scoring-p1": "Każdy rzutek trafia na {{term:score-sheet|kartę wyników}}. W {{tm:sporting}} kartę prowadzi {{term:referee|sędzia}} albo osoba pod jego nadzorem. Na standardowej karcie FITASC przy każdym rzutku stoi litera {{term:trap|wyrzutni}}, z której wyleciał (A, B, C…), X — trafienie, O — pudło. Jest też suma i miejsce na podpisy. Zanim grupa przejdzie na następne stanowisko, sędzia fotografuje kartę.",
+    "watching-reading-results-compak": "W {{tm:compak}} strzelanym grupowo kartę wyników prowadzi sędzia: trafienie oznacza X, pudło — O. Każde zero sędzia ogłasza na głos albo sygnałem dźwiękowym, żeby niezgadzający się strzelec mógł od razu zgłosić protest. W {{term:compak-in-line|Compak in line}}, gdzie wyniki rejestruje zatwierdzony system {{term:electronic-refereeing|elektronicznego sędziowania}}, widać je na ekranie.",
     "referee-scoring-p2": "W {{tm:sporting}} musisz sprawdzić swój wynik, schodząc z każdego stanowiska. Jeśli nie zgadzasz się z zapisem, powiedz o tym sędziemu od razu: sędzia decyduje, ewentualnie po konsultacji z innymi, i od tej decyzji nie ma odwołania. W {{tm:compak}} podpisujesz kartę wyników na koniec serii; jeśli odmówisz podpisu, tracisz prawo do reklamacji.",
     "watching-reading-results-p3": "Na zawodach międzynarodowych wyniki serii trafiają na centralną tablicę wyników albo do systemu elektronicznego. Przy każdym nazwisku widać zwykle wynik każdej serii i sumę. Dzięki temu widać nie tylko, kto prowadzi, ale też kto strzela równo, a komu nie poszła jedna seria.",
     "watching-reading-results-p4": "Równe sumy są częste. Remisy o pierwsze trzy miejsca rozstrzyga {{fact:competitions.shoot-off-format}} (w nagłej śmierci odpada pierwszy strzelec, który chybi). Poniżej trzeciego miejsca zremisowani strzelcy dzielą miejsce, a ich kolejność na liście ustala {{term:countback|countback}}. Jak to działa: {{lesson:competitions-categories-and-shoot-offs}}.",
-    "watching-reading-results-p5": "Oprócz {{term:open-ranking|klasyfikacji open}} są {{term:category|kategorie}}, takie jak {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} i {{term:veteran|Veteran}}, a także klasyfikacja {{term:team|drużynowa}}. Dzięki temu na jednym wręczeniu nagród może być kilku zwycięzców — po jednym w każdej klasyfikacji.",
+    "watching-reading-results-p5": "Oprócz {{term:open-ranking|klasyfikacji open}} są {{term:category|kategorie|pl}}, takie jak {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} i {{term:veteran|Veteran}}, a także {{term:team|klasyfikacja drużynowa}}. Dzięki temu na jednym {{term:prize-giving|wręczeniu nagród}} może być kilku zwycięzców — po jednym w każdej klasyfikacji.",
     "watching-reading-results-p6": "Po zawodach wyniki pojawiają się na ClayArenie. W tabeli widać miejsce każdego strzelca i liczbę rozbitych rzutków. Stamtąd można otworzyć {{term:shooter-profile|profil zawodnika}} z jego zawodami i wskaźnikami, takimi jak {{term:accuracy|skuteczność}} i {{term:best-score|najlepszy wynik}}. Więcej: {{lesson:clayarena-find-your-results}}.",
     "watching-reading-results-same-targets": "Porównuj wyniki tylko przy takiej samej liczbie rzutków, najlepiej z tych samych zawodów: osie na różnych strzelnicach różnią się trudnością. 90 ze 100 i 180 z 200 to ten sam procent, ale dłuższe zawody to inne wyzwanie."
   },
@@ -86,11 +86,11 @@
       "explain": "Na standardowej karcie FITASC trafienie oznacza się X, a pudło — O."
     },
     "referee-scoring-q3": {
-      "q": "W {{tm:compak}} twój strzelec odmawia podpisania karty wyników. Jaki jest tego skutek?",
+      "q": "W {{tm:compak}} twój strzelec odmawia podpisania {{term:score-sheet|karty wyników}}. Jaki jest tego skutek?",
       "options": {
         "a": "Traci prawo do jakiejkolwiek reklamacji",
-        "b": "Serię strzela się ponownie",
-        "c": "Podpisuje sędzia i nic się nie zmienia",
+        "b": "{{term:round|Serię}} strzela się ponownie",
+        "c": "Podpisuje {{term:referee|sędzia}} i nic się nie zmienia",
         "d": "Automatycznie dostaje 25 zer"
       },
       "explain": "Przepisy {{tm:compak}} mówią, że strzelec, który odmawia podpisu, traci prawo do reklamacji."
@@ -108,10 +108,10 @@
       "q": "Jak rozstrzyga się remisy o pierwsze trzy miejsca?",
       "options": {
         "a": "Losowaniem",
-        "b": "Dogrywką (shoot-off)",
+        "b": "Dogrywką",
         "c": "Według wieku strzelca"
       },
-      "explain": "O pierwsze trzy miejsca jest dogrywka na 25 rzutków, a potem nagła śmierć."
+      "explain": "O pierwsze trzy miejsca jest {{term:shoot-off|dogrywka}} na 25 rzutków, a potem nagła śmierć."
     },
     "watching-reading-results-q4": {
       "q": "Kiedy w {{tm:sporting}} trzeba sprawdzić swój wynik na karcie?",
@@ -123,7 +123,7 @@
       "explain": "Sprawdzaj wynik, schodząc z każdego stanowiska, i od razu zgłaszaj niezgodność; później nie ma odwołania."
     },
     "watching-reading-results-q-photo": {
-      "q": "Co w {{tm:sporting}} robi sędzia z kartą wyników, zanim grupa przejdzie na następne stanowisko?",
+      "q": "Co w {{tm:sporting}} robi {{term:referee|sędzia}} ze {{term:score-sheet|kartą wyników}}, zanim grupa przejdzie na następne stanowisko?",
       "options": {
         "a": "Fotografuje ją",
         "b": "Od razu zanosi ją do jury",

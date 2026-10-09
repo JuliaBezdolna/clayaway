@@ -34,9 +34,9 @@
   "summary": "Mnoho trenérů se učilo na English Sporting nebo americkém Sporting Clays. Která jejich slova znamenají podle pravidel FITASC něco jiného – počínaje polohou zbraně.",
   "body": {
     "interpreter-english-sporting-vs-fitasc-p1": "Mnoho trenérů, se kterými budete pracovat, vyrostlo na {{term:english-sporting|English Sporting}}, který v Anglii pořádá {{term:cpsa|CPSA}}, nebo na americkém Sporting Clays podle pravidel {{term:nsca|NSCA}}. Jejich slova jsou blízká slovům FITASC, ale pravidla za nimi se liší. Největší rozdíl je v poloze zbraně.",
-    "interpreter-english-sporting-vs-fitasc-p2": "Podle pravidel NSCA, a i v English Sporting, jak se obvykle střílí, smí střelec začít „{{term:gun-up|gun up}}“, tedy se zbraní už {{term:gun-mount|zalícenou}} před povelem. V {{tm:sporting}} to dovoleno není. Ve {{term:ready-position|výchozí poloze}} zůstává pažba pod linkou na vestě, dokud se neobjeví terč, a každý terč se střílí z ramene. V {{tm:compak}} je poloha zbraně v okamžiku povelu volná, stejně jako podle pravidel NSCA. „Pre-mount this one“ je tedy tréninkové cvičení, ale na soutěži {{tm:sporting}} za to hrozí {{term:yellow-card|žlutá karta}} ({{rule:sporting:ch12-yellow-card}}). Přeložte to, a pokud se host chystá soutěžit, zeptejte se trenéra, zda na pravidlo upozornit.",
-    "interpreter-english-sporting-vs-fitasc-p3": "Dvojstřely mají různé názvy. „{{term:true-pair|True pair}}“ (britsky i americky) je {{term:simultaneous-double|současný dvojstřel}} FITASC: oba terče vylétají najednou. „Report pair“ je {{term:double-on-report|dvojstřel na hlášenou}}: druhý terč vypustí zvuk vašeho prvního výstřelu. „Following pair“ je {{term:rafale-double|následný dvojstřel}} FITASC: dva terče z jedné vrhačky těsně za sebou. „Show pair“ je {{term:target-presentation|předvedení}} dvojstřelu před střelbou. „{{term:peg|Peg}}“ je {{term:shooting-stand|stanoviště}}, „station“ je americké slovo pro stanoviště a „{{term:cage|cage}}“ je rám kolem něj.",
-    "interpreter-english-sporting-vs-fitasc-p4": "Liší se i řeč výsledků. „{{term:hoa|HOA}}“, High Over All, je celkový vítěz. {{term:shooter-class|Třídy}} jako AA, A, B nebo C jsou národní výkonnostní úrovně, stanovené podle registrovaných výsledků střelce. Nejsou to věkové {{term:category|kategorie}} FITASC ani {{term:difficulty-class|třídy obtížnosti}} FITASC A, B a C, kterými se hodnotí, jak náročná je trajektorie.",
+    "interpreter-english-sporting-vs-fitasc-p2": "Podle pravidel NSCA, a i v English Sporting, jak se obvykle střílí, smí střelec začít „{{term:gun-up|gun up}}“, tedy po {{term:gun-mount|zalícení}} ještě před povelem. V {{tm:sporting}} to dovoleno není. V {{term:ready-position|výchozí poloze}} zůstává {{term:stock|pažba}} pod linkou na vestě, dokud se neobjeví terč, a každý terč se střílí z ramene. V {{tm:compak}} je poloha zbraně v okamžiku povelu volná, stejně jako podle pravidel NSCA. „Pre-mount this one“ je tedy tréninkové cvičení, ale na soutěži {{tm:sporting}} za to hrozí {{term:yellow-card|žlutá karta}} ({{rule:sporting:ch12-yellow-card}}). Přeložte to, a pokud se host chystá soutěžit, zeptejte se trenéra, zda na pravidlo upozornit.",
+    "interpreter-english-sporting-vs-fitasc-p3": "{{term:double|Dvojstřely}} mají různé názvy. „{{term:true-pair|True pair}}“ (britsky i americky) je {{term:simultaneous-double|současný dvojstřel}} FITASC: oba terče vylétají najednou. „Report pair“ je {{term:double-on-report|dvojstřel na hlášenou}}: druhý terč vypustí zvuk vašeho prvního výstřelu. „Following pair“ je {{term:rafale-double|následný dvojstřel}} FITASC: dva terče z jedné {{term:trap|vrhačky}} těsně za sebou. „Show pair“ je {{term:target-presentation|předvedení}} dvojstřelu před střelbou. „{{term:peg|Peg}}“ je {{term:shooting-stand|stanoviště}}, „station“ je americké slovo pro stanoviště a „{{term:cage|cage}}“ je rám kolem něj.",
+    "interpreter-english-sporting-vs-fitasc-p4": "Liší se i řeč výsledků. „{{term:hoa|HOA}}“, High Over All, je celkový vítěz. {{term:shooter-class|Třídy}} jako AA, A, B nebo C jsou národní výkonnostní úrovně, stanovené podle registrovaných výsledků střelce. Nejsou to věkové {{term:category|kategorie|pl}} FITASC ani {{term:difficulty-class|třídy obtížnosti}} FITASC A, B a C, kterými se hodnotí, jak náročná je trajektorie.",
     "interpreter-english-sporting-vs-fitasc-cmp": {
       "sporting": "Dovoleno: na {{term:double|dvojstřel}} má střelec dva náboje a oba smí vystřelit na stejný terč.",
       "compak": "Nedovoleno: jeden náboj na terč, a vystřelit oba na první terč je zakázáno."
@@ -78,9 +78,9 @@
       "q": "Britský trenér řekne „It's a true pair.“ Jaký je termín FITASC?",
       "options": {
         "a": "Dvojstřel na hlášenou",
-        "b": "Následný dvojstřel (rafale)",
+        "b": "{{term:rafale-double|Následný dvojstřel}}",
         "c": "Současný dvojstřel",
-        "d": "Správný dvojstřel"
+        "d": "Správný {{term:double|dvojstřel}}"
       },
       "explain": "„True pair“ je britský a americký název pro dva terče vypuštěné zároveň, tedy současný dvojstřel FITASC."
     },
@@ -92,7 +92,7 @@
         "c": "English Sporting (CPSA)",
         "d": "Sporting Clays (NSCA)"
       },
-      "explain": "{{tm:sporting}} vyžaduje pažbu pod linkou na vestě až do objevení terče. {{tm:compak}} nechává polohu zbraně volnou, stejně jako pravidla NSCA a English Sporting v běžné praxi."
+      "explain": "{{tm:sporting}} vyžaduje {{term:stock|pažbu}} pod linkou na vestě až do objevení terče. {{tm:compak}} nechává polohu zbraně volnou, stejně jako pravidla NSCA a English Sporting v běžné praxi."
     },
     "interpreter-english-sporting-vs-fitasc-q3": {
       "q": "Host vidí v britských výsledcích „Class C“. Co to je?",

@@ -41,18 +41,18 @@
     "origin": "interpreter-academy"
   },
   "title": "Advertências, cartões e penalizações",
-  "summary": "Como funcionam as penalizações em {{tm:sporting}} e {{tm:compak}}. Primeiro uma advertência com cartão amarelo; cartão vermelho por repetir uma infração no posto; sanções do júri, até à exclusão, para outras reincidências e faltas graves.",
+  "summary": "Como funcionam as penalizações em {{tm:sporting}} e {{tm:compak}}. Primeiro uma advertência com {{term:yellow-card|cartão amarelo}}; {{term:red-card|cartão vermelho}} por repetir uma infração no posto; sanções do júri, até à exclusão, para outras reincidências e faltas graves.",
   "body": {
-    "referee-cards-p1": "As penalizações da FITASC agravam-se passo a passo. Ao inscrever-se numa competição, aceita as regras e as penalizações. A primeira vez que infringe uma regra, recebe normalmente uma {{term:warning|advertência}}, mostrada com um {{term:yellow-card|cartão amarelo}}. No {{tm:sporting}} um exemplo clássico é a posição da arma. Uma coronha acima da linha do colete, ou uma arma posta à cara antes de o prato aparecer, vale uma advertência verbal e um cartão amarelo.",
+    "referee-cards-p1": "As penalizações da FITASC agravam-se passo a passo. Ao inscrever-se numa competição, aceita as regras e as penalizações. A primeira vez que infringe uma regra, recebe normalmente uma {{term:warning|advertência}}, mostrada com um {{term:yellow-card|cartão amarelo}}. No {{tm:sporting}} um exemplo clássico é a posição da arma. Uma {{term:stock|coronha}} acima da linha do colete, ou uma arma posta à cara antes de o prato aparecer, vale uma advertência verbal e um cartão amarelo.",
     "rules-cards-and-appeals-cmp1": {
-      "sporting": "Repetir uma infração no posto no mesmo {{term:layout|percurso}} depois da advertência (posição da arma ou montagem antecipada, o limite de tempo, disparar contra um No Bird declarado) traz {{term:red-card|cartão vermelho}}. Um simples conta zero; os doubles seguem a tabela do guia de regras.",
-      "compak": "Repetir uma infração no posto no mesmo percurso de {{tm:compak}} (o campo onde está a atirar) depois da advertência traz cartão vermelho. Isto cobre o limite de tempo, recusar um prato, disparar contra um No Bird declarado e as regras de deficiência. Um simples conta zero; os doubles seguem a tabela do guia de regras."
+      "sporting": "Repetir uma infração no posto no mesmo {{term:layout|percurso}} depois da advertência — posição da arma ou montagem antecipada, o {{term:firing-time|limite de tempo}}, disparar contra um No Bird declarado — traz {{term:red-card|cartão vermelho}}. Um simples conta zero; os doubles seguem a tabela do guia de regras.",
+      "compak": "Repetir uma infração no posto no mesmo {{term:layout|percurso}} de {{tm:compak}} (o campo onde está a atirar) depois da advertência traz {{term:red-card|cartão vermelho}}. Isto cobre o {{term:firing-time|limite de tempo}}, recusar um prato, disparar contra um No Bird declarado e as regras de {{term:malfunction|deficiência}}. Um simples conta zero; os doubles seguem a tabela do guia de regras."
     },
-    "referee-cards-p2": "A mesma escala aplica-se a disparar contra um prato declarado No Bird e a exceder o limite de tempo; veja {{lesson:rules-call-and-time}}.",
+    "referee-cards-p2": "A mesma escala aplica-se a disparar contra um prato declarado No Bird e a exceder o {{term:firing-time|limite de tempo}}; veja {{lesson:rules-call-and-time}}.",
     "referee-cards-p3": "O {{term:coaching|treino}}, isto é, alguém a dar-lhe conselhos ou instruções enquanto compete, também é penalizado. Leva cartão amarelo, as repetições são sancionadas pelo júri, e o árbitro manda sair da zona de tiro a pessoa que estava a dar instruções.",
-    "referee-cards-p4": "Outras reincidências (por exemplo, vestuário, número de competidor, treino ou conduta) vão para o {{term:jury|júri}}, o painel de oficiais da competição. O mesmo acontece com a {{term:refusal-to-comply|recusa em obedecer}} (não seguir as decisões do árbitro) e com a {{term:attempt-to-influence|tentativa de influenciar}} o árbitro. O júri pode pontuar um prato como perdido, anular uma série inteira de {{fact:rules.round-targets}}, ou excluir o atirador da competição. Atirar a arma ao chão, insultos ou violência, e disparar deliberadamente contra animais vivos podem significar {{term:expulsion|exclusão}} imediata. Uma exclusão fica registada pela FITASC durante cinco anos e não dá direito a reembolso.",
+    "referee-cards-p4": "Outras reincidências (por exemplo, vestuário, número de competidor, treino ou conduta) vão para o {{term:jury|júri}}, o painel de oficiais da competição. O mesmo acontece com a {{term:refusal-to-comply|recusa em obedecer}} — não seguir as decisões do árbitro — e com a {{term:attempt-to-influence|tentativa de influenciar}} o árbitro. O júri pode pontuar um prato como perdido, anular uma série inteira de {{fact:rules.round-targets}}, ou excluir o atirador da competição. Atirar a arma ao chão, insultos ou violência, e disparar deliberadamente contra animais vivos podem significar {{term:expulsion|exclusão}} imediata. Uma exclusão fica registada pela FITASC durante cinco anos e não dá direito a reembolso.",
     "rules-cards-and-appeals-p7": "Depois de uma decisão final, retome o tiro e deixe-a ficar. Discutir a decisão depois de o tiro ter sido retomado, ou criticá-la abertamente, conta como tentativa de influenciar o árbitro.",
-    "rules-cards-and-appeals-protest": "Se não concorda com uma decisão, {{term:protest|proteste}} de imediato no posto: levante a mão e diga «protesto» ou «recurso». Como funcionam os protestos e os recursos ao júri está em {{lesson:competitions-results-and-protests}}.",
+    "rules-cards-and-appeals-protest": "Se não concorda com uma decisão, apresente um {{term:protest|protesto}} de imediato no posto: levante a mão e diga «protesto» ou «recurso». Como funcionam os protestos e os recursos ao júri está em {{lesson:competitions-results-and-protests}}.",
     "rules-cards-and-appeals-tip1": "Um cartão amarelo não é o fim da sua série. Muitos treinadores sugerem uma respiração calma, um breve olhar ao que o causou, e depois a sua rotina habitual. Mais em {{lesson:mind-reset-after-miss}}."
   },
   "note": {
@@ -87,7 +87,7 @@
   },
   "key_points": {
     "referee-cards-kp1": "Primeira infração: advertência com cartão amarelo.",
-    "referee-cards-kp2": "Repetir uma infração no posto no mesmo percurso (por exemplo, posição da arma ou limite de tempo): cartão vermelho, e o prato é pontuado como perdido. Outras reincidências vão para o júri.",
+    "referee-cards-kp2": "Repetir uma infração no posto no mesmo {{term:layout|percurso}} — por exemplo, posição da arma ou limite de tempo: {{term:red-card|cartão vermelho}}, e o prato é pontuado como perdido. Outras reincidências vão para o júri.",
     "referee-cards-kp3": "Dar instruções em competição: cartão amarelo para o atirador, e quem deu as instruções tem de sair da zona de tiro.",
     "referee-cards-kp4": "As sanções do júri vão da perda de um prato ou de uma série até à exclusão, que fica registada durante cinco anos.",
     "rules-cards-and-appeals-kp3": "Não concorda? Proteste de imediato no posto, com a mão levantada, antes do pedido seguinte."
@@ -98,14 +98,14 @@
       "q": "O árbitro vê um treinador a dar conselhos a um atirador durante uma competição. O que dizem as regras?",
       "options": {
         "a": "Nada, os conselhos são permitidos",
-        "b": "Cartão vermelho para o treinador",
-        "c": "Cartão amarelo para o atirador",
+        "b": "{{term:red-card|Cartão vermelho}} para o treinador",
+        "c": "{{term:yellow-card|Cartão amarelo}} para o atirador",
         "d": "A série é anulada"
       },
       "explain": "Os dois regulamentos dão ao atirador um cartão amarelo, e quem deu as instruções tem de sair da zona de tiro."
     },
     "referee-cards-q1": {
-      "q": "{{tm:sporting}}: depois de um cartão amarelo por montagem antecipada, o atirador volta a montar a arma cedo no mesmo percurso, num simples. O que se segue?",
+      "q": "{{tm:sporting}}: depois de um {{term:yellow-card|cartão amarelo}} por montagem antecipada, o atirador volta a montar a arma cedo no mesmo {{term:layout|percurso}}, num simples. O que se segue?",
       "options": {
         "a": "Só outra advertência",
         "b": "Cartão vermelho e zero",
@@ -134,7 +134,7 @@
       "explain": "Protesta-se de imediato, antes do pedido seguinte; pedir o prato seguinte significa aceitar a decisão."
     },
     "rules-cards-and-appeals-q2": {
-      "q": "O que pode ser objeto de recurso ao júri?",
+      "q": "O que pode ser objeto de {{term:appeal|recurso}} ao júri?",
       "options": {
         "a": "Outras decisões, não acerto, falha ou trajetória",
         "b": "Se realmente acertou ou não no prato",
@@ -143,7 +143,7 @@
       "explain": "Acerto, falha, No Bird e trajetória são decididos só pelo árbitro, e essa decisão é final."
     },
     "rules-cards-and-appeals-q3": {
-      "q": "Qual é o depósito para um recurso ao júri em {{tm:sporting}}?",
+      "q": "Qual é o depósito para um {{term:appeal|recurso}} ao júri em {{tm:sporting}}?",
       "options": {
         "a": "10% da inscrição",
         "b": "40% da inscrição",
@@ -159,7 +159,7 @@
         "c": "A série é atirada outra vez",
         "d": "Não acontece nada"
       },
-      "explain": "Em {{tm:compak}} o atirador assina a folha de marcação no final de cada série; sem a assinatura, nenhuma reclamação pode ser aceite."
+      "explain": "Em {{tm:compak}} o atirador assina a folha de marcação no final de cada série; sem a assinatura, nenhuma {{term:protest|reclamação}} pode ser aceite."
     }
   }
 }

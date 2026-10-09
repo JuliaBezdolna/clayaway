@@ -28,14 +28,14 @@
  "title": "Die zwei Disziplinen",
  "summary": "Ein kurzer Überblick über {{tm:sporting}} und {{tm:compak}}: was sie gemeinsam haben und wie sie sich unterscheiden.",
  "body": {
-  "intro-disciplines-p1": "{{tm:sporting}} ahmt die Jagd nach. {{term:shooting-stand|Standplätze}}, die markierten Stellen, von denen aus geschossen wird, liegen im natürlichen Gelände: auf Feldern, am Waldrand, an Hanglagen. Die Scheiben fliegen, wie es ein Rebhuhn, eine Ente oder ein Fasan täte, oder rollen wie ein Hase. Jedes {{term:layout|Layout}}, eine Gruppe von Standplätzen, ergibt {{fact:targets.sporting-layout-targets}} (eine Doublette zählt als zwei Scheiben, also 10 mehr). Die beiden Scheiben einer {{term:double|Doublette}} fliegen gleichzeitig oder kurz nacheinander.",
+  "intro-disciplines-p1": "{{tm:sporting}} ahmt die Jagd nach. {{term:shooting-stand|Standplätze|pl}}, die markierten Stellen, von denen aus geschossen wird, liegen im natürlichen Gelände: auf Feldern, am Waldrand, an Hanglagen. Die Scheiben fliegen, wie es ein Rebhuhn, eine Ente oder ein Fasan täte, oder rollen wie ein Hase. Jedes {{term:layout|Layout}}, eine Gruppe von Standplätzen, ergibt {{fact:targets.sporting-layout-targets}} – eine {{term:double|Doublette}} zählt als zwei Scheiben, also 10 mehr. Die beiden Scheiben einer {{term:double|Doublette}} fliegen gleichzeitig oder kurz nacheinander.",
   "intro-disciplines-p2": "{{tm:compak}} ist die kompakte Version. Alles findet auf einem Feld statt, mit {{fact:basics.compak-field}}. Der Schütze durchläuft alle fünf Standplätze und schießt an jedem 5 Scheiben, also 25 pro {{term:round|Runde}}. Ein Compak-Feld braucht wenig Platz, deshalb kann ein Verein es leicht anlegen.",
   "intro-disciplines-cmp": {
-   "sporting": "Sie gehen einen Parcours von Standplatz zu Standplatz ab, und jeder Standplatz hat seine eigenen Scheiben. Eine Doublette kann {{term:double-on-report|auf Schuss}} sein, wobei Ihr erster Schuss die zweite Scheibe auslöst, oder {{term:simultaneous-double|simultan}}, wobei beide zugleich fliegen. Eine {{term:rafale-double|Rafale}} besteht aus zwei Scheiben derselben Wurfmaschine, kurz nacheinander.",
+   "sporting": "Sie gehen einen Parcours von Standplatz zu Standplatz ab, und jeder Standplatz hat seine eigenen Scheiben. Eine Doublette kann {{term:double-on-report|auf Schuss}} sein, wobei Ihr erster Schuss die zweite Scheibe auslöst, oder {{term:simultaneous-double|simultan}}, wobei beide zugleich fliegen. Eine {{term:rafale-double|Rafale}} besteht aus zwei Scheiben derselben {{term:trap|Wurfmaschine}}, kurz nacheinander.",
    "compak": "Sie bleiben auf einem Feld und rücken nach jeder eigenen Runde um einen Standplatz nach rechts. Eine Doublette ist {{term:double-on-report|auf Schuss}}, wobei Ihr erster Schuss die zweite Scheibe auslöst, oder {{term:simultaneous-double|simultan}}, wobei beide zugleich fliegen."
   },
   "intro-disciplines-p3": "Internationale Wettkämpfe in beiden Disziplinen umfassen meist {{fact:basics.international-targets}}. In beiden darf man zweimal auf eine {{term:single-target|Einzelscheibe}} schießen: Verfehlt der erste Schuss, kann der zweite sie noch zerbrechen.",
-  "intro-disciplines-p6": "Beide Disziplinen gehören zur {{term:fitasc|FITASC}}, dem internationalen Verband, der ihre Regeln schreibt. Die Grundlagen sind gleich: Sicherheit, der {{term:gun-mount|Anschlag}} (die Flinte an Wange und Schulter bringen) und das Lesen der Scheibe."
+  "intro-disciplines-p6": "Beide Disziplinen gehören zur {{term:fitasc|FITASC}}, dem internationalen Verband, der ihre Regeln schreibt. Die Grundlagen sind gleich: Sicherheit, der {{term:gun-mount|Anschlag}} – die Flinte an Wange und Schulter bringen – und das Lesen der Scheibe."
  },
  "note": {},
  "phrases": {},
@@ -54,10 +54,10 @@
     "b": "25",
     "c": "50"
    },
-   "explain": "Jedes Layout ergibt {{fact:targets.sporting-layout-targets}} (eine Doublette zählt als zwei Scheiben, also 10 mehr)."
+   "explain": "Jedes Layout ergibt {{fact:targets.sporting-layout-targets}} – eine {{term:double|Doublette}} zählt als zwei Scheiben, also 10 mehr."
   },
   "intro-disciplines-q2": {
-   "q": "Wie viele Wurfmaschinen gibt es auf einem Compak-Feld?",
+   "q": "Wie viele {{term:trap|Wurfmaschinen|pl}} gibt es auf einem Compak-Feld?",
    "options": {
     "a": "Sechs, mit den Buchstaben A bis F",
     "b": "Vier, mit den Buchstaben A bis D",
@@ -66,7 +66,7 @@
    "explain": "Ein {{tm:compak}}-Feld hat {{fact:basics.compak-field}}."
   },
   "intro-disciplines-q-course": {
-   "q": "In welcher Disziplin gehen Sie einen Parcours von Standplatz zu Standplatz ab?",
+   "q": "In welcher Disziplin gehen Sie einen {{term:layout|Parcours}} von {{term:shooting-stand|Standplatz}} zu Standplatz ab?",
    "options": {
     "a": "{{tm:compak}}",
     "b": "In beiden gleich",
@@ -75,7 +75,7 @@
    "explain": "Bei {{tm:sporting}} gehen Sie im natürlichen Gelände von Standplatz zu Standplatz; bei {{tm:compak}} bleiben Sie auf einem Feld und rücken um einen Standplatz nach rechts."
   },
   "intro-disciplines-q-second-shot": {
-   "q": "Ihr erster Schuss verfehlt eine Einzelscheibe. Was erlaubt die Regel?",
+   "q": "Ihr erster Schuss verfehlt eine {{term:single-target|Einzelscheibe}}. Was erlaubt die Regel?",
    "options": {
     "a": "Der Schiedsrichter wiederholt die Scheibe",
     "b": "Sie müssen die Flinte sofort öffnen",

@@ -29,11 +29,15 @@
     "health-eyes-vision-q2": "6022e443",
     "health-eyes-vision-q3": "480b808d"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Óculos de tiro e cor das lentes",
   "summary": "Por que razão os óculos são obrigatórios em {{tm:sporting}} e {{tm:compak}}, como protegem, para que servem as lentes amarela, cor de laranja, violeta e fumê, e o que fazer se precisar de óculos graduados.",
   "body": {
-    "gear-shooting-glasses-p1": "Os {{term:safety-glasses|óculos de proteção}} protegem os olhos de fragmentos do prato, chumbo que ressalta, ramos e pó. Nas competições da FITASC são obrigatórios, e um atirador que chegue ao posto sem eles é considerado ausente. Quem mais tem de os usar varia um pouco entre as disciplinas.",
+    "gear-shooting-glasses-p1": "Os {{term:safety-glasses|óculos de proteção|pl}} protegem os olhos de fragmentos do {{term:target|prato}}, chumbo que ressalta, ramos e pó. Nas competições da FITASC são obrigatórios, e um atirador que chegue ao posto sem eles é considerado ausente. Quem mais tem de os usar varia um pouco entre as disciplinas.",
     "gear-shooting-glasses-cmp1": {
       "sporting": "Atiradores, árbitros, pessoal e qualquer pessoa junto de um posto têm de usar óculos de proteção, sem exceções.",
       "compak": "Competidores, árbitros e pessoal têm de usar óculos de proteção."
@@ -41,8 +45,8 @@
     "gear-shooting-glasses-p2": "A resistência ao impacto vem primeiro. As lentes de tiro são feitas de policarbonato ou materiais semelhantes que não se estilhaçam, e uma boa armação cobre também os olhos de lado. Óculos de sol comuns não bastam. Procure uma marca de norma de proteção ocular: na Europa geralmente EN 166, nos EUA ANSI Z87.1.",
     "gear-shooting-glasses-p3": "A {{term:lens-tint|cor da lente}} não o torna mais acertado, mas pode ajudar a ver o prato sobre um determinado fundo. Muitos atiradores usam amarelo em dias encobertos, com nevoeiro e ao fim do dia, e cor de laranja como lente universal. A violeta pode tornar um prato de laranja mais brilhante sobre árvores e relva, e a fumê cinzenta reduz o brilho em sol forte sem alterar as cores.",
     "gear-shooting-glasses-p4": "Há ainda lentes incolores para tempo muito escuro e luz do fim do dia. A cor é uma questão de conforto; a proteção vem da lente resistente a impacto. Para quem começa, bastam óculos com lentes intercambiáveis: uma incolor ou amarelo-claro mais uma lente mais escura. Primeiro atire, note com que luz tem dificuldade, e só depois acrescente lentes.",
-    "gear-shooting-glasses-p5": "Os óculos de tiro têm uma forma especial. Ao pôr a arma à cara, a cabeça inclina-se ligeiramente sobre a coronha, e olha-se através da parte superior da lente. É por isso que as armações têm uma ponte alta (a parte que assenta no nariz) e lentes grandes, para que o campo de visão não fique cortado.",
-    "health-eyes-vision-p4": "Se usa óculos graduados, há dois caminhos principais. Um são óculos de tiro com lentes graduadas, encomendados a um ótico que conheça ótica desportiva. O outro é uma armação com um {{term:prescription-insert|clip graduado}} (prescription insert) separado, por detrás de lentes coloridas intercambiáveis.",
+    "gear-shooting-glasses-p5": "Os óculos de tiro têm uma forma especial. Ao pôr a arma à cara, a cabeça inclina-se ligeiramente sobre a {{term:stock|coronha}}, e olha-se através da parte superior da lente. É por isso que as armações têm uma ponte alta (a parte que assenta no nariz) e lentes grandes, para que o campo de visão não fique cortado.",
+    "health-eyes-vision-p4": "Se usa óculos graduados, há dois caminhos principais. Um são óculos de tiro com lentes graduadas, encomendados a um ótico que conheça ótica desportiva. O outro é uma armação com um {{term:prescription-insert|clip graduado}} separado, por detrás de lentes coloridas intercambiáveis.",
     "health-eyes-vision-p8": "Os óculos do dia a dia só são adequados se as lentes tiverem certificado de resistência a impacto e corrigirem a visão ao longe. Antes de comprar, converse com um oftalmologista ou um ótico.",
     "health-eyes-vision-p5": "Um atirador olha para um prato ao longe, por isso o que mais importa é a visão ao longe nítida. A partir de cerca dos 40 anos, muitas pessoas desenvolvem presbiopia: fica mais difícil ver de perto, e a {{term:bead|mira}} pode ficar desfocada.",
     "gear-shooting-glasses-bead-coaches": "Muitos treinadores dizem que isto importa menos do que parece, porque o olhar deve estar no prato, não na mira.",
@@ -83,9 +87,9 @@
       "q": "Para que usam muitos atiradores uma lente amarela?",
       "options": {
         "a": "Para sol forte ao meio-dia",
-        "b": "Para fazer o prato parecer maior",
+        "b": "Para fazer o {{term:target|prato}} parecer maior",
         "c": "Para contraste em luz fraca e ao fim do dia",
-        "d": "Para proteger os olhos do recuo"
+        "d": "Para proteger os olhos do {{term:recoil|recuo}}"
       },
       "explain": "Uma lente amarela pode aumentar o contraste quando há pouca luz."
     },
@@ -100,7 +104,7 @@
       "explain": "Estas marcas mostram que os óculos cumprem uma norma de proteção ocular, europeia ou americana."
     },
     "health-eyes-vision-q2": {
-      "q": "O que é um clip graduado (prescription insert)?",
+      "q": "O que é um {{term:prescription-insert|clip graduado}}?",
       "options": {
         "a": "Uma lente graduada por detrás das lentes coloridas",
         "b": "Um autocolante para a mira da arma",
@@ -112,12 +116,12 @@
     "health-eyes-vision-q3": {
       "q": "Com a idade, começa a falhar para um dos lados. O que vale a pena verificar?",
       "options": {
-        "a": "A cor dos pratos",
+        "a": "A cor dos {{term:target|pratos}}",
         "b": "A marca dos seus cartuchos",
-        "c": "O seu olho diretor, com o treinador",
-        "d": "O comprimento dos canos da arma"
+        "c": "O seu {{term:master-eye|olho diretor}}, com o {{term:coach|treinador}}",
+        "d": "O {{term:barrel-length|comprimento dos canos}} da arma"
       },
-      "explain": "A dominância ocular pode enfraquecer ou mudar com a idade, o que desvia os tiros; verifique-a com o seu treinador."
+      "explain": "A {{term:eye-dominance|dominância ocular}} pode enfraquecer ou mudar com a idade, o que desvia os tiros; verifique-a com o seu treinador."
     }
   }
 }

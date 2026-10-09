@@ -25,11 +25,15 @@
     "travel-planning-trip-q2": "aecc4829",
     "travel-planning-trip-q3": "ad4ffcea"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Pianificare il viaggio",
-  "summary": "Iscrizione, un alloggio vicino al campo, trasferimenti, documenti e arrivare in anticipo: da cosa è fatto un buon viaggio per una gara di {{tm:sporting}} o {{tm:compak}}.",
+  "summary": "{{term:entry|Iscrizione}}, un alloggio vicino al campo, trasferimenti, documenti e arrivare in anticipo: da cosa è fatto un buon viaggio per una gara di {{tm:sporting}} o {{tm:compak}}.",
   "body": {
-    "travel-planning-trip-p1": "Un viaggio per una gara di {{tm:sporting}} o {{tm:compak}} comincia con il programma. Indica le date, le discipline, la scadenza per l'{{term:entry|iscrizione}} e la {{term:entry-fee|quota d'iscrizione}}. Ci si iscrive tramite l'{{term:organiser|organizzatore}}. Le gare più richieste possono riempirsi molto prima della scadenza, quindi non rimandare.",
+    "travel-planning-trip-p1": "Un viaggio per una gara di {{tm:sporting}} o {{tm:compak}} comincia con il programma. Indica le date, le discipline, la scadenza per l'{{term:entry|iscrizione}} e l'{{term:entry-fee|quota d'iscrizione}}. Ci si iscrive tramite l'{{term:organiser|organizzatore}}. Le gare più richieste possono riempirsi molto prima della scadenza, quindi non rimandare.",
     "travel-planning-trip-p2": "Cerca un alloggio vicino al campo. Il tiro inizia spesso presto, e un tragitto lungo ogni giorno consuma energie. Gli organizzatori spesso suggeriscono hotel convenzionati. Prenota con anticipo e chiedi all'hotel se accetta ospiti con fucili sportivi e dove si può custodire in sicurezza un'arma.",
     "travel-planning-trip-p3": "Pianifica i trasferimenti: dall'aeroporto all'hotel, e dall'hotel al campo ogni giorno. Un'auto a noleggio dà libertà, ma trasportare un fucile in auto ha regole proprie in ogni paese. Un taxi può rifiutarsi di portare un passeggero con un'arma, e alcune gare organizzano una navetta per i tiratori.",
     "travel-planning-trip-p4": "I documenti per il fucile e le cartucce richiedono più tempo per essere preparati. Inizia con diverse settimane di anticipo, e ancora prima per un viaggio fuori dall'UE: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} e {{lesson:travel-flying-with-guns}}. Se portare il proprio fucile è troppo complicato, chiedi al campo se noleggia fucili.",
@@ -37,9 +41,9 @@
     "travel-planning-trip-p8": "Un arrivo anticipato lascia anche tempo per allenarsi. Dove ci si può allenare dipende dalla disciplina.",
     "travel-planning-trip-p6": {
       "sporting": "Prima della gara nessuno può allenarsi sui {{term:layout|percorsi}} di gara — le pedane allestite per l'evento. Ci si può allenare su altre parti del campo ({{rule:sporting:ch15-no-practice}}).",
-      "compak": "Ci si può allenare sulle traiettorie dei piattelli della gara, ma con una {{term:trajectory-setting-table|tabella di impostazione}} diversa: il piano di quali macchine sparano da ciascuna pedana. Quindi non ci si allena sulla combinazione esatta che si sparerà in gara ({{rule:compak:ch6-practice}}). Ai {{term:championship|campionati}} continentali e mondiali, l'{{term:practice|allenamento}} ufficiale apre {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+      "compak": "Ci si può allenare sulle traiettorie dei piattelli della gara, ma con una {{term:trajectory-setting-table|tabella di impostazione}} diversa: il piano di quali {{term:trap|macchine}} sparano da ciascuna pedana. Quindi non ci si allena sulla combinazione esatta che si sparerà in gara ({{rule:compak:ch6-practice}}). Ai {{term:championship|campionati}} continentali e mondiali, il {{term:practice|allenamento}} ufficiale apre {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
     },
-    "travel-planning-trip-p7": "In ogni giornata di tiro, arriva al campo in anticipo, perché il {{term:lateness|ritardo}} significa piattelli persi. Nel {{tm:sporting}}, i piattelli per i quali non eri presente vengono segnati come zero ({{rule:sporting:ch16-late-shooter}}). Nel {{tm:compak}} è più severo: a chi arriva in ritardo vengono segnati 25 zeri, un'intera serie. Quando si tira in {{term:squad|batteria}} (un gruppo che affronta la serie insieme), si è in ritardo dal momento in cui il primo tiratore della batteria ha già chiamato il primo piattello ({{rule:compak:ch9-late-squad}}).",
+    "travel-planning-trip-p7": "In ogni giornata di tiro, arriva al campo in anticipo, perché il {{term:lateness|ritardo}} significa piattelli persi. Nel {{tm:sporting}}, i piattelli per i quali non eri presente vengono segnati come zero ({{rule:sporting:ch16-late-shooter}}). Nel {{tm:compak}} è più severo: a chi arriva in ritardo vengono segnati 25 zeri, un'intera serie. Quando si tira in {{term:squad|batteria}}, un gruppo che affronta la serie insieme, si è in ritardo dal momento in cui il primo tiratore della batteria ha già chiamato il primo piattello ({{rule:compak:ch9-late-squad}}).",
     "travel-planning-trip-tip": "Una lista rapida: documenti, assicurazione, protezioni per udito e vista, abbigliamento adatto al clima, il programma nell'ora locale e i contatti dell'organizzatore. Anche un margine di tempo è una buona assicurazione."
   },
   "note": {},
@@ -49,30 +53,30 @@
     "travel-planning-trip-kp2": "Alloggia vicino al campo e chiedi all'hotel dove custodire il fucile.",
     "travel-planning-trip-kp3": "Occupati dei documenti del fucile con settimane di anticipo, prima ancora per i viaggi fuori dall'UE.",
     "travel-planning-trip-kp4": "Arriva un giorno o due prima; gli orari di tiro sono nell'ora locale.",
-    "travel-planning-trip-kp5": "Allenamento prima della gara: nel {{tm:sporting}}, lontano dai percorsi di gara; nel {{tm:compak}}, sui piattelli di gara ma con una tabella diversa (schema delle macchine per pedana).",
+    "travel-planning-trip-kp5": "{{term:practice|Allenamento}} prima della gara: nel {{tm:sporting}}, lontano dai {{term:layout|percorsi}} di gara; nel {{tm:compak}}, sui piattelli di gara ma con una tabella diversa — schema delle {{term:trap|macchine}} per pedana.",
     "travel-planning-trip-kp6": "Metti in valigia documenti, assicurazione, protezioni per udito e vista e abbigliamento adatto al clima."
   },
   "quiz": {
     "travel-planning-trip-q1": {
-      "q": "Quale affermazione sull'allenamento prima di una gara è vera?",
+      "q": "Quale affermazione sul {{term:practice|allenamento}} prima di una gara è vera?",
       "options": {
         "a": "Nel {{tm:sporting}} si può allenarsi sui percorsi di gara",
         "b": "Nel {{tm:compak}} non si può allenarsi affatto prima della gara",
         "c": "Nel {{tm:sporting}} si può allenarsi solo su altre parti del campo"
       },
-      "explain": "Nel {{tm:sporting}} i percorsi di gara sono chiusi all'allenamento, quindi ci si allena su altre parti del campo. Nel {{tm:compak}} ci si può allenare sulle traiettorie di gara ma con una tabella di impostazione diversa; ai campionati, l'allenamento ufficiale apre {{fact:training.compak-championship-practice}}."
+      "explain": "Nel {{tm:sporting}} i percorsi di gara sono chiusi all'allenamento, quindi ci si allena su altre parti del campo. Nel {{tm:compak}} ci si può allenare sulle traiettorie di gara ma con una tabella di impostazione diversa; ai {{term:championship|campionati}}, l'allenamento ufficiale apre {{fact:training.compak-championship-practice}}."
     },
     "travel-planning-trip-q2": {
       "q": "Perché conviene arrivare un giorno o due prima della gara?",
       "options": {
         "a": "Per ambientarsi, adattarsi all'ora locale e allenarsi",
-        "b": "Per pagare una quota d'iscrizione più bassa arrivando in anticipo",
+        "b": "Per pagare un'quota d'iscrizione più bassa arrivando in anticipo",
         "c": "Per scegliere da sé la propria batteria e l'orario di partenza"
       },
       "explain": "Il corpo ha bisogno di tempo dopo un viaggio lungo, e un arrivo anticipato permette di prepararsi con calma."
     },
     "travel-planning-trip-q3": {
-      "q": "In quale ora vengono indicati gli orari di tiro?",
+      "q": "In quale ora vengono indicati gli {{term:shooting-times|orari di tiro}}?",
       "options": {
         "a": "Nell'ora del proprio paese",
         "b": "Nell'ora locale del luogo della gara",

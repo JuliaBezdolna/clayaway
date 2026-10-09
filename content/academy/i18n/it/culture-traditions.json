@@ -21,17 +21,21 @@
     "culture-traditions-q3": "8144c5e3",
     "culture-traditions-q-thanks": "8ea5b06e"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Tradizioni: premiazioni, squadre e usanze",
-  "summary": "Come funzionano le cerimonie e la premiazione, come competono le squadre, e le usanze che trasformano una gara di {{tm:sporting}} o {{tm:compak}} in una festa.",
+  "summary": "Come funzionano le cerimonie e la {{term:prize-giving|premiazione}}, come competono le {{term:team|squadre}}, e le usanze che trasformano una gara di {{tm:sporting}} o {{tm:compak}} in una festa.",
   "body": {
-    "culture-traditions-p1": "Una gara è più di un punteggio. I tiratori mantengono usanze che trasformano una lunga giornata in una festa condivisa: le cerimonie, la premiazione, lo spirito di squadra e piccole cortesie sul campo.",
+    "culture-traditions-p1": "Una gara è più di un punteggio. I tiratori mantengono usanze che trasformano una lunga giornata in una festa condivisa: le cerimonie, la {{term:prize-giving|premiazione}}, lo spirito di squadra e piccole cortesie sul campo.",
     "culture-traditions-ties": "Se due o più tiratori hanno lo stesso punteggio per uno dei primi tre posti, decide uno {{term:shoot-off|spareggio}}: tirano piattelli aggiuntivi, e vince chi ne colpisce di più. È spesso il momento più emozionante della giornata, e gli spettatori si radunano intorno. Come funzionano gli spareggi e gli altri casi di parità: {{lesson:competitions-categories-and-shoot-offs}}.",
-    "culture-traditions-p4": "Le gare a squadre sono una tradizione a parte. Una {{term:team|squadra}} è un piccolo gruppo di tiratori dello stesso paese, o dello stesso club nelle gare di club. I loro punteggi si sommano per la classifica a squadre. Le squadre non disputano uno spareggio. Se due squadre finiscono in parità, vince quella i cui tiratori hanno totalizzato di più insieme nell'ultima serie della gara. Se anche lì c'è parità, decide la serie precedente, e così via.",
+    "culture-traditions-p4": "Le gare a {{term:team|squadre}} sono una tradizione a parte. Una {{term:team|squadra}} è un piccolo gruppo di tiratori dello stesso paese, o dello stesso club nelle gare di club. I loro punteggi si sommano per la classifica a squadre. Le squadre non disputano uno spareggio. Se due squadre finiscono in parità, vince quella i cui tiratori hanno totalizzato di più insieme nell'ultima serie della gara. Se anche lì c'è parità, decide la serie precedente, e così via.",
     "culture-traditions-ceremony": "Le gare internazionali si aprono e si chiudono con una cerimonia. All'apertura, le squadre nazionali sfilano nella tenuta di squadra o in pantaloni eleganti e blazer. Alla chiusura, tutti i premiati devono presentarsi alla {{term:prize-giving|premiazione}}, vestiti allo stesso modo.",
-    "culture-traditions-dress": "Questa regola delle cerimonie è la stessa in entrambe le discipline. Le gare di club sono di solito meno formali, quindi leggi il programma. L'{{term:dress-code|abbigliamento}} sulla pedana è una regola separata: {{lesson:rules-dress-and-safety}}.",
+    "culture-traditions-dress": "Questa regola delle cerimonie è la stessa in entrambe le discipline. Le gare di club sono di solito meno formali, quindi leggi il programma. Il {{term:dress-code|abbigliamento}} sulla pedana è una regola separata: {{lesson:rules-dress-and-safety}}.",
     "culture-traditions-p5": "Salire sul podio è anche un segno di rispetto: verso i rivali che hanno tirato al tuo fianco e verso le persone che hanno organizzato la gara.",
-    "culture-traditions-p6": "Ci sono anche usanze informali: congratularsi con il vincitore, una foto con la tua {{term:squad|squad}} (il gruppo con cui hai tirato), un ringraziamento agli {{term:organiser|organizzatori}}, agli {{term:referee|arbitri}} e ai {{term:trapper|puller}}. Il comportamento sulla pedana stessa: {{lesson:culture-sportsmanship-referee}}."
+    "culture-traditions-p6": "Ci sono anche usanze informali: congratularsi con il vincitore, una foto con la tua {{term:squad|squad}}, il gruppo con cui hai tirato, un ringraziamento agli {{term:organiser|organizzatori}}, ai {{term:referee|arbitri}} e ai {{term:trapper|puller}}. Il comportamento sulla pedana stessa: {{lesson:culture-sportsmanship-referee}}."
   },
   "note": {},
   "phrases": {},
@@ -45,17 +49,29 @@
   "quiz": {
     "culture-traditions-q-ceremony": {
       "q": "Cosa devono fare i premiati a una gara internazionale?",
-      "options": { "a": "Far ritirare il premio a un compagno di squadra", "b": "Presentarsi alla premiazione, vestiti in modo adeguato", "c": "Salire sul podio con il gilet da tiro" },
+      "options": {
+        "a": "Far ritirare il premio a un compagno di squadra",
+        "b": "Presentarsi alla {{term:prize-giving|premiazione}}, vestiti in modo adeguato",
+        "c": "Salire sul podio con lo {{term:shooting-vest|gilet da tiro}}"
+      },
       "explain": "Tutti i premiati si presentano alla cerimonia di chiusura nella tenuta di squadra, oppure in pantaloni eleganti e blazer."
     },
     "culture-traditions-q3": {
-      "q": "Come si separano le squadre in parità?",
-      "options": { "a": "Con i punteggi delle ultime serie", "b": "Con uno spareggio tra le squadre", "c": "Con un sorteggio dopo la gara" },
+      "q": "Come si separano le {{term:team|squadre}} in parità?",
+      "options": {
+        "a": "Con i punteggi delle ultime serie",
+        "b": "Con uno spareggio tra le squadre",
+        "c": "Con un sorteggio dopo la gara"
+      },
       "explain": "Le squadre non disputano uno spareggio. Decide l'ultima serie della gara (nel {{tm:sporting}} l'ottavo percorso, nel {{tm:compak}} l'ottavo campo); se anche lì c'è parità, quella precedente, e così via."
     },
     "culture-traditions-q-thanks": {
       "q": "Chi ringraziano di solito i tiratori a fine giornata?",
-      "options": { "a": "Solo il vincitore della gara", "b": "Solo l'istruttore venuto con loro", "c": "Gli organizzatori, gli arbitri e i puller" },
+      "options": {
+        "a": "Solo il vincitore della gara",
+        "b": "Solo l'istruttore venuto con loro",
+        "c": "Gli organizzatori, i arbitri e i puller"
+      },
       "explain": "Una gara si basa sul lavoro di molte persone, e un breve ringraziamento è un'usanza comune."
     }
   }

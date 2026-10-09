@@ -161,7 +161,7 @@
       "rule_ref": "sporting:ch2-layout",
       "anchor": "sport-sporting-layout",
       "en": "In {{tm:sporting}} the shooting ground is divided into {{term:layout|layouts}}. A layout is a group of {{term:shooting-stand|shooting stands}} that together make up one round of {{fact:targets.sporting-layout-targets}}.",
-      "uk": "У {{tm:sporting}} стрільбище поділене на {{term:layout|майданчики}} (layout). Майданчик — це група {{term:shooting-stand|стрілецьких місць}}, з яких разом стріляють один раунд — {{fact:targets.sporting-layout-targets}}."
+      "uk": "У {{tm:sporting}} стрільбище поділене на {{term:layout|майданчики}}. Майданчик — це група {{term:shooting-stand|стрілецьких місць}}, з яких разом стріляють один раунд — {{fact:targets.sporting-layout-targets}}."
     },
     {
       "k": "sporting-rounds-stands-p2",
@@ -170,7 +170,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch2-traps-table",
       "en": "Layouts are built in one of two ways. In the older type, 3 stands share 5 traps. The newer type is called a {{term:line|line}}. A line of 4 stands has three stands with 4 traps and one stand (no. 2 or 3) with 3 traps. A line of 5 stands has 3 traps at each stand. A line of 3 stands with 5 traps each is allowed only for a Grand Prix.",
-      "uk": "Майданчики будують одним із двох способів. У старішому типі 3 стрілецькі місця мають спільні 5 машинок. Новіший тип називають {{term:line|лінією}} (line). На лінії з 4 місць три місця мають по 4 машинки, а одне (№ 2 або № 3) — 3 машинки. На лінії з 5 місць на кожному місці по 3 машинки. Лінію з 3 місць по 5 машинок дозволено лише для Grand Prix."
+      "uk": "Майданчики будують одним із двох способів. У старішому типі 3 стрілецькі місця мають спільні 5 машинок. Новіший тип називають {{term:line|лінією}}. На лінії з 4 місць три місця мають по 4 машинки, а одне (№ 2 або № 3) — 3 машинки. На лінії з 5 місць на кожному місці по 3 машинки. Лінію з 3 місць по 5 машинок дозволено лише для Grand Prix."
     },
     {
       "k": "sport-sporting-layout-p2",
@@ -179,7 +179,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch2-shooting-stands",
       "en": "A shooting stand is where the shooter stands: a 1 m square or a circle 1 m across. It should be level where possible, and at least not slippery (a safety rule). The rest of the {{term:squad|squad}} (the group of shooters who shoot together) waits nearby, close enough to follow but without distracting the shooter.",
-      "uk": "Стрілецьке місце (shooting stand) — там, де стоїть стрілець: квадрат 1 × 1 м або коло діаметром 1 м. Воно має бути рівним, де це можливо, і щонайменше не слизьким (вимога безпеки). Решта {{term:squad|групи}} (стрільців, які стріляють разом) чекає поруч — досить близько, щоб стежити, але так, щоб не відволікати стрільця."
+      "uk": "{{term:shooting-stand|Стрілецьке місце}} — там, де стоїть стрілець: квадрат 1 × 1 м або коло діаметром 1 м. Воно має бути рівним, де це можливо, і щонайменше не слизьким (вимога безпеки). Решта {{term:squad|групи}}, тобто стрільців, які стріляють разом, чекає поруч — досить близько, щоб стежити, але так, щоб не відволікати стрільця."
     },
     {
       "k": "sport-sporting-layout-p3",
@@ -188,7 +188,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch2-trap-letters",
       "en": "Traps are placed to suit the terrain, often partly hidden by bushes or trees. The targets copy real game: flying across, towards you, away from you or at an angle (quartering), high or low, in the open or through trees. The traps of a stand are lettered from left to right as seen from the stand: A, B, C and so on (the rulebook names A to D). The menu and the score sheet use these letters.",
-      "uk": "Машинки ставлять відповідно до рельєфу, часто частково ховаючи за кущами чи деревами. Мішені нагадують справжню дичину: летять поперек, на вас, від вас або навскіс (quartering), високо чи низько, на відкритому місці чи між деревами. Машинки стрілецького місця позначають літерами зліва направо, якщо дивитися з місця: A, B, C і далі (правила називають A–D). Ці літери використовують меню і протокол."
+      "uk": "{{term:trap|Машинки}} ставлять відповідно до рельєфу, часто частково ховаючи за кущами чи деревами. Мішені нагадують справжню дичину: летять поперек, на вас, від вас або навскіс (quartering), високо чи низько, на відкритому місці чи між деревами. Машинки стрілецького місця позначають літерами зліва направо, якщо дивитися з місця: A, B, C і далі (правила називають A–D). Ці літери використовують меню і {{term:score-sheet|протокол}}."
     },
     {
       "k": "sport-sporting-layout-p4",
@@ -197,7 +197,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch2-target-menu",
       "en": "In front of each stand there is a {{term:target-menu|target menu}}. It lists the traps in shooting order and names any special targets: {{fact:targets.sporting-menu-special-targets}}. Before the competition the referees check that the traps match the menu. Shooters read it before stepping onto the stand; see {{lesson:targets-menu}}.",
-      "uk": "Перед кожним стрілецьким місцем стоїть {{term:target-menu|меню мішеней}} (target menu). Воно перелічує машинки в порядку стрільби й називає особливі мішені: {{fact:targets.sporting-menu-special-targets}}. Перед змаганнями судді перевіряють, чи машинки відповідають меню. Стрільці читають меню, перш ніж стати на місце; докладніше — в уроці {{lesson:targets-menu}}."
+      "uk": "Перед кожним стрілецьким місцем стоїть {{term:target-menu|меню мішеней}}. Воно перелічує машинки в порядку стрільби й називає особливі мішені: {{fact:targets.sporting-menu-special-targets}}. Перед змаганнями {{term:referee|судді}} перевіряють, чи машинки відповідають меню. Стрільці читають меню, перш ніж стати на місце; докладніше — в уроці {{lesson:targets-menu}}."
     },
     {
       "k": "sport-sporting-layout-p5",
@@ -225,7 +225,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch16-squads",
       "en": "Shooters go round in squads of up to six; who goes in which squad is decided by a draw. At each stand everyone shoots the singles first, then the doubles. Who shoots first changes from stand to stand, and changes again when the doubles begin. The others wait close by without distracting the person shooting.",
-      "uk": "Стрільці проходять майданчик групами (squad) до шести осіб; хто в якій групі, вирішує жеребкування. На кожному місці всі спершу стріляють одиночні, потім дуплети. Хто стріляє першим, змінюється на кожному місці, а коли починаються дуплети, — ще раз. Решта групи чекає поруч і не відволікає того, хто стріляє."
+      "uk": "Стрільці проходять майданчик групами до шести осіб; хто в якій групі, вирішує жеребкування. На кожному місці всі спершу стріляють одиночні, потім {{term:double|дуплети}}. Хто стріляє першим, змінюється на кожному місці, а коли починаються дуплети, — ще раз. Решта групи чекає поруч і не відволікає того, хто стріляє."
     },
     {
       "k": "targets-sporting-layout-ready",
@@ -376,7 +376,7 @@
       "k": "sporting-rounds-stands-kp3",
       "core": true,
       "en": "Squads of up to six; singles first, then doubles; the order rotates.",
-      "uk": "Групи до шести; спершу одиночні, потім дуплети; черговість змінюється."
+      "uk": "Групи до шести; спершу одиночні, потім дуплети; {{term:rotation|черговість}} змінюється."
     },
     {
       "k": "sporting-rounds-stands-kp4",

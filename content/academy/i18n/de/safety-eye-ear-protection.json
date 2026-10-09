@@ -40,10 +40,10 @@
   "origin": "interpreter-academy"
  },
  "title": "Augen- und Gehörschutz",
- "summary": "Warum Gehörschutz für alle in der Nähe eines Layouts Pflicht ist, wer bei {{tm:sporting}} und {{tm:compak}} eine Brille tragen muss, und wie man passenden Schutz wählt.",
+ "summary": "Warum {{term:hearing-protection|Gehörschutz}} für alle in der Nähe eines Layouts Pflicht ist, wer bei {{tm:sporting}} und {{tm:compak}} eine Brille tragen muss, und wie man passenden Schutz wählt.",
  "body": {
   "safety-eye-ear-protection-p1": "Ein Flintenschuss ist sehr laut: {{fact:gear.gunshot-peak-db}}. Dezibel (dB) messen die Lautstärke, und ein Schuss ist ein „Impulsschall“: ein kurzer, scharfer Knall. Für einen solchen Knall liegen die Grenzwerte bei {{fact:gear.impulse-noise-limits}}. Der Grenzwert für Erwachsene stammt aus dem Arbeitsschutz; der Grenzwert für Kinder wird von der Weltgesundheitsorganisation (WHO) empfohlen. Ein Schuss liegt deutlich über beiden Grenzwerten, sodass schon ein einziger ungeschützter Schuss das Gehör schädigen kann. Lärmschäden bauen sich über die Zeit auf und verschwinden meist nicht wieder. Klingeln in den Ohren nach dem Schießen, Tinnitus genannt, kann ein frühes Warnzeichen sein.",
-  "etiquette-protection-and-dress-p1": "Gehörschutz ist Pflicht für alle auf oder in der Nähe eines {{term:layout|Layouts}} (dem Schießbereich mit seinen Standplätzen und Wurfmaschinen): Schützen, Schiedsrichter, Personal und Zuschauer. Bei {{tm:sporting}} ist eine Schießbrille ohne Ausnahme Pflicht für Schützen, Schiedsrichter, Personal und alle in der Nähe eines Standplatzes. Bei {{tm:compak}} nennt die Brillenregel Wettkämpfer, Schiedsrichter und Personal. Ein Schütze, der ohne Brille oder Gehörschutz auf den Standplatz tritt, wird als nicht erschienen behandelt, so als hätte er sich nicht zu seiner Reihe eingefunden, und darf nicht schießen. Bei {{tm:sporting}} gilt dann die Regel für verspätete Schützen.",
+  "etiquette-protection-and-dress-p1": "{{term:hearing-protection|Gehörschutz}} ist Pflicht für alle auf oder in der Nähe von einem {{term:layout|Layout}} – dem Schießbereich mit seinen Standplätzen und {{term:trap|Wurfmaschinen|pl}}: Schützen, Schiedsrichter, Personal und Zuschauer. Bei {{tm:sporting}} ist eine {{term:safety-glasses|Schießbrille}} ohne Ausnahme Pflicht für Schützen, Schiedsrichter, Personal und alle in der Nähe eines Standplatzes. Bei {{tm:compak}} nennt die Brillenregel Wettkämpfer, Schiedsrichter und Personal. Ein Schütze, der ohne Brille oder Gehörschutz auf den Standplatz tritt, wird als nicht erschienen behandelt, so als hätte er sich nicht zu seiner Reihe eingefunden, und darf nicht schießen. Bei {{tm:sporting}} gilt dann die Regel für verspätete Schützen.",
   "safety-eye-ear-protection-children": {
    "sporting": "Kinder am Schießstand tragen außerhalb des Vereinshauses jederzeit Gehörschutz.",
    "compak": "Es gibt keine eigene Zeile zu Kindern, aber die Regel erfasst alle Zuschauer in der Nähe des Layouts, Kinder eingeschlossen."
@@ -52,7 +52,7 @@
   "safety-eye-ear-protection-p4": "Beim {{term:hearing-protection|Gehörschutz}} gibt es zwei Haupttypen: {{term:earplugs|Ohrstöpsel}}, die im Gehörgang sitzen, und Kapselgehörschutz, der die Ohren bedeckt. Einfacher {{term:passive-ear-muffs|passiver Kapselgehörschutz}} blockiert nur den Schall. {{term:electronic-ear-muffs|Elektronischer Gehörschutz}} dämpft den Knall, lässt aber Stimmen durch, sodass Sie den Schiedsrichter weiterhin hören.",
   "safety-eye-ear-protection-fit": "Schutz wirkt nur, wenn er passt. Ohrstöpsel müssen tief und fest sitzen, und Kapselgehörschutz muss die Ohren rundum abdichten. Individuell angepasste Stöpsel sind bequem und sitzen jedes Mal gleich, aber gut eingesetzte Schaumstoffstöpsel schützen ebenfalls gut. Der SNR-Wert auf der Verpackung (Single Number Rating, die Lärmminderungskennzahl des Produkts) zeigt, wie stark er den Schall dämpft: je höher, desto mehr.",
   "safety-eye-ear-protection-double": "Ohrstöpsel und Kapselgehörschutz zusammen bieten den größten Schutz. In Tests an einem akustischen Kunstkopf senkte der Schutz den Spitzenpegel eines Schusses um {{fact:safety.double-protection-db}}. Hörexperten empfehlen beide zusammen bei großkalibrigen Flinten, etwa den am Wurfscheibenstand üblichen 12er-Flinten, und immer, wenn viele Schüsse abgegeben werden.",
-  "safety-eye-ear-protection-p5": "{{term:safety-glasses|Schießbrillen}} bestehen aus schlagfestem Material, und viele haben wechselbare Gläser. Viele Schützen finden, dass eine gelbe oder orange {{term:lens-tint|Tönung}} bei trübem Licht hilft und eine dunklere bei hellem Sonnenschein. Wer eine Sehhilfe trägt, sollte nach Fassungen mit {{term:prescription-insert|Korrektionseinsatz}} fragen. Mehr in {{lesson:gear-shooting-glasses}}.",
+  "safety-eye-ear-protection-p5": "Schießbrillen bestehen aus schlagfestem Material, und viele haben wechselbare Gläser. Viele Schützen finden, dass eine gelbe oder orange {{term:lens-tint|Tönung}} bei trübem Licht hilft und eine dunklere bei hellem Sonnenschein. Wer eine Sehhilfe trägt, sollte nach Fassungen mit {{term:prescription-insert|Korrektionseinsatz}} fragen. Mehr in {{lesson:gear-shooting-glasses}}.",
   "safety-eye-ear-protection-dress": "Auch Kleidung gehört zur Sicherheit. Sandalen sind bei FITASC-Wettkämpfen verboten, bei {{tm:compak}} auch im Training. Shorts sind nur in der längeren Bermuda-Form erlaubt, die {{fact:rules.dress-shorts-length}} endet. Die {{term:competitor-number|Startnummer}} wird auf dem Rücken getragen, voll sichtbar. Die vollständige {{term:dress-code|Kleiderordnung}} steht in {{lesson:rules-dress-and-safety}}.",
   "safety-eye-ear-protection-p6": "Legen Sie den Schutz an, bevor Sie zum Standplatz gehen, und prüfen Sie, dass Sie Brille und Gehörschutz beide dabeihaben. Behalten Sie sie an, solange jemand in der Nähe schießt. Im Training verleiht der Schießstand oft Brille und Ohrstöpsel; später lohnt es sich, eigene zu haben."
  },
@@ -88,7 +88,7 @@
  "did_you_know": "Elektronischer Gehörschutz hat kleine Mikrofone: Er lässt leise Geräusche wie Stimmen durch und senkt die Lautstärke sofort, wenn ein Schuss fällt.",
  "quiz": {
   "safety-eye-ear-protection-q1": {
-   "q": "Wer muss bei einem Wettkampf Gehörschutz tragen?",
+   "q": "Wer muss bei einem Wettkampf {{term:hearing-protection|Gehörschutz}} tragen?",
    "options": {
     "a": "Nur der Schütze, der auf dem Standplatz ist",
     "b": "Schützen und Schiedsrichter, aber nicht Zuschauer",
@@ -97,26 +97,26 @@
    "explain": "Die Regeln beider Disziplinen nennen Schützen, Schiedsrichter, Personal und Zuschauer in der Nähe des Layouts."
   },
   "etiquette-protection-and-dress-q1": {
-   "q": "Ihr Schütze tritt ohne Schießbrille auf den Standplatz. Wie behandeln die Regeln ihn?",
+   "q": "Ihr Schütze tritt ohne {{term:safety-glasses|Schießbrille}} auf den Standplatz. Wie behandeln die Regeln ihn?",
    "options": {
     "a": "Er erhält eine Verwarnung und darf schießen",
     "b": "Er darf schießen, wenn der Trainer zustimmt",
     "c": "Er verliert eine Scheibe",
     "d": "Er wird als nicht erschienen behandelt"
    },
-   "explain": "In beiden Disziplinen wird ein Schütze ohne Augen- oder Gehörschutz auf dem Standplatz als nicht erschienen behandelt und darf nicht schießen."
+   "explain": "In beiden Disziplinen wird ein Schütze ohne Augen- oder {{term:hearing-protection|Gehörschutz}} auf dem Standplatz als nicht erschienen behandelt und darf nicht schießen."
   },
   "safety-eye-ear-protection-q4": {
-   "q": "Was bietet den größten Gehörschutz, wenn viele Schüsse abgegeben werden?",
+   "q": "Was bietet den größten {{term:hearing-protection|Gehörschutz}}, wenn viele Schüsse abgegeben werden?",
    "options": {
-    "a": "Ohrstöpsel und Kapselgehörschutz zusammen getragen",
-    "b": "Elektronischer Gehörschutz mit aufgedrehter Lautstärke",
+    "a": "{{term:earplugs|Ohrstöpsel}} und Kapselgehörschutz zusammen getragen",
+    "b": "{{term:electronic-ear-muffs|Elektronischer Gehörschutz}} mit aufgedrehter Lautstärke",
     "c": "Locker eingesetzte Ohrstöpsel, der Bequemlichkeit halber"
    },
    "explain": "Stöpsel und Kapselgehörschutz zusammen schützen am meisten, solange beide gut passen."
   },
   "safety-eye-ear-protection-q3": {
-   "q": "Was ist der Vorteil von elektronischem Gehörschutz?",
+   "q": "Was ist der Vorteil von {{term:electronic-ear-muffs|elektronischem Gehörschutz}}?",
    "options": {
     "a": "Er macht eine Schießbrille unnötig",
     "b": "Er dämpft den Knall, lässt aber Stimmen durch",
@@ -135,14 +135,14 @@
    "explain": "Kurze Shorts sind in beiden Disziplinen verboten; lange Bermuda-Shorts sind zugelassen."
   },
   "etiquette-protection-and-dress-q3": {
-   "q": "Warum ist elektronischer Gehörschutz eine gute Wahl für einen Dolmetscher?",
+   "q": "Warum ist {{term:electronic-ear-muffs|elektronischer Gehörschutz}} eine gute Wahl für einen Dolmetscher?",
    "options": {
     "a": "Er dämpft den Schuss, lässt aber Stimmen durch",
     "b": "Für Dolmetscher ist er nicht vorgeschrieben",
     "c": "Er blockiert jedes Geräusch vollständig",
     "d": "Er zeichnet den Trainer auf"
    },
-   "explain": "Gehörschutz ist nahe einem Layout Pflicht, und elektronischer Gehörschutz lässt Sie Trainer und Schiedsrichter hören."
+   "explain": "{{term:hearing-protection|Gehörschutz}} ist nahe einem Layout Pflicht, und elektronischer Gehörschutz lässt Sie Trainer und Schiedsrichter hören."
   }
  }
 }

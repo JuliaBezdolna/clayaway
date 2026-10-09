@@ -126,7 +126,7 @@
       "k": "nextstep-club-shoot-and-volunteering-p2",
       "t": "p",
       "en": "Next, decide the format: {{tm:sporting}} or {{tm:compak}}, the number of targets, the {{term:category|categories}} (who competes against whom, for example by age) and the {{term:entry-fee|entry fee}}. You can use the FITASC rules as a basis. Announce in advance which rules you will shoot under, and any local changes.",
-      "uk": "Далі визначте формат: {{tm:sporting}} чи {{tm:compak}}, кількість мішеней, {{term:category|категорії}} (хто з ким змагається, наприклад за віком) та {{term:entry-fee|стартовий внесок}}. Правила FITASC можна взяти за основу. Заздалегідь оголосіть, за якими правилами ви стріляєте і що змінено на місці."
+      "uk": "Далі визначте формат: {{tm:sporting}} чи {{tm:compak}}, кількість мішеней, {{term:category|категорії|pl}} (хто з ким змагається, наприклад за віком) та {{term:entry-fee|стартовий внесок}}. Правила FITASC можна взяти за основу. Заздалегідь оголосіть, за якими правилами ви стріляєте і що змінено на місці."
     },
     {
       "k": "nextstep-club-shoot-and-volunteering-cmp-layouts",
@@ -137,7 +137,7 @@
       "sporting": {
         "rule_ref": "sporting:ch15-layout-officials",
         "en": "The {{term:course-designer|course designers}} (the people who decide where each target flies) show the layouts and targets to the {{term:jury|jury}} members in charge and to the {{term:chief-referee|chief referee}}. Those officials can ask for changes for safety, for easier refereeing or to protect nature before they approve the layouts.",
-        "uk": "{{term:course-designer|Автори майданчиків}} (course designers — ті, хто вирішує, як полетить кожна мішень) показують майданчики й мішені відповідальним членам {{term:jury|журі}} та {{term:chief-referee|головному судді}}. Ті можуть вимагати змін заради безпеки, зручності суддівства чи захисту природи, перш ніж затвердять майданчики."
+        "uk": "{{term:course-designer|Автори майданчиків}} — ті, хто вирішує, як полетить кожна мішень, — показують майданчики й мішені відповідальним членам {{term:jury|журі}} та {{term:chief-referee|головному судді}}. Ті можуть вимагати змін заради безпеки, зручності суддівства чи захисту природи, перш ніж затвердять майданчики."
       },
       "compak": {
         "rule_ref": "compak:ch5-who-sets-layouts",
@@ -165,7 +165,7 @@
       "compak": {
         "rule_ref": "compak:ch6-practice",
         "en": "Shooters may practise on the competition trajectories, but with the targets combined differently. The {{term:trajectory-setting-table|setting table}} (the written plan of which traps are shot from each station) used for practice must differ from the competition one.",
-        "uk": "Стрільці можуть тренуватися на траєкторіях змагання, але мішені поєднують інакше. {{term:trajectory-setting-table|Таблиця налаштування}} (запис, з яких машинок стріляють на кожному номері) для тренування має відрізнятися від змагальної."
+        "uk": "Стрільці можуть тренуватися на траєкторіях змагання, але мішені поєднують інакше. {{term:trajectory-setting-table|Таблиця налаштування}} — запис, з яких машинок стріляють на кожному номері, — для тренування має відрізнятися від змагальної."
       }
     },
     {
@@ -178,7 +178,7 @@
       "k": "nextstep-club-shoot-and-volunteering-p4",
       "t": "p",
       "en": "Look after the people: {{term:referee|referees}}, {{term:trapper|trappers}}, registration and scoring. Make up the {{term:squad|squads}} (who shoots with whom) and a timetable, and publish both in advance.",
-      "uk": "Подбайте про людей: {{term:referee|суддів}}, {{term:trapper|операторів машинок}}, реєстрацію й підрахунок результатів. Складіть {{term:squad|групи}} (хто з ким стріляє) й розклад та опублікуйте їх заздалегідь."
+      "uk": "Подбайте про людей: {{term:referee|суддів}}, {{term:trapper|операторів машинок}}, реєстрацію й підрахунок результатів. Складіть {{term:squad|групи}}, тобто хто з ким стріляє, і розклад та опублікуйте їх заздалегідь."
     },
     {
       "k": "nextstep-club-shoot-and-volunteering-protection",
@@ -197,7 +197,7 @@
       "k": "nextstep-club-shoot-and-volunteering-p6",
       "t": "p",
       "en": "Plan your volunteers early. They can register shooters, help with scoring under the referee's eye, look after parking, take photos and clear up cases and target fragments. Give a safety briefing to anyone who will work near a trap. The helper's side of the story: {{lesson:culture-club-life}}.",
-      "uk": "Сплануйте волонтерів заздалегідь. Вони можуть реєструвати учасників, допомагати з підрахунком під наглядом судді, стежити за парковкою, фотографувати й прибирати гільзи та уламки мішеней. Проведіть інструктаж з безпеки для всіх, хто працюватиме біля машинки. Погляд з боку помічника: {{lesson:culture-club-life}}."
+      "uk": "Сплануйте волонтерів заздалегідь. Вони можуть реєструвати учасників, допомагати з підрахунком під наглядом судді, стежити за парковкою, фотографувати й прибирати {{term:empties|гільзи}} та уламки мішеней. Проведіть інструктаж з безпеки для всіх, хто працюватиме біля {{term:trap|машинки}}. Погляд з боку помічника: {{lesson:culture-club-life}}."
     }
   ],
   "note": [],

@@ -44,18 +44,18 @@
   "title": "Training für den Wettkampf",
   "summary": "Wie Sie den Wettkampf ins Training holen: volle Runden, Ihre eigene Routine, die Zeitlimits Ihrer Disziplin und leichter Druck, der schrittweise wächst.",
   "body": {
-    "training-for-competition-p1": "Ein Wettkampf fühlt sich anders an: neue Scheiben, unbekannte Schützen, ein Schiedsrichter und Nervosität. Damit sich das vertraut anfühlt, empfehlen viele Trainer, manche Einheiten wie einen Wettkampf ablaufen zu lassen.",
-    "training-for-competition-p2": "Schießen Sie volle {{term:round|Runden}} und zählen Sie das Ergebnis. Bitten Sie nach einem Fehlschuss nicht um eine Wiederholung, und schießen Sie die Scheiben in der Reihenfolge des {{term:target-menu|Wurfschemas}}.",
+    "training-for-competition-p1": "Ein Wettkampf fühlt sich anders an: neue Scheiben, unbekannte Schützen, ein {{term:referee|Schiedsrichter}} und Nervosität. Damit sich das vertraut anfühlt, empfehlen viele Trainer, manche Einheiten wie einen Wettkampf ablaufen zu lassen.",
+    "training-for-competition-p2": "Schießen Sie volle {{term:round|Runden|pl}} und zählen Sie das Ergebnis. Bitten Sie nach einem Fehlschuss nicht um eine Wiederholung, und schießen Sie die Scheiben in der Reihenfolge des {{term:target-menu|Wurfschemas}}.",
     "training-for-competition-p2-why": "So läuft ein Wettkampf ab: Eine verfehlte Scheibe wird nicht noch einmal geworfen, und die Scheiben kommen in der Reihenfolge, die das Wurfschema vorgibt. Das Wurfschema ist die Tafel, die zeigt, welche Scheiben Sie in welcher Reihenfolge schießen.",
     "training-for-competition-round": {
       "sporting": "Eine Runde auf einem {{term:layout|Layout}} sind {{fact:targets.sporting-layout-targets}} ({{rule:sporting:ch2-traps-table}}).",
       "compak": "Eine Runde sind {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}})."
     },
     "training-for-competition-p3": "Nutzen Sie bei jeder Scheibe Ihre {{term:pre-shot-routine|Schussroutine}}: dieselben Schritte in derselben Reihenfolge. Studien zu Routinen, meist aus anderen Sportarten, deuten darauf hin, dass Sportler mit einer Routine besser abschneiden, auch wenn sie nervös sind. Das trifft wahrscheinlich auch auf das Wurfscheibenschießen zu. Mehr in {{lesson:mind-routine-under-pressure}}.",
-    "training-for-competition-order": "Die Schritte jedes Mal in derselben Reihenfolge zu machen, scheint wichtiger zu sein, als genau dieselbe Anzahl Sekunden zu brauchen. Das passt zum Wurfscheibenschießen, denn die Zeit zwischen Ihrem Abruf und der Scheibe kann von Scheibe zu Scheibe unterschiedlich sein. In {{tm:sporting}} löst eine Person die Scheibe aus, ebenso in {{tm:compak}} bei manuellem Auslösen. Die Regeln setzen für diese Verzögerung nur eine Obergrenze. Nur ein {{term:sonopull|Sonopull}} in {{tm:compak}}, ein Gerät, das die Scheibe auslöst, wenn es Ihren Abruf hört, hält die Verzögerung fest. Die genauen Zeiten stehen unten.",
+    "training-for-competition-order": "Die Schritte jedes Mal in derselben Reihenfolge zu machen, scheint wichtiger zu sein, als genau dieselbe Anzahl Sekunden zu brauchen. Das passt zum Wurfscheibenschießen, denn die Zeit zwischen Ihrem {{term:call|Abruf}} und der Scheibe kann von Scheibe zu Scheibe unterschiedlich sein. In {{tm:sporting}} löst eine Person die Scheibe aus, ebenso in {{tm:compak}} bei manuellem Auslösen. Die Regeln setzen für diese Verzögerung nur eine Obergrenze. Nur ein {{term:sonopull|Sonopull}} in {{tm:compak}}, ein Gerät, das die Scheibe auslöst, wenn es Ihren Abruf hört, hält die Verzögerung fest. Die genauen Zeiten stehen unten.",
     "training-for-competition-p4": {
-      "sporting": "Vor dem {{term:call|Abruf}} ist die Flinte nicht angeschlagen. Die Schaftkappe des {{term:stock|Schafts}}, die obere Ecke des Endes, das in die Schulter geht, berührt Ihren Körper. Die Oberseite des Schafts bleibt unterhalb der {{term:jacket-line|Westenmarkierung}}. Das ist eine Linie quer über Ihre Weste oder Jacke {{fact:rules.sporting-jacket-line}}; die Schulterachse ist eine gedachte horizontale Linie durch beide Schultern. Diesen {{term:ready-position|Jagdanschlag}} (Flinte unten, bereit zum Anschlagen) halten Sie, bis die Scheibe ausgelöst wird und Sie sie sehen können ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
-      "compak": "Die Flintenhaltung beim Abruf ist frei: angeschlagen oder nicht. Jede Scheibe wird mit der Flinte in der Schulter beschossen. Eine Westenmarkierung gibt es nicht ({{rule:compak:ch17-gun-position}})."
+      "sporting": "Vor dem {{term:call|Abruf}} ist die Flinte nicht angeschlagen. Die Schaftkappe des {{term:stock|Schafts}}, die obere Ecke des Endes, das in die Schulter geht, berührt Ihren Körper. Die Oberseite des Schafts bleibt unterhalb der {{term:jacket-line|Westenmarkierung}}. Das ist eine Linie quer über Ihre Weste oder Jacke {{fact:rules.sporting-jacket-line}}; die Schulterachse ist eine gedachte horizontale Linie durch beide Schultern. Diesen {{term:ready-position|Jagdanschlag}} – Flinte unten, bereit zum {{term:gun-mount|Anschlagen}} – halten Sie, bis die Scheibe ausgelöst wird und Sie sie sehen können ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+      "compak": "Die {{term:gun-position|Flintenhaltung}} beim Abruf ist frei: angeschlagen oder nicht. Jede Scheibe wird mit der Flinte in der Schulter beschossen. Eine Westenmarkierung gibt es nicht ({{rule:compak:ch17-gun-position}})."
     },
     "training-for-competition-train-start": "Üben Sie, wie jeder Schuss in Ihrer Disziplin beginnt: die Flintenhaltung, der Abruf und das Warten auf die Scheibe.",
     "training-for-competition-p5": {
@@ -69,7 +69,7 @@
       "Eine Testrunde: eine volle Runde mit Ergebnis, in der Reihenfolge des Wurfschemas, ohne Wiederholungen und mit dem Zeitlimit Ihrer Disziplin.",
       "Zuschauer: Bitten Sie einen Freund zuzusehen, den Schiedsrichter zu spielen und die Ergebnisse laut anzusagen.",
       "Ein kleiner Einsatz: ein freundschaftlicher Wettkampf, bei dem zum Beispiel der Verlierer den Kaffee zahlt.",
-      "Eine {{term:shoot-off|Stechen}}-Übung. Ein Stechen ist die zusätzliche Strecke, die einen Gleichstand entscheidet. Schießen Sie nach einer Runde, ohne lange Vorbereitung, noch eine volle Runde, und wenn Sie möchten, eine {{term:sudden-death|Sudden-Death}}-Serie, die beim ersten Fehlschuss endet."
+      "Eine Übung für das {{term:shoot-off|Stechen}}. Ein Stechen ist die zusätzliche Strecke, die einen Gleichstand entscheidet. Schießen Sie nach einer Runde, ohne lange Vorbereitung, noch eine volle Runde, und wenn Sie möchten, eine Serie mit {{term:sudden-death|Sudden Death}}, die beim ersten Fehlschuss endet."
     ],
     "training-for-competition-shoot-off": "Ein echtes Stechen findet nur für die ersten drei Plätze statt. In beiden Disziplinen sind es 25 Scheiben, und bleiben die Schützen weiter gleich, Sudden Death: Wer zuerst daneben schießt, scheidet aus ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
     "training-for-competition-fit-in": "Wie Sie das in ein normales Training einbauen. Viele Trainer lassen die Technikarbeit im ersten Teil einer Einheit und fügen gegen Ende einmal oder zweimal pro Woche eine Druckaufgabe hinzu. Während Sie eine neue Bewegung lernen, lassen Sie den Druck weg, bis sie sich gefestigt fühlt. Zerfällt die Technik, erleichtern Sie die Aufgabe, statt weiterzumachen.",
@@ -101,16 +101,16 @@
         "b": "Höchstens 60 Sekunden",
         "c": "So viel Sie brauchen"
       },
-      "explain": "Eine Überschreitung bringt zuerst eine Verwarnung, dann Strafen. In {{tm:compak}} haben Sie höchstens 10 Sekunden für den Abruf."
+      "explain": "Eine Überschreitung bringt zuerst eine Verwarnung, dann Strafen. In {{tm:compak}} haben Sie höchstens 10 Sekunden für den {{term:call|Abruf}}."
     },
     "training-for-competition-q2": {
-      "q": "In welcher Disziplin muss der Schaft unterhalb der Westenmarkierung bleiben, bis die Scheibe erscheint?",
+      "q": "In welcher Disziplin muss der {{term:stock|Schaft}} unterhalb der {{term:jacket-line|Westenmarkierung}} bleiben, bis die Scheibe erscheint?",
       "options": {
         "a": "In beiden Disziplinen",
         "b": "Nur in {{tm:sporting}}",
         "c": "Nur in {{tm:compak}}"
       },
-      "explain": "In {{tm:compak}} ist die Flintenhaltung beim Abruf frei, und es gibt keine Westenmarkierung."
+      "explain": "In {{tm:compak}} ist die {{term:gun-position|Flintenhaltung}} beim {{term:call|Abruf}} frei, und es gibt keine Westenmarkierung."
     },
     "training-for-competition-q-pressure": {
       "q": "Wie empfehlen Studien, Druck ins Training einzubauen?",
@@ -131,13 +131,13 @@
       "explain": "Coaching während eines Wettkampfs ist in keiner der beiden Disziplinen erlaubt, der Plan wird also im Voraus abgesprochen."
     },
     "training-for-competition-q-compak-time": {
-      "q": "Wie viel Zeit haben Sie in {{tm:compak}} für den Abruf, nachdem die Scheibe an der vorherigen Position geschossen wurde?",
+      "q": "Wie viel Zeit haben Sie in {{tm:compak}} für den {{term:call|Abruf}}, nachdem die Scheibe an der vorherigen Position geschossen wurde?",
       "options": {
         "a": "Höchstens 10 Sekunden",
         "b": "Höchstens 30 Sekunden",
         "c": "Es gibt kein Limit"
       },
-      "explain": "Beim ersten Überschreiten gibt es eine Verwarnung, die im Protokoll vermerkt wird; wiederholt sich das in derselben Runde, wird bestraft."
+      "explain": "Beim ersten Überschreiten gibt es eine Verwarnung, die im Protokoll vermerkt wird; wiederholt sich das in derselben {{term:round|Runde}}, wird bestraft."
     }
   }
 }

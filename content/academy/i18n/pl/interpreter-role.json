@@ -29,12 +29,12 @@
     "origin": "pl-wave-2026-10"
   },
   "title": "Wasza rola: trening a zawody",
-  "summary": "Na treningu jesteście głosem trenera. Na zawodach podpowiadanie jest zabronione, więc przekazujecie tylko to, co mówią sędzia, jury i organizator.",
+  "summary": "Na treningu jesteście głosem {{term:coach|trenera}}. Na zawodach podpowiadanie jest zabronione, więc przekazujecie tylko to, co mówią {{term:referee|sędzia}}, jury i organizator.",
   "body": {
     "interpreter-role-p1": "Na treningu jesteście głosem {{term:coach|trenera}}. Przekazujcie każdą wskazówkę w całości, w tej samej kolejności i tonie: stanowczo, gdy chodzi o bezpieczeństwo, ciepło, gdy to pochwała. Nie łagodźcie krytyki i nie dodawajcie powodów, których trener nie podał. Nie dodawajcie własnych porad technicznych, nawet jeśli znacie odpowiedź. Jeśli nie usłyszeliście słowa, dopytajcie, zanim przetłumaczycie.",
-    "interpreter-role-p2": "Na zawodach wszystko jest inaczej. Zarówno w {{tm:sporting}}, jak i w {{tm:compak}} {{term:coaching|podpowiadanie}} zawodnikowi w czasie zawodów jest zabronione. Strzelec dostaje {{term:yellow-card|żółtą kartkę}}, za powtórzenia grożą ostrzejsze sankcje, a osobę, która podpowiadała, {{term:referee|sędzia}} usuwa z obszaru strzelania ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Decyzję podejmuje tylko sędzia. Nikt w {{term:squad|grupie}} nie komentuje trafień. Otwarta krytyka orzeczenia liczy się jako {{term:attempt-to-influence|próba wywierania wpływu}} na sędziego, czyli próba nakłonienia go do innej decyzji ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "interpreter-role-p2": "Na zawodach wszystko jest inaczej. Zarówno w {{tm:sporting}}, jak i w {{tm:compak}} {{term:coaching|podpowiadanie}} zawodnikowi w czasie zawodów jest zabronione. Strzelec dostaje {{term:yellow-card|żółtą kartkę}}, za powtórzenia grożą ostrzejsze sankcje, a osobę, która podpowiadała, {{term:referee|sędzia}} usuwa z obszaru strzelania ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Decyzję podejmuje tylko sędzia. Nikt w {{term:squad|grupie}} nie komentuje trafień. Otwarta krytyka orzeczenia liczy się jako {{term:attempt-to-influence|próba wywierania wpływu na sędziego}}, czyli próba nakłonienia go do innej decyzji ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
     "interpreter-role-p3": "A teraz szczerze: regulaminy FITASC w ogóle nie wspominają o {{term:interpreter|tłumaczach}}. Nie mówią, czy dosłowne przekazanie rady trenera liczy się jako podpowiadanie. Nie mówią też, gdzie tłumacz może stać. To otwarte pytanie do FITASC, więc nie przedstawiajcie żadnej odpowiedzi jako oficjalnej.",
-    "interpreter-role-p4": "Dopóki FITASC nie odpowie, stosujcie bezpieczną praktykę. Na zawodach tłumaczcie tylko to, co przechodzi między waszym strzelcem a sędzią, {{term:jury|jury}} albo {{term:organiser|organizatorem}}: komendy, decyzje, ostrzeżenia, {{term:protest|protesty}}, godziny i składy grup. Przed zawodami powiedzcie sędziemu lub organizatorowi, kim jesteście, i uzgodnijcie, gdzie będziecie stać. Jeśli trener poprosi was o przekazanie rady w czasie zawodów, odmówcie uprzejmie i wyjaśnijcie czemu. Tak ochronicie swojego strzelca przed żółtą kartką.",
+    "interpreter-role-p4": "Dopóki FITASC nie odpowie, stosujcie bezpieczną praktykę. Na zawodach tłumaczcie tylko to, co przechodzi między waszym strzelcem a sędzią, {{term:jury|jury}} albo {{term:organiser|organizatorem}}: komendy, decyzje, ostrzeżenia, {{term:protest|protesty|pl}}, godziny i składy grup. Przed zawodami powiedzcie sędziemu lub organizatorowi, kim jesteście, i uzgodnijcie, gdzie będziecie stać. Jeśli trener poprosi was o przekazanie rady w czasie zawodów, odmówcie uprzejmie i wyjaśnijcie czemu. Tak ochronicie swojego strzelca przed żółtą kartką.",
     "interpreter-role-p5": "Przepisy nie mówią, czy przerwa między rundami wciąż liczy się jako „czas zawodów”. Jeśli nie jesteście pewni, zapytajcie jury albo organizatora, zanim przekażecie jakąkolwiek radę. Gdzie stać i kiedy mówić: {{lesson:interpreter-position}}."
   },
   "note": {},
@@ -66,27 +66,27 @@
   "did_you_know": null,
   "quiz": {
     "interpreter-role-q1": {
-      "q": "W trakcie rundy zawodniczej trener prosi was o przekazanie strzelcowi „more lead on the crosser”. Co robicie?",
+      "q": "W trakcie rundy zawodniczej {{term:coach|trener}} prosi was o przekazanie strzelcowi „more lead on the crosser”. Co robicie?",
       "options": {
         "a": "Szybko szepczecie, gdy nabija broń",
         "b": "Przekazujecie po następnym rzutku",
         "c": "Odmawiacie uprzejmie: to byłoby podpowiadanie",
         "d": "Prosicie sędziego, żeby to przekazał"
       },
-      "explain": "Podpowiadanie w czasie zawodów jest zabronione, a strzelec dostałby żółtą kartkę. Przepisy nie mówią, czy przekazywanie rad jest dozwolone, więc działajcie ostrożnie."
+      "explain": "Podpowiadanie w czasie zawodów jest zabronione, a strzelec dostałby {{term:yellow-card|żółtą kartkę}}. Przepisy nie mówią, czy przekazywanie rad jest dozwolone, więc działajcie ostrożnie."
     },
     "interpreter-role-q2": {
       "q": "Co regulaminy FITASC mówią o tłumaczach?",
       "options": {
         "a": "Mogą stać na stanowisku",
-        "b": "Potrzebują licencji sędziowskiej",
-        "c": "Są traktowani jak trenerzy",
+        "b": "Potrzebują {{term:referee-certificate|licencji sędziowskiej}}",
+        "c": "Są traktowani jak {{term:coach|trenerzy}}",
         "d": "Nic: to otwarte pytanie"
       },
       "explain": "Regulaminy nie wspominają o tłumaczach, więc ich dokładna pozycja na zawodach jest otwartym pytaniem dla FITASC."
     },
     "interpreter-role-q3": {
-      "q": "Na treningu trener mówi: „Not bad, but you stopped the gun”. Jak to przetłumaczyć?",
+      "q": "Na treningu {{term:coach|trener}} mówi: „Not bad, but you stopped the gun”. Jak to przetłumaczyć?",
       "options": {
         "a": "W całości i tym samym tonem, obie części",
         "b": "Tylko pochwałę, żeby gość był zadowolony",

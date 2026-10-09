@@ -230,7 +230,7 @@
       "k": "training-for-competition-p2",
       "t": "p",
       "en": "Shoot full {{term:round|rounds}} and keep score. Do not ask for a target again after you miss it, and shoot the targets in the order of the {{term:target-menu|menu}}.",
-      "uk": "Стріляйте повні {{term:round|раунди}} й рахуйте результат. Не просіть подати мішень ще раз після промаху й стріляйте мішені в порядку {{term:target-menu|меню}}."
+      "uk": "Стріляйте повний {{term:round|раунд}} і рахуйте результат. Не просіть подати мішень ще раз після промаху й стріляйте мішені в порядку {{term:target-menu|меню}}."
     },
     {
       "k": "training-for-competition-p2-why",
@@ -271,11 +271,11 @@
       "critical": true,
       "sporting": {
         "en": "Before the {{term:call|call}} the gun is not mounted. The heel of the {{term:stock|stock}}, the top corner of the end that goes into your shoulder, touches your body. The top of the stock stays below the {{term:jacket-line|jacket line}}. It is a line marked across your vest or jacket {{fact:rules.sporting-jacket-line}}; the shoulder axis is an imaginary horizontal line through both shoulders. Keep this {{term:ready-position|ready position}} (gun down, ready to mount) until the target is released and you can see it ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
-        "uk": "До {{term:call|виклику мішені}} рушниця не вкладена. П’ятка {{term:stock|приклада}} — верхній кут того кінця, що лягає в плече, — торкається тіла. Верх приклада залишається нижче від {{term:jacket-line|лінії на жилеті}}. Це смуга, яку наносять на жилет чи куртку {{fact:rules.sporting-jacket-line}}; вісь плеча — уявна горизонтальна лінія через обидва плечі. Це {{term:ready-position|вихідне положення}} (рушниця внизу, готова до вкладки) тримають, доки мішень не вилетить і ви її не побачите ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}})."
+        "uk": "До {{term:call|виклику мішені}} рушниця не вкладена. П’ятка {{term:stock|приклада}} — верхній кут того кінця, що лягає в плече, — торкається тіла. Верх приклада залишається нижче від {{term:jacket-line|лінії на жилеті}}. Це смуга, яку наносять на {{term:shooting-vest|жилет}} чи куртку {{fact:rules.sporting-jacket-line}}; вісь плеча — уявна горизонтальна лінія через обидва плечі. Це {{term:ready-position|вихідне положення}}: рушниця внизу, готова до вкладки. Його тримають, доки мішень не вилетить і ви її не побачите ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}})."
       },
       "compak": {
         "en": "The gun position at the call is free: mounted or not. Each target is shot with the gun at the shoulder. There is no jacket line ({{rule:compak:ch17-gun-position}}).",
-        "uk": "Положення рушниці під час виклику вільне: вкладена вона чи ні. Кожну мішень стріляють із рушницею біля плеча. Лінії на жилеті немає ({{rule:compak:ch17-gun-position}})."
+        "uk": "{{term:gun-position|Положення рушниці}} під час виклику вільне: вкладена вона чи ні. Кожну мішень стріляють із рушницею біля плеча. Лінії на жилеті немає ({{rule:compak:ch17-gun-position}})."
       }
     },
     {
@@ -325,7 +325,7 @@
         "Контрольний раунд: повний раунд із рахунком, у порядку меню, без повторних мішеней і з лімітом часу вашої дисципліни.",
         "Глядачі: попросіть друга подивитися, побути суддею й оголошувати результат уголос.",
         "Невелика ставка: дружній матч, у якому, наприклад, той, хто програв, купує каву.",
-        "Тренувальна {{term:shoot-off|перестрілка}}. Перестрілка — це додаткова стрільба, яка вирішує нічию. Одразу після раунду й без довгої підготовки — ще один повний раунд, а за бажання й серія {{term:sudden-death|sudden death}} до першого промаху."
+        "Тренувальна {{term:shoot-off|перестрілка}}. Перестрілка — це додаткова стрільба, яка вирішує нічию. Одразу після раунду й без довгої підготовки — ще один повний раунд, а за бажання й серія {{term:sudden-death|до першого промаху}}."
       ]
     },
     {
@@ -376,13 +376,13 @@
       "k": "training-for-competition-n-coach",
       "for": "coach",
       "en": "Raise the pressure only as fast as the shooter's technique holds. If the mount or the tempo changes, step back to an easier task. Before the event, agree on the plan; during it you may not coach.",
-      "uk": "Підвищуйте тиск лише так швидко, як тримається техніка стрільця. Якщо змінюється вкладка чи темп, поверніться до легшого завдання. Перед змаганням домовтеся про план; під час змагань підказувати не можна."
+      "uk": "Підвищуйте тиск лише так швидко, як тримається техніка стрільця. Якщо змінюється {{term:gun-mount|вкладка}} чи темп, поверніться до легшого завдання. Перед змаганням домовтеся про план; під час змагань підказувати не можна."
     },
     {
       "k": "training-for-competition-n-interpreter",
       "for": "interpreter",
       "en": "During a competition, pass on only what the referee and the officials say. Translating a coach's tips to a shooter can count as coaching.",
-      "uk": "Під час змагань перекладайте лише те, що кажуть суддя й офіційні особи. Переклад підказок тренера стрільцеві можуть вважати забороненим підказуванням (coaching)."
+      "uk": "Під час змагань перекладайте лише те, що кажуть суддя й офіційні особи. Переклад підказок тренера стрільцеві можуть вважати забороненим підказуванням."
     }
   ],
   "phrases": [],

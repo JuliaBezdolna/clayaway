@@ -37,7 +37,7 @@
   "title": "Saugos akiniai ir lęšių spalvos",
   "summary": "Kodėl akiniai privalomi {{tm:sporting}} ir {{tm:compak}}, kaip jie apsaugo, kam skirti geltoni, oranžiniai, violetiniai ir dūminiai lęšiai, ir ką daryti, jei jums reikia dioptrinių akinių.",
   "body": {
-    "gear-shooting-glasses-p1": "{{term:safety-glasses|Saugos akiniai}} saugo akis nuo taikinio skeveldrų, atšokusių šratų, šakelių ir dulkių. FITASC varžybose jie privalomi, o šaulys, atėjęs į šaudymo vietą be jų, laikomas neatvykusiu. Kam juos dar privalu dėvėti, disciplinose truputį skiriasi.",
+    "gear-shooting-glasses-p1": "{{term:safety-glasses|Saugos akiniai}} saugo akis nuo {{term:target|taikinio}} skeveldrų, atšokusių šratų, šakelių ir dulkių. FITASC varžybose jie privalomi, o šaulys, atėjęs į šaudymo vietą be jų, laikomas neatvykusiu. Kam juos dar privalu dėvėti, disciplinose truputį skiriasi.",
     "gear-shooting-glasses-cmp1": {
       "sporting": "Šauliai, teisėjai, personalas ir visi, kas arti šaudymo vietos, turi dėvėti saugos akinius, be išimčių.",
       "compak": "Dalyviai, teisėjai ir personalas turi dėvėti akių apsaugą."
@@ -45,8 +45,8 @@
     "gear-shooting-glasses-p2": "Svarbiausia – smūgiams atsparumas. Stendinio šaudymo lęšiai gaminami iš polikarbonato ar panašių medžiagų, kurios nedūžta į šukes, o geras rėmelis apsaugo akis ir iš šonų. Paprasti saulės akiniai tam netinka. Ieškokite akių apsaugos standarto žymos: Europoje dažniausiai EN 166, JAV – ANSI Z87.1.",
     "gear-shooting-glasses-p3": "{{term:lens-tint|Lęšio spalva}} nepadarys jūsų tikslesnio šaulio, bet gali padėti geriau įžiūrėti taikinį konkrečiame fone. Daug šaulių renkasi geltoną lęšį debesuotu oru, rūke ir prieblandoje, o oranžinį – kaip universalų. Violetinis gali padaryti oranžinį taikinį ryškesnį medžių ir žolės fone, o pilka dūminė (smoke) sumažina ryškumą stipriame saulėje, nekeisdama spalvų.",
     "gear-shooting-glasses-p4": "Yra ir skaidrūs lęšiai – labai tamsiam orui ir vakaro šviesai. Spalva – patogumo klausimas, apsaugo smūgiams atsparus lęšis. Pradedančiajam pakanka akinių su keičiamais lęšiais: skaidrus ar šviesiai geltonas plius vienas tamsesnis. Pirma pašaudykite, pastebėkite, kokioje šviesoje jums sunku, tada pridėkite lęšių.",
-    "gear-shooting-glasses-p5": "Stendiniai akiniai turi ypatingą formą. Kai prisidedate šautuvą, galva truputį pasilenkia prie buožės, ir žiūrite pro viršutinę lęšio dalį. Todėl rėmeliai turi aukštą tiltelį (dalį, kuri remiasi į nosį) ir didelius lęšius, kad regėjimo laukas nebūtų apkarpytas.",
-    "health-eyes-vision-p4": "Jei nešiojate akinius dėl regėjimo, yra du pagrindiniai keliai. Pirmas – stendiniai akiniai su dioptriniais lęšiais, užsakyti pas optiką, kuris išmano sportinę optiką. Antras – rėmeliai su atskiru {{term:prescription-insert|dioptriniu įdėklu}} (prescription insert) už keičiamų spalvotų lęšių.",
+    "gear-shooting-glasses-p5": "Stendiniai akiniai turi ypatingą formą. Kai prisidedate šautuvą, galva truputį pasilenkia prie {{term:stock|buožės}}, ir žiūrite pro viršutinę lęšio dalį. Todėl rėmeliai turi aukštą tiltelį (dalį, kuri remiasi į nosį) ir didelius lęšius, kad regėjimo laukas nebūtų apkarpytas.",
+    "health-eyes-vision-p4": "Jei nešiojate akinius dėl regėjimo, yra du pagrindiniai keliai. Pirmas – stendiniai akiniai su dioptriniais lęšiais, užsakyti pas optiką, kuris išmano sportinę optiką. Antras – rėmeliai su atskiru {{term:prescription-insert|dioptriniu įdėklu}} už keičiamų spalvotų lęšių.",
     "health-eyes-vision-p8": "Kasdieniai akiniai tinka tik tada, jei jų lęšiai sertifikuoti kaip smūgiams atsparūs ir koreguoja regėjimą į atstumą. Prieš pirkdami, pasitarkite su oftalmologu ar optiku.",
     "health-eyes-vision-p5": "Šaulys žiūri į taikinį tolumoje, tad svarbiausia – aštrus regėjimas į atstumą. Apytiksliai po 40 metų daugeliui žmonių išsivysto presbiopija (su amžiumi susijusi toliaregystė): sunkiau matyti iš arti, ir {{term:bead|mušis}} gali pradėti neryškėti.",
     "gear-shooting-glasses-bead-coaches": "Daug trenerių sako, kad tai svarbu mažiau, nei atrodo, nes žvilgsnis turi būti nukreiptas į taikinį, o ne į mušį.",
@@ -104,7 +104,7 @@
       "explain": "Šios žymos rodo, kad akiniai atitinka akių apsaugos standartą – europinį ar amerikietišką."
     },
     "health-eyes-vision-q2": {
-      "q": "Kas yra dioptrinis įdėklas (prescription insert)?",
+      "q": "Kas yra {{term:prescription-insert|dioptrinis įdėklas}}?",
       "options": {
         "a": "Dioptrinis lęšis už spalvotų lęšių",
         "b": "Lipdukas ant šautuvo mušio",
@@ -118,8 +118,8 @@
       "options": {
         "a": "Taikinių spalvą",
         "b": "Jūsų šovinių markę",
-        "c": "Dominuojančią akį, su treneriu",
-        "d": "Šautuvo vamzdžių ilgį"
+        "c": "Dominuojančią akį, su {{term:coach|treneriu}}",
+        "d": "Šautuvo {{term:barrel-length|vamzdžių ilgį}}"
       },
       "explain": "Akies dominavimas su amžiumi gali silpnėti ar kisti, ir tai gali paslinkti šūvius; patikrinkite su treneriu."
     }

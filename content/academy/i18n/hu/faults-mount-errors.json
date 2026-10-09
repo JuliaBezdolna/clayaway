@@ -31,10 +31,10 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "faults-mount-errors-p1": "Sok mellőlövés már a lendítés előtt kezdődik, a vállba vételnél: azzal a mozdulattal, amely a fegyvert az archoz és a vállhoz emeli. Az edző szavai erre rövidek és a testről szólnak: fej, arc, váll, kéz.",
-    "faults-mount-errors-p2": "Késői vállba vétel (late mount): a fegyver azután ér a vállba, hogy a lövésnek már el kellett volna dördülnie, ezért a lövész kapkod, vagy azelőtt lő, hogy az arca leérne. Az ellentétes hiba a túl korán befejezett vállba vétel, amely után a fegyver vár, mozdulatlanul és nehézként. Javítás: „move, mount, shoot” – mozdulj, vedd vállba, lőj –, ahol a csövek a koronggal együtt indulnak, és a vállba vétel a lövéssel együtt fejeződik be.",
-    "faults-mount-errors-p3": "Face to the gun („arc a fegyverhez”): a tus archoz emelése helyett a lövész leengedi a fejét, hogy találkozzon vele. A szem így minden alkalommal máshol van, és a visszarúgás az arcba üt. Az edzők azt mondják: „bring the gun to your face, not your face to the gun” – a fegyvert hozd az archoz, ne az arcot a fegyverhez. Fáj az is, ha a tus a vállzseb helyett a karra kerül.",
-    "faults-mount-errors-p4": "Megdöntés (canting): a fegyver a lövéskor oldalra billen, és a lövés elsodródik a vonalról. Gyakran leesett vállal jár együtt. Javítás: „keep the gun level” (tartsd vízszintesen a fegyvert), „turn from the hips” (csípőből fordulj).",
+    "faults-mount-errors-p1": "Sok mellőlövés már a lendítés előtt kezdődik, a {{term:gun-mount|vállba vételnél}}: azzal a mozdulattal, amely a fegyvert az archoz és a vállhoz emeli. Az edző szavai erre rövidek és a testről szólnak: fej, arc, váll, kéz.",
+    "faults-mount-errors-p2": "{{term:late-mount|Késői vállba vétel}}: a fegyver azután ér a vállba, hogy a lövésnek már el kellett volna dördülnie, ezért a lövész kapkod, vagy azelőtt lő, hogy az arca leérne. Az ellentétes hiba a túl korán befejezett vállba vétel, amely után a fegyver vár, mozdulatlanul és nehézként. Javítás: „move, mount, shoot” – mozdulj, vedd vállba, lőj –, ahol a csövek a koronggal együtt indulnak, és a vállba vétel a lövéssel együtt fejeződik be.",
+    "faults-mount-errors-p3": "Face to the gun („arc a fegyverhez”): a tus archoz emelése helyett a lövész leengedi a fejét, hogy találkozzon vele. A szem így minden alkalommal máshol van, és a {{term:recoil|visszarúgás}} az arcba üt. Az edzők azt mondják: „bring the gun to your face, not your face to the gun” – a fegyvert hozd az archoz, ne az arcot a fegyverhez. Fáj az is, ha a tus a vállzseb helyett a karra kerül.",
+    "faults-mount-errors-p4": "{{term:canting|Megdöntés}}: a fegyver a lövéskor oldalra billen, és a lövés elsodródik a vonalról. Gyakran leesett vállal jár együtt. Javítás: „keep the gun level” (tartsd vízszintesen a fegyvert), „turn from the hips” (csípőből fordulj).",
     "faults-mount-errors-p5": "A FITASC {{tm:sporting}} versenyeken a fegyvert nem szabad vállba venni, mielőtt a korong megjelenik, így a „pre-mount this one” csak edzésgyakorlat. Ha valaki korán veszi vállba a {{tm:sporting}} versenyen, figyelmeztetést és sárga lapot kap. A {{tm:compak}}-ban a korong kérésekor a fegyver már vállban lehet.",
     "faults-mount-errors-more": "Hogy néz ki lépésről lépésre egy jó vállba vétel: {{lesson:technique-gun-mount}}."
   },
@@ -78,7 +78,7 @@
         "c": "Edzésgyakorlat; versenyen a korong megjelenése után kell vállba venni",
         "d": "{{tm:compak}} szabály, amely minden FITASC-versenyszámra érvényes"
       },
-      "explain": "A {{tm:sporting}} a korong megjelenéséig leeresztett fegyveres készenléti helyzetet ír elő; a versenyen korán vállba vett fegyverért figyelmeztetés és sárga lap jár."
+      "explain": "A {{tm:sporting}} a korong megjelenéséig leeresztett fegyveres készenléti helyzetet ír elő; a versenyen korán vállba vett fegyverért figyelmeztetés és {{term:yellow-card|sárga lap}} jár."
     },
     "faults-mount-errors-q2": {
       "q": "„You canted the gun” jelentése…",

@@ -31,7 +31,7 @@
   "title": "Rodzaje zawodów",
   "summary": "Zawody klubowe, krajowe, Grand Prix i mistrzostwa w {{tm:sporting}} i {{tm:compak}}: czym się różnią i od czego może zacząć początkujący.",
   "body": {
-    "competitions-types-of-events-p1": "Zawody w {{tm:sporting}} i {{tm:compak}} obejmują zakres od przyjacielskich {{term:club-shoot|zawodów klubowych}} (club shoot) po {{term:championship|mistrzostwa}} świata. Międzynarodowe przepisy obu dyscyplin pisze {{term:fitasc|FITASC}} — międzynarodowa federacja, która nimi zarządza. Jak zorganizowany jest ten sport, wyjaśnia lekcja {{lesson:intro-fitasc-and-organisation}}.",
+    "competitions-types-of-events-p1": "Zawody w {{tm:sporting}} i {{tm:compak}} obejmują zakres od przyjacielskich {{term:club-shoot|zawodów klubowych}} po {{term:championship|mistrzostwa}} świata. Międzynarodowe przepisy obu dyscyplin pisze {{term:fitasc|FITASC}} — międzynarodowa federacja, która nimi zarządza. Jak zorganizowany jest ten sport, wyjaśnia lekcja {{lesson:intro-fitasc-and-organisation}}.",
     "competitions-types-of-events-p2": "Zawody klubowe to dobre miejsce, by zacząć. Organizują je kluby i strzelnice, często w weekendy. Rzutków jest zwykle mniej niż na dużych turniejach, tempo jest spokojniejsze, a inni z przyjemnością wyjaśnią, co robić. Liczbę rzutków, format i część przepisów ustala {{term:organiser|organizator}}, więc warto przeczytać program zawodów.",
     "competitions-types-of-events-p3": "Kolejny poziom to zawody krajowe: mistrzostwa i puchary kraju, które prowadzi {{term:national-federation|federacja krajowa}} lub wyznaczony przez nią klub. Ich przepisy są często zbliżone do międzynarodowych, a wyniki mogą się liczyć przy wyborze reprezentacji kraju.",
     "competitions-types-of-events-p4": "Międzynarodowe zawody FITASC są otwarte dla strzelców z wielu krajów. To zawody {{term:grand-prix|Grand Prix}}, a na najwyższym poziomie — mistrzostwa Europy i świata. Zawody międzynarodowe to zwykle {{fact:basics.international-targets}}, rozłożone na kilka dni.",
@@ -39,7 +39,7 @@
       "sporting": "200 rzutków strzela się na ośmiu {{term:layout|osiach}}, po jednej {{term:round|serii}} 25 rzutków na każdej. Na zawodach Grand Prix dozwolona jest też „linia” — rząd {{fact:competitions.sporting-grand-prix-line}}.",
       "compak": "200 rzutków strzela się na ośmiu polach Compak (jedno pole Compak to pięć stanowisk i sześć maszynek). Pola są czterech rodzajów: różnią się liczbą rzutków pojedynczych i dubletów strzelanych z każdego stanowiska oraz rodzajem tych dubletów. Na mistrzostwach kontynentu i świata klub-organizator ustawia na czas zawodów {{fact:competitions.compak-championship-machines}} (po sześć na każde pole), tak by warunki były takie same dla wszystkich."
     },
-    "competitions-types-of-events-p5": "Na dużych mistrzostwach klasyfikuje się nie tylko zawodników indywidualnie, ale też {{term:team|drużyny}}: wyniki zawodników drużyny narodowej są do siebie dodawane. Poza tym strzelcy są klasyfikowani w {{term:category|kategoriach}} według wieku i płci. Obu tematom poświęcona jest lekcja {{lesson:competitions-categories-and-shoot-offs}}.",
+    "competitions-types-of-events-p5": "Na dużych mistrzostwach klasyfikuje się nie tylko zawodników indywidualnie, ale też {{term:team|drużyny}}: wyniki zawodników drużyny narodowej są do siebie dodawane. Poza tym strzelcy są klasyfikowani w kategoriach według wieku i płci. Obu tematom poświęcona jest lekcja {{lesson:competitions-categories-and-shoot-offs}}.",
     "competitions-types-of-events-start": "Wielu trenerów podsuwa, by zacząć od kilku zawodów klubowych. Dzięki temu przyzwyczaisz się do harmonogramu, {{term:squad|grupy}} i {{term:referee|sędziego}} bez większej presji. Jak się zapisać: {{lesson:competitions-how-to-enter}}."
   },
   "note": {
@@ -55,7 +55,11 @@
   "quiz": {
     "competitions-types-of-events-q1": {
       "q": "Ile rzutków ma zwykle międzynarodowe zawody FITASC?",
-      "options": { "a": "100", "b": "200", "c": "150" },
+      "options": {
+        "a": "100",
+        "b": "200",
+        "c": "150"
+      },
       "explain": "Zawody międzynarodowe to zwykle 200 rzutków, strzelanych seriami po 25."
     },
     "competitions-types-of-events-q2": {

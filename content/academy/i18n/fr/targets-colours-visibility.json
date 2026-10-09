@@ -29,12 +29,12 @@
     "origin": null
   },
   "title": "Couleurs, lumière et visibilité",
-  "summary": "Pourquoi la couleur d'un plateau doit se détacher, comment la lumière et le fond changent ce que vous voyez, et quand la météo entraîne ou non un No Bird.",
+  "summary": "Pourquoi la couleur d'un {{term:target|plateau}} doit se détacher, comment la lumière et le fond changent ce que vous voyez, et quand la météo entraîne ou non un No Bird.",
   "body": {
-    "targets-colours-visibility-p1": "Les deux règlements demandent la même chose : la couleur d'un plateau doit se détacher clairement du fond. Les plateaux bicolores ne sont pas recommandés. La couleur n'est donc pas un type de plateau. Le régleur de parcours (la personne qui place les lanceurs et règle les trajectoires) choisit une couleur pour chaque trajectoire afin que vous puissiez voir le plateau.",
+    "targets-colours-visibility-p1": "Les deux règlements demandent la même chose : la couleur d'un {{term:target|plateau}} doit se détacher clairement du fond. Les plateaux bicolores ne sont pas recommandés. La couleur n'est donc pas un type de plateau. Le régleur de parcours — la personne qui place les {{term:trap|lanceurs}} et règle les trajectoires — choisit une couleur pour chaque trajectoire afin que vous puissiez voir le plateau.",
     "targets-colours-visibility-p2": "Vous entendrez parler de plateaux noirs, orange, blancs, jaunes et roses. Beaucoup de régleurs utilisent le noir sur fond de ciel et l'orange sur fond d'arbres et d'herbe. Un plateau « blazed » a un dôme peint en orange vif. Attention : quand un entraîneur dit « the orange one », il parle d'une couleur, pas d'une taille. Un midi noir et un standard orange peuvent partir du même poste.",
-    "targets-colours-visibility-p3": "Si un plateau de la mauvaise couleur est lancé, l'arbitre annonce No Bird et il est relancé. Dans les deux disciplines, le tir peut être suspendu en cas d'averse soudaine et forte ou d'orage violent qui semble devoir être court. Au {{tm:sporting}}, c'est l'arbitre qui en décide, au {{tm:compak}} le chef arbitre ; si la suspension peut durer, le jury en est informé. Le règlement du {{tm:compak}} ajoute que le mauvais temps en lui-même n'est pas un motif de No Bird : un plateau touché compte, et un plateau manqué reste manqué, quel que soit le temps.",
-    "targets-colours-visibility-p4": "La lumière change tout. Les entraîneurs parlent de contre-jour (le soleil derrière le plateau), de lumière plate les jours gris, d'ombres sous les arbres et du fond derrière le plateau : ciel, ligne d'arbres ou sol. Un plateau peut « disparaître » devant des arbres sombres et « ressortir » sur fond de ciel. C'est pourquoi les tireurs changent la teinte des verres de leurs lunettes de tir au cours de la journée.",
+    "targets-colours-visibility-p3": "Si un plateau de la mauvaise couleur est lancé, l'arbitre annonce No Bird et il est relancé. Dans les deux disciplines, le tir peut être suspendu en cas d'averse soudaine et forte ou d'orage violent qui semble devoir être court. Au {{tm:sporting}}, c'est l'arbitre qui en décide, au {{tm:compak}} le {{term:chief-referee|chef arbitre}} ; si la suspension peut durer, le jury en est informé. Le règlement du {{tm:compak}} ajoute que le mauvais temps en lui-même n'est pas un motif de No Bird : un plateau touché compte, et un plateau manqué reste manqué, quel que soit le temps.",
+    "targets-colours-visibility-p4": "La lumière change tout. Les entraîneurs parlent de contre-jour (le soleil derrière le plateau), de lumière plate les jours gris, d'ombres sous les arbres et du fond derrière le plateau : ciel, ligne d'arbres ou sol. Un plateau peut « disparaître » devant des arbres sombres et « ressortir » sur fond de ciel. C'est pourquoi les tireurs changent le {{term:lens-tint|teinte des verres}} de leurs {{term:safety-glasses|lunettes de tir|pl}} au cours de la journée.",
     "targets-colours-visibility-tip1": "Sur un nouveau stand, beaucoup de tireurs essaient deux {{term:lens-tint|teintes de verres}} sur le premier poste et gardent celle qui montre le plateau le plus clairement. Voir {{lesson:gear-shooting-glasses}}."
   },
   "note": {
@@ -63,7 +63,7 @@
   },
   "quiz": {
     "targets-colours-visibility-q1": {
-      "q": "Que le règlement exige-t-il de la couleur d'un plateau ?",
+      "q": "Que le règlement exige-t-il de la couleur d'un {{term:target|plateau}} ?",
       "options": {
         "a": "Elle doit toujours être orange ou blanche",
         "b": "Elle doit se détacher du fond",
@@ -73,14 +73,14 @@
       "explain": "La visibilité sur le fond est l'exigence ; les plateaux bicolores ne sont pas recommandés."
     },
     "targets-colours-visibility-q2": {
-      "q": "Au {{tm:compak}}, il commence à pleuvoir fort et un tireur manque son plateau. Peut-il demander un No Bird à cause de la météo ?",
+      "q": "Au {{tm:compak}}, il commence à pleuvoir fort et un tireur manque son {{term:target|plateau}}. Peut-il demander un No Bird à cause de la météo ?",
       "options": {
         "a": "Oui, la météo le justifie toujours",
         "b": "Seulement pour le premier plateau d'un doublé",
         "c": "Seulement si le jury l'accepte",
         "d": "Non, la météo n'est pas un motif de No Bird"
       },
-      "explain": "Le règlement du {{tm:compak}} dit que le mauvais temps n'est pas un motif de No Bird : le manqué reste manqué. Séparément, le chef arbitre peut arrêter le tir pour un orage soudain qui semble devoir être court."
+      "explain": "Le règlement du {{tm:compak}} dit que le mauvais temps n'est pas un motif de No Bird : le manqué reste manqué. Séparément, le {{term:chief-referee|chef arbitre}} peut arrêter le tir pour un orage soudain qui semble devoir être court."
     },
     "targets-colours-visibility-q3": {
       "q": "Un entraîneur dit : « Watch the orange one. » Que décrit-il ?",

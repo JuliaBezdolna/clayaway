@@ -37,8 +37,8 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "basics-stance-p1": "A beállás (stance) az, ahogyan a lövész a lövés előtt áll. A hely kicsi: a {{tm:sporting}}-ban a lőállás 1 m-es négyzet vagy kör, és a korong kérése előtt mindkét lábnak belül kell lennie. A {{tm:compak}}-ban minden lőállás 1 m-es négyzet egy lövésiszög-határolóval (Firing Angle Limiter): ez egy keret, amely megakadályozza, hogy a lövész előrelépjen, és korlátozza a lendítést.",
-    "basics-stance-p3": "A legfontosabb utasítás: az elülső lábfejed mutasson a {{term:break-point|lövési pontra}}, arra a helyre, ahol a korongot el akarod találni. Így a lövés pillanatában a tested nyugodtan áll, és pontosan arra néz, amerre kell. Mielőtt kéred a korongot, fordítsd vissza a felsőtested a csípőből a {{term:hold-point|fegyvertartási pont}} felé, arra a helyre, ahol a csövek várják a korongot. Amikor a korong felszáll, egyszerűen visszafordulsz ugyanazon az úton, mint egy felhúzott rugó. Ha ehelyett a lábaid a dobógép felé néznek, figyelmeztetnek az edzők, a tested nem tud elég messzire fordulni a lövési pontig, és a fegyver megáll, vagy felemelkedik a fejed.",
+    "basics-stance-p1": "A {{term:stance|beállás}} az, ahogyan a lövész a lövés előtt áll. A hely kicsi: a {{tm:sporting}}-ban a {{term:shooting-stand|lőállás}} 1 m-es négyzet vagy kör, és a korong kérése előtt mindkét lábnak belül kell lennie. A {{tm:compak}}-ban minden lőállás 1 m-es négyzet egy {{term:firing-angle-limiter|lövésiszög-határolóval}}: ez egy keret, amely megakadályozza, hogy a lövész előrelépjen, és korlátozza a lendítést.",
+    "basics-stance-p3": "A legfontosabb utasítás: az elülső lábfejed mutasson a {{term:break-point|lövési pontra}}, arra a helyre, ahol a korongot el akarod találni. Így a lövés pillanatában a tested nyugodtan áll, és pontosan arra néz, amerre kell. Mielőtt kéred a korongot, fordítsd vissza a felsőtested a csípőből a {{term:hold-point|fegyvertartási pont}} felé, arra a helyre, ahol a csövek várják a korongot. Amikor a korong felszáll, egyszerűen visszafordulsz ugyanazon az úton, mint egy felhúzott rugó. Ha ehelyett a lábaid a {{term:trap|dobógép}} felé néznek, figyelmeztetnek az edzők, a tested nem tud elég messzire fordulni a lövési pontig, és a fegyver megáll, vagy felemelkedik a fejed.",
     "basics-stance-p2": "A szokásos alapállás: a lábak kb. vállszélességben vannak; jobbkezes lövésznél a bal láb kissé elöl van (balkezesnél fordítva). A térd laza, nincs kifeszítve. A testsúly kissé előre dől, körülbelül 60 százaléka az elülső lábon van. Az edzők ezt mondják: „nose over toes” – az orr a lábujjak fölött.",
     "basics-stance-p4": "A test a csípőből fordul, nem a karokból. Lábaid minden korongnál kissé máshogy állhatnak.",
     "technique-stance-balance": "A jó beállás megtartja az egyensúlyodat, miközben a test a koronggal együtt fordul. A kissé előre dőlő testtartás segít felvenni a {{term:recoil|visszarúgást}} is, nem hátralökődsz tőle; bővebben: {{lesson:health-recoil-shoulder-neck}}.",
@@ -71,7 +71,7 @@
     "basics-stance-kp4": "Az elülső láb a lövési pont felé mutat; a csípőből fordulj vissza a fegyvertartási pontig.",
     "basics-stance-kp3": "Lábak vállszélességben, laza térd, testsúly kissé előre.",
     "basics-stance-kp1": "{{tm:sporting}}: a korong kérése előtt mindkét lábad legyen az 1 m-es lőálláson belül.",
-    "basics-stance-kp2": "{{tm:compak}}: 1 m-es lőállás egy lövésiszög-határolóval (Firing Angle Limiter).",
+    "basics-stance-kp2": "{{tm:compak}}: 1 m-es lőállás, rajta {{term:firing-angle-limiter|lövésiszög-határoló}}.",
     "technique-stance-kp4": "Mielőtt megfordulnál a lőálláson, nyisd ki és ürítsd ki a fegyvert."
   },
   "quiz": {
@@ -93,7 +93,7 @@
         "c": "A lábak legyenek összezárva",
         "d": "Semmilyen előírás nincs"
       },
-      "explain": "A készenléti testhelyzetről szóló szabály szerint a korong kérése előtt mindkét lábnak az 1 m-es lőálláson belül kell lennie."
+      "explain": "A {{term:ready-position|készenléti testhelyzetről}} szóló szabály szerint a korong kérése előtt mindkét lábnak az 1 m-es lőálláson belül kell lennie."
     },
     "basics-stance-q3": {
       "q": "Egy balkezes lövész. Az edző azt mondja: „Open your front foot”. Melyik lábról van szó?",

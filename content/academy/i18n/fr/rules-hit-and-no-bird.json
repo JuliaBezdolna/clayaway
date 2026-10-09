@@ -40,17 +40,17 @@
   "origin": "interpreter-academy"
  },
  "title": "Ce qui compte comme touché, et ce qu'est un No bird",
- "summary": "En {{tm:sporting}} et en {{tm:compak}}, un plateau est touché si au moins un morceau visible s'en détache ; la poussière seule est un raté. Un No bird ne compte pas et est relancé.",
+ "summary": "En {{tm:sporting}} et en {{tm:compak}}, un plateau est touché si au moins un {{term:visible-piece|morceau visible}} s'en détache ; la poussière seule est un raté. Un No bird ne compte pas et est relancé.",
  "body": {
   "rules-hit-and-no-bird-p1": "En {{tm:sporting}} et en {{tm:compak}}, chaque plateau n'a que deux résultats possibles : « un » (touché) ou « zéro » (raté). Il n'y a pas de demi-points.",
-  "targets-hit-or-lost-p1": "Un plateau est compté « un » quand trois conditions sont réunies. Il a été lancé correctement, le tireur a tiré comme l'exige le règlement, et au moins un {{term:visible-piece|morceau visible}} s'en est détaché (un plateau qui se brise entièrement compte aussi). La même règle s'applique aux {{term:flash-target|plateaux flash}} (des plateaux qui libèrent un nuage de poudre colorée quand ils sont touchés). Un plateau est « zéro » (perdu) quand aucun morceau visible ne s'en détache et qu'il n'y a que poussière ou fumée.",
+  "targets-hit-or-lost-p1": "Un plateau est compté « un » quand trois conditions sont réunies. Il a été lancé correctement, le tireur a tiré comme l'exige le règlement, et au moins un {{term:visible-piece|morceau visible}} s'en est détaché (un plateau qui se brise entièrement compte aussi). La même règle s'applique aux {{term:flash-target|plateaux flash}} — des plateaux qui libèrent un nuage de poudre colorée quand ils sont touchés. Un plateau est « zéro » (perdu) quand aucun morceau visible ne s'en détache et qu'il n'y a que poussière ou fumée.",
   "targets-hit-or-lost-p2": "Toute la règle se résume donc à une seule chose visible : un morceau qui se détache. Un petit {{term:chip|éclat}} qui s'envole compte comme touché. Un nuage de poussière, le plateau continuant de voler en un seul morceau, est perdu.",
-  "targets-hit-or-lost-p3": "Seul l'{{term:referee|arbitre}} décide si un plateau a été touché. Les membres de la planche ne peuvent pas donner leur avis, et personne ne peut ramasser un plateau pour vérifier.",
+  "targets-hit-or-lost-p3": "Seul le {{term:referee|arbitre}} décide si un plateau a été touché. Les membres du {{term:squad|planche}} ne peuvent pas donner leur avis, et personne ne peut ramasser un plateau pour vérifier.",
   "rules-hit-and-no-bird-cmp1": {
-   "sporting": "Cassez vos plateaux là où l'arbitre peut voir la casse. Si un plateau casse derrière un obstacle ou au-delà de la {{term:shooting-limit|limite de tir}} (le bord de la zone dans laquelle une casse compte), l'arbitre décide. Cette décision ne peut faire l'objet d'aucune réclamation. Dès que vous annoncez le plateau suivant, vous avez accepté la décision sur le précédent.",
+   "sporting": "Cassez vos plateaux là où l'arbitre peut voir la casse. Si un plateau casse derrière un obstacle ou au-delà du {{term:shooting-limit|limite de tir}} — le bord de la zone dans laquelle une casse compte —, l'arbitre décide. Cette décision ne peut faire l'objet d'aucune réclamation. Dès que vous annoncez le plateau suivant, vous avez accepté la décision sur le précédent.",
    "compak": "L'arbitre annonce chaque zéro à voix haute ou par un signal sonore. Réclamez tout de suite, avant que le tireur suivant n'annonce."
   },
-  "rules-hit-and-no-bird-p5": "Un {{term:no-bird|No bird}} est un plateau qui ne compte pas et qui est relancé. L'arbitre l'annonce quand le plateau part déjà cassé, sort du mauvais lanceur, ou n'a pas la bonne couleur (en {{tm:sporting}}, aussi la mauvaise taille ou le mauvais type). Les autres raisons sont une trajectoire irrégulière, un départ en retard de plus de 3 secondes (voir {{lesson:rules-call-and-time}}) ou un plateau que vous n'avez pas annoncé. Un No bird est aussi donné quand quelque chose vous a clairement perturbé, ou quand l'arbitre ne peut pas juger le résultat.",
+  "rules-hit-and-no-bird-p5": "Un {{term:no-bird|No bird}} est un plateau qui ne compte pas et qui est relancé. L'arbitre l'annonce quand le plateau part déjà cassé, sort du mauvais {{term:trap|lanceur}}, ou n'a pas la bonne couleur (en {{tm:sporting}}, aussi la mauvaise taille ou le mauvais type). Les autres raisons sont une {{term:trajectory|trajectoire}} irrégulière, un départ en retard de plus de 3 secondes (voir {{lesson:rules-call-and-time}}) ou un plateau que vous n'avez pas annoncé. Un No bird est aussi donné quand quelque chose vous a clairement perturbé, ou quand l'arbitre ne peut pas juger le résultat.",
   "rules-hit-and-no-bird-cmp2": {
    "sporting": "Deux plateaux qui partent en même temps des lanceurs du même poste sont aussi un No bird.",
    "compak": "Le mauvais temps ne donne pas droit à un No bird, quelles que soient les conditions. Un plateau ou des morceaux venant du {{term:layout|parcours}} {{tm:compak}} voisin (le terrain d'à côté) n'en donnent pas non plus. Un plateau errant venant d'un lanceur de votre propre parcours, oui."
@@ -88,7 +88,7 @@
   "rules-hit-and-no-bird-kp3": "Un No bird ne compte pas et est relancé ; vous ne pouvez pas tirer sur un No bird déclaré.",
   "rules-hit-and-no-bird-kp5": "{{tm:compak}} : le mauvais temps ne donne pas droit à un No bird."
  },
- "did_you_know": "Sur les feuilles de marque du {{tm:compak}}, un plateau touché est marqué X et un raté O.",
+ "did_you_know": "Sur les {{term:score-sheet|feuilles de marque}} du {{tm:compak}}, un plateau touché est marqué X et un raté O.",
  "quiz": {
   "rules-hit-and-no-bird-q1": {
    "q": "Après le tir, le plateau ne produit que de la poussière, et aucun morceau n'est visible. Quel est le résultat ?",
@@ -97,13 +97,13 @@
     "b": "No bird",
     "c": "Zéro"
    },
-   "explain": "Un plateau touché a besoin d'au moins un morceau visible ; poussière ou fumée seules donnent un zéro."
+   "explain": "Un plateau touché a besoin d'au moins un {{term:visible-piece|morceau visible}} ; poussière ou fumée seules donnent un zéro."
   },
   "rules-hit-and-no-bird-q2": {
    "q": "Qui décide si un plateau a été touché ?",
    "options": {
-    "a": "Seul l'arbitre",
-    "b": "Un vote de la planche",
+    "a": "Seul le {{term:referee|arbitre}}",
+    "b": "Un vote du {{term:squad|planche}}",
     "c": "Le tireur lui-même"
    },
    "explain": "L'arbitre décide seul et ne peut demander l'avis des autres que de sa propre initiative."
@@ -115,10 +115,10 @@
     "b": "C'est un zéro",
     "c": "Un No bird, si vous le demandez"
    },
-   "explain": "En {{tm:compak}}, un plateau cassé est « un » et un raté « zéro », quelle que soit la météo. Seul l'arbitre en chef peut arrêter le tir pour un orage soudain."
+   "explain": "En {{tm:compak}}, un plateau cassé est « un » et un raté « zéro », quelle que soit la météo. Seul le {{term:chief-referee|chef arbitre}} peut arrêter le tir pour un orage soudain."
   },
   "competitions-scoring-basics-q3": {
-   "q": "Un plateau de la mauvaise couleur sort du lanceur. Qu'est-ce que c'est ?",
+   "q": "Un plateau de la mauvaise couleur sort du {{term:trap|lanceur}}. Qu'est-ce que c'est ?",
    "options": {
     "a": "No bird",
     "b": "Zéro",
@@ -134,10 +134,10 @@
     "c": "No bird",
     "d": "Un demi-point"
    },
-   "explain": "Tout morceau visible qui se détache rend le plateau touché, quelle que soit sa taille."
+   "explain": "Tout {{term:visible-piece|morceau visible}} qui se détache rend le plateau touché, quelle que soit sa taille."
   },
   "targets-hit-or-lost-q3": {
-   "q": "Après une décision « lost », un membre de la planche va ramasser le plateau pour montrer à l'arbitre un éclat sur celui-ci. Que dit le règlement ?",
+   "q": "Après une décision « lost », un membre du {{term:squad|planche}} va ramasser le plateau pour montrer au {{term:referee|arbitre}} un éclat sur celui-ci. Que dit le règlement ?",
    "options": {
     "a": "L'arbitre doit l'examiner",
     "b": "La planche vote",

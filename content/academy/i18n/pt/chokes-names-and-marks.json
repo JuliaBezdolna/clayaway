@@ -32,10 +32,10 @@
   "summary": "Do cilindro ao full: estrangulamentos típicos em milímetros e thou, as frações 1/4–1/2–3/4 e as marcações por estrelas usadas no {{tm:sporting}} e no {{tm:compak}}. Os valores são aproximados e variam entre fabricantes.",
   "body": {
     "gear-chokes-p3": "Os nomes vêm do inglês, do mais aberto ao mais fechado: cylinder, improved cylinder, light modified, modified, improved modified, full. Na Europa dizem-se muitas vezes como frações: quarto (improved cylinder), meio (modified), três quartos (improved modified) e full. Muitas armas italianas marcam os chokes com estrelas, e aí a regra é ao contrário: quantas mais estrelas, mais aberto é o choke.",
-    "chokes-names-and-marks-p1": "Abaixo estão {{term:constriction|estrangulamentos}} típicos para o calibre 12. Um thou é um milésimo de polegada, cerca de 0,025 mm. Os valores reais dependem do fabricante e até do diâmetro interno de cada cano em particular.",
+    "chokes-names-and-marks-p1": "Abaixo estão {{term:constriction|estrangulamentos}} típicos para o {{term:gauge|calibre 12}}. Um thou é um milésimo de polegada, cerca de 0,025 mm. Os valores reais dependem do fabricante e até do diâmetro interno de cada cano em particular.",
     "chokes-names-and-marks-p2": [
-      "Cylinder: sem estrangulamento, 0 mm.",
-      "1/8: um estrangulamento muito ligeiro, cerca de 0,1–0,15 mm (4–6 thou), entre cylinder e improved cylinder; os fabricantes dão-lhe nomes diferentes.",
+      "Cylinder: sem {{term:constriction|estrangulamento}}, 0 mm.",
+      "1/8: um {{term:constriction|estrangulamento}} muito ligeiro, cerca de 0,1–0,15 mm (4–6 thou), entre cylinder e improved cylinder; os fabricantes dão-lhe nomes diferentes.",
       "Improved cylinder (IC): cerca de 0,25 mm (cerca de 10 thou), na Europa 1/4, um choke de quarto.",
       "Light modified (LM): cerca de 0,35–0,4 mm (cerca de 15 thou), por vezes marcado 3/8.",
       "Modified (M): cerca de 0,5 mm (cerca de 20 thou), 1/2, um choke de meio.",
@@ -44,7 +44,7 @@
     ],
     "chokes-names-and-marks-p5": "As frações são práticas na conversa, mas não são milímetros exatos: o 1/2 de um fabricante pode diferir ligeiramente do de outro.",
     "chokes-names-and-marks-p6": "Os fabricantes italianos, a Beretta por exemplo, usam {{term:star-marks|marcação por estrelas}}: cinco estrelas para cylinder, quatro para improved cylinder (1/4), três para modified (1/2), duas para improved modified (3/4) e uma para full. Outros fabricantes fazem entalhes no rebordo do tubo, usam faixas coloridas ou imprimem o nome (IC, M, LM).",
-    "chokes-names-and-marks-p7": "A fonte mais fiável é a marcação no próprio choke ou o manual da arma. Em caso de dúvida, um {{term:gunsmith|armeiro}} mede o estrangulamento com um calibrador num minuto."
+    "chokes-names-and-marks-p7": "A fonte mais fiável é a marcação no próprio choke ou o manual da arma. Em caso de dúvida, um {{term:gunsmith|armeiro}} mede o {{term:constriction|estrangulamento}} com um calibrador num minuto."
   },
   "note": {},
   "phrases": {},
@@ -55,10 +55,10 @@
     "chokes-names-and-marks-kp4": "Estrelas: quantas mais, mais aberto é o choke.",
     "chokes-names-and-marks-kp5": "Os valores são aproximados e variam entre fabricantes."
   },
-  "did_you_know": "Os canos de competição modernos são muitas vezes «overbored»: o interior é feito ligeiramente mais largo do que o padrão do calibre. Por isso o mesmo choke com o mesmo nome pode dar um estrangulamento ligeiramente diferente em armas diferentes: o que conta é a diferença entre o cano e o choke.",
+  "did_you_know": "Os canos de competição modernos são muitas vezes «overbored»: o interior é feito ligeiramente mais largo do que o padrão do calibre. Por isso o mesmo choke com o mesmo nome pode dar um {{term:constriction|estrangulamento}} ligeiramente diferente em armas diferentes: o que conta é a diferença entre o cano e o choke.",
   "quiz": {
     "chokes-names-and-marks-q1": {
-      "q": "Qual é o estrangulamento aproximado de um choke modified (1/2) no calibre 12?",
+      "q": "Qual é o {{term:constriction|estrangulamento}} aproximado de um choke modified (1/2) no {{term:gauge|calibre 12}}?",
       "options": {
         "a": "0 mm",
         "b": "Cerca de 0,25 mm",
@@ -95,7 +95,7 @@
         "c": "Modified",
         "d": "Cylinder"
       },
-      "explain": "Cylinder não tem qualquer estrangulamento."
+      "explain": "Cylinder não tem qualquer {{term:constriction|estrangulamento}}."
     },
     "gear-chokes-q3": {
       "q": "Numa arma italiana, um choke com cinco estrelas é…",

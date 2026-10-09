@@ -34,15 +34,15 @@
     "origin": "pl-wave-2026-10"
   },
   "title": "Wyjazd z trenerem w ramach ClayAway",
-  "summary": "ClayAway to przygotowywany kierunek ClayAreny. Trener albo organizator zbierze grupę, a każdy strzelec kupi jeden pakiet: trening, nocleg, transfery i wspólny program.",
+  "summary": "ClayAway to przygotowywany kierunek ClayAreny. {{term:coach|Trener}} albo organizator zbierze grupę, a każdy strzelec kupi jeden pakiet: trening, nocleg, transfery i wspólny program.",
   "body": {
     "travel-clayaway-tour-p1": "Samodzielne planowanie wyjazdu jest ciekawe, ale wymaga wysiłku. ClayArena przygotowuje inną drogę: wyjazdy {{term:clayaway|ClayAway}} z {{term:coach|trenerem}}. Trener albo organizator zbierze grupę strzelców, a każdy uczestnik kupi jeden pakiet.",
     "travel-clayaway-tour-p2": "Pakiet ma zawierać trening na jednej lub kilku strzelnicach, nocleg, transfery i wspólny program, na przykład kolacje czy wycieczki. Jeśli grupa potrzebuje, dołączy do niej {{term:interpreter|tłumacz}}, który zna terminologię strzelecką.",
-    "travel-clayaway-tour-p7": "To, co jest zawarte w pakiecie, zależy od wyjazdu, więc przed rezerwacją uważnie przeczytajcie opis. Czy w pakiecie są loty, rzutki, naboje, wypożyczenie broni? Każdy wyjazd pokaże też, na czym jest głównie skoncentrowany — bardziej na treningu czy bardziej na podróży — oraz ile rzutków strzela się dziennie.",
+    "travel-clayaway-tour-p7": "To, co jest zawarte w pakiecie, zależy od wyjazdu, więc przed rezerwacją uważnie przeczytajcie opis. Czy w pakiecie są loty, rzutki, naboje, {{term:gun-rental|wypożyczenie broni}}? Każdy wyjazd pokaże też, na czym jest głównie skoncentrowany — bardziej na treningu czy bardziej na podróży — oraz ile rzutków strzela się dziennie.",
     "travel-clayaway-tour-p3": "Główną zaletą będzie trener u waszego boku każdego dnia. Trener, który zna strzelnice, pomoże z techniką dla {{tm:sporting}} albo {{tm:compak}} i z rzutkami, które was tam czekają. A grupa osób z tą samą pasją sprawia, że wyjazd jest przyjemniejszy.",
     "travel-clayaway-tour-p4": "Godziny w programie wyjazdu będą podane w strefie czasowej miejsca zawodów, z podaną strefą. Po przelocie sprawdźcie, że telefon pokazuje czas lokalny. Długie przeloty na wschód wymagają dnia zapasowego: zob. {{lesson:travel-jet-lag}}.",
     "travel-clayaway-tour-p5": "Dokumenty na broń pozostają odpowiedzialnością każdego strzelca. Organizator wyjazdu będzie mógł pomóc {{term:invitation-letter|listem zapraszającym}} i radą co do przepisów lokalnych, ale o zezwolenia wnioskuje właściciel broni. Jeśli zabranie broni jest trudne, zapytajcie, czy można ją wypożyczyć na miejscu. Więcej w {{lesson:travel-gun-in-eu}} i {{lesson:travel-gun-outside-eu}}.",
-    "travel-clayaway-tour-p6": "Jeśli wyjazd obejmuje zawody według przepisów FITASC, nikt nie może {{term:coaching|podpowiadać}} zawodnikowi w ich trakcie ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Trener pracuje z wami przed i po, a na stanowisku strzelacie sami. Tłumacz w tym czasie przekazuje tylko informacje urzędowe, żeby nie uznano tego za podpowiadanie. Inne zawody mogą mieć własne przepisy: czytajcie program.",
+    "travel-clayaway-tour-p6": "Jeśli wyjazd obejmuje zawody według przepisów FITASC, w ich trakcie {{term:coaching|podpowiadanie}} zawodnikowi jest zabronione ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Trener pracuje z wami przed i po, a na stanowisku strzelacie sami. Tłumacz w tym czasie przekazuje tylko informacje urzędowe, żeby nie uznano tego za podpowiadanie. Inne zawody mogą mieć własne przepisy: czytajcie program.",
     "nextstep-organising-clayaway-tour-p2": "Dla organizatorów: organizator i trener nie muszą być tą samą osobą. Organizatorem może być sam trener, ale też menedżer, klub, strzelnica albo agencja. Za wyjazd odpowiada właśnie organizator.",
     "nextstep-organising-clayaway-tour-p3": "Każdy wyjazd będzie miał własną nazwę: trener albo miejsce plus format, na przykład „Cyprus Shooting & Food Week”. W katalogu i na karcie wyjazd będzie nosić podpis „ClayAway”. Organizator wybierze trenera, strzelnice, daty, liczbę uczestników i dyscypliny.",
     "nextstep-organising-clayaway-tour-p4": "Planujcie razem hotel, transfery na strzelnice i wspólny program. Jeśli uczestnicy mówią różnymi językami, zaproście tłumacza, który zna terminologię strzelecką. Rozkład podajcie w strefie czasowej miejsca zawodów, z podaną strefą.",
@@ -73,14 +73,14 @@
     "nextstep-organising-clayaway-tour-q2": {
       "q": "Kto będzie mógł zorganizować wyjazd ClayAway?",
       "options": {
-        "a": "Trener, menedżer, klub, strzelnica albo agencja",
-        "b": "Tylko trener, który prowadzi trening",
+        "a": "{{term:coach|Trener}}, menedżer, klub, strzelnica albo agencja",
+        "b": "Tylko {{term:coach|trener}}, który prowadzi trening",
         "c": "Tylko FITASC albo federacja krajowa"
       },
       "explain": "Organizator i trener to różne role, choć trener też może zorganizować wyjazd."
     },
     "travel-clayaway-tour-q3": {
-      "q": "Na zawodach według przepisów FITASC, czy trener z wyjazdu może podpowiadać wam na stanowisku?",
+      "q": "Na zawodach według przepisów FITASC, czy {{term:coach|trener}} z wyjazdu może podpowiadać wam na stanowisku?",
       "options": {
         "a": "Tak, bo to część pakietu",
         "b": "Tak, jeśli sędzia nie protestuje",

@@ -40,18 +40,18 @@
     "origin": "interpreter-academy"
   },
   "title": "Wyprzedzenie: czemu strzelasz przed rzutkiem",
-  "summary": "Czemu strzał musi iść przed lecący rzutek, czym różni się rzeczywiste i widziane wyprzedzenie oraz jak działają cztery metody wyprzedzenia.",
+  "summary": "Czemu strzał musi iść przed lecący rzutek, czym różni się rzeczywiste {{term:lead|wyprzedzenie}} i {{term:perceived-lead|widziane wyprzedzenie}} oraz jak działają cztery metody wyprzedzenia.",
   "body": {
-    "lead-why-p1": "Śrut potrzebuje ułamka sekundy, by dolecieć do rzutka, a w tym czasie rzutek leci dalej. Jeśli więc broń celuje prosto w {{term:crosser|rzutek poprzeczny}} (lecący w poprzek przed tobą) i tam się zatrzymuje, strzał mija go z tyłu. Broń musi celować z przodu, żeby strzał i rzutek się spotkały. Ten odstęp to {{term:lead|wyprzedzenie}}, w brytyjskim angielskim też „forward allowance”.",
+    "lead-why-p1": "Śrut potrzebuje ułamka sekundy, by dolecieć do rzutka, a w tym czasie rzutek leci dalej. Jeśli więc broń celuje prosto w {{term:crosser|rzutek poprzeczny}}, który leci w poprzek przed tobą, i tam się zatrzymuje, strzał mija go z tyłu. Broń musi celować z przodu, żeby strzał i rzutek się spotkały. Ten odstęp to {{term:lead|wyprzedzenie}}, w brytyjskim angielskim też „forward allowance”.",
     "lead-why-p2": "Wyprzedzenie rośnie z prędkością rzutka, jego odległością i kątem lotu. Przy tej samej prędkości i odległości pełny rzutek poprzeczny wymaga go najwięcej. Rzutek lecący prosto na strzelca albo prosto od niego wymaga prawie żadnego wyprzedzenia w bok, choć rzutki wznoszące się i opadające wymagają wyprzedzenia w pionie (górą albo dołem).",
     "lead-why-p3": "Rzeczywiste liczby bywają zaskakujące. Dla orientacji, rzeczywiste wyprzedzenie na rzutku poprzecznym w odległości około 20 m często szacuje się na {{fact:technique.crosser-lead-20m}}. Wyprzedzenie rośnie z odległością szybko, nawet trochę szybciej niż sama odległość, bo śrut w locie zwalnia. Jeśli więc daleki rzutek wygląda z twoich luf na tę samą odległość co bliski, rzeczywiste wyprzedzenie w powietrzu jest dużo większe.",
-    "lead-why-p4": "Rzeczywiste wyprzedzenie to prawdziwa odległość przed rzutkiem w powietrzu. Odstęp, który strzelec widzi między wylotem lufy a rzutkiem, to {{term:perceived-lead|widziane wyprzedzenie}}, zwane też „obrazem wyprzedzenia” albo „obrazem celowania”. Metr w odległości 20 m wygląda z lufy jak kilka centymetrów. To, jaką metodę stosujesz, zmienia ten obraz. Jeśli lufy poruszają się z prędkością rzutka (stałe wyprzedzenie), widzisz cały odstęp. Jeśli poruszają się szybciej niż rzutek (przeciągnięcie), widzisz tylko mały odstęp albo żadnego. W ułamku sekundy przed wylotem śrutu szybko poruszająca się broń sama przebywa resztę drogi do przodu. Przy zasadzce broń się nie rusza, więc musisz zobaczyć odstęp nawet większy niż rzeczywiste wyprzedzenie, bo rzutek wciąż leci, podczas gdy ty reagujesz.",
+    "lead-why-p4": "Rzeczywiste wyprzedzenie to prawdziwa odległość przed rzutkiem w powietrzu. Odstęp, który strzelec widzi między {{term:muzzle|wylotem lufy}} a rzutkiem, to {{term:perceived-lead|widziane wyprzedzenie}}, zwane też „obrazem wyprzedzenia” albo „obrazem celowania”. Metr w odległości 20 m wygląda z lufy jak kilka centymetrów. To, jaką metodę stosujesz, zmienia ten obraz. Jeśli lufy poruszają się z prędkością rzutka (stałe wyprzedzenie), widzisz cały odstęp. Jeśli poruszają się szybciej niż rzutek (przeciągnięcie), widzisz tylko mały odstęp albo żadnego. W ułamku sekundy przed wylotem śrutu szybko poruszająca się broń sama przebywa resztę drogi do przodu. Przy zasadzce broń się nie rusza, więc musisz zobaczyć odstęp nawet większy niż rzeczywiste wyprzedzenie, bo rzutek wciąż leci, podczas gdy ty reagujesz.",
     "lead-why-p5": "Wielu praworęcznych strzelców czuje, że rzutek lecący z lewej na prawą wymaga większego wyprzedzenia niż ten z prawej na lewą. Rzeczywiste wyprzedzenie jest takie samo — różni się tylko odczucie. Dlatego trenerskie „cztery stopy” opisują obraz, a nie pomiar.",
     "technique-lead-methods-p2": "Trenerzy uczą wyprzedzenia przez metodę — sposób, jak wprowadzić lufy przed rzutek. Cztery metody są powszechne. Dla danego rzutka rzeczywiste wyprzedzenie jest takie samo w każdej z nich; zmienia się tylko obraz, który widzisz.",
     "technique-lead-methods-p3": "{{term:maintained-lead|Stałe wyprzedzenie}}: lufy startują przed rzutkiem, dają mu dogonić się do wybranego odstępu, a potem poruszają się z jego prędkością, zachowując ten odstęp. Wielu trenerów poleca je na długie, przewidywalne rzutki. Więcej: {{lesson:lead-maintained}}.",
     "technique-lead-methods-p4": "{{term:pull-away|Pull away}}: kierujesz lufy na rzutek (albo na jego przednią krawędź), prowadzisz z nim chwilę, a potem płynnie odchodzisz do przodu i strzelasz. Wielu trenerów zaczyna od tej metody z początkującymi, a dobrze pasuje do rzutków skośnych (lecących pod kątem od ciebie lub do ciebie) i wznoszących się. Więcej: {{lesson:lead-pull-away}}.",
     "technique-lead-methods-p5": "{{term:swing-through|Przeciągnięcie}}: lufy startują za rzutkiem, poruszają się szybciej niż on, przechodzą przez niego i strzelasz, gdy wychodzą przed niego. Dobrze pasuje do rzutków bliskich, szybkich i lecących nad głową. Więcej: {{lesson:lead-swing-through}}.",
-    "technique-lead-methods-ambush": "{{term:ambush|Zasadzka}} (ambush): lufy czekają nieruchomo w punkcie z przodu, a spust pociągasz, zanim rzutek dojdzie do tego punktu. Może pomóc na rzutku widzianym tylko przez chwilę. Więcej: {{lesson:lead-ambush-instinctive}}.",
+    "technique-lead-methods-ambush": "{{term:ambush|Zasadzka}}: lufy czekają nieruchomo w punkcie z przodu, a {{term:trigger|spust}} pociągasz, zanim rzutek dojdzie do tego punktu. Może pomóc na rzutku widzianym tylko przez chwilę. Więcej: {{lesson:lead-ambush-instinctive}}.",
     "technique-lead-methods-p6": "Żadna metoda nie jest „bardziej prawidłowa” od innej. Doświadczeni strzelcy często wybierają metodę do każdego rzutka. Dla początkującego zwykle lepiej najpierw nauczyć się jednej metody z trenerem. We wszystkich trzech metodach z poruszającą się bronią broń porusza się dalej po strzale; patrz {{lesson:technique-follow-through-and-mistakes}}."
   },
   "note": {
@@ -81,7 +81,7 @@
   "did_you_know": "Dwaj strzelcy mogą rozbić ten sam rzutek i zupełnie inaczej opisać wyprzedzenie: jeden „widzi” metr, drugi pół metra. Różnica jest w tym, jak szybko każdy z nich prowadzi broń.",
   "quiz": {
     "lead-why-q1": {
-      "q": "Co to jest widziane wyprzedzenie?",
+      "q": "Co to jest {{term:perceived-lead|widziane wyprzedzenie}}?",
       "options": {
         "a": "Prawdziwa odległość przed rzutkiem w powietrzu",
         "b": "Odstęp, który strzelec widzi między lufą a rzutkiem",
@@ -91,7 +91,7 @@
       "explain": "Widziane wyprzedzenie to obraz przy lufie; rzeczywiste wyprzedzenie to prawdziwa odległość w powietrzu i jest dużo większe."
     },
     "lead-why-q2": {
-      "q": "Z metod z poruszającą się bronią, która zwykle daje największe widziane wyprzedzenie?",
+      "q": "Z metod z poruszającą się bronią, która zwykle daje największe {{term:perceived-lead|widziane wyprzedzenie}}?",
       "options": {
         "a": "Przeciągnięcie",
         "b": "Pull away",
@@ -101,7 +101,7 @@
       "explain": "W stałym wyprzedzeniu broń nie porusza się szybciej niż rzutek, więc nic się nie dodaje samo i musisz widzieć cały odstęp. Przy zasadzce, gdzie broń jest nieruchoma, widziany odstęp jest jeszcze większy."
     },
     "lead-why-q3": {
-      "q": "Który rzutek wymaga prawie żadnego wyprzedzenia w bok?",
+      "q": "Który rzutek wymaga prawie żadnego {{term:lead|wyprzedzenia}} w bok?",
       "options": {
         "a": "Rzutek lecący prosto od strzelca",
         "b": "Daleki rzutek poprzeczny",
@@ -111,7 +111,7 @@
       "explain": "Rzutek lecący prosto od strzelca nie ma ruchu w bok; jeśli wymaga wyprzedzenia, to tylko w pionie."
     },
     "technique-lead-methods-q1": {
-      "q": "Czemu potrzebujesz wyprzedzenia?",
+      "q": "Czemu potrzebujesz {{term:lead|wyprzedzenia}}?",
       "options": {
         "a": "Żeby strzał i rzutek się spotkały",
         "b": "Żeby zmniejszyć odrzut",
@@ -123,13 +123,13 @@
       "q": "W której metodzie lufy przez cały czas zostają przed rzutkiem?",
       "options": {
         "a": "Przeciągnięcie",
-        "b": "Stałe wyprzedzenie",
+        "b": "Stałe {{term:lead|wyprzedzenie}}",
         "c": "Pull away"
       },
       "explain": "Stałe wyprzedzenie: lufy startują z przodu i zachowują odstęp."
     },
     "technique-lead-methods-q3": {
-      "q": "Który rzutek wymaga najmniejszego wyprzedzenia?",
+      "q": "Który rzutek wymaga najmniejszego {{term:lead|wyprzedzenia}}?",
       "options": {
         "a": "Daleki, szybki rzutek poprzeczny",
         "b": "Rzutek lecący prosto od strzelca",
@@ -142,7 +142,7 @@
       "options": {
         "a": "Przeciągnięcie",
         "b": "Pull away",
-        "c": "Stałe wyprzedzenie",
+        "c": "Stałe {{term:lead|wyprzedzenie}}",
         "d": "Zasadzka"
       },
       "explain": "Przy zasadzce broń jest nieruchoma, a rzutek wciąż leci podczas czasu reakcji. Więc odstęp widziany w chwili decyzji musi być większy niż rzeczywiste wyprzedzenie."

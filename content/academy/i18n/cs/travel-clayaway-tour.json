@@ -34,7 +34,7 @@
     "origin": null
   },
   "title": "Cestování s trenérem na zájezdu ClayAway",
-  "summary": "ClayAway je služba ClayArena, která se připravuje. Trenér nebo organizátor sestaví skupinu a každý střelec si koupí jeden balíček: trénink, ubytování, transfery a společný program.",
+  "summary": "ClayAway je služba ClayArena, která se připravuje. {{term:coach|Trenér}} nebo organizátor sestaví skupinu a každý střelec si koupí jeden balíček: trénink, ubytování, transfery a společný program.",
   "body": {
     "travel-clayaway-tour-p1": "Naplánovat cestu sám je zajímavé, ale náročné. ClayArena připravuje jinou cestu: zájezdy {{term:clayaway|ClayAway}} s {{term:coach|trenérem}}. Trenér nebo organizátor sestaví skupinu střelců a každý účastník si koupí jeden balíček.",
     "travel-clayaway-tour-p2": "Balíček má zahrnovat trénink na jedné nebo více střelnicích, ubytování, transfery a společný program, například večeře nebo výlety. Pokud to skupina bude potřebovat, připojí se {{term:interpreter|tlumočník}}, který zná střeleckou terminologii.",
@@ -42,7 +42,7 @@
     "travel-clayaway-tour-p3": "Hlavní výhodou bude trenér po vašem boku každý den. Trenér, který zná střelnice, pomůže s technikou pro {{tm:sporting}} nebo {{tm:compak}} i s terči, které tam potkáte. A skupina lidí se stejným koníčkem udělá cestu zábavnější.",
     "travel-clayaway-tour-p4": "Časy v programu zájezdu budou uvedeny v časovém pásmu místa konání, s označením pásma. Po letu zkontrolujte, že telefon ukazuje místní čas. Dlouhé lety na východ vyžadují rezervní den: viz {{lesson:travel-jet-lag}}.",
     "travel-clayaway-tour-p5": "Doklady na zbraň zůstanou odpovědností každého střelce. Organizátor zájezdu bude moci pomoct {{term:invitation-letter|zvacím dopisem}} a radou ohledně místních pravidel, ale o povolení žádá majitel zbraně. Pokud je vzít si zbraň složité, zeptejte se, zda si ji lze na místě půjčit. Víc v {{lesson:travel-gun-in-eu}} a {{lesson:travel-gun-outside-eu}}.",
-    "travel-clayaway-tour-p6": "Pokud bude zájezd zahrnovat soutěž podle pravidel FITASC, nikdo nesmí během ní {{term:coaching|koučovat}} závodníka ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Trenér s vámi pracuje před a po, a na stanovišti střílíte sami. Tlumočník v té chvíli předává jen oficiální informace, aby to nebylo považováno za koučování. Jiné akce mohou mít vlastní pravidla: přečtěte si program.",
+    "travel-clayaway-tour-p6": "Pokud bude zájezd zahrnovat soutěž podle pravidel FITASC, je během ní {{term:coaching|koučování}} závodníka zakázáno ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Trenér s vámi pracuje před a po, a na stanovišti střílíte sami. Tlumočník v té chvíli předává jen oficiální informace, aby to nebylo považováno za koučování. Jiné akce mohou mít vlastní pravidla: přečtěte si program.",
     "nextstep-organising-clayaway-tour-p2": "Pro organizátory: organizátor a trenér nemusí být stejná osoba. Organizátorem může být samotný trenér, ale i manažer, klub, střelnice nebo agentura. Za zájezd bude odpovídat právě organizátor.",
     "nextstep-organising-clayaway-tour-p3": "Každý zájezd bude mít svůj vlastní název: trenér nebo místo plus formát, například „Cyprus Shooting & Food Week“. V katalogu i na kartě ponese zájezd označení „ClayAway“. Organizátor zvolí trenéra, střelnice, termíny, velikost skupiny a disciplíny.",
     "nextstep-organising-clayaway-tour-p4": "Plánujte hotel, transfery na střelnice a společný program dohromady. Pokud účastníci mluví různými jazyky, pozvěte tlumočníka, který zná střeleckou terminologii. Rozvrh uvádějte v časovém pásmu místa konání, s označením pásma.",
@@ -72,14 +72,14 @@
     "nextstep-organising-clayaway-tour-q2": {
       "q": "Kdo bude moct organizovat zájezd ClayAway?",
       "options": {
-        "a": "Trenér, manažer, klub, střelnice nebo agentura",
-        "b": "Jen trenér, který vede trénink",
+        "a": "{{term:coach|Trenér}}, manažer, klub, střelnice nebo agentura",
+        "b": "Jen {{term:coach|trenér}}, který vede trénink",
         "c": "Jen FITASC nebo národní federace"
       },
       "explain": "Organizátor a trenér jsou různé role, i když zájezd může organizovat i trenér."
     },
     "travel-clayaway-tour-q3": {
-      "q": "Smí vám trenér ze zájezdu radit na stanovišti během soutěže podle pravidel FITASC?",
+      "q": "Smí vám {{term:coach|trenér}} ze zájezdu radit na stanovišti během soutěže podle pravidel FITASC?",
       "options": {
         "a": "Ano, protože je to součást balíčku",
         "b": "Ano, pokud rozhodčí nenamítá",

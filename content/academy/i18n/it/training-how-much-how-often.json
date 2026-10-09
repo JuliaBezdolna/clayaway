@@ -22,15 +22,19 @@
     "training-how-much-how-often-q2": "58a7885b",
     "training-how-much-how-often-q3": "212bc243"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Quanti piattelli e quanto spesso",
   "summary": "Punti di partenza per un principiante: quanti piattelli per sessione, quanto spesso allenarsi e perché la qualità di ogni colpo conta più del numero.",
   "body": {
-    "training-how-much-how-often-p1": "Molti principianti pensano che più colpi significhino progressi più rapidi. La stanchezza spesso funziona al contrario. Muscoli stanchi rendono l'{{term:gun-mount|imbracciata}} meno precisa, la testa può {{term:head-lift|alzarsi}} dal calcio, e gli stessi errori possono ripetersi finché non si consolidano.",
-    "training-how-much-how-often-p2": "Per le prime lezioni una sessione è spesso una o due scatole di {{term:cartridge|cartucce}} ({{fact:training.cartridge-box}}), come suggerisce il vostro istruttore. Quando tecnica e forza crescono, potete tirare di più, passo dopo passo. Il vostro istruttore stabilisce il numero in base alla vostra età, forma fisica e al peso del fucile e delle cartucce.",
-    "training-how-much-how-often-p3": "Il {{term:recoil|rinculo}}, la spinta del fucile nella spalla, si accumula durante una sessione. Se la spalla o la guancia iniziano a far male, potete iniziare a fare {{term:flinch|strappo}}: il corpo sussulta appena prima del colpo. Tre cose aiutano: un fucile che vi sta bene, un gilet con un'{{term:shoulder-pad|imbottitura sulla spalla}} e cartucce più leggere. Il vostro istruttore può suggerire una {{term:load-weight|grammatura}} più leggera per i primi mesi: una cartuccia con meno piombo (i piccoli pallini), che spinge meno nella spalla. Per saperne di più: {{lesson:health-recoil-shoulder-neck}} e {{lesson:gun-fit}}.",
+    "training-how-much-how-often-p1": "Molti principianti pensano che più colpi significhino progressi più rapidi. La stanchezza spesso funziona al contrario. Muscoli stanchi rendono la {{term:gun-mount|imbracciata}} meno precisa, può comparire la {{term:head-lift|testa alzata}} dallo {{term:stock|calcio}}, e gli stessi errori possono ripetersi finché non si consolidano.",
+    "training-how-much-how-often-p2": "Per le prime lezioni una sessione è spesso una o due scatole di {{term:cartridge|cartucce}}, {{fact:training.cartridge-box}}, come suggerisce il vostro istruttore. Quando tecnica e forza crescono, potete tirare di più, passo dopo passo. Il vostro istruttore stabilisce il numero in base alla vostra età, forma fisica e al peso del fucile e delle cartucce.",
+    "training-how-much-how-often-p3": "Il {{term:recoil|rinculo}}, la spinta del fucile nella spalla, si accumula durante una sessione. Se la spalla o la guancia iniziano a far male, potete iniziare a fare {{term:flinch|strappo}}: il corpo sussulta appena prima del colpo. Tre cose aiutano: un fucile che vi sta bene, un gilet con una {{term:shoulder-pad|imbottitura sulla spalla}} e cartucce più leggere. Il vostro istruttore può suggerire una {{term:load-weight|grammatura}} più leggera per i primi mesi: una cartuccia con meno {{term:lead-shot|piombo}}, i piccoli pallini, che spinge meno nella spalla. Per saperne di più: {{lesson:health-recoil-shoulder-neck}} e {{lesson:gun-fit}}.",
     "training-how-much-how-often-p4": "Quanto spesso vi allenate conta di solito più di quanto tirate in una volta. Molti istruttori trovano che una sessione breve ogni settimana o due volte al mese dia più risultati di una lunga poche volte all'anno. Con sessioni regolari il movimento si consolida. Dopo una lunga pausa l'imbracciata e lo swing spesso si sentono meno sicuri, e possono volerci alcune sessioni per ritrovare il tempismo.",
-    "training-how-much-how-often-between": "Tra una sessione e l'altra potete mantenere fresco il movimento con l'{{term:dry-mounting|imbracciata in bianco}}, ma solo dove la legge lo permette e con un fucile scarico che avete controllato. Come: {{lesson:training-dry-mount-practice}}.",
+    "training-how-much-how-often-between": "Tra una sessione e l'altra potete mantenere fresco il movimento con la {{term:dry-mounting|imbracciata in bianco}}, ma solo dove la legge lo permette e con un fucile scarico che avete controllato. Come: {{lesson:training-dry-mount-practice}}.",
     "training-how-much-how-often-p5": "Fate pause. Riposate qualche minuto tra una serie e l'altra, bevete acqua e parlate con il vostro istruttore di cosa sta succedendo. Quando la precisione scende per la stanchezza, di solito è meglio fermarsi dopo qualche buon piattello che continuare.",
     "training-how-much-how-often-p6": "Ogni piattello costa denaro. Un piano di allenamento vi aiuta a spenderlo per i progressi invece che per colpi senza uno scopo. Altri modi per risparmiare: {{lesson:budget-how-to-save}}."
   },
@@ -47,18 +51,30 @@
   "quiz": {
     "training-how-much-how-often-q1": {
       "q": "Perché molti colpi in una volta possono frenare un principiante?",
-      "options": { "a": "La stanchezza rovina la tecnica, e gli errori si ripetono", "b": "Le macchine si surriscaldano e lanciano peggio", "c": "Le canne si usurano dopo cinquanta colpi" },
+      "options": {
+        "a": "La stanchezza rovina la tecnica, e gli errori si ripetono",
+        "b": "Le macchine si surriscaldano e lanciano peggio",
+        "c": "Le canne si usurano dopo cinquanta colpi"
+      },
       "explain": "Muscoli stanchi imbracciano il fucile in modo meno preciso, e gli stessi errori si ripetono."
     },
     "training-how-much-how-often-q2": {
       "q": "Quale piano dà di solito più progressi?",
-      "options": { "a": "Una sessione lunga poche volte all'anno", "b": "Una sessione ogni settimana o due volte al mese", "c": "Allenarsi solo prima delle gare" },
+      "options": {
+        "a": "Una sessione lunga poche volte all'anno",
+        "b": "Una sessione ogni settimana o due volte al mese",
+        "c": "Allenarsi solo prima delle gare"
+      },
       "explain": "Con sessioni regolari il movimento si consolida, e si perde meno tra una sessione e l'altra."
     },
     "training-how-much-how-often-q3": {
-      "q": "Cosa può succedere se il rinculo fa male alla spalla?",
-      "options": { "a": "Iniziate a tirare in modo più stabile", "b": "Nel vostro tiro non cambia nulla", "c": "Potete iniziare a fare strappo al colpo" },
-      "explain": "Il corpo si aspetta dolore e sussulta, quindi tenete il rinculo sotto controllo con la calciatura su misura, un'imbottitura e cartucce con meno piombo."
+      "q": "Cosa può succedere se il {{term:recoil|rinculo}} fa male alla spalla?",
+      "options": {
+        "a": "Iniziate a tirare in modo più stabile",
+        "b": "Nel vostro tiro non cambia nulla",
+        "c": "Potete iniziare a fare strappo al colpo"
+      },
+      "explain": "Il corpo si aspetta dolore e sussulta, quindi tenete il rinculo sotto controllo con la {{term:gun-fit|calciatura su misura}}, un'imbottitura e cartucce con meno {{term:lead-shot|piombo}}."
     }
   }
 }

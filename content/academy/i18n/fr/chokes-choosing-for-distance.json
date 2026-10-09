@@ -34,19 +34,19 @@
   "body": {
     "chokes-choosing-for-distance-p1": "La distance au plateau est le principal facteur dans le choix d'un {{term:choke|choke}}. Les deux disciplines fixent leurs distances de façon différente.",
     "chokes-choosing-for-distance-cmp1": {
-      "sporting": "Les plateaux imitent des tirs de chasse, et sont donc placés à des distances où un chasseur pourrait tirer net un oiseau. Ni trop proches, au point d'abîmer la chair, ni trop loin, au point de ne faire que blesser l'oiseau. Le règlement appelle cela l'{{term:hunting-ethics|éthique de chasse}}.",
+      "sporting": "Les plateaux imitent des tirs de chasse, et sont donc placés à des distances où un chasseur pourrait tirer net un oiseau. Ni trop proches, au point d'abîmer la chair, ni trop loin, au point de ne faire que blesser l'oiseau. Le règlement appelle cela la {{term:hunting-ethics|éthique de chasse}}.",
       "compak": "Les plateaux survolent un {{term:fly-over-zone|rectangle}} balisé de 35 à 40 m de large et 25 m de profondeur, devant les postes de tir."
     },
     "chokes-choosing-for-distance-p2": [
       "Jusqu'à environ 20 m : {{term:cylinder|cylindre}} ou un choke très léger (1/8).",
-      "Environ 20-30 m : {{term:improved-cylinder|1/4}} (improved cylinder) ou light modified.",
-      "Environ 30-35 m : {{term:modified|demi-choke}} (1/2, modified).",
-      "Au-delà d'environ 35 m : {{term:improved-modified|3/4}} (improved modified), et parfois full."
+      "Environ 20-30 m : {{term:improved-cylinder|1/4}} ou light modified.",
+      "Environ 30-35 m : {{term:modified|demi-choke, 1/2}}.",
+      "Au-delà d'environ 35 m : {{term:improved-modified|3/4}}, et parfois full."
     ],
     "chokes-choosing-for-distance-p7": "C'est un repère approximatif que beaucoup d'entraîneurs utilisent pour du plomb n° 7½-9. Ce n'est pas une règle : les entraîneurs et les tireurs expérimentés ont leurs propres préférences.",
     "chokes-choosing-for-distance-p3": "Juger la distance est difficile pour un débutant. Regardez où vous allez probablement tirer le plateau, pas d'où il part. Demandez à votre entraîneur ou à un tireur expérimenté de votre {{term:squad|planche}} : sur un stand, c'est une question banale.",
-    "chokes-choosing-for-distance-p4": "Le type de plateau compte aussi. Un {{term:mini|mini}} est petit, il demande donc une gerbe plus dense. Une {{term:battue|battue}} est un plateau fin et plat qui vole souvent de profil, si bien qu'on n'en voit que la tranche. Elle est plus facile à casser quand elle tourne et montre sa face plate. Un {{term:rabbit|rabbit}} roule au sol et est plus résistant qu'un plateau standard.",
-    "chokes-choosing-for-distance-p5": "Dans un superposé, le choke le plus ouvert va généralement dans le canon qui tire en premier, et le plus serré dans le second. Une paire 1/4 et 1/2 (IC et M) est un choix polyvalent populaire pour beaucoup de postes de {{tm:sporting}}, et pour toute une série de {{tm:compak}}, où les chokes ne peuvent pas être changés.",
+    "chokes-choosing-for-distance-p4": "Le type de plateau compte aussi. Un {{term:mini|mini}} est petit, il demande donc un {{term:pattern|gerbe}} plus dense. Une {{term:battue|battue}} est un plateau fin et plat qui vole souvent de profil, si bien qu'on n'en voit que la tranche. Elle est plus facile à casser quand elle tourne et montre sa face plate. Un {{term:rabbit|rabbit}} roule au sol et est plus résistant qu'un {{term:standard-target|plateau standard}}.",
+    "chokes-choosing-for-distance-p5": "Dans un {{term:over-and-under|superposé}}, le choke le plus ouvert va généralement dans le canon qui tire en premier, et le plus serré dans le second. Une paire 1/4 et 1/2 (IC et M) est un choix polyvalent populaire pour beaucoup de postes de {{tm:sporting}}, et pour toute une série de {{tm:compak}}, où les chokes ne peuvent pas être changés.",
     "chokes-choosing-for-distance-p6": "Conseil pour les débutants : n'exagérez pas avec les chokes serrés. Sur les plateaux proches et moyens, les plus fréquents pour un débutant, un choke plus ouvert pardonne les petites erreurs de pointage et renforce la confiance. Une fois votre technique plus régulière, vous pourrez expérimenter."
   },
   "note": {},
@@ -70,7 +70,7 @@
       "explain": "À 30-35 m, modified est le choix habituel, mais ce n'est qu'un repère."
     },
     "chokes-choosing-for-distance-q2": {
-      "q": "Quel canon d'un superposé reçoit généralement le choke le plus ouvert ?",
+      "q": "Quel canon d'un {{term:over-and-under|superposé}} reçoit généralement le choke le plus ouvert ?",
       "options": {
         "a": "Celui qui tire en premier",
         "b": "Celui qui tire en second",
@@ -83,8 +83,8 @@
       "q": "Pourquoi conseille-t-on aux débutants de ne pas exagérer avec les chokes serrés ?",
       "options": {
         "a": "Les chokes serrés sont interdits aux débutants",
-        "b": "Une gerbe étroite pardonne moins d'erreurs",
-        "c": "Ils rendent le recul beaucoup plus fort",
+        "b": "Un {{term:pattern|gerbe}} étroit pardonne moins d'erreurs",
+        "c": "Ils rendent le {{term:recoil|recul}} beaucoup plus fort",
         "d": "Ils usent le canon plus vite"
       },
       "explain": "Une gerbe étroite demande un pointage précis ; sur les plateaux proches et moyens, un choke plus ouvert pardonne davantage."

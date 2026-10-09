@@ -1281,12 +1281,11 @@ window.GLOSSARY_I18N.hu = {
    "long": "A lövő csak azt a korongot tagadhatja meg, amelyet nem kért. Sportingban a szabályos korong, amelyre a lövő nem lőtt, nulla; szimultán vagy rafale dublénál nulla és nulla. Compakban a megtagadást a 21.5 szerint büntetik: szóló korong nulla; vadászdublé első korongja nulla, a dublét a második korong értékeléséért megismétlik; szimultán dublé nulla-nulla."
   },
   "hang-fire": {
-   "term_local": "tüzelési hiba",
+   "term_local": "késleltetett elsülés",
    "alt": [
-    "csütörtök",
-    "késleltetett elsülés"
+    "késleltetett lövés"
    ],
-   "note": "'Csütörtököt mond' = misfire.",
+   "note": "'Csütörtök' / 'tüzelési hiba' is a misfire; a delayed shot is 'késleltetett elsülés'.",
    "conf": "medium",
    "src": "http://www.harmonia91.hu/shop_ordered/65949/pic/Beretta-Bock_kezelesi_utasitas.pdf",
    "short": "Késleltetett lövés: a töltény valamivel az elsütés után sül el. Ezért nem nyitják ki azonnal a csütörtököt mondott fegyvert.",

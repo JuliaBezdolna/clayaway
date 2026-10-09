@@ -36,14 +36,14 @@
     "origin": null
   },
   "title": "Rückstoß, Schulter und Nacken",
-  "summary": "Warum der Rückstoß an Schulter, Wange oder Nacken schmerzen kann, wie ein guter Anschlag, eine passende Flinte und leichtere Patronen helfen, und wann Sie einen Arzt aufsuchen sollten.",
+  "summary": "Warum der {{term:recoil|Rückstoß}} an Schulter, Wange oder Nacken schmerzen kann, wie ein guter {{term:gun-mount|Anschlag}}, eine passende Flinte und leichtere Patronen helfen, und wann Sie einen Arzt aufsuchen sollten.",
   "body": {
     "health-recoil-shoulder-neck-p1": "{{term:recoil|Rückstoß}} ist der Stoß der Flinte nach hinten beim Schuss. Vermeiden lässt er sich nicht, aber richtig aufgenommen sollte er nicht schmerzen. Blaue Flecken an Schulter, Wange oder Arm oder ein schmerzender Nacken nach dem Schießen sind ein Zeichen, dass etwas geändert werden sollte.",
-    "women-recoil-management-p1": "Der gefühlte Rückstoß hängt viel weniger von der Kraft ab, als viele Anfänger denken. Manche geben nach der ersten Einheit auf, weil „es so stark stößt“. Oft liegt die Ursache in einer nicht passenden Flinte, zu schweren Patronen oder einem schlechten Anschlag, und alle drei lassen sich ändern.",
-    "health-recoil-shoulder-neck-p2": "Eine häufige Ursache ist der {{term:gun-mount|Anschlag}}. Der Schaft sollte in der Schulterkuhle liegen, zwischen Schlüsselbein und Schultergelenk, und die Wange fest auf dem Schaftrücken ruhen. Dann bewegen sich Flinte und Körper gemeinsam, und der Stoß verteilt sich auf die Muskeln, statt an einer Stelle zu treffen. Liegt der Schaft auf dem Knochen oder auf dem Arm, oder bleibt eine Lücke, trifft der Rückstoß scharf.",
+    "women-recoil-management-p1": "Der gefühlte Rückstoß hängt viel weniger von der Kraft ab, als viele Anfänger denken. Manche geben nach der ersten Einheit auf, weil „es so stark stößt“. Oft liegt die Ursache in einer nicht passenden Flinte, zu schweren Patronen oder einem schlechten {{term:gun-mount|Anschlag}}, und alle drei lassen sich ändern.",
+    "health-recoil-shoulder-neck-p2": "Eine häufige Ursache ist der {{term:gun-mount|Anschlag}}. Der {{term:stock|Schaft}} sollte in der Schulterkuhle liegen, zwischen Schlüsselbein und Schultergelenk, und die Wange fest auf dem {{term:comb|Schaftrücken}} ruhen. Dann bewegen sich Flinte und Körper gemeinsam, und der Stoß verteilt sich auf die Muskeln, statt an einer Stelle zu treffen. Liegt der Schaft auf dem Knochen oder auf dem Arm, oder bleibt eine Lücke, trifft der Rückstoß scharf.",
     "health-recoil-shoulder-neck-p3": "Eine weitere Ursache ist eine Flinte, die nicht passt. Ein zu langer oder zu kurzer Schaft zwingt den Kopf zu strecken und den Nacken anzuspannen. Dasselbe gilt für einen zu hohen oder zu niedrigen Schaftrücken. Eine {{term:gun-fit|Schaftanpassung}} mit einem Trainer oder einem {{term:gun-fitter|Schaftmacher}} hilft oft schnell; siehe {{lesson:gun-fit}}. Für Junioren ist das noch wichtiger: {{lesson:juniors-equipment-fit}}.",
     "women-recoil-management-p3": "Auch der Stand spielt eine Rolle. Das Gewicht bleibt leicht auf dem vorderen Fuß, der Oberkörper neigt sich etwas nach vorn, die Schultern sind entspannt. Wer sich nach hinten lehnt, lässt sich von der Flinte weiter zurückdrängen. Halten Sie den Schaft fest in der Schulter, ohne Lücke; siehe {{lesson:technique-stance}}.",
-    "health-recoil-shoulder-neck-p4": "Patronen sind ein weiterer Faktor. In beiden Disziplinen erlauben die FITASC-Regeln {{fact:gear.fitasc-shot-load}}. Im Training nutzen viele Schützen leichtere Ladungen, etwa {{fact:technique.training-loads-24-21g}}, oder {{term:low-recoil-cartridge|rückstoßarme Patronen}}. Zum Üben und für nahe bis mittlere Scheiben reicht das meist aus und ermüdet deutlich weniger. Auf weiten Scheiben gibt eine volle Ladung eine dichtere {{term:pattern|Deckung}}, die Schrotwolke in der Luft, sodass mehr Schrotkörner die Scheibe erreichen.",
+    "health-recoil-shoulder-neck-p4": "Patronen sind ein weiterer Faktor. In beiden Disziplinen erlauben die FITASC-Regeln {{fact:gear.fitasc-shot-load}}. Im Training nutzen viele Schützen leichtere Ladungen, etwa {{fact:technique.training-loads-24-21g}}, oder {{term:low-recoil-cartridge|rückstoßarme Patronen|pl}}. Zum Üben und für nahe bis mittlere Scheiben reicht das meist aus und ermüdet deutlich weniger. Auf weiten Scheiben gibt eine volle Ladung eine dichtere {{term:pattern|Deckung}}, die Schrotwolke in der Luft, sodass mehr Schrotkörner die Scheibe erreichen.",
     "women-recoil-management-dyk": "Der Rückstoß wächst mit der Masse des Schrots und seiner Geschwindigkeit. Der Wechsel von 28 g zu 24 g bei gleicher Geschwindigkeit bedeutet etwa ein Siebtel weniger Schrot, also einen merklich kleineren Stoß.",
     "health-recoil-shoulder-neck-p5": "Auch das Gewicht der Flinte spielt eine Rolle. Eine schwerere Flinte bewegt sich langsamer zurück, sodass sich dieselbe Patrone weicher anfühlt.",
     "health-recoil-shoulder-neck-heavy-gun": "Viele Trainer fügen hinzu, dass eine schwere Flinte auch die Arme schneller ermüdet, sodass die Wahl des Flintengewichts ein Kompromiss ist.",
@@ -64,7 +64,7 @@
   "did_you_know": null,
   "quiz": {
     "health-recoil-shoulder-neck-q1": {
-      "q": "Wo sollte der Schaft beim Anschlag liegen?",
+      "q": "Wo sollte der {{term:stock|Schaft}} beim {{term:gun-mount|Anschlag}} liegen?",
       "options": {
         "a": "Auf dem Schlüsselbein, nahe am Nacken",
         "b": "In der Schulterkuhle",
@@ -73,7 +73,7 @@
       "explain": "In der Schulterkuhle geht der Stoß in den Muskel statt in den Knochen, und Flinte und Körper bewegen sich gemeinsam."
     },
     "health-recoil-shoulder-neck-q2": {
-      "q": "Welche größte Schrotladung erlauben die FITASC-Regeln?",
+      "q": "Welche größte {{term:load-weight|Schrotladung}} erlauben die FITASC-Regeln?",
       "options": {
         "a": "28 g",
         "b": "36 g",
@@ -91,7 +91,7 @@
       "explain": "Anhaltender Schmerz und Taubheit müssen von einem Facharzt geprüft werden."
     },
     "women-recoil-management-q1": {
-      "q": "Was verursacht bei Anfängern oft einen stark gefühlten Rückstoß?",
+      "q": "Was verursacht bei Anfängern oft einen stark gefühlten {{term:recoil|Rückstoß}}?",
       "options": {
         "a": "Zu wenig körperliche Kraft",
         "b": "Schlechte Passform, schwere Ladungen oder Anschlag",
@@ -100,7 +100,7 @@
       "explain": "Passform, Technik und leichtere Patronen verringern den gefühlten Rückstoß; Kraft spielt eine viel kleinere Rolle."
     },
     "women-recoil-management-q2": {
-      "q": "Warum fühlt sich eine gasbetriebene Selbstladeflinte weicher an?",
+      "q": "Warum fühlt sich eine gasbetriebene {{term:semi-automatic|Selbstladeflinte}} weicher an?",
       "options": {
         "a": "Sie verteilt den Stoß über eine längere Zeit",
         "b": "Sie verschießt kleineren und leichteren Schrot",
@@ -109,13 +109,13 @@
       "explain": "Ein Teil der Pulvergase lädt die Flinte nach, sodass sich der Stoß über die Zeit verteilt und sein Höhepunkt niedriger ist."
     },
     "women-recoil-management-q3": {
-      "q": "Wie sollten Sie stehen, damit der Rückstoß Sie weniger zurückdrängt?",
+      "q": "Wie sollten Sie stehen, damit der {{term:recoil|Rückstoß}} Sie weniger zurückdrängt?",
       "options": {
         "a": "Nach hinten lehnen, von der Flinte weg",
         "b": "Mit dem Gewicht auf den Fersen stehen",
         "c": "Gewicht leicht auf dem vorderen Fuß"
       },
-      "explain": "Eine leichte Vorlage lässt den Körper den Rückstoß aufnehmen, statt nach hinten zu kippen."
+      "explain": "Eine leichte {{term:load-weight|Vorlage}} lässt den Körper den Rückstoß aufnehmen, statt nach hinten zu kippen."
     }
   }
 }

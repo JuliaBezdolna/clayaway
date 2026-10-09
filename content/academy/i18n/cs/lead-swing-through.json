@@ -37,11 +37,11 @@
     "lead-swing-through-p2": [
       "Start: hlavně se napojí na dráhu terče za ním, na jeho „ocas“.",
       "Předjíždění: zbraň se pohybuje rychleji než terč, podél jeho dráhy, skrz jeho „tělo“.",
-      "Výstřel: na spoušť se tiskne, když hlavně míjejí přední okraj terče, těsně před ním.",
+      "Výstřel: na {{term:trigger|spoušť}} se tiskne, když hlavně míjejí přední okraj terče, těsně před ním.",
       "Švih pokračuje i po výstřelu."
     ],
-    "lead-swing-through-delay": "Mezi rozhodnutím vystřelit a výstřelem je krátká prodleva. Protože se zbraň pohybuje rychleji než terč, hlavně za tu chvíli samy postoupí dál vpřed. Proto na spoušť tisknete, když vidíte jen malou mezeru, nebo žádnou, a zbytek doplní rychlost zbraně. Skutečné předsazení v okamžiku výstřelu je větší, než jaké jste viděli.",
-    "lead-swing-through-p3": "Přednosti: je přirozená a rychlá, vhodná pro začátečníky. Hodí se na blízké rychlé terče, na {{term:driven-target|protijdoucí terče nad hlavou}} (driven – letící k vám a přes hlavu), na {{term:overhead|terče nad hlavou}} zezadu a na nepravidelné nebo nečekané terče.",
+    "lead-swing-through-delay": "Mezi rozhodnutím vystřelit a výstřelem je krátká prodleva. Protože se zbraň pohybuje rychleji než terč, hlavně za tu chvíli samy postoupí dál vpřed. Proto na spoušť tisknete, když vidíte jen malou mezeru, nebo žádnou, a zbytek doplní rychlost zbraně. Skutečné {{term:lead|předsazení}} v okamžiku výstřelu je větší, než jaké jste viděli.",
+    "lead-swing-through-p3": "Přednosti: je přirozená a rychlá, vhodná pro začátečníky. Hodí se na blízké rychlé terče, na {{term:driven-target|protijdoucí terče nad hlavou}}, které letí k vám a přes hlavu, na {{term:overhead|terče nad hlavou}} zezadu a na nepravidelné nebo nečekané terče.",
     "lead-swing-through-p4": "Slabiny: okno pro spoušť je velmi krátké. Na dlouhých přeletových terčích může střelci dojít čas, ztratit linii nebo přestřelit. Zpomalení ve chvíli, kdy hlavně dosahují terče, dá chybu za terčem.",
     "lead-swing-through-p5": "Zdroje se neshodují na názvu „CPSA method“ (CPSA, Clay Pigeon Shooting Association, je anglický svaz brokové střelby). Někteří jím označují swing through, zatímco dnešní trénink CPSA se popisuje jako výuka pull away. Řekne-li trenér „CPSA method“, zeptejte se, který z nich má na mysli."
   },
@@ -75,17 +75,17 @@
   },
   "quiz": {
     "lead-swing-through-q1": {
-      "q": "Kde startuje ústí při swing-through?",
+      "q": "Kde startuje ústí při {{term:swing-through|přešvihnutí}}?",
       "options": {
         "a": "Před terčem",
         "b": "Na přední hraně terče",
         "c": "V pevném bodě v místě zásahu",
         "d": "Za terčem, na jeho dráze"
       },
-      "explain": "Swing-through začíná za terčem a předjede ho; start před terčem je maintained lead, pevný bod je ambush."
+      "explain": "{{term:swing-through|Přešvihnutí}} začíná za terčem a předjede ho; start před terčem je {{term:maintained-lead|udržované předsazení}}, pevný bod je {{term:ambush|čekání na terč}}."
     },
     "lead-swing-through-q2": {
-      "q": "Proč střelec při swing through vidí malé předsazení, nebo žádné?",
+      "q": "Proč střelec při swing through vidí malé {{term:lead|předsazení}}, nebo žádné?",
       "options": {
         "a": "Terče jsou pomalejší",
         "b": "Předsazení vytváří rychlost zbraně",

@@ -192,7 +192,7 @@
       "k": "rules-doubles-p1",
       "t": "p",
       "en": "A {{term:double|double}} is two targets shot on one call. Both disciplines have doubles on report and simultaneous doubles; only {{tm:sporting}} also has the rafale. Some scoring rules differ. When both targets of a double are scored as lost, this is called {{term:zero-zero|zero-zero}}.",
-      "uk": "{{term:double|Дуплет}} — дві мішені, які стріляють за одну команду. В обох дисциплінах є дуплети на постріл і одночасні дуплети; лише в {{tm:sporting}} є ще рафаль. Частина правил зарахування різна. Коли обидві мішені дуплета зараховано як промах, це називають {{term:zero-zero|zero-zero}}."
+      "uk": "{{term:double|Дуплет}} — дві мішені, які стріляють за одну команду. В обох дисциплінах є дуплети на постріл і одночасні дуплети; лише в {{tm:sporting}} є ще рафаль. Частина правил зарахування різна. Коли обидві мішені дуплета зараховано як {{term:zero|промах}}, це називають {{term:zero-zero|zero-zero}}."
     },
     {
       "k": "sporting-singles-doubles-p1",
@@ -229,7 +229,7 @@
       "sporting": {
         "rule_ref": "sporting:ch4-rafale-double",
         "en": "Three kinds: on report, simultaneous (from one or two traps) and {{term:rafale-double|rafale}}. In a rafale, two targets leave the same trap on the same line, one after the other.",
-        "uk": "Три види: на постріл, одночасний (з однієї чи двох машинок) і {{term:rafale-double|рафаль}}. У рафалі дві мішені вилітають з однієї машинки по тій самій траєкторії, одна за одною."
+        "uk": "Три види: на постріл, одночасний (з однієї чи двох машинок) і {{term:rafale-double|рафаль}}. У рафалі дві мішені вилітають з однієї {{term:trap|машинки}} по тій самій траєкторії, одна за одною."
       },
       "compak": {
         "rule_ref": "compak:ch3-simultaneous-double",
@@ -275,7 +275,7 @@
         "compak:ch20-gun-failure-first-shot"
       ],
       "en": "Both barrels firing together by accident is not a deliberate double shot: it is a gun fault, a {{term:double-discharge|double discharge}}. How it is scored is in {{lesson:rules-malfunctions}}.",
-      "uk": "Одночасний постріл з обох стволів випадково — це не навмисний подвійний постріл, а несправність рушниці ({{term:double-discharge|double discharge}}). Як її зараховують — у {{lesson:rules-malfunctions}}."
+      "uk": "Якщо обидва стволи випадково вистрілили разом, це {{term:double-discharge|одночасний постріл з обох стволів}}. Це не навмисний подвійний постріл, а {{term:malfunction|несправність}} рушниці. Як її зараховують — у {{lesson:rules-malfunctions}}."
     },
     {
       "k": "rules-doubles-cmp3",
@@ -329,7 +329,7 @@
       "k": "rules-doubles-p7",
       "t": "tip",
       "en": "Watch the presentation and read the stand's {{term:target-menu|menu}}, so you know which doubles are coming. Many coaches suggest choosing the order for a simultaneous double before you call.",
-      "uk": "Подивіться показ і прочитайте {{term:target-menu|меню}} місця, щоб знати, які дуплети на вас чекають. Багато тренерів радять вирішити порядок стрільби одночасного дуплета ще до команди."
+      "uk": "Подивіться показ і прочитайте {{term:target-menu|меню}} місця, щоб знати, які дуплети на вас чекають. Багато тренерів радять ще до команди вирішити, яку мішень одночасного дуплета стріляти першою."
     },
     {
       "k": "sporting-singles-doubles-sim",

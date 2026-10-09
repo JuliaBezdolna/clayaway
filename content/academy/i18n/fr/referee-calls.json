@@ -31,11 +31,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Ce que dit l'arbitre sur le poste",
-  "summary": "Les mots courts du stand : la commande, le chargement et les fusils ouverts, « BON », « ZÉRO » et « No bird », et le mot officiel du tireur pour une réclamation.",
+  "summary": "Les mots courts du stand : la commande, le {{term:loading|chargement}} et les fusils ouverts, « BON », « ZÉRO » et « No bird », et le mot officiel du tireur pour un {{term:protest|réclamation}}.",
   "body": {
-    "referee-calls-p1": "Le poste a sa propre langue courte. Une fois prêt, le tireur donne la {{term:call|commande}}, généralement « Pull! » ou « Ready! ». En {{tm:sporting}}, l'{{term:referee|arbitre}} transmet la commande au {{term:trapper|pulleur}} par un signal sonore. Le plateau doit partir {{fact:rules.release-within-3s}} après ce signal ; un plateau plus tardif est un {{term:no-bird|No bird}}. En {{tm:compak}}, un lancement manuel doit aussi intervenir {{fact:rules.release-within-3s}} après la commande. Un lancement à commande vocale ({{term:sonopull|sonopull}} : un micro qui lance le plateau dès qu'il entend votre commande) a un délai fixe d'{{fact:rules.sonopull-delay}}.",
+    "referee-calls-p1": "Le poste a sa propre langue courte. Une fois prêt, le tireur donne le {{term:call|commande}}, généralement « Pull! » ou « Ready! ». En {{tm:sporting}}, le {{term:referee|arbitre}} transmet la commande au {{term:trapper|pulleur}} par un signal sonore. Le plateau doit partir {{fact:rules.release-within-3s}} après ce signal ; un plateau plus tardif est un {{term:no-bird|No bird}}. En {{tm:compak}}, un lancement manuel doit aussi intervenir {{fact:rules.release-within-3s}} après la commande. Un lancement à commande vocale ({{term:sonopull|sonopull}} : un micro qui lance le plateau dès qu'il entend votre commande) a un délai fixe d'{{fact:rules.sonopull-delay}}.",
     "referee-calls-p2": "Avant que quiconque ne tire, l'arbitre décide quand les fusils peuvent être chargés et fermés. Le règlement n'autorise le {{term:loading|chargement}} que sur le poste, le fusil pointé vers le champ de tir, une fois que l'arbitre a dit que le tir pouvait commencer. Pendant la {{term:target-presentation|présentation}} des plateaux, et chaque fois que le tir s'arrête, les fusils sont ouverts et déchargés. Ils ne sont refermés qu'avec l'autorisation de l'arbitre. En {{tm:compak}}, l'arbitre lance la série en disant « Start » ou « Competition ».",
-    "referee-calls-p3": "Après chaque plateau, le règlement ne prévoit que trois résultats : « {{term:one|BON}} » (touché), « {{term:zero|ZÉRO}} » (manqué) et « No bird » (le plateau ne compte pas et est relancé). Sur le terrain, vous entendrez aussi « dead » ou « good » pour un plateau touché et « lost » pour un manqué ; certains arbitres ne disent rien après un plateau touché. En {{tm:compak}}, l'arbitre annonce chaque zéro à voix haute ou par un signal sonore, afin qu'un tireur en désaccord puisse réclamer immédiatement.",
+    "referee-calls-p3": "Après chaque plateau, le règlement ne prévoit que trois résultats : « {{term:one|BON}} » pour un plateau touché, « {{term:zero|ZÉRO}} » pour un manqué et « No bird » (le plateau ne compte pas et est relancé). Sur le terrain, vous entendrez aussi « dead » ou « good » pour un plateau touché et « lost » pour un manqué ; certains arbitres ne disent rien après un plateau touché. En {{tm:compak}}, l'arbitre annonce chaque zéro à voix haute ou par un signal sonore, afin qu'un tireur en désaccord puisse réclamer immédiatement.",
     "referee-calls-p4": "Le tireur a lui aussi un mot officiel. Pour contester une décision, levez la main immédiatement, sur le poste, et dites « {{term:protest|Protest!}} » ou « {{term:appeal|Appeal!}} » ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). D'autres phrases utiles au tireur : {{lesson:stand-talk-shooter-phrases}}."
   },
   "note": {
@@ -76,7 +76,7 @@
   },
   "quiz": {
     "referee-calls-q1": {
-      "q": "En {{tm:sporting}}, le plateau part cinq secondes après le signal de l'arbitre. Quelle est la décision de l'arbitre ?",
+      "q": "En {{tm:sporting}}, le plateau part cinq secondes après le signal du {{term:referee|arbitre}}. Quelle est la décision de l'arbitre ?",
       "options": {
         "a": "Il est compté normalement",
         "b": "No bird",
@@ -90,20 +90,20 @@
       "options": {
         "a": "En marchant vers le poste suivant",
         "b": "Derrière le poste, pendant l'attente",
-        "c": "Sur le poste, après l'autorisation de l'arbitre",
+        "c": "Sur le poste, après l'autorisation du arbitre",
         "d": "Dès que l'entraîneur le dit"
       },
-      "explain": "Le chargement n'est autorisé que sur le poste, le fusil pointé vers le champ de tir, et seulement après que l'arbitre a dit que le tir pouvait commencer."
+      "explain": "Le {{term:loading|chargement}} n'est autorisé que sur le poste, le fusil pointé vers le champ de tir, et seulement après que l'arbitre a dit que le tir pouvait commencer."
     },
     "referee-calls-q3": {
-      "q": "Quels mots ouvrent une réclamation officielle sur le poste ?",
+      "q": "Quels mots ouvrent un {{term:protest|réclamation}} officiel sur le poste ?",
       "options": {
         "a": "« Protest! », main levée",
         "b": "« No bird! », main levée",
         "c": "« Arbitre, regardez ce plateau ! »",
         "d": "« Attendez ! », après le plateau suivant"
       },
-      "explain": "Les deux règlements nomment « protest » ou « appeal », main levée, immédiatement ; « No bird » est le mot de l'arbitre."
+      "explain": "Les deux règlements nomment « protest » ou « appeal », main levée, immédiatement ; « No bird » est le mot du {{term:referee|arbitre}}."
     }
   }
 }

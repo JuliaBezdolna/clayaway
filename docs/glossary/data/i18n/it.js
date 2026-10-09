@@ -1895,15 +1895,15 @@ window.GLOSSARY_I18N.it = {
    "conf": "medium"
   },
   "hang-fire": {
-   "term_local": "colpo mancato",
+   "term_local": "colpo ritardato",
    "short": "Uno sparo ritardato: la cartuccia parte qualche tempo dopo la pressione sul grilletto. Ecco perché un fucile che non ha sparato non si apre subito.",
    "long": "Il colpo ritardato è raro ma pericoloso: quando si preme il grilletto non succede nulla, e un attimo dopo la cartuccia parte. Se in quel momento aprite il fucile, il bossolo può esplodere vicino al viso e alle mani. Per questo, dopo qualsiasi mancato sparo, tenete il fucile alla spalla, o almeno puntato in una direzione sicura, e aspettate; molti istruttori consigliano di aspettare circa 30 secondi. Nelle gare FITASC, dopo un mancato sparo il fucile non si apre e non si tocca la sicura finché l'arbitro non lo ha controllato, altrimenti il piattello viene segnato come perso. Qui le regole di sicurezza e quelle di arbitraggio coincidono.",
    "alt": [
-    "cilecca",
-    "colpo ritardato"
+    "sparo ritardato"
    ],
    "conf": "medium",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf",
+   "note": "'Cilecca' / 'colpo mancato' is a misfire; a delayed shot is 'colpo ritardato'."
   },
   "hard-case": {
    "term_local": "valigetta",

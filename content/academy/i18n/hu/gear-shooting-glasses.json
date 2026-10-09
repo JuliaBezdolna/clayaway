@@ -43,12 +43,12 @@
       "compak": "Versenyzőknek, bíróknak és a személyzetnek védőszemüveget kell viselniük."
     },
     "gear-shooting-glasses-p2": "Az ütésállóság az első. A lövészlencséket polikarbonátból vagy hasonló, nem törő anyagokból készítik, és a jó keretek oldalról is védik a szemet. A szokásos napszemüvegek erre nem elég jók. Keress egy szemvédelmi szabvány jelölést: Európában rendszerint EN 166, az USA-ban ANSI Z87.1.",
-    "gear-shooting-glasses-p3": "A {{term:lens-tint|lencseszín}} nem tesz pontosabb lövésszé, de segíthet jobban látni a korongot egy adott háttér előtt. Sok lövész sárga lencsét használ borús időben, ködben és alkonyatkor, és narancssárgát univerzálisan. A lila fényesebbé teheti a narancssárga korongot fák és fű hátterében, a szürke füstszínű pedig csökkenti a fényességet erős napsütésben, a színek megváltoztatása nélkül.",
+    "gear-shooting-glasses-p3": "A {{term:lens-tint|lencseszín}} nem tesz pontosabb lövésszé, de segíthet jobban látni a {{term:target|korongot}} egy adott háttér előtt. Sok lövész sárga lencsét használ borús időben, ködben és alkonyatkor, és narancssárgát univerzálisan. A lila fényesebbé teheti a narancssárga korongot fák és fű hátterében, a szürke füstszínű pedig csökkenti a fényességet erős napsütésben, a színek megváltoztatása nélkül.",
     "gear-shooting-glasses-p4": "Vannak átlátszó lencsék is nagyon sötét időre és esti fényhez. A szín a kényelemről szól; a védelmet az ütésálló lencse adja. Egy kezdőnek elég egy cserélhető lencséjű szemüveg: átlátszó vagy világossárga, plusz egy sötétebb lencse. Előbb lőj, figyeld meg, milyen fényben van nehéz dolgod, aztán adj hozzá lencséket.",
     "gear-shooting-glasses-p5": "A lövészszemüvegnek különleges formája van. Amikor vállba veszed a fegyvert, a fejed kicsit a tusra dől, és a lencse felső részén át nézel. Ezért a keretek magas hídúak (az az orrra ülő rész), és nagy lencséjűek, hogy a látómeződ ne vágódjon le.",
     "health-eyes-vision-p4": "Ha szemüveget hordasz a látásod miatt, két fő út van. Az egyik dioptriás lencséjű lövészszemüveg, amelyet egy sportoptikában jártas látszerésznél rendelsz. A másik egy keret, külön {{term:prescription-insert|dioptriás betéttel}} a cserélhető színes lencsék mögött.",
     "health-eyes-vision-p8": "A mindennapi szemüveg csak akkor megfelelő, ha a lencséi ütésállóként tanúsítottak, és a távolra látást korrigálják. Vásárlás előtt beszéld meg a választást egy szemorvossal vagy látszerésszel.",
-    "health-eyes-vision-p5": "Egy lövész a távolban lévő korongra néz, tehát az éles távollátás a legfontosabb. Kb. 40 éves kortól sok embernél kialakul az öregszeműség (presbyopia): a közelre látás nehezebbé válik, és a {{term:bead|célgömb}} elmosódhat.",
+    "health-eyes-vision-p5": "Egy lövész a távolban lévő korongra néz, tehát az éles távollátás a legfontosabb. Kb. 40 éves kortól sok embernél kialakul a {{term:presbyopia|öregszeműség}}: a közelre látás nehezebbé válik, és a {{term:bead|célgömb}} elmosódhat.",
     "gear-shooting-glasses-bead-coaches": "Sok edző szerint ez kevésbé fontos, mint amilyennek tűnik, mert a szemednek a korongon kell lennie, nem a célgömbön.",
     "health-eyes-vision-p7": "Vizsgáltasd rendszeresen a szemed, különösen ha a korongokat nehezebb látni alkonyatkor vagy erős fényben. Ha idővel egy oldalra kezdesz hibázni, érdemes újra ellenőrizni a {{term:master-eye|vezérszemedet}} is: lásd {{lesson:technique-master-eye}}."
   },
@@ -104,7 +104,7 @@
       "explain": "Ezek a jelölések azt mutatják, hogy a szemüveg megfelel egy szemvédelmi szabványnak, Európában vagy az USA-ban."
     },
     "health-eyes-vision-q2": {
-      "q": "Mi az a dioptriás betét (prescription insert)?",
+      "q": "Mi az a {{term:prescription-insert|dioptriás betét}}?",
       "options": {
         "a": "Egy dioptriás lencse a színes lencsék mögött",
         "b": "Egy matrica a fegyver célgömbjére",
@@ -121,7 +121,7 @@
         "c": "A vezérszemedet, az edződdel együtt",
         "d": "A fegyvered csöveinek hosszát"
       },
-      "explain": "A szemdominancia idővel gyengülhet vagy változhat, és ez eltolhatja a lövéseket; ellenőrizd az edződdel."
+      "explain": "Az {{term:eye-dominance|szemdominancia}} idővel gyengülhet vagy változhat, és ez eltolhatja a lövéseket; ellenőrizd az edződdel."
     }
   }
 }

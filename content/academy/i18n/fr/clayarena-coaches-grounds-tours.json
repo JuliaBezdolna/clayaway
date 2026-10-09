@@ -32,7 +32,7 @@
     "origin": "fr-wave-2026-10"
   },
   "title": "Trouver un entraîneur et un stand sur ClayArena",
-  "summary": "Ce que montrent les catalogues ClayArena d'entraîneurs et de stands, comment les utiliser, et quoi demander avant votre première visite.",
+  "summary": "Ce que montrent les catalogues ClayArena de {{term:coach|entraîneurs}} et de stands, comment les utiliser, et quoi demander avant votre première visite.",
   "body": {
     "clayarena-coaches-grounds-tours-p1": "Beaucoup de tireurs commencent avec un {{term:coach|entraîneur}}, qui voit les erreurs de l'extérieur et les corrige avant qu'elles ne deviennent des habitudes. Comment choisir un entraîneur : {{lesson:training-first-lessons-and-coach}}.",
     "clayarena-coaches-grounds-tours-coaches": "Le catalogue d'entraîneurs de ClayArena peut être filtré par discipline, pays, fédération et langue d'entraînement. La fiche d'un entraîneur indique les disciplines qu'il enseigne et les langues qu'il parle. Elle montre souvent aussi le prix, ou la mention « sur accord ». Depuis la fiche, vous pouvez ouvrir le profil complet de l'entraîneur.",
@@ -48,7 +48,7 @@
     "clayarena-coaches-grounds-tours-practice": "Si une compétition approche sur ce stand, demandez quand vous pourrez vous entraîner. Les deux disciplines ont des règles différentes :",
     "clayarena-coaches-grounds-tours-practice-compare": {
       "sporting": "Avant l'épreuve, personne ne peut s'entraîner sur les parcours de compétition (les postes et les plateaux aménagés pour la compétition). Vous pouvez vous entraîner sur les autres parcours du stand.",
-      "compak": "Vous pouvez vous entraîner sur les {{term:trajectory|trajectoires}} de compétition (les trajectoires de vol que suivront les plateaux lors de la compétition), mais avec un {{term:trajectory-setting-table|tableau de réglage}} différent. C'est le plan qui indique quels lanceurs sont tirés depuis chaque pas de tir, en simples ou en doublés. À l'entraînement, les plateaux n'arrivent donc pas dans les mêmes combinaisons qu'au jour de la compétition. Lors des championnats continentaux et mondiaux, l'entraînement officiel ouvre le samedi avant l'épreuve."
+      "compak": "Vous pouvez vous entraîner sur les {{term:trajectory|trajectoires}} de compétition (les trajectoires de vol que suivront les plateaux lors de la compétition), mais avec un {{term:trajectory-setting-table|tableau de réglage}} différent. C'est le plan qui indique quels {{term:trap|lanceurs}} sont tirés depuis chaque pas de tir, en simples ou en doublés. À l'entraînement, les plateaux n'arrivent donc pas dans les mêmes combinaisons qu'au jour de la compétition. Lors des championnats continentaux et mondiaux, l'entraînement officiel ouvre le samedi avant l'épreuve."
     },
     "clayarena-coaches-grounds-tours-p6": "Vous prévoyez de vous entraîner sur un stand d'un autre pays ? Vérifiez à l'avance les règles pour emmener un fusil et des cartouches, ou demandez au stand si vous pouvez y louer un fusil. Plus dans {{lesson:travel-gun-in-eu}} et {{lesson:travel-gun-outside-eu}}.",
     "clayarena-coaches-grounds-tours-p3": "ClayArena prépare aussi des tours d'entraînement avec un entraîneur, appelés {{term:clayaway|ClayAway}}. Ils sont en préparation et pas encore lancés : {{lesson:travel-clayaway-tour}}."
@@ -58,14 +58,14 @@
   "key_points": {
     "clayarena-coaches-grounds-tours-kp1": "Le catalogue d'entraîneurs peut être filtré par discipline, pays, fédération et langue.",
     "clayarena-coaches-grounds-tours-kp2": "Le catalogue des stands montre les stands en liste et sur une carte.",
-    "clayarena-coaches-grounds-tours-kp6": "Avant une première visite, renseignez-vous sur les débutants, la location de fusil et ce qu'il faut apporter.",
+    "clayarena-coaches-grounds-tours-kp6": "Avant une première visite, renseignez-vous sur les débutants, le {{term:gun-rental|location de fusil}} et ce qu'il faut apporter.",
     "clayarena-coaches-grounds-tours-kp7": "Entraînement avant une compétition : pas sur les parcours de compétition en {{tm:sporting}} ; avec d'autres tableaux de réglage en {{tm:compak}}.",
     "clayarena-coaches-grounds-tours-kp5": "Avant de vous entraîner à l'étranger, vérifiez les règles pour emmener un fusil."
   },
-  "did_you_know": "Dans les deux disciplines, personne ne peut {{term:coaching|conseiller}} un concurrent pendant la compétition, c'est-à-dire lui donner des conseils ou des signes. Si l'arbitre le remarque, le tireur reçoit un {{term:yellow-card|carton jaune}}, et l'arbitre fait sortir la personne qui conseillait de la zone de tir. Travaillez donc avec votre entraîneur avant et après l'épreuve.",
+  "did_you_know": "Dans les deux disciplines, le {{term:coaching|coaching}} d'un concurrent est interdit pendant la compétition : personne ne peut lui donner des conseils ou des signes. Si l'arbitre le remarque, le tireur reçoit un {{term:yellow-card|carton jaune}}, et l'arbitre fait sortir la personne qui conseillait de la zone de tir. Travaillez donc avec votre entraîneur avant et après l'épreuve.",
   "quiz": {
     "clayarena-coaches-grounds-tours-q4": {
-      "q": "Par quoi peut-on filtrer le catalogue d'entraîneurs de ClayArena ?",
+      "q": "Par quoi peut-on filtrer le catalogue de {{term:coach|entraîneurs}} de ClayArena ?",
       "options": {
         "a": "Discipline, pays et langue",
         "b": "Taille, âge et marque du fusil",
@@ -83,16 +83,16 @@
       "explain": "En {{tm:sporting}}, personne ne peut s'entraîner sur les parcours de compétition avant l'épreuve."
     },
     "clayarena-coaches-grounds-tours-q6": {
-      "q": "Votre entraîneur est venu voir votre compétition. Que peut-il faire pendant que vous tirez ?",
+      "q": "Votre {{term:coach|entraîneur}} est venu voir votre compétition. Que peut-il faire pendant que vous tirez ?",
       "options": {
         "a": "Vous conseiller entre les plateaux",
         "b": "Vous faire des signes par-derrière",
         "c": "Regarder, mais pas vous conseiller"
       },
-      "explain": "Le coaching pendant la compétition n'est autorisé dans aucune des deux disciplines : il entraîne un carton jaune."
+      "explain": "Le coaching pendant la compétition n'est autorisé dans aucune des deux disciplines : il entraîne un {{term:yellow-card|carton jaune}}."
     },
     "clayarena-coaches-grounds-tours-q7": {
-      "q": "Avant une compétition de {{tm:compak}}, comment les tireurs peuvent-ils s'entraîner sur les trajectoires de compétition ?",
+      "q": "Avant une compétition de {{tm:compak}}, comment les tireurs peuvent-ils s'entraîner sur les {{term:trajectory|trajectoires}} de compétition ?",
       "options": {
         "a": "Avec d'autres tableaux de réglage",
         "b": "Pas du tout, c'est interdit",

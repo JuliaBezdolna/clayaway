@@ -35,7 +35,7 @@
     "safety-handling-carrying-p3": "Když zbraň nepoužíváte, postavte ji vzpřímeně do {{term:gun-rack|stojanu na zbraně}} nebo na jiné místo, které určí střelnice. Samonabíjecí brokovnice tam stojí s otevřeným závěrem. Neopírejte zbraň o auto, strom nebo stůl: může sklouznout a spadnout.",
     "safety-handling-carrying-p4": "Mezi autem a místem střelby se zbraň přepravuje v {{term:gun-slip|pouzdru}} nebo {{term:hard-case|kufru}}. Vyndávejte ji jen tam, kde to střelnice dovoluje, a to často není parkoviště.",
     "safety-handling-carrying-p5": "Nedotýkejte se cizí zbraně bez dovolení majitele. Pokud si ji chcete prohlédnout, zeptejte se: majitel ji sám otevře a podá vám ji. Pokud vás někdo požádá, abyste ukázali, že vaše zbraň je prázdná, otevřete ji a ukažte komory. Trenéři tomu říkají „{{term:show-clear|show clear}}“.",
-    "safety-handling-carrying-p6": "Nedělejte {{term:gun-mount|zalícení}} (nezvedejte zbraň k rameni a tváři) a neveďte ji, jako byste sledovali terč. Tomu se říká {{term:mock-shooting|střelba na sucho}}. Oba řády ji zakazují, ale hranici vedou jinak.",
+    "safety-handling-carrying-p6": "Nezvedejte zbraň k rameni a tváři, tedy nedělejte {{term:gun-mount|zalícení}}, a neveďte ji, jako byste sledovali terč. Tomu se říká {{term:mock-shooting|střelba na sucho}}. Oba řády ji zakazují, ale hranici vedou jinak.",
     "safety-handling-carrying-mock-where": {
       "sporting": "Kdekoli na střelnici: mimo stanoviště, na stanovišti před vyvoláním terče a během předvedení terčů.",
       "compak": "Mimo stanoviště a ve chvíli, kdy střílí jiný člen skupiny."
@@ -68,7 +68,7 @@
         "b": "Opřená o auto, zavřená a nenabitá",
         "c": "Položená na zemi vedle stanoviště"
       },
-      "explain": "Zbraně stojí vzpřímeně ve stojanu nebo na jiném určeném místě, aby nemohly spadnout; samonabíjecí brokovnice stojí s otevřeným závěrem."
+      "explain": "Zbraně stojí vzpřímeně ve stojanu nebo na jiném určeném místě, aby nemohly spadnout; {{term:semi-automatic|samonabíjecí brokovnice}} stojí s otevřeným závěrem."
     },
     "safety-handling-carrying-q3": {
       "q": "Kde smíte zbraň vyzkoušet výstřelem?",
@@ -77,19 +77,19 @@
         "b": "Na zkušebním místě, pokud ho střelnice má",
         "c": "V tichém koutě parkoviště"
       },
-      "explain": "Zkušební výstřely patří na zkušební místo; na stanovišti závodu jsou zakázané."
+      "explain": "{{term:gun-test|Zkušební výstřely}} patří na zkušební místo; na stanovišti závodu jsou zakázané."
     },
     "safety-handling-carrying-q4": {
-      "q": "Co je střelba na sucho?",
+      "q": "Co je {{term:mock-shooting|střelba na sucho}}?",
       "options": {
-        "a": "Střelba na skutečný terč lehkým cvičným nábojem",
+        "a": "Střelba na skutečný terč lehkým {{term:snap-cap|cvičným nábojem}}",
         "b": "Vyvolání terče bez jediného náboje ve zbrani",
-        "c": "Zalícení zbraně a její vedení za domnělým terčem"
+        "c": "{{term:gun-mount|Zalícení}} zbraně a její vedení za domnělým terčem"
       },
       "explain": "Střelba na sucho znamená zalícit zbraň a vést ji, jako by mířila na terč. V {{tm:sporting}} není dovolená nikde na střelnici, ani na stanovišti před vyvoláním. V {{tm:compak}} není dovolená mimo stanoviště ani ve chvíli, kdy střílí jiný člen skupiny."
     }
   },
   "title": "Manipulace se zbraní a její nošení na střelnici",
-  "summary": "Otevřená zbraň, stojan na zbraně, pouzdro a pravidlo „nejdřív se zeptej“: jak zacházet se zbraní mezi stanovišti.",
+  "summary": "Otevřená zbraň, {{term:gun-rack|stojan na zbraně}}, pouzdro a pravidlo „nejdřív se zeptej“: jak zacházet se zbraní mezi stanovišti.",
   "did_you_know": "Otevřená zbraň je i projevem zdvořilosti: ukazuje lidem kolem vás, že se nemají čeho obávat."
 }

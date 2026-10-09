@@ -28,14 +28,14 @@
   "origin": null
  },
  "title": "Geschwindigkeit und Rückstoß",
- "summary": "Was die Geschwindigkeitsangabe auf einer Patronenschachtel bedeutet, warum schneller nicht unbedingt besser ist, und wovon der Rückstoß abhängt, für Schützen bei {{tm:sporting}} und {{tm:compak}}.",
+ "summary": "Was die Geschwindigkeitsangabe auf einer Patronenschachtel bedeutet, warum schneller nicht unbedingt besser ist, und wovon der {{term:recoil|Rückstoß}} abhängt, für Schützen bei {{tm:sporting}} und {{tm:compak}}.",
  "body": {
   "cartridges-velocity-recoil-p1": "Die Schachtel zeigt oft die {{term:velocity|Geschwindigkeit}} des Schrots, in Metern pro Sekunde oder Fuß pro Sekunde (fps). Bei Wurfscheibenpatronen liegt sie meist bei {{fact:gear.shot-velocity}}.",
-  "cartridges-velocity-recoil-p2": "Vergleichen Sie Geschwindigkeiten vorsichtig. Der Schrot verlangsamt sich schnell, nachdem er den Lauf verlassen hat, es kommt also darauf an, wo die Geschwindigkeit gemessen wird. Europäische Hersteller (nach den C.I.P.-Prüfregeln) messen meist 2,5 m von der Mündung und schreiben „V2,5“; manche schreiben „V1“, gemessen bei 1 m, was eine höhere Zahl ergibt. Die Angaben sind nicht immer einheitlich, behandeln Sie die Zahl also als groben Richtwert.",
+  "cartridges-velocity-recoil-p2": "Vergleichen Sie Geschwindigkeiten vorsichtig. Der Schrot verlangsamt sich schnell, nachdem er den Lauf verlassen hat, es kommt also darauf an, wo die Geschwindigkeit gemessen wird. Europäische Hersteller (nach den C.I.P.-Prüfregeln) messen meist 2,5 m von der {{term:muzzle|Mündung}} und schreiben „V2,5“; manche schreiben „V1“, gemessen bei 1 m, was eine höhere Zahl ergibt. Die Angaben sind nicht immer einheitlich, behandeln Sie die Zahl also als groben Richtwert.",
   "cartridges-velocity-recoil-p7": "Amerikanische Hersteller geben Fuß pro Sekunde an, gemessen etwa 3 Fuß (0,9 m) von der Mündung. Britische Schachteln geben manchmal eine geschätzte Mündungsgeschwindigkeit an. Dieselbe Zahl bedeutet also nicht unbedingt dieselbe Geschwindigkeit.",
-  "cartridges-velocity-recoil-p3": "Eine schnellere Patrone verkürzt leicht die Zeit, die der Schrot braucht, um die Scheibe zu erreichen, stößt aber stärker, und ihre Deckung ist nicht unbedingt besser. Viele Trainer empfehlen, nicht der Geschwindigkeit nachzujagen, sondern eine Patrone zu wählen, mit der Sie gleichmäßig schießen und die Sie nicht ermüdet.",
+  "cartridges-velocity-recoil-p3": "Eine schnellere {{term:cartridge|Patrone}} verkürzt leicht die Zeit, die der Schrot braucht, um die Scheibe zu erreichen, stößt aber stärker, und ihre Deckung ist nicht unbedingt besser. Viele Trainer empfehlen, nicht der Geschwindigkeit nachzujagen, sondern eine Patrone zu wählen, mit der Sie gleichmäßig schießen und die Sie nicht ermüdet.",
   "cartridges-velocity-recoil-p4": "Der {{term:recoil|Rückstoß}} ist der Stoß der Flinte in die Schulter beim Schuss. Er wächst mit einer schwereren Ladung und einer höheren Geschwindigkeit und sinkt mit einer schwereren Flinte. Eine gasbetriebene {{term:semi-automatic|Selbstladeflinte}} verteilt den Stoß über einen längeren Zeitraum, sodass viele Schützen ihn als sanfter empfinden.",
-  "cartridges-velocity-recoil-p5": "Die {{term:gun-fit|Schaftanpassung}} und ein richtiger {{term:gun-mount|Anschlag}} zählen noch mehr. Eine Flinte, die zu Ihnen passt und fest in der Schulter sitzt, fühlt sich viel sanfter an als eine, die auf dem Arm oder auf Knochen aufliegt. Eine gute Schaftkappe und ein stabiler Stand helfen ebenfalls. Mehr: {{lesson:gun-fit}} und {{lesson:health-recoil-shoulder-neck}}.",
+  "cartridges-velocity-recoil-p5": "Die {{term:gun-fit|Schaftanpassung}} und ein richtiger {{term:gun-mount|Anschlag}} zählen noch mehr. Eine Flinte, die zu Ihnen passt und fest in der Schulter sitzt, fühlt sich viel sanfter an als eine, die auf dem Arm oder auf Knochen aufliegt. Eine gute {{term:recoil-pad|Schaftkappe}} und ein stabiler Stand helfen ebenfalls. Mehr: {{lesson:gun-fit}} und {{lesson:health-recoil-shoulder-neck}}.",
   "cartridges-velocity-recoil-p6": "An einem Tag mit {{tm:sporting}} oder {{tm:compak}} geben Sie vielleicht 100–200 Schüsse ab. Starker Rückstoß ermüdet Sie und kann Ihnen allmählich das {{term:flinch|Mucken}} vor dem Schuss angewöhnen. Eine leichtere Patrone im Training, etwa 24 g, ist also eine vernünftige Wahl, keine Schwäche."
  },
  "note": {},
@@ -50,12 +50,12 @@
  "did_you_know": "Schrot erreicht eine Scheibe auf 30 m in etwa einer Zehntelsekunde. In dieser Zeit kann sich eine querende Scheibe ein bis zwei Meter bewegen, deshalb geben Schützen ihr {{term:lead|Vorhalt}}.",
  "quiz": {
   "cartridges-velocity-recoil-q1": {
-   "q": "Was macht den Rückstoß schwächer?",
+   "q": "Was macht den {{term:recoil|Rückstoß}} schwächer?",
    "options": {
     "a": "Eine schwerere Ladung",
-    "b": "Eine höhere Geschwindigkeit",
+    "b": "Eine höhere {{term:velocity|Geschwindigkeit}}",
     "c": "Eine schwerere Flinte",
-    "d": "Ein zu kurzer Schaft"
+    "d": "Ein zu kurzer {{term:stock|Schaft}}"
    },
    "explain": "Eine schwerere Flinte nimmt den Stoß besser auf; eine schwerere Ladung und eine höhere Geschwindigkeit erhöhen den Rückstoß."
   },
@@ -70,7 +70,7 @@
    "explain": "V1, V2,5 und fps bei 3 Fuß sind unterschiedliche Messungen, dieselbe Zahl bedeutet also nicht dieselbe Patrone."
   },
   "cartridges-velocity-recoil-q3": {
-   "q": "Was ist eine typische Geschwindigkeit für Wurfscheibenpatronen?",
+   "q": "Was ist eine typische {{term:velocity|Geschwindigkeit}} für Wurfscheibenpatronen?",
    "options": {
     "a": "Etwa 100 m/s",
     "b": "Etwa 360–430 m/s",

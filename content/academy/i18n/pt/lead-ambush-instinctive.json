@@ -30,14 +30,14 @@
     "origin": "interpreter-academy"
   },
   "title": "Emboscada e tiro instintivo",
-  "summary": "Como funciona a emboscada e porque se prime o gatilho antes de o prato chegar ao ponto, quando pode ajudar, e o que significa o tiro instintivo.",
+  "summary": "Como funciona a emboscada e porque se prime o {{term:trigger|gatilho}} antes de o prato chegar ao ponto, quando pode ajudar, e o que significa o tiro instintivo.",
   "body": {
-    "lead-ambush-instinctive-p1": "A {{term:ambush|emboscada}} (ambush), ou tiro ao ponto (spot shooting), é o oposto de um swing. 1) Os canos são colocados num ponto à frente do prato, na sua linha, perto do ponto de tiro. 2) Esperam com pouco ou nenhum movimento. 3) O gatilho é premido antes de o prato chegar a esse ponto. A reação do atirador e o voo do chumbo levam tempo, por isso o prato entra no tiro. Disparar só quando o prato chega ao ponto manda o chumbo para trás dele.",
-    "lead-ambush-instinctive-sporting": "No {{tm:sporting}}, a arma só pode ser montada depois de o prato aparecer. Por isso, aí uma emboscada começa sempre com uma montagem: a coronha sobe enquanto as bocas dos canos vão para o ponto de espera, e o movimento é muito pequeno.",
-    "lead-ambush-instinctive-p2": "Como hábito geral, típico de atiradores sem formação, não é fiável: a arma está parada e o tempo tem de ser muito preciso. Mas uma emboscada deliberada é por vezes a escolha certa: um prato a que é preciso atirar muito depressa, ou um coelho que só se vê numa curta abertura entre arbustos. Um parente próximo é o «collapse», usado numa {{term:battue|batida}} (um prato fino e plano que voa depressa de cutelo, depois vira e cai) no ponto mais alto do seu voo. Os canos esperam quase onde a batida vai ser partida, por isso a arma só precisa de um movimento mínimo quando o tiro chega. No {{tm:sporting}} o prato continua a ter de ser partido onde o árbitro o possa ver.",
-    "lead-ambush-instinctive-p3": "No {{term:instinctive-shooting|tiro instintivo}} o atirador não pensa de todo no avanço. Os olhos mantêm-se fixos no prato (um {{term:hard-focus|foco firme}}), e as mãos seguem os olhos sem medir nada. A montagem e o movimento fundem-se num só gesto, e o gatilho é premido no momento em que a coronha assenta na face. A abordagem vem de uma escola clássica britânica de caça.",
+    "lead-ambush-instinctive-p1": "A {{term:ambush|emboscada}}, ou tiro ao ponto (spot shooting), é o oposto de um swing. 1) Os canos são colocados num ponto à frente do prato, na sua linha, perto do ponto de tiro. 2) Esperam com pouco ou nenhum movimento. 3) O {{term:trigger|gatilho}} é premido antes de o prato chegar a esse ponto. A reação do atirador e o voo do chumbo levam tempo, por isso o prato entra no tiro. Disparar só quando o prato chega ao ponto manda o chumbo para trás dele.",
+    "lead-ambush-instinctive-sporting": "No {{tm:sporting}}, a arma só pode ser montada depois de o prato aparecer. Por isso, aí uma emboscada começa sempre com uma montagem: a {{term:stock|coronha}} sobe enquanto as bocas dos canos vão para o ponto de espera, e o movimento é muito pequeno.",
+    "lead-ambush-instinctive-p2": "Como hábito geral, típico de atiradores sem formação, não é fiável: a arma está parada e o tempo tem de ser muito preciso. Mas uma emboscada deliberada é por vezes a escolha certa: um prato a que é preciso atirar muito depressa, ou um {{term:rabbit|coelho}} que só se vê numa curta abertura entre arbustos. Um parente próximo é o «collapse», usado numa {{term:battue|batida}} — um prato fino e plano que voa depressa de cutelo, depois vira e cai — no ponto mais alto do seu voo. Os canos esperam quase onde a batida vai ser partida, por isso a arma só precisa de um movimento mínimo quando o tiro chega. No {{tm:sporting}} o prato continua a ter de ser partido onde o árbitro o possa ver.",
+    "lead-ambush-instinctive-p3": "No {{term:instinctive-shooting|tiro instintivo}} o atirador não pensa de todo no {{term:lead|avanço}}. Os olhos mantêm-se fixos no prato — um {{term:hard-focus|foco firme}} —, e as mãos seguem os olhos sem medir nada. A montagem e o movimento fundem-se num só gesto, e o gatilho é premido no momento em que a {{term:stock|coronha}} assenta na face. A abordagem vem de uma escola clássica britânica de caça.",
     "lead-ambush-instinctive-p4": "Muitos atiradores experientes de {{tm:sporting}} misturam métodos, escolhendo consoante o prato. «Which method for this one?» (que método para este?) é uma pergunta normal no treino.",
-    "lead-ambush-instinctive-sim": "Animação: um coelho e uma arma imóvel. Dispare antes de o coelho chegar ao ponto para onde apontam os canos; um disparo feito quando ele já lá está vai atrás dele."
+    "lead-ambush-instinctive-sim": "Animação: um {{term:rabbit|coelho}} e uma arma imóvel. Dispare antes de o coelho chegar ao ponto para onde apontam os canos; um disparo feito quando ele já lá está vai atrás dele."
   },
   "note": {},
   "phrases": {
@@ -80,20 +80,20 @@
     "lead-ambush-instinctive-q2": {
       "q": "Quando pode uma emboscada deliberada ser uma boa escolha?",
       "options": {
-        "a": "Num transversal longo e estável",
+        "a": "Num {{term:crosser|transversal}} longo e estável",
         "b": "Em nenhum caso: as regras proíbem-na",
         "c": "Só no {{tm:compak}}, não no {{tm:sporting}}",
-        "d": "Num coelho visto apenas numa janela curta"
+        "d": "Num {{term:rabbit|coelho}} visto apenas numa janela curta"
       },
       "explain": "Quando o prato só é visível por um instante, não há tempo para acompanhar o movimento, por isso esperar na distância pode funcionar. Nenhuma regra proíbe qualquer método."
     },
     "lead-ambush-instinctive-q3": {
       "q": "O que é o tiro instintivo?",
       "options": {
-        "a": "Foco intenso no prato, sem avanço consciente",
-        "b": "Disparar sem óculos de proteção",
+        "a": "Foco intenso no prato, sem {{term:lead|avanço}} consciente",
+        "b": "Disparar sem {{term:safety-glasses|óculos de proteção}}",
         "c": "Disparar a partir da anca, sem montar a arma",
-        "d": "Esperar junto à máquina por cada prato"
+        "d": "Esperar junto à {{term:trap|máquina}} por cada prato"
       },
       "explain": "O tiro instintivo apoia-se na coordenação entre olho e mão; continua a fazer-se com a arma ao ombro, como exigem as regras."
     }

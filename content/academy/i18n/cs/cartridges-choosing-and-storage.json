@@ -28,9 +28,9 @@
     "origin": null
   },
   "body": {
-    "cartridges-choosing-and-storage-p1": "Pro {{tm:sporting}} volí mnozí střelci 28 g s brokem č. 7½ nebo č. 8: takový náboj zvládne blízké i vzdálené terče. Někteří mají navíc ve vestě náboje č. 9 pro blízké terče.",
-    "cartridges-choosing-and-storage-p2": "V {{tm:compak}} jsou terče většinou na střední vzdálenost, proto je oblíbená 24–28 g s brokem č. 8 nebo č. 7½, a č. 9 pro blízké terče. Zahrdlení se tam v rámci {{term:round|položky}} nemění, takže náboje a zahrdlení volíte dohromady na celou položku.",
-    "cartridges-choosing-and-storage-p3": "Pro trénink je 24 g dobrá volba: levnější, měkčí a méně unavuje. Mnozí trenéři radí držet se jedné značky a modelu, aby zpětný ráz a obrazec zásahu působily stejně. Před závodem trénujte přímo s náboji, se kterými budete závodit.",
+    "cartridges-choosing-and-storage-p1": "Pro {{tm:sporting}} volí mnozí střelci 28 g s brokem č. 7½ nebo č. 8: takový {{term:cartridge|náboj}} zvládne blízké i vzdálené terče. Někteří mají navíc ve vestě náboje č. 9 pro blízké terče.",
+    "cartridges-choosing-and-storage-p2": "V {{tm:compak}} jsou terče většinou na střední vzdálenost, proto je oblíbená 24–28 g s brokem č. 8 nebo č. 7½, a č. 9 pro blízké terče. {{term:choke|Zahrdlení}} se tam v rámci {{term:round|položky}} nemění, takže náboje a zahrdlení volíte dohromady na celou položku.",
+    "cartridges-choosing-and-storage-p3": "Pro trénink je 24 g dobrá volba: levnější, měkčí a méně unavuje. Mnozí trenéři radí držet se jedné značky a modelu, aby {{term:recoil|zpětný ráz}} a obrazec zásahu působily stejně. Před závodem trénujte přímo s náboji, se kterými budete závodit.",
     "cartridges-choosing-and-storage-p4": "Před cestou se zeptejte organizátora, jaké náboje střelnice povoluje: často se vyžadují {{term:fibre-wad|vláknité kontejnery}}, a někdy jen {{term:steel-shot|ocelové broky}} s omezením velikosti. A vezměte si dost: v obou disciplínách musíte na stanoviště přijít s dostatkem nábojů na celou položku.",
     "cartridges-choosing-and-storage-p5": "Náboje skladujte v suchém chladném místě, mimo teplo, slunce a otevřený oheň, v původních krabičkách, pod zámkem a mimo dosah dětí. V mnoha zemích zákon vyžaduje skladovat náboje odděleně od zbraně a omezuje, kolik jich smíte mít doma.",
     "cartridges-choosing-and-storage-p6": "Autem se náboje přepravují v původních krabičkách, v mnoha zemích odděleně od zbraně. Letadlem se přepravují {{fact:gear.iata-ammunition}}, bezpečně zabalené. Spolucestující nemohou své limity sečíst dohromady a mnohé aerolinky dovolují méně nebo náboje vůbec neberou.",
@@ -41,13 +41,13 @@
   "key_points": {
     "cartridges-choosing-and-storage-kp1": "{{tm:sporting}}: nejčastěji 28 g č. 7½ nebo č. 8; {{tm:compak}}: 24–28 g č. 8 nebo č. 7½.",
     "cartridges-choosing-and-storage-kp2": "Trénink: 24 g a jedna značka nábojů.",
-    "cartridges-choosing-and-storage-kp3": "Předem si zjistěte pravidla střelnice: vláknité kontejnery, ocel, velikost broku.",
+    "cartridges-choosing-and-storage-kp3": "Předem si zjistěte pravidla střelnice: vláknité kontejnery, ocel, {{term:shot-size|velikost broku}}.",
     "cartridges-choosing-and-storage-kp4": "Skladujte sucho, chladno, pod zámkem, mimo dosah dětí.",
     "cartridges-choosing-and-storage-kp5": "Letadlo: náboje se přepravují {{fact:gear.iata-ammunition}}; aerolinky mohou mít přísnější pravidla."
   },
   "quiz": {
     "cartridges-choosing-and-storage-q1": {
-      "q": "Jaký náboj volí mnozí střelci pro {{tm:sporting}}?",
+      "q": "Jaký {{term:cartridge|náboj}} volí mnozí střelci pro {{tm:sporting}}?",
       "options": {
         "a": "36 g s brokem č. 4",
         "b": "28 g, č. 7½ nebo č. 8",
@@ -57,7 +57,7 @@
       "explain": "28 g s brokem č. 7½ nebo č. 8 je univerzální volba v mezích pravidel FITASC. 36 g, 32 g a č. 6 jsou mimo ně a č. 11 (asi 1,5 mm) je pod minimem 2,0 mm."
     },
     "cartridges-choosing-and-storage-q2": {
-      "q": "Kde v letadle nejsou náboje povoleny?",
+      "q": "Kde v letadle nejsou {{term:cartridge|náboje}} povoleny?",
       "options": {
         "a": "V zapsaném zavazadle",
         "b": "V původních krabičkách",
@@ -67,7 +67,7 @@
       "explain": "Náboje se přepravují jen v zapsaném zavazadle, bezpečně zabalené a se souhlasem aerolinky."
     },
     "cartridges-choosing-and-storage-q3": {
-      "q": "Jak se mají náboje skladovat?",
+      "q": "Jak se mají {{term:cartridge|náboje}} skladovat?",
       "options": {
         "a": "Sucho, chladno, pod zámkem, mimo dosah dětí",
         "b": "V autě, kde je teplo a slunečno",
@@ -78,6 +78,6 @@
     }
   },
   "title": "Výběr, skladování a přeprava nábojů",
-  "summary": "Jaké náboje vzít na {{tm:sporting}}, {{tm:compak}} a na trénink, jak je bezpečně skladovat a co vědět o přepravě. Limity se liší podle zemí a aerolinek.",
+  "summary": "Jaké {{term:cartridge|náboje}} vzít na {{tm:sporting}}, {{tm:compak}} a na trénink, jak je bezpečně skladovat a co vědět o přepravě. Limity se liší podle zemí a aerolinek.",
   "did_you_know": "Na cestách je často nejjednodušší koupit náboje v klubu na místě: odpovídají pravidlům střelnice a nemusíte je vozit letadlem."
 }

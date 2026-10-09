@@ -34,7 +34,7 @@
     "origin": "interpreter-academy"
   },
   "title": "Budowa naboju",
-  "summary": "Łuska, spłonka, proch, przybitka, śrut i zawijka: co jest wewnątrz sportowego naboju, jak każda część wpływa na strzał i jakie naboje zakazują przepisy {{tm:sporting}} i {{tm:compak}}.",
+  "summary": "{{term:hull|Łuska}}, {{term:primer|spłonka}}, {{term:powder|proch}}, {{term:wad|przybitka}}, śrut i zawijka: co jest wewnątrz sportowego naboju, jak każda część wpływa na strzał i jakie {{term:cartridge|naboje}} zakazują przepisy {{tm:sporting}} i {{tm:compak}}.",
   "body": {
     "gear-cartridges-p1": "{{term:cartridge|Nabój}} zawiera wszystko na jeden strzał: {{term:hull|łuskę}} z metalowym denkiem, {{term:primer|spłonkę}}, {{term:powder|proch}}, {{term:wad|przybitkę}} i śrut. Strzelcy mówią też „shell”. {{term:empties|„Empties”}} to wystrzelone łuski.",
     "cartridges-anatomy-p2": "Łuska to rurka, najczęściej plastikowa, z metalowym denkiem na dole. Są też łuski papierowe: niektóre strzelnice je preferują, bo mniej zaśmiecają przyrodę. Wystrzelona łuska ma zwykle 65–70 mm długości i musi odpowiadać {{term:chamber|komorze}} twojej broni (zob. {{lesson:gun-gauge-and-barrels}}).",
@@ -42,8 +42,8 @@
     "cartridges-anatomy-p4": "Między prochem a śrutem jest przybitka. Działa jak zatyczka: nie przepuszcza gorących gazów obok śrucin, łagodzi pchnięcie i utrzymuje śruciny razem, gdy przechodzą przez lufę. Przybitka plastikowa ma zwykle kubeczek, który chroni śruciny i często daje trochę węższy rozrzut.",
     "cartridges-anatomy-p8": "{{term:fibre-wad|Przybitka filcowa albo z włókna}} rozkłada się w przyrodzie, więc wiele strzelnic jej wymaga. Istnieją też biodegradowalne przybitki plastikowe, ale nie wszystkie strzelnice je przyjmują.",
     "cartridges-anatomy-p5": "Nad przybitką jest śrut: kilkaset małych śrucin. Górę łuski zamyka {{term:crimp|zawijka}}, najczęściej „gwiazdka” z 6 albo 8 zagięć. Dobra zawijka mocno utrzymuje wszystko na miejscu i pomaga, by każdy nabój strzelał tak samo jak poprzedni.",
-    "cartridges-anatomy-p6": "Przepisy FITASC dla {{tm:sporting}} i {{tm:compak}} zakazują nabojów przeładowanych, czyli wystrzelonych łusek napełnionych ponownie, na przykład w domu. Zakazane są też rozpraszacze (wkładki, które celowo rozszerzają rozrzut śrutu) i wszelkie inne specjalne urządzenia wewnątrz naboju. Zakazana jest też mieszanka śrutu różnych rozmiarów albo jakości, proch czarny i naboje świecące (zostawiające jaśniejący ślad). Na zawody zabieraj więc naboje fabryczne, zgodne z przepisami.",
-    "cartridges-anatomy-p7": "Na pudełku zwykle widać kaliber, długość łuski, naważkę, numer albo średnicę śrutu, materiał śrutu i typ przybitki, a często też prędkość. Nauczysz się czytać pudełko — i będziesz wiedzieć, czym nabijasz broń.",
+    "cartridges-anatomy-p6": "Przepisy FITASC dla {{tm:sporting}} i {{tm:compak}} zakazują {{term:reloaded-cartridge|nabojów elaborowanych|pl}}, czyli wystrzelonych łusek napełnionych ponownie, na przykład w domu. Zakazane są też rozpraszacze, czyli wkładki, które celowo rozszerzają {{term:pattern|rozrzut śrutu}}, i wszelkie inne specjalne urządzenia wewnątrz naboju. Zakazana jest też mieszanka śrutu różnych rozmiarów albo jakości, proch czarny i naboje smugowe (zostawiające jaśniejący ślad). Na zawody zabieraj więc naboje fabryczne, zgodne z przepisami.",
+    "cartridges-anatomy-p7": "Na pudełku zwykle widać {{term:gauge|kaliber}}, długość łuski, naważkę, numer albo {{term:shot-size|średnicę śrutu}}, materiał śrutu i typ przybitki, a często też prędkość. Nauczysz się czytać pudełko — i będziesz wiedzieć, czym nabijasz broń.",
     "gear-cartridges-p5": "Niektóre strzelnice dodają własne przepisy środowiskowe na treningi, na przykład tylko przybitki filcowe albo tylko {{term:steel-shot|śrut stalowy}}: sprawdź regulamin strzelnicy przed wyjazdem. Puste łuski wkłada się do pojemnika na stanowisku, a strzelcy z {{term:semi-automatic|półautomatami}} zbierają swoje wyrzucone łuski, gdy schodzą ze stanowiska.",
     "cartridges-anatomy-p9": "Trzy liczby z pudełka mają swoje osobne lekcje: kaliber ({{lesson:gun-gauge-and-barrels}}), numer śrutu ({{lesson:cartridges-shot-size}}) i naważkę ({{lesson:cartridges-load-weight}})."
   },
@@ -54,21 +54,21 @@
       "say": "Puste łuski do pojemnika, proszę, nie na trawę."
     },
     "gear-cartridges-ph4": {
-      "meaning": "Śrut ołowiany jest na tej strzelnicy niedozwolony (przepis lokalny, nie FITASC).",
+      "meaning": "{{term:lead-shot|Śrut ołowiany}} jest na tej strzelnicy niedozwolony (przepis lokalny, nie FITASC).",
       "say": "Na tej strzelnicy tylko stal."
     }
   },
   "key_points": {
     "gear-cartridges-kp1": "Nabój = łuska, spłonka, proch, przybitka, śrut.",
     "cartridges-anatomy-kp2": "Przybitka plastikowa: często trochę węższy rozrzut; przybitka filcowa: rozkłada się w przyrodzie.",
-    "cartridges-anatomy-kp4": "FITASC zakazuje naboi przeładowanych, rozpraszaczy, mieszanki śrutu, prochu czarnego i naboi świecących.",
+    "cartridges-anatomy-kp4": "FITASC zakazuje naboi elaborowanych, rozpraszaczy, mieszanki śrutu, prochu czarnego i naboi smugowych.",
     "cartridges-anatomy-kp5": "Czytaj pudełko: kaliber, długość, naważka, śrut, przybitka.",
     "gear-cartridges-kp5": "Puste łuski do pojemnika; użytkownicy półautomatów zbierają swoje łuski."
   },
   "did_you_know": "Po strzale przybitka plastikowa leci jeszcze kilkadziesiąt metrów za stanowisko. Dlatego na polach wokół starych strzelnic bywają pełne przybitek, podczas gdy filc stopniowo się rozkłada.",
   "quiz": {
     "cartridges-anatomy-q1": {
-      "q": "Co zapala proch w naboju?",
+      "q": "Co zapala {{term:powder|proch}} w naboju?",
       "options": {
         "a": "Przybitka",
         "b": "Spłonka",
@@ -85,17 +85,17 @@
         "c": "Rozkładają się w przyrodzie",
         "d": "Wymaga tego FITASC"
       },
-      "explain": "Filc i włókno rozkładają się, a zwykłe przybitki plastikowe zostają na polach latami."
+      "explain": "Filc i włókno rozkładają się, a zwykłe {{term:wad|przybitki}} plastikowe zostają na polach latami."
     },
     "cartridges-anatomy-q3": {
-      "q": "Jakie naboje zakazują przepisy FITASC?",
+      "q": "Jakie {{term:cartridge|naboje}} zakazują przepisy FITASC?",
       "options": {
         "a": "Fabryczne z przybitką plastikową",
         "b": "Fabryczne z przybitką filcową",
         "c": "Naboje z łuską papierową",
-        "d": "Naboje przeładowane"
+        "d": "Naboje elaborowane"
       },
-      "explain": "Zakazane są naboje przeładowane, rozpraszacze, mieszanka śrutu, proch czarny i naboje świecące."
+      "explain": "Zakazane są naboje elaborowane, rozpraszacze, mieszanka śrutu, proch czarny i naboje smugowe."
     },
     "cartridges-anatomy-q4": {
       "q": "Co to jest zawijka naboju?",

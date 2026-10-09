@@ -34,12 +34,12 @@
  "title": "Besondere Flugbilder: Teal, Chandelle, Looper und fallende Scheiben",
  "summary": "Scheiben, die aufspringen, auf einer Kurve steigen, sich überschlagen oder fallen: wie man Teal, Chandelle und Looper unterscheidet, und warum sich ihre Namen zwischen Ländern unterscheiden.",
  "body": {
-  "flight-teal-chandelle-looper-p1": "Die Flugbilder in dieser Lektion betreffen Höhe und Kurve statt Winkel. Ihre Namen sind Worte, die Parcoursbauer (die Personen, die die Wurfmaschinen aufstellen) verwenden, keine Regelwerksbegriffe. Die Regeln listen Scheibentypen auf, und die {{tm:compak}}-Regeln verlangen eine Vielfalt an Flügen: steigende, fallende und hohe, überschlagende.",
+  "flight-teal-chandelle-looper-p1": "Die Flugbilder in dieser Lektion betreffen Höhe und Kurve statt Winkel. Ihre Namen sind Worte, die {{term:course-designer|Parcoursbauer}} – die Personen, die die {{term:trap|Wurfmaschinen|pl}} aufstellen – verwenden, keine Regelwerksbegriffe. Die Regeln listen Scheibentypen auf, und die {{tm:compak}}-Regeln verlangen eine Vielfalt an Flügen: steigende, fallende und hohe, überschlagende.",
   "flight-teal-chandelle-looper-p2": "Ein {{term:teal|Teal}} (auch springing oder rising teal, nach der kleinen Ente benannt) wird fast senkrecht geworfen: Er verlangsamt sich, hängt oben einen Moment still und fällt zurück. Schießen Sie ihn entweder auf dem Weg nach oben, indem Sie die Flinte von unten durch ihn hindurch nach oben führen, oder oben, während er hängt. Ein häufiger Fehler ist, die Flinte anzuhalten und nach ihm zu stoßen, während er oben hängt. Manche Parcoursbauer verwenden „springing“ für eine Scheibe, die schräg statt senkrecht steigt, wie ein aus dem Gras aufgeschrecktes Vögelchen.",
   "flight-teal-chandelle-looper-p3": "Eine {{term:chandelle|Chandelle}} (französisch für „Kerze“) steigt steil auf einer leichten Kurve, überschlägt sich und fällt fast senkrecht. Viele Schützen finden sie auf dem Weg nach oben am leichtesten zu treffen. Hat sie sich überschlagen und beginnt zu fallen, schießen Sie vor ihr (auf der Seite, zu der sie sich bewegt) und unter ihr.",
-  "flight-teal-chandelle-looper-p4": "Ein {{term:looper|Looper}} fliegt einen weiten Bogen über den Himmel, wie ein Regenbogen: Er steigt, überschlägt sich oben und fällt. Es ist meist eine Standardscheibe; manche Parcoursbauer werfen auf einer solchen Linie auch eine Battue, die dann beim Drehen ihre Fläche zeigt. Folgen Sie der Kurve mit der Flinte, bleiben Sie vor der Scheibe und unter ihr.",
+  "flight-teal-chandelle-looper-p4": "Ein {{term:looper|Looper}} fliegt einen weiten Bogen über den Himmel, wie ein Regenbogen: Er steigt, überschlägt sich oben und fällt. Es ist meist eine {{term:standard-target|Standardscheibe}}; manche Parcoursbauer werfen auf einer solchen Linie auch eine Battue, die dann beim Drehen ihre Fläche zeigt. Folgen Sie der Kurve mit der Flinte, bleiben Sie vor der Scheibe und unter ihr.",
   "flight-teal-chandelle-looper-p5": "Eine {{term:dropping-target|fallende Taube}} ist jede Scheibe im fallenden Teil ihres Flugs. Da sie sich zugleich nach unten und vorwärts bewegt, schießen Sie unter ihr und vor ihr, mit der Flinte in Bewegung.",
-  "flight-teal-chandelle-looper-p6": "Vorsicht: Die Namen unterscheiden sich zwischen Ländern. Viele Französischsprachige verwenden „chandelle“ für eine fast senkrecht steigende Scheibe, die ein englischer Trainer Teal nennt. In anderen Sprachen kann ein Wort für „Kerze“ beides bedeuten. Hören Sie chandelle oder „Kerze“, fragen Sie: senkrecht oder im Bogen?"
+  "flight-teal-chandelle-looper-p6": "Vorsicht: Die Namen unterscheiden sich zwischen Ländern. Viele Französischsprachige verwenden „chandelle“ für eine fast senkrecht {{term:springing-target|steigende Scheibe}}, die ein englischer Trainer Teal nennt. In anderen Sprachen kann ein Wort für „Kerze“ beides bedeuten. Hören Sie chandelle oder „Kerze“, fragen Sie: senkrecht oder im Bogen?"
  },
  "note": {},
  "phrases": {
@@ -56,7 +56,7 @@
    "say": "Der Looper kippt – darunter und davor."
   },
   "flight-teal-chandelle-looper-ph4": {
-   "meaning": "Die zweite Scheibe der Doublette fällt; unter ihr schießen, die Flinte in Bewegung.",
+   "meaning": "Die zweite Scheibe der {{term:double|Doublette}} fällt; unter ihr schießen, die Flinte in Bewegung.",
    "say": "Die zweite fällt – gehen Sie darunter und halten Sie die Flinte in Bewegung."
   }
  },
@@ -64,7 +64,7 @@
   "flight-teal-chandelle-looper-kp1": "Teal: fast senkrecht hoch, steht, fällt; im Steigen oder am höchsten Punkt nehmen.",
   "flight-teal-chandelle-looper-kp2": "Chandelle: steiler Steigflug in einer Kurve, Bogen, fällt fast senkrecht.",
   "flight-teal-chandelle-looper-kp3": "Looper: weiter Regenbogen quer über den Himmel, meist eine Standardscheibe, die über den höchsten Punkt kippt und fällt.",
-  "flight-teal-chandelle-looper-kp4": "Fallend: Vorhalt darunter und davor; Flinte in Bewegung halten.",
+  "flight-teal-chandelle-looper-kp4": "Fallend: {{term:lead|Vorhalt}} darunter und davor; Flinte in Bewegung halten.",
   "flight-teal-chandelle-looper-kp5": "Namen unterscheiden sich: Französischsprachige sagen oft „chandelle“ für einen Teal, fragen Sie also, was gemeint ist."
  },
  "did_you_know": "Das französische Wort chandelle bedeutet „Kerze“; es ist auch der Name eines Flugkunstmanövers, bei dem ein Flugzeug steil steigt, während es sich dreht.",
@@ -80,7 +80,7 @@
    "explain": "Das ist der Teal (springing oder rising teal). Ein Looper fliegt einen weiten Bogen über den Himmel."
   },
   "flight-teal-chandelle-looper-q2": {
-   "q": "Wohin geht der Vorhalt meist bei einer fallenden Scheibe?",
+   "q": "Wohin geht der {{term:lead|Vorhalt}} meist bei einer fallenden Scheibe?",
    "options": {
     "a": "Darüber und dahinter",
     "b": "Darunter und davor",

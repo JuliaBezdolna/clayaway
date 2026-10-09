@@ -32,10 +32,10 @@
     "origin": null
   },
   "title": "Odzież i obuwie na każdą pogodę",
-  "summary": "Jak się ubrać na strzelnicę w słońce, upał, zimno i deszcz, jakie obuwie jest potrzebne na trasie oraz co mówi kodeks ubioru {{tm:sporting}} i {{tm:compak}}.",
+  "summary": "Jak się ubrać na strzelnicę w słońce, upał, zimno i deszcz, jakie obuwie jest potrzebne na trasie oraz co mówi {{term:dress-code|kodeks ubioru}} {{tm:sporting}} i {{tm:compak}}.",
   "body": {
     "gear-clothing-and-shoes-p1": "Na strzelnicy spędzasz kilka godzin na świeżym powietrzu, a w {{tm:sporting}} jeszcze chodzisz trasą przez las i pola. Więc ubranie musi być wygodne i odpowiednie do pogody, a przede wszystkim nie może przeszkadzać w składaniu się do strzału.",
-    "gear-clothing-and-shoes-p2": "Główna zasada to warstwy: cienka podstawowa koszulka, na niej lekki sweter albo polar, na wierch {{term:shooting-vest|kamizelka}}, a w deszczu lekka kurtka przeciwdeszczowa. Warstwy można zdejmować i dodawać w trakcie dnia. Obszerne kołnierze, kaptury i grube kurtki mogą zahaczać o kolbę, więc sprawdź złożenie się do strzału w tym, co masz na sobie.",
+    "gear-clothing-and-shoes-p2": "Główna zasada to warstwy: cienka podstawowa koszulka, na niej lekki sweter albo polar, na wierch {{term:shooting-vest|kamizelka}}, a w deszczu lekka kurtka przeciwdeszczowa. Warstwy można zdejmować i dodawać w trakcie dnia. Obszerne kołnierze, kaptury i grube kurtki mogą zahaczać o {{term:stock|kolbę}}, więc sprawdź {{term:gun-mount|złożenie się do strzału}} w tym, co masz na sobie.",
     "gear-clothing-and-shoes-p3": "{{term:dress-code|Kodeks ubioru}} jest taki sam dla wszystkich w {{tm:sporting}} i {{tm:compak}}. Krótkie szorty są zakazane; dozwolone są tylko długie szorty, kończące się {{fact:rules.dress-shorts-length}}. Góra ubioru musi mieć przynajmniej krótkie rękawy i kołnierzyk albo okrągły dekolt, więc koszulki bez rękawów nie nadają się na zawody. Kamizelki nie wolno nosić na gołej klatce piersiowej. Szczegóły: {{lesson:rules-dress-and-safety}}.",
     "gear-clothing-and-shoes-p4": "Buty muszą być zakryte, z dobrą przyczepnością. Sandały są zakazane z powodów bezpieczeństwa, w {{tm:compak}} nawet na treningu. Na trasie {{tm:sporting}} trafiasz na mokrą trawę, błoto i zbocza, więc dobrze służą buty trekkingowe albo lekkie botki. Buty muszą stabilnie trzymać stopę, bo od stabilnej {{term:stance|postawy}} zależy każdy strzał.",
     "women-clothing-community-start-p3": "Kilka praktycznych wskazówek: związuj długie włosy, żeby nie trafiały między policzek i kolbę. Długie kolczyki i naszyjniki też mogą przeszkadzać w składaniu się do strzału.",
@@ -56,7 +56,7 @@
   "did_you_know": "Wielu strzelców zabiera zapasowe skarpetki i koszulkę: po mokrej trasie suche przebranie może naprawdę dodać energii na ostatnie serie.",
   "quiz": {
     "gear-clothing-and-shoes-q1": {
-      "q": "Jakie szorty dopuszcza kodeks ubioru FITASC?",
+      "q": "Jakie szorty dopuszcza {{term:dress-code|kodeks ubioru}} FITASC?",
       "options": {
         "a": "Dowolne szorty, aby były ciemne",
         "b": "Długie, kończące się nie wyżej niż 5 cm nad kolanem",
@@ -83,14 +83,14 @@
         "c": "Czy kolba nie zahacza podczas składania się do strzału",
         "d": "Czy jest w kolorach klubu"
       },
-      "explain": "Obszerne ubranie może zepsuć złożenie się do strzału, a z nim strzelanie."
+      "explain": "Obszerne ubranie może zepsuć {{term:gun-mount|złożenie się do strzału}}, a z nim strzelanie."
     },
     "women-clothing-community-start-q2": {
       "q": "Czemu warto związać długie włosy przed strzelaniem?",
       "options": {
-        "a": "Tak każe kodeks ubioru dla wszystkich",
-        "b": "Dzięki temu nauszniki są cieplejsze",
-        "c": "Mogą trafić między policzek i kolbę",
+        "a": "Tak każe {{term:dress-code|kodeks ubioru}} dla wszystkich",
+        "b": "Dzięki temu {{term:hearing-protection|nauszniki}} są cieplejsze",
+        "c": "Mogą trafić między policzek i {{term:stock|kolbę}}",
         "d": "Dzięki temu lepiej widać rzutki"
       },
       "explain": "Włosy między policzkiem i kolbą zmieniają, jak twarz leży na grzbiecie kolby."

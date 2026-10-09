@@ -29,15 +29,19 @@
     "faults-reading-the-coach-q2": "9c01d7d6",
     "faults-reading-the-coach-q3": "dc2cf3ee"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Den Trainer lesen: kurze Kommandos und Zeichen",
-  "summary": "Am Stand spricht ein Trainer in Fragmenten und mit Gesten. Was die kurzen Worte und gängigen Handzeichen bedeuten und wie man die Fragen des Trainers beantwortet.",
+  "summary": "Am Stand spricht ein {{term:coach|Trainer}} in Fragmenten und mit Gesten. Was die kurzen Worte und gängigen Handzeichen bedeuten und wie man die Fragen des Trainers beantwortet.",
   "body": {
     "faults-reading-the-coach-p1": "Am Stand spricht ein {{term:coach|Trainer}} in Fragmenten: „Behind.“ „Head.“ „More.“ „Again.“ Zwischen den Scheiben bleiben nur wenige Sekunden, die Kürze ist also Absicht. Jedes Wort weist auf eine einzige Sache hin, die man ändern oder beibehalten soll.",
-    "faults-reading-the-coach-words": "Viele dieser Wörter sagen, wohin der Schuss ging: {{term:miss-behind|behind}} (dahinter), {{term:miss-in-front|in front}} (davor), {{term:miss-over|over}} (darüber) oder {{term:miss-under|under}} (darunter) der Scheibe. Andere benennen, was zu korrigieren ist: „head“ heißt, die Wange auf dem Schaft zu halten, und „feet“ heißt, den Stand zu prüfen.",
+    "faults-reading-the-coach-words": "Viele dieser Wörter sagen, wohin der Schuss ging: {{term:miss-behind|behind}}, {{term:miss-in-front|in front}}, {{term:miss-over|over}} oder {{term:miss-under|under}} der Scheibe. Andere benennen, was zu korrigieren ist: „head“ heißt, die Wange auf dem {{term:stock|Schaft}} zu halten, und „feet“ heißt, den Stand zu prüfen.",
     "faults-reading-the-coach-p2": "Viele Trainer fragen, bevor sie etwas sagen: „Where did it go?“ oder „What did you see?“ Das ist eine Lehrfrage, kein Test. Antworten Sie mit dem, was Sie wirklich gesehen haben, auch wenn Sie nicht sicher sind: „Ich glaube, dahinter“ oder „Ich habe sie am Ende verloren“. Der Trainer braucht Ihr Bild (das, was Sie beim Schuss gesehen haben), um die Ursache zu finden.",
     "faults-reading-the-coach-p3": "{{term:hand-signal|Handzeichen}} sagen sehr viel. Hände, die sich auseinander oder zusammen bewegen, bedeuten meist mehr oder weniger {{term:lead|Vorhalt}}. Eine flache, sich senkende Hand heißt „tiefer“, und ein Tippen auf die Wange heißt „Kopf runter auf den Schaft“. Ein Finger kann die Linie der Scheibe nachzeichnen, und ein Daumen nach oben heißt „genau so noch mal“. Die Zeichen sind von Trainer zu Trainer unterschiedlich, sprechen Sie sie also vor der Einheit ab.",
-    "faults-reading-the-coach-p4": "Manche Wörter sind eher Rhythmus und Ermutigung als Technik: „commit“, „trust it“, „smooth“, „good, same again“. „Bad luck“ nach einem Fehlschuss ist Freundlichkeit, kein Kommentar zum Schiedsrichter. Mehr solcher Redewendungen: {{lesson:stand-talk-mental-game}}.",
+    "faults-reading-the-coach-p4": "Manche Wörter sind eher Rhythmus und Ermutigung als Technik: „commit“, „trust it“, „smooth“, „good, same again“. „Bad luck“ nach einem Fehlschuss ist Freundlichkeit, kein Kommentar zum {{term:referee|Schiedsrichter}}. Mehr solcher Redewendungen: {{lesson:stand-talk-mental-game}}.",
     "faults-reading-the-coach-p5": "Im Wettkampf ist {{term:coaching|Coaching}} verboten: Der {{term:referee|Schiedsrichter}} gibt dem Teilnehmer eine {{term:yellow-card|Gelbe Karte}} und weist den Trainer aus dem Schießbereich ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Diese ganze Trainersprache gehört also ins Training. Die Regeln sagen nicht, ob ein Dolmetscher den Rat eines Trainers während eines Wettkampfs weitergeben darf. Die sichere Praxis: im Wettkampf nur für den Schiedsrichter, die {{term:jury|Jury}} und den Veranstalter dolmetschen."
   },
   "note": {
@@ -86,7 +90,7 @@
   },
   "quiz": {
     "faults-reading-the-coach-q1": {
-      "q": "Der Trainer fragt den Schützen „Where did it go?“. Was sollte der Dolmetscher tun?",
+      "q": "Der {{term:coach|Trainer}} fragt den Schützen „Where did it go?“. Was sollte der Dolmetscher tun?",
       "options": {
         "a": "Für den Schützen antworten",
         "b": "Die Frage übersetzen, dann die Antwort des Schützen genau",
@@ -96,7 +100,7 @@
       "explain": "Der Trainer möchte hören, was der Schütze tatsächlich gesehen hat, die Antwort muss ihn also unverändert erreichen."
     },
     "faults-reading-the-coach-q2": {
-      "q": "Während eines Wettkampfs bittet Sie der Trainer des Schützen, Folgendes weiterzugeben: „Give the next one more lead.“ Was ist die sichere Praxis?",
+      "q": "Während eines Wettkampfs bittet Sie der {{term:coach|Trainer}} des Schützen, Folgendes weiterzugeben: „Give the next one more lead.“ Was ist die sichere Praxis?",
       "options": {
         "a": "Es leise im Flüsterton weitergeben",
         "b": "Es weitergeben, aber nur zwischen den Ständen",
@@ -106,7 +110,7 @@
       "explain": "Coaching im Wettkampf ist verboten, und die Regeln sagen nicht, ob ein Dolmetscher es weitergeben darf; sich heraushalten schützt den Schützen."
     },
     "faults-reading-the-coach-q3": {
-      "q": "Was sehen die Regeln vor, wenn der Schiedsrichter entscheidet, dass einem Teilnehmer gecoacht wird?",
+      "q": "Was sehen die Regeln vor, wenn der {{term:referee|Schiedsrichter}} entscheidet, dass einem Teilnehmer gecoacht wird?",
       "options": {
         "a": "Gelbe Karte; der Trainer wird fortgeschickt",
         "b": "Nichts: Coaching ist erlaubt",

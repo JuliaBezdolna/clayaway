@@ -33,13 +33,13 @@
   "origin": "interpreter-academy"
  },
  "title": "Was das Wurfscheibenschießen ist",
- "summary": "Beim Wurfscheibenschießen zerschießt man fliegende Wurfscheiben mit einer Flinte. Hier erfahren Sie, wie das funktioniert und was {{tm:sporting}} und {{tm:compak}} sind.",
+ "summary": "Beim Wurfscheibenschießen zerschießt man fliegende {{term:target|Wurfscheiben|pl}} mit einer {{term:shotgun|Flinte}}. Hier erfahren Sie, wie das funktioniert und was {{tm:sporting}} und {{tm:compak}} sind.",
  "body": {
-  "sport-what-is-clay-p1": "Das Wurfscheibenschießen ist ein Sport, bei dem ein Schütze kleine fliegende Scheiben mit einer Flinte zerschießt. Die Scheibe heißt Wurfscheibe oder kurz Scheibe (englisch target oder clay); Schützen nennen sie oft Taube (englisch bird), aber niemand schießt auf lebende Tiere. Die FITASC-Regeln sagen klar, dass das Schießen auf lebende Tiere nicht erlaubt ist, und Sicherheit und Rücksicht auf die Umwelt stehen an erster Stelle.",
-  "sport-what-is-clay-p2": "Eine Maschine, die Wurfmaschine (trap) genannt wird, wirft jede Scheibe. Ihr Weg durch die Luft (oder über den Boden) ist die Flugbahn. Die Waffe ist eine Flinte mit glatten Läufen (glattläufig: innen keine Züge wie bei einer Büchse). Sie verschießt eine Patrone voller kleiner Kugeln, des Schrots, die sich zu einer kleinen Wolke ausbreiten. Deshalb richtet der Schütze die Flinte dorthin, wohin die Scheibe fliegt, und nicht dorthin, wo sie sich gerade befindet.",
+  "sport-what-is-clay-p1": "Das Wurfscheibenschießen ist ein Sport, bei dem ein Schütze kleine fliegende Scheiben mit einer {{term:shotgun|Flinte}} zerschießt. Die Scheibe heißt {{term:target|Wurfscheibe}} oder kurz Scheibe (englisch auch clay); Schützen nennen sie oft Taube (englisch bird), aber niemand schießt auf lebende Tiere. Die FITASC-Regeln sagen klar, dass das Schießen auf lebende Tiere nicht erlaubt ist, und Sicherheit und Rücksicht auf die Umwelt stehen an erster Stelle.",
+  "sport-what-is-clay-p2": "Eine Maschine, die {{term:trap|Wurfmaschine}} genannt wird, wirft jede Scheibe. Ihr Weg durch die Luft (oder über den Boden) ist die {{term:trajectory|Flugbahn}}. Die Waffe ist eine Flinte mit glatten Läufen (glattläufig: innen keine Züge wie bei einer Büchse). Sie verschießt eine {{term:cartridge|Patrone}} voller kleiner Kugeln, des Schrots, die sich zu einer kleinen Wolke ausbreiten. Deshalb richtet der Schütze die Flinte dorthin, wohin die Scheibe fliegt, und nicht dorthin, wo sie sich gerade befindet.",
   "intro-what-is-clay-shooting-p2": "Die Wurfmaschine versetzt die Scheibe in Drehung und wirft sie mit fester Geschwindigkeit und festem Winkel. Die Flugbahnen sind sehr unterschiedlich: Eine Scheibe kann auf Sie zukommen, von Ihnen weg fliegen, vor Ihnen queren, hoch fliegen oder über den Boden rollen.",
   "sport-what-is-clay-p3": "Dieser Kurs behandelt zwei Disziplinen (zwei Arten des Wurfscheibenschießens) des internationalen Verbands FITASC. Parcours de Chasse – Sporting™ (kurz Sporting™) ahmt die Jagd nach. Seine Wurfmaschinen sind oft versteckt oder durch Büsche und Bäume verdeckt, und die Scheiben fliegen wie ein Rebhuhn, eine Ente oder ein Fasan, oder rollen wie ein Hase. {{tm:compak}} ist die kompakte Version: dieselbe Vielfalt an Scheiben, aber auf einem kleinen Feld mit fünf Standplätzen in einer Reihe und sechs Wurfmaschinen.",
-  "sport-what-is-clay-p5": "Ein Treffer ist sofort sichtbar: Die Scheibe zerbricht oder zumindest fliegt ein sichtbares Teil ab. Diese Klarheit macht den Sport leicht anzusehen und für Sie vom ersten Tag an leicht zu verfolgen.",
+  "sport-what-is-clay-p5": "Ein Treffer ist sofort sichtbar: Die Scheibe zerbricht oder zumindest fliegt ein {{term:visible-piece|sichtbares Teil}} ab. Diese Klarheit macht den Sport leicht anzusehen und für Sie vom ersten Tag an leicht zu verfolgen.",
   "intro-what-is-clay-shooting-p5": "Dieser Sport ist aus der Jagd entstanden. Früher übten Schützen an lebenden Vögeln; ab dem späten 19. Jahrhundert begannen Wurfscheiben, sie zu ersetzen. Heute ist das Wurfscheibenschießen eine eigenständige Sportart mit Regeln, Schiedsrichtern und internationalen Wettkämpfen. Mehr zur Geschichte: {{lesson:history-live-birds-to-clays}}.",
   "intro-what-is-clay-shooting-p6": "Sie können einfach zum Vergnügen schießen oder an Wettkämpfen teilnehmen. Viele Menschen kommen auf einen Schießstand, um mit Freunden einen Tag im Freien zu verbringen; manche nehmen später an Vereinswettkämpfen und Meisterschaften teil. Die Disziplinen werden in {{lesson:intro-disciplines}} verglichen."
  },
@@ -74,17 +74,17 @@
     "c": "Eine vogelförmige Papierscheibe auf einer Tafel",
     "d": "Eine Drohne"
    },
-   "explain": "„Bird“ ist der Jargon der Schützen für eine Wurfscheibe; die FITASC-Regeln verbieten das Schießen auf lebende Tiere."
+   "explain": "„Bird“ ist der Jargon der Schützen für eine {{term:target|Wurfscheibe}}; die FITASC-Regeln verbieten das Schießen auf lebende Tiere."
   },
   "sport-what-is-clay-q2": {
-   "q": "Was verschießt eine Flinte?",
+   "q": "Was verschießt eine {{term:shotgun|Flinte}}?",
    "options": {
     "a": "Ein einzelnes Geschoss",
     "b": "Einen kleinen pfeilartigen Bolzen",
     "c": "Eine Wolke kleiner Kugeln (Schrot)",
     "d": "Eine mit Farbe gefüllte Kugel"
    },
-   "explain": "Der Schrot verlässt die Mündung als kleine Wolke von Kugeln, also zielt der Schütze vor die fliegende Scheibe."
+   "explain": "Der Schrot verlässt die {{term:muzzle|Mündung}} als kleine Wolke von Kugeln, also zielt der Schütze vor die fliegende {{term:target|Scheibe}}."
   },
   "sport-what-is-clay-q3": {
    "q": "Welche Aussage über {{tm:compak}} ist richtig?",
@@ -106,16 +106,16 @@
    "explain": "Man schießt nur auf künstliche Scheiben, die eine Wurfmaschine wirft. Das Schießen auf lebende Tiere ist verboten."
   },
   "intro-what-is-clay-shooting-q2": {
-   "q": "Was ist eine Wurfmaschine (trap)?",
+   "q": "Was ist eine {{term:trap|Wurfmaschine}}?",
    "options": {
     "a": "Eine Flinte mit kurzem Lauf",
     "b": "Der Schiedsrichter, der den Stand leitet",
     "c": "Eine Maschine, die Scheiben wirft"
    },
-   "explain": "Eine Wurfmaschine (trap) ist die Maschine, die eine Scheibe in die Luft wirft oder über den Boden rollt."
+   "explain": "Eine {{term:trap|Wurfmaschine}} ist die Maschine, die eine {{term:target|Scheibe}} in die Luft wirft oder über den Boden rollt."
   },
   "intro-what-is-clay-shooting-q3": {
-   "q": "Warum richtet ein Schütze die Flinte vor eine sich bewegende Scheibe?",
+   "q": "Warum richtet ein Schütze die {{term:shotgun|Flinte}} vor eine sich bewegende {{term:target|Scheibe}}?",
    "options": {
     "a": "Der Schrot braucht Zeit, um die Scheibe zu erreichen",
     "b": "Der Schiedsrichter verlangt das von allen Schützen",

@@ -28,12 +28,12 @@
   "origin": null
  },
  "title": "Was man zuerst kauft und was später",
- "summary": "Eine sinnvolle Kaufreihenfolge für Einsteiger bei {{tm:sporting}} und {{tm:compak}}: zuerst Schutz und Komfort, die Flinte erst nach Lektionen und einer Anpassung.",
+ "summary": "Eine sinnvolle Kaufreihenfolge für Einsteiger bei {{tm:sporting}} und {{tm:compak}}: zuerst Schutz und Komfort, die {{term:shotgun|Flinte}} erst nach Lektionen und einer Anpassung.",
  "body": {
-  "gear-what-to-buy-first-p1": "Ein Einsteiger muss nicht alles auf einmal kaufen. Bei den ersten Lektionen verleiht der Schießstand oder der Trainer meist Flinte, Brille, Stöpsel und Kapselgehörschutz. Finden Sie zuerst heraus, ob Ihnen das Schießen Freude macht, und kaufen Sie Ausrüstung dann Schritt für Schritt.",
+  "gear-what-to-buy-first-p1": "Ein Einsteiger muss nicht alles auf einmal kaufen. Bei den ersten Lektionen verleiht der Schießstand oder der {{term:coach|Trainer}} meist {{term:shotgun|Flinte}}, Brille, Stöpsel und {{term:hearing-protection|Kapselgehörschutz}}. Finden Sie zuerst heraus, ob Ihnen das Schießen Freude macht, und kaufen Sie Ausrüstung dann Schritt für Schritt.",
   "gear-what-to-buy-first-p2": "Zuerst Ihr eigener Augen- und Gehörschutz. Eine gut sitzende Brille und bequeme Stöpsel oder Kapselgehörschutz sind sowohl eine Frage der Hygiene als auch der Sicherheit. Zum Einstieg reichen eine schlagfeste {{term:safety-glasses|Schießbrille}} mit Wechselglas und {{term:passive-ear-muffs|passiver Kapselgehörschutz}} oder gute {{term:earplugs|Ohrstöpsel}}.",
-  "gear-what-to-buy-first-p3": "Zweitens bequeme geschlossene Schuhe und Kleidung in Schichten, die den Anschlag frei zulassen. Das meiste davon haben Sie wahrscheinlich schon zu Hause.",
-  "gear-what-to-buy-first-p4": "Drittens eine {{term:shooting-vest|Weste}}, sobald Sie regelmäßig schießen. Wählen Sie für {{tm:sporting}} eine Weste mit {{term:jacket-line|Westenmarkierung}}: einem kontrastierenden Streifen {{fact:rules.sporting-jacket-line}} und parallel dazu. Bevor Sie die Scheibe abrufen und bis sie erscheint, muss die Oberseite des Schafts unter dieser Linie bleiben, und der Schiedsrichter prüft das. Dieselbe Weste funktioniert bei {{tm:compak}}, wo keine Linie nötig ist.",
+  "gear-what-to-buy-first-p3": "Zweitens bequeme geschlossene Schuhe und Kleidung in Schichten, die den {{term:gun-mount|Anschlag}} frei zulassen. Das meiste davon haben Sie wahrscheinlich schon zu Hause.",
+  "gear-what-to-buy-first-p4": "Drittens eine {{term:shooting-vest|Weste}}, sobald Sie regelmäßig schießen. Wählen Sie für {{tm:sporting}} eine Weste mit {{term:jacket-line|Westenmarkierung}}: einem kontrastierenden Streifen {{fact:rules.sporting-jacket-line}} und parallel dazu. Bevor Sie die Scheibe abrufen und bis sie erscheint, muss die Oberseite des {{term:stock|Schafts}} unter dieser Linie bleiben, und der Schiedsrichter prüft das. Dieselbe Weste funktioniert bei {{tm:compak}}, wo keine Linie nötig ist.",
   "gear-what-to-buy-first-p5": "Später: die Flinte, eine {{term:cartridge-bag|Patronentasche}}, ein {{term:hard-case|Waffenkoffer}}, {{term:electronic-ear-muffs|elektronischer Gehörschutz}} und zusätzliche Gläser. Kaufen Sie keine Flinte vor ein paar Lektionen: Der Trainer hilft Ihnen zu sehen, welches Modell und welche Maße zu Ihnen passen, und schlägt eine {{term:gun-fit|Schaftanpassung}} vor. Mehr: {{lesson:gun-first-gun}}.",
   "gear-what-to-buy-first-p7": "Kauf, Lagerung und Transport einer Flinte unterliegen dem Gesetz Ihres Landes, erkundigen Sie sich also vorab über Lizenzen.",
   "gear-what-to-buy-first-p6": "Jagen Sie nicht teuren Gegenständen nach: Teure Ausrüstung ersetzt keine Lektionen bei einem Trainer. Geben Sie Geld für Training und Patronen aus, und verbessern Sie Ihre Ausrüstung, sobald Sie genau wissen, was Sie brauchen."
@@ -52,29 +52,29 @@
   "gear-what-to-buy-first-q1": {
    "q": "Was sollte ein Einsteiger zuerst kaufen?",
    "options": {
-    "a": "Eine teure eigene Flinte",
-    "b": "Den eigenen Augen- und Gehörschutz",
+    "a": "Eine teure eigene {{term:shotgun|Flinte}}",
+    "b": "Den eigenen Augen- und {{term:hearing-protection|Gehörschutz}}",
     "c": "Einen vollständigen Satz farbiger Gläser",
-    "d": "Eine große Patronentasche"
+    "d": "Eine große {{term:cartridge-bag|Patronentasche}}"
    },
    "explain": "Schutz wird vom ersten Schuss an gebraucht, und der eigene ist bequemer und hygienischer."
   },
   "gear-what-to-buy-first-q2": {
-   "q": "Wann ist es sinnvoll, eine Flinte zu kaufen?",
+   "q": "Wann ist es sinnvoll, eine {{term:shotgun|Flinte}} zu kaufen?",
    "options": {
     "a": "Nach einigen Lektionen und einer Anpassung",
     "b": "Vor der allerersten Lektion",
     "c": "Am ersten Tag am Schießstand",
     "d": "Immer, wenn ein Geschäft eine gute Aktion hat"
    },
-   "explain": "Der Trainer hilft bei der Wahl von Modell und Maßen, und das Gesetz sagt Ihnen, welche Lizenzen Sie brauchen."
+   "explain": "Der {{term:coach|Trainer}} hilft bei der Wahl von Modell und Maßen, und das Gesetz sagt Ihnen, welche Lizenzen Sie brauchen."
   },
   "gear-what-to-buy-first-q3": {
    "q": "Welche Weste funktioniert für beide Disziplinen?",
    "options": {
     "a": "Eine Weste ganz ohne Taschen",
     "b": "Ein dicker Winterpullover anstelle davon",
-    "c": "Eine Weste mit der 25-cm-Westenmarkierung",
+    "c": "Eine Weste mit der Westenmarkierung auf 25 cm",
     "d": "Jede Weste, solange sie hell ist"
    },
    "explain": "Die Linie wird bei {{tm:sporting}} benötigt und schadet bei {{tm:compak}} nicht."

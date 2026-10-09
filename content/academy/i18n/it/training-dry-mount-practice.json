@@ -24,18 +24,22 @@
     "training-dry-mount-practice-q2": "19a06726",
     "training-dry-mount-practice-q3": "d749fa2e"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Esercizio a secco dell'imbracciata",
-  "summary": "Come e dove potete esercitare l'imbracciata senza sparare: solo dove la legge lo permette, con un fucile scarico che avete controllato e nel modo che vi ha mostrato il vostro istruttore.",
+  "summary": "Come e dove potete esercitare la {{term:gun-mount|imbracciata}} senza sparare: solo dove la legge lo permette, con un fucile scarico che avete controllato e nel modo che vi ha mostrato il vostro {{term:coach|istruttore}}.",
   "body": {
-    "training-dry-mount-practice-p1": "L'{{term:gun-mount|imbracciata}} è il movimento che porta il fucile alla guancia e alla spalla. Per farla uguale ogni volta, la ripetete molte volte. Molti istruttori consigliano l'{{term:dry-mounting|imbracciata in bianco}}, esercitare l'imbracciata senza sparare, tra una sessione e l'altra. Va fatta in sicurezza e legalmente.",
+    "training-dry-mount-practice-p1": "La {{term:gun-mount|imbracciata}} è il movimento che porta il fucile alla guancia e alla spalla. Per farla uguale ogni volta, la ripetete molte volte. Molti {{term:coach|istruttori}} consigliano la {{term:dry-mounting|imbracciata in bianco}}, esercitare l'imbracciata senza sparare, tra una sessione e l'altra. Va fatta in sicurezza e legalmente.",
     "training-dry-mount-practice-p2": "Prima la legge. Le regole sulla conservazione e il maneggio delle armi a casa variano molto da paese a paese. In alcuni posti il fucile deve restare chiuso in una cassaforte a meno che non ci sia un motivo per tirarlo fuori; altrove valgono altri limiti. Controllate cosa permette la legge del vostro paese. In caso di dubbio, non fatelo, e chiedete al vostro istruttore altri esercizi.",
     "training-dry-mount-practice-p3": "Sicurezza senza eccezioni. Il fucile deve essere scarico e controllato. Apritelo e guardate nelle {{term:chamber|camere di scoppio}}, le aperture in fondo alle canne dove si trovano le cartucce. Su un {{term:semi-automatic|semiautomatico}}, controllate anche il caricatore. Non tenete cartucce vere nella stanza dove vi esercitate. La {{term:muzzle|volata}}, l'estremità anteriore delle canne, punta sempre in direzione sicura, anche quando il fucile è vuoto.",
-    "training-dry-mount-practice-snap-caps": "Gli snap cap sono cartucce fittizie. Se premete il grilletto su un fucile vuoto, proteggono i percussori: i piccoli perni dentro il fucile che colpiscono la cartuccia per farla sparare. Scegliete snap cap che si distinguano chiaramente dalle cartucce vere, e usateli solo come consiglia il vostro istruttore o un armaiolo.",
+    "training-dry-mount-practice-snap-caps": "Gli snap cap sono cartucce fittizie. Se premete il {{term:trigger|grilletto}} su un fucile vuoto, proteggono i percussori: i piccoli perni dentro il fucile che colpiscono la cartuccia per farla sparare. Scegliete snap cap che si distinguano chiaramente dalle cartucce vere, e usateli solo come consiglia il vostro istruttore o un {{term:gunsmith|armaiolo}}.",
     "training-dry-mount-practice-p4": "Come esercitarsi. Fate l'esercizio esattamente come vi ha mostrato il vostro istruttore, non come lo avete visto in un video. Spesso sono imbracciate lente davanti a uno specchio, per controllare che l'occhio sia in linea con la {{term:rib|bindella}}, la striscia di mira lungo le canne. Un altro esercizio è imbracciare il fucile e muoverlo lentamente lungo la linea dove una parete incontra il soffitto, mantenendo le canne su quella linea. Restate lenti e corretti: la velocità di solito arriva da sola più avanti.",
     "training-dry-mount-practice-p5": {
-      "sporting": "Durante una gara, la simulazione di tiro non è permessa in nessun punto del campo. Se imbracciate prima della chiamata e seguite con la canna un piattello immaginario, l'arbitro dà un avvertimento; le ripetizioni sono punite ({{rule:sporting:ch8-mock-shooting}}).",
-      "compak": "Nel {{tm:compak}} le regole la chiamano simulazione di tiro e la vietano solo in alcuni casi ({{rule:compak:ch24-dry-mounting}}). Durante una gara non potete imbracciare e seguire con la canna fuori dalle postazioni di tiro, né mentre tira un altro membro della vostra {{term:squad|batteria}}."
+      "sporting": "Durante una gara, la {{term:mock-shooting|simulazione di tiro}} non è permessa in nessun punto del campo. Se imbracciate prima della chiamata e seguite con la canna un piattello immaginario, l'arbitro dà un avvertimento; le ripetizioni sono punite ({{rule:sporting:ch8-mock-shooting}}).",
+      "compak": "Nel {{tm:compak}} le regole la chiamano {{term:mock-shooting|simulazione di tiro}} e la vietano solo in alcuni casi ({{rule:compak:ch24-dry-mounting}}). Durante una gara non potete imbracciare e seguire con la canna fuori dalle postazioni di tiro, né mentre tira un altro membro della vostra {{term:squad|batteria}}."
     },
     "training-dry-mount-practice-at-event": "Quindi nel {{tm:sporting}}, imbracciate il fucile solo per tirare, al vostro turno e sulla vostra pedana. Nel {{tm:compak}} la regola è meno rigida, ma gli istruttori spesso danno lo stesso consiglio: lasciate l'esercizio a secco a casa e imbracciate il fucile solo per tirare, sulla vostra postazione.",
     "training-dry-mount-practice-p6": "Dopo l'esercizio controllate di nuovo che il fucile sia scarico, e riponetelo come richiede la legge. L'esercizio a secco si aggiunge alle vostre sessioni con un istruttore; non le sostituisce."
@@ -49,24 +53,36 @@
     "training-dry-mount-practice-kp2": "Il fucile scarico e controllato, nessuna cartuccia vera nella stanza",
     "training-dry-mount-practice-kp3": "Le canne puntano sempre in direzione sicura",
     "training-dry-mount-practice-kp4": "Fate l'esercizio come vi ha mostrato il vostro istruttore, lentamente e correttamente",
-    "training-dry-mount-practice-kp5": "In gara, imbracciate solo per tirare, al vostro turno ({{tm:sporting}}: nessuna simulazione di tiro, in nessun caso)"
+    "training-dry-mount-practice-kp5": "In gara, imbracciate solo per tirare, al vostro turno — {{tm:sporting}}: nessuna {{term:mock-shooting|simulazione di tiro}}, in nessun caso"
   },
   "did_you_know": "Molti istruttori notano che pochi minuti di imbracciate lente e corrette danno più risultati di un'ora di imbracciate veloci: il corpo impara la qualità del movimento che ripetete.",
   "quiz": {
     "training-dry-mount-practice-q1": {
-      "q": "Cosa dovete fare prima di esercitare l'imbracciata?",
-      "options": { "a": "Caricare una cartuccia per renderlo più realistico", "b": "Niente, purché il fucile sembri vuoto", "c": "Aprirlo e controllare che le camere siano vuote" },
+      "q": "Cosa dovete fare prima di esercitare la {{term:gun-mount|imbracciata}}?",
+      "options": {
+        "a": "Caricare una cartuccia per renderlo più realistico",
+        "b": "Niente, purché il fucile sembri vuoto",
+        "c": "Aprirlo e controllare che le camere siano vuote"
+      },
       "explain": "Il fucile va prima scaricato e controllato, e nella stanza non si tengono cartucce vere."
     },
     "training-dry-mount-practice-q2": {
-      "q": "Cosa decide se potete esercitare l'imbracciata a casa?",
-      "options": { "a": "La legge del vostro paese sulla conservazione e il maneggio delle armi", "b": "Un consiglio da un video trovato online", "c": "Se un amico lo fa anche lui a casa" },
+      "q": "Cosa decide se potete esercitare la {{term:gun-mount|imbracciata}} a casa?",
+      "options": {
+        "a": "La legge del vostro paese sulla conservazione e il maneggio delle armi",
+        "b": "Un consiglio da un video trovato online",
+        "c": "Se un amico lo fa anche lui a casa"
+      },
       "explain": "Le regole variano da paese a paese; in caso di dubbio, non fatelo."
     },
     "training-dry-mount-practice-q3": {
       "q": "Nel {{tm:sporting}}, un tiratore imbraccia prima della chiamata e segue con la canna un piattello immaginario. Cosa succede?",
-      "options": { "a": "Niente, prima della chiamata è permesso", "b": "Un avvertimento, e le ripetizioni sono punite", "c": "Un piattello extra da tirare" },
-      "explain": "Questa è simulazione di tiro, che le regole {{tm:sporting}} non permettono in nessun punto del campo durante una gara."
+      "options": {
+        "a": "Niente, prima della chiamata è permesso",
+        "b": "Un avvertimento, e le ripetizioni sono punite",
+        "c": "Un piattello extra da tirare"
+      },
+      "explain": "Questa è {{term:mock-shooting|simulazione di tiro}}, che le regole {{tm:sporting}} non permettono in nessun punto del campo durante una gara."
     }
   }
 }

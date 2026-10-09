@@ -32,9 +32,9 @@
   "title": "Kde stát a kdy mluvit",
   "summary": "Kde stojí tlumočník na tréninku a na soutěži, jaký způsob tlumočení se hodí pro kterou chvíli a proč mluvíte jen tehdy, když je zbraň otevřená.",
   "body": {
-    "interpreter-position-p1": "Na tréninku stůjte přímo za střelcem, vedle {{term:coach|trenéra}}, za {{term:shooting-stand|stanovištěm}} nebo {{term:cage|klecí}} a mimo jakoukoli linii hlavní. Odtud vidíte totéž co trenér – terč i ústí hlavní zároveň – a trenér s vámi může tiše mluvit. Vedle střelce jste blízko švihající zbrani a vylétajícím nábojnicím a před stanoviště nesmí vůbec nikdo.",
-    "interpreter-position-p2": "Zvolte způsob podle chvíle. {{term:consecutive-interpreting|Konsekutivní tlumočení}} (trenér mluví, udělá pauzu, mluvíte vy) se hodí na instruktáž o bezpečnosti, přechod mezi stanovišti a rozbor. Šeptané tlumočení, {{term:chuchotage|chuchotage}}, nechá trenéra mluvit dál, zatímco vy šeptáte střelci do ucha zezadu. To funguje s elektronickou {{term:hearing-protection|ochranou sluchu}}; s pasivními chrániči počkejte, až bude zbraň otevřená a střelec vás uslyší. Šeptání unavuje, proto oba způsoby střídejte. Domluvte si znamení „pauza, překládám“, třeba zvednutou dlaň.",
-    "interpreter-position-p3": "Nejdůležitější je načasování. Střelcův {{term:pre-shot-routine|rituál}} končí výstřelem a v okamžiku, kdy je zbraň zavřená, už dávno probíhá. Mluvte proto jen tehdy, když je zbraň otevřená: mezi terči, mezi dvojstřely, po stanovišti. Mezi dvojstřely opakujte krátké pokyny trenéra ve svém jazyce, stejně krátce, třeba „víc dopředu“, „hlavu dolů“ nebo „stejně“. Dlouhá vysvětlení nechte na později. Na tréninku mnoho trenérů drží soutěžní rytmus. Na soutěži má střelec v {{tm:sporting}} {{fact:rules.sporting-time-between-targets}}. V {{tm:compak}} má střelec {{fact:rules.compak-time-to-call}}. Mluvte stručně, aby si střelec mohl tento rytmus trénovat.",
+    "interpreter-position-p1": "Na tréninku stůjte přímo za střelcem, vedle {{term:coach|trenéra}}, za {{term:shooting-stand|stanovištěm}} nebo {{term:cage|klecí}} a mimo jakoukoli linii hlavní. Odtud vidíte totéž co trenér – terč i {{term:muzzle|ústí hlavní}} zároveň – a trenér s vámi může tiše mluvit. Vedle střelce jste blízko švihající zbrani a vylétajícím nábojnicím a před stanoviště nesmí vůbec nikdo.",
+    "interpreter-position-p2": "Zvolte způsob podle chvíle. {{term:consecutive-interpreting|Konsekutivní tlumočení}}, kdy trenér mluví, udělá pauzu a pak mluvíte vy, se hodí na instruktáž o bezpečnosti, přechod mezi stanovišti a rozbor. Šeptané tlumočení, {{term:chuchotage|chuchotage}}, nechá trenéra mluvit dál, zatímco vy šeptáte střelci do ucha zezadu. To funguje s {{term:electronic-ear-muffs|elektronickou ochranou sluchu}}; s pasivními chrániči počkejte, až bude zbraň otevřená a střelec vás uslyší. Šeptání unavuje, proto oba způsoby střídejte. Domluvte si znamení „pauza, překládám“, třeba zvednutou dlaň.",
+    "interpreter-position-p3": "Nejdůležitější je načasování. Střelcův {{term:pre-shot-routine|rituál}} končí výstřelem a v okamžiku, kdy je zbraň zavřená, už dávno probíhá. Mluvte proto jen tehdy, když je zbraň otevřená: mezi terči, mezi {{term:double|dvojstřely}}, po stanovišti. Mezi dvojstřely opakujte krátké pokyny trenéra ve svém jazyce, stejně krátce, třeba „víc dopředu“, „hlavu dolů“ nebo „stejně“. Dlouhá vysvětlení nechte na později. Na tréninku mnoho trenérů drží soutěžní rytmus. Na soutěži má střelec v {{tm:sporting}} {{fact:rules.sporting-time-between-targets}}. V {{tm:compak}} má střelec {{fact:rules.compak-time-to-call}}. Mluvte stručně, aby si střelec mohl tento rytmus trénovat.",
     "interpreter-position-signals": "Na začátku se naučte {{term:hand-signal|signály rukou}} trenéra a jednou je přeložte svým hostům. Pak vás budou potřebovat míň – a to je dobré znamení.",
     "interpreter-position-ph5": "Nejste si jistí, co trenér řekl? Zeptejte se zpět na dvě možnosti, které jste zaslechli: „Sorry — did you say 'under it' or 'on it'?“ Je to rychlejší než „Could you repeat that?“",
     "interpreter-position-p4": "Na soutěži čekejte tam, kde čeká {{term:squad|skupina}}, na {{term:waiting-position|čekacím místě}} blízko stanoviště, ale tak, abyste střelci nepřekáželi. Pokud rozhodčí vidí, že byl střelec zjevně vyrušen, vyhlásí se {{term:no-bird|nový terč}} a hodí se znovu. Nikdo nechce být toho příčinou, proto dodržujte {{term:quiet-on-stand|klid na stanovišti}}, dokud někdo střílí."
@@ -46,7 +46,7 @@
       "say": "Stoupněte si hned za mě."
     },
     "interpreter-position-ph2": {
-      "meaning": "Přepněte na šeptané tlumočení (chuchotage) a tiše předejte pokyn; trenér se nezastaví. S pasivními chrániči počkejte, až bude zbraň otevřená.",
+      "meaning": "Přepněte na {{term:chuchotage|šeptané tlumočení}} a tiše předejte pokyn; trenér se nezastaví. S pasivními chrániči počkejte, až bude zbraň otevřená.",
       "say": "(pošeptejte) Hlavu na pažbu."
     },
     "interpreter-position-ph3": {
@@ -70,9 +70,9 @@
       "q": "Kde máte stát během tréninku na stanovišti {{tm:sporting}}?",
       "options": {
         "a": "Vedle střelce, abyste viděli jeho oči",
-        "b": "Za střelcem, vedle trenéra",
+        "b": "Za střelcem, vedle {{term:coach|trenéra}}",
         "c": "Před klecí, čelem k němu",
-        "d": "Vedle vrhačky, abyste viděli terč"
+        "d": "Vedle {{term:trap|vrhačky}}, abyste viděli terč"
       },
       "explain": "Zezadu, mimo linii hlavní, vidíte totéž co trenér a jste v bezpečí; vedle nebo vpředu je to nebezpečné."
     },
@@ -87,14 +87,14 @@
       "explain": "Chuchotage znamená šeptat překlad střelci do ucha, zatímco trenér mluví dál. Konsekutivní tlumočení je režim „pauza a mluvení“: trenér řekne větu, udělá pauzu a vy ji přeložíte."
     },
     "interpreter-position-q3": {
-      "q": "Kolik času má střelec v {{tm:compak}} na povel poté, co byl odstřelen terč předchozího stanoviště?",
+      "q": "Kolik času má střelec v {{tm:compak}} na povel poté, co byl odstřelen terč předchozího {{term:shooting-stand|stanoviště}}?",
       "options": {
         "a": "10 sekund",
         "b": "15 sekund",
         "c": "30 sekund",
         "d": "Bez omezení"
       },
-      "explain": "{{tm:compak}} dává na povel nejvýše 10 sekund; {{tm:sporting}} umožňuje nejvýše 15 sekund mezi jednotlivými terči nebo mezi dvojstřely."
+      "explain": "{{tm:compak}} dává na povel nejvýše 10 sekund; {{tm:sporting}} umožňuje nejvýše 15 sekund mezi jednotlivými terči nebo mezi {{term:double|dvojstřely}}."
     }
   }
 }

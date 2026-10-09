@@ -44,28 +44,28 @@
   "origin": "interpreter-academy"
  },
  "title": "Tenue vestimentaire et sécurité sur le poste",
- "summary": "Que porter aux compétitions de {{tm:sporting}} et de {{tm:compak}}, où mettre le dossard, comment porter et charger le fusil, et qui doit porter des protections auditives et oculaires.",
+ "summary": "Que porter aux compétitions de {{tm:sporting}} et de {{tm:compak}}, où mettre le {{term:competitor-number|dossard}}, comment porter et charger le fusil, et qui doit porter des {{term:hearing-protection|protections auditives|pl}} et oculaires.",
  "body": {
-  "culture-dress-code-p1": "Le tir aux plateaux est un sport public, et les règlements du {{tm:sporting}} et du {{tm:compak}} demandent aux tireurs de s'habiller proprement et de façon pratique. La {{term:dress-code|tenue vestimentaire}} a deux objectifs : la sécurité et le respect de la compétition.",
+  "culture-dress-code-p1": "Le tir aux plateaux est un sport public, et les règlements du {{tm:sporting}} et du {{tm:compak}} demandent aux tireurs de s'habiller proprement et de façon pratique. Le {{term:dress-code|tenue vestimentaire}} a deux objectifs : la sécurité et le respect de la compétition.",
   "gear-protection-clothes-p4": "Les règles vestimentaires sont presque les mêmes dans les deux disciplines. Les shorts doivent être longs : {{fact:rules.dress-shorts-length}}. Le haut doit avoir des manches, même courtes, et monter jusqu'au cou, avec un col ou une encolure ronde. Un gilet sur un torse nu n'est pas permis, et les sandales sont interdites pour la sécurité.",
   "rules-dress-and-safety-cmp1": {
    "sporting": "En compétition. Les sandales y sont interdites parce qu'elles ne sont pas sûres.",
    "compak": "Au poste, à l'entraînement comme en compétition : les sandales sont interdites dans les deux cas."
   },
-  "culture-dress-code-p4": "Le {{term:competitor-number|dossard}} se porte sur le dos, quelque part entre les épaules et la taille. Il doit être entièrement visible : ni plié ni coupé. Une infraction aux règles de tenue ou de dossard vaut d'abord un avertissement ; si elle n'est pas corrigée, le jury peut aller jusqu'à l'exclusion.",
+  "culture-dress-code-p4": "Le {{term:competitor-number|dossard}} se porte sur le dos, quelque part entre les épaules et la taille. Il doit être entièrement visible : ni plié ni coupé. Une infraction aux règles de tenue ou de dossard vaut d'abord un {{term:warning|avertissement}} ; si elle n'est pas corrigée, le jury peut aller jusqu'à l'{{term:expulsion|exclusion}}.",
   "gear-protection-clothes-p5": "Beaucoup de tireurs portent aussi une casquette contre le soleil et la pluie, des gants, et emportent un {{term:cartridge-bag|sac à cartouches}} pour la réserve du jour. C'est un usage, pas une règle.",
   "rules-dress-and-safety-cmp2": {
-   "sporting": "Protections auditives : pour tous ceux qui sont sur le parcours ou à proximité, spectateurs compris ; les enfants présents sur le stand doivent les porter partout en dehors du club-house. Lunettes : pour les tireurs, les arbitres et le personnel, et pour toute personne proche d'un poste.",
+   "sporting": "{{term:hearing-protection|Protections auditives}} : pour tous ceux qui sont sur le parcours ou à proximité, spectateurs compris ; les enfants présents sur le stand doivent les porter partout en dehors du club-house. Lunettes : pour les tireurs, les arbitres et le personnel, et pour toute personne proche d'un poste.",
    "compak": "Protections auditives : pour les tireurs, les arbitres, le personnel et les spectateurs proches de l'épreuve. Lunettes : pour les tireurs, les arbitres et le personnel."
   },
   "rules-dress-and-safety-p6": "Dans les deux disciplines, un tireur qui arrive sur le poste sans {{term:hearing-protection|protections auditives}} ni {{term:safety-glasses|lunettes de protection}} est considéré comme absent et ne peut pas tirer. Comment les choisir : voir la leçon {{lesson:safety-eye-ear-protection}}.",
-  "rules-dress-and-safety-p3": "Portez le fusil ouvert (pour que tout le monde voie qu'il ne peut pas tirer), même déchargé. Un {{term:semi-automatic|semi-automatique}} se porte culasse ouverte : la culasse est bloquée en arrière, pour qu'on voie que la chambre est vide. Sa bouche (l'extrémité avant du canon) pointe droit vers le haut ou vers le bas. Quand il n'est pas utilisé, le fusil se tient debout dans un {{term:gun-rack|râtelier}}. Personne ne touche le fusil d'un autre tireur sans permission. Les bretelles et sangles ne sont permises dans aucune des deux disciplines.",
+  "rules-dress-and-safety-p3": "Portez le fusil ouvert (pour que tout le monde voie qu'il ne peut pas tirer), même déchargé. Un {{term:semi-automatic|semi-automatique}} se porte culasse ouverte : la culasse est bloquée en arrière, pour qu'on voie que le {{term:chamber|chambre}} est vide. Sa bouche (l'extrémité avant du canon) pointe droit vers le haut ou vers le bas. Quand il n'est pas utilisé, le fusil se tient debout dans un {{term:gun-rack|râtelier}}. Personne ne touche le fusil d'un autre tireur sans permission. Les bretelles et sangles ne sont permises dans aucune des deux disciplines.",
   "rules-dress-and-safety-cmp3": {
    "sporting": "Seulement sur le poste, bouche vers le champ de tir, après que l'arbitre a dit que le tir peut commencer.",
-   "compak": "Seulement sur votre propre poste, une fois le départ autorisé. Gardez le fusil ouvert, bouche vers les plateaux et à l'intérieur du {{term:firing-angle-limiter|limiteur d'angle de tir}} (le cadre autour du poste qui empêche les canons de pivoter trop loin). Ne le fermez qu'à votre tour."
+   "compak": "Seulement sur votre propre poste, une fois le départ autorisé. Gardez le fusil ouvert, bouche vers les plateaux et à l'intérieur du {{term:firing-angle-limiter|limiteur d'angle de tir}} — le cadre autour du poste qui empêche les canons de pivoter trop loin. Ne le fermez qu'à votre tour."
   },
-  "rules-dress-and-safety-p4": "Dans les deux disciplines, vous pouvez charger {{fact:rules.semi-auto-cartridges}} dans un semi-automatique. En quittant le poste, son utilisateur ramasse les douilles que le fusil a éjectées. Les douilles vides vont dans le bac prévu, s'il y en a un.",
-  "rules-dress-and-safety-p5": "Avant de vous retourner sur le poste, ouvrez le fusil et retirez toutes les cartouches, tirées ou non. Pendant la présentation et toute interruption, le fusil est ouvert et déchargé. Tirez seulement à votre tour, seulement sur votre propre plateau, et jamais sur des animaux.",
+  "rules-dress-and-safety-p4": "Dans les deux disciplines, vous pouvez charger {{fact:rules.semi-auto-cartridges}} dans un semi-automatique. En quittant le poste, son utilisateur ramasse les {{term:hull|douilles}} que le fusil a éjectées. Les {{term:empties|douilles vides|pl}} vont dans le bac prévu, s'il y en a un.",
+  "rules-dress-and-safety-p5": "Avant de vous retourner sur le poste, ouvrez le fusil et retirez toutes les cartouches, tirées ou non. Pendant la {{term:target-presentation|présentation}} et toute interruption, le fusil est ouvert et déchargé. Tirez seulement à votre tour, seulement sur votre propre plateau, et jamais sur des animaux.",
   "rules-dress-and-safety-cmp4": {
    "sporting": "Interdit partout sur le stand de tir, y compris suivre la ligne d'un plateau avant d'annoncer.",
    "compak": "Interdit hors des postes de tir, ainsi que pendant qu'un autre membre de votre planche tire."
@@ -73,7 +73,7 @@
   "rules-dress-and-safety-p7": "Les lois sur les armes et les munitions diffèrent d'un pays à l'autre. Le règlement FITASC s'applique à la compétition, mais il ne remplace pas les lois locales sur le transport et la conservation d'un fusil. Avant un voyage à l'étranger, voir la leçon {{lesson:travel-gun-in-eu}}."
  },
  "note": {
-  "compak-dress-and-conduct-p5": "Près du poste, vous faites partie du public : portez vos protections, restez silencieux pendant l'annonce, et ne commentez pas une décision. Le règlement ne mentionne pas les interprètes, mais transmettre les conseils d'un entraîneur pendant une compétition peut être jugé comme du coaching. Le tireur reçoit alors un carton jaune, et vous êtes renvoyé hors de la zone de tir. Ne traduisez que les paroles officielles, pour l'arbitre, le jury et l'organisateur."
+  "compak-dress-and-conduct-p5": "Près du poste, vous faites partie du public : portez vos protections, restez silencieux pendant l'annonce, et ne commentez pas une décision. Le règlement ne mentionne pas les interprètes, mais transmettre les conseils d'un entraîneur pendant une compétition peut être jugé comme du coaching. Le tireur reçoit alors un {{term:yellow-card|carton jaune}}, et vous êtes renvoyé hors de la zone de tir. Ne traduisez que les paroles officielles, pour l'arbitre, le jury et l'organisateur."
  },
  "phrases": {
   "gear-protection-clothes-ph1": {
@@ -108,7 +108,7 @@
    "explain": "Les shorts courts sont interdits ; les longs sont permis s'ils s'arrêtent {{fact:rules.dress-shorts-length}}."
   },
   "rules-dress-and-safety-q2": {
-   "q": "Combien de cartouches un semi-automatique peut-il contenir sur le poste ?",
+   "q": "Combien de cartouches un {{term:semi-automatic|semi-automatique}} peut-il contenir sur le poste ?",
    "options": {
     "a": "Une",
     "b": "Deux au maximum",
@@ -127,7 +127,7 @@
    "explain": "Les bretelles et sangles sont interdites dans les deux disciplines ; le fusil se porte ouvert."
   },
   "rules-dress-and-safety-q3": {
-   "q": "Un tireur arrive sur le poste sans lunettes de protection. Que se passe-t-il ?",
+   "q": "Un tireur arrive sur le poste sans {{term:safety-glasses|lunettes de protection}}. Que se passe-t-il ?",
    "options": {
     "a": "Seulement un avertissement",
     "b": "Permis avec les protections auditives",
@@ -145,7 +145,7 @@
    "explain": "Des chaussures fermées protègent les pieds, donc les sandales sont interdites."
   },
   "culture-dress-code-q3": {
-   "q": "Où porte-t-on le dossard ?",
+   "q": "Où porte-t-on le {{term:competitor-number|dossard}} ?",
    "options": {
     "a": "Sur la manche gauche",
     "b": "Devant sur la casquette",
@@ -154,7 +154,7 @@
    "explain": "Le dossard se porte sur le dos, n'importe où entre les épaules et la taille, et rien ne doit en cacher une partie."
   },
   "gear-protection-clothes-q1": {
-   "q": "Vous êtes interprète et vous vous tenez près du poste. Devez-vous porter des protections auditives ?",
+   "q": "Vous êtes interprète et vous vous tenez près du poste. Devez-vous porter des {{term:hearing-protection|protections auditives|pl}} ?",
    "options": {
     "a": "Non, seulement les tireurs sur le poste",
     "b": "Seulement en finale et en barrage",

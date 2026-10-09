@@ -42,9 +42,9 @@
   "origin": null
  },
  "title": "S'entraîner pour la compétition",
- "summary": "Comment faire entrer la compétition dans l'entraînement : des séries complètes, votre propre routine, les limites de temps de votre discipline et une pression légère qui augmente par étapes.",
+ "summary": "Comment faire entrer la compétition dans le {{term:practice|entraînement}} : des {{term:round|séries}} complètes, votre propre routine, les limites de temps de votre discipline et une pression légère qui augmente par étapes.",
  "body": {
-  "training-for-competition-p1": "Une compétition se ressent différemment : des plateaux nouveaux, des tireurs qu'on ne connaît pas, un arbitre, le trac. Pour que cela devienne familier, beaucoup d'entraîneurs suggèrent de faire certaines séances comme s'il s'agissait déjà d'une compétition.",
+  "training-for-competition-p1": "Une compétition se ressent différemment : des plateaux nouveaux, des tireurs qu'on ne connaît pas, un {{term:referee|arbitre}}, le trac. Pour que cela devienne familier, beaucoup d'entraîneurs suggèrent de faire certaines séances comme s'il s'agissait déjà d'une compétition.",
   "training-for-competition-p2": "Tirez des {{term:round|séries}} complètes et comptez le score. Ne demandez pas à revoir un plateau après l'avoir manqué, et tirez les plateaux dans l'ordre du {{term:target-menu|menu}}.",
   "training-for-competition-p2-why": "C'est ainsi que se déroule une compétition : un plateau manqué n'est pas relancé, et les plateaux arrivent dans l'ordre où le menu les liste. Le menu est le panneau qui indique quels plateaux vous tirez et dans quel ordre.",
   "training-for-competition-round": {
@@ -54,15 +54,15 @@
   "training-for-competition-p3": "Utilisez votre {{term:pre-shot-routine|routine de pré-tir}} sur chaque plateau : les mêmes étapes, dans le même ordre. Les études sur les routines, surtout dans d'autres sports, suggèrent que les athlètes qui en utilisent une performent mieux, y compris sous le trac. Cela s'applique probablement aussi au tir aux plateaux. Plus de détails dans la leçon {{lesson:mind-routine-under-pressure}}.",
   "training-for-competition-order": "Faire les étapes dans le même ordre chaque fois semble compter plus que de prendre exactement le même nombre de secondes. Cela convient bien au tir aux plateaux, car le temps entre votre annonce et le départ du plateau peut varier d'un plateau à l'autre. En {{tm:sporting}}, une personne lance le plateau, et c'est pareil en {{tm:compak}} avec un lancement manuel. Le règlement ne fixe qu'une limite supérieure à ce délai. Seul un {{term:sonopull|sonopull}} en {{tm:compak}}, un dispositif qui lance le plateau dès qu'il entend votre voix, garde ce délai fixe. Les temps exacts sont ci-dessous.",
   "training-for-competition-p4": {
-   "sporting": "Avant l'{{term:call|annonce}}, le fusil n'est pas épaulé. Le talon de la {{term:stock|crosse}}, le coin supérieur de l'extrémité qui va dans l'épaule, touche le corps. Le haut de la crosse reste sous la {{term:jacket-line|ligne du gilet}}. C'est une ligne tracée sur votre gilet ou votre veste {{fact:rules.sporting-jacket-line}} ; l'axe de l'épaule est une ligne horizontale imaginaire passant par les deux épaules. Gardez cette {{term:ready-position|position d'attente}} (fusil bas, prêt à être épaulé) jusqu'à ce que le plateau soit lancé et que vous le voyiez ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
-   "compak": "La position du fusil à l'annonce est libre : épaulé ou non. Chaque plateau est tiré fusil à l'épaule. Il n'y a pas de ligne du gilet ({{rule:compak:ch17-gun-position}})."
+   "sporting": "Avant le {{term:call|annonce}}, le fusil n'est pas épaulé. Le talon du {{term:stock|crosse}}, le coin supérieur de l'extrémité qui va dans l'épaule, touche le corps. Le haut de la crosse reste sous le {{term:jacket-line|ligne du gilet}}. C'est une ligne tracée sur votre gilet ou votre veste {{fact:rules.sporting-jacket-line}} ; l'axe de l'épaule est une ligne horizontale imaginaire passant par les deux épaules. Gardez cette {{term:ready-position|position d'attente}} — fusil bas, prêt à être épaulé — jusqu'à ce que le plateau soit lancé et que vous le voyiez ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+   "compak": "La {{term:gun-position|position du fusil}} à l'annonce est libre : épaulé ou non. Chaque plateau est tiré fusil à l'épaule. Il n'y a pas de ligne du gilet ({{rule:compak:ch17-gun-position}})."
   },
   "training-for-competition-train-start": "Entraînez-vous à la façon dont chaque tir commence dans votre discipline : la position du fusil, l'annonce et l'attente du plateau.",
   "training-for-competition-p5": {
    "sporting": "Vous avez {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Après votre annonce, l'arbitre donne un signal au {{term:trapper|pulleur}}, la personne qui lance les plateaux. Le plateau part {{fact:rules.release-within-3s}} après le signal de l'arbitre ({{rule:sporting:ch5-call-and-release}}).",
    "compak": "Vous avez {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Le plateau part {{fact:rules.release-within-3s}} après l'annonce avec un lancement manuel, ou {{fact:rules.sonopull-delay}} après elle avec un sonopull (lancement à la voix) ({{rule:compak:ch2-trigger-manual}})."
   },
-  "training-for-competition-time-it": "Chronométrez votre routine à l'entraînement : elle doit entrer dans le {{term:firing-time|délai imparti}} sans précipitation. Si les plateaux sont lancés à la main, demandez au pulleur de varier un peu le délai, pour apprendre à rester prêt en attendant. Plus sur le règlement : voir la leçon {{lesson:rules-call-and-time}}.",
+  "training-for-competition-time-it": "Chronométrez votre routine au {{term:practice|entraînement}} : elle doit entrer dans le {{term:firing-time|délai imparti}} sans précipitation. Si les plateaux sont lancés à la main, demandez au pulleur de varier un peu le délai, pour apprendre à rester prêt en attendant. Plus sur le règlement : voir la leçon {{lesson:rules-call-and-time}}.",
   "training-for-competition-pressure": "Ajoutez une pression légère, par étapes : un score qui compte, quelqu'un qui regarde, un petit enjeu. La recherche sur l'entraînement sous pression suggère que les personnes qui s'entraînent sous légère pression conservent mieux leur compétence quand la pression est réelle. Ces études viennent d'autres sports et d'autres tâches, donc cela s'applique probablement aussi au tir aux plateaux.",
   "training-for-competition-pressure-steps": [
    "Cinq de suite : choisissez un plateau et restez-y jusqu'à en casser cinq de suite ; un raté remet le compte à zéro.",
@@ -74,14 +74,14 @@
   "training-for-competition-shoot-off": "Un véritable barrage n'a lieu que pour les trois premières places. Dans les deux disciplines, c'est 25 plateaux, et si les tireurs sont toujours à égalité, la mort subite : le premier à manquer est éliminé ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
   "training-for-competition-fit-in": "Comment intégrer cela à l'entraînement normal. Beaucoup d'entraîneurs réservent le travail technique à la première partie d'une séance et ajoutent une tâche sous pression près de la fin, une à deux fois par semaine. Pendant que vous apprenez un nouveau mouvement, laissez la pression de côté jusqu'à ce qu'il se stabilise. Si la technique se dégrade, rendez la tâche plus facile plutôt que de persister.",
   "training-for-competition-no-new-kit": "Une compétition est un mauvais endroit pour des expériences. Testez d'abord un nouveau {{term:choke|choke}}, de nouvelles cartouches ou un nouveau verre à l'entraînement.",
-  "training-for-competition-p6": "Convenez du plan à l'avance. Le {{term:coaching|coaching}}, c'est-à-dire donner des conseils à un compétiteur pendant une compétition, n'est permis dans aucune des deux disciplines. Si l'{{term:referee|arbitre}} juge qu'il y a coaching, le tireur reçoit un {{term:yellow-card|carton jaune}}, et la personne qui conseille est renvoyée hors de la zone de tir ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+  "training-for-competition-p6": "Convenez du plan à l'avance. Le {{term:coaching|coaching}}, c'est-à-dire donner des conseils à un compétiteur pendant une compétition, n'est permis dans aucune des deux disciplines. Si le {{term:referee|arbitre}} juge qu'il y a coaching, le tireur reçoit un {{term:yellow-card|carton jaune}}, et la personne qui conseille est renvoyée hors de la zone de tir ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
   "training-for-competition-practice": {
    "sporting": "Avant l'épreuve, personne ne peut s'entraîner sur les parcours de la compétition : entraînez-vous sur d'autres ({{rule:sporting:ch15-no-practice}}).",
-   "compak": "Avant l'épreuve, vous pouvez vous entraîner sur les trajectoires de la compétition, mais avec un autre {{term:trajectory-setting-table|tableau de réglage des trajectoires}} : un menu prêt à l'emploi qui indique quels lanceurs envoient les plateaux à chaque poste. Vous voyez donc pendant l'{{term:practice|entraînement}} les mêmes plateaux, mais dans d'autres combinaisons que le jour J ({{rule:compak:ch6-practice}}). Aux championnats continentaux et mondiaux, l'entraînement officiel ouvre {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+   "compak": "Avant l'épreuve, vous pouvez vous entraîner sur les trajectoires de la compétition, mais avec un autre {{term:trajectory-setting-table|tableau de réglage des trajectoires}} : un menu prêt à l'emploi qui indique quels {{term:trap|lanceurs}} envoient les plateaux à chaque poste. Vous voyez donc pendant le {{term:practice|entraînement}} les mêmes plateaux, mais dans d'autres combinaisons que le jour J ({{rule:compak:ch6-practice}}). Aux championnats continentaux et mondiaux, l'entraînement officiel ouvre {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
   }
  },
  "note": {
-  "training-for-competition-n-coach": "Augmentez la pression seulement aussi vite que la technique du tireur le permet. Si l'épaulé ou le tempo change, revenez à une tâche plus facile. Avant l'épreuve, convenez du plan ; pendant, vous ne pouvez pas donner de conseils.",
+  "training-for-competition-n-coach": "Augmentez la pression seulement aussi vite que la technique du tireur le permet. Si le {{term:gun-mount|épaulé}} ou le tempo change, revenez à une tâche plus facile. Avant l'épreuve, convenez du plan ; pendant, vous ne pouvez pas donner de conseils.",
   "training-for-competition-n-interpreter": "Pendant une compétition, ne transmettez que ce que disent l'arbitre et les officiels. Traduire les conseils d'un entraîneur à un tireur peut être considéré comme du coaching."
  },
  "phrases": {},
@@ -104,16 +104,16 @@
    "explain": "Dépasser la limite vaut d'abord un avertissement, puis des pénalités. En {{tm:compak}}, vous avez dix secondes au maximum pour annoncer."
   },
   "training-for-competition-q2": {
-   "q": "Dans quelle discipline la crosse doit-elle rester sous la ligne du gilet jusqu'à l'apparition du plateau ?",
+   "q": "Dans quelle discipline le {{term:stock|crosse}} doit-il rester sous la ligne du gilet jusqu'à l'apparition du plateau ?",
    "options": {
     "a": "Dans les deux disciplines",
     "b": "Seulement en {{tm:sporting}}",
     "c": "Seulement en {{tm:compak}}"
    },
-   "explain": "En {{tm:compak}}, la position du fusil à l'annonce est libre, et il n'y a pas de ligne du gilet."
+   "explain": "En {{tm:compak}}, la {{term:gun-position|position du fusil}} à l'annonce est libre, et il n'y a pas de ligne du gilet."
   },
   "training-for-competition-q-pressure": {
-   "q": "Comment les études suggèrent-elles d'ajouter de la pression à l'entraînement ?",
+   "q": "Comment les études suggèrent-elles d'ajouter de la pression au {{term:practice|entraînement}} ?",
    "options": {
     "a": "Autant que possible dès la première séance",
     "b": "Seulement la semaine précédant la compétition",
@@ -137,7 +137,7 @@
     "b": "Trente secondes au maximum",
     "c": "Il n'y a pas de limite"
    },
-   "explain": "La première fois que vous dépassez la limite, vous recevez un avertissement inscrit sur la feuille de marque ; en cas de répétition dans la même série, vous êtes pénalisé."
+   "explain": "La première fois que vous dépassez la limite, vous recevez un avertissement inscrit sur la feuille de marque ; en cas de répétition dans le même {{term:round|série}}, vous êtes pénalisé."
   }
  }
 }

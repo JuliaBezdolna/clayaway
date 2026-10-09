@@ -49,11 +49,11 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "rules-doubles-p1": "Egy {{term:double|dublé}} két korong, amelyet egy kérésre lősz. Mindkét versenyszámban van vadászdublé és szimultán dublé; csak a {{tm:sporting}}-ban van rafale is. Néhány pontozási szabály eltér. Amikor egy dublé mindkét korongját mellőlövésnek értékelik, ezt {{term:zero-zero|nulla-nullának}} (zero-zero) hívják.",
+    "rules-doubles-p1": "Egy {{term:double|dublé}} két korong, amelyet egy kérésre lősz. Mindkét versenyszámban van vadászdublé és szimultán dublé; csak a {{tm:sporting}}-ban van rafale is. Néhány pontozási szabály eltér. Amikor egy dublé mindkét korongját mellőlövésnek értékelik, ezt {{term:zero-zero|nulla-nullának}} hívják.",
     "sporting-singles-doubles-p1": "Először a szóló korongokról. Mindkét versenyszámban két patront lőhetsz egy {{term:single-target|szóló korongra}}, így az első cső mellőlövését még a második mentheti. A lőpályának időt kell hagynia két lövésre minden szóló korongon.",
     "rules-doubles-p2": "Egy {{term:double-on-report|vadászdublénál}} a kérésed elindítja az első korongot, a rálőtt lövésed pedig a második korongot. Egy {{term:simultaneous-double|szimultán dublénál}} mindkét korong egyszerre indul, és bármelyik sorrendben lőheted őket.",
     "rules-doubles-cmp1": {
-      "sporting": "Három fajta: vadászdublé, szimultán (egy vagy két dobógépből) és {{term:rafale-double|rafale}}. Egy rafalénál két korong ugyanabból a dobógépből indul, ugyanazon a vonalon, egymás után.",
+      "sporting": "Három fajta: vadászdublé, szimultán (egy vagy két dobógépből) és {{term:rafale-double|rafale}}. Egy rafalénál két korong ugyanabból a {{term:trap|dobógépből}} indul, ugyanazon a vonalon, egymás után.",
       "compak": "Két fajta: vadászdublé és szimultán. Egy szimultán dublé két különböző dobógépből jön. Rafale nincs."
     },
     "sporting-singles-doubles-p2": "A {{tm:sporting}}-ban a vadászdublé második korongja 0–3 másodperccel az első korongra leadott lövésed után indul. Rafalénál akkor jön, amint a dobógép újratöltött. Egy dublé csak olyan korongokat használ, amelyeket már szólóként kidobtak azon a lőálláson, így láttad is repülni őket.",
@@ -61,7 +61,7 @@
       "sporting": "Két patron az egész dublére, és mindkettő mehet egy korongra.",
       "compak": "Egy patron minden korongra. Mindkettőt az első korongra lőni nem megengedett; szándékos esetben nulla-nulla."
     },
-    "rules-doubles-accidental": "Mindkét cső véletlen egyszerre sülése nem szándékos dupla lövés: ez fegyverhiba, {{term:double-discharge|beduplázás}}. Hogyan pontozzák: {{lesson:rules-malfunctions}}.",
+    "rules-doubles-accidental": "Mindkét cső véletlen egyszerre sülése nem szándékos dupla lövés: ez {{term:malfunction|fegyverhiba}}, {{term:double-discharge|beduplázás}}. Hogyan pontozzák: {{lesson:rules-malfunctions}}.",
     "rules-doubles-cmp3": {
       "sporting": "Amikor a saját lövésed magában mindkét korongot eltöri, mindkettő számít: „one” és „one”, bármelyik dublétípusnál. Vadászdublénál előfordulhat, hogy az első korong vagy annak darabjai a második lövésed előtt szétrobbantják a másodikat. Ez No Bird: a dublét megismétlik, és az első eredményt megtartják.",
       "compak": "Vadászdublénál: az első eredmény megmarad, a második No Bird, és a dublét újra lövik. Szimultánnál: No Bird, újra lövöd a dublét; ha harmadszor is megtörténik, mindkét korongot nullának értékelik."
@@ -71,7 +71,7 @@
       "compak": "Egy szimultán dublé visszautasítása: nulla-nulla. Vadászdublénál: egy visszautasított első korong nulla; a dublét újra kidobják, hogy lőhess a másodikra, és csak azt értékelik."
     },
     "sporting-singles-doubles-p4": "Egy szabálytalan korong az, amelyre a bíró No Birdet mond, például törötten kijövő, a vonaláról letérő vagy rossz dobógépből érkező korong ({{lesson:rules-hit-and-no-bird}}). Egy vadászdublénál a szabálytalan első korong azt jelenti, hogy az egész dublét megismétlik. Ha a második korong szabálytalan, újra lövöd a dublét, és az első eredményedet megtartják. Ugyanez érvényes, ha az első korong vagy annak darabjai a második lövésed előtt eltörik a másodikat. Egy szimultán dublénál, és a {{tm:sporting}}-ban egy rafalénál, egy szabálytalan korong zárás nélküli ismétlést jelent. Más eset, amikor egy lövés mindkét korongot eltöri: lásd fent.",
-    "rules-doubles-p7": "Figyeld a bemutatást, és olvasd ki a lőállás {{term:target-menu|kottáját}}, hogy tudd, milyen dublék jönnek. Sok edző azt javasolja, hogy a korong kérése előtt válaszd ki egy szimultán dublé sorrendjét."
+    "rules-doubles-p7": "Figyeld a {{term:target-presentation|bemutatást}}, és olvasd ki a lőállás {{term:target-menu|kottáját}}, hogy tudd, milyen dublék jönnek. Sok edző azt javasolja, hogy a korong kérése előtt válaszd ki egy szimultán dublé sorrendjét."
   },
   "note": {
     "compak-singles-doubles-p1": "A {{tm:compak}} ugyanazokat a neveket használja a vadászdublékra és a szimultán dublékra, mint a {{tm:sporting}} (rafaléja nincs), de a dublé-szabályai eltérnek. Egy tolmács, aki a {{tm:sporting}} szabályait hozza ide, hibás válaszokat ad.",
@@ -87,7 +87,7 @@
       "say": "A rafalén bármelyiket lőheted előbb."
     },
     "sporting-singles-doubles-ph3": {
-      "meaning": "Bíró: a dublé mindkét korongja találat.",
+      "meaning": "Bíró: a dublé mindkét korongja {{term:one|találat}}.",
       "say": "Egy és egy."
     },
     "sporting-singles-doubles-ph4": {

@@ -50,29 +50,29 @@
   "title": "Zavolání, časové limity a pozdní příchod",
   "summary": "Jak volat terč, jak rychle má vyletět, kolik času máte ve {{tm:sporting}} a {{tm:compak}} a čím hrozí pozdní příchod.",
   "body": {
-    "rules-call-and-time-p1": "Terč nevyletí sám: {{term:call|voláte}} ho krátkým slovem, například „pull“ nebo „ready“. Pravidla pak určují, jak rychle má terč vyletět a kolik času si můžete vzít.",
-    "sporting-time-and-lateness-p1": "{{tm:sporting}} drží rovný rytmus a chrání ho hned několik pravidel. Zavoláte, a rozhodčí vaše zavolání zvukovým signálem předá {{term:trapper|obsluze vrhačky}} (osobě, která terče vypouští). Od tohoto signálu musí být terč ve vzduchu {{fact:rules.release-within-3s}}. Pokud vyletí později, rozhodčí vyhlásí {{term:no-bird|nový terč (No Bird)}} a terč vypustí znovu.",
-    "compak-gun-and-call-p2": "V {{tm:compak}} se vrhačka spouští ručně, dálkovým ovladačem nebo {{term:sonopull|fonickým systémem}} (mikrofonním systémem, který vypustí vrhačku, jakmile zaslechne vaše zavolání). Při ručním spuštění musí terč vyletět 0 až 3 sekundy po zavolání. Fonický systém vždy čeká {{fact:rules.sonopull-delay}} po zavolání, takže je zpoždění pokaždé stejné. Mezinárodní závody ve formátu {{term:compak-in-line|in line}} (střelci po jednom nastupují na číslo 1 a postupují linií až k číslu 5) používají jen fonický systém. Terč, který vyletí víc než 3 sekundy pozdě, nebo terč, který jste nevolali, je No Bird.",
+    "rules-call-and-time-p1": "Terč nevyletí sám: musíte dát {{term:call|povel}}, krátké slovo, například „pull“ nebo „ready“. Pravidla pak určují, jak rychle má terč vyletět a kolik času si můžete vzít.",
+    "sporting-time-and-lateness-p1": "{{tm:sporting}} drží rovný rytmus a chrání ho hned několik pravidel. Zavoláte, a {{term:referee|rozhodčí}} vaše zavolání zvukovým signálem předá {{term:trapper|obsluze vrhačky}}, tedy osobě, která terče vypouští. Od tohoto signálu musí být terč ve vzduchu {{fact:rules.release-within-3s}}. Pokud vyletí později, rozhodčí vyhlásí {{term:no-bird|nový terč}} a terč vypustí znovu.",
+    "compak-gun-and-call-p2": "V {{tm:compak}} se {{term:trap|vrhačka}} spouští ručně, dálkovým ovladačem nebo {{term:sonopull|fonickým systémem}}, tedy mikrofonem, který spustí vrhačku, jakmile zaslechne vaše zavolání. Při ručním spuštění musí terč vyletět 0 až 3 sekundy po zavolání. Fonický systém vždy čeká {{fact:rules.sonopull-delay}} po zavolání, takže je zpoždění pokaždé stejné. Mezinárodní závody ve formátu {{term:compak-in-line|v řadě}}, kdy střelci po jednom nastupují na číslo 1 a postupují linií až k číslu 5, používají jen fonický systém. Terč, který vyletí víc než 3 sekundy pozdě, nebo terč, který jste nevolali, je No Bird.",
     "rules-call-and-time-p3": "V obou disciplínách můžete odmítnout jen terč, který jste nevolali: je to No Bird.",
     "rules-call-and-time-cmp1": {
       "sporting": "Odmítnout nelze. Pokud byl terč vypuštěn správně a vy jste nevystřelili, počítá se jako zero.",
-      "compak": "Odmítnout nelze ani zde. Odmítnutý jednotlivý terč se počítá jako zero; dvojstřely podle tabulky v průvodci pravidly."
+      "compak": "Odmítnout nelze ani zde. Odmítnutý jednotlivý terč se počítá jako zero; {{term:double|dvojstřely}} podle tabulky v průvodci pravidly."
     },
     "rules-call-and-time-cmp2": {
       "sporting": "Máte {{fact:rules.sporting-time-between-targets}}.",
       "compak": "Máte {{fact:rules.compak-time-to-call}}."
     },
-    "sporting-time-and-lateness-p2": "Když poprvé překročíte limit, rozhodčí dá napomenutí. Dál platí sankce s červenou kartou ({{rule:sporting:ch12-red-card}}). Když rozhodčí vydá konečné rozhodnutí, například po vašem protestu, musíte pokračovat ve střelbě {{fact:rules.sporting-resume-after-ruling}}. Pokud ne, nebo pokud úmyslně zdržujete, počítá se to jako {{term:refusal-to-comply|odmítnutí uposlechnout}}: samostatné porušení, za které může potrestat jury.",
+    "sporting-time-and-lateness-p2": "Když poprvé překročíte limit, rozhodčí dá napomenutí. Dál platí sankce s {{term:red-card|červenou kartou}} ({{rule:sporting:ch12-red-card}}). Když rozhodčí vydá konečné rozhodnutí, například po vašem protestu, musíte pokračovat ve střelbě {{fact:rules.sporting-resume-after-ruling}}. Pokud ne, nebo pokud úmyslně zdržujete, počítá se to jako {{term:refusal-to-comply|odmítnutí uposlechnout}}: samostatné porušení, za které může potrestat jury.",
     "compak-gun-and-call-p3": "Když poprvé překročíte limit, rozhodčí zapíše napomenutí do {{term:score-sheet|položkového listu}}. Pokud se to stane znovu ve stejné {{term:round|položce}}, je to červená karta: jednotlivý terč se počítá jako zero, dvojstřely podle tabulky v průvodci pravidly ({{rule:compak:ch21-penalty-table}}). Když rozhodčí vydá konečné rozhodnutí, musíte pokračovat ve střelbě {{fact:rules.compak-resume-after-ruling}}. Pokud ne, nebo pokud úmyslně zdržujete, počítá se to jako odmítnutí uposlechnout, za které může potrestat jury.",
-    "rules-call-and-time-p7": "Mnozí trenéři doporučují krátkou, pevnou {{term:pre-shot-routine|předstřeleckou rutinu}}, která se dobře vejde do limitu. Například: nastoupit na stanoviště, nabít, jakmile to dovolí rozhodčí, zaujmout pohotovostní postoj, vydechnout a pak zavolat. Víc v lekci {{lesson:mind-routine-under-pressure}}.",
-    "sporting-time-and-lateness-p3": "{{term:lateness|Pozdní příchod}}: pokud chybíte, když vaše skupina začíná, rozhodčí během jedné minuty třikrát vyvolá vaše jméno a číslo. Pokud přijdete, dokud skupina ještě střílí jednotlivé terče na prvním stanovišti a vaše řada ještě neprošla, přidáte se bez sankce. Poté jsou všechny nevystřelené terče zero a chybějící stanoviště už nelze dostřílet s jinou skupinou.",
+    "rules-call-and-time-p7": "Mnozí trenéři doporučují krátkou, pevnou {{term:pre-shot-routine|předstřeleckou rutinu}}, která se dobře vejde do limitu. Například: nastoupit na stanoviště, nabít, jakmile to dovolí rozhodčí, zaujmout {{term:ready-position|pohotovostní postoj}}, vydechnout a pak zavolat. Víc v lekci {{lesson:mind-routine-under-pressure}}.",
+    "sporting-time-and-lateness-p3": "{{term:lateness|Pozdní příchod}}: pokud chybíte, když vaše {{term:squad|skupina}} začíná, rozhodčí během jedné minuty třikrát vyvolá vaše jméno a číslo. Pokud přijdete, dokud skupina ještě střílí jednotlivé terče na prvním stanovišti a vaše řada ještě neprošla, přidáte se bez sankce. Poté jsou všechny nevystřelené terče zero a chybějící stanoviště už nelze dostřílet s jinou skupinou.",
     "sporting-time-and-lateness-p4": "Pokud jste se opozdili z důvodů mimo vaši kontrolu, nepřipojujte se ke skupině v té položce; odvolejte se písemně k jury. Pokud jury souhlasí, položku střílíte s jinou skupinou. Pokud odmítne, každé nevystřílené střeliště se počítá jako 25 zero.",
-    "compak-dress-and-conduct-p3": "V {{tm:compak}} se musíte včas nahlásit rozhodčímu a potvrdit, že jste přítomni. Kromě formátu in line existuje i by squad: {{term:squad|skupina}} ({{fact:rules.squad-max-shooters}}) prochází položku společně a pohybuje se od čísla k číslu. V tomto formátu střelec, který přijde po prvním zavolání skupiny v položce, dostane za tuto položku 25 zero. Odvolání se podává písemně jury, téhož dne.",
+    "compak-dress-and-conduct-p3": "V {{tm:compak}} se musíte včas nahlásit rozhodčímu a potvrdit, že jste přítomni. Kromě formátu in line existuje i by squad: {{term:squad|skupina}}, {{fact:rules.squad-max-shooters}}, prochází položku společně a pohybuje se od čísla k číslu. V tomto formátu střelec, který přijde po prvním zavolání skupiny v položce, dostane za tuto položku 25 zero. Odvolání se podává písemně jury, téhož dne.",
     "rules-call-and-time-cmp3": {
       "sporting": "Buďte připraveni {{fact:rules.shootoff-ready-time}}. Pokud tam nejste, jste diskvalifikováni.",
       "compak": "Buďte připraveni {{fact:rules.shootoff-ready-time}}. Pokud chybíte, počítá se, že jste odstoupili."
     },
-    "rules-call-and-time-tip2": "Nasaďte si ochranu sluchu a brýle ještě před tím, než vstoupíte na stanoviště: v obou disciplínách se střelec bez nich považuje za nepřítomného ({{lesson:rules-dress-and-safety}})."
+    "rules-call-and-time-tip2": "Nasaďte si {{term:hearing-protection|ochranu sluchu}} a brýle ještě před tím, než vstoupíte na stanoviště: v obou disciplínách se střelec bez nich považuje za nepřítomného ({{lesson:rules-dress-and-safety}})."
   },
   "note": {
     "sporting-time-and-lateness-p6": "Neprotahujte skupinu dlouhým překladem: teď stručně, podrobnosti po stanovišti."
@@ -107,13 +107,13 @@
     "sporting-time-and-lateness-kp1": "Terč vypuštěný s víc než 3sekundovým zpožděním je No Bird v obou disciplínách.",
     "rules-call-and-time-kp2": "Terč, který jste volali, nelze odmítnout; nevolaný terč je No Bird.",
     "rules-call-and-time-kp3": "{{tm:sporting}}: {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: {{fact:rules.compak-time-to-call}}.",
-    "compak-gun-and-call-kp3": "Překročení časového limitu: poprvé napomenutí, při opakování červená karta.",
+    "compak-gun-and-call-kp3": "Překročení {{term:firing-time|časového limitu}}: poprvé napomenutí, při opakování červená karta.",
     "sporting-time-and-lateness-kp4": "Přijďte včas: ve {{tm:sporting}} jsou terče zmeškané kvůli pozdnímu příchodu zero; v {{tm:compak}} by squad stojí opoždění po prvním zavolání skupiny 25 zero."
   },
   "did_you_know": "V {{tm:compak}} ve formátu in line se za opozdilce považujete, jakmile vaše číslo odebrali v počítačovém systému výsledků a na čísle 1 už stojí další střelec.",
   "quiz": {
     "rules-call-and-time-q1": {
-      "q": "Do kolika sekund po zavolání musí terč vyletět?",
+      "q": "Do kolika sekund po {{term:call|zavolání}} musí terč vyletět?",
       "options": {
         "a": "3 sekundy",
         "b": "10 sekund",
@@ -122,7 +122,7 @@
       "explain": "V obou disciplínách je terč, který vyletí s víc než 3sekundovým zpožděním, No Bird."
     },
     "rules-call-and-time-q2": {
-      "q": "Kolik času máte v {{tm:compak}} na zavolání?",
+      "q": "Kolik času máte v {{tm:compak}} na {{term:call|zavolání}}?",
       "options": {
         "a": "5 sekund",
         "b": "10 sekund",
@@ -140,7 +140,7 @@
       "explain": "Terč, který jste nevolali, je No Bird, a jediný takový terč lze odmítnout."
     },
     "sporting-time-and-lateness-q1": {
-      "q": "Střelec zavolá a rozhodčí předá signál, ale terč vyletí asi o pět sekund později. Rozhodnutí?",
+      "q": "Střelec zavolá a {{term:referee|rozhodčí}} předá signál, ale terč vyletí asi o pět sekund později. Rozhodnutí?",
       "options": {
         "a": "Zero",
         "b": "No Bird",
@@ -150,7 +150,7 @@
       "explain": "Terč musí vyletět do tří sekund od signálu rozhodčího; pozdější je No Bird a hází se znovu."
     },
     "sporting-time-and-lateness-q2": {
-      "q": "Střelec přijde, když jeho skupina ještě střílí jednotlivé terče na prvním místě, dřív než na něj přišla řada. Co se stane?",
+      "q": "Střelec přijde, když jeho {{term:squad|skupina}} ještě střílí jednotlivé terče na prvním místě, dřív než na něj přišla řada. Co se stane?",
       "options": {
         "a": "Přidá se bez sankce",
         "b": "25 zero",
@@ -170,7 +170,7 @@
       "explain": "Limit je 15 sekund; při prvním překročení rozhodčí napomene a teprve potom následují sankce."
     },
     "compak-gun-and-call-q2": {
-      "q": "{{tm:compak}} s fonickým systémem. Terč vyletí půl sekundy po zavolání střelce. Je to No Bird?",
+      "q": "{{tm:compak}} se {{term:sonopull|fonickým systémem}}. Terč vyletí půl sekundy po {{term:call|zavolání}} střelce. Je to No Bird?",
       "options": {
         "a": "Ano, terč se opozdil",
         "b": "Ne, taková prodleva je normální",
@@ -180,7 +180,7 @@
       "explain": "Fonický systém vždy vypustí terč {{fact:rules.sonopull-delay}} po zavolání. No Bird je jen terč s víc než 3sekundovým zpožděním."
     },
     "compak-gun-and-call-q3": {
-      "q": "Podruhé ve stejné položce potřebuje střelec na zavolání víc než 10 sekund. Jde o jednotlivý terč. Rozhodnutí?",
+      "q": "Podruhé ve stejné položce potřebuje střelec na {{term:call|zavolání}} víc než 10 sekund. Jde o jednotlivý terč. Rozhodnutí?",
       "options": {
         "a": "Nula",
         "b": "Jen další napomenutí",
@@ -190,14 +190,14 @@
       "explain": "Po prvním napomenutí se opakování ve stejné položce trestá podle tabulky: jednotlivý terč se hodnotí nulou."
     },
     "compak-dress-and-conduct-q2": {
-      "q": "{{tm:compak}} by squad. Střelec přijde chvíli poté, co první střelec skupiny zavolal první terč položky. Co dál?",
+      "q": "{{tm:compak}} by squad. Střelec přijde chvíli poté, co první střelec {{term:squad|skupiny}} zavolal první terč {{term:round|položky}}. Co dál?",
       "options": {
         "a": "Bez sankce",
         "b": "Zero jen na prvním terči",
         "c": "Střílí na konci skupiny",
         "d": "25 zero za položku"
       },
-      "explain": "Hranicí je první zavolání skupiny. Po něm dostane opozdilý střelec 25 zero; písemné odvolání k jury téhož dne je možné."
+      "explain": "Hranicí je první {{term:call|zavolání}} skupiny. Po něm dostane opozdilý střelec 25 zero; písemné odvolání k jury téhož dne je možné."
     }
   }
 }

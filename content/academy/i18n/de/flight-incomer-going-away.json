@@ -32,10 +32,10 @@
  "title": "Kommende, gehende, überfliegende und Überkopf-Tauben",
  "summary": "Scheiben, die auf Sie zukommen, von Ihnen weg fliegen oder über Ihren Kopf gehen: wie man sie erkennt und was viele Trainer empfehlen.",
  "body": {
-  "flight-incomer-going-away-p1": "Eine {{term:incomer|kommende Taube}} fliegt auf Sie zu, oft aus einer fernen Wurfmaschine oder einem Turm, und fällt meist, während sie kommt. Sie kann wirken, als würde sie sich verlangsamen und in der Luft hängen. Das verleitet dazu, die Flinte anzuhalten und wie mit einer Büchse zu zielen, eine häufige Ursache für einen Fehlschuss. Sie wird meist geschossen, während sie noch vor Ihnen ist, bevor sie über Ihnen ist. Im Moment des Schusses können die Läufe die Scheibe verdecken („blot it out“). Viele Trainer lassen das bei solchen Scheiben zu: Es ist meist beabsichtigt, kein Fehler.",
-  "flight-incomer-going-away-p2": "Eine {{term:going-away|gehende Taube}} startet nahe bei oder hinter Ihnen und fliegt weg. Sie braucht wenig seitlichen Vorhalt, wird aber schnell klein und steigt oder fällt oft. Meist müssen Sie also etwas über ihr schießen, wenn sie steigt, oder etwas unter ihr, wenn sie fällt, und das Timing zählt: warten Sie nicht. Bei {{tm:compak}} ist eine gehende Taube über Seite BC vorgeschrieben. Sie kann von einer in den Boden versenkten Wurfmaschine vor den Standplätzen kommen oder von einem {{term:tower|Turm}} dahinter, {{fact:targets.compak-tower-height}}.",
+  "flight-incomer-going-away-p1": "Eine {{term:incomer|kommende Taube}} fliegt auf Sie zu, oft aus einer fernen {{term:trap|Wurfmaschine}} oder einem Turm, und fällt meist, während sie kommt. Sie kann wirken, als würde sie sich verlangsamen und in der Luft hängen. Das verleitet dazu, die Flinte anzuhalten und wie mit einer Büchse zu zielen, eine häufige Ursache für einen Fehlschuss. Sie wird meist geschossen, während sie noch vor Ihnen ist, bevor sie über Ihnen ist. Im Moment des Schusses können die Läufe die Scheibe verdecken („blot it out“). Viele Trainer lassen das bei solchen Scheiben zu: Es ist meist beabsichtigt, kein Fehler.",
+  "flight-incomer-going-away-p2": "Eine {{term:going-away|gehende Taube}} startet nahe bei oder hinter Ihnen und fliegt weg. Sie braucht wenig seitlichen {{term:lead|Vorhalt}}, wird aber schnell klein und steigt oder fällt oft. Meist müssen Sie also etwas über ihr schießen, wenn sie steigt, oder etwas unter ihr, wenn sie fällt, und das Timing zählt: warten Sie nicht. Bei {{tm:compak}} ist eine gehende Taube über Seite BC vorgeschrieben. Sie kann von einer in den Boden versenkten Wurfmaschine vor den Standplätzen kommen oder von einem {{term:tower|Turm}} dahinter, {{fact:targets.compak-tower-height}}.",
   "flight-incomer-going-away-p3": "Eine {{term:driven-target|überfliegende Taube}} ist eine kommende Taube, die über Ihren Kopf fliegt, wie ein von Treibern gescheuchter Fasan. Viele Trainer lehren es so: Finden Sie sie früh mit den Augen und bringen Sie die Flinte früh in Bewegung mit ihr. Bringen Sie die Flinte von hinter der Scheibe hoch und durch sie hindurch, schießen Sie im Moment, in dem die Läufe sie verdecken, und halten Sie die Flinte in Bewegung.",
-  "flight-incomer-going-away-p4": "Eine {{term:overhead|Überkopf-Scheibe}} von hinten kommt über Ihren Rücken und fliegt weg. Sie wird spät gesehen, daher empfehlen viele Trainer, vor dem Abruf nach hinten zu schauen. Bringen Sie die Flinte an die Schulter ({{term:gun-mount|den Anschlag}}), während sie vorbeizieht. Schießen Sie, wenn das Ende der Läufe ihre Vorderkante erreicht, und halten Sie die Flinte nach dem Schuss in Bewegung ({{term:follow-through|Nachschwingen}}).",
+  "flight-incomer-going-away-p4": "Eine {{term:overhead|Überkopf-Scheibe}} von hinten kommt über Ihren Rücken und fliegt weg. Sie wird spät gesehen, daher empfehlen viele Trainer, vor dem Abruf nach hinten zu schauen. Machen Sie den {{term:gun-mount|Anschlag}}, also bringen Sie die Flinte an die Schulter, während sie vorbeizieht. Schießen Sie, wenn das Ende der Läufe ihre Vorderkante erreicht, und halten Sie die Flinte nach dem Schuss in Bewegung – {{term:follow-through|Nachschwingen}}.",
   "flight-incomer-going-away-p5": "„Incoming“ (kommend) und „going away“ (gehend) beschreiben die Scheibe immer im Verhältnis zum Schützen."
  },
  "note": {
@@ -78,17 +78,17 @@
    "explain": "Bei kommenden, überfliegenden und aufsteigenden Scheiben verdeckt die Flinte die Scheibe im Moment des Schusses oft; genau das verlangt der Trainer."
   },
   "flight-incomer-going-away-q2": {
-   "q": "Warum sollte man eine gehende Taube nicht zu lange lassen?",
+   "q": "Warum sollte man eine {{term:going-away|gehende Taube}} nicht zu lange lassen?",
    "options": {
     "a": "Sie entfernt sich schnell und wird kleiner",
     "b": "Die Regeln erlauben nur drei Sekunden",
     "c": "Sie wird immer zum Crosser",
     "d": "Der Schiedsrichter gibt nach dem höchsten Punkt No Bird"
    },
-   "explain": "Eine gehende Taube gewinnt schnell an Entfernung, je länger Sie warten, desto schwerer wird sie also. Drei Sekunden sind die Auslösezeit, keine Schussgrenze."
+   "explain": "Eine gehende Taube gewinnt schnell an Entfernung, je länger Sie warten, desto schwerer wird sie also. Drei Sekunden sind die Auslösezeit, keine {{term:shooting-limit|Schussgrenze}}."
   },
   "flight-incomer-going-away-q3": {
-   "q": "Was unterscheidet eine überfliegende Taube von einer gewöhnlichen kommenden Taube?",
+   "q": "Was unterscheidet eine {{term:driven-target|überfliegende Taube}} von einer gewöhnlichen {{term:incomer|kommenden Taube}}?",
    "options": {
     "a": "Sie ist immer ein Rollhase",
     "b": "Sie kommt von hinter dem Schützen",

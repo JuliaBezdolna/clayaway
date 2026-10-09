@@ -37,11 +37,11 @@
     "origin": null
   },
   "body": {
-    "cartridges-lead-and-steel-p1": "Tradiční brok je {{term:lead-shot|olověný}}. Olovo je těžké, takže brok si dobře drží rychlost a energii; je navíc měkké, takže šetří hlavně a zahrdlení. Pravidla FITASC pro {{tm:sporting}} a {{tm:compak}} jsou psána právě pro olovo. Povolují {{fact:gear.fitasc-shot-load}}, broky {{fact:gear.fitasc-shot-diameter}}.",
+    "cartridges-lead-and-steel-p1": "Tradiční brok je {{term:lead-shot|olověný}}. Olovo je těžké, takže brok si dobře drží rychlost a energii; je navíc měkké, takže šetří hlavně a {{term:choke|zahrdlení}}. Pravidla FITASC pro {{tm:sporting}} a {{tm:compak}} jsou psána právě pro olovo. Povolují {{fact:gear.fitasc-shot-load}}, broky {{fact:gear.fitasc-shot-diameter}}.",
     "cartridges-lead-and-steel-p2": "Olovo je ale jedovaté pro životní prostředí, zvlášť pro vodní ptáky a vodu. Proto ho stále víc střelnic a zemí omezuje a pravidla se často mění. Před cestou si ověřte zákon dané země i pravidla střelnice.",
     "cartridges-lead-and-steel-p3": "{{term:steel-shot|Ocelové broky}} jsou nejčastější bezolovnatá náhrada. Ocelový brok je {{fact:gear.steel-vs-lead-weight}} a mnohem tvrdší. Proto rychleji ztrácí rychlost a víc se odráží od tvrdých povrchů.",
     "cartridges-lead-and-steel-p4": "Kvůli odrazům střelnice, které ocel povolují, často omezují její velikost, například na 2,5 mm, a někdy i rychlost náboje. Tyto meze si stanovuje každá střelnice sama: přečtěte si pravidla vyvěšená v klubu nebo se zeptejte organizátora.",
-    "cartridges-lead-and-steel-p5": "Brok z {{term:soft-iron-shot|měkkého železa}} (soft iron) je bezolovnatý brok měkčí než běžná ocel, vyrobený tak, aby byl šetrnější k hlavním a zahrdlením. Vizmutové (bismuth) a wolframové (tungsten) slitiny jsou dražší varianty: jsou těžší než ocel a chovají se blíž olovu.",
+    "cartridges-lead-and-steel-p5": "Brok ze {{term:soft-iron-shot|měkkého železa}} je bezolovnatý brok měkčí než běžná ocel, vyrobený tak, aby byl šetrnější k hlavním a zahrdlením. Vizmutové (bismuth) a wolframové (tungsten) slitiny jsou dražší varianty: jsou těžší než ocel a chovají se blíž olovu.",
     "cartridges-lead-and-steel-p6": "Ocelové broky potřebují ochranný plastový nebo speciální {{term:wad|kontejner}}, aby tvrdá ocel neškrábala hlaveň. Někteří výrobci nabízejí ocelové sportovní náboje s biologicky rozložitelnými nebo {{term:fibre-wad|vláknitými kontejnery}} — ověřte si, co povoluje vaše střelnice. Jaká zahrdlení se hodí na ocel: {{lesson:chokes-steel-shot}}.",
     "cartridges-lead-and-steel-p7": "Kde je olověný brok už zakázaný nebo omezený — stav k říjnu 2026. Zákony se mění, takže si před cestou ověřte aktuální znění.",
     "cartridges-lead-and-steel-p8": "Evropská unie: {{fact:gear.eu-wetland-lead}}. EU navíc připravuje širší zákaz olověných broků i mimo vodu. Výbor EU ho schválil v červnu 2026; než se stane zákonem a začne platit, uplyne několik let, takže si před cestou ověřte aktuální stav.",
@@ -64,7 +64,7 @@
   },
   "quiz": {
     "cartridges-lead-and-steel-q1": {
-      "q": "Proč střelnice často omezují velikost ocelových broků?",
+      "q": "Proč střelnice často omezují velikost {{term:steel-shot|ocelových broků}}?",
       "options": {
         "a": "Ocel je dražší",
         "b": "Tvrdá ocel se víc odráží",
@@ -74,7 +74,7 @@
       "explain": "Tvrdé ocelové broky víc odskakují od tvrdých povrchů, proto střelnice omezují velikost a rychlost."
     },
     "cartridges-lead-and-steel-q2": {
-      "q": "Co platí v EU od roku 2023 ohledně olověných broků?",
+      "q": "Co platí v EU od roku 2023 ohledně {{term:lead-shot|olověných broků}}?",
       "options": {
         "a": "Úplný zákaz na všech střelnicích",
         "b": "Od roku 2020 se nic nezměnilo",
@@ -84,17 +84,17 @@
       "explain": "Pravidlo EU zakazuje olověné broky ve vodně-bahenních oblastech a blíž než 100 m od nich; některé země mají přísnější pravidla."
     },
     "cartridges-lead-and-steel-q3": {
-      "q": "Čím se ocelový brok liší od olověného?",
+      "q": "Čím se {{term:steel-shot|ocelový brok}} liší od olověného?",
       "options": {
         "a": "Je lehčí a tvrdší",
         "b": "Je těžší a měkčí",
         "c": "Rozdíl v podstatě není",
         "d": "Bývá jen drobný"
       },
-      "explain": "Ocel je při stejné velikosti asi o 30 % lehčí než olovo a mnohem tvrdší."
+      "explain": "Ocel je při stejné velikosti asi o 30 % lehčí než {{term:lead-shot|olovo}} a mnohem tvrdší."
     },
     "cartridges-lead-and-steel-q4": {
-      "q": "Od kdy bude ve Velké Británii zakázán olověný brok pro stendovou střelbu?",
+      "q": "Od kdy bude ve Velké Británii zakázán {{term:lead-shot|olověný brok}} pro stendovou střelbu?",
       "options": {
         "a": "Od 1. ledna 2027",
         "b": "Od 1. dubna 2029",
@@ -105,6 +105,6 @@
     }
   },
   "title": "Olovo, ocel a měkké železo",
-  "summary": "Čím se olověné broky liší od ocelových a ze železa, proč některé střelnice vyžadují bezolovnaté broky a kde je olovo už omezené. Pravidla {{tm:sporting}} a {{tm:compak}} jsou psána pro olovo.",
+  "summary": "Čím se {{term:lead-shot|olověné broky}} liší od ocelových a ze železa, proč některé střelnice vyžadují bezolovnaté broky a kde je olovo už omezené. Pravidla {{tm:sporting}} a {{tm:compak}} jsou psána pro olovo.",
   "did_you_know": "Hustota olova je asi 11,3 g/cm³, oceli asi 7,8–7,9 g/cm³. Ocelový brok stejného průměru je tak zhruba o 30 % lehčí než olověný."
 }

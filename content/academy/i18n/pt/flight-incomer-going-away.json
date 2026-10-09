@@ -30,10 +30,10 @@
   },
   "title": "De entrada, de saída, de batida e por cima",
   "body": {
-    "flight-incomer-going-away-p1": "Um {{term:incomer|prato de entrada}} voa na direção do atirador, muitas vezes de uma máquina distante ou de uma torre, e normalmente vai descendo à medida que se aproxima. Pode parecer abrandar e ficar suspenso no ar, o que tenta o atirador a parar a arma e a fazer pontaria como com uma carabina, uma causa comum de falha. Atira-se-lhe normalmente ainda à frente do atirador, antes de chegar por cima. No momento do disparo, os canos podem tapar o prato («blot it out»). Muitos treinadores deixam isto acontecer nestes pratos: normalmente é intencional, não um erro.",
-    "flight-incomer-going-away-p2": "Um {{term:going-away|prato de saída}} parte de perto ou de trás do atirador e afasta-se. Precisa de pouco avanço lateral, mas fica pequeno depressa e muitas vezes sobe ou desce. Por isso, na maior parte dos casos, deve atirar-se-lhe um pouco acima se sobe, ou um pouco abaixo se desce, e o tempo conta: não espere. No {{tm:compak}} é obrigatório um prato de saída sobre o lado BC; pode vir de uma máquina enterrada à frente dos postos ou de uma {{term:tower|torre}} atrás deles, {{fact:targets.compak-tower-height}}.",
+    "flight-incomer-going-away-p1": "Um {{term:incomer|prato de entrada}} voa na direção do atirador, muitas vezes de uma {{term:trap|máquina}} distante ou de uma {{term:tower|torre}}, e normalmente vai descendo à medida que se aproxima. Pode parecer abrandar e ficar suspenso no ar, o que tenta o atirador a parar a arma e a fazer pontaria como com uma carabina, uma causa comum de falha. Atira-se-lhe normalmente ainda à frente do atirador, antes de chegar por cima. No momento do disparo, os canos podem tapar o prato («blot it out»). Muitos treinadores deixam isto acontecer nestes pratos: normalmente é intencional, não um erro.",
+    "flight-incomer-going-away-p2": "Um {{term:going-away|prato de saída}} parte de perto ou de trás do atirador e afasta-se. Precisa de pouco {{term:lead|avanço}} lateral, mas fica pequeno depressa e muitas vezes sobe ou desce. Por isso, na maior parte dos casos, deve atirar-se-lhe um pouco acima se sobe, ou um pouco abaixo se desce, e o tempo conta: não espere. No {{tm:compak}} é obrigatório um prato de saída sobre o lado BC; pode vir de uma máquina enterrada à frente dos postos ou de uma {{term:tower|torre}} atrás deles, {{fact:targets.compak-tower-height}}.",
     "flight-incomer-going-away-p3": "Um {{term:driven-target|prato de batida}} é um prato de entrada que passa por cima da cabeça do atirador, como um faisão empurrado pelos batedores. Muitos treinadores ensinam-no assim: apanhe-o cedo com os olhos e comece a mover a arma com ele. Suba com a arma por trás do prato e atravesse-o, dispare no momento em que os canos o taparem, e continue o movimento.",
-    "flight-incomer-going-away-p4": "Um {{term:overhead|prato por cima}} vindo de trás passa por cima das costas do atirador e afasta-se. Vê-se tarde, por isso muitos treinadores sugerem olhar para trás à procura dele antes de pedir. Ponha a arma ao ombro ({{term:gun-mount|montagem}}) à medida que ele passa por cima. Dispare quando a ponta dos canos chegar à frente do prato, e continue o movimento depois do tiro ({{term:follow-through|acompanhamento}}).",
+    "flight-incomer-going-away-p4": "Um {{term:overhead|prato por cima}} vindo de trás passa por cima das costas do atirador e afasta-se. Vê-se tarde, por isso muitos treinadores sugerem olhar para trás à procura dele antes de pedir. Ponha a arma ao ombro — {{term:gun-mount|montagem}} — à medida que ele passa por cima. Dispare quando a ponta dos canos chegar à frente do prato, e continue o movimento depois do tiro — {{term:follow-through|acompanhamento}}.",
     "flight-incomer-going-away-p5": "«Incoming» (de entrada) e «going away» (de saída) descrevem sempre o prato em relação ao atirador."
   },
   "note": {},
@@ -71,10 +71,10 @@
         "c": "Esperar até o prato desaparecer de vista",
         "d": "Atirar só aos pedaços que caem"
       },
-      "explain": "Nos pratos de entrada, de batida e ascendentes, a arma tapa muitas vezes o prato no momento do disparo; o treinador pede exatamente isso."
+      "explain": "Nos {{term:incomer|pratos de entrada|pl}}, {{term:driven-target|de batida}} e ascendentes, a arma tapa muitas vezes o prato no momento do disparo; o treinador pede exatamente isso."
     },
     "flight-incomer-going-away-q2": {
-      "q": "Porque não se deve deixar um prato de saída durante muito tempo?",
+      "q": "Porque não se deve deixar um {{term:going-away|prato de saída}} durante muito tempo?",
       "options": {
         "a": "Afasta-se e fica pequeno rapidamente",
         "b": "As regras só permitem três segundos",
@@ -84,14 +84,14 @@
       "explain": "Um prato de saída ganha distância depressa, por isso quanto mais esperar, mais difícil fica. Os três segundos são o tempo de lançamento, não um limite para atirar."
     },
     "flight-incomer-going-away-q3": {
-      "q": "O que distingue um prato de batida de um prato de entrada comum?",
+      "q": "O que distingue um {{term:driven-target|prato de batida}} de um {{term:incomer|prato de entrada}} comum?",
       "options": {
         "a": "É sempre um coelho",
         "b": "Vem de trás do atirador",
         "c": "Passa por cima da cabeça do atirador",
         "d": "Só é lançado no Compak® Sporting"
       },
-      "explain": "De batida (driven) é um prato de entrada que passa por cima da cabeça, como a caça de batida. Um prato que vem de trás é um prato por cima vindo de trás."
+      "explain": "O {{term:driven-target|prato de batida}} é um prato de entrada que passa por cima da cabeça, como a caça de batida. Um prato que vem de trás é um prato por cima vindo de trás."
     }
   },
   "summary": "Pratos que vêm na sua direção, se afastam de si ou passam por cima da sua cabeça: como os reconhecer e o que muitos treinadores sugerem."

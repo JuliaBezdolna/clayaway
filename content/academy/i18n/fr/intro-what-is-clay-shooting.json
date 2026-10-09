@@ -33,15 +33,15 @@
     "origin": null
   },
   "title": "Ce qu'est le tir sur plateaux",
-  "summary": "Le tir sur plateaux est un sport où l'on casse, au fusil, des plateaux d'argile lancés en vol. Voici comment cela fonctionne, et ce que sont le {{tm:sporting}} et le {{tm:compak}}.",
+  "summary": "Le tir sur {{term:target|plateaux}} est un sport où l'on casse, au {{term:shotgun|fusil}}, des plateaux d'argile lancés en vol. Voici comment cela fonctionne, et ce que sont le {{tm:sporting}} et le {{tm:compak}}.",
   "body": {
-    "sport-what-is-clay-p1": "Le tir sur plateaux est un sport dans lequel un tireur casse au fusil de petits disques volants. On appelle ce disque un plateau ou une cible (target, clay) ; les tireurs disent souvent bird (« oiseau »), mais personne ne tire sur des animaux vivants. Le règlement FITASC dit clairement que le tir sur des animaux vivants est interdit, et que la sécurité et le respect de l'environnement passent avant tout.",
-    "sport-what-is-clay-p2": "Une machine appelée lanceur (trap) envoie chaque plateau. Son chemin dans l'air (ou au sol) est la trajectoire. Le fusil est à canon lisse (smooth-bore : pas de rayures en spirale à l'intérieur, à la différence d'une carabine). Il tire une cartouche remplie de petits grains appelés plombs, qui se dispersent en un petit nuage. C'est pourquoi le tireur pointe le fusil là où va le plateau, et non là où il se trouve.",
+    "sport-what-is-clay-p1": "Le tir sur {{term:target|plateaux}} est un sport dans lequel un tireur casse au {{term:shotgun|fusil}} de petits disques volants. On appelle ce disque un plateau ou une cible (en anglais aussi clay) ; les tireurs disent souvent bird (« oiseau »), mais personne ne tire sur des animaux vivants. Le règlement FITASC dit clairement que le tir sur des animaux vivants est interdit, et que la sécurité et le respect de l'environnement passent avant tout.",
+    "sport-what-is-clay-p2": "Une machine appelée {{term:trap|lanceur}} envoie chaque plateau. Son chemin dans l'air (ou au sol) est le {{term:trajectory|trajectoire}}. Le fusil est à canon lisse (smooth-bore : pas de rayures en spirale à l'intérieur, à la différence d'une carabine). Il tire un {{term:cartridge|cartouche}} remplie de petits grains appelés plombs, qui se dispersent en un petit nuage. C'est pourquoi le tireur pointe le fusil là où va le plateau, et non là où il se trouve.",
     "intro-what-is-clay-shooting-p2": "Le lanceur fait tourner le plateau et l'envoie à une vitesse et un angle définis. Les trajectoires varient beaucoup : un plateau peut venir vers vous, s'éloigner, traverser devant vous, voler haut dans le ciel ou rouler au sol.",
     "sport-what-is-clay-p3": "Ce cours porte sur deux disciplines (deux formes de tir sur plateaux) de la fédération internationale FITASC. Le Parcours de Chasse – Sporting™ (Sporting™ en abrégé) imite la chasse : ses lanceurs sont souvent cachés ou masqués par des buissons et des arbres, et les plateaux volent comme une perdrix, un canard ou un faisan, ou roulent comme un lièvre. {{tm:compak}} en est la version compacte : la même variété de plateaux, mais sur un seul petit terrain avec cinq postes alignés et six lanceurs.",
-    "sport-what-is-clay-p5": "Un plateau touché se voit tout de suite : il casse, ou du moins un morceau visible s'en détache. Cette clarté rend le sport facile à regarder et, pour vous, facile à suivre dès le premier jour.",
+    "sport-what-is-clay-p5": "Un plateau touché se voit tout de suite : il casse, ou du moins un {{term:visible-piece|morceau visible}} s'en détache. Cette clarté rend le sport facile à regarder et, pour vous, facile à suivre dès le premier jour.",
     "intro-what-is-clay-shooting-p5": "Ce sport est né de la chasse. Les tireurs s'entraînaient autrefois sur des oiseaux vivants ; à partir de la fin du XIXe siècle, les plateaux d'argile ont commencé à les remplacer. Aujourd'hui, le tir sur plateaux est un sport à part entière, avec ses règles, ses arbitres et ses compétitions internationales. Plus d'histoire : {{lesson:history-live-birds-to-clays}}.",
-    "intro-what-is-clay-shooting-p6": "On peut tirer juste pour le plaisir ou pour la compétition. Beaucoup de gens viennent au stand de tir pour passer une journée au grand air avec des amis ; certains participent ensuite à des concours de club et à des championnats. Les disciplines sont comparées dans {{lesson:intro-disciplines}}."
+    "intro-what-is-clay-shooting-p6": "On peut tirer juste pour le plaisir ou pour la compétition. Beaucoup de gens viennent au stand de tir pour passer une journée au grand air avec des amis ; certains participent ensuite à des {{term:club-shoot|concours de club|pl}} et à des championnats. Les disciplines sont comparées dans {{lesson:intro-disciplines}}."
   },
   "note": {},
   "phrases": {
@@ -73,17 +73,17 @@
         "c": "Une cible en papier en forme d'oiseau sur un panneau",
         "d": "Un drone"
       },
-      "explain": "« Bird » est l'argot des tireurs pour désigner un plateau ; le règlement FITASC interdit de tirer sur des animaux vivants."
+      "explain": "« Bird » est l'argot des tireurs pour désigner un {{term:target|plateau}} ; le règlement FITASC interdit de tirer sur des animaux vivants."
     },
     "sport-what-is-clay-q2": {
-      "q": "Que tire un fusil ?",
+      "q": "Que tire un {{term:shotgun|fusil}} ?",
       "options": {
         "a": "Une seule balle",
         "b": "Une petite fléchette",
         "c": "Un nuage de petits plombs",
         "d": "Une bille remplie de peinture"
       },
-      "explain": "Les plombs sortent du canon en un petit nuage, c'est pourquoi le tireur pointe devant le plateau en mouvement."
+      "explain": "Les plombs sortent du canon en un petit nuage, c'est pourquoi le tireur pointe devant le {{term:target|plateau}} en mouvement."
     },
     "sport-what-is-clay-q3": {
       "q": "Quelle affirmation sur {{tm:compak}} est correcte ?",
@@ -93,10 +93,10 @@
         "c": "On y tire uniquement sur du gibier vivant",
         "d": "Il n'utilise qu'un seul lanceur et un seul poste"
       },
-      "explain": "{{tm:compak}} rassemble des plateaux dans le style {{tm:sporting}} sur un seul petit terrain avec cinq postes et six lanceurs."
+      "explain": "{{tm:compak}} rassemble des {{term:target|plateaux}} dans le style {{tm:sporting}} sur un seul petit terrain avec cinq postes et six lanceurs."
     },
     "intro-what-is-clay-shooting-q1": {
-      "q": "Sur quoi tire-t-on au tir sur plateaux ?",
+      "q": "Sur quoi tire-t-on au tir sur {{term:target|plateaux}} ?",
       "options": {
         "a": "Sur des oiseaux vivants lâchés d'une boîte",
         "b": "Sur des plateaux lancés par un lanceur",
@@ -105,16 +105,16 @@
       "explain": "On ne tire que sur des cibles artificielles lancées par un lanceur. Le tir sur des animaux vivants est interdit."
     },
     "intro-what-is-clay-shooting-q2": {
-      "q": "Qu'est-ce qu'un lanceur (trap) ?",
+      "q": "Qu'est-ce qu'un {{term:trap|lanceur}} ?",
       "options": {
-        "a": "Un fusil à canon court",
+        "a": "Un {{term:shotgun|fusil}} à canon court",
         "b": "L'arbitre qui dirige le poste",
-        "c": "Un appareil qui envoie des plateaux"
+        "c": "Un appareil qui envoie des {{term:target|plateaux}}"
       },
-      "explain": "Le lanceur (trap) envoie le plateau dans les airs ou le fait rouler au sol."
+      "explain": "Le {{term:trap|lanceur}} envoie le plateau dans les airs ou le fait rouler au sol."
     },
     "intro-what-is-clay-shooting-q3": {
-      "q": "Pourquoi un tireur pointe-t-il le fusil devant un plateau en mouvement ?",
+      "q": "Pourquoi un tireur pointe-t-il le {{term:shotgun|fusil}} devant un {{term:target|plateau}} en mouvement ?",
       "options": {
         "a": "Les plombs ont besoin de temps pour atteindre le plateau",
         "b": "L'arbitre le demande à tous les tireurs",

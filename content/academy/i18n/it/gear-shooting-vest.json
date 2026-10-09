@@ -31,9 +31,9 @@
   "title": "Il gilet da tiro",
   "summary": "Perché un tiratore porta un gilet, cosa contiene (tasche, spallina, la linea sul gilet per {{tm:sporting}}), perché nel {{tm:compak}} non serve la linea e come scegliere il primo gilet.",
   "body": {
-    "gear-shooting-vest-p1": "Il {{term:shooting-vest|gilet da tiro}} è la parte più visibile dell'attrezzatura di un tiratore. Non è una questione di moda: il gilet tiene le cartucce a portata di mano, protegge la spalla dal {{term:recoil|rinculo}} e aiuta a imbracciare sempre allo stesso modo.",
-    "gear-shooting-vest-p2": "Le tasche sono il cuore di un gilet. Di solito ci sono due grandi tasche frontali per le cartucce, a sinistra e a destra, così puoi caricare con entrambe le mani. Spesso c'è una tasca separata o una rete per i {{term:empties|bossoli vuoti}}, e piccole tasche per strozzatori, chiave e tappi auricolari. Le cartucce non devono cadere quando ti chini.",
-    "gear-shooting-vest-p3": "Sulla spalla c'è una {{term:shoulder-pad|spallina}}, un inserto liscio di materiale più morbido o più rigido. Il calcio poggia su di essa: la superficie liscia non si impiglia nel tessuto durante l'imbracciata, e l'imbottitura attutisce un po' il rinculo. La spallina deve stare sulla spalla con cui tiri, e molti gilet ne hanno una su entrambi i lati.",
+    "gear-shooting-vest-p1": "Lo {{term:shooting-vest|gilet da tiro}} è la parte più visibile dell'attrezzatura di un tiratore. Non è una questione di moda: il gilet tiene le cartucce a portata di mano, protegge la spalla dal {{term:recoil|rinculo}} e aiuta a imbracciare sempre allo stesso modo.",
+    "gear-shooting-vest-p2": "Le tasche sono il cuore di un gilet. Di solito ci sono due grandi tasche frontali per le cartucce, a sinistra e a destra, così puoi caricare con entrambe le mani. Spesso c'è una tasca separata o una rete per gli {{term:empties|bossoli vuoti}}, e piccole tasche per {{term:choke|strozzatori}}, chiave e {{term:earplugs|tappi auricolari}}. Le cartucce non devono cadere quando ti chini.",
+    "gear-shooting-vest-p3": "Sulla spalla c'è una {{term:shoulder-pad|spallina}}, un inserto liscio di materiale più morbido o più rigido. Lo {{term:stock|calcio}} poggia su di essa: la superficie liscia non si impiglia nel tessuto durante la {{term:gun-mount|imbracciata}}, e l'imbottitura attutisce un po' il rinculo. La spallina deve stare sulla spalla con cui tiri, e molti gilet ne hanno una su entrambi i lati.",
     "gear-protection-clothes-p3": "Per lo {{tm:sporting}} il gilet porta una {{term:jacket-line|linea}} orizzontale a contrasto {{fact:rules.sporting-jacket-line}} e parallela a essa. Prima di chiamare il piattello, e finché non appare, la cima del calcio deve restare sotto di essa, e l'arbitro lo controlla. Nel {{tm:compak}} non c'è una linea del genere, perché la {{term:gun-position|posizione del fucile}} alla chiamata è libera.",
     "gear-shooting-vest-p4": "Molti gilet si vendono con la linea già cucita; altrimenti puoi cucirla o applicarla tu. Se pensi di tirare entrambe le discipline, scegli un gilet con la linea: funziona dappertutto.",
     "women-clothing-community-start-p1": "I gilet hanno tagli diversi, compresi tagli pensati per le donne, che tengono conto del seno e di spalle più strette. Quando il gilet calza bene, la spallina sta esattamente dove va il calcio e non intralcia l'imbracciata. In un gilet che non calza bene, il calcio può impigliarsi nel tessuto o nelle costure.",
@@ -63,12 +63,12 @@
     "gear-shooting-vest-q2": {
       "q": "A cosa serve la spallina sul gilet?",
       "options": {
-        "a": "Perché il calcio scorra bene al suo posto",
-        "b": "Per portare strozzatori di riserva e la chiave",
+        "a": "Perché lo {{term:stock|calcio}} scorra bene al suo posto",
+        "b": "Per portare {{term:choke|strozzatori}} di riserva e la chiave",
         "c": "Per mostrare il numero del tiratore",
         "d": "Per tenere caldo il gilet in inverno"
       },
-      "explain": "Una spallina liscia aiuta un'imbracciata netta e attutisce un po' il rinculo."
+      "explain": "Una spallina liscia aiuta una {{term:gun-mount|imbracciata}} netta e attutisce un po' il {{term:recoil|rinculo}}."
     },
     "gear-shooting-vest-q3": {
       "q": "Il regolamento {{tm:compak}} richiede la linea sul gilet?",
@@ -83,12 +83,12 @@
     "women-clothing-community-start-q1": {
       "q": "Perché aiuta un gilet tagliato sulla tua corporatura?",
       "options": {
-        "a": "La spallina sta dove va il calcio",
+        "a": "La spallina sta dove va lo calcio",
         "b": "Ha molte più tasche per le cartucce",
         "c": "È il modello più economico del negozio",
         "d": "Sostituisce la linea nello {{tm:sporting}}"
       },
-      "explain": "Un taglio che tiene conto di seno e spalle mantiene la spallina al suo posto, così non intralcia l'imbracciata."
+      "explain": "Un taglio che tiene conto di seno e spalle mantiene la spallina al suo posto, così non intralcia la {{term:gun-mount|imbracciata}}."
     }
   }
 }

@@ -50,10 +50,10 @@
  "title": "Komento, aikarajat ja myöhästyminen",
  "summary": "Miten kiekkoa pyydetään, kuinka nopeasti sen täytyy tulla, kuinka paljon aikaa on {{tm:sporting}}- ja {{tm:compak}}-lajeissa ja mitä myöhästyminen maksaa.",
  "body": {
-  "rules-call-and-time-p1": "Kiekko ei lennä itsestään: sitä {{term:call|pyydetään}} lyhyellä sanalla, kuten ”pull” tai ”ready”. Säännöt määräävät, kuinka nopeasti kiekon täytyy tulla ja kuinka paljon aikaa saa käyttää.",
-  "sporting-time-and-lateness-p1": "{{tm:sporting}} etenee tasaisessa rytmissä, ja useat säännöt suojaavat sitä. Pyydät kiekkoa, ja tuomari välittää pyyntösi {{term:trapper|heitinten operaattorille}} (henkilölle, joka laukaisee kiekot) äänimerkillä. Siitä merkistä kiekon täytyy olla ilmassa {{fact:rules.release-within-3s}}. Jos se tulee myöhemmin, tuomari ilmoittaa {{term:no-bird|uuden kiekon}} (No Bird), ja kiekko heitetään uudelleen.",
-  "compak-gun-and-call-p2": "{{tm:compak}}-lajissa heitin voidaan laukaista käsin, kaukosäätimellä tai {{term:sonopull|mikrofonilähdöllä}} (mikrofonijärjestelmällä, joka laukaisee heittimen kuultuaan pyyntösi). Käsin laukaistuna kiekon täytyy lähteä 0–3 sekunnin kuluessa pyynnöstä. Mikrofonilähtö odottaa aina {{fact:rules.sonopull-delay}} pyynnön jälkeen, niin ajoitus on sama joka kerta. Kansainväliset {{term:compak-in-line|linjassa}} ammutut kilpailut (ampujat tulevat numerolle 1 yksi kerrallaan ja etenevät linjaa pitkin numerolle 5) käyttävät vain mikrofonilähtöä. Kiekko, joka lähtee yli 3 sekuntia myöhässä, tai kiekko, jota et pyytänyt, on uusi kiekko (No Bird).",
-  "rules-call-and-time-p3": "Molemmissa lajeissa ainoa kiekko, jonka saa kieltäytyä, on sellainen, jota ei pyytänyt: se on uusi kiekko (No Bird).",
+  "rules-call-and-time-p1": "Kiekko ei lennä itsestään: sitä pyydetään lyhyellä sanalla – tämä on {{term:call|kiekon pyytäminen}} –, kuten ”pull” tai ”ready”. Säännöt määräävät, kuinka nopeasti kiekon täytyy tulla ja kuinka paljon aikaa saa käyttää.",
+  "sporting-time-and-lateness-p1": "{{tm:sporting}} etenee tasaisessa rytmissä, ja useat säännöt suojaavat sitä. Pyydät kiekkoa, ja {{term:referee|tuomari}} välittää pyyntösi {{term:trapper|heitinten operaattorille}} – henkilölle, joka laukaisee kiekot – äänimerkillä. Siitä merkistä kiekon täytyy olla ilmassa {{fact:rules.release-within-3s}}. Jos se tulee myöhemmin, tuomari ilmoittaa {{term:no-bird|uuden kiekon}}, ja kiekko heitetään uudelleen.",
+  "compak-gun-and-call-p2": "{{tm:compak}}-lajissa {{term:trap|heitin}} voidaan laukaista käsin, kaukosäätimellä tai {{term:sonopull|mikrofonilähdöllä}} – mikrofonijärjestelmällä, joka laukaisee heittimen kuultuaan pyyntösi. Käsin laukaistuna kiekon täytyy lähteä 0–3 sekunnin kuluessa pyynnöstä. Mikrofonilähtö odottaa aina {{fact:rules.sonopull-delay}} pyynnön jälkeen, niin ajoitus on sama joka kerta. Kansainväliset {{term:compak-in-line|linjassa}} ammutut kilpailut (ampujat tulevat numerolle 1 yksi kerrallaan ja etenevät linjaa pitkin numerolle 5) käyttävät vain mikrofonilähtöä. Kiekko, joka lähtee yli 3 sekuntia myöhässä, tai kiekko, jota et pyytänyt, on {{term:no-bird|uusi kiekko}}.",
+  "rules-call-and-time-p3": "Molemmissa lajeissa ainoa kiekko, jonka saa kieltäytyä, on sellainen, jota ei pyytänyt: se on {{term:no-bird|uusi kiekko}}.",
   "rules-call-and-time-cmp1": {
    "sporting": "Sitä ei saa kieltäytyä. Jos se heitettiin oikein ja et ampunut, se merkitään nollaksi.",
    "compak": "Sitäkään ei saa kieltäytyä. Kieltäydytty yksittäiskiekko merkitään nollaksi; kaksoiskiekoille pätee säännöt-oppaan taulukko."
@@ -64,7 +64,7 @@
   },
   "sporting-time-and-lateness-p2": "Kun raja ylittyy ensimmäisen kerran, tuomari antaa varoituksen. Sen jälkeen sovelletaan punaisen kortin rangaistuksia ({{rule:sporting:ch12-red-card}}). Kun tuomari on antanut lopullisen ratkaisun, esimerkiksi protestin jälkeen, sinun täytyy jatkaa ampumista {{fact:rules.sporting-resume-after-ruling}}. Jos et jatka, tai viivyttelet tahallaan, se lasketaan {{term:refusal-to-comply|kieltäytymiseksi noudattaa ohjeita}}: erilliseksi rikkomukseksi, josta jury voi rangaista.",
   "compak-gun-and-call-p3": "Kun raja ylittyy ensimmäisen kerran, tuomari merkitsee varoituksen {{term:score-sheet|tulospöytäkirjaan}}. Jos sama toistuu samalla {{term:round|kierroksella}}, seuraa punainen kortti: yksittäiskiekko merkitään nollaksi, ja kaksoiskiekoille pätee säännöt-oppaan taulukko ({{rule:compak:ch21-penalty-table}}). Kun tuomari on antanut lopullisen ratkaisun, sinun täytyy jatkaa ampumista {{fact:rules.compak-resume-after-ruling}}. Jos et jatka, tai viivyttelet tahallaan, se lasketaan kieltäytymiseksi noudattaa ohjeita, josta jury voi rangaista.",
-  "rules-call-and-time-p7": "Moni valmentaja ehdottaa lyhyttä, vakioitua {{term:pre-shot-routine|suoritusrutiinia}}, joka mahtuu hyvin rajan sisään. Esimerkiksi: astu paikalle, lataa, kun tuomari sen sallii, ota valmiusasento, hengitä ulos, sitten pyydä kiekkoa. Lisää: {{lesson:mind-routine-under-pressure}}.",
+  "rules-call-and-time-p7": "Moni valmentaja ehdottaa lyhyttä, vakioitua {{term:pre-shot-routine|suoritusrutiinia}}, joka mahtuu hyvin rajan sisään. Esimerkiksi: astu paikalle, lataa, kun tuomari sen sallii, ota {{term:ready-position|valmiusasento}}, hengitä ulos, sitten pyydä kiekkoa. Lisää: {{lesson:mind-routine-under-pressure}}.",
   "sporting-time-and-lateness-p3": "{{term:lateness|Myöhästyminen}}: jos olet poissa, kun eräsi aloittaa, tuomari kutsuu nimeäsi ja numeroasi kolme kertaa yhden minuutin aikana. Jos saavut, kun eräsi ampuu vielä ensimmäisen paikan yksittäiskiekkoja ja vuorosi ei ole vielä mennyt ohi, liityt mukaan ilman rangaistusta. Sen jälkeen kaikki ampumatta jääneet kiekot ovat nollia, ja väliin jääneitä paikkoja ei voi korvata myöhemmin toisessa erässä.",
   "sporting-time-and-lateness-p4": "Jos myöhästyit syystä, johon et voinut vaikuttaa, älä liity erään sillä kierroksella; valita kirjallisesti jurylle. Jos jury on samaa mieltä, ammut kierroksen toisessa erässä. Jos se kieltäytyy, joka ampumatta jäänyt rataosuus lasketaan 25 nollana.",
   "compak-dress-and-conduct-p3": "{{tm:compak}}-lajissa sinun täytyy ilmoittautua tuomarille hyvissä ajoin ja vahvistaa olevasi paikalla. Linjan lisäksi on by-squad-formaatti: {{term:squad|erä}}, jossa on {{fact:rules.squad-max-shooters}}, ampuu kierroksen yhdessä ja siirtyy numerolta numerolle. Tässä formaatissa ampuja, joka saapuu erän ensimmäisen kierroksen kiekon pyynnön jälkeen, saa kierrokselta 25 nollaa. Vetoomus tehdään kirjallisesti jurylle samana päivänä.",
@@ -72,7 +72,7 @@
    "sporting": "Ole valmis {{fact:rules.shootoff-ready-time}}. Jos et ole paikalla, sinut hylätään.",
    "compak": "Ole valmis {{fact:rules.shootoff-ready-time}}. Jos olet poissa, sinut katsotaan vetäytyneeksi."
   },
-  "rules-call-and-time-tip2": "Pue kuulosuojaimet ja lasit ennen kuin astut ampumapaikalle: molemmissa lajeissa ampujaa, jolla ei ole niitä, kohdellaan poissaolevana ({{lesson:rules-dress-and-safety}})."
+  "rules-call-and-time-tip2": "Pue {{term:hearing-protection|kuulosuojaimet}} ja lasit ennen kuin astut ampumapaikalle: molemmissa lajeissa ampujaa, jolla ei ole niitä, kohdellaan poissaolevana ({{lesson:rules-dress-and-safety}})."
  },
  "note": {
   "sporting-time-and-lateness-p6": "Älä pidätä erää pitkällä käännöksellä: pidä se lyhyenä juuri sillä hetkellä ja kerro yksityiskohdat vasta ampumapaikan jälkeen."
@@ -104,8 +104,8 @@
   }
  },
  "key_points": {
-  "sporting-time-and-lateness-kp1": "Yli 3 sekuntia myöhässä laukaistu kiekko on uusi kiekko (No Bird), molemmissa lajeissa.",
-  "rules-call-and-time-kp2": "Pyytämääsi kiekkoa ei saa kieltäytyä; sitä, jota et pyytänyt, on uusi kiekko (No Bird).",
+  "sporting-time-and-lateness-kp1": "Yli 3 sekuntia myöhässä laukaistu kiekko on {{term:no-bird|uusi kiekko}}, molemmissa lajeissa.",
+  "rules-call-and-time-kp2": "Pyytämääsi kiekkoa ei saa kieltäytyä; sitä, jota et pyytänyt, on {{term:no-bird|uusi kiekko}}.",
   "rules-call-and-time-kp3": "{{tm:sporting}}: {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: {{fact:rules.compak-time-to-call}}.",
   "compak-gun-and-call-kp3": "Aikarajan ylitys tuo ensin varoituksen, toistuessa punaisen kortin.",
   "sporting-time-and-lateness-kp4": "Ole ajoissa: {{tm:sporting}}-lajissa myöhästymisen takia ampumatta jääneet kiekot ovat nollia; {{tm:compak}}-lajissa ryhmässä erän ensimmäisen pyynnön jälkeen saapuminen maksaa 25 nollaa."
@@ -118,7 +118,7 @@
     "b": "10 sekuntia",
     "c": "15 sekuntia"
    },
-   "explain": "Molemmissa lajeissa yli 3 sekuntia myöhässä laukaistu kiekko on uusi kiekko (No Bird)."
+   "explain": "Molemmissa lajeissa yli 3 sekuntia myöhässä laukaistu kiekko on {{term:no-bird|uusi kiekko}}."
   },
   "rules-call-and-time-q2": {
    "q": "Kuinka paljon aikaa sinulla on pyytää kiekkoa {{tm:compak}}-lajissa?",
@@ -134,7 +134,7 @@
    "options": {
     "a": "Se on nolla",
     "b": "Keltainen kortti",
-    "c": "Se on uusi kiekko (No Bird)"
+    "c": "Se on uusi kiekko"
    },
    "explain": "Kiekko, jota et pyytänyt, on uusi kiekko, ja se on ainoa laji, jonka saa kieltäytyä."
   },
@@ -142,7 +142,7 @@
    "q": "Ampuja pyytää kiekkoa, tuomari välittää merkin, mutta kiekko lähtee noin viisi sekuntia myöhemmin. Ratkaisu?",
    "options": {
     "a": "Nolla",
-    "b": "Uusi kiekko (No Bird)",
+    "b": "Uusi kiekko",
     "c": "Ampujan täytyy ampua se",
     "d": "Varoitus ampujalle"
    },

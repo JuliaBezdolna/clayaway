@@ -43,14 +43,14 @@
     "origin": "interpreter-academy"
   },
   "title": "Comment fonctionnent un parcours et une série {{tm:sporting}}",
-  "summary": "Parcours, postes de tir, lanceurs A à D, menu des plateaux, catégories de difficulté et série de 25 plateaux : comment est organisée et tirée une compétition {{tm:sporting}}.",
+  "summary": "{{term:layout|Parcours}}, postes de tir, {{term:trap|lanceurs}} A à D, menu des plateaux, {{term:difficulty-class|catégories de difficulté}} et {{term:round|série}} de 25 plateaux : comment est organisée et tirée une compétition {{tm:sporting}}.",
   "body": {
-    "sport-sporting-layout-p1": "En {{tm:sporting}}, le stand de tir est divisé en {{term:layout|parcours}}. Un parcours est un groupe de {{term:shooting-stand|postes de tir}} qui donnent ensemble une série de {{fact:targets.sporting-layout-targets}}.",
-    "sporting-rounds-stands-p2": "Les parcours sont construits de deux façons. Dans l'ancien système, 3 postes partagent 5 lanceurs. Le système plus récent s'appelle une {{term:line|ligne de tir}}. Une ligne de 4 postes a trois postes avec 4 lanceurs et un poste (le n° 2 ou le n° 3) avec 3 lanceurs. Une ligne de 5 postes a 3 lanceurs à chaque poste. Une ligne de 3 postes avec 5 lanceurs chacun n'est autorisée que pour un Grand Prix.",
-    "sport-sporting-layout-p2": "Un poste de tir est l'endroit où se tient le tireur : un carré de 1 m ou un cercle de 1 m de diamètre. Il doit être plat autant que possible, et au moins non glissant (règle de sécurité). Le reste de la {{term:squad|planche}} (le groupe de tireurs qui tirent ensemble) attend à proximité, assez près pour suivre, mais sans déranger le tireur.",
-    "sport-sporting-layout-p3": "Les lanceurs sont placés selon le terrain, souvent en partie cachés par des buissons ou des arbres. Les plateaux imitent le vrai gibier : traversant, venant sur vous, s'éloignant de vous ou en biais (quartering), haut ou bas, à découvert ou à travers les arbres. Les lanceurs d'un poste sont désignés par des lettres de gauche à droite vus depuis le poste : A, B, C et ainsi de suite (le règlement les nomme de A à D). Le menu et la feuille de marque utilisent ces lettres.",
-    "sport-sporting-layout-p4": "Devant chaque poste se trouve un {{term:target-menu|menu}}. Il énumère les lanceurs dans l'ordre de tir et nomme les éventuels plateaux spéciaux : {{fact:targets.sporting-menu-special-targets}}. Avant la compétition, les arbitres vérifient que les lanceurs correspondent au menu. Les tireurs le lisent avant de monter sur le poste ; voir {{lesson:targets-menu}}.",
-    "sport-sporting-layout-p5": "Chaque trajectoire a une {{term:difficulty-class|catégorie de difficulté}} : {{fact:targets.sporting-difficulty-classes}}. Pour un poste, le règlement recommande une trajectoire A, deux B et une C. Un plateau de catégorie C est donc censé être difficile, et un échec là n'est pas un drame.",
+    "sport-sporting-layout-p1": "En {{tm:sporting}}, le stand de tir est divisé en {{term:layout|parcours}}. Un parcours est un groupe de {{term:shooting-stand|postes de tir}} qui donnent ensemble un {{term:round|série}} de {{fact:targets.sporting-layout-targets}}.",
+    "sporting-rounds-stands-p2": "Les parcours sont construits de deux façons. Dans l'ancien système, 3 postes partagent 5 {{term:trap|lanceurs}}. Le système plus récent s'appelle un {{term:line|ligne de tir}}. Une ligne de 4 postes a trois postes avec 4 lanceurs et un poste (le n° 2 ou le n° 3) avec 3 lanceurs. Une ligne de 5 postes a 3 lanceurs à chaque poste. Une ligne de 3 postes avec 5 lanceurs chacun n'est autorisée que pour un Grand Prix.",
+    "sport-sporting-layout-p2": "Un poste de tir est l'endroit où se tient le tireur : un carré de 1 m ou un cercle de 1 m de diamètre. Il doit être plat autant que possible, et au moins non glissant (règle de sécurité). Le reste du {{term:squad|planche}} — le groupe de tireurs qui tirent ensemble — attend à proximité, assez près pour suivre, mais sans déranger le tireur.",
+    "sport-sporting-layout-p3": "Les lanceurs sont placés selon le terrain, souvent en partie cachés par des buissons ou des arbres. Les plateaux imitent le vrai gibier : {{term:crosser|traversant}}, venant sur vous, s'éloignant de vous ou en biais (quartering), haut ou bas, à découvert ou à travers les arbres. Les lanceurs d'un poste sont désignés par des lettres de gauche à droite vus depuis le poste : A, B, C et ainsi de suite (le règlement les nomme de A à D). Le menu et le {{term:score-sheet|feuille de marque}} utilisent ces lettres.",
+    "sport-sporting-layout-p4": "Devant chaque poste se trouve un {{term:target-menu|menu}}. Il énumère les lanceurs dans l'ordre de tir et nomme les éventuels plateaux spéciaux : {{fact:targets.sporting-menu-special-targets}}. Avant la compétition, les {{term:referee|arbitres}} vérifient que les lanceurs correspondent au menu. Les tireurs le lisent avant de monter sur le poste ; voir {{lesson:targets-menu}}.",
+    "sport-sporting-layout-p5": "Chaque trajectoire a un {{term:difficulty-class|catégorie de difficulté}} : {{fact:targets.sporting-difficulty-classes}}. Pour un poste, le règlement recommande une trajectoire A, deux B et une C. Un plateau de catégorie C est donc censé être difficile, et un échec là n'est pas un drame.",
     "sporting-rounds-stands-p1": "Une compétition {{tm:sporting}} se compte en séries de 25 plateaux. Une épreuve internationale compte 200 plateaux, soit huit séries ; chaque série se tire sur un parcours (un ensemble de postes de tir) ou une ligne.",
     "sporting-rounds-stands-p4": "Les tireurs font le tour en planches de six au maximum ; la répartition par planche se décide par tirage au sort. À chaque poste, tout le monde tire d'abord les simples, puis les doublés. Qui tire en premier change de poste en poste, et change encore quand commencent les doublés. Les autres attendent à proximité sans déranger celui qui tire.",
     "targets-sporting-layout-ready": "Quand votre nom est appelé, soyez prêt immédiatement, avec cartouches et matériel pour toute la série. Ne montez sur le poste qu'à votre tour, une fois que le tireur précédent l'a quitté.",
@@ -99,7 +99,7 @@
   },
   "quiz": {
     "sporting-rounds-stands-q1": {
-      "q": "Combien de plateaux donne un parcours {{tm:sporting}}, et comment se répartissent-ils ?",
+      "q": "Combien de plateaux donne un {{term:layout|parcours}} {{tm:sporting}}, et comment se répartissent-ils ?",
       "options": {
         "a": "20 : 10 simples et 5 doublés",
         "b": "25 : uniquement des simples",
@@ -109,7 +109,7 @@
       "explain": "Chaque type de parcours donne 15 simples plus 5 doublés, soit 25 plateaux."
     },
     "sporting-rounds-stands-q2": {
-      "q": "Dans quel ordre une planche tire-t-elle à un poste ?",
+      "q": "Dans quel ordre un {{term:squad|planche}} tire-t-il à un {{term:shooting-stand|poste}} ?",
       "options": {
         "a": "D'abord les doublés, puis les simples, dans un ordre fixe",
         "b": "D'abord les simples, puis les doublés, à tour de rôle",
@@ -119,12 +119,12 @@
       "explain": "Les simples viennent d'abord, puis les doublés, à tour de rôle, sauf décision contraire du jury."
     },
     "sporting-rounds-stands-q3": {
-      "q": "En quittant le poste, un tireur voit qu'un plateau touché a été noté comme manqué. Que doit-il faire ?",
+      "q": "En quittant le {{term:shooting-stand|poste}}, un tireur voit qu'un plateau touché a été noté comme manqué. Que doit-il faire ?",
       "options": {
-        "a": "Attendre la fin de la série et faire appel auprès du jury",
+        "a": "Attendre la fin du {{term:round|série}} et faire appel auprès du jury",
         "b": "Corriger lui-même la feuille",
-        "c": "Demander à la planche de voter",
-        "d": "Le signaler immédiatement à l'arbitre ; l'arbitre décide"
+        "c": "Demander au {{term:squad|planche}} de voter",
+        "d": "Le signaler immédiatement au {{term:referee|arbitre}} ; l'arbitre décide"
       },
       "explain": "Les scores se vérifient en quittant chaque poste ; l'arbitre décide seul, et il n'y a pas d'appel ensuite."
     },
@@ -136,7 +136,7 @@
         "c": "200",
         "d": "250"
       },
-      "explain": "Une épreuve internationale compte 200 plateaux, tirés en huit séries de 25."
+      "explain": "Une épreuve internationale compte 200 plateaux, tirés en huit {{term:round|séries}} de 25."
     },
     "sport-sporting-layout-q2": {
       "q": "Un entraîneur dit « Go to stand two. » Que signifie « stand » ici ?",
@@ -149,22 +149,22 @@
       "explain": "En {{tm:sporting}}, un stand est l'emplacement de 1 m où se tient le tireur. Ce n'est pas tout le terrain."
     },
     "sport-sporting-layout-q3": {
-      "q": "Comment sont désignés les lanceurs d'un poste {{tm:sporting}} ?",
+      "q": "Comment sont désignés les {{term:trap|lanceurs}} d'un {{term:shooting-stand|poste}} {{tm:sporting}} ?",
       "options": {
         "a": "Par des numéros de 1 à 6, comptés depuis la droite",
         "b": "Par des couleurs peintes sur chaque machine",
         "c": "Par les lettres A, B, C, D de gauche à droite",
         "d": "Par le nom de la personne qui les déclenche"
       },
-      "explain": "Les lettres A, B, C, D se lisent de gauche à droite vues depuis le poste, et le menu ainsi que la feuille de marque les utilisent."
+      "explain": "Les lettres A, B, C, D se lisent de gauche à droite vues depuis le poste, et le menu ainsi que le {{term:score-sheet|feuille de marque}} les utilisent."
     },
     "etiquette-squad-q3": {
-      "q": "En {{tm:sporting}}, comment fonctionne l'ordre de tir dans une planche ?",
+      "q": "En {{tm:sporting}}, comment fonctionne la {{term:rotation|ordre de tir}} dans un {{term:squad|planche}} ?",
       "options": {
-        "a": "Il tourne à chaque poste et pour les doublés",
+        "a": "Il tourne à chaque {{term:shooting-stand|poste}} et pour les doublés",
         "b": "Il est fixe pour toute la journée",
         "c": "Le tireur le mieux classé commence toujours",
-        "d": "L'arbitre choisit librement"
+        "d": "Le {{term:referee|arbitre}} choisit librement"
       },
       "explain": "Les planches de six sont tirées au sort, et l'ordre tourne à chaque poste ainsi que pour les doublés."
     }

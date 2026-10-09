@@ -29,7 +29,11 @@
     "competitions-how-to-enter-q3": "3a6a99ba",
     "competitions-how-to-enter-q-absent": "aba755c8"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Come iscriversi a una gara",
   "summary": "Dove trovare una gara di {{tm:sporting}} o {{tm:compak}}, cosa dice il programma, come iscriversi e quali documenti controllare.",
   "body": {
@@ -37,17 +41,17 @@
     "competitions-how-to-enter-programme": [
       "le date, il luogo e la disciplina;",
       "il numero di piattelli e il formato;",
-      "l'orario, la scadenza per iscriversi e la {{term:entry-fee|quota d'iscrizione}};",
+      "l'orario, la scadenza per iscriversi e l'{{term:entry-fee|quota d'iscrizione}};",
       "le {{term:category|categorie}} e i premi;",
       "i contatti dell'organizzatore ed eventuali regole locali."
     ],
     "competitions-how-to-enter-p2": "Un'{{term:entry|iscrizione}} è la vostra registrazione alla gara. Spesso si fa online in anticipo e si conferma al banco il giorno stesso. La quota d'iscrizione si paga con l'iscrizione o alla registrazione. Chiedete per tempo se la quota viene rimborsata se non potete venire.",
-    "competitions-how-to-enter-fee-rules": "Tenete a mente l'importo della quota. Alcune decisioni dell'arbitro si possono appellare per iscritto alla {{term:jury|giuria}} (il collegio che dirige la gara). Nel {{tm:sporting}} lasciate allora una {{term:deposit|cauzione}} di {{fact:rules.sporting-jury-deposit}}; vi viene restituita se la giuria vi dà ragione. Come funzionano i ricorsi: {{lesson:competitions-results-and-protests}}.",
+    "competitions-how-to-enter-fee-rules": "Tenete a mente l'importo della quota. Alcune decisioni dell'arbitro si possono appellare per iscritto alla {{term:jury|giuria}} — il collegio che dirige la gara. Nel {{tm:sporting}} lasciate allora una {{term:deposit|cauzione}} di {{fact:rules.sporting-jury-deposit}}; vi viene restituita se la giuria vi dà ragione. Come funzionano i ricorsi: {{lesson:competitions-results-and-protests}}.",
     "competitions-how-to-enter-p3": "Per le gare ufficiali di solito dovete essere membri di un club o della {{term:national-federation|federazione nazionale}}. Alcune federazioni rilasciano anche una {{term:sports-licence|tessera federale}}, che non è un permesso d'armi. I tiratori per i Campionati europei e mondiali vengono di solito iscritti dalla propria federazione nazionale. Queste regole variano da paese a paese, quindi controllatele per tempo con la vostra federazione o con l'organizzatore.",
-    "competitions-how-to-enter-p4": "Le leggi sulle armi variano da paese a paese. Dovete possedere legalmente il fucile e le cartucce a casa e trasportarli legalmente dove tirate. Se vivete nell'UE e portate il vostro fucile in un altro paese dell'UE, di solito vi serve una {{term:european-firearms-pass|Carta europea d'arma da fuoco}}. Le regole di ogni singolo paese restano comunque valide. Dettagli: {{lesson:travel-gun-in-eu}}.",
+    "competitions-how-to-enter-p4": "Le leggi sulle armi variano da paese a paese. Dovete possedere legalmente il fucile e le cartucce a casa e trasportarli legalmente dove tirate. Se vivete nell'UE e portate il vostro fucile in un altro paese dell'UE, di solito vi serve un'{{term:european-firearms-pass|Carta europea d'arma da fuoco}}. Le regole di ogni singolo paese restano comunque valide. Dettagli: {{lesson:travel-gun-in-eu}}.",
     "competitions-how-to-enter-efp-residents": "La carta viene rilasciata solo ai residenti dei paesi dell'UE e degli stati Schengen che applicano le regole UE sulle armi (Svizzera, Norvegia, Islanda e Liechtenstein). Se vivete altrove, leggete {{lesson:travel-gun-outside-eu}}, oppure chiedete all'organizzatore se potete noleggiare un fucile sul campo.",
-    "competitions-how-to-enter-release": "Questo riguarda solo i fucili dotati di {{term:release-trigger|scatto a rilascio}}. Spara quando il dito si allontana dal grilletto, non quando lo preme. Se la legge del paese ospitante vieta questo tipo di scatto, il programma di una gara internazionale deve dirlo.",
-    "competitions-how-to-enter-p5": "Dopo la chiusura delle iscrizioni, l'organizzatore pubblica {{term:shooting-times|gli orari di tiro}} e le liste delle {{term:squad|batterie}}. Una batteria è un piccolo gruppo di massimo sei tiratori che tirano ogni serie insieme; la lista vi dice in quale batteria siete e quando parte. Rispettare l'orario è una vostra responsabilità, inclusi eventuali ritardi o cambiamenti durante la gara.",
+    "competitions-how-to-enter-release": "Questo riguarda solo i fucili dotati di {{term:release-trigger|scatto a rilascio}}. Spara quando il dito si allontana dal {{term:trigger|grilletto}}, non quando lo preme. Se la legge del paese ospitante vieta questo tipo di scatto, il programma di una gara internazionale deve dirlo.",
+    "competitions-how-to-enter-p5": "Dopo la chiusura delle iscrizioni, l'organizzatore pubblica gli {{term:shooting-times|orari di tiro}} e le liste delle {{term:squad|batterie}}. Una batteria è un piccolo gruppo di massimo sei tiratori che tirano ogni serie insieme; la lista vi dice in quale batteria siete e quando parte. Rispettare l'orario è una vostra responsabilità, inclusi eventuali ritardi o cambiamenti durante la gara.",
     "competitions-how-to-enter-absent-day-one": "Il {{tm:compak}} si può tirare {{term:compak-in-line|in linea}}: i tiratori entrano sulla postazione 1 uno alla volta e avanzano lungo la linea fino alla postazione 5. In questo formato un tiratore che manca il primo giorno viene tolto dalla lista di partenza dal secondo giorno. Per tirare comunque, deve fare ricorso alla {{term:jury|giuria}}.",
     "competitions-how-to-enter-tip": "Prima della vostra prima gara, scrivete la data, l'orario di partenza della vostra batteria, l'indirizzo del campo e il numero di telefono dell'organizzatore. Tenete la conferma ricevuta e i documenti del fucile insieme al vostro equipaggiamento."
   },
@@ -62,31 +66,51 @@
     "competitions-how-to-enter-kp4": "Portare il proprio fucile in un altro paese dell'UE richiede di solito una Carta europea d'arma da fuoco; possono ottenerla solo i residenti dell'UE e di Svizzera, Norvegia, Islanda e Liechtenstein.",
     "competitions-how-to-enter-kp5": "Rispettare l'orario è una vostra responsabilità."
   },
-  "did_you_know": "Dove gli scatti a rilascio sono permessi, un fucile che ne ha uno porta un adesivo fluorescente con una grande «R» sul lato esterno del calcio, così tutti in pedana lo sanno.",
+  "did_you_know": "Dove gli scatti a rilascio sono permessi, un fucile che ne ha uno porta un adesivo fluorescente con una grande «R» sul lato esterno dello {{term:stock|calcio}}, così tutti in pedana lo sanno.",
   "quiz": {
     "competitions-how-to-enter-q1": {
       "q": "Cosa dovreste leggere prima, una volta scelta una gara?",
-      "options": { "a": "I risultati della gara dell'anno scorso", "b": "Il programma della gara", "c": "Le previsioni del tempo per quel giorno" },
+      "options": {
+        "a": "I risultati della gara dell'anno scorso",
+        "b": "Il programma della gara",
+        "c": "Le previsioni del tempo per quel giorno"
+      },
       "explain": "Il programma dà le date, i piattelli, l'orario, la quota, le categorie e i contatti."
     },
     "competitions-how-to-enter-q2": {
-      "q": "Chi è responsabile di sapere quando tira la vostra batteria?",
-      "options": { "a": "L'arbitro della prima pedana", "b": "L'organizzatore, che vi telefonerà", "c": "Voi stessi, come tiratori" },
+      "q": "Chi è responsabile di sapere quando tira la vostra {{term:squad|batteria}}?",
+      "options": {
+        "a": "L'arbitro della prima pedana",
+        "b": "L'organizzatore, che vi telefonerà",
+        "c": "Voi stessi, come tiratori"
+      },
       "explain": "L'orario viene pubblicato in anticipo, e seguirlo, inclusi i cambiamenti durante la gara, è responsabilità del tiratore."
     },
     "competitions-how-to-enter-q-efp": {
-      "q": "Quando serve di solito una Carta europea d'arma da fuoco?",
-      "options": { "a": "Quando un residente dell'UE porta il proprio fucile in un altro paese dell'UE", "b": "Ogni volta che vi iscrivete a una gara, anche nel vostro paese", "c": "Solo quando noleggiate un fucile da un campo in un altro paese" },
+      "q": "Quando serve di solito un'{{term:european-firearms-pass|Carta europea d'arma da fuoco}}?",
+      "options": {
+        "a": "Quando un residente dell'UE porta il proprio fucile in un altro paese dell'UE",
+        "b": "Ogni volta che vi iscrivete a una gara, anche nel vostro paese",
+        "c": "Solo quando noleggiate un fucile da un campo in un altro paese"
+      },
       "explain": "La carta è per i residenti dell'UE e di Svizzera, Norvegia, Islanda e Liechtenstein che viaggiano con il proprio fucile verso un altro di questi paesi. A chi vive altrove non viene rilasciata."
     },
     "competitions-how-to-enter-q3": {
-      "q": "Cosa deve fare l'organizzatore se il paese ospitante vieta gli scatti a rilascio?",
-      "options": { "a": "Niente: i tiratori devono controllare la legge", "b": "Annunciarlo nel programma della gara", "c": "Dirlo solo agli arbitri il giorno stesso" },
+      "q": "Cosa deve fare l'organizzatore se il paese ospitante vieta i {{term:release-trigger|scatti a rilascio}}?",
+      "options": {
+        "a": "Niente: i tiratori devono controllare la legge",
+        "b": "Annunciarlo nel programma della gara",
+        "c": "Dirlo solo agli arbitri il giorno stesso"
+      },
       "explain": "Il regolamento richiede che un simile divieto venga annunciato nel programma di una gara internazionale."
     },
     "competitions-how-to-enter-q-absent": {
       "q": "Nel {{tm:compak}} tirato in linea, un tiratore manca il primo giorno. Cosa succede?",
-      "options": { "a": "Il nome viene tolto dalla lista; solo la giuria può autorizzare il ritorno", "b": "La serie persa si tira alla fine dell'ultimo giorno", "c": "Non succede nulla, purché la quota sia stata pagata" },
+      "options": {
+        "a": "Il nome viene tolto dalla lista; solo la giuria può autorizzare il ritorno",
+        "b": "La serie persa si tira alla fine dell'ultimo giorno",
+        "c": "Non succede nulla, purché la quota sia stata pagata"
+      },
       "explain": "Dal secondo giorno il tiratore è fuori dalla lista; per tirare più tardi, deve fare ricorso alla giuria."
     }
   }

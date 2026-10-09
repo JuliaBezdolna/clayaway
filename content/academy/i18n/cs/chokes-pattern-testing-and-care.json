@@ -29,9 +29,9 @@
     "origin": null
   },
   "body": {
-    "chokes-pattern-testing-and-care-p1": "Abyste viděli, co vaše zahrdlení dělá doopravdy, střílíte na {{term:pattern-plate|nástřelnou desku}} (pattern plate): velký ocelový plech, natřený nebo namazaný tak, aby na něm broky zanechaly stopy. Funguje i velký arch papíru asi 1 × 1 m. Dělejte to jen na střelnici, která takovou desku má, a se svolením personálu.",
+    "chokes-pattern-testing-and-care-p1": "Abyste viděli, co vaše {{term:choke|zahrdlení}} dělá doopravdy, střílíte na {{term:pattern-plate|nástřelnou desku}}: velký ocelový plech, natřený nebo namazaný tak, aby na něm broky zanechaly stopy. Funguje i velký arch papíru asi 1 × 1 m. Dělejte to jen na střelnici, která takovou desku má, a se svolením personálu.",
     "chokes-pattern-testing-and-care-p2": "Pro ověření {{term:gun-fit|přizpůsobení pažby}} se střílí z blízka, {{fact:gear.fit-plate-distance}}: tam záleží na tom, kde je střed zásahu. Pro posouzení samotného zahrdlení je vzdálenost větší, klasicky 35 m nebo 40 yardů (asi 36,6 m). Na papíře nakreslíte kolem nejhustší části kruh o průměru 75–76 cm a spočítáte v něm stopy po brocích. Pak toto číslo porovnáte s počtem broků v náboji (zhruba 350–400 pro 28 g č. 7½; viz {{lesson:cartridges-shot-size}}).",
-    "chokes-pattern-testing-and-care-p3": "Orientačně na tuto vzdálenost dá {{term:cylinder|cylinder}} do kruhu asi 40 % broků, 1/4 (improved cylinder) asi 50 %, půlčok (modified) asi 60 %, 3/4 (improved modified) asi 65 % a plné zahrdlení 70 % i víc. Čísla závisí na náboji, takže vaše kombinace zbraně a náboje může dát jiný výsledek.",
+    "chokes-pattern-testing-and-care-p3": "Orientačně na tuto vzdálenost dá {{term:cylinder|cylinder}} do kruhu asi 40 % broků, {{term:improved-cylinder|1/4}} asi 50 %, {{term:modified|půlčok}} asi 60 %, {{term:improved-modified|3/4}} asi 65 % a {{term:full-choke|plné zahrdlení}} 70 % i víc. Čísla závisí na náboji, takže vaše kombinace zbraně a náboje může dát jiný výsledek.",
     "chokes-pattern-testing-and-care-p4": "Jeden výstřel moc neukáže: zásahy se citelně liší i se stejnými náboji. Vystřelte na každou kombinaci aspoň 3–5 ran. Všímejte si i rovnoměrnosti: dobrý zásah je rovnoměrný, bez velkých „děr“ a bez husté skvrny uprostřed.",
     "chokes-pattern-testing-and-care-p5": [
       "Po střelbě vyšroubujte zahrdlení {{term:choke-key|klíčem na zahrdlení}}.",
@@ -52,7 +52,7 @@
   },
   "quiz": {
     "chokes-pattern-testing-and-care-q1": {
-      "q": "Proč nemáte střílet ze zbraně s výměnným zahrdlením bez zahrdlení?",
+      "q": "Proč nemáte střílet ze zbraně s {{term:multichoke|výměnným zahrdlením}} bez zahrdlení?",
       "options": {
         "a": "Je to zakázané jen na závodech",
         "b": "Broky a kontejner mohou poškodit závit v ústí",
@@ -62,7 +62,7 @@
       "explain": "Bez zahrdlení je závit odkrytý a broky s kontejnerem ho mohou poškodit."
     },
     "chokes-pattern-testing-and-care-q2": {
-      "q": "Na jaké klasické vzdálenosti se posuzuje zásah zahrdlení?",
+      "q": "Na jaké klasické vzdálenosti se posuzuje zásah {{term:choke|zahrdlení}}?",
       "options": {
         "a": "5 m (asi 5½ yardu)",
         "b": "15 m (asi 16 yardů)",
@@ -79,10 +79,10 @@
         "c": "Přesně dva, po jednom na hlaveň",
         "d": "Sto, a to ve stejný den"
       },
-      "explain": "Zásahy se liší výstřel od výstřelu, proto potřebujete sérii pro každou kombinaci zbraně, zahrdlení a náboje."
+      "explain": "Zásahy se liší výstřel od výstřelu, proto potřebujete sérii pro každou kombinaci zbraně, {{term:choke|zahrdlení}} a náboje."
     },
     "chokes-pattern-testing-and-care-q4": {
-      "q": "K čemu je tuk na zahrdlení?",
+      "q": "K čemu je tuk na {{term:choke|zahrdlení}}?",
       "options": {
         "a": "Aby byl zásah o trochu hustší",
         "b": "K vyčištění vývrtu po střelbě",
@@ -93,6 +93,6 @@
     }
   },
   "title": "Testování zásahu a péče o zahrdlení",
-  "summary": "Jak ověřit zásah na desce, jak čistit a mazat zahrdlení a proč střelci {{tm:sporting}} a {{tm:compak}} nestřílejí ze zbraně s výměnným zahrdlením bez zahrdlení.",
+  "summary": "Jak ověřit zásah na desce, jak čistit a mazat {{term:choke|zahrdlení}} a proč střelci {{tm:sporting}} a {{tm:compak}} nestřílejí ze zbraně s {{term:multichoke|výměnným zahrdlením}} bez zahrdlení.",
   "did_you_know": "Po každém výstřelu se nástřelná deska znovu natře nebo namaže – válečkem nebo štětcem –, aby se nové stopy nesmíchaly s předchozími."
 }

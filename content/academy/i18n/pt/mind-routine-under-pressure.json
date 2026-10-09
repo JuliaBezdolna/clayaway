@@ -40,7 +40,7 @@
     "origin": null
   },
   "title": "Rotina pré-tiro: os mesmos passos pela mesma ordem",
-  "summary": "Uma rotina pré-tiro curta ajuda a atirar da mesma forma no treino e na competição: seis passos que encaixam nos limites de tempo do {{tm:sporting}} e do {{tm:compak}}.",
+  "summary": "Uma rotina pré-tiro curta ajuda a atirar da mesma forma no treino e na competição: seis passos que encaixam nos {{term:firing-time|limites de tempo|pl}} do {{tm:sporting}} e do {{tm:compak}}.",
   "body": {
     "mind-routine-under-pressure-p1": "Uma {{term:pre-shot-routine|rotina pré-tiro}} é um conjunto fixo de passos que repete antes de cada prato. Ajuda a ler o prato, a preparar-se sempre da mesma forma e a só pedir o prato quando estiver pronto.",
     "mind-routine-under-pressure-p9": "Estudos sobre rotinas em muitos desportos mostram um benefício pequeno a moderado, também sob pressão. Não foram feitos no {{tm:sporting}} nem no {{tm:compak}}, mas é provável que funcione aqui da mesma forma.",
@@ -49,21 +49,21 @@
       "Pés: prepare a sua {{term:stance|posição dos pés}} para o {{term:break-point|ponto de tiro}}, o local onde planeia partir o prato.",
       "Arma: assuma a posição inicial com as bocas dos canos no {{term:hold-point|ponto de espera da arma}}, onde esperam o pedido. No {{tm:sporting}} a arma começa em baixo (ver abaixo).",
       "Olhos: olhe para o {{term:pick-up-point|ponto de visão}}, onde vê o prato claramente por primeira vez, com um {{term:soft-focus|foco suave}}: um olhar calmo e largo.",
-      "Respiração e palavra-chave: uma expiração natural, ombros descontraídos, depois a sua palavra-chave.",
+      "Respiração e {{term:cue-word|palavra-chave}}: uma expiração natural, ombros descontraídos, depois a sua palavra-chave.",
       "Pedido: peça o prato sempre da mesma forma e fique pronto durante o curto atraso antes de o prato aparecer.",
       "Prato: passe para um {{term:hard-focus|foco intenso}} no prato e mantenha o olhar nele até ao fim do tiro."
     ],
     "mind-routine-under-pressure-compare": {
-      "sporting": "Arma em baixo: {{fact:mind.sporting-ready-position}} ({{rule:sporting:ch3-ready-position}}). Tem {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Depois do seu pedido, o árbitro sinaliza ao {{term:trapper|pulleur}}, e o prato sai {{fact:rules.release-within-3s}} do sinal do árbitro ({{rule:sporting:ch5-call-and-release}}).",
-      "compak": "A posição da arma no pedido é livre: à cara ou não ({{rule:compak:ch17-gun-position}}). Tem {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). O prato sai {{fact:rules.release-within-3s}} do pedido com largada manual, ou {{fact:rules.sonopull-delay}} depois com um phono-pull (largada por voz) ({{rule:compak:ch2-trigger-manual}})."
+      "sporting": "{{term:ready-position|Arma em baixo}}: {{fact:mind.sporting-ready-position}} ({{rule:sporting:ch3-ready-position}}). Tem {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Depois do seu pedido, o árbitro sinaliza ao {{term:trapper|pulleur}}, e o prato sai {{fact:rules.release-within-3s}} do sinal do árbitro ({{rule:sporting:ch5-call-and-release}}).",
+      "compak": "A posição da arma no pedido é livre: à cara ou não ({{rule:compak:ch17-gun-position}}). Tem {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). O prato sai {{fact:rules.release-within-3s}} do pedido com largada manual, ou {{fact:rules.sonopull-delay}} depois com um {{term:sonopull|phono-pull}}, isto é, largada por voz ({{rule:compak:ch2-trigger-manual}})."
     },
     "mind-routine-under-pressure-p4": "Mantenha a ordem dos passos, não um número exato de segundos. O atraso depois do pedido pode variar (no {{tm:sporting}}, e no {{tm:compak}} com largada manual), por isso o tempo pode mudar um pouco. Fique bem dentro do limite: peça a um treinador ou amigo para cronometrar a sua rotina no treino.",
-    "mind-routine-under-pressure-p5": "Se algo o perturbar antes do pedido, como um ruído, um pensamento ou o sol, não peça o prato. Baixe a arma, expire e comece a rotina de novo, dentro do limite de tempo.",
+    "mind-routine-under-pressure-p5": "Se algo o perturbar antes do pedido, como um ruído, um pensamento ou o sol, não peça o prato. Baixe a arma, expire e comece a rotina de novo, dentro do {{term:firing-time|limite de tempo}}.",
     "mind-routine-under-pressure-p7": "Para um {{term:double|double}}, planeie os dois pratos antes de pedir: onde parte o primeiro e para onde vão os seus olhos no segundo. Trate-os como dois tiros separados.",
-    "mind-routine-under-pressure-p6": "Entre postos, uma rotina mais longa ajuda a deixar o posto anterior atrás de si, seja qual for o resultado. Abra a arma, retire os invólucros vazios, beba água e olhe para os pratos seguintes. No {{tm:compak}} muda de posto com a arma aberta e descarregada ({{rule:compak:ch17-call-time-and-changeover}}).",
+    "mind-routine-under-pressure-p6": "Entre postos, uma rotina mais longa ajuda a deixar o posto anterior atrás de si, seja qual for o resultado. Abra a arma, retire os {{term:empties|invólucros|pl}} vazios, beba água e olhe para os pratos seguintes. No {{tm:compak}} muda de posto com a arma aberta e descarregada ({{rule:compak:ch17-call-time-and-changeover}}).",
     "mind-routine-under-pressure-warn": "Carregue a arma só no posto, com os canos apontados para o campo, e só depois de o árbitro autorizar o início do tiro ({{rule:sporting:ch8-loading}}, {{rule:compak:ch21-shooting-conduct}}).",
     "mind-routine-under-pressure-p8": "Construa a rotina no treino e mantenha-a igual nas competições. Acorde o seu plano com o treinador antes da prova, para que no dia só precise de o seguir.",
-    "mind-routine-under-pressure-coaching-rule": "Durante uma competição, ninguém pode {{term:coaching|dar instruções}} a um competidor ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
+    "mind-routine-under-pressure-coaching-rule": "Durante uma competição, ninguém pode dar {{term:coaching|instruções}} a um competidor ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
   },
   "note": {
     "mind-routine-under-pressure-n1": "Fique em silêncio enquanto o atirador faz a rotina. No treino, traduza entre pratos e de forma breve; na competição, transmita apenas as decisões do árbitro e as mensagens oficiais.",
@@ -73,7 +73,7 @@
   "key_points": {
     "mind-routine-under-pressure-kp1": "Uma rotina é os mesmos passos pela mesma ordem antes de cada prato.",
     "mind-routine-under-pressure-kp2": "Mantenha a ordem; os segundos podem variar um pouco, desde que fique dentro do limite.",
-    "mind-routine-under-pressure-kp3": "{{tm:sporting}}: arma em baixo e {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: posição da arma livre e {{fact:rules.compak-time-to-call}}.",
+    "mind-routine-under-pressure-kp3": "{{tm:sporting}}: {{term:ready-position|arma em baixo}} e {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: posição da arma livre e {{fact:rules.compak-time-to-call}}.",
     "mind-routine-under-pressure-kp4": "Perturbado antes do pedido? Baixe a arma, expire e comece de novo.",
     "mind-routine-under-pressure-kp5": "Construa a rotina no treino: não é permitido dar instruções durante uma competição."
   },
@@ -104,7 +104,7 @@
         "b": "Pedir rapidamente, antes de o mesmo ruído voltar",
         "c": "Pedir ao árbitro para mostrar o prato outra vez"
       },
-      "explain": "Até pedir o prato, pode reiniciar a rotina, desde que fique dentro do limite de tempo."
+      "explain": "Até pedir o prato, pode reiniciar a rotina, desde que fique dentro do {{term:firing-time|limite de tempo}}."
     },
     "mind-routine-under-pressure-q1": {
       "q": "Porque é útil uma rotina pré-tiro numa competição?",

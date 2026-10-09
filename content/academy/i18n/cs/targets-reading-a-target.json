@@ -31,9 +31,9 @@
   "title": "Jak „přečíst“ terč",
   "summary": "Na co se dívat při předvádění terčů: kde se terč objeví, kam letí, kde ho rozbijete a co nesmíte dělat.",
   "body": {
-    "targets-reading-a-target-p1": "„Přečíst“ terč znamená ještě před výstřelem pochopit, jak letí: kde se objeví, jak rychle se pohybuje, kde se otáčí, stoupá nebo klesá. Zkušení střelci to dělají na každém stanovišti, a často to rozhoduje mezi zásahem a chybou. Platí to stejně ve {{tm:sporting}} i ve {{tm:compak}}.",
-    "targets-reading-a-target-p2": "Začněte u {{term:target-menu|menu terčů}}: které vrhačky, v jakém pořadí a jsou mezi nimi zvláštní terče. Pak si pozorně prohlédněte {{term:target-presentation|předvedení terčů}} (presentation). Ve {{tm:sporting}} se terče stanoviště před střelbou předvádějí prvnímu střelci skupiny. Dvojstřely na hlášenou se nepředvádějí. {{tm:compak}} má své vlastní předvádění. Podrobnosti najdete v lekci {{lesson:rules-viewing-targets}}.",
-    "targets-reading-a-target-p3": "Ptejte se sami sebe na jednoduché otázky. Kde terč poprvé vidím jasně? To je váš {{term:pick-up-point|bod zachycení terče}} (pick-up point), odkud ho očima začínáte sledovat. Kde ho nejsnáz rozbiju? To je váš {{term:break-point|bod zásahu}} (break point). Tam by měl být terč ještě dobře vidět, ne padat za stromy nebo letět za {{term:shooting-limit|hranici střelby}}.",
+    "targets-reading-a-target-p1": "„Přečíst“ terč znamená ještě před výstřelem pochopit, jak letí: kde se objeví, jak rychle se pohybuje, kde se otáčí, stoupá nebo klesá. Zkušení střelci to dělají na každém stanovišti, a často to rozhoduje mezi zásahem a chybou. Platí to stejně ve {{tm:sporting}} i v {{tm:compak}}.",
+    "targets-reading-a-target-p2": "Začněte u {{term:target-menu|menu terčů}}: které {{term:trap|vrhačky}}, v jakém pořadí a jsou mezi nimi zvláštní terče. Pak si pozorně prohlédněte {{term:target-presentation|předvedení terčů}}. Ve {{tm:sporting}} se terče stanoviště před střelbou předvádějí prvnímu střelci skupiny. {{term:double-on-report|Dvojstřely na hlášenou}} se nepředvádějí. {{tm:compak}} má své vlastní předvádění. Podrobnosti najdete v lekci {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Ptejte se sami sebe na jednoduché otázky. Kde terč poprvé vidím jasně? To je váš {{term:pick-up-point|bod zachycení terče}}, odkud ho očima začínáte sledovat. Kde ho nejsnáz rozbiju? To je váš {{term:break-point|bod zásahu}}. Tam by měl být terč ještě dobře vidět, ne padat za stromy nebo letět za {{term:shooting-limit|hranici střelby}}.",
     "targets-reading-a-target-points": "Jak spolu fungují {{term:hold-point|bod držení zbraně}}, bod zachycení terče a bod zásahu, vysvětluje lekce {{lesson:technique-hold-pickup-break-points}}.",
     "targets-reading-a-target-p4": "Všímejte si rychlosti, vzdálenosti a úhlu a toho, co terč dělá: stoupá, zpomaluje nebo padá. Vítr může terč nadnést nebo stáhnout dolů, a temná linie stromů nebo jasné nebe mění, jak terč vidíte. Terč, který zpomaluje, potřebuje menší {{term:lead|předsazení}} než ten na plné rychlosti.",
     "targets-reading-a-target-p5": "Dívejte se, jak střílí ostatní, ale myslete vlastní hlavou: každý střelec má své tempo. Během předvádění terčů mnozí trenéři doporučují sledovat je jen očima.",
@@ -49,19 +49,19 @@
     "targets-reading-a-target-kp1": "Nejdřív menu, pak pozorně sledujte předvádění terčů.",
     "targets-reading-a-target-kp2": "Najděte, kde terč poprvé vidíte jasně, a kde ho rozbijete.",
     "targets-reading-a-target-kp3": "Všímejte si rychlosti, úhlu, větru, pozadí a toho, zda terč zpomaluje.",
-    "targets-reading-a-target-kp4": "Sledujte jen očima; ve {{tm:sporting}} střelba na sucho není dovolená nikde na střelišti, ve {{tm:compak}} mimo stanoviště a když střílí někdo jiný.",
+    "targets-reading-a-target-kp4": "Sledujte jen očima; ve {{tm:sporting}} {{term:mock-shooting|střelba na sucho}} není dovolená nikde na střelišti, v {{tm:compak}} mimo stanoviště a když střílí někdo jiný.",
     "targets-reading-a-target-kp5": "Třídy obtížnosti {{tm:sporting}}: {{fact:targets.sporting-difficulty-classes}}."
   },
-  "did_you_know": "Ve {{tm:sporting}} se dvojstřely na hlášenou nepředvádějí, ale oba terče už jste viděli: dvojstřely se skládají jen z terčů, které byly předvedené jako jednotlivé ze stejného stanoviště.",
+  "did_you_know": "Ve {{tm:sporting}} se dvojstřely na hlášenou nepředvádějí, ale oba terče už jste viděli: {{term:double|dvojstřely}} se skládají jen z terčů, které byly předvedené jako jednotlivé ze stejného stanoviště.",
   "quiz": {
     "targets-reading-a-target-q1": {
-      "q": "Co je bod zásahu (break point)?",
+      "q": "Co je {{term:break-point|bod zásahu}}?",
       "options": {
         "a": "Místo, kde plánujete terč rozbít",
         "b": "Místo, kde stojí vrhačka, která ho vypouští",
         "c": "Místo, kde terč dopadne na zem"
       },
-      "explain": "Bod zásahu (break point) je místo na dráze letu, které si zvolíte předem."
+      "explain": "{{term:break-point|Bod zásahu}} je místo na dráze letu, které si zvolíte předem."
     },
     "targets-reading-a-target-q2": {
       "q": "Smíte ve {{tm:sporting}} během předvádění terčů zalícit zbraň a vést ji podél linie terče?",

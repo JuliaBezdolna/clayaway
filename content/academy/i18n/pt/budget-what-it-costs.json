@@ -29,14 +29,14 @@
   "origin": null
  },
  "title": "De que é feito o orçamento",
- "summary": "As principais despesas de um principiante em {{tm:sporting}} e {{tm:compak}}: aulas, a arma, os cartuchos, os pratos, a proteção, os documentos e o seguro, as taxas de inscrição e as viagens.",
+ "summary": "As principais despesas de um principiante em {{tm:sporting}} e {{tm:compak}}: aulas, a arma, os {{term:cartridge|cartuchos}}, os {{term:target|pratos}}, a proteção, os documentos e o seguro, as {{term:entry-fee|taxas de inscrição}} e as viagens.",
  "body": {
-  "budget-what-it-costs-p1": "O tiro aos pratos, como muitos desportos, tem despesas únicas e despesas regulares. As despesas únicas são coisas que se compram uma vez a cada alguns anos: uma arma, óculos, proteção auditiva, um colete. As despesas regulares são o que se gasta em cada sessão: cartuchos e pratos. Os preços variam muito entre países, regiões e campos, por isso esta lição não dá valores, só o que compõe um orçamento.",
+  "budget-what-it-costs-p1": "O tiro aos pratos, como muitos desportos, tem despesas únicas e despesas regulares. As despesas únicas são coisas que se compram uma vez a cada alguns anos: uma arma, óculos, proteção auditiva, um colete. As despesas regulares são o que se gasta em cada sessão: {{term:cartridge|cartuchos}} e {{term:target|pratos}}. Os preços variam muito entre países, regiões e campos, por isso esta lição não dá valores, só o que compõe um orçamento.",
   "budget-what-it-costs-p2": "Aulas. As aulas com um {{term:coach|treinador}} são muitas vezes um bom investimento no início. Um treinador ensina a segurança, ajusta a sua postura e a forma de {{term:gun-mount|pôr a arma à cara}}, e ajuda-o a evitar hábitos que depois levam muito tempo a corrigir. Muitos campos oferecem uma sessão experimental para principiantes, com arma, cartuchos e pratos incluídos.",
-  "budget-what-it-costs-p3": "A arma. Um principiante costuma começar com uma arma alugada no campo e só depois compra a sua própria. A arma própria é a maior despesa única, mas dura muitos anos. A isso somam-se uma {{term:gun-slip|capa}} (uma capa mole para a arma) ou uma {{term:hard-case|mala rígida}}, um kit de limpeza e, onde a lei o exige, um cofre. Alugar ou comprar: {{lesson:gun-first-gun}}.",
+  "budget-what-it-costs-p3": "A arma. Um principiante costuma começar com uma arma alugada no campo e só depois compra a sua própria. A arma própria é a maior despesa única, mas dura muitos anos. A isso somam-se uma {{term:gun-slip|capa}} — uma capa mole para a arma — ou uma {{term:hard-case|mala rígida}}, um kit de limpeza e, onde a lei o exige, um cofre. Alugar ou comprar: {{lesson:gun-first-gun}}.",
   "budget-what-it-costs-p4": "Os cartuchos e os pratos são a principal despesa regular. Uma {{term:round|série}} é {{fact:rules.round-targets}}, e cada prato precisa de pelo menos um cartucho. Leve reservas: num {{term:single-target|prato simples}} pode disparar um segundo tiro, por isso uma série pode gastar mais cartuchos do que pratos tem. Os pratos pagam-se à parte, por prato ou por série, dependendo do campo.",
   "budget-what-it-costs-p5": "Proteção e vestuário: {{term:safety-glasses|óculos de proteção}}, {{term:earplugs|tampões auditivos}} ou abafadores e, mais tarde, um {{term:shooting-vest|colete de tiro}}, um boné e calçado confortável. Os óculos e a proteção auditiva são precisos desde a primeira sessão; os campos costumam emprestá-los.",
-  "budget-what-it-costs-p6": "Documentos e seguro. Para ter uma arma própria, muitos países exigem uma licença de uso e porte de arma. Para as competições, é muitas vezes preciso também a inscrição na federação ou uma {{term:sports-licence|licença desportiva}}. Muitos países ou clubes exigem um seguro de responsabilidade civil (cobertura para danos que possa causar a outras pessoas). Se viver na UE e levar a sua própria arma para outro país da UE, normalmente precisa de um {{term:european-firearms-pass|Cartão Europeu de Arma de Fogo}}. Sem ele, pode alugar uma arma no destino. As exigências variam de país para país: {{lesson:travel-gun-in-eu}}.",
+  "budget-what-it-costs-p6": "Documentos e seguro. Para ter uma arma própria, muitos países exigem uma licença de uso e porte de arma. Para as competições, é muitas vezes preciso também a inscrição na federação ou uma {{term:sports-licence|licença desportiva}}. Muitos países ou clubes exigem um {{term:third-party-insurance|seguro de responsabilidade civil}} — cobertura para danos que possa causar a outras pessoas. Se viver na UE e levar a sua própria arma para outro país da UE, normalmente precisa de um {{term:european-firearms-pass|Cartão Europeu de Arma de Fogo}}. Sem ele, pode alugar uma arma no destino. As exigências variam de país para país: {{lesson:travel-gun-in-eu}}.",
   "budget-what-it-costs-p7": "Competições e viagens. As competições cobram uma {{term:entry-fee|taxa de inscrição}}. Some a viagem, o alojamento e as refeições se a prova for longe. As {{term:club-shoot|provas de clube}} perto de casa são uma forma acessível de começar a competir."
  },
  "note": {},
@@ -60,13 +60,13 @@
    "explain": "Os cartuchos e os pratos gastam-se em cada sessão."
   },
   "budget-what-it-costs-q2": {
-   "q": "Quantos cartuchos deve levar para uma série de 25 pratos?",
+   "q": "Quantos {{term:cartridge|cartuchos}} deve levar para uma {{term:round|série}} de 25 {{term:target|pratos}}?",
    "options": {
     "a": "Pelo menos 25, mais reservas",
     "b": "10, o campo dá o resto",
     "c": "Exatamente 25, sem reservas"
    },
-   "explain": "Precisa de um cartucho por prato, e pode disparar um segundo tiro sobre um prato simples, por isso leve reservas."
+   "explain": "Precisa de um cartucho por prato, e pode disparar um segundo tiro sobre um {{term:single-target|prato simples}}, por isso leve reservas."
   },
   "budget-what-it-costs-q3": {
    "q": "Como costuma começar um principiante?",

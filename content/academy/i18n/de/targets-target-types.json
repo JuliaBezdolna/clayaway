@@ -36,11 +36,11 @@
   "origin": "interpreter-academy"
  },
  "title": "Arten von Wurfscheiben",
- "summary": "Standard, Midi, Mini, Battue, Rollhase, Flash, ZZ und Rocket: wie sich die Scheiben unterscheiden, wie sie fliegen, und warum das Wurfschema jede besondere Scheibe nennt.",
+ "summary": "Standard, Midi, Mini, Battue, {{term:rabbit|Rollhase}}, Flash, ZZ und Rocket: wie sich die Scheiben unterscheiden, wie sie fliegen, und warum das {{term:target-menu|Wurfschema}} jede besondere {{term:target|Scheibe}} nennt.",
  "body": {
   "targets-target-types-p1": "Eine {{term:target|Wurfscheibe}}, oft „Clay“ genannt, ist eine spröde Scheibe, die von einer {{term:trap|Wurfmaschine}} geworfen wird. Die Art der Scheibe zu kennen hilft, den Schuss vor dem Abruf zu planen.",
-  "targets-types-p1": "Die FITASC-Liste für {{tm:sporting}} nennt sieben Scheibentypen: Standard, Midi, Super Mini, Battue, Rollhase, Flash und ZZ. {{tm:compak}} erlaubt jede Standard- oder Spezialscheibe, und seine Liste nennt zusätzlich den Rocket. Jeder Typ fliegt anders.",
-  "targets-types-p2": "Die {{term:standard-target|Standardscheibe}}, die häufigste Scheibe, ist eine Kuppel von etwa 108–110 mm Durchmesser; Einsteiger beginnen meist mit ihr. Die {{term:midi|Midi}} ist 90 mm: Sie behält ihre Geschwindigkeit gut und wirkt weiter entfernt, als sie ist. Die {{term:mini|Mini}} ist meist 60 mm: Sie verlässt die Wurfmaschine schnell und verlangsamt rasch. Daher geben Schützen ihr oft zu viel Vorhalt, schießen also zu weit vor ihr. Die Namen kleiner Scheiben schwanken: Die {{tm:sporting}}-Liste sagt „Super Mini“, und Wurfschemata können 70 mm oder 60 mm zeigen. Richten Sie sich nach der Millimeterangabe auf dem Schema.",
+  "targets-types-p1": "Die FITASC-Liste für {{tm:sporting}} nennt sieben Scheibentypen: Standard, Midi, Super Mini, Battue, {{term:rabbit|Rollhase}}, Flash und ZZ. {{tm:compak}} erlaubt jede Standard- oder Spezialscheibe, und seine Liste nennt zusätzlich den Rocket. Jeder Typ fliegt anders.",
+  "targets-types-p2": "Die {{term:standard-target|Standardscheibe}}, die häufigste Scheibe, ist eine Kuppel von etwa 108–110 mm Durchmesser; Einsteiger beginnen meist mit ihr. Die {{term:midi|Midi}} ist 90 mm: Sie behält ihre Geschwindigkeit gut und wirkt weiter entfernt, als sie ist. Die {{term:mini|Mini}} ist meist 60 mm: Sie verlässt die Wurfmaschine schnell und verlangsamt rasch. Daher geben Schützen ihr oft zu viel {{term:lead|Vorhalt}}, schießen also zu weit vor ihr. Die Namen kleiner Scheiben schwanken: Die {{tm:sporting}}-Liste sagt „Super Mini“, und Wurfschemata können 70 mm oder 60 mm zeigen. Richten Sie sich nach der Millimeterangabe auf dem Schema.",
   "targets-types-p3": "Die {{term:battue|Battue}} ist eine flache, dünne 110-mm-Scheibe. Sie fliegt auf der Kante, fast unsichtbar, dreht sich dann und zeigt ihre Fläche und fällt schnell. Die {{tm:compak}}-Regeln raten von Battues auf sehr kurzen Flugbahnen ab. Der {{term:rabbit|Rollhase}} ist eine 110-mm-Scheibe mit dickem, kräftigem Rand, die auf ihrer Kante über den Boden rollt; sie springt und kann über Unebenheiten hüpfen. Siehe auch {{lesson:flight-rabbit}}.",
   "targets-types-p4": "Eine {{term:flash-target|Flashscheibe}} ist mit farbigem Pulver gefüllt, das bei einem Treffer eine helle Wolke hinterlässt; sie wird wie jede andere Scheibe gewertet. Eine {{term:zz-target|ZZ-Scheibe}}, auch Helice genannt, ist ein Kunststoffpropeller mit weißer Mittelkappe, der unregelmäßig fliegt. Der {{term:rocket-target|Rocket}} ist eine weitere Spezialscheibe, die nur in der {{tm:compak}}-Liste genannt wird.",
   "targets-target-types-p6": "Bei {{tm:sporting}} muss das {{term:target-menu|Wurfschema}} vor jedem Standplatz (der Stelle, von der aus Sie schießen) besondere Scheiben nennen: {{fact:targets.sporting-menu-special-targets}}. Lesen Sie es, bevor Sie den Standplatz betreten.",
@@ -85,7 +85,7 @@
    "explain": "Eine Mini ist meist 60 mm und eine Midi 90 mm. Die Namen kleiner Scheiben schwanken, richten Sie sich also nach der Millimeterangabe auf dem Schema."
   },
   "targets-types-q3": {
-   "q": "An einem {{tm:sporting}}-Standplatz wirft eine Wurfmaschine eine Midi statt der im Schema angegebenen Standardscheibe. Was passiert?",
+   "q": "An einem {{tm:sporting}}-Standplatz wirft eine {{term:trap|Wurfmaschine}} eine Midi statt der im Schema angegebenen {{term:standard-target|Standardscheibe}}. Was passiert?",
    "options": {
     "a": "No Bird, die Scheibe wird wiederholt",
     "b": "Sie zählt als Treffer",
@@ -95,17 +95,17 @@
    "explain": "Bei {{tm:sporting}} ist eine Scheibe der falschen Farbe, Größe oder Art ein No Bird (sie zählt nicht) und wird erneut geworfen."
   },
   "targets-types-q1": {
-   "q": "Welche Scheibe rollt über den Boden?",
+   "q": "Welche {{term:target|Scheibe}} rollt über den Boden?",
    "options": {
     "a": "Midi",
     "b": "Battue",
     "c": "Rollhase",
     "d": "Flash"
    },
-   "explain": "Der Rollhase hat einen dicken Rand und wird hochkant über den Boden geworfen."
+   "explain": "Der {{term:rabbit|Rollhase}} hat einen dicken Rand und wird hochkant über den Boden geworfen."
   },
   "targets-types-q2": {
-   "q": "Im Wurfschema steht „70 mm“. Der Trainer nennt sie Mini. Was sollten Sie übersetzen?",
+   "q": "Im {{term:target-menu|Wurfschema}} steht „70 mm“. Der Trainer nennt sie Mini. Was sollten Sie übersetzen?",
    "options": {
     "a": "Auf 60 mm korrigieren, da eine Mini 60 mm hat",
     "b": "Das Wort des Trainers und die 70 mm aus dem Wurfschema beibehalten",
@@ -115,7 +115,7 @@
    "explain": "Die Regeln nennen die Größen 70 mm und 60 mm und den Namen „Super Mini“; vertrauen Sie den Millimetern im Wurfschema und korrigieren Sie den Trainer nicht."
   },
   "targets-target-types-q-battue": {
-   "q": "Welche Scheibe fliegt auf der Kante, dreht sich dann, zeigt ihre Fläche und fällt?",
+   "q": "Welche {{term:target|Scheibe}} fliegt auf der Kante, dreht sich dann, zeigt ihre Fläche und fällt?",
    "options": {
     "a": "Battue",
     "b": "Midi",
@@ -124,13 +124,13 @@
    "explain": "Die Battue ist flach und dünn: Sie fliegt auf der Kante, dreht sich dann und fällt schnell."
   },
   "targets-target-types-q-flash": {
-   "q": "Welche Scheibe hinterlässt bei einem Treffer eine Wolke farbigen Pulvers?",
+   "q": "Welche {{term:target|Scheibe}} hinterlässt bei einem Treffer eine Wolke farbigen Pulvers?",
    "options": {
     "a": "ZZ-Scheibe",
     "b": "Rocket",
     "c": "Flashscheibe"
    },
-   "explain": "Eine Flashscheibe ist mit farbigem Pulver gefüllt. Sie wird wie jede andere Scheibe gewertet."
+   "explain": "Eine {{term:flash-target|Flashscheibe}} ist mit farbigem Pulver gefüllt. Sie wird wie jede andere Scheibe gewertet."
   }
  }
 }

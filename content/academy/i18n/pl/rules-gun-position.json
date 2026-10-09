@@ -43,16 +43,16 @@
     "origin": "interpreter-academy"
   },
   "title": "Pozycja broni, zanim pojawi się rzutek",
-  "summary": "W {{tm:sporting}} kolba zostaje poniżej linii na kamizelce, aż rzutek się pojawi. W {{tm:compak}} pozycja broni przy komendzie jest dowolna.",
+  "summary": "W {{tm:sporting}} {{term:stock|kolba}} zostaje poniżej linii na kamizelce, aż rzutek się pojawi. W {{tm:compak}} pozycja broni przy komendzie jest dowolna.",
   "body": {
     "rules-gun-position-p1": "Na zawodach {{tm:sporting}} strzelcy wołają rzutek z bronią opuszczoną. To przepis, nie kwestia stylu. {{tm:compak}} nie ma takiego przepisu.",
     "rules-gun-position-cmp1": {
-      "sporting": "Broń opuszczona: górny tylny punkt kolby zostaje poniżej linii na kamizelce, aż zobaczysz rzutek.",
+      "sporting": "Broń opuszczona: górny tylny punkt {{term:stock|kolby}} zostaje poniżej linii na kamizelce, aż zobaczysz rzutek.",
       "compak": "Dowolna: broń może już być przy ramieniu albo niżej. Nie ma linii na kamizelce, ale strzał wciąż pada z ramienia."
     },
-    "sporting-gun-position-p1": "W {{tm:sporting}}, przed komendą, obie twoje stopy są w {{term:shooting-stand|stanowisku}}. Stopka kolby (jej górny tylny kąt, część, która wchodzi w ramię) dotyka ciała. Najwyższy tylny punkt kolby, zwykle sama stopka, zostaje poniżej linii na kamizelce. Tę {{term:ready-position|pozycję gotowości}} utrzymujesz, aż rzutek opuści wyrzutnię i będzie widoczny.",
+    "sporting-gun-position-p1": "W {{tm:sporting}}, przed komendą, obie twoje stopy są w {{term:shooting-stand|stanowisku}}. {{term:recoil-pad|Stopka}} kolby (jej górny tylny kąt, część, która wchodzi w ramię) dotyka ciała. Najwyższy tylny punkt kolby, zwykle sama stopka, zostaje poniżej linii na kamizelce. Tę {{term:ready-position|pozycję gotowości}} utrzymujesz, aż rzutek opuści wyrzutnię i będzie widoczny.",
     "sporting-gun-position-p2": "{{term:jacket-line|Linia}} jest naniesiona na kamizelce albo kurtce {{fact:rules.sporting-jacket-line}} (wyobrażonej poziomej linii przez obydwa barki), równolegle do niej. Jej kolor kontrastuje z kamizelką, żeby sędzia mógł ją widzieć. Przepis obejmuje każdy rodzaj kolby: standardową, Monte Carlo (z podniesionym grzbietem, górną krawędzią kolby, na której leży policzek) i {{term:adjustable-comb|regulowaną bakę}}.",
-    "sporting-gun-position-p3": "Broń możesz podnieść do ramienia ({{term:gun-mount|złożyć się}}) tylko wtedy, gdy rzutek się pojawi. Do każdego rzutka, także {{term:rabbit|rabbita}}, strzela się z bronią przy ramieniu; strzał z biodra jest niedozwolony.",
+    "sporting-gun-position-p3": "{{term:gun-mount|Złożenie się}}, czyli podniesienie broni do ramienia, jest dozwolone tylko wtedy, gdy rzutek się pojawi. Do każdego rzutka, także {{term:rabbit|rabbita}}, strzela się z bronią przy ramieniu; strzał z biodra jest niedozwolony.",
     "rules-gun-position-p5": "Jedno odstępstwo: w {{term:double|dublecie}} możesz trzymać broń tak, jak chcesz, między pierwszym a drugim rzutkiem. Przed pierwszym rzutkiem wciąż obowiązuje pozycja opuszczona.",
     "sporting-gun-position-p4": "Kary: za pierwszym razem, gdy zawołasz rzutek w niewłaściwej pozycji albo złożysz się za wcześnie, sędzia udziela ustnego ostrzeżenia i pokazuje {{term:yellow-card|żółtą kartkę}}. Powtórzenie na tej samej {{term:layout|osi}} kosztuje {{term:red-card|czerwoną kartkę}}: rzutek pojedynczy liczy się jako zero, a dublety idą według tabeli w przewodniku po przepisach ({{rule:sporting:ch12-red-card}}).",
     "sporting-gun-position-p5": "Złożenie się i prowadzenie broni wzdłuż linii, w której spodziewasz się rzutka, przed komendą, to {{term:mock-shooting|imitacja strzelania}}, i jest też zabronione. Pierwszy raz daje ostrzeżenie. Jeśli zdarzy się znowu, następny trafiony rzutek liczy się jako zero.",
@@ -121,14 +121,14 @@
     "rules-gun-position-q3": {
       "q": "Kiedy w {{tm:sporting}} możesz trzymać broń tak, jak chcesz?",
       "options": {
-        "a": "Między dwoma rzutkami dubletu",
-        "b": "Przed pierwszym rzutkiem dubletu",
+        "a": "Między dwoma rzutkami {{term:double|dubletu}}",
+        "b": "Przed pierwszym rzutkiem {{term:double|dubletu}}",
         "c": "Czekając na rabbita"
       },
       "explain": "Dowolna pozycja jest dozwolona tylko między dwoma rzutkami dubletu; przed pierwszym obowiązuje pozycja gotowości."
     },
     "sporting-gun-position-q1": {
-      "q": "Na pierwszym stanowisku strzelec woła rzutek z bronią już przy ramieniu. To jego pierwsze takie wykroczenie na tej osi. Jaka jest decyzja sędziego?",
+      "q": "Na pierwszym {{term:shooting-stand|stanowisku}} strzelec woła rzutek z bronią już przy ramieniu. To jego pierwsze takie wykroczenie na tej osi. Jaka jest decyzja sędziego?",
       "options": {
         "a": "Rzutek liczy się jako zero",
         "b": "Ostrzeżenie i żółta kartka",
@@ -138,12 +138,12 @@
       "explain": "Pierwsze wykroczenie dotyczące pozycji broni to ustne ostrzeżenie poparte żółtą kartką."
     },
     "sporting-gun-position-q2": {
-      "q": "Wcześniej na tej osi strzelec otrzymał żółtą kartkę za pozycję broni. Teraz, na rzutku pojedynczym, kolba jest powyżej linii na kamizelce przy komendzie. Decyzja?",
+      "q": "Wcześniej na tej osi strzelec otrzymał {{term:yellow-card|żółtą kartkę}} za pozycję broni. Teraz, na rzutku pojedynczym, {{term:stock|kolba}} jest powyżej linii na kamizelce przy komendzie. Decyzja?",
       "options": {
         "a": "Kolejna żółta kartka",
         "b": "NO BIRD, strzał powtórzony",
-        "c": "Czerwona kartka i powtórzenie",
-        "d": "Czerwona kartka i zero"
+        "c": "{{term:red-card|Czerwona kartka}} i powtórzenie",
+        "d": "{{term:red-card|Czerwona kartka}} i zero"
       },
       "explain": "Po ostrzeżeniu kolejne wykroczenie na tej samej osi to czerwona kartka: zero na rzutku pojedynczym."
     },
@@ -168,7 +168,7 @@
       "explain": "W {{tm:compak}} można zawołać z bronią w górze albo w dole, ale każdy rzutek musi być strzelany z bronią przy ramieniu."
     },
     "gear-protection-clothes-q2": {
-      "q": "Strzelec {{tm:sporting}} używa kolby Monte Carlo, z podniesionym grzbietem. Czy przepis o linii na kamizelce ma zastosowanie?",
+      "q": "Strzelec {{tm:sporting}} używa {{term:stock|kolby}} Monte Carlo, z podniesionym grzbietem. Czy przepis o linii na kamizelce ma zastosowanie?",
       "options": {
         "a": "Tak, obejmuje każdy rodzaj kolby",
         "b": "Nie, tylko standardowe kolby",

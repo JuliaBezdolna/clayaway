@@ -28,14 +28,14 @@
     "origin": "fr-wave-2026-10"
   },
   "title": "Acheter des cartouches sur place",
-  "summary": "Acheter des cartouches sur place est souvent plus simple que de les transporter. Tenez compte des règles locales d'achat, des règles FITASC sur les cartouches et des stands qui n'autorisent que les billes d'acier.",
+  "summary": "Acheter des {{term:cartridge|cartouches}} sur place est souvent plus simple que de les transporter. Tenez compte des règles locales d'achat, des règles FITASC sur les cartouches et des stands qui n'autorisent que les {{term:steel-shot|billes d'acier|pl}}.",
   "body": {
-    "travel-cartridges-at-destination-p1": "Une compétition de {{tm:sporting}} ou de {{tm:compak}} demande des centaines de {{term:cartridge|cartouches}}, mais les limites des compagnies aériennes n'autorisent que quelques boîtes : voir {{lesson:travel-flying-with-guns}}. Les cartouches s'achètent donc généralement sur place : à la boutique du stand, chez un revendeur local ou par l'intermédiaire de l'organisateur, qui a souvent un fournisseur.",
-    "travel-cartridges-at-destination-p2": "Commandez les cartouches à l'avance, surtout s'il vous faut une marque précise, une {{term:load-weight|charge}} particulière (le poids de plomb dans la cartouche) ou du calibre 20. Les cartouches prisées peuvent venir à manquer pendant une grande compétition. Demandez où et quand vous pourrez les récupérer.",
+    "travel-cartridges-at-destination-p1": "Une compétition de {{tm:sporting}} ou de {{tm:compak}} demande des centaines de {{term:cartridge|cartouches}}, mais les limites des compagnies aériennes n'autorisent que quelques boîtes : voir {{lesson:travel-flying-with-guns}}. Les cartouches s'achètent donc généralement sur place : à la boutique du stand, chez un revendeur local ou par l'intermédiaire de l'{{term:organiser|organisateur}}, qui a souvent un fournisseur.",
+    "travel-cartridges-at-destination-p2": "Commandez les cartouches à l'avance, surtout s'il vous faut une marque précise, un {{term:load-weight|charge}} particulier (le poids de plomb dans la cartouche) ou du {{term:gauge|calibre}} 20. Les cartouches prisées peuvent venir à manquer pendant une grande compétition. Demandez où et quand vous pourrez les récupérer.",
     "travel-cartridges-at-destination-p3": "L'achat de cartouches est aussi encadré par la loi. Dans de nombreux pays, le vendeur demande à voir une autorisation de port d'arme, la {{term:european-firearms-pass|Carte européenne d'arme à feu}} ou une autorisation temporaire. Les règles pour les étrangers peuvent différer de celles pour les résidents, alors vérifiez auprès de l'organisateur ou du stand.",
-    "travel-cartridges-at-destination-p4": "Les compétitions FITASC ont des règles sur les cartouches, identiques dans les deux disciplines. Une cartouche peut contenir {{fact:gear.fitasc-shot-load}}. Les plombs doivent être {{fact:gear.fitasc-shot-diameter}}. Interdits : les cartouches rechargées (reconditionnées à la maison) et les disperseurs (des pièces insérées dans la cartouche qui élargissent la gerbe). Également interdits : les plombs mélangés (des plombs de tailles ou de types différents dans une même cartouche), la poudre noire et les traceurs (des cartouches qui montrent la trajectoire des plombs) ({{rule:sporting:ch7-cartridges}}, {{rule:compak:ch18-cartridge-bans}}).",
+    "travel-cartridges-at-destination-p4": "Les compétitions FITASC ont des règles sur les cartouches, identiques dans les deux disciplines. Une cartouche peut contenir {{fact:gear.fitasc-shot-load}}. Les plombs doivent être {{fact:gear.fitasc-shot-diameter}}. Interdits : les {{term:reloaded-cartridge|cartouches rechargées}} — reconditionnées à la maison — et les disperseurs — des pièces insérées dans la cartouche qui élargissent le {{term:pattern|gerbe}}. Également interdits : les plombs mélangés (des plombs de tailles ou de types différents dans une même cartouche), la poudre noire et les traceurs (des cartouches qui montrent la trajectoire des plombs) ({{rule:sporting:ch7-cartridges}}, {{rule:compak:ch18-cartridge-bans}}).",
     "travel-cartridges-at-destination-p7": "Lisez l'étiquette sur la boîte, et essayez les cartouches inconnues à l'entraînement avant la compétition. Pour en savoir plus sur les charges : {{lesson:cartridges-load-weight}}.",
-    "travel-cartridges-at-destination-p5": "Certains stands n'autorisent que les {{term:steel-shot|billes d'acier}} ou une autre grenaille sans plomb, pour des raisons environnementales. L'acier ne convient pas à tous les fusils ni à tous les {{term:choke|chokes}}. Cherchez sur les canons un poinçon pour billes d'acier (de petites marques gravées qui indiquent les tests subis par le fusil), et demandez à un {{term:gunsmith|armurier}} ({{lesson:chokes-steel-shot}}). Renseignez-vous sur ces restrictions avant le voyage : elles peuvent aussi s'appliquer les jours d'entraînement.",
+    "travel-cartridges-at-destination-p5": "Certains stands n'autorisent que les {{term:steel-shot|billes d'acier|pl}} ou une autre grenaille sans plomb, pour des raisons environnementales. L'acier ne convient pas à tous les fusils ni à tous les chokes. Cherchez sur les canons un poinçon pour billes d'acier (de petites marques gravées qui indiquent les tests subis par le fusil), et demandez à un {{term:gunsmith|armurier}} ; voir aussi {{lesson:chokes-steel-shot}}. Renseignez-vous sur ces restrictions avant le voyage : elles peuvent aussi s'appliquer les jours d'entraînement.",
     "travel-cartridges-at-destination-p6": "Calculez le nombre de cartouches nécessaires, avec une petite marge. Rapporter le surplus chez soi peut être compliqué, et dans de nombreux pays vous ne pouvez ni vendre ni céder des cartouches à une autre personne : vérifiez d'abord la loi locale. À l'hôtel, rangez les cartouches comme l'exigent les règles du pays, et ne les laissez pas dans la voiture."
   },
   "note": {},
@@ -50,7 +50,7 @@
   "did_you_know": "Une bille d'acier {{fact:gear.steel-vs-lead-weight}}, elle perd donc sa vitesse plus vite en vol.",
   "quiz": {
     "travel-cartridges-at-destination-q1": {
-      "q": "Pourquoi les cartouches de compétition s'achètent-elles généralement sur place ?",
+      "q": "Pourquoi les {{term:cartridge|cartouches}} de compétition s'achètent-elles généralement sur place ?",
       "options": {
         "a": "Parce que la FITASC exige des cartouches de l'hôte",
         "b": "Parce que les cartouches sont toujours moins chères à l'étranger",
@@ -59,7 +59,7 @@
       "explain": "Le bagage ne permet d'emporter que quelques kilogrammes de cartouches, alors qu'une compétition en demande des centaines."
     },
     "travel-cartridges-at-destination-q2": {
-      "q": "Quelle est la charge maximale de plomb autorisée dans une cartouche par les règles FITASC ?",
+      "q": "Quelle est la charge maximale de plomb autorisée dans un {{term:cartridge|cartouche}} par les règles FITASC ?",
       "options": {
         "a": "28 g de plomb, avec une tolérance de +2 %",
         "b": "24 g de plomb, sans tolérance",
@@ -68,7 +68,7 @@
       "explain": "Dans les deux disciplines, la limite est de 28 g de plomb avec une tolérance de +2 %."
     },
     "travel-cartridges-at-destination-q3": {
-      "q": "Un stand n'autorise que les billes d'acier. Que faut-il vérifier ?",
+      "q": "Un stand n'autorise que les {{term:steel-shot|billes d'acier|pl}}. Que faut-il vérifier ?",
       "options": {
         "a": "Si la boutique vend des cartouches rechargées",
         "b": "Si votre fusil et vos chokes conviennent à l'acier",

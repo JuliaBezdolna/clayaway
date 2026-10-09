@@ -40,7 +40,7 @@
  "body": {
   "health-recoil-shoulder-neck-p1": "{{term:recoil|Rekyyli}} on aseen potku taaksepäin laukauksen aikana. Sitä ei voi välttää, mutta hyvin vastaanotettu rekyyli ei saisi sattua. Mustelmat olkapäässä, poskessa tai käsivarressa, tai niskakipu ampumisen jälkeen, ovat merkki siitä, että jotain kannattaa muuttaa.",
   "women-recoil-management-p1": "Tuntuva rekyyli riippuu voimasta paljon vähemmän kuin moni aloittelija luulee. Osa lopettaa ensimmäisen harjoituksen jälkeen, koska ”se potkii niin kovasti”. Usein syy on ase, joka ei sovi, liian painavat patruunat tai heikko nosto, ja kaikkia näitä kolmea voi muuttaa.",
-  "health-recoil-shoulder-neck-p2": "Yleinen syy on {{term:gun-mount|nosto}}. Tukin pitäisi istua olkapään ”taskussa”, solisluun ja olkanivelen välissä, ja posken pitäisi levätä tiukasti {{term:comb|poskipakalla}}. Silloin ase ja keho liikkuvat yhdessä, ja potku leviää lihaksiin sen sijaan, että se iskisi yhteen kohtaan. Jos tukki on kiinni luussa tai käsivarressa, tai olan ja tukin väliin jää rako, rekyyli iskee terävästi.",
+  "health-recoil-shoulder-neck-p2": "Yleinen syy on {{term:gun-mount|nosto}}. Tukin pitäisi istua olkapään ”taskussa”, solisluun ja olkanivelen välissä, ja posken pitäisi levätä tiukasti {{term:comb|poskipakalla}}. Silloin ase ja keho liikkuvat yhdessä, ja potku leviää lihaksiin sen sijaan, että se iskisi yhteen kohtaan. Jos {{term:stock|tukki}} on kiinni luussa tai käsivarressa, tai olan ja tukin väliin jää rako, rekyyli iskee terävästi.",
   "health-recoil-shoulder-neck-p3": "Toinen syy on ase, joka ei sovi. Liian pitkä tai lyhyt tukki pakottaa venyttämään päätä ja jännittämään niskaa. Samoin tekee liian korkea tai matala poskipakka. {{term:gun-fit|Aseen sopivuuden}} tarkistus valmentajan tai {{term:gun-fitter|aseen sovittajan}} kanssa auttaa usein nopeasti; ks. {{lesson:gun-fit}}. Junioreille tämä on vielä tärkeämpää: {{lesson:juniors-equipment-fit}}.",
   "women-recoil-management-p3": "Myös {{term:stance|ampuma-asento}} vaikuttaa. Pidä paino hieman etujalalla, nojaa vähän eteenpäin ja rentouta hartiat. Taaksepäin nojaaminen antaa aseen työntää sinua kauemmas. Pidä tukki tiukasti olassa, ilman rakoa; ks. {{lesson:technique-stance}}.",
   "health-recoil-shoulder-neck-p4": "Patruunat ovat toinen tekijä. Molemmissa lajeissa FITASC-säännöt sallivat {{fact:gear.fitasc-shot-load}}. Harjoituksissa moni ampuja käyttää kevyempää latausta, kuten {{fact:technique.training-loads-24-21g}}, tai {{term:low-recoil-cartridge|kevytrekyylisiä patruunoita}}. Harjoitteluun ja läheisiin tai keskimatkan kiekkoihin ne riittävät yleensä, ja ne väsyttävät paljon vähemmän. Kaukaisissa kiekoissa täysi lataus antaa tiiviimmän {{term:pattern|osumakuvion}}, hauliparven ilmassa, niin kiekkoon osuu enemmän hauleja.",
@@ -72,7 +72,7 @@
    "explain": "Olkapään taskussa potku menee lihaksiin, ei luuhun, ja ase ja keho liikkuvat yhdessä."
   },
   "health-recoil-shoulder-neck-q2": {
-   "q": "Mikä on suurin haulilataus, jonka FITASC-säännöt sallivat?",
+   "q": "Mikä on suurin {{term:load-weight|haulilataus}}, jonka FITASC-säännöt sallivat?",
    "options": {
     "a": "28 g",
     "b": "36 g",

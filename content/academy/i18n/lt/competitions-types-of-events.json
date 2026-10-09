@@ -31,13 +31,13 @@
   "title": "Varžybų tipai",
   "summary": "Klubo varžybos, nacionalinės varžybos, Grand Prix ir čempionatai {{tm:sporting}} ir {{tm:compak}} rungtyse: kuo jos skiriasi ir nuo ko pradedančiajam verta pradėti.",
   "body": {
-    "competitions-types-of-events-p1": "{{tm:sporting}} ir {{tm:compak}} varžybos labai skiriasi: nuo draugiškų {{term:club-shoot|klubo varžybų}} (club shoot) iki pasaulio {{term:championship|čempionato}}. Tarptautines abiejų rungčių taisykles rašo {{term:fitasc|FITASC}} – tarptautinė federacija, kuri joms vadovauja. Kaip organizuotas šis sportas, aiškina pamoka {{lesson:intro-fitasc-and-organisation}}.",
+    "competitions-types-of-events-p1": "{{tm:sporting}} ir {{tm:compak}} varžybos labai skiriasi: nuo draugiškų {{term:club-shoot|klubo varžybų}} iki pasaulio {{term:championship|čempionato}}. Tarptautines abiejų rungčių taisykles rašo {{term:fitasc|FITASC}} – tarptautinė federacija, kuri joms vadovauja. Kaip organizuotas šis sportas, aiškina pamoka {{lesson:intro-fitasc-and-organisation}}.",
     "competitions-types-of-events-p2": "Klubo varžybos – geras būdas pradėti. Jas rengia klubai ir stendai, dažnai savaitgaliais. Taikinių paprastai mažiau nei didesniuose turnyruose, visa vyksta ramiau, ir pradedančiajam noriai paaiškins, ką daryti. Taikinių skaičių, formatą ir dalį taisyklių nustato {{term:organiser|organizatorius}}, tad skaitykite programą.",
     "competitions-types-of-events-p3": "Toliau – nacionalinės varžybos: šalies čempionatai ir taurės, kuriuos rengia {{term:national-federation|nacionalinė federacija}} arba jos paskirtas klubas. Jų taisyklės dažnai artimos tarptautinėms, o rezultatai gali būti svarbūs rengiant rinktinę.",
     "competitions-types-of-events-p4": "Tarptautinės FITASC varžybos atviros šauliams iš daugelio šalių. Tai {{term:grand-prix|Grand Prix}} renginiai, o aukščiausiame lygyje – Europos ir pasaulio čempionatai. Tarptautinės varžybos paprastai yra {{fact:basics.international-targets}}, per kelias dienas.",
     "competitions-types-of-events-cmp1": {
       "sporting": "200 taikinių šaudoma aštuoniose {{term:layout|aikštelėse}}, po vieną {{term:round|seriją}} iš 25 kiekvienoje. Grand Prix renginiuose leidžiama ir „linija“ – eilė iš {{fact:competitions.sporting-grand-prix-line}}.",
-      "compak": "200 taikinių šaudoma aštuoniuose Compak laukuose (Compak – tai vienas laukas su penkiais numeriais ir šešiomis mašinėlėmis). Laukai yra keturių rūšių: jie skiriasi tuo, kiek pavienių ir dubletų šaudoma iš kiekvieno numerio ir kokie tai dubletai. Žemyno ir pasaulio čempionatuose šeimininkų klubas tam renginiui vieninteliam sustato {{fact:competitions.compak-championship-machines}} (po šešias kiekvienam laukui), kad visiems sąlygos būtų vienodos."
+      "compak": "200 taikinių šaudoma aštuoniuose Compak laukuose (Compak – tai vienas laukas su penkiais numeriais ir šešiomis mašinėlėmis). Laukai yra keturių rūšių: jie skiriasi tuo, kiek pavienių ir dubletų šaudoma iš kiekvieno numerio ir kokie tai {{term:double|dubletai}}. Žemyno ir pasaulio čempionatuose šeimininkų klubas tam renginiui vieninteliam sustato {{fact:competitions.compak-championship-machines}} (po šešias kiekvienam laukui), kad visiems sąlygos būtų vienodos."
     },
     "competitions-types-of-events-p5": "Didieji čempionatai turi ir {{term:team|komandų}} įskaitą: nacionalinės komandos narių rezultatai sudedami. Be to, šauliai skirstomi {{term:category|kategorijomis}} pagal amžių ir lytį. Apie abu dalykus – pamokoje {{lesson:competitions-categories-and-shoot-offs}}.",
     "competitions-types-of-events-start": "Daug trenerių pataria pradėti nuo kelių klubo varžybų. Taip priprasite prie tvarkaraščio, {{term:squad|grupės}} ir {{term:referee|teisėjo}} be didelio spaudimo. Kaip registruotis – pamokoje {{lesson:competitions-how-to-enter}}."
@@ -52,7 +52,7 @@
     "competitions-types-of-events-kp3": "Grand Prix renginiai ir Europos bei pasaulio čempionatai yra tarptautiniai; tai paprastai {{fact:basics.international-targets}}.",
     "competitions-types-of-events-kp5": "Čempionatuose yra asmeninė, komandų ir kategorijų įskaita."
   },
-  "did_you_know": "{{tm:sporting}} rungtyje žiuri išimtiniu atveju gali sumažinti taikinių skaičių. Tada organizatorius grąžina pinigus už nešaudytus taikinius – treniruočių taikinių kaina.",
+  "did_you_know": "{{tm:sporting}} rungtyje {{term:jury|žiuri}} išimtiniu atveju gali sumažinti taikinių skaičių. Tada organizatorius grąžina pinigus už nešaudytus taikinius – treniruočių taikinių kaina.",
   "quiz": {
     "competitions-types-of-events-q1": {
       "q": "Kiek taikinių paprastai turi tarptautinės FITASC varžybos?",
@@ -73,7 +73,7 @@
       "explain": "Klubo varžybų taikinių skaičių ir formatą nustato organizatorius, o programa sako, kokie jie."
     },
     "competitions-types-of-events-q3": {
-      "q": "Kodėl žemyno ir pasaulio {{tm:compak}} čempionatuose statomos naujos mašinėlės?",
+      "q": "Kodėl žemyno ir pasaulio {{tm:compak}} čempionatuose statomos naujos {{term:trap|mašinėlės}}?",
       "options": {
         "a": "Kad sąlygos būtų vienodos visiems",
         "b": "Nes senos mašinėlės draudžiamos įstatymu",

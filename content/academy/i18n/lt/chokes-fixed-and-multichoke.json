@@ -28,13 +28,13 @@
   "title": "Fiksuoti ir keičiami čokai",
   "summary": "Čokai gali būti visam laikui įtekinti vamzdyje arba į žiotis įsukami vamzdeliai, kuriuos galima keisti. Apie abu variantus ir apie tai, kada {{tm:sporting}} ir {{tm:compak}} taisyklės leidžia juos keisti.",
   "body": {
-    "chokes-fixed-and-multichoke-p1": "{{term:fixed-choke|Fiksuotas čokas}} (fixed choke) ištekintas vamzdyje gamykloje, ir pakeisti jį gali tik {{term:gunsmith|ginklininkas}}. Taip padaryta daug senesnių ir klasikinių šautuvų. Tokioje vertikalkoje dažniausiai du skirtingi susiaurinimai, pavyzdžiui, 1/4 ir 1/2, o šaulys dirba su tuo, ką turi.",
-    "chokes-fixed-and-multichoke-p2": "{{term:multichoke|Keičiami čokai}} (multichoke) – trumpi srieginiai vamzdeliai, kurie {{term:choke-key|čokų raktu}} (choke key) įsukami į žiotis. Juos turi dauguma šiuolaikinių varžybinių šautuvų. Prie šautuvo pridedamas kelių čokų rinkinys, ir šaulys įsuka tuos, kurie tinka taikiniams.",
-    "chokes-fixed-and-multichoke-p3": "Vamzdeliai yra arba lygūs su žiotimis (flush), arba {{term:extended-choke|išsikišantys}} (extended): jie kyšo už žiočių, dažnai 1–5 cm. Daug išsikišančių čokų galima atsukti ranka, ir jų žymėjimą galima perskaityti neišsukus.",
-    "chokes-fixed-and-multichoke-p4": "Sriegiai ir dydžiai skiriasi tarp gamintojų ir net tarp to paties gamintojo modelių. Kitos sistemos čokas gali netikti arba įsisukti netinkamai, o tai pavojinga. Pirkite tik čokus, pagamintus būtent jūsų šautuvui.",
+    "chokes-fixed-and-multichoke-p1": "{{term:fixed-choke|Fiksuotas čokas}} ištekintas vamzdyje gamykloje, ir pakeisti jį gali tik {{term:gunsmith|ginklininkas}}. Taip padaryta daug senesnių ir klasikinių šautuvų. Tokioje vertikalkoje dažniausiai du skirtingi susiaurinimai, pavyzdžiui, 1/4 ir 1/2, o šaulys dirba su tuo, ką turi.",
+    "chokes-fixed-and-multichoke-p2": "{{term:multichoke|Keičiami čokai}} – trumpi srieginiai vamzdeliai, kurie {{term:choke-key|čokų raktu}} įsukami į žiotis. Juos turi dauguma šiuolaikinių varžybinių šautuvų. Prie šautuvo pridedamas kelių čokų rinkinys, ir šaulys įsuka tuos, kurie tinka taikiniams.",
+    "chokes-fixed-and-multichoke-p3": "Vamzdeliai yra arba lygūs su žiotimis (flush), arba {{term:extended-choke|išsikišantys}}: jie kyšo už žiočių, dažnai 1–5 cm. Daug išsikišančių čokų galima atsukti ranka, ir jų žymėjimą galima perskaityti neišsukus.",
+    "chokes-fixed-and-multichoke-p4": "Sriegiai ir dydžiai skiriasi tarp gamintojų ir net tarp to paties gamintojo modelių. Kitos sistemos {{term:choke|čokas}} gali netikti arba įsisukti netinkamai, o tai pavojinga. Pirkite tik čokus, pagamintus būtent jūsų šautuvui.",
     "chokes-fixed-and-multichoke-cmp1": {
       "sporting": "Čoką, visą šautuvą ar vamzdį galite pakeisti tarp šaudymo vietų arba tarp pavienių taikinių ir dubletų, jei tai nesukelia delsimo. Kai jau stojote į šaudymo vietą, daugiau keisti negalima.",
-      "compak": "Serijos metu negalima keisti nei šautuvo, nei vamzdžių, nei čokų. Jie keičiami tik tarp serijų; išimtis – šautuvo gedimas. Tad rinkitės čokus, kurie tiks visiems serijos taikiniams."
+      "compak": "{{term:round|Serijos}} metu negalima keisti nei šautuvo, nei vamzdžių, nei čokų. Jie keičiami tik tarp serijų; išimtis – {{term:malfunction|šautuvo gedimas}}. Tad rinkitės čokus, kurie tiks visiems serijos taikiniams."
     }
   },
   "note": {},
@@ -51,9 +51,9 @@
       "q": "Kada {{tm:sporting}} galima pakeisti čoką?",
       "options": {
         "a": "Tarp šaudymo vietų, jei tai nesukelia delsimo",
-        "b": "Šaudymo vietoje, prieš pat dubletą",
+        "b": "Šaudymo vietoje, prieš pat {{term:double|dubletą}}",
         "c": "Tik prieš pirmą dienos šaudymo vietą",
-        "d": "Tik su žiuri raštišku sutikimu"
+        "d": "Tik su {{term:jury|žiuri}} raštišku sutikimu"
       },
       "explain": "Keisti galima tarp šaudymo vietų arba tarp pavienių taikinių ir dubletų, bet ne tada, kai jūs jau šaudymo vietoje."
     },

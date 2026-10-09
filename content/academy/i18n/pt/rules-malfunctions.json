@@ -50,21 +50,21 @@
     "origin": "interpreter-academy"
   },
   "title": "Deficiências da arma ou do cartucho",
-  "summary": "O que fazer quando a arma não dispara, e como se conta uma deficiência em {{tm:sporting}} e {{tm:compak}}.",
+  "summary": "O que fazer quando a arma não dispara, e como se conta uma {{term:malfunction|deficiência}} em {{tm:sporting}} e {{tm:compak}}.",
   "body": {
-    "sporting-malfunctions-p1": "Uma {{term:malfunction|deficiência}} é uma falha da arma ou do cartucho: uma falha de percussão, um segundo cano que não dispara, ou os dois canos a dispararem ao mesmo tempo ({{term:double-discharge|disparo duplo}}).",
-    "sporting-malfunctions-p2": "Primeiro, o que o atirador tem de fazer: ficar no lugar, com a arma apontada para a zona de tiro. Não a abra nem toque na {{term:safety-catch|segurança}} até o árbitro a ter examinado. Abrir a arma ou tocar na segurança antes disso significa que o prato ou os pratos contam zero. Não tente desmontar uma arma carregada no posto.",
-    "safety-malfunction-p3": "Porque não abrir logo a arma? Por vezes um cartucho dispara com atraso, uma fração de segundo ou mais depois de premido o gatilho: é a {{term:hang-fire|falha do cartucho}}. Se nesse momento a arma estiver aberta ou apontada de lado, isso é perigoso. Por isso, no treino sem árbitro, espere com a arma apontada em segurança antes de a abrir; o seu instrutor ou o regulamento do campo dirão quanto tempo.",
+    "sporting-malfunctions-p1": "Uma {{term:malfunction|deficiência}} é uma falha da arma ou do cartucho: uma falha de percussão, um segundo cano que não dispara, ou os dois {{term:barrel|canos}} a dispararem ao mesmo tempo — {{term:double-discharge|disparo duplo}}.",
+    "sporting-malfunctions-p2": "Primeiro, o que o atirador tem de fazer: ficar no lugar, com a arma apontada para a zona de tiro. Não a abra nem toque na {{term:safety-catch|segurança}} até o {{term:referee|árbitro}} a ter examinado. Abrir a arma ou tocar na segurança antes disso significa que o prato ou os pratos contam zero. Não tente desmontar uma arma carregada no posto.",
+    "safety-malfunction-p3": "Porque não abrir logo a arma? Por vezes um cartucho dispara com atraso, uma fração de segundo ou mais depois de premido o {{term:trigger|gatilho}}: é o {{term:hang-fire|disparo retardado}}. Se nesse momento a arma estiver aberta ou apontada de lado, isso é perigoso. Por isso, no treino sem árbitro, espere com a arma apontada em segurança antes de a abrir; o seu instrutor ou o regulamento do campo dirão quanto tempo.",
     "rules-malfunctions-cmp1": {
-      "sporting": "Por série de {{fact:rules.round-targets}}. O primeiro incidente é No Bird com advertência, e o prato repete-se. A partir do segundo, o prato já não se repete: conta zero.",
-      "compak": "Por série de {{fact:rules.round-targets}}. O primeiro incidente é No Bird com {{term:yellow-card|cartão amarelo}}. Um segundo do mesmo tipo traz {{term:red-card|cartão vermelho}}, e os pratos não atirados contam zero."
+      "sporting": "Por {{term:round|série}} de {{fact:rules.round-targets}}. O primeiro incidente é No Bird com advertência, e o prato repete-se. A partir do segundo, o prato já não se repete: conta zero.",
+      "compak": "Por {{term:round|série}} de {{fact:rules.round-targets}}. O primeiro incidente é No Bird com {{term:yellow-card|cartão amarelo}}. Um segundo do mesmo tipo traz {{term:red-card|cartão vermelho}}, e os pratos não atirados contam zero."
     },
     "sporting-malfunctions-p4": "A sua primeira deficiência na série, caso a caso. (1) O primeiro tiro falha: atira outra vez o simples ou o double. Se ainda assim tiver disparado o segundo tiro, esse resultado conta. (2) Num simples, o segundo tiro falha: atira-o outra vez, e na repetição só conta um acerto com o segundo tiro. Por isso, falhe o primeiro tiro de propósito. (3) Os dois canos disparam ao mesmo tempo num simples, ou no primeiro prato de um double: No Bird, nada é registado, e atira outra vez. Como se repete cada tipo de double está no guia de regras ({{rule:sporting:ch6-malfunction-second-shot}}).",
-    "sporting-malfunctions-p5": "Se a sua arma for reparada antes de a esquadra terminar o posto, pode atirar em último lugar, com autorização do árbitro. Se não puder ser reparada, pode mudar de imediato para outra arma, com o acordo do árbitro, ou terminar mais tarde noutra esquadra se o júri o permitir. Fora de uma deficiência, não pode trocar de arma, choke ou canos depois de estar no posto.",
+    "sporting-malfunctions-p5": "Se a sua arma for reparada antes de a {{term:squad|esquadra}} terminar o posto, pode atirar em último lugar, com autorização do árbitro. Se não puder ser reparada, pode mudar de imediato para outra arma, com o acordo do árbitro, ou terminar mais tarde noutra esquadra se o júri o permitir. Fora de uma deficiência, não pode trocar de arma, choke ou canos depois de estar no posto.",
     "compak-malfunctions-p3": "A sua primeira deficiência na série. Se os dois canos dispararem ao mesmo tempo ou o primeiro cartucho falhar, o simples ou o double é lançado outra vez, e a tentativa falhada não conta para nada. Se falhar o segundo cartucho num simples, o prato é lançado outra vez, mas só o segundo tiro pode pontuá-lo. Por isso, falhe o primeiro tiro de propósito. Para os doubles, veja o guia de regras ({{rule:compak:ch20-gun-failure-second-shot}}).",
-    "compak-malfunctions-p4": "Depois de uma deficiência, tem {{fact:rules.compak-repair-time}} para voltar a pôr a arma a funcionar ou para a substituir. Excecionalmente, pode pedir emprestada a arma de alguém fora da sua esquadra ou grupo, com o acordo do dono e do árbitro. Sem uma arma a funcionar, os pratos restantes são zero. Fora disso, não se pode trocar de arma, choke ou canos dentro de uma série.",
+    "compak-malfunctions-p4": "Depois de uma deficiência, tem {{fact:rules.compak-repair-time}} para voltar a pôr a arma a funcionar ou para a substituir. Excecionalmente, pode pedir emprestada a arma de alguém fora da sua {{term:squad|esquadra}} ou grupo, com o acordo do dono e do árbitro. Sem uma arma a funcionar, os pratos restantes são zero. Fora disso, não se pode trocar de arma, choke ou canos dentro de uma série.",
     "compak-malfunctions-p5": "Um {{term:rabbit|coelho}} é o prato que rola pelo chão. Nas duas disciplinas, se o falhar com o primeiro tiro e ele se partir sozinho antes do segundo tiro, é No Bird. Isto pode acontecer quando bate numa pedra. Na repetição só conta o segundo tiro, como depois de uma deficiência no segundo tiro.",
-    "rules-malfunctions-p7": "Verifique a arma e os cartuchos antes da série, no local de {{term:gun-test|ensaio da arma}} perto do clube, se houver um. Disparos de teste no posto de tiro não são permitidos em nenhuma das duas disciplinas."
+    "rules-malfunctions-p7": "Verifique a arma e os cartuchos antes da {{term:round|série}}, no local de {{term:gun-test|ensaio da arma}} perto do clube, se houver um. Disparos de teste no posto de tiro não são permitidos em nenhuma das duas disciplinas."
   },
   "note": {
     "rules-malfunctions-n1": "Transmita as palavras do árbitro de imediato e ao pé da letra: «fique aí, não abra a arma». Explique as razões só depois da verificação."
@@ -104,9 +104,9 @@
     }
   },
   "key_points": {
-    "sporting-malfunctions-kp1": "Depois de uma falha, fique onde está com a arma fechada e apontada para a zona de tiro; abri-la antes da verificação do árbitro custa o prato.",
-    "sporting-malfunctions-kp2": "Primeiro incidente numa série: No Bird e advertência (no {{tm:compak}}, cartão amarelo).",
-    "compak-malfunctions-kp1": "Segundo incidente na mesma série: sem repetição. No {{tm:sporting}} o prato conta zero. No {{tm:compak}} uma segunda falha do mesmo tipo dá cartão vermelho, e os pratos não atirados contam zero.",
+    "sporting-malfunctions-kp1": "Depois de uma falha, fique onde está com a arma fechada e apontada para a zona de tiro; abri-la antes da verificação do {{term:referee|árbitro}} custa o prato.",
+    "sporting-malfunctions-kp2": "Primeiro incidente numa série: No Bird e advertência — no {{tm:compak}}, {{term:yellow-card|cartão amarelo}}.",
+    "compak-malfunctions-kp1": "Segundo incidente na mesma série: sem repetição. No {{tm:sporting}} o prato conta zero. No {{tm:compak}} uma segunda falha do mesmo tipo dá {{term:red-card|cartão vermelho}}, e os pratos não atirados contam zero.",
     "sporting-malfunctions-kp4": "Falha do segundo tiro num simples: na repetição só conta um acerto com o segundo tiro.",
     "rules-malfunctions-kp5": "{{tm:compak}}: {{fact:rules.compak-repair-time}} para reparar a arma ou a substituir."
   },
@@ -122,7 +122,7 @@
       "explain": "Abrir a arma ou tocar na segurança antes da verificação do árbitro significa que o prato conta zero."
     },
     "rules-malfunctions-q2": {
-      "q": "Em {{tm:sporting}}, ocorre uma segunda deficiência da arma na mesma série, num simples. Qual é o resultado?",
+      "q": "Em {{tm:sporting}}, ocorre uma segunda {{term:malfunction|deficiência}} da arma na mesma {{term:round|série}}, num simples. Qual é o resultado?",
       "options": {
         "a": "Zero",
         "b": "No Bird",
@@ -140,7 +140,7 @@
       "explain": "Tem {{fact:rules.compak-repair-time}}; sem uma arma a funcionar, os pratos não disparados contam zero."
     },
     "safety-malfunction-q1": {
-      "q": "No treino, sem árbitro, a arma faz um estalido mas não dispara. O que deve fazer?",
+      "q": "No treino, sem {{term:referee|árbitro}}, a arma faz um estalido mas não dispara. O que deve fazer?",
       "options": {
         "a": "Abri-la de imediato e olhar",
         "b": "Mantê-la apontada em segurança e esperar antes de a abrir",
@@ -149,7 +149,7 @@
       "explain": "Um cartucho pode disparar com atraso (uma falha do cartucho), por isso mantenha a boca da arma numa direção segura e espere antes de abrir a arma. O seu instrutor ou o regulamento do campo dirá quanto tempo esperar."
     },
     "safety-malfunction-q2": {
-      "q": "Depois de uma falha de disparo, aciona a patilha de segurança antes de o árbitro ver a arma. O que acontece?",
+      "q": "Depois de uma falha de disparo, aciona a {{term:safety-catch|patilha de segurança}} antes de o {{term:referee|árbitro}} ver a arma. O que acontece?",
       "options": {
         "a": "O prato conta zero",
         "b": "Recebe um prato extra",
@@ -158,7 +158,7 @@
       "explain": "Tocar na segurança antes da verificação do árbitro custa o prato, tal como abrir a arma. Espere, com a arma apontada para a zona de tiro."
     },
     "safety-malfunction-q3": {
-      "q": "Porque não se abre logo uma arma com uma deficiência?",
+      "q": "Porque não se abre logo uma arma com uma {{term:malfunction|deficiência}}?",
       "options": {
         "a": "Para não sujar o cartucho",
         "b": "Porque o cartucho pode disparar com atraso",
@@ -167,7 +167,7 @@
       "explain": "Uma falha do cartucho com disparo retardado é rara mas perigosa, por isso a arma deve ficar apontada numa direção segura."
     },
     "competitions-scoring-basics-q2": {
-      "q": "{{tm:sporting}}: a sua arma avaria num posto (primeiro incidente) e é reparada enquanto a sua esquadra ainda está a atirar nesse posto. O que pode fazer?",
+      "q": "{{tm:sporting}}: a sua arma avaria num posto (primeiro incidente) e é reparada enquanto a sua {{term:squad|esquadra}} ainda está a atirar nesse posto. O que pode fazer?",
       "options": {
         "a": "Atirar o posto por último, se o árbitro permitir",
         "b": "Nada: os pratos restantes contam zero",
@@ -176,7 +176,7 @@
       "explain": "Se a arma for reparada antes de a esquadra terminar o posto, pode atirá-lo por último ali, com autorização do árbitro."
     },
     "sporting-malfunctions-q1": {
-      "q": "Primeiro problema com a arma na série: num simples, o primeiro cartucho falha. O atirador espera pelo árbitro, com a arma apontada para a zona de tiro. Decisão?",
+      "q": "Primeiro problema com a arma na {{term:round|série}}: num simples, o primeiro cartucho falha. O atirador espera pelo {{term:referee|árbitro}}, com a arma apontada para a zona de tiro. Decisão?",
       "options": {
         "a": "Zero",
         "b": "No Bird e advertência",
@@ -186,7 +186,7 @@
       "explain": "Numa série, o primeiro incidente com a arma ou a munição é No Bird com advertência, e o simples repete-se."
     },
     "sporting-malfunctions-q2": {
-      "q": "O cartucho falha e o atirador, irritado, abre a arma para ver o fulminante antes de o árbitro chegar. Decisão?",
+      "q": "O cartucho falha e o atirador, irritado, abre a arma para ver o {{term:primer|fulminante}} antes de o {{term:referee|árbitro}} chegar. Decisão?",
       "options": {
         "a": "NULO",
         "b": "O prato repete-se depois de uma advertência",
@@ -206,17 +206,17 @@
       "explain": "Depois de uma falha no segundo tiro, o simples repetido só pode ser partido com o segundo tiro, por isso o primeiro tiro tem de ser um erro deliberado."
     },
     "compak-malfunctions-q1": {
-      "q": "Primeiro incidente da série em {{tm:compak}}: o primeiro cartucho falha num simples. O atirador espera corretamente. Decisão?",
+      "q": "Primeiro incidente da {{term:round|série}} em {{tm:compak}}: o primeiro cartucho falha num simples. O atirador espera corretamente. Decisão?",
       "options": {
-        "a": "No Bird e cartão amarelo",
+        "a": "No Bird e {{term:yellow-card|cartão amarelo}}",
         "b": "Zero, sem repetição",
-        "c": "Cartão vermelho e zero",
+        "c": "{{term:red-card|Cartão vermelho}} e zero",
         "d": "One, o tiro conta"
       },
       "explain": "O primeiro incidente com a arma ou o cartucho numa série é No Bird com uma primeira advertência, assinalada com cartão amarelo."
     },
     "compak-malfunctions-q2": {
-      "q": "A arma de um atirador avaria, e ele quer pedir emprestada a arma de um colega de esquadra. É permitido?",
+      "q": "A arma de um atirador avaria, e ele quer pedir emprestada a arma de um colega de {{term:squad|esquadra}}. É permitido?",
       "options": {
         "a": "Sim, com o consentimento do dono",
         "b": "Sim, se o árbitro concordar",
@@ -226,7 +226,7 @@
       "explain": "{{tm:compak}} proíbe partilhar uma arma dentro do mesmo grupo. O empréstimo excecional só pode vir de fora dele, com o acordo do dono e do árbitro."
     },
     "compak-malfunctions-q3": {
-      "q": "Segunda falha da arma do mesmo tipo nesta série, num simples a que o atirador não conseguiu disparar. Decisão?",
+      "q": "Segunda falha da arma do mesmo tipo nesta {{term:round|série}}, num simples a que o atirador não conseguiu disparar. Decisão?",
       "options": {
         "a": "NULO outra vez",
         "b": "NULO e uma advertência",

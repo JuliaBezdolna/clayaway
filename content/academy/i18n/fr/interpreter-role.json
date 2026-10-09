@@ -29,11 +29,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Votre rôle : entraînement ou compétition",
-  "summary": "Pendant l'entraînement, vous êtes la voix de l'entraîneur. En compétition, le coaching est interdit, alors vous ne transmettez que ce que disent l'arbitre, le jury et l'organisateur.",
+  "summary": "Pendant l'entraînement, vous êtes la voix du {{term:coach|entraîneur}}. En compétition, le coaching est interdit, alors vous ne transmettez que ce que disent le {{term:referee|arbitre}}, le jury et l'{{term:organiser|organisateur}}.",
   "body": {
-    "interpreter-role-p1": "À l'entraînement, vous êtes la voix de l'{{term:coach|entraîneur}}. Transmettez chaque consigne intégralement, dans l'ordre et sur le ton de l'entraîneur : ferme pour la sécurité, chaleureux pour un compliment. N'adoucissez pas les critiques et n'ajoutez pas de raisons que l'entraîneur n'a pas données. N'ajoutez pas de conseils techniques de votre cru, même quand vous connaissez la réponse. Si vous n'avez pas entendu un mot, demandez avant de traduire.",
-    "interpreter-role-p2": "Une compétition, c'est différent. En {{tm:sporting}} comme en {{tm:compak}}, le {{term:coaching|coaching}} d'un concurrent pendant la compétition est interdit. Le tireur reçoit un {{term:yellow-card|carton jaune}}, les récidives entraînent des sanctions plus lourdes, et l'{{term:referee|arbitre}} fait sortir de la zone de tir la personne qui a donné le conseil ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). La décision de l'arbitre n'appartient qu'à lui. Personne dans la {{term:squad|planche}} ne commente les plateaux touchés. Une critique ouverte d'une décision constitue une {{term:attempt-to-influence|tentative d'influence}} sur l'arbitre, c'est-à-dire chercher à le faire changer de décision ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
-    "interpreter-role-p3": "Voici la partie honnête : les règlements FITASC ne mentionnent pas du tout les {{term:interpreter|interprètes}}. Ils ne disent pas si transmettre mot pour mot le conseil d'un entraîneur constitue du coaching. Ils ne disent pas non plus où un interprète peut se placer. C'est une question ouverte pour la FITASC, donc ne présentez aucune réponse comme officielle.",
+    "interpreter-role-p1": "À l'entraînement, vous êtes la voix du {{term:coach|entraîneur}}. Transmettez chaque consigne intégralement, dans l'ordre et sur le ton de l'entraîneur : ferme pour la sécurité, chaleureux pour un compliment. N'adoucissez pas les critiques et n'ajoutez pas de raisons que l'entraîneur n'a pas données. N'ajoutez pas de conseils techniques de votre cru, même quand vous connaissez la réponse. Si vous n'avez pas entendu un mot, demandez avant de traduire.",
+    "interpreter-role-p2": "Une compétition, c'est différent. En {{tm:sporting}} comme en {{tm:compak}}, le {{term:coaching|coaching}} d'un concurrent pendant la compétition est interdit. Le tireur reçoit un {{term:yellow-card|carton jaune}}, les récidives entraînent des sanctions plus lourdes, et le {{term:referee|arbitre}} fait sortir de la zone de tir la personne qui a donné le conseil ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). La décision de l'arbitre n'appartient qu'à lui. Personne dans le {{term:squad|planche}} ne commente les plateaux touchés. Une critique ouverte d'une décision constitue un {{term:attempt-to-influence|tentative d'influence}} sur l'arbitre, c'est-à-dire chercher à le faire changer de décision ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "interpreter-role-p3": "Voici la partie honnête : les règlements FITASC ne mentionnent pas du tout les interprètes. Ils ne disent pas si transmettre mot pour mot le conseil d'un entraîneur constitue du coaching. Ils ne disent pas non plus où un interprète peut se placer. C'est une question ouverte pour la FITASC, donc ne présentez aucune réponse comme officielle.",
     "interpreter-role-p4": "En attendant la réponse de la FITASC, suivez une pratique prudente. En compétition, n'interprétez que ce qui se passe entre votre tireur et l'arbitre, le {{term:jury|jury}} ou l'{{term:organiser|organisateur}} : annonces, décisions, avertissements, {{term:protest|réclamations}}, horaires et listes des planches. Avant l'épreuve, dites à l'arbitre ou à l'organisateur qui vous êtes et convenez de l'endroit où vous vous tiendrez. Si un entraîneur vous demande de transmettre un conseil pendant la compétition, refusez poliment et expliquez pourquoi. Cela protège votre tireur d'un carton jaune.",
     "interpreter-role-p5": "Les règlements ne disent pas si une pause entre deux séries compte encore comme « pendant la compétition ». En cas de doute, demandez au jury ou à l'organisateur avant de transmettre un conseil. Où se placer et quand parler : {{lesson:interpreter-position}}."
   },
@@ -65,27 +65,27 @@
   },
   "quiz": {
     "interpreter-role-q1": {
-      "q": "Pendant une série de compétition, l'entraîneur vous demande de dire au tireur « more lead on the crosser ». Que faites-vous ?",
+      "q": "Pendant une série de compétition, le {{term:coach|entraîneur}} vous demande de dire au tireur « more lead on the crosser ». Que faites-vous ?",
       "options": {
         "a": "Le chuchoter rapidement pendant qu'il recharge",
         "b": "Le transmettre après le plateau suivant",
         "c": "Refuser poliment : ce serait du coaching",
-        "d": "Demander à l'arbitre de le transmettre"
+        "d": "Demander au arbitre de le transmettre"
       },
-      "explain": "Le coaching pendant la compétition est interdit et le tireur recevrait un carton jaune. Les règlements ne disent pas si relayer un conseil est autorisé, alors restez prudent."
+      "explain": "Le coaching pendant la compétition est interdit et le tireur recevrait un {{term:yellow-card|carton jaune}}. Les règlements ne disent pas si relayer un conseil est autorisé, alors restez prudent."
     },
     "interpreter-role-q2": {
       "q": "Que disent les règlements FITASC sur les interprètes ?",
       "options": {
         "a": "Ils peuvent se tenir sur le poste",
-        "b": "Ils ont besoin d'une licence d'arbitre",
-        "c": "Ils sont considérés comme des entraîneurs",
+        "b": "Ils ont besoin d'un {{term:referee-certificate|licence d'arbitre}}",
+        "c": "Ils sont considérés comme des {{term:coach|entraîneurs}}",
         "d": "Rien : c'est une question ouverte"
       },
       "explain": "Les règlements ne mentionnent pas les interprètes : leur place exacte en compétition est donc une question ouverte pour la FITASC."
     },
     "interpreter-role-q3": {
-      "q": "À l'entraînement, l'entraîneur dit « Not bad, but you stopped the gun. » Comment traduisez-vous ?",
+      "q": "À l'entraînement, le {{term:coach|entraîneur}} dit « Not bad, but you stopped the gun. » Comment traduisez-vous ?",
       "options": {
         "a": "Intégralement et sur le même ton, les deux parties",
         "b": "Seulement le compliment, pour garder l'invité de bonne humeur",

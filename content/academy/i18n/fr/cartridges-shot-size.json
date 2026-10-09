@@ -30,7 +30,7 @@
     "origin": null
   },
   "title": "Numéro de plomb",
-  "summary": "Ce que signifient les numéros de plomb 7, 7½, 8 et 9, pourquoi la numérotation diffère selon les pays, et quel diamètre autorise le règlement du {{tm:sporting}} et du {{tm:compak}}.",
+  "summary": "Ce que signifient les {{term:shot-size|numéros de plomb}} 7, 7½, 8 et 9, pourquoi la numérotation diffère selon les pays, et quel diamètre autorise le règlement du {{tm:sporting}} et du {{tm:compak}}.",
   "body": {
     "gear-cartridges-p3": "Les {{term:shot-size|numéros de plomb}} fonctionnent à l'envers : plus le numéro est grand, plus la bille est petite, donc le n° 9 est plus fin que le n° 7½. Le même numéro peut désigner une taille légèrement différente en Grande-Bretagne, en Europe continentale et aux États-Unis, donc vérifiez les millimètres sur la boîte. « Des neuf » et « des sept et demi » sont des façons courantes de parler chez les entraîneurs.",
     "cartridges-shot-size-p2": [
@@ -40,9 +40,9 @@
       "N° 7 : environ 2,4-2,5 mm."
     ],
     "cartridges-shot-size-p7": "Pourquoi « environ » ? Parce que la numérotation diffère selon les pays et les fabricants. Dans l'échelle britannique traditionnelle, le n° 7½ fait 2,3 mm et le n° 8 fait 2,2 mm. La numérotation continentale, que certains fabricants britanniques comme Gamebore utilisent aussi pour leurs charges de tir sur plateaux, appelle n° 7½ un plomb de 2,4 mm et n° 8 un plomb de 2,3 mm. Le n° 7½ américain fait 0,095 po, soit environ 2,41 mm.",
-    "cartridges-shot-size-p3": "Le règlement du {{tm:sporting}} et du {{tm:compak}} exige du {{term:lead-shot|plomb}} {{fact:gear.fitasc-shot-diameter}}. En pratique, cela signifie n° 9, 8, 7½, et n° 7 si son diamètre reste dans la limite. Le n° 6 (environ 2,6-2,8 mm) se situe à la limite, voire au-delà, même avec la tolérance, donc ce n'est pas une charge de compétition. Mélanger des plombs de tailles différentes dans une cartouche est interdit.",
-    "cartridges-shot-size-p4": "Un plomb plus fin donne plus de billes pour la même charge : 28 g contiennent environ 350 à 400 billes de n° 7½, selon le diamètre exact, et environ 580 de n° 9. La {{term:pattern|gerbe}} est donc plus dense, mais chaque bille est plus légère et perd son énergie plus vite.",
-    "cartridges-shot-size-p5": "C'est pourquoi beaucoup de tireurs utilisent du n° 9 pour les plateaux proches : sa gerbe dense couvre facilement le plateau. Pour les plateaux moyens et éloignés, ils choisissent du n° 8 ou du n° 7½, car des billes plus lourdes cassent mieux les plateaux à distance. Le n° 7½ est aussi populaire pour les {{term:rabbit|rabbit}} résistants et pour une {{term:battue|battue}} qui vole de profil.",
+    "cartridges-shot-size-p3": "Le règlement du {{tm:sporting}} et du {{tm:compak}} exige du {{term:lead-shot|plomb}} {{fact:gear.fitasc-shot-diameter}}. En pratique, cela signifie n° 9, 8, 7½, et n° 7 si son diamètre reste dans la limite. Le n° 6 (environ 2,6-2,8 mm) se situe à la limite, voire au-delà, même avec la tolérance, donc ce n'est pas une charge de compétition. Mélanger des plombs de tailles différentes dans un {{term:cartridge|cartouche}} est interdit.",
+    "cartridges-shot-size-p4": "Un plomb plus fin donne plus de billes pour la même charge : 28 g contiennent environ 350 à 400 billes de n° 7½, selon le diamètre exact, et environ 580 de n° 9. Le {{term:pattern|gerbe}} est donc plus dense, mais chaque bille est plus légère et perd son énergie plus vite.",
+    "cartridges-shot-size-p5": "C'est pourquoi beaucoup de tireurs utilisent du n° 9 pour les plateaux proches : sa gerbe dense couvre facilement le plateau. Pour les plateaux moyens et éloignés, ils choisissent du n° 8 ou du n° 7½, car des billes plus lourdes cassent mieux les plateaux à distance. Le n° 7½ est aussi populaire pour les {{term:rabbit|rabbit|pl}} résistants et pour une {{term:battue|battue}} qui vole de profil.",
     "cartridges-shot-size-p6": "Beaucoup de tireurs de {{tm:sporting}} choisissent une seule cartouche polyvalente, par exemple 28 g n° 7½ ou n° 8, et simplifient les choses. Certains chargent du n° 9 dans le premier canon pour un plateau proche et du n° 7½ dans le second."
   },
   "note": {
@@ -50,7 +50,7 @@
   },
   "phrases": {
     "gear-cartridges-ph1": {
-      "meaning": "Du plomb n° 9, plus fin, pour les plateaux proches ; du n° 7½, plus gros, pour les traversards éloignés.",
+      "meaning": "Du plomb n° 9, plus fin, pour les plateaux proches ; du n° 7½, plus gros, pour les {{term:crosser|traversards}} éloignés.",
       "say": "Du neuf pour les plateaux proches, du sept et demi pour les grands traversards."
     }
   },
@@ -69,7 +69,7 @@
         "c": "N° 8",
         "d": "N° 9"
       },
-      "explain": "Plus le numéro de plomb est grand, plus la bille est petite."
+      "explain": "Plus le {{term:shot-size|numéro de plomb}} est grand, plus la bille est petite."
     },
     "cartridges-shot-size-q2": {
       "q": "Quel diamètre de plomb autorise le règlement FITASC ?",
@@ -82,7 +82,7 @@
       "explain": "Le plomb doit être rond, en plomb, et mesurer 2,0 à 2,5 mm de diamètre, avec ±0,1 mm accepté."
     },
     "cartridges-shot-size-q3": {
-      "q": "Pourquoi vaut-il mieux regarder les millimètres, pas seulement le numéro de plomb ?",
+      "q": "Pourquoi vaut-il mieux regarder les millimètres, pas seulement le {{term:shot-size|numéro de plomb}} ?",
       "options": {
         "a": "Les systèmes diffèrent selon les pays",
         "b": "Seules les cartouches chères indiquent le numéro",
@@ -99,7 +99,7 @@
         "c": "Environ 580",
         "d": "Environ 2 000"
       },
-      "explain": "Environ 580 billes de n° 9, contre environ 350 à 400 de n° 7½ : un plomb plus fin donne une gerbe plus dense."
+      "explain": "Environ 580 billes de n° 9, contre environ 350 à 400 de n° 7½ : un plomb plus fin donne un {{term:pattern|gerbe}} plus dense."
     }
   },
   "did_you_know": "Le plomb des cartouches de tir sur plateaux contient un peu d'antimoine ajouté. L'antimoine rend les billes plus dures, si bien qu'elles se déforment moins dans le canon et donnent une gerbe plus régulière. Certains plombs sont aussi nickelés."

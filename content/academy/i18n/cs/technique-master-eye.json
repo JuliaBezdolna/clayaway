@@ -34,11 +34,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Řídicí oko a zkřížená dominance",
-  "summary": "Které oko „vede“ při střelbě, jak si to za minutu ověřit a co dělat, když je řídicí oko na opačné straně než rameno, do kterého vkládáte zbraň.",
+  "summary": "Které oko „vede“ při střelbě, jak si to za minutu ověřit a co dělat, když je {{term:eye-dominance|řídicí oko}} na opačné straně než rameno, do kterého vkládáte zbraň.",
   "body": {
-    "basics-eyes-p1": "Většina lidí má {{term:master-eye|řídicí (dominantní) oko}}, kterému mozek víc důvěřuje – obvykle na stejné straně jako dominantní ruka. Podél {{term:rib|lišty}}, ploché pásky na horní straně hlavní, by se mělo dívat právě řídicí oko. Při {{term:cross-dominance|zkřížené dominanci}} je řídicí oko na opačné straně než rameno, ze kterého střílíte; při {{term:central-vision|centrálním vidění}} žádné oko jasně nepřevažuje. V obou případech zbraň míří jinam, než si myslíte, že se díváte – často do strany – a vy se minete terče, aniž byste věděli proč.",
+    "basics-eyes-p1": "Většina lidí má {{term:master-eye|řídicí oko}}, tedy dominantní oko, kterému mozek víc důvěřuje – obvykle na stejné straně jako dominantní ruka. Podél {{term:rib|lišty}}, ploché pásky na horní straně hlavní, by se mělo dívat právě {{term:eye-dominance|řídicí oko}}. Při {{term:cross-dominance|zkřížené dominanci}} je řídicí oko na opačné straně než rameno, ze kterého střílíte; při {{term:central-vision|centrálním vidění}} žádné oko jasně nepřevažuje. V obou případech zbraň míří jinam, než si myslíte, že se díváte – často do strany – a vy se minete terče, aniž byste věděli proč.",
     "basics-eyes-p2": "Jednoduchý test: s oběma otevřenýma očima si „vezměte“ vzdálený předmět do malého trojúhelníku z dlaní. Pak střídavě zavírejte každé oko: oko, kterým předmět zůstává v trojúhelníku, je řídicí. Trenér si také může stoupnout před střelce a podívat se trojúhelníkem.",
-    "basics-eyes-p3": "Pokud se oko a rameno shodují, obvykle lze střílet s oběma otevřenýma očima. Pokud ne, řešení volí trenér. Můžete při zalícení druhé oko zavírat nebo přimhuřovat, nebo si na střelecké brýle nalepit malou tečku. Lze se také naučit střílet z druhého ramene, nebo vzácněji použít pažbu s křížovým vyosením (cross-over stock), vybočenou do strany tak, aby se podél lišty dívalo druhé oko. Volba závisí na věku, zkušenostech a na tom, jak silná dominance je. Kde to jde, mnozí trenéři dávají přednost oběma otevřeným očím, protože dvě oči lépe odhadnou rychlost, úhel i vzdálenost.",
+    "basics-eyes-p3": "Pokud se oko a rameno shodují, obvykle lze střílet s oběma otevřenýma očima. Pokud ne, řešení volí trenér. Můžete při {{term:gun-mount|zalícení}} druhé oko zavírat nebo přimhuřovat, nebo si na {{term:safety-glasses|střelecké brýle}} nalepit malou tečku. Lze se také naučit střílet z druhého ramene, nebo vzácněji použít {{term:stock|pažbu}} s křížovým vyosením (cross-over stock), vybočenou do strany tak, aby se podél lišty dívalo druhé oko. Volba závisí na věku, zkušenostech a na tom, jak silná dominance je. Kde to jde, mnozí trenéři dávají přednost oběma otevřeným očím, protože dvě oči lépe odhadnou rychlost, úhel i vzdálenost.",
     "basics-eyes-p5": "Střelecké brýle jsou pro střelce v obou disciplínách povinné, takže tečka se lepí na ně.",
     "technique-master-eye-age": "Trenéři si často všímají, že se dominance oka u střelce v průběhu let mění, a někteří střelci cítí rozdíl, když jsou unavení. Pokud najednou začnete opakovaně míjet terč na stejnou stranu, nechte si řídicí oko znovu ověřit u trenéra.",
     "technique-master-eye-focus": "Kam se dívat během výstřelu – {{term:soft-focus|měkké zaostření}} v bodě zachycení terče a pak {{term:hard-focus|ostré zaostření}} na terč – vysvětluje lekce {{lesson:mind-concentration-focus}}."
@@ -72,7 +72,7 @@
   "did_you_know": "Test s trojúhelníkem z dlaní funguje proto, že při dvou otevřených očích bere mozek „zaměřovací“ obraz většinou z jednoho oka. Zavřete toto oko a předmět z trojúhelníku „vyskočí“.",
   "quiz": {
     "basics-eyes-q1": {
-      "q": "Pravák má levé řídicí oko. Jak se tomu říká?",
+      "q": "Pravák má levé {{term:eye-dominance|řídicí oko}}. Jak se tomu říká?",
       "options": {
         "a": "Centrální vidění",
         "b": "Ostré zaostření",
@@ -82,7 +82,7 @@
       "explain": "Zkřížená dominance je řídicí oko na opačné straně, než je rameno, ze kterého se střílí."
     },
     "basics-eyes-q2": {
-      "q": "Proč je chybou ohlížet se zpátky na mušku a kontrolovat předsazení?",
+      "q": "Proč je chybou ohlížet se zpátky na mušku a kontrolovat {{term:lead|předsazení}}?",
       "options": {
         "a": "Zakazují to pravidla obou disciplín",
         "b": "Obvykle to zpomalí nebo zastaví zbraň, a rána jde za terč",
@@ -94,8 +94,8 @@
     "basics-eyes-q3": {
       "q": "Kam se obvykle lepí tečka proti dominanci?",
       "options": {
-        "a": "Na střelecké brýle, před oko, které se má „vyřadit“",
-        "b": "Na mušku na konci lišty",
+        "a": "Na {{term:safety-glasses|střelecké brýle}}, před oko, které se má „vyřadit“",
+        "b": "Na mušku na konci {{term:rib|lišty}}",
         "c": "Na lištu, do poloviny její délky",
         "d": "Na čáru na vestě, pod ramenem"
       },
@@ -108,16 +108,16 @@
         "b": "Zda sedí rozměry pažby",
         "c": "Jak daleko terč letí"
       },
-      "explain": "Oko, kterým předmět zůstává v trojúhelníku, je řídicí oko."
+      "explain": "Oko, kterým předmět zůstává v trojúhelníku, je {{term:eye-dominance|řídicí oko}}."
     },
     "technique-master-eye-q2": {
       "q": "Pravoruký střelec má řídicí levé oko. Jak se tomu říká?",
       "options": {
         "a": "Zkřížená dominance",
-        "b": "Cuknutí (flinch)",
-        "c": "Dotažení švihu (follow-through)"
+        "b": "{{term:flinch|Cuknutí}}",
+        "c": "{{term:follow-through|Dotažení švihu}}"
       },
-      "explain": "Řídicí oko na opačné straně než pažba se nazývá zkřížená dominance (cross-dominance)."
+      "explain": "{{term:eye-dominance|Řídicí oko}} na opačné straně než {{term:stock|pažba}} se nazývá {{term:cross-dominance|zkřížená dominance}}."
     },
     "technique-master-eye-q3": {
       "q": "Kdo by vám měl pomoci rozhodnout, jak střílet při zkřížené dominanci?",

@@ -37,20 +37,24 @@
     "compak-gun-and-call-q1": "f5376923",
     "gear-protection-clothes-q2": "2223479a"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "La posizione del fucile prima che compaia il piattello",
-  "summary": "Nel {{tm:sporting}} il calcio resta sotto una linea sul gilet finché non compare il piattello. Nel {{tm:compak}} la posizione del fucile alla chiamata è libera.",
+  "summary": "Nel {{tm:sporting}} lo {{term:stock|calcio}} resta sotto una linea sul gilet finché non compare il piattello. Nel {{tm:compak}} la {{term:gun-position|posizione del fucile}} alla chiamata è libera.",
   "body": {
     "rules-gun-position-p1": "Nelle gare di {{tm:sporting}} i tiratori chiamano il piattello con il fucile tenuto basso. È una regola, non una questione di stile. Nel {{tm:compak}} questa regola non esiste.",
     "rules-gun-position-cmp1": {
-      "sporting": "Fucile basso: la parte superiore posteriore del calcio resta sotto la linea del gilet finché non si vede il piattello.",
+      "sporting": "Fucile basso: la parte superiore posteriore dello {{term:stock|calcio}} resta sotto la linea del gilet finché non si vede il piattello.",
       "compak": "Libera: il fucile può già essere alla spalla, oppure più in basso. Non c'è una linea sul gilet, ma il colpo si spara comunque dalla spalla."
     },
-    "sporting-gun-position-p1": "In {{tm:sporting}}, prima di chiamare, siete con entrambi i piedi dentro la {{term:shooting-stand|pedana}}. Il tallone del calcio (il suo angolo superiore posteriore, la parte che va in spalla) tocca il corpo. Il punto più alto della parte posteriore del calcio, di solito il tallone stesso, resta sotto la linea del gilet. Mantenete questa {{term:ready-position|posizione di attesa}} finché il piattello non è uscito dalla macchina e non lo vedete.",
-    "sporting-gun-position-p2": "La {{term:jacket-line|linea}} è segnata sul gilet o sulla giacca {{fact:rules.sporting-jacket-line}} (una linea orizzontale immaginaria che passa per entrambe le spalle), parallela a essa. Il suo colore contrasta con il gilet, così l'arbitro la vede bene. La regola vale per ogni tipo di calcio: standard, Monte Carlo (con il nasello alzato, il bordo superiore del calcio su cui appoggia la guancia) e con {{term:adjustable-comb|nasello regolabile}}.",
-    "sporting-gun-position-p3": "Potete portare il fucile alla spalla ({{term:gun-mount|imbracciarlo}}) solo quando compare il piattello. Tutti i piattelli, anche la {{term:rabbit|lepre}}, si tirano con il fucile alla spalla; sparare dal fianco non è permesso.",
+    "sporting-gun-position-p1": "In {{tm:sporting}}, prima di chiamare, siete con entrambi i piedi dentro la {{term:shooting-stand|pedana}}. Il tallone del calcio (il suo angolo superiore posteriore, la parte che va in spalla) tocca il corpo. Il punto più alto della parte posteriore del calcio, di solito il tallone stesso, resta sotto la linea del gilet. Mantenete questa {{term:ready-position|posizione di attesa}} finché il piattello non è uscito dalla {{term:trap|macchina}} e non lo vedete.",
+    "sporting-gun-position-p2": "La {{term:jacket-line|linea}} è segnata sul gilet o sulla giacca {{fact:rules.sporting-jacket-line}} (una linea orizzontale immaginaria che passa per entrambe le spalle), parallela a essa. Il suo colore contrasta con il gilet, così l'arbitro la vede bene. La regola vale per ogni tipo di calcio: standard, Monte Carlo — con il {{term:comb|nasello}} alzato, il bordo superiore del calcio su cui appoggia la guancia — e con {{term:adjustable-comb|nasello regolabile}}.",
+    "sporting-gun-position-p3": "La {{term:gun-mount|imbracciata}}, cioè portare il fucile alla spalla, è permessa solo quando compare il piattello. Tutti i piattelli, anche la {{term:rabbit|lepre}}, si tirano con il fucile alla spalla; sparare dal fianco non è permesso.",
     "rules-gun-position-p5": "C'è un'eccezione: in un {{term:double|doppio}}, tra il primo e il secondo piattello potete tenere il fucile come preferite. Prima del primo piattello resta comunque obbligatoria la posizione bassa.",
-    "sporting-gun-position-p4": "Sanzioni: la prima volta che chiamate in posizione scorretta o imbracciate troppo presto, l'arbitro dà un avvertimento verbale e mostra il {{term:yellow-card|cartellino giallo}}. Ripeterlo sullo stesso {{term:layout|percorso}} costa un {{term:red-card|cartellino rosso}}: un piattello singolo vale zero, e i doppi seguono la tabella nella guida alle regole ({{rule:sporting:ch12-red-card}}).",
+    "sporting-gun-position-p4": "Sanzioni: la prima volta che chiamate in posizione scorretta o imbracciate troppo presto, l'arbitro dà un avvertimento verbale e mostra lo {{term:yellow-card|cartellino giallo}}. Ripeterlo sullo stesso {{term:layout|percorso}} costa un {{term:red-card|cartellino rosso}}: un piattello singolo vale zero, e i doppi seguono la tabella nella guida alle regole ({{rule:sporting:ch12-red-card}}).",
     "sporting-gun-position-p5": "Imbracciare il fucile e seguire con la canna la linea dove aspettate il piattello, prima di chiamare, è una {{term:mock-shooting|simulazione di tiro}}, anch'essa vietata. La prima volta porta un avvertimento. Se si ripete, il piattello successivo che colpite viene contato zero.",
     "rules-gun-position-tip1": "Se tirate in entrambe le discipline, molti istruttori consigliano di allenare la partenza con il fucile basso prima di una gara di {{tm:sporting}}, anche se nel {{tm:compak}} chiamate con il fucile già alla spalla."
   },
@@ -59,7 +63,7 @@
   },
   "phrases": {
     "sporting-gun-position-ph1": {
-      "meaning": "Arbitro: porta il calcio sotto la linea del gilet prima di chiamare.",
+      "meaning": "Arbitro: porta lo {{term:stock|calcio}} sotto la linea del gilet prima di chiamare.",
       "say": "Fucile giù, per favore."
     },
     "sporting-gun-position-ph2": {
@@ -88,52 +92,89 @@
     }
   },
   "key_points": {
-    "sporting-gun-position-kp1": "{{tm:sporting}}: prima della chiamata, entrambi i piedi nella pedana, il tallone del calcio (il suo angolo superiore posteriore) a contatto con il corpo e sotto la linea del gilet.",
+    "sporting-gun-position-kp1": "{{tm:sporting}}: prima della chiamata, entrambi i piedi nella {{term:shooting-stand|pedana}}, il tallone dello {{term:stock|calcio}} — il suo angolo superiore posteriore — a contatto con il corpo e sotto la linea del gilet.",
     "sporting-gun-position-kp2": "{{tm:sporting}}: la linea sul gilet passa {{fact:rules.sporting-jacket-line}} (una linea che passa per entrambe le spalle), in un colore a contrasto.",
-    "sporting-gun-position-kp3": "{{tm:sporting}}: imbracciate solo quando compare il piattello; la posizione del fucile è libera solo tra i due piattelli di un doppio.",
-    "sporting-gun-position-kp4": "{{tm:sporting}}: la prima infrazione porta un avvertimento con cartellino giallo, la successiva sullo stesso percorso un cartellino rosso.",
+    "sporting-gun-position-kp3": "{{tm:sporting}}: imbracciate solo quando compare il piattello; la {{term:gun-position|posizione del fucile}} è libera solo tra i due piattelli di un {{term:double|doppio}}.",
+    "sporting-gun-position-kp4": "{{tm:sporting}}: la prima infrazione porta un avvertimento con {{term:yellow-card|cartellino giallo}}, la successiva sullo stesso {{term:layout|percorso}} un {{term:red-card|cartellino rosso}}.",
     "rules-gun-position-kp4": "{{tm:compak}}: la posizione alla chiamata è libera e non c'è una linea sul gilet; il colpo si spara comunque dalla spalla."
   },
   "did_you_know": "La partenza con il fucile basso si spiega spesso con le origini venatorie del {{tm:sporting}}: un cacciatore raramente aspetta un uccello con il fucile già alla spalla.",
   "quiz": {
     "rules-gun-position-q1": {
       "q": "A quale distanza sotto l'asse delle spalle (una linea immaginaria che passa per entrambe le spalle) si trova la linea del gilet nel {{tm:sporting}}?",
-      "options": { "a": "10 cm", "b": "25 cm", "c": "40 cm" },
+      "options": {
+        "a": "10 cm",
+        "b": "25 cm",
+        "c": "40 cm"
+      },
       "explain": "La linea passa {{fact:rules.sporting-jacket-line}}, parallela a essa."
     },
     "rules-gun-position-q2": {
       "q": "Nel {{tm:compak}} si può chiamare il piattello con il fucile già alla spalla?",
-      "options": { "a": "No, il fucile deve partire basso", "b": "Solo quando si tira un doppio", "c": "Sì, la posizione è libera" },
+      "options": {
+        "a": "No, il fucile deve partire basso",
+        "b": "Solo quando si tira un doppio",
+        "c": "Sì, la posizione è libera"
+      },
       "explain": "Nel {{tm:compak}} non c'è la regola del fucile basso né la linea sul gilet; solo il colpo stesso deve essere sparato dalla spalla."
     },
     "rules-gun-position-q3": {
       "q": "Quando si può tenere il fucile come si preferisce nel {{tm:sporting}}?",
-      "options": { "a": "Tra i due piattelli di un doppio", "b": "Prima del primo piattello di un doppio", "c": "Mentre si aspetta una lepre" },
-      "explain": "La posizione libera è permessa solo tra i due piattelli di un doppio; prima del primo vale la posizione di attesa."
+      "options": {
+        "a": "Tra i due piattelli di un {{term:double|doppio}}",
+        "b": "Prima del primo piattello di un {{term:double|doppio}}",
+        "c": "Mentre si aspetta una {{term:rabbit|lepre}}"
+      },
+      "explain": "La posizione libera è permessa solo tra i due piattelli di un doppio; prima del primo vale la {{term:ready-position|posizione di attesa}}."
     },
     "sporting-gun-position-q1": {
-      "q": "Sulla prima pedana, un tiratore chiama con il fucile già alla spalla. È la sua prima infrazione di questo tipo su questo percorso. Cosa decide l'arbitro?",
-      "options": { "a": "Il piattello vale zero", "b": "Un avvertimento e un cartellino giallo", "c": "No bird e nient'altro", "d": "Espulsione dalla gara" },
-      "explain": "La prima infrazione sulla posizione del fucile è un avvertimento verbale accompagnato da un cartellino giallo."
+      "q": "Sulla prima {{term:shooting-stand|pedana}}, un tiratore chiama con il fucile già alla spalla. È la sua prima infrazione di questo tipo su questo {{term:layout|percorso}}. Cosa decide l'arbitro?",
+      "options": {
+        "a": "Il piattello vale zero",
+        "b": "Un avvertimento e uno {{term:yellow-card|cartellino giallo}}",
+        "c": "No bird e nient'altro",
+        "d": "{{term:expulsion|Espulsione}} dalla gara"
+      },
+      "explain": "La prima infrazione sulla {{term:gun-position|posizione del fucile}} è un avvertimento verbale accompagnato da un cartellino giallo."
     },
     "sporting-gun-position-q2": {
-      "q": "In precedenza, su questo percorso, un tiratore ha ricevuto un cartellino giallo per la posizione del fucile. Ora, su un piattello singolo, il calcio è sopra la linea del gilet al momento della chiamata. Decisione?",
-      "options": { "a": "Un altro cartellino giallo", "b": "Un No bird, da ripetere", "c": "Cartellino rosso e ripetizione", "d": "Cartellino rosso e zero" },
+      "q": "In precedenza, su questo {{term:layout|percorso}}, un tiratore ha ricevuto uno {{term:yellow-card|cartellino giallo}} per la {{term:gun-position|posizione del fucile}}. Ora, su un piattello singolo, lo {{term:stock|calcio}} è sopra la linea del gilet al momento della chiamata. Decisione?",
+      "options": {
+        "a": "Un altro cartellino giallo",
+        "b": "Un No bird, da ripetere",
+        "c": "{{term:red-card|Cartellino rosso}} e ripetizione",
+        "d": "{{term:red-card|Cartellino rosso}} e zero"
+      },
       "explain": "Dopo l'avvertimento, un'ulteriore infrazione sullo stesso percorso è un cartellino rosso: zero su un singolo."
     },
     "sporting-gun-position-q3": {
-      "q": "{{tm:sporting}}. L'arbitro ha già avvertito una volta un tiratore per simulazione di tiro. Prima della chiamata successiva, il tiratore imbraccia di nuovo e segue la linea del piattello, poi lo colpisce. Come viene conteggiato?",
-      "options": { "a": "One, con un secondo avvertimento", "b": "Zero", "c": "No bird, da ripetere", "d": "One, senza sanzioni" },
+      "q": "{{tm:sporting}}. L'arbitro ha già avvertito una volta un tiratore per {{term:mock-shooting|simulazione di tiro}}. Prima della chiamata successiva, il tiratore imbraccia di nuovo e segue la linea del piattello, poi lo colpisce. Come viene conteggiato?",
+      "options": {
+        "a": "One, con un secondo avvertimento",
+        "b": "Zero",
+        "c": "No bird, da ripetere",
+        "d": "One, senza sanzioni"
+      },
       "explain": "Dopo un primo avvertimento per simulazione di tiro, una ripetizione costa il piattello successivo colpito: viene conteggiato zero."
     },
     "compak-gun-and-call-q1": {
-      "q": "Nel {{tm:compak}} un tiratore chiama con il fucile basso e, quando compare la lepre, spara dal fianco senza imbracciare. È permesso?",
-      "options": { "a": "Sì, la posizione del fucile è libera", "b": "No, ogni colpo si spara dalla spalla", "c": "Sì, ma solo sulla lepre", "d": "Solo per il secondo colpo" },
+      "q": "Nel {{tm:compak}} un tiratore chiama con il fucile basso e, quando compare la {{term:rabbit|lepre}}, spara dal fianco senza imbracciare. È permesso?",
+      "options": {
+        "a": "Sì, la posizione del fucile è libera",
+        "b": "No, ogni colpo si spara dalla spalla",
+        "c": "Sì, ma solo sulla lepre",
+        "d": "Solo per il secondo colpo"
+      },
       "explain": "Nel {{tm:compak}} si può chiamare con il fucile alla spalla o in basso, ma ogni piattello va tirato con il fucile alla spalla."
     },
     "gear-protection-clothes-q2": {
-      "q": "Un tiratore di {{tm:sporting}} usa un calcio Monte Carlo, con il nasello alzato. La regola della linea sul gilet si applica?",
-      "options": { "a": "Sì, vale per ogni tipo di calcio", "b": "No, solo per i calci standard", "c": "Solo per il nasello regolabile", "d": "Solo nelle finali" },
+      "q": "Un tiratore di {{tm:sporting}} usa uno {{term:stock|calcio}} Monte Carlo, con il {{term:comb|nasello}} alzato. La regola della linea sul gilet si applica?",
+      "options": {
+        "a": "Sì, vale per ogni tipo di calcio",
+        "b": "No, solo per i calci standard",
+        "c": "Solo per l'nasello regolabile",
+        "d": "Solo nelle finali"
+      },
       "explain": "La regola vale per i calci standard, Monte Carlo e con nasello regolabile: prima che compaia il piattello, la parte superiore posteriore del calcio resta sotto la linea del gilet, che passa {{fact:rules.sporting-jacket-line}}."
     }
   }

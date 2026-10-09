@@ -41,13 +41,13 @@
   },
   "body": {
     "safety-eye-ear-protection-p1": "Výstřel z brokovnice je velmi hlasitý: {{fact:gear.gunshot-peak-db}}. Decibely (dB) měří hlasitost a výstřel je „impulsní“ zvuk: jeden krátký, ostrý ráz. Pro jeden takový ráz jsou horní hranice {{fact:gear.impulse-noise-limits}}. Hranice pro dospělé vychází z pravidel bezpečnosti práce, hranici pro děti doporučuje Světová zdravotnická organizace (WHO). Výstřel výrazně překračuje obě hranice, takže i jediný nechráněný výstřel může poškodit sluch. Poškození způsobené hlukem se časem hromadí a většinou nezmizí. Zvonění v uších po střelbě, zvané tinitus, může být časným varovným signálem.",
-    "etiquette-protection-and-dress-p1": "Ochrana sluchu je povinná pro všechny na {{term:layout|střelišti}} (střelecké ploše s jejími stanovišti a vrhačkami) nebo poblíž: pro střelce, rozhodčí, personál i diváky. V {{tm:sporting}} jsou střelecké brýle povinné bez výjimky pro střelce, rozhodčí, personál a všechny poblíž stanoviště. V {{tm:compak}} pravidlo o brýlích jmenuje účastníky, rozhodčí a personál. Střelec, který vstoupí na stanoviště bez brýlí nebo ochrany sluchu, se považuje za nepřítomného, jako by se nedostavil na svou řadu, a nesmí střílet. V {{tm:sporting}} pak platí pravidlo o pozdním příchodu.",
+    "etiquette-protection-and-dress-p1": "{{term:hearing-protection|Ochrana sluchu}} je povinná pro všechny na {{term:layout|střelišti}}, tedy střelecké ploše s jejími stanovišti a vrhačkami, nebo poblíž: pro střelce, rozhodčí, personál i diváky. V {{tm:sporting}} jsou {{term:safety-glasses|střelecké brýle}} povinné bez výjimky pro střelce, rozhodčí, personál a všechny poblíž stanoviště. V {{tm:compak}} pravidlo o brýlích jmenuje účastníky, rozhodčí a personál. Střelec, který vstoupí na stanoviště bez brýlí nebo ochrany sluchu, se považuje za nepřítomného, jako by se nedostavil na svou řadu, a nesmí střílet. V {{tm:sporting}} pak platí pravidlo o pozdním příchodu.",
     "safety-eye-ear-protection-children": {
       "sporting": "Děti na ploše střelnice, mimo klubovnu, musí mít vždy ochranu sluchu.",
       "compak": "Samostatný bod o dětech není, ale pravidlo se vztahuje na všechny diváky poblíž střeliště, děti nevyjímaje."
     },
     "safety-eye-ear-protection-p2": "Ochrana očí je stejně důležitá. Úlomky terčů, broky odražené od tvrdého povrchu, větvičky a prach mohou zasáhnout oko.",
-    "safety-eye-ear-protection-p4": "{{term:hearing-protection|Ochrana sluchu}} má dva hlavní druhy: {{term:earplugs|špunty do uší}}, které sedí ve zvukovodu, a sluchátka, která zakrývají uši. Jednoduchá {{term:passive-ear-muffs|pasivní sluchátka}} zvuk jen tlumí. Elektronická {{term:electronic-ear-muffs|sluchátka}} ztlumí ránu, ale propouštějí hlasy, takže pořád slyšíte rozhodčího.",
+    "safety-eye-ear-protection-p4": "{{term:hearing-protection|Ochrana sluchu}} má dva hlavní druhy: {{term:earplugs|špunty do uší}}, které sedí ve zvukovodu, a sluchátka, která zakrývají uši. Jednoduchá {{term:passive-ear-muffs|pasivní sluchátka}} zvuk jen tlumí. {{term:electronic-ear-muffs|Elektronická sluchátka}} ztlumí ránu, ale propouštějí hlasy, takže pořád slyšíte rozhodčího.",
     "safety-eye-ear-protection-fit": "Ochrana funguje, jen když dobře sedí. Špunty musí sedět hluboko a těsně, sluchátka musí těsnit kolem celého ucha. Individuálně tvarované špunty jsou pohodlné a sedí pokaždé stejně, ale dobře zasunuté pěnové špunty chrání také dobře. Číslo SNR na obalu (Single Number Rating, hodnocení útlumu hluku daného výrobku) ukazuje, nakolik tlumí hluk: čím vyšší, tím víc.",
     "safety-eye-ear-protection-double": "Nejlépe chrání špunty a sluchátka dohromady. V testech na akustické figuríně hlavy ochrana snížila vrchol výstřelu {{fact:safety.double-protection-db}}. Odborníci na sluch doporučují nosit obojí u zbraní velké ráže, jako jsou brokovnice ráže 12 používané na střelnicích, a vždy, když padá hodně výstřelů.",
     "safety-eye-ear-protection-p5": "{{term:safety-glasses|Střelecké brýle}} jsou z nárazuvzdorného materiálu a mnohé mají vyměnitelná skla. Řada střelců zjistila, že žluté nebo oranžové {{term:lens-tint|zabarvení}} pomáhá za šera a tmavší za jasného slunce. Pokud nosíte dioptrické brýle, zeptejte se na obruby s {{term:prescription-insert|dioptrickou vložkou}}. Více v lekci {{lesson:gear-shooting-glasses}}.",
@@ -85,7 +85,7 @@
   },
   "quiz": {
     "safety-eye-ear-protection-q1": {
-      "q": "Kdo musí na závodě nosit ochranu sluchu?",
+      "q": "Kdo musí na závodě nosit {{term:hearing-protection|ochranu sluchu}}?",
       "options": {
         "a": "Jen střelec, který je na stanovišti",
         "b": "Střelci a rozhodčí, ale ne diváci",
@@ -94,7 +94,7 @@
       "explain": "Pravidla obou disciplín jmenují střelce, rozhodčí, personál i diváky poblíž střeliště."
     },
     "etiquette-protection-and-dress-q1": {
-      "q": "Váš střelec vstoupí na stanoviště bez ochranných brýlí. Jak ho posuzují pravidla?",
+      "q": "Váš střelec vstoupí na stanoviště bez {{term:safety-glasses|ochranných brýlí}}. Jak ho posuzují pravidla?",
       "options": {
         "a": "Dostane napomenutí a smí střílet",
         "b": "Smí střílet, pokud souhlasí trenér",
@@ -104,7 +104,7 @@
       "explain": "V obou disciplínách se střelec bez ochrany očí nebo sluchu na stanovišti považuje za nepřítomného a nesmí střílet."
     },
     "safety-eye-ear-protection-q4": {
-      "q": "Co dává největší ochranu sluchu, když padá hodně výstřelů?",
+      "q": "Co dává největší {{term:hearing-protection|ochranu sluchu}}, když padá hodně výstřelů?",
       "options": {
         "a": "Špunty a sluchátka nošené společně",
         "b": "Elektronická sluchátka s hlasitostí na maximu",
@@ -132,17 +132,17 @@
       "explain": "Krátké šortky jsou zakázané v obou disciplínách; dlouhé bermudy jsou přijímané."
     },
     "etiquette-protection-and-dress-q3": {
-      "q": "Proč jsou elektronická sluchátka dobrou volbou pro tlumočníka?",
+      "q": "Proč jsou {{term:electronic-ear-muffs|elektronická sluchátka}} dobrou volbou pro tlumočníka?",
       "options": {
         "a": "Tlumí ránu, ale propouštějí hlasy",
         "b": "Tlumočníci je nepotřebují",
         "c": "Úplně blokují zvuk",
         "d": "Nahrávají trenéra"
       },
-      "explain": "Ochrana sluchu je povinná poblíž střeliště a elektronická sluchátka umožňují slyšet trenéra i rozhodčího."
+      "explain": "Ochrana sluchu je povinná poblíž {{term:layout|střeliště}} a elektronická sluchátka umožňují slyšet trenéra i rozhodčího."
     }
   },
   "title": "Ochrana očí a sluchu",
-  "summary": "Proč je ochrana sluchu povinná pro všechny poblíž střeliště, kdo musí nosit brýle v {{tm:sporting}} a {{tm:compak}} a jak vybrat ochranu, která dobře sedí.",
+  "summary": "Proč je {{term:hearing-protection|ochrana sluchu}} povinná pro všechny poblíž {{term:layout|střeliště}}, kdo musí nosit brýle v {{tm:sporting}} a {{tm:compak}} a jak vybrat ochranu, která dobře sedí.",
   "did_you_know": "Elektronická sluchátka mají malé mikrofony: propouštějí tiché zvuky, jako jsou hlasy, a okamžitě ztlumí zvuk, jakmile zazní výstřel."
 }

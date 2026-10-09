@@ -22,14 +22,18 @@
     "juniors-equipment-fit-q3": "a37e7a90",
     "juniors-equipment-fit-dyk": "854a04c5"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Equipamento adequado a uma criança",
-  "summary": "Uma arma de adulto é normalmente demasiado longa e pesada para uma criança. Uma coronha mais curta, uma arma leve, cartuchos suaves e proteções em tamanho infantil tornam o {{tm:sporting}} e o {{tm:compak}} mais seguros e mais agradáveis.",
+  "summary": "Uma arma de adulto é normalmente demasiado longa e pesada para uma criança. Uma {{term:stock|coronha}} mais curta, uma arma leve, cartuchos suaves e proteções em tamanho infantil tornam o {{tm:sporting}} e o {{tm:compak}} mais seguros e mais agradáveis.",
   "body": {
-    "juniors-equipment-fit-p1": "Uma arma de adulto é normalmente demasiado longa e demasiado pesada para uma criança. A criança inclina-se para trás para a sustentar, a coronha bate-lhe na face e no ombro, e depois de alguns tiros pode instalar-se o medo. Por isso a {{term:gun-fit|adaptação da coronha}} importa ainda mais para atiradores jovens do que para adultos.",
+    "juniors-equipment-fit-p1": "Uma arma de adulto é normalmente demasiado longa e demasiado pesada para uma criança. A criança inclina-se para trás para a sustentar, a {{term:stock|coronha}} bate-lhe na face e no ombro, e depois de alguns tiros pode instalar-se o medo. Por isso a {{term:gun-fit|adaptação da coronha}} importa ainda mais para atiradores jovens do que para adultos.",
     "juniors-equipment-fit-p2": "A medida principal é o {{term:length-of-pull|comprimento da coronha}}, {{fact:gear.length-of-pull}}. Os modelos juvenis têm uma coronha mais curta e mais leve, e algumas armas têm coronha e {{term:comb|crista}} ajustáveis. À medida que a criança cresce, a coronha é alongada com calços, por isso verifique a adaptação a cada temporada com o treinador ou um {{term:gun-fitter|especialista em adaptação de coronhas}}.",
-    "juniors-equipment-fit-p3": "Um calibre 20 leve é uma escolha comum, seja uma {{term:over-and-under|sobreposta}} seja uma {{term:semi-automatic|semi-automática}}. Uma semi-automática a gás distribui o recuo por mais tempo, por isso muitos atiradores sentem-no como mais suave. Os cartuchos de carga ligeira também reduzem o recuo e tornam o tiro mais agradável.",
-    "juniors-equipment-fit-p4": "A proteção também deve ser adequada: auriculares ou tampões infantis, óculos de segurança com lentes resistentes a impacto e um boné de pala. Um {{term:shooting-vest|colete de tiro}} não deve ser demasiado grande, ou a arma fica presa nele durante o movimento de pôr a arma à cara.",
+    "juniors-equipment-fit-p3": "Um {{term:gauge|calibre 20}} leve é uma escolha comum, seja uma {{term:over-and-under|sobreposta}} seja uma {{term:semi-automatic|semi-automática}}. Uma semi-automática a gás distribui o {{term:recoil|recuo}} por mais tempo, por isso muitos atiradores sentem-no como mais suave. Os cartuchos de {{term:load-weight|carga}} ligeira também reduzem o recuo e tornam o tiro mais agradável.",
+    "juniors-equipment-fit-p4": "A proteção também deve ser adequada: auriculares ou {{term:earplugs|tampões}} infantis, óculos de segurança com lentes resistentes a impacto e um boné de pala. Um {{term:shooting-vest|colete de tiro}} não deve ser demasiado grande, ou a arma fica presa nele durante o movimento de {{term:gun-mount|pôr a arma à cara}}.",
     "juniors-equipment-fit-p7": "No {{tm:sporting}} as regras acrescentam mais um ponto: as crianças no campo, fora do clube, devem usar sempre {{term:hearing-protection|proteções auditivas}}. Muitas famílias mantêm este hábito em qualquer campo.",
     "juniors-equipment-fit-p5": "A roupa deve ser confortável e adequada ao tempo. Em competições, nas duas disciplinas, as sandálias são proibidas, e os calções têm de ser longos, terminando {{fact:rules.dress-shorts-length}}. No treino também são necessários sapatos fechados com boa aderência. Mais: {{lesson:gear-clothing-and-shoes}}.",
     "juniors-equipment-fit-p6": "Não se apresse a comprar equipamento caro. Comece com uma arma do clube para alugar, depois procure modelos juvenis em segunda mão. Vale a pena comprar uma arma própria quando o interesse da criança for firme, com o conselho do treinador. Adaptação geral: {{lesson:gun-fit}}."
@@ -40,7 +44,7 @@
     "juniors-equipment-fit-kp1": "Uma arma de adulto é normalmente demasiado longa e pesada para uma criança.",
     "juniors-equipment-fit-kp2": "O comprimento da coronha é a chave da adaptação; verifique-o a cada temporada.",
     "juniors-equipment-fit-kp3": "Um calibre 20 leve e cartuchos de carga ligeira.",
-    "juniors-equipment-fit-kp4": "Proteções auditivas, óculos e colete em tamanho infantil.",
+    "juniors-equipment-fit-kp4": "{{term:hearing-protection|Proteções auditivas}}, óculos e colete em tamanho infantil.",
     "juniors-equipment-fit-kp5": "Primeiro alugar; comprar quando o interesse for firme."
   },
   "did_you_know": "As regras da FITASC limitam o calibre apenas por cima, {{fact:gear.fitasc-max-gauge}}, por isso uma arma de calibre 20 é permitida em competição nas duas disciplinas.",
@@ -56,12 +60,12 @@
       "explain": "Uma arma demasiado longa prejudica a postura, agrava o recuo e pode assustar a criança."
     },
     "juniors-equipment-fit-q2": {
-      "q": "O que é o comprimento da coronha?",
+      "q": "O que é o {{term:length-of-pull|comprimento da coronha}}?",
       "options": {
-        "a": "O comprimento dos canos até à boca",
-        "b": "Do gatilho até ao meio do taco da coronha",
+        "a": "O {{term:barrel-length|comprimento dos canos}} até à boca",
+        "b": "Do {{term:trigger|gatilho}} até ao meio do taco da {{term:stock|coronha}}",
         "c": "O peso da arma com os chokes",
-        "d": "Da fita até ao topo da crista"
+        "d": "Da fita até ao topo da {{term:comb|crista}}"
       },
       "explain": "É a medida mais frequentemente alterada para adaptar uma arma a uma criança."
     },

@@ -36,7 +36,7 @@
   "body": {
     "clayarena-coaches-grounds-tours-p1": "Mnoho střelců začíná s {{term:coach|trenérem}}: ten vidí chyby z vnějšku a opraví je dřív, než se stanou zvykem. Jak vybrat trenéra: {{lesson:training-first-lessons-and-coach}}.",
     "clayarena-coaches-grounds-tours-coaches": "Katalog trenérů na ClayArena lze filtrovat podle disciplíny, země, federace a jazyka tréninku. Na kartě trenéra jsou vidět disciplíny, které učí, a jazyky, kterými mluví. Často tam je i cena, nebo poznámka „dohodou“. Z karty se dostanete do celého profilu trenéra.",
-    "clayarena-coaches-grounds-tours-language": "Jazyk tréninku je důležitý. Pokud s trenérem nemáte společný jazyk, můžete pracovat s {{term:interpreter|tlumočníkem}}, nebo se předem domluvit na několika klíčových slovech: {{lesson:stand-talk-foreign-coach}}.",
+    "clayarena-coaches-grounds-tours-language": "Jazyk tréninku je důležitý. Pokud s trenérem nemáte společný jazyk, můžete pracovat s {{term:interpreter|tlumočníkem}}, nebo se předem domluvit na několika {{term:cue-word|klíčových slovech}}: {{lesson:stand-talk-foreign-coach}}.",
     "clayarena-coaches-grounds-tours-p2": "Katalog střelnic zobrazuje střelnice v seznamu i na mapě. Stránka střelnice obvykle uvádí, které disciplíny nabízí, kde se nachází, jak ji kontaktovat a jaké soutěže hostí.",
     "clayarena-coaches-grounds-tours-visit": "Před první návštěvou kontaktujte střelnici a zeptejte se na pár věcí:",
     "clayarena-coaches-grounds-tours-visit-steps": [
@@ -48,7 +48,7 @@
     "clayarena-coaches-grounds-tours-practice": "Pokud se na té střelnici blíží soutěž, zeptejte se, kdy můžete trénovat. Obě disciplíny mají jiná pravidla:",
     "clayarena-coaches-grounds-tours-practice-compare": {
       "sporting": "Před akcí nesmí nikdo trénovat na soutěžních střelištích (stanovištích a terčích připravených pro soutěž). Trénovat můžete na jiných střelištích této střelnice.",
-      "compak": "Trénovat na soutěžních {{term:trajectory|trajektoriích}} (letových drahách terčů, které budou na soutěži) smíte, ale podle jiné {{term:trajectory-setting-table|tabulky nastavení}}. To je schéma, které určuje, které vrhačky se střílí z kterého stanoviště, jako jednotlivé terče nebo dvojstřely. Na tréninku tedy terče nejdou ve stejných kombinacích jako v den soutěže. Na mistrovstvích kontinentu a světa se oficiální trénink otevírá v sobotu před akcí."
+      "compak": "Trénovat na soutěžních trajektoriích, tedy letových drahách terčů, které budou na soutěži, smíte, ale podle jiné {{term:trajectory-setting-table|tabulky nastavení}}. To je schéma, které určuje, které {{term:trap|vrhačky}} se střílí z kterého stanoviště, jako jednotlivé terče nebo {{term:double|dvojstřely}}. Na tréninku tedy terče nejdou ve stejných kombinacích jako v den soutěže. Na mistrovstvích kontinentu a světa se oficiální trénink otevírá v sobotu před akcí."
     },
     "clayarena-coaches-grounds-tours-p6": "Plánujete trénovat na střelnici v jiné zemi? Předem si ověřte pravidla pro dovoz zbraně a nábojů, nebo se zeptejte střelnice, zda si tam lze zbraň půjčit. Víc v {{lesson:travel-gun-in-eu}} a {{lesson:travel-gun-outside-eu}}.",
     "clayarena-coaches-grounds-tours-p3": "ClayArena také připravuje tréninkové zájezdy s trenérem pod názvem {{term:clayaway|ClayAway}}. Připravují se a ještě nebyly spuštěny: {{lesson:travel-clayaway-tour}}."
@@ -62,7 +62,7 @@
     "clayarena-coaches-grounds-tours-kp7": "Trénink před soutěží: v {{tm:sporting}} ne na soutěžních střelištích; v {{tm:compak}} s jinými tabulkami nastavení.",
     "clayarena-coaches-grounds-tours-kp5": "Před tréninkem v zahraničí si ověřte pravidla pro dovoz zbraně."
   },
-  "did_you_know": "V obou disciplínách nesmí nikdo během soutěže závodníka {{term:coaching|koučovat}}, tedy dávat mu rady nebo signály. Pokud to rozhodčí uvidí, střelec dostane {{term:yellow-card|žlutou kartu}} a toho, kdo koučoval, rozhodčí vykáže ze střelecké zóny. Proto s trenérem pracujte před akcí a po ní.",
+  "did_you_know": "V obou disciplínách je během soutěže zakázáno {{term:coaching|koučování}}: nikdo nesmí závodníkovi dávat rady nebo signály. Pokud to rozhodčí uvidí, střelec dostane {{term:yellow-card|žlutou kartu}} a toho, kdo koučoval, rozhodčí vykáže ze střelecké zóny. Proto s trenérem pracujte před akcí a po ní.",
   "quiz": {
     "clayarena-coaches-grounds-tours-q4": {
       "q": "Podle čeho lze filtrovat katalog trenérů na ClayArena?",
@@ -76,20 +76,20 @@
     "clayarena-coaches-grounds-tours-q5": {
       "q": "Příští týden je na vaší střelnici soutěž {{tm:sporting}}. Kde můžete před ní trénovat?",
       "options": {
-        "a": "Na soutěžních střelištích",
-        "b": "Na jiných střelištích této střelnice",
+        "a": "Na soutěžních {{term:layout|střelištích}}",
+        "b": "Na jiných {{term:layout|střelištích}} této střelnice",
         "c": "Nikde na této střelnici"
       },
       "explain": "V {{tm:sporting}} nesmí nikdo před soutěží trénovat na soutěžních střelištích."
     },
     "clayarena-coaches-grounds-tours-q6": {
-      "q": "Váš trenér přijel na vaši soutěž se podívat. Co může dělat, zatímco střílíte?",
+      "q": "Váš {{term:coach|trenér}} přijel na vaši soutěž se podívat. Co může dělat, zatímco střílíte?",
       "options": {
         "a": "Radit vám mezi terči",
         "b": "Dávat vám signály zezadu",
         "c": "Dívat se, ale ne koučovat"
       },
-      "explain": "Koučování během soutěže není dovoleno v žádné z disciplín: hrozí za něj žlutá karta."
+      "explain": "Koučování během soutěže není dovoleno v žádné z disciplín: hrozí za něj {{term:yellow-card|žlutá karta}}."
     },
     "clayarena-coaches-grounds-tours-q7": {
       "q": "Jak mohou střelci před soutěží {{tm:compak}} trénovat na soutěžních trajektoriích?",

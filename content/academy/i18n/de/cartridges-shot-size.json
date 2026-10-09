@@ -30,7 +30,7 @@
   "origin": null
  },
  "title": "Schrotgröße",
- "summary": "Was die Schrotnummern 7, 7½, 8 und 9 bedeuten, warum sich die Nummerierung zwischen Ländern unterscheidet, und welchen Durchmesser die Regeln von {{tm:sporting}} und {{tm:compak}} erlauben.",
+ "summary": "Was die {{term:shot-size|Schrotnummern}} 7, 7½, 8 und 9 bedeuten, warum sich die Nummerierung zwischen Ländern unterscheidet, und welchen Durchmesser die Regeln von {{tm:sporting}} und {{tm:compak}} erlauben.",
  "body": {
   "gear-cartridges-p3": "Die Zahlen der {{term:shot-size|Schrotgröße}} laufen umgekehrt: Je größer die Zahl, desto kleiner die Kugel, Nr. 9 ist also feiner als Nr. 7½. Dieselbe Zahl kann in Großbritannien, Kontinentaleuropa und den USA leicht unterschiedliche Größen bedeuten, prüfen Sie also die Millimeterangabe auf der Schachtel. „Neuner“ und „Siebenundhalber“ sind gängige Trainerworte.",
   "cartridges-shot-size-p2": [
@@ -40,9 +40,9 @@
    "Nr. 7: etwa 2,4–2,5 mm."
   ],
   "cartridges-shot-size-p7": "Warum „etwa“? Die Nummerierung unterscheidet sich zwischen Ländern und Herstellern. Nach der traditionellen britischen Skala ist Nr. 7½ 2,3 mm und Nr. 8 2,2 mm. Die kontinentale Nummerierung, die manche britische Hersteller wie Gamebore auch für Wurfscheibenladungen verwenden, nennt 2,4-mm-Schrot Nr. 7½ und 2,3-mm-Schrot Nr. 8. Die amerikanische Nr. 7½ ist 0,095 Zoll, etwa 2,41 mm.",
-  "cartridges-shot-size-p3": "Die Regeln von {{tm:sporting}} und {{tm:compak}} verlangen {{term:lead-shot|Bleischrot}} von {{fact:gear.fitasc-shot-diameter}}. In der Praxis bedeutet das Nr. 9, 8, 7½ und Nr. 7, wenn ihr Durchmesser innerhalb der Grenze bleibt. Nr. 6 (etwa 2,6–2,8 mm) liegt am Rand der Grenze oder darüber, selbst mit Toleranz, und ist daher keine Wettkampfladung. Schrot unterschiedlicher Größen in einer Patrone zu mischen ist verboten.",
+  "cartridges-shot-size-p3": "Die Regeln von {{tm:sporting}} und {{tm:compak}} verlangen {{term:lead-shot|Bleischrot}} von {{fact:gear.fitasc-shot-diameter}}. In der Praxis bedeutet das Nr. 9, 8, 7½ und Nr. 7, wenn ihr Durchmesser innerhalb der Grenze bleibt. Nr. 6 (etwa 2,6–2,8 mm) liegt am Rand der Grenze oder darüber, selbst mit Toleranz, und ist daher keine Wettkampfladung. Schrot unterschiedlicher Größen in einer {{term:cartridge|Patrone}} zu mischen ist verboten.",
   "cartridges-shot-size-p4": "Kleinerer Schrot ergibt mehr Kugeln bei gleicher Ladung: 28 g enthalten etwa 350–400 Kugeln Nr. 7½, je nach genauem Durchmesser, und etwa 580 Kugeln Nr. 9. Die {{term:pattern|Deckung}} ist also dichter, aber jede Kugel ist leichter und verliert schneller an Energie.",
-  "cartridges-shot-size-p5": "Deshalb verwenden viele Schützen Nr. 9 für nahe Scheiben: Ihre dichte Deckung erfasst die Scheibe leicht. Für mittlere und weite Scheiben wählen sie Nr. 8 oder Nr. 7½, weil schwerere Kugeln Scheiben auf Entfernung besser zerbrechen. Nr. 7½ ist auch beliebt für widerstandsfähige {{term:rabbit|Rollhase}}-Scheiben und für eine auf der Kante fliegende {{term:battue|Battue}}.",
+  "cartridges-shot-size-p5": "Deshalb verwenden viele Schützen Nr. 9 für nahe Scheiben: Ihre dichte Deckung erfasst die Scheibe leicht. Für mittlere und weite Scheiben wählen sie Nr. 8 oder Nr. 7½, weil schwerere Kugeln Scheiben auf Entfernung besser zerbrechen. Nr. 7½ ist auch beliebt für den widerstandsfähigen {{term:rabbit|Rollhasen}} und für eine auf der Kante fliegende {{term:battue|Battue}}.",
   "cartridges-shot-size-p6": "Viele {{tm:sporting}}-Schützen wählen eine Allround-Patrone, etwa 28 g Nr. 7½ oder Nr. 8, und halten es einfach. Manche laden Nr. 9 in den ersten Lauf für eine nahe Scheibe und Nr. 7½ in den zweiten."
  },
  "note": {
@@ -70,10 +70,10 @@
     "c": "Nr. 8",
     "d": "Nr. 9"
    },
-   "explain": "Je größer die Schrotnummer, desto kleiner die Kugel."
+   "explain": "Je größer die {{term:shot-size|Schrotnummer}}, desto kleiner die Kugel."
   },
   "cartridges-shot-size-q2": {
-   "q": "Welchen Schrotdurchmesser erlauben die FITASC-Regeln?",
+   "q": "Welchen {{term:shot-size|Schrotdurchmesser}} erlauben die FITASC-Regeln?",
    "options": {
     "a": "1,5–2,0 mm (±0,1 mm)",
     "b": "2,0–2,5 mm (±0,1 mm)",
@@ -83,7 +83,7 @@
    "explain": "Schrot muss rund, aus Blei und 2,0–2,5 mm im Durchmesser sein, mit ±0,1 mm Toleranz."
   },
   "cartridges-shot-size-q3": {
-   "q": "Warum ist es besser, auf die Millimeterangabe zu schauen, nicht nur auf die Schrotnummer?",
+   "q": "Warum ist es besser, auf die Millimeterangabe zu schauen, nicht nur auf die {{term:shot-size|Schrotnummer}}?",
    "options": {
     "a": "Die Systeme unterscheiden sich zwischen den Ländern",
     "b": "Nur teure Patronen zeigen die Nummer",

@@ -32,10 +32,10 @@
   "title": "In arrivo, in allontanamento, passante alto e sopra la testa",
   "summary": "Piattelli che vengono verso di te, si allontanano o passano sopra la testa: come riconoscerli e cosa suggeriscono molti istruttori.",
   "body": {
-    "flight-incomer-going-away-p1": "Un {{term:incomer|piattello in arrivo}} (incomer) vola verso di te, spesso da una macchina lontana o da una torre, e di solito scende man mano che si avvicina. Può sembrare che rallenti e resti sospeso in aria. Questo ti tenta a fermare il fucile e mirare come con una carabina, una causa comune di errore. Si tira di solito mentre è ancora davanti a te, prima che sia sopra la testa. Al momento dello sparo, le canne possono nascondere il piattello («blot it out»). Molti istruttori lasciano che accada su piattelli così: di solito è voluto, non un errore.",
-    "flight-incomer-going-away-p2": "Un {{term:going-away|piattello in allontanamento}} (going away) parte vicino o dietro di te e vola via. Richiede poco anticipo laterale, ma rimpicciolisce in fretta e spesso sale o scende. Quindi devi tirare soprattutto un po' sopra di esso se sale, o un po' sotto se scende, e conta il tempismo: non aspettare. Nel {{tm:compak}} un piattello in allontanamento sopra il lato BC è obbligatorio. Può arrivare da una macchina interrata davanti alle pedane o da una {{term:tower|torre}} dietro di esse, {{fact:targets.compak-tower-height}}.",
-    "flight-incomer-going-away-p3": "Un {{term:driven-target|piattello passante alto}} (driven) è un piattello in arrivo che passa sopra la tua testa, come un fagiano spinto dai battitori. Molti istruttori lo insegnano così. Trovalo con gli occhi presto e comincia a muovere il fucile con lui. Porta il fucile da dietro il piattello e attraverso di esso, spara nel momento in cui le canne lo coprono, e tieni il fucile in movimento.",
-    "flight-incomer-going-away-p4": "Un {{term:overhead|overhead}} da dietro passa sopra la tua schiena e si allontana. Si vede tardi, quindi molti istruttori suggeriscono di guardare indietro prima di chiamare. Porta il fucile alla spalla ({{term:gun-mount|l'imbracciata}}) mentre passa sopra di te. Spara quando la punta delle canne raggiunge il suo bordo anteriore, e tieni il fucile in movimento dopo il colpo ({{term:follow-through|accompagnamento}}).",
+    "flight-incomer-going-away-p1": "Un {{term:incomer|piattello in arrivo}} vola verso di te, spesso da una {{term:trap|macchina}} lontana o da una {{term:tower|torre}}, e di solito scende man mano che si avvicina. Può sembrare che rallenti e resti sospeso in aria. Questo ti tenta a fermare il fucile e mirare come con una carabina, una causa comune di errore. Si tira di solito mentre è ancora davanti a te, prima che sia sopra la testa. Al momento dello sparo, le canne possono nascondere il piattello («blot it out»). Molti istruttori lasciano che accada su piattelli così: di solito è voluto, non un errore.",
+    "flight-incomer-going-away-p2": "Un {{term:going-away|piattello in allontanamento}} parte vicino o dietro di te e vola via. Richiede poco {{term:lead|anticipo}} laterale, ma rimpicciolisce in fretta e spesso sale o scende. Quindi devi tirare soprattutto un po' sopra di esso se sale, o un po' sotto se scende, e conta il tempismo: non aspettare. Nel {{tm:compak}} un piattello in allontanamento sopra il lato BC è obbligatorio. Può arrivare da una macchina interrata davanti alle pedane o da una {{term:tower|torre}} dietro di esse, {{fact:targets.compak-tower-height}}.",
+    "flight-incomer-going-away-p3": "Un {{term:driven-target|piattello passante alto}} è un piattello in arrivo che passa sopra la tua testa, come un fagiano spinto dai battitori. Molti istruttori lo insegnano così. Trovalo con gli occhi presto e comincia a muovere il fucile con lui. Porta il fucile da dietro il piattello e attraverso di esso, spara nel momento in cui le canne lo coprono, e tieni il fucile in movimento.",
+    "flight-incomer-going-away-p4": "Un {{term:overhead|overhead}} da dietro passa sopra la tua schiena e si allontana. Si vede tardi, quindi molti istruttori suggeriscono di guardare indietro prima di chiamare. Porta il fucile alla spalla — la {{term:gun-mount|imbracciata}} — mentre passa sopra di te. Spara quando la punta delle canne raggiunge il suo bordo anteriore, e tieni il fucile in movimento dopo il colpo — {{term:follow-through|accompagnamento}}.",
     "flight-incomer-going-away-p5": "«In arrivo» e «in allontanamento» descrivono sempre il piattello rispetto al tiratore."
   },
   "note": {
@@ -62,7 +62,7 @@
   "key_points": {
     "flight-incomer-going-away-kp1": "In arrivo: viene verso il tiratore, di solito scendendo; prendilo davanti.",
     "flight-incomer-going-away-kp2": "In allontanamento: poco anticipo laterale; un po' sopra se sale, un po' sotto se scende; non aspettare.",
-    "flight-incomer-going-away-kp3": "Passante alto (driven): un piattello in arrivo sopra la testa; attraversalo da dietro e coprilo.",
+    "flight-incomer-going-away-kp3": "{{term:driven-target|Passante alto}}: un piattello in arrivo sopra la testa; attraversalo da dietro e coprilo.",
     "flight-incomer-going-away-kp4": "Da dietro sopra la testa: guarda indietro presto, imbraccia accompagnandolo, accompagna il colpo.",
     "flight-incomer-going-away-kp5": "Un piattello in allontanamento è obbligatorio su un campo {{tm:compak}}."
   },
@@ -70,7 +70,7 @@
     "flight-incomer-going-away-q1": {
       "q": "L'istruttore dice «Blot it out». Che cosa deve fare il tiratore?",
       "options": {
-        "a": "Pulire le lenti degli occhiali di protezione",
+        "a": "Pulire le lenti dei occhiali di protezione",
         "b": "Lasciare che le canne coprano il piattello allo sparo",
         "c": "Aspettare che il piattello sparisca dalla vista",
         "d": "Sparare solo ai pezzi che cadono"
@@ -88,7 +88,7 @@
       "explain": "Un piattello in allontanamento guadagna distanza in fretta, quindi più aspetti, più diventa difficile. I tre secondi sono il tempo di lancio, non un limite per sparare."
     },
     "flight-incomer-going-away-q3": {
-      "q": "Cosa distingue un piattello passante alto (driven) da un normale piattello in arrivo?",
+      "q": "Cosa distingue un {{term:driven-target|piattello passante alto}} da un normale piattello in arrivo?",
       "options": {
         "a": "È sempre una lepre",
         "b": "Arriva da dietro il tiratore",

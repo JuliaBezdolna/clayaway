@@ -22,13 +22,17 @@
     "gun-transport-documents-q5": "49308c5f",
     "gun-transport-documents-dyk2": "cc9743bf"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Transportar a arma: campo, carro e casa",
   "summary": "Como transportar uma arma num campo de {{tm:sporting}} ou {{tm:compak}}, levá-la de carro e guardá-la em casa, e onde ler sobre viagens ao estrangeiro. As leis variam entre países.",
   "body": {
-    "gun-transport-documents-p1": "Comecemos pelo campo. No {{tm:sporting}} e no {{tm:compak}} a arma transporta-se aberta (uma semi-automática com a culatra aberta), com a boca a apontar diretamente para cima ou diretamente para baixo. As bandoleiras não são permitidas. Quando a arma não está nas suas mãos, fica de pé num {{term:gun-rack|armeiro}}, e ninguém toca na arma de outro atirador sem autorização.",
-    "gun-transport-documents-p2": "Fora do campo, aplica-se a lei do país. Quase em todo o lado precisa de uma licença ou autorização para uma espingarda, e as regras de transporte e armazenamento variam mesmo entre países vizinhos. Antes de uma viagem, verifique as regras do destino e de qualquer país de trânsito, com várias semanas de antecedência.",
-    "gun-transport-documents-p6": "De carro, a arma viaja descarregada, numa {{term:hard-case|mala}} ou {{term:gun-slip|capa}}, fora de vista, e em muitos países separada dos cartuchos. Não deixe uma arma num carro sem vigilância.",
+    "gun-transport-documents-p1": "Comecemos pelo campo. No {{tm:sporting}} e no {{tm:compak}} a arma transporta-se aberta (uma {{term:semi-automatic|semi-automática}} com a culatra aberta), com a boca a apontar diretamente para cima ou diretamente para baixo. As bandoleiras não são permitidas. Quando a arma não está nas suas mãos, fica de pé num {{term:gun-rack|armeiro}}, e ninguém toca na arma de outro atirador sem autorização.",
+    "gun-transport-documents-p2": "Fora do campo, aplica-se a lei do país. Quase em todo o lado precisa de uma licença ou autorização para uma {{term:shotgun|espingarda}}, e as regras de transporte e armazenamento variam mesmo entre países vizinhos. Antes de uma viagem, verifique as regras do destino e de qualquer país de trânsito, com várias semanas de antecedência.",
+    "gun-transport-documents-p6": "De carro, a arma viaja descarregada, numa {{term:hard-case|mala}} ou {{term:gun-slip|capa}}, fora de vista, e em muitos países separada dos {{term:cartridge|cartuchos}}. Não deixe uma arma num carro sem vigilância.",
     "gun-transport-documents-p8": "Em casa, guarde a arma como a lei do seu país exigir, normalmente trancada num cofre e fora do alcance de crianças. Muitas leis também pedem que os cartuchos sejam guardados à parte. Cuidados e armazenamento: {{lesson:gun-care}}.",
     "gun-transport-documents-p9": "Vai ao estrangeiro com a sua própria arma? O {{term:european-firearms-pass|Cartão Europeu de Arma de Fogo}} só é emitido a residentes de países da UE e da Suíça, Noruega, Islândia e Listenstaine, que aplicam as mesmas regras europeias sobre armas de fogo. Usa-se para viajar com a sua própria arma. Os restantes normalmente precisam de uma autorização do país de destino ou alugam lá uma arma.",
     "gun-transport-documents-p10": "Os detalhes estão no bloco Viagens: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} e {{lesson:travel-flying-with-guns}}.",
@@ -43,7 +47,7 @@
     "gun-transport-documents-kp7": "O Cartão Europeu de Arma de Fogo é só para residentes de países da UE e de Schengen que viajam com a sua própria arma.",
     "gun-transport-documents-kp8": "Mantenha todos os documentos juntos e à mão."
   },
-  "did_you_know": "Como uma arma que não está a ser usada tem de ficar de pé num armeiro, muitos campos colocam um armeiro junto a cada posto. Assim ninguém pousa uma arma no chão nem a encosta a uma vedação.",
+  "did_you_know": "Como uma arma que não está a ser usada tem de ficar de pé num {{term:gun-rack|armeiro}}, muitos campos colocam um {{term:gun-rack|armeiro}} junto a cada posto. Assim ninguém pousa uma arma no chão nem a encosta a uma vedação.",
   "quiz": {
     "gun-transport-documents-q1": {
       "q": "Como se transporta uma arma no campo?",

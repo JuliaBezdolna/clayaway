@@ -30,12 +30,12 @@
     "origin": null
   },
   "title": "Trockentraining des Anschlags",
-  "summary": "Wie und wo Sie den Anschlag ohne Schuss üben können: nur dort, wo es das Gesetz erlaubt, mit einer von Ihnen geprüften, entladenen Flinte und so, wie es Ihr Trainer gezeigt hat.",
+  "summary": "Wie und wo Sie den {{term:gun-mount|Anschlag}} ohne Schuss üben können: nur dort, wo es das Gesetz erlaubt, mit einer von Ihnen geprüften, entladenen Flinte und so, wie es Ihr {{term:coach|Trainer}} gezeigt hat.",
   "body": {
-    "training-dry-mount-practice-p1": "Der {{term:gun-mount|Anschlag}} ist die Bewegung, die die Flinte zu Wange und Schulter bringt. Damit er jedes Mal gleich ist, wiederholen Sie ihn viele Male. Viele Trainer empfehlen {{term:dry-mounting|Trockentraining}} zwischen den Einheiten: den Anschlag ohne Schuss zu üben. Das muss sicher und gesetzeskonform geschehen.",
+    "training-dry-mount-practice-p1": "Der {{term:gun-mount|Anschlag}} ist die Bewegung, die die Flinte zu Wange und Schulter bringt. Damit er jedes Mal gleich ist, wiederholen Sie ihn viele Male. Viele {{term:coach|Trainer}} empfehlen {{term:dry-mounting|Trockentraining}} zwischen den Einheiten: den Anschlag ohne Schuss zu üben. Das muss sicher und gesetzeskonform geschehen.",
     "training-dry-mount-practice-p2": "Zuerst das Gesetz. Die Regeln zur Aufbewahrung und Handhabung von Flinten zu Hause sind von Land zu Land sehr verschieden. An manchen Orten muss die Flinte im Safe verschlossen bleiben, außer es gibt einen Grund, sie herauszunehmen; anderswo gelten andere Grenzen. Prüfen Sie, was das Gesetz Ihres Landes erlaubt. Im Zweifel tun Sie es nicht und bitten Sie Ihren Trainer um andere Übungen.",
     "training-dry-mount-practice-p3": "Sicherheit ohne Ausnahmen. Die Flinte muss entladen und geprüft sein. Öffnen Sie sie und schauen Sie in die {{term:chamber|Patronenlager}}, die Öffnungen am hinteren Ende der Läufe, in denen die Patronen liegen. Bei einer {{term:semi-automatic|Selbstladeflinte}} prüfen Sie auch das Magazin. Im Raum, in dem Sie üben, dürfen keine scharfen Patronen liegen. Die {{term:muzzle|Mündung}}, das vordere Ende der Läufe, zeigt die ganze Zeit in eine sichere Richtung, auch wenn die Flinte leer ist.",
-    "training-dry-mount-practice-snap-caps": "Snap Caps sind Übungspatronen (Attrappen). Ziehen Sie bei leerer Flinte den Abzug, schützen sie die Schlagbolzen: die kleinen Stifte im Inneren der Flinte, die auf die Patrone schlagen, um den Schuss auszulösen. Wählen Sie solche, die sich deutlich von scharfen Patronen unterscheiden, und verwenden Sie sie nur so, wie es Ihr Trainer oder ein Büchsenmacher rät.",
+    "training-dry-mount-practice-snap-caps": "Snap Caps sind Übungspatronen (Attrappen). Ziehen Sie bei leerer Flinte den {{term:trigger|Abzug}}, schützen sie die Schlagbolzen: die kleinen Stifte im Inneren der Flinte, die auf die Patrone schlagen, um den Schuss auszulösen. Wählen Sie solche, die sich deutlich von scharfen Patronen unterscheiden, und verwenden Sie sie nur so, wie es Ihr Trainer oder ein {{term:gunsmith|Büchsenmacher}} rät.",
     "training-dry-mount-practice-p4": "Wie Sie üben. Machen Sie die Übung genau so, wie es Ihr Trainer gezeigt hat, nicht so, wie Sie es in einem Video gesehen haben. Oft sind es langsame Anschläge vor einem Spiegel, um zu prüfen, ob das Auge mit der {{term:rib|Laufschiene}} übereinstimmt, dem Visierstreifen entlang der Läufe. Eine andere Übung ist, die Flinte anzuschlagen und langsam entlang der Linie zu bewegen, an der eine Wand auf die Decke trifft, wobei die Läufe auf dieser Linie bleiben. Bleiben Sie langsam und korrekt: Geschwindigkeit kommt meist später von selbst.",
     "training-dry-mount-practice-p5": {
       "sporting": "Während eines Wettkampfs sind {{term:mock-shooting|Zielübungen}} nirgends auf dem Stand erlaubt. Schlagen Sie vor dem Abruf an und schwenken entlang einer eingebildeten Scheibe, gibt der Schiedsrichter eine Verwarnung; Wiederholungen werden bestraft ({{rule:sporting:ch8-mock-shooting}}).",
@@ -67,7 +67,7 @@
       "explain": "Die Flinte wird zuerst entladen und geprüft, und im Raum liegen keine scharfen Patronen."
     },
     "training-dry-mount-practice-q2": {
-      "q": "Was entscheidet, ob Sie den Anschlag zu Hause üben dürfen?",
+      "q": "Was entscheidet, ob Sie den {{term:gun-mount|Anschlag}} zu Hause üben dürfen?",
       "options": {
         "a": "Das Gesetz Ihres Landes zur Aufbewahrung und Handhabung von Flinten",
         "b": "Der Rat aus einem Video, das Sie online gefunden haben",
@@ -82,7 +82,7 @@
         "b": "Eine Verwarnung, Wiederholungen werden bestraft",
         "c": "Eine zusätzliche Scheibe zum Schießen"
       },
-      "explain": "Das sind Zielübungen, die die Regeln von {{tm:sporting}} während eines Wettkampfs nirgends auf dem Stand erlauben."
+      "explain": "Das sind {{term:mock-shooting|Zielübungen}}, die die Regeln von {{tm:sporting}} während eines Wettkampfs nirgends auf dem Stand erlauben."
     }
   }
 }

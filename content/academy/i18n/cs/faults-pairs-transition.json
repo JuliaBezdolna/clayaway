@@ -31,11 +31,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Dvojstřely: druhý terč",
-  "summary": "Proč se druhý terč dvojstřelu často míjí: přechod, návrat po výstřelu a plánování pořadí, a k tomu pravidla o nábojích na dvojstřelech v {{tm:sporting}} a {{tm:compak}}.",
+  "summary": "Proč se druhý terč {{term:double|dvojstřelu}} často míjí: přechod, návrat po výstřelu a plánování pořadí, a k tomu pravidla o nábojích na dvojstřelech v {{tm:sporting}} a {{tm:compak}}.",
   "body": {
-    "faults-pairs-transition-p1": "Na dvojstřelu ({{term:double|double}}) mnozí střelci rozbijí první terč a minou druhý. Trenér pak použije dvě slova. První je {{term:transition|transition}} („přechod“): přesun nejprve pohledu a pak zbraně z prvního terče na druhý. Druhé je {{term:recovery|recovery}} („návrat“): dostat zbraň i hlavu zpátky pod kontrolu po prvním výstřelu.",
+    "faults-pairs-transition-p1": "Na {{term:double|dvojstřelu}} mnozí střelci rozbijí první terč a minou druhý. Trenér pak použije dvě slova. První je {{term:transition|přechod}}: přesun nejprve pohledu a pak zbraně z prvního terče na druhý. Druhé je {{term:recovery|návrat}}: dostat zbraň i hlavu zpátky pod kontrolu po prvním výstřelu.",
     "faults-pairs-transition-p2": "Zlaté pravidlo zní „eyes first, then the gun“ – nejdřív oči, pak zbraň. Oči opustí rozbitý první terč a najdou druhý; zbraň je následuje. Střelec, který sleduje, jak se první terč rozbíjí, nebo švihne zbraní dřív, než najde druhý, ztrácí čas. Trenéři říkají „eyes to the second“ – oči na druhý – nebo jen ukážou.",
-    "faults-pairs-transition-p3": "Zotavení: zpětný ráz zvedne ústí a někdy i hlavu. „Let the gun recover, then go“ znamená: tvář zpět na pažbu a zbraň zpět na dráhu, než se vyrazí za druhým terčem. Dobrý postoj s váhou vpředu zotavení zrychluje.",
+    "faults-pairs-transition-p3": "Zotavení: {{term:recoil|zpětný ráz}} zvedne ústí a někdy i hlavu. „Let the gun recover, then go“ znamená: tvář zpět na {{term:stock|pažbu}} a zbraň zpět na dráhu, než se vyrazí za druhým terčem. Dobrý {{term:stance|postoj}} s váhou vpředu zotavení zrychluje.",
     "faults-pairs-transition-p4": "Plán: u {{term:simultaneous-double|současného dvojstřelu}} a ve {{tm:sporting}} i u {{term:rafale-double|rafale}} smí střelec vzít terč v libovolném pořadí. Při čtení takového dvojstřelu se střelec (na tréninku spolu s trenérem) rozhoduje, který terč vzít první a kde ho rozbít, aby se ten druhý snadno našel. U {{term:double-on-report|dvojstřelu na hlášenou}} je pořadí dané: zavolání vypustí první terč a výstřel po něm druhý. Typické fráze: „take the dropping one first“ (nejdřív vezměte ten, co padá), „break the first early“ (první rozbijte brzy), „stick to the plan“ (držte se plánu). Kdo na stanovišti změní naplánované pořadí, ten „went for the wrong one“ – „začal od té špatné“.",
     "faults-pairs-transition-p5": "Tady záleží na pravidlech. Ve {{tm:sporting}} je poloha zbraně mezi dvěma terči jakéhokoli dvojstřelu volná. Na dvojstřel má střelec dva náboje a oba smí vystřelit na stejný terč. V {{tm:compak}} je na dvojstřelu dovolen jen jeden náboj na terč.",
     "faults-pairs-transition-more": "Jaké bývají dvojstřely a jak se vypouštějí, najdete v lekci {{lesson:targets-singles-and-doubles}}; pravidla dvojstřelů jsou v lekci {{lesson:rules-doubles}}."
@@ -73,7 +73,7 @@
   },
   "quiz": {
     "faults-pairs-transition-q1": {
-      "q": "Co znamená „eyes first, then the gun“ na dvojstřelu?",
+      "q": "Co znamená „eyes first, then the gun“ na {{term:double|dvojstřelu}}?",
       "options": {
         "a": "Po prvním výstřelu zavřít oči",
         "b": "Před druhým výstřelem se podívat na hlaveň",
@@ -83,7 +83,7 @@
       "explain": "Při správném přechodu vedou oči a zbraň je následuje."
     },
     "faults-pairs-transition-q2": {
-      "q": "Na dvojstřelu {{tm:compak}} střelec mine první terč a chce po něm vystřelit i druhým nábojem. Lze to?",
+      "q": "Na {{term:double|dvojstřelu}} {{tm:compak}} střelec mine první terč a chce po něm vystřelit i druhým nábojem. Lze to?",
       "options": {
         "a": "Ano, stejně jako ve {{tm:sporting}}",
         "b": "Ano, ale jen na současném dvojstřelu",
@@ -93,7 +93,7 @@
       "explain": "{{tm:compak}} zakazuje vystřelit dvakrát po prvním terči dvojstřelu; {{tm:sporting}} dovoluje oba náboje na jeden terč."
     },
     "faults-pairs-transition-q3": {
-      "q": "Smí střelec ve dvojstřelu {{tm:sporting}} spustit zbraň mezi prvním a druhým terčem?",
+      "q": "Smí střelec v {{term:double|dvojstřelu}} {{tm:sporting}} spustit zbraň mezi prvním a druhým terčem?",
       "options": {
         "a": "Ano, mezi oběma terči je poloha volná",
         "b": "Ne, zbraň musí zůstat v rameni",

@@ -43,16 +43,16 @@
     "origin": "interpreter-academy"
   },
   "title": "Jak funguje střeliště a položka ve {{tm:sporting}}",
-  "summary": "Střeliště, stanoviště, vrhačky A až D, menu terčů, třídy obtížnosti a položka 25 terčů: jak je uspořádaný a jak probíhá závod {{tm:sporting}}.",
+  "summary": "{{term:layout|Střeliště}}, {{term:shooting-stand|stanoviště}}, {{term:trap|vrhačky}} A až D, menu terčů, třídy obtížnosti a {{term:round|položka}} 25 terčů: jak je uspořádaný a jak probíhá závod {{tm:sporting}}.",
   "body": {
-    "sport-sporting-layout-p1": "Ve {{tm:sporting}} je střelecký areál rozdělen na {{term:layout|střeliště}} (layout). Střeliště je skupina {{term:shooting-stand|stanovišť}}, která společně dávají jednu položku — {{fact:targets.sporting-layout-targets}}.",
-    "sporting-rounds-stands-p2": "Střeliště se staví jedním ze dvou způsobů. Starší typ má 3 stanoviště se společnými 5 vrhačkami. Novější typ se nazývá {{term:line|řada}} (line). Řada se 4 stanovišti má tři stanoviště se 4 vrhačkami a jedno (č. 2 nebo 3) se 3 vrhačkami. Řada s 5 stanovišti má na každém stanovišti 3 vrhačky. Řada se 3 stanovišti po 5 vrhačkách je dovolena jen pro Grand Prix.",
-    "sport-sporting-layout-p2": "{{term:shooting-stand|Stanoviště}} je místo, kde stojí střelec: čtverec 1 m nebo kruh o průměru 1 m. Mělo by být rovné, kde je to možné, a přinejmenším neklouzavé (bezpečnostní pravidlo). Zbytek {{term:squad|skupiny}} (střelců, kteří střílí společně) čeká poblíž, dost blízko, aby mohl sledovat, ale aniž by střelce rušil.",
+    "sport-sporting-layout-p1": "Ve {{tm:sporting}} je střelecký areál rozdělen na {{term:layout|střeliště}}. Střeliště je skupina {{term:shooting-stand|stanovišť}}, která společně dávají jednu {{term:round|položku}} — {{fact:targets.sporting-layout-targets}}.",
+    "sporting-rounds-stands-p2": "Střeliště se staví jedním ze dvou způsobů. Starší typ má 3 stanoviště se společnými 5 vrhačkami. Novější typ se nazývá {{term:line|řada}}. Řada se 4 stanovišti má tři stanoviště se 4 vrhačkami a jedno (č. 2 nebo 3) se 3 vrhačkami. Řada s 5 stanovišti má na každém stanovišti 3 {{term:trap|vrhačky}}. Řada se 3 stanovišti po 5 vrhačkách je dovolena jen pro Grand Prix.",
+    "sport-sporting-layout-p2": "{{term:shooting-stand|Stanoviště}} je místo, kde stojí střelec: čtverec 1 m nebo kruh o průměru 1 m. Mělo by být rovné, kde je to možné, a přinejmenším neklouzavé (bezpečnostní pravidlo). Zbytek {{term:squad|skupiny}}, tedy střelců, kteří střílí společně, čeká poblíž, dost blízko, aby mohl sledovat, ale aniž by střelce rušil.",
     "sport-sporting-layout-p3": "Vrhačky se umísťují podle terénu, často částečně skryté za keři nebo stromy. Terče napodobují skutečnou zvěř: letí napříč, na vás, od vás nebo pod úhlem (šikmo), vysoko nebo nízko, na otevřeném prostranství nebo mezi stromy. Vrhačky stanoviště jsou značeny písmeny zleva doprava, jak je vidět ze stanoviště: A, B, C a tak dále (pravidla uvádějí A až D). Tato písmena používá menu i {{term:score-sheet|položkový list}}.",
-    "sport-sporting-layout-p4": "Před každým stanovištěm je {{term:target-menu|menu terčů}} (target menu). Uvádí vrhačky v pořadí střelby a jmenuje případné zvláštní terče: {{fact:targets.sporting-menu-special-targets}}. Před závodem rozhodčí ověří, že vrhačky odpovídají menu. Střelci ho čtou, než vstoupí na stanoviště; víc v lekci {{lesson:targets-menu}}.",
+    "sport-sporting-layout-p4": "Před každým stanovištěm je {{term:target-menu|menu terčů}}. Uvádí vrhačky v pořadí střelby a jmenuje případné zvláštní terče: {{fact:targets.sporting-menu-special-targets}}. Před závodem {{term:referee|rozhodčí}} ověří, že vrhačky odpovídají menu. Střelci ho čtou, než vstoupí na stanoviště; víc v lekci {{lesson:targets-menu}}.",
     "sport-sporting-layout-p5": "Každá dráha letu má {{term:difficulty-class|třídu obtížnosti}}: {{fact:targets.sporting-difficulty-classes}}. Pro jedno stanoviště pravidla doporučují jednu dráhu třídy A, dvě třídy B a jednu třídy C. Terč třídy C je tedy zamýšlený jako těžký, a chyba na něm není žádná katastrofa.",
     "sporting-rounds-stands-p1": "Závod {{tm:sporting}} se počítá v {{term:round|položkách}} po 25 terčích. Mezinárodní závod má 200 terčů, tedy osm položek; každá položka se střílí na jednom střelišti (souboru stanovišť) nebo na jedné {{term:line|řadě}}.",
-    "sporting-rounds-stands-p4": "Střelci procházejí trať ve {{term:squad|skupinách}} až po šesti; kdo je v které skupině, určuje los. Na každém stanovišti všichni nejprve střílí jednotlivé terče, pak dvojstřely. Kdo střílí první, se mění na každém stanovišti a znovu se to mění, když začínají dvojstřely. Ostatní čekají poblíž, aniž by rušili toho, kdo střílí.",
+    "sporting-rounds-stands-p4": "Střelci procházejí trať v {{term:squad|skupinách}} až po šesti; kdo je v které skupině, určuje los. Na každém stanovišti všichni nejprve střílí {{term:single-target|jednotlivé terče}}, pak {{term:double|dvojstřely}}. Kdo střílí první, se mění na každém stanovišti a znovu se to mění, když začínají dvojstřely. Ostatní čekají poblíž, aniž by rušili toho, kdo střílí.",
     "targets-sporting-layout-ready": "Když vás zavolají, buďte hned připraveni, s náboji a výbavou na celou položku. Na stanoviště vstupte jen tehdy, když je vaše řada a předchozí střelec ho už opustil.",
     "sporting-rounds-stands-p5": "{{term:score-sheet|Položkový list}} vede {{term:referee|rozhodčí}} nebo osoba pod jeho dohledem a zaznamenává každý terč pod písmenem jeho vrhačky. Při odchodu ze stanoviště si každý střelec zkontroluje výsledek; pokud nesouhlasíte, řekněte to rozhodčímu hned, a jeho rozhodnutí je konečné.",
     "targets-sporting-layout-compak": "{{tm:compak}} je uspořádaný jinak: pět čísel na jednom malém poli, a skupina postupuje podél řady. Viz lekce {{lesson:targets-compak-layout}}."
@@ -99,32 +99,32 @@
   },
   "quiz": {
     "sporting-rounds-stands-q1": {
-      "q": "Kolik terčů dává jedno střeliště {{tm:sporting}} a jak se dělí?",
+      "q": "Kolik terčů dává jedno {{term:layout|střeliště}} {{tm:sporting}} a jak se dělí?",
       "options": {
         "a": "20: 10 jednotlivých a 5 dvojstřelů",
         "b": "25: jen jednotlivé",
         "c": "25: 15 jednotlivých a 5 dvojstřelů",
         "d": "50: 25 jednotlivých a 25 dvojstřelů"
       },
-      "explain": "Každý typ střeliště dává 15 jednotlivých terčů plus 5 dvojstřelů, tedy 25 terčů."
+      "explain": "Každý typ střeliště dává 15 {{term:single-target|jednotlivých terčů}} plus 5 dvojstřelů, tedy 25 terčů."
     },
     "sporting-rounds-stands-q2": {
-      "q": "V jakém pořadí střílí skupina na stanovišti?",
+      "q": "V jakém pořadí střílí {{term:squad|skupina}} na stanovišti?",
       "options": {
-        "a": "Nejdřív dvojstřely, pak jednotlivé, v pevném pořadí",
-        "b": "Nejdřív jednotlivé terče, pak dvojstřely, s rotací",
-        "c": "Každý střelec vystřílí celé stanoviště najednou",
+        "a": "Nejdřív {{term:double|dvojstřely}}, pak jednotlivé, v pevném pořadí",
+        "b": "Nejdřív {{term:single-target|jednotlivé terče}}, pak {{term:double|dvojstřely}}, s rotací",
+        "c": "Každý střelec vystřílí celé {{term:shooting-stand|stanoviště}} najednou",
         "d": "Střelci se dohodnou na pořadí sami"
       },
       "explain": "Nejdřív jednotlivé terče, pak dvojstřely, s rotací, pokud jury nerozhodne jinak."
     },
     "sporting-rounds-stands-q3": {
-      "q": "Při odchodu ze stanoviště střelec vidí, že zásah byl zapsán jako chyba. Co má udělat?",
+      "q": "Při odchodu ze {{term:shooting-stand|stanoviště}} střelec vidí, že zásah byl zapsán jako chyba. Co má udělat?",
       "options": {
-        "a": "Počkat na konec položky a odvolat se k jury",
+        "a": "Počkat na konec {{term:round|položky}} a odvolat se k jury",
         "b": "Opravit list sám",
-        "c": "Nechat skupinu hlasovat",
-        "d": "Hned to říct rozhodčímu; rozhodne rozhodčí"
+        "c": "Nechat {{term:squad|skupinu}} hlasovat",
+        "d": "Hned to říct rozhodčímu; rozhodne {{term:referee|rozhodčí}}"
       },
       "explain": "Výsledky se kontrolují při odchodu z každého stanoviště; rozhoduje jen rozhodčí a potom už odvolání není možné."
     },
@@ -136,35 +136,35 @@
         "c": "200",
         "d": "250"
       },
-      "explain": "Mezinárodní závod má 200 terčů, odstřílených v osmi položkách po 25."
+      "explain": "Mezinárodní závod má 200 terčů, odstřílených v osmi {{term:round|položkách}} po 25."
     },
     "sport-sporting-layout-q2": {
       "q": "Trenér řekne: „Go to stand two.“ Co tu znamená „stand“?",
       "options": {
         "a": "Celé střelecké středisko",
-        "b": "Metrové stanoviště střelce",
+        "b": "Metrové {{term:shooting-stand|stanoviště}} střelce",
         "c": "Tribuna pro diváky",
-        "d": "Stojan na zbraně"
+        "d": "{{term:gun-rack|Stojan na zbraně}}"
       },
       "explain": "Ve {{tm:sporting}} je stand metrové místo, kde stojí střelec. Není to celý areál."
     },
     "sport-sporting-layout-q3": {
-      "q": "Jak se značí vrhačky na stanovišti {{tm:sporting}}?",
+      "q": "Jak se značí {{term:trap|vrhačky}} na stanovišti {{tm:sporting}}?",
       "options": {
         "a": "Čísly 1 až 6, počítáno zprava",
         "b": "Barvami nanesenými na každém stroji",
         "c": "Písmeny A, B, C, D zleva doprava",
         "d": "Jménem osoby, která terče vypouští"
       },
-      "explain": "Písmena A, B, C, D se čtou zleva doprava, jak je vidět ze stanoviště, a používá je menu i položkový list."
+      "explain": "Písmena A, B, C, D se čtou zleva doprava, jak je vidět ze {{term:shooting-stand|stanoviště}}, a používá je menu i {{term:score-sheet|položkový list}}."
     },
     "etiquette-squad-q3": {
-      "q": "Jak probíhá pořadí střelby ve skupině ve {{tm:sporting}}?",
+      "q": "Jak probíhá pořadí střelby v {{term:squad|skupině}} ve {{tm:sporting}}?",
       "options": {
-        "a": "Mění se na každém stanovišti a pro dvojstřely",
+        "a": "Mění se na každém stanovišti a pro {{term:double|dvojstřely}}",
         "b": "Je pevné na celý den",
         "c": "Vždy začíná nejlépe hodnocený střelec",
-        "d": "Rozhodčí si vybírá volně"
+        "d": "{{term:referee|Rozhodčí}} si vybírá volně"
       },
       "explain": "Skupiny po šesti se losují, a pořadí se mění na každém stanovišti a také pro dvojstřely."
     }

@@ -32,13 +32,13 @@
   "origin": null
  },
  "title": "Sicherheit und Aufsicht",
- "summary": "In Lektionen und Training schießt ein Kind nur unter der unmittelbaren Aufsicht eines Trainers, nach denselben Sicherheitsregeln wie Erwachsene, und immer mit Gehör- und Augenschutz.",
+ "summary": "In Lektionen und Training schießt ein Kind nur unter der unmittelbaren Aufsicht eines {{term:coach|Trainers}}, nach denselben Sicherheitsregeln wie Erwachsene, und immer mit Gehör- und Augenschutz.",
  "body": {
   "juniors-safety-supervision-p1": "Für junge Schützen gelten dieselben Sicherheitsregeln wie für Erwachsene, aber die Aufsicht ist enger. In Lektionen und Training steht ein {{term:coach|Trainer}} oder Ausbilder direkt neben dem Kind auf dem Standplatz, nah genug, um die Flinte jederzeit greifen zu können. Ein Kind wird nie allein mit einer Flinte gelassen, weder am Schießstand noch zu Hause.",
-  "juniors-safety-supervision-competition": "Bei einem Wettkampf ist es anders: Der {{term:referee|Schiedsrichter}} leitet den Standplatz, und niemand darf den Schützen {{term:coaching|coachen}}. Altersgrenzen und Aufsichtsregeln für Minderjährige hängen vom Gesetz Ihres Landes und von den eigenen Regeln des Schießstands ab: siehe {{lesson:juniors-documents-licences}}.",
-  "juniors-safety-supervision-p2": "Vor dem ersten Schuss sollte das Kind die Grundregeln aus {{lesson:safety-core-rules}} kennen. Die {{term:muzzle|Mündung}} zeigt in eine sichere Richtung. Die Flinte bleibt offen, solange nicht geschossen wird. Patronen kommen nur auf dem Standplatz hinein, wenn der Trainer es sagt. Bei „Stop!“ ({{term:cease-fire|Cease fire}}) wird die Flinte geöffnet, und alle warten.",
+  "juniors-safety-supervision-competition": "Bei einem Wettkampf ist es anders: Der {{term:referee|Schiedsrichter}} leitet den Standplatz, und {{term:coaching|Coaching}} ist verboten. Altersgrenzen und Aufsichtsregeln für Minderjährige hängen vom Gesetz Ihres Landes und von den eigenen Regeln des Schießstands ab: siehe {{lesson:juniors-documents-licences}}.",
+  "juniors-safety-supervision-p2": "Vor dem ersten Schuss sollte das Kind die Grundregeln aus {{lesson:safety-core-rules}} kennen. Die {{term:muzzle|Mündung}} zeigt in eine sichere Richtung. Die Flinte bleibt offen, solange nicht geschossen wird. Patronen kommen nur auf dem Standplatz hinein, wenn der Trainer es sagt. Bei „Stop!“ – {{term:cease-fire|Cease fire}} – wird die Flinte geöffnet, und alle warten.",
   "juniors-safety-supervision-check": "Eine nützliche Prüfung: Lassen Sie das Kind diese Regeln vor jeder der ersten Einheiten in eigenen Worten erklären.",
-  "juniors-safety-supervision-p3": "Ein schießendes Kind trägt immer {{term:hearing-protection|Gehörschutz}} und {{term:safety-glasses|Schießbrille}}, wie jeder Schütze. Für Kinder, die zum Zuschauen in die Nähe eines {{term:layout|Layouts}} kommen (dem Schießbereich mit seinen Standplätzen und Wurfmaschinen), unterscheiden sich die Regeln zwischen den Disziplinen etwas.",
+  "juniors-safety-supervision-p3": "Ein schießendes Kind trägt immer {{term:hearing-protection|Gehörschutz}} und {{term:safety-glasses|Schießbrille}}, wie jeder Schütze. Für Kinder, die zum Zuschauen in die Nähe von einem {{term:layout|Layout}} kommen – dem Schießbereich mit seinen Standplätzen und {{term:trap|Wurfmaschinen|pl}} –, unterscheiden sich die Regeln zwischen den Disziplinen etwas.",
   "juniors-safety-supervision-rules": {
    "sporting": "Kinder am Schießstand tragen außerhalb des Vereinshauses jederzeit Gehörschutz. Eine Brille ist Pflicht für alle in der Nähe eines Standplatzes.",
    "compak": "Gehörschutz ist Pflicht für alle Zuschauer in der Nähe des Layouts, Kinder eingeschlossen. Eine Brille ist Pflicht für Wettkämpfer, Schiedsrichter und Personal."
@@ -60,16 +60,16 @@
  "did_you_know": "Ein Flintenschuss erreicht {{fact:gear.gunshot-peak-db}} (Dezibel, dB, messen die Lautstärke). Für einen solchen kurzen, scharfen Knall liegen die Grenzwerte bei {{fact:gear.impulse-noise-limits}}. Der Grenzwert für Erwachsene stammt aus dem Arbeitsschutz, und die WHO empfiehlt den für Kinder. Deshalb brauchen auch Kinder, die nur zuschauen, Gehörschutz.",
  "quiz": {
   "juniors-safety-supervision-q1": {
-   "q": "Wo sollte der Trainer stehen, während ein Kind in einer Trainingseinheit schießt?",
+   "q": "Wo sollte der {{term:coach|Trainer}} stehen, während ein Kind in einer Trainingseinheit schießt?",
    "options": {
     "a": "Hinter der Rotte, von wo er den ganzen Standplatz sehen kann",
     "b": "Direkt neben dem Kind, um die Flinte sofort übernehmen zu können",
     "c": "An der Wurfmaschine, bereit, die Scheiben zu stoppen"
    },
-   "explain": "Im Training bedeutet unmittelbare Aufsicht, dass der Trainer neben dem Kind steht und sofort eingreifen kann. Bei einem Wettkampf leitet der Schiedsrichter den Standplatz."
+   "explain": "Im Training bedeutet unmittelbare Aufsicht, dass der Trainer neben dem Kind steht und sofort eingreifen kann. Bei einem Wettkampf leitet der {{term:referee|Schiedsrichter}} den Standplatz."
   },
   "juniors-safety-supervision-q2": {
-   "q": "Ihre Tochter kommt nur, um einen Wettkampf anzuschauen. Braucht sie Gehörschutz?",
+   "q": "Ihre Tochter kommt nur, um einen Wettkampf anzuschauen. Braucht sie {{term:hearing-protection|Gehörschutz}}?",
    "options": {
     "a": "Ja, die Regeln verlangen ihn in der Nähe des Layouts",
     "b": "Nein, nur die Schießenden brauchen ihn",

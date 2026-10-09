@@ -22,10 +22,10 @@
     "origin": "interpreter-academy"
   },
   "title": "Anatomia de um cartucho",
-  "summary": "Invólucro, fulminante, pólvora, bucha, chumbo e fecho: o que há dentro de um cartucho de tiro aos pratos, como cada parte afeta o tiro e que cartuchos as regras de {{tm:sporting}} e {{tm:compak}} proíbem.",
+  "summary": "{{term:hull|Invólucro}}, {{term:primer|fulminante}}, {{term:powder|pólvora}}, {{term:wad|bucha}}, {{term:lead-shot|chumbo}} e fecho: o que há dentro de um {{term:cartridge|cartucho}} de tiro aos pratos, como cada parte afeta o tiro e que cartuchos as regras de {{tm:sporting}} e {{tm:compak}} proíbem.",
   "body": {
-    "gear-cartridges-p1": "Um {{term:cartridge|cartucho}} contém tudo o que é preciso para um tiro: o {{term:hull|invólucro}} com uma base metálica, o {{term:primer|fulminante}}, a {{term:powder|pólvora}}, a {{term:wad|bucha}} e o chumbo. Os atiradores também dizem shell. Os «empties» são os invólucros já disparados.",
-    "gear-cartridges-p5": "Alguns campos acrescentam as suas próprias regras ambientais para os treinos, por exemplo só buchas de feltro ou só chumbo de aço: verifique as regras do campo antes da viagem. Os invólucros vazios vão para o recipiente do posto, e os atiradores com semi-automáticas apanham os seus invólucros ejetados quando saem."
+    "gear-cartridges-p1": "Um {{term:cartridge|cartucho}} contém tudo o que é preciso para um tiro: o {{term:hull|invólucro}} com uma base metálica, o {{term:primer|fulminante}}, a {{term:powder|pólvora}}, a {{term:wad|bucha}} e o {{term:lead-shot|chumbo}}. Os atiradores também dizem shell. Os «empties» são os invólucros já disparados.",
+    "gear-cartridges-p5": "Alguns campos acrescentam as suas próprias regras ambientais para os treinos, por exemplo só {{term:fibre-wad|buchas de feltro}} ou só {{term:steel-shot|chumbo de aço}}: verifique as regras do campo antes da viagem. Os {{term:empties|invólucros vazios|pl}} vão para o recipiente do posto, e os atiradores com semi-automáticas apanham os seus invólucros ejetados quando saem."
   },
   "note": {},
   "phrases": {
@@ -40,11 +40,11 @@
   },
   "key_points": {
     "gear-cartridges-kp1": "Cartucho = invólucro, fulminante, pólvora, bucha, chumbo.",
-    "gear-cartridges-kp5": "Os vazios vão para o recipiente; quem usa semi-automática apanha os seus invólucros."
+    "gear-cartridges-kp5": "Os vazios vão para o recipiente; quem usa {{term:semi-automatic|semi-automática}} apanha os seus invólucros."
   },
   "quiz": {
     "cartridges-anatomy-q1": {
-      "q": "O que inflama a pólvora num cartucho?",
+      "q": "O que inflama a {{term:powder|pólvora}} num {{term:cartridge|cartucho}}?",
       "options": {
         "a": "A bucha",
         "b": "O fulminante",
@@ -54,7 +54,7 @@
       "explain": "O percutor bate no fulminante, e o fulminante inflama a pólvora."
     },
     "cartridges-anatomy-q2": {
-      "q": "Porque é que muitos campos exigem buchas de fibra?",
+      "q": "Porque é que muitos campos exigem {{term:fibre-wad|buchas de fibra}}?",
       "options": {
         "a": "São mais baratas",
         "b": "Dão uma chumbada mais apertada",
@@ -64,20 +64,20 @@
       "explain": "A fibra e o feltro decompõem-se, enquanto as buchas de plástico comuns ficam anos nos campos."
     },
     "cartridges-anatomy-q3": {
-      "q": "Que cartuchos são proibidos pelas regras da FITASC?",
+      "q": "Que {{term:cartridge|cartuchos}} são proibidos pelas regras da FITASC?",
       "options": {
-        "a": "Cartuchos de fábrica com bucha de plástico",
-        "b": "Cartuchos de fábrica com bucha de fibra",
-        "c": "Cartuchos com invólucro de papel",
-        "d": "Cartuchos recarregados"
+        "a": "Cartuchos de fábrica com {{term:wad|bucha}} de plástico",
+        "b": "Cartuchos de fábrica com {{term:fibre-wad|bucha de fibra}}",
+        "c": "Cartuchos com {{term:hull|invólucro}} de papel",
+        "d": "{{term:reloaded-cartridge|Cartuchos recarregados}}"
       },
-      "explain": "Os cartuchos recarregados, os dispersores, a mistura de números de chumbo, a pólvora negra e os traçadores são proibidos."
+      "explain": "Os cartuchos recarregados, os dispersores, a mistura de números de chumbo, a {{term:powder|pólvora}} negra e os traçadores são proibidos."
     },
     "cartridges-anatomy-q4": {
-      "q": "O que é o fecho de um cartucho?",
+      "q": "O que é o fecho de um {{term:cartridge|cartucho}}?",
       "options": {
-        "a": "A parte de cima dobrada que fecha o invólucro",
-        "b": "A base metálica com o fulminante",
+        "a": "A parte de cima dobrada que fecha o {{term:hull|invólucro}}",
+        "b": "A base metálica com o {{term:primer|fulminante}}",
         "c": "O copo que segura o chumbo",
         "d": "O número impresso na caixa"
       },

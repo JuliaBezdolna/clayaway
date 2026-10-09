@@ -43,16 +43,16 @@
     "origin": "interpreter-academy"
   },
   "title": "Poloha zbraně před tím, než se terč objeví",
-  "summary": "Ve {{tm:sporting}} zůstává pažba pod čárou na vestě, dokud se terč neobjeví. V {{tm:compak}} je poloha zbraně při zavolání volná.",
+  "summary": "Ve {{tm:sporting}} zůstává {{term:stock|pažba}} pod čárou na vestě, dokud se terč neobjeví. V {{tm:compak}} je poloha zbraně při zavolání volná.",
   "body": {
     "rules-gun-position-p1": "Na závodech {{tm:sporting}} volají střelci terč se zbraní drženou nízko. Je to pravidlo, ne otázka stylu. {{tm:compak}} takové pravidlo nemá.",
     "rules-gun-position-cmp1": {
-      "sporting": "Zbraň dole: horní zadní část pažby zůstává pod čárou na vestě, dokud terč neuvidíte.",
+      "sporting": "Zbraň dole: horní zadní část {{term:stock|pažby}} zůstává pod čárou na vestě, dokud terč neuvidíte.",
       "compak": "Volně: zbraň může být už v rameni, nebo níž. Čára na vestě neexistuje, ale vystřelit se musí i tak z ramene."
     },
-    "sporting-gun-position-p1": "Ve {{tm:sporting}} jste před zavoláním oběma nohama uvnitř {{term:shooting-stand|stanoviště}}. Botka pažby (její horní zadní roh, část, která se opírá o rameno) se dotýká těla. Nejvyšší zadní bod pažby, obvykle právě botka, zůstává pod čárou na vestě. Toto {{term:ready-position|pohotovostní postoj}} držíte, dokud terč nevyletí z vrhačky a vy ho neuvidíte.",
+    "sporting-gun-position-p1": "Ve {{tm:sporting}} jste před zavoláním oběma nohama uvnitř {{term:shooting-stand|stanoviště}}. {{term:recoil-pad|Botka pažby}}, tedy její horní zadní roh, který se opírá o rameno, se dotýká těla. Nejvyšší zadní bod pažby, obvykle právě botka, zůstává pod čárou na vestě. Tento {{term:ready-position|pohotovostní postoj}} držíte, dokud terč nevyletí z {{term:trap|vrhačky}} a vy ho neuvidíte.",
     "sporting-gun-position-p2": "{{term:jacket-line|Čára}} se vyznačuje na vestě nebo bundě {{fact:rules.sporting-jacket-line}} (pomyslné vodorovné čáry procházející oběma rameny), rovnoběžně s ní. Její barva je výrazně odlišná od vesty, aby ji rozhodčí viděl. Pravidlo platí pro každý typ pažby: standardní, Monte Carlo (se zvýšenou lícnicí – horní hranou pažby, na kterou se opírá tvář) i s {{term:adjustable-comb|nastavitelnou lícnicí}}.",
-    "sporting-gun-position-p3": "Zbraň smíte zvednout k rameni ({{term:gun-mount|zalícit}}) teprve ve chvíli, kdy se terč objeví. Všechny terče, i {{term:rabbit|zajíce}}, se střílí se zbraní v rameni; střelba od boku není dovolena.",
+    "sporting-gun-position-p3": "{{term:gun-mount|Zalícení}}, tedy zvednutí zbraně k rameni, je dovoleno teprve ve chvíli, kdy se terč objeví. Všechny terče, i {{term:rabbit|zajíce}}, se střílí se zbraní v rameni; střelba od boku není dovolena.",
     "rules-gun-position-p5": "Jedno uvolnění: u {{term:double|dvojstřelu}} smíte mezi prvním a druhým terčem držet zbraň, jak chcete. Před prvním terčem platí nízká poloha i tak.",
     "sporting-gun-position-p4": "Sankce: když zavoláte poprvé ve špatné poloze nebo zalícíte příliš brzy, rozhodčí dá ústní napomenutí a ukáže {{term:yellow-card|žlutou kartu}}. Opakování na stejném {{term:layout|střelišti}} stojí {{term:red-card|červenou kartu}}: jednotlivý terč se počítá jako zero, a dvojstřely podle tabulky v průvodci pravidly ({{rule:sporting:ch12-red-card}}).",
     "sporting-gun-position-p5": "Zalícit zbraň a vést ji podél linie, kde čekáte terč, ještě před zavoláním, je {{term:mock-shooting|střelba na sucho}}, a je to také zakázáno. Poprvé přijde napomenutí. Pokud se to stane znovu, další rozbitý terč se počítá jako zero.",
@@ -121,14 +121,14 @@
     "rules-gun-position-q3": {
       "q": "Kdy můžete ve {{tm:sporting}} držet zbraň, jak chcete?",
       "options": {
-        "a": "Mezi dvěma terči dvojstřelu",
-        "b": "Před prvním terčem dvojstřelu",
-        "c": "Při čekání na zajíce"
+        "a": "Mezi dvěma terči {{term:double|dvojstřelu}}",
+        "b": "Před prvním terčem {{term:double|dvojstřelu}}",
+        "c": "Při čekání na {{term:rabbit|zajíce}}"
       },
-      "explain": "Volná poloha je dovolena jen mezi dvěma terči dvojstřelu; před prvním platí pohotovostní postoj."
+      "explain": "Volná poloha je dovolena jen mezi dvěma terči dvojstřelu; před prvním platí {{term:ready-position|pohotovostní postoj}}."
     },
     "sporting-gun-position-q1": {
-      "q": "Na prvním stanovišti střelec volá terč se zbraní už v rameni. Je to první takové porušení na tomto střelišti. Jak rozhodne rozhodčí?",
+      "q": "Na prvním stanovišti střelec volá terč se zbraní už v rameni. Je to první takové porušení na tomto {{term:layout|střelišti}}. Jak rozhodne rozhodčí?",
       "options": {
         "a": "Terč se počítá jako zero",
         "b": "Napomenutí a žlutá karta",
@@ -138,17 +138,17 @@
       "explain": "První porušení polohy zbraně je ústní napomenutí podpořené žlutou kartou."
     },
     "sporting-gun-position-q2": {
-      "q": "Dřív na tomto střelišti dostal střelec žlutou kartu za polohu zbraně. Teď, na jednotlivém terči, je pažba při zavolání nad čárou na vestě. Rozhodnutí?",
+      "q": "Dřív na tomto {{term:layout|střelišti}} dostal střelec {{term:yellow-card|žlutou kartu}} za polohu zbraně. Teď, na jednotlivém terči, je {{term:stock|pažba}} při zavolání nad čárou na vestě. Rozhodnutí?",
       "options": {
         "a": "Další žlutá karta",
         "b": "No Bird, opakování",
-        "c": "Červená karta a opakování",
-        "d": "Červená karta a zero"
+        "c": "{{term:red-card|Červená karta}} a opakování",
+        "d": "{{term:red-card|Červená karta}} a zero"
       },
       "explain": "Po napomenutí je další porušení na stejném střelišti červená karta: na jednotlivém terči zero."
     },
     "sporting-gun-position-q3": {
-      "q": "{{tm:sporting}}. Rozhodčí už jednou napomenul střelce za střelbu na sucho. Před dalším zavoláním střelec znovu zalící a vede zbraní podél linie terče, pak terč rozbije. Jak se zaznamená?",
+      "q": "{{tm:sporting}}. Rozhodčí už jednou napomenul střelce za {{term:mock-shooting|střelbu na sucho}}. Před dalším zavoláním střelec znovu zalící a vede zbraní podél linie terče, pak terč rozbije. Jak se zaznamená?",
       "options": {
         "a": "One, s druhým napomenutím",
         "b": "Zero",
@@ -158,7 +158,7 @@
       "explain": "Po prvním napomenutí za střelbu na sucho stojí opakování příští rozbitý terč: zaznamená se jako zero."
     },
     "compak-gun-and-call-q1": {
-      "q": "V {{tm:compak}} volá střelec terč se zbraní dole, a až se objeví zajíc, vystřelí od boku, aniž by zalícil. Lze to?",
+      "q": "V {{tm:compak}} volá střelec terč se zbraní dole, a až se objeví {{term:rabbit|zajíc}}, vystřelí od boku, aniž by zalícil. Lze to?",
       "options": {
         "a": "Ano, poloha zbraně je volná",
         "b": "Ne, každý výstřel se dává z ramene",
@@ -168,7 +168,7 @@
       "explain": "V {{tm:compak}} můžete volat se zbraní v rameni i dole, ale každý terč se musí vystřelit z ramene."
     },
     "gear-protection-clothes-q2": {
-      "q": "Střelec {{tm:sporting}} má pažbu Monte Carlo se zvýšenou lícnicí. Platí pro něj pravidlo čáry na vestě?",
+      "q": "Střelec {{tm:sporting}} má {{term:stock|pažbu}} Monte Carlo se zvýšenou lícnicí. Platí pro něj pravidlo čáry na vestě?",
       "options": {
         "a": "Ano, platí pro každý typ pažby",
         "b": "Ne, jen pro standardní pažby",

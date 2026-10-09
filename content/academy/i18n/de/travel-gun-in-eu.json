@@ -25,11 +25,15 @@
     "travel-gun-in-eu-q3": "d7519603",
     "travel-gun-in-eu-q1": "e4896a96"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Mit der Flinte innerhalb der EU reisen",
-  "summary": "Der Europäische Feuerwaffenpass für EU-Bürger mit eigener Flinte und das Einladungsschreiben: was man für einen Wettkampf in einem anderen EU-Land meist braucht.",
+  "summary": "Der Europäische Feuerwaffenpass für EU-Bürger mit eigener {{term:shotgun|Flinte}} und das {{term:invitation-letter|Einladungsschreiben}}: was man für einen Wettkampf in einem anderen EU-Land meist braucht.",
   "body": {
-    "travel-gun-in-eu-p1": "Wenn Sie in einem EU-Land leben und rechtmäßig eine Flinte besitzen, können Sie mit ihr dank des {{term:european-firearms-pass|Europäischen Feuerwaffenpasses}} (European Firearms Pass, EFP) in andere EU-Länder reisen. Sie erhalten ihn in Ihrem Wohnsitzland von der dortigen Behörde für Waffenerlaubnisse, und er gilt {{fact:basics.efp-validity}}.",
+    "travel-gun-in-eu-p1": "Wenn Sie in einem EU-Land leben und rechtmäßig eine {{term:shotgun|Flinte}} besitzen, können Sie mit ihr dank des {{term:european-firearms-pass|Europäischen Feuerwaffenpasses}}, kurz EFP, in andere EU-Länder reisen. Sie erhalten ihn in Ihrem Wohnsitzland von der dortigen Behörde für Waffenerlaubnisse, und er gilt {{fact:basics.efp-validity}}.",
     "gun-transport-documents-p4": "Der Pass ist für Menschen, die in der EU leben und ihre eigene Flinte mitnehmen. Vier Länder außerhalb der EU, die Schweiz, Norwegen, Island und Liechtenstein, stellen ihn ebenfalls für ihre Einwohner aus, weil sie dieselben EU-Waffenregeln anwenden. Leben Sie anderswo, erhalten Sie keinen. Dann brauchen Sie meist eine Genehmigung des Ziellandes, oder Sie mieten vor Ort eine Flinte: siehe {{lesson:travel-gun-outside-eu}}.",
     "travel-gun-in-eu-p2": "Der Pass listet bestimmte Flinten auf. Prüfen Sie vor der Reise, dass die mitgenommene Flinte darin eingetragen ist und dass der Pass während der Reise nicht abläuft. Haben Sie eine neue Flinte gekauft, lassen Sie sie erst in den Pass eintragen.",
     "travel-gun-in-eu-p3": "Für Sportschützen sind die Regeln einfacher. Sie brauchen den Pass und ein Dokument, das den Reisegrund zeigt, etwa eine Einladung zu einem Wettkampf. Damit können Sie die im Pass gelisteten Flinten meist ohne eigene Genehmigung dieses Landes in ein anderes EU-Land mitnehmen. Einige Länder verbieten bestimmte Waffentypen oder verlangen dafür trotzdem eine eigene Genehmigung; solche Ausnahmen werden in den Pass eingetragen.",
@@ -60,7 +64,7 @@
       "explain": "Sie erhalten den Pass in Ihrem Wohnsitzland von der Behörde für Waffenerlaubnisse, wenn Sie rechtmäßig Waffen besitzen."
     },
     "travel-gun-in-eu-q2": {
-      "q": "Was belegt meist den Grund für die Reise eines Schützen mit Flinte?",
+      "q": "Was belegt meist den Grund für die Reise eines Schützen mit {{term:shotgun|Flinte}}?",
       "options": {
         "a": "Ein Einladungsschreiben des Veranstalters",
         "b": "Ein Rückflugticket für denselben Flug",
@@ -75,7 +79,7 @@
         "b": "Er listet die Flinten auf, mit denen Sie reisen dürfen",
         "c": "Er gilt ohne jede zeitliche Begrenzung"
       },
-      "explain": "Jede Flinte muss im Pass eingetragen sein, der Pass hat ein Ablaufdatum, und die örtlichen Gesetze gelten weiterhin."
+      "explain": "Jede {{term:shotgun|Flinte}} muss im Pass eingetragen sein, der Pass hat ein Ablaufdatum, und die örtlichen Gesetze gelten weiterhin."
     },
     "travel-gun-in-eu-q1": {
       "q": "Wer kann einen Europäischen Feuerwaffenpass erhalten?",

@@ -25,18 +25,18 @@
   },
   "review": { "by": null, "date": null, "origin": null },
   "title": "I tipi di gara",
-  "summary": "Gare di club, gare nazionali, Grand Prix e campionati nel {{tm:sporting}} e nel {{tm:compak}}: come si differenziano e da dove può partire un principiante.",
+  "summary": "Gare di club, gare nazionali, Grand Prix e {{term:championship|campionati}} nel {{tm:sporting}} e nel {{tm:compak}}: come si differenziano e da dove può partire un principiante.",
   "body": {
     "competitions-types-of-events-p1": "Le gare nel {{tm:sporting}} e nel {{tm:compak}} vanno da una {{term:club-shoot|gara di club}} amichevole a un {{term:championship|campionato}} del mondo. Il regolamento internazionale di entrambe le discipline è scritto dalla {{term:fitasc|FITASC}}, la federazione internazionale che le governa. Come è organizzato questo sport: {{lesson:intro-fitasc-and-organisation}}.",
     "competitions-types-of-events-p2": "Una gara di club è un buon posto per cominciare. Le organizzano i club e i campi di tiro, spesso nei fine settimana. Di solito ci sono meno piattelli che alle grandi gare, il ritmo è più calmo, e le persone sono felici di spiegare cosa fare. L'{{term:organiser|organizzatore}} stabilisce il numero di piattelli, il formato e parte delle regole, quindi leggete il programma.",
-    "competitions-types-of-events-p3": "Poi vengono le gare nazionali: campionati e coppe nazionali organizzati dalla {{term:national-federation|federazione nazionale}} o da un club da essa designato. Le loro regole sono spesso vicine a quelle internazionali, e i risultati possono contare per la selezione della squadra nazionale.",
+    "competitions-types-of-events-p3": "Poi vengono le gare nazionali: campionati e coppe nazionali organizzati dalla {{term:national-federation|federazione nazionale}} o da un club da essa designato. Le loro regole sono spesso vicine a quelle internazionali, e i risultati possono contare per la selezione della {{term:team|squadra}} nazionale.",
     "competitions-types-of-events-p4": "Le gare internazionali FITASC sono aperte a tiratori di molti paesi. Comprendono le gare {{term:grand-prix|Grand Prix}} e, al livello più alto, i Campionati europei e mondiali. Una gara internazionale è di solito {{fact:basics.international-targets}}, in più giorni.",
     "competitions-types-of-events-cmp1": {
       "sporting": "I 200 piattelli si tirano su otto {{term:layout|percorsi}}, una {{term:round|serie}} di 25 su ciascuno. Alle gare Grand Prix è permessa anche una «linea»: una fila di {{fact:competitions.sporting-grand-prix-line}}.",
-      "compak": "I 200 piattelli si tirano su otto campi {{tm:compak}} (un campo è composto da cinque postazioni e sei macchine). I campi sono di quattro tipi: si differenziano per quanti singoli e doppi si tirano da ogni postazione e per il tipo di doppi. Ai campionati continentali e mondiali il club ospitante installa {{fact:competitions.compak-championship-machines}} (sei per ogni campo) solo per quella gara, così tutti tirano nelle stesse condizioni."
+      "compak": "I 200 piattelli si tirano su otto {{term:layout|campi}} {{tm:compak}} — un campo è composto da cinque postazioni e sei {{term:trap|macchine}}. I campi sono di quattro tipi: si differenziano per quanti singoli e {{term:double|doppi}} si tirano da ogni postazione e per il tipo di doppi. Ai campionati continentali e mondiali il club ospitante installa {{fact:competitions.compak-championship-machines}} (sei per ogni campo) solo per quella gara, così tutti tirano nelle stesse condizioni."
     },
     "competitions-types-of-events-p5": "I grandi campionati classificano anche le {{term:team|squadre}}, oltre ai singoli: i punteggi dei membri di una squadra nazionale si sommano. I tiratori sono classificati anche in {{term:category|categorie}} per età e sesso. Entrambe sono spiegate in {{lesson:competitions-categories-and-shoot-offs}}.",
-    "competitions-types-of-events-start": "Molti istruttori consigliano di iniziare con alcune gare di club. Vi abituate all'orario, alla {{term:squad|batteria}} e all'{{term:referee|arbitro}} senza troppa pressione. Come iscriversi: {{lesson:competitions-how-to-enter}}."
+    "competitions-types-of-events-start": "Molti istruttori consigliano di iniziare con alcune gare di club. Vi abituate all'orario, alla {{term:squad|batteria}} e al {{term:referee|arbitro}} senza troppa pressione. Come iscriversi: {{lesson:competitions-how-to-enter}}."
   },
   "note": {
     "competitions-types-of-events-n1": "Il livello di una gara è importante per i tiratori. Un Grand Prix FITASC è una gara internazionale nel calendario FITASC; ma anche gare nazionali e di club possono chiamarsi Grand Prix. Traducete il livello esattamente come lo indica il programma."
@@ -48,26 +48,26 @@
     "competitions-types-of-events-kp3": "Le gare Grand Prix e i Campionati europei e mondiali sono internazionali; di solito sono {{fact:basics.international-targets}}.",
     "competitions-types-of-events-kp5": "I campionati classificano singoli, squadre e categorie."
   },
-  "did_you_know": "Nel {{tm:sporting}} la giuria può, in casi eccezionali, ridurre il numero di piattelli. L'organizzatore rimborsa allora i soldi per i piattelli non tirati, al prezzo dei piattelli di allenamento.",
+  "did_you_know": "Nel {{tm:sporting}} la {{term:jury|giuria}} può, in casi eccezionali, ridurre il numero di piattelli. L'organizzatore rimborsa allora i soldi per i piattelli non tirati, al prezzo dei piattelli di allenamento.",
   "quiz": {
     "competitions-types-of-events-q1": {
       "q": "Quanti piattelli ha di solito una gara internazionale FITASC?",
       "options": { "a": "100", "b": "200", "c": "150" },
-      "explain": "Una gara internazionale è di solito 200 piattelli, tirati in serie da 25."
+      "explain": "Una gara internazionale è di solito 200 piattelli, tirati in {{term:round|serie}} da 25."
     },
     "competitions-types-of-events-q2": {
-      "q": "Chi stabilisce di solito il formato di una gara di club?",
-      "options": { "a": "I tiratori, sul posto", "b": "L'arbitro alla prima pedana", "c": "L'organizzatore, nel programma" },
+      "q": "Chi stabilisce di solito il formato di una {{term:club-shoot|gara di club}}?",
+      "options": { "a": "I tiratori, sul posto", "b": "Il {{term:referee|arbitro}} alla prima pedana", "c": "L'{{term:organiser|organizzatore}}, nel programma" },
       "explain": "L'organizzatore stabilisce il numero di piattelli e il formato di una gara di club, e il programma indica quali sono."
     },
     "competitions-types-of-events-q3": {
-      "q": "Perché i campionati continentali e mondiali di {{tm:compak}} usano macchine nuove?",
+      "q": "Perché i {{term:championship|campionati}} continentali e mondiali di {{tm:compak}} usano {{term:trap|macchine}} nuove?",
       "options": { "a": "Così le condizioni sono uguali per tutti", "b": "Perché le vecchie macchine sono vietate dalla legge", "c": "Così i piattelli volano più veloci" },
       "explain": "Il club ospitante non può usare le macchine su cui tira normalmente: {{fact:competitions.compak-championship-machines}} vengono installate solo per il campionato."
     },
     "competitions-types-of-events-q4": {
       "q": "Quale formato speciale del {{tm:sporting}} è permesso solo alle gare Grand Prix?",
-      "options": { "a": "Batterie di dieci tiratori su una pedana", "b": "Una linea di 3 pedane con 5 macchine ciascuna", "c": "Serie di 50 piattelli su un solo percorso" },
+      "options": { "a": "{{term:squad|Batterie}} di dieci tiratori su una pedana", "b": "Una linea di 3 pedane con 5 {{term:trap|macchine}} ciascuna", "c": "{{term:round|Serie}} di 50 piattelli su un solo {{term:layout|percorso}}" },
       "explain": "Una linea di 3 pedane con 5 macchine ciascuna è permessa solo alle gare Grand Prix."
     }
   }

@@ -32,13 +32,13 @@
     "origin": null
   },
   "title": "Sécurité et surveillance",
-  "summary": "En leçon et à l'entraînement, un enfant ne tire que sous la surveillance directe d'un entraîneur, selon les mêmes règles de sécurité que les adultes, et toujours avec une protection auditive et oculaire.",
+  "summary": "En leçon et à l'entraînement, un enfant ne tire que sous la surveillance directe d'un {{term:coach|entraîneur}}, selon les mêmes règles de sécurité que les adultes, et toujours avec une {{term:hearing-protection|protection auditive}} et oculaire.",
   "body": {
     "juniors-safety-supervision-p1": "Pour les jeunes tireurs, les règles de sécurité sont les mêmes que pour les adultes, mais la surveillance est plus étroite. En leçon et à l'entraînement, un {{term:coach|entraîneur}} ou un instructeur se tient juste à côté de l'enfant sur le poste, assez près pour prendre le fusil à tout moment. Un enfant n'est jamais laissé seul avec un fusil, ni sur le stand, ni à la maison.",
-    "juniors-safety-supervision-competition": "Une compétition fonctionne différemment : c'est l'{{term:referee|arbitre}} qui dirige le poste, et personne n'a le droit de {{term:coaching|conseiller}} le tireur. Les limites d'âge et les règles de surveillance pour les mineurs dépendent de la loi de votre pays et des règles propres au stand : voir {{lesson:juniors-documents-licences}}.",
-    "juniors-safety-supervision-p2": "Avant le premier coup, l'enfant doit connaître les règles essentielles de {{lesson:safety-core-rules}}. La {{term:muzzle|bouche du canon}} pointe toujours dans une direction sans danger. Le fusil reste ouvert quand on ne tire pas. Les cartouches n'entrent dans le fusil qu'au poste, quand l'entraîneur le dit. Sur « Stop ! » ({{term:cease-fire|cease fire}}), on ouvre le fusil et on attend.",
+    "juniors-safety-supervision-competition": "Une compétition fonctionne différemment : c'est le {{term:referee|arbitre}} qui dirige le poste, et le {{term:coaching|coaching}} du tireur est interdit. Les limites d'âge et les règles de surveillance pour les mineurs dépendent de la loi de votre pays et des règles propres au stand : voir {{lesson:juniors-documents-licences}}.",
+    "juniors-safety-supervision-p2": "Avant le premier coup, l'enfant doit connaître les règles essentielles de {{lesson:safety-core-rules}}. Le {{term:muzzle|bouche du canon}} pointe toujours dans une direction sans danger. Le fusil reste ouvert quand on ne tire pas. Les cartouches n'entrent dans le fusil qu'au poste, quand l'entraîneur le dit. Sur « Stop ! » — {{term:cease-fire|cease fire}} —, on ouvre le fusil et on attend.",
     "juniors-safety-supervision-check": "Une vérification utile : avant chacune des premières séances, demandez à l'enfant d'expliquer ces règles avec ses propres mots.",
-    "juniors-safety-supervision-p3": "Un enfant qui tire porte toujours une {{term:hearing-protection|protection auditive}} et des {{term:safety-glasses|lunettes de protection}}, comme n'importe quel tireur. Pour les enfants qui viennent regarder près d'un {{term:layout|parcours}} (la zone de tir avec ses postes et ses lanceurs), les règles diffèrent un peu selon les disciplines.",
+    "juniors-safety-supervision-p3": "Un enfant qui tire porte toujours une {{term:hearing-protection|protection auditive}} et des {{term:safety-glasses|lunettes de protection|pl}}, comme n'importe quel tireur. Pour les enfants qui viennent regarder près d'un {{term:layout|parcours}} — la zone de tir avec ses postes et ses {{term:trap|lanceurs}} —, les règles diffèrent un peu selon les disciplines.",
     "juniors-safety-supervision-rules": {
       "sporting": "Les enfants présents sur le stand, hors du club-house, portent une protection auditive en permanence. Les lunettes sont obligatoires pour toute personne proche d'un poste.",
       "compak": "La protection auditive est obligatoire pour tous les spectateurs près du parcours, enfants compris. Les lunettes sont obligatoires pour les compétiteurs, les arbitres et le personnel."
@@ -59,16 +59,16 @@
   },
   "quiz": {
     "juniors-safety-supervision-q1": {
-      "q": "Où doit se trouver l'entraîneur pendant qu'un enfant tire à l'entraînement ?",
+      "q": "Où doit se trouver le {{term:coach|entraîneur}} pendant qu'un enfant tire à l'entraînement ?",
       "options": {
         "a": "Derrière la planche, d'où il voit tout le poste",
         "b": "Juste à côté de l'enfant, prêt à prendre le fusil immédiatement",
         "c": "Près du lanceur, prêt à arrêter les plateaux"
       },
-      "explain": "À l'entraînement, une surveillance directe signifie que l'entraîneur se tient près de l'enfant et peut intervenir immédiatement. En compétition, c'est l'arbitre qui dirige le poste."
+      "explain": "À l'entraînement, une surveillance directe signifie que l'entraîneur se tient près de l'enfant et peut intervenir immédiatement. En compétition, c'est le {{term:referee|arbitre}} qui dirige le poste."
     },
     "juniors-safety-supervision-q2": {
-      "q": "Votre fille vient seulement regarder une compétition. A-t-elle besoin d'une protection auditive ?",
+      "q": "Votre fille vient seulement regarder une compétition. A-t-elle besoin d'une {{term:hearing-protection|protection auditive}} ?",
       "options": {
         "a": "Oui, le règlement l'exige près du parcours",
         "b": "Non, seules les personnes qui tirent en ont besoin",

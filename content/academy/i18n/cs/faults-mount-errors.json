@@ -31,13 +31,13 @@
     "origin": "interpreter-academy"
   },
   "title": "Chyby zalícení: pozdě, obličej ke zbrani, naklopení",
-  "summary": "Chyby zalícení, kvůli kterým se míjí terč: pozdní nebo předčasné zalícení, obličej ke zbrani a naklopená zbraň – a k tomu pravidla polohy zbraně v {{tm:sporting}} a {{tm:compak}}.",
+  "summary": "Chyby {{term:gun-mount|zalícení}}, kvůli kterým se míjí terč: pozdní nebo předčasné zalícení, obličej ke zbrani a naklopená zbraň – a k tomu pravidla polohy zbraně v {{tm:sporting}} a {{tm:compak}}.",
   "body": {
-    "faults-mount-errors-p1": "Mnohé chyby začínají ještě před švihem – při zalícení: pohybu, kterým se zbraň přivádí k líci a rameni. Trenérova slova o něm jsou krátká a týkají se těla: hlava, tvář, rameno, ruce.",
+    "faults-mount-errors-p1": "Mnohé chyby začínají ještě před švihem – při {{term:gun-mount|zalícení}}: pohybu, kterým se zbraň přivádí k líci a rameni. Trenérova slova o něm jsou krátká a týkají se těla: hlava, tvář, rameno, ruce.",
     "faults-mount-errors-p2": "Late mount (pozdní zalícení): zbraň dorazí do ramene až po okamžiku, kdy už měla padnout rána, takže střelec spěchá nebo vystřelí dřív, než tvář dosedne. Opačnou chybou je zalícení dokončené příliš brzy, po kterém zbraň čeká, nehybná a těžká. Náprava: „move, mount, shoot“ – pohyb, zalícení, výstřel: ústí se rozjede s terčem a zalícení se dokončí ve chvíli výstřelu.",
-    "faults-mount-errors-p3": "Obličej ke zbrani: místo aby přivedl pažbu k obličeji, střelec sklání hlavu jí vstříc. Oko se pak pokaždé ocitá jinde a zpětný ráz bije do tváře. Trenéři říkají: „bring the gun to your face, not your face to the gun“ (přiveďte zbraň k obličeji, ne obličej ke zbrani). Bolí i to, když pažba dopadne na paži místo do kapsy ramene.",
+    "faults-mount-errors-p3": "Obličej ke zbrani: místo aby přivedl {{term:stock|pažbu}} k obličeji, střelec sklání hlavu jí vstříc. Oko se pak pokaždé ocitá jinde a {{term:recoil|zpětný ráz}} bije do tváře. Trenéři říkají: „bring the gun to your face, not your face to the gun“ (přiveďte zbraň k obličeji, ne obličej ke zbrani). Bolí i to, když pažba dopadne na paži místo do kapsy ramene.",
     "faults-mount-errors-p4": "Canting (naklopení): zbraň je při výstřelu nakloněná do strany a rána uhýbá z dráhy. Často jde ruku v ruce se spuštěným ramenem. Náprava: „keep the gun level“, „turn from the hips“ – zbraň rovně, otáčet se z boků.",
-    "faults-mount-errors-p5": "Na soutěžích FITASC {{tm:sporting}} nesmí být zbraň zalícena dřív, než se objeví terč, takže „pre-mount this one“ je jen tréninkové cvičení. Předčasné zalícení na soutěži {{tm:sporting}} znamená napomenutí a žlutou kartu. V {{tm:compak}} může být zbraň při zavolání už v rameni.",
+    "faults-mount-errors-p5": "Na soutěžích FITASC {{tm:sporting}} nesmí být zbraň zalícena dřív, než se objeví terč, takže „pre-mount this one“ je jen tréninkové cvičení. Předčasné zalícení na soutěži {{tm:sporting}} znamená napomenutí a {{term:yellow-card|žlutou kartu}}. V {{tm:compak}} může být zbraň při zavolání už v rameni.",
     "faults-mount-errors-more": "Jak vypadá dobré zalícení krok za krokem, najdete v lekci {{lesson:technique-gun-mount}}."
   },
   "note": {
@@ -80,7 +80,7 @@
         "c": "Tréninkové cvičení; na soutěži se zalícuje až po objevení terče",
         "d": "Pravidlo {{tm:compak}}, které platí ve všech disciplínách FITASC"
       },
-      "explain": "{{tm:sporting}} vyžaduje pohotovostní postoj se zbraní dole, dokud se terč neobjeví; zalícení předem na soutěži znamená napomenutí se žlutou kartou."
+      "explain": "{{tm:sporting}} vyžaduje {{term:ready-position|pohotovostní postoj}} se zbraní dole, dokud se terč neobjeví; {{term:gun-mount|zalícení}} předem na soutěži znamená napomenutí s {{term:yellow-card|žlutou kartou}}."
     },
     "faults-mount-errors-q2": {
       "q": "„You canted the gun“ znamená…",
@@ -100,7 +100,7 @@
         "c": "Zavřete jedno oko",
         "d": "Držte zbraň níž na paži"
       },
-      "explain": "Pažba by měla stoupat k obličeji, aby bylo oko pokaždé na stejném místě."
+      "explain": "{{term:stock|Pažba}} by měla stoupat k obličeji, aby bylo oko pokaždé na stejném místě."
     }
   }
 }

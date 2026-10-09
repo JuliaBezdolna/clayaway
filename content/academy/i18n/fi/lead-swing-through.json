@@ -41,8 +41,8 @@
    "Laukaus: liipaisinta painetaan, kun piipunsuut ohittavat kiekon etureunan, juuri sen edellä.",
    "Aseen liike jatkuu laukauksen jälkeen."
   ],
-  "lead-swing-through-delay": "Päätöksen ja laukauksen lähtemisen välillä on lyhyt viive. Koska ase liikkuu kiekkoa nopeammin, sillä hetkellä piiput kulkevat itsestään vielä pidemmälle eteen. Niin vedät liipaisimesta, kun näet pienen välin tai ei lainkaan, ja aseen nopeus lisää lopun. Todellinen ennakko laukaushetkellä on suurempi kuin näkemäsi.",
-  "lead-swing-through-p3": "Vahvuudet: se on luonteva ja nopea, ja hyvä aloittelijoille. Se sopii läheisiin nopeihin kiekkoihin, {{term:driven-target|ylilentäviin vastakiekkoihin}} (jotka tulevat sinua kohti ja lentävät pään yli) ja takaa tuleviin {{term:overhead|ylilentäviin kiekkoihin}}, sekä epäsäännöllisiin tai yllättäviin kiekkoihin.",
+  "lead-swing-through-delay": "Päätöksen ja laukauksen lähtemisen välillä on lyhyt viive. Koska ase liikkuu kiekkoa nopeammin, sillä hetkellä piiput kulkevat itsestään vielä pidemmälle eteen. Niin vedät liipaisimesta, kun näet pienen välin tai ei lainkaan, ja aseen nopeus lisää lopun. Todellinen {{term:lead|ennakko}} laukaushetkellä on suurempi kuin näkemäsi.",
+  "lead-swing-through-p3": "Vahvuudet: se on luonteva ja nopea, ja hyvä aloittelijoille. Se sopii läheisiin nopeihin kiekkoihin, {{term:driven-target|ylilentäviin vastakiekkoihin}} – jotka tulevat sinua kohti ja lentävät pään yli – ja takaa tuleviin {{term:overhead|ylilentäviin kiekkoihin}}, sekä epäsäännöllisiin tai yllättäviin kiekkoihin.",
   "lead-swing-through-p4": "Heikkoudet: liipaisulle jäävä aikaikkuna on hyvin lyhyt. Kaukaisissa sivukiekoissa ampujalta voi loppua aika, hän voi kadottaa linjan tai mennä yli. Hidastaminen piipunsuiden saavuttaessa kiekon tuottaa ohilaukauksen taakse.",
   "lead-swing-through-p5": "Lähteet ovat eri mieltä nimestä ”CPSA method” (CPSA, Clay Pigeon Shooting Association, on Englannin savikiekkoammuntaelin). Osa käyttää sitä läpivedosta, kun nykyisen CPSA-valmennuksen kerrotaan opettavan edestä irtivetoa. Jos valmentaja sanoo ”CPSA method”, kysy, kumpaa hän tarkoittaa.",
   "lead-swing-through-sim": "Animaatio: piipunsuut lähtevät kiekon takaa, ohittavat sen ja laukeavat, kun ne kulkevat sen etureunan ohi. Pysäytyskuva näyttää, että todellinen ennakko on suurempi kuin näkemäsi väli."
@@ -84,7 +84,7 @@
     "c": "Kiinteästä kohdasta osumapisteessä",
     "d": "Kiekon takaa, sen linjalta"
    },
-   "explain": "Läpiveto lähtee takaa ja ohittaa kiekon; edestä lähteminen on pysyvä ennakko, kiinteä kohta on väijytys."
+   "explain": "Läpiveto lähtee takaa ja ohittaa kiekon; edestä lähteminen on {{term:maintained-lead|pysyvä ennakko}}, kiinteä kohta on väijytys."
   },
   "lead-swing-through-q2": {
    "q": "Miksi läpivetoa käyttävä ampuja näkee vähän tai ei lainkaan ennakkoa?",

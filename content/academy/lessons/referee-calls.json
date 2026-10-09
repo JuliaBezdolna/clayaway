@@ -122,7 +122,7 @@
       "disc": "both",
       "rule_ref": "sporting:ch5-call-and-release",
       "en": "A stand has its own short language. When ready, the shooter gives the {{term:call|call}}, usually “Pull!” or “Ready!”. In {{tm:sporting}} the {{term:referee|referee}} passes the call to the {{term:trapper|trapper}} with a sound signal. The target must leave {{fact:rules.release-within-3s}} of that signal; a later target is a {{term:no-bird|No Bird}}. In {{tm:compak}} a manual release must also come {{fact:rules.release-within-3s}} of the call. A voice-activated release ({{term:sonopull|sonopull}}: a microphone that launches the target when it hears your call) has a fixed delay of {{fact:rules.sonopull-delay}}.",
-      "uk": "На стрілецькому місці своя коротка мова. Коли стрілець готовий, він подає {{term:call|команду}}, зазвичай «Pull!» або «Ready!». У {{tm:sporting}} {{term:referee|суддя}} передає команду {{term:trapper|операторові машинки}} звуковим сигналом. Мішень має вилетіти {{fact:rules.release-within-3s}} після цього сигналу; пізніша мішень — {{term:no-bird|No Bird}}. У {{tm:compak}} ручний запуск теж має відбутися {{fact:rules.release-within-3s}} після команди. Голосовий запуск ({{term:sonopull|сонопул}} — мікрофон, який випускає мішень, щойно почує вашу команду) має незмінну затримку {{fact:rules.sonopull-delay}}."
+      "uk": "На стрілецькому місці своя коротка мова. Коли стрілець готовий, він подає {{term:call|команду}}, зазвичай «Pull!» або «Ready!». У {{tm:sporting}} команду {{term:trapper|операторові машинки}} передає {{term:referee|суддя}} звуковим сигналом. Мішень має вилетіти {{fact:rules.release-within-3s}} після цього сигналу; пізніша мішень — {{term:no-bird|No Bird}}. У {{tm:compak}} ручний запуск теж має відбутися {{fact:rules.release-within-3s}} після команди. Голосовий запуск ({{term:sonopull|сонопул}} — мікрофон, який випускає мішень, щойно почує вашу команду) має незмінну затримку {{fact:rules.sonopull-delay}}."
     },
     {
       "k": "referee-calls-p2",
@@ -140,7 +140,7 @@
       "disc": "both",
       "rule_ref": "sporting:ch4-glossary",
       "en": "After each target there are only three results in the rulebook: “{{term:one|one}}” (hit), “{{term:zero|zero}}” (lost) and “No Bird” (the target does not count and is thrown again). On the ground you will also hear “dead” or “good” for a hit and “lost” for a miss; some referees say nothing after a hit. In {{tm:compak}} the referee announces each zero aloud or with a sound signal, so a shooter who disagrees can protest at once.",
-      "uk": "Після кожної мішені правила передбачають лише три результати: «{{term:one|one}}» (влучання), «{{term:zero|zero}}» (промах) і «No Bird» (мішень не зараховують і запускають знову). На стрільбищах ви почуєте ще «dead» чи «good» про влучання і «lost» про промах; дехто із суддів після влучання просто мовчить. У {{tm:compak}} суддя оголошує кожен промах уголос або звуковим сигналом, щоб незгодний стрілець міг одразу заявити протест."
+      "uk": "Після кожної мішені правила передбачають лише три результати: {{term:one|one}}, {{term:zero|zero}} і {{term:no-bird|No Bird}}, коли мішень не зараховують і запускають знову. На стрільбищах ви почуєте ще «dead» чи «good» про влучання і «lost» про промах; дехто із суддів після влучання просто мовчить. У {{tm:compak}} суддя оголошує кожен промах уголос або звуковим сигналом, щоб незгодний стрілець міг одразу заявити протест."
     },
     {
       "k": "referee-calls-p4",
@@ -211,7 +211,7 @@
       "en": "Lost.",
       "meaning": {
         "en": "The referee scored the target as a miss (zero).",
-        "uk": "Суддя зарахував мішень як промах (zero)."
+        "uk": "Суддя зарахував мішень як {{term:zero|промах}}."
       },
       "say": {
         "uk": "Промах."

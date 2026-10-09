@@ -33,11 +33,11 @@
   "body": {
     "competitions-types-of-events-p1": "As competições de {{tm:sporting}} e {{tm:compak}} vão de uma {{term:club-shoot|prova de clube}} amigável a um {{term:championship|campeonato}} do mundo. As regras internacionais das duas disciplinas são escritas pela {{term:fitasc|FITASC}}, a federação internacional que as rege. Como o desporto está organizado: {{lesson:intro-fitasc-and-organisation}}.",
     "competitions-types-of-events-p2": "Uma prova de clube é um bom sítio para começar. São organizadas por clubes e stands, muitas vezes ao fim de semana. Costumam ter menos pratos do que os grandes eventos, o ritmo é mais calmo, e as pessoas têm todo o gosto em explicar o que fazer. O {{term:organiser|organizador}} define o número de pratos, o formato e algumas das regras, por isso leia o programa.",
-    "competitions-types-of-events-p3": "A seguir vêm os eventos nacionais: campeonatos e taças nacionais organizados pela {{term:national-federation|federação nacional}} ou por um clube que ela designa. As suas regras costumam estar próximas das internacionais, e os resultados podem contar para a seleção da equipa nacional.",
+    "competitions-types-of-events-p3": "A seguir vêm os eventos nacionais: campeonatos e taças nacionais organizados pela {{term:national-federation|federação nacional}} ou por um clube que ela designa. As suas regras costumam estar próximas das internacionais, e os resultados podem contar para a seleção da {{term:team|equipa}} nacional.",
     "competitions-types-of-events-p4": "As competições internacionais da FITASC estão abertas a atiradores de muitos países. Incluem eventos {{term:grand-prix|Grand Prix}} e, ao mais alto nível, os Campeonatos da Europa e do Mundo. Uma competição internacional é normalmente {{fact:basics.international-targets}}, ao longo de vários dias.",
     "competitions-types-of-events-cmp1": {
       "sporting": "Os 200 pratos atiram-se em oito {{term:layout|percursos}}, uma {{term:round|série}} de 25 em cada. Nos eventos Grand Prix também é permitida uma «linha»: uma fila de {{fact:competitions.sporting-grand-prix-line}}.",
-      "compak": "Os 200 pratos atiram-se em oito campos de Compak (um Compak é um campo com cinco postos e seis máquinas). Os campos são de quatro tipos: diferem em quantos pratos simples e doubles se atiram em cada posto e em que tipo de doubles são. Nos campeonatos continentais e mundiais, o clube anfitrião instala {{fact:competitions.compak-championship-machines}} (seis por campo) só para esse evento, para que todos atirem nas mesmas condições."
+      "compak": "Os 200 pratos atiram-se em oito campos de Compak — um Compak é um {{term:layout|campo}} com cinco postos e seis {{term:trap|máquinas}}. Os campos são de quatro tipos: diferem em quantos pratos simples e doubles se atiram em cada posto e em que tipo de doubles são. Nos campeonatos continentais e mundiais, o clube anfitrião instala {{fact:competitions.compak-championship-machines}} (seis por campo) só para esse evento, para que todos atirem nas mesmas condições."
     },
     "competitions-types-of-events-p5": "Os grandes campeonatos classificam {{term:team|equipas}} além de individuais: somam-se os resultados dos membros de uma equipa nacional. Os atiradores também são classificados em {{term:category|categorias}} por idade e sexo. Ambos são explicados em {{lesson:competitions-categories-and-shoot-offs}}.",
     "competitions-types-of-events-start": "Muitos treinadores sugerem começar com algumas provas de clube. Habitua-se ao horário, à {{term:squad|esquadra}} e ao {{term:referee|árbitro}} sem muita pressão. Como inscrever-se: {{lesson:competitions-how-to-enter}}."
@@ -61,7 +61,7 @@
         "b": "200",
         "c": "150"
       },
-      "explain": "Uma competição internacional é normalmente 200 pratos, atirados em séries de 25."
+      "explain": "Uma competição internacional é normalmente 200 pratos, atirados em {{term:round|séries}} de 25."
     },
     "competitions-types-of-events-q2": {
       "q": "Quem costuma definir o formato de uma prova de clube?",
@@ -73,7 +73,7 @@
       "explain": "O organizador define o número de pratos e o formato de uma prova de clube, e o programa indica quais são."
     },
     "competitions-types-of-events-q3": {
-      "q": "Porque usam os campeonatos continentais e mundiais de {{tm:compak}} máquinas novas?",
+      "q": "Porque usam os campeonatos continentais e mundiais de {{tm:compak}} {{term:trap|máquinas}} novas?",
       "options": {
         "a": "Para que as condições sejam iguais para todos",
         "b": "Porque as máquinas antigas são proibidas por lei",
@@ -84,9 +84,9 @@
     "competitions-types-of-events-q4": {
       "q": "Que formato especial do {{tm:sporting}} só é permitido em eventos Grand Prix?",
       "options": {
-        "a": "Esquadras de dez atiradores num só posto",
-        "b": "Uma linha de 3 postos com 5 máquinas cada",
-        "c": "Séries de 50 pratos num só percurso"
+        "a": "{{term:squad|Esquadras}} de dez atiradores num só posto",
+        "b": "Uma linha de 3 postos com 5 {{term:trap|máquinas}} cada",
+        "c": "{{term:round|Séries}} de 50 pratos num só {{term:layout|percurso}}"
       },
       "explain": "Uma linha de 3 postos de tiro com 5 máquinas cada é permitida só em eventos Grand Prix."
     }

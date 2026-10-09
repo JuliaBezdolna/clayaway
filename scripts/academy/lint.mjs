@@ -105,7 +105,8 @@ export const peopleIn = text => { const m = String(text || "").match(PEOPLE_RE);
 
 /* ---------- long sentences (warning): master sentences over 30 words are hard to translate 9 times ---------- */
 export function longSentences(text, max = 30) {
-  return String(text || "").split(/(?<=[.!?…])\s+(?=[\p{Lu}\d«"“(])/u)
+  // a sentence may start with a token ({{term:…|Протяжка}}, {{tm:compak}}): "{" counts as a sentence start too (term rule, step 2)
+  return String(text || "").split(/(?<=[.!?…])\s+(?=[\p{Lu}\d«"“({])/u)
     .filter(s => s.split(/\s+/).filter(w => /[\p{L}\d]/u.test(w)).length > max);
 }
 

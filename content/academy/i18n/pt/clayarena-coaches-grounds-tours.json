@@ -36,7 +36,7 @@
   "body": {
     "clayarena-coaches-grounds-tours-p1": "Muitos atiradores começam com um {{term:coach|treinador}}, que vê os erros de fora e os corrige antes de se tornarem hábitos. Como escolher um treinador: {{lesson:training-first-lessons-and-coach}}.",
     "clayarena-coaches-grounds-tours-coaches": "O catálogo de treinadores da ClayArena pode ser filtrado por disciplina, país, federação e língua de treino. A ficha de um treinador mostra as disciplinas que ensina e as línguas que fala. Muitas vezes mostra também o preço, ou diz «a combinar». A partir da ficha pode abrir o perfil completo do treinador.",
-    "clayarena-coaches-grounds-tours-language": "A língua de treino importa. Se não tiver uma língua em comum com o treinador, pode trabalhar com um {{term:interpreter|intérprete}} ou combinar antecipadamente algumas palavras-chave: {{lesson:stand-talk-foreign-coach}}.",
+    "clayarena-coaches-grounds-tours-language": "A língua de treino importa. Se não tiver uma língua em comum com o treinador, pode trabalhar com um {{term:interpreter|intérprete}} ou combinar antecipadamente algumas {{term:cue-word|palavras-chave|pl}}: {{lesson:stand-talk-foreign-coach}}.",
     "clayarena-coaches-grounds-tours-p2": "O catálogo de stands mostra os stands em lista e num mapa. A página de um stand costuma indicar quais as disciplinas que oferece, onde fica, como contactá-lo e que competições recebe.",
     "clayarena-coaches-grounds-tours-visit": "Antes da primeira visita, contacte o stand e faça algumas perguntas:",
     "clayarena-coaches-grounds-tours-visit-steps": [
@@ -48,7 +48,7 @@
     "clayarena-coaches-grounds-tours-practice": "Se houver em breve uma competição nesse stand, pergunte quando pode treinar. As duas disciplinas têm regras diferentes:",
     "clayarena-coaches-grounds-tours-practice-compare": {
       "sporting": "Antes da prova, ninguém pode treinar nos percursos de competição (os postos e os pratos preparados para a competição). Pode treinar nos outros percursos do stand.",
-      "compak": "Pode treinar nas {{term:trajectory|trajetórias}} de competição (os caminhos que os pratos vão seguir na competição), mas com uma {{term:trajectory-setting-table|grelha de tiro}} diferente. Esta é a tabela que define de que máquinas se atira em cada posto, em simples ou em doubles. Por isso, no treino os pratos não vêm nas mesmas combinações que no dia da competição. Nos campeonatos continentais e mundiais, o treino oficial abre no sábado antes da prova."
+      "compak": "Pode treinar nas {{term:trajectory|trajetórias}} de competição (os caminhos que os pratos vão seguir na competição), mas com uma {{term:trajectory-setting-table|grelha de tiro}} diferente. Esta é a tabela que define de que {{term:trap|máquinas}} se atira em cada posto, em simples ou em doubles. Por isso, no treino os pratos não vêm nas mesmas combinações que no dia da competição. Nos campeonatos continentais e mundiais, o treino oficial abre no sábado antes da prova."
     },
     "clayarena-coaches-grounds-tours-p6": "Vai treinar num stand noutro país? Verifique com antecedência as regras para levar a arma e os cartuchos, ou pergunte ao stand se pode alugar uma arma lá. Mais em {{lesson:travel-gun-in-eu}} e {{lesson:travel-gun-outside-eu}}.",
     "clayarena-coaches-grounds-tours-p3": "A ClayArena está também a preparar tours de treino com um treinador, chamados {{term:clayaway|ClayAway}}. Ainda não foram lançados: {{lesson:travel-clayaway-tour}}."
@@ -58,11 +58,11 @@
   "key_points": {
     "clayarena-coaches-grounds-tours-kp1": "O catálogo de treinadores pode ser filtrado por disciplina, país, federação e língua.",
     "clayarena-coaches-grounds-tours-kp2": "O catálogo de stands mostra os stands em lista e num mapa.",
-    "clayarena-coaches-grounds-tours-kp6": "Antes de uma primeira visita, pergunte sobre principiantes, aluguer de arma e o que levar.",
-    "clayarena-coaches-grounds-tours-kp7": "Treino antes de uma competição: no {{tm:sporting}}, não nos percursos de competição; no {{tm:compak}}, com outras grelhas de tiro.",
+    "clayarena-coaches-grounds-tours-kp6": "Antes de uma primeira visita, pergunte sobre principiantes, {{term:gun-rental|aluguer de arma}} e o que levar.",
+    "clayarena-coaches-grounds-tours-kp7": "Treino antes de uma competição: no {{tm:sporting}}, não nos percursos de competição; no {{tm:compak}}, com outras {{term:trajectory-setting-table|grelhas de tiro}}.",
     "clayarena-coaches-grounds-tours-kp5": "Antes de treinar no estrangeiro, verifique as regras para levar a arma."
   },
-  "did_you_know": "Nas duas disciplinas, ninguém pode {{term:coaching|dar instruções}} a um competidor durante a competição, ou seja, dar-lhe dicas ou sinais. Se o árbitro vir isso, o atirador recebe um {{term:yellow-card|cartão amarelo}}, e o árbitro manda sair da zona de tiro quem estiver a dar instruções. Por isso, trabalhe com o seu treinador antes e depois da prova.",
+  "did_you_know": "Nas duas disciplinas, ninguém pode dar {{term:coaching|instruções}} a um competidor durante a competição, ou seja, dar-lhe dicas ou sinais. Se o árbitro vir isso, o atirador recebe um {{term:yellow-card|cartão amarelo}}, e o árbitro manda sair da zona de tiro quem estiver a dar instruções. Por isso, trabalhe com o seu treinador antes e depois da prova.",
   "quiz": {
     "clayarena-coaches-grounds-tours-q4": {
       "q": "Por que critérios pode filtrar o catálogo de treinadores da ClayArena?",
@@ -76,29 +76,29 @@
     "clayarena-coaches-grounds-tours-q5": {
       "q": "Vai haver uma competição de {{tm:sporting}} no seu stand na próxima semana. Onde pode treinar antes dela?",
       "options": {
-        "a": "Nos percursos de competição",
-        "b": "Nos outros percursos do stand",
+        "a": "Nos {{term:layout|percursos}} de competição",
+        "b": "Nos outros {{term:layout|percursos}} do stand",
         "c": "Em nenhum lugar desse stand"
       },
       "explain": "No {{tm:sporting}} ninguém pode treinar nos percursos de competição antes da prova."
     },
     "clayarena-coaches-grounds-tours-q6": {
-      "q": "O seu treinador veio ver a sua competição. O que pode ele fazer enquanto atira?",
+      "q": "O seu {{term:coach|treinador}} veio ver a sua competição. O que pode ele fazer enquanto atira?",
       "options": {
         "a": "Dar-lhe dicas entre pratos",
         "b": "Fazer-lhe sinais por detrás",
         "c": "Assistir, mas não lhe dar instruções"
       },
-      "explain": "Dar instruções durante a competição não é permitido em nenhuma das disciplinas: traz um cartão amarelo."
+      "explain": "Dar instruções durante a competição não é permitido em nenhuma das disciplinas: traz um {{term:yellow-card|cartão amarelo}}."
     },
     "clayarena-coaches-grounds-tours-q7": {
-      "q": "Antes de uma competição de {{tm:compak}}, como podem os atiradores treinar nas trajetórias de competição?",
+      "q": "Antes de uma competição de {{tm:compak}}, como podem os atiradores treinar nas {{term:trajectory|trajetórias}} de competição?",
       "options": {
         "a": "Com outras grelhas de tiro",
         "b": "De forma nenhuma, é proibido",
         "c": "Só depois da final"
       },
-      "explain": "Treinar nas trajetórias de competição é permitido, mas com grelhas de tiro diferentes das da competição."
+      "explain": "Treinar nas trajetórias de competição é permitido, mas com {{term:trajectory-setting-table|grelhas de tiro}} diferentes das da competição."
     }
   }
 }

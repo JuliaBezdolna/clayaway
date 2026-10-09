@@ -23,16 +23,20 @@
     "gear-shooting-vest-q3": "cf58a05a",
     "women-clothing-community-start-q1": "5965662b"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "O colete de tiro",
   "summary": "Por que razão um atirador usa colete, o que tem (bolsos, almofada de ombro, a linha do colete em {{tm:sporting}}), por que razão o {{tm:compak}} não precisa de linha e como escolher o primeiro colete.",
   "body": {
     "gear-shooting-vest-p1": "O {{term:shooting-vest|colete de tiro}} é a parte mais visível do equipamento de um atirador. Não é uma questão de moda: o colete mantém os cartuchos à mão, protege o ombro do {{term:recoil|recuo}} e ajuda a pôr a arma à cara sempre da mesma maneira.",
-    "gear-shooting-vest-p2": "Os bolsos são o coração de um colete. Costuma haver dois bolsos grandes à frente para cartuchos, à esquerda e à direita, para carregar com qualquer uma das mãos. Muitas vezes há um bolso ou uma rede à parte para {{term:empties|cápsulas vazias}}, e bolsos pequenos para chokes, chave e tampões. Os cartuchos não devem cair quando se inclina.",
-    "gear-shooting-vest-p3": "No ombro há uma {{term:shoulder-pad|almofada de ombro}} (shoulder pad), uma peça lisa de material mais mole ou mais firme. A coronha assenta sobre ela: a superfície lisa não prende no tecido durante o gesto de pôr a arma à cara, e o acolchoado amortece um pouco o recuo. A almofada tem de estar no ombro do lado de onde atira, e muitos coletes têm uma almofada em cada lado.",
+    "gear-shooting-vest-p2": "Os bolsos são o coração de um colete. Costuma haver dois bolsos grandes à frente para cartuchos, à esquerda e à direita, para carregar com qualquer uma das mãos. Muitas vezes há um bolso ou uma rede à parte para {{term:empties|cápsulas vazias}}, e bolsos pequenos para chokes, chave e {{term:earplugs|tampões}}. Os cartuchos não devem cair quando se inclina.",
+    "gear-shooting-vest-p3": "No ombro há uma {{term:shoulder-pad|almofada de ombro}}, uma peça lisa de material mais mole ou mais firme. A {{term:stock|coronha}} assenta sobre ela: a superfície lisa não prende no tecido durante o gesto de {{term:gun-mount|pôr a arma à cara}}, e o acolchoado amortece um pouco o recuo. A almofada tem de estar no ombro do lado de onde atira, e muitos coletes têm uma almofada em cada lado.",
     "gear-protection-clothes-p3": "Para {{tm:sporting}} o colete tem uma {{term:jacket-line|linha}} horizontal contrastante {{fact:rules.sporting-jacket-line}} e paralela a ela. Antes de pedir o prato, e enquanto este não aparece, o topo da coronha tem de ficar abaixo dela, e o árbitro verifica-o. Em {{tm:compak}} não há essa linha, porque a {{term:gun-position|posição da arma}} no pedido é livre.",
     "gear-shooting-vest-p4": "Muitos coletes já vêm com a linha cosida; se não tiver, pode coser-se ou colar-se uma. Se pensa praticar as duas disciplinas, escolha um colete com a linha: serve em qualquer lado.",
-    "women-clothing-community-start-p1": "Os coletes existem em cortes diferentes, incluindo cortes feitos para mulheres (ladies' cut), que têm em conta o peito e ombros mais estreitos. Quando o colete serve bem, a almofada fica exatamente onde assenta a coronha e não estorva o gesto. Num colete fora de medida, a coronha pode prender no tecido ou nas costuras.",
+    "women-clothing-community-start-p1": "Os coletes existem em cortes diferentes, incluindo {{term:ladies-cut|cortes feitos para mulheres}}, que têm em conta o peito e ombros mais estreitos. Quando o colete serve bem, a almofada fica exatamente onde assenta a coronha e não estorva o gesto. Num colete fora de medida, a coronha pode prender no tecido ou nas costuras.",
     "gear-shooting-vest-p6": "Como escolher o primeiro colete: deve assentar à vontade, mas sem bambolear, por isso experimente-o sobre a roupa com que vai atirar. Ponha a arma à cara, vazia e verificada, ou pelo menos repita o gesto com os braços: o tecido não deve acumular-se nem prender a coronha. Os coletes de verão têm a parte de trás em rede; os mais grossos são para o frio. Nas duas disciplinas não se pode usar o colete sobre o tronco nu."
   },
   "note": {},
@@ -64,7 +68,7 @@
         "c": "Para mostrar o número do atirador",
         "d": "Para manter o colete quente no inverno"
       },
-      "explain": "Uma almofada lisa ajuda a um gesto limpo e amortece um pouco o recuo."
+      "explain": "Uma almofada lisa ajuda a um gesto limpo e amortece um pouco o {{term:recoil|recuo}}."
     },
     "gear-shooting-vest-q3": {
       "q": "As regras de {{tm:compak}} exigem linha no colete?",

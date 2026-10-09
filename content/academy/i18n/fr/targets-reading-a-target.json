@@ -29,13 +29,13 @@
     "origin": "interpreter-academy"
   },
   "title": "Comment « lire » un plateau",
-  "summary": "Ce qu'il faut observer pendant la présentation des plateaux : où un plateau apparaît, où il va, où vous le casserez, et ce qu'il ne faut pas faire.",
+  "summary": "Ce qu'il faut observer pendant la {{term:target-presentation|présentation des plateaux}} : où un plateau apparaît, où il va, où vous le casserez, et ce qu'il ne faut pas faire.",
   "body": {
     "targets-reading-a-target-p1": "« Lire » un plateau, c'est comprendre, avant de tirer, comment il vole : où il apparaît, à quelle vitesse il se déplace, où il tourne, monte ou descend. Les tireurs expérimentés le font à chaque poste, et cela fait souvent la différence entre un plateau touché et un manqué. C'est tout aussi important en {{tm:sporting}} qu'en {{tm:compak}}.",
-    "targets-reading-a-target-p2": "Commencez par le {{term:target-menu|menu}} : quels lanceurs, dans quel ordre, et s'il y a des plateaux spéciaux. Puis observez attentivement pendant qu'on montre les plateaux (la {{term:target-presentation|présentation}}). En {{tm:sporting}}, les plateaux d'un poste sont montrés avant le tir au premier tireur de la planche. Les doublés au coup de fusil ne sont pas montrés. {{tm:compak}} a sa propre façon de montrer les plateaux. Les détails sont dans {{lesson:rules-viewing-targets}}.",
-    "targets-reading-a-target-p3": "Posez-vous des questions simples. Où vois-je le plateau clairement pour la première fois ? C'est votre {{term:pick-up-point|point de prise}}, là où vos yeux commencent à le suivre. Où est-il le plus facile à casser ? C'est votre {{term:break-point|point de casse}}. À cet endroit, le plateau doit encore être bien visible, ni tombant derrière des arbres, ni volant au-delà d'une {{term:shooting-limit|limite de tir}}.",
+    "targets-reading-a-target-p2": "Commencez par le {{term:target-menu|menu}} : quels {{term:trap|lanceurs}}, dans quel ordre, et s'il y a des plateaux spéciaux. Puis observez attentivement pendant qu'on montre les plateaux — la {{term:target-presentation|présentation}}. En {{tm:sporting}}, les plateaux d'un poste sont montrés avant le tir au premier tireur de la planche. Les {{term:double-on-report|doublés au coup de fusil}} ne sont pas montrés. {{tm:compak}} a sa propre façon de montrer les plateaux. Les détails sont dans {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Posez-vous des questions simples. Où vois-je le plateau clairement pour la première fois ? C'est votre {{term:pick-up-point|point de prise}}, là où vos yeux commencent à le suivre. Où est-il le plus facile à casser ? C'est votre {{term:break-point|point de casse}}. À cet endroit, le plateau doit encore être bien visible, ni tombant derrière des arbres, ni volant au-delà d'un {{term:shooting-limit|limite de tir}}.",
     "targets-reading-a-target-points": "Comment le {{term:hold-point|point d'attente des canons}}, le point de prise et le point de casse fonctionnent ensemble est expliqué dans {{lesson:technique-hold-pickup-break-points}}.",
-    "targets-reading-a-target-p4": "Observez la vitesse, la distance et l'angle, et ce que fait le plateau : il monte, ralentit ou tombe. Le vent peut soulever un plateau ou le rabattre, et une ligne d'arbres sombre ou un ciel lumineux change la façon dont vous le voyez. Un plateau qui ralentit demande moins d'{{term:lead|avance}} qu'un plateau à pleine vitesse.",
+    "targets-reading-a-target-p4": "Observez la vitesse, la distance et l'angle, et ce que fait le plateau : il monte, ralentit ou tombe. Le vent peut soulever un plateau ou le rabattre, et une ligne d'arbres sombre ou un ciel lumineux change la façon dont vous le voyez. Un plateau qui ralentit demande moins de {{term:lead|avance}} qu'un plateau à pleine vitesse.",
     "targets-reading-a-target-p5": "Regardez comment tirent les autres, mais réfléchissez par vous-même : chaque tireur a son propre rythme. Pendant qu'on montre les plateaux, beaucoup d'entraîneurs conseillent de les suivre seulement des yeux.",
     "targets-reading-a-target-mock": {
       "sporting": "Interdit partout sur le terrain. La première fois, l'arbitre donne un avertissement. Si vous recommencez, votre prochain plateau touché est noté comme un manqué (zéro).",
@@ -49,13 +49,13 @@
     "targets-reading-a-target-kp1": "D'abord le menu, puis observez attentivement pendant qu'on montre les plateaux.",
     "targets-reading-a-target-kp2": "Trouvez où vous voyez le plateau clairement pour la première fois, et où vous le casserez.",
     "targets-reading-a-target-kp3": "Notez la vitesse, l'angle, le vent, l'arrière-plan et si le plateau ralentit.",
-    "targets-reading-a-target-kp4": "Suivez des yeux ; en {{tm:sporting}} le simulacre de tir est interdit partout sur le terrain, en {{tm:compak}} hors des pas de tir et pendant que quelqu'un d'autre tire.",
+    "targets-reading-a-target-kp4": "Suivez des yeux ; en {{tm:sporting}} le {{term:mock-shooting|simulacre de tir}} est interdit partout sur le terrain, en {{tm:compak}} hors des pas de tir et pendant que quelqu'un d'autre tire.",
     "targets-reading-a-target-kp5": "Catégories de difficulté {{tm:sporting}} : {{fact:targets.sporting-difficulty-classes}}."
   },
   "did_you_know": "En {{tm:sporting}}, les doublés au coup de fusil ne sont pas montrés, mais vous avez déjà vu les deux plateaux : les doublés ne sont composés que de plateaux déjà montrés en simples depuis le même poste.",
   "quiz": {
     "targets-reading-a-target-q1": {
-      "q": "Qu'est-ce que le point de casse ?",
+      "q": "Qu'est-ce que le {{term:break-point|point de casse}} ?",
       "options": {
         "a": "L'endroit où vous prévoyez de casser le plateau",
         "b": "L'endroit où se trouve le lanceur qui le lance",

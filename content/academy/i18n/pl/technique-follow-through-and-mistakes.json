@@ -34,13 +34,13 @@
     "origin": "interpreter-academy"
   },
   "title": "Prowadzenie broni po strzale, prędkość broni i tempo",
-  "summary": "Czemu broń nadal się przemieszcza po strzale, jak prędkość broni określa metodę wyprzedzenia i gdzie poczytać o typowych błędach.",
+  "summary": "Czemu broń nadal się przemieszcza po strzale, jak prędkość broni określa metodę {{term:lead|wyprzedzenia}} i gdzie poczytać o typowych błędach.",
   "body": {
-    "basics-follow-through-p1": "Prowadzenie broni po strzale (follow-through) oznacza, że broń porusza się dalej wzdłuż linii rzutka po pociągnięciu za spust — jak zamach w golfie czy tenisie. Między decyzją o strzale a opuszczeniem luf przez śrut jest mała zwłoka; jeśli broń zatrzymuje się na spuście, strzał idzie z tyłu. Trenerzy obserwują lufy po strzale: jeśli zamierają albo opadają, prowadzenia broni po strzale nie było.",
-    "basics-follow-through-p2": "{{term:gun-speed|Prędkość broni}} to to, jak szybko lufy poruszają się względem rzutka, i to ona określa metodę wyprzedzenia. Taka sama prędkość jak rzutek to {{term:maintained-lead|stałe wyprzedzenie}}. Szybsza niż rzutek to {{term:swing-through|przeciągnięcie}}. Taka sama prędkość, a potem krótkie przyspieszenie, to {{term:pull-away|pull away}}. Nieruchoma broń czekająca w punkcie to {{term:ambush|zasadzka}} (ambush). Broń za wolna zostaje z tyłu; trenerzy mówią, że za szybka „przelatuje” nad rzutkiem, a strzelec wtedy często ją zatrzymuje.",
+    "basics-follow-through-p1": "{{term:follow-through|Prowadzenie broni po strzale}} oznacza, że broń porusza się dalej wzdłuż linii rzutka po pociągnięciu za {{term:trigger|spust}} — jak zamach w golfie czy tenisie. Między decyzją o strzale a opuszczeniem luf przez śrut jest mała zwłoka; jeśli broń zatrzymuje się na spuście, strzał idzie z tyłu. Trenerzy obserwują lufy po strzale: jeśli zamierają albo opadają, prowadzenia broni po strzale nie było.",
+    "basics-follow-through-p2": "{{term:gun-speed|Prędkość broni}} to to, jak szybko lufy poruszają się względem rzutka, i to ona określa metodę {{term:lead|wyprzedzenia}}. Taka sama prędkość jak rzutek to {{term:maintained-lead|stałe wyprzedzenie}}. Szybsza niż rzutek to {{term:swing-through|przeciągnięcie}}. Taka sama prędkość, a potem krótkie przyspieszenie, to {{term:pull-away|pull away}}. Nieruchoma broń czekająca w punkcie to {{term:ambush|zasadzka}}. Broń za wolna zostaje z tyłu; trenerzy mówią, że za szybka „przelatuje” nad rzutkiem, a strzelec wtedy często ją zatrzymuje.",
     "basics-follow-through-p3": "{{term:tempo|Tempo}} to jak szybko wykonywany jest cały strzał; rytm to jak jest on równy. Szybki, bliski rzutek wymaga szybszego tempa, daleki i wolny {{term:crosser|rzutek poprzeczny}} — spokojniejszego, ale rytm zawsze zostaje płynny. Wielu trenerów mówi, że strzelcy z jednym tempem na wszystko gubią rzutki, które wymagają odwrotnego podejścia.",
     "basics-follow-through-p4": "„Stay in the gun” — zostań w broni: policzek na kolbie i wzrok na rzutku, aż się rozpadnie. To też trzyma cię w gotowości do drugiego strzału (trenerzy mówią „druga lufa”), bo do jednego rzutka można strzelić dwa razy.",
-    "technique-follow-through-and-mistakes-faults": "Wiele chybień wynika z kilku typowych błędów: zatrzymania broni, podniesienia głowy, spóźnionego lub zbyt wczesnego złożenia się oraz zgubienia drugiego rzutka w dublecie. Każdy ma swoją lekcję: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} i {{lesson:faults-pairs-transition}}. Jak odczytać, gdzie poszedł strzał, wyjaśnia {{lesson:faults-behind-in-front}}."
+    "technique-follow-through-and-mistakes-faults": "Wiele chybień wynika z kilku typowych błędów: {{term:stopping-the-gun|zatrzymania broni}}, podniesienia głowy, spóźnionego lub zbyt wczesnego złożenia się oraz zgubienia drugiego rzutka w dublecie. Każdy ma swoją lekcję: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} i {{lesson:faults-pairs-transition}}. Jak odczytać, gdzie poszedł strzał, wyjaśnia {{lesson:faults-behind-in-front}}."
   },
   "note": {
     "basics-follow-through-p5": "Tłumacz „finish the shot” jako kontynuowanie ruchu, nie jako jego zatrzymanie."
@@ -86,7 +86,7 @@
       "explain": "Rzutek wciąż się rusza, a zatrzymana broń nie, więc strzał mija go z tyłu."
     },
     "basics-follow-through-q2": {
-      "q": "Jaka prędkość broni opisuje stałe wyprzedzenie?",
+      "q": "Jaka prędkość broni opisuje {{term:maintained-lead|stałe wyprzedzenie}}?",
       "options": {
         "a": "Dużo szybsza niż rzutek",
         "b": "Taka sama jak rzutek",
@@ -126,11 +126,11 @@
     "technique-follow-through-and-mistakes-q3": {
       "q": "Co często powoduje strzał górą nad rzutkiem?",
       "options": {
-        "a": "Podniesienie głowy z kolby",
+        "a": "Podniesienie głowy ze kolby",
         "b": "Za ciężki nabój",
         "c": "Prawidłowa postawa"
       },
-      "explain": "Kiedy głowa się podnosi, oko nie patrzy już wzdłuż szyny, i broń strzela wyżej."
+      "explain": "Kiedy głowa się podnosi, oko nie patrzy już wzdłuż {{term:rib|szyny}}, i broń strzela wyżej."
     }
   }
 }

@@ -29,12 +29,12 @@
     "origin": "interpreter-academy"
   },
   "title": "Vaše role: trénink versus soutěž",
-  "summary": "Na tréninku jste hlasem trenéra. Na soutěži je koučování zakázáno, takže předáváte jen to, co řeknou rozhodčí, jury a pořadatel.",
+  "summary": "Na tréninku jste hlasem {{term:coach|trenéra}}. Na soutěži je koučování zakázáno, takže předáváte jen to, co řeknou {{term:referee|rozhodčí}}, jury a pořadatel.",
   "body": {
-    "interpreter-role-p1": "Na tréninku jste hlasem trenéra. Každý pokyn předejte celý, v trenérově pořadí a tónu: důrazně, jde-li o bezpečnost, vřele, jde-li o pochvalu. Kritiku nezjemňujte a nepřidávejte důvody, které trenér neuvedl. Nepřidávejte vlastní technické rady, i když odpověď znáte. Pokud jste nějaké slovo neslyšeli, zeptejte se dřív, než přeložíte.",
-    "interpreter-role-p2": "Soutěž je jiná. V {{tm:sporting}} i {{tm:compak}} je {{term:coaching|koučování}} závodníka během soutěže zakázáno. Střelec dostane {{term:yellow-card|žlutou kartu}}, opakování přinášejí přísnější sankce a {{term:referee|rozhodčí}} toho, kdo koučoval, vykáže ze střelecké zóny ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Rozhodnutí rozhodčího je jen jeho vlastní. Nikdo ve {{term:squad|skupině}} nekomentuje zásahy. Otevřená kritika rozhodnutí se počítá jako {{term:attempt-to-influence|pokus o ovlivnění}} rozhodčího, tedy snaha přimět ho k jinému rozhodnutí ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "interpreter-role-p1": "Na tréninku jste hlasem {{term:coach|trenéra}}. Každý pokyn předejte celý, v trenérově pořadí a tónu: důrazně, jde-li o bezpečnost, vřele, jde-li o pochvalu. Kritiku nezjemňujte a nepřidávejte důvody, které trenér neuvedl. Nepřidávejte vlastní technické rady, i když odpověď znáte. Pokud jste nějaké slovo neslyšeli, zeptejte se dřív, než přeložíte.",
+    "interpreter-role-p2": "Soutěž je jiná. V {{tm:sporting}} i {{tm:compak}} je {{term:coaching|koučování}} závodníka během soutěže zakázáno. Střelec dostane {{term:yellow-card|žlutou kartu}}, opakování přinášejí přísnější sankce a {{term:referee|rozhodčí}} toho, kdo koučoval, vykáže ze střelecké zóny ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Rozhodnutí rozhodčího je jen jeho vlastní. Nikdo v {{term:squad|skupině}} nekomentuje zásahy. Otevřená kritika rozhodnutí se počítá jako {{term:attempt-to-influence|pokus o ovlivnění rozhodčího}}, tedy snaha přimět ho k jinému rozhodnutí ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
     "interpreter-role-p3": "A teď poctivě: pravidla FITASC tlumočníky vůbec nezmiňují. Neříkají, zda se doslovné předání trenérovy rady počítá jako koučování. Neříkají ani, kde smí tlumočník stát. Je to pro FITASC otevřená otázka, takže žádnou odpověď nevydávejte za oficiální.",
-    "interpreter-role-p4": "Dokud FITASC neodpoví, držte se bezpečné praxe. Na soutěži tlumočte jen to, co probíhá mezi vaším střelcem a rozhodčím, {{term:jury|jury}} nebo {{term:organiser|pořadatelem}}: výzvy, rozhodnutí, napomenutí, {{term:protest|protesty}}, časy a soupisky skupin. Před začátkem řekněte rozhodčímu nebo pořadateli, kdo jste, a domluvte se, kde budete stát. Pokud vás trenér požádá, abyste během soutěže předali radu, zdvořile odmítněte a vysvětlete proč. Tím ochráníte svého střelce před žlutou kartou.",
+    "interpreter-role-p4": "Dokud FITASC neodpoví, držte se bezpečné praxe. Na soutěži tlumočte jen to, co probíhá mezi vaším střelcem a rozhodčím, {{term:jury|jury}} nebo {{term:organiser|pořadatelem}}: výzvy, rozhodnutí, napomenutí, {{term:protest|protesty|pl}}, časy a soupisky skupin. Před začátkem řekněte rozhodčímu nebo pořadateli, kdo jste, a domluvte se, kde budete stát. Pokud vás trenér požádá, abyste během soutěže předali radu, zdvořile odmítněte a vysvětlete proč. Tím ochráníte svého střelce před žlutou kartou.",
     "interpreter-role-p5": "Pravidla neříkají, zda se přestávka mezi koly ještě počítá jako „během soutěže“. Pokud si nejste jisti, zeptejte se jury nebo pořadatele, než předáte jakoukoli radu. Kde stát a kdy mluvit: {{lesson:interpreter-position}}."
   },
   "note": {},
@@ -65,14 +65,14 @@
   },
   "quiz": {
     "interpreter-role-q1": {
-      "q": "Během soutěžního kola vás trenér požádá, abyste střelci řekli „víc předsazení na přeletovém terči“. Co uděláte?",
+      "q": "Během soutěžního kola vás {{term:coach|trenér}} požádá, abyste střelci řekli „víc {{term:lead|předsazení}} na přeletovém terči“. Co uděláte?",
       "options": {
         "a": "Rychle mu to pošeptáte, zatímco nabíjí",
         "b": "Předáte to až po dalším terči",
         "c": "Zdvořile odmítnete: to by bylo koučování",
         "d": "Požádáte rozhodčího, aby to předal"
       },
-      "explain": "Koučování během soutěže je zakázáno a střelec by dostal žlutou kartu. Pravidla neříkají, zda je předávání rad dovoleno, takže zůstaňte na jisté straně."
+      "explain": "Koučování během soutěže je zakázáno a střelec by dostal {{term:yellow-card|žlutou kartu}}. Pravidla neříkají, zda je předávání rad dovoleno, takže zůstaňte na jisté straně."
     },
     "interpreter-role-q2": {
       "q": "Co říkají pravidla FITASC o tlumočnících?",
@@ -85,7 +85,7 @@
       "explain": "Pravidla tlumočníky nezmiňují, takže jejich přesné postavení v soutěži je pro FITASC otevřená otázka."
     },
     "interpreter-role-q3": {
-      "q": "V tréninku trenér řekne „Not bad, but you stopped the gun.“ Jak přeložíte?",
+      "q": "V tréninku {{term:coach|trenér}} řekne „Not bad, but you stopped the gun.“ Jak přeložíte?",
       "options": {
         "a": "Úplně a stejným tónem, obě části",
         "b": "Jen pochvalu, aby host měl radost",

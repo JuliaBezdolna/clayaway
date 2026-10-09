@@ -1270,14 +1270,13 @@ window.GLOSSARY_I18N.cs = {
    "long": "Střelec smí odmítnout jen terč, který nezavolal. Ve Sporting se správný terč, na který střelec nevystřelil, zapíše jako nula; u současného nebo následného dvojstřelu nula a nula. V Compaku se odmítnutí trestá podle bodu 21.5: jednotlivý terč nula; první terč dvojstřelu na hlášenou nula a dvojstřel se opakuje kvůli hodnocení druhého; současný dvojstřel nula-nula."
   },
   "hang-fire": {
-   "term_local": "selhání náboje",
-   "alt": [
-    "opožděný výstřel"
-   ],
+   "term_local": "opožděný výstřel",
+   "alt": [],
    "conf": "medium",
    "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Opožděný výstřel: náboj vystřelí až chvíli po stisknutí spouště. Proto se zbraň po selhání hned neotvírá.",
-   "long": "Opožděný výstřel je vzácný, ale nebezpečný: po stisku spouště se nic nestane a o chvilku později náboj přece jen vystřelí. Kdybyste zbraň v tu chvíli otevřeli, nábojnice může prasknout u obličeje a rukou. Po každém selhání proto držte zbraň u ramene, nebo aspoň namířenou bezpečným směrem, a čekejte; mnoho instruktorů radí čekat asi 30 sekund. Na závodech FITASC se zbraň po selhání neotevírá a na pojistku se nesahá, dokud ji nezkontroluje rozhodčí, jinak se terč počítá jako ztracený. Bezpečnostní a rozhodcovská pravidla se tu shodují."
+   "long": "Opožděný výstřel je vzácný, ale nebezpečný: po stisku spouště se nic nestane a o chvilku později náboj přece jen vystřelí. Kdybyste zbraň v tu chvíli otevřeli, nábojnice může prasknout u obličeje a rukou. Po každém selhání proto držte zbraň u ramene, nebo aspoň namířenou bezpečným směrem, a čekejte; mnoho instruktorů radí čekat asi 30 sekund. Na závodech FITASC se zbraň po selhání neotevírá a na pojistku se nesahá, dokud ji nezkontroluje rozhodčí, jinak se terč počítá jako ztracený. Bezpečnostní a rozhodcovská pravidla se tu shodují.",
+   "note": "'Selhání náboje' is a misfire; a delayed shot is 'opožděný výstřel'."
   },
   "shooting-stand": {
    "term_local": "střelecké stanoviště",
@@ -1442,9 +1441,7 @@ window.GLOSSARY_I18N.cs = {
   },
   "shoot-off": {
    "term_local": "rozstřel",
-   "alt": [
-    "náhlá smrt"
-   ],
+   "alt": [],
    "conf": "high",
    "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Dodatečná položka k rozhodnutí shody o první tři místa.",

@@ -26,15 +26,15 @@
     "origin": null
   },
   "title": "Strozzatori fissi e intercambiabili",
-  "summary": "Gli strozzatori sono ricavati per sempre nella canna oppure sono tubi a vite che puoi cambiare. Entrambe le opzioni, e quando il regolamento di {{tm:sporting}} e {{tm:compak}} permette di cambiarli.",
+  "summary": "I {{term:choke|strozzatori}} sono ricavati per sempre nella canna oppure sono tubi a vite che puoi cambiare. Entrambe le opzioni, e quando il regolamento di {{tm:sporting}} e {{tm:compak}} permette di cambiarli.",
   "body": {
-    "chokes-fixed-and-multichoke-p1": "Uno {{term:fixed-choke|strozzatore fisso}} è ricavato nella canna in fabbrica, e solo un {{term:gunsmith|armaiolo}} può cambiarlo. Molti fucili più vecchi e classici sono fatti così. Un sovrapposto di questo tipo ha di solito due strozzature diverse, per esempio 1/4 e 1/2, e il tiratore lavora con quello che ha.",
-    "chokes-fixed-and-multichoke-p2": "Gli {{term:multichoke|strozzatori intercambiabili}} (multichoke) sono brevi tubi filettati avvitati nella volata con una {{term:choke-key|chiave per strozzatori}}. La maggior parte dei fucili da gara moderni li ha. Il fucile viene con un set di diversi strozzatori, e il tiratore monta quelli adatti ai piattelli.",
-    "chokes-fixed-and-multichoke-p3": "I tubi stanno a filo (allo stesso livello dell'estremità della canna) oppure sono {{term:extended-choke|esterni}} (extended): sporgono oltre la volata, spesso di 1–5 cm. Molti strozzatori esterni si possono girare a mano, e la loro marcatura si legge senza doverli togliere.",
+    "chokes-fixed-and-multichoke-p1": "Un {{term:fixed-choke|strozzatore fisso}} è ricavato nella canna in fabbrica, e solo un {{term:gunsmith|armaiolo}} può cambiarlo. Molti fucili più vecchi e classici sono fatti così. Un {{term:over-and-under|sovrapposto}} di questo tipo ha di solito due {{term:constriction|strozzature}} diverse, per esempio 1/4 e 1/2, e il tiratore lavora con quello che ha.",
+    "chokes-fixed-and-multichoke-p2": "I {{term:multichoke|strozzatori intercambiabili}} sono brevi tubi filettati avvitati nella {{term:muzzle|volata}} con una {{term:choke-key|chiave per strozzatori}}. La maggior parte dei fucili da gara moderni li ha. Il fucile viene con un set di diversi {{term:choke|strozzatori}}, e il tiratore monta quelli adatti ai piattelli.",
+    "chokes-fixed-and-multichoke-p3": "I tubi stanno a filo (allo stesso livello dell'estremità della canna) oppure sono {{term:extended-choke|strozzatori esterni}}: sporgono oltre la volata, spesso di 1–5 cm. Molti strozzatori esterni si possono girare a mano, e la loro marcatura si legge senza doverli togliere.",
     "chokes-fixed-and-multichoke-p4": "Filettature e misure variano da un produttore all'altro e anche tra modelli dello stesso produttore. Uno strozzatore di un altro sistema potrebbe non adattarsi, o avvitarsi in modo sbagliato, il che è pericoloso. Compra solo strozzatori fatti per il tuo fucile.",
     "chokes-fixed-and-multichoke-cmp1": {
-      "sporting": "Puoi cambiare uno strozzatore, tutto il fucile o una canna tra una pedana e l'altra, o tra i singoli e i doppi, se non causa ritardi. Una volta salito in pedana, nessun altro cambio.",
-      "compak": "Durante una serie non puoi cambiare il fucile, le canne o gli strozzatori. Si cambiano solo tra una serie e l'altra; l'eccezione è un guasto del fucile. Quindi scegli strozzatori che vadano bene per tutti i piattelli della serie."
+      "sporting": "Puoi cambiare uno strozzatore, tutto il fucile o una canna tra una pedana e l'altra, o tra i singoli e i {{term:double|doppi}}, se non causa ritardi. Una volta salito in pedana, nessun altro cambio.",
+      "compak": "Durante una {{term:round|serie}} non puoi cambiare il fucile, le canne o gli strozzatori. Si cambiano solo tra una serie e l'altra; l'eccezione è un guasto del fucile. Quindi scegli strozzatori che vadano bene per tutti i piattelli della serie."
     }
   },
   "note": {},
@@ -43,22 +43,22 @@
     "chokes-fixed-and-multichoke-kp1": "Uno strozzatore fisso è ricavato nella canna; uno intercambiabile si avvita con una chiave.",
     "chokes-fixed-and-multichoke-kp2": "Gli strozzatori di sistemi diversi non sono intercambiabili.",
     "chokes-fixed-and-multichoke-kp3": "{{tm:sporting}}: cambia gli strozzatori tra le pedane, non in pedana.",
-    "chokes-fixed-and-multichoke-kp4": "{{tm:compak}}: nessun cambio di strozzatori durante una serie."
+    "chokes-fixed-and-multichoke-kp4": "{{tm:compak}}: nessun cambio di strozzatori durante una {{term:round|serie}}."
   },
   "did_you_know": "Alcuni tiratori di {{tm:sporting}} non cambiano affatto gli strozzatori durante una gara e si affidano a una sola coppia, per esempio 1/4 e 1/2. Così pensano meno all'attrezzatura e più ai piattelli.",
   "quiz": {
     "chokes-fixed-and-multichoke-q1": {
-      "q": "Quando si può cambiare uno strozzatore nello {{tm:sporting}}?",
+      "q": "Quando si può cambiare un {{term:choke|strozzatore}} nello {{tm:sporting}}?",
       "options": {
         "a": "Tra le pedane, se non causa ritardi",
-        "b": "In pedana, appena prima del doppio",
+        "b": "In pedana, appena prima del {{term:double|doppio}}",
         "c": "Solo prima della prima pedana della giornata",
-        "d": "Solo con il consenso scritto della giuria"
+        "d": "Solo con il consenso scritto della {{term:jury|giuria}}"
       },
       "explain": "Si può cambiare tra le pedane o tra i singoli e i doppi, ma non quando si è già in pedana."
     },
     "chokes-fixed-and-multichoke-q2": {
-      "q": "Si possono cambiare gli strozzatori durante una serie di {{tm:compak}}?",
+      "q": "Si possono cambiare i {{term:choke|strozzatori}} durante una {{term:round|serie}} di {{tm:compak}}?",
       "options": {
         "a": "Sì, quando si passa tra le pedane",
         "b": "Sì, se i prossimi piattelli sono lontani",
@@ -68,7 +68,7 @@
       "explain": "Nel {{tm:compak}} cambiare fucile, canne o strozzatori durante una serie è proibito; l'eccezione è un guasto."
     },
     "chokes-fixed-and-multichoke-q3": {
-      "q": "Perché non si deve montare uno strozzatore di un altro sistema?",
+      "q": "Perché non si deve montare un {{term:choke|strozzatore}} di un altro sistema?",
       "options": {
         "a": "Rovina l'aspetto del fucile",
         "b": "La filettatura può non corrispondere, il che è pericoloso",
@@ -78,12 +78,12 @@
       "explain": "I sistemi di strozzatori differiscono; uno strozzatore sbagliato può danneggiare la canna."
     },
     "chokes-fixed-and-multichoke-q4": {
-      "q": "Cos'è uno strozzatore esterno (extended)?",
+      "q": "Cos'è un {{term:extended-choke|strozzatore esterno}}?",
       "options": {
-        "a": "Uno strozzatore più stretto del full",
-        "b": "Uno strozzatore ricavato nella canna",
-        "c": "Uno strozzatore fatto solo per i pallini d'acciaio",
-        "d": "Un tubo che sporge oltre la volata"
+        "a": "Un {{term:choke|strozzatore}} più stretto del full",
+        "b": "Un {{term:choke|strozzatore}} ricavato nella canna",
+        "c": "Un {{term:choke|strozzatore}} fatto solo per gli {{term:steel-shot|pallini d'acciaio}}",
+        "d": "Un tubo che sporge oltre la {{term:muzzle|volata}}"
       },
       "explain": "Gli strozzatori esterni sporgono oltre la volata, quindi la marcatura si legge senza doverli togliere."
     }

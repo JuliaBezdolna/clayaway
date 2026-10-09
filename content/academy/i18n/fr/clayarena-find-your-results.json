@@ -31,10 +31,10 @@
   "summary": "Trouvez la compétition à laquelle vous avez participé et votre nom dans son tableau de résultats ; de là, vous pouvez ouvrir votre profil de tireur.",
   "body": {
     "clayarena-find-your-results-p1": "Après une compétition de {{tm:sporting}} ou de {{tm:compak}}, ses résultats apparaissent sur ClayArena. Pour certaines épreuves, ils sont mis à jour pendant que le tir se poursuit encore. Le plus simple est d'ouvrir cette compétition et de trouver votre nom dans le tableau des résultats. Vous pouvez trouver la compétition dans la liste des compétitions ou dans le calendrier, qui montre aussi les épreuves terminées.",
-    "clayarena-find-your-results-p2": "Le tableau montre votre place et le nombre de plateaux que vous avez cassés. Une {{term:round|série}} fait {{fact:rules.round-targets}}, et votre total est la somme de vos séries. Une compétition internationale de {{tm:sporting}} compte généralement {{fact:basics.international-targets}}. Les {{term:club-shoot|concours de club}} ont souvent moins de plateaux : c'est l'organisateur qui fixe le format. Comment lire le tableau : {{lesson:watching-reading-results}}.",
+    "clayarena-find-your-results-p2": "Le tableau montre votre place et le nombre de plateaux que vous avez cassés. Un {{term:round|série}} fait {{fact:rules.round-targets}}, et votre total est la somme de vos séries. Une compétition internationale de {{tm:sporting}} compte généralement {{fact:basics.international-targets}}. Les {{term:club-shoot|concours de club|pl}} ont souvent moins de plateaux : c'est l'{{term:organiser|organisateur}} qui fixe le format. Comment lire le tableau : {{lesson:watching-reading-results}}.",
     "clayarena-find-your-results-p3": "Depuis le tableau des résultats, vous pouvez ouvrir votre {{term:shooter-profile|profil de tireur}}. Il réunit vos compétitions présentes sur ClayArena et vos chiffres clés. Vous pouvez aussi vous chercher dans la liste des tireurs, qui peut être filtrée par pays.",
     "clayarena-find-your-results-p4": "Les noms sur le site sont écrits comme dans les documents de la compétition. Les épreuves internationales utilisent généralement l'alphabet latin. Les épreuves nationales peuvent utiliser l'alphabet local, par exemple l'alphabet cyrillique pour les épreuves ukrainiennes. Si vous ne vous trouvez pas, essayez l'orthographe locale de votre nom et ses différentes transcriptions en alphabet latin.",
-    "clayarena-find-your-results-p5": "ClayArena tire ses résultats des {{term:score-sheet|feuilles de marque}} de la compétition : les feuilles officielles où l'{{term:referee|arbitre}} inscrit chaque plateau touché ou manqué. La vérification la plus importante a donc lieu sur le stand, pas sur le site. Votre profil affichera exactement ce que l'arbitre a inscrit.",
+    "clayarena-find-your-results-p5": "ClayArena tire ses résultats des {{term:score-sheet|feuilles de marque}} de la compétition : les feuilles officielles où le {{term:referee|arbitre}} inscrit chaque plateau touché ou manqué. La vérification la plus importante a donc lieu sur le stand, pas sur le site. Votre profil affichera exactement ce que l'arbitre a inscrit.",
     "clayarena-find-your-results-compare": {
       "sporting": "Vérifiez votre score sur la carte (en {{tm:sporting}}, c'est ainsi qu'on appelle la feuille de marque de la planche) en quittant chaque poste. S'il est erroné, dites-le immédiatement à l'arbitre : seul l'arbitre décide, et sa décision ne peut pas être contestée en appel.",
       "compak": "Signez la feuille de marque à la fin de chaque série. Si vous refusez de la signer, aucune réclamation ultérieure ne pourra être acceptée."
@@ -78,11 +78,11 @@
       "explain": "Les noms sont écrits comme dans les documents de la compétition : en alphabet latin ou en alphabet local. Le même nom de famille peut aussi s'écrire de plusieurs façons en alphabet latin."
     },
     "clayarena-find-your-results-q4": {
-      "q": "Quand un tireur de {{tm:compak}} signe-t-il la feuille de marque ?",
+      "q": "Quand un tireur de {{tm:compak}} signe-t-il le {{term:score-sheet|feuille de marque}} ?",
       "options": {
-        "a": "À la fin de chaque série",
+        "a": "À la fin de chaque {{term:round|série}}",
         "b": "Seulement après le dernier jour",
-        "c": "C'est l'arbitre qui signe, pas le tireur"
+        "c": "C'est le {{term:referee|arbitre}} qui signe, pas le tireur"
       },
       "explain": "Le tireur signe à la fin de chaque série ; sans signature, aucune réclamation ultérieure n'est acceptée."
     },
@@ -91,9 +91,9 @@
       "options": {
         "a": "À la fin de la saison",
         "b": "En quittant chaque poste",
-        "c": "Seulement après la remise des prix"
+        "c": "Seulement après le remise des prix"
       },
-      "explain": "Vérifiez-le en quittant chaque poste et dites-le immédiatement à l'arbitre si quelque chose est erroné."
+      "explain": "Vérifiez-le en quittant chaque poste et dites-le immédiatement au {{term:referee|arbitre}} si quelque chose est erroné."
     }
   }
 }

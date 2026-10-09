@@ -194,9 +194,9 @@
       ],
       "uk": [
         "Ноги: поставте {{term:stance|стійку}} під {{term:break-point|точку пострілу}} — місце, де ви плануєте розбити мішень.",
-        "Рушниця: займіть вихідне положення, стволи — у {{term:hold-point|точці утримання стволів}}, де вони чекають команди. У {{tm:sporting}} рушниця на старті внизу (див. нижче).",
+        "Рушниця: займіть {{term:ready-position|вихідне положення}}, стволи — у {{term:hold-point|точці утримання стволів}}, де вони чекають команди. У {{tm:sporting}} рушниця на старті внизу (див. нижче).",
         "Очі: дивіться в {{term:pick-up-point|точку підхоплення}}, де ви вперше чітко бачите мішень, з {{term:soft-focus|м’яким фокусом}} — спокійним, широким поглядом.",
-        "Дихання і підказка: один звичайний видих, плечі опущені, потім ваше слово-підказка.",
+        "Дихання і підказка: один звичайний видих, плечі опущені, потім ваше {{term:cue-word|слово-підказка}}.",
         "Виклик мішені: подавайте {{term:call|команду}} щоразу однаково й залишайтеся готовими під час короткої затримки перед появою мішені.",
         "Мішень: перейдіть на {{term:hard-focus|жорсткий фокус}} на мішені й тримайте на ній погляд до кінця пострілу."
       ]
@@ -211,7 +211,7 @@
       },
       "compak": {
         "en": "The gun position at the call is free: mounted or not ({{rule:compak:ch17-gun-position}}). You have {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). The target leaves {{fact:rules.release-within-3s}} of the call with a manual release, or {{fact:rules.sonopull-delay}} after it with a sonopull (voice release) ({{rule:compak:ch2-trigger-manual}}).",
-        "uk": "Положення рушниці під час команди вільне: вкладена вона чи ні ({{rule:compak:ch17-gun-position}}). У вас є {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Мішень вилітає {{fact:rules.release-within-3s}} після команди при ручному запуску або через {{fact:rules.sonopull-delay}} із сонопулом (голосовим запуском) ({{rule:compak:ch2-trigger-manual}})."
+        "uk": "{{term:gun-position|Положення рушниці}} під час команди вільне: вкладена вона чи ні ({{rule:compak:ch17-gun-position}}). У вас є {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Мішень вилітає {{fact:rules.release-within-3s}} після команди при ручному запуску або через {{fact:rules.sonopull-delay}} із {{term:sonopull|сонопулом}}, тобто голосовим запуском ({{rule:compak:ch2-trigger-manual}})."
       }
     },
     {
@@ -224,7 +224,7 @@
       "k": "mind-routine-under-pressure-p5",
       "t": "tip",
       "en": "If something disturbs you before the call, such as a noise, a thought or the sun, do not call. Lower the gun, breathe out and start the routine again, within the time limit.",
-      "uk": "Якщо щось збило вас до команди — звук, думка чи сонце, — не давайте команди. Опустіть рушницю, видихніть і почніть ритуал спочатку, не виходячи за ліміт часу."
+      "uk": "Якщо щось збило вас до команди — звук, думка чи сонце, — не давайте команди. Опустіть рушницю, видихніть і почніть ритуал спочатку, не виходячи за {{term:firing-time|ліміт часу}}."
     },
     {
       "k": "mind-routine-under-pressure-p7",
@@ -236,7 +236,7 @@
       "k": "mind-routine-under-pressure-p6",
       "t": "p",
       "en": "Between stands, a longer routine helps you put the last stand behind you, whatever the score. Open the gun, take out the empty cases, drink some water and look at the next targets. In {{tm:compak}} you change stations with the gun open and unloaded ({{rule:compak:ch17-call-time-and-changeover}}).",
-      "uk": "Між стрілецькими місцями довший ритуал допомагає залишити попереднє місце позаду, хоч би як воно минуло. Відкрийте рушницю, вийміть порожні гільзи, ковтніть води й подивіться на наступні мішені. У {{tm:compak}} номер змінюють із відкритою й розрядженою рушницею ({{rule:compak:ch17-call-time-and-changeover}})."
+      "uk": "Між стрілецькими місцями довший ритуал допомагає залишити попереднє місце позаду, хоч би як воно минуло. Відкрийте рушницю, вийміть {{term:empties|порожні гільзи}}, ковтніть води й подивіться на наступні мішені. У {{tm:compak}} номер змінюють із відкритою й розрядженою рушницею ({{rule:compak:ch17-call-time-and-changeover}})."
     },
     {
       "k": "mind-routine-under-pressure-warn",
@@ -257,7 +257,7 @@
       "t": "p",
       "disc": "both",
       "en": "During a competition, nobody may {{term:coaching|coach}} a competitor ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
-      "uk": "Під час змагань ніхто не може {{term:coaching|тренувати}} учасника, тобто підказувати йому ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
+      "uk": "Під час змагань ніхто не може давати учасникові {{term:coaching|підказки}} ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
     }
   ],
   "note": [
@@ -552,7 +552,7 @@
       "correct": "c",
       "explain": {
         "en": "Coaching during a competition is not allowed in either discipline: the shooter gets a yellow card and the person coaching is sent out of the shooting area.",
-        "uk": "Підказки під час змагань заборонені в обох дисциплінах: стрілець отримує жовту картку, а того, хто підказує, виводять зі стрілецької зони."
+        "uk": "Підказки під час змагань заборонені в обох дисциплінах: стрілець отримує {{term:yellow-card|жовту картку}}, а того, хто підказує, виводять зі стрілецької зони."
       },
       "rule_ref": "sporting:ch8-coaching",
       "from": "technique-routine-and-coach"

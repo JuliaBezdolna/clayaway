@@ -29,9 +29,13 @@
     "watching-videos-and-recaps-q3": "c564e4c6",
     "clayarena-videos-recaps-calendar-call-time": "f545c7d0"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Videos, Saisonrückblicke und der Wettkampfkalender",
-  "summary": "Wie man Wettkampfvideos wie ein Schüler betrachtet, was Saisonrückblicke zeigen und wie der Kalender bei der Wahl des ersten Wettkampfs hilft.",
+  "summary": "Wie man Wettkampfvideos wie ein Schüler betrachtet, was {{term:season-recap|Saisonrückblicke|pl}} zeigen und wie der Kalender bei der Wahl des ersten Wettkampfs hilft.",
   "body": {
     "clayarena-videos-recaps-calendar-p1": "ClayArena hat Videos von {{tm:sporting}}- und {{tm:compak}}-Wettkämpfen, nach Veranstaltung gruppiert. Wenn Sie nicht zu einem Wettkampf reisen können, zeigen sie den Sport aus der Nähe. Für Einsteiger sind sie zudem eine kostenlose Lektion in Technik und Regeln.",
     "watching-videos-and-recaps-p2": "Schauen Sie die Videos nicht wie einen Film an, sondern wie ein Schüler. Wählen Sie einen Schützen aus und verfolgen Sie ihn über mehrere Scheiben hintereinander. Achten Sie zuerst nur auf Füße und {{term:stance|Stand}}, dann nur auf die Flinte, dann nur auf Kopf und Wange.",
@@ -39,10 +43,10 @@
     "watching-videos-and-recaps-p4": "Ein weiteres Detail ist das {{term:follow-through|Nachschwingen}}: Nach dem Schuss bewegt sich die Flinte weiter entlang der Linie der Scheibe, statt stehen zu bleiben. Wenn der Videoplayer Pause oder Zeitlupe erlaubt, nutzen Sie das.",
     "clayarena-videos-recaps-calendar-p2": "Achten Sie auch auf Regeln, die Sie schon kennen. In einem echten Wettkampf gesehen, lassen sie sich oft leichter merken.",
     "clayarena-videos-recaps-calendar-rules": {
-      "sporting": "Bis die Scheibe erscheint, bleibt der obere Rand des Schafts (des Teils der Flinte, der an die Schulter geht) unter der {{term:jacket-line|Westenmarkierung}}. Zwischen den Ständen wird die Flinte offen getragen: Eine Kipplaufflinte ist „gebrochen“, die Läufe zeigen nach unten, damit alle sehen, dass sie sicher ist. Schützen, {{term:referee|Schiedsrichter}} und alle in der Nähe des Stands tragen eine {{term:safety-glasses|Schießbrille}} und {{term:hearing-protection|Gehörschutz}}.",
+      "sporting": "Bis die Scheibe erscheint, bleibt der obere Rand des {{term:stock|Schafts}} – des Teils der Flinte, der an die Schulter geht – unter der {{term:jacket-line|Westenmarkierung}}. Zwischen den Ständen wird die Flinte offen getragen: Eine Kipplaufflinte ist „gebrochen“, die Läufe zeigen nach unten, damit alle sehen, dass sie sicher ist. Schützen, {{term:referee|Schiedsrichter}} und alle in der Nähe des Stands tragen eine {{term:safety-glasses|Schießbrille}} und {{term:hearing-protection|Gehörschutz}}.",
       "compak": "Beim Abruf der Scheibe kann die Flinte bei {{tm:compak}} schon an der Schulter sein oder noch unten: Die Regeln lassen das offen. Manche Schützen rufen also mit bereits „angeschlagener“ Flinte, also mit dem Schaft an der Schulter. Bevor der Schütze sich an der Schießstelle umdreht, öffnet er die Flinte. Schützen und Schiedsrichter tragen eine {{term:safety-glasses|Schießbrille}}; {{term:hearing-protection|Gehörschutz}} tragen alle in der Nähe."
     },
-    "clayarena-videos-recaps-calendar-p3": "{{term:season-recap|Saisonrückblicke}} fassen ein Jahr zusammen: wichtige Meisterschaften, Sieger, Ranglisten und besondere Ergebnisse. Rückblicke früherer Saisons bleiben ebenfalls auf der Website. Sie helfen zu sehen, wer in Form ist, welche Wettkämpfe herausstechen und wohin man vielleicht fahren könnte, um live zuzusehen.",
+    "clayarena-videos-recaps-calendar-p3": "{{term:season-recap|Saisonrückblicke|pl}} fassen ein Jahr zusammen: wichtige Meisterschaften, Sieger, Ranglisten und besondere Ergebnisse. Rückblicke früherer Saisons bleiben ebenfalls auf der Website. Sie helfen zu sehen, wer in Form ist, welche Wettkämpfe herausstechen und wohin man vielleicht fahren könnte, um live zuzusehen.",
     "clayarena-videos-recaps-calendar-p4": "Der Wettkampfkalender zeigt Veranstaltungen mit Datum und Austragungsort. Sie können ihn nach Status filtern (geplant, laufend oder beendet), nach Region und nach Monat. Dort finden Sie große internationale Wettkämpfe ebenso wie Veranstaltungen näher zu Hause.",
     "clayarena-videos-recaps-calendar-p5": "Für den ersten Wettkampf empfehlen viele Trainer eine Veranstaltung in der Nähe, in einer Disziplin, die Sie schon schießen. Klären Sie vorher mit dem {{term:organiser|Veranstalter}} die Teilnahmebedingungen, die {{term:shooting-times|Schießzeiten}} und die {{term:dress-code|Kleiderordnung}}. Wie man sich anmeldet: {{lesson:competitions-how-to-enter}}. Findet die Veranstaltung im Ausland statt, prüfen Sie die Regeln für die Mitnahme von Flinte und Patronen: {{lesson:travel-gun-in-eu}} und {{lesson:travel-gun-outside-eu}}.",
     "clayarena-videos-recaps-calendar-p6": "Kommen Sie nach dem Wettkampf zu ClayArena zurück: Ihr Ergebnis steht in der Ergebnistabelle, und die Veranstaltung erscheint später vielleicht in Videos oder im Saisonrückblick."
@@ -77,7 +81,7 @@
       "explain": "Der Kalender hilft, einen Wettkampf zu finden, zu dem man fahren oder den man verfolgen kann."
     },
     "watching-videos-and-recaps-q2": {
-      "q": "Was ist die Trefferzone (break point)?",
+      "q": "Was ist die {{term:break-point|Trefferzone}}?",
       "options": {
         "a": "Der Platz, an dem der Schütze steht",
         "b": "Eine Pause zwischen zwei Runden",
@@ -98,13 +102,13 @@
       "q": "Wo klärt man Teilnahmebedingungen und Zeitplan eines Wettkampfs?",
       "options": {
         "a": "Bei anderen Schützen",
-        "b": "Im Saisonrückblick",
-        "c": "Beim Veranstalter des Wettkampfs"
+        "b": "Im {{term:season-recap|Saisonrückblick}}",
+        "c": "Beim {{term:organiser|Veranstalter}} des Wettkampfs"
       },
       "explain": "Der Veranstalter legt die Teilnahmebedingungen und den Zeitplan fest."
     },
     "watching-videos-and-recaps-q3": {
-      "q": "Was zeigen Saisonrückblicke?",
+      "q": "Was zeigen {{term:season-recap|Saisonrückblicke|pl}}?",
       "options": {
         "a": "Die Sicherheitsregeln eines Vereins",
         "b": "Wichtige Wettkämpfe, Sieger und Ranglisten",

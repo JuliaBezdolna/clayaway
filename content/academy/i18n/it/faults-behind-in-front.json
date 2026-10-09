@@ -35,9 +35,9 @@
   },
   "body": {
     "faults-behind-in-front-p1": "Ogni errore ha una direzione. Un istruttore che osserva da dietro il tiratore di solito dice prima dove è andato il colpo rispetto al piattello, e solo dopo perché.",
-    "faults-behind-in-front-p2": "Behind (dietro) significa che la rosata è passata dietro un piattello in movimento: anticipo insufficiente, oppure un fucile che ha rallentato. È l'errore più comune sui traversoni. In front (davanti) è il contrario: troppo anticipo, spesso dopo una correzione eccessiva del tiratore. Molti istruttori preferiscono un errore davanti: dimostra che il fucile ha continuato a muoversi.",
-    "faults-behind-in-front-p3": "Over (anche «high», «over the top», sopra/alto) e under («low», sotto/basso) descrivono l'errore verticale. Sopra è comune sui piattelli in discesa, sulle lepri e sui piattelli in arrivo, ed è spesso legato alla testa che si stacca dal calcio. Sotto è tipico sui piattelli in salita che stanno ancora salendo al momento dello sparo.",
-    "faults-behind-in-front-p4": "Chipped (scheggiato) significa che si è staccato solo un piccolo pezzo. Per l'istruttore è mezzo complimento, mezza correzione: il piattello è stato preso dal bordo della {{term:pattern|rosata}}, la nuvola di pallini. Per l'arbitro è un piattello colpito, purché il pezzo sia visibile. Attenzione a un dettaglio del regolamento: un piattello che si rompe, anche se si trasforma del tutto o in parte in polvere, è un colpo in entrambe le discipline. Un piattello che continua a volare intero ed emette solo una nuvola di polvere o fumo, senza alcun pezzo visibile, è un errore (zero). Nel gergo degli istruttori «smoked it» indica un colpo perfetto e centrato che riduce il piattello in polvere, e «dusted it» si sente in entrambi i sensi, quindi chiedi se non sei sicuro.",
+    "faults-behind-in-front-p2": "Behind (dietro) significa che la {{term:pattern|rosata}} è passata dietro un piattello in movimento: {{term:lead|anticipo}} insufficiente, oppure un fucile che ha rallentato. È l'errore più comune sui {{term:crosser|traversoni}}. In front (davanti) è il contrario: troppo anticipo, spesso dopo una correzione eccessiva del tiratore. Molti istruttori preferiscono un errore davanti: dimostra che il fucile ha continuato a muoversi.",
+    "faults-behind-in-front-p3": "Over (anche «high», «over the top», sopra/alto) e under («low», sotto/basso) descrivono l'errore verticale. Sopra è comune sui piattelli in discesa, sulle lepri e sui piattelli in arrivo, ed è spesso legato alla testa che si stacca dallo {{term:stock|calcio}}. Sotto è tipico sui piattelli in salita che stanno ancora salendo al momento dello sparo.",
+    "faults-behind-in-front-p4": "Chipped (scheggiato) significa che si è staccato solo un piccolo pezzo. Per l'istruttore è mezzo complimento, mezza correzione: il piattello è stato preso dal bordo della {{term:pattern|rosata}}, la nuvola di pallini. Per l'arbitro è un piattello colpito, purché il pezzo sia visibile. Attenzione a un dettaglio del regolamento: un piattello che si rompe, anche se si trasforma del tutto o in parte in polvere, è un colpo in entrambe le discipline. Un piattello che continua a volare intero ed emette solo una nuvola di polvere o fumo, senza alcun {{term:visible-piece|pezzo visibile}}, è un errore (zero). Nel gergo degli istruttori «smoked it» indica un colpo perfetto e centrato che riduce il piattello in polvere, e «dusted it» si sente in entrambi i sensi, quindi chiedi se non sei sicuro.",
     "technique-follow-through-and-mistakes-p5": "Molti di questi errori si vedono bene dall'esterno. Un istruttore che sta dietro di te vede dove è andato il colpo e cosa hanno fatto la tua testa, le tue mani e i tuoi piedi. Da solo potresti correggere la cosa sbagliata: un colpo dietro causato da un fucile fermo non si cura con più anticipo."
   },
   "note": {
@@ -93,10 +93,10 @@
       "options": {
         "a": "Perso, perché la maggior parte del piattello ha continuato a volare",
         "b": "No Bird",
-        "c": "One (BUONO)",
+        "c": "One",
         "d": "Colpito solo se l'istruttore è d'accordo"
       },
-      "explain": "Almeno un pezzo visibile rende il piattello colpito sia nello {{tm:sporting}} sia nel {{tm:compak}}; decide solo l'arbitro."
+      "explain": "Almeno un {{term:visible-piece|pezzo visibile}} rende il piattello colpito sia nello {{tm:sporting}} sia nel {{tm:compak}}; decide solo l'arbitro."
     },
     "faults-behind-in-front-q3": {
       "q": "Dopo un colpo l'istruttore grida «Smoked it!». Che cosa intende?",
@@ -106,7 +106,7 @@
         "c": "Era un piattello flash",
         "d": "Il tiratore deve cambiare le cartucce"
       },
-      "explain": "Nel gergo degli istruttori «smoked it» è un elogio per un piattello ridotto in polvere, e il regolamento lo conta comunque come un colpo. È un errore (zero) solo quando il piattello resta intero ed emette appena una nuvola di polvere o fumo, senza alcun pezzo visibile."
+      "explain": "Nel gergo degli istruttori «smoked it» è un elogio per un piattello ridotto in polvere, e il regolamento lo conta comunque come un colpo. È un errore (zero) solo quando il piattello resta intero ed emette appena una nuvola di polvere o fumo, senza alcun {{term:visible-piece|pezzo visibile}}."
     }
   },
   "title": "Dietro, davanti, sopra, sotto, scheggiato",

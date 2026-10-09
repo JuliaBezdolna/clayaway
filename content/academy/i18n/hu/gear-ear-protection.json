@@ -40,9 +40,9 @@
   "body": {
     "gear-ear-protection-p1": "A {{term:hearing-protection|hallásvédelem}} kötelező a {{tm:sporting}}-ban és a {{tm:compak}}-ban mindenkinek, aki egy lőpályán van, vagy annak közelében: lövészeknek, bíróknak, személyzetnek és nézőknek. Azt a lövészt, aki e nélkül érkezik a lőállásra, távollévőnek tekintik, és nem lő.",
     "health-hearing-p1": "Egy sörétes puska lövése nagyon hangos: {{fact:gear.gunshot-peak-db}}. A rövid, hirtelen zajoknál, mint egy dörrenés (impulzuszaj), a szokásos biztonságos határ {{fact:gear.impulse-noise-limits}}. Tehát minden védelem nélküli lövés túllépi a határt, és egy nap a lőtéren több száz lövést jelent, a sajátjaidat és másokét is.",
-    "health-hearing-p2": "A zaj okozta halláskárosodás fokozatosan és fájdalom nélkül halmozódik fel. Apró, érzékeny sejtek pusztulnak el a belső fülben, és nem nőnek vissza. Rendszerint a magas hangokkal kezdődik: a beszéd, különösen zajos helyen, kevésbé érthetővé válik, és sokan ezt eleinte nem is veszik észre. Ha a védelem nélküli lövészet folytatódik, a károsodás több hangra is kiterjed. Az elvesztett hallás nem állítható vissza; csak megóvni lehet.",
-    "health-hearing-p3": "A fülcsengés vagy zúgás (tinnitus) lövészet után gyakori első figyelmeztetés: a védelmed nem volt elég. Ellenőrizd, hogyan illeszkednek a füldugóid és fülvédőid, vagy válassz erősebbeket. Ha lövészet után cseng a füled, vagy tompának tűnnek a hangok, vizsgáltasd meg a hallásodat egy fül-orr-gégésszel vagy audiológussal. Ha hirtelen romlik a hallásod, sürgősen kérj orvosi segítséget.",
-    "gear-ear-protection-p2": "A {{term:earplugs|füldugó}} a legegyszerűbb lehetőség. A habdugók olcsók: vékonyra sodrod, behelyezed a fülbe, és hagyod kitágulni. Léteznek újrahasználható szilikon füldugók és a füledre öntött egyéni füldugók is. A hallójáratot lezáró füldugók jól védenek; a rosszul behelyezettek nagyon keveset, tehát kérd meg az edződet, hogy mutassa meg.",
+    "health-hearing-p2": "A {{term:noise-induced-hearing-loss|zaj okozta halláskárosodás}} fokozatosan és fájdalom nélkül halmozódik fel. Apró, érzékeny sejtek pusztulnak el a belső fülben, és nem nőnek vissza. Rendszerint a magas hangokkal kezdődik: a beszéd, különösen zajos helyen, kevésbé érthetővé válik, és sokan ezt eleinte nem is veszik észre. Ha a védelem nélküli lövészet folytatódik, a károsodás több hangra is kiterjed. Az elvesztett hallás nem állítható vissza; csak megóvni lehet.",
+    "health-hearing-p3": "A {{term:tinnitus|fülcsengés vagy zúgás}} lövészet után gyakori első figyelmeztetés: a védelmed nem volt elég. Ellenőrizd, hogyan illeszkednek a füldugóid és fülvédőid, vagy válassz erősebbeket. Ha lövészet után cseng a füled, vagy tompának tűnnek a hangok, vizsgáltasd meg a hallásodat egy fül-orr-gégésszel vagy audiológussal. Ha hirtelen romlik a hallásod, sürgősen kérj orvosi segítséget.",
+    "gear-ear-protection-p2": "Az {{term:earplugs|füldugó}} a legegyszerűbb lehetőség. A habdugók olcsók: vékonyra sodrod, behelyezed a fülbe, és hagyod kitágulni. Léteznek újrahasználható szilikon füldugók és a füledre öntött egyéni füldugók is. A hallójáratot lezáró füldugók jól védenek; a rosszul behelyezettek nagyon keveset, tehát kérd meg az edződet, hogy mutassa meg.",
     "gear-ear-protection-p3": "A {{term:passive-ear-muffs|passzív fülvédő}} egyszerűen szoros párnákkal takarja le a füleket. Könnyű fel- és levenni, de rajtuk keresztül nehezebb hallani a hangokat. Sörétes puskához válassz vékony párnájú fülvédőt, mert a vastagok beleakadhatnak a {{term:stock|tusba}}, amikor vállba veszed a fegyvert.",
     "gear-ear-protection-p4": "Az {{term:electronic-ear-muffs|elektronikus fülvédőnek}} mikrofonjai és hangszórói vannak. Felerősítik a halk hangokat, mint a bíró hangját és az utasításokat, és a lövés pillanatában azonnal lecsökkentik a hangos hangot. Segítik a biztonságot és a kommunikációt, de drágábbak, és elemet vagy töltést igényelnek.",
     "gear-ear-protection-p5": "A védelmet egy számmal jelölik: Európában SNR, az USA-ban NRR: minél nagyobb a szám, annál erősebb a csillapítás. Hangos lőtereken, például tető alatt vagy falak közelében, a füldugó és a fülvédő együtt viselve extra tartalékot ad. A két számot nem lehet egyszerűen összeadni, de egy amerikai munkahelyi biztonsági intézet (NIOSH) kb. 15–20 dB-lel nagyobb védelmet mért a kettővel együtt, mint csak az eggyel.",
@@ -81,7 +81,7 @@
         "c": "A dresszkód vékony párnát kér",
         "d": "Egyáltalán nincs szükségük elemre"
       },
-      "explain": "A tus az archoz emelkedik, és egy vastag párna útban lehet a vállba vételnél."
+      "explain": "A tus az archoz emelkedik, és egy vastag párna útban lehet a {{term:gun-mount|vállba vételnél}}."
     },
     "gear-ear-protection-q3": {
       "q": "Mi az ésszerű egy nagyon hangos lőálláson, például egy tető alatt?",
@@ -104,7 +104,7 @@
       "explain": "A zaj okozta halláskárosodás végleges, tehát már az első lövéstől védd a hallásod."
     },
     "health-hearing-q2": {
-      "q": "Mi a kettős hallásvédelem?",
+      "q": "Mi a {{term:double-hearing-protection|kettős hallásvédelem}}?",
       "options": {
         "a": "Két pár füldugó egyszerre",
         "b": "Fülvédő egy meleg sapka fölött",

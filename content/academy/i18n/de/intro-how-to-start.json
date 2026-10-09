@@ -27,15 +27,15 @@
   "origin": null
  },
  "title": "Wie man anfängt",
- "summary": "Ein Verein, ein Trainer, eine erste Lektion und eine Leihflinte: ein Schritt-für-Schritt-Plan für alle, die {{tm:sporting}} oder {{tm:compak}} ausprobieren möchten.",
+ "summary": "Ein Verein, ein {{term:coach|Trainer}}, eine erste Lektion und eine {{term:gun-rental|Leihflinte}}: ein Schritt-für-Schritt-Plan für alle, die {{tm:sporting}} oder {{tm:compak}} ausprobieren möchten.",
  "body": {
-  "intro-how-to-start-p1": "Suchen Sie zunächst einen Schießstand oder Verein in Ihrer Nähe. Rufen Sie an oder schreiben Sie und fragen Sie, ob dort Einsteigertermine angeboten werden. Viele Schießstände bieten ein Probetraining mit einem {{term:coach|Trainer}} an, Flinte und Patronen inklusive.",
-  "intro-how-to-start-p2": "Es ist sinnvoll, die erste Einheit mit einem Trainer zu haben. Ein Trainer erklärt die Sicherheitsregeln und wählt eine Flinte, die zu Ihrer Größe passt. Er zeigt Ihnen auch, wie Sie stehen und wie Sie den {{term:gun-mount|Anschlag}} ausführen: den {{term:stock|Schaft}} (den hinteren Teil der Flinte) an Wange und Schulter bringen. Sie beginnen mit einfachen, langsamen Scheiben, damit Sie schnell Fortschritte sehen und schlechte Gewohnheiten vermeiden. Mehr: {{lesson:training-first-lessons-and-coach}}.",
+  "intro-how-to-start-p1": "Suchen Sie zunächst einen Schießstand oder Verein in Ihrer Nähe. Rufen Sie an oder schreiben Sie und fragen Sie, ob dort Einsteigertermine angeboten werden. Viele Schießstände bieten ein Probetraining mit einem {{term:coach|Trainer}} an, {{term:shotgun|Flinte}} und {{term:cartridge|Patronen|pl}} inklusive.",
+  "intro-how-to-start-p2": "Es ist sinnvoll, die erste Einheit mit einem Trainer zu haben. Ein Trainer erklärt die Sicherheitsregeln und wählt eine Flinte, die zu Ihrer Größe passt. Er zeigt Ihnen auch, wie Sie stehen und wie Sie den {{term:gun-mount|Anschlag}} ausführen: den {{term:stock|Schaft}} – den hinteren Teil der Flinte – an Wange und Schulter bringen. Sie beginnen mit einfachen, langsamen Scheiben, damit Sie schnell Fortschritte sehen und schlechte Gewohnheiten vermeiden. Mehr: {{lesson:training-first-lessons-and-coach}}.",
   "intro-how-to-start-p3": "Zu Beginn brauchen Sie keine eigene Flinte. An vielen Schießständen können Sie eine Flinte ausleihen und unter Aufsicht eines Ausbilders schießen. Die Gesetze zu Waffen und Munition unterscheiden sich von Land zu Land. In manchen darf ein Einsteiger unter Aufsicht ohne Lizenz mit der Vereinsflinte schießen; in anderen sind Dokumente nötig. Fragen Sie vorab beim Schießstand nach.",
   "intro-how-to-start-p4": "Was Sie mitbringen sollten: bequeme, dem Wetter angepasste Kleidung, geschlossene Schuhe und eine Kappe. Bringen Sie einen Ausweis mit, falls der Schießstand danach fragt.",
-  "intro-how-to-start-warn": "Tragen Sie vom ersten Schuss an {{term:safety-glasses|Schießbrille}} und {{term:hearing-protection|Gehörschutz}} (Kapselgehörschutz oder {{term:earplugs|Ohrstöpsel}}). Die Wettkampfregeln machen beides zur Pflicht. Falls Sie keine haben, verleiht der Schießstand meist welche. Mehr: {{lesson:safety-eye-ear-protection}}.",
-  "intro-how-to-start-p5": "Kaufen Sie nicht überstürzt eine Flinte. Probieren Sie zuerst verschiedene Modelle aus und fragen Sie Ihren Trainer. Für FITASC-Wettkämpfe brauchen Sie eine glattläufige Flinte (ohne Züge im Lauf), {{fact:gear.fitasc-max-gauge}}; engere Kaliber wie 20 oder 28 sind erlaubt. Die Läufe müssen {{fact:gear.fitasc-min-barrel}} sein, und Vorderschaftrepetierer (die durch Schieben des Vorderschafts geladen werden) sind nicht erlaubt. Mehr: {{lesson:gun-first-gun}}.",
-  "intro-how-to-start-p6": "Probieren Sie nach ein paar Lektionen ein {{term:club-shoot|Vereinsschießen}} für Einsteiger aus. So bekommen Sie ein Gefühl für die Atmosphäre des Sports, lernen Leute kennen und sehen, wie {{term:referee|Schiedsrichter}} und {{term:squad|Rotten}} arbeiten."
+  "intro-how-to-start-warn": "Tragen Sie vom ersten Schuss an {{term:safety-glasses|Schießbrille}} und {{term:hearing-protection|Gehörschutz}} – Kapselgehörschutz oder {{term:earplugs|Ohrstöpsel}}. Die Wettkampfregeln machen beides zur Pflicht. Falls Sie keine haben, verleiht der Schießstand meist welche. Mehr: {{lesson:safety-eye-ear-protection}}.",
+  "intro-how-to-start-p5": "Kaufen Sie nicht überstürzt eine Flinte. Probieren Sie zuerst verschiedene Modelle aus und fragen Sie Ihren Trainer. Für FITASC-Wettkämpfe brauchen Sie eine glattläufige Flinte (ohne Züge im Lauf), {{fact:gear.fitasc-max-gauge}}; engere {{term:gauge|Kaliber}} wie 20 oder 28 sind erlaubt. Die Läufe müssen {{fact:gear.fitasc-min-barrel}} sein, und {{term:pump-action|Vorderschaftrepetierer}} – die durch Schieben des Vorderschafts geladen werden – sind nicht erlaubt. Mehr: {{lesson:gun-first-gun}}.",
+  "intro-how-to-start-p6": "Probieren Sie nach ein paar Lektionen ein {{term:club-shoot|Vereinsschießen}} für Einsteiger aus. So bekommen Sie ein Gefühl für die Atmosphäre des Sports, lernen Leute kennen und sehen, wie {{term:referee|Schiedsrichter}} und {{term:squad|Rotten|pl}} arbeiten."
  },
  "note": {},
  "phrases": {},
@@ -50,14 +50,14 @@
   "intro-how-to-start-q1": {
    "q": "Welchen ersten Schritt schlägt diese Lektion vor?",
    "options": {
-    "a": "Eine Flinte kaufen und allein üben",
-    "b": "Ein Probetraining mit einem Trainer",
+    "a": "Eine {{term:shotgun|Flinte}} kaufen und allein üben",
+    "b": "Ein Probetraining mit einem {{term:coach|Trainer}}",
     "c": "Videos ansehen und dann an einer Meisterschaft teilnehmen"
    },
    "explain": "Ein Trainer vermittelt von Anfang an Sicherheit und gute Grundlagen."
   },
   "intro-how-to-start-q2": {
-   "q": "Braucht ein Einsteiger eine eigene Flinte?",
+   "q": "Braucht ein Einsteiger eine eigene {{term:shotgun|Flinte}}?",
    "options": {
     "a": "Ja, Schießstände verleihen keine Flinten",
     "b": "Ja, und es muss ein Vorderschaftrepetierer sein",
@@ -66,13 +66,13 @@
    "explain": "Viele Schießstände haben Vereinsflinten, mit denen Sie unter Aufsicht schießen können; die Regeln hängen vom nationalen Recht ab."
   },
   "intro-how-to-start-q3": {
-   "q": "Welche Flinte ist bei FITASC-Wettkämpfen NICHT erlaubt?",
+   "q": "Welche {{term:shotgun|Flinte}} ist bei FITASC-Wettkämpfen NICHT erlaubt?",
    "options": {
     "a": "Ein Vorderschaftrepetierer",
     "b": "Eine Bockflinte im Kaliber 12",
     "c": "Eine Selbstladeflinte"
    },
-   "explain": "Vorderschaftrepetierer sind nicht erlaubt. Eine {{term:semi-automatic|Selbstladeflinte}} ist erlaubt, darf aber höchstens mit zwei Patronen geladen werden."
+   "explain": "{{term:pump-action|Vorderschaftrepetierer}} sind nicht erlaubt. Eine {{term:semi-automatic|Selbstladeflinte}} ist erlaubt, darf aber höchstens mit zwei {{term:cartridge|Patronen|pl}} geladen werden."
   }
  }
 }

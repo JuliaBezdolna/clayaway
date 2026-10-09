@@ -30,14 +30,14 @@
   "origin": null
  },
  "title": "Umgang mit und Tragen von Flinten am Schießstand",
- "summary": "Eine offene Flinte, der Gewehrständer, das Futteral und „fragen, bevor man anfasst“: wie man eine Flinte zwischen den Standplätzen handhabt.",
+ "summary": "Eine offene Flinte, der {{term:gun-rack|Gewehrständer}}, das {{term:gun-slip|Futteral}} und „fragen, bevor man anfasst“: wie man eine Flinte zwischen den Standplätzen handhabt.",
  "body": {
   "safety-handling-carrying-p1": "Diese Lektion ergänzt {{lesson:safety-core-rules}} um die praktischen Einzelheiten. Jede Flinte, auch eine leere, wird mit großer Sorgfalt behandelt. Zwischen den Standplätzen tragen Sie sie offen: eine {{term:over-and-under|Bockflinte}} gebrochen (am Scharnier geöffnet), eine {{term:semi-automatic|Selbstladeflinte}} mit offenem Verschluss (dem beweglichen Teil, das die Patrone lädt). Die {{term:muzzle|Mündung}} zeigt senkrecht nach oben oder senkrecht nach unten.",
   "safety-handling-carrying-p2": "Viele Schützen tragen eine offene Bockflinte auf dem Unterarm, mit den Läufen zum Boden gerichtet. Trageriemen und Gurte sind an Flinten in keiner der beiden Disziplinen erlaubt.",
   "safety-handling-carrying-p3": "Wenn Sie die Flinte nicht benutzen, stellen Sie sie aufrecht in einen {{term:gun-rack|Gewehrständer}} oder an einen anderen Ort, den der Schießstand bereitstellt. Eine Selbstladeflinte steht dort mit offenem Verschluss. Lehnen Sie eine Flinte nicht an ein Auto, einen Baum oder einen Tisch: Sie kann wegrutschen und umfallen.",
   "safety-handling-carrying-p4": "Zwischen dem Auto und dem Schießbereich reist die Flinte in einem {{term:gun-slip|Futteral}} oder einem {{term:hard-case|Waffenkoffer}}. Nehmen Sie sie nur dort heraus, wo es der Schießstand erlaubt, oft nicht auf dem Parkplatz.",
-  "safety-handling-carrying-p5": "Berühren Sie die Flinte einer anderen Person nicht ohne die Erlaubnis des Besitzers. Möchten Sie sie ansehen, fragen Sie: Der Besitzer öffnet sie und reicht sie Ihnen. Bittet jemand Sie zu zeigen, dass Ihre Flinte leer ist, öffnen Sie sie und zeigen Sie die Patronenlager. Trainer nennen das „{{term:show-clear|Flinte offen zeigen}}“.",
-  "safety-handling-carrying-p6": "{{term:gun-mount|Schlagen}} Sie die Flinte nicht an (sie an Schulter und Wange bringen) und schwenken Sie sie nicht, als würden Sie einer Scheibe folgen. Das nennt man {{term:mock-shooting|Zielübungen}}. Beide Regelwerke verbieten das, ziehen die Grenze aber an unterschiedlichen Stellen.",
+  "safety-handling-carrying-p5": "Berühren Sie die Flinte einer anderen Person nicht ohne die Erlaubnis des Besitzers. Möchten Sie sie ansehen, fragen Sie: Der Besitzer öffnet sie und reicht sie Ihnen. Bittet jemand Sie zu zeigen, dass Ihre Flinte leer ist, öffnen Sie sie und zeigen Sie die {{term:chamber|Patronenlager}}. Trainer nennen das „{{term:show-clear|Flinte offen zeigen}}“.",
+  "safety-handling-carrying-p6": "Schlagen Sie die Flinte nicht an – also kein {{term:gun-mount|Anschlag}}, bei dem die Flinte an Schulter und Wange kommt – und schwenken Sie sie nicht, als würden Sie einer Scheibe folgen. Das nennt man {{term:mock-shooting|Zielübungen}}. Beide Regelwerke verbieten das, ziehen die Grenze aber an unterschiedlichen Stellen.",
   "safety-handling-carrying-mock-where": {
    "sporting": "Überall am Schießstand: außerhalb des Standplatzes, auf dem Standplatz vor dem Abruf einer Scheibe und während des Vorwerfens der Scheiben.",
    "compak": "Außerhalb der Schießpositionen, und während ein anderes Mitglied der Rotte schießt."
@@ -58,9 +58,9 @@
   "safety-handling-carrying-q1": {
    "q": "Wie tragen Sie eine Flinte zwischen den Standplätzen?",
    "options": {
-    "a": "Geschlossen, auf der Schulter, mit betätigter Sicherung",
+    "a": "Geschlossen, auf der Schulter, mit betätigter {{term:safety-catch|Sicherung}}",
     "b": "An einem Trageriemen auf dem Rücken, ungeladen",
-    "c": "Offen, mit der Mündung senkrecht nach oben oder unten"
+    "c": "Offen, mit der {{term:muzzle|Mündung}} senkrecht nach oben oder unten"
    },
    "explain": "Die Flinte wird offen getragen, Mündung nach oben oder unten; Trageriemen sind in keiner der beiden Disziplinen erlaubt."
   },
@@ -71,7 +71,7 @@
     "b": "Angelehnt an das Auto, geschlossen und ungeladen",
     "c": "Flach auf dem Boden neben dem Standplatz liegend"
    },
-   "explain": "Flinten stehen aufrecht in einem Gewehrständer oder einem anderen vom Schießstand bereitgestellten Ort, damit sie nicht fallen können; eine Selbstladeflinte steht mit offenem Verschluss."
+   "explain": "Flinten stehen aufrecht in einem Gewehrständer oder einem anderen vom Schießstand bereitgestellten Ort, damit sie nicht fallen können; eine {{term:semi-automatic|Selbstladeflinte}} steht mit offenem Verschluss."
   },
   "safety-handling-carrying-q3": {
    "q": "Wo dürfen Sie eine Flinte probeweise abfeuern?",
@@ -83,7 +83,7 @@
    "explain": "Probeschüsse gehören auf den Probeschussstand; sie auf einem Wettkampfstand abzugeben ist verboten."
   },
   "safety-handling-carrying-q4": {
-   "q": "Was sind Zielübungen (mock shooting)?",
+   "q": "Was sind {{term:mock-shooting|Zielübungen}}?",
    "options": {
     "a": "Auf eine echte Scheibe mit einer leichten Übungspatrone schießen",
     "b": "Eine Scheibe abrufen, ohne dass eine Patrone in der Flinte ist",

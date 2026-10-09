@@ -37,9 +37,9 @@
     "origin": null
   },
   "title": "Ołów, stal i miękkie żelazo",
-  "summary": "Czym śrut ołowiany różni się od stalowego i z miękkiego żelaza, czemu niektóre strzelnice wymagają śrutu bezołowiowego oraz gdzie ołów jest już ograniczony. Przepisy {{tm:sporting}} i {{tm:compak}} są napisane dla ołowiu.",
+  "summary": "Czym {{term:lead-shot|śrut ołowiany}} różni się od stalowego i z miękkiego żelaza, czemu niektóre strzelnice wymagają śrutu bezołowiowego oraz gdzie ołów jest już ograniczony. Przepisy {{tm:sporting}} i {{tm:compak}} są napisane dla ołowiu.",
   "body": {
-    "cartridges-lead-and-steel-p1": "Tradycyjny śrut jest {{term:lead-shot|ołowiany}}. Ołów jest ciężki, więc śrucina dobrze zachowuje prędkość i energię; jest też miękki, więc jest łagodny dla luf i czoków. Przepisy FITASC dla {{tm:sporting}} i {{tm:compak}} są napisane dla ołowiu. Dopuszczają {{fact:gear.fitasc-shot-load}}, o {{fact:gear.fitasc-shot-diameter}}.",
+    "cartridges-lead-and-steel-p1": "Tradycyjny śrut to {{term:lead-shot|śrut ołowiany}}. Ołów jest ciężki, więc śrucina dobrze zachowuje prędkość i energię; jest też miękki, więc jest łagodny dla luf i czoków. Przepisy FITASC dla {{tm:sporting}} i {{tm:compak}} są napisane dla ołowiu. Dopuszczają {{fact:gear.fitasc-shot-load}}, o {{fact:gear.fitasc-shot-diameter}}.",
     "cartridges-lead-and-steel-p2": "Ale ołów jest toksyczny dla środowiska, zwłaszcza dla ptaków wodnych i wody. Więc coraz więcej strzelnic i krajów go ogranicza, a przepisy często się zmieniają. Przed wyjazdem sprawdź prawo kraju i przepisy strzelnicy.",
     "cartridges-lead-and-steel-p3": "{{term:steel-shot|Śrut stalowy}} to najpopularniejszy bezołowiowy zamiennik. Śrucina stalowa jest {{fact:gear.steel-vs-lead-weight}} i dużo twardsza. Więc szybciej traci prędkość i silniej rykoszetuje od twardych powierzchni.",
     "cartridges-lead-and-steel-p4": "Z powodu rykoszetów strzelnice, które dopuszczają stal, często ograniczają jej rozmiar, na przykład do 2,5 mm, a czasem też prędkość naboju. Każda strzelnica ustala własne limity: czytaj przepisy wywieszone w klubie albo zapytaj organizatora.",
@@ -67,7 +67,7 @@
   "did_you_know": "Ołów ma gęstość około 11,3 g/cm³, stal około 7,8–7,9 g/cm³. Więc śrucina stalowa tej samej średnicy jest orientacyjnie o 30% lżejsza niż ołowiana.",
   "quiz": {
     "cartridges-lead-and-steel-q1": {
-      "q": "Czemu strzelnice często ograniczają rozmiar śrutu stalowego?",
+      "q": "Czemu strzelnice często ograniczają rozmiar {{term:steel-shot|śrutu stalowego}}?",
       "options": {
         "a": "Stal jest droższa",
         "b": "Twarda stal silniej rykoszetuje",
@@ -77,7 +77,7 @@
       "explain": "Twarde śruciny stalowe silniej odskakują od twardych powierzchni, więc strzelnice ograniczają rozmiar i prędkość."
     },
     "cartridges-lead-and-steel-q2": {
-      "q": "Co obowiązuje w UE od 2023 roku w sprawie śrutu ołowianego?",
+      "q": "Co obowiązuje w UE od 2023 roku w sprawie {{term:lead-shot|śrutu ołowianego}}?",
       "options": {
         "a": "Pełny zakaz na wszystkich strzelnicach",
         "b": "Nic się nie zmieniło od 2020 roku",
@@ -87,17 +87,17 @@
       "explain": "Przepis UE zakazuje śrutu ołowianego na terenach podmokłych i bliżej niż 100 m od nich; niektóre kraje mają surowsze przepisy."
     },
     "cartridges-lead-and-steel-q3": {
-      "q": "Czym śrut stalowy różni się od ołowianego?",
+      "q": "Czym {{term:steel-shot|śrut stalowy}} różni się od ołowianego?",
       "options": {
         "a": "Jest lżejszy i twardszy",
-        "b": "Jest ciężejszy i miększy",
+        "b": "Jest cięższy i miększy",
         "c": "Nie ma istotnej różnicy",
         "d": "Występuje tylko w małych rozmiarach"
       },
       "explain": "Stal jest o około 30% lżejsza niż ołów tej samej wielkości i dużo twardsza."
     },
     "cartridges-lead-and-steel-q4": {
-      "q": "Od kiedy w Wielkiej Brytanii zakazany będzie śrut ołowiany w strzelaniu do rzutków?",
+      "q": "Od kiedy w Wielkiej Brytanii zakazany będzie {{term:lead-shot|śrut ołowiany}} w strzelaniu do rzutków?",
       "options": {
         "a": "Od 1 stycznia 2027 roku",
         "b": "Od 1 kwietnia 2029 roku",

@@ -30,16 +30,16 @@
   },
   "body": {
     "gun-care-p1": "Čištění začíná bezpečností. Ujistěte se, že je zbraň vybitá: otevřete ji a podívejte se do obou {{term:chamber|nábojových komor}}. Odstraňte všechny náboje z místa, kde pracujete, abyste si žádný omylem nevložili do zbraně.",
-    "gun-care-p2": "Rozeberte zbraň: sejměte {{term:fore-end|předpažbí}}, pak hlavně z {{term:receiver|baskule}}. Pokud máte výměnné zahrdlení, vyšroubujte ho {{term:choke-key|klíčem na zahrdlení}}; čistí se zvlášť (viz {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p2": "Rozeberte zbraň: sejměte {{term:fore-end|předpažbí}}, pak {{term:barrel|hlavně}} z {{term:receiver|baskule}}. Pokud máte {{term:multichoke|výměnné zahrdlení}}, vyšroubujte ho {{term:choke-key|klíčem na zahrdlení}}; čistí se zvlášť (viz {{lesson:chokes-pattern-testing-and-care}}).",
     "gun-care-p3": [
       "Vyčistěte vývrt hlavní po každém dni střelby.",
       "Namočte ho čisticím prostředkem a několikrát jím protáhněte kartáček na tyčce (bore brush).",
       "Protahujte na tyčce čisté kousky látky (patches), dokud nevycházejí téměř čisté.",
       "Nakonec nechte velmi tenkou vrstvu oleje a před další střelbou vývrt vytřete do sucha."
     ],
-    "gun-care-p4": "Vnější kovové části otřete hadříkem s kapkou oleje, aby je chránil před otisky prstů a vlhkostí. Dřevěnou pažbu olejem nelijte: vsakuje se do dřeva. Závěs a místa, kde se hlavně zamykají do baskule, lehce namažte speciální zbraňovou vazelínou.",
+    "gun-care-p4": "Vnější kovové části otřete hadříkem s kapkou oleje, aby je chránil před otisky prstů a vlhkostí. Dřevěnou {{term:stock|pažbu}} olejem nelijte: vsakuje se do dřeva. Závěs a místa, kde se hlavně zamykají do baskule, lehce namažte speciální zbraňovou vazelínou.",
     "gun-care-p5": "Po dešti osušte zbraň okamžitě, ještě na střelnici nebo v hotelu. Nenechávejte mokrou zbraň na noc v {{term:gun-slip|měkkém pouzdru}} nebo zavřeném {{term:hard-case|kufru}}: vlhkost tam zůstává dlouho a následuje rez. Osušte, otřete, naolejujte.",
-    "gun-care-p6": "Uchovávejte zbraň suchou, v trezoru nebo tak, jak vyžaduje zákon vaší země; mnohé zákony vyžadují i oddělené skladování nábojů. Mnozí puškaři doporučují uchovávat zbraň vodorovně nebo s hlavněmi dolů, aby olej nestékal do dřevěné pažby. Nepoužívejte drátěnku nebo abrazivní prostředky: škrábou povrchovou úpravu.",
+    "gun-care-p6": "Uchovávejte zbraň suchou, v trezoru nebo tak, jak vyžaduje zákon vaší země; mnohé zákony vyžadují i oddělené skladování nábojů. Mnozí {{term:gunsmith|puškaři}} doporučují uchovávat zbraň vodorovně nebo s hlavněmi dolů, aby olej nestékal do dřevěné pažby. Nepoužívejte drátěnku nebo abrazivní prostředky: škrábou povrchovou úpravu.",
     "gun-care-p7": "Jednou za rok, nebo po velkém počtu výstřelů, odneste zbraň {{term:gunsmith|puškaři}} na servis. Po smontování zbraň nezkoušejte na stanovišti závodu. V {{tm:sporting}} a {{tm:compak}} se {{term:gun-test|zkušební výstřel}} dělá jen na samostatném zkušebním místě, pokud ho střelnice má."
   },
   "note": {},
@@ -80,15 +80,15 @@
         "c": "Kdekoli na střelnici, mimo lidi",
         "d": "Na parkovišti u klubovny"
       },
-      "explain": "Pravidla zakazují zkušební výstřely na stanovišti závodu; k tomu slouží samostatné zkušební místo."
+      "explain": "Pravidla zakazují {{term:gun-test|zkušební výstřely}} na stanovišti závodu; k tomu slouží samostatné zkušební místo."
     },
     "gun-care-q4": {
-      "q": "Proč mnozí puškaři doporučují uchovávat zbraň s hlavněmi dolů?",
+      "q": "Proč mnozí {{term:gunsmith|puškaři}} doporučují uchovávat zbraň s hlavněmi dolů?",
       "options": {
         "a": "Aby se pak rychleji nabíjela",
-        "b": "Aby se zahrdlení nepovolovalo",
-        "c": "Aby hlavně rychleji vychladly",
-        "d": "Aby olej nestékal do pažby"
+        "b": "Aby se {{term:choke|zahrdlení}} nepovolovalo",
+        "c": "Aby {{term:barrel|hlavně}} rychleji vychladly",
+        "d": "Aby olej nestékal do {{term:stock|pažby}}"
       },
       "explain": "Olej, který steče do dřevěné pažby, může časem dřevo poškodit."
     }

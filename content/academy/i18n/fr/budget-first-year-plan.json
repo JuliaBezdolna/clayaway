@@ -28,15 +28,15 @@
     "origin": null
   },
   "title": "Un plan pour la première année",
-  "summary": "Un exemple de première année en {{tm:sporting}} ou en {{tm:compak}}, étape par étape : de la séance découverte à vos premières compétitions. Il indique aussi quand faire chaque gros achat.",
+  "summary": "Un exemple de première année en {{tm:sporting}} ou en {{tm:compak}}, étape par étape : de la {{term:taster-session|séance découverte}} à vos premières compétitions. Il indique aussi quand faire chaque gros achat.",
   "body": {
     "budget-first-year-plan-p1": "Ci-dessous, un exemple de plan, pas un schéma figé. Chacun avance à son rythme, et les lois sur les armes diffèrent selon les pays. L'idée est de dépenser une fois que vous savez ce dont vous avez besoin.",
-    "budget-first-year-plan-p2": "Étape 1. Une séance découverte. Trouvez un stand avec un {{term:coach|entraîneur}} et essayez le {{tm:sporting}} ou le {{tm:compak}} avec le fusil du stand. Les lunettes et la protection auditive sont souvent prêtées. Vous n'avez encore rien besoin d'acheter.",
-    "budget-first-year-plan-p3": "Étape 2. Quelques leçons avec un entraîneur. Des séances régulières dans les premiers mois : la sécurité, la {{term:stance|position}}, l'{{term:gun-mount|épaulé}} et votre {{term:master-eye|œil directeur}}, celui sur lequel s'appuie le cerveau, si bien que le fusil pointe où regarde cet œil. C'est maintenant qu'il devient utile d'acheter vos propres {{term:safety-glasses|lunettes de protection}} et votre {{term:hearing-protection|protection auditive}} : elles coûtent peu, comptent beaucoup, et les vôtres vous iront mieux.",
+    "budget-first-year-plan-p2": "Étape 1. Une {{term:taster-session|séance découverte}}. Trouvez un stand avec un {{term:coach|entraîneur}} et essayez le {{tm:sporting}} ou le {{tm:compak}} avec le fusil du stand. Les lunettes et la {{term:hearing-protection|protection auditive}} sont souvent prêtées. Vous n'avez encore rien besoin d'acheter.",
+    "budget-first-year-plan-p3": "Étape 2. Quelques leçons avec un entraîneur. Des séances régulières dans les premiers mois : la sécurité, le {{term:stance|position}}, le {{term:gun-mount|épaulé}} et votre {{term:master-eye|œil directeur}}, celui sur lequel s'appuie le cerveau, si bien que le fusil pointe où regarde cet œil. C'est maintenant qu'il devient utile d'acheter vos propres {{term:safety-glasses|lunettes de protection}} et votre {{term:hearing-protection|protection auditive}} : elles coûtent peu, comptent beaucoup, et les vôtres vous iront mieux.",
     "budget-first-year-plan-p4": "Étape 3. Club et documents. Si le tir vous plaît, rejoignez un club et renseignez-vous sur l'adhésion à une fédération, une {{term:sports-licence|licence sportive}} et une assurance. Si votre pays exige un permis de détention d'armes, commencez les démarches dès maintenant : cela peut prendre longtemps.",
-    "budget-first-year-plan-p5": "Étape 4. Conformation et fusil personnel. Une fois que vous vous entraînez régulièrement, faites une {{term:gun-fit|conformation}} avec un entraîneur ou un {{term:gun-fitter|conformateur}}. Achetez ensuite un fusil, neuf ou d'occasion et vérifié par un {{term:gunsmith|armurier}}. Ajoutez un {{term:gun-slip|fourreau}} ou une {{term:hard-case|mallette}}, un nécessaire de nettoyage et un coffre-fort si la loi l'exige.",
+    "budget-first-year-plan-p5": "Étape 4. {{term:gun-fit|Conformation}} et fusil personnel. Une fois que vous vous entraînez régulièrement, faites un {{term:gun-fit|conformation}} avec un entraîneur ou un {{term:gun-fitter|conformateur}}. Achetez ensuite un fusil, neuf ou d'occasion et vérifié par un {{term:gunsmith|armurier}}. Ajoutez un {{term:gun-slip|fourreau}} ou un {{term:hard-case|mallette}}, un nécessaire de nettoyage et un coffre-fort si la loi l'exige.",
     "budget-first-year-plan-p6": "Étape 5. Gilet et petits accessoires. Un {{term:shooting-vest|gilet de tir}}, une casquette, des chaussures confortables et un {{term:cartridge-bag|sac à cartouches}}, une fois que vous savez comment et où vous tirez.",
-    "budget-first-year-plan-p7": "Étape 6. Premières compétitions. Commencez par des {{term:club-shoot|concours de club}} près de chez vous : un petit {{term:entry-fee|engagement}}, des visages familiers, une ambiance calme. Tenez un {{term:training-diary|carnet}} d'entraînement et de résultats ; si une compétition figure sur ClayArena, vos résultats y apparaissent aussi ({{lesson:clayarena-find-your-results}}). Plus tard, vous pourrez essayer de plus grandes compétitions. Les stages {{term:clayaway|ClayAway}} sont également en préparation."
+    "budget-first-year-plan-p7": "Étape 6. Premières compétitions. Commencez par des {{term:club-shoot|concours de club|pl}} près de chez vous : un petit {{term:entry-fee|engagement}}, des visages familiers, une ambiance calme. Tenez un {{term:training-diary|carnet}} d'entraînement et de résultats ; si une compétition figure sur ClayArena, vos résultats y apparaissent aussi ({{lesson:clayarena-find-your-results}}). Plus tard, vous pourrez essayer de plus grandes compétitions. Les stages {{term:clayaway|ClayAway}} sont également en préparation."
   },
   "note": {},
   "phrases": {},
@@ -52,8 +52,8 @@
       "q": "Qu'achète-t-on en premier selon ce plan ?",
       "options": {
         "a": "Un fusil personnel",
-        "b": "Des lunettes et une protection auditive",
-        "c": "Un gilet de tir et une casquette"
+        "b": "Des lunettes et une {{term:hearing-protection|protection auditive}}",
+        "c": "Un {{term:shooting-vest|gilet de tir}} et une casquette"
       },
       "explain": "Les lunettes et la protection auditive sont nécessaires dès le premier jour et coûtent peu."
     },

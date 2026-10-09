@@ -91,7 +91,7 @@
       "k": "cartridges-load-weight-p1",
       "t": "p",
       "en": "The {{term:load-weight|load}} is the weight of shot in a cartridge, in grams. The box shows it in large figures, for example '24 g' or '28 g'. In the USA and the UK it is sometimes given in ounces: 1 ounce is about 28 g.",
-      "uk": "{{term:load-weight|Наважка}} (load) — це маса дробу в патроні, у грамах. На коробці її пишуть великими цифрами, наприклад «24 g» або «28 g». У США й Великій Британії її іноді вказують в унціях: 1 унція — це приблизно 28 г."
+      "uk": "{{term:load-weight|Наважка}} — це маса дробу в {{term:cartridge|патроні}}, у грамах. На коробці її пишуть великими цифрами, наприклад «24 g» або «28 g». У США й Великій Британії її іноді вказують в унціях: 1 унція — це приблизно 28 г."
     },
     {
       "k": "gear-cartridges-p4",
@@ -99,7 +99,7 @@
       "core": true,
       "disc": "both",
       "en": "The rules of {{tm:sporting}} and {{tm:compak}} set the same limits. The load is {{fact:gear.fitasc-shot-load}}, so up to about 28.6 g, whatever the gauge. The shot must be {{fact:gear.fitasc-shot-diameter}}. Reloaded cartridges, dispersers, mixed shot sizes, black powder and tracers are forbidden.",
-      "uk": "Правила {{tm:sporting}} і {{tm:compak}} встановлюють однакові межі. Наважка — {{fact:gear.fitasc-shot-load}}, тобто приблизно до 28,6 г, незалежно від калібру. Дріб — {{fact:gear.fitasc-shot-diameter}}. Заборонені перезаряджені патрони, розсіювачі, суміш різного дробу, димний порох і трасери."
+      "uk": "Правила {{tm:sporting}} і {{tm:compak}} встановлюють однакові межі. Наважка — {{fact:gear.fitasc-shot-load}}, тобто приблизно до 28,6 г, незалежно від {{term:gauge|калібру}}. Дріб — {{fact:gear.fitasc-shot-diameter}}. Заборонені перезаряджені патрони, розсіювачі, суміш різного дробу, {{term:powder|димний порох}} і трасери."
     },
     {
       "k": "cartridges-load-weight-cmp1",
@@ -111,7 +111,7 @@
       },
       "compak": {
         "en": "If a check shows that your cartridges break the rules, all the shots you fired with them before that check count as {{term:zero|zero}}, that is, as a miss. The jury may let the results stand if you could not have known and gained no advantage, provided the fault is put right as soon as it is found.",
-        "uk": "Якщо перевірка показує, що ваші патрони не відповідають правилам, усі постріли ними до цієї перевірки зараховують як {{term:zero|промах}} (zero). Журі може залишити результат, якщо ви не могли знати про порушення й не мали переваги, за умови, що порушення виправлено, щойно його виявили."
+        "uk": "Якщо перевірка показує, що ваші патрони не відповідають правилам, усі постріли ними до цієї перевірки зараховують як {{term:zero|промах}}. Журі може залишити результат, якщо ви не могли знати про порушення й не мали переваги, за умови, що порушення виправлено, щойно його виявили."
       }
     },
     {
@@ -130,7 +130,7 @@
       "k": "cartridges-load-weight-p6",
       "t": "tip",
       "en": "Many coaches suggest that beginners start with 24 g. Less recoil means less fatigue and less risk of learning to {{term:flinch|flinch}} before the shot. You can move up to 28 g later, once your technique is consistent.",
-      "uk": "Багато тренерів радять новачкам починати з 24 г. Менша віддача — менше втоми й менший ризик звикнути {{term:flinch|смикатися}} перед пострілом. Перейти на 28 г можна пізніше, коли техніка стане стабільною."
+      "uk": "Багато тренерів радять новачкам починати з 24 г. Менша віддача — менше втоми й менший ризик звички до {{term:flinch|смикання}} перед пострілом. Перейти на 28 г можна пізніше, коли техніка стане стабільною."
     }
   ],
   "note": [],
@@ -318,7 +318,7 @@
       "correct": "d",
       "explain": {
         "en": "All shots fired with non-compliant guns or cartridges before the check count as zero, that is, as a miss; the jury may accept the results only in special cases.",
-        "uk": "Кожен постріл невідповідною рушницею чи патронами до перевірки зараховують як промах (zero); журі може зарахувати результат лише в особливих випадках."
+        "uk": "Кожен постріл невідповідною рушницею чи патронами до перевірки зараховують як {{term:zero|промах}}; журі може зарахувати результат лише в особливих випадках."
       },
       "rule_ref": "compak:ch23-noncompliant-equipment"
     }

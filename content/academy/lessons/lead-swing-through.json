@@ -48,7 +48,7 @@
   },
   "summary": {
     "en": "How swing-through works step by step, why you see little or no gap, and which targets it often suits.",
-    "uk": "Як працює протяжка (swing-through) крок за кроком, чому проміжку майже не видно і яким мішеням вона часто пасує."
+    "uk": "Як працює {{term:swing-through|протяжка}} крок за кроком, чому проміжку майже не видно і яким мішеням вона часто пасує."
   },
   "body": [
     {
@@ -56,7 +56,7 @@
       "t": "p",
       "core": true,
       "en": "In {{term:swing-through|swing-through}} the muzzles start behind the target and overtake it. Coaches sum it up as “butt, belly, beak, bang”: tail, body, front, fire. Step by step, it looks like this:",
-      "uk": "У протяжці ({{term:swing-through|swing-through}}) стволи стартують позаду мішені й обганяють її. Тренери підсумовують це підказкою «butt, belly, beak, bang»: хвіст, тулуб, дзьоб — постріл. Крок за кроком це виглядає так:"
+      "uk": "У {{term:swing-through|протяжці}} стволи стартують позаду мішені й обганяють її. Тренери підсумовують це підказкою «butt, belly, beak, bang»: хвіст, тулуб, дзьоб — постріл. Крок за кроком це виглядає так:"
     },
     {
       "k": "lead-swing-through-p2",
@@ -71,7 +71,7 @@
       "uk": [
         "Старт: стволи виходять на лінію мішені позаду неї, на її «хвіст».",
         "Обгін: рушниця рухається швидше за мішень, уздовж її лінії, крізь її «тіло».",
-        "Постріл: спуск натискають, коли стволи проходять передній край мішені, трохи попереду неї.",
+        "Постріл: спуск натискають, коли стволи проходять {{term:leading-edge|передній край}} мішені, трохи попереду неї.",
         "Проводка триває й після пострілу."
       ]
     },
@@ -79,21 +79,21 @@
       "k": "lead-swing-through-delay",
       "t": "p",
       "en": "There is a short delay between deciding to fire and the shot leaving the barrels. Because the gun is moving faster than the target, in that moment the barrels travel further ahead on their own. So you pull the trigger when you see little or no gap, and the gun’s speed adds the rest. The real lead at the shot is bigger than what you saw.",
-      "uk": "Між рішенням і пострілом є коротка затримка. Рушниця рухається швидше за мішень, тож за цю мить стволи самі йдуть далі вперед. Тому ви тиснете на спуск, коли бачите малий проміжок або жодного, а решту додає швидкість рушниці. Справжній винос у момент пострілу більший за той, що ви бачили."
+      "uk": "Між рішенням і пострілом є коротка затримка. Рушниця рухається швидше за мішень, тож за цю мить стволи самі йдуть далі вперед. Тому ви тиснете на спуск, коли бачите малий проміжок або жодного, а решту додає швидкість рушниці. Справжній {{term:lead|винос}} у момент пострілу більший за той, що ви бачили."
     },
     {
       "k": "lead-swing-through-p3",
       "t": "p",
       "core": true,
       "en": "Strengths: it is natural and fast, and good for beginners. It suits close fast targets, {{term:driven-target|driven targets}} (coming towards you and passing over your head), {{term:overhead|overheads}} from behind, and erratic or surprise targets.",
-      "uk": "Переваги: природно і швидко, добре для новачків. Протяжка пасує близьким швидким мішеням, {{term:driven-target|зустрічним мішеням над головою}} (driven), {{term:overhead|мішеням над головою}} ззаду, а також непередбачуваним і несподіваним мішеням."
+      "uk": "Переваги: природно і швидко, добре для новачків. Протяжка пасує близьким швидким мішеням, {{term:driven-target|зустрічним мішеням над головою}}, {{term:overhead|мішеням над головою ззаду}}, а також непередбачуваним і несподіваним мішеням."
     },
     {
       "k": "lead-swing-through-p4",
       "t": "p",
       "core": true,
       "en": "Weaknesses: the window for the trigger is very short. On long crossers the shooter can run out of time, lose the line or overshoot. Slowing down as the muzzles reach the target gives a miss behind.",
-      "uk": "Слабкі місця: «вікно» для спуску дуже коротке. На далеких поперечних мішенях стрільцеві може забракнути часу, він губить лінію або проскакує. Сповільнення, коли стволи доходять до мішені, дає промах позаду."
+      "uk": "Слабкі місця: «вікно» для спуску дуже коротке. Коли {{term:crosser|поперечна мішень}} летить далеко, стрільцеві може забракнути часу, він губить лінію або проскакує. Сповільнення, коли стволи доходять до мішені, дає {{term:miss-behind|промах позаду}}."
     },
     {
       "k": "lead-swing-through-p5",
@@ -219,7 +219,7 @@
       "k": "lead-swing-through-q1",
       "q": {
         "en": "Where do the muzzles start in swing-through?",
-        "uk": "Де стартують стволи у swing-through?"
+        "uk": "Де стартують стволи у {{term:swing-through|протяжці}}?"
       },
       "options": [
         {
@@ -246,14 +246,14 @@
       "correct": "d",
       "explain": {
         "en": "Swing-through starts behind and overtakes the target; starting in front is maintained lead, a fixed point is ambush.",
-        "uk": "Swing-through стартує позаду й обганяє мішень; старт попереду — maintained lead, нерухома точка — ambush."
+        "uk": "{{term:swing-through|Протяжка}} стартує позаду й обганяє мішень; старт попереду — {{term:maintained-lead|постійний винос}}, нерухома точка — {{term:ambush|стрільба в точку}}."
       }
     },
     {
       "k": "lead-swing-through-q2",
       "q": {
         "en": "Why does a swing-through shooter see little or no lead?",
-        "uk": "Чому стрілець зі swing-through бачить малий винос або жодного?"
+        "uk": "Чому при {{term:swing-through|протяжці}} стрілець бачить малий винос або жодного?"
       },
       "options": [
         {

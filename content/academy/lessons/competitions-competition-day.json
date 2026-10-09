@@ -268,14 +268,14 @@
       "core": true,
       "disc": "both",
       "en": "The day starts at registration: the shooter confirms the entry, receives a competitor number and pins it on the upper back, fully visible. Then everyone checks the squad lists and the shooting times. A squad is a group of up to six shooters, drawn by lot, who shoot together. Keeping to the timetable is the shooter’s own responsibility.",
-      "uk": "День починається з реєстрації: стрілець підтверджує {{term:entry|заявку}}, отримує {{term:competitor-number|стартовий номер}} і кріпить його на верхній частині спини так, щоб його було повністю видно. Потім усі перевіряють списки {{term:squad|груп}} і {{term:shooting-times|розклад стрільби}}. Група (squad) — це до шести стрільців, визначених жеребкуванням, які стріляють разом. Стежити за розкладом — обов’язок самого стрільця."
+      "uk": "День починається з реєстрації: стрілець підтверджує {{term:entry|заявку}}, отримує {{term:competitor-number|стартовий номер}} і кріпить його на верхній частині спини так, щоб його було повністю видно. Потім усі перевіряють списки {{term:squad|груп}} і {{term:shooting-times|розклад стрільби}}. {{term:squad|Група}} — це до шести стрільців, визначених жеребкуванням, які стріляють разом. Стежити за розкладом — обов’язок самого стрільця."
     },
     {
       "k": "competitions-competition-day-p1",
       "t": "p",
       "disc": "both",
       "en": "Arrive early: registration, finding your squad and getting ready all take time. The {{term:competitor-number|number}} goes between the shoulders and the waist, not folded or cut. Put on {{term:hearing-protection|hearing protection}} and {{term:safety-glasses|safety glasses}} before you go to the stand. In both disciplines a shooter who turns up without them counts as absent, and the rules for late shooters apply (see below).",
-      "uk": "Приїжджайте заздалегідь: реєстрація, пошук своєї групи й підготовка забирають час. Стартовий {{term:competitor-number|номер}} кріплять між плечима і поясом, не складаючи й не обрізаючи. Вдягніть {{term:hearing-protection|засоби захисту слуху}} і {{term:safety-glasses|стрілецькі окуляри}} ще до виходу на стрілецьке місце. В обох дисциплінах стрільця без них вважають відсутнім, і до нього застосовують правила про запізнення (див. нижче)."
+      "uk": "Приїжджайте заздалегідь: реєстрація, пошук своєї групи й підготовка забирають час. {{term:competitor-number|Стартовий номер}} кріплять між плечима і поясом, не складаючи й не обрізаючи. Вдягніть {{term:hearing-protection|засоби захисту слуху}} і {{term:safety-glasses|стрілецькі окуляри}} ще до виходу на стрілецьке місце. В обох дисциплінах стрільця без них вважають відсутнім, і до нього застосовують правила про запізнення (див. нижче)."
     },
     {
       "k": "competitions-competition-day-p2",
@@ -303,7 +303,7 @@
       },
       "compak": {
         "en": "You may {{term:practice|practise}} on the same target flights (trajectories) as in the competition, but the {{term:trajectory-setting-table|trajectory setting table}} must be a different one. This table is the scheme that says which traps are shot from each station. At continental and world championships official practice opens {{fact:training.compak-championship-practice}}.",
-        "uk": "{{term:practice|Тренуватися}} на тих самих польотах мішеней (траєкторіях), що й на змаганнях, можна, але за іншою {{term:trajectory-setting-table|таблицею налаштування траєкторій}}. Ця таблиця — схема, яка визначає, з яких машинок стріляють на кожному номері. На чемпіонатах континенту й світу офіційне тренування починається {{fact:training.compak-championship-practice}}."
+        "uk": "{{term:practice|Тренування}} на тих самих польотах мішеней (траєкторіях), що й на змаганнях, дозволене, але за іншою {{term:trajectory-setting-table|таблицею налаштування траєкторій}}. Ця таблиця — схема, яка визначає, з яких машинок стріляють на кожному номері. На чемпіонатах континенту й світу офіційне тренування починається {{fact:training.compak-championship-practice}}."
       }
     },
     {
@@ -366,7 +366,7 @@
       "core": true,
       "disc": "both",
       "en": "If shooters tie for one of the top three places, the tie is settled by {{fact:competitions.shoot-off-format}}. In sudden death they keep shooting, and the first one to miss is out. Below third place there is no shoot-off: tied shooters share the place. {{term:countback|Countback}} sets their order in the list: their scores are compared {{fact:competitions.countback-order}}. The day ends with the results board and the prize-giving.",
-      "uk": "Рівність за одне з перших трьох місць розв’язує {{fact:competitions.shoot-off-format}}: хто перший промахнеться, той вибуває. Нижче третього місця перестрілки немає: стрільці з рівним результатом ділять місце. Порядок у списку визначає {{term:countback|каунтбек}} (countback): їхні результати порівнюють {{fact:competitions.countback-order}}. День завершується таблицею результатів і нагородженням."
+      "uk": "Рівність за одне з перших трьох місць розв’язує {{fact:competitions.shoot-off-format}}: хто перший промахнеться, той вибуває. Нижче третього місця {{term:shoot-off|перестрілки}} немає: стрільці з рівним результатом ділять місце. Порядок у списку визначає {{term:countback|каунтбек}}: їхні результати порівнюють {{fact:competitions.countback-order}}. День завершується таблицею результатів і нагородженням."
     },
     {
       "k": "competitions-competition-day-end",
@@ -387,7 +387,7 @@
       "k": "competitions-competition-day-n-parent",
       "for": "parent",
       "en": "Watch from the spectators’ area and stay quiet near the stand. Advice called out during the round counts as {{term:coaching|coaching}}: the referee can give your child a yellow card for it. More: {{lesson:juniors-support-without-pressure}}.",
-      "uk": "Дивіться з місця для глядачів і поводьтеся тихо біля стрілецького місця. Порада, яку гукають під час раунду, вважається {{term:coaching|підказкою}} (coaching), і суддя може дати за неї дитині жовту картку. Докладніше: {{lesson:juniors-support-without-pressure}}."
+      "uk": "Дивіться з місця для глядачів і поводьтеся тихо біля стрілецького місця. Порада, яку гукають під час раунду, вважається {{term:coaching|підказкою}}, і суддя може дати за неї дитині {{term:yellow-card|жовту картку}}. Докладніше: {{lesson:juniors-support-without-pressure}}."
     }
   ],
   "phrases": [
@@ -479,7 +479,7 @@
       "k": "sport-competition-day-kp5",
       "core": true,
       "en": "Top-three ties: shoot-off of 25, then sudden death; lower ties: countback.",
-      "uk": "Рівність за 1–3 місця: перестрілка на 25 мішеней, потім до першого промаху; нижче — каунтбек."
+      "uk": "Рівність за 1–3 місця: перестрілка на 25 мішеней, потім {{term:sudden-death|до першого промаху}}; нижче — каунтбек."
     }
   ],
   "did_you_know": {
@@ -593,7 +593,7 @@
       "k": "competitions-competition-day-q1",
       "q": {
         "en": "What is the largest number of shooters in a squad?",
-        "uk": "Скільки щонайбільше стрільців у групі (squad)?"
+        "uk": "Скільки щонайбільше стрільців у {{term:squad|групі}}?"
       },
       "options": [
         {

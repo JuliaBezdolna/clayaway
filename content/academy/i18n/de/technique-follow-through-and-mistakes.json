@@ -36,11 +36,11 @@
   "title": "Nachschwingen, Schwunggeschwindigkeit und Tempo",
   "summary": "Warum sich die Flinte nach dem Schuss weiterbewegt, wie die Schwunggeschwindigkeit die Vorhaltmethode bestimmt und wo Sie mehr über häufige Fehler lesen.",
   "body": {
-    "basics-follow-through-p1": "Nachschwingen (follow-through) bedeutet, dass die Flinte nach dem Abziehen weiter entlang der Linie der Scheibe läuft, wie ein Schwung beim Golf oder Tennis. Zwischen dem Entschluss zu schießen und dem Austritt des Schrots aus den Läufen liegt eine kleine Verzögerung; bleibt die Flinte beim Abzug stehen, geht der Schuss dahinter. Trainer beobachten die Mündungen nach dem Schuss: Erstarren oder sinken sie, fehlte das Nachschwingen.",
+    "basics-follow-through-p1": "{{term:follow-through|Nachschwingen}} bedeutet, dass die Flinte nach dem Abziehen weiter entlang der Linie der Scheibe läuft, wie ein Schwung beim Golf oder Tennis. Zwischen dem Entschluss zu schießen und dem Austritt des Schrots aus den Läufen liegt eine kleine Verzögerung; bleibt die Flinte beim {{term:trigger|Abzug}} stehen, geht der Schuss dahinter. Trainer beobachten die {{term:muzzle|Mündungen|pl}} nach dem Schuss: Erstarren oder sinken sie, fehlte das Nachschwingen.",
     "basics-follow-through-p2": "Die {{term:gun-speed|Schwunggeschwindigkeit}} ist, wie schnell sich die Mündungen im Vergleich zur Scheibe bewegen, und sie bestimmt die Vorhaltmethode. Dieselbe Geschwindigkeit wie die Scheibe ist {{term:maintained-lead|Maintained Lead}}. Schneller als die Scheibe ist {{term:swing-through|Swing-Through}}. Dieselbe Geschwindigkeit, dann eine kurze Beschleunigung, ist {{term:pull-away|Pull-Away}}. Eine stillstehende Flinte, die an einem Punkt wartet, ist {{term:ambush|Ambush}}. Eine zu langsame Flinte fällt zurück; eine zu schnelle, sagen Trainer, schießt über das Ziel hinaus, und der Schütze stoppt sie dann oft.",
-    "basics-follow-through-p3": "Tempo ist, wie schnell der ganze Schuss abläuft; Rhythmus ist, wie gleichmäßig er ist. Eine schnelle, nahe Scheibe braucht ein rasches Tempo, ein langer, langsamer Crosser (Querreiter) ein ruhigeres, aber der Rhythmus bleibt flüssig. Viele Trainer sagen, dass Schützen mit nur einem Tempo für alles die Scheiben verlieren, die das Gegenteil brauchen.",
-    "basics-follow-through-p4": "„Stay in the gun“ – nicht von der Flinte lösen: Wange am Schaft und Augen auf der Scheibe, bis sie bricht. So bleiben Sie auch für den zweiten Schuss bereit (Trainer nennen ihn „den zweiten Lauf“), denn auf eine Einzelscheibe dürfen Sie zweimal schießen.",
-    "technique-follow-through-and-mistakes-faults": "Viele Fehlschüsse gehen auf wenige typische Fehler zurück: die Flinte stoppen, den Kopf heben, zu späten oder zu frühen Anschlag und die zweite Scheibe eines Paars verlieren. Für jeden gibt es einen eigenen Kurs: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} und {{lesson:faults-pairs-transition}}. Wie Sie erkennen, wohin ein Schuss ging, steht in {{lesson:faults-behind-in-front}}."
+    "basics-follow-through-p3": "Tempo ist, wie schnell der ganze Schuss abläuft; Rhythmus ist, wie gleichmäßig er ist. Eine schnelle, nahe Scheibe braucht ein rasches Tempo, ein langer, langsamer {{term:crosser|Querreiter}} ein ruhigeres, aber der Rhythmus bleibt flüssig. Viele Trainer sagen, dass Schützen mit nur einem Tempo für alles die Scheiben verlieren, die das Gegenteil brauchen.",
+    "basics-follow-through-p4": "„Stay in the gun“ – nicht von der Flinte lösen: Wange am {{term:stock|Schaft}} und Augen auf der Scheibe, bis sie bricht. So bleiben Sie auch für den zweiten Schuss bereit (Trainer nennen ihn „den zweiten Lauf“), denn auf eine {{term:single-target|Einzelscheibe}} dürfen Sie zweimal schießen.",
+    "technique-follow-through-and-mistakes-faults": "Viele Fehlschüsse gehen auf wenige typische Fehler zurück: die Flinte stoppen, den Kopf heben, zu späten oder zu frühen {{term:gun-mount|Anschlag}} und die zweite Scheibe eines Paars verlieren. Für jeden gibt es einen eigenen Kurs: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} und {{lesson:faults-pairs-transition}}. Wie Sie erkennen, wohin ein Schuss ging, steht in {{lesson:faults-behind-in-front}}."
   },
   "note": {
     "basics-follow-through-p5": "Übersetzen Sie „finish the shot“ als Fortsetzen der Bewegung, nicht als Anhalten."
@@ -69,7 +69,7 @@
   },
   "key_points": {
     "basics-follow-through-kp1": "Nachschwingen: Die Flinte bewegt sich nach dem Abzug weiter; ein Stopp schickt den Schuss dahinter.",
-    "basics-follow-through-kp2": "Die Flintengeschwindigkeit bestimmt die Methode: gleich (Maintained), schneller (Swing-Through), gleich, dann schneller (Pull-Away).",
+    "basics-follow-through-kp2": "Die Flintengeschwindigkeit bestimmt die Methode: gleich beim Maintained Lead, schneller beim Swing-Through, gleich, dann schneller beim Pull-Away.",
     "basics-follow-through-kp3": "Tempo = Geschwindigkeit des ganzen Schusses; Rhythmus = seine Gleichmäßigkeit.",
     "basics-follow-through-kp4": "Nicht von der Flinte lösen: bereit für den zweiten Schuss auf eine Einzelscheibe."
   },
@@ -93,7 +93,7 @@
         "c": "Null: die Flinte wartet",
         "d": "Langsamer als die Scheibe"
       },
-      "explain": "Beim Maintained Lead bewegen sich die Mündungen mit der Geschwindigkeit der Scheibe und halten den Abstand konstant. Eine wartende Flinte ist Ambush; schneller ist Swing-Through."
+      "explain": "Beim Maintained Lead bewegen sich die {{term:muzzle|Mündungen|pl}} mit der Geschwindigkeit der Scheibe und halten den Abstand konstant. Eine wartende Flinte ist Ambush; schneller ist Swing-Through."
     },
     "basics-follow-through-q3": {
       "q": "Was ist der Unterschied zwischen Tempo und Rhythmus?",
@@ -106,7 +106,7 @@
       "explain": "Trainer ändern das Tempo für jede Scheibe und halten den Rhythmus flüssig, also übersetzen Sie beide Wörter getrennt."
     },
     "technique-follow-through-and-mistakes-q1": {
-      "q": "Was ist Nachschwingen (follow-through)?",
+      "q": "Was ist {{term:follow-through|Nachschwingen}}?",
       "options": {
         "a": "Die Flinte bewegt sich nach dem Schuss weiter",
         "b": "Ein zweiter Schuss auf dieselbe Scheibe",
@@ -130,7 +130,7 @@
         "b": "Eine zu schwere Patrone",
         "c": "Ein korrekter Stand"
       },
-      "explain": "Hebt sich der Kopf, blickt das Auge nicht mehr entlang der Laufschiene, und die Flinte schießt zu hoch."
+      "explain": "Hebt sich der Kopf, blickt das Auge nicht mehr entlang der {{term:rib|Laufschiene}}, und die Flinte schießt zu hoch."
     }
   }
 }

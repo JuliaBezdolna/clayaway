@@ -38,13 +38,13 @@
  "title": "Aseen nosto: ase tulee kasvoille",
  "summary": "Miten ase tuodaan poskelle ja olalle joka kerta samalla tavalla, ja miten aseen asennon säännöt eroavat {{tm:sporting}}- ja {{tm:compak}}-lajeissa.",
  "body": {
-  "basics-mount-p3": "{{term:gun-mount|Aseen nosto}} on liike, joka tuo aseen poskelle ja olalle. Valmentajat opettavat periaatetta ”muzzles first” — piipunsuut ensin: etukäsi aloittaa piippujen liikkeen kiekon linjaa pitkin. Niiden liikkuessa tukki nousee poskelle ja asettuu olkataskuun, pehmeään koloon solisluun ja olkanivelen välissä. ”Move, mount, shoot” — liike, nosto, laukaus — on yksi sujuva liike, ei kolme erillistä. Tuo ase kasvoille, älä kasvoja aseelle. Pidä poski {{term:comb|poskipakalla}}, tukin yläreunalla. Haulikossa ei ole takatähtäintä: silmäsi tekee sen työn, niin sen täytyy olla joka kerta samassa kohdassa.",
-  "technique-gun-mount-p2": "Hyvä nosto on joka kerta samanlainen. Pääsi pysyy suorana ja liikkumattomana, ja poskesi asettuu tukin {{term:comb|poskipakalle}}. Jos lasket tai kallistat pääsi tukkia vastaan, silmäsi päätyy joka laukauksella eri kohtaan. Noston virheet ja niiden korjaukset ovat {{lesson:faults-mount-errors}}.",
-  "basics-mount-p1": "{{tm:sporting}}-lajissa aloitetaan ase alhaalla. Ennen kiekon pyytämistä tukin kanta (sen perän yläkulma) koskettaa vartaloasi. Se pysyy liiviin merkityn, selvästi erottuvan viivan alapuolella, {{fact:rules.sporting-jacket-line}}. Tätä asentoa pidetään, kunnes kiekko on lähtenyt ja näet sen. Liian aikaisesta nostosta seuraa suullinen varoitus ja {{term:yellow-card|keltainen kortti}}. Toistuvasta rikkeestä samalla rataosuudella seuraa {{term:red-card|punainen kortti}}. Yksittäiskiekko merkitään silloin nollaksi; kaksoiskiekolle sääntö määrää molempien kiekkojen tuloksen ({{rule:sporting:ch12-red-card}}).",
+  "basics-mount-p3": "{{term:gun-mount|Aseen nosto}} on liike, joka tuo aseen poskelle ja olalle. Valmentajat opettavat periaatetta ”muzzles first” — piipunsuut ensin: etukäsi aloittaa piippujen liikkeen kiekon linjaa pitkin. Niiden liikkuessa {{term:stock|tukki}} nousee poskelle ja asettuu olkataskuun, pehmeään koloon solisluun ja olkanivelen välissä. ”Move, mount, shoot” — liike, nosto, laukaus — on yksi sujuva liike, ei kolme erillistä. Tuo ase kasvoille, älä kasvoja aseelle. Pidä poski {{term:comb|poskipakalla}}, tukin yläreunalla. Haulikossa ei ole takatähtäintä: silmäsi tekee sen työn, niin sen täytyy olla joka kerta samassa kohdassa.",
+  "technique-gun-mount-p2": "Hyvä nosto on joka kerta samanlainen. Pääsi pysyy suorana ja liikkumattomana, ja poskesi asettuu tukin poskipakalle. Jos lasket tai kallistat pääsi tukkia vastaan, silmäsi päätyy joka laukauksella eri kohtaan. Noston virheet ja niiden korjaukset ovat {{lesson:faults-mount-errors}}.",
+  "basics-mount-p1": "{{tm:sporting}}-lajissa aloitetaan {{term:ready-position|ase alhaalla}}. Ennen kiekon pyytämistä tukin kanta (sen perän yläkulma) koskettaa vartaloasi. Se pysyy liiviin merkityn, selvästi erottuvan viivan alapuolella, {{fact:rules.sporting-jacket-line}}. Tätä asentoa pidetään, kunnes kiekko on lähtenyt ja näet sen. Liian aikaisesta nostosta seuraa suullinen varoitus ja {{term:yellow-card|keltainen kortti}}. Toistuvasta rikkeestä samalla rataosuudella seuraa {{term:red-card|punainen kortti}}. Yksittäiskiekko merkitään silloin nollaksi; kaksoiskiekolle sääntö määrää molempien kiekkojen tuloksen ({{rule:sporting:ch12-red-card}}).",
   "basics-mount-p2": "{{tm:compak}}-lajissa aseen asento komennon aikaan on vapaa, niin ase voi olla jo olalla. Molemmissa lajeissa joka kiekko ammutaan ase olalla, ja {{tm:sporting}}-lajissa aseen asento on vapaa kaksoiskiekon kahden kiekon välillä.",
-  "basics-mount-p4": "Brittiläinen valmentaja voi sanoa ”gun up” tai ”pre-mount this one”. Se on kiellettyä FITASCin {{tm:sporting}}-kilpailussa, tavallista {{tm:compak}}-lajissa ja harjoituksissa vain harjoite. Aseen nostaminen ja heilauttaminen kuvitellulla linjalla ennen komentoa (tähtäysharjoittelu) on {{tm:sporting}}-lajissa kiellettyä: ensin varoitus, sitten nolla.",
+  "basics-mount-p4": "Brittiläinen valmentaja voi sanoa ”gun up” tai ”pre-mount this one”. Se on kiellettyä FITASCin {{tm:sporting}}-kilpailussa, tavallista {{tm:compak}}-lajissa ja harjoituksissa vain harjoite. Aseen nostaminen ja heilauttaminen kuvitellulla linjalla ennen komentoa – {{term:mock-shooting|tähtäysharjoittelu}} – on {{tm:sporting}}-lajissa kiellettyä: ensin varoitus, sitten nolla.",
   "technique-gun-mount-mock": "Pois ampumapaikalta pidä ase auki, äläkä heiluta sitä kuviteltujen kiekkojen mukana. {{tm:compak}}-lajissa nostaminen ja heilauttaminen ei ole sallittua myöskään, kun toinen eräsi jäsen ampuu.",
-  "technique-gun-mount-p5": "Aseen sopivuus on tärkeä myös. Väärän mittainen tukki tai väärä poskipakan korkeus tekee toistettavasta nostosta vaikean; valmentaja tai {{term:gun-fitter|aseen sovittaja}} voi tarkistaa sen ({{lesson:gun-fit}}). Noston harjoittelu kotona tarkistetulla, tyhjällä aseella on mahdollista vain siellä, missä oman maan laki sen sallii, ja vain niin kuin valmentaja näyttää ({{lesson:training-dry-mount-practice}}).",
+  "technique-gun-mount-p5": "{{term:gun-fit|Aseen sopivuus}} on tärkeä myös. Väärän mittainen tukki tai väärä poskipakan korkeus tekee toistettavasta nostosta vaikean; valmentaja tai {{term:gun-fitter|aseen sovittaja}} voi tarkistaa sen ({{lesson:gun-fit}}). Noston harjoittelu kotona tarkistetulla, tyhjällä aseella on mahdollista vain siellä, missä oman maan laki sen sallii, ja vain niin kuin valmentaja näyttää ({{lesson:training-dry-mount-practice}}).",
   "basics-mount-sim": "Animaatio: piipunsuut lähtevät liikkeelle kiekon mukana, ja nosto valmistuu juuri laukauksen tullessa: ”liike, nosto, laukaus”."
  },
  "note": {},
@@ -102,7 +102,7 @@
     "c": "Koska molempien lajien säännöt vaativat sitä",
     "d": "Jotta kasvot olisivat piilossa tuomarilta"
    },
-   "explain": "Haulikossa ei ole takatähtäintä: kiskon yllä oleva silmä on tähtäin, niin poskelta noussut pää vie laukauksen yläkanttiin."
+   "explain": "Haulikossa ei ole takatähtäintä: {{term:rib|kiskon}} yllä oleva silmä on tähtäin, niin poskelta noussut pää vie laukauksen yläkanttiin."
   },
   "technique-gun-mount-q1": {
    "q": "Mikä on oikein noston aikana?",
@@ -132,5 +132,5 @@
    "explain": "{{tm:compak}}-lajissa aseen asento komennon aikaan on vapaa; ase alhaalla ja liivin viiva ovat {{tm:sporting}}-sääntö."
   }
  },
- "did_you_know": "Liivin viiva -sääntö koskee kaikkia tukkityyppejä, myös säädettäviä poskipakkoja ja Monte Carlo -tukkeja (korotettu poskipakka). Ratkaisevaa on tukin takaosan ylin kohta."
+ "did_you_know": "Liivin viiva -sääntö koskee kaikkia tukkityyppejä, myös {{term:adjustable-comb|säädettäviä poskipakkoja}} ja Monte Carlo -tukkeja (korotettu poskipakka). Ratkaisevaa on tukin takaosan ylin kohta."
 }

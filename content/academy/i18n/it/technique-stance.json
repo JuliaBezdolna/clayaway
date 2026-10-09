@@ -36,8 +36,8 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "basics-stance-p1": "La posizione (stance) è il modo in cui il tiratore sta in piedi prima del colpo. Lo spazio è ridotto: nel {{tm:sporting}} la pedana è un quadrato o un cerchio di 1 m e prima della chiamata entrambi i piedi devono trovarsi al suo interno. Nel {{tm:compak}} ogni pedana è un quadrato di 1 m con un Firing Angle Limiter (limitatore dell'angolo di tiro), un telaio che impedisce al tiratore di fare un passo avanti e limita la rotazione del fucile.",
-    "basics-stance-p3": "L'indicazione chiave: punta il piede anteriore verso il {{term:break-point|punto di rottura}}, il punto in cui prevedi di rompere il piattello. Così, al momento del colpo, il corpo è rilassato e già rivolto nella direzione giusta. Prima di chiamare, ruota il busto all'indietro dai fianchi verso il {{term:hold-point|punto di attesa}}, dove le canne aspettano il piattello. Quando il piattello parte, ti basta tornare indietro per la stessa strada, come una molla che si scarica. Se invece i piedi puntano verso la macchina, avvertono gli istruttori, il busto non riesce a ruotare a sufficienza per arrivare al punto di rottura, e il fucile si ferma o la testa si alza.",
+    "basics-stance-p1": "La {{term:stance|posizione}} è il modo in cui il tiratore sta in piedi prima del colpo. Lo spazio è ridotto: nel {{tm:sporting}} la {{term:shooting-stand|pedana}} è un quadrato o un cerchio di 1 m e prima della chiamata entrambi i piedi devono trovarsi al suo interno. Nel {{tm:compak}} ogni pedana è un quadrato di 1 m con un {{term:firing-angle-limiter|limitatore dell'angolo di tiro}}, un telaio che impedisce al tiratore di fare un passo avanti e limita la rotazione del fucile.",
+    "basics-stance-p3": "L'indicazione chiave: punta il piede anteriore verso il {{term:break-point|punto di rottura}}, il punto in cui prevedi di rompere il piattello. Così, al momento del colpo, il corpo è rilassato e già rivolto nella direzione giusta. Prima di chiamare, ruota il busto all'indietro dai fianchi verso l'{{term:hold-point|punto di attesa}}, dove le canne aspettano il piattello. Quando il piattello parte, ti basta tornare indietro per la stessa strada, come una molla che si scarica. Se invece i piedi puntano verso la {{term:trap|macchina}}, avvertono gli istruttori, il busto non riesce a ruotare a sufficienza per arrivare al punto di rottura, e il fucile si ferma o la testa si alza.",
     "basics-stance-p2": "La base abituale: piedi più o meno alla larghezza delle spalle; per un destrimane il piede sinistro leggermente avanti (un mancino fa il contrario); ginocchia morbide, non bloccate; peso leggermente in avanti, circa il 60 per cento sul piede anteriore. Gli istruttori dicono «nose over toes», il naso sopra le punte dei piedi.",
     "basics-stance-p4": "Il corpo ruota dai fianchi, non dalle braccia. I piedi possono essere posizionati in modo leggermente diverso per ogni piattello.",
     "technique-stance-balance": "Una buona posizione mantiene l'equilibrio mentre il busto ruota insieme al piattello. Un leggero appoggio in avanti aiuta anche ad assorbire il {{term:recoil|rinculo}} invece di farsi spingere all'indietro; vedi {{lesson:health-recoil-shoulder-neck}}.",
@@ -76,22 +76,22 @@
     "basics-stance-q1": {
       "q": "Verso dove l'istruttore chiede di solito di orientare il piede anteriore?",
       "options": {
-        "a": "Verso la macchina",
+        "a": "Verso la {{term:trap|macchina}}",
         "b": "Verso il punto di presa (visiva)",
         "c": "Verso l'arbitro",
-        "d": "Verso il punto di rottura"
+        "d": "Verso il {{term:break-point|punto di rottura}}"
       },
       "explain": "I piedi orientati verso il punto di rottura lasciano il corpo libero di muoversi proprio dove avviene il colpo. Se i piedi guardano verso la macchina, il corpo non riesce a ruotare a sufficienza per arrivare al punto di rottura, e il fucile si ferma o la testa si alza."
     },
     "basics-stance-q2": {
       "q": "Che cosa richiede il regolamento del {{tm:sporting}} per i piedi prima della chiamata?",
       "options": {
-        "a": "Entrambi i piedi dentro la pedana",
-        "b": "Il piede anteriore sulla linea della pedana",
+        "a": "Entrambi i piedi dentro la {{term:shooting-stand|pedana}}",
+        "b": "Il piede anteriore sulla linea della {{term:shooting-stand|pedana}}",
         "c": "Piedi uniti",
         "d": "Nessun requisito"
       },
-      "explain": "La regola sulla posizione di attesa chiede che entrambi i piedi siano dentro la pedana di 1 m prima che il tiratore chiami."
+      "explain": "La regola sulla {{term:ready-position|posizione di attesa}} chiede che entrambi i piedi siano dentro la pedana di 1 m prima che il tiratore chiami."
     },
     "basics-stance-q3": {
       "q": "Un tiratore mancino. L'istruttore dice «Open your front foot». Di quale piede si tratta?",
@@ -113,7 +113,7 @@
       "explain": "Un tiratore destrorso mette il piede sinistro leggermente avanti, un tiratore sinistrorso il destro."
     },
     "technique-stance-q2": {
-      "q": "Per quale punto bisogna impostare la posizione dei piedi?",
+      "q": "Per quale punto bisogna impostare la {{term:stance|posizione dei piedi}}?",
       "options": {
         "a": "Per il punto dove si trova la macchina",
         "b": "Per il punto di rottura",
@@ -124,14 +124,14 @@
     "technique-stance-q3": {
       "q": "Dove devono trovarsi i piedi del tiratore in {{tm:sporting}} prima della chiamata?",
       "options": {
-        "a": "Ovunque vicino alla pedana",
-        "b": "Entrambi dentro la pedana",
+        "a": "Ovunque vicino alla {{term:shooting-stand|pedana}}",
+        "b": "Entrambi dentro la {{term:shooting-stand|pedana}}",
         "c": "Un piede dentro, uno fuori"
       },
       "explain": "Il regolamento {{tm:sporting}} richiede che entrambi i piedi siano dentro la pedana prima della chiamata."
     }
   },
   "title": "La posizione: come stare sulla pedana",
-  "summary": "Piedi, peso, ginocchia e rotazione del busto: una posizione semplice e compatta che permette di muovere il fucile con fluidità seguendo il piattello.",
+  "summary": "Piedi, peso, ginocchia e rotazione del busto: una {{term:stance|posizione}} semplice e compatta che permette di muovere il fucile con fluidità seguendo il piattello.",
   "did_you_know": "Su una pedana {{tm:compak}} il limitatore dell'angolo di tiro è spesso una semplice struttura di tubi di plastica colorati. Limita quanto il fucile può ruotare lateralmente, verso l'alto e verso il basso."
 }

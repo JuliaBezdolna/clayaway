@@ -31,20 +31,20 @@
     "origin": "pl-wave-2026-10"
   },
   "title": "Planowanie wyjazdu",
-  "summary": "Zgłoszenie, nocleg blisko strzelnicy, transfery, dokumenty i wcześniejszy przyjazd: z czego składa się dobrze zaplanowany wyjazd na zawody {{tm:sporting}} albo {{tm:compak}}.",
+  "summary": "{{term:entry|Zgłoszenie}}, nocleg blisko strzelnicy, transfery, dokumenty i wcześniejszy przyjazd: z czego składa się dobrze zaplanowany wyjazd na zawody {{tm:sporting}} albo {{tm:compak}}.",
   "body": {
     "travel-planning-trip-p1": "Wyjazd na zawody {{tm:sporting}} albo {{tm:compak}} zaczyna się od ich programu. Znajdziecie w nim daty, dyscypliny, termin {{term:entry|zgłoszenia}} i wysokość {{term:entry-fee|wpisowego}}. Zgłaszacie się przez {{term:organiser|organizatora}}. Popularne zawody mogą się zapełnić na długo przed terminem, więc nie zwlekajcie.",
     "travel-planning-trip-p2": "Szukajcie noclegu blisko strzelnicy. Strzelanie często zaczyna się wcześnie, a codzienny długi dojazd zabiera siły. Organizatorzy często polecają hotele partnerskie. Rezerwujcie z wyprzedzeniem i zapytajcie w hotelu, czy przyjmuje gości z bronią sportową i gdzie można ją bezpiecznie przechowywać.",
     "travel-planning-trip-p3": "Zaplanujcie transfery: z lotniska do hotelu i codziennie z hotelu na strzelnicę. Wynajęty samochód daje swobodę, ale przewóz broni samochodem ma własne przepisy w każdym kraju. Taksówka może odmówić zabrania pasażera z bronią, a na niektórych zawodach jeździ shuttle dla strzelców.",
     "travel-planning-trip-p4": "Najdłużej trwa przygotowanie dokumentów na broń i naboje. Zacznijcie kilka tygodni wcześniej, a na wyjazd poza UE — jeszcze wcześniej: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} i {{lesson:travel-flying-with-guns}}. Jeśli zabranie własnej broni jest zbyt skomplikowane, zapytajcie na strzelnicy, czy wypożycza broń.",
     "travel-planning-trip-p5": "Starajcie się przyjechać dzień lub dwa wcześniej. {{term:shooting-times|Godziny strzelania}} podaje się w czasie lokalnym. Po przelocie przez kilka stref czasowych organizm może potrzebować więcej dni: zob. {{lesson:travel-jet-lag}}.",
-    "travel-planning-trip-p8": "Wcześniejszy przyjazd to też czas na trening. To, gdzie można trenować, zależy od dyscypliny.",
+    "travel-planning-trip-p8": "Wcześniejszy przyjazd to też czas na {{term:practice|trening}}. To, gdzie można trenować, zależy od dyscypliny.",
     "travel-planning-trip-p6": {
       "sporting": "Przed zawodami nikt nie może trenować na zawodniczych {{term:layout|osiach}} — stanowiskach przygotowanych na te zawody. Można trenować na innych częściach strzelnicy ({{rule:sporting:ch15-no-practice}}).",
       "compak": "Można trenować na tych samych torach (trajektoriach) rzutków co na zawodach, ale według innej {{term:trajectory-setting-table|tabeli ustawień}}: planu, który maszyny rzucają z którego stanowiska. Dzięki temu nie trenujecie właśnie tej kombinacji, którą będziecie strzelać na zawodach ({{rule:compak:ch6-practice}}). Na {{term:championship|mistrzostwach}} kontynentu i świata oficjalny {{term:practice|trening}} otwiera się {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
     },
-    "travel-planning-trip-p7": "W każdy dzień strzelania bądźcie na strzelnicy z wyprzedzeniem, bo {{term:lateness|spóźnienie}} oznacza utracone rzutki. W {{tm:sporting}} rzutki, na które się nie zdążyło, liczy się jako zera ({{rule:sporting:ch16-late-shooter}}). W {{tm:compak}} jest ostrzej: spóźniony strzelec dostaje 25 zer — całą serię. Gdy strzelacie w {{term:squad|grupie}} (razem przechodzi przez serię), za spóźnienie liczy się przyjście po tym, jak pierwszy strzelec grupy już zawołał pierwszy rzutek ({{rule:compak:ch9-late-squad}}).",
-    "travel-planning-trip-tip": "Krótka checklista: dokumenty, ubezpieczenie, ochronniki słuchu i wzroku, ubranie na pogodę, program w czasie lokalnym i kontakt do organizatora. Zapas czasu to też dobre ubezpieczenie."
+    "travel-planning-trip-p7": "W każdy dzień strzelania bądźcie na strzelnicy z wyprzedzeniem, bo {{term:lateness|spóźnienie}} oznacza utracone rzutki. W {{tm:sporting}} rzutki, na które się nie zdążyło, liczy się jako zera ({{rule:sporting:ch16-late-shooter}}). W {{tm:compak}} jest ostrzej: spóźniony strzelec dostaje 25 zer — całą serię. Gdy strzelacie w {{term:squad|grupie}}, która razem przechodzi przez serię, za spóźnienie liczy się przyjście po tym, jak pierwszy strzelec grupy już zawołał pierwszy rzutek ({{rule:compak:ch9-late-squad}}).",
+    "travel-planning-trip-tip": "Krótka checklista: dokumenty, ubezpieczenie, {{term:hearing-protection|ochronniki słuchu}} i wzroku, ubranie na pogodę, program w czasie lokalnym i kontakt do organizatora. Zapas czasu to też dobre ubezpieczenie."
   },
   "note": {},
   "phrases": {},
@@ -59,7 +59,7 @@
   "did_you_know": "Godziny strzelania mogą się przesuwać w trakcie zawodów, jeśli są opóźnienia. W {{tm:compak}} przepisy nakładają na samego strzelca obowiązek śledzenia tych zmian ({{rule:compak:ch8-shooting-times}}).",
   "quiz": {
     "travel-planning-trip-q1": {
-      "q": "Które stwierdzenie o treningu przed zawodami jest prawdziwe?",
+      "q": "Które stwierdzenie o {{term:practice|treningu}} przed zawodami jest prawdziwe?",
       "options": {
         "a": "W {{tm:sporting}} można trenować na osiach zawodniczych",
         "b": "W {{tm:compak}} nie można wcale trenować przed zawodami",

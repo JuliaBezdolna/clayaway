@@ -36,14 +36,14 @@
     "lead-pull-away-p2": [
       "«On it» (no prato): a arma é montada sobre o prato ou sobre a sua aresta da frente; os canos tocam-lhe na sua linha.",
       "«With it» (com o prato): os canos acompanham o prato por um momento à sua velocidade, ajustando a linha e o ritmo.",
-      "«Pull away» (sair): a arma acelera suavemente para a frente até aparecer a imagem de avanço certa.",
-      "«Shoot» (disparar): o gatilho é premido com a arma ainda a acelerar ou em movimento.",
+      "«Pull away» (sair): a arma acelera suavemente para a frente até aparecer a imagem de {{term:lead|avanço}} certa.",
+      "«Shoot» (disparar): o {{term:trigger|gatilho}} é premido com a arma ainda a acelerar ou em movimento.",
       "Acompanhamento: a arma continua depois do tiro."
     ],
-    "lead-pull-away-p3": "Pontos fortes: acompanhar o prato por um momento antes de avançar à frente dele dá-lhe a sensação da sua velocidade, distância e linha antes de disparar, por isso os canos mantêm-se bem na linha. Adequa-se a pratos compridos, em diagonal (que voam em ângulo, a afastar-se ou a aproximar-se) e ascendentes. Por causa da aceleração, o avanço que se vê é menor do que no avanço mantido.",
+    "lead-pull-away-p3": "Pontos fortes: acompanhar o prato por um momento antes de avançar à frente dele dá-lhe a sensação da sua velocidade, distância e linha antes de disparar, por isso os canos mantêm-se bem na linha. Adequa-se a pratos compridos, em diagonal (que voam em ângulo, a afastar-se ou a aproximar-se) e ascendentes. Por causa da aceleração, o avanço que se vê é menor do que no {{term:maintained-lead|avanço mantido}}.",
     "lead-pull-away-p4": "Pontos fracos: a aceleração necessária varia de prato para prato, por isso é preciso prática para a sentir. Acompanhar tempo demais torna-se «riding the target» (ir à boleia do prato), e parar o impulso dá uma falha atrás.",
     "lead-pull-away-p5": "Os treinadores dizem «touch it and go» (toque e saia), «mount on it and push out» (monte no prato e empurre para a frente), ou o compasso de quatro tempos «on it, with it, pull away, shoot».",
-    "lead-pull-away-sim": "Animação: as bocas dos canos acompanham o prato e depois aceleram para a frente. O disparo acontece enquanto a arma ainda está a acelerar, por isso o avanço que vê é menor do que o avanço real."
+    "lead-pull-away-sim": "Animação: as bocas dos canos acompanham o prato e depois aceleram para a frente. O disparo acontece enquanto a arma ainda está a acelerar, por isso o {{term:lead|avanço}} que vê é menor do que o avanço real."
   },
   "note": {
     "lead-pull-away-n1": "Mantenha o ritmo de quatro tempos ao traduzir: importa mais do que as palavras exatas."
@@ -75,7 +75,7 @@
   "did_you_know": null,
   "quiz": {
     "lead-pull-away-q1": {
-      "q": "No pull-away, o que acontece mesmo antes de se carregar no gatilho?",
+      "q": "No pull-away, o que acontece mesmo antes de se carregar no {{term:trigger|gatilho}}?",
       "options": {
         "a": "A arma para sobre o prato",
         "b": "A arma acelera para a frente do prato",
@@ -95,7 +95,7 @@
       "explain": "«Riding the target» é seguir o prato demasiado tempo, de modo que ele abranda, cai ou escapa, e a linha perde-se."
     },
     "lead-pull-away-q3": {
-      "q": "Comparado com o avanço mantido, o avanço percebido no pull-away costuma ser…",
+      "q": "Comparado com o {{term:maintained-lead|avanço mantido}}, o {{term:perceived-lead|avanço percebido}} no pull-away costuma ser…",
       "options": {
         "a": "menor, porque a aceleração acrescenta avanço",
         "b": "maior, porque a arma arranca sobre o prato",

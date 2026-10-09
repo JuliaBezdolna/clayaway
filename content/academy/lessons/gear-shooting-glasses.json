@@ -121,7 +121,7 @@
       "k": "gear-shooting-glasses-p3",
       "t": "p",
       "en": "{{term:lens-tint|Lens colour}} will not make you a better shot, but it can help you see the target against a particular background. Many shooters use yellow in dull weather, fog and at dusk, and orange as an all-rounder. Purple can make an orange target brighter against trees and grass, and grey smoke cuts brightness in strong sun without changing colours.",
-      "uk": "{{term:lens-tint|Колір лінзи}} не зробить вас влучнішим, але може допомогти краще бачити мішень на певному тлі. Багато стрільців беруть жовту лінзу в похмуру погоду, туман і сутінки, а помаранчеву — як універсальну. Фіолетова може робити помаранчеву мішень яскравішою на тлі дерев і трави, а сіра димчаста (smoke) зменшує яскравість на сильному сонці, не змінюючи кольорів."
+      "uk": "{{term:lens-tint|Колір лінзи}} не зробить вас влучнішим, але може допомогти краще бачити {{term:target|мішень}} на певному тлі. Багато стрільців беруть жовту лінзу в похмуру погоду, туман і сутінки, а помаранчеву — як універсальну. Фіолетова може робити помаранчеву мішень яскравішою на тлі дерев і трави, а сіра димчаста (smoke) зменшує яскравість на сильному сонці, не змінюючи кольорів."
     },
     {
       "k": "gear-shooting-glasses-p4",
@@ -133,14 +133,14 @@
       "k": "gear-shooting-glasses-p5",
       "t": "p",
       "en": "Shooting glasses have a special shape. When you mount the gun, your head tilts slightly onto the stock and you look through the upper part of the lens. That is why frames have a high bridge (the part that rests on your nose) and large lenses, so that your field of view is not cut off.",
-      "uk": "Стрілецькі окуляри мають особливу форму. Коли ви вкладаєте рушницю, голова трохи нахиляється до приклада, і ви дивитеся крізь верхню частину лінзи. Тому оправи роблять із високим переніссям і великими лінзами, щоб поле зору не обрізалося."
+      "uk": "Стрілецькі окуляри мають особливу форму. Коли ви вкладаєте рушницю, голова трохи нахиляється до {{term:stock|приклада}}, і ви дивитеся крізь верхню частину лінзи. Тому оправи роблять із високим переніссям і великими лінзами, щоб поле зору не обрізалося."
     },
     {
       "k": "health-eyes-vision-p4",
       "t": "p",
       "anchor": "health-eyes-vision",
       "en": "If you wear glasses for your eyesight, there are two main routes. One is shooting glasses with prescription lenses, ordered from an optician who knows sports eyewear. The other is a frame with a separate {{term:prescription-insert|prescription insert}} behind interchangeable tinted lenses.",
-      "uk": "Якщо ви носите окуляри для зору, є два основні шляхи. Перший — стрілецькі окуляри з лінзами з діоптріями, замовлені в оптика, який знає спортивну оптику. Другий — оправа з окремою {{term:prescription-insert|вставкою з діоптріями}} (prescription insert) за змінними кольоровими лінзами."
+      "uk": "Якщо ви носите окуляри для зору, є два основні шляхи. Перший — стрілецькі окуляри з лінзами з діоптріями, замовлені в оптика, який знає спортивну оптику. Другий — оправа з окремою {{term:prescription-insert|вставкою з діоптріями}} за змінними кольоровими лінзами."
     },
     {
       "k": "health-eyes-vision-p8",
@@ -152,7 +152,7 @@
       "k": "health-eyes-vision-p5",
       "t": "p",
       "en": "A shooter looks at a target in the distance, so sharp distance vision matters most. From about the age of 40 many people develop presbyopia: close-up vision gets harder and the {{term:bead|bead}} may blur.",
-      "uk": "Стрілець дивиться на мішень удалину, тож найважливіший — гострий зір на відстань. Приблизно після 40 років у багатьох людей розвивається вікова далекозорість (пресбіопія): стає важче бачити зблизька, і {{term:bead|мушка}} може розпливатися."
+      "uk": "Стрілець дивиться на мішень удалину, тож найважливіший — гострий зір на відстань. Приблизно після 40 років у багатьох людей розвивається {{term:presbyopia|вікова далекозорість}}: стає важче бачити зблизька, і {{term:bead|мушка}} може розпливатися."
     },
     {
       "k": "gear-shooting-glasses-bead-coaches",
@@ -345,7 +345,7 @@
       "k": "health-eyes-vision-q2",
       "q": {
         "en": "What is a prescription insert?",
-        "uk": "Що таке вставка з діоптріями (prescription insert)?"
+        "uk": "Що таке {{term:prescription-insert|вставка з діоптріями}}?"
       },
       "options": [
         {
@@ -406,7 +406,7 @@
       "correct": "c",
       "explain": {
         "en": "Eye dominance can weaken or change with age, which can shift your shots; check it with your coach.",
-        "uk": "Домінантність ока з віком може слабшати чи змінюватися, і постріли зсуваються; перевірте її з тренером."
+        "uk": "Домінантність ока з віком може слабшати чи змінюватися, і постріли зсуваються; перевірте її з {{term:coach|тренером}}."
       }
     }
   ],

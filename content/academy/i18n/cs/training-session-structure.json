@@ -29,12 +29,12 @@
     "origin": null
   },
   "title": "Jak si postavit strukturu tréninku",
-  "summary": "Plán jednoho tréninku: krátká rozcvička, jeden až dva typy terčů, dvojstřely až po jednotlivých terčích a závěr na terčích, které už jdou.",
+  "summary": "Plán jednoho tréninku: krátká rozcvička, jeden až dva typy terčů, {{term:double|dvojstřely}} až po {{term:single-target|jednotlivých terčích}} a závěr na terčích, které už jdou.",
   "body": {
-    "training-session-structure-p1": "Trénink s plánem obvykle přinese víc než střelba po všem, co je na střelišti zrovna k dispozici. Bez plánu se unavíte dřív a opakujete tytéž chyby. S trenérem plán obvykle sestavuje on, ale je užitečné vědět, z čeho se trénink skládá.",
+    "training-session-structure-p1": "Trénink s plánem obvykle přinese víc než střelba po všem, co je na střelišti zrovna k dispozici. Bez plánu se unavíte dřív a opakujete tytéž chyby. S {{term:coach|trenérem}} plán obvykle sestavuje on, ale je užitečné vědět, z čeho se trénink skládá.",
     "training-session-structure-p2": "Začněte {{term:warm-up|rozcvičkou}}: lehký pohyb pro krk, ramena, záda a zápěstí, a pak pár jednoduchých terčů, abyste se dostali do rytmu. Díky tomu bude pohyb pravděpodobněji plynulý už od prvního terče. Jak na to: {{lesson:mind-warm-up-mobility}}.",
-    "training-session-structure-p3": "Hlavní část je obvykle jeden nebo dva typy terčů, tedy jedna nebo dvě {{term:trajectory|dráhy letu}} (trasy, kterými terče letí), které střílíte znovu a znovu. Dnes to může být třeba {{term:crosser|přeletový terč}} zleva doprava, letící před vámi, a {{term:incomer|příletový terč}}, letící na vás. Každý z nich vystřelíte mnohokrát. Trenér přitom opravuje váš postoj, {{term:hold-point|bod držení zbraně}} (kde hlavně čekají, zatímco voláte) a způsob, jak odtud vedete zbraň na terč. Hluboká práce na jednom typu terče dá začátečníkovi často víc než po jednom výstřelu na dvacet různých terčů. Jakmile terč jde dobře, dalším krokem je míchat ho s jinými, jako na závodě.",
-    "training-session-structure-p4": "{{term:double|Dvojstřely}} přicházejí až po jednotlivých terčích. Nejprve rozbijte každý terč dvojstřelu samostatně jako {{term:single-target|jednotlivý terč}}. Pak je střílejte společně: už víte, kde rozbijete každý z nich, takže druhý nemusíte hledat.",
+    "training-session-structure-p3": "Hlavní část je obvykle jeden nebo dva typy terčů, tedy jedna nebo dvě {{term:trajectory|dráhy letu}}, které střílíte znovu a znovu. Dnes to může být třeba {{term:crosser|přeletový terč}} zleva doprava, letící před vámi, a {{term:incomer|příletový terč}}, letící na vás. Každý z nich vystřelíte mnohokrát. Trenér přitom opravuje váš postoj, {{term:hold-point|bod držení zbraně}}, kde hlavně čekají, zatímco voláte, a způsob, jak odtud vedete zbraň na terč. Hluboká práce na jednom typu terče dá začátečníkovi často víc než po jednom výstřelu na dvacet různých terčů. Jakmile terč jde dobře, dalším krokem je míchat ho s jinými, jako na závodě.",
+    "training-session-structure-p4": "{{term:double|Dvojstřely}} přicházejí až po {{term:single-target|jednotlivých terčích}}. Nejprve rozbijte každý terč dvojstřelu samostatně jako {{term:single-target|jednotlivý terč}}. Pak je střílejte společně: už víte, kde rozbijete každý z nich, takže druhý nemusíte hledat.",
     "training-session-structure-pressure": "Pokud se připravujete na závod, ke konci můžete přidat krátký úkol pod mírným tlakem, například pět terčů v řadě. Jak to postupně stupňovat, najdete v lekci {{lesson:training-for-competition}}.",
     "training-session-structure-p5": "Končete terči, které už jdou dobře. Z tréninku pak odcházíte s obrazem povedeného výstřelu, ne posledního minutí terče. Sebedůvěra je, jak často říkají trenéři, také součást techniky.",
     "training-session-structure-p6": "Po tréninku si věnujte pár minut rozboru, sami nebo s trenérem: co se povedlo, co ne, na čem pracovat příště. Zapište si to do {{term:training-diary|tréninkového deníku}}; jak ho vést, vysvětluje lekce {{lesson:training-diary-and-progress}}."
@@ -62,7 +62,7 @@
       "explain": "Mnozí trenéři zjišťují, že hluboká práce na jednom nebo dvou typech terčů přinese začátečníkovi víc pokroku než jednotlivé výstřely na mnoho terčů. Míchat terče se vyplatí později, jakmile už jdou dobře."
     },
     "training-session-structure-q2": {
-      "q": "Jak mnozí trenéři radí přistupovat ke dvojstřelu?",
+      "q": "Jak mnozí trenéři radí přistupovat k {{term:double|dvojstřelu}}?",
       "options": {
         "a": "Nejdřív rozbít každý terč samostatně, pak oba společně",
         "b": "Od začátku střílet oba terče společně",

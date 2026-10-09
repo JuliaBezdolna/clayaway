@@ -34,17 +34,17 @@
   "origin": "interpreter-academy"
  },
  "title": "Aufbau einer Patrone",
- "summary": "Hülse, Zündhütchen, Pulver, Zwischenmittel, Schrot und Bördelung: was in einer Wurfscheibenpatrone steckt, wie jeder Teil den Schuss beeinflusst, und welche Patronen die Regeln von {{tm:sporting}} und {{tm:compak}} verbieten.",
+ "summary": "{{term:hull|Hülse}}, {{term:primer|Zündhütchen}}, {{term:powder|Pulver}}, {{term:wad|Zwischenmittel}}, Schrot und {{term:crimp|Bördelung}}: was in einer Wurfscheibenpatrone steckt, wie jeder Teil den Schuss beeinflusst, und welche {{term:cartridge|Patronen|pl}} die Regeln von {{tm:sporting}} und {{tm:compak}} verbieten.",
  "body": {
-  "gear-cartridges-p1": "Eine {{term:cartridge|Patrone}} enthält alles für einen Schuss: die {{term:hull|Hülse}} mit Metallboden, das {{term:primer|Zündhütchen}}, {{term:powder|Pulver}}, das {{term:wad|Zwischenmittel}} und den Schrot. Schützen sagen auch Shell. „Leere Hülsen“ sind verschossene Hülsen.",
+  "gear-cartridges-p1": "Eine {{term:cartridge|Patrone}} enthält alles für einen Schuss: die {{term:hull|Hülse}} mit Metallboden, das {{term:primer|Zündhütchen}}, {{term:powder|Pulver}}, das {{term:wad|Zwischenmittel}} und den Schrot. Schützen sagen auch Shell. „{{term:empties|Leere Hülsen}}“ sind verschossene Hülsen.",
   "cartridges-anatomy-p2": "Die Hülse ist ein Röhrchen, meist aus Kunststoff, mit einem Metallboden unten. Es gibt auch Papierhülsen, und manche Schießstände bevorzugen sie, weil sie weniger Müll hinterlassen. Eine verschossene Hülse ist meist 65–70 mm lang und muss zum {{term:chamber|Patronenlager}} Ihrer Flinte passen (siehe {{lesson:gun-gauge-and-barrels}}).",
-  "cartridges-anatomy-p3": "In der Mitte des Bodens sitzt das Zündhütchen. Trifft der Schlagbolzen es, erzeugt das Zündhütchen einen Funken und entzündet das Pulver. Das Pulver explodiert nicht, sondern verbrennt sehr schnell, und die Gase treiben die Schrotladung den Lauf hinauf.",
+  "cartridges-anatomy-p3": "In der Mitte des Bodens sitzt das Zündhütchen. Trifft der Schlagbolzen es, erzeugt das Zündhütchen einen Funken und entzündet das Pulver. Das Pulver explodiert nicht, sondern verbrennt sehr schnell, und die Gase treiben die {{term:load-weight|Schrotladung}} den Lauf hinauf.",
   "cartridges-anatomy-p4": "Zwischen Pulver und Schrot sitzt das Zwischenmittel. Es wirkt wie ein Pfropfen: Es verhindert, dass heißes Gas an den Kugeln vorbeiströmt, dämpft den Stoß und hält die Kugeln zusammen, während sie den Lauf hinaufwandern. Ein Kunststoff-Zwischenmittel hat meist einen Becher, der die Kugeln schützt und oft eine etwas engere Deckung ergibt.",
   "cartridges-anatomy-p8": "Ein {{term:fibre-wad|Faser- oder Filzpfropfen}} zersetzt sich in der Natur, daher verlangen ihn viele Schießstände. Es gibt auch biologisch abbaubare Kunststoff-Zwischenmittel, aber manche Schießstände akzeptieren sie nicht.",
   "cartridges-anatomy-p5": "Über dem Zwischenmittel liegt der Schrot: mehrere hundert kleine Kugeln. Das obere Ende der Hülse wird durch die {{term:crimp|Bördelung}} verschlossen, meist einen Sternverschluss aus 6 oder 8 Falten. Eine gute Bördelung hält alles fest zusammen und hilft, dass jede Patrone gleich zündet wie die vorherige.",
-  "cartridges-anatomy-p6": "Die FITASC-Regeln von {{tm:sporting}} und {{tm:compak}} verbieten wiedergeladene Patronen, also verschossene Hülsen, die erneut gefüllt werden, zum Beispiel zu Hause. Sie verbieten auch Streuer (Einsätze, die den Schrot absichtlich breiter streuen) und jede andere Spezialvorrichtung im Inneren der Patrone. Gemischter Schrot unterschiedlicher Größen oder Qualitäten, Schwarzpulver und Leuchtspurpatronen (die eine glühende Spur hinterlassen) sind ebenfalls verboten. Bringen Sie für Wettkämpfe also Fabrikpatronen, die den Regeln entsprechen.",
-  "cartridges-anatomy-p7": "Die Schachtel zeigt meist Kaliber, Hülsenlänge, Ladung, Schrotnummer oder -durchmesser, Schrotmaterial und Zwischenmitteltyp, oft auch die Geschwindigkeit. Lernen Sie, die Schachtel zu lesen, und Sie wissen, was Sie laden.",
-  "gear-cartridges-p5": "Manche Schießstände fügen für das Training eigene Umweltregeln hinzu, etwa nur Faserpfropfen oder nur Stahlschrot: Prüfen Sie vor einer Fahrt die Regeln des Schießstands. Leere Hülsen kommen auf dem Standplatz in den Abfallbehälter, und Schützen mit Selbstladeflinten sammeln beim Verlassen ihre ausgeworfenen Hülsen ein.",
+  "cartridges-anatomy-p6": "Die FITASC-Regeln von {{tm:sporting}} und {{tm:compak}} verbieten {{term:reloaded-cartridge|wiedergeladene Patronen|pl}}, also verschossene Hülsen, die erneut gefüllt werden, zum Beispiel zu Hause. Sie verbieten auch Streuer (Einsätze, die den Schrot absichtlich breiter streuen) und jede andere Spezialvorrichtung im Inneren der Patrone. Gemischter Schrot unterschiedlicher Größen oder Qualitäten, Schwarzpulver und Leuchtspurpatronen (die eine glühende Spur hinterlassen) sind ebenfalls verboten. Bringen Sie für Wettkämpfe also Fabrikpatronen, die den Regeln entsprechen.",
+  "cartridges-anatomy-p7": "Die Schachtel zeigt meist {{term:gauge|Kaliber}}, Hülsenlänge, Ladung, {{term:shot-size|Schrotnummer}} oder -durchmesser, Schrotmaterial und Zwischenmitteltyp, oft auch die Geschwindigkeit. Lernen Sie, die Schachtel zu lesen, und Sie wissen, was Sie laden.",
+  "gear-cartridges-p5": "Manche Schießstände fügen für das Training eigene Umweltregeln hinzu, etwa nur Faserpfropfen oder nur {{term:steel-shot|Stahlschrot}}: Prüfen Sie vor einer Fahrt die Regeln des Schießstands. Leere Hülsen kommen auf dem Standplatz in den Abfallbehälter, und Schützen mit Selbstladeflinten sammeln beim Verlassen ihre ausgeworfenen Hülsen ein.",
   "cartridges-anatomy-p9": "Drei Zahlen auf der Schachtel haben eigene Lektionen: das Kaliber ({{lesson:gun-gauge-and-barrels}}), die Schrotgröße ({{lesson:cartridges-shot-size}}) und die Ladung ({{lesson:cartridges-load-weight}})."
  },
  "note": {},
@@ -54,7 +54,7 @@
    "say": "Leere Hülsen bitte in den Behälter, nicht ins Gras."
   },
   "gear-cartridges-ph4": {
-   "meaning": "Bleischrot ist auf dieser Anlage nicht erlaubt (eine örtliche Regel, keine der FITASC).",
+   "meaning": "{{term:lead-shot|Bleischrot}} ist auf dieser Anlage nicht erlaubt (eine örtliche Regel, keine der FITASC).",
    "say": "Auf dieser Anlage nur Stahlschrot."
   }
  },
@@ -63,19 +63,19 @@
   "cartridges-anatomy-kp2": "Kunststoff-Zwischenmittel: oft eine etwas engere Deckung; Faserpfropfen: zersetzt sich in der Natur.",
   "cartridges-anatomy-kp4": "Die FITASC verbietet wiedergeladene Patronen, Streuer, gemischten Schrot, Schwarzpulver und Leuchtspurpatronen.",
   "cartridges-anatomy-kp5": "Lesen Sie die Schachtel: Kaliber, Länge, Ladung, Schrot, Zwischenmittel.",
-  "gear-cartridges-kp5": "Leere Hülsen in den Behälter; Schützen mit Selbstlader sammeln ihre Hülsen ein."
+  "gear-cartridges-kp5": "Leere Hülsen in den Behälter; Schützen mit {{term:semi-automatic|Selbstlader}} sammeln ihre Hülsen ein."
  },
  "did_you_know": "Nach dem Schuss fliegt ein Kunststoff-Zwischenmittel noch einige Dutzend Meter über den Standplatz hinaus. Deshalb können die Felder um alte Schießstände voller Zwischenmittel sein, während sich Faser allmählich zersetzt.",
  "quiz": {
   "cartridges-anatomy-q1": {
-   "q": "Was entzündet das Pulver in einer Patrone?",
+   "q": "Was entzündet das {{term:powder|Pulver}} in einer {{term:cartridge|Patrone}}?",
    "options": {
     "a": "Das Zwischenmittel",
     "b": "Das Zündhütchen",
     "c": "Die Bördelung",
     "d": "Der Schrot"
    },
-   "explain": "Der Schlagbolzen trifft das Zündhütchen, das das Pulver entzündet."
+   "explain": "Der Schlagbolzen trifft das {{term:primer|Zündhütchen}}, das das Pulver entzündet."
   },
   "cartridges-anatomy-q2": {
    "q": "Warum verlangen viele Schießstände Faserpfropfen?",
@@ -85,23 +85,23 @@
     "c": "Sie zersetzen sich in der Natur",
     "d": "Die FITASC verlangt das"
    },
-   "explain": "Faser und Filz zersetzen sich, während gewöhnliche Kunststoff-Zwischenmittel jahrelang auf den Feldern bleiben."
+   "explain": "Faser und Filz zersetzen sich, während gewöhnliche {{term:wad|Zwischenmittel}} aus Kunststoff jahrelang auf den Feldern bleiben."
   },
   "cartridges-anatomy-q3": {
-   "q": "Welche Patronen verbieten die FITASC-Regeln?",
+   "q": "Welche {{term:cartridge|Patronen|pl}} verbieten die FITASC-Regeln?",
    "options": {
-    "a": "Fabrikladungen mit Kunststoff-Zwischenmittel",
+    "a": "Fabrikladungen mit {{term:wad|Zwischenmitteln|pl}} aus Kunststoff",
     "b": "Fabrikladungen mit Faserpfropfen",
     "c": "Patronen mit Papierhülse",
-    "d": "Wiedergeladene Patronen"
+    "d": "{{term:reloaded-cartridge|Wiedergeladene Patronen|pl}}"
    },
    "explain": "Wiedergeladene Patronen, Streuer, gemischter Schrot, Schwarzpulver und Leuchtspurpatronen sind verboten."
   },
   "cartridges-anatomy-q4": {
-   "q": "Was ist die Bördelung einer Patrone?",
+   "q": "Was ist die {{term:crimp|Bördelung}} einer {{term:cartridge|Patrone}}?",
    "options": {
-    "a": "Der gefaltete obere Teil, der die Hülse verschließt",
-    "b": "Der Metallboden mit dem Zündhütchen",
+    "a": "Der gefaltete obere Teil, der die {{term:hull|Hülse}} verschließt",
+    "b": "Der Metallboden mit dem {{term:primer|Zündhütchen}}",
     "c": "Der Becher, der die Kugeln hält",
     "d": "Die auf die Schachtel gedruckte Zahl"
    },

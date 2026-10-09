@@ -32,12 +32,12 @@
   "title": "Où se placer et quand parler",
   "summary": "Où se place un interprète à l'entraînement et en compétition, quel mode d'interprétation convient à quel moment, et pourquoi vous ne parlez que lorsque le fusil est ouvert.",
   "body": {
-    "interpreter-position-p1": "À l'entraînement, placez-vous directement derrière le tireur, à côté de l'{{term:coach|entraîneur}}, derrière le {{term:shooting-stand|poste}} ou la {{term:cage|cage}}, et hors de toute ligne des canons. De là, vous voyez ce que voit l'entraîneur, le plateau et les bouches des canons ensemble, et l'entraîneur peut vous parler à voix basse. À côté du tireur, vous êtes près du mouvement du fusil et des douilles éjectées, et personne ne doit se tenir devant le poste, quoi qu'il arrive.",
-    "interpreter-position-p2": "Choisissez le mode selon le moment. L'{{term:consecutive-interpreting|interprétation consécutive}} (l'entraîneur parle, fait une pause, vous parlez) convient au briefing de sécurité, aux déplacements entre les postes et au débriefing. L'interprétation chuchotée, le {{term:chuchotage|chuchotage}}, permet à l'entraîneur de continuer à parler pendant que vous chuchotez à l'oreille du tireur, par-derrière. Cela fonctionne avec des {{term:hearing-protection|protections auditives}} électroniques ; avec des protections passives, attendez que le fusil soit ouvert et que le tireur puisse vous entendre. Chuchoter est fatigant, alors alternez les deux modes. Convenez d'un signe « pause, je traduis », par exemple une paume levée.",
+    "interpreter-position-p1": "À l'entraînement, placez-vous directement derrière le tireur, à côté du {{term:coach|entraîneur}}, derrière le {{term:shooting-stand|poste}} ou la {{term:cage|cage}}, et hors de toute ligne des canons. De là, vous voyez ce que voit l'entraîneur, le plateau et les {{term:muzzle|bouches}} des canons ensemble, et l'entraîneur peut vous parler à voix basse. À côté du tireur, vous êtes près du mouvement du fusil et des {{term:hull|douilles}} éjectées, et personne ne doit se tenir devant le poste, quoi qu'il arrive.",
+    "interpreter-position-p2": "Choisissez le mode selon le moment. Le {{term:consecutive-interpreting|interprétation consécutive}} — l'entraîneur parle, fait une pause, vous parlez — convient au briefing de sécurité, aux déplacements entre les postes et au débriefing. L'interprétation chuchotée, le {{term:chuchotage|chuchotage}}, permet à l'entraîneur de continuer à parler pendant que vous chuchotez à l'oreille du tireur, par-derrière. Cela fonctionne avec des {{term:electronic-ear-muffs|protections auditives électroniques}} ; avec des protections passives, attendez que le fusil soit ouvert et que le tireur puisse vous entendre. Chuchoter est fatigant, alors alternez les deux modes. Convenez d'un signe « pause, je traduis », par exemple une paume levée.",
     "interpreter-position-p3": "Le moment compte le plus. La {{term:pre-shot-routine|routine}} du tireur se termine par le coup de feu, et quand le fusil se referme, elle est déjà bien engagée. Alors ne parlez que lorsque le fusil est ouvert : entre les plateaux, entre les doublés, après le poste. Entre les doublés, répétez les consignes courtes de l'entraîneur dans votre langue, tout aussi courtes, par exemple « plus devant », « tête baissée » ou « pareil ». Gardez les explications longues pour plus tard. À l'entraînement, beaucoup d'entraîneurs gardent le rythme de la compétition. En compétition, un tireur de {{tm:sporting}} a {{fact:rules.sporting-time-between-targets}}. En {{tm:compak}}, le tireur a {{fact:rules.compak-time-to-call}}. Soyez bref, pour que le tireur puisse s'entraîner à ce rythme.",
     "interpreter-position-signals": "Apprenez les {{term:hand-signal|signes de la main}} de l'entraîneur au début et traduisez-les une fois pour vos invités. Après cela, ils auront moins besoin de vous, et c'est bon signe.",
     "interpreter-position-ph5": "Pas sûr de ce qu'a dit l'entraîneur ? Reposez la question avec les deux options entendues : « Sorry — did you say 'under it' or 'on it'? » C'est plus rapide que « Could you repeat that? ».",
-    "interpreter-position-p4": "En compétition, attendez là où attend la {{term:squad|planche}}, à la {{term:waiting-position|position d'attente}} proche du poste, mais sans gêner le tireur. Si l'arbitre voit qu'un tireur a été clairement perturbé, le plateau est déclaré {{term:no-bird|No bird}} et relancé. Personne ne veut en être la cause, alors gardez le {{term:quiet-on-stand|silence}} tant que quelqu'un tire."
+    "interpreter-position-p4": "En compétition, attendez là où attend le {{term:squad|planche}}, à la {{term:waiting-position|position d'attente}} proche du poste, mais sans gêner le tireur. Si l'arbitre voit qu'un tireur a été clairement perturbé, le plateau est déclaré {{term:no-bird|No bird}} et relancé. Personne ne veut en être la cause, alors respectez le {{term:quiet-on-stand|silence sur le poste}} tant que quelqu'un tire."
   },
   "note": {},
   "phrases": {
@@ -67,12 +67,12 @@
   },
   "quiz": {
     "interpreter-position-q1": {
-      "q": "Où devez-vous vous tenir pendant une séance d'entraînement sur un poste de {{tm:sporting}} ?",
+      "q": "Où devez-vous vous tenir pendant une séance d'entraînement sur un {{term:shooting-stand|poste}} de {{tm:sporting}} ?",
       "options": {
         "a": "À côté du tireur, pour voir ses yeux",
-        "b": "Derrière le tireur, à côté de l'entraîneur",
+        "b": "Derrière le tireur, à côté du {{term:coach|entraîneur}}",
         "c": "Devant la cage, face à lui",
-        "d": "Près du lanceur, pour voir le plateau"
+        "d": "Près du {{term:trap|lanceur}}, pour voir le plateau"
       },
       "explain": "De l'arrière, hors de la ligne des canons, vous voyez ce que voit l'entraîneur et restez en sécurité ; à côté ou devant est dangereux."
     },
@@ -81,10 +81,10 @@
       "options": {
         "a": "Interpréter après une pause de l'orateur",
         "b": "Une traduction écrite des règlements",
-        "c": "Traduire les signes de la main de l'entraîneur",
+        "c": "Traduire les signes de la main du entraîneur",
         "d": "Chuchoter la traduction à l'oreille"
       },
-      "explain": "Le chuchotage consiste à chuchoter la traduction à l'oreille du tireur pendant que l'entraîneur continue de parler. L'interprétation consécutive est le mode « pause puis parole » : l'entraîneur dit une phrase, s'arrête, et vous la traduisez."
+      "explain": "Le chuchotage consiste à chuchoter la traduction à l'oreille du tireur pendant que l'entraîneur continue de parler. Le {{term:consecutive-interpreting|interprétation consécutive}} est le mode « pause puis parole » : l'entraîneur dit une phrase, s'arrête, et vous la traduisez."
     },
     "interpreter-position-q3": {
       "q": "En {{tm:compak}}, combien de temps un tireur a-t-il pour annoncer après que le plateau du pas précédent a été tiré ?",

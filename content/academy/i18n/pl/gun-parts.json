@@ -38,16 +38,16 @@
     "origin": "interpreter-academy"
   },
   "title": "Części strzelby",
-  "summary": "Kolba, baskila, czółenko, lufy, szyna i czoki: nazwy głównych części boku, byś rozumiał trenera i rusznikarza w {{tm:sporting}} i {{tm:compak}}.",
+  "summary": "{{term:stock|Kolba}}, {{term:receiver|baskila}}, {{term:fore-end|czółenko}}, lufy, {{term:rib|szyna}} i czoki: nazwy głównych części boku, byś rozumiał trenera i {{term:gunsmith|rusznikarza}} w {{tm:sporting}} i {{tm:compak}}.",
   "body": {
-    "gear-gun-parts-p1": "Trenerzy bez przerwy nazywają części broni, więc poznajmy je od ramienia do wylotu lufy {{term:over-and-under|boku}} — najczęstszej broni zawodniczej. {{term:stock|Kolba}} opiera się o ramię. Jej górna krawędź, na której leży policzek, to {{term:comb|grzbiet kolby}}; „raise the comb” albo „drop the comb” dotyczy {{term:gun-fit|dopasowania strzelby}}. Wąska część trzymana ręką spustową to {{term:grip|chwyt pistoletowy}}, a gumowa nakładka na końcu to {{term:recoil-pad|stopka}}.",
-    "gun-parts-p2": "Kolbę robi się z drewna albo materiału kompozytowego. Stopka łagodzi poczucie wystrzału, a stopki czy przekładki różnej grubości zmieniają długość kolby.",
+    "gear-gun-parts-p1": "Trenerzy bez przerwy nazywają części broni, więc poznajmy je od ramienia do {{term:muzzle|wylotu lufy}}, na przykładzie {{term:over-and-under|boku}} — najczęstszej broni zawodniczej. {{term:stock|Kolba}} opiera się o ramię. Jej górna krawędź, na której leży policzek, to {{term:comb|grzbiet kolby}}; „raise the comb” albo „drop the comb” dotyczy {{term:gun-fit|dopasowania strzelby}}. Wąska część trzymana ręką spustową to {{term:grip|chwyt pistoletowy}}, a gumowa nakładka na końcu to {{term:recoil-pad|stopka}}.",
+    "gun-parts-p2": "Kolbę robi się z drewna albo materiału kompozytowego. Stopka łagodzi poczucie wystrzału, a stopki czy przekładki różnej grubości zmieniają {{term:length-of-pull|długość kolby}}.",
     "gear-gun-parts-p2": "Metalowy środek broni to {{term:receiver|baskila}}. Na górze jest {{term:top-lever|dźwignia zamka}}: przesuń ją w bok, i broń się otworzy. Za nią jest {{term:safety-catch|bezpiecznik}}, często połączony z {{term:barrel-selector|selektorem luf}}, który decyduje, z której lufy pada pierwszy strzał. Pod spodem w kabłąku jest {{term:trigger|spust}}.",
     "gun-parts-p4": "W baskili kryje się mechanizm spustowy. Większość zawodniczych boków ma jeden spust na obie lufy.",
-    "gear-gun-parts-p3": "Spust zwalniany (release trigger) strzela w chwili puszczenia, a nie naciśnięcia. Broń z takim spustem musi mieć jako ostrzeżenie naklejkę z dużą literą „R” na fluorescencyjnym tle na zewnętrznej stronie kolby.",
+    "gear-gun-parts-p3": "{{term:release-trigger|Spust zwalniany}} strzela w chwili puszczenia, a nie naciśnięcia. Broń z takim spustem musi mieć jako ostrzeżenie naklejkę z dużą literą „R” na fluorescencyjnym tle na zewnętrznej stronie kolby.",
     "gear-gun-parts-p4": "Pod lufami druga ręka trzyma {{term:fore-end|czółenko}}. {{term:barrel|Lufy}} mają z tyłu {{term:chamber|komory nabojowe}} na naboje, a z przodu {{term:muzzle|wyloty}}, w które wkręca się {{term:choke|czoki}}. Wzdłuż góry biegnie {{term:rib|szyna celownicza}} z {{term:bead|muszką}} na końcu. Muszka jest punktem odniesienia, a nie przyrządem celowniczym: „look at the target, not the bead” — patrz na rzutek, nie na muszkę.",
     "gun-parts-p5": "Czółenko trzyma też lufy na baskili: zdejmiesz je, i lufy się odłączą. Tak rozkłada się broń do czyszczenia i transportu. Szyna zwykle ma otwory od spodu (szyna „wentylowana”), żeby gorące powietrze od luf mniej drgało nad nią. Wiele strzelb ma w połowie szyny małą środkową muszkę.",
-    "gun-parts-p7": "Przy komorach stoją {{term:ejector|ejektory}}: gdy broń się otwiera, wyrzucają one wystrzelone łuski. Prostsze ekstraktory tylko trochę wysuwają łuski, a wyjmuje się je ręką.",
+    "gun-parts-p7": "Przy komorach stoją ejektory: gdy broń się otwiera, wyrzucają one wystrzelone {{term:hull|łuski}}. Prostsze ekstraktory tylko trochę wysuwają łuski, a wyjmuje się je ręką.",
     "gear-gun-parts-p5": "Jedna zasada bezpieczeństwa wiąże się z częściami broni. Po niewypale albo innej {{term:malfunction|awarii}} broni lub naboju strzelec nie otwiera broni i nie dotyka bezpiecznika, dopóki sędzia jej nie obejrzy."
   },
   "note": {
@@ -75,7 +75,7 @@
     "gear-gun-parts-kp1": "Kolba, grzbiet kolby, chwyt, stopka; baskila z dźwignią otwierającą, bezpiecznikiem i selektorem; spust.",
     "gear-gun-parts-kp2": "Czółenko, lufy z komorami i wylotami, szyna z muszką.",
     "gear-gun-parts-kp3": "Spust zwalniany wymaga naklejki „R” na kolbie.",
-    "gear-gun-parts-kp4": "„Break the gun” znaczy otworzyć broń; szyna (rib) to listwa nad lufami, nie „żebro”.",
+    "gear-gun-parts-kp4": "„Break the gun” znaczy otworzyć broń; {{term:rib|szyna}} to listwa nad lufami, nie „żebro”.",
     "gear-gun-parts-kp5": "Po niewypale: nie otwieraj broni ani nie dotykaj bezpiecznika, zanim sędzia sprawdzi."
   },
   "did_you_know": "Selektywne ejektory wyrzucają tylko wystrzeloną łuskę. Jeśli strzeliłeś z jednej lufy, niewystrzelony nabój w drugiej tylko nieco się wysunie, więc możesz go spokojnie wyjąć ręką.",
@@ -83,12 +83,12 @@
     "gear-gun-parts-q1": {
       "q": "Trener mówi „Raise the comb”. O którą część mu chodzi?",
       "options": {
-        "a": "Górną krawędź kolby, na której spoczywa policzek",
-        "b": "Małą muszkę na końcu szyny",
+        "a": "Górną krawędź {{term:stock|kolby}}, na której spoczywa policzek",
+        "b": "Małą muszkę na końcu {{term:rib|szyny}}",
         "c": "Kabłąk wokół spustu",
         "d": "Czok w wylocie lufy"
       },
-      "explain": "Comb to grzbiet kolby; jego podniesienie unosi oko nad szyną."
+      "explain": "Comb to {{term:comb|grzbiet kolby}}; jego podniesienie unosi oko nad szyną."
     },
     "gear-gun-parts-q2": {
       "q": "Co musi mieć broń ze spustem zwalnianym?",
@@ -98,14 +98,14 @@
         "c": "Drugi, oddzielny bezpiecznik",
         "d": "Nic: oznaczenie nie jest wymagane"
       },
-      "explain": "Przepisy obu dyscyplin wymagają ostrzegawczej naklejki „R” na fluorescencyjnym tle po zewnętrznej stronie kolby."
+      "explain": "Przepisy obu dyscyplin wymagają ostrzegawczej naklejki „R” na fluorescencyjnym tle po zewnętrznej stronie {{term:stock|kolby}}."
     },
     "gun-parts-q1": {
-      "q": "Do czego służy selektor luf?",
+      "q": "Do czego służy {{term:barrel-selector|selektor luf}}?",
       "options": {
-        "a": "By zdjąć lufy z baskili",
+        "a": "By zdjąć lufy z {{term:receiver|baskili}}",
         "b": "By zmienić czok w lufie",
-        "c": "By wyrzucić wystrzelone łuski",
+        "c": "By wyrzucić wystrzelone {{term:hull|łuski}}",
         "d": "By wybrać, która lufa strzela pierwsza"
       },
       "explain": "Selektor, często połączony z bezpiecznikiem, ustala porządek luf."
@@ -113,10 +113,10 @@
     "gun-parts-q2": {
       "q": "Co robią ejektory, gdy otwierasz broń?",
       "options": {
-        "a": "Wyrzucają wystrzelone łuski",
-        "b": "Blokują lufy na baskili",
+        "a": "Wyrzucają wystrzelone {{term:hull|łuski}}",
+        "b": "Blokują lufy na {{term:receiver|baskili}}",
         "c": "Ustalają, która lufa strzela pierwsza",
-        "d": "Łagodzą odrzut wystrzału"
+        "d": "Łagodzą {{term:recoil|odrzut}} wystrzału"
       },
       "explain": "Ejektory wyrzucają wystrzelone łuski; prostsze ekstraktory tylko nieco je wysuwają."
     },
@@ -128,7 +128,7 @@
         "c": "Szynę",
         "d": "Muszkę"
       },
-      "explain": "Czółenko trzyma lufy na baskili; kiedy jest zdjęte, lufy się odłączają."
+      "explain": "Czółenko trzyma lufy na {{term:receiver|baskili}}; kiedy jest zdjęte, lufy się odłączają."
     },
     "gear-gun-parts-q3": {
       "q": "Co trener ma na myśli, mówiąc „Break your gun”?",

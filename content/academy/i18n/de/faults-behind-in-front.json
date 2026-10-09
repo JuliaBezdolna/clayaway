@@ -37,9 +37,9 @@
   "summary": "Was „behind“, „in front“, „over“, „under“ und „chipped“ bedeuten, was jeden Fehlschuss meist verursacht, und wie eine angeschlagene Scheibe gewertet wird.",
   "body": {
     "faults-behind-in-front-p1": "Jeder Fehlschuss hat eine Richtung. Ein Trainer, der hinter dem Schützen steht, sagt meist zuerst, wohin der Schuss im Vergleich zur Scheibe ging, und erst danach, warum.",
-    "faults-behind-in-front-p2": "Behind bedeutet, der Schuss ging hinter einer sich bewegenden Scheibe vorbei: zu wenig Vorhalt oder eine Flinte, die langsamer wurde. Das ist ein sehr häufiger Fehlschuss bei Querreitern. In front ist das Gegenteil: zu viel Vorhalt, oft nachdem der Schütze überkorrigiert hat. Viele Trainer mögen einen Fehlschuss davor: Er zeigt, dass die Flinte in Bewegung blieb.",
-    "faults-behind-in-front-p3": "Darüber (over, auch „high“, „over the top“) und darunter (under, „low“) beschreiben den Fehlschuss in der Höhe. Darüber ist häufig bei fallenden Tauben, Rollhasen und kommenden Tauben und hängt oft damit zusammen, dass der Kopf vom Schaft geht. Darunter ist typisch für aufsteigende Scheiben, die beim Schuss noch steigen.",
-    "faults-behind-in-front-p4": "Chipped bedeutet, dass nur ein kleines Stück abging. Für den Trainer ist das halb Lob, halb Korrektur: Die Scheibe wurde vom Rand der {{term:pattern|Deckung}} erfasst, der Schrotwolke. Für den Schiedsrichter ist es ein Treffer, solange das Stück sichtbar ist. Achten Sie auf eine Feinheit der Regeln. Eine Scheibe, die zerbricht, auch wenn sie ganz oder teilweise zu Staub wird, ist in beiden Disziplinen ein Treffer. Eine Scheibe, die intakt weiterfliegt und nur eine Wolke aus Staub oder Rauch abgibt, ohne sichtbares Stück, ist ein Fehlschuss (Null). Im Trainerjargon bedeutet „smoked it“ einen perfekten, zentrierten Treffer, der die Scheibe zu Staub macht, und „dusted it“ hört man in beiden Bedeutungen, fragen Sie also nach, wenn Sie unsicher sind.",
+    "faults-behind-in-front-p2": "Behind bedeutet, der Schuss ging hinter einer sich bewegenden Scheibe vorbei: zu wenig {{term:lead|Vorhalt}} oder eine Flinte, die langsamer wurde. Das ist ein sehr häufiger Fehlschuss bei Querreitern. In front ist das Gegenteil: zu viel Vorhalt, oft nachdem der Schütze überkorrigiert hat. Viele Trainer mögen einen Fehlschuss davor: Er zeigt, dass die Flinte in Bewegung blieb.",
+    "faults-behind-in-front-p3": "{{term:miss-over|Darüber}} und {{term:miss-under|darunter}} beschreiben den Fehlschuss in der Höhe; Trainer sagen auch „high“ oder „over the top“ für das eine, „low“ für das andere. Darüber ist häufig bei {{term:dropping-target|fallenden Tauben|pl}}, {{term:rabbit|Rollhasen|pl}} und {{term:incomer|kommenden Tauben|pl}} und hängt oft damit zusammen, dass der Kopf vom {{term:stock|Schaft}} geht. Darunter ist typisch für aufsteigende Scheiben, die beim Schuss noch steigen.",
+    "faults-behind-in-front-p4": "Chipped bedeutet, dass nur ein kleines Stück abging. Für den Trainer ist das halb Lob, halb Korrektur: Die Scheibe wurde vom Rand der {{term:pattern|Deckung}} erfasst, der Schrotwolke. Für den Schiedsrichter ist es ein Treffer, solange das Stück sichtbar ist. Achten Sie auf eine Feinheit der Regeln. Eine Scheibe, die zerbricht, auch wenn sie ganz oder teilweise zu Staub wird, ist in beiden Disziplinen ein Treffer. Eine Scheibe, die intakt weiterfliegt und nur eine Wolke aus Staub oder Rauch abgibt, ohne {{term:visible-piece|sichtbares Stück}}, ist ein Fehlschuss (Null). Im Trainerjargon bedeutet „smoked it“ einen perfekten, zentrierten Treffer, der die Scheibe zu Staub macht, und „dusted it“ hört man in beiden Bedeutungen, fragen Sie also nach, wenn Sie unsicher sind.",
     "technique-follow-through-and-mistakes-p5": "Viele dieser Fehlschüsse sind von außen leicht zu erkennen. Ein Trainer, der hinter Ihnen steht, sieht, wohin der Schuss ging und was Kopf, Hände und Füße gemacht haben. Allein korrigiert man leicht das Falsche: Ein Schuss hinter der Scheibe durch eine gestoppte Flinte wird nicht durch mehr Vorhalt behoben."
   },
   "note": {
@@ -92,11 +92,11 @@
       "explain": "Mehr Vorhalt heilt keine gestoppte Flinte; die Ursache ist das, was der Schütze beheben muss."
     },
     "faults-behind-in-front-q2": {
-      "q": "Ein kleines, aber deutlich sichtbares Stück bricht von der Scheibe ab. Der Trainer sagt „just chipped it“. Wie wertet der Schiedsrichter?",
+      "q": "Ein kleines, aber deutlich {{term:visible-piece|sichtbares Stück}} bricht von der Scheibe ab. Der Trainer sagt „just chipped it“. Wie wertet der Schiedsrichter?",
       "options": {
         "a": "Fehlschuss, weil der größte Teil der Scheibe weiterflog",
         "b": "No Bird",
-        "c": "One (Treffer)",
+        "c": "One",
         "d": "Treffer nur, wenn der Trainer zustimmt"
       },
       "explain": "Mindestens ein sichtbares Stück macht die Scheibe sowohl in {{tm:sporting}} als auch in {{tm:compak}} zum Treffer; der Schiedsrichter entscheidet allein."
@@ -109,7 +109,7 @@
         "c": "Es war eine Flash-Scheibe",
         "d": "Der Schütze soll die Patronen wechseln"
       },
-      "explain": "Im Trainerjargon ist „smoked it“ ein Lob für eine zu Staub zerschossene Scheibe, und auch die Regeln werten das als Treffer. Nur eine intakte Scheibe, die lediglich eine Wolke aus Staub oder Rauch abgibt, ohne sichtbares Stück, ist eine Null."
+      "explain": "Im Trainerjargon ist „smoked it“ ein Lob für eine zu Staub zerschossene Scheibe, und auch die Regeln werten das als Treffer. Nur eine intakte Scheibe, die lediglich eine Wolke aus Staub oder Rauch abgibt, ohne {{term:visible-piece|sichtbares Stück}}, ist eine Null."
     }
   }
 }

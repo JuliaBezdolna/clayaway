@@ -36,9 +36,9 @@
     "origin": "interpreter-academy"
   },
   "title": "Postoj: jak stát na střeleckém stanovišti",
-  "summary": "Nohy, váha, kolena a otáčení těla: jednoduchý, kompaktní postoj, díky kterému vedete zbraň plynule za terčem.",
+  "summary": "Nohy, váha, kolena a otáčení těla: jednoduchý, kompaktní {{term:stance|postoj}}, díky kterému vedete zbraň plynule za terčem.",
   "body": {
-    "basics-stance-p1": "Postoj je to, jak střelec stojí před výstřelem. Prostor je malý: ve {{tm:sporting}} je stanoviště čtverec nebo kruh o rozměru 1 m a obě nohy musí být před zavoláním uvnitř. V {{tm:compak}} je každé stanoviště čtverec 1 m s omezovačem úhlu střelby (Firing Angle Limiter) – rámem, který brání střelci vykročit dopředu a omezuje švih.",
+    "basics-stance-p1": "{{term:stance|Postoj}} je to, jak střelec stojí před výstřelem. Prostor je malý: ve {{tm:sporting}} je {{term:shooting-stand|stanoviště}} čtverec nebo kruh o rozměru 1 m a obě nohy musí být před zavoláním uvnitř. V {{tm:compak}} je každé stanoviště čtverec 1 m s {{term:firing-angle-limiter|omezovačem úhlu střelby}} – rámem, který brání střelci vykročit dopředu a omezuje švih.",
     "basics-stance-p3": "Klíčová instrukce: namiřte přední nohou na {{term:break-point|místo zásahu}} – místo, kde plánujete terč rozbít. Tělo pak bude ve chvíli výstřelu uvolněné a otočené přesně správným směrem. Před zavoláním otočte horní část těla od boků zpět k {{term:hold-point|bodu držení zbraně}} – místu, kde hlavně čekají na terč. Jakmile terč vyletí, jednoduše se otočíte zpět stejnou cestou, jako se odvíjí stlačená pružina. Pokud místo toho míří nohy na vrhačku, varují trenéři, tělu se nedostává otočení až k místu zásahu a zbraň se zastaví, nebo se zvedne hlava.",
     "basics-stance-p2": "Obvyklý základ: nohy zhruba na šířku ramen, u praváka levá noha mírně vpředu (u leváka zrcadlově). Kolena jsou měkká, ne propnutá. Váha je mírně vpředu, zhruba 60 procent na přední noze. Trenéři říkají „nose over toes“ – nos nad špičkami.",
     "basics-stance-p4": "Tělo se otáčí z boků, ne rukama. Nohy mohou být pro každý terč postavené trochu jinak.",
@@ -71,7 +71,7 @@
     "basics-stance-kp4": "Přední noha míří na místo zásahu; z boků se otočit zpět k bodu držení zbraně.",
     "basics-stance-kp3": "Nohy na šířku ramen, měkká kolena, váha mírně vpředu.",
     "basics-stance-kp1": "{{tm:sporting}}: obě nohy před zavoláním uvnitř stanoviště 1 m.",
-    "basics-stance-kp2": "{{tm:compak}}: stanoviště 1 m s omezovačem úhlu střelby (Firing Angle Limiter).",
+    "basics-stance-kp2": "{{tm:compak}}: stanoviště 1 m s {{term:firing-angle-limiter|omezovačem úhlu střelby}}.",
     "technique-stance-kp4": "Než se na stanovišti otočíte, zbraň otevřete a vyprázdněte."
   },
   "did_you_know": "Na stanovišti {{tm:compak}} bývá omezovač úhlu střelby často jednoduchý rám z barevných plastových trubek. Omezuje, jak daleko lze zbraní švihnout do stran, nahoru a dolů.",
@@ -89,12 +89,12 @@
     "basics-stance-q2": {
       "q": "Co vyžadují pravidla {{tm:sporting}} od nohou před zavoláním?",
       "options": {
-        "a": "Obě nohy uvnitř stanoviště",
-        "b": "Přední nohu na čáře stanoviště",
+        "a": "Obě nohy uvnitř {{term:shooting-stand|stanoviště}}",
+        "b": "Přední nohu na čáře {{term:shooting-stand|stanoviště}}",
         "c": "Nohy u sebe",
         "d": "Žádný požadavek"
       },
-      "explain": "Pravidlo pohotovostního postoje vyžaduje, aby byly před zavoláním obě nohy střelce uvnitř stanoviště o rozměru 1 m."
+      "explain": "Pravidlo {{term:ready-position|pohotovostního postoje}} vyžaduje, aby byly před zavoláním obě nohy střelce uvnitř stanoviště o rozměru 1 m."
     },
     "basics-stance-q3": {
       "q": "Střelec je levák. Trenér říká „Open your front foot“. O kterou nohu jde?",
@@ -118,8 +118,8 @@
     "technique-stance-q2": {
       "q": "Na jaký bod je nejdůležitější mít nohy pohodlně postavené?",
       "options": {
-        "a": "Kam směřuje vrhačka",
-        "b": "Na místo zásahu (break point)",
+        "a": "Kam směřuje {{term:trap|vrhačka}}",
+        "b": "Na {{term:break-point|místo zásahu}}",
         "c": "Kam se postaví skupina"
       },
       "explain": "Tělo se pak snadno otočí přesně tam, kde terč rozbijete."
@@ -127,8 +127,8 @@
     "technique-stance-q3": {
       "q": "Kde musí mít střelec nohy ve {{tm:sporting}} před zavoláním?",
       "options": {
-        "a": "Kdekoli poblíž stanoviště",
-        "b": "Obě uvnitř stanoviště",
+        "a": "Kdekoli poblíž {{term:shooting-stand|stanoviště}}",
+        "b": "Obě uvnitř {{term:shooting-stand|stanoviště}}",
         "c": "Jednu nohu uvnitř, druhou mimo"
       },
       "explain": "Pravidla {{tm:sporting}} vyžadují, aby byly před zavoláním obě nohy střelce uvnitř stanoviště."

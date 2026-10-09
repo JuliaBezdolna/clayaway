@@ -27,14 +27,14 @@
     "origin": null
   },
   "title": "Jak zacząć",
-  "summary": "Klub, trener, pierwsze zajęcia i wypożyczona broń: plan krok po kroku dla każdego, kto chce spróbować {{tm:sporting}} albo {{tm:compak}}.",
+  "summary": "Klub, {{term:coach|trener}}, pierwsze zajęcia i wypożyczona broń: plan krok po kroku dla każdego, kto chce spróbować {{tm:sporting}} albo {{tm:compak}}.",
   "body": {
-    "intro-how-to-start-p1": "Zacznij od znalezienia strzelnicy lub klubu w swojej okolicy. Zadzwoń albo napisz i zapytaj, czy prowadzą zajęcia dla początkujących. Wiele strzelnic oferuje zajęcia próbne z {{term:coach|trenerem}}, w cenie których jest broń i naboje.",
-    "intro-how-to-start-p2": "Pierwsze zajęcia warto odbyć z trenerem. Trener wyjaśni zasady bezpieczeństwa i wybierze broń odpowiednią do twojej budowy. Pokaże też, jak stać i jak wykonać {{term:gun-mount|złożenie się do strzału}}: dosunięcie {{term:stock|kolby}} (tylnej części broni) do policzka i ramienia. Zaczynasz od prostych, powolnych rzutków, dzięki czemu szybko widzisz postępy i nie nabierasz złych nawyków. Więcej: {{lesson:training-first-lessons-and-coach}}.",
+    "intro-how-to-start-p1": "Zacznij od znalezienia strzelnicy lub klubu w swojej okolicy. Zadzwoń albo napisz i zapytaj, czy prowadzą zajęcia dla początkujących. Wiele strzelnic oferuje zajęcia próbne z {{term:coach|trenerem}}, w cenie których jest broń i {{term:cartridge|naboje}}.",
+    "intro-how-to-start-p2": "Pierwsze zajęcia warto odbyć z trenerem. Trener wyjaśni zasady bezpieczeństwa i wybierze broń odpowiednią do twojej budowy. Pokaże też, jak stać i jak wykonać {{term:gun-mount|złożenie się do strzału}}: dosunięcie {{term:stock|kolby}}, tylnej części broni, do policzka i ramienia. Zaczynasz od prostych, powolnych rzutków, dzięki czemu szybko widzisz postępy i nie nabierasz złych nawyków. Więcej: {{lesson:training-first-lessons-and-coach}}.",
     "intro-how-to-start-p3": "Na początku nie potrzebujesz własnej broni. Na wielu strzelnicach można wypożyczyć broń i strzelać pod nadzorem instruktora. Przepisy dotyczące broni i amunicji różnią się między krajami. W niektórych początkujący może strzelać z broni klubowej pod nadzorem bez pozwolenia, w innych potrzebne są dokumenty. Zapytaj o to na strzelnicy z wyprzedzeniem.",
     "intro-how-to-start-p4": "Co zabrać: wygodne ubranie dopasowane do pogody, zakryte buty i czapkę z daszkiem. Weź dokument tożsamości, jeśli strzelnica go wymaga.",
-    "intro-how-to-start-warn": "Noś {{term:safety-glasses|okulary strzeleckie}} i {{term:hearing-protection|ochronniki słuchu}} (nauszniki albo {{term:earplugs|zatyczki do uszu}}) od pierwszego strzału. Przepisy zawodów robią z obu rzeczy obowiązek. Jeśli ich nie masz, strzelnica zwykle może je pożyczyć. Więcej: {{lesson:safety-eye-ear-protection}}.",
-    "intro-how-to-start-p5": "Nie spiesz się z kupnem broni. Najpierw wypróbuj różne modele i poradź się trenera. Na zawody FITASC potrzebujesz strzelby gładkolufowej (bez gwintów w lufach), {{fact:gear.fitasc-max-gauge}}; węższe kalibry, takie jak 20 czy 28, też są dozwolone. Lufy muszą mieć {{fact:gear.fitasc-min-barrel}}, a strzelby typu pump-action (przeładowywane ruchem przedniej rączki) są niedozwolone. Więcej: {{lesson:gun-first-gun}}.",
+    "intro-how-to-start-warn": "Noś {{term:safety-glasses|okulary strzeleckie}} i {{term:hearing-protection|ochronniki słuchu}}, czyli nauszniki albo {{term:earplugs|zatyczki do uszu}}, od pierwszego strzału. Przepisy zawodów robią z obu rzeczy obowiązek. Jeśli ich nie masz, strzelnica zwykle może je pożyczyć. Więcej: {{lesson:safety-eye-ear-protection}}.",
+    "intro-how-to-start-p5": "Nie spiesz się z kupnem broni. Najpierw wypróbuj różne modele i poradź się trenera. Na zawody FITASC potrzebujesz {{term:shotgun|strzelby}} gładkolufowej (bez gwintów w lufach), {{fact:gear.fitasc-max-gauge}}; węższe kalibry, takie jak 20 czy 28, też są dozwolone. Lufy muszą mieć {{fact:gear.fitasc-min-barrel}}, a {{term:pump-action|strzelby typu pump-action}}, przeładowywane ruchem przedniej rączki, są niedozwolone. Więcej: {{lesson:gun-first-gun}}.",
     "intro-how-to-start-p6": "Po kilku zajęciach wypróbuj {{term:club-shoot|zawody klubowe}} dla początkujących. To dobry sposób, by poczuć atmosferę tego sportu, poznać ludzi i zobaczyć, jak działają {{term:referee|sędziowie}} i {{term:squad|grupy}}."
   },
   "note": {},
@@ -63,7 +63,7 @@
         "b": "Tak, i musi to być pump-action",
         "c": "Nie, wiele strzelnic wypożycza broń"
       },
-      "explain": "Na wielu strzelnicach są klubowe strzelby, z których można strzelać pod nadzorem; przepisy zależą od prawa danego kraju."
+      "explain": "Na wielu strzelnicach są klubowe {{term:shotgun|strzelby}}, z których można strzelać pod nadzorem; przepisy zależą od prawa danego kraju."
     },
     "intro-how-to-start-q3": {
       "q": "Jaka broń NIE jest dozwolona na zawodach FITASC?",

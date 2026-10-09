@@ -29,12 +29,12 @@
     "origin": "interpreter-academy"
   },
   "title": "Colori, luce e visibilità",
-  "summary": "Perché il colore di un piattello deve risaltare, come luce e sfondo cambiano quello che vedi, e quando il meteo porta o non porta a un No Bird.",
+  "summary": "Perché il colore di un {{term:target|piattello}} deve risaltare, come luce e sfondo cambiano quello che vedi, e quando il meteo porta o non porta a un No Bird.",
   "body": {
-    "targets-colours-visibility-p1": "Entrambi i regolamenti chiedono la stessa cosa: il colore di un piattello deve risaltare chiaramente sullo sfondo. I piattelli bicolori non sono consigliati. Quindi il colore non è un tipo di piattello. Il tracciatore del percorso (la persona che posiziona le macchine e fissa le traiettorie) sceglie un colore per ogni traiettoria perché tu possa vedere il piattello.",
+    "targets-colours-visibility-p1": "Entrambi i regolamenti chiedono la stessa cosa: il colore di un {{term:target|piattello}} deve risaltare chiaramente sullo sfondo. I piattelli bicolori non sono consigliati. Quindi il colore non è un tipo di piattello. Il {{term:course-designer|tracciatore del percorso}} — la persona che posiziona le {{term:trap|macchine}} e fissa le traiettorie — sceglie un colore per ogni traiettoria perché tu possa vedere il piattello.",
     "targets-colours-visibility-p2": "Sentirai parlare di piattelli neri, arancioni, bianchi, gialli e rosa. Molti tracciatori usano il nero contro il cielo e l'arancione contro gli alberi e l'erba. Un piattello «blazed» ha la cupola dipinta di arancione brillante. Attenzione: quando l'istruttore dice «the orange one» (quello arancione), intende un colore, non una misura. Un midi nero e uno standard arancione possono partire dalla stessa pedana.",
-    "targets-colours-visibility-p3": "Se viene lanciato un piattello del colore sbagliato, l'arbitro chiama No Bird e il piattello viene lanciato di nuovo. In entrambe le discipline il tiro può essere sospeso per un acquazzone improvviso e forte o un temporale violento che sembra breve. Nello {{tm:sporting}} decide l'arbitro, nel {{tm:compak}} l'Head Referee; se la sospensione può durare a lungo, si informa la giuria. Il regolamento {{tm:compak}} aggiunge che il maltempo in sé non è un motivo per un No Bird: un piattello rotto conta, e un mancato resta mancato, qualunque sia il meteo.",
-    "targets-colours-visibility-p4": "La luce cambia tutto. Gli istruttori parlano di controluce (il sole dietro il piattello), luce piatta nelle giornate grigie, ombre sotto gli alberi e dello sfondo dietro il piattello: cielo, linea degli alberi o terreno. Un piattello può «sparire» contro alberi scuri e «saltare fuori» contro il cielo. Per questo i tiratori cambiano il colore delle lenti degli occhiali da tiro nel corso della giornata.",
+    "targets-colours-visibility-p3": "Se viene lanciato un piattello del colore sbagliato, l'arbitro chiama No Bird e il piattello viene lanciato di nuovo. In entrambe le discipline il tiro può essere sospeso per un acquazzone improvviso e forte o un temporale violento che sembra breve. Nello {{tm:sporting}} decide l'arbitro, nel {{tm:compak}} il {{term:chief-referee|giudice arbitro}}; se la sospensione può durare a lungo, si informa la {{term:jury|giuria}}. Il regolamento {{tm:compak}} aggiunge che il maltempo in sé non è un motivo per un No Bird: un piattello rotto conta, e un mancato resta mancato, qualunque sia il meteo.",
+    "targets-colours-visibility-p4": "La luce cambia tutto. Gli istruttori parlano di controluce (il sole dietro il piattello), luce piatta nelle giornate grigie, ombre sotto gli alberi e dello sfondo dietro il piattello: cielo, linea degli alberi o terreno. Un piattello può «sparire» contro alberi scuri e «saltare fuori» contro il cielo. Per questo i tiratori cambiano il {{term:lens-tint|colore delle lenti}} dei {{term:safety-glasses|occhiali da tiro}} nel corso della giornata.",
     "targets-colours-visibility-tip1": "In un campo nuovo, molti tiratori provano due {{term:lens-tint|colorazioni di lenti}} sulla prima pedana e tengono quella con cui il piattello si vede più chiaramente. Vedi {{lesson:gear-shooting-glasses}}."
   },
   "note": {
@@ -63,7 +63,7 @@
   },
   "quiz": {
     "targets-colours-visibility-q1": {
-      "q": "Cosa richiede il regolamento per il colore di un piattello?",
+      "q": "Cosa richiede il regolamento per il colore di un {{term:target|piattello}}?",
       "options": {
         "a": "Deve sempre essere arancione o bianco",
         "b": "Deve risaltare sullo sfondo",
@@ -76,19 +76,19 @@
       "q": "Nel {{tm:compak}} comincia a piovere forte e un tiratore sbaglia. Può chiedere un No Bird per il maltempo?",
       "options": {
         "a": "Sì, il maltempo lo giustifica sempre",
-        "b": "Solo per il primo piattello di un doppio",
-        "c": "Solo se la giuria è d'accordo",
+        "b": "Solo per il primo {{term:target|piattello}} di un {{term:double|doppio}}",
+        "c": "Solo se la {{term:jury|giuria}} è d'accordo",
         "d": "No, il maltempo non è un motivo per un No Bird"
       },
-      "explain": "Il regolamento {{tm:compak}} dice che il maltempo non è un motivo per un No Bird: il mancato resta mancato. A parte questo, l'Head Referee può sospendere il tiro per un temporale improvviso che sembra breve."
+      "explain": "Il regolamento {{tm:compak}} dice che il maltempo non è un motivo per un No Bird: il mancato resta mancato. A parte questo, il {{term:chief-referee|giudice arbitro}} può sospendere il tiro per un temporale improvviso che sembra breve."
     },
     "targets-colours-visibility-q3": {
       "q": "L'istruttore dice «Watch the orange one». Che cosa sta descrivendo?",
       "options": {
-        "a": "Il colore di un piattello",
-        "b": "Un piattello da 90 mm",
+        "a": "Il colore di un {{term:target|piattello}}",
+        "b": "Un {{term:target|piattello}} da 90 mm",
         "c": "Una lepre",
-        "d": "Un piattello rotto"
+        "d": "Un {{term:target|piattello}} rotto"
       },
       "explain": "Il colore si sceglie per la visibilità e non dice nulla sulla misura o sul tipo."
     }

@@ -23,43 +23,59 @@
     "nextstep-becoming-coach-q2": "01918c6f",
     "nextstep-becoming-coach-q3": "751b5b45"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Come diventare istruttore",
-  "summary": "Un buon tiratore non è ancora un istruttore. Come trovare una formazione per istruttori, perché le qualifiche variano tra i paesi, e cosa serve a un istruttore oltre alla tecnica.",
+  "summary": "Un buon tiratore non è ancora un {{term:coach|istruttore}}. Come trovare una formazione per istruttori, perché le qualifiche variano tra i paesi, e cosa serve a un istruttore oltre alla tecnica.",
   "body": {
     "nextstep-becoming-coach-p1": "Molti tiratori un giorno si chiedono se iniziare a insegnare ad altri. È un bel traguardo, ma tirare bene e insegnare bene sono abilità diverse. Un {{term:coach|istruttore}} spiega le cose in modo semplice, vede un errore da fuori e sceglie l'esercizio giusto per quella persona in particolare.",
     "nextstep-becoming-coach-p2": "Le qualifiche per istruttori variano tra i paesi. In alcuni, la {{term:national-federation|federazione nazionale}} organizza corsi per istruttori con più livelli (livello 1, livello 2 e così via). In altri è un'associazione di tiro o una scuola sportiva. Insegnare a pagamento può richiedere un documento ufficiale, un'assicurazione o un permesso. Quindi comincia scoprendo le regole del tuo paese.",
-    "nextstep-becoming-coach-p3": "La formazione per istruttori di solito inizia con la sicurezza sul campo e con il fucile stesso. Poi vengono la {{term:gun-fit|calciatura su misura}} (regolare il fucile perché spari dove si guarda) e l'individuazione del {{term:master-eye|occhio dominante}} (l'occhio che guida quando si punta). I corsi trattano anche le basi della tecnica e il lavoro con principianti e bambini. Spesso si concludono con una verifica pratica.",
+    "nextstep-becoming-coach-p3": "La formazione per istruttori di solito inizia con la {{term:safety|sicurezza}} sul campo e con il fucile stesso. Poi vengono la {{term:gun-fit|calciatura su misura}} — regolare il fucile perché spari dove si guarda — e l'individuazione del {{term:master-eye|occhio dominante}} — l'occhio che guida quando si punta. I corsi trattano anche le basi della tecnica e il lavoro con principianti e bambini. Spesso si concludono con una verifica pratica.",
     "nextstep-becoming-coach-p4": "La {{term:safety|sicurezza}} viene prima di tutto. Un istruttore è responsabile di più della sola tecnica. L'allievo deve maneggiare correttamente il fucile, indossare {{term:safety-glasses|occhiali}} e {{term:hearing-protection|protezioni auditive}} e conoscere le leggi locali su armi e cartucce.",
     "nextstep-becoming-coach-p5": "Un percorso utile è lavorare al fianco di un istruttore esperto: aiutare alle lezioni, osservare, fare domande. Si imparano cose che i libri non insegnano, come calmare un allievo nervoso o spiegare la stessa cosa in tre modi diversi.",
-    "nextstep-becoming-coach-p6": "Sia nel {{tm:sporting}} sia nel {{tm:compak}}, fare {{term:coaching|coaching}} a un tiratore (dargli consigli) non è ammesso durante una gara. Il tiratore riceve un {{term:yellow-card|cartellino giallo}} (un avvertimento formale), e l'arbitro allontana chi dà il consiglio dall'area di tiro. Un istruttore lavora prima e dopo la gara.",
+    "nextstep-becoming-coach-p6": "Sia nel {{tm:sporting}} sia nel {{tm:compak}}, fare {{term:coaching|coaching}} a un tiratore (dargli consigli) non è ammesso durante una gara. Il tiratore riceve uno {{term:yellow-card|cartellino giallo}}, un avvertimento formale, e l'arbitro allontana chi dà il consiglio dall'area di tiro. Un istruttore lavora prima e dopo la gara.",
     "nextstep-becoming-coach-p7": "Una volta diventato istruttore, il catalogo istruttori di ClayArena può aiutare gli allievi a trovarti. Mostra chi sei e quali discipline insegni: {{lesson:clayarena-coaches-grounds-tours}}.",
-    "nextstep-becoming-coach-academy": "Il percorso dell'Academy per istruttori alle prime armi ti aiuta a prepararti, ma non è una qualifica di istruttore."
+    "nextstep-becoming-coach-academy": "Il percorso dell'Academy per istruttori alle prime armi ti aiuta a prepararti, ma non è una {{term:coaching-qualification|qualifica di istruttore}}."
   },
   "note": {},
   "phrases": {},
   "key_points": {
     "nextstep-becoming-coach-kp1": "Tirare bene e insegnare bene sono abilità diverse.",
     "nextstep-becoming-coach-kp2": "Le qualifiche per istruttori dipendono dal paese: scopri le regole locali.",
-    "nextstep-becoming-coach-kp3": "La formazione per istruttori copre sicurezza, calciatura su misura, occhio dominante e lavoro con i principianti.",
+    "nextstep-becoming-coach-kp3": "La formazione per istruttori copre sicurezza, calciatura su misura, {{term:master-eye|occhio dominante}} e lavoro con i principianti.",
     "nextstep-becoming-coach-kp4": "Fare coaching a un tiratore durante una gara non è ammesso in nessuna delle due discipline.",
     "nextstep-becoming-coach-kp5": "Lavorare al fianco di un istruttore esperto insegna molto."
   },
   "did_you_know": "La regola riguarda il consiglio in sé, non il titolo di chi lo dà. Anche il suggerimento di un amico o di un genitore durante la gara può contare come coaching.",
   "quiz": {
     "nextstep-becoming-coach-q1": {
-      "q": "Le qualifiche per istruttori sono uguali in tutti i paesi?",
-      "options": { "a": "Sì, le rilascia tutte la FITASC", "b": "No, dipendono dal paese", "c": "Non esistono qualifiche" },
+      "q": "Le qualifiche per {{term:coach|istruttori}} sono uguali in tutti i paesi?",
+      "options": {
+        "a": "Sì, le rilascia tutte la FITASC",
+        "b": "No, dipendono dal paese",
+        "c": "Non esistono qualifiche"
+      },
       "explain": "La formazione per istruttori e le regole per loro variano da paese a paese."
     },
     "nextstep-becoming-coach-q2": {
       "q": "Cosa succede se qualcuno fa coaching a un tiratore durante una gara?",
-      "options": { "a": "Cartellino giallo al tiratore; l'istruttore viene allontanato", "b": "Niente, se è un istruttore", "c": "Al tiratore viene dato un piattello extra" },
+      "options": {
+        "a": "{{term:yellow-card|Cartellino giallo}} al tiratore; il {{term:coach|istruttore}} viene allontanato",
+        "b": "Niente, se è un {{term:coach|istruttore}}",
+        "c": "Al tiratore viene dato un piattello extra"
+      },
       "explain": "Il coaching durante una gara non è ammesso né nel {{tm:sporting}} né nel {{tm:compak}}."
     },
     "nextstep-becoming-coach-q3": {
-      "q": "Cosa viene prima di tutto per un istruttore?",
-      "options": { "a": "Un fucile costoso", "b": "Il numero di allievi", "c": "La sicurezza dell'allievo" },
+      "q": "Cosa viene prima di tutto per un {{term:coach|istruttore}}?",
+      "options": {
+        "a": "Un fucile costoso",
+        "b": "Il numero di allievi",
+        "c": "La sicurezza dell'allievo"
+      },
       "explain": "La sicurezza viene prima della tecnica e prima di ogni altra cosa."
     }
   }

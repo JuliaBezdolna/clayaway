@@ -47,20 +47,20 @@
   "mind-routine-under-pressure-p2": "Sous pression, beaucoup de tireurs changent de tempo sans s'en rendre compte : ils précipitent l'annonce, ou au contraire restent trop longtemps et vérifient chaque détail deux fois. Une routine familière vous donne à la place quelque chose de simple à faire.",
   "mind-routine-under-pressure-steps": [
    "Pieds : placez votre {{term:stance|position}} pour le {{term:break-point|point de casse}}, l'endroit où vous prévoyez de casser le plateau.",
-   "Fusil : prenez votre position de départ, les canons au {{term:hold-point|point d'attente}}, où ils attendent l'annonce. En {{tm:sporting}}, le fusil démarre bas (voir ci-dessous).",
+   "Fusil : prenez votre {{term:ready-position|position de départ}}, les canons au {{term:hold-point|point d'attente}}, où ils attendent l'annonce. En {{tm:sporting}}, le fusil démarre bas (voir ci-dessous).",
    "Yeux : regardez le {{term:pick-up-point|point de prise}}, là où vous voyez le plateau net pour la première fois, avec un {{term:soft-focus|regard large}} : un regard calme et étendu.",
-   "Respiration et mot-clé : une expiration naturelle, les épaules basses, puis votre mot-clé.",
-   "Annonce : donnez l'{{term:call|annonce}} toujours de la même façon et restez prêt pendant le court délai avant l'apparition du plateau.",
+   "Respiration et {{term:cue-word|mot-clé}} : une expiration naturelle, les épaules basses, puis votre mot-clé.",
+   "Annonce : donnez le {{term:call|annonce}} toujours de la même façon et restez prêt pendant le court délai avant l'apparition du plateau.",
    "Plateau : passez à un {{term:hard-focus|regard focalisé}} sur le plateau et gardez les yeux sur lui jusqu'au tir."
   ],
   "mind-routine-under-pressure-compare": {
    "sporting": "Fusil bas : {{fact:mind.sporting-ready-position}} ({{rule:sporting:ch3-ready-position}}). Vous avez {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Après votre annonce, l'arbitre signale au {{term:trapper|pulleur}}, et le plateau part {{fact:rules.release-within-3s}} après le signal de l'arbitre ({{rule:sporting:ch5-call-and-release}}).",
-   "compak": "La position du fusil à l'annonce est libre : épaulé ou non ({{rule:compak:ch17-gun-position}}). Vous avez {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Le plateau part {{fact:rules.release-within-3s}} après l'annonce avec un lancement manuel, ou {{fact:rules.sonopull-delay}} après elle avec un sonopull (lancement à la voix) ({{rule:compak:ch2-trigger-manual}})."
+   "compak": "La {{term:gun-position|position du fusil}} à l'annonce est libre : épaulé ou non ({{rule:compak:ch17-gun-position}}). Vous avez {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Le plateau part {{fact:rules.release-within-3s}} après l'annonce avec un lancement manuel, ou {{fact:rules.sonopull-delay}} après elle avec un sonopull (lancement à la voix) ({{rule:compak:ch2-trigger-manual}})."
   },
   "mind-routine-under-pressure-p4": "Gardez l'ordre des étapes, pas un nombre exact de secondes. Le délai après l'annonce peut varier (en {{tm:sporting}}, et en {{tm:compak}} avec un lancement manuel), donc le temps peut changer un peu. Restez bien dans la limite : demandez à un entraîneur ou un ami de chronométrer votre routine à l'entraînement.",
   "mind-routine-under-pressure-p5": "Si quelque chose vous perturbe avant l'annonce, comme un bruit, une pensée ou le soleil, n'annoncez pas. Baissez le fusil, expirez et recommencez la routine, dans la limite de temps.",
   "mind-routine-under-pressure-p7": "Pour un {{term:double|doublé}}, planifiez les deux plateaux avant d'annoncer : où vous cassez le premier, et où vont vos yeux pour le second. Traitez-les comme deux tirs séparés.",
-  "mind-routine-under-pressure-p6": "Entre les postes, une routine plus longue aide à laisser le poste précédent derrière vous, quel qu'en soit le score. Ouvrez le fusil, retirez les douilles vides, buvez un peu d'eau et regardez les plateaux suivants. En {{tm:compak}}, on change de poste avec le fusil ouvert et déchargé ({{rule:compak:ch17-call-time-and-changeover}}).",
+  "mind-routine-under-pressure-p6": "Entre les postes, une routine plus longue aide à laisser le poste précédent derrière vous, quel qu'en soit le score. Ouvrez le fusil, retirez les {{term:empties|douilles vides|pl}}, buvez un peu d'eau et regardez les plateaux suivants. En {{tm:compak}}, on change de poste avec le fusil ouvert et déchargé ({{rule:compak:ch17-call-time-and-changeover}}).",
   "mind-routine-under-pressure-warn": "Chargez uniquement sur le poste, le fusil pointé vers le champ de tir, une fois que l'arbitre a autorisé le début du tir ({{rule:sporting:ch8-loading}}, {{rule:compak:ch21-shooting-conduct}}).",
   "mind-routine-under-pressure-p8": "Construisez la routine à l'entraînement et gardez-la identique en compétition. Convenez de votre plan avec votre entraîneur avant l'épreuve, pour n'avoir qu'à le suivre le jour J.",
   "mind-routine-under-pressure-coaching-rule": "Pendant une compétition, personne n'a le droit de faire du {{term:coaching|coaching}} auprès d'un compétiteur ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
@@ -93,9 +93,9 @@
    "options": {
     "a": "Déjà épaulé fermement",
     "b": "N'importe où : la position est libre",
-    "c": "Bas, la crosse sous la ligne du gilet"
+    "c": "Bas, le crosse sous la ligne du gilet"
    },
-   "explain": "En {{tm:sporting}}, le fusil reste bas jusqu'à ce que le plateau soit visible. En {{tm:compak}}, la position du fusil à l'annonce est libre."
+   "explain": "En {{tm:sporting}}, le fusil reste bas jusqu'à ce que le plateau soit visible. En {{tm:compak}}, la {{term:gun-position|position du fusil}} à l'annonce est libre."
   },
   "mind-routine-under-pressure-q3": {
    "q": "Un bruit vous perturbe avant que vous n'annonciez. Que pouvez-vous faire ?",
@@ -138,7 +138,7 @@
    "options": {
     "a": "En chemin vers le poste, pour gagner du temps",
     "b": "Sur le poste, une fois que l'arbitre l'autorise",
-    "c": "N'importe où, si la sûreté est mise"
+    "c": "N'importe où, si le sûreté est mise"
    },
    "explain": "Chargez uniquement sur le poste, le fusil pointé vers le champ de tir, une fois que l'arbitre a autorisé le début du tir."
   },

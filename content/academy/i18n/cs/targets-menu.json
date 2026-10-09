@@ -31,9 +31,9 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "targets-menu-p1": "{{term:target-menu|Menu terčů}} (target menu) je tabule u stanoviště, která střelci říká, co přijde: které vrhačky, v jakém pořadí a jaké dvojstřely.",
-    "targets-menu-p2": "Ve {{tm:sporting}} menu vypisuje vrhačky v pořadí střelby a musí uvádět případné zvláštní terče: {{fact:targets.sporting-menu-special-targets}}. Rozhodčí předem kontrolují, že vrhačky odpovídají menu. Střeliště dává {{fact:targets.sporting-layout-targets}}. Dvojstřely smějí používat jen terče, které už byly z téhož stanoviště ukázány jako jednotlivé, a skupina střílí nejdřív jednotlivé terče.",
-    "targets-menu-p3": "Každý dvojstřel je označen svým typem. {{term:double-on-report|Na hlášenou}} (on report): druhý terč vyletí na zvuk první rány. {{term:simultaneous-double|Současný}} (simultaneous): oba terče vyletí spolu. {{term:rafale-double|Rafale}} (rafale): dva terče ze stejné vrhačky, jeden za druhým — jen ve {{tm:sporting}}. Menu vypadají na každém střelišti jinak, čtěte proto slova, ne jen písmena.",
+    "targets-menu-p1": "{{term:target-menu|Menu terčů}} je tabule u stanoviště, která střelci říká, co přijde: které {{term:trap|vrhačky}}, v jakém pořadí a jaké {{term:double|dvojstřely}}.",
+    "targets-menu-p2": "Ve {{tm:sporting}} menu vypisuje vrhačky v pořadí střelby a musí uvádět případné zvláštní terče: {{fact:targets.sporting-menu-special-targets}}. Rozhodčí předem kontrolují, že vrhačky odpovídají menu. {{term:layout|Střeliště}} dává {{fact:targets.sporting-layout-targets}}. Dvojstřely smějí používat jen terče, které už byly z téhož stanoviště ukázány jako jednotlivé, a skupina střílí nejdřív {{term:single-target|jednotlivé terče}}.",
+    "targets-menu-p3": "Každý dvojstřel je označen svým typem. {{term:double-on-report|Na hlášenou}}: druhý terč vyletí na zvuk první rány. {{term:simultaneous-double|Současný}}: oba terče vyletí spolu. {{term:rafale-double|Rafale}}: dva terče ze stejné vrhačky, jeden za druhým — jen ve {{tm:sporting}}. Menu vypadají na každém střelišti jinak, čtěte proto slova, ne jen písmena.",
     "targets-menu-ex1": "Příklad: na řadě 4 stanovišť má jedno jen 3 vrhačky, a střílí se na něm 3 jednotlivé a 2 dvojstřely. Jeho menu může vypadat takto: jednotlivé A, B, C, poté současný dvojstřel A + B a rafale C + C (písmena jsou vrhačky). Na tomto stanovišti musí být alespoň jeden dvojstřel současný nebo rafale: dva dvojstřely na hlášenou tu nejsou povoleny ({{rule:sporting:ch2-doubles-three-traps}}).",
     "targets-menu-p4": "V {{tm:compak}} je menu vyvěšeno na každém z pěti stanovišť. Každé stanoviště má pět terčů, v jedné ze tří kombinací: {{fact:targets.compak-station-menus}}. Jednotlivé terče mohou jít z vrhaček v libovolném pořadí. Na všech pěti stanovištích je stejný typ dvojstřelu a stanoviště jsou spojená do řetězce: {{fact:targets.compak-double-chain}}. Pro soutěže FITASC nabízí {{fact:targets.compak-setting-tables}}.",
     "targets-menu-tip1": "Než stoupnou na stanoviště {{tm:compak}}, mnozí střelci si tiše pro sebe odříkají jeho menu: „A, pak F, pak B, pak C a E na hlášenou.“ Může jim to pomoct zapamatovat si pořadí."
@@ -68,14 +68,14 @@
       "q": "Které zvláštní terče musí ukazovat menu {{tm:sporting}}?",
       "options": {
         "a": "Jen barvy terčů",
-        "b": "90 mm, 70 mm, 60 mm, battue nebo zajíce",
-        "c": "Jen zajíce a battue",
+        "b": "90 mm, 70 mm, 60 mm, battue nebo {{term:rabbit|zajíce}}",
+        "c": "Jen {{term:rabbit|zajíce}} a battue",
         "d": "Žádné; ohlásí je rozhodčí"
       },
-      "explain": "Menu musí uvádět vrhačky v pořadí a všechny zvláštní druhy terčů."
+      "explain": "Menu musí uvádět {{term:trap|vrhačky}} v pořadí a všechny zvláštní druhy terčů."
     },
     "targets-menu-q2": {
-      "q": "Kterým terčem v {{tm:compak}} začíná každý dvojstřel?",
+      "q": "Kterým terčem v {{tm:compak}} začíná každý {{term:double|dvojstřel}}?",
       "options": {
         "a": "Vždy vrhačkou A",
         "b": "Novým terčem, který ještě nebyl ukázán",
@@ -85,7 +85,7 @@
       "explain": "Dvojstřely se řetězí přes stanoviště: každý začíná posledním terčem předchozího stanoviště."
     },
     "targets-menu-q3": {
-      "q": "Který druh dvojstřelu existuje jen ve {{tm:sporting}}?",
+      "q": "Který druh {{term:double|dvojstřelu}} existuje jen ve {{tm:sporting}}?",
       "options": {
         "a": "Rafale",
         "b": "Na hlášenou",
@@ -96,5 +96,5 @@
     }
   },
   "title": "Jak číst menu terčů",
-  "summary": "Jak číst menu terčů na stanovišti {{tm:sporting}} a na stanovišti {{tm:compak}}: pořadí vrhaček, zvláštní terče a typ každého dvojstřelu."
+  "summary": "Jak číst menu terčů na stanovišti {{tm:sporting}} a na stanovišti {{tm:compak}}: pořadí vrhaček, zvláštní terče a typ každého {{term:double|dvojstřelu}}."
 }

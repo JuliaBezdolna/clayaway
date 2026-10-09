@@ -38,7 +38,7 @@
   "title": "Klausos apsauga: kamštukai ir ausinės",
   "summary": "Kodėl šūvis gali negrįžtamai pažeisti klausą, kokie kamštukai ir ausinės egzistuoja ir kodėl daug {{tm:sporting}} ir {{tm:compak}} šaulių garsiose šaudyklose dėvi abu.",
   "body": {
-    "gear-ear-protection-p1": "{{term:hearing-protection|Klausos apsauga}} {{tm:sporting}} ir {{tm:compak}} privaloma visiems, kas ant išdėstymo ar netoli jo: šauliams, teisėjams, personalui ir žiūrovams. Šaulys, atėjęs į šaudymo vietą be jos, laikomas neatvykusiu ir nešaudo.",
+    "gear-ear-protection-p1": "{{term:hearing-protection|Klausos apsauga}} {{tm:sporting}} ir {{tm:compak}} privaloma visiems, kas ant išdėstymo ar netoli jo: šauliams, {{term:referee|teisėjams}}, personalui ir žiūrovams. Šaulys, atėjęs į šaudymo vietą be jos, laikomas neatvykusiu ir nešaudo.",
     "health-hearing-p1": "Šautuvo šūvis labai garsus: {{fact:gear.gunshot-peak-db}}. Trumpiems, staigiems garsams, tokiems kaip šūvis (impulsinis triukšmas), priimta saugi riba yra {{fact:gear.impulse-noise-limits}}. Tad kiekvienas šūvis be apsaugos viršija ribą, o diena šaudykloje reiškia šimtus šūvių – savų ir svetimų.",
     "health-hearing-p2": "Nuo triukšmo kylantis klausos praradimas kaupiasi pamažu ir be skausmo. Žūva mažos jautrios vidinės ausies ląstelės, ir jos neatauga. Dažniausiai pirmiausia nukenčia aukšti garsai: kalba, ypač triukšmingoje vietoje, tampa mažiau aiški, ir daug žmonių iš pradžių to nepastebi. Jei toliau šaudoma be apsaugos, praradimas plinta ir į kitus garsus. Prarasto klausos negalima atgauti – jį galima tik apsaugoti.",
     "health-hearing-p3": "Spengimas ar ūžesys ausyse (tinitas) po šaudymo – dažnas pirmasis įspėjimas: apsaugos buvo nepakankamai. Patikrinkite, kaip sėdi kamštukai ir ausinės, arba pasirinkite stipresnius. Jei po šaudymo ausyse spengia ar garsai atrodo prislopinti, patikrinkite klausą pas ausų, nosies ir gerklės gydytoją (LOR) ar audiologą. Jei klausa staiga pablogėjo, skubiai kreipkitės į gydytoją.",
@@ -58,7 +58,7 @@
     "gear-ear-protection-kp1": "Klausos apsauga privaloma visiems netoli šaudymo vietos.",
     "health-hearing-kp1": "Šūvis siekia {{fact:gear.gunshot-peak-db}}; žala nuo triukšmo kaupiasi ir neatgyja.",
     "gear-ear-protection-kp2": "Kamštukai apsaugo, tik kai sandariai uždaro ausų kanalą.",
-    "health-hearing-kp2": "Spengimas ausyse po šaudymo reiškia, kad apsaugos buvo nepakankamai.",
+    "health-hearing-kp2": "{{term:tinnitus|Spengimas ausyse}} po šaudymo reiškia, kad apsaugos buvo nepakankamai.",
     "gear-ear-protection-kp5": "Garsiose šaudyklose kamštukai ir ausinės kartu duoda papildomą apsaugą; daug trenerių vaikams pataria abu."
   },
   "did_you_know": "Putų kamštukai skirti naudoti vieną ar kelis kartus: susidėvėję ir nešvarūs jie prasčiau sandarėja ir mažiau saugo.",
@@ -104,7 +104,7 @@
       "explain": "Nuo triukšmo kilusi klausos žala yra negrįžtama, tad klausą reikia saugoti nuo pirmo šūvio."
     },
     "health-hearing-q2": {
-      "q": "Kas yra dviguba klausos apsauga?",
+      "q": "Kas yra {{term:double-hearing-protection|dviguba klausos apsauga}}?",
       "options": {
         "a": "Dvi berušų poros vienu metu",
         "b": "Ausinės ant šiltos kepurės",

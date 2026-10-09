@@ -32,8 +32,8 @@
   "body": {
     "culture-club-life-p1": "Beaucoup de tireurs débutent dans un club. Un club est un lieu pour s'entraîner, mais c'est aussi une communauté. On y partage des conseils, on voyage ensemble aux compétitions, on fête les victoires et on se soutient après une mauvaise journée.",
     "culture-club-life-p2": "Les clubs organisent leurs propres épreuves, des rencontres amicales de week-end aux étapes d'un championnat national. Une {{term:national-federation|fédération nationale}} peut même confier à un club l'organisation d'une épreuve internationale, mais la fédération en reste responsable. Tout cela repose sur des personnes.",
-    "culture-club-life-p3": "Les bénévoles font beaucoup à une compétition. Ils inscrivent les tireurs, chargent les {{term:trap|lanceurs}} en plateaux, aident au parking et à la restauration, prennent des photos pour le club, et nettoient les douilles et les débris de plateaux. Certains aident avec les {{term:score-sheet|feuilles de marque}} là où le règlement l'autorise, toujours sous l'œil de l'{{term:referee|arbitre}}.",
-    "culture-club-life-briefing": "Certaines tâches, comme travailler comme {{term:trapper|pulleur}} près d'un lanceur, commencent par un briefing de sécurité. Portez des {{term:hearing-protection|protections auditives}} et des {{term:safety-glasses|lunettes de protection}}, et suivez les consignes du stand.",
+    "culture-club-life-p3": "Les bénévoles font beaucoup à une compétition. Ils inscrivent les tireurs, chargent les {{term:trap|lanceurs}} en plateaux, aident au parking et à la restauration, prennent des photos pour le club, et nettoient les {{term:hull|douilles}} et les débris de plateaux. Certains aident avec les {{term:score-sheet|feuilles de marque}} là où le règlement l'autorise, toujours sous l'œil du {{term:referee|arbitre}}.",
+    "culture-club-life-briefing": "Certaines tâches, comme travailler comme {{term:trapper|pulleur}} près d'un lanceur, commencent par un briefing de sécurité. Portez des {{term:hearing-protection|protections auditives|pl}} et des {{term:safety-glasses|lunettes de protection|pl}}, et suivez les consignes du stand.",
     "culture-club-life-p4": "Envie de vous impliquer ? Demandez à votre club qui a besoin d'aide. Le bénévolat est une bonne façon de rencontrer des gens et de voir comment fonctionne une compétition depuis l'intérieur. C'est aussi un bon premier pas vers l'arbitrage ou le rôle d'{{term:organiser|organisateur}} : {{lesson:nextstep-becoming-referee}}.",
     "culture-club-life-p5": "Un bon membre de club respecte le règlement du stand, paie ses cotisations à temps, aide les débutants et participe aux journées de nettoyage. L'une des choses les plus généreuses que vous puissiez faire pour un nouveau venu, c'est de lui montrer les règles de sécurité et de l'inviter à tirer avec vous.",
     "culture-club-life-tip": "Vous pensez organiser vous-même une épreuve ? Étape par étape : {{lesson:nextstep-club-shoot-and-volunteering}}."
@@ -50,10 +50,10 @@
   "did_you_know": "Lors d'une grande compétition, des dizaines de milliers de plateaux peuvent être lancés en une journée, et quelqu'un doit charger chacun d'eux dans un lanceur.",
   "quiz": {
     "culture-club-life-q1": {
-      "q": "Qui tient la feuille de marque en {{tm:sporting}} ?",
+      "q": "Qui tient le {{term:score-sheet|feuille de marque}} en {{tm:sporting}} ?",
       "options": {
         "a": "N'importe quel tireur, sans supervision",
-        "b": "L'arbitre, ou un aide sous son œil",
+        "b": "Le arbitre, ou un aide sous son œil",
         "c": "Seulement le tireur qui est sur le poste"
       },
       "explain": "En {{tm:sporting}}, l'arbitre remplit la feuille de marque ou choisit quelqu'un pour le faire sous sa supervision."
@@ -61,11 +61,11 @@
     "culture-club-life-q2": {
       "q": "Quel est un bon premier pas vers l'arbitrage ?",
       "options": {
-        "a": "Acheter une carte d'arbitre en ligne, sans examen",
+        "a": "Acheter un carte d'arbitre en ligne, sans examen",
         "b": "Gagner un concours de club, puis demander à arbitrer",
         "c": "Aider aux concours de club, puis suivre une formation"
       },
-      "explain": "Aider aux concours de club montre le travail de l'intérieur. Ensuite, la formation et l'examen de votre fédération mènent à un certificat d'arbitre."
+      "explain": "Aider aux concours de club montre le travail de l'intérieur. Ensuite, la formation et l'examen de votre fédération mènent à un certificat de {{term:referee|arbitre}}."
     },
     "culture-club-life-q3": {
       "q": "Une fédération peut-elle confier à un club l'organisation d'une compétition ?",

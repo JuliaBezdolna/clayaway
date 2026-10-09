@@ -31,11 +31,11 @@
   "summary": "Az acélsörét kemény, és nem szorul össze a szűkületben, tehát szűkebb sörétképet ad. Milyen szűkületek illenek hozzá, hogyan olvasd a próbabélyegeket, és mit jelent ez azokon a {{tm:sporting}} és {{tm:compak}} lőtereken, amelyek acélsörétet kérnek.",
   "body": {
     "chokes-steel-shot-p1": "Néhány lőtér, különösen víz közelében vagy védett területeken, csak ólommentes sörétet engedélyez, leggyakrabban {{term:steel-shot|acélsörétet}} vagy {{term:soft-iron-shot|lágyvas sörétet}}. A sörétről magáról a {{lesson:cartridges-lead-and-steel}} óra szól. Itt azt nézzük, mit jelent ez a szűkületeknek.",
-    "chokes-steel-shot-p2": "Egy {{term:lead-shot|ólom}} szemcse puha, és kissé deformálódik, amikor áthalad a szűkületen. Egy acélszemcse kemény, és nem szorul össze. Ezért ugyanaz a szűkület acéllal láthatóan szűkebb {{term:pattern|sörétképet}} ad, és sok lövész egy fokkal nyitottabb szűkületet szerel fel: 1/4-et 1/2 helyett.",
-    "chokes-steel-shot-p3": "A kemény acél jobban megterheli a szűkületet is. Sok gyártó és forgalmazó azt tanácsolja, hogy standard acéltöltetekkel ne használj {{term:modified|modifiednél}} (1/2) szűkebb szűkületet. A nagy teljesítményű acélhoz (high performance, az erősebb fajtához, lentebb) néhányan legfeljebb 1/4-et javasolnak. A {{term:full-choke|full choke}} acéllal legtöbbször nem ajánlott. A pontos határ a fegyvertől függ, tehát olvasd el a gyártó kézikönyvét.",
+    "chokes-steel-shot-p2": "Egy {{term:lead-shot|ólom}} szemcse puha, és kissé deformálódik, amikor áthalad a szűkületen. Egy acélszemcse kemény, és nem szorul össze. Ezért ugyanaz a {{term:choke|szűkület}} acéllal láthatóan szűkebb {{term:pattern|sörétképet}} ad, és sok lövész egy fokkal nyitottabb szűkületet szerel fel: 1/4-et 1/2 helyett.",
+    "chokes-steel-shot-p3": "A kemény acél jobban megterheli a szűkületet is. Sok gyártó és forgalmazó azt tanácsolja, hogy standard acéltöltetekkel ne használj a {{term:modified|felesnél}}, azaz 1/2-nél szűkebb szűkületet. A nagy teljesítményű acélhoz (high performance, az erősebb fajtához, lentebb) néhányan legfeljebb 1/4-et javasolnak. A {{term:full-choke|full choke}} acéllal legtöbbször nem ajánlott. A pontos határ a fegyvertől függ, tehát olvasd el a gyártó kézikönyvét.",
     "chokes-steel-shot-p4": "Az acélhoz készült szűkületeket gyakran „Steel” vagy „Steel OK” jelöléssel látják el, néhányon pedig „Lead only” áll. Ha egy szűkületen nincs jelölés, és nincs kézikönyved, kérdezz meg egy {{term:gunsmith|puskaművest}}.",
     "chokes-steel-shot-p5": [
-      "A régi, vékony falú csöveket, különösen {{term:fixed-choke|fix}} full choke-kal, az acél károsíthatja: egy gyűrű alakú kidudorodás jelenhet meg a torkolat közelében.",
+      "A régi, vékony falú csöveket, különösen {{term:fixed-choke|fix}} full choke-kal, az acél károsíthatja: egy gyűrű alakú kidudorodás jelenhet meg a {{term:muzzle|torkolat}} közelében.",
       "A C.I.P. szabályok szerint (az Európa nagy részén használt közös fegyver- és lőszer-próbaszabványok) az acéltöltények két osztályba sorolhatók: standard acél és nagy teljesítményű (high performance) acél.",
       "Standard acélt egy jó állapotú, a szokásos próbabélyegekkel ellátott fegyverből lehet lőni. Ezek a bélyegek egy próbaház (proof house) által egy próbalövés után a fegyverre ütött jelölések.",
       "Nagy teljesítményű acélt csak egy olyan fegyverből lehet lőni, amely egy külön acélsörét-próbát is kiállt; csövein egy liliom alakú bélyeg van (fleur-de-lis), gyakran „Steel Shot” felirattal.",
@@ -50,7 +50,7 @@
     "chokes-steel-shot-kp2": "Acéllal sok lövész egy fokkal nyitottabb szűkületet választ.",
     "chokes-steel-shot-kp3": "Sok gyártó azt tanácsolja, hogy acéllal ne legyen szűkebb 1/2-nél; a full legtöbbször nem ajánlott.",
     "chokes-steel-shot-kp4": "Nézd a „Steel” jelölést a szűkületen, és olvasd el a kézikönyvet.",
-    "chokes-steel-shot-kp5": "A régi, vékony falú csövek károsulhatnak; a nagy teljesítményű acélhoz a liliom alakú próbabélyeg kell."
+    "chokes-steel-shot-kp5": "A régi, vékony falú csövek károsulhatnak; a nagy teljesítményű acélhoz a liliom alakú {{term:proof-mark|próbabélyeg}} kell."
   },
   "did_you_know": "Egy acélszemcse {{fact:gear.steel-vs-lead-weight}}, tehát hamarabb veszít a sebességéből. Ezért az acélhasználók gyakran kicsit nagyobb sörétszemet választanak, ahol a lőtér szabályai ezt megengedik.",
   "quiz": {

@@ -24,7 +24,11 @@
     "cartridges-shot-size-q1": "4113df9d",
     "cartridges-shot-size-dyk": "8f31f7da"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Número do chumbo",
   "summary": "O que significam os números de chumbo 7, 7½, 8 e 9, porque a numeração varia entre países, e que diâmetro permitem as regras do {{tm:sporting}} e do {{tm:compak}}.",
   "body": {
@@ -36,7 +40,7 @@
       "N.º 7: cerca de 2,4–2,5 mm."
     ],
     "cartridges-shot-size-p7": "Porquê «cerca de»? A numeração varia entre países e fabricantes. Na escala britânica tradicional, o n.º 7½ é 2,3 mm e o n.º 8 é 2,2 mm. A numeração continental, que alguns fabricantes britânicos como a Gamebore também usam para cargas de tiro aos pratos, chama n.º 7½ ao chumbo de 2,4 mm e n.º 8 ao de 2,3 mm. O n.º 7½ americano é 0,095 pol., cerca de 2,41 mm.",
-    "cartridges-shot-size-p3": "As regras do {{tm:sporting}} e do {{tm:compak}} exigem {{term:lead-shot|chumbo}} de {{fact:gear.fitasc-shot-diameter}}. Na prática isso significa n.º 9, 8, 7½, e n.º 7 se o seu diâmetro ficar dentro do limite. O n.º 6 (cerca de 2,6–2,8 mm) fica no limite ou além dele, mesmo com a tolerância, por isso não é uma carga de competição. É proibido misturar números de chumbo diferentes num só cartucho.",
+    "cartridges-shot-size-p3": "As regras do {{tm:sporting}} e do {{tm:compak}} exigem {{term:lead-shot|chumbo}} de {{fact:gear.fitasc-shot-diameter}}. Na prática isso significa n.º 9, 8, 7½, e n.º 7 se o seu diâmetro ficar dentro do limite. O n.º 6 (cerca de 2,6–2,8 mm) fica no limite ou além dele, mesmo com a tolerância, por isso não é uma {{term:load-weight|carga}} de competição. É proibido misturar números de chumbo diferentes num só {{term:cartridge|cartucho}}.",
     "cartridges-shot-size-p4": "Chumbo mais fino dá mais grãos para a mesma carga: 28 g têm cerca de 350–400 grãos de n.º 7½, dependendo do diâmetro exato, e cerca de 580 de n.º 9. Por isso a {{term:pattern|chumbada}} é mais densa, mas cada grão é mais leve e perde energia mais cedo.",
     "cartridges-shot-size-p5": "É por isso que muitos atiradores usam n.º 9 para pratos próximos: a sua chumbada densa cobre facilmente o prato. Para pratos médios e distantes escolhem n.º 8 ou n.º 7½, porque grãos mais pesados partem os pratos com mais eficácia à distância. O n.º 7½ também é popular para pratos {{term:rabbit|coelho}} resistentes e para uma {{term:battue|batida}} que voa de cutelo.",
     "cartridges-shot-size-p6": "Muitos atiradores de {{tm:sporting}} escolhem um cartucho versátil, por exemplo 28 g n.º 7½ ou n.º 8, e mantêm as coisas simples. Alguns carregam n.º 9 no primeiro cano para um prato próximo e n.º 7½ no segundo."
@@ -60,8 +64,13 @@
   "quiz": {
     "gear-cartridges-q1": {
       "q": "Qual é o chumbo mais fino?",
-      "options": { "a": "N.º 7", "b": "N.º 7½", "c": "N.º 8", "d": "N.º 9" },
-      "explain": "Quanto maior o número do chumbo, mais fino o grão."
+      "options": {
+        "a": "N.º 7",
+        "b": "N.º 7½",
+        "c": "N.º 8",
+        "d": "N.º 9"
+      },
+      "explain": "Quanto maior o {{term:shot-size|número do chumbo}}, mais fino o grão."
     },
     "cartridges-shot-size-q2": {
       "q": "Que diâmetro de chumbo permitem as regras da FITASC?",
@@ -74,19 +83,24 @@
       "explain": "O chumbo tem de ser redondo, de chumbo e com 2,0–2,5 mm de diâmetro, aceitando-se ±0,1 mm."
     },
     "cartridges-shot-size-q3": {
-      "q": "Porque convém olhar para os milímetros, e não só para o número do chumbo?",
+      "q": "Porque convém olhar para os milímetros, e não só para o {{term:shot-size|número do chumbo}}?",
       "options": {
         "a": "Os sistemas diferem entre países",
-        "b": "Só os cartuchos caros mostram o número",
+        "b": "Só os {{term:cartridge|cartuchos}} caros mostram o número",
         "c": "O número na caixa não significa nada",
-        "d": "O número do chumbo indica a carga, não o tamanho"
+        "d": "O número do chumbo indica a {{term:load-weight|carga}}, não o tamanho"
       },
       "explain": "O mesmo número pode diferir um décimo de milímetro entre sistemas."
     },
     "cartridges-shot-size-q1": {
-      "q": "Aproximadamente quantos grãos de n.º 9 há numa carga de 28 g?",
-      "options": { "a": "Cerca de 100", "b": "Cerca de 250", "c": "Cerca de 580", "d": "Cerca de 2000" },
-      "explain": "Cerca de 580 grãos de n.º 9, contra cerca de 350–400 de n.º 7½: chumbo mais fino dá uma chumbada mais densa."
+      "q": "Aproximadamente quantos grãos de n.º 9 há numa {{term:load-weight|carga}} de 28 g?",
+      "options": {
+        "a": "Cerca de 100",
+        "b": "Cerca de 250",
+        "c": "Cerca de 580",
+        "d": "Cerca de 2000"
+      },
+      "explain": "Cerca de 580 grãos de n.º 9, contra cerca de 350–400 de n.º 7½: chumbo mais fino dá uma {{term:pattern|chumbada}} mais densa."
     }
   }
 }

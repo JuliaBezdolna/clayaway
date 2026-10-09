@@ -50,19 +50,19 @@
     "origin": "interpreter-academy"
   },
   "title": "Funktionsstörungen der Flinte oder Patrone",
-  "summary": "Was zu tun ist, wenn die Flinte nicht feuert, und wie eine Funktionsstörung in {{tm:sporting}} und {{tm:compak}} gewertet wird.",
+  "summary": "Was zu tun ist, wenn die Flinte nicht feuert, und wie eine {{term:malfunction|Funktionsstörung}} in {{tm:sporting}} und {{tm:compak}} gewertet wird.",
   "body": {
-    "sporting-malfunctions-p1": "Eine {{term:malfunction|Funktionsstörung}} ist ein Versagen von Flinte oder Patrone: ein Versager, ein zweiter Lauf, der nicht feuert, oder beide Läufe, die gleichzeitig abgehen ({{term:double-discharge|Doppeln}}).",
-    "sporting-malfunctions-p2": "Zuerst, was der Schütze tun muss: Bleiben Sie, wo Sie sind, die Flinte in Richtung Schussbahn. Öffnen Sie sie nicht und berühren Sie die {{term:safety-catch|Sicherung}} nicht, bis der Schiedsrichter sie geprüft hat. Öffnen Sie die Flinte oder berühren Sie die Sicherung zuerst, wird die Scheibe oder werden die Scheiben als Null gewertet. Versuchen Sie nicht, eine geladene Flinte auf dem Standplatz zu zerlegen.",
-    "safety-malfunction-p3": "Warum die Flinte nicht sofort öffnen? Gelegentlich zündet eine Patrone verzögert, einen Sekundenbruchteil oder länger nach dem Abziehen: ein {{term:hang-fire|Versager}}. Ist die Flinte in diesem Moment offen oder zur Seite gerichtet, ist das gefährlich. Warten Sie daher im Training ohne Schiedsrichter mit der Flinte in sicherer Richtung, bevor Sie sie öffnen; wie lange, sagt Ihnen Ihr Ausbilder oder die Regeln des Stands.",
+    "sporting-malfunctions-p1": "Eine {{term:malfunction|Funktionsstörung}} ist ein Versagen von Flinte oder Patrone: ein Versager, ein zweiter Lauf, der nicht feuert, oder beide {{term:barrel|Läufe|pl}}, die gleichzeitig abgehen – {{term:double-discharge|Doppeln}}.",
+    "sporting-malfunctions-p2": "Zuerst, was der Schütze tun muss: Bleiben Sie, wo Sie sind, die Flinte in Richtung Schussbahn. Öffnen Sie sie nicht und berühren Sie die {{term:safety-catch|Sicherung}} nicht, bis der {{term:referee|Schiedsrichter}} sie geprüft hat. Öffnen Sie die Flinte oder berühren Sie die Sicherung zuerst, wird die Scheibe oder werden die Scheiben als Null gewertet. Versuchen Sie nicht, eine geladene Flinte auf dem Standplatz zu zerlegen.",
+    "safety-malfunction-p3": "Warum die Flinte nicht sofort öffnen? Gelegentlich zündet eine Patrone verzögert, einen Sekundenbruchteil oder länger nach dem Abziehen: ein {{term:hang-fire|Nachbrenner}}. Ist die Flinte in diesem Moment offen oder zur Seite gerichtet, ist das gefährlich. Warten Sie daher im Training ohne Schiedsrichter mit der Flinte in sicherer Richtung, bevor Sie sie öffnen; wie lange, sagt Ihnen Ihr Ausbilder oder die Regeln des Stands.",
     "rules-malfunctions-cmp1": {
-      "sporting": "Pro {{term:round|Runde}} von {{fact:rules.round-targets}}. Die erste Störung ist ein No Bird mit Verwarnung, und die Scheibe wird wiederholt. Ab der zweiten wird die Scheibe nicht wiederholt, sondern als Null gewertet.",
+      "sporting": "Pro {{term:round|Runde}} von {{fact:rules.round-targets}}. Die erste Störung ist ein No Bird mit {{term:warning|Verwarnung}}, und die Scheibe wird wiederholt. Ab der zweiten wird die Scheibe nicht wiederholt, sondern als Null gewertet.",
       "compak": "Pro Runde von {{fact:rules.round-targets}}. Die erste Störung ist ein No Bird mit einer {{term:yellow-card|Gelben Karte}}. Eine zweite derselben Art bringt eine {{term:red-card|Rote Karte}}, und nicht beschossene Scheiben sind Null."
     },
-    "sporting-malfunctions-p4": "Ihre erste Funktionsstörung in der Runde, Fall für Fall. (1) Der erste Schuss versagt: Sie schießen die Einzelscheibe oder die Doublette erneut. Haben Sie trotzdem den zweiten Schuss abgegeben, zählt dieses Ergebnis. (2) Bei einer Einzelscheibe versagt der zweite Schuss: Sie schießen sie erneut, und bei der Wiederholung zählt nur ein Treffer mit dem zweiten Schuss. Verfehlen Sie also mit dem ersten Schuss absichtlich. (3) Beide Läufe gehen bei einer Einzelscheibe oder bei der ersten Scheibe einer Doublette gleichzeitig ab: No Bird, nichts wird eingetragen, und Sie schießen erneut. Wie jede Art von Doublette wiederholt wird, steht im Regel-Leitfaden ({{rule:sporting:ch6-malfunction-second-shot}}).",
+    "sporting-malfunctions-p4": "Ihre erste Funktionsstörung in der Runde, Fall für Fall. (1) Der erste Schuss versagt: Sie schießen die Einzelscheibe oder die {{term:double|Doublette}} erneut. Haben Sie trotzdem den zweiten Schuss abgegeben, zählt dieses Ergebnis. (2) Bei einer Einzelscheibe versagt der zweite Schuss: Sie schießen sie erneut, und bei der Wiederholung zählt nur ein Treffer mit dem zweiten Schuss. Verfehlen Sie also mit dem ersten Schuss absichtlich. (3) Beide Läufe gehen bei einer Einzelscheibe oder bei der ersten Scheibe einer Doublette gleichzeitig ab: No Bird, nichts wird eingetragen, und Sie schießen erneut. Wie jede Art von Doublette wiederholt wird, steht im Regel-Leitfaden ({{rule:sporting:ch6-malfunction-second-shot}}).",
     "sporting-malfunctions-p5": "Wird Ihre Flinte repariert, bevor die Gruppe den Standplatz beendet hat, dürfen Sie dort mit Erlaubnis des Schiedsrichters als Letzter schießen. Kann sie nicht repariert werden, dürfen Sie mit Zustimmung des Schiedsrichters sofort auf eine andere Flinte wechseln oder, wenn die Jury es erlaubt, später in einer anderen Gruppe fertig schießen. Außer bei einer Funktionsstörung dürfen Sie Flinte, Choke oder Läufe nicht mehr wechseln, sobald Sie auf dem Standplatz sind.",
     "compak-malfunctions-p3": "Ihre erste Funktionsstörung in der Runde. Gehen beide Läufe gleichzeitig ab oder versagt die erste Patrone, wird die Einzelscheibe oder die Doublette erneut geworfen, und der fehlgeschlagene Versuch zählt nicht. Versagt die zweite Patrone bei einer Einzelscheibe, wird die Scheibe erneut geworfen, aber nur der zweite Schuss kann sie zählen lassen. Verfehlen Sie also mit dem ersten Schuss absichtlich. Für Doubletten siehe den Regel-Leitfaden ({{rule:compak:ch20-gun-failure-second-shot}}).",
-    "compak-malfunctions-p4": "Nach einer Funktionsstörung haben Sie {{fact:rules.compak-repair-time}}, um die Flinte wieder funktionsfähig zu machen oder sie zu ersetzen. Ausnahmsweise dürfen Sie sich eine Flinte von jemandem außerhalb Ihrer eigenen Rotte oder Gruppe leihen, mit Zustimmung des Eigentümers und des Schiedsrichters. Ohne funktionierende Flinte sind die restlichen Scheiben Null. Ansonsten dürfen Flinte, Choke oder Lauf innerhalb einer Runde nicht gewechselt werden.",
+    "compak-malfunctions-p4": "Nach einer Funktionsstörung haben Sie {{fact:rules.compak-repair-time}}, um die Flinte wieder funktionsfähig zu machen oder sie zu ersetzen. Ausnahmsweise dürfen Sie sich eine Flinte von jemandem außerhalb Ihrer eigenen {{term:squad|Rotte}} oder Gruppe leihen, mit Zustimmung des Eigentümers und des Schiedsrichters. Ohne funktionierende Flinte sind die restlichen Scheiben Null. Ansonsten dürfen Flinte, Choke oder Lauf innerhalb einer Runde nicht gewechselt werden.",
     "compak-malfunctions-p5": "Ein {{term:rabbit|Rollhase}} ist die Scheibe, die über den Boden rollt. In beiden Disziplinen gilt: Verfehlen Sie ihn mit dem ersten Schuss und er zerbricht dann von selbst vor Ihrem zweiten Schuss, ist das ein No Bird. Das kann passieren, wenn er auf einen Stein trifft. Bei der Wiederholung zählt nur der zweite Schuss, wie nach einer Störung des zweiten Schusses.",
     "rules-malfunctions-p7": "Prüfen Sie Flinte und Patronen vor der Runde, am {{term:gun-test|Probestand}} nahe dem Clubhaus, falls es einen gibt. Probeschüsse auf dem Standplatz sind in keiner der beiden Disziplinen erlaubt."
   },
@@ -119,10 +119,10 @@
         "b": "Sofort nachladen und erneut abrufen",
         "c": "Stehen bleiben, Flinte geschlossen, auf den Schiedsrichter warten"
       },
-      "explain": "Öffnen Sie die Flinte oder berühren Sie die Sicherung vor der Prüfung des Schiedsrichters, wird die Scheibe als Null gewertet."
+      "explain": "Öffnen Sie die Flinte oder berühren Sie die {{term:safety-catch|Sicherung}} vor der Prüfung des Schiedsrichters, wird die Scheibe als Null gewertet."
     },
     "rules-malfunctions-q2": {
-      "q": "In {{tm:sporting}} passiert in derselben Runde eine zweite Funktionsstörung, bei einer Einzelscheibe. Was ist das Ergebnis?",
+      "q": "In {{tm:sporting}} passiert in derselben {{term:round|Runde}} eine zweite {{term:malfunction|Funktionsstörung}}, bei einer Einzelscheibe. Was ist das Ergebnis?",
       "options": {
         "a": "Null",
         "b": "No Bird",
@@ -140,16 +140,16 @@
       "explain": "Sie haben {{fact:rules.compak-repair-time}}; ohne funktionierende Flinte sind die nicht beschossenen Scheiben Null."
     },
     "safety-malfunction-q1": {
-      "q": "Im Training, ohne Schiedsrichter, klickt Ihre Flinte, feuert aber nicht. Was sollten Sie tun?",
+      "q": "Im Training, ohne {{term:referee|Schiedsrichter}}, klickt Ihre Flinte, feuert aber nicht. Was sollten Sie tun?",
       "options": {
         "a": "Sofort öffnen und nachsehen",
         "b": "In sicherer Richtung halten und vor dem Öffnen warten",
         "c": "Sich umdrehen und sie dem Trainer zeigen"
       },
-      "explain": "Eine Patrone kann verzögert zünden (ein Versager), halten Sie also die Mündung in eine sichere Richtung und warten Sie, bevor Sie die Flinte öffnen. Wie lange, sagt Ihnen Ihr Ausbilder oder die Regeln des Stands."
+      "explain": "Eine Patrone kann verzögert zünden (ein Versager), halten Sie also die {{term:muzzle|Mündung}} in eine sichere Richtung und warten Sie, bevor Sie die Flinte öffnen. Wie lange, sagt Ihnen Ihr Ausbilder oder die Regeln des Stands."
     },
     "safety-malfunction-q2": {
-      "q": "Nach einem Versager aktivieren Sie die Sicherung, bevor der Schiedsrichter die Flinte angesehen hat. Was passiert?",
+      "q": "Nach einem Versager aktivieren Sie die {{term:safety-catch|Sicherung}}, bevor der {{term:referee|Schiedsrichter}} die Flinte angesehen hat. Was passiert?",
       "options": {
         "a": "Die Scheibe wird als Null gewertet",
         "b": "Sie erhalten eine zusätzliche Scheibe",
@@ -167,7 +167,7 @@
       "explain": "Ein Versager ist selten, aber gefährlich, deshalb muss die Flinte in eine sichere Richtung gerichtet bleiben."
     },
     "competitions-scoring-basics-q2": {
-      "q": "{{tm:sporting}}: Ihre Flinte versagt an einem Standplatz (erste Störung) und wird repariert, während Ihre Gruppe diesen Standplatz noch schießt. Was dürfen Sie tun?",
+      "q": "{{tm:sporting}}: Ihre Flinte versagt an einem Standplatz – erste {{term:malfunction|Störung}} – und wird repariert, während Ihre Gruppe diesen Standplatz noch schießt. Was dürfen Sie tun?",
       "options": {
         "a": "Den Standplatz als Letzter schießen, wenn der Schiedsrichter es erlaubt",
         "b": "Nichts: die restlichen Scheiben sind Null",
@@ -176,27 +176,27 @@
       "explain": "Wird die Flinte repariert, bevor die Gruppe den Standplatz beendet hat, dürfen Sie dort mit Erlaubnis des Schiedsrichters als Letzter schießen."
     },
     "sporting-malfunctions-q1": {
-      "q": "Erstes Flintenproblem der Runde: Bei einer Einzelscheibe versagt die erste Patrone. Der Schütze wartet, die Flinte in Richtung Schussbahn, auf den Schiedsrichter. Entscheidung?",
+      "q": "Erstes Flintenproblem der {{term:round|Runde}}: Bei einer Einzelscheibe versagt die erste Patrone. Der Schütze wartet, die Flinte in Richtung Schussbahn, auf den {{term:referee|Schiedsrichter}}. Entscheidung?",
       "options": {
         "a": "Null",
-        "b": "No Bird und eine Verwarnung",
+        "b": "No Bird und eine {{term:warning|Verwarnung}}",
         "c": "Treffer",
-        "d": "Gelbe Karte und Null"
+        "d": "{{term:yellow-card|Gelbe Karte}} und Null"
       },
-      "explain": "Die erste Störung mit Flinte oder Munition in einer Runde ist ein No Bird mit Verwarnung, und die Einzelscheibe wird wiederholt."
+      "explain": "Die erste {{term:malfunction|Störung}} mit Flinte oder Munition in einer Runde ist ein No Bird mit Verwarnung, und die Einzelscheibe wird wiederholt."
     },
     "sporting-malfunctions-q2": {
-      "q": "Die Patrone versagt, und der verärgerte Schütze bricht die Flinte auf, um das Zündhütchen anzusehen, bevor der Schiedsrichter da ist. Entscheidung?",
+      "q": "Die Patrone versagt, und der verärgerte Schütze bricht die Flinte auf, um das {{term:primer|Zündhütchen}} anzusehen, bevor der {{term:referee|Schiedsrichter}} da ist. Entscheidung?",
       "options": {
         "a": "No Bird",
-        "b": "Die Scheibe wird nach einer Verwarnung wiederholt",
+        "b": "Die Scheibe wird nach einer {{term:warning|Verwarnung}} wiederholt",
         "c": "Null",
-        "d": "Rote Karte, und die Scheibe wird wiederholt"
+        "d": "{{term:red-card|Rote Karte}}, und die Scheibe wird wiederholt"
       },
-      "explain": "Wer die Flinte öffnet oder die Sicherung berührt, bevor der Schiedsrichter geprüft hat, bekommt die Scheibe als Null gewertet."
+      "explain": "Wer die Flinte öffnet oder die {{term:safety-catch|Sicherung}} berührt, bevor der Schiedsrichter geprüft hat, bekommt die Scheibe als Null gewertet."
     },
     "sporting-malfunctions-q3": {
-      "q": "Einzelscheibe, erste Störung: Der erste Schuss geht daneben, und die zweite Patrone versagt, also wird die Scheibe wiederholt. Bei der Wiederholung trifft der Schütze sie mit dem ersten Schuss. Entscheidung?",
+      "q": "Einzelscheibe, erste {{term:malfunction|Störung}}: Der erste Schuss geht daneben, und die zweite Patrone versagt, also wird die Scheibe wiederholt. Bei der Wiederholung trifft der Schütze sie mit dem ersten Schuss. Entscheidung?",
       "options": {
         "a": "Treffer",
         "b": "Wieder No Bird",
@@ -206,14 +206,14 @@
       "explain": "Nach einer Störung des zweiten Schusses darf die wiederholte Einzelscheibe nur mit dem zweiten Schuss getroffen werden, der erste Schuss muss also ein absichtlicher Fehlschuss sein."
     },
     "compak-malfunctions-q1": {
-      "q": "Erste Störung der Runde in {{tm:compak}}: Die erste Patrone versagt bei einer Einzelscheibe. Der Schütze wartet korrekt. Entscheidung?",
+      "q": "Erste {{term:malfunction|Störung}} der {{term:round|Runde}} in {{tm:compak}}: Die erste Patrone versagt bei einer Einzelscheibe. Der Schütze wartet korrekt. Entscheidung?",
       "options": {
-        "a": "No Bird und eine Gelbe Karte",
+        "a": "No Bird und eine {{term:yellow-card|Gelbe Karte}}",
         "b": "Null, keine Wiederholung",
-        "c": "Rote Karte und Null",
+        "c": "{{term:red-card|Rote Karte}} und Null",
         "d": "Treffer, der Schuss zählt"
       },
-      "explain": "Die erste Störung mit Flinte oder Patrone in einer Runde ist ein No Bird mit einer ersten Verwarnung, angezeigt durch die Gelbe Karte."
+      "explain": "Die erste Störung mit Flinte oder Patrone in einer Runde ist ein No Bird mit einer ersten {{term:warning|Verwarnung}}, angezeigt durch die Gelbe Karte."
     },
     "compak-malfunctions-q2": {
       "q": "Die Flinte eines Schützen fällt aus, und er möchte sich die Flinte eines Rottenkameraden leihen. Ist das erlaubt?",
@@ -226,11 +226,11 @@
       "explain": "{{tm:compak}} verbietet das Teilen einer Flinte innerhalb einer Gruppe. Ausnahmsweise leihen geht nur von außerhalb, mit Zustimmung des Eigentümers und des Schiedsrichters."
     },
     "compak-malfunctions-q3": {
-      "q": "Zweite Flintenstörung derselben Art in dieser Runde, bei einer Einzelscheibe, auf die der Schütze nicht schießen konnte. Entscheidung?",
+      "q": "Zweite Flintenstörung derselben Art in dieser {{term:round|Runde}}, bei einer Einzelscheibe, auf die der Schütze nicht schießen konnte. Entscheidung?",
       "options": {
         "a": "Wieder No Bird",
-        "b": "No Bird und eine Verwarnung",
-        "c": "Null, mit Roter Karte",
+        "b": "No Bird und eine {{term:warning|Verwarnung}}",
+        "c": "Null, mit {{term:red-card|Roter Karte}}",
         "d": "Die Scheibe wird noch einmal gezeigt"
       },
       "explain": "Ab dem zweiten Vorfall derselben Art werden nicht beschossene Scheiben als Null gewertet."

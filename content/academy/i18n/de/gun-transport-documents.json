@@ -28,11 +28,11 @@
   "origin": null
  },
  "title": "Flinte transportieren: Schießstand, Auto und zu Hause",
- "summary": "Wie man eine Flinte an einem {{tm:sporting}}- oder {{tm:compak}}-Schießstand trägt, im Auto mitnimmt und zu Hause aufbewahrt, und wo Sie mehr über Auslandsreisen lesen. Die Gesetze unterscheiden sich zwischen den Ländern.",
+ "summary": "Wie man eine {{term:shotgun|Flinte}} an einem {{tm:sporting}}- oder {{tm:compak}}-Schießstand trägt, im Auto mitnimmt und zu Hause aufbewahrt, und wo Sie mehr über Auslandsreisen lesen. Die Gesetze unterscheiden sich zwischen den Ländern.",
  "body": {
-  "gun-transport-documents-p1": "Beginnen wir am Schießstand. Bei {{tm:sporting}} und {{tm:compak}} wird eine Flinte offen getragen (eine Selbstladeflinte mit offenem Verschluss), mit der Mündung senkrecht nach oben oder unten. Trageriemen sind nicht erlaubt. Ist die Flinte nicht in Ihren Händen, steht sie aufrecht in einem {{term:gun-rack|Gewehrständer}}, und niemand berührt die Flinte eines anderen Schützen ohne Erlaubnis.",
+  "gun-transport-documents-p1": "Beginnen wir am Schießstand. Bei {{tm:sporting}} und {{tm:compak}} wird eine {{term:shotgun|Flinte}} offen getragen – eine {{term:semi-automatic|Selbstladeflinte}} mit offenem Verschluss –, mit der {{term:muzzle|Mündung}} senkrecht nach oben oder unten. Trageriemen sind nicht erlaubt. Ist die Flinte nicht in Ihren Händen, steht sie aufrecht in einem {{term:gun-rack|Gewehrständer}}, und niemand berührt die Flinte eines anderen Schützen ohne Erlaubnis.",
   "gun-transport-documents-p2": "Abseits des Schießstands gilt das Gesetz des Landes. Fast überall braucht man eine Lizenz oder Erlaubnis für eine Flinte, und die Regeln für Transport und Lagerung unterscheiden sich sogar zwischen Nachbarländern. Prüfen Sie vor einer Reise die Regeln des Ziellandes und jedes Transitlands, mehrere Wochen vorher.",
-  "gun-transport-documents-p6": "Im Auto reist die Flinte ungeladen, in einem {{term:hard-case|Waffenkoffer}} oder {{term:gun-slip|Futteral}}, außer Sicht, und in vielen Ländern getrennt von den Patronen. Lassen Sie eine Flinte nicht unbeaufsichtigt im Auto.",
+  "gun-transport-documents-p6": "Im Auto reist die Flinte ungeladen, in einem {{term:hard-case|Waffenkoffer}} oder {{term:gun-slip|Futteral}}, außer Sicht, und in vielen Ländern getrennt von den {{term:cartridge|Patronen|pl}}. Lassen Sie eine Flinte nicht unbeaufsichtigt im Auto.",
   "gun-transport-documents-p8": "Bewahren Sie die Flinte zu Hause so auf, wie es das Gesetz Ihres Landes verlangt, meist verschlossen in einem Waffenschrank und außer Reichweite von Kindern. Viele Gesetze verlangen auch, Patronen getrennt aufzubewahren. Pflege und Lagerung: {{lesson:gun-care}}.",
   "gun-transport-documents-p9": "Reisen Sie mit Ihrer eigenen Flinte ins Ausland? Der {{term:european-firearms-pass|Europäische Feuerwaffenpass}} wird nur an Bewohner von EU-Ländern sowie der Schweiz, Norwegens, Islands und Liechtensteins ausgestellt, die dieselben EU-Waffenregeln anwenden. Er dient für Reisen mit der eigenen Flinte. Andere brauchen meist eine Erlaubnis des Ziellands oder leihen dort eine Flinte.",
   "gun-transport-documents-p10": "Einzelheiten stehen im Block Reisen: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} und {{lesson:travel-flying-with-guns}}.",
@@ -50,24 +50,24 @@
  "did_you_know": "Weil eine nicht benutzte Flinte aufrecht in einem Ständer stehen muss, stellen viele Schießstände neben jeden Standplatz einen Gewehrständer. So legt niemand eine Flinte auf den Boden oder lehnt sie an einen Zaun.",
  "quiz": {
   "gun-transport-documents-q1": {
-   "q": "Wie wird eine Flinte am Schießstand getragen?",
+   "q": "Wie wird eine {{term:shotgun|Flinte}} am Schießstand getragen?",
    "options": {
     "a": "Geschlossen, an einem Trageriemen über der Schulter",
-    "b": "Offen, mit den Mündungen nach oben oder unten",
-    "c": "Geschlossen, aber mit betätigter Sicherung",
+    "b": "Offen, mit den {{term:muzzle|Mündungen|pl}} nach oben oder unten",
+    "c": "Geschlossen, aber mit betätigter {{term:safety-catch|Sicherung}}",
     "d": "Auf beliebige Weise, wenn sie ungeladen ist"
    },
    "explain": "Die Regeln verlangen, die Flinte offen zu tragen, Mündung senkrecht nach oben oder unten; Trageriemen sind nicht erlaubt."
   },
   "gun-transport-documents-q4": {
-   "q": "Wie reist eine Flinte üblicherweise im Auto?",
+   "q": "Wie reist eine {{term:shotgun|Flinte}} üblicherweise im Auto?",
    "options": {
     "a": "Geladen, auf dem Rücksitz, einsatzbereit",
     "b": "Zusammengebaut, in einer Dachbox mit dem Gepäck",
-    "c": "In der Patronentasche, zusammen mit den Schachteln",
-    "d": "Ungeladen, in einem Koffer und außer Sicht"
+    "c": "In der {{term:cartridge-bag|Patronentasche}}, zusammen mit den Schachteln",
+    "d": "Ungeladen, in einem {{term:hard-case|Koffer}} und außer Sicht"
    },
-   "explain": "Ungeladen, im Koffer und außer Sicht; viele Länder verlangen außerdem, dass die Patronen getrennt reisen."
+   "explain": "Ungeladen, im Koffer und außer Sicht; viele Länder verlangen außerdem, dass die {{term:cartridge|Patronen|pl}} getrennt reisen."
   },
   "gun-transport-documents-q5": {
    "q": "Wer kann einen Europäischen Feuerwaffenpass bekommen?",

@@ -30,13 +30,13 @@
     "origin": "interpreter-academy"
   },
   "title": "Čísla a jednotky: stopy, yardy, ráže, velikosti broků",
-  "summary": "Yardy a metry, směry podle ciferníku, ráže, náplně, velikosti broků a zahrdlení: která čísla převádět, která nechat tak, jak zazněla, a jaké jsou limity FITASC.",
+  "summary": "Yardy a metry, směry podle ciferníku, ráže, náplně, {{term:shot-size|velikosti broků}} a {{term:choke|zahrdlení}}: která čísla převádět, která nechat tak, jak zazněla, a jaké jsou limity FITASC.",
   "body": {
-    "interpreter-numbers-and-units-p1": "Nejdřív předsazení. Britští a američtí {{term:coach|trenéři}} udávají {{term:lead|předsazení}} ve stopách nebo yardech: „give it three feet“, „a yard in front“. Je to představa (mezera, kterou má střelec vidět v okamžiku výstřelu), ne měření. Jednotku zachovejte tak, jak zazněla, a nepřevádějte ji uprostřed pokynu. Více o slovech pro předsazení: {{lesson:lead-how-coaches-say-it}}.",
+    "interpreter-numbers-and-units-p1": "Nejdřív {{term:lead|předsazení}}. Britští a američtí {{term:coach|trenéři}} udávají {{term:lead|předsazení}} ve stopách nebo yardech: „give it three feet“, „a yard in front“. Je to představa (mezera, kterou má střelec vidět v okamžiku výstřelu), ne měření. Jednotku zachovejte tak, jak zazněla, a nepřevádějte ji uprostřed pokynu. Více o slovech pro předsazení: {{lesson:lead-how-coaches-say-it}}.",
     "interpreter-numbers-and-units-p2": "Vzdálenost k terči je jiná věc. „It's about thirty yards“ můžete přeložit jako „asi 27 metrů“, protože yard je {{fact:stand-talk.unit-yard}}. Slovo „asi“ zachovejte. Směry se často udávají podle {{term:clock-face|ciferníku}} položeného na pole: přímo vpřed je 12, takže „pick it up at eleven o'clock“ znamená mírně vlevo. Ciferník zachovejte, nepřevádějte ho na stupně.",
     "interpreter-numbers-and-units-p3": "{{term:gauge|Ráže}} se počítá obráceně. „12-bore“ nebo „12 gauge“ není 12 mm: čím menší číslo, tím širší hlaveň, takže ráže 20 je užší. Oba regulérní řády FITASC ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) dovolují zbraně {{fact:gear.fitasc-max-gauge}}, a {{term:barrel-length|hlavně}} musí být {{fact:gear.fitasc-min-barrel}}. V {{tm:sporting}} vede čára na vestě {{fact:rules.sporting-jacket-line}}; britští střelci to mohou nazvat „něco málo pod deset palců“. Osa ramen je pomyslná čára napříč oběma rameny.",
     "interpreter-numbers-and-units-p4": "{{term:cartridge|Náboje}}: oba regulérní řády dovolují {{term:load-weight|brokovou náplň}} {{fact:gear.fitasc-shot-load}}. To je blízko „one-ounce load“, o které mluví britští střelci, protože jedna unce je {{fact:stand-talk.unit-ounce}}. Broky musí být {{fact:gear.fitasc-shot-diameter}}. {{term:shot-size|Čísla broků}} se v jednotlivých zemích liší. Č. 9 je téměř všude asi 2 mm, ale ostatní čísla se mírně liší mezi britským, americkým a kontinentálním systémem. Pokud na tom záleží, zeptejte se na milimetry ({{lesson:cartridges-shot-size}}).",
-    "interpreter-numbers-and-units-chokes": "{{term:choke|Zahrdlení}} (zúžení na ústí hlavně) se udává jako název, zlomek nebo „thou“ (tisíciny palce). Překládejte v té soustavě, kterou použil trenér, a nepřevádějte jednu soustavu do druhé."
+    "interpreter-numbers-and-units-chokes": "{{term:choke|Zahrdlení}}, tedy zúžení na {{term:muzzle|ústí hlavně}}, se udává jako název, zlomek nebo „thou“ (tisíciny palce). Překládejte v té soustavě, kterou použil trenér, a nepřevádějte jednu soustavu do druhé."
   },
   "note": {},
   "phrases": {
@@ -70,7 +70,7 @@
   },
   "quiz": {
     "interpreter-numbers-and-units-q1": {
-      "q": "Trenér řekne „It's about thirty yards.“ Jak to předáte střelci, který přemýšlí v metrech?",
+      "q": "{{term:coach|Trenér}} řekne „It's about thirty yards.“ Jak to předáte střelci, který přemýšlí v metrech?",
       "options": {
         "a": "„Asi 27 metrů“",
         "b": "„Přesně 27,43 metru“",
@@ -90,14 +90,14 @@
       "explain": "Oba regulérní řády dovolují nejvýše ráži 12; menší číslo ráže znamená širší hlaveň, takže ráže 10 dovolena není."
     },
     "interpreter-numbers-and-units-q3": {
-      "q": "Britský host se zeptá, zda jsou jeho náboje „one-ounce“ na soutěži FITASC legální. Co o tom víte?",
+      "q": "Britský host se zeptá, zda jsou jeho {{term:cartridge|náboje}} „one-ounce“ na soutěži FITASC legální. Co o tom víte?",
       "options": {
         "a": "Do 36 g, asi 1¼ unce",
-        "b": "Jakákoli náplň: limit neexistuje",
-        "c": "Náplň 28 g (+2 %), asi jedna unce",
-        "d": "Dovolena je jen náplň 24 g"
+        "b": "Jakákoli {{term:load-weight|náplň}}: limit neexistuje",
+        "c": "{{term:load-weight|Náplň}} 28 g (+2 %), asi jedna unce",
+        "d": "Dovolena je jen {{term:load-weight|náplň}} 24 g"
       },
-      "explain": "Pravidla dovolují náplň do 28 g s tolerancí +2 %, a jedna unce je asi 28,3 g. Odpovídat musí i velikost broků (2,0–2,5 mm)."
+      "explain": "Pravidla dovolují náplň do 28 g s tolerancí +2 %, a jedna unce je asi 28,3 g. Odpovídat musí i {{term:shot-size|velikost broků}} (2,0–2,5 mm)."
     }
   }
 }

@@ -48,7 +48,7 @@
     "clayarena-coaches-grounds-tours-practice": "Jeśli na tej strzelnicy wkrótce odbędą się zawody, zapytajcie, kiedy można trenować. W obu dyscyplinach przepisy są inne:",
     "clayarena-coaches-grounds-tours-practice-compare": {
       "sporting": "Przed zawodami nikt nie może trenować na torach zawodniczych (stanowiskach i rzutkach przygotowanych na zawody). Można trenować na innych torach strzelnicy.",
-      "compak": "Można trenować na zawodniczych {{term:trajectory|trajektoriach}} (torach lotu, którymi będą leciały rzutki na zawodach), ale według innej {{term:trajectory-setting-table|tabeli ustawień}}. To schemat, który określa, z której wyrzutni strzela się na każdym stanowisku rzutki pojedyncze i dublety. Dlatego na treningu rzutki nie przychodzą w tych samych kombinacjach co w dniu zawodów. Na mistrzostwach kontynentu i świata oficjalny trening zaczyna się w sobotę przed startem."
+      "compak": "Można trenować na zawodniczych trajektoriach (torach lotu, którymi będą leciały rzutki na zawodach), ale według innej {{term:trajectory-setting-table|tabeli ustawień}}. To schemat, który określa, z której {{term:trap|wyrzutni}} strzela się na każdym stanowisku rzutki pojedyncze i {{term:double|dublety}}. Dlatego na treningu rzutki nie przychodzą w tych samych kombinacjach co w dniu zawodów. Na mistrzostwach kontynentu i świata oficjalny trening zaczyna się w sobotę przed startem."
     },
     "clayarena-coaches-grounds-tours-p6": "Planujecie trenować na strzelnicy w innym kraju? Sprawdźcie wcześniej przepisy wwozu broni i naboi albo zapytajcie strzelnicę, czy można tam wypożyczyć broń. Więcej w {{lesson:travel-gun-in-eu}} i {{lesson:travel-gun-outside-eu}}.",
     "clayarena-coaches-grounds-tours-p3": "ClayArena przygotowuje też wyjazdy treningowe z trenerem, nazwane {{term:clayaway|ClayAway}}. Są w przygotowaniu i jeszcze nie wystartowały: {{lesson:travel-clayaway-tour}}."
@@ -58,11 +58,11 @@
   "key_points": {
     "clayarena-coaches-grounds-tours-kp1": "Katalog trenerów można filtrować według dyscypliny, kraju, federacji i języka.",
     "clayarena-coaches-grounds-tours-kp2": "Katalog strzelnic pokazuje strzelnice listą i na mapie.",
-    "clayarena-coaches-grounds-tours-kp6": "Przed pierwszą wizytą zapytajcie o początkujących, wypożyczenie broni i co zabrać.",
+    "clayarena-coaches-grounds-tours-kp6": "Przed pierwszą wizytą zapytajcie o początkujących, {{term:gun-rental|wypożyczenie broni}} i co zabrać.",
     "clayarena-coaches-grounds-tours-kp7": "Trening przed zawodami: w {{tm:sporting}} nie na torach zawodniczych; w {{tm:compak}} z innymi tabelami ustawień.",
     "clayarena-coaches-grounds-tours-kp5": "Przed treningiem za granicą sprawdźcie przepisy wwozu broni."
   },
-  "did_you_know": "W obu dyscyplinach nikomu nie można {{term:coaching|podpowiadać}} zawodnikowi w czasie zawodów, czyli dawać wskazówek albo znaków. Jeśli sędzia to zauważy, zawodnik dostaje {{term:yellow-card|żółtą kartkę}}, a osobę podpowiadającą sędzia usuwa z obszaru strzelania. Dlatego pracujcie z trenerem przed zawodami i po nich.",
+  "did_you_know": "W obu dyscyplinach w czasie zawodów zabronione jest {{term:coaching|podpowiadanie}}: nikt nie może dawać zawodnikowi wskazówek albo znaków. Jeśli sędzia to zauważy, zawodnik dostaje {{term:yellow-card|żółtą kartkę}}, a osobę podpowiadającą sędzia usuwa z obszaru strzelania. Dlatego pracujcie z trenerem przed zawodami i po nich.",
   "quiz": {
     "clayarena-coaches-grounds-tours-q4": {
       "q": "Według czego można filtrować katalog trenerów na ClayArenie?",
@@ -84,13 +84,13 @@
       "rule_ref": "sporting:ch15-no-practice"
     },
     "clayarena-coaches-grounds-tours-q6": {
-      "q": "Wasz trener przyjechał obejrzeć wasze zawody. Co może robić, gdy strzelacie?",
+      "q": "Wasz {{term:coach|trener}} przyjechał obejrzeć wasze zawody. Co może robić, gdy strzelacie?",
       "options": {
         "a": "Podpowiadać między rzutkami",
         "b": "Dawać wam znaki z tyłu",
         "c": "Patrzeć, ale nie podpowiadać"
       },
-      "explain": "Podpowiadanie w czasie zawodów jest niedozwolone w obu dyscyplinach: grozi za to żółta kartka.",
+      "explain": "Podpowiadanie w czasie zawodów jest niedozwolone w obu dyscyplinach: grozi za to {{term:yellow-card|żółta kartka}}.",
       "rule_ref": "sporting:ch8-coaching"
     },
     "clayarena-coaches-grounds-tours-q7": {

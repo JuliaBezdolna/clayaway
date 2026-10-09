@@ -30,15 +30,15 @@
     "origin": null
   },
   "body": {
-    "gear-cartridges-p3": "{{term:shot-size|Velikost broků}} (shot size) se číslu­je obráceně: čím vyšší číslo, tím menší brok, takže č. 9 je jemnější než č. 7½. Stejné číslo může v Británii, na evropském kontinentu a v USA znamenat trochu jiný rozměr, proto se dívejte na milimetry na krabičce. „Devítka“ a „sedmička s půlkou“ jsou běžná slova trenérů.",
+    "gear-cartridges-p3": "{{term:shot-size|Velikost broků}} se číslu­je obráceně: čím vyšší číslo, tím menší brok, takže č. 9 je jemnější než č. 7½. Stejné číslo může v Británii, na evropském kontinentu a v USA znamenat trochu jiný rozměr, proto se dívejte na milimetry na krabičce. „Devítka“ a „sedmička s půlkou“ jsou běžná slova trenérů.",
     "cartridges-shot-size-p2": [
       "Č. 9: asi 2,0 mm.",
       "Č. 8: asi 2,2–2,3 mm.",
       "Č. 7½: asi 2,3–2,4 mm.",
       "Č. 7: asi 2,4–2,5 mm."
     ],
-    "cartridges-shot-size-p7": "Proč „asi“? Protože číslování se mezi zeměmi a výrobci liší. V tradiční britské škále je č. 7½ 2,3 mm a č. 8 2,2 mm. Kontinentální číslování, které pro sportovní náboje používají i někteří britští výrobci, například Gamebore, nazývá brok 2,4 mm č. 7½ a brok 2,3 mm č. 8. Americké č. 7½ je 0,095 palce, tedy asi 2,41 mm.",
-    "cartridges-shot-size-p3": "Pravidla {{tm:sporting}} a {{tm:compak}} vyžadují {{term:lead-shot|olověné broky}}: {{fact:gear.fitasc-shot-diameter}}. V praxi to znamená č. 9, 8, 7½, a také č. 7, pokud jeho průměr nepřekročí mez. Č. 6 (asi 2,6–2,8 mm) je na samé hranici nebo za ní i s tolerancí, takže pro závody nejde o vhodnou náplň. Míchat v jednom náboji broky různých velikostí je zakázáno.",
+    "cartridges-shot-size-p7": "Proč „asi“? Protože číslování se mezi zeměmi a výrobci liší. V tradiční britské škále je č. 7½ 2,3 mm a č. 8 2,2 mm. Kontinentální číslování, které pro sportovní {{term:cartridge|náboje}} používají i někteří britští výrobci, například Gamebore, nazývá brok 2,4 mm č. 7½ a brok 2,3 mm č. 8. Americké č. 7½ je 0,095 palce, tedy asi 2,41 mm.",
+    "cartridges-shot-size-p3": "Pravidla {{tm:sporting}} a {{tm:compak}} vyžadují {{term:lead-shot|olověné broky}}: {{fact:gear.fitasc-shot-diameter}}. V praxi to znamená č. 9, 8, 7½, a také č. 7, pokud jeho průměr nepřekročí mez. Č. 6 (asi 2,6–2,8 mm) je na samé hranici nebo za ní i s tolerancí, takže pro závody nejde o vhodnou {{term:load-weight|náplň}}. Míchat v jednom náboji broky různých velikostí je zakázáno.",
     "cartridges-shot-size-p4": "Menší brok dává víc broků ve stejné náplni: 28 g obsahuje asi 350–400 broků č. 7½ (podle přesného průměru) a asi 580 broků č. 9. {{term:pattern|Obrazec zásahu}} je proto hustší, ale každý brok je lehčí a rychleji ztrácí energii.",
     "cartridges-shot-size-p5": "Proto mnozí střelci na blízké terče volí č. 9: hustý obrazec terč snadno „zakryje“. Na střední a vzdálené terče volí č. 8 nebo č. 7½, protože těžší broky na dálku lépe rozbíjejí terč. Č. 7½ je oblíbené i na odolné terče {{term:rabbit|zajíc}} a na {{term:battue|battue}}, když letí na hranu.",
     "cartridges-shot-size-p6": "Mnozí střelci ve {{tm:sporting}} volí jeden univerzální náboj, například 28 g č. 7½ nebo č. 8, a nekomplikují si to. Někteří nabíjejí č. 9 do první hlavně na blízký terč a č. 7½ do druhé."
@@ -70,7 +70,7 @@
       "explain": "Čím vyšší číslo broku, tím menší brok."
     },
     "cartridges-shot-size-q2": {
-      "q": "Jaký průměr broků povolují pravidla FITASC?",
+      "q": "Jaký {{term:shot-size|průměr broků}} povolují pravidla FITASC?",
       "options": {
         "a": "1,5–2,0 mm (±0,1 mm)",
         "b": "2,0–2,5 mm (±0,1 mm)",

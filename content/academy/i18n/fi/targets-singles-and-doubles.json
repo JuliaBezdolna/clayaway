@@ -39,17 +39,17 @@
   "title": "Yksittäiskiekot ja kaksoiskiekot",
   "summary": "Mitä ovat yksittäiskiekko, laukauksesta lähtevä kaksoiskiekko, yhtäaikainen kaksoiskiekko ja rafale, montako patruunaa saa käyttää, ja missä {{tm:sporting}} ja {{tm:compak}} eroavat.",
   "body": {
-    "flight-pairs-p1": "{{term:single-target|Yksittäiskiekko}} (single) on yksi kiekko yhdestä heittimestä. Molemmissa lajeissa siihen saa ampua kaksi laukausta, joten ohilaukauksen voi korjata toisella piipulla. {{term:double|Kaksoiskiekko}} (pair, double) on kaksi kiekkoa, jotka kuuluvat yhteen: yksi kutsu, ja ammut molemmat.",
-    "flight-pairs-p2": "{{term:double-on-report|Laukauksesta lähtevä kaksoiskiekko}} (report pair, double on report): kutsu laukaisee ensimmäisen kiekon, ja siihen ammuttu laukaus laukaisee toisen. {{tm:sporting}}-lajissa toinen tulee 0–3 sekuntia tämän laukauksen jälkeen. Järjestys on kiinteä. ”Report” tarkoittaa laukauksen ääntä, ei kirjallista raporttia.",
-    "flight-pairs-p4": "{{term:simultaneous-double|Yhtäaikainen kaksoiskiekko}} (simultaneous, ”simo”; {{term:english-sporting|englantilaisessa sportingissa}} ”{{term:true-pair|true pair}}”): molemmat kiekot lähtevät samalla hetkellä, ja niitä saa ampua missä tahansa järjestyksessä. Ne tulevat yhdestä tai kahdesta heittimestä; {{tm:compak}}-lajissa aina kahdesta eri heittimestä.",
-    "flight-pairs-p3": "Following pair, jota FITASC kutsuu nimellä {{term:rafale-double|rafale}} (peräkkäinen kaksoiskiekko): kaksi kiekkoa samasta heittimestä samalla lentoradalla, toinen lähtee niin pian kuin heitin on latautunut uudelleen. Kumman tahansa saa ampua ensin. Sitä on vain {{tm:sporting}}-lajissa: {{tm:compak}}-kaksoiskiekko on laukauksesta lähtevä tai yhtäaikainen.",
+    "flight-pairs-p1": "{{term:single-target|Yksittäiskiekko}} on yksi kiekko yhdestä heittimestä. Molemmissa lajeissa siihen saa ampua kaksi laukausta, joten ohilaukauksen voi korjata toisella piipulla. {{term:double|Kaksoiskiekko}} on kaksi kiekkoa, jotka kuuluvat yhteen: yksi kutsu, ja ammut molemmat.",
+    "flight-pairs-p2": "{{term:double-on-report|Laukauksesta lähtevä kaksoiskiekko}}: kutsu laukaisee ensimmäisen kiekon, ja siihen ammuttu laukaus laukaisee toisen. {{tm:sporting}}-lajissa toinen tulee 0–3 sekuntia tämän laukauksen jälkeen. Järjestys on kiinteä. ”Report” tarkoittaa laukauksen ääntä, ei kirjallista raporttia.",
+    "flight-pairs-p4": "{{term:simultaneous-double|Yhtäaikainen kaksoiskiekko}}, lyhyesti ”simo”, on {{term:english-sporting|englantilaisessa sportingissa}} ”{{term:true-pair|true pair}}”: molemmat kiekot lähtevät samalla hetkellä, ja niitä saa ampua missä tahansa järjestyksessä. Ne tulevat yhdestä tai kahdesta heittimestä; {{tm:compak}}-lajissa aina kahdesta eri heittimestä.",
+    "flight-pairs-p3": "Following pair, jota FITASC kutsuu nimellä {{term:rafale-double|rafale}}: kaksi kiekkoa samasta heittimestä samalla lentoradalla, toinen lähtee niin pian kuin {{term:trap|heitin}} on latautunut uudelleen. Kumman tahansa saa ampua ensin. Sitä on vain {{tm:sporting}}-lajissa: {{tm:compak}}-kaksoiskiekko on laukauksesta lähtevä tai yhtäaikainen.",
     "targets-singles-and-doubles-cartridges": {
       "sporting": "Kaksoiskiekkoon on kaksi patruunaa, ja molemmat saa ampua yhteen kiekkoon. Jos yksi laukaus rikkoo molemmat kiekot, molemmat lasketaan osumiksi (tuomari sanoo ”one” kummastakin).",
       "compak": "Yksi patruuna kiekkoa kohden. Molempien laukausten ampuminen tahallaan yhteen kiekkoon merkitään {{term:zero-zero|zero-zero}} (molemmat kiekot lasketaan ohilaukauksiksi). Jos yksi laukaus rikkoo molemmat kiekot, niitä ei lasketa kahdeksi osumaksi. Laukauksesta lähtevässä kaksoiskiekossa ensimmäisen kiekon tulos jää voimaan, ja kaksoiskiekko heitetään uudelleen toista varten. Yhtäaikaisessa kaksoiskiekossa se on No Bird, ja kaksoiskiekko uusitaan; kun tämä tapahtuu kolmannen kerran, merkitään zero-zero."
     },
     "targets-singles-and-doubles-p6": "Miten kaksoiskiekkoja pisteytetään, mukaan lukien zero-zero ja No Bird dupletissa, selitetään luvussa {{lesson:rules-doubles}}.",
     "flight-pairs-p6": "{{tm:sporting}}-ampumapaikalla erä ampuu ensin yksittäiskiekot, sitten kaksoiskiekot. Ennen ammuntaa yhtäaikaiset ja rafale-kaksoiskiekot heitetään, jotta ampujat näkevät ne (ne näytetään erän ensimmäiselle ampujalle); laukauksesta lähteviä kaksoiskiekkoja ei näytetä.",
-    "targets-singles-and-doubles-p5": "{{tm:sporting}}-rataosuus antaa {{fact:targets.sporting-layout-targets}}, ja kaksoiskiekot koostuvat vain kiekoista, jotka on jo näytetty yksittäiskiekkoina samalta ampumapaikalta. {{tm:compak}}-kierros on myös 25 kiekkoa, viisi kullakin ampumapaikalla, yhdellä kolmesta tavasta: {{fact:targets.compak-station-menus}}.",
+    "targets-singles-and-doubles-p5": "{{tm:sporting}}-lajin {{term:layout|rataosuus}} antaa {{fact:targets.sporting-layout-targets}}, ja kaksoiskiekot koostuvat vain kiekoista, jotka on jo näytetty yksittäiskiekkoina samalta ampumapaikalta. {{tm:compak}}-lajin {{term:round|kierros}} on myös 25 kiekkoa, viisi kullakin ampumapaikalla, yhdellä kolmesta tavasta: {{fact:targets.compak-station-menus}}.",
     "targets-singles-and-doubles-tip1": "Ennen kaksoiskiekon pyytämistä moni valmentaja suosittelee suunnittelemaan molemmat kiekot: kumman ensin, mistä kohdasta rikot kummankin, ja minne katse siirtyy toista varten. Lisää luvussa {{lesson:faults-pairs-transition}}."
   },
   "note": {},
@@ -59,7 +59,7 @@
       "say": "Se lähtee laukauksesta – ammu ensimmäinen kunnolla, toinen odottaa laukaustasi."
     },
     "flight-pairs-ph2": {
-      "meaning": "Yhtäaikaisessa kaksoiskiekossa ammu jäniskiekko ensin, koska pystykiekko pysyy ilmassa pidempään.",
+      "meaning": "Yhtäaikaisessa kaksoiskiekossa ammu {{term:rabbit|jäniskiekko}} ensin, koska pystykiekko pysyy ilmassa pidempään.",
       "say": "Yhtäaikainen: jänis ensin, pystykiekko odottaa sinua."
     },
     "flight-pairs-ph3": {
@@ -67,7 +67,7 @@
       "say": "Rafale – ensimmäisen jälkeen suoraan takaisin heittimelle toista varten."
     },
     "flight-pairs-ph4": {
-      "meaning": "Viisi yhtäaikaista kaksoiskiekkoa tornista (englantilaisen sportingin ilmaus).",
+      "meaning": "Viisi yhtäaikaista kaksoiskiekkoa {{term:tower|tornista}} – englantilaisen sportingin ilmaus.",
       "say": "Yhtäaikaiset tornista, viisi paria."
     }
   },

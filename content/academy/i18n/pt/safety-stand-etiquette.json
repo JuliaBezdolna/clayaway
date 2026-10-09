@@ -49,11 +49,11 @@
   },
   "etiquette-on-the-stand-p1": "Um atirador no posto precisa de concentração total, desde que carrega a arma até a abrir depois do último tiro. As regras permitem que quem espera fique perto do posto, mas não pode perturbar quem está a atirar. Na prática isso significa: falar baixo ou nada, nenhum movimento brusco onde o atirador o possa ver, armas abertas, telemóveis em silêncio e no bolso. As regras não falam de telemóveis, mas muitos campos de tiro esperam esta cortesia.",
   "safety-stand-etiquette-p4": "Os pequenos ruídos também importam. Não feche a arma com um estalo nem atenda uma chamada atrás de quem está a atirar.",
-  "etiquette-on-the-stand-p2": "Todos os que não estão a atirar ficam atrás do posto, nunca ao lado nem à frente: espectadores, treinadores, intérpretes e, no {{tm:sporting}}, o resto da esquadra. No {{tm:compak}} cada número (posto de tiro numerado) tem um {{term:firing-angle-limiter|Limitador do Ângulo de Tiro (F.A.L.)}}: uma armação em volta do atirador que impede os canos de se desviarem demasiado. Em muitos campos, os postos de {{tm:sporting}} têm uma {{term:cage|gaiola}}, uma armação com a mesma função. Quem não está a atirar espera atrás da gaiola ou do F.A.L., onde os canos nunca podem apontar. No {{tm:compak}} a esquadra fica lado a lado, cada atirador no seu próprio número, dentro do respetivo F.A.L. O atirador que espera fica atrás do número 1, e um atirador que já terminou espera sem incomodar o seguinte.",
-  "etiquette-on-the-stand-p3": "Se perturbar um atirador, as regras entram em ação. Quando o árbitro vê que um atirador foi claramente perturbado, o prato é declarado {{term:no-bird|NULO}} (não conta) e lançado outra vez. Não monte a arma nem a balance como se estivesse a seguir um prato ({{term:mock-shooting|simulacro de tiro}}) enquanto um membro da esquadra está a atirar. No {{tm:sporting}} isto não é permitido em lugar nenhum do campo. Só atira o atirador cuja vez é, e só ao seu próprio prato.",
+  "etiquette-on-the-stand-p2": "Todos os que não estão a atirar ficam atrás do posto, nunca ao lado nem à frente: espectadores, treinadores, intérpretes e, no {{tm:sporting}}, o resto da esquadra. No {{tm:compak}} cada número (posto de tiro numerado) tem um {{term:firing-angle-limiter|Limitador do Ângulo de Tiro}}, o F.A.L.: uma armação em volta do atirador que impede os canos de se desviarem demasiado. Em muitos campos, os postos de {{tm:sporting}} têm uma {{term:cage|gaiola}}, uma armação com a mesma função. Quem não está a atirar espera atrás da gaiola ou do F.A.L., onde os canos nunca podem apontar. No {{tm:compak}} a esquadra fica lado a lado, cada atirador no seu próprio número, dentro do respetivo F.A.L. O atirador que espera fica atrás do número 1, e um atirador que já terminou espera sem incomodar o seguinte.",
+  "etiquette-on-the-stand-p3": "Se perturbar um atirador, as regras entram em ação. Quando o árbitro vê que um atirador foi claramente perturbado, o prato é declarado {{term:no-bird|NULO}}: não conta e é lançado outra vez. Não monte a arma nem a balance como se estivesse a seguir um prato — é o {{term:mock-shooting|simulacro de tiro}} — enquanto um membro da esquadra está a atirar. No {{tm:sporting}} isto não é permitido em lugar nenhum do campo. Só atira o atirador cuja vez é, e só ao seu próprio prato.",
   "safety-stand-etiquette-p2": "Por vezes atravessam o campo de tiro animais. Não aponte nem dispare sobre eles: as duas regulamentações proíbem-no, e no {{tm:sporting}} disparar deliberadamente sobre um animal vivo pode levar à expulsão.",
-  "safety-stand-etiquette-p5": "Durante uma competição, ninguém pode dizer a um atirador como atirar. As regras chamam a isto {{term:coaching|dar instruções}} (coaching). O atirador recebe um {{term:yellow-card|cartão amarelo}}, e o árbitro manda quem deu o conselho sair da zona de tiro.",
-  "safety-stand-etiquette-p6": "Depois de atirar, abra a arma e retire os {{term:empties|cartuchos vazios}}; ponha-os no contentor, se houver um. Se atirar com uma semi-automática, recolha os cartuchos ejetados quando sair do posto. Agradecer ao árbitro e à esquadra é um bom hábito."
+  "safety-stand-etiquette-p5": "Durante uma competição, ninguém pode dizer a um atirador como atirar. As regras chamam a isto {{term:coaching|dar instruções}}. O atirador recebe um {{term:yellow-card|cartão amarelo}}, e o árbitro manda quem deu o conselho sair da zona de tiro.",
+  "safety-stand-etiquette-p6": "Depois de atirar, abra a arma e retire os {{term:empties|cartuchos vazios|pl}}; ponha-os no contentor, se houver um. Se atirar com uma {{term:semi-automatic|semi-automática}}, recolha os cartuchos ejetados quando sair do posto. Agradecer ao árbitro e à esquadra é um bom hábito."
  },
  "note": {
   "etiquette-on-the-stand-p4": "Para si, esta lição é prática. Pare de falar no instante em que o seu convidado sobe ao posto, mesmo a meio de uma frase. Não responda a perguntas enquanto a arma estiver fechada. Volte a falar só quando a arma estiver aberta: entre pratos, entre doubles ou depois do posto. Um conselho perdido custa menos do que um double estragado pela sua voz."
@@ -86,7 +86,7 @@
  "did_you_know": "No {{tm:sporting}} as regras nomeiam os pedidos «ready» e «pull». Seja qual for a palavra que use, muitos treinadores aconselham a dar o pedido claro e sempre da mesma forma.",
  "quiz": {
   "safety-stand-etiquette-q1": {
-   "q": "Quando pode subir ao posto?",
+   "q": "Quando pode subir ao {{term:shooting-stand|posto}}?",
    "options": {
     "a": "Logo que o atirador anterior deu o último tiro",
     "b": "Quando o posto está livre e chega a sua vez",
@@ -101,10 +101,10 @@
     "b": "Só se o amigo for um treinador qualificado",
     "c": "Não: conta como dar instruções e é penalizado"
    },
-   "explain": "Dar instruções durante uma competição é proibido para todos, treinadores incluídos: o atirador recebe um cartão amarelo."
+   "explain": "Dar instruções durante uma competição é proibido para todos, treinadores incluídos: o atirador recebe um {{term:yellow-card|cartão amarelo}}."
   },
   "etiquette-on-the-stand-q2": {
-   "q": "Uma chamada telefónica em voz alta atrás do posto perturba claramente o atirador no momento do tiro. O que pode o árbitro decidir?",
+   "q": "Uma chamada telefónica em voz alta atrás do {{term:shooting-stand|posto}} perturba claramente o atirador no momento do tiro. O que pode o árbitro decidir?",
    "options": {
     "a": "NULO: o prato é lançado outra vez",
     "b": "Zero para o atirador",
@@ -126,8 +126,8 @@
    "q": "Onde fica o intérprete enquanto o convidado atira?",
    "options": {
     "a": "Ao lado do atirador, para lhe ver a cara",
-    "b": "Em frente do posto, para ver o prato",
-    "c": "Atrás do posto, fora de qualquer linha dos canos",
+    "b": "Em frente do {{term:shooting-stand|posto}}, para ver o prato",
+    "c": "Atrás do {{term:shooting-stand|posto}}, fora de qualquer linha dos canos",
     "d": "Onde o árbitro não o veja"
    },
    "explain": "Todos os que não estão a atirar esperam atrás do posto, da gaiola ou do F.A.L.; ao lado ou à frente do posto fica no caminho dos canos ou perto dele."

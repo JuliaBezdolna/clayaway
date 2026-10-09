@@ -26,20 +26,30 @@
     "nextstep-club-shoot-and-volunteering-q-practice": "87207c35",
     "nextstep-club-shoot-and-volunteering-q3": "b5e37179"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Come organizzare una gara di club",
-  "summary": "Come organizzare passo per passo una piccola gara di club di {{tm:sporting}} o {{tm:compak}}: sede, formato, percorsi, persone, sicurezza e risultati, con i volontari pianificati in anticipo.",
+  "summary": "Come organizzare passo per passo una piccola {{term:club-shoot|gara di club}} di {{tm:sporting}} o {{tm:compak}}: sede, formato, percorsi, persone, sicurezza e risultati, con i volontari pianificati in anticipo.",
   "body": {
     "nextstep-club-shoot-and-volunteering-p1": "Una {{term:club-shoot|gara di club}} è un buon modo per riunire le persone e dare ai principianti un primo assaggio di competizione. Può organizzarla un club, uno stand o un gruppo di tiratori. Comincia dalle basi: concorda con il proprietario dello stand la data e le condizioni. Poi scopri quali permessi, assicurazioni e regole di sicurezza valgono nel tuo paese.",
-    "nextstep-club-shoot-and-volunteering-p2": "Poi decidi il formato: {{tm:sporting}} o {{tm:compak}}, il numero di piattelli, le {{term:category|categorie}} (chi compete con chi, per esempio per età) e la {{term:entry-fee|quota d'iscrizione}}. Puoi usare come base il regolamento FITASC. Annuncia in anticipo con quali regole si tira e quali modifiche locali ci sono.",
-    "nextstep-club-shoot-and-volunteering-cmp-layouts": { "sporting": "I {{term:course-designer|tracciatori del percorso}} (le persone che decidono come vola ogni piattello) mostrano i percorsi e i piattelli ai membri responsabili della {{term:jury|giuria}} e al {{term:chief-referee|giudice arbitro}}. Questi possono chiedere modifiche per la sicurezza, per facilitare l'arbitraggio o per proteggere la natura, prima di approvare i percorsi.", "compak": "I percorsi si impostano prima dell'inizio, con la presenza del responsabile dello stand. I membri del comitato tecnico FITASC, o la giuria se non ce ne sono, verificano che le traiettorie siano sicure, varie ed equilibrate." },
-    "nextstep-club-shoot-and-volunteering-p3": "Per una gara di club, segui la stessa idea in piccolo. Chiedi a un arbitro esperto di controllare le traiettorie prima dell'inizio, con la sicurezza al primo posto.",
-    "nextstep-club-shoot-and-volunteering-cmp-practice": { "sporting": "Prima della gara nessuno può allenarsi sui percorsi di gara, nemmeno gli organizzatori.", "compak": "I tiratori possono allenarsi sulle traiettorie di gara, ma con i piattelli combinati diversamente. La {{term:trajectory-setting-table|tabella di impostazione}} (lo schema scritto di quali macchine si usano a ogni postazione) usata per l'allenamento deve essere diversa da quella di gara." },
-    "nextstep-club-shoot-and-volunteering-p-practice": "A una gara di club stabilisci tu la regola per l'{{term:practice|allenamento}}. Scrivila nel programma, così tutti hanno le stesse possibilità.",
-    "nextstep-club-shoot-and-volunteering-p4": "Pensa alle persone: {{term:referee|arbitri}}, {{term:trapper|puller}}, registrazione e punteggio. Forma le {{term:squad|squad}} (chi tira con chi) e un orario, e pubblica entrambi in anticipo.",
-    "nextstep-club-shoot-and-volunteering-protection": "Secondo il regolamento FITASC, tutti vicino al tiro portano {{term:hearing-protection|protezioni auditive}}, inclusi gli spettatori. Tiratori, arbitri e personale portano anche {{term:safety-glasses|occhiali di protezione}}; nel {{tm:sporting}}, anche chiunque sia vicino a una pedana. A una gara di club, molti organizzatori chiedono semplicemente a tutti di portare entrambi.",
+    "nextstep-club-shoot-and-volunteering-p2": "Poi decidi il formato: {{tm:sporting}} o {{tm:compak}}, il numero di piattelli, le {{term:category|categorie}} (chi compete con chi, per esempio per età) e l'{{term:entry-fee|quota d'iscrizione}}. Puoi usare come base il regolamento FITASC. Annuncia in anticipo con quali regole si tira e quali modifiche locali ci sono.",
+    "nextstep-club-shoot-and-volunteering-cmp-layouts": {
+      "sporting": "I {{term:course-designer|tracciatori del percorso}} — le persone che decidono come vola ogni piattello — mostrano i percorsi e i piattelli ai membri responsabili della {{term:jury|giuria}} e al {{term:chief-referee|giudice arbitro}}. Questi possono chiedere modifiche per la sicurezza, per facilitare l'arbitraggio o per proteggere la natura, prima di approvare i percorsi.",
+      "compak": "I percorsi si impostano prima dell'inizio, con la presenza del responsabile dello stand. I membri del comitato tecnico FITASC, o la {{term:jury|giuria}} se non ce ne sono, verificano che le traiettorie siano sicure, varie ed equilibrate."
+    },
+    "nextstep-club-shoot-and-volunteering-p3": "Per una gara di club, segui la stessa idea in piccolo. Chiedi a un {{term:referee|arbitro}} esperto di controllare le traiettorie prima dell'inizio, con la sicurezza al primo posto.",
+    "nextstep-club-shoot-and-volunteering-cmp-practice": {
+      "sporting": "Prima della gara nessuno può allenarsi sui percorsi di gara, nemmeno gli {{term:organiser|organizzatori}}.",
+      "compak": "I tiratori possono allenarsi sulle traiettorie di gara, ma con i piattelli combinati diversamente. La {{term:trajectory-setting-table|tabella di impostazione}} — lo schema scritto di quali {{term:trap|macchine}} si usano a ogni postazione — usata per il {{term:practice|allenamento}} deve essere diversa da quella di gara."
+    },
+    "nextstep-club-shoot-and-volunteering-p-practice": "A una gara di club stabilisci tu la regola per il {{term:practice|allenamento}}. Scrivila nel programma, così tutti hanno le stesse possibilità.",
+    "nextstep-club-shoot-and-volunteering-p4": "Pensa alle persone: {{term:referee|arbitri}}, {{term:trapper|puller}}, registrazione e punteggio. Forma le {{term:squad|squad}} — chi tira con chi — e un orario, e pubblica entrambi in anticipo.",
+    "nextstep-club-shoot-and-volunteering-protection": "Secondo il regolamento FITASC, tutti vicino al tiro portano {{term:hearing-protection|protezioni auditive}}, inclusi gli spettatori. Tiratori, arbitri e personale portano anche {{term:safety-glasses|occhiali di protezione}}; nel {{tm:sporting}}, anche chiunque sia vicino a una pedana. A una gara di club, molti {{term:organiser|organizzatori}} chiedono semplicemente a tutti di portare entrambi.",
     "nextstep-club-shoot-and-volunteering-p5": "Concludi la giornata con la {{term:prize-giving|premiazione}} e un ringraziamento a tutti gli aiutanti. Poi pubblica i risultati: {{term:score-sheet|statini}} ordinati e una tabella chiara mostrano rispetto per i partecipanti. Se vuoi che i risultati compaiano su ClayArena, contatta ClayArena e chiedi in che forma inviarli.",
-    "nextstep-club-shoot-and-volunteering-p6": "Pianifica i volontari per tempo. Possono registrare i tiratori, aiutare con il punteggio sotto l'occhio dell'arbitro, occuparsi del parcheggio, fare foto e raccogliere bossoli e frammenti di piattelli. Fai un briefing sulla sicurezza a chiunque lavorerà vicino a una macchina. Il punto di vista dell'aiutante: {{lesson:culture-club-life}}."
+    "nextstep-club-shoot-and-volunteering-p6": "Pianifica i volontari per tempo. Possono registrare i tiratori, aiutare con il punteggio sotto l'occhio dell'arbitro, occuparsi del parcheggio, fare foto e raccogliere {{term:hull|bossoli}} e frammenti di piattelli. Fai un briefing sulla sicurezza a chiunque lavorerà vicino a una {{term:trap|macchina}}. Il punto di vista dell'aiutante: {{lesson:culture-club-life}}."
   },
   "note": {},
   "phrases": {},
@@ -53,23 +63,39 @@
   "did_you_know": "Secondo il regolamento del {{tm:sporting}}, le liste delle batterie e gli orari di partenza delle gare internazionali si pubblicano in anticipo. Fare lo stesso a una gara di club evita molte domande il giorno della gara.",
   "quiz": {
     "nextstep-club-shoot-and-volunteering-q1": {
-      "q": "Da dove si comincia a organizzare una gara di club?",
-      "options": { "a": "Comprando i trofei", "b": "Pubblicando i risultati", "c": "Concordando le condizioni con lo stand" },
+      "q": "Da dove si comincia a organizzare una {{term:club-shoot|gara di club}}?",
+      "options": {
+        "a": "Comprando i trofei",
+        "b": "Pubblicando i risultati",
+        "c": "Concordando le condizioni con lo stand"
+      },
       "explain": "Prima vengono la sede, le condizioni, i permessi e la sicurezza."
     },
     "nextstep-club-shoot-and-volunteering-q2": {
       "q": "Chi progetta i percorsi di una gara internazionale di {{tm:sporting}}?",
-      "options": { "a": "Il tracciatore del percorso", "b": "Gli spettatori", "c": "Ogni tiratore per sé" },
-      "explain": "Nel {{tm:sporting}} il tracciatore del percorso prepara i percorsi, e gli ufficiali li controllano prima dell'inizio. Nel {{tm:compak}} la giuria può invece scegliere tabelle di impostazione già pronte."
+      "options": {
+        "a": "Il tracciatore del percorso",
+        "b": "Gli spettatori",
+        "c": "Ogni tiratore per sé"
+      },
+      "explain": "Nel {{tm:sporting}} il tracciatore del percorso prepara i percorsi, e gli ufficiali li controllano prima dell'inizio. Nel {{tm:compak}} la {{term:jury|giuria}} può invece scegliere tabelle di impostazione già pronte."
     },
     "nextstep-club-shoot-and-volunteering-q-practice": {
       "q": "Dove possono allenarsi i tiratori sulle traiettorie di gara prima dell'evento?",
-      "options": { "a": "Nel {{tm:sporting}}, sui percorsi di gara", "b": "Nel {{tm:compak}}, con i piattelli combinati diversamente", "c": "In nessuna delle due discipline" },
-      "explain": "Nel {{tm:sporting}} nessuno può allenarsi sui percorsi di gara. Nel {{tm:compak}} l'allenamento è ammesso, ma con una tabella di impostazione diversa, quindi i piattelli sono combinati diversamente."
+      "options": {
+        "a": "Nel {{tm:sporting}}, sui percorsi di gara",
+        "b": "Nel {{tm:compak}}, con i piattelli combinati diversamente",
+        "c": "In nessuna delle due discipline"
+      },
+      "explain": "Nel {{tm:sporting}} nessuno può allenarsi sui percorsi di gara. Nel {{tm:compak}} il {{term:practice|allenamento}} è ammesso, ma con una tabella di impostazione diversa, quindi i piattelli sono combinati diversamente."
     },
     "nextstep-club-shoot-and-volunteering-q3": {
       "q": "Una persona che non tira può aiutare a una gara?",
-      "options": { "a": "No, possono aiutare solo i tiratori", "b": "Solo come arbitro con attestato", "c": "Sì, come volontario: registrazione, foto e altro" },
+      "options": {
+        "a": "No, possono aiutare solo i tiratori",
+        "b": "Solo come arbitro con attestato",
+        "c": "Sì, come volontario: registrazione, foto e altro"
+      },
       "explain": "I volontari sono necessari in quasi tutte le gare, e molti di loro non tirano."
     }
   }

@@ -30,12 +30,12 @@
   "title": "Sebesség és visszarúgás",
   "summary": "Mit jelent a sebesség egy töltényes dobozon, miért nem feltétlenül jobb a gyorsabb, és mitől függ a visszarúgás, a {{tm:sporting}} és a {{tm:compak}} lövészeinek.",
   "body": {
-    "cartridges-velocity-recoil-p1": "A dobozon gyakran fel van tüntetve a sörét {{term:velocity|sebessége}} (velocity), méter/másodpercben vagy láb/másodpercben (fps). A koronglövő töltényeknél ez rendszerint {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-p1": "A dobozon gyakran fel van tüntetve a sörét {{term:velocity|sebessége}}, méter/másodpercben vagy láb/másodpercben (fps). A koronglövő töltényeknél ez rendszerint {{fact:gear.shot-velocity}}.",
     "cartridges-velocity-recoil-p2": "Óvatosan hasonlítsd össze a sebességeket. A sörét gyorsan lassul, miután elhagyja a csövet, tehát számít, hol mérik a sebességet. Az európai gyártók (a C.I.P. próbaszabályok szerint) rendszerint 2,5 m-re mérnek a torkolattól, és „V2,5”-t írnak; néhányan „V1”-et írnak, 1 m-en mérve, ami nagyobb számot ad. A jelölések nem mindig következetesek, tehát kezeld a számot közelítő útmutatóként.",
     "cartridges-velocity-recoil-p7": "Az amerikai gyártók láb/másodpercben adják meg, kb. 3 láb (0,9 m) távolságon mérve a torkolattól. A brit dobozokon néha egy becsült torkolati sebesség áll. Tehát ugyanaz a szám nem feltétlenül jelent azonos sebességet.",
-    "cartridges-velocity-recoil-p3": "Egy gyorsabb töltény kicsit lerövidíti az időt, amíg a sörét eléri a korongot, de erősebben rúg vissza, és a sörétképe nem feltétlenül jobb. Sok edző azt tanácsolja, hogy ne a sebességet hajszold, hanem olyan töltényt válassz, amellyel stabilan lősz, és amely nem fáraszt el.",
-    "cartridges-velocity-recoil-p4": "A {{term:recoil|visszarúgás}} (recoil) a fegyver lökése a lapockába, amikor elsül. Nő egy nehezebb töltettel és egy nagyobb sebességgel, és csökken egy nehezebb fegyverrel. Egy gázüzemű {{term:semi-automatic|félautomata}} hosszabb időre osztja el a lökést, ezért sok lövésznek lágyabbnak tűnik.",
-    "cartridges-velocity-recoil-p5": "A {{term:gun-fit|tusbeállítás}} és egy helyes {{term:gun-mount|vállba vétel}} még fontosabb. Egy fegyver, amely illik rád, és szorosan ül a lapockádon, sokkal lágyabbnak tűnik, mint egy, amely a karon vagy a csonton nyugszik. Egy jó tusgumi és egy stabil testhelyzet is segít. Bővebben: {{lesson:gun-fit}} és {{lesson:health-recoil-shoulder-neck}}.",
+    "cartridges-velocity-recoil-p3": "Egy gyorsabb {{term:cartridge|töltény}} kicsit lerövidíti az időt, amíg a sörét eléri a korongot, de erősebben rúg vissza, és a sörétképe nem feltétlenül jobb. Sok edző azt tanácsolja, hogy ne a sebességet hajszold, hanem olyan töltényt válassz, amellyel stabilan lősz, és amely nem fáraszt el.",
+    "cartridges-velocity-recoil-p4": "A {{term:recoil|visszarúgás}} a fegyver lökése a lapockába, amikor elsül. Nő egy nehezebb töltettel és egy nagyobb sebességgel, és csökken egy nehezebb fegyverrel. Egy gázüzemű {{term:semi-automatic|félautomata}} hosszabb időre osztja el a lökést, ezért sok lövésznek lágyabbnak tűnik.",
+    "cartridges-velocity-recoil-p5": "A {{term:gun-fit|tusbeállítás}} és egy helyes {{term:gun-mount|vállba vétel}} még fontosabb. Egy fegyver, amely illik rád, és szorosan ül a lapockádon, sokkal lágyabbnak tűnik, mint egy, amely a karon vagy a csonton nyugszik. Egy jó {{term:recoil-pad|tusgumi}} és egy stabil testhelyzet is segít. Bővebben: {{lesson:gun-fit}} és {{lesson:health-recoil-shoulder-neck}}.",
     "cartridges-velocity-recoil-p6": "Egy {{tm:sporting}} vagy {{tm:compak}} nap alatt 100–200 lövést is leadhatsz. Az erős visszarúgás elfáraszt, és lassan megtaníthat a lövés előtti {{term:flinch|rándulásra}}. Tehát egy könnyebb töltény edzésen, például 24 g, józan választás, nem gyengeség."
   },
   "note": {},
@@ -47,7 +47,7 @@
     "cartridges-velocity-recoil-kp4": "A visszarúgás nő a töltettel és a sebességgel, és csökken a fegyver súlyával.",
     "cartridges-velocity-recoil-kp5": "A jó tusbeállítás és a helyes vállba vétel csökkenti az érzett visszarúgást."
   },
-  "did_you_know": "A sörét egy 30 m-es korongot kb. egy tized másodperc alatt ér el. Ez idő alatt egy keresztező korong egy-két métert is mozoghat, ezért adnak neki {{term:lead|elétartást}} a lövészek.",
+  "did_you_know": "A sörét egy 30 m-es korongot kb. egy tized másodperc alatt ér el. Ez idő alatt egy {{term:crosser|keresztező korong}} egy-két métert is mozoghat, ezért adnak neki {{term:lead|elétartást}} a lövészek.",
   "quiz": {
     "cartridges-velocity-recoil-q1": {
       "q": "Mitől gyengül a visszarúgás?",

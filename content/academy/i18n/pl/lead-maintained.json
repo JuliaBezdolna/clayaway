@@ -29,17 +29,17 @@
     "origin": "interpreter-academy"
   },
   "title": "Stałe wyprzedzenie: wyjdź z przodu, zostań z przodu",
-  "summary": "Jak stałe wyprzedzenie działa krok po kroku na rzutku poprzecznym, do jakich rzutków często pasuje i jaki jest jego typowy błąd: mierzenie odstępu.",
+  "summary": "Jak {{term:maintained-lead|stałe wyprzedzenie}} działa krok po kroku na rzutku poprzecznym, do jakich rzutków często pasuje i jaki jest jego typowy błąd: mierzenie odstępu.",
   "body": {
-    "lead-maintained-p1": "{{term:maintained-lead|Stałe wyprzedzenie}} (w USA: sustained lead) trzyma lufy przed rzutkiem od początku do strzału. Tak to wygląda krok po kroku na {{term:crosser|rzutku poprzecznym}} (lecącym w poprzek przed tobą):",
+    "lead-maintained-p1": "{{term:maintained-lead|Stałe wyprzedzenie}}, w USA sustained lead, trzyma lufy przed rzutkiem od początku do strzału. Tak to wygląda krok po kroku na {{term:crosser|rzutku poprzecznym}}, który leci w poprzek przed tobą:",
     "lead-maintained-p2": [
       "Start: lufy czekają w {{term:hold-point|punkcie wyjściowym}}, dość daleko na linii lotu rzutka, żeby rzutek leciał w ich stronę; oczy patrzą do tyłu, w stronę {{term:pick-up-point|punktu podjęcia rzutka}}.",
       "Wejście: kiedy rzutek nadlatuje, broń się rusza, a lufy wchodzą na linię przed nim, nie za nim; to jest {{term:insertion-point|punkt wejścia na linię}}.",
       "Śledzenie: na początku lufy poruszają się trochę wolniej niż rzutek, więc rzutek dogania je, aż odstęp między nimi osiągnie żądaną wielkość. Potem poruszaj lufami z prędkością rzutka, a odstęp zostaje taki sam.",
-      "Strzał: spust pociągasz, gdy odstęp jest właściwy i broń wciąż się rusza.",
-      "Po strzale broń porusza się dalej ({{term:follow-through|prowadzenie broni po strzale}})."
+      "Strzał: {{term:trigger|spust}} pociągasz, gdy odstęp jest właściwy i broń wciąż się rusza.",
+      "Po strzale broń porusza się dalej – to {{term:follow-through|prowadzenie broni po strzale}}."
     ],
-    "lead-maintained-p3": "Zalety: precyzja, mało ruchu broni, szybkie przejście między rzutkami i łatwe dostosowanie wyprzedzenia. Pasuje do stałych, przewidywalnych rzutków: długich poprzecznych, stabilnych wysokich.",
+    "lead-maintained-p3": "Zalety: precyzja, mało ruchu broni, szybkie przejście między rzutkami i łatwe dostosowanie {{term:lead|wyprzedzenia}}. Pasuje do stałych, przewidywalnych rzutków: długich poprzecznych, stabilnych wysokich.",
     "lead-maintained-p4": "Wady: często opisywana jako najtrudniejsza do nauczenia metoda, a strzelec musi znać prędkość i linię rzutka z wyprzedzeniem. Ponieważ broń nie jest szybsza niż rzutek, strzelec widzi największy odstęp ze wszystkich metod z poruszającą się bronią. To kusi wielu strzelców, by go zmierzyć, zwolnić i zatrzymać broń.",
     "lead-maintained-p5": "Trenerzy mówią „wprowadź broń z przodu”, „zostań przed nim”, „dopasuj prędkość”."
   },
@@ -67,11 +67,11 @@
     "lead-maintained-kp2": "Kiedy odstęp jest właściwy, prędkość broni = prędkość rzutka, więc odstęp zostaje stały.",
     "lead-maintained-kp3": "Spust pociągasz, gdy odstęp jest właściwy i broń się rusza; potem prowadzisz ją dalej.",
     "lead-maintained-kp4": "Często pasuje do długich, przewidywalnych rzutków.",
-    "lead-maintained-kp5": "Główne ryzyko: mierzenie odstępu i zatrzymanie broni."
+    "lead-maintained-kp5": "Główne ryzyko: mierzenie odstępu i {{term:stopping-the-gun|zatrzymanie broni}}."
   },
   "quiz": {
     "lead-maintained-q1": {
-      "q": "W stałym wyprzedzeniu, gdzie lufy wchodzą na linię rzutka?",
+      "q": "W {{term:maintained-lead|stałym wyprzedzeniu}}, gdzie lufy wchodzą na linię rzutka?",
       "options": {
         "a": "Za rzutkiem",
         "b": "Na rzutku",
@@ -81,17 +81,17 @@
       "explain": "Lufy wchodzą przed rzutek i zostają przed nim; za rzutkiem to przeciągnięcie, na rzutku to pull away."
     },
     "lead-maintained-q2": {
-      "q": "Jaki jest typowy błąd strzelców stosujących stałe wyprzedzenie?",
+      "q": "Jaki jest typowy błąd strzelców stosujących {{term:maintained-lead|stałe wyprzedzenie}}?",
       "options": {
         "a": "Zbyt duże spóźnienie na starcie",
-        "b": "Mierzenie odstępu i zatrzymanie broni",
-        "c": "Składanie się od biodra",
-        "d": "Strzelanie za wcześnie, przy wyrzutni"
+        "b": "Mierzenie odstępu i {{term:stopping-the-gun|zatrzymanie broni}}",
+        "c": "{{term:gun-mount|Składanie się}} od biodra",
+        "d": "Strzelanie za wcześnie, przy {{term:trap|wyrzutni}}"
       },
       "explain": "Odstęp jest duży i widoczny, więc strzelców kusi, by go sprawdzić; broń zwalnia lub zatrzymuje się, i strzał idzie z tyłu."
     },
     "lead-maintained-q3": {
-      "q": "Do jakiego rzutka często poleca się stałe wyprzedzenie?",
+      "q": "Do jakiego rzutka często poleca się {{term:maintained-lead|stałe wyprzedzenie}}?",
       "options": {
         "a": "Długiego, przewidywalnego rzutka poprzecznego",
         "b": "Skaczącego rabbita w krótkim oknie",

@@ -37,11 +37,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Simples et doublés",
-  "summary": "Ce qu'est un simple, un doublé coup de fusil, un doublé simultané et un rafale, combien de cartouches vous pouvez tirer, et où {{tm:sporting}} et {{tm:compak}} diffèrent.",
+  "summary": "Ce qu'est un simple, un {{term:double-on-report|doublé coup de fusil}}, un {{term:simultaneous-double|doublé simultané}} et un {{term:rafale-double|doublé rafale}}, combien de cartouches vous pouvez tirer, et où {{tm:sporting}} et {{tm:compak}} diffèrent.",
   "body": {
-    "flight-pairs-p1": "Un {{term:single-target|simple}} est un plateau issu d'un seul lanceur. Dans les deux disciplines, on peut tirer deux coups sur lui : en cas de premier coup manqué, le second canon permet de retirer. Un doublé (pair, double) est deux plateaux qui vont ensemble : un seul appel, et vous tirez les deux.",
-    "flight-pairs-p2": "{{term:double-on-report|Doublé coup de fusil}} (report pair, double on report) : l'appel lance le premier plateau, et le coup tiré sur lui lance le second. En {{tm:sporting}}, le second part de 0 à 3 secondes après ce coup. L'ordre est fixe. « Report » désigne le bruit du coup de feu, pas un rapport écrit.",
-    "flight-pairs-p4": "{{term:simultaneous-double|Doublé simultané}} (« simo » ; en {{term:english-sporting|English Sporting}} un « {{term:true-pair|true pair}} ») : les deux plateaux partent au même instant et peuvent être tirés dans n'importe quel ordre. Ils viennent d'un ou deux lanceurs ; en {{tm:compak}}, toujours de deux lanceurs différents.",
+    "flight-pairs-p1": "Un {{term:single-target|simple}} est un plateau issu d'un seul {{term:trap|lanceur}}. Dans les deux disciplines, on peut tirer deux coups sur lui : en cas de premier coup manqué, le second canon permet de retirer. Un {{term:double|doublé}}, en anglais aussi pair, est deux plateaux qui vont ensemble : un seul appel, et vous tirez les deux.",
+    "flight-pairs-p2": "{{term:double-on-report|Doublé coup de fusil}}, en anglais aussi report pair : l'appel lance le premier plateau, et le coup tiré sur lui lance le second. En {{tm:sporting}}, le second part de 0 à 3 secondes après ce coup. L'ordre est fixe. « Report » désigne le bruit du coup de feu, pas un rapport écrit.",
+    "flight-pairs-p4": "{{term:simultaneous-double|Doublé simultané}} — « simo » ; en {{term:english-sporting|English Sporting}} un « {{term:true-pair|true pair}} » : les deux plateaux partent au même instant et peuvent être tirés dans n'importe quel ordre. Ils viennent d'un ou deux lanceurs ; en {{tm:compak}}, toujours de deux lanceurs différents.",
     "flight-pairs-p3": "Following pair, que la FITASC appelle {{term:rafale-double|rafale}} : deux plateaux du même lanceur sur la même trajectoire, le second partant dès que le lanceur s'est rechargé. Vous pouvez tirer l'un ou l'autre en premier. Il n'existe qu'en {{tm:sporting}} : un doublé {{tm:compak}} est au coup de fusil ou simultané.",
     "targets-singles-and-doubles-cartridges": {
       "sporting": "Deux cartouches pour le doublé, et les deux peuvent être tirées sur un seul plateau. Si un coup casse les deux plateaux, les deux comptent comme touchés (l'arbitre annonce « un » pour chacun).",
@@ -49,7 +49,7 @@
     },
     "targets-singles-and-doubles-p6": "Comment on compte les doublés, y compris zéro-zéro et un No bird dans un doublé, est expliqué dans {{lesson:rules-doubles}}.",
     "flight-pairs-p6": "Sur un poste {{tm:sporting}}, la planche tire d'abord les simples, puis les doublés. Avant de tirer, les doublés simultanés et rafale sont lancés pour que les tireurs les voient (ils sont montrés au premier tireur de la planche) ; les doublés au coup de fusil ne sont pas montrés.",
-    "targets-singles-and-doubles-p5": "Un parcours {{tm:sporting}} donne {{fact:targets.sporting-layout-targets}}, et les doublés n'utilisent que des plateaux déjà montrés en simples depuis le même poste. Une série {{tm:compak}} compte aussi 25 plateaux, cinq par pas de tir, selon l'un des trois mélanges : {{fact:targets.compak-station-menus}}.",
+    "targets-singles-and-doubles-p5": "Un {{term:layout|parcours}} {{tm:sporting}} donne {{fact:targets.sporting-layout-targets}}, et les doublés n'utilisent que des plateaux déjà montrés en simples depuis le même poste. Un {{term:round|série}} {{tm:compak}} compte aussi 25 plateaux, cinq par pas de tir, selon l'un des trois mélanges : {{fact:targets.compak-station-menus}}.",
     "targets-singles-and-doubles-tip1": "Avant d'appeler un doublé, beaucoup d'entraîneurs conseillent de planifier les deux plateaux : lequel en premier, où casser chacun, et où portent les yeux pour le second. Plus de détails dans {{lesson:faults-pairs-transition}}."
   },
   "note": {},
@@ -59,7 +59,7 @@
       "say": "C'est un coup de fusil : finissez bien le premier, le second attend votre coup."
     },
     "flight-pairs-ph2": {
-      "meaning": "Dans le doublé simultané, tirez d'abord le rabbit, car la chandelle (teal) reste plus longtemps en l'air.",
+      "meaning": "Dans le doublé simultané, tirez d'abord le rabbit, car le {{term:teal|chandelle}} reste plus longtemps en l'air.",
       "say": "Simultané : prenez d'abord le rabbit, la chandelle vous attendra."
     },
     "flight-pairs-ph3": {
@@ -81,7 +81,7 @@
   "did_you_know": "Rafale, en français, désigne une « salve » ou une « bourrasque » : les plateaux partent l'un après l'autre, aussi vite que le lanceur peut se recharger.",
   "quiz": {
     "flight-pairs-q1": {
-      "q": "Dans un doublé coup de fusil, qu'est-ce qui lance le second plateau ?",
+      "q": "Dans un {{term:double-on-report|doublé coup de fusil}}, qu'est-ce qui lance le second plateau ?",
       "options": {
         "a": "Un second appel",
         "b": "Le signal de l'arbitre",
@@ -91,7 +91,7 @@
       "explain": "« On report » signifie au bruit du coup de feu : tirer sur le premier plateau lance le second."
     },
     "flight-pairs-q2": {
-      "q": "En {{tm:compak}}, un tireur tire volontairement ses deux cartouches sur le premier plateau d'un doublé simultané. Résultat ?",
+      "q": "En {{tm:compak}}, un tireur tire volontairement ses deux cartouches sur le premier plateau d'un {{term:simultaneous-double|doublé simultané}}. Résultat ?",
       "options": {
         "a": "Autorisé, comme en {{tm:sporting}}",
         "b": "Zéro-zéro",
@@ -101,13 +101,13 @@
       "explain": "{{tm:compak}} autorise une cartouche par plateau d'un doublé ; tirer volontairement les deux sur un même plateau donne zéro-zéro. En {{tm:sporting}}, ce serait autorisé."
     },
     "targets-singles-and-doubles-q2": {
-      "q": "Dans quelle discipline existent les doublés rafale ?",
+      "q": "Dans quelle discipline existent les {{term:rafale-double|doublés rafale}} ?",
       "options": {
         "a": "Seulement en {{tm:sporting}}",
         "b": "Seulement en {{tm:compak}}",
         "c": "Dans les deux"
       },
-      "explain": "Un rafale est deux plateaux d'un même lanceur sur une même trajectoire, un doublé {{tm:sporting}}. {{tm:compak}} n'a que des doublés au coup de fusil et des doublés simultanés."
+      "explain": "Un rafale est deux plateaux d'un même {{term:trap|lanceur}} sur une même trajectoire, un doublé {{tm:sporting}}. {{tm:compak}} n'a que des {{term:double-on-report|doublés au coup de fusil}} et des {{term:simultaneous-double|doublés simultanés}}."
     },
     "flight-pairs-q3": {
       "q": "Un entraîneur britannique dit « true pair ». Comment le traduisez-vous ?",
@@ -117,10 +117,10 @@
         "c": "Une rafale",
         "d": "Un doublé simultané"
       },
-      "explain": "« True pair » est le nom du doublé simultané dans le Sporting anglais ; « true » n'a rien à voir avec la régularité."
+      "explain": "« True pair » est le nom du {{term:simultaneous-double|doublé simultané}} dans le Sporting anglais ; « true » n'a rien à voir avec la régularité."
     },
     "targets-singles-and-doubles-q1": {
-      "q": "Combien de plateaux donne un parcours {{tm:sporting}} ?",
+      "q": "Combien de plateaux donne un {{term:layout|parcours}} {{tm:sporting}} ?",
       "options": {
         "a": "20 : 10 simples et 5 doublés",
         "b": "25 : 15 simples et 5 doublés",

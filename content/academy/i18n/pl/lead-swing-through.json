@@ -37,11 +37,11 @@
     "lead-swing-through-p2": [
       "Start: lufy wchodzą na linię rzutka za nim, na jego „ogonie”.",
       "Wyprzedzanie: broń porusza się szybciej niż rzutek, wzdłuż jego linii, przez jego „brzuch”.",
-      "Strzał: spust pociągasz, gdy lufy mijają przód rzutka, tuż przed nim.",
+      "Strzał: {{term:trigger|spust}} pociągasz, gdy lufy mijają przód rzutka, tuż przed nim.",
       "Ruch broni trwa dalej po strzale."
     ],
-    "lead-swing-through-delay": "Między decyzją o strzale a opuszczeniem luf przez śrut jest krótka zwłoka. Ponieważ broń porusza się szybciej niż rzutek, w tym momencie lufy same przemieszczają się dalej do przodu. Więc pociągasz za spust, gdy widzisz mały albo żaden odstęp, a prędkość broni dodaje resztę. Rzeczywiste wyprzedzenie w chwili strzału jest większe niż to, które widziałeś.",
-    "lead-swing-through-p3": "Zalety: jest naturalne i szybkie, dobre dla początkujących. Pasuje do bliskich, szybkich rzutków, {{term:driven-target|rzutków lecących nad głową}} (nadlatujących i przelatujących nad tobą), {{term:overhead|rzutków nad głową}} z tyłu oraz rzutków nieregularnych lub niespodziewanych.",
+    "lead-swing-through-delay": "Między decyzją o strzale a opuszczeniem luf przez śrut jest krótka zwłoka. Ponieważ broń porusza się szybciej niż rzutek, w tym momencie lufy same przemieszczają się dalej do przodu. Więc pociągasz za spust, gdy widzisz mały albo żaden odstęp, a prędkość broni dodaje resztę. Rzeczywiste {{term:lead|wyprzedzenie}} w chwili strzału jest większe niż to, które widziałeś.",
+    "lead-swing-through-p3": "Zalety: jest naturalne i szybkie, dobre dla początkujących. Pasuje do bliskich, szybkich rzutków, {{term:driven-target|rzutków nadlatujących i przelatujących nad tobą}}, {{term:overhead|rzutków nad głową}} z tyłu oraz rzutków nieregularnych lub niespodziewanych.",
     "lead-swing-through-p4": "Wady: okno na strzał jest bardzo krótkie. Na długich rzutkach poprzecznych strzelcowi może zabraknąć czasu, może zgubić linię albo przelecieć za daleko. Zwolnienie, gdy lufy docierają do rzutka, daje chybienie z tyłu.",
     "lead-swing-through-p5": "Źródła nie zgadzają się co do nazwy „metoda CPSA” (CPSA, Clay Pigeon Shooting Association, to związek strzelectwa rzutkowego Anglii). Niektórzy używają jej na przeciągnięcie, a dzisiejszy coaching CPSA jest opisywany jako uczący pull away. Jeśli trener mówi „metoda CPSA”, zapytaj, którą ma na myśli."
   },
@@ -82,7 +82,7 @@
         "c": "W ustalonym punkcie przy punkcie strzału",
         "d": "Za rzutkiem, na jego linii"
       },
-      "explain": "Przeciągnięcie startuje z tyłu i wyprzedza rzutek; start z przodu to stałe wyprzedzenie, ustalony punkt to zasadzka."
+      "explain": "{{term:swing-through|Przeciągnięcie}} startuje z tyłu i wyprzedza rzutek; start z przodu to {{term:maintained-lead|stałe wyprzedzenie}}, ustalony punkt to {{term:ambush|zasadzka}}."
     },
     "lead-swing-through-q2": {
       "q": "Czemu strzelec stosujący przeciągnięcie widzi mały albo żaden odstęp?",

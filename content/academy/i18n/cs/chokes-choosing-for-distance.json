@@ -37,14 +37,14 @@
     },
     "chokes-choosing-for-distance-p2": [
       "Do přibližně 20 m: {{term:cylinder|cylinder}} nebo velmi lehké zahrdlení (1/8).",
-      "Přibližně 20–30 m: {{term:improved-cylinder|1/4}} (improved cylinder) nebo light modified.",
-      "Přibližně 30–35 m: {{term:modified|půlčok}} (1/2, modified).",
-      "Nad přibližně 35 m: {{term:improved-modified|3/4}} (improved modified), zřídka i {{term:full-choke|plné zahrdlení}}."
+      "Přibližně 20–30 m: {{term:improved-cylinder|1/4}} nebo light modified.",
+      "Přibližně 30–35 m: {{term:modified|půlčok, 1/2}}.",
+      "Nad přibližně 35 m: {{term:improved-modified|3/4}}, zřídka i {{term:full-choke|plné zahrdlení}}."
     ],
-    "chokes-choosing-for-distance-p7": "Je to orientační vodítko, které používá mnoho trenérů pro olověný drob č. 7½–9. Není to pravidlo: trenéři a zkušení střelci mají vlastní preference.",
+    "chokes-choosing-for-distance-p7": "Je to orientační vodítko, které používá mnoho trenérů pro {{term:lead-shot|olověný drob}} č. 7½–9. Není to pravidlo: trenéři a zkušení střelci mají vlastní preference.",
     "chokes-choosing-for-distance-p3": "Odhadovat vzdálenost je pro začátečníka těžké. Dívejte se, kde terč nejspíš vystřelíte, ne odkud vylétá. Zeptejte se trenéra nebo zkušeného střelce ve vaší {{term:squad|skupině}}: na střelnici je to běžná otázka.",
-    "chokes-choosing-for-distance-p4": "Záleží i na typu terče. {{term:mini|Mini}} je malé, takže potřebuje hustší zásah. {{term:battue|Battue}} je tenký plochý terč, který často letí na hranu, takže vidíte jen jeho úzkou stranu. Snáz se rozbije, když se otočí a ukáže plochu. {{term:rabbit|Rabbit}} se koulí po zemi a je odolnější než standardní terč.",
-    "chokes-choosing-for-distance-p5": "V kozlici se otevřenější zahrdlení obvykle dává do hlavně, která vystřelí první, a těsnější do druhé. Pár 1/4 a 1/2 (IC a M) je oblíbená univerzální volba pro mnoho stanovišť {{tm:sporting}} a pro celou položku {{tm:compak}}, kde se zahrdlení nemění.",
+    "chokes-choosing-for-distance-p4": "Záleží i na typu terče. {{term:mini|Mini}} je malé, takže potřebuje hustší zásah. {{term:battue|Battue}} je tenký plochý terč, který často letí na hranu, takže vidíte jen jeho úzkou stranu. Snáz se rozbije, když se otočí a ukáže plochu. {{term:rabbit|Rabbit}} se koulí po zemi a je odolnější než {{term:standard-target|standardní terč}}.",
+    "chokes-choosing-for-distance-p5": "V {{term:over-and-under|kozlici}} se otevřenější zahrdlení obvykle dává do hlavně, která vystřelí první, a těsnější do druhé. Pár 1/4 a 1/2 (IC a M) je oblíbená univerzální volba pro mnoho stanovišť {{tm:sporting}} a pro celou položku {{tm:compak}}, kde se zahrdlení nemění.",
     "chokes-choosing-for-distance-p6": "Rada pro začátečníky: nepřehánějte to s těsnými zahrdleními. Na blízkých a středních terčích, které začátečníci střílí nejčastěji, otevřenější zahrdlení odpouští drobné chyby v navádění a dodává jistotu. Jakmile bude technika stabilnější, můžete experimentovat."
   },
   "note": {},
@@ -58,7 +58,7 @@
   },
   "quiz": {
     "chokes-choosing-for-distance-q1": {
-      "q": "Které zahrdlení orientačně sedí terči na přibližně 30–35 m?",
+      "q": "Které {{term:choke|zahrdlení}} orientačně sedí terči na přibližně 30–35 m?",
       "options": {
         "a": "Cylinder",
         "b": "Improved cylinder (1/4)",
@@ -68,7 +68,7 @@
       "explain": "Na 30–35 m se obvykle volí modified, ale je to jen orientační vodítko."
     },
     "chokes-choosing-for-distance-q2": {
-      "q": "Do které hlavně kozlice se obvykle dává otevřenější zahrdlení?",
+      "q": "Do které hlavně {{term:over-and-under|kozlice}} se obvykle dává otevřenější {{term:choke|zahrdlení}}?",
       "options": {
         "a": "Do té, která střílí první",
         "b": "Do té, která střílí druhá",
@@ -80,15 +80,15 @@
     "chokes-choosing-for-distance-q3": {
       "q": "Proč se začátečníkům doporučuje nepřehánět to s těsnými zahrdleními?",
       "options": {
-        "a": "Těsná zahrdlení jsou pro začátečníky zakázaná",
+        "a": "Těsná {{term:choke|zahrdlení}} jsou pro začátečníky zakázaná",
         "b": "Úzký zásah odpouští méně chyb",
-        "c": "Výrazně zesilují zpětný ráz",
+        "c": "Výrazně zesilují {{term:recoil|zpětný ráz}}",
         "d": "Rychleji opotřebí hlaveň"
       },
       "explain": "Úzký zásah vyžaduje přesné navádění; na blízkých a středních terčích odpouští víc otevřenější zahrdlení."
     },
     "chokes-choosing-for-distance-q4": {
-      "q": "Proč si mnozí střelci v {{tm:compak}} na celou položku nechávají jeden univerzální pár zahrdlení?",
+      "q": "Proč si mnozí střelci v {{tm:compak}} na celou položku nechávají jeden univerzální pár {{term:choke|zahrdlení}}?",
       "options": {
         "a": "Všechny terče letí na stejnou vzdálenost",
         "b": "Těsná zahrdlení jsou v {{tm:compak}} zakázaná",
@@ -99,6 +99,6 @@
     }
   },
   "title": "Jaké zahrdlení na jakou vzdálenost",
-  "summary": "Orientační přehled zahrdlení pro blízké, střední a vzdálené terče v {{tm:sporting}} a {{tm:compak}}, a rada pro začátečníky.",
+  "summary": "Orientační přehled {{term:choke|zahrdlení}} pro blízké, střední a vzdálené terče v {{tm:sporting}} a {{tm:compak}}, a rada pro začátečníky.",
   "did_you_know": "Mnozí zkušení střelci v {{tm:sporting}} používají dost otevřená zahrdlení i na vzdálené terče. Spoléhají na přesné navádění, ne na hustý zásah."
 }

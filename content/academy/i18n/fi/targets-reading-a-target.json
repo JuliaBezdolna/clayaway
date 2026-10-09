@@ -32,7 +32,7 @@
   "summary": "Mitä kannattaa tarkkailla, kun kiekkoja näytetään: mistä kiekko ilmestyy, minne se lentää, missä sen rikot ja mitä et saa tehdä.",
   "body": {
     "targets-reading-a-target-p1": "Kiekon “lukeminen” tarkoittaa, että ennen ammuntaa ymmärrät, miten se lentää: mistä se ilmestyy, kuinka nopeasti se liikkuu, missä se kääntyy, nousee tai laskee. Kokeneet ampujat tekevät tämän joka ampumapaikalla, ja se ratkaisee usein osuman ja ohilaukauksen välillä. Tämä pätee yhtä lailla {{tm:sporting}}- kuin {{tm:compak}}-lajissa.",
-    "targets-reading-a-target-p2": "Aloita {{term:target-menu|kiekkoluettelosta}}: mitä heittimiä, missä järjestyksessä ja onko mukana erikoiskiekkoja. Seuraa sitten tarkasti, kun kiekkoja näytetään ({{term:target-presentation|näytekiekot}}). {{tm:sporting}}-lajissa ampumapaikan kiekot näytetään ennen ammuntaa erän ensimmäiselle ampujalle. Laukauksesta lähteviä kaksoiskiekkoja ei näytetä. {{tm:compak}}-lajissa näyttäminen on järjestetty omalla tavallaan. Yksityiskohdat ovat luvussa {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p2": "Aloita {{term:target-menu|kiekkoluettelosta}}: mitä heittimiä, missä järjestyksessä ja onko mukana erikoiskiekkoja. Seuraa sitten tarkasti, kun kiekkoja näytetään – {{term:target-presentation|näytekiekot}}. {{tm:sporting}}-lajissa ampumapaikan kiekot näytetään ennen ammuntaa erän ensimmäiselle ampujalle. {{term:double-on-report|Laukauksesta lähteviä kaksoiskiekkoja}} ei näytetä. {{tm:compak}}-lajissa näyttäminen on järjestetty omalla tavallaan. Yksityiskohdat ovat luvussa {{lesson:rules-viewing-targets}}.",
     "targets-reading-a-target-p3": "Kysy itseltäsi yksinkertaisia kysymyksiä. Missä näen kiekon ensimmäisen kerran selvästi? Se on {{term:pick-up-point|katsepisteesi}}, josta silmäsi alkavat seurata sitä. Missä se on helpoin rikkoa? Se on {{term:break-point|osumapisteesi}}. Siellä kiekon pitäisi vielä näkyä selvästi, eikä se saa olla putoamassa puiden taakse tai lentämässä {{term:shooting-limit|takarajan}} yli.",
     "targets-reading-a-target-points": "Miten {{term:hold-point|aseen aloituskohta}}, katsepiste ja osumapiste toimivat yhdessä, selittää luku {{lesson:technique-hold-pickup-break-points}}.",
     "targets-reading-a-target-p4": "Pane merkille nopeus, etäisyys ja kulma sekä se, mitä kiekko juuri tekee: nouseeko se, hidastuuko vai laskeeko. Tuuli voi nostaa kiekkoa tai painaa sitä alas, ja tumma puurivi tai kirkas taivas muuttaa sitä, miten sen näet. Hidastuva kiekko tarvitsee vähemmän {{term:lead|ennakkoa}} kuin täydellä nopeudella lentävä.",
@@ -49,18 +49,18 @@
     "targets-reading-a-target-kp1": "Ensin kiekkoluettelo, sitten tarkka seuranta kiekkojen näyttämisen aikana.",
     "targets-reading-a-target-kp2": "Etsi, missä näet kiekon ensin selvästi ja missä aiot rikkoa sen.",
     "targets-reading-a-target-kp3": "Pane merkille nopeus, kulma, tuuli, tausta ja hidastuuko kiekko.",
-    "targets-reading-a-target-kp4": "Seuraa silmillä; {{tm:sporting}}-lajissa tähtäysharjoittelu ei ole sallittua missään kohtaa rataa, {{tm:compak}}-lajissa ampumapaikkojen ulkopuolella eikä kun joku toinen ampuu.",
+    "targets-reading-a-target-kp4": "Seuraa silmillä; {{tm:sporting}}-lajissa {{term:mock-shooting|tähtäysharjoittelu}} ei ole sallittua missään kohtaa rataa, {{tm:compak}}-lajissa ampumapaikkojen ulkopuolella eikä kun joku toinen ampuu.",
     "targets-reading-a-target-kp5": "{{tm:sporting}}-vaikeusluokat: {{fact:targets.sporting-difficulty-classes}}."
   },
   "quiz": {
     "targets-reading-a-target-q1": {
-      "q": "Mikä on osumapiste (break point)?",
+      "q": "Mikä on {{term:break-point|osumapiste}}?",
       "options": {
         "a": "Paikka, jossa aiot rikkoa kiekon",
         "b": "Paikka, jossa kiekon heittävä heitin seisoo",
         "c": "Paikka, johon kiekko putoaa maahan"
       },
-      "explain": "Osumapiste (break point) on kohta lentoradalla, jonka valitset etukäteen."
+      "explain": "{{term:break-point|Osumapiste}} on kohta lentoradalla, jonka valitset etukäteen."
     },
     "targets-reading-a-target-q2": {
       "q": "Saako {{tm:sporting}}-lajissa kiekkojen näyttämisen aikana nostaa aseen ja viedä sitä kiekon linjaa pitkin?",

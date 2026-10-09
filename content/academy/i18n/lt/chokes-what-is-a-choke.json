@@ -38,11 +38,11 @@
   "title": "Kas yra čokas",
   "summary": "Čokas yra vamzdžio susiaurinimas prie žiočių, kuris palaiko šratus kartu. Jis nustato, kaip plačiai spiečius pasklinda ties taikiniu, o {{tm:sporting}} ir {{tm:compak}} taisyklės nurodo, kada jį galima keisti.",
   "body": {
-    "chokes-what-is-a-choke-p1": "Kai šautuvas šauna, iš žiočių skrenda ne viena kulka, o kelių šimtų šratų debesėlis. Skriejant jis palaipsniui plečiasi. Pėdsaką, kurį šis debesėlis palieka taikinyje ar metaliniame skyde, vadina {{term:pattern|spiečiumi}} (pattern).",
-    "gear-chokes-p1": "{{term:choke|Čokas}} (choke) – nedidelis vamzdžio susiaurinimas prie žiočių. Jis nustato, kaip greitai sklinda šratai. Siauresnis čokas ilgiau laiko šratus kartu ir duoda tankesnį spiečių tolimiems taikiniams. Atviresnis čokas leidžia šratams pasklisti anksčiau ir duoda platesnį, atlaidesnį spiečių artimiems taikiniams.",
-    "chokes-what-is-a-choke-p2": "Kiek čokas susiaurina vamzdį, vadinama {{term:constriction|susiaurinimu}} (constriction). Pavyzdžiui, vamzdžio vidus yra 18,5 mm platumo, o čokas suspaudžia jį iki 18,0 mm, tad susiaurinimas – 0,5 mm. Jį nurodo milimetrais arba tūkstantosiomis colio dalimis (thou, dar vadinamomis points). Vamzdis be jokio susiaurinimo vadinamas {{term:cylinder|cilindru}} (cylinder).",
+    "chokes-what-is-a-choke-p1": "Kai šautuvas šauna, iš žiočių skrenda ne viena kulka, o kelių šimtų šratų debesėlis. Skriejant jis palaipsniui plečiasi. Pėdsaką, kurį šis debesėlis palieka taikinyje ar metaliniame skyde, vadina {{term:pattern|spiečiumi}}.",
+    "gear-chokes-p1": "{{term:choke|Čokas}} – nedidelis vamzdžio susiaurinimas prie žiočių. Jis nustato, kaip greitai sklinda šratai. Siauresnis čokas ilgiau laiko šratus kartu ir duoda tankesnį spiečių tolimiems taikiniams. Atviresnis čokas leidžia šratams pasklisti anksčiau ir duoda platesnį, atlaidesnį spiečių artimiems taikiniams.",
+    "chokes-what-is-a-choke-p2": "Kiek čokas susiaurina vamzdį, vadinama {{term:constriction|susiaurinimu}}. Pavyzdžiui, vamzdžio vidus yra 18,5 mm platumo, o čokas suspaudžia jį iki 18,0 mm, tad susiaurinimas – 0,5 mm. Jį nurodo milimetrais arba tūkstantosiomis colio dalimis (thou, dar vadinamomis points). Vamzdis be jokio susiaurinimo vadinamas {{term:cylinder|cilindru}}.",
     "chokes-what-is-a-choke-p4": "Platus spiečius pateisina mažas nukreipimo klaidas artimuose taikiniuose. Bet didelėje distancijoje jis plonėja, ir tarp šratų atsiranda „plyšiai“, pro kuriuos taikinys gali praskristi neapgadintas. Tankus spiečius tankumą išlaiko toliau, bet reikalauja tikslesnio nukreipimo, tad nėra vieno teisingo čoko – yra čokas, kuris tinka atstumui.",
-    "gear-chokes-p2": "Daugumoje varžybų šautuvų yra keičiami čokai: trumpi vamzdeliai, įsukami į žiotis čokų raktu. Senesniuose šautuvuose gali būti fiksuoti, vamzdyje išdirbti čokai. Skirtingų gamintojų čokai dažnai netinka vieni kitiems, o gamintojai pataria visada šauti šautuvu su keičiamais čokais tik tada, kai čokas įsuktas.",
+    "gear-chokes-p2": "Daugumoje varžybų šautuvų yra {{term:multichoke|keičiami čokai}}: trumpi vamzdeliai, įsukami į žiotis čokų raktu. Senesniuose šautuvuose gali būti fiksuoti, vamzdyje išdirbti čokai. Skirtingų gamintojų čokai dažnai netinka vieni kitiems, o gamintojai pataria visada šauti šautuvu su keičiamais čokais tik tada, kai čokas įsuktas.",
     "chokes-what-is-a-choke-p6": "{{tm:sporting}} ir {{tm:compak}} taikiniai skrenda labai skirtingais atstumais, tad čokų pasirinkimas – jūsų plano dalis. {{term:over-and-under|Vertikalaus dvivamzdžio}} kiekvienas vamzdis gali turėti savo čoką: pavyzdžiui, atviresnį pirmam, artimesniam šūviui ir siauresnį antram.",
     "gear-chokes-p4": "Treneriai sako, pavyzdžiui: „quarter and half“ (ketvirtis ir pusė), „open up the bottom barrel“ (atverkite apatinį vamzdį). Arba: „go tighter in the top“ (siaurinkite viršutinį) ar „change chokes for this stand“ (pakeiskite čokus šiai vietai). Pavadinimai nuo cilindro iki pilno čoko, dalys ir žymos: {{lesson:chokes-names-and-marks}}.",
     "gear-chokes-p5": "Taisyklės disciplinose skiriasi. {{tm:sporting}} čokus galima keisti tarp šaudymo vietų arba tarp pavienių taikinių ir dubletų, jei tai nesukelia delsimo. Kai šaulys jau stovi šaudymo vietoje, keisti jų negalima. {{tm:compak}} šautuvo, vamzdžių ir čokų serijos metu keisti visai negalima – tik tarp serijų, išskyrus gedimo atvejį."
@@ -69,13 +69,13 @@
     }
   },
   "key_points": {
-    "chokes-what-is-a-choke-kp1": "Spiečius (pattern) – pėdsakas, kurį šratų debesėlis palieka taikinyje ar plytoje.",
+    "chokes-what-is-a-choke-kp1": "{{term:pattern|Spiečius}} – pėdsakas, kurį šratų debesėlis palieka taikinyje ar plokštėje.",
     "gear-chokes-kp1": "Čokas siaurina žiotis: siauresnis tolimiems taikiniams, atviresnis artimiems.",
     "gear-chokes-kp2": "Keičiami čokai įsukami čokų raktu; gamintojai pataria visada šauti tik su įsuktu čoku.",
     "chokes-what-is-a-choke-kp4": "Čoką rinkitės pagal atstumą, kuriuo šaudysite.",
     "gear-chokes-kp5": "{{tm:sporting}}: keisti tarp šaudymo vietų, o ne pačioje vietoje; {{tm:compak}}: nekeisti serijos metu."
   },
-  "did_you_know": "Čokų susiaurinimai labai nedideli. Net pilnas čokas 12 kalibro kanalą sumažina tik apie 1 mm skersmens. Tai apie 0,5 mm iš kiekvienos pusės – mažiau nei banko kortelės storis.",
+  "did_you_know": "Čokų susiaurinimai labai nedideli. Net pilnas čokas 12 {{term:gauge|kalibro}} kanalą sumažina tik apie 1 mm skersmens. Tai apie 0,5 mm iš kiekvienos pusės – mažiau nei banko kortelės storis.",
   "quiz": {
     "gear-chokes-q1": {
       "q": "Kuris čokas duoda plačiausią šratų spiečių?",
@@ -111,9 +111,9 @@
       "q": "Kas yra čokas?",
       "options": {
         "a": "Vamzdžio susiaurinimas prie žiočių",
-        "b": "Saugiklis už atlaužimo svirties",
+        "b": "{{term:safety-catch|Saugiklis}} už atlaužimo svirties",
         "c": "Šovinio tipas stendiniam šaudymui",
-        "d": "Viršutinis buožės kraštas, skruostui"
+        "d": "Viršutinis {{term:stock|buožės}} kraštas, skruostui"
       },
       "explain": "Čokas susiaurina kanalą prie žiočių ir laiko šratus kartu."
     },
@@ -122,8 +122,8 @@
       "options": {
         "a": "Taip, jei tai nesukelia delsimo",
         "b": "Ne, kai jis jau šaudymo vietoje",
-        "c": "Taip, bet tik prieš dubletus",
-        "d": "Tik su žiuri leidimu"
+        "c": "Taip, bet tik prieš {{term:double|dubletus}}",
+        "d": "Tik su {{term:jury|žiuri}} leidimu"
       },
       "explain": "Keisti leidžiama tarp šaudymo vietų arba tarp pavienių taikinių ir dubletų, be delsimo, bet ne po to, kai šaulys užlipo į šaudymo vietą."
     }

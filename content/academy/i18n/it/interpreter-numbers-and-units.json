@@ -30,13 +30,13 @@
     "origin": "interpreter-academy"
   },
   "title": "Numeri e unità: piedi, iarde, calibri, numeri dei pallini",
-  "summary": "Iarde e metri, direzioni dell'orologio, numeri di calibro, cariche, numeri del pallino e strozzatori: quali numeri convertire, quali lasciare come detti, e quali sono i limiti FITASC.",
+  "summary": "Iarde e metri, direzioni dell'orologio, numeri di {{term:gauge|calibro}}, cariche, {{term:shot-size|numeri del pallino}} e {{term:choke|strozzatori}}: quali numeri convertire, quali lasciare come detti, e quali sono i limiti FITASC.",
   "body": {
-    "interpreter-numbers-and-units-p1": "Prima l'anticipo. Gli {{term:coach|istruttori}} britannici e americani danno l'{{term:lead|anticipo}} in piedi o iarde: «give it three feet», «a yard in front». È un'immagine (lo spazio che il tiratore deve vedere al momento dello sparo), non una misura. Mantieni l'unità come viene detta e non convertirla a metà istruzione. Di più sulle parole dell'anticipo: {{lesson:lead-how-coaches-say-it}}.",
+    "interpreter-numbers-and-units-p1": "Prima il {{term:lead|anticipo}}. I {{term:coach|istruttori}} britannici e americani danno il {{term:lead|anticipo}} in piedi o iarde: «give it three feet», «a yard in front». È un'immagine (lo spazio che il tiratore deve vedere al momento dello sparo), non una misura. Mantieni l'unità come viene detta e non convertirla a metà istruzione. Di più sulle parole dell'anticipo: {{lesson:lead-how-coaches-say-it}}.",
     "interpreter-numbers-and-units-p2": "Le distanze dai piattelli sono un'altra cosa. «It's about thirty yards» può diventare «circa 27 metri», perché una iarda è {{fact:stand-talk.unit-yard}}. Mantieni la parola «circa». Le direzioni arrivano spesso come un {{term:clock-face|quadrante dell'orologio}} sovrapposto al campo: dritto davanti sono le 12, quindi «pick it up at eleven o'clock» significa un po' a sinistra. Mantieni l'orologio, non trasformarlo in gradi.",
     "interpreter-numbers-and-units-p3": "Il {{term:gauge|calibro}} funziona al contrario. Un «12-bore» o «12 gauge» non è 12 mm: più piccolo è il numero, più larga è la canna, quindi un calibro 20 è più stretto. Entrambi i regolamenti FITASC ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) ammettono fucili {{fact:gear.fitasc-max-gauge}}, con {{term:barrel-length|canne}} {{fact:gear.fitasc-min-barrel}}. Nel {{tm:sporting}} la linea sul gilet è {{fact:rules.sporting-jacket-line}}; i tiratori britannici possono chiamarla poco meno di dieci pollici. L'asse delle spalle è una linea immaginaria che passa per entrambe le spalle.",
-    "interpreter-numbers-and-units-p4": "{{term:cartridge|Cartucce}}: entrambi i regolamenti ammettono una {{term:load-weight|carica}} di {{fact:gear.fitasc-shot-load}}. È vicina alla «one-ounce load» di cui parlano i tiratori britannici, perché un'oncia è {{fact:stand-talk.unit-ounce}}. Il pallino deve essere {{fact:gear.fitasc-shot-diameter}}. I {{term:shot-size|numeri del pallino}} cambiano da paese a paese. Un n. 9 è di circa 2 mm quasi ovunque, ma altri numeri variano leggermente tra il sistema britannico, quello americano e quello continentale. Quando conta, chiedi i millimetri ({{lesson:cartridges-shot-size}}).",
-    "interpreter-numbers-and-units-chokes": "Gli {{term:choke|strozzatori}} (il restringimento all'estremità della canna) possono essere indicati con nomi, frazioni o «thou» (millesimi di pollice). Traduci nel sistema usato dall'istruttore e non convertire un sistema nell'altro."
+    "interpreter-numbers-and-units-p4": "{{term:cartridge|Cartucce}}: entrambi i regolamenti ammettono una {{term:load-weight|carica}} di {{fact:gear.fitasc-shot-load}}. È vicina alla «one-ounce load» di cui parlano i tiratori britannici, perché un'oncia è {{fact:stand-talk.unit-ounce}}. Il pallino deve essere {{fact:gear.fitasc-shot-diameter}}. Gli {{term:shot-size|numeri del pallino}} cambiano da paese a paese. Un n. 9 è di circa 2 mm quasi ovunque, ma altri numeri variano leggermente tra il sistema britannico, quello americano e quello continentale. Quando conta, chiedi i millimetri ({{lesson:cartridges-shot-size}}).",
+    "interpreter-numbers-and-units-chokes": "I {{term:choke|strozzatori}} — il restringimento all'estremità della canna — possono essere indicati con nomi, frazioni o «thou» (millesimi di pollice). Traduci nel sistema usato dall'istruttore e non convertire un sistema nell'altro."
   },
   "note": {},
   "phrases": {
@@ -70,7 +70,7 @@
   },
   "quiz": {
     "interpreter-numbers-and-units-q1": {
-      "q": "L'istruttore dice «It's about thirty yards». Come lo passi a un tiratore che pensa in metri?",
+      "q": "Il {{term:coach|istruttore}} dice «It's about thirty yards». Come lo passi a un tiratore che pensa in metri?",
       "options": {
         "a": "«Circa 27 metri»",
         "b": "«Esattamente 27,43 metri»",
@@ -80,7 +80,7 @@
       "explain": "Una iarda è un po' meno di un metro (circa 0,9 m), quindi trenta iarde sono circa 27 m. Mantieni «circa»: il numero dell'istruttore è una stima."
     },
     "interpreter-numbers-and-units-q2": {
-      "q": "Qual è il calibro più grande ammesso nello {{tm:sporting}} e nel {{tm:compak}}?",
+      "q": "Qual è il {{term:gauge|calibro}} più grande ammesso nello {{tm:sporting}} e nel {{tm:compak}}?",
       "options": {
         "a": "10",
         "b": "16",
@@ -97,7 +97,7 @@
         "c": "Una carica di 28 g (+2%), circa un'oncia",
         "d": "Sono ammesse solo cariche da 24 g"
       },
-      "explain": "Il regolamento ammette fino a 28 g di piombo con una tolleranza del +2%; un'oncia è circa 28 g. Anche la misura del pallino (2,0–2,5 mm) deve rientrare."
+      "explain": "Il regolamento ammette fino a 28 g di {{term:lead-shot|piombo}} con una tolleranza del +2%; un'oncia è circa 28 g. Anche la misura del pallino (2,0–2,5 mm) deve rientrare."
     }
   }
 }

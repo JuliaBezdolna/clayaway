@@ -34,14 +34,14 @@
     "origin": "interpreter-academy"
   },
   "title": "Führungsauge und Kreuzdominanz",
-  "summary": "Welches Auge beim Schießen führt, wie Sie das in einer Minute prüfen, und was zu tun ist, wenn das Führungsauge auf der anderen Seite liegt als die Schulter, in die Sie die Flinte legen.",
+  "summary": "Welches Auge beim Schießen führt, wie Sie das in einer Minute prüfen, und was zu tun ist, wenn das {{term:master-eye|Führungsauge}} auf der anderen Seite liegt als die Schulter, in die Sie die Flinte legen.",
   "body": {
-    "basics-eyes-p1": "Die meisten Menschen haben ein {{term:master-eye|dominantes (führendes) Auge}}, dem das Gehirn mehr vertraut; meist liegt es auf derselben Seite wie die dominante Hand. Das dominante Auge sollte dasjenige sein, das entlang der {{term:rib|Laufschiene}} blickt, dem flachen Streifen oben auf den Läufen. Bei {{term:cross-dominance|Kreuzdominanz}} liegt das dominante Auge auf der anderen Seite als die Schulter, mit der geschossen wird; bei {{term:central-vision|zentralem Sehen}} dominiert kein Auge klar. In beiden Fällen zeigt die Flinte woanders hin, als Sie zu blicken meinen, oft zur Seite, und Sie treffen nicht, ohne zu wissen, warum.",
+    "basics-eyes-p1": "Die meisten Menschen haben ein {{term:master-eye|dominantes Auge}}, auch führendes Auge genannt, dem das Gehirn mehr vertraut; meist liegt es auf derselben Seite wie die dominante Hand. Das dominante Auge sollte dasjenige sein, das entlang der {{term:rib|Laufschiene}} blickt, dem flachen Streifen oben auf den Läufen. Bei {{term:cross-dominance|Kreuzdominanz}} liegt das dominante Auge auf der anderen Seite als die Schulter, mit der geschossen wird; bei {{term:central-vision|zentralem Sehen}} dominiert kein Auge klar. In beiden Fällen zeigt die Flinte woanders hin, als Sie zu blicken meinen, oft zur Seite, und Sie treffen nicht, ohne zu wissen, warum.",
     "basics-eyes-p2": "Ein einfacher Test: Mit beiden Augen offen ein entferntes Objekt in ein kleines Dreieck aus den Händen fassen. Dann abwechselnd jedes Auge schließen: Das Auge, bei dem das Objekt im Dreieck bleibt, ist dominant. Ein Trainer kann sich auch vor den Schützen stellen und durch das Dreieck schauen.",
-    "basics-eyes-p3": "Stimmen Auge und Schulter zusammen, können Sie meist mit beiden Augen offen schießen. Wenn nicht, wählt der Trainer eine Abhilfe. Sie können das andere Auge beim Anschlag schließen oder zukneifen, oder einen kleinen Punkt auf die Schießbrille kleben. Sie können auch lernen, von der anderen Schulter zu schießen, oder, seltener, einen Kreuzschaft (cross-over stock) verwenden, der seitlich gebogen ist, sodass das andere Auge entlang der Laufschiene blickt. Die Wahl hängt von Alter, Erfahrung und der Stärke der Dominanz ab. Wo möglich, bevorzugen viele Trainer beide Augen offen, weil zwei Augen Geschwindigkeit, Winkel und Entfernung besser einschätzen.",
+    "basics-eyes-p3": "Stimmen Auge und Schulter zusammen, können Sie meist mit beiden Augen offen schießen. Wenn nicht, wählt der Trainer eine Abhilfe. Sie können das andere Auge beim {{term:gun-mount|Anschlag}} schließen oder zukneifen, oder einen kleinen Punkt auf die {{term:safety-glasses|Schießbrille}} kleben. Sie können auch lernen, von der anderen Schulter zu schießen, oder, seltener, einen Kreuzschaft (cross-over stock) verwenden, der seitlich gebogen ist, sodass das andere Auge entlang der Laufschiene blickt. Die Wahl hängt von Alter, Erfahrung und der Stärke der Dominanz ab. Wo möglich, bevorzugen viele Trainer beide Augen offen, weil zwei Augen Geschwindigkeit, Winkel und Entfernung besser einschätzen.",
     "basics-eyes-p5": "Eine Schießbrille ist für Schützen in beiden Disziplinen Pflicht, also kommt der Punkt auf sie.",
-    "technique-master-eye-age": "Trainer bemerken oft, dass sich die Augendominanz eines Schützen über die Jahre ändert, und manche Schützen spüren einen Unterschied, wenn sie müde sind. Wenn Sie plötzlich wieder und wieder zur selben Seite daneben schießen, prüfen Sie das Führungsauge erneut mit Ihrem Trainer.",
-    "technique-master-eye-focus": "Wohin man während des Schusses blickt – ein {{term:soft-focus|weicher Fokus}} im Augenaufnahmepunkt und danach ein {{term:hard-focus|harter Fokus}} auf die Scheibe – erklärt der Kurs {{lesson:mind-concentration-focus}}."
+    "technique-master-eye-age": "Trainer bemerken oft, dass sich die {{term:eye-dominance|Augendominanz}} eines Schützen über die Jahre ändert, und manche Schützen spüren einen Unterschied, wenn sie müde sind. Wenn Sie plötzlich wieder und wieder zur selben Seite daneben schießen, prüfen Sie das Führungsauge erneut mit Ihrem Trainer.",
+    "technique-master-eye-focus": "Wohin man während des Schusses blickt – ein {{term:soft-focus|weicher Fokus}} im {{term:pick-up-point|Augenaufnahmepunkt}} und danach ein {{term:hard-focus|harter Fokus}} auf die Scheibe – erklärt der Kurs {{lesson:mind-concentration-focus}}."
   },
   "note": {},
   "phrases": {
@@ -72,17 +72,17 @@
   "did_you_know": "Der Dreieckstest funktioniert, weil das Gehirn bei beiden offenen Augen das Zielbild meist von einem Auge übernimmt. Schließt man dieses Auge, „springt“ das Objekt aus dem Dreieck.",
   "quiz": {
     "basics-eyes-q1": {
-      "q": "Ein Rechtshänder hat ein linkes Führungsauge. Wie nennt man das?",
+      "q": "Ein Rechtshänder hat ein linkes {{term:master-eye|Führungsauge}}. Wie nennt man das?",
       "options": {
         "a": "Zentrales Sehen",
         "b": "Scharfer Fokus",
         "c": "Kreuzdominanz",
         "d": "Vorderkante"
       },
-      "explain": "Kreuzdominanz ist ein Führungsauge auf der Seite gegenüber der Anschlagschulter."
+      "explain": "{{term:cross-dominance|Kreuzdominanz}} ist ein Führungsauge auf der Seite gegenüber der Anschlagschulter."
     },
     "basics-eyes-q2": {
-      "q": "Warum ist der Blick zurück zum Korn, um den Vorhalt zu prüfen, ein Fehler?",
+      "q": "Warum ist der Blick zurück zum Korn, um den {{term:lead|Vorhalt}} zu prüfen, ein Fehler?",
       "options": {
         "a": "Die Regeln beider Disziplinen verbieten es",
         "b": "Die Flinte bremst oder stoppt dadurch meist, und der Schuss geht dahinter",
@@ -94,8 +94,8 @@
     "basics-eyes-q3": {
       "q": "Wohin kommt der Punkt gegen die Dominanz meistens?",
       "options": {
-        "a": "Auf die Schießbrille, vor ein Auge",
-        "b": "Auf das Korn am Ende der Laufschiene",
+        "a": "Auf die {{term:safety-glasses|Schießbrille}}, vor ein Auge",
+        "b": "Auf das Korn am Ende der {{term:rib|Laufschiene}}",
         "c": "Auf die Laufschiene, auf halber Länge",
         "d": "Auf die Westenlinie, unter der Schulter"
       },
@@ -108,19 +108,19 @@
         "b": "Ob die Flinte passt",
         "c": "Wie weit die Scheibe fliegt"
       },
-      "explain": "Das Auge, bei dem das Objekt im Dreieck bleibt, ist das Führungsauge."
+      "explain": "Das Auge, bei dem das Objekt im Dreieck bleibt, ist das {{term:master-eye|Führungsauge}}."
     },
     "technique-master-eye-q2": {
-      "q": "Ein Rechtshänder hat ein linkes Führungsauge. Wie heißt das?",
+      "q": "Ein Rechtshänder hat ein linkes {{term:master-eye|Führungsauge}}. Wie heißt das?",
       "options": {
         "a": "Kreuzdominanz",
         "b": "Mucken (flinch)",
         "c": "Nachschwingen (follow-through)"
       },
-      "explain": "Ein Führungsauge auf der anderen Seite als der Schaft ist Kreuzdominanz."
+      "explain": "Ein Führungsauge auf der anderen Seite als der {{term:stock|Schaft}} ist {{term:cross-dominance|Kreuzdominanz}}."
     },
     "technique-master-eye-q3": {
-      "q": "Wer sollte Ihnen helfen zu entscheiden, wie Sie bei Kreuzdominanz schießen?",
+      "q": "Wer sollte Ihnen helfen zu entscheiden, wie Sie bei {{term:cross-dominance|Kreuzdominanz}} schießen?",
       "options": {
         "a": "Ein anderes Gruppenmitglied während des Wettkampfs",
         "b": "Ein qualifizierter Trainer",

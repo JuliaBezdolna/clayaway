@@ -30,7 +30,7 @@
     "origin": null
   },
   "title": "Numer śrutu",
-  "summary": "Co znaczą numery śrutu 7, 7½, 8 i 9, czemu numeracja różni się między krajami oraz jaką średnicę dopuszczają przepisy {{tm:sporting}} i {{tm:compak}}.",
+  "summary": "Co znaczą {{term:shot-size|numery śrutu}} 7, 7½, 8 i 9, czemu numeracja różni się między krajami oraz jaką średnicę dopuszczają przepisy {{tm:sporting}} i {{tm:compak}}.",
   "body": {
     "gear-cartridges-p3": "{{term:shot-size|Numer śrutu}} też działa „na odwrót”: im większy numer, tym mniejsza śrucina, więc nr 9 jest drobniejszy niż nr 7½. Ten sam numer może oznaczać trochę inny rozmiar w Wielkiej Brytanii, kontynentalnej Europie i USA, więc sprawdzaj milimetry na pudełku. „Dziewiątki” i „siódemki z połówką” to częste słowa trenerów.",
     "cartridges-shot-size-p2": [
@@ -42,8 +42,8 @@
     "cartridges-shot-size-p7": "Czemu „około”? Bo numeracja różni się między krajami i producentami. W tradycyjnej skali brytyjskiej nr 7½ to 2,3 mm, a nr 8 to 2,2 mm. Numeracja kontynentalna, którą dla naboi sportowych stosują też niektórzy brytyjscy producenci, jak Gamebore, nazywa śrut 2,4 mm numerem 7½, a 2,3 mm numerem 8. Amerykański nr 7½ to 0,095 cala, czyli około 2,41 mm.",
     "cartridges-shot-size-p3": "Przepisy {{tm:sporting}} i {{tm:compak}} wymagają {{term:lead-shot|śrutu ołowianego}} o {{fact:gear.fitasc-shot-diameter}}. W praktyce to numery 9, 8, 7½, a także 7, jeśli jego średnica nie wykracza poza limit. Nr 6 (około 2,6–2,8 mm) jest na granicy limitu albo poza nią, nawet z tolerancją, więc nie jest naważką zawodniczą. Mieszanie śrutu różnych rozmiarów w jednym naboju jest zakazane.",
     "cartridges-shot-size-p4": "Drobniejszy śrut daje więcej śrucin w tej samej naważce: 28 g zawiera około 350–400 śrucin nr 7½, zależnie od dokładnej średnicy, i około 580 śrucin nr 9. Więc {{term:pattern|rozrzut}} jest gęstszy, ale każda śrucina jest lżejsza i szybciej traci energię.",
-    "cartridges-shot-size-p5": "Dlatego wielu strzelców używa nr 9 na bliskie rzutki: jego gęsty rozrzut łatwo „obejmuje” rzutek. Na średnie i dalekie wybierają nr 8 albo nr 7½, bo ciężejsze śruciny lepiej rozbijają rzutek na odległości. Nr 7½ jest też popularny do wytrzymałych rzutków {{term:rabbit|rabbit}} i do {{term:battue|battue}} lecącego bokiem.",
-    "cartridges-shot-size-p6": "Wielu strzelców {{tm:sporting}} wybiera jeden uniwersalny nabój, na przykład 28 g nr 7½ albo nr 8, i nie komplikuje sobie życia. Niektórzy nabijają nr 9 do pierwszej lufy na bliski rzutek i nr 7½ do drugiej."
+    "cartridges-shot-size-p5": "Dlatego wielu strzelców używa nr 9 na bliskie rzutki: jego gęsty rozrzut łatwo „obejmuje” rzutek. Na średnie i dalekie wybierają nr 8 albo nr 7½, bo cięższe śruciny lepiej rozbijają rzutek na odległości. Nr 7½ jest też popularny do wytrzymałych rzutków {{term:rabbit|rabbit}} i do {{term:battue|battue}} lecącego bokiem.",
+    "cartridges-shot-size-p6": "Wielu strzelców {{tm:sporting}} wybiera jeden uniwersalny {{term:cartridge|nabój}}, na przykład 28 g nr 7½ albo nr 8, i nie komplikuje sobie życia. Niektórzy nabijają nr 9 do pierwszej lufy na bliski rzutek i nr 7½ do drugiej."
   },
   "note": {
     "cartridges-shot-size-n1": "Podawaj numer śrutu dokładnie tak, jak powiedział trener, a milimetry dodawaj tylko, jeśli są na pudełku."
@@ -70,10 +70,10 @@
         "c": "Nr 8",
         "d": "Nr 9"
       },
-      "explain": "Im większy numer śrutu, tym mniejsza śrucina."
+      "explain": "Im większy {{term:shot-size|numer śrutu}}, tym mniejsza śrucina."
     },
     "cartridges-shot-size-q2": {
-      "q": "Jaką średnicę śrutu dopuszczają przepisy FITASC?",
+      "q": "Jaką {{term:shot-size|średnicę śrutu}} dopuszczają przepisy FITASC?",
       "options": {
         "a": "1,5–2,0 mm (±0,1 mm)",
         "b": "2,0–2,5 mm (±0,1 mm)",
@@ -83,7 +83,7 @@
       "explain": "Śrut musi być okrągły, ołowiany i mieć 2,0–2,5 mm średnicy, z tolerancją ±0,1 mm."
     },
     "cartridges-shot-size-q3": {
-      "q": "Czemu lepiej patrzeć na milimetry, a nie tylko na numer śrutu?",
+      "q": "Czemu lepiej patrzeć na milimetry, a nie tylko na {{term:shot-size|numer śrutu}}?",
       "options": {
         "a": "Systemy numeracji różnią się między krajami",
         "b": "Numer jest tylko na drogich nabojach",

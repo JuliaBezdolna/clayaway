@@ -35,11 +35,11 @@
   "summary": "Kiekot, jotka ponnahtavat ylös, nousevat kaarella, kaartuvat yli tai putoavat: miten erottaa pystykiekko, chandelle ja kaarikiekko toisistaan, ja miksi niiden nimet vaihtelevat maittain.",
   "body": {
     "flight-teal-chandelle-looper-p1": "Tämän oppitunnin lentoradoissa on kyse korkeudesta ja kaaresta, ei niinkään kulmasta. Niiden nimet ovat radan rakentajien (heittimet ja lentoradat asettavien ihmisten) käyttämiä sanoja, ei sääntökirjan termejä. Säännöt luettelevat kiekkotyyppejä, ja {{tm:compak}}-säännöt vaativat vaihtelevia lentoratoja: nousevia, laskevia ja korkeita, kaartuvia.",
-    "flight-teal-chandelle-looper-p2": "{{term:teal|Pystykiekko}} (teal, myös springing tai rising teal, pienen sorsan mukaan) heitetään lähes suoraan ylös: se hidastuu, pysähtyy hetkeksi lakipisteeseen ja putoaa takaisin. Ammu se joko nousussa, viemällä ase alhaalta sen läpi, tai lakipisteessä sen pysähtyessä. Yleinen virhe on pysäyttää ase ja tökätä sitä kohti sen pysähtyessä lakipisteeseen. Jotkut radan rakentajat käyttävät sanaa {{term:springing-target|”springing”}} kiekosta, joka nousee vinossa kulmassa eikä suoraan ylös, kuin ruohikosta pelästyvä lintu.",
+    "flight-teal-chandelle-looper-p2": "{{term:teal|Pystykiekko}} – myös springing tai rising teal, pienen sorsan mukaan – heitetään lähes suoraan ylös: se hidastuu, pysähtyy hetkeksi lakipisteeseen ja putoaa takaisin. Ammu se joko nousussa, viemällä ase alhaalta sen läpi, tai lakipisteessä sen pysähtyessä. Yleinen virhe on pysäyttää ase ja tökätä sitä kohti sen pysähtyessä lakipisteeseen. Jotkut radan rakentajat käyttävät nimeä {{term:springing-target|nouseva kiekko}} kiekosta, joka nousee vinossa kulmassa eikä suoraan ylös, kuin ruohikosta pelästyvä lintu.",
     "flight-teal-chandelle-looper-p3": "{{term:chandelle|Chandelle}} (ranskaa, ”kynttilä”) nousee jyrkästi lievässä kaaressa, kaartuu yli ja putoaa lähes pystysuoraan. Moni ampuja pitää sitä helpoimpana nousussa. Kun se kaartuu ja alkaa pudota, ammu sen eteen (puolelle, johon se on menossa) ja alapuolelle.",
-    "flight-teal-chandelle-looper-p4": "{{term:looper|Kaarikiekko}} (looper) lentää leveän kaaren taivaan poikki kuin sateenkaari: se nousee, kääntyy lakipisteen yli ja putoaa. Se on yleensä tavallinen kiekko; jotkut radan rakentajat heittävät tällaiselle linjalle myös {{term:battue|battue-kiekon}}, joka kääntyessään näyttää pintansa. Seuraa kaarta aseella, pysy kiekon edellä ja sen alapuolella.",
-    "flight-teal-chandelle-looper-p5": "{{term:dropping-target|Laskeva kiekko}} (dropping target) on mikä tahansa kiekko lentonsa laskevassa osassa. Koska se liikkuu samaan aikaan alas ja eteenpäin, ammu sen alapuolelle ja eteen, ase liikkeessä.",
-    "flight-teal-chandelle-looper-p6": "Varo: nimet vaihtelevat maittain. Monet ranskankieliset käyttävät sanaa ”chandelle” kiekosta, joka nousee lähes suoraan ylös ja jota englantilainen valmentaja kutsuisi pystykiekoksi (teal). Muissa kielissä ”kynttilää” vastaava sana voi tarkoittaa molempia. Kun kuulet sanan chandelle tai kynttilä, kysy: suoraan ylös vai kaarena yli?"
+    "flight-teal-chandelle-looper-p4": "{{term:looper|Kaarikiekko}} lentää leveän kaaren taivaan poikki kuin sateenkaari: se nousee, kääntyy lakipisteen yli ja putoaa. Se on yleensä {{term:standard-target|tavallinen kiekko}}; jotkut radan rakentajat heittävät tällaiselle linjalle myös {{term:battue|battue-kiekon}}, joka kääntyessään näyttää pintansa. Seuraa kaarta aseella, pysy kiekon edellä ja sen alapuolella.",
+    "flight-teal-chandelle-looper-p5": "{{term:dropping-target|Laskeva kiekko}} on mikä tahansa kiekko lentonsa laskevassa osassa. Koska se liikkuu samaan aikaan alas ja eteenpäin, ammu sen alapuolelle ja eteen, ase liikkeessä.",
+    "flight-teal-chandelle-looper-p6": "Varo: nimet vaihtelevat maittain. Monet ranskankieliset käyttävät sanaa ”chandelle” kiekosta, joka nousee lähes suoraan ylös ja jota englantilainen valmentaja kutsuisi nimellä {{term:teal|pystykiekko}}. Muissa kielissä ”kynttilää” vastaava sana voi tarkoittaa molempia. Kun kuulet sanan chandelle tai kynttilä, kysy: suoraan ylös vai kaarena yli?"
   },
   "note": {},
   "phrases": {
@@ -61,10 +61,10 @@
     }
   },
   "key_points": {
-    "flight-teal-chandelle-looper-kp1": "Pystykiekko (teal): lähes pystysuoraan ylös, pysähtyy, putoaa; ota se nousussa tai lakipisteessä.",
+    "flight-teal-chandelle-looper-kp1": "{{term:teal|Pystykiekko}}: lähes pystysuoraan ylös, pysähtyy, putoaa; ota se nousussa tai lakipisteessä.",
     "flight-teal-chandelle-looper-kp2": "Chandelle: jyrkkä kaartuva nousu, kaartuu yli, putoaa lähes pystysuoraan.",
-    "flight-teal-chandelle-looper-kp3": "Kaarikiekko (looper): leveä sateenkaarimainen kaari poikki, yleensä tavallinen kiekko, joka kääntyy lakipisteen yli ja putoaa.",
-    "flight-teal-chandelle-looper-kp4": "Laskeva kiekko: ennakko alle ja eteen; pidä ase liikkeessä.",
+    "flight-teal-chandelle-looper-kp3": "{{term:looper|Kaarikiekko}}: leveä sateenkaarimainen kaari poikki, yleensä tavallinen kiekko, joka kääntyy lakipisteen yli ja putoaa.",
+    "flight-teal-chandelle-looper-kp4": "Laskeva kiekko: {{term:lead|ennakko}} alle ja eteen; pidä ase liikkeessä.",
     "flight-teal-chandelle-looper-kp5": "Nimet vaihtelevat: ranskankieliset sanovat usein ”chandelle” pystykiekosta, joten kysy, mitä tarkoitetaan."
   },
   "quiz": {
@@ -76,7 +76,7 @@
         "c": "Jäniskiekko",
         "d": "Pystykiekko"
       },
-      "explain": "Se on pystykiekko (teal, springing tai rising teal). Kaarikiekko lentää leveän kaaren taivaan poikki."
+      "explain": "Se on {{term:teal|pystykiekko}} (myös springing tai rising teal). Kaarikiekko lentää leveän kaaren taivaan poikki."
     },
     "flight-teal-chandelle-looper-q2": {
       "q": "Mihin ennakko yleensä menee laskevassa kiekossa?",

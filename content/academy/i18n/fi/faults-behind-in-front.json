@@ -37,9 +37,9 @@
  "summary": "Mitä ”behind”, ”in front”, ”over”, ”under” ja ”chipped” tarkoittavat, mikä yleensä aiheuttaa kunkin ohilaukauksen ja miten sirpaloitunut kiekko pisteytetään.",
  "body": {
   "faults-behind-in-front-p1": "Jokaisella ohilaukauksella on suunta. Ampujan takaa seuraava valmentaja sanoo yleensä ensin, mihin laukaus meni kiekkoon nähden, ja vasta sitten miksi. Välitä se heti: ampuja valmistautuu jo seuraavaan kiekkoon.",
-  "faults-behind-in-front-p2": "Behind (takana) tarkoittaa, että laukaus meni liikkuvan kiekon taakse: liian vähän ennakkoa tai hidastunut ase. Se on yleisin ohilaukaus sivukiekoissa. In front (edessä) on päinvastainen: liikaa ennakkoa, usein sen jälkeen, kun ampuja on ylikorjannut. Monet valmentajat pitävät edestä menneestä ohilaukauksesta: se osoittaa, että ase pysyi liikkeessä.",
-  "faults-behind-in-front-p3": "Over (myös ”high”, ”over the top”, eli yli) ja under (”low”, eli ali) kuvaavat pystysuuntaista ohilaukausta. Yli on yleinen laskevissa kiekoissa, jäniskiekoissa ja vastakiekoissa, ja se liittyy usein siihen, että pää nousee tukilta. Ali on tyypillinen nousevissa kiekoissa, jotka nousevat vielä laukaushetkellä.",
-  "faults-behind-in-front-p4": "Chipped (sirpale irti) tarkoittaa, että kiekosta irtosi vain pieni pala. Valmentajalle se on puoliksi kehu, puoliksi korjaus: kiekko jäi {{term:pattern|osumakuvion}} reunalle, hauliparven reunaan. Tuomarille se on osuma, kunhan pala on näkyvä. Varo yhtä sääntöjen yksityiskohtaa. Kiekko, joka hajoaa, vaikka se muuttuisi kokonaan tai osittain pölyksi, on osuma molemmissa lajeissa. Kiekko, joka lentää eteenpäin ehjänä ja antaa vain pölyn tai savun pöllähdyksen, ilman näkyvää palaa, on ohilaukaus (zero). Valmentajien slangissa ”smoked it” tarkoittaa täydellistä, keskitettyä osumaa, joka muuttaa kiekon pölyksi, ja ”dusted it” kuullaan kummassakin merkityksessä, niin kysy, kun olet epävarma.",
+  "faults-behind-in-front-p2": "Behind (takana) tarkoittaa, että laukaus meni liikkuvan kiekon taakse: liian vähän {{term:lead|ennakkoa}} tai hidastunut ase. Se on yleisin ohilaukaus sivukiekoissa. In front (edessä) on päinvastainen: liikaa ennakkoa, usein sen jälkeen, kun ampuja on ylikorjannut. Monet valmentajat pitävät edestä menneestä ohilaukauksesta: se osoittaa, että ase pysyi liikkeessä.",
+  "faults-behind-in-front-p3": "{{term:miss-over|Over}} – myös ”high”, ”over the top” – ja {{term:miss-under|under}} – myös ”low” – kuvaavat pystysuuntaista ohilaukausta. Yli on yleinen laskevissa kiekoissa, jäniskiekoissa ja vastakiekoissa, ja se liittyy usein siihen, että pää nousee tukilta. Ali on tyypillinen nousevissa kiekoissa, jotka nousevat vielä laukaushetkellä.",
+  "faults-behind-in-front-p4": "Chipped (sirpale irti) tarkoittaa, että kiekosta irtosi vain pieni pala. Valmentajalle se on puoliksi kehu, puoliksi korjaus: kiekko jäi {{term:pattern|osumakuvion}} reunalle, hauliparven reunaan. Tuomarille se on osuma, kunhan pala on näkyvä. Varo yhtä sääntöjen yksityiskohtaa. Kiekko, joka hajoaa, vaikka se muuttuisi kokonaan tai osittain pölyksi, on osuma molemmissa lajeissa. Kiekko, joka lentää eteenpäin ehjänä ja antaa vain pölyn tai savun pöllähdyksen, ilman {{term:visible-piece|näkyvää palaa}}, on {{term:zero|ohilaukaus}}. Valmentajien slangissa ”smoked it” tarkoittaa täydellistä, keskitettyä osumaa, joka muuttaa kiekon pölyksi, ja ”dusted it” kuullaan kummassakin merkityksessä, niin kysy, kun olet epävarma.",
   "technique-follow-through-and-mistakes-p5": "Monet näistä ohilaukauksista on helppo nähdä ulkopuolelta. Takana seisova valmentaja näkee, mihin laukaus meni ja mitä pääsi, kädet ja jalat tekivät. Yksin saattaa korjata väärää asiaa: pysähtyneestä aseesta johtuvaa taakse menevää laukausta ei paranna lisäennakko."
  },
  "note": {
@@ -75,7 +75,7 @@
  "key_points": {
   "faults-behind-in-front-kp1": "Valmentaja nimeää suunnan ensin: takana, edessä, yli, ali.",
   "faults-behind-in-front-kp2": "Takana = liian vähän ennakkoa tai hidastuva ase; edessä = liikaa ennakkoa.",
-  "faults-behind-in-front-kp3": "Näkyvä sirpale, tai pölyksi muuttunut kiekko, on osuma; ehjä kiekko, josta tulee vain pölyä tai savua, on ohi (zero).",
+  "faults-behind-in-front-kp3": "Näkyvä sirpale, tai pölyksi muuttunut kiekko, on osuma; ehjä kiekko, josta tulee vain pölyä tai savua, on {{term:zero|ohi}}.",
   "faults-behind-in-front-kp4": "”Smoked it” on valmentajan kehu, ei sääntöjen ”savu”: älä sekoita niitä.",
   "faults-behind-in-front-kp5": "Korjaa syy, ei vain suuntaa: lisäennakko ei paranna pysähtynyttä asetta."
  },
@@ -95,7 +95,7 @@
    "options": {
     "a": "Ohi, koska suurin osa kiekosta lensi eteenpäin",
     "b": "Uusi kiekko",
-    "c": "One (osuma)",
+    "c": "Osuma",
     "d": "Osuma vain, jos valmentaja on samaa mieltä"
    },
    "explain": "Vähintään yksi näkyvä pala tekee kiekosta osuman sekä {{tm:sporting}}- että {{tm:compak}}-lajissa; tuomari päättää yksin."

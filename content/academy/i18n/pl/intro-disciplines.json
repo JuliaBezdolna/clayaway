@@ -31,11 +31,11 @@
     "intro-disciplines-p1": "{{tm:sporting}} naśladuje polowanie. {{term:shooting-stand|Stanowiska}}, oznaczone miejsca, z których się strzela, są rozstawione w naturalnym terenie: w polu, przy lesie, na zboczach. Rzutki lecą tak, jak leciałaby kuropatwa, kaczka czy bażant, albo toczą się jak zając. Każda {{term:layout|oś}}, czyli grupa stanowisk, daje {{fact:targets.sporting-layout-targets}} (dublet to dwa rzutki, czyli jeszcze 10). Dwa rzutki {{term:double|dubletu}} lecą razem albo jeden po drugim.",
     "intro-disciplines-p2": "{{tm:compak}} to wersja zwarta. Wszystko odbywa się na jednym polu z {{fact:basics.compak-field}}. Strzelec przechodzi przez wszystkie pięć stanowisk i na każdym strzela do 5 rzutków — 25 na {{term:round|serię}}. Pole Compak zajmuje mało miejsca, więc klubowi łatwo je zbudować.",
     "intro-disciplines-cmp": {
-      "sporting": "Idziesz trasą od stanowiska do stanowiska, a każde stanowisko ma swoje rzutki. Dublet może być {{term:double-on-report|po strzale}} — twój pierwszy strzał zwalnia drugi rzutek — albo {{term:simultaneous-double|symultaniczny}}, gdy oba lecą naraz. {{term:rafale-double|Rafale}} to dwa rzutki z tej samej wyrzutni, jeden tuż po drugim.",
+      "sporting": "Idziesz trasą od stanowiska do stanowiska, a każde stanowisko ma swoje rzutki. Dublet może być {{term:double-on-report|po strzale}} — twój pierwszy strzał zwalnia drugi rzutek — albo {{term:simultaneous-double|symultaniczny}}, gdy oba lecą naraz. {{term:rafale-double|Rafale}} to dwa rzutki z tej samej {{term:trap|wyrzutni}}, jeden tuż po drugim.",
       "compak": "Zostajesz na jednym polu i po każdej swojej turze przechodzisz o jedno stanowisko w prawo. Dublet jest {{term:double-on-report|po strzale}} — twój pierwszy strzał zwalnia drugi rzutek — albo {{term:simultaneous-double|symultaniczny}}, gdy oba lecą naraz."
     },
     "intro-disciplines-p3": "Międzynarodowe zawody w obu dyscyplinach to zwykle {{fact:basics.international-targets}}. W obu dyscyplinach do {{term:single-target|rzutka pojedynczego}} można strzelić dwa razy: jeśli pierwszy strzał nie trafi, drugi wciąż może go rozbić.",
-    "intro-disciplines-p6": "Obie dyscypliny należą do {{term:fitasc|FITASC}}, międzynarodowej federacji, która pisze ich przepisy. Podstawy są wspólne: bezpieczeństwo, {{term:gun-mount|złożenie się do strzału}} (ruch, którym przykłada się strzelbę do policzka i ramienia) i umiejętność odczytania rzutka."
+    "intro-disciplines-p6": "Obie dyscypliny należą do {{term:fitasc|FITASC}}, międzynarodowej federacji, która pisze ich przepisy. Podstawy są wspólne: bezpieczeństwo, {{term:gun-mount|złożenie się do strzału}}, czyli ruch, którym przykłada się strzelbę do policzka i ramienia, i umiejętność odczytania rzutka."
   },
   "note": {},
   "phrases": {},
@@ -57,7 +57,7 @@
       "explain": "Każda oś daje {{fact:targets.sporting-layout-targets}} (dublet to dwa rzutki, czyli jeszcze 10)."
     },
     "intro-disciplines-q2": {
-      "q": "Ile wyrzutni jest na jednym polu Compak?",
+      "q": "Ile {{term:trap|wyrzutni}} jest na jednym polu Compak?",
       "options": {
         "a": "Sześć, oznaczonych literami od A do F",
         "b": "Cztery, oznaczone literami od A do D",
@@ -66,7 +66,7 @@
       "explain": "Pole {{tm:compak}} ma {{fact:basics.compak-field}}."
     },
     "intro-disciplines-q-course": {
-      "q": "W której dyscyplinie idzie się trasą od stanowiska do stanowiska?",
+      "q": "W której dyscyplinie idzie się trasą od {{term:shooting-stand|stanowiska}} do stanowiska?",
       "options": {
         "a": "{{tm:compak}}",
         "b": "W obu tak samo",

@@ -31,14 +31,14 @@
     "origin": null
   },
   "title": "Od jakiego wieku zaczynać",
-  "summary": "Minimalny wiek dla {{tm:sporting}} i {{tm:compak}} zależy od prawa kraju i przepisów klubu. Ważniejsza jest gotowość dziecka, a zaczyna się z trenerem, lekką bronią i miękkimi nabojami.",
+  "summary": "Minimalny wiek dla {{tm:sporting}} i {{tm:compak}} zależy od prawa kraju i przepisów klubu. Ważniejsza jest gotowość dziecka, a zaczyna się z {{term:coach|trenerem}}, lekką bronią i miękkimi nabojami.",
   "body": {
     "juniors-starting-age-p1": "Rodzice często pytają, od jakiego wieku dziecko może spróbować {{tm:sporting}} albo {{tm:compak}}. Nie ma jednej odpowiedzi: minimalny wiek określają prawo kraju, przepisy strzelnicy i jej ubezpieczenie. Wiele klubów zaczyna zajęcia z dziećmi w wieku około 10–12 lat; to praktyka klubów, a nie przepis, więc najpierw sprawdź lokalne prawo i zapytaj w klubie.",
     "juniors-starting-age-p7": "Według tabeli kategorii FITASC obowiązującej od {{fact:competitions.categories-from}} chłopcy i dziewczynki należą do kategorii {{term:junior|Junior}} {{fact:basics.fitasc-junior-age}}. To kategoria zawodów, a nie minimalny wiek, od którego można zaczynać strzelać.",
     "juniors-starting-age-p2": "Wiek w papierach znaczy mniej niż gotowość. Czy dziecko umie pewnie trzymać broń? Czy uważnie słucha i zawsze wykonuje komendy dorosłego? Czy może skupić się na całych, krótkich zajęciach? Jeśli dziecko łatwo się rozprasza albo traktuje broń jak zabawkę, lepiej poczekać kilka miesięcy.",
-    "juniors-starting-age-p3": "Pierwsze zajęcia prowadzi tylko wykwalifikowany {{term:coach|trener}} albo instruktor, najlepiej indywidualnie z dzieckiem. Trener wyjaśnia zasady bezpieczeństwa, sprawdza, które oko jest dominujące ({{term:master-eye|oko dominujące}}), i decyduje, kiedy można oddać pierwszy strzał. Rodzice nie zastępują trenera, nawet jeśli sami dobrze strzelają.",
+    "juniors-starting-age-p3": "Pierwsze zajęcia prowadzi tylko wykwalifikowany {{term:coach|trener}} albo instruktor, najlepiej indywidualnie z dzieckiem. Trener wyjaśnia zasady bezpieczeństwa, sprawdza {{term:master-eye|oko dominujące}}, czyli to, które oko prowadzi, i decyduje, kiedy można oddać pierwszy strzał. Rodzice nie zastępują trenera, nawet jeśli sami dobrze strzelają.",
     "juniors-starting-age-p4": "Dziecko zwykle zaczyna od lekkiej broni, często 20 {{term:gauge|kalibru}}; im większa liczba kalibru, tym węższa lufa. Wielu producentów oferuje {{term:youth-gun|strzelbę juniorską}} z krótszą kolbą. Dobiera się do niej miękkie {{term:low-recoil-cartridge|naboje o niskim odrzucie}}, na przykład z {{term:load-weight|naważką}} 21–24 g śrutu. Bardzo lekka broń z ciężkim nabojem wciąż może kopnąć mocno, więc nabój liczy się tak samo jak kaliber. Celem jest, by strzał nie przestraszył i nie zabolał. Jak dopasować broń do dziecka: {{lesson:juniors-equipment-fit}}.",
-    "juniors-starting-age-p5": "Pierwsze rzutki powinny być proste i powolne, na przykład rzutek lecący prosto od strzelca ({{term:going-away|rzutek odlatujący}}). Zajęcia mają niewiele strzałów i kończą się udanym, tak by dziecko wyszło ze strzelnicy z uśmiechem.",
+    "juniors-starting-age-p5": "Pierwsze rzutki powinny być proste i powolne, na przykład {{term:going-away|rzutek odlatujący}}, który leci prosto od strzelca. Zajęcia mają niewiele strzałów i kończą się udanym, tak by dziecko wyszło ze strzelnicy z uśmiechem.",
     "juniors-starting-age-warn": "Dziecko potrzebuje {{term:safety-glasses|okularów strzeleckich}} i {{term:hearing-protection|ochronników słuchu}} dopasowanych do małej głowy, od pierwszego strzału. Dorosłe nauszniki mogą siedzieć na dziecku nieszczelnie; sprawdź dopasowanie, zanim zacznie się strzelanie. Więcej: {{lesson:safety-eye-ear-protection}}.",
     "juniors-starting-age-rule": "Na zawodach {{tm:sporting}} przepisy wymagają też, by dzieci na terenie strzelnicy, poza klubem, nosiły ochronniki słuchu.",
     "juniors-starting-age-p6": "Przed pierwszą wizytą zadzwoń na strzelnicę i zapytaj: od jakiego wieku przyjmują dzieci? Czy jest program juniorski, trener dla dzieci i broń 20 kalibru do wypożyczenia? Odpowiedzi szybko pokażą, czy ten klub ci odpowiada."
@@ -70,7 +70,7 @@
         "b": "Lekką 20 kalibru z miękkimi nabojami",
         "c": "Jakąkolwiek, jaka jest w domu"
       },
-      "explain": "Kaliber 20 lepiej pasuje do mniejszej budowy i strzela się z niego lekkimi nabojami; odrzut łagodzi właśnie lekki nabój, a nie lekka broń."
+      "explain": "{{term:gauge|Kaliber}} 20 lepiej pasuje do mniejszej budowy i strzela się z niego lekkimi nabojami; {{term:recoil|odrzut}} łagodzi właśnie lekki nabój, a nie lekka broń."
     },
     "juniors-starting-age-q3": {
       "q": "Jak powinny się zakończyć pierwsze zajęcia dziecka?",

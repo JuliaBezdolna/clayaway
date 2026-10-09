@@ -37,15 +37,19 @@
     "interpreter-session-script-q2": "783b246c",
     "interpreter-session-script-q3": "3a16f8f1"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Ein ganzes Training, Schritt für Schritt",
-  "summary": "Ein typisches Training mit einem ausländischen Trainer, vom ersten Treffen bis zur Nachbesprechung. Die Redewendungen, die Sie wahrscheinlich hören werden, in der Reihenfolge, in der sie kommen, und wie man sie weitergibt.",
+  "summary": "Ein typisches Training mit einem ausländischen {{term:coach|Trainer}}, vom ersten Treffen bis zur Nachbesprechung. Die Redewendungen, die Sie wahrscheinlich hören werden, in der Reihenfolge, in der sie kommen, und wie man sie weitergibt.",
   "body": {
-    "interpreter-session-script-p1": "Nehmen Sie sich vor dem Training fünf Minuten für den {{term:coach|Trainer}}. Vereinbaren Sie ein Pausenzeichen und lernen Sie seine {{term:hand-signal|Handzeichen}}. Fragen Sie, welche Vorhaltmethode er lehrt (wie der Schütze vor die Scheibe kommen soll) und welche Wörter er für den {{term:lead|Vorhalt}} verwendet. Dann versammelt sich die Gruppe zur {{term:safety|Sicherheits}}einweisung: Dolmetschen Sie sie {{term:consecutive-interpreting|konsekutiv}}, Satz für Satz, bestimmt und vollständig.",
-    "interpreter-session-script-p2": "Am ersten Stand beginnt der Trainer meist ohne Patronen: eine Prüfung der {{term:eye-dominance|Augendominanz}}, dann der {{term:stance|Stand}} und die {{term:ready-position|Bereitschaftsstellung}}. Bei {{tm:sporting}} beginnt die Flinte tief, unter der Linie auf der Weste; bei {{tm:compak}} ist die Flintenhaltung beim Abruf frei. Flüstern Sie seine Korrekturen von hinten ({{term:chuchotage|Chuchotage}}), während er Füße und Hände zurechtrückt.",
+    "interpreter-session-script-p1": "Nehmen Sie sich vor dem Training fünf Minuten für den {{term:coach|Trainer}}. Vereinbaren Sie ein Pausenzeichen und lernen Sie seine {{term:hand-signal|Handzeichen}}. Fragen Sie, welche Vorhaltmethode er lehrt (wie der Schütze vor die Scheibe kommen soll) und welche Wörter er für den {{term:lead|Vorhalt}} verwendet. Dann versammelt sich die Gruppe zur Sicherheitseinweisung: Dolmetschen Sie sie im {{term:consecutive-interpreting|Konsekutivdolmetschen}}, Satz für Satz, bestimmt und vollständig.",
+    "interpreter-session-script-p2": "Am ersten Stand beginnt der Trainer meist ohne Patronen: eine Prüfung der {{term:eye-dominance|Augendominanz}}, dann der {{term:stance|Stand}} und die {{term:ready-position|Bereitschaftsstellung}}. Bei {{tm:sporting}} beginnt die Flinte tief, unter der Linie auf der Weste; bei {{tm:compak}} ist die {{term:gun-position|Flintenhaltung}} beim Abruf frei. Flüstern Sie seine Korrekturen von hinten – {{term:chuchotage|Chuchotage}} –, während er Füße und Hände zurechtrückt.",
     "interpreter-session-script-p3": "Als Nächstes kommt das Lesen der Scheibe. Der Trainer zeigt sie, fragt, wo der Schütze sie zuerst klar sieht, und legt den {{term:pick-up-point|Augenaufnahmepunkt}}, den {{term:hold-point|Waffenhaltepunkt}} und die {{term:break-point|Trefferzone}} fest. Verwenden Sie diese drei Wörter den ganzen Tag gleich, damit der Gast sie lernt.",
     "interpreter-session-script-p4": "Jetzt wird geschossen. Zwischen den Scheiben gibt der Trainer Hinweise von zwei bis fünf Wörtern. Sie wiederholen sie, genauso kurz wie der Trainer sie sagte und in derselben Reihenfolge, während die Flinte offen ist. Benennt der Trainer die Ursache eines Fehlschusses, etwa „{{term:miss-behind|behind}}“, „over the top“ oder „you stopped“, übersetzen Sie sie zusammen mit der Korrektur. Der Schütze braucht beides: was falsch lief und was zu ändern ist. Geben Sie Lob mit derselben Energie weiter.",
-    "interpreter-session-script-p5": "Dann die Doubletten: welche Scheibe zuerst kommt, „eyes first, then the gun“, und der zweite Schuss der {{term:double|Doublette}}. Zum Schluss die Nachbesprechung, wieder konsekutiv, in der der Trainer zwei oder drei Punkte zusammenfasst. Schreiben Sie diese in beiden Sprachen auf und geben Sie dem Gast die Notiz. Unten finden Sie eine typische Kette von Redewendungen in der Reihenfolge, in der Sie sie wahrscheinlich hören werden.",
+    "interpreter-session-script-p5": "Dann die {{term:double|Doubletten|pl}}: welche Scheibe zuerst kommt, „eyes first, then the gun“, und der zweite Schuss der {{term:double|Doublette}}. Zum Schluss die Nachbesprechung, wieder konsekutiv, in der der Trainer zwei oder drei Punkte zusammenfasst. Schreiben Sie diese in beiden Sprachen auf und geben Sie dem Gast die Notiz. Unten finden Sie eine typische Kette von Redewendungen in der Reihenfolge, in der Sie sie wahrscheinlich hören werden.",
     "interpreter-session-script-comp": "Tritt der Gast am nächsten Tag an, erinnern Sie alle daran, dass {{term:coaching|Coaching}} während des Wettkampfs verboten ist. Der Trainer kann nicht beraten, und Sie dolmetschen nur für den Schiedsrichter, die Jury und den Veranstalter. Mehr in {{lesson:interpreter-role}}."
   },
   "note": {},
@@ -87,7 +91,7 @@
       "say": "Sagen wir drei Fuß – das ist das Bild, das Sie wollen."
     },
     "interpreter-session-script-ph10": {
-      "meaning": "Fehlschuss darüber, verursacht durch das Abheben der Wange vom Schaft ({{term:head-lift|Kopfheben}}).",
+      "meaning": "Fehlschuss darüber, verursacht durch das Abheben der Wange vom {{term:stock|Schaft}} – {{term:head-lift|Kopfheben}}.",
       "say": "Darüber. Sie haben den Kopf gehoben – bleiben Sie in der Flinte."
     },
     "interpreter-session-script-ph11": {
@@ -95,7 +99,7 @@
       "say": "Pulverisiert! Genau so noch mal."
     },
     "interpreter-session-script-ph12": {
-      "meaning": "Fehlschuss dahinter, weil der Schwung stehen blieb ({{term:stopping-the-gun|Abstoppen}}); {{term:follow-through|Nachschwingen}}.",
+      "meaning": "Fehlschuss dahinter, weil der Schwung stehen blieb – {{term:stopping-the-gun|Abstoppen}}; {{term:follow-through|Nachschwingen}}.",
       "say": "Sie haben die Flinte angehalten. Bleiben Sie durch den Schuss in Bewegung."
     },
     "interpreter-session-script-ph13": {
@@ -103,7 +107,7 @@
       "say": "Als Nächstes eine Doublette auf Schuss: zuerst der Querreiter, dann der Hase."
     },
     "interpreter-session-script-ph14": {
-      "meaning": "Bei der zweiten Scheibe sie zuerst mit den Augen finden, bevor die Mündungen sich bewegen.",
+      "meaning": "Bei der zweiten Scheibe sie zuerst mit den Augen finden, bevor die {{term:muzzle|Mündungen|pl}} sich bewegen.",
       "say": "Zuerst die Augen, dann die Flinte."
     },
     "interpreter-session-script-ph15": {
@@ -138,7 +142,7 @@
       "explain": "Sicherheit geht vor und darf nicht gekürzt werden; konsekutives Dolmetschen lässt jede Regel ankommen."
     },
     "interpreter-session-script-q2": {
-      "q": "Der Trainer sagt „Behind it. Give it more.“ Welche Wiedergabe zwischen den Scheiben ist richtig?",
+      "q": "Der {{term:coach|Trainer}} sagt „Behind it. Give it more.“ Welche Wiedergabe zwischen den Scheiben ist richtig?",
       "options": {
         "a": "Zwei kurze Teile: „dahinter“, „mehr Vorhalt“",
         "b": "Ein längerer, sanfterer Satz mit Tipps",

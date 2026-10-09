@@ -28,15 +28,15 @@
     "origin": null
   },
   "title": "Sacs, mallettes, gants et casquettes",
-  "summary": "Comment porter les cartouches, comment porter et transporter un fusil (fourreau souple et mallette rigide), et pourquoi les tireurs de {{tm:sporting}} et {{tm:compak}} utilisent des gants et une casquette.",
+  "summary": "Comment porter les cartouches, comment porter et transporter un fusil — {{term:gun-slip|fourreau}} souple et {{term:hard-case|mallette}} rigide —, et pourquoi les tireurs de {{tm:sporting}} et {{tm:compak}} utilisent des gants et une casquette.",
   "body": {
-    "gear-bags-cases-accessories-p1": "Il faut beaucoup de cartouches sur un stand, et elles sont lourdes : 25 cartouches pèsent environ un kilogramme. Pour la réserve de la journée, il y a le {{term:cartridge-bag|sac à cartouches}} : robuste, avec une large sangle et un fond rigide, contenant plusieurs boîtes. Pour une seule série, une {{term:cartridge-pouch|cartouchière}} de ceinture ou les poches du gilet sont plus pratiques.",
-    "gear-bags-cases-accessories-p2": "Portez un sac ou une poche séparée pour les {{term:empties|douilles vides}}. Dans les deux disciplines, les douilles vont dans la poubelle du poste quand il y en a une, et les tireurs en semi-automatique ramassent leurs douilles éjectées en partant. Ne laissez pas de douilles dans l'herbe : c'est une question de propreté et de respect du lieu.",
+    "gear-bags-cases-accessories-p1": "Il faut beaucoup de cartouches sur un stand, et elles sont lourdes : 25 cartouches pèsent environ un kilogramme. Pour la réserve de la journée, il y a le {{term:cartridge-bag|sac à cartouches}} : robuste, avec une large sangle et un fond rigide, contenant plusieurs boîtes. Pour une seule série, un {{term:cartridge-pouch|cartouchière}} de ceinture ou les poches du gilet sont plus pratiques.",
+    "gear-bags-cases-accessories-p2": "Portez un sac ou une poche séparée pour les {{term:empties|douilles vides|pl}}. Dans les deux disciplines, les {{term:hull|douilles}} vont dans la poubelle du poste quand il y en a une, et les tireurs en {{term:semi-automatic|semi-automatique}} ramassent leurs douilles éjectées en partant. Ne laissez pas de douilles dans l'herbe : c'est une question de propreté et de respect du lieu.",
     "gear-bags-cases-accessories-p3": "Un {{term:gun-slip|fourreau}} est une housse souple légère à fermeture éclair pour porter le fusil sur le stand et entre les postes. Certains stands exigent que le fusil soit dans un fourreau, ou ouvert et déchargé, quand vous n'êtes pas au poste. Les règles pour porter un fusil : {{lesson:gun-transport-documents}}.",
-    "gear-bags-cases-accessories-p7": "Ne mettez jamais un fusil chargé dans un fourreau. Déchargez-le et vérifiez les deux chambres au préalable.",
-    "gear-bags-cases-accessories-p4": "Une {{term:hard-case|mallette}} protège le fusil pendant un déplacement en voiture, et surtout en avion. Le transport aérien exige généralement une mallette solide et verrouillable, et les cartouches voyagent séparément selon les règles de la compagnie aérienne (voir {{lesson:travel-flying-with-guns}}). Les lois sur le transport diffèrent selon les pays, donc vérifiez la loi de votre pays et celle de votre destination.",
-    "gear-bags-cases-accessories-p5": "Les {{term:shooting-gloves|gants de tir}} sont fins, pour que vous puissiez toujours sentir la détente. Ils améliorent la prise, surtout par forte chaleur quand les paumes transpirent, et par temps froid. Après une longue série, les canons chauffent, et un gant sur la main qui tient le {{term:fore-end|devant}} protège des brûlures. Beaucoup de tireurs ne portent un gant que sur une seule main.",
-    "gear-bags-cases-accessories-p6": "Une {{term:shooting-cap|casquette de tir}} à visière protège les yeux du soleil, garde la pluie loin des lunettes et offre une petite protection contre les petits éclats qui tombent d'en haut. La visière ne doit pas être trop longue, sinon elle cache les plateaux hauts."
+    "gear-bags-cases-accessories-p7": "Ne mettez jamais un fusil chargé dans un fourreau. Déchargez-le et vérifiez les deux {{term:chamber|chambres}} au préalable.",
+    "gear-bags-cases-accessories-p4": "Un {{term:hard-case|mallette}} protège le fusil pendant un déplacement en voiture, et surtout en avion. Le transport aérien exige généralement une mallette solide et verrouillable, et les cartouches voyagent séparément selon les règles de la compagnie aérienne (voir {{lesson:travel-flying-with-guns}}). Les lois sur le transport diffèrent selon les pays, donc vérifiez la loi de votre pays et celle de votre destination.",
+    "gear-bags-cases-accessories-p5": "Les {{term:shooting-gloves|gants de tir|pl}} sont fins, pour que vous puissiez toujours sentir la détente. Ils améliorent la prise, surtout par forte chaleur quand les paumes transpirent, et par temps froid. Après une longue série, les canons chauffent, et un gant sur la main qui tient le {{term:fore-end|devant}} protège des brûlures. Beaucoup de tireurs ne portent un gant que sur une seule main.",
+    "gear-bags-cases-accessories-p6": "Un {{term:shooting-cap|casquette de tir}} à visière protège les yeux du soleil, garde la pluie loin des lunettes et offre une petite protection contre les petits éclats qui tombent d'en haut. La visière ne doit pas être trop longue, sinon elle cache les plateaux hauts."
   },
   "note": {},
   "phrases": {},
@@ -49,7 +49,7 @@
   },
   "quiz": {
     "gear-bags-cases-accessories-q1": {
-      "q": "À quoi sert une mallette rigide ?",
+      "q": "À quoi sert un {{term:hard-case|mallette}} rigide ?",
       "options": {
         "a": "À protéger le fusil pendant le transport",
         "b": "À récupérer les douilles vides",
@@ -59,7 +59,7 @@
       "explain": "Une mallette protège le fusil en voiture ou en avion ; les règles de transport dépendent du pays."
     },
     "gear-bags-cases-accessories-q2": {
-      "q": "Qu'est-ce qui ne doit pas aller dans un fourreau ?",
+      "q": "Qu'est-ce qui ne doit pas aller dans un {{term:gun-slip|fourreau}} ?",
       "options": {
         "a": "Un fusil propre",
         "b": "Un fusil chargé",
@@ -69,7 +69,7 @@
       "explain": "Le fusil est déchargé et vérifié avant d'aller dans un fourreau."
     },
     "gear-bags-cases-accessories-q3": {
-      "q": "Pourquoi les gants de tir sont-ils fins ?",
+      "q": "Pourquoi les {{term:shooting-gloves|gants de tir|pl}} sont-ils fins ?",
       "options": {
         "a": "Pour qu'ils s'usent plus vite",
         "b": "Parce que les fins sont moins chers",

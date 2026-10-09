@@ -28,15 +28,15 @@
     "origin": null
   },
   "title": "Velocità e rinculo",
-  "summary": "Cosa significa la velocità sulla scatola delle cartucce, perché più veloce non è necessariamente meglio, e da cosa dipende il rinculo, per i tiratori di {{tm:sporting}} e {{tm:compak}}.",
+  "summary": "Cosa significa la velocità sulla scatola delle cartucce, perché più veloce non è necessariamente meglio, e da cosa dipende il {{term:recoil|rinculo}}, per i tiratori di {{tm:sporting}} e {{tm:compak}}.",
   "body": {
     "cartridges-velocity-recoil-p1": "La scatola indica spesso la {{term:velocity|velocità}} dei pallini, in metri al secondo o piedi al secondo (fps). Per le cartucce da tiro a volo è di solito {{fact:gear.shot-velocity}}.",
-    "cartridges-velocity-recoil-p2": "Confronta le velocità con cautela. I pallini perdono velocità in fretta dopo essere usciti dalla canna, quindi conta dove si misura la velocità. I produttori europei (secondo le regole di prova C.I.P.) misurano di solito a 2,5 m dalla volata e scrivono «V2,5»; alcuni scrivono «V1», misurata a 1 m, che dà un numero più alto. Le etichette non sono sempre coerenti, quindi tratta la cifra come un orientamento di massima.",
+    "cartridges-velocity-recoil-p2": "Confronta le velocità con cautela. I pallini perdono velocità in fretta dopo essere usciti dalla canna, quindi conta dove si misura la velocità. I produttori europei (secondo le regole di prova C.I.P.) misurano di solito a 2,5 m dalla {{term:muzzle|volata}} e scrivono «V2,5»; alcuni scrivono «V1», misurata a 1 m, che dà un numero più alto. Le etichette non sono sempre coerenti, quindi tratta la cifra come un orientamento di massima.",
     "cartridges-velocity-recoil-p7": "I produttori americani danno i piedi al secondo misurati a circa 3 piedi (0,9 m) dalla volata. Le scatole britanniche a volte riportano una velocità alla volata stimata. Quindi la stessa cifra non significa necessariamente la stessa velocità.",
-    "cartridges-velocity-recoil-p3": "Una cartuccia più veloce abbrevia leggermente il tempo che i pallini impiegano a raggiungere il piattello, ma rincula più forte, e la sua rosata non è necessariamente più efficace. Molti istruttori suggeriscono di non rincorrere la velocità ma di scegliere una cartuccia con cui tiri in modo costante e che non ti stanchi.",
+    "cartridges-velocity-recoil-p3": "Una {{term:cartridge|cartuccia}} più veloce abbrevia leggermente il tempo che i pallini impiegano a raggiungere il piattello, ma rincula più forte, e la sua {{term:pattern|rosata}} non è necessariamente più efficace. Molti istruttori suggeriscono di non rincorrere la velocità ma di scegliere una cartuccia con cui tiri in modo costante e che non ti stanchi.",
     "cartridges-velocity-recoil-p4": "Il {{term:recoil|rinculo}} è la spinta del fucile sulla spalla quando spara. Cresce con una carica più pesante e una velocità più alta, e diminuisce con un fucile più pesante. Un {{term:semi-automatic|semiautomatico}} a gas distribuisce la spinta su un tempo più lungo, quindi molti tiratori lo sentono più dolce.",
-    "cartridges-velocity-recoil-p5": "Contano ancora più la {{term:gun-fit|calciatura su misura}} e un'{{term:gun-mount|imbracciata}} corretta. Un fucile che ti si adatta e sta saldo nella spalla si sente molto più dolce di uno che appoggia sul braccio o sull'osso. Aiutano anche un buon calciolo e una posizione stabile. Di più: {{lesson:gun-fit}} e {{lesson:health-recoil-shoulder-neck}}.",
-    "cartridges-velocity-recoil-p6": "In una giornata di {{tm:sporting}} o {{tm:compak}} puoi sparare 100–200 colpi. Un rinculo forte stanca e può insegnarti poco a poco a {{term:flinch|strappare}} prima del colpo. Quindi una cartuccia più leggera in allenamento, per esempio 24 g, è una scelta sensata, non una debolezza."
+    "cartridges-velocity-recoil-p5": "Contano ancora più la {{term:gun-fit|calciatura su misura}} e una {{term:gun-mount|imbracciata}} corretta. Un fucile che ti si adatta e sta saldo nella spalla si sente molto più dolce di uno che appoggia sul braccio o sull'osso. Aiutano anche un buon {{term:recoil-pad|calciolo}} e una posizione stabile. Di più: {{lesson:gun-fit}} e {{lesson:health-recoil-shoulder-neck}}.",
+    "cartridges-velocity-recoil-p6": "In una giornata di {{tm:sporting}} o {{tm:compak}} puoi sparare 100–200 colpi. Un rinculo forte stanca e può portarti poco a poco al {{term:flinch|strappo}} prima del colpo. Quindi una cartuccia più leggera in allenamento, per esempio 24 g, è una scelta sensata, non una debolezza."
   },
   "note": {},
   "phrases": {},
@@ -45,17 +45,17 @@
     "cartridges-velocity-recoil-kp2": "I produttori misurano la velocità in modi diversi (V1, V2,5, fps).",
     "cartridges-velocity-recoil-kp3": "Più veloce significa più rinculo, ma non necessariamente risultati più efficaci.",
     "cartridges-velocity-recoil-kp4": "Il rinculo cresce con carica e velocità e diminuisce con il peso del fucile.",
-    "cartridges-velocity-recoil-kp5": "Una buona calciatura e un'imbracciata corretta riducono il rinculo percepito."
+    "cartridges-velocity-recoil-kp5": "Una buona {{term:gun-fit|calciatura}} e un'imbracciata corretta riducono il rinculo percepito."
   },
   "did_you_know": "I pallini raggiungono un piattello a 30 m in circa un decimo di secondo. In quel tempo un piattello che attraversa può muoversi di uno o due metri, per questo i tiratori gli danno {{term:lead|anticipo}}.",
   "quiz": {
     "cartridges-velocity-recoil-q1": {
-      "q": "Cosa rende più debole il rinculo?",
+      "q": "Cosa rende più debole il {{term:recoil|rinculo}}?",
       "options": {
         "a": "Una carica più pesante",
         "b": "Una velocità più alta",
         "c": "Un fucile più pesante",
-        "d": "Un calcio troppo corto"
+        "d": "Uno calcio troppo corto"
       },
       "explain": "Un fucile più pesante assorbe meglio la spinta; una carica più pesante e una velocità più alta aumentano il rinculo."
     },
@@ -67,7 +67,7 @@
         "c": "Tutte le cartucce hanno la stessa velocità",
         "d": "La velocità non ha alcun effetto"
       },
-      "explain": "V1, V2,5 e fps a 3 piedi sono misurazioni diverse, quindi la stessa cifra non significa la stessa cartuccia."
+      "explain": "V1, V2,5 e fps a 3 piedi sono misurazioni diverse, quindi la stessa cifra non significa la stessa {{term:cartridge|cartuccia}}."
     },
     "cartridges-velocity-recoil-q3": {
       "q": "Qual è una velocità tipica delle cartucce da tiro a volo?",

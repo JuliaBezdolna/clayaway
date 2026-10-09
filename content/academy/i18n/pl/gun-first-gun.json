@@ -40,14 +40,14 @@
     "gun-first-gun-p1": "Częstym błędem początkującego jest kupno broni, zanim wie, co mu odpowiada. Broń musi być dopasowana do ciebie: twojego wzrostu, szerokości ramion, twarzy i oka dominującego. Dlatego pierwszym krokiem nie jest sklep, a strzelnica i {{term:coach|trener}}.",
     "budget-rent-or-buy-p1": "Na pierwsze miesiące wielu początkującym wystarcza broń wypożyczona na strzelnicy. Broń do wypożyczenia często idzie razem z pierwszymi zajęciami, nabojami, okularami i ochroną słuchu. Uczysz się bezpieczeństwa i techniki, próbujesz różnych modeli i dowiadujesz się, czy bardziej lubisz {{tm:sporting}} czy {{tm:compak}}.",
     "gun-first-gun-p3": "Tu ważny jest przepis zawodów: dwóch strzelców z tej samej {{term:squad|grupy}} nie może używać tej samej broni. Jeśli wypożyczasz broń na zawody, sprawdź, że nikt inny z twojej grupy nie strzela z niej.",
-    "budget-rent-or-buy-p2": "Czas pomyśleć o własnej broni, gdy trenujesz regularnie, wiesz, w jakiej dyscyplinie będziesz strzelać, a trener widział już, jak składasz się do strzału. Własna broń, dopasowana do ciebie ({{term:gun-fit|dopasowanie strzelby}}), pomaga strzelać bardziej stabilnie, bo zawsze układa się tak samo.",
+    "budget-rent-or-buy-p2": "Czas pomyśleć o własnej broni, gdy trenujesz regularnie, wiesz, w jakiej dyscyplinie będziesz strzelać, a trener widział już, jak składasz się do strzału. Własna broń po {{term:gun-fit|dopasowaniu strzelby}} pomaga strzelać bardziej stabilnie, bo zawsze układa się tak samo.",
     "budget-rent-or-buy-p3": "Przed kupnem sprawdź przepisy. W obu dyscyplinach broń musi być gładkolufowa, {{fact:gear.fitasc-max-gauge}}, z lufami {{fact:gear.fitasc-min-barrel}}. {{term:semi-automatic|Półautomat}} jest dozwolony, {{term:pump-action|pump-action}} nie, więc nawet tania „pompka” tu się nie nada (zob. {{lesson:gun-types}}).",
     "gun-first-gun-p4": "Wypróbuj, zanim kupisz (try before you buy). Dobre sklepy i strzelnice pozwalają postrzelać z broni demonstracyjnej. Porównaj bok z półautomatem, lufy 28 i 30 cali, różne wagi. Patrz mniej na grawerowanie, bardziej na to, jak broń wchodzi w ramię i rusza się za rzutkiem.",
-    "gun-first-gun-p5": "Dla wielu dorosłych początkujących dobrym startem jest zawodniczy {{term:over-and-under|bok}} 12 kalibru z {{term:multichoke|czokami wymiennymi}} i lufami 30 cali. Juniorom i mniejszym strzelcom może lepiej służyć lżejszy model albo kaliber 20. Leworęczny strzelec potrzebuje kolby lekko wygiętej w lewo ({{term:cast|odchylenie}} on), by lewe oko ustawiło się nad szyną.",
+    "gun-first-gun-p5": "Dla wielu dorosłych początkujących dobrym startem jest zawodniczy {{term:over-and-under|bok}} 12 kalibru z {{term:multichoke|czokami wymiennymi}} i lufami 30 cali. Juniorom i mniejszym strzelcom może lepiej służyć lżejszy model albo {{term:gauge|kaliber}} 20. Leworęczny strzelec potrzebuje {{term:stock|kolby}} z {{term:cast|odchyleniem}} w lewo, tak zwanym cast on, by lewe oko ustawiło się nad szyną.",
     "budget-rent-or-buy-p4": "Nowa czy używana? Nowa broń ma gwarancję i znaną historię. Używana może kosztować zauważalnie mniej, a dobra broń, o którą się troszczono, służy dekadami. Ale kupowanie używanej broni „w ciemno” jest ryzykowne.",
     "budget-rent-or-buy-p5": "Przed kupnem używanej broni pokaż ją {{term:gunsmith|rusznikarzowi}}. Sprawdzi lufy pod kątem wgnieceń, wybrzuszeń i rdzy wewnątrz oraz to, czy broń zamyka się ściśle, bez luzu między lufami a baskilą. Sprawdzi też spusty i ejektory, czoki i kolbę. W wielu krajach broń testuje się w urzędowej stacji probierczej i stempluje cechami probierczymi; rusznikarz powie ci, czy te cechy są w porządku.",
     "budget-rent-or-buy-p6": "Kupuj tylko legalnymi kanałami: od licencjonowanego sprzedawcy albo ze zmianą właściciela zarejestrowaną tak, jak wymaga prawo twojego kraju. Prawie wszędzie potrzebujesz pozwolenia na strzelbę, a przepisy się różnią. Broń bez dokumentów albo o nieznanym pochodzeniu to nie oszczędność, a poważny problem.",
-    "gun-first-gun-p7": "Zaplanuj budżet na więcej niż samą broń: okulary i ochronę słuchu, pokrowiec albo futerał, zestaw do czyszczenia, zapasowe czoki, sejf i może dopasowanie kolby. Przede wszystkim zaplanuj budżet na naboje i lekcje: kilka lekcji często pomaga wynikom bardziej niż droższa broń."
+    "gun-first-gun-p7": "Zaplanuj budżet na więcej niż samą broń: okulary i ochronę słuchu, {{term:gun-slip|pokrowiec}} albo {{term:hard-case|futerał}}, zestaw do czyszczenia, zapasowe czoki, sejf i może dopasowanie kolby. Przede wszystkim zaplanuj budżet na naboje i lekcje: kilka lekcji często pomaga wynikom bardziej niż droższa broń."
   },
   "note": {},
   "phrases": {},
@@ -71,7 +71,7 @@
       "explain": "Broń musi być dopasowana do ciebie, a dowiesz się tego tylko po postrzelaniu z kilku modeli."
     },
     "gun-first-gun-q2": {
-      "q": "Czy dwóch strzelców z tej samej grupy może używać jednej broni na zawodach?",
+      "q": "Czy dwóch strzelców z tej samej {{term:squad|grupy}} może używać jednej broni na zawodach?",
       "options": {
         "a": "Tak, jeśli to broń wypożyczona",
         "b": "Tak, jeśli zgodzi się sędzia",
@@ -93,8 +93,8 @@
     "gun-first-gun-q3": {
       "q": "Co zrobić przed kupnem używanej broni?",
       "options": {
-        "a": "Pokazać ją rusznikarzowi",
-        "b": "Odnowić powłokę kolby",
+        "a": "Pokazać ją {{term:gunsmith|rusznikarzowi}}",
+        "b": "Odnowić powłokę {{term:stock|kolby}}",
         "c": "Wystrzelić z niej w domu",
         "d": "Nic: była już sprawdzona"
       },
@@ -111,7 +111,7 @@
       "explain": "Półautomaty są dozwolone; broń typu pump-action nie, w obu dyscyplinach."
     },
     "budget-rent-or-buy-q2": {
-      "q": "Czego szuka rusznikarz w używanej broni?",
+      "q": "Czego szuka {{term:gunsmith|rusznikarz}} w używanej broni?",
       "options": {
         "a": "Wgnieceń, wybrzuszeń i rdzy w lufach",
         "b": "Koloru i blasku drewna",

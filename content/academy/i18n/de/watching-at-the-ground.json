@@ -36,13 +36,13 @@
   "origin": null
  },
  "title": "Als Zuschauer am Schießstand: wo stehen, wie fotografieren und unterstützen",
- "summary": "Ein sicherer Platz, Stille während des Schießens, Gehörschutz, Fotos ohne Blitz und die richtige Art der Unterstützung: was ein Zuschauer wissen muss.",
+ "summary": "Ein sicherer Platz, Stille während des Schießens, {{term:hearing-protection|Gehörschutz}}, Fotos ohne Blitz und die richtige Art der Unterstützung: was ein Zuschauer wissen muss.",
  "body": {
-  "watching-at-the-ground-p1": "An vielen Schießständen sind Zuschauer willkommen, aber in der Nähe wird geschossen, also halten sich auch Zuschauer an Sicherheitsregeln. Stehen Sie nur dort, wo es erlaubt ist: im Zuschauerbereich, meist hinter dem Standplatz oder hinter einem Zaun oder einer Absperrung. Treten Sie nicht vor die Schusslinie (die Linie, auf der die Schützen stehen), und gehen Sie nicht dorthin, wo Scheiben fliegen, selbst wenn gerade niemand zu schießen scheint.",
-  "safety-spectators-p6": "Wenn Sie nicht sicher sind, wo Sie stehen sollen, fragen Sie den Schiedsrichter oder den {{term:organiser|Veranstalter}}. Bringen Sie Kinder oder einen Hund mit, halten Sie sie nah bei sich, und folgen Sie den Anweisungen des Personals: Es ist zu Ihrer Sicherheit da.",
-  "watching-at-the-ground-p2": "Jeder in der Nähe eines {{term:layout|Layouts}} (dem Schießbereich mit seinen Standplätzen und Wurfmaschinen) braucht {{term:hearing-protection|Gehörschutz}}, nicht nur die Schützen. Die Regeln von {{tm:sporting}} und {{tm:compak}} nennen beide Zuschauer. Bei {{tm:sporting}} tragen Kinder ihn außerhalb des Vereinshauses jederzeit.",
+  "watching-at-the-ground-p1": "An vielen Schießständen sind Zuschauer willkommen, aber in der Nähe wird geschossen, also halten sich auch Zuschauer an Sicherheitsregeln. Stehen Sie nur dort, wo es erlaubt ist: im {{term:spectator-area|Zuschauerbereich}}, meist hinter dem Standplatz oder hinter einem Zaun oder einer Absperrung. Treten Sie nicht vor die Schusslinie (die Linie, auf der die Schützen stehen), und gehen Sie nicht dorthin, wo Scheiben fliegen, selbst wenn gerade niemand zu schießen scheint.",
+  "safety-spectators-p6": "Wenn Sie nicht sicher sind, wo Sie stehen sollen, fragen Sie den {{term:referee|Schiedsrichter}} oder den {{term:organiser|Veranstalter}}. Bringen Sie Kinder oder einen Hund mit, halten Sie sie nah bei sich, und folgen Sie den Anweisungen des Personals: Es ist zu Ihrer Sicherheit da.",
+  "watching-at-the-ground-p2": "Jeder in der Nähe von einem {{term:layout|Layout}} – dem Schießbereich mit seinen Standplätzen und {{term:trap|Wurfmaschinen|pl}} – braucht {{term:hearing-protection|Gehörschutz}}, nicht nur die Schützen. Die Regeln von {{tm:sporting}} und {{tm:compak}} nennen beide Zuschauer. Bei {{tm:sporting}} tragen Kinder ihn außerhalb des Vereinshauses jederzeit.",
   "safety-spectators-p3": "Stehen Sie nah an einem Standplatz, tragen Sie auch eine {{term:safety-glasses|Schießbrille}}; bei {{tm:sporting}} verlangen die Regeln sie für alle in der Nähe eines Standplatzes. Manchmal fallen kleine Scheibensplitter von oben herab, daher hilft auch eine {{term:shooting-cap|Kappe}}.",
-  "safety-spectators-p4": "Berühren Sie keine Flinten, Patronen oder Ausrüstung. Halten Sie sich von den {{term:trap|Wurfmaschinen}} fern (den Maschinen, die die Scheiben werfen): Sie können unerwartet auslösen und hart treffen.",
+  "safety-spectators-p4": "Berühren Sie keine Flinten, Patronen oder Ausrüstung. Halten Sie sich von den Wurfmaschinen fern (den Maschinen, die die Scheiben werfen): Sie können unerwartet auslösen und hart treffen.",
   "watching-at-the-ground-p3": "Solange ein Schütze auf dem Standplatz ist, bleiben Sie ruhig: kein lautes Sprechen, Klatschen oder Rufen, und stellen Sie Ihr Telefon lautlos. Applaudieren Sie, wenn der Schütze den Standplatz oder die Runde beendet hat und niemand auf dem Layout gerade eine Scheibe abrufen will.",
   "culture-spectator-photo-p3": "Fotos und Videos sind eine schöne Art, Erinnerungen zu bewahren, aber Sicherheit zählt mehr als das Bild. Fotografieren Sie nur aus dem Zuschauerbereich, und treten Sie nicht für einen besseren Blickwinkel nach vorne. Verwenden Sie keinen Blitz, der den Schützen blenden kann, und schalten Sie den Auslöserton aus.",
   "culture-spectator-photo-p4": "Bewegen Sie sich nicht im Blickfeld des Schützen, während er zielt. Für eine Drohne braucht man die Erlaubnis des Veranstalters, und die Drohnenregeln des Landes gelten immer zusätzlich.",
@@ -62,13 +62,13 @@
  "did_you_know": "Viele eindrucksvolle Fotos vom Wurfscheibenschießen entstehen seitlich und leicht hinter dem Schützen, innerhalb des Zuschauerbereichs: Sie zeigen sowohl die Flinte als auch die zerberstende Scheibe.",
  "quiz": {
   "watching-at-the-ground-q1": {
-   "q": "Braucht ein Zuschauer Gehörschutz?",
+   "q": "Braucht ein Zuschauer {{term:hearing-protection|Gehörschutz}}?",
    "options": {
     "a": "Nein, nur die Schießenden",
     "b": "Ja, die Regeln verlangen ihn in der Nähe des Layouts",
     "c": "Nur bei Meisterschaften, nicht bei Vereinsschießen"
    },
-   "explain": "Beide Regelwerke verlangen Gehörschutz für Schützen, Schiedsrichter, Personal und Zuschauer in der Nähe des Layouts."
+   "explain": "Beide Regelwerke verlangen Gehörschutz für Schützen, {{term:referee|Schiedsrichter}}, Personal und Zuschauer in der Nähe des Layouts."
   },
   "culture-spectator-photo-q2": {
    "q": "Dürfen Sie mit Blitz fotografieren?",
@@ -101,8 +101,8 @@
    "q": "Wo darf ein Zuschauer stehen?",
    "options": {
     "a": "Vor der Schusslinie, für einen besseren Blick",
-    "b": "Neben den Wurfmaschinen, außerhalb der Schusslinie",
-    "c": "Im Zuschauerbereich, hinter dem Standplatz"
+    "b": "Neben den {{term:trap|Wurfmaschinen|pl}}, außerhalb der Schusslinie",
+    "c": "Im {{term:spectator-area|Zuschauerbereich}}, hinter dem Standplatz"
    },
    "explain": "Zuschauer stehen in dem für sie vorgesehenen Bereich, meist hinter dem Standplatz."
   },

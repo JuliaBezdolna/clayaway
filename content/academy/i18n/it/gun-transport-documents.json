@@ -28,20 +28,20 @@
     "origin": null
   },
   "title": "Trasportare un fucile: campo, auto e casa",
-  "summary": "Come portare un fucile in un campo {{tm:sporting}} o {{tm:compak}}, trasportarlo in auto e conservarlo a casa, e dove leggere dei viaggi all'estero. Le leggi variano da paese a paese.",
+  "summary": "Come portare uno {{term:shotgun|fucile}} in un campo {{tm:sporting}} o {{tm:compak}}, trasportarlo in auto e conservarlo a casa, e dove leggere dei viaggi all'estero. Le leggi variano da paese a paese.",
   "body": {
-    "gun-transport-documents-p1": "Cominciamo dal campo. Nello {{tm:sporting}} e nel {{tm:compak}} il fucile si porta aperto (un semiautomatico con l'otturatore aperto), con la volata dritta in alto o dritta in basso. Le cinghie non sono ammesse. Quando il fucile non è in mano, sta in piedi in una {{term:gun-rack|rastrelliera}}, e nessuno tocca il fucile di un altro tiratore senza permesso.",
+    "gun-transport-documents-p1": "Cominciamo dal campo. Nello {{tm:sporting}} e nel {{tm:compak}} lo {{term:shotgun|fucile}} si porta aperto (un semiautomatico con l'otturatore aperto), con la {{term:muzzle|volata}} dritta in alto o dritta in basso. Le cinghie non sono ammesse. Quando il fucile non è in mano, sta in piedi in una {{term:gun-rack|rastrelliera}}, e nessuno tocca il fucile di un altro tiratore senza permesso.",
     "gun-transport-documents-p2": "Fuori dal campo si applica la legge del paese. Quasi ovunque serve una licenza o un permesso per un fucile, e le regole di trasporto e conservazione variano anche tra paesi vicini. Prima di un viaggio, controlla le regole della destinazione e di ogni paese di transito, con diverse settimane di anticipo.",
     "gun-transport-documents-p6": "In auto, il fucile viaggia scarico, in una {{term:hard-case|valigetta}} o in un {{term:gun-slip|fodero}}, non in vista, e in molti paesi separato dalle cartucce. Non lasciare un fucile in auto senza sorveglianza.",
     "gun-transport-documents-p8": "A casa, conserva il fucile come richiede la legge del tuo paese, di solito chiuso in una cassaforte e fuori dalla portata dei bambini. Molte leggi chiedono anche di conservare le cartucce separatamente. Cura e conservazione: {{lesson:gun-care}}.",
-    "gun-transport-documents-p9": "Vai all'estero con il tuo fucile? La {{term:european-firearms-pass|Carta europea d'arma da fuoco}} viene rilasciata solo ai residenti di paesi UE e di Svizzera, Norvegia, Islanda e Liechtenstein, che applicano le stesse regole UE sulle armi. Si usa per viaggiare con il proprio fucile. Gli altri di solito hanno bisogno di un permesso del paese di destinazione o noleggiano un fucile lì.",
+    "gun-transport-documents-p9": "Vai all'estero con il tuo fucile? L'{{term:european-firearms-pass|Carta europea d'arma da fuoco}} viene rilasciata solo ai residenti di paesi UE e di Svizzera, Norvegia, Islanda e Liechtenstein, che applicano le stesse regole UE sulle armi. Si usa per viaggiare con il proprio fucile. Gli altri di solito hanno bisogno di un permesso del paese di destinazione o noleggiano un fucile lì.",
     "gun-transport-documents-p10": "I dettagli sono nel blocco Viaggi: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} e {{lesson:travel-flying-with-guns}}.",
     "gun-transport-documents-p7": "Tieni i documenti insieme e a portata di mano: la licenza o il permesso, la carta o il permesso temporaneo, l'invito alla gara e le conferme di viaggio. A una frontiera o in aeroporto, rispondi con calma e precisione."
   },
   "note": {},
   "phrases": {},
   "key_points": {
-    "gun-transport-documents-kp1": "Al campo il fucile è aperto, volata in alto o in basso, senza cinghia.",
+    "gun-transport-documents-kp1": "Al campo lo {{term:shotgun|fucile}} è aperto, {{term:muzzle|volata}} in alto o in basso, senza cinghia.",
     "gun-transport-documents-kp2": "Le leggi sulle armi variano da paese a paese; controllale con settimane di anticipo.",
     "gun-transport-documents-kp6": "In auto: scarico, in una valigetta, non in vista, spesso separato dalle cartucce.",
     "gun-transport-documents-kp7": "La Carta europea d'arma da fuoco è solo per i residenti di paesi UE e Schengen che viaggiano con il proprio fucile.",
@@ -50,7 +50,7 @@
   "did_you_know": "Poiché un fucile non in uso deve stare in piedi in una rastrelliera, molti campi ne mettono una vicino a ogni pedana. Così nessuno appoggia il fucile a terra o lo mette contro una staccionata.",
   "quiz": {
     "gun-transport-documents-q1": {
-      "q": "Come si porta un fucile al campo?",
+      "q": "Come si porta uno {{term:shotgun|fucile}} al campo?",
       "options": {
         "a": "Chiuso, con una cinghia sulla spalla",
         "b": "Aperto, con la volata in alto o in basso",
@@ -60,19 +60,19 @@
       "explain": "Il regolamento richiede che il fucile sia portato aperto, volata dritta in alto o in basso; le cinghie non sono ammesse."
     },
     "gun-transport-documents-q4": {
-      "q": "Come viaggia di solito un fucile in auto?",
+      "q": "Come viaggia di solito uno {{term:shotgun|fucile}} in auto?",
       "options": {
         "a": "Carico, sul sedile posteriore, pronto all'uso",
         "b": "Montato, nel box sul tetto con i bagagli",
-        "c": "Nella borsa portacartucce, con le scatole",
-        "d": "Scarico, in una valigetta e non in vista"
+        "c": "Nella {{term:cartridge-bag|borsa portacartucce}}, con le scatole",
+        "d": "Scarico, in una {{term:hard-case|valigetta}} e non in vista"
       },
       "explain": "Scarico, in valigetta e non in vista; molti paesi richiedono anche che le cartucce viaggino separate."
     },
     "gun-transport-documents-q5": {
-      "q": "Chi può ottenere la Carta europea d'arma da fuoco?",
+      "q": "Chi può ottenere l'{{term:european-firearms-pass|Carta europea d'arma da fuoco}}?",
       "options": {
-        "a": "Un residente di un paese UE o Schengen proprietario del fucile",
+        "a": "Un residente di un paese UE o Schengen proprietario dello fucile",
         "b": "Qualsiasi tiratore con un invito a una gara",
         "c": "Chiunque prenoti un viaggio con un istruttore",
         "d": "Solo i membri di una squadra nazionale"

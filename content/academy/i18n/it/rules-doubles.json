@@ -43,16 +43,20 @@
     "compak-singles-doubles-q3": "04513eaa",
     "rules-doubles-q4": "0493a8c2"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Doppi: come si tirano e si contano",
-  "summary": "I tipi di doppi nel {{tm:sporting}} e nel {{tm:compak}}, quante cartucce potete sparare a ogni piattello, e cosa succede quando un colpo rompe entrambi.",
+  "summary": "I tipi di {{term:double|doppi}} nel {{tm:sporting}} e nel {{tm:compak}}, quante cartucce potete sparare a ogni piattello, e cosa succede quando un colpo rompe entrambi.",
   "body": {
-    "rules-doubles-p1": "Un {{term:double|doppio}} è formato da due piattelli tirati con una sola chiamata. Entrambe le discipline hanno doppi allo sparo e doppi simultanei; solo il {{tm:sporting}} ha anche il doppio a raffica. Alcune regole di conteggio sono diverse. Quando entrambi i piattelli di un doppio vengono persi, si parla di {{term:zero-zero|zero e zero}}.",
-    "sporting-singles-doubles-p1": "Prima i singoli. In entrambe le discipline potete sparare due cartucce a un {{term:single-target|singolo}}, quindi un errore con la prima canna si può ancora recuperare con la seconda. Un percorso deve lasciare il tempo per due colpi su ogni singolo.",
+    "rules-doubles-p1": "Un {{term:double|doppio}} è formato da due piattelli tirati con una sola chiamata. Entrambe le discipline hanno {{term:double-on-report|doppi allo sparo}} e {{term:simultaneous-double|doppi simultanei}}; solo il {{tm:sporting}} ha anche il {{term:rafale-double|doppio a raffica}}. Alcune regole di conteggio sono diverse. Quando entrambi i piattelli di un doppio vengono persi, si parla di {{term:zero-zero|zero e zero}}.",
+    "sporting-singles-doubles-p1": "Prima i {{term:single-target|singoli}}. In entrambe le discipline potete sparare due cartucce a un {{term:single-target|singolo}}, quindi un errore con la prima canna si può ancora recuperare con la seconda. Un percorso deve lasciare il tempo per due colpi su ogni singolo.",
     "rules-doubles-p2": "In un {{term:double-on-report|doppio allo sparo}}, la vostra chiamata libera il primo piattello e il vostro colpo su di esso libera il secondo. In un {{term:simultaneous-double|doppio simultaneo}}, entrambi i piattelli partono insieme, e potete prenderli in qualsiasi ordine.",
     "rules-doubles-cmp1": {
-      "sporting": "Tre tipi: allo sparo, simultaneo (da una o due macchine) e {{term:rafale-double|a raffica}}. Nella raffica, due piattelli partono dalla stessa macchina sulla stessa linea, uno dopo l'altro.",
-      "compak": "Due tipi: allo sparo e simultaneo. Un doppio simultaneo arriva sempre da due macchine diverse. La raffica non esiste."
+      "sporting": "Tre tipi: allo sparo, simultaneo — da una o due {{term:trap|macchine}} — e {{term:rafale-double|a raffica}}. Nella raffica, due piattelli partono dalla stessa macchina sulla stessa linea, uno dopo l'altro.",
+      "compak": "Due tipi: allo sparo e simultaneo. Un doppio simultaneo arriva sempre da due {{term:trap|macchine}} diverse. La raffica non esiste."
     },
     "sporting-singles-doubles-p2": "Nel {{tm:sporting}} il secondo piattello di un doppio allo sparo parte da 0 a 3 secondi dopo il vostro colpo sul primo. Nella raffica parte appena la macchina si è ricaricata. Un doppio usa solo piattelli già lanciati come singoli su quella pedana, quindi li avete già visti volare.",
     "rules-doubles-cmp2": {
@@ -68,7 +72,7 @@
       "sporting": "Nessun colpo su un doppio simultaneo o a raffica senza un motivo valido: zero e zero. Allo sparo, un primo piattello al quale non sparate è zero, e il doppio viene lanciato di nuovo perché possiate tirare il secondo (guida rapida per gli arbitri).",
       "compak": "Rifiutare un doppio simultaneo: zero e zero. Allo sparo: un primo piattello rifiutato è zero; il doppio viene lanciato di nuovo perché possiate tirare il secondo, e viene conteggiato solo quest'ultimo."
     },
-    "sporting-singles-doubles-p4": "Un piattello irregolare è uno che fa dichiarare all'arbitro un No bird, per esempio un piattello lanciato già rotto, fuori linea o da una macchina diversa ({{lesson:rules-hit-and-no-bird}}). In un doppio allo sparo, un primo piattello irregolare significa che tutto il doppio viene lanciato di nuovo. Se è il secondo piattello a essere irregolare, tirate di nuovo il doppio e il vostro risultato sul primo resta valido. Lo stesso vale se il primo piattello o i suoi pezzi frantumano il secondo prima del vostro secondo colpo. In un doppio simultaneo, e nel {{tm:sporting}} in una raffica, un piattello irregolare significa una ripetizione senza registrare nulla. Un colpo che rompe entrambi i piattelli è un caso diverso: vedi sopra.",
+    "sporting-singles-doubles-p4": "Un piattello irregolare è uno che fa dichiarare all'arbitro un No bird, per esempio un piattello lanciato già rotto, fuori linea o da una {{term:trap|macchina}} diversa ({{lesson:rules-hit-and-no-bird}}). In un doppio allo sparo, un primo piattello irregolare significa che tutto il doppio viene lanciato di nuovo. Se è il secondo piattello a essere irregolare, tirate di nuovo il doppio e il vostro risultato sul primo resta valido. Lo stesso vale se il primo piattello o i suoi pezzi frantumano il secondo prima del vostro secondo colpo. In un doppio simultaneo, e nel {{tm:sporting}} in una raffica, un piattello irregolare significa una ripetizione senza registrare nulla. Un colpo che rompe entrambi i piattelli è un caso diverso: vedi sopra.",
     "rules-doubles-p7": "Guardate la presentazione e leggete il {{term:target-menu|menu}} della pedana, così saprete quali doppi vi aspettano. Molti istruttori consigliano di scegliere l'ordine per un doppio simultaneo prima di chiamare."
   },
   "note": {
@@ -119,54 +123,100 @@
   "did_you_know": "Nel {{tm:compak}} il doppio di ogni postazione inizia con l'ultimo piattello della postazione precedente.",
   "quiz": {
     "rules-doubles-q1": {
-      "q": "Cosa libera il secondo piattello in un doppio allo sparo?",
-      "options": { "a": "Il colpo sul primo piattello", "b": "Una seconda chiamata del tiratore", "c": "L'arbitro, a mano" },
+      "q": "Cosa libera il secondo piattello in un {{term:double-on-report|doppio allo sparo}}?",
+      "options": {
+        "a": "Il colpo sul primo piattello",
+        "b": "Una seconda chiamata del tiratore",
+        "c": "L'arbitro, a mano"
+      },
       "explain": "La chiamata libera il primo piattello, e il colpo su di esso libera il secondo."
     },
     "rules-doubles-q2": {
-      "q": "Nel {{tm:compak}}, si possono sparare entrambe le cartucce sul primo piattello di un doppio?",
-      "options": { "a": "Sì, come nel {{tm:sporting}}", "b": "Solo su un doppio simultaneo", "c": "No, una cartuccia per piattello" },
+      "q": "Nel {{tm:compak}}, si possono sparare entrambe le cartucce sul primo piattello di un {{term:double|doppio}}?",
+      "options": {
+        "a": "Sì, come nel {{tm:sporting}}",
+        "b": "Solo su un doppio simultaneo",
+        "c": "No, una cartuccia per piattello"
+      },
       "explain": "Nel {{tm:compak}} è una cartuccia per piattello, e sparare entrambe a un solo piattello di proposito vale zero e zero; nel {{tm:sporting}} entrambe possono andare a un solo piattello."
     },
     "rules-doubles-q3": {
-      "q": "Nel {{tm:sporting}}, un colpo rompe entrambi i piattelli di un doppio. Come viene conteggiato?",
-      "options": { "a": "Zero e No bird", "b": "One e one", "c": "No bird, si tira di nuovo" },
+      "q": "Nel {{tm:sporting}}, un colpo rompe entrambi i piattelli di un {{term:double|doppio}}. Come viene conteggiato?",
+      "options": {
+        "a": "Zero e No bird",
+        "b": "One e one",
+        "c": "No bird, si tira di nuovo"
+      },
       "explain": "Nel {{tm:sporting}} contano entrambi i piattelli; il {{tm:compak}} ha regole diverse."
     },
     "sporting-singles-doubles-q1": {
-      "q": "{{tm:sporting}}, doppio simultaneo. Il tiratore manca un piattello con il primo colpo, spara la seconda cartuccia sullo stesso piattello e lo rompe. L'altro piattello continua a volare. Decisione?",
-      "options": { "a": "One e zero", "b": "Zero e zero", "c": "No bird, il doppio si ripete", "d": "One e No bird" },
+      "q": "{{tm:sporting}}, {{term:simultaneous-double|doppio simultaneo}}. Il tiratore manca un piattello con il primo colpo, spara la seconda cartuccia sullo stesso piattello e lo rompe. L'altro piattello continua a volare. Decisione?",
+      "options": {
+        "a": "One e zero",
+        "b": "Zero e zero",
+        "c": "No bird, il doppio si ripete",
+        "d": "One e No bird"
+      },
       "explain": "Nel {{tm:sporting}} entrambe le cartucce di un doppio possono andare a un solo piattello, quindi il piattello rotto è «one» e l'altro «zero». Nel {{tm:compak}} sparare entrambe a un solo piattello di proposito vale zero e zero."
     },
     "sporting-singles-doubles-q2": {
-      "q": "{{tm:sporting}}, doppio allo sparo. Il tiratore rompe il primo piattello, e un suo pezzo frantuma il secondo prima del secondo colpo. Decisione?",
-      "options": { "a": "One e one", "b": "Ripetizione, il primo risultato resta valido", "c": "Zero sul secondo piattello", "d": "One e zero" },
-      "explain": "Quando il primo piattello o i suoi pezzi rompono il secondo prima del secondo colpo, il doppio si ripete e il primo risultato resta valido."
+      "q": "{{tm:sporting}}, {{term:double-on-report|doppio allo sparo}}. Il tiratore rompe il primo piattello, e un suo pezzo frantuma il secondo prima del secondo colpo. Decisione?",
+      "options": {
+        "a": "One e one",
+        "b": "Ripetizione, il primo risultato resta valido",
+        "c": "Zero sul secondo piattello",
+        "d": "One e zero"
+      },
+      "explain": "Quando il primo piattello o i suoi pezzi rompono il secondo prima del secondo colpo, il {{term:double|doppio}} si ripete e il primo risultato resta valido."
     },
     "sporting-singles-doubles-q3": {
-      "q": "{{tm:sporting}}, doppio a raffica. Entrambi i piattelli volano regolarmente, ma il tiratore abbassa il fucile e non spara a nessuno dei due, senza un motivo valido. Decisione?",
-      "options": { "a": "No bird", "b": "Zero e No bird", "c": "Solo un cartellino giallo", "d": "Zero e zero" },
-      "explain": "Un piattello regolare al quale non si spara senza un motivo valido è perso; su una raffica o un doppio simultaneo questo significa zero e zero."
+      "q": "{{tm:sporting}}, {{term:rafale-double|doppio a raffica}}. Entrambi i piattelli volano regolarmente, ma il tiratore abbassa il fucile e non spara a nessuno dei due, senza un motivo valido. Decisione?",
+      "options": {
+        "a": "No bird",
+        "b": "Zero e No bird",
+        "c": "Solo uno cartellino giallo",
+        "d": "Zero e zero"
+      },
+      "explain": "Un piattello regolare al quale non si spara senza un motivo valido è perso; su una raffica o un {{term:simultaneous-double|doppio simultaneo}} questo significa zero e zero."
     },
     "compak-singles-doubles-q1": {
-      "q": "Doppio simultaneo nel {{tm:compak}}. Un colpo rompe entrambi i piattelli; è la prima volta che succede. Decisione?",
-      "options": { "a": "One e one", "b": "No bird, si tira di nuovo", "c": "One e No bird", "d": "Zero e zero" },
+      "q": "{{term:simultaneous-double|Doppio simultaneo}} nel {{tm:compak}}. Un colpo rompe entrambi i piattelli; è la prima volta che succede. Decisione?",
+      "options": {
+        "a": "One e one",
+        "b": "No bird, si tira di nuovo",
+        "c": "One e No bird",
+        "d": "Zero e zero"
+      },
       "explain": "Nel {{tm:compak}} un doppio simultaneo rotto con un solo colpo è un No bird la prima e la seconda volta, e zero e zero la terza."
     },
     "compak-singles-doubles-q2": {
-      "q": "Doppio allo sparo nel {{tm:compak}}. Un colpo rompe entrambi i piattelli. Decisione?",
-      "options": { "a": "One e one, entrambi contano", "b": "Zero e zero per entrambi", "c": "Il primo risultato resta valido; il doppio si ripete", "d": "No bird, nessun punteggio" },
+      "q": "{{term:double-on-report|Doppio allo sparo}} nel {{tm:compak}}. Un colpo rompe entrambi i piattelli. Decisione?",
+      "options": {
+        "a": "One e one, entrambi contano",
+        "b": "Zero e zero per entrambi",
+        "c": "Il primo risultato resta valido; il doppio si ripete",
+        "d": "No bird, nessun punteggio"
+      },
       "explain": "In un doppio allo sparo si registra il risultato del primo piattello, il secondo è un No bird, e il doppio si tira di nuovo per conteggiarlo."
     },
     "compak-singles-doubles-q3": {
-      "q": "{{tm:compak}}, doppio allo sparo. Il primo piattello vola regolarmente, ma il tiratore non gli spara. Decisione?",
-      "options": { "a": "Prima zero, nuovo doppio per la seconda", "b": "Zero e zero per il doppio", "c": "No bird, il doppio viene lanciato di nuovo", "d": "Zero, e la seconda non si tira" },
+      "q": "{{tm:compak}}, {{term:double-on-report|doppio allo sparo}}. Il primo piattello vola regolarmente, ma il tiratore non gli spara. Decisione?",
+      "options": {
+        "a": "Prima zero, nuovo {{term:double|doppio}} per la seconda",
+        "b": "Zero e zero per il {{term:double|doppio}}",
+        "c": "No bird, il {{term:double|doppio}} viene lanciato di nuovo",
+        "d": "Zero, e la seconda non si tira"
+      },
       "explain": "Non sparare a un primo piattello lanciato correttamente è uno zero. Il doppio viene poi lanciato di nuovo perché il secondo piattello possa essere conteggiato (guida rapida per gli arbitri)."
     },
     "rules-doubles-q4": {
-      "q": "Nel {{tm:compak}}, entrambe le canne sparano insieme per errore sul primo piattello di un doppio. È il primo problema al fucile della serie. Che cos'è?",
-      "options": { "a": "Un guasto del fucile: No bird, nuovo doppio", "b": "Un doppio colpo volontario: zero e zero", "c": "One e zero" },
-      "explain": "Una doppia scarica accidentale è un malfunzionamento, non un doppio colpo volontario; zero e zero vale solo per chi spara di proposito entrambi i colpi su un solo piattello."
+      "q": "Nel {{tm:compak}}, entrambe le canne sparano insieme per errore sul primo piattello di un {{term:double|doppio}}. È il primo problema al fucile della serie. Che cos'è?",
+      "options": {
+        "a": "Un guasto del fucile: No bird, nuovo doppio",
+        "b": "Un doppio colpo volontario: zero e zero",
+        "c": "One e zero"
+      },
+      "explain": "Una {{term:double-discharge|doppia scarica}} accidentale è un {{term:malfunction|malfunzionamento}}, non un doppio colpo volontario; zero e zero vale solo per chi spara di proposito entrambi i colpi su un solo piattello."
     }
   }
 }

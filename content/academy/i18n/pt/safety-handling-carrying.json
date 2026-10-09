@@ -30,14 +30,14 @@
   "origin": null
  },
  "title": "Manusear e transportar a arma no stand",
- "summary": "Arma aberta, armeiro, capa da arma e a regra «pergunte antes de tocar»: como lidar com a arma entre postos.",
+ "summary": "Arma aberta, {{term:gun-rack|armeiro}}, {{term:gun-slip|capa da arma}} e a regra «pergunte antes de tocar»: como lidar com a arma entre postos.",
  "body": {
   "safety-handling-carrying-p1": "Esta lição acrescenta os pormenores práticos a {{lesson:safety-core-rules}}. Qualquer arma, mesmo vazia, trata-se com muito cuidado. Entre postos transporta-se aberta: uma {{term:over-and-under|sobreposta}} partida (aberta na charneira), uma {{term:semi-automatic|semi-automática}} com a culatra (a parte móvel que carrega o cartucho) aberta. A {{term:muzzle|boca do cano}} aponta diretamente para cima ou diretamente para baixo.",
   "safety-handling-carrying-p2": "Muitos atiradores transportam a sobreposta aberta sobre o antebraço, com os canos para o solo. As bandoleiras e correias não são permitidas em armas em nenhuma das disciplinas.",
   "safety-handling-carrying-p3": "Quando não estiver a usar a arma, deixe-a de pé num {{term:gun-rack|armeiro}} ou noutro lugar que o stand disponibilize. Uma semi-automática fica aí com a culatra aberta. Não encoste a arma a um carro, a uma árvore ou a uma mesa: pode escorregar e cair.",
   "safety-handling-carrying-p4": "Entre o carro e a zona de tiro, a arma viaja numa {{term:gun-slip|capa}} ou numa {{term:hard-case|mala rígida}}. Só a retire onde o stand o permitir, e muitas vezes não é no parque de estacionamento.",
-  "safety-handling-carrying-p5": "Não toque na arma de outra pessoa sem autorização do proprietário. Se quiser vê-la, peça: o proprietário abre-a e entrega-lha. Se alguém lhe pedir para mostrar que a sua arma está vazia, abra-a e mostre as câmaras. Os treinadores chamam a isto «{{term:show-clear|mostrar a arma aberta}}».",
-  "safety-handling-carrying-p6": "Não {{term:gun-mount|monte}} a arma (não a leve ao ombro e à face) nem a balance como se estivesse a seguir um prato. A isto chama-se {{term:mock-shooting|simulacro de tiro}}. As duas regulamentações proíbem-no, mas traçam o limite em lugares diferentes.",
+  "safety-handling-carrying-p5": "Não toque na arma de outra pessoa sem autorização do proprietário. Se quiser vê-la, peça: o proprietário abre-a e entrega-lha. Se alguém lhe pedir para mostrar que a sua arma está vazia, abra-a e mostre as {{term:chamber|câmaras}}. Os treinadores chamam a isto «{{term:show-clear|mostrar a arma aberta}}».",
+  "safety-handling-carrying-p6": "Não leve a arma ao ombro e à face — o chamado {{term:gun-mount|pôr a arma à cara}} — nem a balance como se estivesse a seguir um prato. A isto chama-se {{term:mock-shooting|simulacro de tiro}}. As duas regulamentações proíbem-no, mas traçam o limite em lugares diferentes.",
   "safety-handling-carrying-mock-where": {
    "sporting": "Em qualquer lugar do stand: fora do posto, no posto antes de pedir o prato, e durante a mostra de pratos.",
    "compak": "Fora dos postos de tiro, e enquanto outro membro da esquadra está a atirar."
@@ -48,19 +48,19 @@
  "note": {},
  "phrases": {},
  "key_points": {
-  "safety-handling-carrying-kp1": "Transporte a arma aberta, boca do cano diretamente para cima ou para baixo; sem bandoleiras",
-  "safety-handling-carrying-kp2": "Quando não estiver a usar: de pé num armeiro, nunca encostada a nada",
+  "safety-handling-carrying-kp1": "Transporte a arma aberta, {{term:muzzle|boca do cano}} diretamente para cima ou para baixo; sem bandoleiras",
+  "safety-handling-carrying-kp2": "Quando não estiver a usar: de pé num {{term:gun-rack|armeiro}}, nunca encostada a nada",
   "safety-handling-carrying-kp3": "Entre o carro e a zona de tiro: numa capa ou numa mala rígida",
-  "safety-handling-carrying-kp4": "Peça antes de tocar na arma de outra pessoa; sem simulacros de tiro"
+  "safety-handling-carrying-kp4": "Peça antes de tocar na arma de outra pessoa; sem {{term:mock-shooting|simulacros de tiro}}"
  },
  "did_you_know": "Uma arma aberta também é uma cortesia: mostra às pessoas à sua volta que não têm nada a temer.",
  "quiz": {
   "safety-handling-carrying-q1": {
    "q": "Como se transporta a arma entre postos?",
    "options": {
-    "a": "Fechada, ao ombro, com a patilha de segurança posta",
+    "a": "Fechada, ao ombro, com a {{term:safety-catch|patilha de segurança}} posta",
     "b": "Num ombro, de bandoleira, descarregada",
-    "c": "Aberta, com a boca do cano diretamente para cima ou para baixo"
+    "c": "Aberta, com a {{term:muzzle|boca do cano}} diretamente para cima ou para baixo"
    },
    "explain": "A arma transporta-se aberta, boca do cano para cima ou para baixo; as bandoleiras não são permitidas em nenhuma das disciplinas."
   },
@@ -71,10 +71,10 @@
     "b": "Encostada ao carro, fechada e descarregada",
     "c": "Pousada no chão ao lado do posto"
    },
-   "explain": "As armas ficam de pé num armeiro ou noutro lugar que o stand disponibilize, para não caírem; uma semi-automática fica com a culatra aberta."
+   "explain": "As armas ficam de pé num {{term:gun-rack|armeiro}} ou noutro lugar que o stand disponibilize, para não caírem; uma {{term:semi-automatic|semi-automática}} fica com a culatra aberta."
   },
   "safety-handling-carrying-q3": {
-   "q": "Onde se pode fazer um tiro de ensaio à arma?",
+   "q": "Onde se pode fazer um {{term:gun-test|tiro de ensaio}} à arma?",
    "options": {
     "a": "No primeiro posto de competição, antes da série",
     "b": "No posto de ensaio, se o stand tiver um",
@@ -83,7 +83,7 @@
    "explain": "Os tiros de ensaio fazem-se no posto de ensaio; disparar num posto de competição é proibido."
   },
   "safety-handling-carrying-q4": {
-   "q": "O que é um simulacro de tiro?",
+   "q": "O que é um {{term:mock-shooting|simulacro de tiro}}?",
    "options": {
     "a": "Disparar sobre um prato real com um cartucho de treino mais fraco",
     "b": "Pedir o prato sem nenhum cartucho na arma",

@@ -28,17 +28,17 @@
     "origin": null
   },
   "title": "La charge de plomb",
-  "summary": "Ce qu'est la charge de plomb, en quoi les cartouches de 24 g et 28 g diffèrent, quelle limite fixe le règlement du {{tm:sporting}} et du {{tm:compak}}, et comment les cartouches sont contrôlées.",
+  "summary": "Ce qu'est le {{term:load-weight|charge de plomb}}, en quoi les {{term:cartridge|cartouches}} de 24 g et 28 g diffèrent, quelle limite fixe le règlement du {{tm:sporting}} et du {{tm:compak}}, et comment les cartouches sont contrôlées.",
   "body": {
-    "cartridges-load-weight-p1": "La {{term:load-weight|charge}} est le poids de plomb dans une cartouche, en grammes. La boîte l'indique en gros chiffres, par exemple « 24 g » ou « 28 g ». Aux États-Unis et au Royaume-Uni, elle est parfois donnée en onces : 1 once vaut environ 28 g.",
-    "gear-cartridges-p4": "Le règlement du {{tm:sporting}} et du {{tm:compak}} fixe les mêmes limites. La charge est {{fact:gear.fitasc-shot-load}}, donc jusqu'à environ 28,6 g, quel que soit le calibre. Le plomb doit être {{fact:gear.fitasc-shot-diameter}}. Les cartouches rechargées, les disperseurs, les mélanges de tailles de plomb, la poudre noire et les traçantes sont interdits.",
+    "cartridges-load-weight-p1": "Le {{term:load-weight|charge}} est le poids de plomb dans un {{term:cartridge|cartouche}}, en grammes. La boîte l'indique en gros chiffres, par exemple « 24 g » ou « 28 g ». Aux États-Unis et au Royaume-Uni, elle est parfois donnée en onces : 1 once vaut environ 28 g.",
+    "gear-cartridges-p4": "Le règlement du {{tm:sporting}} et du {{tm:compak}} fixe les mêmes limites. La charge est {{fact:gear.fitasc-shot-load}}, donc jusqu'à environ 28,6 g, quel que soit le {{term:gauge|calibre}}. Le plomb doit être {{fact:gear.fitasc-shot-diameter}}. Les {{term:reloaded-cartridge|cartouches rechargées}}, les disperseurs, les mélanges de tailles de plomb, la poudre noire et les traçantes sont interdits.",
     "cartridges-load-weight-cmp1": {
-      "sporting": "Avant que vous ne commenciez à un poste, l'{{term:referee|arbitre}} peut demander deux de vos cartouches pour les vérifier : une de la poche droite du gilet et une de la gauche.",
+      "sporting": "Avant que vous ne commenciez à un poste, le {{term:referee|arbitre}} peut demander deux de vos cartouches pour les vérifier : une de la poche droite du gilet et une de la gauche.",
       "compak": "Si un contrôle montre que vos cartouches enfreignent le règlement, tous les coups tirés avec elles avant ce contrôle comptent comme {{term:zero|zéro}}, c'est-à-dire comme un échec. Le jury peut laisser les résultats si vous ne pouviez pas le savoir et n'en avez tiré aucun avantage, à condition que l'erreur soit corrigée dès qu'elle est constatée."
     },
-    "cartridges-load-weight-p3": "Beaucoup de tireurs de {{tm:sporting}} utilisent 28 g en compétition : davantage de plombs donnent une gerbe plus dense, surtout sur les plateaux éloignés. L'inconvénient est un {{term:recoil|recul}} plus fort, et sur une journée de 100 à 200 plateaux, cela se ressent.",
+    "cartridges-load-weight-p3": "Beaucoup de tireurs de {{tm:sporting}} utilisent 28 g en compétition : davantage de plombs donnent un {{term:pattern|gerbe}} plus dense, surtout sur les plateaux éloignés. L'inconvénient est un {{term:recoil|recul}} plus fort, et sur une journée de 100 à 200 plateaux, cela se ressent.",
     "cartridges-load-weight-p4": "Les cartouches de 24 g sont plus légères, poussent moins et sont généralement un peu moins chères. Pour l'entraînement et pour les plateaux proches et moyens, elles suffisent généralement et fatiguent moins ; sur les plateaux éloignés, 28 g donne une gerbe plus dense. Il existe même des charges plus légères de 21 g, surtout pour le calibre 20 ou pour l'initiation.",
-    "cartridges-load-weight-p6": "De nombreux entraîneurs conseillent aux débutants de commencer par 24 g. Moins de recul signifie moins de fatigue et moins de risque d'apprendre à {{term:flinch|anticiper}} avant le coup. Vous pourrez passer à 28 g plus tard, une fois votre technique régulière."
+    "cartridges-load-weight-p6": "De nombreux entraîneurs conseillent aux débutants de commencer par 24 g. Moins de recul signifie moins de fatigue et moins de risque de prendre l'habitude d'un {{term:flinch|coup de doigt}} avant le tir. Vous pourrez passer à 28 g plus tard, une fois votre technique régulière."
   },
   "note": {},
   "phrases": {
@@ -55,7 +55,7 @@
   },
   "quiz": {
     "gear-cartridges-q2": {
-      "q": "Quelle est la charge de plomb maximale selon le règlement FITASC ?",
+      "q": "Quel est le {{term:load-weight|charge de plomb}} maximal selon le règlement FITASC ?",
       "options": {
         "a": "24 g, sans tolérance",
         "b": "28 g, avec une tolérance de +2 %",
@@ -65,17 +65,17 @@
       "explain": "Les deux disciplines autorisent au maximum 28 g de plomb, +2 %."
     },
     "cartridges-load-weight-q2": {
-      "q": "Pourquoi beaucoup d'entraîneurs conseillent-ils des cartouches de 24 g aux débutants ?",
+      "q": "Pourquoi beaucoup d'entraîneurs conseillent-ils des {{term:cartridge|cartouches}} de 24 g aux débutants ?",
       "options": {
         "a": "Elles poussent moins et fatiguent moins",
         "b": "Elles seules sont autorisées aux débutants",
-        "c": "Elles donnent la gerbe la plus dense",
+        "c": "Elles donnent le gerbe le plus dense",
         "d": "Elles volent plus loin que les charges plus lourdes"
       },
-      "explain": "Moins de recul aide à garder une bonne technique et à éviter d'anticiper le coup."
+      "explain": "Moins de {{term:recoil|recul}} aide à garder une bonne technique et à éviter d'anticiper le coup."
     },
     "cartridges-load-weight-q3": {
-      "q": "Combien de cartouches l'arbitre peut-il prendre pour contrôle au {{tm:sporting}} ?",
+      "q": "Combien de {{term:cartridge|cartouches}} le {{term:referee|arbitre}} peut-il prendre pour contrôle au {{tm:sporting}} ?",
       "options": {
         "a": "Aucune : les contrôles ne sont pas autorisés",
         "b": "Une, de n'importe quelle poche du gilet",
@@ -85,7 +85,7 @@
       "explain": "L'arbitre peut prendre deux cartouches, une de chaque poche du gilet."
     },
     "cartridges-load-weight-q1": {
-      "q": "Au {{tm:compak}}, un contrôle montre que les cartouches d'un tireur enfreignent le règlement. Comment sont notés les coups tirés avec elles avant le contrôle ?",
+      "q": "Au {{tm:compak}}, un contrôle montre que les {{term:cartridge|cartouches}} d'un tireur enfreignent le règlement. Comment sont notés les coups tirés avec elles avant le contrôle ?",
       "options": {
         "a": "Ils sont retirés plus tard",
         "b": "Ils comptent comme No Bird",

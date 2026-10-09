@@ -30,14 +30,14 @@
     "origin": null
   },
   "title": "Manipuler et porter son fusil sur le stand",
-  "summary": "Un fusil ouvert, le râtelier, le fourreau et la règle « on demande avant de toucher » : comment manipuler un fusil entre les postes.",
+  "summary": "Un fusil ouvert, le {{term:gun-rack|râtelier}}, le {{term:gun-slip|fourreau}} et la règle « on demande avant de toucher » : comment manipuler un fusil entre les postes.",
   "body": {
-    "safety-handling-carrying-p1": "Cette leçon ajoute les détails pratiques à {{lesson:safety-core-rules}}. Tout fusil, même vide, se manipule avec le plus grand soin. Entre les postes, on le porte ouvert : un {{term:over-and-under|superposé}} cassé (ouvert à la charnière), un {{term:semi-automatic|semi-automatique}} avec la culasse (la partie mobile qui charge la cartouche) ouverte. La {{term:muzzle|bouche du canon}} pointe tout droit vers le haut ou tout droit vers le bas.",
+    "safety-handling-carrying-p1": "Cette leçon ajoute les détails pratiques à {{lesson:safety-core-rules}}. Tout fusil, même vide, se manipule avec le plus grand soin. Entre les postes, on le porte ouvert : un {{term:over-and-under|superposé}} cassé (ouvert à la charnière), un {{term:semi-automatic|semi-automatique}} avec la culasse (la partie mobile qui charge la cartouche) ouverte. Le {{term:muzzle|bouche du canon}} pointe tout droit vers le haut ou tout droit vers le bas.",
     "safety-handling-carrying-p2": "Beaucoup de tireurs portent leur superposé ouvert sur l'avant-bras, les canons vers le sol. Les bretelles et les sangles ne sont autorisées sur aucun fusil, dans les deux disciplines.",
     "safety-handling-carrying-p3": "Quand vous n'utilisez pas le fusil, posez-le debout dans un {{term:gun-rack|râtelier}} ou à un autre endroit prévu par le stand. Un semi-automatique y reste avec la culasse ouverte. N'appuyez pas un fusil contre une voiture, un arbre ou une table : il peut glisser et tomber.",
-    "safety-handling-carrying-p4": "Entre la voiture et la zone de tir, le fusil voyage dans un {{term:gun-slip|fourreau}} ou une {{term:hard-case|mallette}}. Ne le sortez que là où le stand l'autorise, et ce n'est souvent pas le parking.",
-    "safety-handling-carrying-p5": "Ne touchez pas au fusil d'une autre personne sans la permission du propriétaire. Si vous souhaitez le regarder, demandez : le propriétaire l'ouvrira et vous le tendra. Si quelqu'un vous demande de montrer que votre fusil est vide, ouvrez-le et montrez les chambres. Les entraîneurs appellent cela « {{term:show-clear|montrer le fusil ouvert}} ».",
-    "safety-handling-carrying-p6": "Ne faites pas l'{{term:gun-mount|épaulé}} (ne portez pas le fusil à l'épaule et à la joue) en le balançant comme si vous suiviez un plateau. Cela s'appelle le {{term:mock-shooting|simulacre de tir}}. Les deux règlements l'interdisent, mais ils ne tracent pas la limite au même endroit.",
+    "safety-handling-carrying-p4": "Entre la voiture et la zone de tir, le fusil voyage dans un {{term:gun-slip|fourreau}} ou un {{term:hard-case|mallette}}. Ne le sortez que là où le stand l'autorise, et ce n'est souvent pas le parking.",
+    "safety-handling-carrying-p5": "Ne touchez pas au fusil d'une autre personne sans la permission du propriétaire. Si vous souhaitez le regarder, demandez : le propriétaire l'ouvrira et vous le tendra. Si quelqu'un vous demande de montrer que votre fusil est vide, ouvrez-le et montrez les {{term:chamber|chambres}}. Les entraîneurs appellent cela « {{term:show-clear|montrer le fusil ouvert}} ».",
+    "safety-handling-carrying-p6": "Ne faites pas le {{term:gun-mount|épaulé}} — ne portez pas le fusil à l'épaule et à la joue — en le balançant comme si vous suiviez un plateau. Cela s'appelle le {{term:mock-shooting|simulacre de tir}}. Les deux règlements l'interdisent, mais ils ne tracent pas la limite au même endroit.",
     "safety-handling-carrying-mock-where": {
       "sporting": "N'importe où sur le stand : hors du poste, sur le poste avant d'appeler un plateau, et pendant la présentation des plateaux.",
       "compak": "Hors des postes de tir, et pendant qu'un autre membre de la planche tire."
@@ -70,7 +70,7 @@
         "b": "Appuyé contre la voiture, fermé et déchargé",
         "c": "Posé à plat sur le sol près du poste"
       },
-      "explain": "Les fusils se tiennent debout dans un râtelier ou un autre endroit prévu par le stand, pour qu'ils ne puissent pas tomber ; un semi-automatique s'y tient la culasse ouverte."
+      "explain": "Les fusils se tiennent debout dans un râtelier ou un autre endroit prévu par le stand, pour qu'ils ne puissent pas tomber ; un {{term:semi-automatic|semi-automatique}} s'y tient la culasse ouverte."
     },
     "safety-handling-carrying-q3": {
       "q": "Où peut-on tirer un coup d'essai ?",
@@ -82,7 +82,7 @@
       "explain": "Les coups d'essai se tirent sur le poste d'essai ; les tirer sur un poste de compétition est interdit."
     },
     "safety-handling-carrying-q4": {
-      "q": "Qu'est-ce que le simulacre de tir ?",
+      "q": "Qu'est-ce que le {{term:mock-shooting|simulacre de tir}} ?",
       "options": {
         "a": "Tirer sur un vrai plateau avec une cartouche d'entraînement légère",
         "b": "Appeler un plateau sans aucune cartouche dans le fusil",

@@ -45,29 +45,29 @@
     "origin": "interpreter-academy"
   },
   "title": "Der Wettkampftag von Anfang bis Ende",
-  "summary": "Was an einem Wettkampftag in {{tm:sporting}} und {{tm:compak}} passiert: Anmeldung, Ihre Startnummer, Rotten und Rotation, Verspätung, Ergebnisse und das Ende des Tages.",
+  "summary": "Was an einem Wettkampftag in {{tm:sporting}} und {{tm:compak}} passiert: {{term:entry|Anmeldung}}, Ihre {{term:competitor-number|Startnummer}}, {{term:squad|Rotten|pl}} und Rotation, Verspätung, Ergebnisse und das Ende des Tages.",
   "body": {
-    "sport-competition-day-p1": "Der Tag beginnt mit der Anmeldung: Der Schütze bestätigt seine Meldung, erhält eine Startnummer und heftet sie oben auf den Rücken, gut sichtbar. Danach prüfen alle die Rottenlisten und die Schießzeiten. Eine Rotte ist eine durch Losentscheid gebildete Gruppe von bis zu sechs Schützen, die gemeinsam schießen. Den Zeitplan einzuhalten ist die eigene Verantwortung des Schützen.",
+    "sport-competition-day-p1": "Der Tag beginnt mit der {{term:entry|Anmeldung}}: Der Schütze bestätigt seine Meldung, erhält eine {{term:competitor-number|Startnummer}} und heftet sie oben auf den Rücken, gut sichtbar. Danach prüfen alle die Rottenlisten und die {{term:shooting-times|Schießzeiten}}. Eine {{term:squad|Rotte}} ist eine durch Losentscheid gebildete Gruppe von bis zu sechs Schützen, die gemeinsam schießen. Den Zeitplan einzuhalten ist die eigene Verantwortung des Schützen.",
     "competitions-competition-day-p1": "Kommen Sie früh: Anmeldung, das Finden der eigenen Rotte und die Vorbereitung brauchen alle Zeit. Die {{term:competitor-number|Nummer}} sitzt zwischen Schultern und Hüfte, nicht gefaltet oder zugeschnitten. Legen Sie {{term:hearing-protection|Gehörschutz}} und {{term:safety-glasses|Schießbrille}} an, bevor Sie zum Stand gehen. In beiden Disziplinen gilt ein Schütze ohne diese Ausrüstung als abwesend, und es greifen die Regeln für Verspätung (siehe unten).",
     "competitions-competition-day-p2": "Kleiden Sie sich ordentlich und sicher: Shorts dürfen {{fact:rules.dress-shorts-length}} enden, Oberteile brauchen Ärmel, Sandalen sind nicht erlaubt. Tragen Sie Ihre Flinte offen (am Scharnier geöffnet, damit alle sehen, dass sie nicht geladen ist) und ohne Trageriemen. Eine {{term:semi-automatic|Selbstladeflinte}} trägt man mit offenem Verschluss (zurückgehaltenem Bolzen). Alle Regeln: {{lesson:rules-dress-and-safety}}.",
-    "competitions-competition-day-p3": "Möchten Sie prüfen, ob Ihre Flinte funktioniert? Tun Sie das vor der Runde, an einem speziellen {{term:gun-test|Probestand}}, falls die Anlage einen hat. Probeschüsse an einem Wettkampfstand sind nicht erlaubt.",
+    "competitions-competition-day-p3": "Möchten Sie prüfen, ob Ihre Flinte funktioniert? Tun Sie das vor der {{term:round|Runde}}, an einem speziellen {{term:gun-test|Probestand}}, falls die Anlage einen hat. Probeschüsse an einem Wettkampfstand sind nicht erlaubt.",
     "competitions-competition-day-practice": {
       "sporting": "Auf den Wettkampf-Layouts darf vor der Veranstaltung niemand trainieren. Trainieren Sie auf anderen Anlagen.",
-      "compak": "Sie dürfen auf denselben Scheibenflügen (Flugbahnen) wie im Wettkampf {{term:practice|trainieren}}, aber die {{term:trajectory-setting-table|Flugbahntabelle}} muss eine andere sein. Diese Tabelle legt fest, welche Maschinen von jeder Position geschossen werden. Bei Kontinental- und Weltmeisterschaften öffnet das offizielle Training {{fact:training.compak-championship-practice}}."
+      "compak": "Das {{term:practice|Training}} auf denselben Scheibenflügen (Flugbahnen) wie im Wettkampf ist erlaubt, aber die {{term:trajectory-setting-table|Flugbahntabelle}} muss eine andere sein. Diese Tabelle legt fest, welche Maschinen von jeder Position geschossen werden. Bei Kontinental- und Weltmeisterschaften öffnet das offizielle Training {{fact:training.compak-championship-practice}}."
     },
-    "sport-competition-day-p2": "In {{tm:sporting}} schießt die Rotte an jedem Stand zuerst alle {{term:single-target|Einzelscheiben}}, dann die {{term:double|Doubletten}}, und an jedem neuen Stand beginnt ein anderer Schütze ({{term:rotation|Rotation}}). Bevor jemand schießt, werden dem ersten Schützen der Rotte die Scheiben gezeigt: Jede wird vorgeworfen, damit ihr Flug zu sehen ist.",
+    "sport-competition-day-p2": "In {{tm:sporting}} schießt die Rotte an jedem Stand zuerst alle {{term:single-target|Einzelscheiben|pl}}, dann die {{term:double|Doubletten|pl}}, und an jedem neuen Stand beginnt ein anderer Schütze – {{term:rotation|Rotation}}. Bevor jemand schießt, werden dem ersten Schützen der Rotte die Scheiben gezeigt: Jede wird vorgeworfen, damit ihr Flug zu sehen ist.",
     "competitions-competition-day-p5": "Wird {{tm:compak}} in der Rotte geschossen, hat eine volle Rotte sechs Schützen: Fünf stehen auf den fünf Positionen, der sechste wartet hinter Position 1. Mit weniger Schützen bleibt eine Position leer. Hat jeder seine Scheiben von seiner Position geschossen, rückt die Rotte eine Position nach rechts. Der Schütze von Position 5 geht hinter Position 1 warten, und der wartende Schütze tritt auf Position 1. Das geht so weiter, bis jeder Schütze von allen fünf Positionen geschossen hat. Gehen Sie vor Ihrer Runde zu dem Compak-Feld, dem Sie zugeteilt sind, und melden Sie sich beim Schiedsrichter: Das ist Pflicht. In {{term:compak-in-line|Compak in Linie}} bewegt sich die Rotte nicht gemeinsam: Die Schützen betreten Position 1 einzeln und gehen die Reihe entlang bis Position 5.",
     "competitions-competition-day-ready": "Wenn Sie an der Reihe sind, seien Sie sofort bereit, mit Patronen für die ganze Runde. Im {{tm:compak}} muss der Schiedsrichter nicht nach einem fehlenden Schützen suchen. Wie die Stände aufgebaut sind: {{lesson:targets-sporting-layout}} und {{lesson:targets-compak-layout}}.",
-    "sport-competition-day-p3": "Eine Runde umfasst 25 Scheiben: ein Layout in Sporting™, ein Feld im Compak® Sporting. Ein internationaler Wettkampf umfasst 200 Scheiben, also acht Runden über mehrere Tage. Der Schiedsrichter trägt jede Scheibe auf dem Ergebnisblatt ein, meist X für einen Treffer und O für einen Fehlschuss. Die Schützen prüfen in Sporting™ ihr Ergebnis beim Verlassen eines Standes und unterschreiben im Compak® Sporting das Blatt am Ende der Runde.",
+    "sport-competition-day-p3": "Eine Runde umfasst 25 Scheiben: ein Layout in Sporting™, ein Feld im Compak® Sporting. Ein internationaler Wettkampf umfasst 200 Scheiben, also acht Runden über mehrere Tage. Der Schiedsrichter trägt jede Scheibe auf dem {{term:score-sheet|Ergebnisblatt}} ein, meist X für einen Treffer und O für einen Fehlschuss. Die Schützen prüfen in Sporting™ ihr Ergebnis beim Verlassen eines Standes und unterschreiben im Compak® Sporting das Blatt am Ende der Runde.",
     "sport-competition-day-p4": "Verspätung ist teuer. In {{tm:sporting}} ruft der Schiedsrichter den Namen des Schützen innerhalb einer Minute dreimal auf; ein Schütze, der seine Reihe verpasst, erhält Nullen für die nicht geschossenen Scheiben. Im {{tm:compak}} erhält ein Schütze, der eintrifft, nachdem der erste Schütze der Rotte bereits die erste Scheibe abgerufen hat (sie angefordert hat), {{fact:competitions.compak-late-zeros}}.",
     "competitions-competition-day-late-inline": "In {{term:compak-in-line|Compak in Linie}} gelten Sie als verspätet, wenn zwei Dinge zusammentreffen: Das Computersystem hat Ihre Startnummer gestrichen, und der nächste Schütze steht auf Position 1. Die Strafe ist dieselbe: {{fact:competitions.compak-late-zeros}}.",
     "competitions-competition-day-late": "Verspätet aus einem Grund, den Sie nicht beeinflussen konnten? Schließen Sie sich nicht eigenmächtig wieder der Rotte an: Legen Sie schriftlich Beschwerde bei der {{term:jury|Jury}} (dem Gremium, das den Wettkampf leitet) ein, im {{tm:compak}} noch am selben Tag. Stimmt die Jury zu, schießen Sie die Runde mit einer anderen Rotte. Einzelheiten: {{lesson:rules-call-and-time}}.",
-    "sport-competition-day-p5": "Haben Schützen um einen der ersten drei Plätze Gleichstand, entscheidet {{fact:competitions.shoot-off-format}}. Im Sudden Death schießen sie weiter, und wer zuerst fehlt, scheidet aus. Unterhalb des dritten Platzes gibt es kein Stechen: Gleichstehende Schützen teilen sich den Platz. {{term:countback|Countback}} legt ihre Reihenfolge in der Liste fest: Ihre Ergebnisse werden {{fact:competitions.countback-order}} verglichen. Der Tag endet mit der Ergebnistafel und der Siegerehrung.",
+    "sport-competition-day-p5": "Haben Schützen um einen der ersten drei Plätze Gleichstand, entscheidet {{fact:competitions.shoot-off-format}}. Im Sudden Death schießen sie weiter, und wer zuerst fehlt, scheidet aus. Unterhalb des dritten Platzes gibt es kein {{term:shoot-off|Stechen}}: Gleichstehende Schützen teilen sich den Platz. {{term:countback|Countback}} legt ihre Reihenfolge in der Liste fest: Ihre Ergebnisse werden {{fact:competitions.countback-order}} verglichen. Der Tag endet mit der Ergebnistafel und der {{term:prize-giving|Siegerehrung}}.",
     "competitions-competition-day-end": "Könnten Sie ins Stechen kommen? Bleiben Sie in der Nähe und erreichbar: Sie müssen womöglich {{fact:rules.shootoff-ready-time}} schießen. Bei internationalen Wettkämpfen müssen alle Preisträger zur {{term:prize-giving|Siegerehrung}} erscheinen, in Mannschaftskleidung oder gepflegter Hose mit Blazer. Wie man die Ergebnisse liest: {{lesson:watching-reading-results}}."
   },
   "note": {
     "competitions-competition-day-n1": "Die ClayAway-Touren, die gerade vorbereitet werden, verwenden „squad“ auch für eine Untergruppe einer Reise. Bei einem Wettkampf bedeutet es die Schießgruppe, machen Sie also klar, was Sie meinen.",
-    "competitions-competition-day-n-parent": "Schauen Sie vom Zuschauerbereich zu und bleiben Sie in der Nähe des Standes ruhig. Zugerufene Ratschläge während der Runde gelten als {{term:coaching|Coaching}}: Der Schiedsrichter kann Ihrem Kind dafür eine Gelbe Karte geben. Mehr dazu: {{lesson:juniors-support-without-pressure}}."
+    "competitions-competition-day-n-parent": "Schauen Sie vom {{term:spectator-area|Zuschauerbereich}} zu und bleiben Sie in der Nähe des Standes ruhig. Zugerufene Ratschläge während der Runde gelten als {{term:coaching|Coaching}}: Der Schiedsrichter kann Ihrem Kind dafür eine {{term:yellow-card|Gelbe Karte}} geben. Mehr dazu: {{lesson:juniors-support-without-pressure}}."
   },
   "phrases": {
     "sport-competition-day-ph1": {
@@ -97,7 +97,7 @@
   "did_you_know": "In {{tm:sporting}} wartet die Rotte so nah wie möglich am Stand, aber an einer Stelle, die den Schützen nicht ablenkt.",
   "quiz": {
     "competitions-competition-day-q-protection": {
-      "q": "Was passiert, wenn Sie ohne Gehörschutz oder Schießbrille zum Stand kommen?",
+      "q": "Was passiert, wenn Sie ohne {{term:hearing-protection|Gehörschutz}} oder {{term:safety-glasses|Schießbrille}} zum Stand kommen?",
       "options": {
         "a": "Sie dürfen schießen, erhalten aber eine Verwarnung",
         "b": "Sie gelten als abwesend und dürfen nicht schießen",
@@ -115,7 +115,7 @@
       "explain": "Probeschüsse an einem Wettkampfstand sind in keiner der beiden Disziplinen erlaubt; nutzen Sie den Probestand."
     },
     "sport-competition-day-q2": {
-      "q": "Im {{tm:compak}} wird in der Rotte geschossen, und ein Schütze trifft ein, nachdem der erste Schütze die erste Scheibe abgerufen hat. Was passiert?",
+      "q": "Im {{tm:compak}} wird in der {{term:squad|Rotte}} geschossen, und ein Schütze trifft ein, nachdem der erste Schütze die erste Scheibe abgerufen hat. Was passiert?",
       "options": {
         "a": "Nichts, er steigt ein",
         "b": "Er erhält 25 Nullen für diese Runde",
@@ -125,7 +125,7 @@
       "explain": "Im {{tm:compak}} kostet das Eintreffen nach dem ersten Abruf in der Rotte {{fact:competitions.compak-late-zeros}}. Liegt ein Grund außerhalb Ihrer Kontrolle vor, können Sie noch am selben Tag schriftlich bei der Jury Beschwerde einlegen."
     },
     "competitions-competition-day-q1": {
-      "q": "Wie viele Schützen hat eine Rotte höchstens?",
+      "q": "Wie viele Schützen hat eine {{term:squad|Rotte}} höchstens?",
       "options": {
         "a": "4",
         "b": "6",
@@ -159,7 +159,7 @@
         "b": "Geschlossen und ungeladen, am Riemen über der Schulter",
         "c": "Geschlossen, mit gesichertem Abzug, Läufe nach unten"
       },
-      "explain": "Flinten werden offen getragen, Trageriemen sind nicht erlaubt; eine Selbstladeflinte trägt man mit offenem Verschluss."
+      "explain": "Flinten werden offen getragen, Trageriemen sind nicht erlaubt; eine {{term:semi-automatic|Selbstladeflinte}} trägt man mit offenem Verschluss."
     }
   }
 }

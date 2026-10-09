@@ -37,13 +37,13 @@
     "origin": null
   },
   "title": "Piombo, acciaio e ferro dolce",
-  "summary": "In cosa i pallini di piombo si differenziano da acciaio e ferro dolce, perché alcuni campi richiedono pallini senza piombo, e dove il piombo è già limitato. Il regolamento di {{tm:sporting}} e {{tm:compak}} è scritto per il piombo.",
+  "summary": "In cosa i {{term:lead-shot|pallini di piombo}} si differenziano da {{term:steel-shot|acciaio}} e ferro dolce, perché alcuni campi richiedono pallini senza piombo, e dove il piombo è già limitato. Il regolamento di {{tm:sporting}} e {{tm:compak}} è scritto per il piombo.",
   "body": {
-    "cartridges-lead-and-steel-p1": "Il pallino tradizionale è di {{term:lead-shot|piombo}}. Il piombo è pesante, quindi un pallino conserva bene velocità ed energia; è anche morbido, quindi è gentile con canne e strozzatori. Il regolamento FITASC per {{tm:sporting}} e {{tm:compak}} è scritto per il piombo. Permette {{fact:gear.fitasc-shot-load}}, in {{fact:gear.fitasc-shot-diameter}}.",
+    "cartridges-lead-and-steel-p1": "Il pallino tradizionale è di {{term:lead-shot|piombo}}. Il piombo è pesante, quindi un pallino conserva bene velocità ed energia; è anche morbido, quindi è gentile con canne e {{term:choke|strozzatori}}. Il regolamento FITASC per {{tm:sporting}} e {{tm:compak}} è scritto per il piombo. Permette {{fact:gear.fitasc-shot-load}}, in {{fact:gear.fitasc-shot-diameter}}.",
     "cartridges-lead-and-steel-p2": "Ma il piombo è tossico per l'ambiente, specialmente per gli uccelli acquatici e per l'acqua. Perciò sempre più campi e paesi lo limitano, e le regole cambiano spesso. Prima di viaggiare, controlla la legge del paese e le regole del campo.",
-    "cartridges-lead-and-steel-p3": "Il {{term:steel-shot|pallino d'acciaio}} è il sostituto senza piombo più comune. Un pallino d'acciaio è {{fact:gear.steel-vs-lead-weight}} e molto più duro. Quindi perde velocità prima e rimbalza di più dalle superfici dure.",
+    "cartridges-lead-and-steel-p3": "Lo {{term:steel-shot|pallino d'acciaio}} è il sostituto senza piombo più comune. Un pallino d'acciaio è {{fact:gear.steel-vs-lead-weight}} e molto più duro. Quindi perde velocità prima e rimbalza di più dalle superfici dure.",
     "cartridges-lead-and-steel-p4": "A causa dei rimbalzi, i campi che permettono l'acciaio spesso ne limitano la misura, per esempio a 2,5 mm, e talvolta anche la velocità della cartuccia. Ogni campo fissa i propri limiti: leggi le regole affisse al club o chiedi all'organizzatore.",
-    "cartridges-lead-and-steel-p5": "Il pallino di {{term:soft-iron-shot|ferro dolce}} (soft iron) è un pallino senza piombo più morbido dell'acciaio normale, fatto per essere più gentile con canne e strozzatori. Le leghe di bismuto e tungsteno sono opzioni più costose: sono più pesanti dell'acciaio e si comportano più come il piombo.",
+    "cartridges-lead-and-steel-p5": "Il {{term:soft-iron-shot|pallino di ferro dolce}} è un pallino senza piombo più morbido dell'acciaio normale, fatto per essere più gentile con canne e strozzatori. Le leghe di bismuto e tungsteno sono opzioni più costose: sono più pesanti dell'acciaio e si comportano più come il piombo.",
     "cartridges-lead-and-steel-p6": "I pallini d'acciaio richiedono una {{term:wad|borra}} protettiva di plastica o speciale, perché l'acciaio duro non graffi la canna. Alcuni produttori offrono cariche d'acciaio da tiro a volo con borre biodegradabili o {{term:fibre-wad|in fibra}}; controlla cosa permette il tuo campo. Quali strozzatori si adattano all'acciaio: {{lesson:chokes-steel-shot}}.",
     "cartridges-lead-and-steel-p7": "Dove i pallini di piombo sono già vietati o limitati, a ottobre 2026. Le leggi cambiano, quindi controlla il testo attuale prima di viaggiare.",
     "cartridges-lead-and-steel-p8": "Unione Europea: {{fact:gear.eu-wetland-lead}}. L'UE sta anche preparando un divieto più ampio dei pallini di piombo lontano dall'acqua. Un comitato UE lo ha approvato a giugno 2026; una volta diventato legge, passeranno alcuni anni prima che si applichi, quindi controlla lo stato attuale prima di viaggiare.",
@@ -67,17 +67,17 @@
   "did_you_know": "Il piombo ha una densità di circa 11,3 g/cm³, l'acciaio circa 7,8–7,9 g/cm³. Quindi un pallino d'acciaio dello stesso diametro è circa il 30% più leggero di uno di piombo.",
   "quiz": {
     "cartridges-lead-and-steel-q1": {
-      "q": "Perché i campi spesso limitano la misura dei pallini d'acciaio?",
+      "q": "Perché i campi spesso limitano la misura degli {{term:steel-shot|pallini d'acciaio}}?",
       "options": {
         "a": "L'acciaio è più costoso",
         "b": "L'acciaio duro rimbalza di più",
-        "c": "I pallini grandi non entrano nel bossolo",
+        "c": "I pallini grandi non entrano nell'bossolo",
         "d": "Lo richiede la FITASC"
       },
       "explain": "I pallini duri d'acciaio rimbalzano di più dalle superfici dure, quindi i campi fissano limiti di misura e velocità."
     },
     "cartridges-lead-and-steel-q2": {
-      "q": "Cosa vale nell'UE riguardo ai pallini di piombo dal 2023?",
+      "q": "Cosa vale nell'UE riguardo ai {{term:lead-shot|pallini di piombo}} dal 2023?",
       "options": {
         "a": "Un divieto completo in tutti i campi",
         "b": "Nulla è cambiato dal 2020",
@@ -87,7 +87,7 @@
       "explain": "La regola UE vieta i pallini di piombo nelle zone umide ed entro 100 m da esse; alcuni paesi hanno regole più severe."
     },
     "cartridges-lead-and-steel-q3": {
-      "q": "In cosa il pallino d'acciaio si differenzia da quello di piombo?",
+      "q": "In cosa lo {{term:steel-shot|pallino d'acciaio}} si differenzia da quello di {{term:lead-shot|piombo}}?",
       "options": {
         "a": "È più leggero e più duro",
         "b": "È più pesante e più morbido",
@@ -97,7 +97,7 @@
       "explain": "L'acciaio è circa il 30% più leggero del piombo della stessa misura e molto più duro."
     },
     "cartridges-lead-and-steel-q4": {
-      "q": "Da quando sarà vietato il pallino di piombo per il tiro a volo in Gran Bretagna?",
+      "q": "Da quando sarà vietato il {{term:lead-shot|pallino di piombo}} per il tiro a volo in Gran Bretagna?",
       "options": {
         "a": "Dal 1° gennaio 2027",
         "b": "Dal 1° aprile 2029",

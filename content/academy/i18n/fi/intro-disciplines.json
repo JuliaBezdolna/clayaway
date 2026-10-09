@@ -28,14 +28,14 @@
   "title": "Kaksi lajia",
   "summary": "Lyhyt opas lajeihin {{tm:sporting}} ja {{tm:compak}}: mitä niillä on yhteistä ja miten ne eroavat toisistaan.",
   "body": {
-    "intro-disciplines-p1": "{{tm:sporting}} jäljittelee metsästystä. {{term:shooting-stand|Ampumapaikat}}, merkityt paikat, joista ammutaan, sijaitsevat luonnonmaastossa: pelloilla, metsän reunassa, rinteillä. Kiekot lentävät niin kuin peltopyy, sorsa tai pyy lentäisi, tai vierivät kuin jänis. Jokainen {{term:layout|rataosuus}} (layout), ampumapaikkojen ryhmä, antaa {{fact:targets.sporting-layout-targets}} ({{term:double|kaksoiskiekko}} on kaksi kiekkoa, joten niitä on 10 lisää). Kaksoiskiekon kaksi kiekkoa lentävät yhtä aikaa tai peräkkäin.",
+    "intro-disciplines-p1": "{{tm:sporting}} jäljittelee metsästystä. {{term:shooting-stand|Ampumapaikat}}, merkityt paikat, joista ammutaan, sijaitsevat luonnonmaastossa: pelloilla, metsän reunassa, rinteillä. Kiekot lentävät niin kuin peltopyy, sorsa tai pyy lentäisi, tai vierivät kuin jänis. Jokainen {{term:layout|rataosuus}}, ampumapaikkojen ryhmä, antaa {{fact:targets.sporting-layout-targets}} – {{term:double|kaksoiskiekko}} on kaksi kiekkoa, joten niitä on 10 lisää. Kaksoiskiekon kaksi kiekkoa lentävät yhtä aikaa tai peräkkäin.",
     "intro-disciplines-p2": "{{tm:compak}} on tiivis versio. Kaikki tapahtuu yhdellä kentällä, jossa on {{fact:basics.compak-field}}. Ampuja kiertää kaikki viisi ampumapaikkaa ja ampuu joka paikassa 5 kiekkoa, 25 per {{term:round|kierros}}. Compak-kenttä vie vähän tilaa, joten seuran on helppo rakentaa sellainen.",
     "intro-disciplines-cmp": {
-      "sporting": "Kävelet rataa ampumapaikalta toiselle, ja joka paikassa on omat kiekkonsa. Kaksoiskiekko voi olla {{term:double-on-report|laukauksesta lähtevä}}, jolloin ensimmäinen laukauksesi laukaisee toisen kiekon, tai {{term:simultaneous-double|yhtäaikainen}}, jolloin molemmat lentävät samalla kertaa. {{term:rafale-double|Peräkkäinen kaksoiskiekko}} (rafale) tarkoittaa kahta kiekkoa samasta heittimestä, toinen heti toisen jälkeen.",
+      "sporting": "Kävelet rataa ampumapaikalta toiselle, ja joka paikassa on omat kiekkonsa. Kaksoiskiekko voi olla {{term:double-on-report|laukauksesta lähtevä}}, jolloin ensimmäinen laukauksesi laukaisee toisen kiekon, tai {{term:simultaneous-double|yhtäaikainen}}, jolloin molemmat lentävät samalla kertaa. {{term:rafale-double|Peräkkäinen kaksoiskiekko}} tarkoittaa kahta kiekkoa samasta heittimestä, toinen heti toisen jälkeen.",
       "compak": "Pysyt samalla kentällä ja siirryt vuorosi jälkeen yhden ampumapaikan oikealle. Kaksoiskiekko on {{term:double-on-report|laukauksesta lähtevä}}, jolloin ensimmäinen laukauksesi laukaisee toisen kiekon, tai {{term:simultaneous-double|yhtäaikainen}}, jolloin molemmat lentävät samalla kertaa."
     },
     "intro-disciplines-p3": "Molempien lajien kansainväliset kilpailut koostuvat tavallisesti {{fact:basics.international-targets}}. Molemmissa lajeissa {{term:single-target|yksittäiskiekkoon}} saa ampua kaksi laukausta: jos ensimmäinen ei osu, toinen voi yhä rikkoa sen.",
-    "intro-disciplines-p6": "Molemmat lajit kuuluvat {{term:fitasc|FITASCille}}, kansainväliselle liitolle, joka kirjoittaa niiden säännöt. Perusteet ovat yhteiset: turvallisuus, {{term:gun-mount|aseen nosto}} (aseen tuominen poskelle ja olkapäälle) ja kiekon lukeminen."
+    "intro-disciplines-p6": "Molemmat lajit kuuluvat {{term:fitasc|FITASCille}}, kansainväliselle liitolle, joka kirjoittaa niiden säännöt. Perusteet ovat yhteiset: turvallisuus, {{term:gun-mount|aseen nosto}} – aseen tuominen poskelle ja olkapäälle – ja kiekon lukeminen."
   },
   "note": {},
   "phrases": {},
@@ -48,7 +48,7 @@
   "did_you_know": "{{tm:compak}} {{fact:community.compak-created}}.",
   "quiz": {
     "intro-disciplines-q1": {
-      "q": "Montako kiekkoa yksi {{tm:sporting}}-rataosuus (layout) antaa?",
+      "q": "Montako kiekkoa yksi {{term:layout|rataosuus}} antaa {{tm:sporting}}-lajissa?",
       "options": {
         "a": "10",
         "b": "25",

@@ -31,11 +31,11 @@
   },
   "title": "Números e unidades: pés, jardas, calibres, números do chumbo",
   "body": {
-    "interpreter-numbers-and-units-p1": "Primeiro, o avanço. Os treinadores britânicos e americanos dão o {{term:lead|avanço}} em pés ou jardas: «give it three feet» (dê-lhe três pés), «a yard in front» (uma jarda à frente). É uma imagem (a distância que o atirador deve ver no momento do tiro), não uma medição. Mantenha a unidade tal como foi dita e não a converta a meio de uma instrução. Mais sobre as palavras do avanço: {{lesson:lead-how-coaches-say-it}}.",
+    "interpreter-numbers-and-units-p1": "Primeiro, o {{term:lead|avanço}}. Os treinadores britânicos e americanos dão o {{term:lead|avanço}} em pés ou jardas: «give it three feet» (dê-lhe três pés), «a yard in front» (uma jarda à frente). É uma imagem (a distância que o atirador deve ver no momento do tiro), não uma medição. Mantenha a unidade tal como foi dita e não a converta a meio de uma instrução. Mais sobre as palavras do avanço: {{lesson:lead-how-coaches-say-it}}.",
     "interpreter-numbers-and-units-p2": "As distâncias até aos pratos são outra questão. «It's about thirty yards» pode tornar-se «cerca de 27 metros», porque uma jarda é {{fact:stand-talk.unit-yard}}. Mantenha a palavra «cerca de». As direções vêm muitas vezes como um {{term:clock-face|mostrador de relógio}} sobre o campo: em frente é 12, por isso «pick it up at eleven o'clock» (apanhe-o às onze horas) é ligeiramente à esquerda. Mantenha o relógio; não o transforme em graus.",
     "interpreter-numbers-and-units-p3": "O {{term:gauge|calibre}} funciona ao contrário. Um «12-bore» ou «12 gauge» não tem 12 mm: quanto menor o número, mais largo o cano, por isso um calibre 20 é mais estreito. Os dois regulamentos da FITASC ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) permitem armas {{fact:gear.fitasc-max-gauge}}, com {{term:barrel-length|canos}} {{fact:gear.fitasc-min-barrel}}. No {{tm:sporting}} a linha do colete fica {{fact:rules.sporting-jacket-line}}; os atiradores britânicos podem chamar-lhe pouco menos de dez polegadas. O eixo dos ombros é uma linha imaginária que atravessa os dois ombros.",
-    "interpreter-numbers-and-units-p4": "Cartuchos: os dois regulamentos permitem uma {{term:load-weight|carga}} de {{fact:gear.fitasc-shot-load}}. Isso aproxima-se da «one-ounce load» (carga de uma onça) de que falam os atiradores britânicos, porque uma onça é {{fact:stand-talk.unit-ounce}}. O chumbo tem de ter {{fact:gear.fitasc-shot-diameter}}. Os {{term:shot-size|números do chumbo}} diferem entre países. Um n.º 9 tem cerca de 2 mm quase em todo o lado, mas outros números podem variar ligeiramente entre os sistemas britânico, americano e continental. Quando for importante, peça os milímetros ({{lesson:cartridges-shot-size}}).",
-    "interpreter-numbers-and-units-chokes": "Os {{term:choke|chokes}} (o estreitamento na boca do cano) podem vir indicados por nomes, por fracções ou em «thou» (milésimas de polegada). Traduza-os no sistema que o treinador usou, e não converta um sistema noutro."
+    "interpreter-numbers-and-units-p4": "{{term:cartridge|Cartuchos}}: os dois regulamentos permitem uma {{term:load-weight|carga}} de {{fact:gear.fitasc-shot-load}}. Isso aproxima-se da «one-ounce load» (carga de uma onça) de que falam os atiradores britânicos, porque uma onça é {{fact:stand-talk.unit-ounce}}. O chumbo tem de ter {{fact:gear.fitasc-shot-diameter}}. Os {{term:shot-size|números do chumbo}} diferem entre países. Um n.º 9 tem cerca de 2 mm quase em todo o lado, mas outros números podem variar ligeiramente entre os sistemas britânico, americano e continental. Quando for importante, peça os milímetros ({{lesson:cartridges-shot-size}}).",
+    "interpreter-numbers-and-units-chokes": "Os {{term:choke|chokes}} — o estreitamento na {{term:muzzle|boca do cano}} — podem vir indicados por nomes, por fracções ou em «thou» (milésimas de polegada). Traduza-os no sistema que o {{term:coach|treinador}} usou, e não converta um sistema noutro."
   },
   "note": {},
   "phrases": {
@@ -69,7 +69,7 @@
   },
   "quiz": {
     "interpreter-numbers-and-units-q1": {
-      "q": "O treinador diz «It's about thirty yards.» Como pode transmitir isto a um atirador que pensa em metros?",
+      "q": "O {{term:coach|treinador}} diz «It's about thirty yards.» Como pode transmitir isto a um atirador que pensa em metros?",
       "options": {
         "a": "«Cerca de 27 metros»",
         "b": "«Exatamente 27,43 metros»",
@@ -79,7 +79,7 @@
       "explain": "Uma jarda é um pouco menos do que um metro (cerca de 0,9 m), por isso trinta jardas são cerca de 27 m. Mantenha o «cerca de»: o número do treinador é uma estimativa."
     },
     "interpreter-numbers-and-units-q2": {
-      "q": "Qual é o maior calibre permitido no {{tm:sporting}} e no {{tm:compak}}?",
+      "q": "Qual é o maior {{term:gauge|calibre}} permitido no {{tm:sporting}} e no {{tm:compak}}?",
       "options": {
         "a": "10",
         "b": "16",
@@ -89,15 +89,15 @@
       "explain": "Os dois regulamentos permitem no máximo o calibre 12; um número de calibre menor significa um cano mais largo, por isso o 10 não é permitido."
     },
     "interpreter-numbers-and-units-q3": {
-      "q": "Um convidado britânico pergunta se os seus cartuchos «one-ounce» são legais numa prova da FITASC. O que sabe?",
+      "q": "Um convidado britânico pergunta se os seus {{term:cartridge|cartuchos}} «one-ounce» são legais numa prova da FITASC. O que sabe?",
       "options": {
         "a": "Até 36 g, cerca de 1¼ onças",
-        "b": "Qualquer carga: não há limite",
-        "c": "Uma carga de 28 g (+2%), cerca de uma onça",
+        "b": "Qualquer {{term:load-weight|carga}}: não há limite",
+        "c": "Uma {{term:load-weight|carga}} de 28 g (+2%), cerca de uma onça",
         "d": "Só são permitidas cargas de 24 g"
       },
       "explain": "As regras permitem uma carga até 28 g, com uma tolerância de +2%, e uma onça são cerca de 28,3 g. O tamanho do chumbo (2,0–2,5 mm) também tem de corresponder."
     }
   },
-  "summary": "Jardas e metros, direções do relógio, números de calibre, cargas, números de chumbo e chokes: que números converter, que números manter como foram ditos, e quais são os limites da FITASC."
+  "summary": "Jardas e metros, direções do relógio, números de {{term:gauge|calibre}}, cargas, números de chumbo e chokes: que números converter, que números manter como foram ditos, e quais são os limites da FITASC."
 }

@@ -26,12 +26,12 @@
     "origin": "fr-wave-2026-10"
   },
   "title": "Prendre soin de l'environnement",
-  "summary": "Un stand de tir fait partie de la nature. Les douilles au casier, des plateaux écologiques, du plomb sans danger là où la loi l'exige, et le respect du terrain.",
+  "summary": "Un stand de tir fait partie de la nature. Les {{term:hull|douilles}} au casier, des {{term:biodegradable-target|plateaux écologiques}}, du plomb sans danger là où la loi l'exige, et le respect du terrain.",
   "body": {
     "culture-environment-p1": "Le règlement du {{tm:sporting}} est clair sur ce point. Quand on aménage un parcours, la sécurité des personnes vient en premier, et la protection des plantes et de l'environnement vient juste à côté. Tirer sur des animaux vivants n'est pas autorisé.",
-    "culture-environment-p2": "La chose la plus simple que vous puissiez faire, c'est de nettoyer après vous. S'il y a un casier pour les {{term:hull|douilles}} vides, utilisez-le. Si vous tirez avec un {{term:semi-automatic|semi-automatique}}, il éjecte chaque douille vide sur le côté, alors ramassez les vôtres en quittant le poste. En {{tm:sporting}} comme en {{tm:compak}}, c'est une règle, pas seulement une bonne manière.",
+    "culture-environment-p2": "La chose la plus simple que vous puissiez faire, c'est de nettoyer après vous. S'il y a un casier pour les {{term:empties|douilles vides|pl}}, utilisez-le. Si vous tirez avec un {{term:semi-automatic|semi-automatique}}, il éjecte chaque {{term:empties|douille vide}} sur le côté, alors ramassez les vôtres en quittant le poste. En {{tm:sporting}} comme en {{tm:compak}}, c'est une règle, pas seulement une bonne manière.",
     "culture-environment-p3": "Les {{term:target|plateaux}} évoluent aussi. Les plateaux traditionnels sont liés par du brai, un liant proche du goudron. De plus en plus de fabricants proposent des {{term:biodegradable-target|plateaux biodégradables}} sans brai, qui se décomposent plus facilement dans la nature. Qu'un stand les utilise dépend du stand lui-même et des règles locales.",
-    "culture-environment-p4": "Le règlement de compétition de la FITASC est écrit pour le {{term:lead-shot|plomb}} (les petits grains de plomb à l'intérieur d'une cartouche). Mais de nombreux pays et régions limitent le plomb, en particulier dans les zones humides (marais, lacs, berges de rivière) et à proximité. Là, les stands utilisent de l'{{term:steel-shot|acier}} ou une autre grenaille sans plomb. Dans l'UE, par exemple, la règle est : {{fact:gear.eu-wetland-lead}}. Vérifiez la loi et le règlement du stand avant de partir. Les lois par pays, y compris les interdictions récentes et à venir : {{lesson:cartridges-lead-and-steel}}.",
+    "culture-environment-p4": "Le règlement de compétition de la FITASC est écrit pour le {{term:lead-shot|plomb}} — les petits grains de plomb à l'intérieur d'une cartouche. Mais de nombreux pays et régions limitent le plomb, en particulier dans les zones humides (marais, lacs, berges de rivière) et à proximité. Là, les stands utilisent du {{term:steel-shot|acier}} ou une autre grenaille sans plomb. Dans l'UE, par exemple, la règle est : {{fact:gear.eu-wetland-lead}}. Vérifiez la loi et le règlement du stand avant de partir. Les lois par pays, y compris les interdictions récentes et à venir : {{lesson:cartridges-lead-and-steel}}.",
     "culture-environment-p5": "Les stands se trouvent souvent dans de beaux paysages : prairies, lisières de bois, collines. Ne marchez que sur les chemins autorisés et remportez vos déchets. Ne cassez pas de branches, et ne roulez qu'où c'est permis.",
     "culture-environment-p6": "Beaucoup de stands entretiennent leur terrain : ils plantent des arbres, ramassent les débris de plateaux et recyclent les douilles. Si votre club organise une telle journée, participez-y. C'est une part de la culture du sport et une bonne occasion de rencontrer des gens : {{lesson:culture-club-life}}."
   },
@@ -43,19 +43,19 @@
     "culture-environment-kp3": "Les plateaux sans brai se décomposent plus facilement dans la nature.",
     "culture-environment-kp4": "Là où la loi limite le plomb, les stands utilisent de l'acier : vérifiez avant de partir."
   },
-  "did_you_know": "Le règlement du {{tm:sporting}} demande aux parcours de respecter l'{{term:hunting-ethics|éthique de chasse}}. Un plateau doit voler à une distance comparable à la chasse : ni trop près, car un véritable oiseau serait trop endommagé pour être mangé, ni trop loin, car il ne serait que blessé.",
+  "did_you_know": "Le règlement du {{tm:sporting}} demande aux parcours de respecter la {{term:hunting-ethics|éthique de chasse}}. Un plateau doit voler à une distance comparable à la chasse : ni trop près, car un véritable oiseau serait trop endommagé pour être mangé, ni trop loin, car il ne serait que blessé.",
   "quiz": {
     "culture-environment-q1": {
-      "q": "Que faire des douilles vides après une série ?",
+      "q": "Que faire des {{term:empties|douilles vides|pl}} après une série ?",
       "options": {
         "a": "Les laisser là où elles tombent",
         "b": "Les mettre dans le casier prévu",
         "c": "Les pousser du pied sous le poste"
       },
-      "explain": "Les douilles vont au casier quand il y en a un, et les utilisateurs de semi-automatiques ramassent leurs douilles éjectées."
+      "explain": "Les {{term:hull|douilles}} vont au casier quand il y en a un, et les utilisateurs de {{term:semi-automatic|semi-automatiques}} ramassent leurs douilles éjectées."
     },
     "culture-environment-q2": {
-      "q": "Où un stand peut-il exiger de la grenaille d'acier ?",
+      "q": "Où un stand peut-il exiger du {{term:steel-shot|grenaille d'acier}} ?",
       "options": {
         "a": "Là où la loi limite le plomb",
         "b": "Seulement aux championnats internationaux",
@@ -64,7 +64,7 @@
       "explain": "Les règles sur le plomb dépendent du pays et de la zone, souvent près de l'eau ; renseignez-vous à l'avance."
     },
     "culture-environment-q3": {
-      "q": "Qu'est-ce qui est particulier aux plateaux biodégradables ?",
+      "q": "Qu'est-ce qui est particulier aux {{term:biodegradable-target|plateaux biodégradables}} ?",
       "options": {
         "a": "Ils sont plus lourds que les plateaux standards",
         "b": "Ils brillent au crépuscule pour la visibilité",

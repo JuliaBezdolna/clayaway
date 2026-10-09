@@ -29,10 +29,10 @@
     "origin": null
   },
   "title": "Nomi, strozzature e marcature degli strozzatori",
-  "summary": "Dal cylinder al full: strozzature tipiche in millimetri e thou, le frazioni 1/4–1/2–3/4 e le marcature a stelle usate in {{tm:sporting}} e {{tm:compak}}. I valori sono approssimativi e variano tra produttori.",
+  "summary": "Dal cylinder al full: {{term:constriction|strozzature}} tipiche in millimetri e thou, le frazioni 1/4–1/2–3/4 e le marcature a {{term:star-marks|stelle}} usate in {{tm:sporting}} e {{tm:compak}}. I valori sono approssimativi e variano tra produttori.",
   "body": {
-    "gear-chokes-p3": "I nomi vengono dall'inglese, dall'aperto allo stretto: cylinder ({{term:cylinder|cilindrico}}), improved cylinder, light modified, modified, improved modified, full. Gli europei li dicono spesso in frazioni: quarto (improved cylinder), mezzo (modified), tre quarti (improved modified) e pieno (full). Molti fucili italiani segnano gli strozzatori con stelle, e lì la regola è invertita: più stelle significa strozzatore più aperto.",
-    "chokes-names-and-marks-p1": "Di seguito trovi le {{term:constriction|strozzature}} tipiche per il calibro 12. Un thou è un millesimo di pollice, circa 0,025 mm. I valori reali dipendono dal produttore e anche dal foro della canna specifica.",
+    "gear-chokes-p3": "I nomi vengono dall'inglese, dall'aperto allo stretto: {{term:cylinder|cilindrico}}, improved cylinder, light modified, modified, improved modified, full. Gli europei li dicono spesso in frazioni: quarto (improved cylinder), mezzo (modified), tre quarti (improved modified) e pieno (full). Molti fucili italiani segnano i {{term:choke|strozzatori}} con {{term:star-marks|stelle}}, e lì la regola è invertita: più stelle significa strozzatore più aperto.",
+    "chokes-names-and-marks-p1": "Di seguito trovi le {{term:constriction|strozzature}} tipiche per il {{term:gauge|calibro 12}}. Un thou è un millesimo di pollice, circa 0,025 mm. I valori reali dipendono dal produttore e anche dal foro della canna specifica.",
     "chokes-names-and-marks-p2": [
       "Cylinder: nessuna strozzatura, 0 mm.",
       "1/8: una strozzatura molto leggera, circa 0,1–0,15 mm (4–6 thou), tra cylinder e improved cylinder; i produttori la chiamano in modi diversi.",
@@ -58,7 +58,7 @@
   "did_you_know": "Le canne da gara moderne sono spesso «overbored»: l'interno è fatto un po' più largo dello standard per quel calibro. Quindi lo stesso strozzatore con lo stesso nome può dare una strozzatura leggermente diversa in fucili diversi: conta la differenza tra canna e strozzatore.",
   "quiz": {
     "chokes-names-and-marks-q1": {
-      "q": "Qual è la strozzatura approssimativa di un modified (1/2) per il calibro 12?",
+      "q": "Qual è la {{term:constriction|strozzatura}} approssimativa di un modified (1/2) per il {{term:gauge|calibro 12}}?",
       "options": {
         "a": "0 mm",
         "b": "Circa 0,25 mm",
@@ -68,7 +68,7 @@
       "explain": "Modified è circa 0,5 mm, cioè circa 20 thou."
     },
     "chokes-names-and-marks-q2": {
-      "q": "Cosa significa uno strozzatore con quattro stelle su un fucile Beretta?",
+      "q": "Cosa significa un {{term:choke|strozzatore}} con quattro {{term:star-marks|stelle}} su un fucile Beretta?",
       "options": {
         "a": "Full",
         "b": "Improved cylinder (1/4)",
@@ -78,7 +78,7 @@
       "explain": "Nel sistema a stelle, più stelle ci sono più aperto è lo strozzatore: quattro stelle è improved cylinder."
     },
     "chokes-names-and-marks-q4": {
-      "q": "Nell'uso europeo, quale strozzatore è «mezzo»?",
+      "q": "Nell'uso europeo, quale {{term:choke|strozzatore}} è «mezzo»?",
       "options": {
         "a": "Modified",
         "b": "Improved cylinder",
@@ -88,7 +88,7 @@
       "explain": "«Mezzo» (1/2) è modified; «quarto» è improved cylinder, «tre quarti» è improved modified."
     },
     "chokes-names-and-marks-q3": {
-      "q": "Quale strozzatore è il più aperto?",
+      "q": "Quale {{term:choke|strozzatore}} è il più aperto?",
       "options": {
         "a": "Full",
         "b": "Improved modified",
@@ -98,7 +98,7 @@
       "explain": "Il cylinder non ha alcuna strozzatura."
     },
     "gear-chokes-q3": {
-      "q": "Su un fucile italiano, uno strozzatore con cinque stelle è…",
+      "q": "Su un fucile italiano, un {{term:choke|strozzatore}} con cinque {{term:star-marks|stelle}} è…",
       "options": {
         "a": "il più aperto",
         "b": "il più stretto",

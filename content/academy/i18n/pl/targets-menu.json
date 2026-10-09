@@ -31,11 +31,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Jak czytać menu rzutków",
-  "summary": "Jak czytać menu rzutków na stanowisku {{tm:sporting}} i na numerze {{tm:compak}}: kolejność wyrzutni, rzutki specjalne i typ każdego dubletu.",
+  "summary": "Jak czytać menu rzutków na stanowisku {{tm:sporting}} i na numerze {{tm:compak}}: kolejność {{term:trap|wyrzutni}}, rzutki specjalne i typ każdego {{term:double|dubletu}}.",
   "body": {
-    "targets-menu-p1": "{{term:target-menu|Menu rzutków}} (target menu) to tablica na stanowisku, która mówi strzelcowi, co go czeka: które wyrzutnie, w jakiej kolejności i jakie dublety.",
+    "targets-menu-p1": "{{term:target-menu|Menu rzutków}} to tablica na stanowisku, która mówi strzelcowi, co go czeka: które {{term:trap|wyrzutnie}}, w jakiej kolejności i jakie {{term:double|dublety}}.",
     "targets-menu-p2": "W {{tm:sporting}} menu wymienia wyrzutnie w kolejności strzelania i musi nazywać rzutki specjalne: {{fact:targets.sporting-menu-special-targets}}. Sędziowie z wyprzedzeniem sprawdzają, czy wyrzutnie zgadzają się z menu. Oś daje {{fact:targets.sporting-layout-targets}}. Dublety mogą używać tylko rzutków już pokazanych jako pojedyncze z tego samego stanowiska, a grupa strzela najpierw pojedyncze.",
-    "targets-menu-p3": "Każdy dublet jest oznaczony swoim typem. {{term:double-on-report|Na zawołanie}} (on report): drugi rzutek wylatuje na odgłos pierwszego strzału. {{term:simultaneous-double|Symultaniczny}} (simultaneous): oba rzutki wylatują razem. {{term:rafale-double|Rafale}} (rafale): dwa rzutki z tej samej wyrzutni, jeden po drugim — tylko w {{tm:sporting}}. Menu wyglądają różnie na różnych strzelnicach, więc czytaj słowa, a nie tylko litery.",
+    "targets-menu-p3": "Każdy dublet jest oznaczony swoim typem. {{term:double-on-report|Po strzale}}: drugi rzutek wylatuje na odgłos pierwszego strzału. {{term:simultaneous-double|Symultaniczny}}: oba rzutki wylatują razem. {{term:rafale-double|Rafale}}: dwa rzutki z tej samej wyrzutni, jeden po drugim — tylko w {{tm:sporting}}. Menu wyglądają różnie na różnych strzelnicach, więc czytaj słowa, a nie tylko litery.",
     "targets-menu-ex1": "Przykład: na linii z 4 stanowisk jedno stanowisko ma tylko 3 wyrzutnie, i strzela się na nim 3 pojedyncze i 2 dublety. Jego menu może wyglądać tak: pojedyncze A, B, C, potem dublet symultaniczny A + B i rafale C + C (litery to wyrzutnie). Na takim stanowisku co najmniej jeden dublet musi być symultaniczny albo rafale: dwa dublety po strzale nie są dozwolone ({{rule:sporting:ch2-doubles-three-traps}}).",
     "targets-menu-p4": "W {{tm:compak}} menu jest wywieszone na każdym z pięciu stanowisk. Każde stanowisko ma pięć rzutków, według jednego z trzech wariantów: {{fact:targets.compak-station-menus}}. Pojedyncze mogą iść z wyrzutni w dowolnej kolejności. Wszystkie pięć stanowisk ma ten sam rodzaj dubletu, a stanowiska są połączone w łańcuch: {{fact:targets.compak-double-chain}}. Na zawody FITASC udostępnia {{fact:targets.compak-setting-tables}}.",
     "targets-menu-tip1": "Przed wejściem na stanowisko {{tm:compak}} wielu strzelców po cichu powtarza sobie jego menu: „A, potem F, potem B, potem C i E po strzale”. To może pomóc zapamiętać kolejność."
@@ -75,10 +75,10 @@
         "c": "Tylko rabbity i battue",
         "d": "Żadne; ogłasza je sędzia"
       },
-      "explain": "Menu musi wymieniać wyrzutnie po kolei oraz wszystkie specjalne typy rzutków."
+      "explain": "Menu musi wymieniać {{term:trap|wyrzutnie}} po kolei oraz wszystkie specjalne typy rzutków."
     },
     "targets-menu-q2": {
-      "q": "W {{tm:compak}} od którego rzutka zaczyna się każdy dublet?",
+      "q": "W {{tm:compak}} od którego rzutka zaczyna się każdy {{term:double|dublet}}?",
       "options": {
         "a": "Zawsze od rzutka z wyrzutni A",
         "b": "Od nowego rzutka, którego jeszcze nie pokazano",
@@ -88,10 +88,10 @@
       "explain": "Dublety łączą stanowiska w łańcuch: każdy zaczyna się od ostatniego rzutka poprzedniego stanowiska."
     },
     "targets-menu-q3": {
-      "q": "Jaki typ dubletu istnieje tylko w {{tm:sporting}}?",
+      "q": "Jaki typ {{term:double|dubletu}} istnieje tylko w {{tm:sporting}}?",
       "options": {
         "a": "Rafale",
-        "b": "Na zawołanie",
+        "b": "Po strzale",
         "c": "Symultaniczny",
         "d": "Żaden"
       },

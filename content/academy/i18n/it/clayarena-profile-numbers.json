@@ -25,16 +25,20 @@
     "clayarena-profile-numbers-q4": "c2744161",
     "clayarena-profile-numbers-q5": "86ab8658"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Cosa significano i numeri in un profilo",
-  "summary": "Precisione, miglior punteggio, serie perfette, percentuale di top-10 e indice di rendimento aiutano a vedere la forma di un tiratore, ma non sostituiscono i risultati stessi.",
+  "summary": "{{term:accuracy|Precisione}}, {{term:best-score|miglior punteggio}}, {{term:round|serie}} perfette, percentuale di top-10 e {{term:performance-index|indice di rendimento}} aiutano a vedere la forma di un tiratore, ma non sostituiscono i risultati stessi.",
   "body": {
-    "clayarena-profile-numbers-p1": "Un {{term:shooter-profile|profilo di tiratore}} su ClayArena mostra diverse cifre. Si calcolano dalle gare di {{tm:sporting}} e {{tm:compak}} presenti sul sito, e il profilo può mostrarle separatamente per ogni disciplina. Aiutano a vedere a colpo d'occhio il livello e la costanza di un tiratore.",
-    "clayarena-profile-numbers-p2": "La {{term:accuracy|precisione}} è la quota di piattelli colpiti sui piattelli tirati in una gara. Per esempio, 150 colpiti su 200 fa 75%. Un profilo può mostrare la precisione media su tutte le gare concluse del tiratore e la precisione più alta in una singola gara.",
-    "clayarena-profile-numbers-p3": "Il {{term:best-score|miglior punteggio}} è il totale più alto ottenuto dal tiratore in una gara. Confronta i totali solo sullo stesso numero di piattelli. Una gara internazionale di {{tm:sporting}} è {{fact:basics.international-targets}}, mentre molte gare di club hanno meno piattelli. Quindi, se il numero di piattelli è diverso, confronta invece la precisione. La precisione permette di confrontare numeri diversi di piattelli, ma percorsi, meteo e livello della gara restano comunque diversi, quindi trattala come un'indicazione approssimativa.",
-    "clayarena-profile-numbers-perfect": "Una serie perfetta è una serie senza alcun errore. Nelle discipline FITASC significa una {{term:round|serie}} in cui sono stati colpiti tutti i {{fact:rules.round-targets}}. Il profilo conta quante serie di questo tipo ha un tiratore.",
+    "clayarena-profile-numbers-p1": "Uno {{term:shooter-profile|profilo di tiratore}} su ClayArena mostra diverse cifre. Si calcolano dalle gare di {{tm:sporting}} e {{tm:compak}} presenti sul sito, e il profilo può mostrarle separatamente per ogni disciplina. Aiutano a vedere a colpo d'occhio il livello e la costanza di un tiratore.",
+    "clayarena-profile-numbers-p2": "L'{{term:accuracy|precisione}} è la quota di piattelli colpiti sui piattelli tirati in una gara. Per esempio, 150 colpiti su 200 fa 75%. Un profilo può mostrare la precisione media su tutte le gare concluse del tiratore e la precisione più alta in una singola gara.",
+    "clayarena-profile-numbers-p3": "Il {{term:best-score|miglior punteggio}} è il totale più alto ottenuto dal tiratore in una gara. Confronta i totali solo sullo stesso numero di piattelli. Una gara internazionale di {{tm:sporting}} è {{fact:basics.international-targets}}, mentre molte gare di club hanno meno piattelli. Quindi, se il numero di piattelli è diverso, confronta invece la precisione. La precisione permette di confrontare numeri diversi di piattelli, ma {{term:layout|percorsi}}, meteo e livello della gara restano comunque diversi, quindi trattala come un'indicazione approssimativa.",
+    "clayarena-profile-numbers-perfect": "Una {{term:round|serie}} perfetta è una serie senza alcun errore. Nelle discipline FITASC significa una {{term:round|serie}} in cui sono stati colpiti tutti i {{fact:rules.round-targets}}. Il profilo conta quante serie di questo tipo ha un tiratore.",
     "clayarena-profile-numbers-p4": "La {{term:top-10-rate|percentuale di top-10}} è la quota di gare in cui il tiratore è arrivato nei primi dieci, nella sua {{term:category|categoria}} o nella classifica generale. Dipende anche da chi tira: arrivare nei primi dieci in una grande gara internazionale è più difficile che in una {{term:club-shoot|gara di club}}. Anche una categoria piccola, con pochi tiratori, rende più facile entrare nei primi dieci.",
-    "clayarena-profile-numbers-p5": "L'{{term:performance-index|indice di rendimento}} è un unico numero che ClayArena calcola dai risultati di un tiratore in una disciplina. Permette di seguire i progressi nel tempo senza leggere ogni tabella dei risultati. Non è una classifica ufficiale {{term:fitasc|FITASC}}.",
+    "clayarena-profile-numbers-p5": "Il {{term:performance-index|indice di rendimento}} è un unico numero che ClayArena calcola dai risultati di un tiratore in una disciplina. Permette di seguire i progressi nel tempo senza leggere ogni tabella dei risultati. Non è una classifica ufficiale {{term:fitasc|FITASC}}.",
     "clayarena-profile-numbers-other": "Puoi anche vedere altre cifre e sezioni, come la cronologia delle gare, una visualizzazione per stagione e un confronto con i vincitori. I loro nomi possono cambiare con lo sviluppo del sito, quindi leggi le spiegazioni sul sito stesso.",
     "clayarena-profile-numbers-p6": "I numeri non raccontano tutto. Alcuni {{term:layout|percorsi}} (gli insiemi di pedane e piattelli lanciati lì) sono facili, altri difficili, e il meteo può cambiare molto i punteggi. Perciò le cifre di una sola gara dicono poco; le cifre su più gare sono più affidabili.",
     "clayarena-profile-numbers-p7": "Per un principiante, un modo utile di leggere un profilo è confrontarsi con se stessi: come è cambiata la tua precisione durante la stagione. Confrontarsi con tiratori forti può essere interessante, ma dice poco sul tuo progresso personale."
@@ -51,29 +55,49 @@
   "did_you_know": null,
   "quiz": {
     "clayarena-profile-numbers-q1": {
-      "q": "Un tiratore ha colpito 150 piattelli su 200. Qual è la sua precisione?",
-      "options": { "a": "50%", "b": "75%", "c": "80%" },
+      "q": "Un tiratore ha colpito 150 piattelli su 200. Qual è la sua {{term:accuracy|precisione}}?",
+      "options": {
+        "a": "50%",
+        "b": "75%",
+        "c": "80%"
+      },
       "explain": "150 ÷ 200 = 0,75, cioè 75%."
     },
     "clayarena-profile-numbers-q2": {
-      "q": "Cos'è l'indice di rendimento in un profilo ClayArena?",
-      "options": { "a": "Un numero calcolato da ClayArena", "b": "La classifica ufficiale FITASC", "c": "Il numero di gare in un anno" },
+      "q": "Cos'è il {{term:performance-index|indice di rendimento}} in un profilo ClayArena?",
+      "options": {
+        "a": "Un numero calcolato da ClayArena",
+        "b": "La classifica ufficiale FITASC",
+        "c": "Il numero di gare in un anno"
+      },
       "explain": "È una cifra di ClayArena per seguire i progressi, non una classifica ufficiale."
     },
     "clayarena-profile-numbers-q3": {
       "q": "Perché le cifre di una sola gara dicono poco?",
-      "options": { "a": "Spesso sono calcolate male", "b": "Lì nessuno arriva nei primi 10", "c": "Percorsi e meteo sono molto diversi" },
+      "options": {
+        "a": "Spesso sono calcolate male",
+        "b": "Lì nessuno arriva nei primi 10",
+        "c": "Percorsi e meteo sono molto diversi"
+      },
       "explain": "Per questo è più affidabile guardare le cifre su più gare."
     },
     "clayarena-profile-numbers-q4": {
-      "q": "Cos'è una serie perfetta?",
-      "options": { "a": "Una serie senza alcun errore", "b": "Una serie tirata entro un'ora", "c": "Una serie senza alcun doppietto" },
+      "q": "Cos'è una {{term:round|serie}} perfetta?",
+      "options": {
+        "a": "Una serie senza alcun errore",
+        "b": "Una serie tirata entro un'ora",
+        "c": "Una serie senza alcun doppietto"
+      },
       "explain": "In una serie perfetta non c'è alcun errore. Nelle discipline FITASC è una serie in cui sono stati colpiti tutti i {{fact:rules.round-targets}}."
     },
     "clayarena-profile-numbers-q5": {
-      "q": "Hai tirato 90 su 100 in una gara di club e 180 su 200 in una gara internazionale. Cosa puoi confrontare?",
-      "options": { "a": "I totali, 90 e 180", "b": "La precisione: 90% entrambe le volte", "c": "Niente del tutto" },
-      "explain": "Con un numero diverso di piattelli, confronta la precisione piuttosto che i totali. Percorsi, meteo e livello della gara restano comunque diversi, quindi trattala come un'indicazione approssimativa."
+      "q": "Hai tirato 90 su 100 in una {{term:club-shoot|gara di club}} e 180 su 200 in una gara internazionale. Cosa puoi confrontare?",
+      "options": {
+        "a": "I totali, 90 e 180",
+        "b": "L'precisione: 90% entrambe le volte",
+        "c": "Niente del tutto"
+      },
+      "explain": "Con un numero diverso di piattelli, confronta la precisione piuttosto che i totali. {{term:layout|Percorsi}}, meteo e livello della gara restano comunque diversi, quindi trattala come un'indicazione approssimativa."
     }
   }
 }

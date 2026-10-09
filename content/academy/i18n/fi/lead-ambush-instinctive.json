@@ -32,10 +32,10 @@
  "title": "Väijytys ja vaistonvarainen ammunta",
  "summary": "Miten väijytys toimii ja miksi liipaisinta painetaan ennen kuin kiekko saavuttaa pisteen, milloin siitä voi olla hyötyä ja mitä vaistonvarainen ammunta tarkoittaa.",
  "body": {
-  "lead-ambush-instinctive-p1": "{{term:ambush|Väijytys}} (spot shooting) on aseen heilautuksen vastakohta. 1) Piipunsuut asetetaan kiekon edelle sen linjalle, lähelle osumapistettä. 2) Ne odottavat vähällä liikkeellä tai liikkumatta. 3) Liipaisinta painetaan ennen kuin kiekko saapuu tähän kohtaan. Ampujan reaktio ja haulien lento vievät molemmat aikaa, niin kiekko lentää laukaukseen. Jos laukaisee vasta, kun kiekko on jo kohdassa, haulit menevät sen taakse.",
-  "lead-ambush-instinctive-sporting": "{{tm:sporting}}-lajissa aseen saa nostaa vasta, kun kiekko on ilmestynyt. Niin väijytys alkaa siellä aina nostolla: tukki nousee, kun piipunsuut menevät odotuspisteeseen, ja heilautus on erittäin pieni.",
-  "lead-ambush-instinctive-p2": "Yleisenä tapana, tyypillisenä kouluttamattomille ampujille, se on epäluotettava: ase on paikallaan, ja ajoituksen on oltava hyvin tarkka. Mutta tietoinen väijytys on joskus oikea valinta: kiekko, joka on ammuttava hyvin nopeasti, tai jäniskiekko, joka näkyy vain lyhyessä aukossa pensaiden välissä. Läheinen sukulainen on ”collapse”, jota käytetään {{term:battue|battue-kiekossa}} (ohuessa, litteässä kiekossa, joka lentää nopeasti kyljellään ja kääntyy ja laskeutuu) sen lakipisteessä. Piiput odottavat lähes siinä, missä battue rikotaan, niin aseen täytyy liikkua vain vähän, kun laukaus tulee. {{tm:sporting}}-lajissa kiekko on silti rikottava paikassa, jossa tuomari näkee sen.",
-  "lead-ambush-instinctive-p3": "{{term:instinctive-shooting|Vaistonvaraisessa ammunnassa}} ampuja ei ajattele ennakkoa tietoisesti lainkaan. Katse pysyy lukittuna kiekkoon ({{term:hard-focus|terävä katse}}), ja kädet seuraavat silmiä mittaamatta mitään. Nosto ja heilautus sulautuvat yhdeksi liikkeeksi, ja liipaisinta painetaan hetkellä, jolloin tukki asettuu poskelle. Tapa tulee klassisesta brittiläisestä metsästysammunnan koulukunnasta.",
+  "lead-ambush-instinctive-p1": "{{term:ambush|Väijytys}} on aseen heilautuksen vastakohta. 1) Piipunsuut asetetaan kiekon edelle sen linjalle, lähelle osumapistettä. 2) Ne odottavat vähällä liikkeellä tai liikkumatta. 3) Liipaisinta painetaan ennen kuin kiekko saapuu tähän kohtaan. Ampujan reaktio ja haulien lento vievät molemmat aikaa, niin kiekko lentää laukaukseen. Jos laukaisee vasta, kun kiekko on jo kohdassa, haulit menevät sen taakse.",
+  "lead-ambush-instinctive-sporting": "{{tm:sporting}}-lajissa aseen saa nostaa vasta, kun kiekko on ilmestynyt. Niin väijytys alkaa siellä aina nostolla: {{term:stock|tukki}} nousee, kun piipunsuut menevät odotuspisteeseen, ja heilautus on erittäin pieni.",
+  "lead-ambush-instinctive-p2": "Yleisenä tapana, tyypillisenä kouluttamattomille ampujille, se on epäluotettava: ase on paikallaan, ja ajoituksen on oltava hyvin tarkka. Mutta tietoinen väijytys on joskus oikea valinta: kiekko, joka on ammuttava hyvin nopeasti, tai {{term:rabbit|jäniskiekko}}, joka näkyy vain lyhyessä aukossa pensaiden välissä. Läheinen sukulainen on ”collapse”, jota käytetään {{term:battue|battue-kiekossa}} – ohuessa, litteässä kiekossa, joka lentää nopeasti kyljellään ja kääntyy ja laskeutuu – sen lakipisteessä. Piiput odottavat lähes siinä, missä battue rikotaan, niin aseen täytyy liikkua vain vähän, kun laukaus tulee. {{tm:sporting}}-lajissa kiekko on silti rikottava paikassa, jossa tuomari näkee sen.",
+  "lead-ambush-instinctive-p3": "{{term:instinctive-shooting|Vaistonvaraisessa ammunnassa}} ampuja ei ajattele {{term:lead|ennakkoa}} tietoisesti lainkaan. Katse pysyy lukittuna kiekkoon – {{term:hard-focus|terävä katse}} –, ja kädet seuraavat silmiä mittaamatta mitään. {{term:gun-mount|Nosto}} ja heilautus sulautuvat yhdeksi liikkeeksi, ja liipaisinta painetaan hetkellä, jolloin tukki asettuu poskelle. Tapa tulee klassisesta brittiläisestä metsästysammunnan koulukunnasta.",
   "lead-ambush-instinctive-p4": "Moni {{tm:sporting}}-lajin huippuampuja yhdistelee menetelmiä ja valitsee niitä kiekkokohtaisesti. ”Which method for this one?” — mikä menetelmä tähän? — on tavallinen valmennuskysymys.",
   "lead-ambush-instinctive-sim": "Animaatio: jäniskiekko ja liikkumaton ase. Laukaise, ennen kuin jäniskiekko saavuttaa piipunsuiden kohdan; sillä hetkellä ampuva laukaus menee sen taakse."
  },
@@ -67,7 +67,7 @@
  },
  "quiz": {
   "lead-ambush-instinctive-q1": {
-   "q": "Mikä on väijytykselle (spot shooting) ominaista?",
+   "q": "Mikä on {{term:ambush|väijytykselle}} ominaista?",
    "options": {
     "a": "Ase liikkuu kiekkoa nopeammin",
     "b": "Ase odottaa kohdassa kiekon edellä",

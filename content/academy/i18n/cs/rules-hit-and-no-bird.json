@@ -40,26 +40,26 @@
     "origin": "interpreter-academy"
   },
   "title": "Co se počítá za zásah a co je No Bird",
-  "summary": "Ve {{tm:sporting}} i {{tm:compak}} je terč zásahem, pokud z něj odlétl aspoň jeden viditelný úlomek; samotný prach je chyba. No Bird se nepočítá a terč se vypouští znovu.",
+  "summary": "Ve {{tm:sporting}} i {{tm:compak}} je terč zásahem, pokud z něj odlétl aspoň jeden {{term:visible-piece|viditelný úlomek}}; samotný prach je chyba. No Bird se nepočítá a terč se vypouští znovu.",
   "body": {
     "rules-hit-and-no-bird-p1": "Ve {{tm:sporting}} a {{tm:compak}} má každý terč jen dva výsledky: „one“ (zásah) nebo „zero“ (chyba). Půlbody neexistují.",
-    "targets-hit-or-lost-p1": "Terč se zaznamená jako „one“, když platí tři věci. Byl vypuštěn správně, střelec vystřelil, jak vyžadují pravidla, a odlétl z něj aspoň jeden {{term:visible-piece|viditelný úlomek}} (terč, který se rozpadne úplně, se počítá taky). Stejné pravidlo platí pro {{term:flash-target|flash terče}} (terče, které při zásahu vypustí obláček barevného prachu). Terč je „zero“ (chyba), když neodletí žádný viditelný úlomek a je jen prach nebo dým.",
+    "targets-hit-or-lost-p1": "Terč se zaznamená jako „one“, když platí tři věci. Byl vypuštěn správně, střelec vystřelil, jak vyžadují pravidla, a odlétl z něj aspoň jeden {{term:visible-piece|viditelný úlomek}}; terč, který se rozpadne úplně, se počítá taky. Stejné pravidlo platí pro {{term:flash-target|flash terče}}, které při zásahu vypustí obláček barevného prachu. Terč je „zero“ (chyba), když neodletí žádný viditelný úlomek a je jen prach nebo dým.",
     "targets-hit-or-lost-p2": "Celé pravidlo tedy stojí na jedné viditelné věci: odlétnutí úlomku. Malý {{term:chip|úlomek}}, který odletí, se počítá jako zásah. Obláček prachu, zatímco terč letí dál celý, je chyba.",
-    "targets-hit-or-lost-p3": "Rozhoduje jen {{term:referee|rozhodčí}}, zda byl terč zasažen. Členové skupiny nesmí vyjadřovat svůj názor a nikdo nesmí terč zvednout, aby ho zkontroloval.",
+    "targets-hit-or-lost-p3": "Rozhoduje jen {{term:referee|rozhodčí}}, zda byl terč zasažen. Členové {{term:squad|skupiny}} nesmí vyjadřovat svůj názor a nikdo nesmí terč zvednout, aby ho zkontroloval.",
     "rules-hit-and-no-bird-cmp1": {
-      "sporting": "Rozbíjejte terče tam, kde na vás rozhodčí vidí. Pokud se terč rozbije za překážkou nebo za {{term:shooting-limit|hranicí střelby}} (okrajem oblasti, uvnitř které se zásah počítá), rozhoduje rozhodčí. Jeho rozhodnutí nelze napadnout odvoláním. Jakmile zavoláte další terč, přijali jste rozhodnutí o předchozím.",
+      "sporting": "Rozbíjejte terče tam, kde na vás rozhodčí vidí. Pokud se terč rozbije za překážkou nebo za {{term:shooting-limit|hranicí střelby}}, tedy okrajem oblasti, uvnitř které se zásah počítá, rozhoduje rozhodčí. Jeho rozhodnutí nelze napadnout odvoláním. Jakmile zavoláte další terč, přijali jste rozhodnutí o předchozím.",
       "compak": "Každé zero rozhodčí oznámí nahlas nebo zvukovým signálem. Namítejte okamžitě, ještě před zavoláním dalšího střelce."
     },
-    "rules-hit-and-no-bird-p5": "{{term:no-bird|Nový terč (No Bird)}} je terč, který se nezapočítává a vypouští se znovu. Rozhodčí ho vyhlásí, když terč vyletí rozbitý, z nesprávné vrhačky nebo nesprávné barvy (ve {{tm:sporting}} i nesprávné velikosti nebo typu). Dalšími důvody jsou nepravidelná dráha, vypuštění s víc než 3sekundovým zpožděním (viz {{lesson:rules-call-and-time}}) nebo terč, který jste nevolali. No Bird se vyhlašuje i tehdy, když vás zřejmě něco vyrušilo, nebo když rozhodčí nedokáže posoudit výsledek.",
+    "rules-hit-and-no-bird-p5": "{{term:no-bird|Nový terč}} je terč, který se nezapočítává a vypouští se znovu. Rozhodčí ho vyhlásí, když terč vyletí rozbitý, z nesprávné {{term:trap|vrhačky}} nebo nesprávné barvy (ve {{tm:sporting}} i nesprávné velikosti nebo typu). Dalšími důvody jsou nepravidelná dráha, vypuštění s víc než 3sekundovým zpožděním (viz {{lesson:rules-call-and-time}}) nebo terč, který jste nevolali. No Bird se vyhlašuje i tehdy, když vás zřejmě něco vyrušilo, nebo když rozhodčí nedokáže posoudit výsledek.",
     "rules-hit-and-no-bird-cmp2": {
       "sporting": "No Bird je i tehdy, když z vrhaček stejného stanoviště vyletí dva terče najednou.",
       "compak": "Počasí samo o sobě No Bird neznamená, ať jsou podmínky jakékoli. Terč nebo úlomky, které zalétly ze sousedního {{term:layout|střeliště}} {{tm:compak}} (pole vedle vašeho), to taky neznamená. Zbloudilý terč z vrhačky vašeho vlastního střeliště ano."
     },
-    "rules-hit-and-no-bird-p6": "Po No Bird se jednotlivý terč prostě vypustí znovu. U dvojstřelu záleží na tom, který z terčů byl nepravidelný: viz {{lesson:rules-doubles}}.",
+    "rules-hit-and-no-bird-p6": "Po No Bird se jednotlivý terč prostě vypustí znovu. U {{term:double|dvojstřelu}} záleží na tom, který z terčů byl nepravidelný: viz {{lesson:rules-doubles}}.",
     "rules-hit-and-no-bird-p7": "Jakmile rozhodčí vyhlásí No Bird, po tomto terči se už nestřílí. Po prvním napomenutí se to v obou disciplínách trestá; jak se pak terče zaznamenávají, najdete v průvodci pravidly.",
     "rules-hit-and-no-bird-cmp3": {
       "sporting": "Při náhlé silné přeháňce nebo bouřce, která vypadá krátce, může rozhodčí střelbu zastavit. Pokud trvá déle, rozhodčí to oznámí jury.",
-      "compak": "Zastavit střelbu kvůli náhlé přeháňce nebo bouřce smí jen hlavní rozhodčí. Pokud se zdá, že potrvá déle, informuje se jury."
+      "compak": "Zastavit střelbu kvůli náhlé přeháňce nebo bouřce smí jen {{term:chief-referee|hlavní rozhodčí}}. Pokud se zdá, že potrvá déle, informuje se jury."
     },
     "rules-hit-and-no-bird-tip1": "Pokud si myslíte, že rozhodnutí bylo chybné, zvedněte ruku a řekněte to ještě před dalším zavoláním. Hádka později výsledek nezmění; jak funguje protest, najdete v lekci {{lesson:competitions-results-and-protests}}."
   },
@@ -97,13 +97,13 @@
         "b": "No Bird",
         "c": "Zero"
       },
-      "explain": "Pro zásah je potřeba aspoň jeden viditelný úlomek; samotný prach nebo dým je zero."
+      "explain": "Pro zásah je potřeba aspoň jeden {{term:visible-piece|viditelný úlomek}}; samotný prach nebo dým je zero."
     },
     "rules-hit-and-no-bird-q2": {
       "q": "Kdo rozhoduje, zda byl terč zasažen?",
       "options": {
-        "a": "Jen rozhodčí",
-        "b": "Hlasování skupiny",
+        "a": "Jen {{term:referee|rozhodčí}}",
+        "b": "Hlasování {{term:squad|skupiny}}",
         "c": "Sám střelec"
       },
       "explain": "Rozhoduje sám rozhodčí a jiné lidi se může zeptat jen z vlastní iniciativy."
@@ -115,10 +115,10 @@
         "b": "Je to zero",
         "c": "No Bird, pokud o to požádáte"
       },
-      "explain": "V {{tm:compak}} je rozbitý terč „one“ a chyba „zero“ za každého počasí. Zastavit střelbu kvůli náhlé bouři může jen hlavní rozhodčí."
+      "explain": "V {{tm:compak}} je rozbitý terč „one“ a chyba „zero“ za každého počasí. Zastavit střelbu kvůli náhlé bouři může jen {{term:chief-referee|hlavní rozhodčí}}."
     },
     "competitions-scoring-basics-q3": {
-      "q": "Z vrhačky vyletí terč špatné barvy. Co to je?",
+      "q": "Z {{term:trap|vrhačky}} vyletí terč špatné barvy. Co to je?",
       "options": {
         "a": "No Bird",
         "b": "Zero",
@@ -134,10 +134,10 @@
         "c": "No Bird",
         "d": "Půl bodu"
       },
-      "explain": "Každý viditelný úlomek, ať je sebemenší, znamená zásah."
+      "explain": "Každý {{term:visible-piece|viditelný úlomek}}, ať je sebemenší, znamená zásah."
     },
     "targets-hit-or-lost-q3": {
-      "q": "Po rozhodnutí „lost“ jde někdo ze skupiny zvednout terč a ukázat rozhodčímu úlomek na něm. Co na to pravidla?",
+      "q": "Po rozhodnutí „lost“ jde někdo ze {{term:squad|skupiny}} zvednout terč a ukázat rozhodčímu úlomek na něm. Co na to pravidla?",
       "options": {
         "a": "Rozhodčí ho musí prohlédnout",
         "b": "Skupina o tom hlasuje",

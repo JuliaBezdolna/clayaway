@@ -31,10 +31,10 @@
     "origin": "interpreter-academy"
   },
   "title": "Lire le menu du poste",
-  "summary": "Comment lire le menu des plateaux à un poste {{tm:sporting}} et à un pas de tir {{tm:compak}} : l'ordre des lanceurs, les plateaux spéciaux et le type de chaque doublé.",
+  "summary": "Comment lire le menu des plateaux à un poste {{tm:sporting}} et à un pas de tir {{tm:compak}} : l'ordre des {{term:trap|lanceurs}}, les plateaux spéciaux et le type de chaque doublé.",
   "body": {
-    "targets-menu-p1": "Le {{term:target-menu|menu}} est le panneau du poste qui indique au tireur ce qui l'attend : quels lanceurs, dans quel ordre, et quel type de doublés.",
-    "targets-menu-p2": "En {{tm:sporting}}, le menu énumère les lanceurs dans l'ordre de tir et doit nommer les plateaux spéciaux : {{fact:targets.sporting-menu-special-targets}}. Les arbitres vérifient au préalable que les lanceurs correspondent au menu. Un parcours donne {{fact:targets.sporting-layout-targets}}. Les doublés ne peuvent utiliser que des plateaux déjà montrés en simples depuis le même poste, et la planche tire d'abord les simples.",
+    "targets-menu-p1": "Le {{term:target-menu|menu}} est le panneau du poste qui indique au tireur ce qui l'attend : quels {{term:trap|lanceurs}}, dans quel ordre, et quel type de doublés.",
+    "targets-menu-p2": "En {{tm:sporting}}, le menu énumère les lanceurs dans l'ordre de tir et doit nommer les plateaux spéciaux : {{fact:targets.sporting-menu-special-targets}}. Les arbitres vérifient au préalable que les lanceurs correspondent au menu. Un {{term:layout|parcours}} donne {{fact:targets.sporting-layout-targets}}. Les doublés ne peuvent utiliser que des plateaux déjà montrés en simples depuis le même poste, et la planche tire d'abord les simples.",
     "targets-menu-p3": "Chaque doublé est marqué de son type. {{term:double-on-report|Au coup de fusil}} : le second plateau part au bruit du premier coup. {{term:simultaneous-double|Simultané}} : les deux plateaux partent ensemble. {{term:rafale-double|Rafale}} : deux plateaux du même lanceur, l'un après l'autre, en {{tm:sporting}} seulement. Les menus ont un aspect différent d'un terrain à l'autre, donc lisez les mots, pas seulement les lettres.",
     "targets-menu-ex1": "Exemple : sur une ligne de 4 postes, un poste n'a que 3 lanceurs, et on y tire 3 simples et 2 doublés. Son menu pourrait être : simples A, B, C, puis un doublé simultané A + B et un rafale C + C (les lettres sont les lanceurs). Sur ce poste, au moins un doublé doit être simultané ou rafale : deux doublés au coup de fusil ne sont pas autorisés ({{rule:sporting:ch2-doubles-three-traps}}).",
     "targets-menu-p4": "En {{tm:compak}}, un menu est affiché à chacun des cinq pas de tir. Chaque pas de tir a cinq plateaux, selon l'un des trois mélanges : {{fact:targets.compak-station-menus}}. Les simples peuvent venir des lanceurs dans n'importe quel ordre. Les cinq pas de tir ont le même type de doublé, et les pas de tir sont liés en chaîne : {{fact:targets.compak-double-chain}}. Pour les compétitions, la FITASC propose {{fact:targets.compak-setting-tables}}.",
@@ -46,7 +46,7 @@
   },
   "phrases": {
     "targets-menu-ph1": {
-      "meaning": "Pas de tir 3 : trois plateaux simples, puis un doublé au coup de fusil ; cinq plateaux en tout.",
+      "meaning": "Pas de tir 3 : trois {{term:single-target|plateaux simples}}, puis un doublé au coup de fusil ; cinq plateaux en tout.",
       "say": "Lisez le menu : au pas de tir trois, vous avez A, puis F, puis B, puis le doublé C et E au coup de fusil."
     },
     "targets-menu-ph2": {
@@ -74,7 +74,7 @@
         "c": "Seulement les rabbits et les battues",
         "d": "Aucun ; l'arbitre les annonce"
       },
-      "explain": "Le menu doit énumérer les lanceurs dans l'ordre et tous les types de plateaux spéciaux."
+      "explain": "Le menu doit énumérer les {{term:trap|lanceurs}} dans l'ordre et tous les types de plateaux spéciaux."
     },
     "targets-menu-q2": {
       "q": "En {{tm:compak}}, par quel plateau commence chaque doublé ?",

@@ -27,14 +27,14 @@
   "origin": null
  },
  "title": "Como começar",
- "summary": "Um clube, um treinador, uma primeira aula e uma arma alugada: um plano passo a passo para quem quiser experimentar o {{tm:sporting}} ou o {{tm:compak}}.",
+ "summary": "Um clube, um {{term:coach|treinador}}, uma primeira aula e uma arma alugada: um plano passo a passo para quem quiser experimentar o {{tm:sporting}} ou o {{tm:compak}}.",
  "body": {
-  "intro-how-to-start-p1": "Comece por procurar um campo de tiro ou um clube perto de si. Telefone ou escreva e pergunte se organizam sessões para principiantes. Muitos campos oferecem uma aula experimental com um {{term:coach|treinador}}, com arma e cartuchos incluídos.",
-  "intro-how-to-start-p2": "É sensato ter a primeira aula com um treinador. Um treinador explica as regras de segurança e escolhe uma arma adequada ao seu tamanho. Também mostra como se posicionar e como {{term:gun-mount|pôr a arma à cara}}: levar a {{term:stock|coronha}} (a parte de trás da arma) à face e ao ombro. Começa com pratos simples e lentos, para ver progresso rapidamente e evitar maus hábitos. Mais: {{lesson:training-first-lessons-and-coach}}.",
+  "intro-how-to-start-p1": "Comece por procurar um campo de tiro ou um clube perto de si. Telefone ou escreva e pergunte se organizam sessões para principiantes. Muitos campos oferecem uma {{term:taster-session|aula experimental}} com um {{term:coach|treinador}}, com arma e {{term:cartridge|cartuchos}} incluídos.",
+  "intro-how-to-start-p2": "É sensato ter a primeira aula com um treinador. Um treinador explica as regras de segurança e escolhe uma arma adequada ao seu tamanho. Também mostra a posição e o gesto de {{term:gun-mount|pôr a arma à cara}}: levar a {{term:stock|coronha}} — a parte de trás da arma — à face e ao ombro. Começa com pratos simples e lentos, para ver progresso rapidamente e evitar maus hábitos. Mais: {{lesson:training-first-lessons-and-coach}}.",
   "intro-how-to-start-p3": "No início não precisa de arma própria. Em muitos campos pode alugar uma arma e atirar sob a supervisão de um instrutor. As leis sobre armas e munições variam entre países. Em alguns, um principiante pode atirar com uma arma do clube sob supervisão sem licença; noutros, são necessários documentos. Pergunte no campo com antecedência.",
   "intro-how-to-start-p4": "O que levar: roupa confortável para o tempo, calçado fechado e um boné. Leve um documento de identificação se o campo o pedir.",
-  "intro-how-to-start-warn": "Use {{term:safety-glasses|óculos de proteção}} e {{term:hearing-protection|proteção auditiva}} (abafadores ou {{term:earplugs|tampões auditivos}}) desde o primeiro tiro. As regras de competição tornam ambos obrigatórios. Se não tiver os seus, o campo normalmente empresta-os. Mais: {{lesson:safety-eye-ear-protection}}.",
-  "intro-how-to-start-p5": "Não se apresse a comprar uma arma. Primeiro experimente modelos diferentes e peça a opinião do seu treinador. Para as competições da FITASC precisa de uma espingarda de cano liso (sem raiado por dentro dos canos), {{fact:gear.fitasc-max-gauge}}; calibres mais estreitos, como o 20 ou o 28, também são permitidos. Os canos têm de ter {{fact:gear.fitasc-min-barrel}}, e as armas de bomba (recarregadas deslizando a corrediça) não são permitidas. Mais: {{lesson:gun-first-gun}}.",
+  "intro-how-to-start-warn": "Use {{term:safety-glasses|óculos de proteção}} e {{term:hearing-protection|proteção auditiva}} — abafadores ou {{term:earplugs|tampões auditivos}} — desde o primeiro tiro. As regras de competição tornam ambos obrigatórios. Se não tiver os seus, o campo normalmente empresta-os. Mais: {{lesson:safety-eye-ear-protection}}.",
+  "intro-how-to-start-p5": "Não se apresse a comprar uma arma. Primeiro experimente modelos diferentes e peça a opinião do seu treinador. Para as competições da FITASC precisa de uma {{term:shotgun|espingarda}} de cano liso (sem raiado por dentro dos canos), {{fact:gear.fitasc-max-gauge}}; calibres mais estreitos, como o 20 ou o 28, também são permitidos. Os canos têm de ter {{fact:gear.fitasc-min-barrel}}, e as armas de bomba (recarregadas deslizando a corrediça) não são permitidas. Mais: {{lesson:gun-first-gun}}.",
   "intro-how-to-start-p6": "Depois de algumas aulas, experimente uma {{term:club-shoot|prova de clube}} para principiantes. É uma boa forma de sentir o ambiente do desporto, conhecer pessoas e ver como trabalham os {{term:referee|árbitros}} e as {{term:squad|esquadras}}."
  },
  "note": {},
@@ -42,7 +42,7 @@
  "key_points": {
   "intro-how-to-start-kp1": "Comece num campo, com um treinador e uma aula experimental.",
   "intro-how-to-start-kp2": "Pode alugar uma arma; as leis sobre armas dependem do país.",
-  "intro-how-to-start-kp3": "Óculos de proteção e proteção auditiva desde o primeiro tiro.",
+  "intro-how-to-start-kp3": "{{term:safety-glasses|Óculos de proteção}} e proteção auditiva desde o primeiro tiro.",
   "intro-how-to-start-kp4": "Compre uma arma só depois de experimentar várias e de ouvir o seu treinador."
  },
  "did_you_know": "As armas de tiro aos pratos são muitas vezes adaptadas ao atirador: ajustam-se o comprimento e a altura da coronha para que a arma suba naturalmente. Chama-se a isto {{term:gun-fit|adaptação da coronha}}.",
@@ -72,7 +72,7 @@
     "b": "Uma sobreposta de calibre 12",
     "c": "Uma semi-automática"
    },
-   "explain": "As armas de bomba não são permitidas. Uma {{term:semi-automatic|semi-automática}} é permitida, mas só pode ser carregada com dois cartuchos no máximo."
+   "explain": "As armas de bomba não são permitidas. Uma {{term:semi-automatic|semi-automática}} é permitida, mas só pode ser carregada com dois {{term:cartridge|cartuchos}} no máximo."
   }
  }
 }

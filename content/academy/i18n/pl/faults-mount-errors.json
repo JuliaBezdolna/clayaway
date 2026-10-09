@@ -31,13 +31,13 @@
     "origin": "interpreter-academy"
   },
   "title": "Błędy złożenia się: spóźnione, twarz do broni, przechylenie",
-  "summary": "Błędy złożenia się, które powodują chybienia: spóźnione albo zbyt wczesne złożenie się, twarz idąca do broni i przechylona broń, a także przepisy o pozycji broni w {{tm:sporting}} i {{tm:compak}}.",
+  "summary": "Błędy {{term:gun-mount|złożenia się}}, które powodują chybienia: spóźnione albo zbyt wczesne złożenie się, twarz idąca do broni i przechylona broń, a także przepisy o pozycji broni w {{tm:sporting}} i {{tm:compak}}.",
   "body": {
-    "faults-mount-errors-p1": "Wiele chybień zaczyna się jeszcze przed wymachem, w złożeniu się do strzału: ruchu, który podnosi broń do policzka i ramienia. Słowa trenera są krótkie i o ciele: głowa, policzek, ramię, ręce.",
+    "faults-mount-errors-p1": "Wiele chybień zaczyna się jeszcze przed wymachem, w {{term:gun-mount|złożeniu się do strzału}}: ruchu, który podnosi broń do policzka i ramienia. Słowa trenera są krótkie i o ciele: głowa, policzek, ramię, ręce.",
     "faults-mount-errors-p2": "Spóźnione złożenie się: broń dociera do ramienia po momencie, w którym strzał powinien już paść, więc strzelec się spieszy albo strzela, zanim policzek osiądzie. Odwrotnym błędem jest złożenie się zakończone za wcześnie, po którym broń czeka nieruchomo i ciężko. Poprawka: „ruch, złożenie, strzał” (move, mount, shoot), gdzie lufy startują razem z rzutkiem, a złożenie się kończy się razem ze strzałem.",
-    "faults-mount-errors-p3": "Twarz do broni: zamiast podnieść kolbę do twarzy, strzelec opuszcza głowę jej naprzeciw. Oko trafia każdym razem w inne miejsce, a odrzut uderza w policzek. Trenerzy mówią: „podnoś broń do twarzy, nie twarz do broni”. Kolba, która osiada na ramieniu zamiast w zagłębieniu barku, też boli.",
-    "faults-mount-errors-p4": "Przechylenie (canting): broń jest przechylona w bok w chwili strzału, i strzał zbacza z linii. Często idzie w parze z opadniętym ramieniem. Poprawka: „trzymaj broń poziomo”, „obracaj się z bioder”.",
-    "faults-mount-errors-p5": "Na zawodach FITASC {{tm:sporting}} broni nie można złożyć, zanim rzutek się pojawi, więc „złóż się na tego wcześniej” to tylko ćwiczenie treningowe. Zbyt wczesne złożenie się na zawodach {{tm:sporting}} daje ostrzeżenie z żółtą kartką. W {{tm:compak}} broń może już być przy ramieniu w chwili komendy.",
+    "faults-mount-errors-p3": "Twarz do broni: zamiast podnieść {{term:stock|kolbę}} do twarzy, strzelec opuszcza głowę jej naprzeciw. Oko trafia każdym razem w inne miejsce, a {{term:recoil|odrzut}} uderza w policzek. Trenerzy mówią: „podnoś broń do twarzy, nie twarz do broni”. Kolba, która osiada na ramieniu zamiast w zagłębieniu barku, też boli.",
+    "faults-mount-errors-p4": "{{term:canting|Przechylenie}}: broń jest przechylona w bok w chwili strzału, i strzał zbacza z linii. Często idzie w parze z opadniętym ramieniem. Poprawka: „trzymaj broń poziomo”, „obracaj się z bioder”.",
+    "faults-mount-errors-p5": "Na zawodach FITASC {{tm:sporting}} broni nie można złożyć, zanim rzutek się pojawi, więc „złóż się na tego wcześniej” to tylko ćwiczenie treningowe. Zbyt wczesne złożenie się na zawodach {{tm:sporting}} daje ostrzeżenie z {{term:yellow-card|żółtą kartką}}. W {{tm:compak}} broń może już być przy ramieniu w chwili komendy.",
     "faults-mount-errors-more": "Jak działa dobre złożenie się, krok po kroku, wyjaśnia {{lesson:technique-gun-mount}}."
   },
   "note": {
@@ -80,7 +80,7 @@
         "c": "To ćwiczenie treningowe; na zawodach złożenie się następuje po tym, jak rzutek się pojawi",
         "d": "Przepis {{tm:compak}}, który dotyczy wszystkich dyscyplin FITASC"
       },
-      "explain": "{{tm:sporting}} wymaga pozycji gotowości z opuszczoną bronią, aż rzutek się pojawi; wcześniejsze złożenie się na zawodach daje ostrzeżenie z żółtą kartką."
+      "explain": "{{tm:sporting}} wymaga pozycji gotowości z opuszczoną bronią, aż rzutek się pojawi; wcześniejsze złożenie się na zawodach daje ostrzeżenie z {{term:yellow-card|żółtą kartką}}."
     },
     "faults-mount-errors-q2": {
       "q": "„Przechyliłeś broń” znaczy…",
@@ -100,7 +100,7 @@
         "c": "Zamknij jedno oko",
         "d": "Trzymaj broń niżej na ramieniu"
       },
-      "explain": "Kolba powinna podnosić się do twarzy, żeby oko było każdym razem w tym samym miejscu."
+      "explain": "{{term:stock|Kolba}} powinna podnosić się do twarzy, żeby oko było każdym razem w tym samym miejscu."
     }
   }
 }

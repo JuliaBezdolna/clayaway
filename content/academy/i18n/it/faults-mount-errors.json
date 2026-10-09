@@ -31,11 +31,11 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "faults-mount-errors-p1": "Molti errori di tiro cominciano prima dello swing, nell'imbracciata: il movimento che porta il fucile alla guancia e alla spalla. Le parole dell'istruttore per descriverla sono brevi e riguardano il corpo: testa, guancia, spalla, mani.",
-    "faults-mount-errors-p2": "Imbracciata in ritardo (late mount): il fucile arriva alla spalla dopo il momento in cui il colpo avrebbe dovuto partire, quindi il tiratore si affretta o spara prima che la guancia sia giù. Il difetto opposto è un'imbracciata completata troppo presto, dopo la quale il fucile aspetta, fermo e pesante. Rimedio: «move, mount, shoot» (muoviti, imbraccia, spara), in cui le volate partono con il piattello e l'imbracciata si completa quando parte il colpo.",
-    "faults-mount-errors-p3": "Viso al fucile (face to the gun): invece di portare il calcio al viso, il tiratore abbassa la testa per andargli incontro. L'occhio finisce ogni volta in un punto diverso e il rinculo colpisce la guancia. Gli istruttori dicono: «porta il fucile al viso, non il viso al fucile». Anche un calcio che finisce sul braccio invece che nell'incavo della spalla fa male.",
-    "faults-mount-errors-p4": "Fucile inclinato (canting): il fucile è inclinato di lato al momento dello sparo e il colpo devia dalla linea. Spesso va insieme a una spalla abbassata. Rimedio: «keep the gun level» (tieni il fucile dritto), «turn from the hips» (ruota dai fianchi).",
-    "faults-mount-errors-p5": "Nelle gare FITASC {{tm:sporting}} il fucile non può essere imbracciato prima che il piattello sia apparso, quindi «pre-mount this one» è solo un esercizio di allenamento. Imbracciare in anticipo in una gara {{tm:sporting}} comporta un avvertimento e un cartellino giallo. Nel {{tm:compak}} il fucile può già essere alla spalla al momento della chiamata.",
+    "faults-mount-errors-p1": "Molti errori di tiro cominciano prima dello swing, nella {{term:gun-mount|imbracciata}}: il movimento che porta il fucile alla guancia e alla spalla. Le parole dell'istruttore per descriverla sono brevi e riguardano il corpo: testa, guancia, spalla, mani.",
+    "faults-mount-errors-p2": "{{term:late-mount|Imbracciata in ritardo}}: il fucile arriva alla spalla dopo il momento in cui il colpo avrebbe dovuto partire, quindi il tiratore si affretta o spara prima che la guancia sia giù. Il difetto opposto è un'imbracciata completata troppo presto, dopo la quale il fucile aspetta, fermo e pesante. Rimedio: «move, mount, shoot» (muoviti, imbraccia, spara), in cui le {{term:muzzle|volate}} partono con il piattello e l'imbracciata si completa quando parte il colpo.",
+    "faults-mount-errors-p3": "Viso al fucile (face to the gun): invece di portare lo {{term:stock|calcio}} al viso, il tiratore abbassa la testa per andargli incontro. L'occhio finisce ogni volta in un punto diverso e il {{term:recoil|rinculo}} colpisce la guancia. Gli istruttori dicono: «porta il fucile al viso, non il viso al fucile». Anche un calcio che finisce sul braccio invece che nell'incavo della spalla fa male.",
+    "faults-mount-errors-p4": "{{term:canting|Fucile inclinato}}: il fucile è inclinato di lato al momento dello sparo e il colpo devia dalla linea. Spesso va insieme a una spalla abbassata. Rimedio: «keep the gun level» (tieni il fucile dritto), «turn from the hips» (ruota dai fianchi).",
+    "faults-mount-errors-p5": "Nelle gare FITASC {{tm:sporting}} il fucile non può essere imbracciato prima che il piattello sia apparso, quindi «pre-mount this one» è solo un esercizio di allenamento. Imbracciare in anticipo in una gara {{tm:sporting}} comporta un avvertimento e uno {{term:yellow-card|cartellino giallo}}. Nel {{tm:compak}} il fucile può già essere alla spalla al momento della chiamata.",
     "faults-mount-errors-more": "Come funziona una buona imbracciata, passo per passo, è nella lezione {{lesson:technique-gun-mount}}."
   },
   "note": {
@@ -78,7 +78,7 @@
         "c": "Un esercizio di allenamento; in gara si imbraccia dopo che il piattello è apparso",
         "d": "Una regola del {{tm:compak}} che vale per tutte le discipline FITASC"
       },
-      "explain": "Lo {{tm:sporting}} richiede la posizione di attesa con il fucile basso finché il piattello non appare; un'imbracciata anticipata in gara comporta un avvertimento con cartellino giallo."
+      "explain": "Lo {{tm:sporting}} richiede la {{term:ready-position|posizione di attesa}} con il fucile basso finché il piattello non appare; una {{term:gun-mount|imbracciata}} anticipata in gara comporta un avvertimento con {{term:yellow-card|cartellino giallo}}."
     },
     "faults-mount-errors-q2": {
       "q": "«You canted the gun» significa…",
@@ -98,9 +98,9 @@
         "c": "Chiudi un occhio",
         "d": "Tieni il fucile più in basso sul braccio"
       },
-      "explain": "Il calcio deve salire fino al viso, così l'occhio è ogni volta nello stesso punto."
+      "explain": "Lo {{term:stock|calcio}} deve salire fino al viso, così l'occhio è ogni volta nello stesso punto."
     }
   },
   "title": "Errori di imbracciata: in ritardo, viso al fucile, fucile inclinato",
-  "summary": "Errori di imbracciata che causano errori di tiro: imbracciata in ritardo o anticipata, il viso che va verso il fucile e il fucile inclinato, più le regole sulla posizione del fucile in {{tm:sporting}} e {{tm:compak}}."
+  "summary": "Errori di {{term:gun-mount|imbracciata}} che causano errori di tiro: imbracciata in ritardo o anticipata, il viso che va verso il fucile e il fucile inclinato, più le regole sulla {{term:gun-position|posizione del fucile}} in {{tm:sporting}} e {{tm:compak}}."
 }

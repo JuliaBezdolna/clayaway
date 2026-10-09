@@ -38,8 +38,8 @@
   "title": "Stand: wie man auf dem Standplatz steht",
   "summary": "Füße, Gewicht, Knie und Körperdrehung: ein einfacher, kompakter Stand, mit dem sich die Flinte ruhig mit der Scheibe mitführen lässt.",
   "body": {
-    "basics-stance-p1": "Der Stand (stance) ist die Art, wie der Schütze vor dem Schuss steht. Der Platz ist klein: In {{tm:sporting}} ist der Standplatz ein Quadrat oder Kreis von 1 m, und beide Füße müssen vor dem Abruf darin stehen. In {{tm:compak}} ist jede Position ein Quadrat von 1 m mit einem Schusswinkelbegrenzer (Firing Angle Limiter): einem Rahmen, der den Schützen daran hindert, nach vorn zu treten, und der den Schwenkbereich der Flinte begrenzt.",
-    "basics-stance-p3": "Die wichtigste Anweisung: Richten Sie den vorderen Fuß auf die {{term:break-point|Trefferzone}} aus, die Stelle, an der Sie die Scheibe treffen wollen. Dann steht der Körper im Moment des Schusses entspannt und genau richtig zur Schussrichtung. Drehen Sie den Oberkörper vor dem Abruf aus der Hüfte zurück zum {{term:hold-point|Waffenhaltepunkt}}, dem Ort, an dem die Läufe auf die Scheibe warten. Fliegt die Scheibe, drehen Sie sich einfach denselben Weg zurück, wie eine Feder, die sich entspannt. Zeigen die Füße stattdessen zur Wurfmaschine, warnen Trainer, reicht die Drehung des Körpers nicht bis zur Trefferzone, und die Flinte bleibt stehen, oder der Kopf hebt sich.",
+    "basics-stance-p1": "Der {{term:stance|Stand}} ist die Art, wie der Schütze vor dem Schuss steht. Der Platz ist klein: In {{tm:sporting}} ist der {{term:shooting-stand|Standplatz}} ein Quadrat oder Kreis von 1 m, und beide Füße müssen vor dem Abruf darin stehen. In {{tm:compak}} ist jede Position ein Quadrat von 1 m mit einem {{term:firing-angle-limiter|Schusswinkelbegrenzer}}: einem Rahmen, der den Schützen daran hindert, nach vorn zu treten, und der den Schwenkbereich der Flinte begrenzt.",
+    "basics-stance-p3": "Die wichtigste Anweisung: Richten Sie den vorderen Fuß auf die {{term:break-point|Trefferzone}} aus, die Stelle, an der Sie die Scheibe treffen wollen. Dann steht der Körper im Moment des Schusses entspannt und genau richtig zur Schussrichtung. Drehen Sie den Oberkörper vor dem Abruf aus der Hüfte zurück zum {{term:hold-point|Waffenhaltepunkt}}, dem Ort, an dem die Läufe auf die Scheibe warten. Fliegt die Scheibe, drehen Sie sich einfach denselben Weg zurück, wie eine Feder, die sich entspannt. Zeigen die Füße stattdessen zur {{term:trap|Wurfmaschine}}, warnen Trainer, reicht die Drehung des Körpers nicht bis zur Trefferzone, und die Flinte bleibt stehen, oder der Kopf hebt sich.",
     "basics-stance-p2": "Die übliche Grundstellung: Füße etwa schulterbreit, beim Rechtshänder der linke Fuß leicht vorn (beim Linkshänder spiegelverkehrt). Die Knie sind locker, nicht durchgestreckt. Das Gewicht liegt leicht vorn, etwa 60 Prozent auf dem vorderen Fuß. Trainer sagen „nose over toes“ – die Nase über den Zehen.",
     "basics-stance-p4": "Der Körper dreht sich aus der Hüfte, nicht aus den Armen. Die Füße können für jede Scheibe etwas anders stehen.",
     "technique-stance-balance": "Ein guter Stand hält das Gleichgewicht, während sich der Körper mit der Scheibe dreht. Die leichte Neigung nach vorn hilft außerdem, den {{term:recoil|Rückstoß}} aufzunehmen, statt nach hinten gedrückt zu werden; mehr dazu in {{lesson:health-recoil-shoulder-neck}}.",
@@ -79,10 +79,10 @@
     "basics-stance-q1": {
       "q": "Wohin soll der vordere Fuß nach Wunsch des Trainers meistens zeigen?",
       "options": {
-        "a": "Zur Wurfmaschine",
-        "b": "Zum Augenaufnahmepunkt",
+        "a": "Zur {{term:trap|Wurfmaschine}}",
+        "b": "Zum {{term:pick-up-point|Augenaufnahmepunkt}}",
         "c": "Zum Schiedsrichter",
-        "d": "Zur Trefferzone"
+        "d": "Zur {{term:break-point|Trefferzone}}"
       },
       "explain": "Stehen die Füße zur Trefferzone, bleibt der Körper dort entspannt, wo der Schuss fällt. Zeigen die Füße zur Wurfmaschine, reicht die Drehung des Körpers nicht bis zur Trefferzone."
     },
@@ -94,7 +94,7 @@
         "c": "Füße geschlossen",
         "d": "Keine Anforderung"
       },
-      "explain": "Die Regel zur Bereitschaftsstellung verlangt, dass beide Füße innerhalb des 1-m-Standplatzes stehen, bevor der Schütze abruft."
+      "explain": "Die Regel zur {{term:ready-position|Bereitschaftsstellung}} verlangt, dass beide Füße innerhalb des 1-m-Standplatzes stehen, bevor der Schütze abruft."
     },
     "basics-stance-q3": {
       "q": "Ein Linkshänder. Der Trainer sagt „Open your front foot“. Welcher Fuß ist gemeint?",

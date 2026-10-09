@@ -45,29 +45,29 @@
     "origin": "interpreter-academy"
   },
   "title": "Dzień zawodów od początku do końca",
-  "summary": "Co się dzieje w dniu zawodów w {{tm:sporting}} i {{tm:compak}}: rejestracja, twój numer, grupy i kolejność, spóźnienia, wyniki i koniec dnia.",
+  "summary": "Co się dzieje w dniu zawodów w {{tm:sporting}} i {{tm:compak}}: rejestracja, twój numer, {{term:squad|grupy}} i kolejność, spóźnienia, wyniki i koniec dnia.",
   "body": {
-    "sport-competition-day-p1": "Dzień zaczyna się od rejestracji: strzelec potwierdza {{term:entry|zgłoszenie}}, otrzymuje {{term:competitor-number|numer startowy}} i przypina go na górnej części pleców, w pełni widoczny. Potem wszyscy sprawdzają listy {{term:squad|grup}} i {{term:shooting-times|godziny strzelania}}. Grupa (squad) to maksymalnie sześciu strzelców, wylosowanych do wspólnego strzelania. Pilnowanie harmonogramu to obowiązek samego strzelca.",
-    "competitions-competition-day-p1": "Przyjedź wcześniej: rejestracja, znalezienie swojej grupy i przygotowanie zajmują czas. {{term:competitor-number|Numer}} startowy mocuje się między łopatkami i pasem, nie składając go i nie przycinając. Załóż {{term:hearing-protection|ochronniki słuchu}} i {{term:safety-glasses|okulary strzeleckie}}, zanim wejdziesz na stanowisko. W obu dyscyplinach strzelca bez nich uznaje się za nieobecnego i stosuje się do niego przepisy o spóźnieniu (patrz niżej).",
+    "sport-competition-day-p1": "Dzień zaczyna się od rejestracji: strzelec potwierdza {{term:entry|zgłoszenie}}, otrzymuje {{term:competitor-number|numer startowy}} i przypina go na górnej części pleców, w pełni widoczny. Potem wszyscy sprawdzają listy {{term:squad|grup}} i {{term:shooting-times|godziny strzelania}}. {{term:squad|Grupa}} to maksymalnie sześciu strzelców, wylosowanych do wspólnego strzelania. Pilnowanie harmonogramu to obowiązek samego strzelca.",
+    "competitions-competition-day-p1": "Przyjedź wcześniej: rejestracja, znalezienie swojej grupy i przygotowanie zajmują czas. {{term:competitor-number|Numer startowy}} mocuje się między łopatkami i pasem, nie składając go i nie przycinając. Załóż {{term:hearing-protection|ochronniki słuchu}} i {{term:safety-glasses|okulary strzeleckie}}, zanim wejdziesz na stanowisko. W obu dyscyplinach strzelca bez nich uznaje się za nieobecnego i stosuje się do niego przepisy o spóźnieniu (patrz niżej).",
     "competitions-competition-day-p2": "Ubierz się schludnie i bezpiecznie: szorty mogą kończyć się {{fact:rules.dress-shorts-length}}, góra musi mieć rękawy, a sandały są zakazane. Noś broń otwartą (złamaną w zawiasie, żeby każdy widział, że nie jest naładowana) i bez pasa. {{term:semi-automatic|Półautomat}} nosi się z otwartą komorą (zamkiem odciągniętym do tyłu). Wszystkie przepisy: {{lesson:rules-dress-and-safety}}.",
     "competitions-competition-day-p3": "Chcesz sprawdzić, czy broń działa? Zrób to przed serią, na specjalnym {{term:gun-test|stanowisku do strzału próbnego}}, jeśli strzelnica je ma. Strzały próbne na stanowisku zawodów są zakazane.",
     "competitions-competition-day-practice": {
       "sporting": "Nikomu nie wolno trenować na osiach zawodów przed ich rozpoczęciem. Trenuj na innych strzelnicach.",
-      "compak": "{{term:practice|Trenować}} można na tych samych lotach rzutków (trajektoriach), co na zawodach, ale według innej {{term:trajectory-setting-table|tabeli ustawień trajektorii}}. Ta tabela to schemat, który określa, z których maszynek strzela się na każdym stanowisku. Na mistrzostwach kontynentu i świata oficjalny trening zaczyna się {{fact:training.compak-championship-practice}}."
+      "compak": "{{term:practice|Trening}} jest dozwolony na tych samych lotach rzutków (trajektoriach), co na zawodach, ale według innej {{term:trajectory-setting-table|tabeli ustawień trajektorii}}. Ta tabela to schemat, który określa, z których maszynek strzela się na każdym stanowisku. Na mistrzostwach kontynentu i świata oficjalny trening zaczyna się {{fact:training.compak-championship-practice}}."
     },
-    "sport-competition-day-p2": "W {{tm:sporting}} grupa strzela najpierw wszystkie {{term:single-target|rzutki pojedyncze}} stanowiska, potem {{term:double|dublety}}, a na każdym nowym stanowisku pierwszy strzela inny zawodnik ({{term:rotation|kolejność strzelania}} się zmienia). Zanim ktokolwiek zacznie strzelać, pierwszemu strzelcowi grupy pokazuje się rzutki: każdy wypuszcza się tak, by było widać, jak leci.",
+    "sport-competition-day-p2": "W {{tm:sporting}} grupa strzela najpierw wszystkie {{term:single-target|rzutki pojedyncze}} stanowiska, potem {{term:double|dublety}}, a na każdym nowym stanowisku pierwszy strzela inny zawodnik, bo zmienia się {{term:rotation|kolejność strzelania}}. Zanim ktokolwiek zacznie strzelać, pierwszemu strzelcowi grupy pokazuje się rzutki: każdy wypuszcza się tak, by było widać, jak leci.",
     "competitions-competition-day-p5": "Gdy {{tm:compak}} strzela się grupowo, pełna grupa liczy sześciu strzelców: pięciu stoi na pięciu stanowiskach, a szósty czeka za stanowiskiem 1. Gdy strzelców jest mniej, jedno stanowisko zostaje puste. Gdy wszyscy odstrzelają swoje rzutki ze swojego stanowiska, grupa przesuwa się o jedno stanowisko w prawo. Strzelec ze stanowiska 5 idzie czekać za stanowisko 1, a ten, który czekał, wchodzi na stanowisko 1. Tak trwa, aż każdy odstrzela z wszystkich pięciu stanowisk. Przed swoją serią przyjdź na przypisane ci pole Compak i zgłoś się do sędziego: to obowiązkowe. W {{term:compak-in-line|Compak in line}} strzelcy nie przesuwają się grupą: wchodzą pojedynczo na stanowisko 1 i przechodzą linię do stanowiska 5.",
-    "competitions-competition-day-ready": "Gdy przyjdzie twoja kolej, bądź gotowy od razu, z nabojami na całą serię. W {{tm:compak}} sędzia nie musi szukać nieobecnego strzelca. Jak zbudowane są stanowiska: {{lesson:targets-sporting-layout}} i {{lesson:targets-compak-layout}}.",
+    "competitions-competition-day-ready": "Gdy przyjdzie twoja kolej, bądź gotowy od razu, z nabojami na całą {{term:round|serię}}. W {{tm:compak}} sędzia nie musi szukać nieobecnego strzelca. Jak zbudowane są stanowiska: {{lesson:targets-sporting-layout}} i {{lesson:targets-compak-layout}}.",
     "sport-competition-day-p3": "{{term:round|Seria}} to 25 rzutków: jedna {{term:layout|oś}} w {{tm:sporting}} albo jedno pole w {{tm:compak}}. Zawody międzynarodowe to 200 rzutków, czyli osiem serii w ciągu kilku dni. Sędzia zaznacza każdy rzutek w {{term:score-sheet|karcie wyników}}, zwykle X — trafienie, O — pudło. W {{tm:sporting}} strzelcy sprawdzają wynik, schodząc ze stanowiska, a w {{tm:compak}} podpisują kartę na koniec serii.",
     "sport-competition-day-p4": "Spóźnienie drogo kosztuje. W {{tm:sporting}} sędzia wywołuje nazwisko strzelca trzy razy w ciągu jednej minuty; kto przegapi swoją kolej, dostaje zera za nieodstrzelane rzutki. W {{tm:compak}} strzelec, który przyjdzie, gdy pierwszy strzelec grupy już zawołał o pierwszy rzutek (poprosił o jego wypuszczenie), dostaje {{fact:competitions.compak-late-zeros}}.",
     "competitions-competition-day-late-inline": "W {{term:compak-in-line|Compak in line}} liczysz się za spóźnionego, gdy zdarzą się dwie rzeczy: system komputerowy anulował twój numer startowy, a następny strzelec stoi na stanowisku 1. Kara jest ta sama: {{fact:competitions.compak-late-zeros}}.",
     "competitions-competition-day-late": "Spóźniłeś się z przyczyny, na którą nie miałeś wpływu? Nie wracaj do grupy samodzielnie: odwołaj się pisemnie do {{term:jury|jury}} (organu zarządzającego zawodami), w {{tm:compak}} tego samego dnia. Jeśli jury się zgodzi, odstrzelasz serię z inną grupą. Szczegóły: {{lesson:rules-call-and-time}}.",
-    "sport-competition-day-p5": "Jeśli strzelcy remisują o jedno z pierwszych trzech miejsc, remis rozstrzyga {{fact:competitions.shoot-off-format}}. W sudden death strzelają dalej, i pierwszy, który chybi, odpada. Poniżej trzeciego miejsca dogrywki nie ma: zremisowani strzelcy dzielą miejsce. Ich kolejność na liście ustala {{term:countback|countback}}: ich wyniki porównuje się {{fact:competitions.countback-order}}. Dzień kończy się tablicą wyników i {{term:prize-giving|dekoracją}}.",
+    "sport-competition-day-p5": "Jeśli strzelcy remisują o jedno z pierwszych trzech miejsc, remis rozstrzyga {{fact:competitions.shoot-off-format}}. W sudden death strzelają dalej, i pierwszy, który chybi, odpada. Poniżej trzeciego miejsca {{term:shoot-off|dogrywki}} nie ma: zremisowani strzelcy dzielą miejsce. Ich kolejność na liście ustala {{term:countback|countback}}: ich wyniki porównuje się {{fact:competitions.countback-order}}. Dzień kończy się tablicą wyników i {{term:prize-giving|dekoracją}}.",
     "competitions-competition-day-end": "Możesz trafić do dogrywki? Bądź w pobliżu i w zasięgu kontaktu: strzelać może trzeba będzie {{fact:rules.shootoff-ready-time}}. Na zawodach międzynarodowych każdy zdobywca nagrody musi być na {{term:prize-giving|dekoracji}} — w stroju reprezentacji albo w schludnych spodniach i blezerze. Jak czytać wyniki: {{lesson:watching-reading-results}}."
   },
   "note": {
     "competitions-competition-day-n1": "Wyjazdy ClayAway, które są w przygotowaniu, też będą używać słowa „squad” dla podgrupy wyjazdu. Na zawodach oznacza ono zawsze grupę strzelającą razem, więc precyzuj, o które znaczenie chodzi.",
-    "competitions-competition-day-n-parent": "Oglądaj z miejsca dla widzów i zachowuj spokój w pobliżu stanowiska. Rada wykrzyczana podczas serii liczy się jako {{term:coaching|podpowiadanie}} (coaching): sędzia może za to dać dziecku żółtą kartkę. Więcej: {{lesson:juniors-support-without-pressure}}."
+    "competitions-competition-day-n-parent": "Oglądaj z miejsca dla widzów i zachowuj spokój w pobliżu stanowiska. Rada wykrzyczana podczas serii liczy się jako {{term:coaching|podpowiadanie}}: sędzia może za to dać dziecku {{term:yellow-card|żółtą kartkę}}. Więcej: {{lesson:juniors-support-without-pressure}}."
   },
   "phrases": {
     "sport-competition-day-ph1": {
@@ -97,7 +97,7 @@
   "did_you_know": "W {{tm:sporting}} grupa czeka jak najbliżej stanowiska, ale w miejscu, które nie przeszkadza strzelającemu.",
   "quiz": {
     "competitions-competition-day-q-protection": {
-      "q": "Co się stanie, jeśli przyjdziesz na stanowisko bez ochronników słuchu albo okularów strzeleckich?",
+      "q": "Co się stanie, jeśli przyjdziesz na stanowisko bez {{term:hearing-protection|ochronników słuchu}} albo {{term:safety-glasses|okularów strzeleckich}}?",
       "options": {
         "a": "Możesz strzelać, ale dostaniesz ostrzeżenie",
         "b": "Jesteś uznawany za nieobecnego i nie możesz strzelać",
@@ -118,14 +118,14 @@
       "q": "W {{tm:compak}} strzelanym grupowo strzelec przychodzi po tym, jak pierwszy strzelec zawołał o pierwszy rzutek. Co się stanie?",
       "options": {
         "a": "Nic, dołącza",
-        "b": "Dostaje 25 zer za tę serię",
-        "c": "Strzela serię później sam, bez kary",
+        "b": "Dostaje 25 zer za tę {{term:round|serię}}",
+        "c": "Strzela {{term:round|serię}} później sam, bez kary",
         "d": "Traci jeden rzutek"
       },
       "explain": "W {{tm:compak}} strzelanym grupowo przyjście po pierwszym wywołaniu kosztuje {{fact:competitions.compak-late-zeros}}. Z przyczyny, na którą nie miałeś wpływu, możesz tego samego dnia odwołać się pisemnie do jury."
     },
     "competitions-competition-day-q1": {
-      "q": "Ile najwięcej strzelców liczy grupa?",
+      "q": "Ile najwięcej strzelców liczy {{term:squad|grupa}}?",
       "options": {
         "a": "4",
         "b": "6",
@@ -141,7 +141,7 @@
         "c": "Dzielą je; kolejność ustala countback od 8. osi lub Compak",
         "d": "Według wieku, młodszy wyżej"
       },
-      "explain": "Dogrywki są tylko za pierwszą trójkę. Niżej zremisowani strzelcy dzielą miejsce, a countback porównuje 8. oś lub Compak, potem 7. i tak dalej."
+      "explain": "{{term:shoot-off|Dogrywki}} są tylko za pierwszą trójkę. Niżej zremisowani strzelcy dzielą miejsce, a countback porównuje 8. oś lub Compak, potem 7. i tak dalej."
     },
     "competitions-competition-day-q-inline-late": {
       "q": "W Compak in line, kiedy liczysz się za spóźnionego?",
@@ -159,7 +159,7 @@
         "b": "Zamkniętą i nienaładowaną, na pasie przez ramię",
         "c": "Zamkniętą, na bezpieczniku, lufami do ziemi"
       },
-      "explain": "Broń nosi się otwartą, a pasy są zakazane; półautomat nosi się z otwartą komorą."
+      "explain": "Broń nosi się otwartą, a pasy są zakazane; {{term:semi-automatic|półautomat}} nosi się z otwartą komorą."
     }
   }
 }

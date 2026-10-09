@@ -1301,15 +1301,15 @@ window.GLOSSARY_I18N.fi = {
    "long": "Ampuja saa kieltäytyä vain kiekosta, jota hän ei pyytänyt. Sportingissa oikea kiekko, jota ampuja ei ampunut, kirjataan zeroksi; yhtäaikaisessa tai peräkkäisessä kaksoiskiekossa zero ja zero. Compakissa kieltäytyminen rangaistaan kohdan 21.5 mukaan: yksittäiskiekko zero; laukauksesta lähtevän kaksoiskiekon ensimmäinen kiekko zero, ja kaksoiskiekko heitetään uudelleen toisen tuloksen ratkaisemiseksi; yhtäaikainen kaksoiskiekko zero-zero."
   },
   "hang-fire": {
-   "term_local": "patruuna ei laukea",
+   "term_local": "viivästynyt laukeaminen",
    "alt": [
-    "laukeamaton patruuna",
-    "klikki"
+    "viivästynyt laukaus"
    ],
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
    "short": "Viivästynyt laukaus: patruuna laukeaa jonkin aikaa liipaisimen painamisen jälkeen. Siksi häiriön saanutta asetta ei avata heti.",
-   "long": "Viivästynyt laukeaminen on harvinaista mutta vaarallista: liipaisinta painettaessa mitään ei tapahdu, ja hetkeä myöhemmin patruuna kuitenkin laukeaa. Jos avaisit aseen sillä hetkellä, hylsy voi revetä kasvojen ja käsien lähellä. Pidä siksi jokaisen häiriön jälkeen ase olalla tai ainakin turvalliseen suuntaan ja odota; monet ohjaajat neuvovat odottamaan noin 30 sekuntia. FITASCin kilpailuissa asetta ei häiriön jälkeen avata eikä varmistimeen kosketa, ennen kuin tuomari on tarkastanut sen, muuten kiekko lasketaan menetetyksi. Tässä turvallisuus- ja tuomarointisäännöt ovat yhtä."
+   "long": "Viivästynyt laukeaminen on harvinaista mutta vaarallista: liipaisinta painettaessa mitään ei tapahdu, ja hetkeä myöhemmin patruuna kuitenkin laukeaa. Jos avaisit aseen sillä hetkellä, hylsy voi revetä kasvojen ja käsien lähellä. Pidä siksi jokaisen häiriön jälkeen ase olalla tai ainakin turvalliseen suuntaan ja odota; monet ohjaajat neuvovat odottamaan noin 30 sekuntia. FITASCin kilpailuissa asetta ei häiriön jälkeen avata eikä varmistimeen kosketa, ennen kuin tuomari on tarkastanut sen, muuten kiekko lasketaan menetetyksi. Tässä turvallisuus- ja tuomarointisäännöt ovat yhtä.",
+   "note": "'Patruuna ei laukea' is a misfire; a delayed shot is 'viivästynyt laukeaminen'."
   },
   "shooting-stand": {
    "term_local": "ampumapaikka",

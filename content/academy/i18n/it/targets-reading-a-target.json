@@ -29,12 +29,12 @@
     "origin": null
   },
   "title": "Come «leggere» un piattello",
-  "summary": "Cosa guardare durante la presentazione dei piattelli: dove appare un piattello, dove va, dove lo romperai e cosa non devi fare.",
+  "summary": "Cosa guardare durante la {{term:target-presentation|presentazione dei piattelli}}: dove appare un piattello, dove va, dove lo romperai e cosa non devi fare.",
   "body": {
     "targets-reading-a-target-p1": "«Leggere» un piattello significa capire, prima di tirare, come vola: dove appare, quanto velocemente si muove, dove gira, sale o scende. I tiratori esperti lo fanno a ogni pedana, ed è spesso quello che fa la differenza tra un colpo a segno e un errore. Conta sia nello {{tm:sporting}} sia nel {{tm:compak}}.",
-    "targets-reading-a-target-p2": "Comincia dal {{term:target-menu|menu}}: quali macchine, in quale ordine, e se ci sono piattelli speciali. Poi osserva con attenzione mentre i piattelli vengono mostrati (la {{term:target-presentation|presentazione}}). Nello {{tm:sporting}} i piattelli di una pedana si mostrano prima del tiro al primo tiratore della batteria. I doppi allo sparo non si mostrano. Il {{tm:compak}} ha un modo proprio di mostrare i piattelli. I dettagli sono in {{lesson:rules-viewing-targets}}.",
-    "targets-reading-a-target-p3": "Fai a te stesso domande semplici. Dove vedo per la prima volta il piattello con chiarezza? Questo è il tuo {{term:pick-up-point|punto di presa}} (pick-up point), dove gli occhi cominciano a seguirlo. Dove è più facile romperlo? Questo è il tuo {{term:break-point|punto di rottura}} (break point). Lì il piattello dovrebbe essere ancora ben visibile, non in caduta dietro gli alberi o in volo oltre un {{term:shooting-limit|limite di tiro}}.",
-    "targets-reading-a-target-points": "Come funzionano insieme il {{term:hold-point|punto di attesa}} (hold point), il punto di presa e il punto di rottura è spiegato in {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p2": "Comincia dal {{term:target-menu|menu}}: quali {{term:trap|macchine}}, in quale ordine, e se ci sono piattelli speciali. Poi osserva con attenzione mentre i piattelli vengono mostrati — la {{term:target-presentation|presentazione}}. Nello {{tm:sporting}} i piattelli di una pedana si mostrano prima del tiro al primo tiratore della batteria. I {{term:double-on-report|doppi allo sparo}} non si mostrano. Il {{tm:compak}} ha un modo proprio di mostrare i piattelli. I dettagli sono in {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Fai a te stesso domande semplici. Dove vedo per la prima volta il piattello con chiarezza? Questo è il tuo {{term:pick-up-point|punto di presa}}, dove gli occhi cominciano a seguirlo. Dove è più facile romperlo? Questo è il tuo {{term:break-point|punto di rottura}}. Lì il piattello dovrebbe essere ancora ben visibile, non in caduta dietro gli alberi o in volo oltre uno {{term:shooting-limit|limite di tiro}}.",
+    "targets-reading-a-target-points": "Come funzionano insieme l'{{term:hold-point|punto di attesa}}, il {{term:pick-up-point|punto di presa}} e il {{term:break-point|punto di rottura}} è spiegato in {{lesson:technique-hold-pickup-break-points}}.",
     "targets-reading-a-target-p4": "Nota velocità, distanza e angolo, e cosa sta facendo il piattello: sale, rallenta o cade. Il vento può alzare un piattello o spingerlo giù, e una linea di alberi scura o un cielo luminoso cambiano come lo vedi. Un piattello che rallenta richiede meno {{term:lead|anticipo}} di uno a piena velocità.",
     "targets-reading-a-target-p5": "Guarda come tirano gli altri, ma pensa con la tua testa: ogni tiratore ha il proprio tempo. Mentre i piattelli vengono mostrati, molti istruttori suggeriscono di seguirli solo con gli occhi.",
     "targets-reading-a-target-mock": {
@@ -49,13 +49,13 @@
     "targets-reading-a-target-kp1": "Prima il menu, poi osserva con attenzione la presentazione dei piattelli.",
     "targets-reading-a-target-kp2": "Trova dove vedi per la prima volta il piattello con chiarezza e dove lo romperai.",
     "targets-reading-a-target-kp3": "Nota velocità, angolo, vento, sfondo e se il piattello sta rallentando.",
-    "targets-reading-a-target-kp4": "Segui solo con gli occhi; nello {{tm:sporting}} la simulazione di tiro non è ammessa in nessun punto del campo, nel {{tm:compak}} fuori dalle pedane e mentre tira qualcun altro.",
-    "targets-reading-a-target-kp5": "Classi di difficoltà {{tm:sporting}}: {{fact:targets.sporting-difficulty-classes}}."
+    "targets-reading-a-target-kp4": "Segui solo con gli occhi; nello {{tm:sporting}} la {{term:mock-shooting|simulazione di tiro}} non è ammessa in nessun punto del campo, nel {{tm:compak}} fuori dalle pedane e mentre tira qualcun altro.",
+    "targets-reading-a-target-kp5": "{{term:difficulty-class|Classi di difficoltà}} {{tm:sporting}}: {{fact:targets.sporting-difficulty-classes}}."
   },
-  "did_you_know": "Nello {{tm:sporting}} i doppi allo sparo non si mostrano, ma hai già visto entrambi i piattelli: i doppi sono fatti solo di piattelli già mostrati come singoli dalla stessa pedana.",
+  "did_you_know": "Nello {{tm:sporting}} i doppi allo sparo non si mostrano, ma hai già visto entrambi i piattelli: i {{term:double|doppi}} sono fatti solo di piattelli già mostrati come singoli dalla stessa pedana.",
   "quiz": {
     "targets-reading-a-target-q1": {
-      "q": "Cos'è il punto di rottura (break point)?",
+      "q": "Cos'è il {{term:break-point|punto di rottura}}?",
       "options": {
         "a": "Dove pensi di rompere il piattello",
         "b": "Dove sta la macchina che lo lancia",
@@ -64,7 +64,7 @@
       "explain": "Il punto di rottura è il punto sulla traiettoria che scegli in anticipo."
     },
     "targets-reading-a-target-q2": {
-      "q": "Nello {{tm:sporting}}, durante la presentazione dei piattelli, puoi imbracciare il fucile e seguirne la linea?",
+      "q": "Nello {{tm:sporting}}, durante la {{term:target-presentation|presentazione dei piattelli}}, puoi imbracciare il fucile e seguirne la linea?",
       "options": {
         "a": "Sì, è una buona preparazione",
         "b": "No, è simulazione di tiro",

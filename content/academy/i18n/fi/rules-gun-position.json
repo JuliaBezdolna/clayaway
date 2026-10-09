@@ -63,7 +63,7 @@
  },
  "phrases": {
   "sporting-gun-position-ph1": {
-   "meaning": "Tuomari: tuo tukki liivin merkkiviivan alapuolelle ennen kiekon pyytämistä.",
+   "meaning": "Tuomari: tuo {{term:stock|tukki}} liivin merkkiviivan alapuolelle ennen kiekon pyytämistä.",
    "say": "Ase alas, kiitos."
   },
   "sporting-gun-position-ph2": {
@@ -131,7 +131,7 @@
    "options": {
     "a": "Kiekko merkitään nollaksi",
     "b": "Suullinen varoitus ja keltainen kortti",
-    "c": "Uusi kiekko (No Bird) eikä muuta",
+    "c": "Uusi kiekko eikä muuta",
     "d": "Kilpailusta sulkeminen"
    },
    "explain": "Ensimmäinen aseen asentoa koskeva rike on suullinen varoitus, jota tukee keltainen kortti."
@@ -140,7 +140,7 @@
    "q": "Sama rataosuus, kaksi ampumapaikkaa myöhemmin: sama ampuja pyytää yksittäiskiekkoa tukki liivin viivan yläpuolella. Ratkaisu?",
    "options": {
     "a": "Uusi keltainen kortti",
-    "b": "Uusi kiekko (No Bird)",
+    "b": "Uusi kiekko",
     "c": "Punainen kortti, ja kiekko uusitaan",
     "d": "Punainen kortti, ja yksittäiskiekko merkitään nollaksi"
    },
@@ -167,7 +167,7 @@
    "explain": "{{tm:compak}}-lajissa saa pyytää kiekkoa ase ylhäällä tai alhaalla, mutta joka kiekko täytyy ampua ase olalla."
   },
   "gear-protection-clothes-q2": {
-   "q": "{{tm:sporting}}-ampuja käyttää Monte Carlo -tukkia, jossa on korotettu poskipakka. Pätee liivin viiva -sääntö?",
+   "q": "{{tm:sporting}}-ampuja käyttää Monte Carlo -tukkia, jossa on korotettu {{term:comb|poskipakka}}. Pätee liivin viiva -sääntö?",
    "options": {
     "a": "Kyllä, se koskee kaikkia tukkityyppejä",
     "b": "Ei, vain vakiotukkeja",

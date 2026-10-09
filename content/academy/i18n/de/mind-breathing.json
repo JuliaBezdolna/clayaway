@@ -34,14 +34,14 @@
     "origin": null
   },
   "title": "Atmung: was Sie wann tun",
-  "summary": "Langsames Atmen beruhigt den Körper, aber das Timing zählt. Was Sie an Trainingstagen, vor dem Standplatz, beim Abruf und nach einem Fehlschuss versuchen können.",
+  "summary": "Langsames Atmen beruhigt den Körper, aber das Timing zählt. Was Sie an Trainingstagen, vor dem Standplatz, beim {{term:call|Abruf}} und nach einem Fehlschuss versuchen können.",
   "body": {
     "mind-breathing-p1": "Unter Stress reagiert Ihr Körper von selbst: Das Herz schlägt schneller, die Atmung wird flach. Die Atmung ist einer der wenigen Teile davon, die Sie direkt steuern können. Viele Studien zeigen, dass langsames Atmen, {{fact:mind.slow-breathing-rate}}, den Körper beruhigt: Der Herzschlag findet einen ruhigeren, flexibleren Rhythmus (Forscher messen das als Herzratenvariabilität).",
     "mind-breathing-p2": "Ob es das Ergebnis verbessert, ist viel weniger klar. Kleine Studien mit Sportschützen und eine Studie mit Polizeipistolenschützen fanden einen Nutzen, aber eine Studie in {{tm:sporting}} oder {{tm:compak}} haben wir nicht gefunden.",
     "mind-breathing-steps": [
       "Trainingstage: 5–10 Minuten langsames Atmen, {{fact:mind.slow-breathing-rate}}, zum Beispiel 4 Sekunden ein- und 6 Sekunden ausatmen.",
       "2–5 Minuten vor dem Standplatz: 6–10 langsame Atemzüge, mit einem längeren Ausatmen, wenn sich das angenehm anfühlt.",
-      "In der {{term:pre-shot-routine|Routine}}, kurz vor dem Abruf: ein natürlicher Ausatmer und lockere Schultern, dann der {{term:call|Abruf}}.",
+      "In der {{term:pre-shot-routine|Routine}}, kurz vor dem {{term:call|Abruf}}: ein natürlicher Ausatmer und lockere Schultern, dann der {{term:call|Abruf}}.",
       "Nach einer verlorenen Scheibe: ein langsamer Ausatmer als Signal zum Zurücksetzen."
     ],
     "mind-breathing-p3": "Üben Sie langsames Atmen an gewöhnlichen Tagen, lernt Ihr Körper, sich schneller zu beruhigen, sodass es am Wettkampftag vielleicht leichter fällt. Ein Pulssensor, der Ihren Herzrhythmus live anzeigt (das nennt man Biofeedback), kann helfen, ist aber nicht nötig.",
@@ -67,7 +67,7 @@
   "did_you_know": "Langsames Atmen, {{fact:mind.slow-breathing-rate}}, wird manchmal Resonanzatmung genannt: In diesem Tempo steigen und fallen Puls und Atmung meist gemeinsam.",
   "quiz": {
     "mind-breathing-q1": {
-      "q": "Was können Sie kurz vor dem Abruf versuchen?",
+      "q": "Was können Sie kurz vor dem {{term:call|Abruf}} versuchen?",
       "options": {
         "a": "Zehn langsame Atemzüge, sechs pro Minute",
         "b": "Ein natürlicher Ausatmer, Schultern locker",
@@ -76,7 +76,7 @@
       "explain": "Langes, langsames Atmen direkt vor dem Abruf kann die Reaktion verlangsamen; langsames Atmen gehört vor den Standplatz."
     },
     "mind-competition-nerves-q1": {
-      "q": "Was sagt die Forschung über Box-Atmung?",
+      "q": "Was sagt die Forschung über {{term:box-breathing|Box-Atmung}}?",
       "options": {
         "a": "Sie wirkt deutlich besser als andere Methoden",
         "b": "Sie ist bei Wettkämpfen nicht erlaubt",
@@ -91,7 +91,7 @@
         "b": "Bis unmittelbar zum Moment des Abrufs",
         "c": "Erst nach Abschluss der gesamten Runde"
       },
-      "explain": "Nutzen Sie langsames Atmen, wenn keine Zeit drängt; beim Abruf reicht ein natürlicher Ausatmer."
+      "explain": "Nutzen Sie langsames Atmen, wenn keine Zeit drängt; beim {{term:call|Abruf}} reicht ein natürlicher Ausatmer."
     },
     "mind-breathing-q3": {
       "q": "Was können Sie mit dem Atem nach einer verlorenen Scheibe tun?",

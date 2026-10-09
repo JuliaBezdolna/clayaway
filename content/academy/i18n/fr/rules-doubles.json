@@ -51,11 +51,11 @@
  "title": "Doublés : comment ils sont tirés et comptés",
  "summary": "Les types de doublés en {{tm:sporting}} et en {{tm:compak}}, combien de cartouches vous pouvez tirer sur chaque plateau, et ce qui se passe quand un seul coup casse les deux.",
  "body": {
-  "rules-doubles-p1": "Un {{term:double|doublé}} est constitué de deux plateaux tirés sur une seule annonce. Les deux disciplines ont des doublés coup de fusil et des doublés simultanés ; seul le {{tm:sporting}} a aussi la rafale. Certaines règles de comptage diffèrent. Quand les deux plateaux d'un doublé sont comptés perdus, on appelle cela {{term:zero-zero|zéro-zéro}}.",
+  "rules-doubles-p1": "Un {{term:double|doublé}} est constitué de deux plateaux tirés sur une seule annonce. Les deux disciplines ont des {{term:double-on-report|doublés coup de fusil}} et des {{term:simultaneous-double|doublés simultanés}} ; seul le {{tm:sporting}} a aussi la rafale. Certaines règles de comptage diffèrent. Quand les deux plateaux d'un doublé sont comptés perdus, on appelle cela {{term:zero-zero|zéro-zéro}}.",
   "sporting-singles-doubles-p1": "D'abord, les simples. Dans les deux disciplines, vous pouvez tirer deux cartouches sur un {{term:single-target|plateau simple}}, donc un raté au premier canon peut encore être rattrapé par le second. Un parcours doit laisser le temps de tirer deux coups sur chaque simple.",
   "rules-doubles-p2": "Dans un {{term:double-on-report|doublé coup de fusil}}, votre annonce lance le premier plateau, et votre tir sur celui-ci lance le second. Dans un {{term:simultaneous-double|doublé simultané}}, les deux plateaux partent ensemble, et vous pouvez les prendre dans l'ordre que vous voulez.",
   "rules-doubles-cmp1": {
-   "sporting": "Trois types : coup de fusil, simultané (d'un ou deux lanceurs) et {{term:rafale-double|rafale}}. Dans une rafale, deux plateaux partent du même lanceur sur la même ligne, l'un après l'autre.",
+   "sporting": "Trois types : coup de fusil, simultané — d'un ou deux {{term:trap|lanceurs}} — et {{term:rafale-double|rafale}}. Dans une rafale, deux plateaux partent du même lanceur sur la même ligne, l'un après l'autre.",
    "compak": "Deux types : coup de fusil et simultané. Un doublé simultané vient de deux lanceurs différents. Il n'y a pas de rafale."
   },
   "sporting-singles-doubles-p2": "En {{tm:sporting}}, le second plateau d'un doublé coup de fusil part entre 0 et 3 secondes après votre tir sur le premier. Dans une rafale, il suit dès que le lanceur s'est rechargé. Un doublé n'utilise que des plateaux déjà lancés comme simples sur ce poste, donc vous les avez déjà vus voler.",
@@ -63,7 +63,7 @@
    "sporting": "Deux cartouches pour tout le doublé, et les deux peuvent partir sur un seul plateau.",
    "compak": "Une cartouche par plateau. Tirer les deux sur le premier plateau n'est pas permis ; le faire délibérément est compté zéro-zéro."
   },
-  "rules-doubles-accidental": "Les deux canons qui partent ensemble par accident ne sont pas un double tir délibéré : c'est un défaut du fusil, une {{term:double-discharge|double décharge}}. La façon dont elle est comptée figure dans la leçon {{lesson:rules-malfunctions}}.",
+  "rules-doubles-accidental": "Les deux canons qui partent ensemble par accident ne sont pas un double tir délibéré : c'est un défaut du fusil, un {{term:double-discharge|double décharge}}. La façon dont il est compté figure dans la leçon {{lesson:rules-malfunctions}}.",
   "rules-doubles-cmp3": {
    "sporting": "Quand votre tir lui-même casse les deux plateaux, les deux comptent : « un » et « un », pour n'importe quel type de doublé. Sur le coup de fusil, il peut arriver que le premier plateau ou ses morceaux cassent le second avant votre second tir. C'est un No bird : le doublé est relancé, et le premier résultat est conservé.",
    "compak": "Sur le coup de fusil : le premier résultat reste, le second est un No bird, et le doublé est relancé. Simultané : No bird, relancez le doublé ; si cela se produit une troisième fois, les deux plateaux sont comptés zéro."
@@ -73,7 +73,7 @@
    "compak": "Refuser un doublé simultané : zéro-zéro. Sur le coup de fusil : un premier plateau refusé est zéro ; le doublé est relancé pour que vous puissiez tirer le second, et seul le second est compté."
   },
   "sporting-singles-doubles-p4": "Un plateau irrégulier est un plateau qui fait annoncer un No bird par l'arbitre, par exemple un plateau lancé déjà cassé, hors de sa ligne ou du mauvais lanceur ({{lesson:rules-hit-and-no-bird}}). Dans un doublé coup de fusil, un premier plateau irrégulier signifie que tout le doublé est relancé. Si c'est le second plateau qui est irrégulier, vous relancez le doublé et votre résultat sur le premier est conservé. Il en va de même si le premier plateau ou ses morceaux cassent le second avant votre second tir. Dans un doublé simultané, et en {{tm:sporting}} dans une rafale, un plateau irrégulier signifie une reprise sans rien compter. Un seul tir qui casse les deux plateaux est un cas différent : voir ci-dessus.",
-  "rules-doubles-p7": "Regardez la présentation et lisez le {{term:target-menu|menu}} du poste, pour savoir quels doublés arrivent. Beaucoup d'entraîneurs suggèrent de choisir l'ordre d'un doublé simultané avant d'annoncer."
+  "rules-doubles-p7": "Regardez la {{term:target-presentation|présentation}} et lisez le {{term:target-menu|menu}} du poste, pour savoir quels doublés arrivent. Beaucoup d'entraîneurs suggèrent de choisir l'ordre d'un doublé simultané avant d'annoncer."
  },
  "note": {
   "compak-singles-doubles-p1": "Le {{tm:compak}} utilise les mêmes noms que le {{tm:sporting}} pour les doublés coup de fusil et les doublés simultanés (il n'a pas de rafale), mais ses doublés suivent des règles différentes. Un interprète qui transpose les règles du {{tm:sporting}} donnera de mauvaises réponses.",
@@ -123,7 +123,7 @@
  "did_you_know": "En {{tm:compak}}, le doublé de chaque poste commence par le dernier plateau du poste précédent.",
  "quiz": {
   "rules-doubles-q1": {
-   "q": "Qu'est-ce qui lance le second plateau d'un doublé coup de fusil ?",
+   "q": "Qu'est-ce qui lance le second plateau d'un {{term:double-on-report|doublé coup de fusil}} ?",
    "options": {
     "a": "Le tir sur le premier plateau",
     "b": "Une seconde annonce du tireur",
@@ -150,7 +150,7 @@
    "explain": "En {{tm:sporting}}, les deux plateaux comptent ; le {{tm:compak}} a des règles différentes."
   },
   "sporting-singles-doubles-q1": {
-   "q": "{{tm:sporting}}, doublé simultané. Le tireur manque un plateau au premier tir, tire la seconde cartouche sur le même plateau et le casse. L'autre plateau continue de voler. Décision ?",
+   "q": "{{tm:sporting}}, {{term:simultaneous-double|doublé simultané}}. Le tireur manque un plateau au premier tir, tire la seconde cartouche sur le même plateau et le casse. L'autre plateau continue de voler. Décision ?",
    "options": {
     "a": "Un et zéro",
     "b": "Zéro et zéro",
@@ -160,7 +160,7 @@
    "explain": "En {{tm:sporting}}, les deux cartouches d'un doublé peuvent partir sur un seul plateau, donc le plateau cassé est « un » et l'autre « zéro ». En {{tm:compak}}, tirer les deux délibérément sur un seul plateau est compté zéro-zéro."
   },
   "sporting-singles-doubles-q2": {
-   "q": "{{tm:sporting}}, doublé coup de fusil. Le tireur casse le premier plateau, et un morceau de celui-ci casse le second avant le second tir. Décision ?",
+   "q": "{{tm:sporting}}, {{term:double-on-report|doublé coup de fusil}}. Le tireur casse le premier plateau, et un morceau de celui-ci casse le second avant le second tir. Décision ?",
    "options": {
     "a": "Un et un",
     "b": "On relance, le premier résultat est conservé",
@@ -177,10 +177,10 @@
     "c": "Seulement un carton jaune",
     "d": "Zéro et zéro"
    },
-   "explain": "Un plateau correct sur lequel on ne tire pas sans raison valable est perdu ; sur une rafale ou un doublé simultané, cela donne zéro et zéro."
+   "explain": "Un plateau correct sur lequel on ne tire pas sans raison valable est perdu ; sur une rafale ou un {{term:simultaneous-double|doublé simultané}}, cela donne zéro et zéro."
   },
   "compak-singles-doubles-q1": {
-   "q": "Doublé simultané en {{tm:compak}}. Un seul tir casse les deux plateaux ; c'est la première fois que cela arrive. Décision ?",
+   "q": "{{term:simultaneous-double|Doublé simultané}} en {{tm:compak}}. Un seul tir casse les deux plateaux ; c'est la première fois que cela arrive. Décision ?",
    "options": {
     "a": "Un et un",
     "b": "No bird, on relance",
@@ -190,7 +190,7 @@
    "explain": "En {{tm:compak}}, un doublé simultané cassé d'un seul tir est un No bird la première et la deuxième fois, et zéro et zéro la troisième fois."
   },
   "compak-singles-doubles-q2": {
-   "q": "Doublé coup de fusil en {{tm:compak}}. Un seul tir casse les deux plateaux. Décision ?",
+   "q": "{{term:double-on-report|Doublé coup de fusil}} en {{tm:compak}}. Un seul tir casse les deux plateaux. Décision ?",
    "options": {
     "a": "Un et un, les deux comptent",
     "b": "Zéro et zéro pour les deux",
@@ -200,7 +200,7 @@
    "explain": "Dans un doublé coup de fusil, le résultat du premier plateau est enregistré, le second est un No bird, et le doublé est relancé pour le compter."
   },
   "compak-singles-doubles-q3": {
-   "q": "{{tm:compak}}, doublé coup de fusil. Le premier plateau vole correctement, mais le tireur ne tire pas sur lui. Décision ?",
+   "q": "{{tm:compak}}, {{term:double-on-report|doublé coup de fusil}}. Le premier plateau vole correctement, mais le tireur ne tire pas sur lui. Décision ?",
    "options": {
     "a": "Premier zéro, doublé à nouveau pour le second",
     "b": "Zéro et zéro pour le doublé",
@@ -216,7 +216,7 @@
     "b": "Un double tir délibéré : zéro-zéro",
     "c": "Un et zéro"
    },
-   "explain": "Une double décharge accidentelle est un incident de tir, pas un double tir délibéré ; zéro-zéro ne s'applique qu'en cas de tir volontaire des deux coups sur un seul plateau."
+   "explain": "Un {{term:double-discharge|double décharge}} accidentel est un {{term:malfunction|incident de tir}}, pas un double tir délibéré ; zéro-zéro ne s'applique qu'en cas de tir volontaire des deux coups sur un seul plateau."
   }
  }
 }

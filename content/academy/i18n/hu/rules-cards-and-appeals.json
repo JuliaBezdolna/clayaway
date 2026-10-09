@@ -44,13 +44,13 @@
     "referee-cards-p1": "A FITASC büntetései lépcsőzetesen emelkednek. Egy versenyre nevezve elfogadod a szabályokat és a büntetéseket. Egy szabály első megsértéséért rendszerint {{term:warning|figyelmeztetés}} jár, {{term:yellow-card|sárga lappal}} jelezve. A {{tm:sporting}}-ban egy klasszikus példa a fegyverhelyzet. Egy tus a mellényvonal fölött, vagy egy fegyver, amelyet a korong megjelenése előtt vállba vettek, szóbeli figyelmeztetést és sárga lapot hoz.",
     "rules-cards-and-appeals-cmp1": {
       "sporting": "Egy lőálláson elkövetett szabálysértés megismétlése ugyanazon a {{term:layout|lőpályán}} a figyelmeztetés után {{term:red-card|piros lapot}} hoz (fegyverhelyzet vagy korai vállba vétel, időkorlát, lövés egy kimondott No Birdre). Egy szóló korongot nullának értékelnek; a dublékra a szabálykönyv táblázata érvényes.",
-      "compak": "Egy lőálláson elkövetett szabálysértés megismétlése ugyanazon a {{tm:compak}} lőpályán (a mezőn, ahol lősz) a figyelmeztetés után piros lapot hoz. Ez vonatkozik az időkorlátra, egy korong visszautasítására, egy kimondott No Birdre adott lövésre és a hibás működés szabályaira. Egy szóló korongot nullának értékelnek; a dublékra a szabálykönyv táblázata érvényes."
+      "compak": "Egy lőálláson elkövetett szabálysértés megismétlése ugyanazon a {{tm:compak}} lőpályán (a mezőn, ahol lősz) a figyelmeztetés után piros lapot hoz. Ez vonatkozik az időkorlátra, egy korong visszautasítására, egy kimondott No Birdre adott lövésre és a {{term:malfunction|hibás működés}} szabályaira. Egy szóló korongot nullának értékelnek; a dublékra a szabálykönyv táblázata érvényes."
     },
-    "referee-cards-p2": "Ugyanez a skála érvényes egy kimondott No Birdre adott lövésre és az időkorlát túllépésére is; lásd {{lesson:rules-call-and-time}}.",
-    "referee-cards-p3": "A {{term:coaching|coachingot}} – amikor valaki tanácsot vagy utasítást ad neked verseny közben – is büntetik. Sárga lapot kapsz, az ismétlést a zsűri szankcionálja, és a bíró kiküldi a tanácsot adó személyt a lövészeti területről.",
-    "referee-cards-p4": "Más ismétlődő szabálysértések (például öltözet, rajtszám, coaching vagy magatartás) a {{term:jury|zsűrihez}} kerülnek, a verseny tisztségviselőinek testületéhez. Ugyanígy az {{term:refusal-to-comply|utasítás megtagadása}} (a bíró döntéseinek nem követése) és a bíró {{term:attempt-to-influence|befolyásolási kísérlete}} is. A zsűri egy korongot mellőlövésnek értékelhet, egy teljes, {{fact:rules.round-targets}} korongos kört törölhet, vagy kizárhat a versenyből. A fegyver földhöz dobása, szidalmazás vagy erőszak, és élő állatokra leadott szándékos lövés azonnali {{term:expulsion|kizárást}} jelenthet. Egy kizárást a FITASC öt évig tart nyilván, és nem jár visszatérítéssel.",
+    "referee-cards-p2": "Ugyanez a skála érvényes egy kimondott No Birdre adott lövésre és a {{term:firing-time|időkorlát}} túllépésére is; lásd {{lesson:rules-call-and-time}}.",
+    "referee-cards-p3": "A {{term:coaching|edzői irányítás}} – amikor valaki tanácsot vagy utasítást ad neked verseny közben – szintén büntetendő. Sárga lapot kapsz, az ismétlést a zsűri szankcionálja, és a bíró kiküldi a tanácsot adó személyt a lövészeti területről.",
+    "referee-cards-p4": "Más ismétlődő szabálysértések (például öltözet, rajtszám, coaching vagy magatartás) a {{term:jury|zsűrihez}} kerülnek, a verseny tisztségviselőinek testületéhez. Ugyanígy a {{term:refusal-to-comply|utasítás megtagadása}} – a bíró döntéseinek nem követése – és a bíró {{term:attempt-to-influence|befolyásolási kísérlete}} is. A zsűri egy korongot mellőlövésnek értékelhet, egy teljes, {{fact:rules.round-targets}} korongos kört törölhet, vagy kizárhat a versenyből. A fegyver földhöz dobása, szidalmazás vagy erőszak, és élő állatokra leadott szándékos lövés azonnali {{term:expulsion|kizárást}} jelenthet. Egy kizárást a FITASC öt évig tart nyilván, és nem jár visszatérítéssel.",
     "rules-cards-and-appeals-p7": "Egy végleges döntés után folytasd a lövészetet, és engedd el. A döntés megkérdőjelezése a lövészet folytatása után, vagy a nyílt kritizálása, a bíró befolyásolási kísérletének számít.",
-    "rules-cards-and-appeals-protest": "Ha nem egyezsz bele egy döntésbe, {{term:protest|óvj}} azonnal a lőálláson: emelj kezet, és mondd „protest” vagy „appeal”. Hogyan működik az óvás és a zsűri-fellebbezés: {{lesson:competitions-results-and-protests}}.",
+    "rules-cards-and-appeals-protest": "Ha nem egyezsz bele egy döntésbe, tegyél azonnal {{term:protest|óvást}} a lőálláson: emelj kezet, és mondd „protest” vagy „appeal”. Hogyan működik az óvás és az {{term:appeal|fellebbezés}} a zsűrinél: {{lesson:competitions-results-and-protests}}.",
     "rules-cards-and-appeals-tip1": "Egy sárga lap nem jelenti a köröd végét. Sok edző egy nyugodt kilégzést javasol, egy gyors pillantást arra, mi okozta, és aztán a szokásos rutinodat. Bővebben: {{lesson:mind-reset-after-miss}}."
   },
   "note": {
@@ -102,7 +102,7 @@
       "explain": "Mindkét szabálykönyv sárga lapot ad a lövésznek, és a tanácsot adó személynek el kell hagynia a lövészeti területet."
     },
     "referee-cards-q1": {
-      "q": "{{tm:sporting}}: egy korai vállba vételért kapott sárga lap után a lövész ugyanazon a lőpályán, egy szóló korongnál ismét korán veszi vállba a fegyvert. Mi követi?",
+      "q": "{{tm:sporting}}: egy korai {{term:gun-mount|vállba vételért}} kapott sárga lap után a lövész ugyanazon a lőpályán, egy szóló korongnál ismét korán veszi vállba a fegyvert. Mi követi?",
       "options": {
         "a": "Csak egy újabb figyelmeztetés",
         "b": "Piros lap és nulla",
@@ -142,7 +142,7 @@
     "rules-cards-and-appeals-q3": {
       "q": "Mennyi a letét egy zsűri-fellebbezéshez a {{tm:sporting}}-ban?",
       "options": {
-        "a": "A nevezési díj 10%-a",
+        "a": "Az nevezési díj 10%-a",
         "b": "A nevezési díj 40%-a",
         "c": "A teljes nevezési díj"
       },

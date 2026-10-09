@@ -28,11 +28,15 @@
     "mind-reset-after-miss-q3": "4434c585",
     "mind-reset-after-miss-q4": "f626c67f"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Reset dopo un errore",
   "summary": "Una breve routine per i secondi dopo un piattello perso: cinque passaggi in 5-10 secondi, poi il piattello successivo. Il «perché» aspetta la fine della serie.",
   "body": {
-    "mind-reset-after-miss-p1": "Un errore è finito nell'istante in cui il colpo è stato sparato; solo il piattello successivo può ancora cambiare. Un {{term:reset-routine|reset}} breve e fisso vi aiuta a lasciare indietro l'errore e a iniziare la routine successiva.",
+    "mind-reset-after-miss-p1": "Un errore è finito nell'istante in cui il colpo è stato sparato; solo il piattello successivo può ancora cambiare. Un {{term:reset-routine|reset}} breve e fisso vi aiuta a lasciare indietro l'errore e a iniziare la {{term:pre-shot-routine|routine pre-tiro}} successiva.",
     "mind-reset-after-miss-steps": [
       "Fucile in sicurezza: maneggiatelo come richiedono le regole, canne in direzione sicura.",
       "Un'espirazione lenta.",
@@ -59,31 +63,47 @@
   },
   "phrases": {},
   "key_points": {
-    "mind-reset-after-miss-kp1": "Reset in 5-10 secondi: fucile in sicurezza, espirazione, una correzione, un'immagine, routine successiva.",
+    "mind-reset-after-miss-kp1": "Reset in 5-10 secondi: fucile in sicurezza, espirazione, una correzione, un'immagine, {{term:pre-shot-routine|routine pre-tiro}} successiva.",
     "mind-reset-after-miss-kp2": "Chiedete «perché» dopo la serie, non in pedana.",
-    "mind-reset-after-miss-kp3": "Dopo una decisione dell'arbitro: reclamo subito e correttamente, poi lasciatelo andare.",
+    "mind-reset-after-miss-kp3": "Dopo una decisione dell'arbitro: {{term:protest|reclamo}} subito e correttamente, poi lasciatelo andare.",
     "mind-reset-after-miss-kp4": "Una pedana andata male non è una giornata andata male."
   },
   "did_you_know": "In uno studio su giocatori di bowling, una breve routine dopo ogni lancio ha aiutato anche lì, e i giocatori sentivano che proteggeva la loro concentrazione.",
   "quiz": {
     "mind-reset-after-miss-q1": {
       "q": "Qual è il primo passaggio del reset dopo un errore?",
-      "options": { "a": "Capire esattamente perché avete mancato", "b": "Contare il vostro punteggio della serie finora", "c": "Mettere il fucile in sicurezza, come dicono le regole" },
-      "explain": "Prima viene la sicurezza; poi un'espirazione, una correzione, un'immagine e la routine successiva."
+      "options": {
+        "a": "Capire esattamente perché avete mancato",
+        "b": "Contare il vostro punteggio della serie finora",
+        "c": "Mettere il fucile in sicurezza, come dicono le regole"
+      },
+      "explain": "Prima viene la sicurezza; poi un'espirazione, una correzione, un'immagine e la {{term:pre-shot-routine|routine pre-tiro}} successiva."
     },
     "mind-reset-after-miss-q2": {
       "q": "Quando è un buon momento per analizzare perché avete mancato?",
-      "options": { "a": "Dopo la serie", "b": "Prima della chiamata successiva", "c": "Durante la presentazione successiva" },
+      "options": {
+        "a": "Dopo la serie",
+        "b": "Prima della chiamata successiva",
+        "c": "Durante la presentazione successiva"
+      },
       "explain": "L'analisi passo dopo passo in pedana può disturbare il vostro tiro; lì basta una sola correzione breve."
     },
     "mind-reset-after-miss-q3": {
       "q": "Non siete d'accordo con uno «zero» dell'arbitro. Cosa fate?",
-      "options": { "a": "Discutere finché l'arbitro non è d'accordo", "b": "Fare reclamo subito, poi lasciarlo andare", "c": "Lamentarvi con la batteria dopo la serie" },
-      "explain": "Fate reclamo subito nel modo corretto; una volta che la decisione è definitiva, continuare a discutere conta come tentativo di influenzare l'arbitro."
+      "options": {
+        "a": "Discutere finché l'arbitro non è d'accordo",
+        "b": "Fare reclamo subito, poi lasciarlo andare",
+        "c": "Lamentarvi con la batteria dopo la serie"
+      },
+      "explain": "Fate reclamo subito nel modo corretto; una volta che la decisione è definitiva, continuare a discutere conta come {{term:attempt-to-influence|tentativo di influenzare}} l'arbitro."
     },
     "mind-reset-after-miss-q4": {
       "q": "Quanto può durare un reset dopo un errore?",
-      "options": { "a": "Circa 5-10 secondi, dentro il limite", "b": "Quanto serve per sentirsi di nuovo calmi", "c": "Finché l'arbitro non vi chiede di tirare" },
+      "options": {
+        "a": "Circa 5-10 secondi, dentro il limite",
+        "b": "Quanto serve per sentirsi di nuovo calmi",
+        "c": "Finché l'arbitro non vi chiede di tirare"
+      },
       "explain": "Un reset breve di circa 5-10 secondi rientra nei limiti di tempo di entrambe le discipline."
     }
   }

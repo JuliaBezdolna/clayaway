@@ -40,26 +40,26 @@
     "origin": "interpreter-academy"
   },
   "title": "Was als Treffer zählt, und was ein No Bird ist",
-  "summary": "In {{tm:sporting}} und {{tm:compak}} ist eine Scheibe ein Treffer, wenn mindestens ein sichtbares Teil abgeht; nur Staub ist ein Fehlschuss. Ein No Bird zählt nicht und wird erneut geworfen.",
+  "summary": "In {{tm:sporting}} und {{tm:compak}} ist eine Scheibe ein Treffer, wenn mindestens ein {{term:visible-piece|sichtbares Teil}} abgeht; nur Staub ist ein Fehlschuss. Ein No Bird zählt nicht und wird erneut geworfen.",
   "body": {
     "rules-hit-and-no-bird-p1": "In {{tm:sporting}} und {{tm:compak}} hat jede Scheibe nur zwei Ergebnisse: „one“ (Treffer) oder „zero“ (Fehlschuss). Halbe Punkte gibt es nicht.",
-    "targets-hit-or-lost-p1": "Eine Scheibe wird als „one“ gewertet, wenn drei Dinge zutreffen. Sie wurde korrekt geworfen, der Schütze hat regelgerecht geschossen, und mindestens ein {{term:visible-piece|sichtbares Teil}} ist abgebrochen (eine vollständig zersplitterte Scheibe zählt ebenfalls). Dieselbe Regel gilt für {{term:flash-target|Flashscheiben}} (Scheiben, die bei einem Treffer eine Wolke farbigen Pulvers freisetzen). Eine Scheibe ist „zero“ (verloren), wenn kein sichtbares Teil abgeht und nur Staub oder Rauch zu sehen ist.",
+    "targets-hit-or-lost-p1": "Eine Scheibe wird als „one“ gewertet, wenn drei Dinge zutreffen. Sie wurde korrekt geworfen, der Schütze hat regelgerecht geschossen, und mindestens ein {{term:visible-piece|sichtbares Teil}} ist abgebrochen (eine vollständig zersplitterte Scheibe zählt ebenfalls). Dieselbe Regel gilt für {{term:flash-target|Flashscheiben|pl}} – Scheiben, die bei einem Treffer eine Wolke farbigen Pulvers freisetzen. Eine Scheibe ist „zero“ (verloren), wenn kein sichtbares Teil abgeht und nur Staub oder Rauch zu sehen ist.",
     "targets-hit-or-lost-p2": "Die ganze Regel läuft also auf eines hinaus, das Sie sehen können: ein abbrechendes Teil. Ein kleiner {{term:chip|Splitter}}, der abfliegt, zählt als Treffer. Eine Staubwolke, während die Scheibe als Ganzes weiterfliegt, ist verloren.",
-    "targets-hit-or-lost-p3": "Nur der {{term:referee|Schiedsrichter}} entscheidet, ob eine Scheibe getroffen wurde. Mitglieder der Rotte dürfen keine Meinung äußern, und niemand darf eine Scheibe aufheben, um sie zu prüfen.",
+    "targets-hit-or-lost-p3": "Nur der {{term:referee|Schiedsrichter}} entscheidet, ob eine Scheibe getroffen wurde. Mitglieder der {{term:squad|Rotte}} dürfen keine Meinung äußern, und niemand darf eine Scheibe aufheben, um sie zu prüfen.",
     "rules-hit-and-no-bird-cmp1": {
-      "sporting": "Treffen Sie Ihre Scheiben dort, wo der Schiedsrichter den Treffer sehen kann. Zerbricht eine Scheibe hinter einem Hindernis oder jenseits der {{term:shooting-limit|Schussgrenze}} (dem Rand des Bereichs, in dem ein Treffer zählt), entscheidet der Schiedsrichter. Gegen diese Entscheidung gibt es keinen Einspruch. Sobald Sie die nächste Scheibe abrufen, haben Sie die Entscheidung über die vorherige akzeptiert.",
+      "sporting": "Treffen Sie Ihre Scheiben dort, wo der Schiedsrichter den Treffer sehen kann. Zerbricht eine Scheibe hinter einem Hindernis oder jenseits der {{term:shooting-limit|Schussgrenze}} – dem Rand des Bereichs, in dem ein Treffer zählt –, entscheidet der Schiedsrichter. Gegen diese Entscheidung gibt es keinen Einspruch. Sobald Sie die nächste Scheibe abrufen, haben Sie die Entscheidung über die vorherige akzeptiert.",
       "compak": "Der Schiedsrichter verkündet jede Null laut oder mit einem akustischen Signal. Widersprechen Sie sofort, bevor der nächste Schütze abruft."
     },
-    "rules-hit-and-no-bird-p5": "Ein {{term:no-bird|No Bird}} ist eine Scheibe, die nicht zählt und erneut geworfen wird. Der Schiedsrichter ruft ihn, wenn die Scheibe zerbrochen geworfen wird, aus der falschen Wurfmaschine kommt oder die falsche Farbe hat (in {{tm:sporting}} auch die falsche Größe oder Art). Weitere Gründe sind eine unregelmäßige Flugbahn, ein Auslösen mehr als 3 Sekunden zu spät (siehe {{lesson:rules-call-and-time}}) oder eine Scheibe, die Sie nicht abgerufen haben. Ein No Bird wird auch gegeben, wenn Sie klar erkennbar gestört wurden oder der Schiedsrichter das Ergebnis nicht beurteilen kann.",
+    "rules-hit-and-no-bird-p5": "Ein {{term:no-bird|No Bird}} ist eine Scheibe, die nicht zählt und erneut geworfen wird. Der Schiedsrichter ruft ihn, wenn die Scheibe zerbrochen geworfen wird, aus der falschen {{term:trap|Wurfmaschine}} kommt oder die falsche Farbe hat (in {{tm:sporting}} auch die falsche Größe oder Art). Weitere Gründe sind eine unregelmäßige {{term:trajectory|Flugbahn}}, ein Auslösen mehr als 3 Sekunden zu spät (siehe {{lesson:rules-call-and-time}}) oder eine Scheibe, die Sie nicht abgerufen haben. Ein No Bird wird auch gegeben, wenn Sie klar erkennbar gestört wurden oder der Schiedsrichter das Ergebnis nicht beurteilen kann.",
     "rules-hit-and-no-bird-cmp2": {
       "sporting": "Wenn zwei Scheiben gleichzeitig aus den Wurfmaschinen desselben Standplatzes starten, ist das ebenfalls ein No Bird.",
-      "compak": "Schlechtes Wetter gibt unabhängig von den Bedingungen keinen No Bird. Eine Scheibe oder Teile, die vom benachbarten {{tm:compak}}-{{term:layout|Layout}} (dem Feld neben Ihrem) herüberfliegen, geben ebenfalls keinen. Eine verirrte Scheibe aus einer Wurfmaschine Ihres eigenen Layouts dagegen schon."
+      "compak": "Schlechtes Wetter gibt unabhängig von den Bedingungen keinen No Bird. Eine Scheibe oder Teile, die vom benachbarten {{term:layout|Layout}} (dem {{tm:compak}}-Feld neben Ihrem) herüberfliegen, geben ebenfalls keinen. Eine verirrte Scheibe aus einer Wurfmaschine Ihres eigenen Layouts dagegen schon."
     },
-    "rules-hit-and-no-bird-p6": "Nach einem No Bird wird eine Einzelscheibe einfach erneut geworfen. Bei einer Doublette hängt es davon ab, welche Scheibe unregelmäßig war: siehe {{lesson:rules-doubles}}.",
+    "rules-hit-and-no-bird-p6": "Nach einem No Bird wird eine Einzelscheibe einfach erneut geworfen. Bei einer {{term:double|Doublette}} hängt es davon ab, welche Scheibe unregelmäßig war: siehe {{lesson:rules-doubles}}.",
     "rules-hit-and-no-bird-p7": "Sobald der Schiedsrichter No Bird gerufen hat, dürfen Sie nicht auf diese Scheibe schießen. Nach einer ersten Verwarnung wird das in beiden Disziplinen bestraft; wie die Scheiben dann gewertet werden, steht im Regel-Leitfaden.",
     "rules-hit-and-no-bird-cmp3": {
       "sporting": "Bei einem plötzlichen heftigen Schauer oder Unwetter, das kurz erscheint, darf der Schiedsrichter die Strecke stoppen. Dauert es länger, informiert der Schiedsrichter die Jury.",
-      "compak": "Nur der Oberschiedsrichter darf die Strecke wegen eines plötzlichen Platzregens oder Unwetters stoppen. Könnte es länger dauern, wird die Jury informiert."
+      "compak": "Nur der {{term:chief-referee|Oberschiedsrichter}} darf die Strecke wegen eines plötzlichen Platzregens oder Unwetters stoppen. Könnte es länger dauern, wird die Jury informiert."
     },
     "rules-hit-and-no-bird-tip1": "Halten Sie eine Entscheidung für falsch, heben Sie die Hand und sagen Sie es vor dem nächsten Abruf. Späteres Diskutieren ändert das Ergebnis nicht; wie ein Protest funktioniert, steht in {{lesson:competitions-results-and-protests}}."
   },
@@ -88,7 +88,7 @@
     "rules-hit-and-no-bird-kp3": "Ein No Bird zählt nicht und wird erneut geworfen; auf einen erklärten No Bird dürfen Sie nicht schießen.",
     "rules-hit-and-no-bird-kp5": "{{tm:compak}}: Schlechtes Wetter gibt keinen No Bird."
   },
-  "did_you_know": "Auf {{tm:compak}}-Ergebnislisten wird ein Treffer mit X und ein Fehlschuss mit O markiert.",
+  "did_you_know": "Auf den {{term:score-sheet|Ergebnislisten|pl}} im {{tm:compak}} wird ein Treffer mit X und ein Fehlschuss mit O markiert.",
   "quiz": {
     "rules-hit-and-no-bird-q1": {
       "q": "Nach dem Schuss gibt die Scheibe nur Staub ab, kein Teil ist zu sehen. Was ist das Ergebnis?",
@@ -97,13 +97,13 @@
         "b": "No Bird",
         "c": "Zero"
       },
-      "explain": "Ein Treffer braucht mindestens ein sichtbares Teil; nur Staub oder Rauch ist eine Null."
+      "explain": "Ein Treffer braucht mindestens ein {{term:visible-piece|sichtbares Teil}}; nur Staub oder Rauch ist eine Null."
     },
     "rules-hit-and-no-bird-q2": {
       "q": "Wer entscheidet, ob eine Scheibe getroffen wurde?",
       "options": {
-        "a": "Nur der Schiedsrichter",
-        "b": "Eine Abstimmung der Rotte",
+        "a": "Nur der {{term:referee|Schiedsrichter}}",
+        "b": "Eine Abstimmung der {{term:squad|Rotte}}",
         "c": "Der Schütze selbst"
       },
       "explain": "Der Schiedsrichter entscheidet allein und kann andere nur aus eigener Initiative um Rat fragen."
@@ -115,10 +115,10 @@
         "b": "Das ist eine Null",
         "c": "Ein No Bird, wenn Sie danach fragen"
       },
-      "explain": "In {{tm:compak}} ist eine getroffene Scheibe „one“ und ein Fehlschuss „zero“, bei jedem Wetter. Nur der Oberschiedsrichter darf die Strecke wegen eines plötzlichen Unwetters stoppen."
+      "explain": "In {{tm:compak}} ist eine getroffene Scheibe „one“ und ein Fehlschuss „zero“, bei jedem Wetter. Nur der {{term:chief-referee|Oberschiedsrichter}} darf die Strecke wegen eines plötzlichen Unwetters stoppen."
     },
     "competitions-scoring-basics-q3": {
-      "q": "Aus der Wurfmaschine kommt eine Scheibe der falschen Farbe. Was ist das?",
+      "q": "Aus der {{term:trap|Wurfmaschine}} kommt eine Scheibe der falschen Farbe. Was ist das?",
       "options": {
         "a": "No Bird",
         "b": "Zero",
@@ -137,7 +137,7 @@
       "explain": "Jedes sichtbare Teil, das abgeht, macht sie zu einem Treffer, wie klein es auch ist."
     },
     "targets-hit-or-lost-q3": {
-      "q": "Nach der Entscheidung „lost“ geht ein Mitglied der Rotte hinaus, um die Scheibe aufzuheben und dem Schiedsrichter einen Splitter zu zeigen. Was sagen die Regeln?",
+      "q": "Nach der Entscheidung „lost“ geht ein Mitglied der {{term:squad|Rotte}} hinaus, um die Scheibe aufzuheben und dem {{term:referee|Schiedsrichter}} einen Splitter zu zeigen. Was sagen die Regeln?",
       "options": {
         "a": "Der Schiedsrichter muss sie sich ansehen",
         "b": "Die Rotte stimmt darüber ab",

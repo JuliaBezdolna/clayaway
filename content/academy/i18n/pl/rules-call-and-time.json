@@ -50,29 +50,29 @@
   "title": "Komenda, limity czasu i spóźnienie",
   "summary": "Jak wołasz rzutek, jak szybko musi przylecieć, ile czasu masz w {{tm:sporting}} i {{tm:compak}} i co kosztuje spóźnienie.",
   "body": {
-    "rules-call-and-time-p1": "Rzutek nie leci sam: {{term:call|wołasz}} go krótkim słowem, jak „pull” albo „ready”. Przepisy ustalają, jak szybko rzutek musi przylecieć i jak dużo czasu możesz zająć.",
-    "sporting-time-and-lateness-p1": "{{tm:sporting}} utrzymuje stały rytm, a kilka przepisów go chroni. Wołasz, a sędzia przekazuje twoją komendę {{term:trapper|operatorowi wyrzutni}} (osobie, która wypuszcza rzutki) sygnałem dźwiękowym. Od tego sygnału rzutek musi być w powietrzu {{fact:rules.release-within-3s}}. Jeśli przychodzi później, sędzia ogłasza {{term:no-bird|NO BIRD}} i rzutek jest wyrzucany jeszcze raz.",
-    "compak-gun-and-call-p2": "W {{tm:compak}} wyrzutnia może być zwolniona ręcznie, zdalnie albo przez {{term:sonopull|sonopull}} (system mikrofonowy, który zwalnia wyrzutnię, gdy usłyszy twoją komendę). Przy ręcznym zwolnieniu rzutek musi wylecieć 0 do 3 sekund po komendzie. Sonopull zawsze czeka {{fact:rules.sonopull-delay}} po komendzie, więc czas jest każdym razem taki sam. Zawody międzynarodowe strzelane {{term:compak-in-line|in line}} (strzelcy wchodzą na numer 1 jeden po drugim i przechodzą wzdłuż linii do numeru 5) używają tylko sonopulla. Rzutek, który wylatuje ponad 3 sekundy za późno, albo taki, którego nie zawołałeś, to NO BIRD.",
+    "rules-call-and-time-p1": "Rzutek nie leci sam: wołasz go krótkim słowem, jak „pull” albo „ready” — to {{term:call|wywołanie rzutka}}. Przepisy ustalają, jak szybko rzutek musi przylecieć i jak dużo czasu możesz zająć.",
+    "sporting-time-and-lateness-p1": "{{tm:sporting}} utrzymuje stały rytm, a kilka przepisów go chroni. Wołasz, a {{term:referee|sędzia}} przekazuje twoją komendę {{term:trapper|operatorowi wyrzutni}}, czyli osobie, która wypuszcza rzutki, sygnałem dźwiękowym. Od tego sygnału rzutek musi być w powietrzu {{fact:rules.release-within-3s}}. Jeśli przychodzi później, sędzia ogłasza {{term:no-bird|NO BIRD}} i rzutek jest wyrzucany jeszcze raz.",
+    "compak-gun-and-call-p2": "W {{tm:compak}} {{term:trap|wyrzutnia}} może być zwolniona ręcznie, zdalnie albo przez {{term:sonopull|sonopull}} (system mikrofonowy, który zwalnia wyrzutnię, gdy usłyszy twoją komendę). Przy ręcznym zwolnieniu rzutek musi wylecieć 0 do 3 sekund po komendzie. Sonopull zawsze czeka {{fact:rules.sonopull-delay}} po komendzie, więc czas jest każdym razem taki sam. Zawody międzynarodowe strzelane w formacie {{term:compak-in-line|Compak in line}}, gdzie strzelcy wchodzą na numer 1 jeden po drugim i przechodzą wzdłuż linii do numeru 5, używają tylko sonopulla. Rzutek, który wylatuje ponad 3 sekundy za późno, albo taki, którego nie zawołałeś, to NO BIRD.",
     "rules-call-and-time-p3": "W obu dyscyplinach jedyny rzutek, który możesz odrzucić, to taki, którego nie zawołałeś: to NO BIRD.",
     "rules-call-and-time-cmp1": {
       "sporting": "Nie możesz go odrzucić. Jeśli został wyrzucony prawidłowo i nie strzelasz, liczy się jako zero.",
-      "compak": "Też nie możesz go odrzucić. Odrzucony rzutek pojedynczy liczy się jako zero; dublety idą według tabeli w przewodniku po przepisach."
+      "compak": "Też nie możesz go odrzucić. Odrzucony rzutek pojedynczy liczy się jako zero; {{term:double|dublety}} idą według tabeli w przewodniku po przepisach."
     },
     "rules-call-and-time-cmp2": {
       "sporting": "Masz {{fact:rules.sporting-time-between-targets}}.",
       "compak": "Masz {{fact:rules.compak-time-to-call}}."
     },
-    "sporting-time-and-lateness-p2": "Za pierwszym razem, gdy przekroczysz limit, sędzia udziela ostrzeżenia. Potem obowiązują kary czerwonej kartki ({{rule:sporting:ch12-red-card}}). Kiedy sędzia wyda ostateczną decyzję, na przykład po twoim proteście, musisz kontynuować strzelanie {{fact:rules.sporting-resume-after-ruling}}. Jeśli nie, albo jeśli zwlekasz celowo, liczy się to jako {{term:refusal-to-comply|odmowa podporządkowania się}}: osobne wykroczenie, które jury może ukarać.",
+    "sporting-time-and-lateness-p2": "Za pierwszym razem, gdy przekroczysz limit, sędzia udziela ostrzeżenia. Potem obowiązują kary {{term:red-card|czerwonej kartki}} ({{rule:sporting:ch12-red-card}}). Kiedy sędzia wyda ostateczną decyzję, na przykład po twoim proteście, musisz kontynuować strzelanie {{fact:rules.sporting-resume-after-ruling}}. Jeśli nie, albo jeśli zwlekasz celowo, liczy się to jako {{term:refusal-to-comply|odmowa podporządkowania się}}: osobne wykroczenie, które jury może ukarać.",
     "compak-gun-and-call-p3": "Za pierwszym razem, gdy przekroczysz limit, sędzia zapisuje ostrzeżenie na {{term:score-sheet|karcie wyników}}. Jeśli zdarzy się to znowu w tej samej {{term:round|serii}}, to czerwona kartka: rzutek pojedynczy liczy się jako zero, a dublety idą według tabeli w przewodniku po przepisach ({{rule:compak:ch21-penalty-table}}). Kiedy sędzia wyda ostateczną decyzję, musisz kontynuować strzelanie {{fact:rules.compak-resume-after-ruling}}. Jeśli nie, albo jeśli zwlekasz celowo, liczy się to jako odmowa podporządkowania się, którą jury może ukarać.",
     "rules-call-and-time-p7": "Wielu trenerów poleca krótką, stałą {{term:pre-shot-routine|rutynę przedstrzałową}}, która dobrze mieści się w limicie. Na przykład: wejdź na stanowisko, nabij broń, kiedy sędzia zezwoli, zajmij pozycję gotowości, zrób wydech, potem zawołaj. Więcej w {{lesson:mind-routine-under-pressure}}.",
-    "sporting-time-and-lateness-p3": "{{term:lateness|Spóźnienie}}: jeśli jesteś nieobecny, kiedy twoja grupa zaczyna, sędzia wywołuje twoje imię i numer, trzy razy przez minutę. Jeśli przyjdziesz, kiedy grupa wciąż strzela pojedyncze rzutki na pierwszym stanowisku i twoja kolejka jeszcze nie minęła, dołączasz bez kary. Po tym momencie wszystkie rzutki, których nie strzeliłeś, to zera, i nie możesz nadrobić pominiętych stanowisk później z inną grupą.",
+    "sporting-time-and-lateness-p3": "{{term:lateness|Spóźnienie}}: jeśli jesteś nieobecny, kiedy twoja {{term:squad|grupa}} zaczyna, sędzia wywołuje twoje imię i numer, trzy razy przez minutę. Jeśli przyjdziesz, kiedy grupa wciąż strzela pojedyncze rzutki na pierwszym stanowisku i twoja kolejka jeszcze nie minęła, dołączasz bez kary. Po tym momencie wszystkie rzutki, których nie strzeliłeś, to zera, i nie możesz nadrobić pominiętych stanowisk później z inną grupą.",
     "sporting-time-and-lateness-p4": "Jeśli spóźniłeś się z powodów od ciebie niezależnych, nie dołączaj do grupy w tej serii; odwołaj się do jury na piśmie. Jeśli jury się zgodzi, strzelasz serię z inną grupą. Jeśli odmówi, każda nieustrzelona oś liczy się jako 25 zer.",
     "compak-dress-and-conduct-p3": "W {{tm:compak}} musisz zgłosić się do sędziego z wyprzedzeniem i potwierdzić swoją obecność. Oprócz in line jest format grupowy: {{term:squad|grupa}} {{fact:rules.squad-max-shooters}} strzela serię razem, przechodząc od numeru do numeru. W tym formacie strzelec, który przychodzi po pierwszej komendzie grupy w tej serii, otrzymuje 25 zer za tę serię. Odwołanie składa się na piśmie do jury, w tym samym dniu.",
     "rules-call-and-time-cmp3": {
       "sporting": "Bądź gotowy {{fact:rules.shootoff-ready-time}}. Jeśli cię nie ma, jesteś dyskwalifikowany.",
       "compak": "Bądź gotowy {{fact:rules.shootoff-ready-time}}. Jeśli jesteś nieobecny, jest to traktowane jako wycofanie się."
     },
-    "rules-call-and-time-tip2": "Załóż ochronniki słuchu i okulary, zanim wejdziesz na stanowisko: w obu dyscyplinach strzelec bez nich jest traktowany jako nieobecny ({{lesson:rules-dress-and-safety}})."
+    "rules-call-and-time-tip2": "Załóż {{term:hearing-protection|ochronniki słuchu}} i okulary, zanim wejdziesz na stanowisko: w obu dyscyplinach strzelec bez nich jest traktowany jako nieobecny ({{lesson:rules-dress-and-safety}})."
   },
   "note": {
     "sporting-time-and-lateness-p6": "Nie zatrzymuj grupy długim tłumaczeniem: teraz zostań krótki, a szczegóły podaj po stanowisku."
@@ -107,7 +107,7 @@
     "sporting-time-and-lateness-kp1": "Rzutek wypuszczony ponad 3 sekundy za późno to NO BIRD, w obu dyscyplinach.",
     "rules-call-and-time-kp2": "Nie możesz odrzucić rzutka, który zawołałeś; ten, którego nie zawołałeś, to NO BIRD.",
     "rules-call-and-time-kp3": "{{tm:sporting}}: {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: {{fact:rules.compak-time-to-call}}.",
-    "compak-gun-and-call-kp3": "Przy przekroczeniu limitu czasu pierwszy raz daje ostrzeżenie, a powtórzenie — czerwoną kartkę.",
+    "compak-gun-and-call-kp3": "Przy przekroczeniu {{term:firing-time|limitu czasu}} pierwszy raz daje ostrzeżenie, a powtórzenie — czerwoną kartkę.",
     "sporting-time-and-lateness-kp4": "Bądź na czas: w {{tm:sporting}} rzutki przegapione z powodu spóźnienia to zero; w {{tm:compak}} grupowym przyjście po pierwszej komendzie grupy kosztuje 25 zer."
   },
   "did_you_know": "W {{tm:compak}} in line liczysz się jako spóźniony, kiedy twój numer zostanie zdjęty w komputerze wyników, a następny strzelec już stoi na numerze 1.",
@@ -140,7 +140,7 @@
       "explain": "Rzutek, którego nie zawołałeś, to NO BIRD, i to jedyny rodzaj, który możesz odrzucić."
     },
     "sporting-time-and-lateness-q1": {
-      "q": "Strzelec woła, a sędzia przekazuje sygnał, ale rzutek wylatuje około pięciu sekund później. Decyzja?",
+      "q": "Strzelec woła, a {{term:referee|sędzia}} przekazuje sygnał, ale rzutek wylatuje około pięciu sekund później. Decyzja?",
       "options": {
         "a": "Zero",
         "b": "NO BIRD",
@@ -150,7 +150,7 @@
       "explain": "Rzutek musi wylecieć w ciągu trzech sekund od sygnału sędziego; późniejszy to NO BIRD i jest wyrzucany jeszcze raz."
     },
     "sporting-time-and-lateness-q2": {
-      "q": "Strzelec przychodzi, kiedy grupa wciąż strzela pojedyncze rzutki na stanowisku 1, przed swoją kolejką. Co się dzieje?",
+      "q": "Strzelec przychodzi, kiedy {{term:squad|grupa}} wciąż strzela pojedyncze rzutki na stanowisku 1, przed swoją kolejką. Co się dzieje?",
       "options": {
         "a": "Dołącza bez kary",
         "b": "25 zer",
@@ -180,7 +180,7 @@
       "explain": "Sonopull zawsze wypuszcza rzutek {{fact:rules.sonopull-delay}} po komendzie. Tylko rzutek spóźniony ponad 3 sekundy to NO BIRD."
     },
     "compak-gun-and-call-q3": {
-      "q": "Drugi raz w tej samej serii strzelec zajmuje ponad 10 sekund na komendę. Rzutek jest pojedynczy. Decyzja?",
+      "q": "Drugi raz w tej samej {{term:round|serii}} strzelec zajmuje ponad 10 sekund na komendę. Rzutek jest pojedynczy. Decyzja?",
       "options": {
         "a": "Zero",
         "b": "Tylko kolejne ostrzeżenie",
@@ -190,7 +190,7 @@
       "explain": "Po pierwszym ostrzeżeniu powtórzenie w tej samej serii jest karane według tabeli: rzutek pojedynczy liczy się jako zero."
     },
     "compak-dress-and-conduct-q2": {
-      "q": "{{tm:compak}} grupowy. Strzelec przychodzi chwilę po tym, jak pierwszy strzelec grupy zawołał pierwszy rzutek serii. Co z tego wynika?",
+      "q": "{{tm:compak}} grupowy. Strzelec przychodzi chwilę po tym, jak pierwszy strzelec {{term:squad|grupy}} zawołał pierwszy rzutek {{term:round|serii}}. Co z tego wynika?",
       "options": {
         "a": "Brak kary",
         "b": "Zero na pierwszym rzutku",

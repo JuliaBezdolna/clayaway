@@ -28,15 +28,15 @@
     "origin": null
   },
   "body": {
-    "cartridges-load-weight-p1": "{{term:load-weight|Náplň}} (load) je hmotnost broků v náboji, v gramech. Na krabičce bývá uvedena velkými číslicemi, například „24 g“ nebo „28 g“. V USA a Velké Británii se někdy udává v uncích: 1 unce je přibližně 28 g.",
-    "gear-cartridges-p4": "Pravidla {{tm:sporting}} a {{tm:compak}} stanoví stejné meze. Náplň je {{fact:gear.fitasc-shot-load}}, tedy přibližně do 28,6 g, bez ohledu na ráži. Broky musí být {{fact:gear.fitasc-shot-diameter}}. Přebíjené náboje, rozptylovače, smíšené velikosti broků, černý prach a trasery jsou zakázané.",
+    "cartridges-load-weight-p1": "{{term:load-weight|Náplň}} je hmotnost broků v náboji, v gramech. Na krabičce bývá uvedena velkými číslicemi, například „24 g“ nebo „28 g“. V USA a Velké Británii se někdy udává v uncích: 1 unce je přibližně 28 g.",
+    "gear-cartridges-p4": "Pravidla {{tm:sporting}} a {{tm:compak}} stanoví stejné meze. Náplň je {{fact:gear.fitasc-shot-load}}, tedy přibližně do 28,6 g, bez ohledu na ráži. Broky musí být {{fact:gear.fitasc-shot-diameter}}. {{term:reloaded-cartridge|Přebíjené náboje}}, rozptylovače, smíšené {{term:shot-size|velikosti broků}}, černý prach a trasery jsou zakázané.",
     "cartridges-load-weight-cmp1": {
-      "sporting": "Než začnete střílet na stanovišti, {{term:referee|rozhodčí}} si může vyžádat dva vaše náboje na kontrolu: jeden z pravé kapsy vesty a jeden z levé.",
-      "compak": "Pokud kontrola ukáže, že vaše náboje porušují pravidla, všechny výstřely jimi provedené před touto kontrolou se počítají jako {{term:zero|nula}} (zero), tedy jako minutí. Jury může výsledky ponechat, pokud jste o porušení nemohli vědět a nezískali výhodu, za podmínky, že se chyba napraví, jakmile se zjistí."
+      "sporting": "Než začnete střílet na stanovišti, {{term:referee|rozhodčí}} si může vyžádat dva vaše {{term:cartridge|náboje}} na kontrolu: jeden z pravé kapsy vesty a jeden z levé.",
+      "compak": "Pokud kontrola ukáže, že vaše náboje porušují pravidla, všechny výstřely jimi provedené před touto kontrolou se počítají jako {{term:zero|nula}}, tedy jako minutí. Jury může výsledky ponechat, pokud jste o porušení nemohli vědět a nezískali výhodu, za podmínky, že se chyba napraví, jakmile se zjistí."
     },
     "cartridges-load-weight-p3": "Mnoho střelců v {{tm:sporting}} používá na závodech 28 g: víc broků dává hustší zásah, zvlášť na vzdálené terče. Nevýhodou je silnější {{term:recoil|zpětný ráz}}, a za den se 100–200 terči je to znát.",
     "cartridges-load-weight-p4": "Náboje 24 g jsou lehčí, míň tlačí a obvykle jsou o trochu levnější. Na trénink a na blízké a střední terče obvykle stačí a méně unavují; na vzdálené terče dá hustší zásah 28 g. Existují i ještě lehčí náboje 21 g, hlavně pro ráži 20 nebo pro výuku.",
-    "cartridges-load-weight-p6": "Mnozí trenéři doporučují, aby začátečníci začínali s 24 g. Menší zpětný ráz znamená méně únavy a menší riziko, že si návykem {{term:flinch|cuknete}} před výstřelem. Na 28 g můžete přejít později, až bude technika stabilní."
+    "cartridges-load-weight-p6": "Mnozí trenéři doporučují, aby začátečníci začínali s 24 g. Menší zpětný ráz znamená méně únavy a menší riziko, že si vypěstujete {{term:flinch|cukání}} před výstřelem. Na 28 g můžete přejít později, až bude technika stabilní."
   },
   "note": {},
   "phrases": {
@@ -53,27 +53,27 @@
   },
   "quiz": {
     "gear-cartridges-q2": {
-      "q": "Jaká je maximální náplň broků podle pravidel FITASC?",
+      "q": "Jaká je maximální {{term:load-weight|náplň}} broků podle pravidel FITASC?",
       "options": {
         "a": "24 g, bez tolerance",
         "b": "28 g, s tolerancí +2 %",
         "c": "32 g jen pro vzdálené terče",
         "d": "Bez omezení, jakákoli náplň"
       },
-      "explain": "Obě disciplíny dovolují nejvýš 28 g olověných broků, +2 %."
+      "explain": "Obě disciplíny dovolují nejvýš 28 g {{term:lead-shot|olověných broků}}, +2 %."
     },
     "cartridges-load-weight-q2": {
-      "q": "Proč mnozí trenéři doporučují začátečníkům náboje 24 g?",
+      "q": "Proč mnozí trenéři doporučují začátečníkům {{term:cartridge|náboje}} 24 g?",
       "options": {
         "a": "Méně tlačí a méně unavují",
         "b": "Jen ty jsou začátečníkům povolené",
         "c": "Dávají nejhustší zásah",
         "d": "Letí dál než těžší náplně"
       },
-      "explain": "Menší zpětný ráz pomáhá udržet dobrou techniku a vyhnout se cuknutí."
+      "explain": "Menší {{term:recoil|zpětný ráz}} pomáhá udržet dobrou techniku a vyhnout se cuknutí."
     },
     "cartridges-load-weight-q3": {
-      "q": "Kolik nábojů může rozhodčí v {{tm:sporting}} vzít na kontrolu?",
+      "q": "Kolik {{term:cartridge|nábojů}} může {{term:referee|rozhodčí}} v {{tm:sporting}} vzít na kontrolu?",
       "options": {
         "a": "Žádný: kontroly nejsou povolené",
         "b": "Jeden, z kterékoli kapsy",
@@ -83,7 +83,7 @@
       "explain": "Rozhodčí si může vzít dva náboje: po jednom z každé kapsy vesty."
     },
     "cartridges-load-weight-q1": {
-      "q": "V {{tm:compak}} kontrola ukáže, že náboje střelce porušují pravidla. Jak se počítají výstřely jimi před touto kontrolou?",
+      "q": "V {{tm:compak}} kontrola ukáže, že {{term:cartridge|náboje}} střelce porušují pravidla. Jak se počítají výstřely jimi před touto kontrolou?",
       "options": {
         "a": "Přestřílí se později",
         "b": "Počítají se jako No Bird",
@@ -94,6 +94,6 @@
     }
   },
   "title": "Náplň broků",
-  "summary": "Co je náplň, čím se liší náboje 24 g a 28 g, jakou mez stanoví pravidla {{tm:sporting}} a {{tm:compak}} a jak se náboje kontrolují.",
+  "summary": "Co je {{term:load-weight|náplň}}, čím se liší {{term:cartridge|náboje}} 24 g a 28 g, jakou mez stanoví pravidla {{tm:sporting}} a {{tm:compak}} a jak se náboje kontrolují.",
   "did_you_know": "1 unce je 28,35 g, takže klasický britský náboj „1 oz“ téměř přesně odpovídá mezi FITASC 28 g."
 }

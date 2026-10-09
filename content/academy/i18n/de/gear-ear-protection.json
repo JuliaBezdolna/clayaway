@@ -38,12 +38,12 @@
  "title": "Gehörschutz: Stöpsel und Kapselgehörschutz",
  "summary": "Warum ein Schuss das Gehör dauerhaft schädigen kann, welche Stöpsel und Kapselgehörschutze es gibt, und warum viele Schützen bei {{tm:sporting}} und {{tm:compak}} auf lauten Ständen beides zusammen tragen.",
  "body": {
-  "gear-ear-protection-p1": "{{term:hearing-protection|Gehörschutz}} ist bei {{tm:sporting}} und {{tm:compak}} Pflicht für alle auf oder in der Nähe eines Layouts: Schützen, Schiedsrichter, Personal und Zuschauer. Ein Schütze, der ohne ihn zum Standplatz kommt, wird als nicht erschienen behandelt und schießt nicht.",
+  "gear-ear-protection-p1": "{{term:hearing-protection|Gehörschutz}} ist bei {{tm:sporting}} und {{tm:compak}} Pflicht für alle auf oder in der Nähe eines Layouts: Schützen, {{term:referee|Schiedsrichter}}, Personal und Zuschauer. Ein Schütze, der ohne ihn zum Standplatz kommt, wird als nicht erschienen behandelt und schießt nicht.",
   "health-hearing-p1": "Ein Flintenschuss ist sehr laut: {{fact:gear.gunshot-peak-db}}. Für kurze, plötzliche Geräusche wie einen Knall (Impulsschall) liegt der übliche sichere Grenzwert bei {{fact:gear.impulse-noise-limits}}. Jeder Schuss ohne Schutz liegt also über der Grenze, und ein Tag am Schießstand bedeutet hunderte Schüsse, Ihre eigenen und die anderer Leute.",
   "health-hearing-p2": "Lärmbedingter Hörverlust baut sich allmählich und schmerzlos auf. Winzige empfindliche Zellen im Innenohr sterben ab und wachsen nicht nach. Er beginnt meist mit hohen Tönen: Sprache, besonders in lauter Umgebung, wird weniger klar, und viele Menschen merken es zunächst nicht. Mit weiterem ungeschütztem Schießen breitet sich der Verlust auf mehr Töne aus. Verlorenes Gehör lässt sich nicht wiederherstellen; es lässt sich nur schützen.",
   "health-hearing-p3": "Klingeln oder Brummen in den Ohren (Tinnitus) nach dem Schießen ist ein häufiges erstes Warnzeichen: Ihr Schutz war nicht ausreichend. Prüfen Sie, wie Ihre Stöpsel und Ihr Kapselgehörschutz sitzen, oder wählen Sie stärkere. Klingeln Ihre Ohren oder klingen Geräusche nach dem Schießen dumpf, lassen Sie Ihr Gehör von einem Hals-Nasen-Ohren-Arzt oder Audiologen testen. Lässt Ihr Gehör plötzlich nach, suchen Sie dringend medizinische Hilfe.",
   "gear-ear-protection-p2": "{{term:earplugs|Ohrstöpsel}} sind die einfachste Option. Schaumstoffstöpsel sind billig: Sie rollen sie dünn, setzen sie ins Ohr und lassen sie sich ausdehnen. Es gibt auch wiederverwendbare Silikonstöpsel und individuell angepasste Stöpsel. Stöpsel, die den Gehörgang abdichten, schützen gut; schlecht sitzende schützen sehr wenig, lassen Sie sich also von Ihrem Trainer zeigen, wie es geht.",
-  "gear-ear-protection-p3": "{{term:passive-ear-muffs|Passiver Kapselgehörschutz}} bedeckt die Ohren einfach mit dicht schließenden Kapseln. Er lässt sich leicht auf- und absetzen, aber Stimmen sind dadurch schwerer zu hören. Wählen Sie für eine Flinte Kapselgehörschutz mit schmalen Kapseln, denn dicke können beim Anschlagen gegen den {{term:stock|Schaft}} stoßen.",
+  "gear-ear-protection-p3": "{{term:passive-ear-muffs|Passiver Kapselgehörschutz}} bedeckt die Ohren einfach mit dicht schließenden Kapseln. Er lässt sich leicht auf- und absetzen, aber Stimmen sind dadurch schwerer zu hören. Wählen Sie für eine Flinte Kapselgehörschutz mit schmalen Kapseln, denn dicke können beim {{term:gun-mount|Anschlagen}} gegen den {{term:stock|Schaft}} stoßen.",
   "gear-ear-protection-p4": "{{term:electronic-ear-muffs|Elektronischer Gehörschutz}} hat Mikrofone und Lautsprecher. Er verstärkt leise Geräusche, etwa die Stimme und die Kommandos des Schiedsrichters, und dämpft einen lauten Ton im Moment des Schusses sofort. Er hilft Sicherheit und Verständigung, kostet aber mehr und braucht Batterien oder Aufladen.",
   "gear-ear-protection-p5": "Schutz wird mit einer Zahl bewertet, SNR in Europa und NRR in den USA: je höher die Zahl, desto stärker die Dämpfung. Auf lauten Ständen, etwa unter einem Dach oder nahe Wänden, geben Stöpsel und Kapselgehörschutz zusammen getragen einen zusätzlichen Spielraum. Man kann die beiden Zahlen nicht einfach addieren, aber ein US-Arbeitsschutzinstitut (NIOSH) maß mit beiden zusammen rund 15–20 dB mehr Schutz als mit nur einem.",
   "health-hearing-p7": "Schutz wirkt nur, wenn er gut sitzt. Stöpsel gehen tief genug hinein, um den Gehörgang abzudichten, und Brillenbügel oder eine Mütze dürfen die Abdichtung des Kapselgehörschutzes nicht unterbrechen. Individuell angepasste Stöpsel sind bequem und sitzen jedes Mal gleich; nutzen Sie den SNR-Wert auf der Verpackung als Richtwert.",
@@ -64,31 +64,31 @@
  "did_you_know": "Schaumstoffstöpsel sind für eine oder wenige Verwendungen gedacht: abgenutzte und schmutzige Stöpsel dichten schlechter ab und schützen weniger.",
  "quiz": {
   "gear-ear-protection-q1": {
-   "q": "Was macht elektronischer Gehörschutz?",
+   "q": "Was macht {{term:electronic-ear-muffs|elektronischer Gehörschutz}}?",
    "options": {
     "a": "Verstärkt leise Geräusche und dämpft den Schuss",
     "b": "Zählt, wie viele Schüsse Sie abgegeben haben",
     "c": "Macht eine Schießbrille unnötig",
     "d": "Spielt Musik zwischen den Runden"
    },
-   "explain": "Sie hören den Schiedsrichter und Kommandos, während Ihr Gehör geschützt ist."
+   "explain": "Sie hören den {{term:referee|Schiedsrichter}} und Kommandos, während Ihr Gehör geschützt ist."
   },
   "gear-ear-protection-q2": {
-   "q": "Warum ist Kapselgehörschutz mit schmalen Kapseln bei einer Flinte besser?",
+   "q": "Warum ist {{term:hearing-protection|Kapselgehörschutz}} mit schmalen Kapseln bei einer Flinte besser?",
    "options": {
     "a": "Sie lassen mehr vom Knall durch",
     "b": "Dicke Kapseln können gegen den Schaft stoßen",
     "c": "Die Kleiderordnung verlangt schmale Kapseln",
     "d": "Sie brauchen überhaupt keine Batterien"
    },
-   "explain": "Der Schaft kommt an die Wange, und eine dicke Kapsel kann beim Anschlagen im Weg sein."
+   "explain": "Der Schaft kommt an die Wange, und eine dicke Kapsel kann beim {{term:gun-mount|Anschlagen}} im Weg sein."
   },
   "gear-ear-protection-q3": {
    "q": "Was ist auf einem sehr lauten Standplatz sinnvoll, etwa unter einem Dach?",
    "options": {
     "a": "Ungeschützt schießen, um besser zu hören",
-    "b": "Nur einen der Ohrstöpsel tragen",
-    "c": "Stöpsel und Kapselgehörschutz zusammen tragen",
+    "b": "Nur einen der {{term:earplugs|Ohrstöpsel}} tragen",
+    "c": "Stöpsel und {{term:hearing-protection|Kapselgehörschutz}} zusammen tragen",
     "d": "Näher am Wurfmaschinenhaus stehen"
    },
    "explain": "Doppelter Schutz dämpft den Schall stärker als jeder für sich."
@@ -104,17 +104,17 @@
    "explain": "Lärmbedingter Hörverlust ist dauerhaft, schützen Sie Ihr Gehör also vom ersten Schuss an."
   },
   "health-hearing-q2": {
-   "q": "Was ist doppelter Gehörschutz?",
+   "q": "Was ist {{term:double-hearing-protection|doppelter Gehörschutz}}?",
    "options": {
     "a": "Zwei Paar Ohrstöpsel gleichzeitig",
     "b": "Kapselgehörschutz über einer warmen Mütze",
     "c": "Ohrstöpsel und Kapselgehörschutz zusammen",
     "d": "Kapselgehörschutz mit zwei Lautstärkestufen"
    },
-   "explain": "Ohrstöpsel unter Kapselgehörschutz geben einen zusätzlichen Schutzspielraum."
+   "explain": "Ohrstöpsel unter {{term:hearing-protection|Kapselgehörschutz}} geben einen zusätzlichen Schutzspielraum."
   },
   "health-hearing-q3": {
-   "q": "Was passiert nach den FITASC-Regeln mit einem Schützen, der ohne Gehörschutz zum Standplatz kommt?",
+   "q": "Was passiert nach den FITASC-Regeln mit einem Schützen, der ohne {{term:hearing-protection|Gehörschutz}} zum Standplatz kommt?",
    "options": {
     "a": "Er wird als nicht erschienen behandelt",
     "b": "Er schießt, mit einer Verwarnung",

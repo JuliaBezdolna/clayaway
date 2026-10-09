@@ -27,13 +27,17 @@
     "mind-warm-up-mobility-q-compak-practice": "1f424f7a",
     "mind-warm-up-mobility-q3": "771a732e"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Riscaldamento e mobilità",
-  "summary": "Perché un breve riscaldamento di collo, spalle, busto e gambe aiuta un tiratore, come farlo sul campo e cosa permettono le regole prima di una gara.",
+  "summary": "Perché un breve {{term:warm-up|riscaldamento}} di collo, spalle, busto e gambe aiuta un tiratore, come farlo sul campo e cosa permettono le regole prima di una gara.",
   "body": {
     "mind-warm-up-mobility-p1": "Il tiro al piattello sembra tranquillo: state in piedi, imbracciate il fucile e tirate. Ma in una giornata di {{tm:sporting}} o {{tm:compak}} imbracciate un fucile pesante e girate il corpo molte volte. Molti istruttori notano che con i muscoli freddi questo movimento diventa rigido e scattoso.",
     "mind-warm-up-mobility-p2": "Un {{term:warm-up|riscaldamento}} è un movimento leggero prima della prima serie. Non c'è una durata fissa; molti istruttori suggeriscono circa 10-15 minuti. L'obiettivo non è stancarsi ma svegliare il corpo: scaldare i muscoli, sciogliere le articolazioni e stabilizzare il respiro. Ci sono poche ricerche sul riscaldamento nel tiro al piattello, quindi questi consigli vengono dall'esperienza degli istruttori.",
-    "mind-warm-up-mobility-p3": "La {{term:mobility|mobilità}} indica quanto liberamente si muovono le vostre articolazioni: se potete girare la testa, alzare le braccia e torcere il busto quanto richiede il colpo, senza sforzo. Per un tiratore le zone chiave sono il collo (la testa scende sul calcio) e le spalle ({{term:gun-mount|l'imbracciata}}). La parte alta della schiena e i fianchi girano il corpo seguendo il piattello, e le caviglie vi mantengono stabili nella vostra {{term:stance|posizione}}.",
+    "mind-warm-up-mobility-p3": "La {{term:mobility|mobilità}} indica quanto liberamente si muovono le vostre articolazioni: se potete girare la testa, alzare le braccia e torcere il busto quanto richiede il colpo, senza sforzo. Per un tiratore le zone chiave sono il collo — la testa scende sullo {{term:stock|calcio}} — e le spalle — la {{term:gun-mount|imbracciata}}. La parte alta della schiena e i fianchi girano il corpo seguendo il piattello, e le caviglie vi mantengono stabili nella vostra {{term:stance|posizione}}.",
     "mind-warm-up-mobility-routine": "Un semplice schema che potete fare sul campo, senza il fucile:",
     "mind-warm-up-mobility-p4": [
       "Rotazioni e inclinazioni lente della testa, senza cerchi veloci.",
@@ -46,9 +50,9 @@
     "mind-warm-up-mobility-p5": "Molti istruttori consigliano esercizi dinamici prima di tirare: movimenti leggeri che ripetete e rendete un po' più ampi ogni volta, come rotazioni delle spalle che si allargano. Lo stretching statico, dove mantenete una posizione al limite per molto tempo, di solito si lascia per la sera, dopo aver tirato.",
     "mind-warm-up-mobility-p6": {
       "sporting": "La {{term:mock-shooting|simulazione di tiro}} significa imbracciare il fucile e seguire con la canna un piattello immaginario. Durante una gara non è permessa in nessun punto del campo, quindi imbracciate il fucile solo per tirare ({{rule:sporting:ch8-mock-shooting}}). Prima della gara nessuno può allenarsi sui {{term:layout|percorsi}} di gara, quindi il tiro di riscaldamento si fa su altri percorsi ({{rule:sporting:ch15-no-practice}}).",
-      "compak": "Nel {{tm:compak}} le regole la chiamano simulazione di tiro e la vietano solo in alcuni casi ({{rule:compak:ch24-dry-mounting}}). Durante una gara non potete imbracciare e seguire con la canna fuori dalle postazioni di tiro, né mentre tira qualcuno della vostra {{term:squad|batteria}}. Prima della gara potete allenarvi sulle traiettorie di gara, ma con una {{term:trajectory-setting-table|tabella di impostazione delle traiettorie}} diversa: un menu già pronto che indica da quali macchine partono i piattelli su ogni postazione. Quindi durante l'allenamento vedete gli stessi piattelli, ma in combinazioni diverse da quelle del giorno di gara ({{rule:compak:ch6-practice}}). Ai campionati continentali e mondiali l'{{term:practice|allenamento}} ufficiale apre {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+      "compak": "Nel {{tm:compak}} le regole la chiamano {{term:mock-shooting|simulazione di tiro}} e la vietano solo in alcuni casi ({{rule:compak:ch24-dry-mounting}}). Durante una gara non potete imbracciare e seguire con la canna fuori dalle postazioni di tiro, né mentre tira qualcuno della vostra {{term:squad|batteria}}. Prima della gara potete allenarvi sulle traiettorie di gara, ma con una {{term:trajectory-setting-table|tabella di impostazione delle traiettorie}} diversa: un menu già pronto che indica da quali {{term:trap|macchine}} partono i piattelli su ogni postazione. Quindi durante il {{term:practice|allenamento}} vedete gli stessi piattelli, ma in combinazioni diverse da quelle del giorno di gara ({{rule:compak:ch6-practice}}). Ai campionati continentali e mondiali il {{term:practice|allenamento}} ufficiale apre {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
     },
-    "mind-warm-up-mobility-without-gun": "Per entrambe le discipline molti istruttori consigliano di riscaldarsi senza il fucile durante una gara. Esercitate l'imbracciata con un fucile scarico ({{term:dry-mounting|imbracciata in bianco}}) a casa o in allenamento, dove la legge e le regole del campo lo permettono ({{lesson:training-dry-mount-practice}}).",
+    "mind-warm-up-mobility-without-gun": "Per entrambe le discipline molti istruttori consigliano di riscaldarsi senza il fucile durante una gara. Esercitate l'imbracciata con un fucile scarico — {{term:dry-mounting|imbracciata in bianco}} — a casa o in {{term:practice|allenamento}}, dove la legge e le regole del campo lo permettono ({{lesson:training-dry-mount-practice}}).",
     "mind-warm-up-mobility-p7": "Se avete un infortunio o un dolore persistente alla schiena, al collo o alla spalla, costruite il vostro schema insieme a un medico o a un fisioterapista. Se un esercizio fa male, fermatevi: fisioterapisti e istruttori trattano in genere il dolore come un segnale per fermarsi, non per insistere."
   },
   "note": {
@@ -59,29 +63,45 @@
     "mind-warm-up-mobility-kp1": "Movimento leggero e dinamico prima della prima serie, spesso circa 10-15 minuti",
     "mind-warm-up-mobility-kp2": "Attenzione a collo, spalle, schiena, fianchi e caviglie",
     "mind-warm-up-mobility-kp3": "Muovetevi con fluidità e fermatevi se fa male",
-    "mind-warm-up-mobility-kp4": "In gara, riscaldatevi senza il fucile ({{tm:sporting}}: nessuna simulazione di tiro, in nessun caso)",
-    "mind-warm-up-mobility-kp-practice": "{{tm:sporting}}: nessun allenamento sui percorsi di gara; {{tm:compak}}: allenamento solo con un'altra tabella di impostazione (un altro menu di macchine per postazione)"
+    "mind-warm-up-mobility-kp4": "In gara, riscaldatevi senza il fucile — {{tm:sporting}}: nessuna {{term:mock-shooting|simulazione di tiro}}, in nessun caso",
+    "mind-warm-up-mobility-kp-practice": "{{tm:sporting}}: nessun allenamento sui {{term:layout|percorsi}} di gara; {{tm:compak}}: allenamento solo con un'altra tabella di impostazione — un altro menu di {{term:trap|macchine}} per postazione"
   },
   "did_you_know": "Anche alcune lente rotazioni del busto tra una serie e l'altra possono aiutare: in una giornata lunga i muscoli hanno il tempo di raffreddarsi di nuovo.",
   "quiz": {
     "mind-warm-up-mobility-q1": {
-      "q": "Quanto lungo consigliano molti istruttori il riscaldamento prima di tirare?",
-      "options": { "a": "Un'ora di allenamento intenso", "b": "Circa 10-15 minuti di movimento leggero", "c": "Un tiratore non ha affatto bisogno di riscaldamento" },
+      "q": "Quanto lungo consigliano molti istruttori il {{term:warm-up|riscaldamento}} prima di tirare?",
+      "options": {
+        "a": "Un'ora di allenamento intenso",
+        "b": "Circa 10-15 minuti di movimento leggero",
+        "c": "Un tiratore non ha affatto bisogno di riscaldamento"
+      },
       "explain": "Non c'è una durata fissa; molti istruttori suggeriscono circa 10-15 minuti di movimento leggero che scalda i muscoli senza stancarvi."
     },
     "mind-warm-up-mobility-q2": {
-      "q": "Quale tipo di riscaldamento consigliano molti istruttori prima di tirare?",
-      "options": { "a": "Stretching lungo mantenuto al limite", "b": "Una corsa di lunga distanza prima della serie", "c": "Movimenti che diventano un po' più ampi ogni volta" },
+      "q": "Quale tipo di {{term:warm-up|riscaldamento}} consigliano molti istruttori prima di tirare?",
+      "options": {
+        "a": "Stretching lungo mantenuto al limite",
+        "b": "Una corsa di lunga distanza prima della serie",
+        "c": "Movimenti che diventano un po' più ampi ogni volta"
+      },
       "explain": "Movimenti leggeri che crescono un po' ogni volta svegliano il corpo; lo stretching lungo mantenuto al limite si lascia di solito per la sera."
     },
     "mind-warm-up-mobility-q-compak-practice": {
       "q": "Prima di una normale gara di {{tm:compak}} (non un campionato continentale o mondiale), si può allenarsi sulle traiettorie di gara?",
-      "options": { "a": "Sì, ma con altre tabelle di impostazione delle traiettorie", "b": "No, è vietato come nel {{tm:sporting}}", "c": "Sì, con le stesse tabelle della gara" },
-      "explain": "Nel {{tm:compak}} allenarsi sulle traiettorie di gara è permesso con altre tabelle di impostazione. Ai campionati continentali e mondiali l'allenamento ufficiale apre solo {{fact:training.compak-championship-practice}}. Nel {{tm:sporting}} nessuno può allenarsi sui percorsi di gara."
+      "options": {
+        "a": "Sì, ma con altre tabelle di impostazione delle traiettorie",
+        "b": "No, è vietato come nel {{tm:sporting}}",
+        "c": "Sì, con le stesse tabelle della gara"
+      },
+      "explain": "Nel {{tm:compak}} allenarsi sulle traiettorie di gara è permesso con altre tabelle di impostazione. Ai campionati continentali e mondiali il {{term:practice|allenamento}} ufficiale apre solo {{fact:training.compak-championship-practice}}. Nel {{tm:sporting}} nessuno può allenarsi sui {{term:layout|percorsi}} di gara."
     },
     "mind-warm-up-mobility-q3": {
       "q": "Nel {{tm:sporting}}, si può imbracciare il fucile e seguire con la canna un piattello immaginario dietro la pedana durante una gara?",
-      "options": { "a": "Sì, è un riscaldamento utile prima della serie", "b": "Sì, purché il fucile sia scarico", "c": "No, la simulazione di tiro non è permessa in nessun punto" },
+      "options": {
+        "a": "Sì, è un {{term:warm-up|riscaldamento}} utile prima della serie",
+        "b": "Sì, purché il fucile sia scarico",
+        "c": "No, la {{term:mock-shooting|simulazione di tiro}} non è permessa in nessun punto"
+      },
       "explain": "Le regole {{tm:sporting}} non permettono la simulazione di tiro in nessun punto del campo durante una gara, quindi riscaldatevi senza il fucile."
     }
   }

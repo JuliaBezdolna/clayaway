@@ -36,10 +36,10 @@
     "origin": "interpreter-academy"
   },
   "title": "Postawa: jak stać na stanowisku strzeleckim",
-  "summary": "Stopy, waga ciała, kolana i skręt tułowia: prosta, zwarta postawa, z której łatwo płynnie prowadzić broń za rzutkiem.",
+  "summary": "Stopy, waga ciała, kolana i skręt tułowia: prosta, zwarta {{term:stance|postawa}}, z której łatwo płynnie prowadzić broń za rzutkiem.",
   "body": {
-    "basics-stance-p1": "Postawa strzelecka (stance) to sposób, w jaki strzelec stoi przed strzałem. Miejsca jest mało: w {{tm:sporting}} stanowisko to kwadrat lub koło o boku/średnicy 1 m i obie stopy muszą być w nim przed komendą. W {{tm:compak}} każde stanowisko to kwadrat 1 m z ogranicznikiem kąta strzału (Firing Angle Limiter) — ramą, która nie pozwala strzelcowi zrobić kroku do przodu i ogranicza zakres ruchu broni.",
-    "basics-stance-p3": "Najważniejsza wskazówka: skieruj przednią stopę na {{term:break-point|punkt strzału}} — miejsce, w którym zamierzasz rozbić rzutek. Wtedy w chwili strzału ciało jest swobodne i zwrócone właśnie tam, gdzie trzeba. Przed komendą skręć górną część ciała od bioder z powrotem do {{term:hold-point|punktu wyjściowego lufy}} — miejsca, gdzie czekają na rzutek wyloty luf. Kiedy rzutek wylatuje, po prostu wracasz tą samą drogą, jak rozkręcająca się sprężyna. Jeśli stopy są skierowane na wyrzutnię, ostrzegają trenerzy, ciału nie wystarczy skrętu, by dosięgnąć punktu strzału, i broń się zatrzymuje albo głowa unosi się z kolby.",
+    "basics-stance-p1": "{{term:stance|Postawa strzelecka}} to sposób, w jaki strzelec stoi przed strzałem. Miejsca jest mało: w {{tm:sporting}} {{term:shooting-stand|stanowisko}} to kwadrat lub koło o boku/średnicy 1 m i obie stopy muszą być w nim przed komendą. W {{tm:compak}} każde stanowisko to kwadrat 1 m z {{term:firing-angle-limiter|ogranicznikiem kąta strzału}} — ramą, która nie pozwala strzelcowi zrobić kroku do przodu i ogranicza zakres ruchu broni.",
+    "basics-stance-p3": "Najważniejsza wskazówka: skieruj przednią stopę na {{term:break-point|punkt strzału}} — miejsce, w którym zamierzasz rozbić rzutek. Wtedy w chwili strzału ciało jest swobodne i zwrócone właśnie tam, gdzie trzeba. Przed komendą skręć górną część ciała od bioder z powrotem do {{term:hold-point|punktu wyjściowego lufy}} — miejsca, gdzie czekają na rzutek wyloty luf. Kiedy rzutek wylatuje, po prostu wracasz tą samą drogą, jak rozkręcająca się sprężyna. Jeśli stopy są skierowane na wyrzutnię, ostrzegają trenerzy, ciału nie wystarczy skrętu, by dosięgnąć punktu strzału, i broń się zatrzymuje albo głowa unosi się ze {{term:stock|kolby}}.",
     "basics-stance-p2": "Typowa podstawa: stopy mniej więcej na szerokość barków; u praworęcznego lewa stopa lekko z przodu (leworęczny robi to w lustrzanym odbiciu); kolana miękkie, nie zablokowane; ciężar ciała lekko do przodu, mniej więcej 60 procent na przedniej nodze. Trenerzy mówią „nose over toes” — nos nad palcami stóp.",
     "basics-stance-p4": "Ciało obraca się z bioder, a nie ramionami. Stopy mogą być ustawione nieco inaczej dla każdego rzutka.",
     "technique-stance-balance": "Dobra postawa utrzymuje równowagę, gdy ciało skręca się za rzutkiem. Lekkie przechylenie do przodu pomaga też przyjąć {{term:recoil|odrzut}}, a nie zostać odchylonym do tyłu; więcej w {{lesson:health-recoil-shoulder-neck}}.",
@@ -71,7 +71,7 @@
     "basics-stance-kp4": "Przednia stopa wskazuje punkt strzału; skręt z bioder z powrotem do punktu wyjściowego lufy.",
     "basics-stance-kp3": "Stopy na szerokość barków, miękkie kolana, ciężar lekko do przodu.",
     "basics-stance-kp1": "{{tm:sporting}}: obie stopy wewnątrz stanowiska 1 m przed komendą.",
-    "basics-stance-kp2": "{{tm:compak}}: stanowisko 1 m z ogranicznikiem kąta strzału (Firing Angle Limiter).",
+    "basics-stance-kp2": "{{tm:compak}}: stanowisko 1 m z {{term:firing-angle-limiter|ogranicznikiem kąta strzału}}.",
     "technique-stance-kp4": "Przed odwróceniem się na stanowisku otwórz i rozładuj broń."
   },
   "did_you_know": "Na numerze {{tm:compak}} ogranicznik kąta strzału to często prosta rama z kolorowych plastikowych rurek. Ogranicza, jak daleko można wychylić broń w bok, w górę i w dół.",
@@ -89,8 +89,8 @@
     "basics-stance-q2": {
       "q": "Czego przepisy {{tm:sporting}} wymagają od stóp przed komendą?",
       "options": {
-        "a": "Obie stopy wewnątrz stanowiska",
-        "b": "Przednia stopa na linii stanowiska",
+        "a": "Obie stopy wewnątrz {{term:shooting-stand|stanowiska}}",
+        "b": "Przednia stopa na linii {{term:shooting-stand|stanowiska}}",
         "c": "Stopy złączone",
         "d": "Żadnych wymagań"
       },
@@ -127,9 +127,9 @@
     "technique-stance-q3": {
       "q": "Gdzie muszą być stopy strzelca w {{tm:sporting}} przed komendą?",
       "options": {
-        "a": "Gdziekolwiek blisko stanowiska",
-        "b": "Obie w granicach stanowiska",
-        "c": "Jedna w stanowisku, druga poza nim"
+        "a": "Gdziekolwiek blisko {{term:shooting-stand|stanowiska}}",
+        "b": "Obie w granicach {{term:shooting-stand|stanowiska}}",
+        "c": "Jedna w {{term:shooting-stand|stanowisku}}, druga poza nim"
       },
       "explain": "Przepisy {{tm:sporting}} wymagają, by przed komendą obie stopy strzelca były w granicach stanowiska."
     }

@@ -36,13 +36,13 @@
     "origin": null
   },
   "title": "Les types de plateaux",
-  "summary": "Standard, midi, mini, battue, rabbit, flash, ZZ et rocket : en quoi les plateaux diffèrent, comment ils volent, et pourquoi le menu nomme chaque plateau particulier.",
+  "summary": "Standard, midi, mini, battue, rabbit, flash, ZZ et rocket : en quoi les {{term:target|plateaux}} diffèrent, comment ils volent, et pourquoi le menu nomme chaque plateau particulier.",
   "body": {
-    "targets-target-types-p1": "Un {{term:target|plateau}} (target), souvent appelé « clay », est un disque fragile lancé par une machine appelée {{term:trap|lanceur}} (trap). Connaître le type de plateau aide à préparer le tir avant d'appeler.",
-    "targets-types-p1": "La liste FITASC du {{tm:sporting}} nomme sept types de plateaux : standard, midi, super mini, battue, rabbit, flash et ZZ. Le {{tm:compak}} autorise tout plateau standard ou spécial, et sa liste nomme aussi le rocket. Chaque type vole différemment.",
+    "targets-target-types-p1": "Un {{term:target|plateau}}, souvent appelé « clay », est un disque fragile lancé par une machine appelée {{term:trap|lanceur}}. Connaître le type de plateau aide à préparer le tir avant d'appeler.",
+    "targets-types-p1": "La liste FITASC du {{tm:sporting}} nomme sept types de plateaux : standard, midi, super mini, battue, rabbit, flash et ZZ. Le {{tm:compak}} autorise tout {{term:standard-target|plateau standard}} ou spécial, et sa liste nomme aussi le rocket. Chaque type vole différemment.",
     "targets-types-p2": "Le {{term:standard-target|standard}}, le plateau le plus courant, est un dôme d'environ 108 à 110 mm de diamètre ; les débutants commencent généralement par lui. Le {{term:midi|midi}} fait 90 mm : il garde bien sa vitesse et paraît plus loin qu'il ne l'est. Le {{term:mini|mini}} fait généralement 60 mm : il quitte le lanceur vite et ralentit rapidement. Les tireurs ont donc tendance à lui donner trop d'avance, c'est-à-dire à tirer trop loin devant lui. Les noms des petits plateaux varient : la liste du {{tm:sporting}} dit « super mini », et les menus peuvent indiquer 70 mm ou 60 mm. Fiez-vous aux millimètres écrits sur le menu.",
     "targets-types-p3": "La {{term:battue|battue}} est un plateau plat et fin de 110 mm. Elle vole de profil, presque invisible, puis se retourne pour montrer sa face et tombe vite. Le règlement du {{tm:compak}} déconseille les battues sur des trajectoires très courtes. Le {{term:rabbit|rabbit}} est un plateau de 110 mm à bord épais et solide, lancé sur sa tranche au sol ; il rebondit et peut sauter sur les irrégularités. Voir aussi {{lesson:flight-rabbit}}.",
-    "targets-types-p4": "Un {{term:flash-target|plateau flash}} est rempli d'une poudre colorée qui laisse un nuage vif quand il est touché ; il se compte comme tout autre plateau. Un {{term:zz-target|plateau ZZ}}, aussi appelé hélice, est une hélice en plastique avec un centre blanc qui vole de façon imprévisible. Le {{term:rocket-target|rocket}} est un autre plateau spécial, nommé seulement dans la liste du {{tm:compak}}.",
+    "targets-types-p4": "Un {{term:flash-target|plateau flash}} est rempli de poudre colorée qui laisse un nuage vif quand il est touché ; il se compte comme tout autre plateau. Un {{term:zz-target|plateau ZZ}}, aussi appelé hélice, est une hélice en plastique avec un centre blanc qui vole de façon imprévisible. Le {{term:rocket-target|rocket}} est un autre plateau spécial, nommé seulement dans la liste du {{tm:compak}}.",
     "targets-target-types-p6": "Au {{tm:sporting}}, le {{term:target-menu|menu}} devant chaque poste de tir (l'endroit d'où vous tirez) doit nommer tout plateau spécial : {{fact:targets.sporting-menu-special-targets}}. Lisez-le avant de monter sur le poste.",
     "targets-types-p5": "Au {{tm:sporting}}, un plateau de la mauvaise couleur, taille ou type est un No Bird (le plateau ne compte pas) et il est relancé.",
     "targets-target-types-p7": "La couleur n'est pas un type de plateau : elle est choisie pour que le plateau se détache bien du fond. Voir {{lesson:targets-colours-visibility}}."
@@ -75,7 +75,7 @@
   },
   "quiz": {
     "targets-target-types-q1": {
-      "q": "Quelle taille a généralement un plateau mini ?",
+      "q": "Quelle taille a généralement un {{term:target|plateau}} mini ?",
       "options": {
         "a": "90 mm",
         "b": "Environ 60 mm",
@@ -94,7 +94,7 @@
       "explain": "Au {{tm:sporting}}, un plateau de la mauvaise couleur, taille ou type est un No Bird (il ne compte pas) et il est relancé."
     },
     "targets-types-q1": {
-      "q": "Quel plateau roule au sol ?",
+      "q": "Quel {{term:target|plateau}} roule au sol ?",
       "options": {
         "a": "Midi",
         "b": "Battue",
@@ -114,7 +114,7 @@
       "explain": "Le règlement nomme les tailles 70 mm et 60 mm et le nom « super mini » ; faites confiance aux millimètres du menu et ne corrigez pas l'entraîneur."
     },
     "targets-target-types-q-battue": {
-      "q": "Quel plateau vole de profil, puis se retourne pour montrer sa face et tombe ?",
+      "q": "Quel {{term:target|plateau}} vole de profil, puis se retourne pour montrer sa face et tombe ?",
       "options": {
         "a": "Battue",
         "b": "Midi",
@@ -123,13 +123,13 @@
       "explain": "La battue est plate et fine : elle vole de profil, puis se retourne et tombe vite."
     },
     "targets-target-types-q-flash": {
-      "q": "Quel plateau laisse un nuage de poudre colorée quand il est touché ?",
+      "q": "Quel {{term:target|plateau}} laisse un nuage de poudre colorée quand il est touché ?",
       "options": {
         "a": "Plateau ZZ",
         "b": "Rocket",
         "c": "Plateau flash"
       },
-      "explain": "Un plateau flash est rempli de poudre colorée. Il se compte comme tout autre plateau."
+      "explain": "Un {{term:flash-target|plateau flash}} est rempli de poudre colorée. Il se compte comme tout autre plateau."
     }
   },
   "did_you_know": "Un mini paraît facile parce qu'il est petit, mais beaucoup de tireurs le trouvent l'un des plus délicats : il part très vite, puis ralentit brusquement."

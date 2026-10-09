@@ -175,7 +175,7 @@
       "t": "p",
       "anchor": "competitions-scoring-basics",
       "en": "In {{tm:sporting}} and {{tm:compak}} each target has only two results: 'one' (a hit) or 'zero' (a miss). There are no half points.",
-      "uk": "У {{tm:sporting}} і {{tm:compak}} кожна мішень має лише два результати: «one» (влучання) або «zero» (промах). Півбалів немає."
+      "uk": "У {{tm:sporting}} і {{tm:compak}} кожна мішень має лише два результати: {{term:one|one}} або {{term:zero|zero}}. Півбалів немає."
     },
     {
       "k": "targets-hit-or-lost-p1",
@@ -188,7 +188,7 @@
       ],
       "anchor": "targets-hit-or-lost",
       "en": "A target is scored 'one' when three things are true. It was thrown correctly, the shooter fired as the rules require, and at least one {{term:visible-piece|visible piece}} broke off it (a target that shatters completely counts too). The same rule applies to {{term:flash-target|flash targets}} (clays that release a puff of coloured powder when hit). A target is 'zero' (lost) when no visible piece comes off and there is only dust or smoke.",
-      "uk": "Мішень зараховують як «one», коли виконано три умови. Її правильно запустили, стрілець стріляв так, як вимагають правила, і від неї відлетів хоча б один {{term:visible-piece|видимий уламок}} (мішень, що розлетілася повністю, теж зараховують). Для {{term:flash-target|флеш-мішеней}} (мішеней, які при влучанні викидають хмарку кольорового порошку) правило те саме. Мішень — «zero» (промах), якщо видимого уламка немає, а є лише пил чи дим."
+      "uk": "Мішень зараховують як «one», коли виконано три умови. Її правильно запустили, стрілець стріляв так, як вимагають правила, і від неї відлетів хоча б один {{term:visible-piece|видимий уламок}}; мішень, що розлетілася повністю, теж зараховують. Для {{term:flash-target|флеш-мішеней}}, які при влучанні викидають хмарку кольорового порошку, правило те саме. Мішень — «zero», якщо видимого уламка немає, а є лише пил чи дим."
     },
     {
       "k": "targets-hit-or-lost-p2",
@@ -212,7 +212,7 @@
         "compak:ch19-referee-powers"
       ],
       "en": "Only the {{term:referee|referee}} decides whether a target was hit. Squad members may not give opinions, and nobody may pick up a target to check it.",
-      "uk": "Чи влучено в мішень, вирішує лише {{term:referee|суддя}}. Члени групи не мають права висловлювати думку, і ніхто не може підняти мішень, щоб перевірити."
+      "uk": "Чи влучено в мішень, вирішує лише {{term:referee|суддя}}. Члени {{term:squad|групи}} не мають права висловлювати думку, і ніхто не може підняти мішень, щоб перевірити."
     },
     {
       "k": "rules-hit-and-no-bird-cmp1",
@@ -224,7 +224,7 @@
       "sporting": {
         "rule_ref": "sporting:ch9-visible-break",
         "en": "Break your targets where the referee can see the break. If a target breaks behind an obstacle or beyond the {{term:shooting-limit|shooting limit}} (the edge of the area in which a break counts), the referee decides. That decision cannot be appealed. Once you call for the next target, you have accepted the decision on the last one.",
-        "uk": "Розбивайте мішені там, де суддя бачить влучання. Якщо мішень розбилася за перешкодою чи за {{term:shooting-limit|межею зони стрільби}} (краєм ділянки, у межах якої влучання зараховують), вирішує суддя. Оскаржити це рішення не можна. Щойно ви покликали наступну мішень, ви погодилися з рішенням щодо попередньої."
+        "uk": "Розбивайте мішені там, де суддя бачить влучання. Якщо мішень розбилася за перешкодою чи за {{term:shooting-limit|межею зони стрільби}}, тобто за краєм ділянки, у межах якої влучання зараховують, вирішує суддя. Оскаржити це рішення не можна. Щойно ви покликали наступну мішень, ви погодилися з рішенням щодо попередньої."
       },
       "compak": {
         "rule_ref": "compak:ch15-zero-announce",
@@ -242,7 +242,7 @@
         "compak:ch20-target-no-bird-cases"
       ],
       "en": "A {{term:no-bird|No Bird}} is a target that does not count and is thrown again. The referee calls it when the target is thrown broken, comes from the wrong trap, or has the wrong colour (in {{tm:sporting}} also the wrong size or type). Other reasons are an irregular trajectory, a release more than 3 seconds late (see {{lesson:rules-call-and-time}}) or a target you did not call for. A No Bird is also given when something clearly disturbed you, or when the referee cannot judge the result.",
-      "uk": "{{term:no-bird|No Bird}} — мішень, яку не зараховують і запускають знову. Суддя оголошує No Bird, коли мішень вилетіла розбитою, з іншої машинки або не того кольору (у {{tm:sporting}} — ще й не того розміру чи типу). Інші причини — неправильна траєкторія, запуск із запізненням понад 3 секунди (див. {{lesson:rules-call-and-time}}) або мішень, яку ви не кликали. No Bird буде й тоді, коли вам явно щось завадило, або коли суддя не може визначити результат."
+      "uk": "{{term:no-bird|No Bird}} — мішень, яку не зараховують і запускають знову. Суддя оголошує No Bird, коли мішень вилетіла розбитою, з іншої {{term:trap|машинки}} або не того кольору (у {{tm:sporting}} — ще й не того розміру чи типу). Інші причини — неправильна траєкторія, запуск із запізненням понад 3 секунди (див. {{lesson:rules-call-and-time}}) або мішень, яку ви не кликали. No Bird буде й тоді, коли вам явно щось завадило, або коли суддя не може визначити результат."
     },
     {
       "k": "rules-hit-and-no-bird-cmp2",
@@ -272,7 +272,7 @@
         "compak:ch20-target-no-bird-actions"
       ],
       "en": "After a No Bird, a single target is simply thrown again. In a double it depends on which target was irregular: see {{lesson:rules-doubles}}.",
-      "uk": "Після No Bird одиночну мішень просто запускають знову. У дуплеті все залежить від того, яка мішень неправильна: див. {{lesson:rules-doubles}}."
+      "uk": "Після No Bird одиночну мішень просто запускають знову. У {{term:double|дуплеті}} все залежить від того, яка мішень неправильна: див. {{lesson:rules-doubles}}."
     },
     {
       "k": "rules-hit-and-no-bird-p7",
@@ -296,12 +296,12 @@
       "sporting": {
         "rule_ref": "sporting:ch5-weather-interruption",
         "en": "For a sudden heavy shower or violent storm that looks short, the referee may stop shooting. If it lasts longer, the referee informs the jury.",
-        "uk": "Через раптову сильну зливу чи грозу, яка, схоже, буде недовгою, суддя може зупинити стрільбу. Якщо перерва затягується, суддя повідомляє журі."
+        "uk": "Через раптову сильну зливу чи грозу, яка, схоже, буде недовгою, суддя може зупинити стрільбу. Якщо {{term:interruption|перерва}} затягується, суддя повідомляє журі."
       },
       "compak": {
         "rule_ref": "compak:ch19-weather-interruption",
         "en": "Only the Head Referee may stop shooting for a sudden downpour or storm. If it may last, the jury is informed.",
-        "uk": "Зупинити стрільбу через раптову зливу чи грозу може лише головний суддя. Якщо перерва може затягнутися, повідомляють журі."
+        "uk": "Зупинити стрільбу через раптову зливу чи грозу може лише {{term:chief-referee|головний суддя}}. Якщо перерва може затягнутися, повідомляють журі."
       }
     },
     {

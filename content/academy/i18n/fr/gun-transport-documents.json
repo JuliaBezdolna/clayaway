@@ -28,11 +28,11 @@
     "origin": null
   },
   "title": "Transporter son fusil : stand, voiture et domicile",
-  "summary": "Comment porter un fusil sur un stand de {{tm:sporting}} ou {{tm:compak}}, le transporter en voiture et le conserver chez soi, et où se renseigner sur les voyages à l'étranger. Les lois diffèrent selon les pays.",
+  "summary": "Comment porter un {{term:shotgun|fusil}} sur un stand de {{tm:sporting}} ou {{tm:compak}}, le transporter en voiture et le conserver chez soi, et où se renseigner sur les voyages à l'étranger. Les lois diffèrent selon les pays.",
   "body": {
-    "gun-transport-documents-p1": "Commençons par le stand. Au {{tm:sporting}} et au {{tm:compak}}, un fusil se porte ouvert (un semi-automatique avec la culasse ouverte), la bouche pointant tout droit vers le haut ou vers le bas. Les bretelles ne sont pas autorisées. Quand le fusil n'est pas dans vos mains, il se tient debout dans un {{term:gun-rack|râtelier}}, et personne ne touche au fusil d'un autre tireur sans sa permission.",
+    "gun-transport-documents-p1": "Commençons par le stand. Au {{tm:sporting}} et au {{tm:compak}}, un {{term:shotgun|fusil}} se porte ouvert — un {{term:semi-automatic|semi-automatique}} avec la culasse ouverte —, la bouche pointant tout droit vers le haut ou vers le bas. Les bretelles ne sont pas autorisées. Quand le fusil n'est pas dans vos mains, il se tient debout dans un {{term:gun-rack|râtelier}}, et personne ne touche au fusil d'un autre tireur sans sa permission.",
     "gun-transport-documents-p2": "Hors du stand, c'est la loi du pays qui s'applique. Presque partout, un fusil nécessite une licence ou un permis, et les règles de transport et de stockage diffèrent même entre pays voisins. Avant un voyage, vérifiez les règles du pays de destination et de tout pays de transit, plusieurs semaines à l'avance.",
-    "gun-transport-documents-p6": "En voiture, le fusil voyage déchargé, dans une {{term:hard-case|mallette}} ou un {{term:gun-slip|fourreau}}, hors de vue, et dans de nombreux pays séparément des cartouches. Ne laissez pas un fusil sans surveillance dans une voiture.",
+    "gun-transport-documents-p6": "En voiture, le fusil voyage déchargé, dans un {{term:hard-case|mallette}} ou un {{term:gun-slip|fourreau}}, hors de vue, et dans de nombreux pays séparément des {{term:cartridge|cartouches}}. Ne laissez pas un fusil sans surveillance dans une voiture.",
     "gun-transport-documents-p8": "Chez vous, conservez le fusil comme l'exige la loi de votre pays, généralement sous clé dans un coffre-fort et hors de portée des enfants. Beaucoup de lois demandent aussi que les cartouches soient stockées séparément. Entretien et stockage : {{lesson:gun-care}}.",
     "gun-transport-documents-p9": "Vous partez à l'étranger avec votre propre fusil ? La {{term:european-firearms-pass|Carte européenne d'arme à feu}} n'est délivrée qu'aux résidents des pays de l'UE et de la Suisse, de la Norvège, de l'Islande et du Liechtenstein, qui appliquent les mêmes règles européennes sur les armes. Elle sert à voyager avec son propre fusil. Les autres ont généralement besoin d'un permis du pays de destination, ou louent un fusil sur place.",
     "gun-transport-documents-p10": "Les détails sont dans le bloc Voyages : {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} et {{lesson:travel-flying-with-guns}}.",
@@ -49,27 +49,27 @@
   },
   "quiz": {
     "gun-transport-documents-q1": {
-      "q": "Comment porte-t-on un fusil sur le stand ?",
+      "q": "Comment porte-t-on un {{term:shotgun|fusil}} sur le stand ?",
       "options": {
         "a": "Fermé, en bretelle à l'épaule",
-        "b": "Ouvert, bouches vers le haut ou le bas",
-        "c": "Fermé, mais avec la sûreté mise",
+        "b": "Ouvert, {{term:muzzle|bouches}} vers le haut ou le bas",
+        "c": "Fermé, mais avec le {{term:safety-catch|sûreté}} mis",
         "d": "N'importe comment, s'il est déchargé"
       },
       "explain": "Le règlement exige que le fusil soit porté ouvert, bouche tout droit vers le haut ou le bas ; les bretelles ne sont pas autorisées."
     },
     "gun-transport-documents-q4": {
-      "q": "Comment un fusil voyage-t-il généralement en voiture ?",
+      "q": "Comment un {{term:shotgun|fusil}} voyage-t-il généralement en voiture ?",
       "options": {
         "a": "Chargé, sur la banquette arrière, prêt à l'emploi",
         "b": "Assemblé, dans un coffre de toit avec les sacs",
-        "c": "Dans le sac à cartouches, avec les boîtes",
-        "d": "Déchargé, dans une mallette et hors de vue"
+        "c": "Dans le {{term:cartridge-bag|sac à cartouches}}, avec les boîtes",
+        "d": "Déchargé, dans un {{term:hard-case|mallette}} et hors de vue"
       },
-      "explain": "Déchargé, en mallette et hors de vue ; de nombreux pays exigent aussi que les cartouches voyagent séparément."
+      "explain": "Déchargé, en mallette et hors de vue ; de nombreux pays exigent aussi que les {{term:cartridge|cartouches}} voyagent séparément."
     },
     "gun-transport-documents-q5": {
-      "q": "Qui peut obtenir une Carte européenne d'arme à feu ?",
+      "q": "Qui peut obtenir une {{term:european-firearms-pass|Carte européenne d'arme à feu}} ?",
       "options": {
         "a": "Un résident d'un pays de l'UE ou de Schengen propriétaire du fusil",
         "b": "Tout tireur ayant une invitation à une compétition",

@@ -155,7 +155,7 @@
       "k": "rules-viewing-targets-p1",
       "t": "p",
       "en": "Before shooting, the targets are shown: this is the {{term:target-presentation|presentation}}. In {{tm:sporting}} it happens on each stand. In {{tm:compak}} by {{term:squad|squad}}, where a squad of {{fact:rules.squad-max-shooters}} moves along the stations, it happens only once a day, for the first squad. In line it works differently (see below). The presentation lets you read each target: its line, speed and distance, and what the clay does in the air.",
-      "uk": "Перед стрільбою мішені показують — це {{term:target-presentation|показ мішеней}}. У {{tm:sporting}} його проводять на кожному місці. У {{tm:compak}} у форматі by squad, де {{term:squad|група}} ({{fact:rules.squad-max-shooters}}) переходить із номера на номер, показ буває лише раз на день — для першої групи. У форматі in line порядок інший (див. нижче). Показ дає змогу «прочитати» кожну мішень: лінію, швидкість, відстань і поведінку в польоті."
+      "uk": "Перед стрільбою мішені показують — це {{term:target-presentation|показ мішеней}}. У {{tm:sporting}} його проводять на кожному місці. У {{tm:compak}} у форматі by squad, де {{term:squad|група}}, у якій {{fact:rules.squad-max-shooters}}, переходить із номера на номер, показ буває лише раз на день — для першої групи. У форматі in line порядок інший (див. нижче). Показ дає змогу «прочитати» кожну мішень: лінію, швидкість, відстань і поведінку в польоті."
     },
     {
       "k": "rules-viewing-targets-cmp1",
@@ -191,7 +191,7 @@
       "core": true,
       "disc": "sporting",
       "rule_ref": "sporting:ch16-presentation-doubles",
-      "uk": "{{term:double-on-report|Дуплети на постріл}} (друга мішень вилітає на ваш постріл по першій) не показують. Але їхні мішені ви вже бачили: дуплети в {{tm:sporting}} беруть лише з тих мішеней, що вже летіли як одиночні на цьому місці. Першому стрільцеві кожної групи показують {{term:simultaneous-double|одночасні дуплети}} (обидві мішені вилітають разом) і {{term:rafale-double|рафаль}} (дві мішені з однієї машинки, одна за одною). На прохання їх показують ще раз, не більше двох разів.",
+      "uk": "{{term:double-on-report|Дуплети на постріл}}, де друга мішень вилітає на ваш постріл по першій, не показують. Але їхні мішені ви вже бачили: {{term:double|дуплети}} в {{tm:sporting}} беруть лише з тих мішеней, що вже летіли як одиночні на цьому місці. Першому стрільцеві кожної групи показують {{term:simultaneous-double|одночасні дуплети}}, де обидві мішені вилітають разом, і {{term:rafale-double|рафаль}} — дві мішені з однієї {{term:trap|машинки}}, одна за одною. На прохання їх показують ще раз, не більше двох разів.",
       "en": "{{term:double-on-report|Doubles on report}} (the second target leaves when you fire at the first) are not shown. You have already seen their targets, though: a double only uses targets thrown as singles from the same stand. The first shooter of each squad is shown the {{term:simultaneous-double|simultaneous doubles}} (both targets leave together) and {{term:rafale-double|rafale doubles}} (two targets from the same trap, one after the other). On request they are shown again, at most twice."
     },
     {
@@ -210,7 +210,7 @@
       "disc": "compak",
       "rule_ref": "compak:ch17-inline-report",
       "en": "{{tm:compak}} can also be shot {{term:compak-in-line|in line}}: shooters step onto station 1 one by one and move along the line to station 5. Before the start, the first shooter may ask to see singles A to F; with simultaneous doubles, the doubles of each station are shown too. While the line fills up, each new shooter on station 1 first sees the opening target of their double. As the line empties, the referee does the same at the later stations. Details: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
-      "uk": "{{tm:compak}} можна стріляти й {{term:compak-in-line|in line}}: стрільці по одному заходять на номер 1 і рухаються лінією до номера 5. Перед стартом перший стрілець може попросити показати одиночні мішені від A до F; якщо дуплети одночасні, показують ще й дуплети кожного номера. Поки лінія заповнюється, кожен новий стрілець на номері 1 спершу бачить першу мішень свого дуплета. Коли лінія звільняється, суддя робить те саме на наступних номерах. Подробиці: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}."
+      "uk": "{{tm:compak}} можна стріляти й {{term:compak-in-line|«у лінію»}}: стрільці по одному заходять на номер 1 і рухаються лінією до номера 5. Перед стартом перший стрілець може попросити показати одиночні мішені від A до F; якщо дуплети одночасні, показують ще й дуплети кожного номера. Поки лінія заповнюється, кожен новий стрілець на номері 1 спершу бачить першу мішень свого дуплета. Коли лінія звільняється, суддя робить те саме на наступних номерах. Подробиці: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}."
     },
     {
       "k": "rules-viewing-targets-open",
@@ -231,7 +231,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch16-presentation",
       "en": "Firing, or {{term:mock-shooting|mock shooting}} (mounting and swinging the gun along the target's line without a shot), while the targets are shown is forbidden. It is penalised like a gun-position offence: a warning first, then a red card.",
-      "uk": "Стріляти чи робити {{term:mock-shooting|імітацію стрільби}} (вкладати рушницю й вести нею по лінії мішені без пострілу) під час показу заборонено. Карають за це, як за порушення положення рушниці: спершу попередження, потім червона картка."
+      "uk": "Стріляти чи робити {{term:mock-shooting|імітацію стрільби}} під час показу заборонено: не можна робити {{term:gun-mount|вкладку}} й вести рушницю по лінії мішені без пострілу. Карають за це, як за порушення {{term:gun-position|положення рушниці}}: спершу попередження, потім {{term:red-card|червона картка}}."
     },
     {
       "k": "rules-viewing-targets-cmp2",
@@ -243,7 +243,7 @@
       "sporting": {
         "rule_ref": "sporting:ch16-long-interruption",
         "en": "If a trap breaks down or shooting stops for {{fact:rules.reshow-after-interruption}}, the stand's targets are shown again.",
-        "uk": "Якщо зламалася машинка або перерва в стрільбі триває {{fact:rules.reshow-after-interruption}}, мішені цього місця показують знову."
+        "uk": "Якщо зламалася машинка або {{term:interruption|перерва}} в стрільбі триває {{fact:rules.reshow-after-interruption}}, мішені цього місця показують знову."
       },
       "compak": {
         "rule_ref": "compak:ch17-squad-show-targets",
@@ -266,14 +266,14 @@
       "compak": {
         "rule_ref": "compak:ch6-practice",
         "en": "You may practise on the competition trajectories, but not with the competition menus. The {{term:trajectory-setting-table|trajectory setting tables}} (ready-made menus that say which traps are shot from each station) must be different for practice. At continental and world championships, the official practice starts on the Saturday before the event.",
-        "uk": "Тренуватися на змагальних траєкторіях можна, але не за змагальними меню. {{term:trajectory-setting-table|Таблиці налаштування траєкторій}} (готові меню, які визначають, з яких машинок стріляють на кожному номері) на тренуванні мають бути іншими. Перед чемпіонатами континенту й світу офіційне тренування відкривається в суботу, що передує змаганню."
+        "uk": "Тренуватися на змагальних траєкторіях можна, але не за змагальними меню: {{term:trajectory-setting-table|таблиці налаштування траєкторій}}, які визначають, з яких машинок стріляють на кожному номері, на {{term:practice|тренуванні}} мають бути іншими. Перед чемпіонатами континенту й світу офіційне тренування відкривається в суботу, що передує змаганню."
       }
     },
     {
       "k": "rules-viewing-targets-tip1",
       "t": "tip",
       "en": "Use the presentation to plan each target. Note where you will first see it clearly, the {{term:pick-up-point|pick-up point}}, and where you will break it, the {{term:break-point|break point}}. Many coaches suggest also choosing the order for a simultaneous double while you watch.",
-      "uk": "Використайте показ, щоб спланувати кожну мішень. Зверніть увагу, де ви вперше чітко її побачите ({{term:pick-up-point|точка підхоплення}}) і де розіб’єте ({{term:break-point|точка пострілу}}). Багато тренерів радять ще під час показу вирішити, в якому порядку стріляти одночасний дуплет."
+      "uk": "Використайте показ, щоб спланувати кожну мішень. Зверніть увагу, де ви вперше чітко її побачите — це {{term:pick-up-point|точка підхоплення}}, — і де розіб’єте: це {{term:break-point|точка пострілу}}. Багато тренерів радять ще під час показу вирішити, в якому порядку стріляти одночасний дуплет."
     },
     {
       "k": "rules-viewing-targets-more",

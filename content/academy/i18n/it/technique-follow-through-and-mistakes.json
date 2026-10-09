@@ -34,11 +34,11 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "basics-follow-through-p1": "L'accompagnamento (follow-through) significa che il fucile continua a muoversi lungo la linea del piattello dopo aver premuto il grilletto, come lo swing nel golf o nel tennis. Tra la decisione di sparare e l'uscita del colpo dalle canne c'è un piccolo ritardo; se il fucile si ferma al grilletto, il colpo va dietro. Gli istruttori guardano le volate dopo lo sparo: se si bloccano o si abbassano, l'accompagnamento è mancato.",
-    "basics-follow-through-p2": "La {{term:gun-speed|velocità del fucile}} è la velocità con cui si muovono le canne rispetto al piattello, e definisce il metodo di anticipo. La stessa velocità del piattello è l'{{term:maintained-lead|anticipo mantenuto}}. Più veloce del piattello è lo {{term:swing-through|swing-through}}. La stessa velocità, seguita da una breve accelerazione, è il {{term:pull-away|pull-away}}. Un fucile fermo che aspetta in un punto è l'{{term:ambush|ambush}}. Un fucile troppo lento resta indietro; uno troppo veloce, dicono gli istruttori, supera il piattello, e allora il tiratore spesso lo ferma.",
-    "basics-follow-through-p3": "Il tempo (tempo) è la velocità con cui si esegue l'intero colpo; il ritmo (rhythm) è la sua regolarità. Un piattello veloce e vicino richiede un tempo rapido, un traversone lungo e lento uno più calmo, ma il ritmo resta fluido. Molti istruttori dicono che i tiratori con un unico tempo per tutto perdono i piattelli che richiedono il contrario.",
-    "basics-follow-through-p4": "«Stay in the gun» — resta nel fucile: guancia sul calcio e occhi sul piattello finché non si rompe. Questo ti mantiene pronto anche per un secondo colpo (gli istruttori lo chiamano «la seconda canna»), perché su un piattello singolo puoi sparare due volte.",
-    "technique-follow-through-and-mistakes-faults": "Molti errori derivano da alcuni problemi comuni: fermare il fucile, alzare la testa, un'imbracciata tardiva o anticipata, e perdere il secondo piattello di un doppio. Ognuno ha la sua lezione: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} e {{lesson:faults-pairs-transition}}. Come capire dove è andato il colpo lo spiega {{lesson:faults-behind-in-front}}."
+    "basics-follow-through-p1": "Il {{term:follow-through|accompagnamento}} significa che il fucile continua a muoversi lungo la linea del piattello dopo aver premuto il {{term:trigger|grilletto}}, come lo swing nel golf o nel tennis. Tra la decisione di sparare e l'uscita del colpo dalle canne c'è un piccolo ritardo; se il fucile si ferma al grilletto, il colpo va dietro. Gli istruttori guardano le {{term:muzzle|volate}} dopo lo sparo: se si bloccano o si abbassano, l'accompagnamento è mancato.",
+    "basics-follow-through-p2": "La {{term:gun-speed|velocità del fucile}} è la velocità con cui si muovono le canne rispetto al piattello, e definisce il metodo di {{term:lead|anticipo}}. La stessa velocità del piattello è il {{term:maintained-lead|anticipo mantenuto}}. Più veloce del piattello è lo {{term:swing-through|swing-through}}. La stessa velocità, seguita da una breve accelerazione, è il {{term:pull-away|pull-away}}. Un fucile fermo che aspetta in un punto è l'{{term:ambush|ambush}}. Un fucile troppo lento resta indietro; uno troppo veloce, dicono gli istruttori, supera il piattello, e allora il tiratore spesso lo ferma.",
+    "basics-follow-through-p3": "Il tempo (tempo) è la velocità con cui si esegue l'intero colpo; il ritmo (rhythm) è la sua regolarità. Un piattello veloce e vicino richiede un tempo rapido, un {{term:crosser|traversone}} lungo e lento uno più calmo, ma il ritmo resta fluido. Molti istruttori dicono che i tiratori con un unico tempo per tutto perdono i piattelli che richiedono il contrario.",
+    "basics-follow-through-p4": "«Stay in the gun» — resta nel fucile: guancia sullo {{term:stock|calcio}} e occhi sul piattello finché non si rompe. Questo ti mantiene pronto anche per un secondo colpo (gli istruttori lo chiamano «la seconda canna»), perché su un {{term:single-target|piattello singolo}} puoi sparare due volte.",
+    "technique-follow-through-and-mistakes-faults": "Molti errori derivano da alcuni problemi comuni: {{term:stopping-the-gun|fermare il fucile}}, {{term:head-lift|alzare la testa}}, una {{term:gun-mount|imbracciata}} tardiva o anticipata, e perdere il secondo piattello di un {{term:double|doppio}}. Ognuno ha la sua lezione: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} e {{lesson:faults-pairs-transition}}. Come capire dove è andato il colpo lo spiega {{lesson:faults-behind-in-front}}."
   },
   "note": {
     "basics-follow-through-p5": "Traduci «finish the shot» come continuare il movimento, non come fermarsi."
@@ -67,7 +67,7 @@
   },
   "key_points": {
     "basics-follow-through-kp1": "Accompagnamento: il fucile continua a muoversi dopo il grilletto; se si ferma, il colpo va dietro.",
-    "basics-follow-through-kp2": "La velocità del fucile definisce il metodo: uguale (anticipo mantenuto), più veloce (swing-through), uguale poi più veloce (pull-away).",
+    "basics-follow-through-kp2": "La velocità del fucile definisce il metodo: uguale (maintained lead), più veloce (swing-through), uguale poi più veloce (pull-away).",
     "basics-follow-through-kp3": "Tempo = velocità dell'intero colpo; ritmo = la sua regolarità.",
     "basics-follow-through-kp4": "Resta nel fucile: pronto per la seconda canna su un singolo."
   },
@@ -83,14 +83,14 @@
       "explain": "Il piattello continua a muoversi mentre il fucile fermo no, quindi il colpo passa dietro."
     },
     "basics-follow-through-q2": {
-      "q": "Quale velocità del fucile descrive l'anticipo mantenuto?",
+      "q": "Quale velocità del fucile descrive il {{term:maintained-lead|anticipo mantenuto}}?",
       "options": {
         "a": "Molto più veloce del piattello",
         "b": "La stessa del piattello",
         "c": "Zero: il fucile aspetta",
         "d": "Più lenta del piattello"
       },
-      "explain": "Nell'anticipo mantenuto le volate si muovono alla velocità del piattello, mantenendo costante la distanza. Un fucile che aspetta è l'ambush; più veloce è lo swing-through."
+      "explain": "Nell'anticipo mantenuto le {{term:muzzle|volate}} si muovono alla velocità del piattello, mantenendo costante la distanza. Un fucile che aspetta è l'ambush; più veloce è lo swing-through."
     },
     "basics-follow-through-q3": {
       "q": "Qual è la differenza tra tempo e ritmo?",
@@ -103,7 +103,7 @@
       "explain": "Gli istruttori cambiano il tempo per ogni piattello mantenendo un ritmo fluido, quindi traduci le due parole separatamente."
     },
     "technique-follow-through-and-mistakes-q1": {
-      "q": "Che cos'è l'accompagnamento (follow-through)?",
+      "q": "Che cos'è il {{term:follow-through|accompagnamento}}?",
       "options": {
         "a": "Il fucile continua a muoversi dopo il colpo",
         "b": "Un secondo colpo sullo stesso piattello",
@@ -123,14 +123,14 @@
     "technique-follow-through-and-mistakes-q3": {
       "q": "Cosa causa spesso un colpo sopra il piattello?",
       "options": {
-        "a": "Alzare la testa dal calcio",
+        "a": "Alzare la testa dallo calcio",
         "b": "Una cartuccia troppo pesante",
         "c": "Una posizione corretta"
       },
-      "explain": "Quando la testa si alza, l'occhio non guarda più lungo la bindella, e il fucile spara alto."
+      "explain": "Quando la testa si alza, l'occhio non guarda più lungo la {{term:rib|bindella}}, e il fucile spara alto."
     }
   },
   "title": "Accompagnamento, velocità del fucile e tempo",
-  "summary": "Perché il fucile continua a muoversi dopo il colpo, come la velocità del fucile definisce il tuo metodo di anticipo, e dove leggere degli errori più comuni.",
+  "summary": "Perché il fucile continua a muoversi dopo il colpo, come la velocità del fucile definisce il tuo metodo di {{term:lead|anticipo}}, e dove leggere degli errori più comuni.",
   "did_you_know": "Tra la decisione di sparare e l'istante in cui il colpo esce dalle canne, un piattello veloce in traversone continua comunque a muoversi. Per questo le canne devono continuare a muoversi: devono restare avanti anche durante questo breve ritardo."
 }

@@ -25,18 +25,22 @@
     "clayarena-profile-numbers-q4": "c2744161",
     "clayarena-profile-numbers-q5": "86ab8658"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Mit jelentenek a profil számai",
   "summary": "A találati arány, a legjobb eredmény, a hibátlan körök, a top 10-es arány és a teljesítményindex segítenek látni egy lövő formáját, de nem helyettesítik magukat az eredményeket.",
   "body": {
     "clayarena-profile-numbers-p1": "A ClayArena {{term:shooter-profile|lövőprofilja}} több mutatót is megjelenít. Ezeket a weboldalon szereplő {{tm:sporting}} és {{tm:compak}} versenyekből számolják, és a profil versenyszámonként külön is megmutathatja őket. Egy pillantással segítenek látni a lövő szintjét és stabilitását.",
-    "clayarena-profile-numbers-p2": "A {{term:accuracy|találati arány}} az eltalált korongok hányada az egy versenyen leadott lövésekhez képest. Például 200-ból 150 eltalált korong 75%. A profil megmutathatja a lövő összes lezajlott versenyének átlagos találati arányát és a legmagasabb egyversenyes találati arányt is.",
+    "clayarena-profile-numbers-p2": "Az {{term:accuracy|találati arány}} az eltalált korongok hányada az egy versenyen leadott lövésekhez képest. Például 200-ból 150 eltalált korong 75%. A profil megmutathatja a lövő összes lezajlott versenyének átlagos találati arányát és a legmagasabb egyversenyes találati arányt is.",
     "clayarena-profile-numbers-p3": "A {{term:best-score|legjobb eredmény}} a lövő legnagyobb összesített pontszáma egyetlen versenyen. Az összesített pontszámokat csak azonos korongszám mellett hasonlítsa össze. Egy nemzetközi {{tm:sporting}} verseny {{fact:basics.international-targets}}, míg sok klubversenyen kevesebb korong van. Tehát ha a korongszám eltér, inkább a találati arányt vesse össze. A találati arány lehetővé teszi a különböző korongszámok összehasonlítását, de a lőpályák, az időjárás és a verseny szintje továbbra is eltér, ezért csak durva becslésnek tekintse.",
-    "clayarena-profile-numbers-perfect": "A hibátlan kör (perfect round) egy olyan sorozat, amelyben nincs találat kihagyása. A FITASC-versenyszámokban ez egy olyan {{term:round|kör}}, amelyben az összes {{fact:rules.round-targets}} korongot eltalálták. A profil megszámolja, hány ilyen sorozata van egy lövőnek.",
+    "clayarena-profile-numbers-perfect": "A {{term:perfect-round|hibátlan kör}} egy olyan sorozat, amelyben nincs találat kihagyása. A FITASC-versenyszámokban ez egy olyan {{term:round|kör}}, amelyben az összes {{fact:rules.round-targets}} korongot eltalálták. A profil megszámolja, hány ilyen sorozata van egy lövőnek.",
     "clayarena-profile-numbers-p4": "A {{term:top-10-rate|top 10-es arány}} azoknak a versenyeknek a hányada, amelyeken a lövő a {{term:category|kategóriájában}} vagy az összesítésben az első tízben zárt. Attól is függ, kik versenyeztek még: egy nagy nemzetközi rendezvényen nehezebb a top 10-be kerülni, mint egy {{term:club-shoot|klubversenyen}}. Egy kis kategóriában, ahol csak néhány lövő indul, a top 10-be kerülés is könnyebb.",
     "clayarena-profile-numbers-p5": "A {{term:performance-index|teljesítményindex}} egy olyan szám, amelyet a ClayArena a lövő egy versenyszámbeli eredményeiből számol ki. Ezzel nyomon követhető a fejlődés anélkül, hogy minden eredménytáblázatot el kellene olvasni. Ez nem egy hivatalos {{term:fitasc|FITASC}}-rangsor.",
     "clayarena-profile-numbers-other": "Más mutatókat és rovatokat is láthat, például a versenytörténetet, a szezon szerinti nézetet vagy a győztesekkel való összehasonlítást. A nevük a weboldal fejlődésével változhat, ezért olvassa el a magyarázatokat a weboldalon.",
-    "clayarena-profile-numbers-p6": "A számok nem mondanak el mindent. Néhány {{term:layout|lőpálya}} (lőállások és az ott felszálló korongok együttese) könnyű, más nehéz, és az időjárás sokat módosíthat az eredményen. Ezért egyetlen verseny mutatói kevéssé informatívak; a több versenyen összegyűlt mutatók megbízhatóbbak.",
+    "clayarena-profile-numbers-p6": "A számok nem mondanak el mindent. Néhány {{term:layout|lőpálya}} – lőállások és az ott felszálló korongok együttese – könnyű, más nehéz, és az időjárás sokat módosíthat az eredményen. Ezért egyetlen verseny mutatói kevéssé informatívak; a több versenyen összegyűlt mutatók megbízhatóbbak.",
     "clayarena-profile-numbers-p7": "Kezdőnek hasznos úgy olvasni a profilt, hogy önmagát hasonlítja önmagához: hogyan változott a találati aránya a szezon során. Az erős lövőkkel való összehasonlítás érdekes lehet, de a saját fejlődéséről kevéssé árulkodik."
   },
   "note": {},

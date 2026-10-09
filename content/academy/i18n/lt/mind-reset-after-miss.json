@@ -33,22 +33,22 @@
     "date": null,
     "origin": null
   },
-  "title": "Persikrovimas po promašymo",
+  "title": "Persikrovimas po nepataikymo",
   "summary": "Trumpas ritualas sekundėms po pralaimėto taikinio: penki žingsniai per 5–10 sekundžių, tada kitas taikinys. Klausimas „kodėl“ palaukia iki serijos pabaigos.",
   "body": {
-    "mind-reset-after-miss-p1": "Promašymas baigiasi tą akimirką, kai nuskamba šūvis; pakeisti galima tik kitą taikinį. Trumpas, pastovus {{term:reset-routine|persikrovimas}} padeda palikti promašymą už nugaros ir pradėti kitą ritualą.",
+    "mind-reset-after-miss-p1": "Nepataikymas baigiasi tą akimirką, kai nuskamba šūvis; pakeisti galima tik kitą taikinį. Trumpas, pastovus {{term:reset-routine|persikrovimas}} padeda palikti nepataikymą už nugaros ir pradėti kitą ritualą.",
     "mind-reset-after-miss-steps": [
       "Šautuvas saugus: elkitės su juo, kaip reikalauja taisyklės, vamzdžių galai – saugia kryptimi.",
       "Vienas lėtas iškvėpimas.",
       "Viena pataisa dviem-trimis žodžiais, pavyzdžiui, „tiesiai linija“.",
-      "Greita teisingo šūvio vizualizacija galvoje.",
+      "Greita teisingo šūvio {{term:imagery|vizualizacija}} galvoje.",
       "Jūsų kitas {{term:pre-shot-routine|pasiruošimo šūviui ritualas}}."
     ],
     "mind-reset-after-miss-p2": "Persikrovimas turi tilpti į laiko limitą. {{tm:sporting}} rungtyje jūs turite {{fact:rules.sporting-time-between-targets}}. {{tm:compak}} rungtyje jūs turite {{fact:rules.compak-time-to-call}}.",
     "mind-reset-after-miss-p3": "Klausimą „kodėl“ palikite po serijos. Nuoseklus įgūdžio analizavimas spaudžiant gali jį sutrikdyti, tad šaudymo vietoje apsiribokite viena trumpa pataisa.",
     "mind-reset-after-miss-p4": "{{tm:sporting}} taisyklės reikalauja patikrinti savo rezultatą kortelėje, kai paliekate šaudymo vietą ({{rule:sporting:ch16-results-check}}).",
     "mind-reset-after-miss-let-go": "Kai sužinote vietos rezultatą, paleiskite jį: ta vieta uždaryta, o jūsų dėmesys priklauso kitai.",
-    "mind-reset-after-miss-p5": "Tas pats persikrovimas veikia ir po jums nepatikusio teisėjo sprendimo. Jei nesutinkate, iškart ir tinkamai pareikškite {{term:protest|protestą}}, o kai sprendimas galutinis – paleiskite jį. Daugiau – {{lesson:rules-cards-and-appeals}}.",
+    "mind-reset-after-miss-p5": "Tas pats persikrovimas veikia ir po jums nepatikusio teisėjo sprendimo. Jei nesutinkate, iškart ir tinkamai pareikškite protestą, o kai sprendimas galutinis – paleiskite jį. Daugiau – {{lesson:rules-cards-and-appeals}}.",
     "mind-reset-after-miss-compare": {
       "sporting": "Protestuokite iškart, šaudymo vietoje: pakelkite ranką ir pasakykite „appeal“ arba „protest“ ({{rule:sporting:ch9-how-to-appeal}}). Po galutinio sprendimo turite tęsti šaudymą {{fact:rules.sporting-resume-after-ruling}} ({{rule:sporting:ch10-resume-15s}}).",
       "compak": "Protestuokite iškart, iki kito šaulio komandos: pakelkite ranką ir pasakykite „protest“ arba „appeal“ ({{rule:compak:ch19-protest}}). Po galutinio sprendimo turite tęsti {{fact:rules.compak-resume-after-ruling}} ({{rule:compak:ch21-refusal-to-comply}})."
@@ -57,9 +57,9 @@
     "mind-reset-after-miss-p7": "Nevykusi šaudymo vieta – ne tas pats, kas nevykusi diena. Kai kurie šauliai dėl jaudulio praranda taškų pradžioje, o nurimę vėliau šaudo gerai; treneriai dažnai pataria vertinti dieną pabaigoje, o ne po vienos vietos."
   },
   "note": {
-    "mind-reset-after-miss-n1": "Kai vaikas promašo, likite ramūs ir tylūs šone. Rami veido išraiška padeda labiau nei patarimai, o patarimai iš už šaudymo vietos gali būti vertinami kaip coaching.",
-    "mind-reset-after-miss-n2": "Po promašymo neverskite pastabų ar analizės, jei šaulys patys neprašo. Varžybų metu perduokite tik teisėjo sprendimus ir pareigūnų pranešimus.",
-    "mind-reset-after-miss-n3": "Treniruotėje persikrovimą treniruokite sąmoningai: po promašyto taikinio paprašykite šaulio garsiai pasakyti penkis žingsnius, tada atlikti juos tyliai."
+    "mind-reset-after-miss-n1": "Kai vaikas nepataiko, likite ramūs ir tylūs šone. Rami veido išraiška padeda labiau nei patarimai, o patarimai iš už šaudymo vietos gali būti vertinami kaip coaching.",
+    "mind-reset-after-miss-n2": "Po nepataikymo neverskite pastabų ar analizės, jei šaulys patys neprašo. Varžybų metu perduokite tik teisėjo sprendimus ir pareigūnų pranešimus.",
+    "mind-reset-after-miss-n3": "Treniruotėje persikrovimą treniruokite sąmoningai: po prašauto taikinio paprašykite šaulio garsiai pasakyti penkis žingsnius, tada atlikti juos tyliai."
   },
   "phrases": {},
   "key_points": {
@@ -71,16 +71,16 @@
   "did_you_know": "Tyrime su boulingo žaidėjais trumpas ritualas po kiekvieno metimo taip pat padėjo, ir žaidėjai jautė, kad jis saugo jų susikaupimą.",
   "quiz": {
     "mind-reset-after-miss-q1": {
-      "q": "Kas yra pirmas persikrovimo žingsnis po promašymo?",
+      "q": "Kas yra pirmas persikrovimo žingsnis po nepataikymo?",
       "options": {
-        "a": "Tiksliai nustatyti, kodėl promašėte",
+        "a": "Tiksliai nustatyti, kodėl nepataikėte",
         "b": "Suskaičiuoti savo rezultatą serijoje iki šiol",
         "c": "Pasirūpinti šautuvo sauga, kaip reikalauja taisyklės"
       },
       "explain": "Pirmiausia sauga; tada vienas iškvėpimas, viena pataisa, viena vizualizacija ir kitas ritualas."
     },
     "mind-reset-after-miss-q2": {
-      "q": "Kada geras laikas analizuoti, kodėl promašėte?",
+      "q": "Kada geras laikas analizuoti, kodėl nepataikėte?",
       "options": {
         "a": "Po serijos",
         "b": "Prieš kitą komandą",
@@ -98,7 +98,7 @@
       "explain": "Protestuokite iškart ir tinkamai; kai sprendimas galutinis, tolesnis ginčas laikomas bandymu paveikti teisėją."
     },
     "mind-reset-after-miss-q4": {
-      "q": "Kiek gali trukti persikrovimas po promašymo?",
+      "q": "Kiek gali trukti persikrovimas po nepataikymo?",
       "options": {
         "a": "Apie 5–10 sekundžių, laiko limito ribose",
         "b": "Tiek, kiek reikia, kad vėl nurimtumėte",

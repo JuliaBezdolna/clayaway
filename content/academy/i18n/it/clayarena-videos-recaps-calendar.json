@@ -29,19 +29,26 @@
     "watching-videos-and-recaps-q3": "c564e4c6",
     "clayarena-videos-recaps-calendar-call-time": "f545c7d0"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Video, riepiloghi di stagione e il calendario delle gare",
   "summary": "Come guardare i video delle gare come un allievo, cosa mostrano i riepiloghi di stagione e come il calendario aiuta a scegliere la tua prima gara.",
   "body": {
     "clayarena-videos-recaps-calendar-p1": "ClayArena ha video dalle gare di {{tm:sporting}} e {{tm:compak}}, raggruppati per evento. Se non puoi andare a una gara, ti permettono di vedere lo sport da vicino. Per un principiante sono anche una lezione gratuita di tecnica e di regolamento.",
     "watching-videos-and-recaps-p2": "Non guardare i video come un film; guardali come un allievo. Scegli un tiratore e seguilo per diversi piattelli di fila. Guarda prima solo i piedi e la {{term:stance|posizione}}, poi solo il fucile, poi solo la testa e la guancia.",
-    "watching-videos-and-recaps-p3": "Cerca tre punti. Il {{term:hold-point|punto di attesa}} è dove aspettano le canne mentre il tiratore chiama il piattello. Il {{term:pick-up-point|punto di presa}} è dove gli occhi vedono per la prima volta il piattello con chiarezza. Il {{term:break-point|punto di rottura}} è dove il tiratore pensa di romperlo. I tiratori esperti di solito si muovono tra questi punti con calma e senza fretta. Di più in {{lesson:technique-hold-pickup-break-points}}.",
-    "watching-videos-and-recaps-p4": "Un altro dettaglio è l'{{term:follow-through|accompagnamento}}: dopo il colpo il fucile continua a muoversi lungo la linea del piattello invece di fermarsi. Se il lettore video ti permette di metterlo in pausa o di rallentarlo, usalo.",
+    "watching-videos-and-recaps-p3": "Cerca tre punti. L'{{term:hold-point|punto di attesa}} è dove aspettano le canne mentre il tiratore chiama il piattello. Il {{term:pick-up-point|punto di presa}} è dove gli occhi vedono per la prima volta il piattello con chiarezza. Il {{term:break-point|punto di rottura}} è dove il tiratore pensa di romperlo. I tiratori esperti di solito si muovono tra questi punti con calma e senza fretta. Di più in {{lesson:technique-hold-pickup-break-points}}.",
+    "watching-videos-and-recaps-p4": "Un altro dettaglio è il {{term:follow-through|accompagnamento}}: dopo il colpo il fucile continua a muoversi lungo la linea del piattello invece di fermarsi. Se il lettore video ti permette di metterlo in pausa o di rallentarlo, usalo.",
     "clayarena-videos-recaps-calendar-p2": "Cerca nei video anche le regole che già conosci. Viste in una gara reale, possono essere più facili da ricordare.",
-    "clayarena-videos-recaps-calendar-rules": { "sporting": "Finché il piattello non appare, l'estremità superiore del calcio (la parte del fucile che va alla spalla) resta sotto la {{term:jacket-line|linea del gilet}}. Tra una pedana e l'altra il fucile si porta aperto: un fucile a bascula è «spezzato», con le canne piegate in basso, così tutti vedono che è sicuro. Tiratori, {{term:referee|arbitri}} e chiunque sia vicino alla pedana portano {{term:safety-glasses|occhiali di protezione}} e {{term:hearing-protection|protezioni auditive}}.", "compak": "Quando un tiratore {{tm:compak}} chiama il piattello, il fucile può essere già alla spalla o ancora abbassato: il regolamento lascia libera questa scelta. Così alcuni chiamano con il fucile già «imbracciato», cioè già alla spalla. Il tiratore apre il fucile prima di girarsi sulla pedana. Tiratori e arbitri portano {{term:safety-glasses|occhiali di protezione}}; chiunque sia nelle vicinanze porta {{term:hearing-protection|protezioni auditive}}." },
+    "clayarena-videos-recaps-calendar-rules": {
+      "sporting": "Finché il piattello non appare, l'estremità superiore dello {{term:stock|calcio}} — la parte del fucile che va alla spalla — resta sotto la {{term:jacket-line|linea del gilet}}. Tra una pedana e l'altra il fucile si porta aperto: un fucile a bascula è «spezzato», con le canne piegate in basso, così tutti vedono che è sicuro. Tiratori, {{term:referee|arbitri}} e chiunque sia vicino alla pedana portano {{term:safety-glasses|occhiali di protezione}} e {{term:hearing-protection|protezioni auditive}}.",
+      "compak": "Quando un tiratore {{tm:compak}} chiama il piattello, il fucile può essere già alla spalla o ancora abbassato: il regolamento lascia libera questa scelta. Così alcuni chiamano con il fucile già «imbracciato», cioè già alla spalla. Il tiratore apre il fucile prima di girarsi sulla pedana. Tiratori e {{term:referee|arbitri}} portano {{term:safety-glasses|occhiali di protezione}}; chiunque sia nelle vicinanze porta {{term:hearing-protection|protezioni auditive}}."
+    },
     "clayarena-videos-recaps-calendar-p3": "I {{term:season-recap|riepiloghi di stagione}} riassumono un anno: i campionati principali, i vincitori, le classifiche e i risultati di rilievo. Anche i riepiloghi delle stagioni passate restano sul sito. Aiutano a capire chi è in forma, quali gare spiccano e dove potresti andare a vedere di persona.",
     "clayarena-videos-recaps-calendar-p4": "Il calendario delle gare mostra gli eventi con date e sedi. Puoi filtrarlo per stato (programmate, in corso o concluse), per regione e per mese. Vi troverai sia grandi gare internazionali sia gare più vicine a casa.",
-    "clayarena-videos-recaps-calendar-p5": "Per una prima gara, molti istruttori consigliano un evento vicino, in una disciplina che già tiri. Verifica in anticipo con l'{{term:organiser|organizzatore}} le condizioni di partecipazione, gli {{term:shooting-times|orari di tiro}} e l'{{term:dress-code|abbigliamento}} richiesto. Come iscriversi: {{lesson:competitions-how-to-enter}}. Se la gara è all'estero, verifica le regole per portare con te il fucile e le cartucce: {{lesson:travel-gun-in-eu}} e {{lesson:travel-gun-outside-eu}}.",
+    "clayarena-videos-recaps-calendar-p5": "Per una prima gara, molti istruttori consigliano un evento vicino, in una disciplina che già tiri. Verifica in anticipo con l'{{term:organiser|organizzatore}} le condizioni di partecipazione, gli {{term:shooting-times|orari di tiro}} e il {{term:dress-code|abbigliamento}} richiesto. Come iscriversi: {{lesson:competitions-how-to-enter}}. Se la gara è all'estero, verifica le regole per portare con te il fucile e le cartucce: {{lesson:travel-gun-in-eu}} e {{lesson:travel-gun-outside-eu}}.",
     "clayarena-videos-recaps-calendar-p6": "Dopo la gara, torna su ClayArena: il tuo risultato sarà nella tabella dei risultati, e l'evento potrà in seguito comparire nei video o nel riepilogo di stagione."
   },
   "note": {},
@@ -53,41 +60,69 @@
     "clayarena-videos-recaps-calendar-kp3": "Il calendario elenca le gare con date e sedi e si può filtrare.",
     "clayarena-videos-recaps-calendar-kp4": "Verifica le condizioni di partecipazione, gli orari di tiro e l'abbigliamento con l'organizzatore."
   },
-  "did_you_know": "Nel {{tm:compak}} un tiratore ha {{fact:rules.compak-time-to-call}}. Nel {{tm:sporting}} un tiratore ha {{fact:rules.sporting-time-between-targets}}. In entrambe le discipline chi impiega più tempo riceve prima un avvertimento dall'arbitro.",
+  "did_you_know": "Nel {{tm:compak}} un tiratore ha {{fact:rules.compak-time-to-call}}. Nel {{tm:sporting}} un tiratore ha {{fact:rules.sporting-time-between-targets}}. In entrambe le discipline chi impiega più tempo riceve prima un avvertimento dal {{term:referee|arbitro}}.",
   "quiz": {
     "watching-videos-and-recaps-q1": {
       "q": "Come si impara di più da un video di gara?",
-      "options": { "a": "Seguire un tiratore e un dettaglio", "b": "Ascoltare solo il suono degli spari", "c": "Guardare solo i punteggi finali" },
+      "options": {
+        "a": "Seguire un tiratore e un dettaglio",
+        "b": "Ascoltare solo il suono degli spari",
+        "c": "Guardare solo i punteggi finali"
+      },
       "explain": "Guardare pezzo per pezzo, un tiratore alla volta, insegna di più."
     },
     "clayarena-videos-recaps-calendar-q2": {
       "q": "Cosa mostra il calendario delle gare su ClayArena?",
-      "options": { "a": "Solo i risultati delle stagioni passate", "b": "Gare con date e sedi", "c": "Il programma di allenamento di un istruttore" },
+      "options": {
+        "a": "Solo i risultati delle stagioni passate",
+        "b": "Gare con date e sedi",
+        "c": "Il programma di allenamento di un istruttore"
+      },
       "explain": "Il calendario aiuta a trovare una gara da seguire o a cui andare."
     },
     "watching-videos-and-recaps-q2": {
-      "q": "Cos'è il punto di rottura (break point)?",
-      "options": { "a": "Il punto dove sta il tiratore", "b": "Una pausa tra due serie", "c": "Il punto dove si rompe il piattello" },
+      "q": "Cos'è il {{term:break-point|punto di rottura}}?",
+      "options": {
+        "a": "Il punto dove sta il tiratore",
+        "b": "Una pausa tra due serie",
+        "c": "Il punto dove si rompe il piattello"
+      },
       "explain": "Il punto di rottura è dove il tiratore pensa di rompere il piattello."
     },
     "clayarena-videos-recaps-calendar-q1": {
       "q": "Cosa può imparare un principiante dai video delle gare?",
-      "options": { "a": "Come si mettono i tiratori esperti", "b": "Chi vincerà la prossima gara", "c": "I prezzi delle cartucce sul campo" },
+      "options": {
+        "a": "Come si mettono i tiratori esperti",
+        "b": "Chi vincerà la prossima gara",
+        "c": "I prezzi delle cartucce sul campo"
+      },
       "explain": "I video sono una lezione visiva di tecnica e di regolamento."
     },
     "clayarena-videos-recaps-calendar-q3": {
       "q": "Dove si verificano le condizioni di partecipazione e l'orario di una gara?",
-      "options": { "a": "Con altri tiratori", "b": "In un riepilogo di stagione", "c": "Con l'organizzatore della gara" },
+      "options": {
+        "a": "Con altri tiratori",
+        "b": "In un riepilogo di stagione",
+        "c": "Con l'organizzatore della gara"
+      },
       "explain": "Le condizioni di partecipazione e l'orario li fissa l'organizzatore."
     },
     "watching-videos-and-recaps-q3": {
       "q": "Cosa mostrano i riepiloghi di stagione?",
-      "options": { "a": "Il regolamento di sicurezza di un club", "b": "Gare principali, vincitori e classifiche", "c": "I prezzi delle cartucce" },
+      "options": {
+        "a": "Il regolamento di sicurezza di un club",
+        "b": "Gare principali, vincitori e classifiche",
+        "c": "I prezzi delle cartucce"
+      },
       "explain": "I riepiloghi di stagione sono una breve panoramica dell'anno nello sport."
     },
     "clayarena-videos-recaps-calendar-call-time": {
       "q": "Quanto tempo ha un tiratore {{tm:compak}} per chiamare il piattello dopo che ha tirato il tiratore della postazione precedente?",
-      "options": { "a": "Al massimo 10 secondi", "b": "Al massimo 15 secondi", "c": "Al massimo 30 secondi" },
+      "options": {
+        "a": "Al massimo 10 secondi",
+        "b": "Al massimo 15 secondi",
+        "c": "Al massimo 30 secondi"
+      },
       "explain": "Un tiratore {{tm:compak}} ha {{fact:rules.compak-time-to-call}}. Il limite di 15 secondi è una regola {{tm:sporting}}."
     }
   }

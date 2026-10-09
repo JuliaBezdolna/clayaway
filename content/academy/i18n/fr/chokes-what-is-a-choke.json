@@ -36,13 +36,13 @@
     "origin": null
   },
   "title": "Ce qu'est un choke",
-  "summary": "Un choke est un rétrécissement du canon à la bouche qui garde le plomb groupé. Il décide de la largeur de la gerbe au niveau du plateau, et le règlement du {{tm:sporting}} et du {{tm:compak}} indique quand on peut le changer.",
+  "summary": "Un choke est un rétrécissement du canon à la bouche qui garde le plomb groupé. Il décide de la largeur du {{term:pattern|gerbe}} au niveau du plateau, et le règlement du {{tm:sporting}} et du {{tm:compak}} indique quand on peut le changer.",
   "body": {
-    "chokes-what-is-a-choke-p1": "Quand un fusil tire, ce qui sort de la bouche n'est pas une seule balle mais un nuage de plusieurs centaines de plombs. En volant, il s'étale peu à peu. La marque que ce nuage laisse sur un plateau ou une plaque d'acier s'appelle la {{term:pattern|gerbe}} (pattern).",
+    "chokes-what-is-a-choke-p1": "Quand un fusil tire, ce qui sort de la bouche n'est pas une seule balle mais un nuage de plusieurs centaines de plombs. En volant, il s'étale peu à peu. La marque que ce nuage laisse sur un plateau ou une plaque d'acier s'appelle le {{term:pattern|gerbe}}.",
     "gear-chokes-p1": "Un {{term:choke|choke}} est un léger rétrécissement du canon à la bouche. Il contrôle la vitesse à laquelle le plomb s'étale. Un choke plus serré garde le plomb groupé plus longtemps et donne une gerbe plus dense pour les plateaux éloignés. Un choke plus ouvert le laisse s'étaler plus tôt et donne une gerbe plus large, plus tolérante pour les plateaux proches.",
-    "chokes-what-is-a-choke-p2": "L'ampleur du rétrécissement d'un choke s'appelle la {{term:constriction|constriction}}. Par exemple, l'intérieur du canon mesure 18,5 mm et le choke le resserre à 18,0 mm, donc la constriction est de 0,5 mm. Elle est donnée en millimètres ou en millièmes de pouce (« thou », aussi appelés « points »). Un canon sans aucun rétrécissement s'appelle {{term:cylinder|cylindre}} (cylinder).",
+    "chokes-what-is-a-choke-p2": "L'ampleur du rétrécissement d'un choke s'appelle la {{term:constriction|constriction}}. Par exemple, l'intérieur du canon mesure 18,5 mm et le choke le resserre à 18,0 mm, donc la constriction est de 0,5 mm. Elle est donnée en millimètres ou en millièmes de pouce (« thou », aussi appelés « points »). Un canon sans aucun rétrécissement s'appelle {{term:cylinder|cylindre}}.",
     "chokes-what-is-a-choke-p4": "Une gerbe large pardonne de petites erreurs de pointage sur les plateaux proches. À longue distance, cependant, elle s'éclaircit et laisse des trous par lesquels un plateau peut passer intact. Une gerbe serrée reste dense plus loin mais demande un pointage plus précis : il n'existe donc pas un choke qui conviendrait à tout, seulement un choke adapté à la distance.",
-    "gear-chokes-p2": "La plupart des fusils de compétition ont des chokes interchangeables : de courts tubes vissés dans la bouche avec une clé à choke. Les fusils plus anciens peuvent avoir des {{term:fixed-choke|chokes fixes}} usinés dans le canon. Les tubes de fabricants différents ne s'adaptent souvent pas entre eux, et les fabricants précisent qu'un fusil à {{term:multichoke|chokes interchangeables}} doit toujours avoir un tube installé avant de tirer.",
+    "gear-chokes-p2": "La plupart des fusils de compétition ont des {{term:multichoke|chokes interchangeables|pl}} : de courts tubes vissés dans la bouche avec un {{term:choke-key|clé à choke}}. Les fusils plus anciens peuvent avoir des {{term:fixed-choke|chokes fixes}} usinés dans le canon. Les tubes de fabricants différents ne s'adaptent souvent pas entre eux, et les fabricants précisent qu'un fusil à {{term:multichoke|chokes interchangeables|pl}} doit toujours avoir un tube installé avant de tirer.",
     "chokes-what-is-a-choke-p6": "Au {{tm:sporting}} et au {{tm:compak}}, les plateaux volent à des distances très variées, donc choisir ses chokes fait partie de votre plan. Dans un {{term:over-and-under|superposé}}, chaque canon peut avoir son propre choke, par exemple un plus ouvert pour le premier tir, plus proche, et un plus serré pour le second.",
     "gear-chokes-p4": "Les entraîneurs disent des choses comme « quarter and half », « open up the bottom barrel » (ouvrez le canon du bas) ou « go tighter in the top » (serrez le canon du haut), ou encore « change chokes for this stand » (changez de chokes pour ce poste). Les noms du cylindre au full, les fractions et les marquages : {{lesson:chokes-names-and-marks}}.",
     "gear-chokes-p5": "Le règlement diffère selon la discipline. Au {{tm:sporting}}, on peut changer de chokes entre les postes, ou entre les simples et les doublés, si cela ne cause aucun retard. Une fois que le tireur est monté sur le poste, on ne peut plus les changer. Au {{tm:compak}}, le fusil, les canons et les chokes ne peuvent pas être changés du tout pendant une série, seulement entre les séries, sauf en cas de panne."
@@ -69,7 +69,7 @@
     }
   },
   "key_points": {
-    "chokes-what-is-a-choke-kp1": "La gerbe (pattern) est la marque que le nuage de plomb laisse sur un plateau ou une plaque.",
+    "chokes-what-is-a-choke-kp1": "Le {{term:pattern|gerbe}} est la marque que le nuage de plomb laisse sur un plateau ou une plaque.",
     "gear-chokes-kp1": "Un choke rétrécit la bouche : plus serré pour les plateaux éloignés, plus ouvert pour les proches.",
     "gear-chokes-kp2": "Les tubes interchangeables se vissent avec une clé à choke ; les fabricants recommandent de toujours en avoir un en place avant de tirer.",
     "chokes-what-is-a-choke-kp4": "Choisissez le choke selon la distance à laquelle vous allez tirer.",
@@ -77,7 +77,7 @@
   },
   "quiz": {
     "gear-chokes-q1": {
-      "q": "Quel choke donne la gerbe la plus large ?",
+      "q": "Quel choke donne le {{term:pattern|gerbe}} le plus large ?",
       "options": {
         "a": "Full",
         "b": "Improved modified",
@@ -89,19 +89,19 @@
     "chokes-what-is-a-choke-q2": {
       "q": "Que se passe-t-il si on augmente la constriction ?",
       "options": {
-        "a": "La gerbe s'étale plus tôt",
+        "a": "Le {{term:pattern|gerbe}} s'étale plus tôt",
         "b": "La gerbe reste plus serrée plus longtemps",
         "c": "Le plomb sort du canon plus vite",
-        "d": "Le recul devient beaucoup plus doux"
+        "d": "Le {{term:recoil|recul}} devient beaucoup plus doux"
       },
       "explain": "Plus de constriction garde le plomb groupé plus longtemps, donc à la même distance la gerbe est plus étroite et plus dense."
     },
     "chokes-what-is-a-choke-q3": {
       "q": "Pourquoi un choke très ouvert est-il un mauvais choix pour un plateau éloigné ?",
       "options": {
-        "a": "Il donne beaucoup plus de recul que les autres",
+        "a": "Il donne beaucoup plus de {{term:recoil|recul}} que les autres",
         "b": "Il est interdit pour les plateaux à plus de 30 m",
-        "c": "À distance, la gerbe s'éclaircit, avec des trous",
+        "c": "À distance, le {{term:pattern|gerbe}} s'éclaircit, avec des trous",
         "d": "Il use le canon beaucoup plus vite"
       },
       "explain": "Une gerbe large s'éclaircit à longue distance, et le plateau peut se glisser entre les plombs."
@@ -110,9 +110,9 @@
       "q": "Qu'est-ce qu'un choke ?",
       "options": {
         "a": "Un rétrécissement du canon à la bouche",
-        "b": "La sûreté derrière la clé d'ouverture",
+        "b": "Le {{term:safety-catch|sûreté}} derrière la clé d'ouverture",
         "c": "Un type de cartouche pour le tir sur plateaux",
-        "d": "Le bord supérieur de la crosse, pour la joue"
+        "d": "Le bord supérieur du {{term:stock|crosse}}, pour la joue"
       },
       "explain": "Un choke rétrécit l'âme à la bouche et garde le plomb groupé."
     },
@@ -127,5 +127,5 @@
       "explain": "Les changements sont autorisés entre les postes ou entre les simples et les doublés, sans retard, mais pas une fois que le tireur est monté sur le poste."
     }
   },
-  "did_you_know": "Les constrictions de choke sont minuscules. Même un full choke ne rétrécit l'âme d'un calibre 12 que d'environ 1 mm de diamètre. Cela représente environ 0,5 mm de chaque côté, moins que l'épaisseur d'une carte bancaire."
+  "did_you_know": "Les constrictions de choke sont minuscules. Même un full choke ne rétrécit l'âme d'un {{term:gauge|calibre}} 12 que d'environ 1 mm de diamètre. Cela représente environ 0,5 mm de chaque côté, moins que l'épaisseur d'une carte bancaire."
 }

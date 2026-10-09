@@ -27,11 +27,11 @@
     "origin": null
   },
   "body": {
-    "intro-shooting-ground-p1": "{{term:range|Střelnice}} (shooting ground), které se běžně říká jen „areál“, obvykle má klubovnu s recepcí, kavárnou a {{term:gun-rack|stojany na zbraně}}, tréninková pole a tratě používané na závodech.",
-    "intro-shooting-ground-p2": "Pro {{tm:sporting}} se areál dělí na {{term:layout|střeliště}} (layouts): skupiny {{term:shooting-stand|stanovišť}}, z nichž se střílí jedna položka {{fact:rules.round-targets}}. Vrhačky bývají skryté za keři nebo v příkopech, nebo stojí na věžích. Terče pak létají tak, jako by letěla zvěř (ptáci a zajíci, na které loví myslivci): nad polem, zpoza stromů, nad vodou. Jak funguje střeliště a položka: {{lesson:targets-sporting-layout}}.",
-    "intro-shooting-ground-p3": "Stanoviště v {{tm:sporting}} je {{fact:basics.sporting-stand-size}}. Mělo by být pokud možno rovné a nesmí být kluzké – to je otázka bezpečnosti. Před stanovištěm najdete {{term:target-menu|menu terčů}} (target menu): uvádí vrhačky v pořadí střelby a případné speciální terče.",
+    "intro-shooting-ground-p1": "{{term:range|Střelnice}}, které se běžně říká jen „areál“, obvykle má klubovnu s recepcí, kavárnou a {{term:gun-rack|stojany na zbraně}}, tréninková pole a tratě používané na závodech.",
+    "intro-shooting-ground-p2": "Pro {{tm:sporting}} se areál dělí na {{term:layout|střeliště}}: skupiny {{term:shooting-stand|stanovišť}}, z nichž se střílí jedna položka {{fact:rules.round-targets}}. {{term:trap|Vrhačky}} bývají skryté za keři nebo v příkopech, nebo stojí na věžích. Terče pak létají tak, jako by letěla zvěř (ptáci a zajíci, na které loví myslivci): nad polem, zpoza stromů, nad vodou. Jak funguje střeliště a položka: {{lesson:targets-sporting-layout}}.",
+    "intro-shooting-ground-p3": "Stanoviště v {{tm:sporting}} je {{fact:basics.sporting-stand-size}}. Mělo by být pokud možno rovné a nesmí být kluzké – to je otázka bezpečnosti. Před stanovištěm najdete {{term:target-menu|menu terčů}}: uvádí vrhačky v pořadí střelby a případné speciální terče.",
     "intro-shooting-ground-p4": "{{tm:compak}} se staví na jednom poli, kde je {{fact:basics.compak-field}}. Každé stanoviště má 1 × 1 m, mezi středy sousedních stanovišť je 2–5 m. Vrhačky mohou stát před stanovišti nebo vedle nich; vrhačka za nimi stojí na {{term:tower|věži}} vysoké nejméně 4 m. Na každém stanovišti je {{term:firing-angle-limiter|omezovač úhlu střelby}} – rám, který brání pohybu zbraně nebezpečným směrem. Více: {{lesson:targets-compak-layout}}.",
-    "intro-shooting-ground-p5": "Terče jsou několika typů: {{term:standard-target|standardní}}, {{term:midi|midi}}, {{term:mini|mini}} (také super mini), {{term:battue|battue}} (tenký a plochý), {{term:rabbit|rabbit}} (koulí se po zemi) a {{term:flash-target|flash}}. Terč flash při zásahu vydá jasný obláček prášku. Barva se volí tak, aby terč vynikl na pozadí oblohy nebo stromů.",
+    "intro-shooting-ground-p5": "Terče jsou několika typů: {{term:standard-target|standardní}}, {{term:midi|midi}}, {{term:mini|mini}}, {{term:battue|battue}} (tenký a plochý), {{term:rabbit|zajíc}}, který se koulí po zemi, a {{term:flash-target|flash}}. Terč flash při zásahu vydá jasný obláček prášku. Barva se volí tak, aby terč vynikl na pozadí oblohy nebo stromů.",
     "intro-shooting-ground-p6": "Při první návštěvě si všímejte značek a cedulí: kudy smíte chodit, kde stojí diváci a kde je dovoleno střílet. Každý areál má svá vlastní pravidla, zeptejte se na ně ještě před prvním výstřelem. Základní návyky bezpečnosti jsou v lekci {{lesson:safety-core-rules}}."
   },
   "note": {},
@@ -44,7 +44,7 @@
   },
   "quiz": {
     "intro-shooting-ground-q1": {
-      "q": "Jak velké je stanoviště v {{tm:sporting}}?",
+      "q": "Jak velké je {{term:shooting-stand|stanoviště}} v {{tm:sporting}}?",
       "options": {
         "a": "Čtverec 1 × 1 m nebo kruh o průměru 1 m",
         "b": "Čtverec 3 × 3 m s plotem",
@@ -53,13 +53,13 @@
       "explain": "Pravidla stanoví {{fact:basics.sporting-stand-size}}."
     },
     "intro-shooting-ground-q2": {
-      "q": "Co ukazuje menu terčů (target menu)?",
+      "q": "Co ukazuje {{term:target-menu|menu terčů}}?",
       "options": {
         "a": "Ceny v kavárně",
         "b": "Vrhačky v pořadí střelby",
         "c": "Výsledky skupiny"
       },
-      "explain": "Menu před stanovištěm uvádí vrhačky v pořadí střelby a případné speciální terče."
+      "explain": "Menu před {{term:shooting-stand|stanovištěm}} uvádí vrhačky v pořadí střelby a případné speciální terče."
     },
     "intro-shooting-ground-q3": {
       "q": "Který terč se koulí po zemi?",
@@ -77,10 +77,10 @@
         "b": "Omezuje pohyb zbraně",
         "c": "Vyznačuje místo pro diváky"
       },
-      "explain": "Omezovač úhlu střelby brání namíření zbraně nebezpečným směrem a udržuje střelce uvnitř stanoviště."
+      "explain": "Omezovač úhlu střelby brání namíření zbraně nebezpečným směrem a udržuje střelce uvnitř {{term:shooting-stand|stanoviště}}."
     }
   },
   "title": "Jak vypadá střelnice",
-  "summary": "Klubovna, střeliště {{tm:sporting}}, pole {{tm:compak}} a vrhačky: co uvidíte při první návštěvě.",
+  "summary": "Klubovna, {{term:layout|střeliště}} {{tm:sporting}}, pole {{tm:compak}} a {{term:trap|vrhačky}}: co uvidíte při první návštěvě.",
   "did_you_know": "Terč flash obsahuje jasný prášek, takže zásah je vidět i zdálky. Diváci si ho oblíbili."
 }

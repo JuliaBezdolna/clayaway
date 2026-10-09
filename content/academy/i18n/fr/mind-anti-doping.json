@@ -40,14 +40,14 @@
     "origin": null
   },
   "title": "Médicaments et antidopage : bêtabloquants, AUT, compléments",
-  "summary": "La liste de l'AMA interdit les bêtabloquants en permanence dans le tir ; considérez-les comme interdits aussi en {{tm:sporting}} et en {{tm:compak}}. Comment vérifier un médicament, quand une AUT est nécessaire, et ce qu'il faut savoir sur les compléments, le CBD et l'alcool.",
+  "summary": "La liste de l'AMA interdit les {{term:beta-blocker|bêtabloquants}} en permanence dans le tir ; considérez-les comme interdits aussi en {{tm:sporting}} et en {{tm:compak}}. Comment vérifier un médicament, quand une AUT est nécessaire, et ce qu'il faut savoir sur les compléments, le CBD et l'alcool.",
   "body": {
-    "health-alcohol-medication-weather-p3": "Aux {{term:championship|championnats}} et aux grandes épreuves, vous pouvez être soumis à un contrôle antidopage. Les règles internationales viennent de l'Agence mondiale antidopage (AMA), qui publie chaque année une nouvelle liste des interdictions.",
+    "health-alcohol-medication-weather-p3": "Aux {{term:championship|championnats}} et aux grandes épreuves, vous pouvez être soumis à un {{term:anti-doping|contrôle antidopage}}. Les règles internationales viennent de l'Agence mondiale antidopage (AMA), qui publie chaque année une nouvelle liste des interdictions.",
     "mind-anti-doping-beta": "Les {{term:beta-blocker|bêtabloquants}} sont des médicaments cardiaques qui ralentissent les battements du cœur et réduisent les tremblements ; exemples : propranolol, aténolol, bisoprolol et métoprolol. Sachez que {{fact:mind.beta-blockers-wada}}.",
     "mind-anti-doping-p2": "La liste ne cite pas à part le {{tm:sporting}} ni le {{tm:compak}} : considérez les bêtabloquants comme interdits là aussi. Votre agence nationale {{term:anti-doping|antidopage}} peut contrôler lors d'épreuves nationales, et les organisateurs peuvent appliquer la liste de l'AMA.",
     "mind-anti-doping-p3": "Ils sont interdits dans les sports de précision parce qu'un cœur plus lent et moins de tremblements peuvent stabiliser le fusil.",
     "mind-anti-doping-warn": "Si un médecin vous a prescrit un bêtabloquant, par exemple pour la tension, un trouble du rythme cardiaque, la migraine ou des tremblements, ne l'arrêtez pas de vous-même. Parlez à votre médecin et à votre fédération bien avant la compétition d'une alternative autorisée ou d'une AUT.",
-    "mind-anti-doping-p4": "Une {{term:therapeutic-use-exemption|AUT}} (autorisation d'usage à des fins thérapeutiques) est une autorisation officielle d'utiliser un médicament interdit pour une raison médicale. Une prescription seule ne suffit pas : une substance interdite reste interdite, donc vous faites une demande à l'avance, généralement à votre agence nationale antidopage (votre fédération peut vous dire laquelle).",
+    "mind-anti-doping-p4": "Une {{term:therapeutic-use-exemption|AUT}} — autorisation d'usage à des fins thérapeutiques — est une autorisation officielle d'utiliser un médicament interdit pour une raison médicale. Une prescription seule ne suffit pas : une substance interdite reste interdite, donc vous faites une demande à l'avance, généralement à votre agence nationale antidopage (votre fédération peut vous dire laquelle).",
     "mind-anti-doping-p5": "Vérifiez chaque médicament, y compris ceux achetés sans prescription. {{term:global-dro|Global DRO}} est un service en ligne de vérification des médicaments géré par plusieurs agences nationales antidopage. Il ne recense que les médicaments vendus dans ses pays partenaires, comme le Royaume-Uni, les États-Unis, le Canada et la Suisse. Cherchez par principe actif ; si votre médicament n'y figure pas, demandez à votre agence nationale antidopage ou à votre fédération. Vérifiez à nouveau chaque année, car la liste change.",
     "mind-anti-doping-p6": "Certains remèdes contre le rhume et médicaments pour le TDAH (trouble du déficit de l'attention avec hyperactivité) contiennent des stimulants, des substances qui augmentent la vigilance. Exemples : la pseudoéphédrine (interdite au-delà d'un seuil fixé dans votre échantillon) et le méthylphénidate. Les stimulants sont interdits en compétition.",
     "mind-anti-doping-p7": "La période « en compétition » commence à 23h59 la veille de l'épreuve et dure jusqu'à la fin de l'épreuve et de tout contrôle antidopage qui suit. Donc tout ce que vous prenez à partir de ce soir-là compte comme pris « en compétition ».",
@@ -72,7 +72,7 @@
   "did_you_know": "La liste des interdictions de l'AMA est mise à jour chaque année, et la liste suivante est généralement publiée autour de septembre. Un médicament autorisé la saison dernière vaut la peine d'être vérifié à nouveau.",
   "quiz": {
     "mind-anti-doping-q1": {
-      "q": "Selon la liste de l'AMA, quand les bêtabloquants sont-ils interdits au tir ?",
+      "q": "Selon la liste de l'AMA, quand les {{term:beta-blocker|bêtabloquants}} sont-ils interdits au tir ?",
       "options": {
         "a": "Seulement les jours de compétition",
         "b": "Seulement aux championnats du monde et d'Europe",
@@ -81,7 +81,7 @@
       "explain": "Les listes 2026 et 2027 marquent le tir comme une discipline où ils sont interdits en permanence. Considérez cela comme la règle au tir aux plateaux aussi."
     },
     "health-alcohol-medication-weather-q2": {
-      "q": "Vous avez besoin d'un médicament prescrit et vous allez à un championnat. Que devez-vous faire ?",
+      "q": "Vous avez besoin d'un médicament prescrit et vous allez à un {{term:championship|championnat}}. Que devez-vous faire ?",
       "options": {
         "a": "Vérifier tôt avec votre médecin ; demander une AUT",
         "b": "Rien : une prescription le rend toujours autorisé",
@@ -96,7 +96,7 @@
         "b": "Dans Global DRO, une vérification en ligne",
         "c": "Auprès de l'arbitre le jour de l'épreuve"
       },
-      "explain": "Global DRO est géré par plusieurs agences nationales antidopage ; cherchez par principe actif, et si votre médicament n'y figure pas, demandez à votre agence nationale antidopage ou à votre fédération."
+      "explain": "Global DRO est géré par plusieurs agences nationales {{term:anti-doping|antidopage}} ; cherchez par principe actif, et si votre médicament n'y figure pas, demandez à votre agence nationale antidopage ou à votre fédération."
     },
     "mind-anti-doping-q3": {
       "q": "La caféine est-elle interdite ?",

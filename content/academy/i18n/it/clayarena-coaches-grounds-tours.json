@@ -28,11 +28,11 @@
   },
   "review": { "by": null, "date": null, "origin": null },
   "title": "Trovare un istruttore e uno stand su ClayArena",
-  "summary": "Cosa mostrano i cataloghi ClayArena di istruttori e stand, come usarli e cosa chiedere prima della prima visita.",
+  "summary": "Cosa mostrano i cataloghi ClayArena di {{term:coach|istruttori}} e stand, come usarli e cosa chiedere prima della prima visita.",
   "body": {
     "clayarena-coaches-grounds-tours-p1": "Molti tiratori iniziano con un {{term:coach|istruttore}}, che vede gli errori da fuori e li corregge prima che diventino abitudini. Come scegliere un istruttore: {{lesson:training-first-lessons-and-coach}}.",
     "clayarena-coaches-grounds-tours-coaches": "Il catalogo degli istruttori su ClayArena si può filtrare per disciplina, paese, federazione e lingua di insegnamento. La scheda di un istruttore mostra quali discipline insegna e quali lingue parla. Spesso indica anche il prezzo, oppure «da concordare». Dalla scheda puoi aprire il profilo completo dell'istruttore.",
-    "clayarena-coaches-grounds-tours-language": "La lingua di insegnamento conta. Se tu e l'istruttore non avete una lingua in comune, puoi lavorare con un {{term:interpreter|interprete}} o concordare in anticipo alcune parole chiave: {{lesson:stand-talk-foreign-coach}}.",
+    "clayarena-coaches-grounds-tours-language": "La lingua di insegnamento conta. Se tu e l'istruttore non avete una lingua in comune, puoi lavorare con un {{term:interpreter|interprete}} o concordare in anticipo alcune {{term:cue-word|parole chiave}}: {{lesson:stand-talk-foreign-coach}}.",
     "clayarena-coaches-grounds-tours-p2": "Il catalogo degli stand mostra gli stand in elenco e su una mappa. La pagina di uno stand indica di solito quali discipline offre, dove si trova, come contattarlo e quali gare ospita.",
     "clayarena-coaches-grounds-tours-visit": "Prima della tua prima visita, contatta lo stand e fai alcune domande:",
     "clayarena-coaches-grounds-tours-visit-steps": [
@@ -42,7 +42,7 @@
       "Cosa portare: occhiali, {{term:hearing-protection|protezioni auditive}}, documenti?"
     ],
     "clayarena-coaches-grounds-tours-practice": "Se su quello stand si avvicina una gara, chiedi quando puoi allenarti. Nelle due discipline le regole sono diverse:",
-    "clayarena-coaches-grounds-tours-practice-compare": { "sporting": "Prima dell'evento nessuno può allenarsi sui percorsi di gara (le pedane e i piattelli preparati per la gara). Puoi allenarti sugli altri percorsi dello stand.", "compak": "Puoi allenarti sulle {{term:trajectory|traiettorie}} di gara (i percorsi di volo che seguiranno i piattelli in gara), ma con una {{term:trajectory-setting-table|tabella di impostazione}} diversa. È lo schema che indica da quali macchine si tira a ogni postazione, come singoli o come doppietti. Quindi in allenamento i piattelli non arrivano nelle stesse combinazioni del giorno di gara. Ai campionati continentali e mondiali, l'allenamento ufficiale apre il sabato prima dell'evento." },
+    "clayarena-coaches-grounds-tours-practice-compare": { "sporting": "Prima dell'evento nessuno può allenarsi sui percorsi di gara (le pedane e i piattelli preparati per la gara). Puoi allenarti sugli altri percorsi dello stand.", "compak": "Puoi allenarti sulle {{term:trajectory|traiettorie}} di gara (i percorsi di volo che seguiranno i piattelli in gara), ma con una {{term:trajectory-setting-table|tabella di impostazione}} diversa. È lo schema che indica da quali {{term:trap|macchine}} si tira a ogni postazione, come singoli o come {{term:double|doppietti}}. Quindi in allenamento i piattelli non arrivano nelle stesse combinazioni del giorno di gara. Ai campionati continentali e mondiali, l'allenamento ufficiale apre il sabato prima dell'evento." },
     "clayarena-coaches-grounds-tours-p6": "Pensi di allenarti su uno stand in un altro paese? Verifica in anticipo le regole per portare con te il fucile e le cartucce, oppure chiedi allo stand se puoi noleggiare un fucile lì. Di più in {{lesson:travel-gun-in-eu}} e {{lesson:travel-gun-outside-eu}}.",
     "clayarena-coaches-grounds-tours-p3": "ClayArena sta anche preparando tour di allenamento con un istruttore, chiamati {{term:clayaway|ClayAway}}. Sono in preparazione e non sono ancora partiti: {{lesson:travel-clayaway-tour}}."
   },
@@ -51,29 +51,29 @@
   "key_points": {
     "clayarena-coaches-grounds-tours-kp1": "Il catalogo degli istruttori si può filtrare per disciplina, paese, federazione e lingua.",
     "clayarena-coaches-grounds-tours-kp2": "Il catalogo degli stand mostra gli stand in elenco e su una mappa.",
-    "clayarena-coaches-grounds-tours-kp6": "Prima della prima visita, chiedi dei principianti, del noleggio del fucile e di cosa portare.",
+    "clayarena-coaches-grounds-tours-kp6": "Prima della prima visita, chiedi dei principianti, del {{term:gun-rental|noleggio del fucile}} e di cosa portare.",
     "clayarena-coaches-grounds-tours-kp7": "Allenamento prima di una gara: nel {{tm:sporting}} non sui percorsi di gara; nel {{tm:compak}} con altre tabelle di impostazione.",
     "clayarena-coaches-grounds-tours-kp5": "Prima di allenarti all'estero, verifica le regole per portare il fucile."
   },
-  "did_you_know": "In entrambe le discipline nessuno può fare {{term:coaching|coaching}} a un concorrente durante la gara, cioè dargli consigli o segnali. Se l'arbitro lo vede, il tiratore riceve un {{term:yellow-card|cartellino giallo}}, e l'arbitro allontana chi ha fatto coaching dall'area di tiro. Quindi lavora con il tuo istruttore prima e dopo la gara.",
+  "did_you_know": "In entrambe le discipline nessuno può fare {{term:coaching|coaching}} a un concorrente durante la gara, cioè dargli consigli o segnali. Se l'arbitro lo vede, il tiratore riceve uno {{term:yellow-card|cartellino giallo}}, e l'arbitro allontana chi ha fatto coaching dall'area di tiro. Quindi lavora con il tuo istruttore prima e dopo la gara.",
   "quiz": {
     "clayarena-coaches-grounds-tours-q4": {
-      "q": "Per cosa si può filtrare il catalogo degli istruttori su ClayArena?",
+      "q": "Per cosa si può filtrare il catalogo dei {{term:coach|istruttori}} su ClayArena?",
       "options": { "a": "Disciplina, paese e lingua", "b": "Altezza, età e marca del fucile", "c": "Solo il cognome dell'istruttore" },
       "explain": "Puoi filtrare per disciplina, paese, federazione e lingua di insegnamento."
     },
     "clayarena-coaches-grounds-tours-q5": {
       "q": "La settimana prossima sul tuo stand c'è una gara di {{tm:sporting}}. Dove puoi allenarti prima?",
-      "options": { "a": "Sui percorsi di gara", "b": "Sugli altri percorsi dello stand", "c": "In nessun punto di quello stand" },
+      "options": { "a": "Sui {{term:layout|percorsi}} di gara", "b": "Sugli altri {{term:layout|percorsi}} dello stand", "c": "In nessun punto di quello stand" },
       "explain": "Nel {{tm:sporting}} nessuno può allenarsi sui percorsi di gara prima dell'evento."
     },
     "clayarena-coaches-grounds-tours-q6": {
-      "q": "Il tuo istruttore è venuto a guardare la tua gara. Cosa può fare mentre tiri?",
+      "q": "Il tuo {{term:coach|istruttore}} è venuto a guardare la tua gara. Cosa può fare mentre tiri?",
       "options": { "a": "Darti consigli tra un piattello e l'altro", "b": "Farti segnali da dietro", "c": "Guardare, ma non fare coaching" },
-      "explain": "Il coaching durante la gara non è ammesso in nessuna delle due discipline: comporta un cartellino giallo."
+      "explain": "Il coaching durante la gara non è ammesso in nessuna delle due discipline: comporta uno {{term:yellow-card|cartellino giallo}}."
     },
     "clayarena-coaches-grounds-tours-q7": {
-      "q": "Prima di una gara {{tm:compak}}, come possono allenarsi i tiratori sulle traiettorie di gara?",
+      "q": "Prima di una gara {{tm:compak}}, come possono allenarsi i tiratori sulle {{term:trajectory|traiettorie}} di gara?",
       "options": { "a": "Con altre tabelle di impostazione", "b": "In nessun modo, è vietato", "c": "Solo dopo la finale" },
       "explain": "L'allenamento sulle traiettorie di gara è permesso, ma con tabelle di impostazione diverse da quelle di gara."
     }

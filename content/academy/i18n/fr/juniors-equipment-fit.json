@@ -28,12 +28,12 @@
     "origin": null
   },
   "title": "Du matériel à la taille de l'enfant",
-  "summary": "Un fusil d'adulte est généralement trop long et trop lourd pour un enfant. Une crosse plus courte, un fusil léger, des cartouches douces et une protection à la taille de l'enfant rendent le {{tm:sporting}} et le {{tm:compak}} plus sûrs et plus agréables.",
+  "summary": "Un fusil d'adulte est généralement trop long et trop lourd pour un enfant. Un {{term:stock|crosse}} plus court, un fusil léger, des cartouches douces et une protection à la taille de l'enfant rendent le {{tm:sporting}} et le {{tm:compak}} plus sûrs et plus agréables.",
   "body": {
-    "juniors-equipment-fit-p1": "Un fusil d'adulte est généralement trop long et trop lourd pour un enfant. L'enfant se penche en arrière pour le tenir, la crosse heurte la joue et l'épaule, et après quelques coups, la peur peut s'installer. C'est pourquoi la {{term:gun-fit|conformation}} compte encore plus pour les jeunes tireurs que pour les adultes.",
-    "juniors-equipment-fit-p2": "La mesure clé est la {{term:length-of-pull|longueur de crosse}}, {{fact:gear.length-of-pull}}. Les {{term:youth-gun|modèles junior}} ont une crosse plus courte et plus légère, et certains fusils ont une crosse et un {{term:comb|busc}} réglables. À mesure que l'enfant grandit, on allonge la crosse avec des cales, donc vérifiez l'ajustement à chaque saison avec l'entraîneur ou un {{term:gun-fitter|conformateur}}.",
-    "juniors-equipment-fit-p3": "Un calibre 20 léger est un choix courant, en {{term:over-and-under|superposé}} ou en {{term:semi-automatic|semi-automatique}}. Un semi-automatique à gaz étale le recul sur une durée plus longue, si bien que beaucoup de tireurs le ressentent comme plus doux. Des cartouches à charge légère réduisent aussi le recul et rendent le tir plus agréable.",
-    "juniors-equipment-fit-p4": "La protection doit aussi être à la bonne taille : casque ou bouchons d'oreilles pour enfants, {{term:safety-glasses|lunettes de protection}} à verres résistants aux chocs, et une casquette à visière. Un {{term:shooting-vest|gilet de tir}} ne doit pas être trop grand, sinon le fusil s'y accrochera pendant l'épaulé.",
+    "juniors-equipment-fit-p1": "Un fusil d'adulte est généralement trop long et trop lourd pour un enfant. L'enfant se penche en arrière pour le tenir, le {{term:stock|crosse}} heurte la joue et l'épaule, et après quelques coups, la peur peut s'installer. C'est pourquoi le {{term:gun-fit|conformation}} compte encore plus pour les jeunes tireurs que pour les adultes.",
+    "juniors-equipment-fit-p2": "La mesure clé est le {{term:length-of-pull|longueur de crosse}}, {{fact:gear.length-of-pull}}. Les {{term:youth-gun|modèles junior|pl}} ont une crosse plus courte et plus légère, et certains fusils ont une crosse et un {{term:comb|busc}} réglables. À mesure que l'enfant grandit, on allonge la crosse avec des cales, donc vérifiez l'ajustement à chaque saison avec l'entraîneur ou un {{term:gun-fitter|conformateur}}.",
+    "juniors-equipment-fit-p3": "Un {{term:gauge|calibre}} 20 léger est un choix courant, en {{term:over-and-under|superposé}} ou en {{term:semi-automatic|semi-automatique}}. Un semi-automatique à gaz étale le {{term:recoil|recul}} sur une durée plus longue, si bien que beaucoup de tireurs le ressentent comme plus doux. Des cartouches à charge légère réduisent aussi le recul et rendent le tir plus agréable.",
+    "juniors-equipment-fit-p4": "La protection doit aussi être à la bonne taille : casque ou {{term:earplugs|bouchons d'oreilles}} pour enfants, {{term:safety-glasses|lunettes de protection}} à verres résistants aux chocs, et une casquette à visière. Un {{term:shooting-vest|gilet de tir}} ne doit pas être trop grand, sinon le fusil s'y accrochera pendant le {{term:gun-mount|épaulé}}.",
     "juniors-equipment-fit-p7": "Au {{tm:sporting}}, le règlement ajoute un point : les enfants présents sur le terrain, hors du club-house, doivent porter une {{term:hearing-protection|protection auditive}} en permanence. Beaucoup de familles gardent cette habitude sur n'importe quel stand.",
     "juniors-equipment-fit-p5": "Les vêtements doivent être confortables et adaptés au temps. Aux compétitions, dans les deux disciplines, les sandales sont interdites, et les shorts doivent être longs, s'arrêtant {{fact:rules.dress-shorts-length}}. Des chaussures fermées avec une bonne adhérence sont nécessaires aussi à l'entraînement. Pour en savoir plus : {{lesson:gear-clothing-and-shoes}}.",
     "juniors-equipment-fit-p6": "Ne vous précipitez pas pour acheter du matériel coûteux. Commencez par un fusil de club en location, puis regardez les modèles junior d'occasion. Un fusil personnel vaut la peine d'être acheté une fois que l'intérêt de l'enfant est stable, avec les conseils de l'entraîneur. Conformation en général : {{lesson:gun-fit}}."
@@ -51,18 +51,18 @@
     "juniors-equipment-fit-q1": {
       "q": "Que se passe-t-il quand un enfant tire avec un fusil trop long ?",
       "options": {
-        "a": "Il se penche en arrière et ressent plus de recul",
+        "a": "Il se penche en arrière et ressent plus de {{term:recoil|recul}}",
         "b": "Rien ne change ; c'est même plus facile",
         "c": "Les plateaux semblent voler plus lentement",
-        "d": "La gerbe devient beaucoup plus dense"
+        "d": "Le {{term:pattern|gerbe}} devient beaucoup plus dense"
       },
       "explain": "Un fusil trop long gâche la position, aggrave le recul et peut effrayer l'enfant."
     },
     "juniors-equipment-fit-q2": {
-      "q": "Qu'est-ce que la longueur de crosse (length of pull) ?",
+      "q": "Qu'est-ce que le {{term:length-of-pull|longueur de crosse}} ?",
       "options": {
-        "a": "La longueur des canons jusqu'à la bouche",
-        "b": "De la détente au milieu de la plaque de couche",
+        "a": "Le {{term:barrel-length|longueur des canons}} jusqu'à la bouche",
+        "b": "De la détente au milieu du {{term:recoil-pad|plaque de couche}}",
         "c": "Le poids du fusil avec ses chokes",
         "d": "De la bande jusqu'au sommet du busc"
       },

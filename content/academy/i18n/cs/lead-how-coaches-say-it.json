@@ -34,9 +34,9 @@
     "origin": "interpreter-academy"
   },
   "title": "Jak trenéři vyjadřují předsazení a jak to přeložit",
-  "summary": "Trenéři popisují předsazení ve stopách, šířkách terče, šířkách hlavně a polohách na ciferníku. Jak každému z nich rozumět a předat ho dál, aniž byste změnili trenérovu představu.",
+  "summary": "Trenéři popisují {{term:lead|předsazení}} ve stopách, šířkách terče, šířkách hlavně a polohách na ciferníku. Jak každému z nich rozumět a předat ho dál, aniž byste změnili trenérovu představu.",
   "body": {
-    "lead-how-coaches-say-it-p1": "Nejdřív jednotky. Britští a američtí {{term:coach|trenéři}} mluví o {{term:lead|předsazení}} ve stopách a yardech: „give it four foot“ (britsky „čtyři stopy“), „two feet in front“. Trenéři z kontinentální Evropy často používají metry. Jedna stopa je {{fact:stand-talk.unit-foot}} a jeden yard {{fact:stand-talk.unit-yard}}. Číslo předsazení ale není měřením. Popisuje mezeru, kterou má střelec vidět mezi ústím hlavní a terčem v okamžiku výstřelu – trenérovu „představu“. Zachovejte proto jeho číslo i jednotku. Nepřevádějte ho uprostřed pokynu. Pokud se střelec zeptá, vysvětlete to přibližně mezi terči.",
+    "lead-how-coaches-say-it-p1": "Nejdřív jednotky. Britští a američtí {{term:coach|trenéři}} mluví o {{term:lead|předsazení}} ve stopách a yardech: „give it four foot“ (britsky „čtyři stopy“), „two feet in front“. Trenéři z kontinentální Evropy často používají metry. Jedna stopa je {{fact:stand-talk.unit-foot}} a jeden yard {{fact:stand-talk.unit-yard}}. Číslo předsazení ale není měřením. Popisuje mezeru, kterou má střelec vidět mezi {{term:muzzle|ústím hlavní}} a terčem v okamžiku výstřelu – trenérovu „představu“. Zachovejte proto jeho číslo i jednotku. Nepřevádějte ho uprostřed pokynu. Pokud se střelec zeptá, vysvětlete to přibližně mezi terči.",
     "lead-how-coaches-say-it-picture": "Mezera, kterou střelec vidí u ústí hlavně, {{term:perceived-lead|vnímané předsazení}}, je mnohem menší než skutečná vzdálenost ve vzduchu. To je další důvod, proč zachovat trenérova slova, a nepřevádět je na metry.",
     "lead-how-coaches-say-it-p2": "Šířky terče: „half a bird“, „a bird's width“, „a clay's length“. „Bird“ tu znamená terč, ne skutečného ptáka: „half a bird“ je „půl terče“. Šířky hlavně: „a barrel's width“ nebo „two barrels“ znamenají mezeru, kterou střelec vidí u ústí hlavně. Pozor: „two barrels“ se může týkat i samotné zbraně. Pokud vystřelily obě hlavně najednou (zbraň „zdvojila“), je to {{term:double-discharge|dvojvýstřel}}. „Two barrels“ se také říká, když byl terč zasažen z obou hlavní. Pokud není jasné, že jde o předsazení, zeptejte se.",
     "lead-how-coaches-say-it-p3": "Relativní slova: „more“, „less“, „a touch more“, „double it“, „half that“, „same lead“. Nechte je relativní a nevymýšlejte číslo. „Same lead“ je velmi důležité: říká střelci, aby po chybě nepřidával předsazení.",
@@ -80,14 +80,14 @@
   },
   "quiz": {
     "lead-how-coaches-say-it-q1": {
-      "q": "Trenér řekne „Give it four foot“ střelci, který přemýšlí v metrech. Co řeknete?",
+      "q": "{{term:coach|Trenér}} řekne „Give it four foot“ střelci, který přemýšlí v metrech. Co řeknete?",
       "options": {
         "a": "„Dejte 1,22 metru“",
         "b": "„Dejte asi metr“",
         "c": "„Dejte čtyři stopy“",
         "d": "„Dejte čtyři metry“"
       },
-      "explain": "Číslo předsazení je trenérova představa. Převod uprostřed pokynu přidává falešnou přesnost nebo chyby a „čtyři metry“ zcela mění smysl. Pokud se střelec zeptá, vysvětlete to přibližně mezi terči."
+      "explain": "Číslo {{term:lead|předsazení}} je trenérova představa. Převod uprostřed pokynu přidává falešnou přesnost nebo chyby a „čtyři metry“ zcela mění smysl. Pokud se střelec zeptá, vysvětlete to přibližně mezi terči."
     },
     "lead-how-coaches-say-it-q2": {
       "q": "Co znamená „half a bird“?",
@@ -97,10 +97,10 @@
         "c": "Malý pták u vrhačky",
         "d": "Zbývá polovina kola"
       },
-      "explain": "Ve střelbě na asfaltové terče znamená „bird“ terč, takže trenér žádá předsazení na půl šířky terče."
+      "explain": "Ve střelbě na asfaltové terče znamená „bird“ terč, takže {{term:coach|trenér}} žádá {{term:lead|předsazení}} na půl šířky terče."
     },
     "lead-how-coaches-say-it-q3": {
-      "q": "Trenér řekne „Same lead, keep it moving“. Proč je nutné „same lead“ přeložit?",
+      "q": "{{term:coach|Trenér}} řekne „Same lead, keep it moving“. Proč je nutné „same lead“ přeložit?",
       "options": {
         "a": "Je to povel, který používá rozhodčí",
         "b": "Jinak může střelec přidat předsazení a minout",
@@ -110,7 +110,7 @@
       "explain": "Po chybě si mnoho střelců samo přidá předsazení. „Same lead“ jim říká, že příčinou byla zastavená zbraň, ne předsazení."
     },
     "lead-how-coaches-say-it-q4": {
-      "q": "Terč letí zprava doleva. Trenér řekne „You were at two o'clock.“ Kam prošla dávka broků?",
+      "q": "Terč letí zprava doleva. {{term:coach|Trenér}} řekne „You were at two o'clock.“ Kam prošla dávka broků?",
       "options": {
         "a": "Níž a před terčem",
         "b": "Níž a za terčem",

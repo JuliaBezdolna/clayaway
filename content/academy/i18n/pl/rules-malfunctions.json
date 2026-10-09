@@ -52,15 +52,15 @@
   "title": "Niesprawność broni albo naboju",
   "summary": "Co robić, kiedy broń nie strzela, i jak liczy się niesprawność w {{tm:sporting}} i {{tm:compak}}.",
   "body": {
-    "sporting-malfunctions-p1": "{{term:malfunction|Niesprawność}} to usterka broni albo naboju: niewypał, druga lufa, która nie strzela, albo obie lufy strzelające razem ({{term:double-discharge|podwójny wystrzał}}).",
-    "sporting-malfunctions-p2": "Najpierw, co musi zrobić strzelec: zostań na miejscu, z bronią skierowaną w stronę strzelnicy. Nie otwieraj jej i nie dotykaj {{term:safety-catch|bezpiecznika}}, dopóki sędzia jej nie sprawdzi. Otwarcie broni albo dotknięcie bezpiecznika najpierw znaczy, że rzutek albo rzutki liczą się jako zero. Nie próbuj rozkładać naładowanej broni na stanowisku.",
-    "safety-malfunction-p3": "Czemu nie otwierać broni od razu? Czasami nabój odpala się z opóźnieniem, ułamek sekundy albo dłużej po pociągnięciu za spust: {{term:hang-fire|opóźniony wystrzał}}. Jeśli w tym momencie broń jest otwarta albo skierowana w bok, to niebezpieczne. Więc na treningu bez sędziego czekaj z bronią skierowaną bezpiecznie, zanim ją otworzysz; twój instruktor albo regulamin stanowiska powie ci, jak długo.",
+    "sporting-malfunctions-p1": "{{term:malfunction|Niesprawność}} to usterka broni albo naboju: niewypał, druga lufa, która nie strzela, albo {{term:double-discharge|podwójny wystrzał}}, gdy obie lufy strzelają razem.",
+    "sporting-malfunctions-p2": "Najpierw, co musi zrobić strzelec: zostań na miejscu, z bronią skierowaną w stronę strzelnicy. Nie otwieraj jej i nie dotykaj {{term:safety-catch|bezpiecznika}}, dopóki {{term:referee|sędzia}} jej nie sprawdzi. Otwarcie broni albo dotknięcie bezpiecznika najpierw znaczy, że rzutek albo rzutki liczą się jako zero. Nie próbuj rozkładać naładowanej broni na stanowisku.",
+    "safety-malfunction-p3": "Czemu nie otwierać broni od razu? Czasami nabój odpala się z opóźnieniem, ułamek sekundy albo dłużej po pociągnięciu za {{term:trigger|spust}}: {{term:hang-fire|opóźniony wystrzał}}. Jeśli w tym momencie broń jest otwarta albo skierowana w bok, to niebezpieczne. Więc na treningu bez sędziego czekaj z bronią skierowaną bezpiecznie, zanim ją otworzysz; twój instruktor albo regulamin stanowiska powie ci, jak długo.",
     "rules-malfunctions-cmp1": {
       "sporting": "Na {{term:round|serię}} {{fact:rules.round-targets}}. Pierwszy przypadek to NO BIRD z ostrzeżeniem, i rzutek jest powtórzony. Od drugiego, rzutek nie jest powtarzany, a liczy się jako zero.",
       "compak": "Na serię {{fact:rules.round-targets}}. Pierwszy przypadek to NO BIRD z {{term:yellow-card|żółtą kartką}}. Drugi tego samego typu przynosi {{term:red-card|czerwoną kartkę}}, a rzutki, do których nie strzelono, to zero."
     },
-    "sporting-malfunctions-p4": "Twoja pierwsza niesprawność w serii, przypadek po przypadku. (1) Pierwszy strzał zawodzi: strzelasz jeszcze raz do pojedynczego albo dubletu. Jeśli jednak oddałeś drugi strzał, ten wynik się liczy. (2) Na pojedynczym, drugi strzał zawodzi: strzelasz jeszcze raz, i przy powtórzeniu liczy się tylko trafienie drugim strzałem. Więc pierwszym strzałem celowo chybij. (3) Obie lufy strzelają razem do pojedynczego albo do pierwszego rzutka dubletu: NO BIRD, nic się nie zapisuje, i strzelasz jeszcze raz. Jak powtarza się każdy rodzaj dubletu, jest w przewodniku po przepisach ({{rule:sporting:ch6-malfunction-second-shot}}).",
-    "sporting-malfunctions-p5": "Jeśli twoja broń zostanie naprawiona, zanim grupa skończy stanowisko, możesz strzelić stanowisko jako ostatni, za zgodą sędziego. Jeśli nie da się jej naprawić, możesz od razu przejść na inną broń, za zgodą sędziego, albo dokończyć później w innej grupie, jeśli jury się zgodzi. Oprócz niesprawności, nie możesz zmieniać broni, czoka ani luf, kiedy już jesteś na stanowisku.",
+    "sporting-malfunctions-p4": "Twoja pierwsza niesprawność w serii, przypadek po przypadku. (1) Pierwszy strzał zawodzi: strzelasz jeszcze raz do pojedynczego albo {{term:double|dubletu}}. Jeśli jednak oddałeś drugi strzał, ten wynik się liczy. (2) Na pojedynczym, drugi strzał zawodzi: strzelasz jeszcze raz, i przy powtórzeniu liczy się tylko trafienie drugim strzałem. Więc pierwszym strzałem celowo chybij. (3) Obie lufy strzelają razem do pojedynczego albo do pierwszego rzutka dubletu: NO BIRD, nic się nie zapisuje, i strzelasz jeszcze raz. Jak powtarza się każdy rodzaj dubletu, jest w przewodniku po przepisach ({{rule:sporting:ch6-malfunction-second-shot}}).",
+    "sporting-malfunctions-p5": "Jeśli twoja broń zostanie naprawiona, zanim {{term:squad|grupa}} skończy stanowisko, możesz strzelić stanowisko jako ostatni, za zgodą sędziego. Jeśli nie da się jej naprawić, możesz od razu przejść na inną broń, za zgodą sędziego, albo dokończyć później w innej grupie, jeśli jury się zgodzi. Oprócz niesprawności, nie możesz zmieniać broni, czoka ani luf, kiedy już jesteś na stanowisku.",
     "compak-malfunctions-p3": "Twoja pierwsza niesprawność w serii. Jeśli obie lufy strzelają razem albo pierwszy nabój zawodzi, pojedynczy albo dublet jest wyrzucany jeszcze raz, a nieudana próba się nie liczy. Jeśli drugi nabój zawodzi na pojedynczym, rzutek jest wyrzucany jeszcze raz, ale może go zaliczyć tylko drugi strzał. Więc pierwszym strzałem celowo chybij. Przy dubletach, patrz przewodnik po przepisach ({{rule:compak:ch20-gun-failure-second-shot}}).",
     "compak-malfunctions-p4": "Po niesprawności masz {{fact:rules.compak-repair-time}}, żeby naprawić broń albo ją zastąpić. Wyjątkowo możesz pożyczyć broń od kogoś spoza swojej grupy, za zgodą właściciela i sędziego. Bez sprawnej broni pozostałe rzutki to zero. Poza tym w trakcie serii nie można zmieniać broni, czoka ani lufy.",
     "compak-malfunctions-p5": "{{term:rabbit|Rabbit}} to rzutek, który biegnie po ziemi. W obu dyscyplinach, jeśli chybisz go pierwszym strzałem, a potem sam się rozpada przed drugim strzałem, to NO BIRD. Może się to zdarzyć, kiedy trafi na kamień. Przy powtórzeniu liczy się tylko drugi strzał, tak jak po niesprawności drugiego strzału.",
@@ -119,10 +119,10 @@
         "b": "Nabijasz od razu i wołasz znowu",
         "c": "Zostajesz na miejscu, broń zamknięta, i czekasz na sędziego"
       },
-      "explain": "Otwarcie broni albo dotknięcie bezpiecznika przed sprawdzeniem sędziego znaczy, że rzutek liczy się jako zero."
+      "explain": "Otwarcie broni albo dotknięcie {{term:safety-catch|bezpiecznika}} przed sprawdzeniem sędziego znaczy, że rzutek liczy się jako zero."
     },
     "rules-malfunctions-q2": {
-      "q": "W {{tm:sporting}}, druga niesprawność broni zdarza się w tej samej serii, na pojedynczym. Jaki jest wynik?",
+      "q": "W {{tm:sporting}}, druga niesprawność broni zdarza się w tej samej {{term:round|serii}}, na pojedynczym. Jaki jest wynik?",
       "options": {
         "a": "Zero",
         "b": "NO BIRD",
@@ -140,16 +140,16 @@
       "explain": "Masz {{fact:rules.compak-repair-time}}; bez sprawnej broni rzutki, do których nie strzelono, to zero."
     },
     "safety-malfunction-q1": {
-      "q": "Na treningu, bez sędziego, twoja broń trzaska, ale nie strzela. Co powinieneś zrobić?",
+      "q": "Na treningu, bez {{term:referee|sędziego}}, twoja broń trzaska, ale nie strzela. Co powinieneś zrobić?",
       "options": {
         "a": "Otworzyć ją od razu i spojrzeć",
         "b": "Trzymać ją skierowaną bezpiecznie i czekać przed otwarciem",
         "c": "Odwrócić się i pokazać trenerowi"
       },
-      "explain": "Nabój może odpalić się z opóźnieniem (opóźniony wystrzał), więc trzymaj wylot lufy w bezpiecznym kierunku i czekaj, zanim otworzysz broń. Twój instruktor albo regulamin stanowiska powie, jak długo."
+      "explain": "Nabój może odpalić się z opóźnieniem (opóźniony wystrzał), więc trzymaj {{term:muzzle|wylot lufy}} w bezpiecznym kierunku i czekaj, zanim otworzysz broń. Twój instruktor albo regulamin stanowiska powie, jak długo."
     },
     "safety-malfunction-q2": {
-      "q": "Po niewypale wciskasz bezpiecznik, zanim sędzia spojrzy na broń. Co się dzieje?",
+      "q": "Po niewypale wciskasz {{term:safety-catch|bezpiecznik}}, zanim {{term:referee|sędzia}} spojrzy na broń. Co się dzieje?",
       "options": {
         "a": "Rzutek liczy się jako zero",
         "b": "Dostajesz dodatkowy rzutek",
@@ -164,10 +164,10 @@
         "b": "Bo nabój może odpalić się z opóźnieniem",
         "c": "Bo tak lepiej wygląda"
       },
-      "explain": "Opóźniony wystrzał jest rzadki, ale niebezpieczny, więc broń musi zostać skierowana w bezpieczną stronę."
+      "explain": "{{term:hang-fire|Opóźniony wystrzał}} jest rzadki, ale niebezpieczny, więc broń musi zostać skierowana w bezpieczną stronę."
     },
     "competitions-scoring-basics-q2": {
-      "q": "{{tm:sporting}}: twoja broń zawodzi na stanowisku (pierwszy przypadek), i zostaje naprawiona, podczas gdy twoja grupa wciąż strzela to stanowisko. Co możesz zrobić?",
+      "q": "{{tm:sporting}}: twoja broń zawodzi na stanowisku (pierwszy przypadek), i zostaje naprawiona, podczas gdy twoja {{term:squad|grupa}} wciąż strzela to stanowisko. Co możesz zrobić?",
       "options": {
         "a": "Strzelić stanowisko jako ostatni, jeśli sędzia pozwoli",
         "b": "Nic: pozostałe rzutki to zero",
@@ -176,7 +176,7 @@
       "explain": "Jeśli broń zostanie naprawiona, zanim grupa skończy stanowisko, możesz je strzelić tam jako ostatni, za zgodą sędziego."
     },
     "sporting-malfunctions-q1": {
-      "q": "Pierwszy problem z bronią w serii: na pojedynczym pierwszy nabój nie odpala. Strzelec czeka, broń skierowana w stronę strzelnicy, na sędziego. Decyzja?",
+      "q": "Pierwszy problem z bronią w {{term:round|serii}}: na pojedynczym pierwszy nabój nie odpala. Strzelec czeka, broń skierowana w stronę strzelnicy, na {{term:referee|sędziego}}. Decyzja?",
       "options": {
         "a": "Zero",
         "b": "NO BIRD i ostrzeżenie",
@@ -186,14 +186,14 @@
       "explain": "W serii pierwszy przypadek z bronią albo amunicją to NO BIRD z ostrzeżeniem, i pojedynczy jest powtórzony."
     },
     "sporting-malfunctions-q2": {
-      "q": "Nabój nie odpala, i zirytowany strzelec otwiera broń, żeby spojrzeć na spłonkę, zanim przyjdzie sędzia. Decyzja?",
+      "q": "Nabój nie odpala, i zirytowany strzelec otwiera broń, żeby spojrzeć na {{term:primer|spłonkę}}, zanim przyjdzie {{term:referee|sędzia}}. Decyzja?",
       "options": {
         "a": "NO BIRD",
         "b": "Rzutek jest powtórzony po ostrzeżeniu",
         "c": "Zero",
         "d": "Czerwona kartka, i rzutek jest powtórzony"
       },
-      "explain": "Otwarcie broni albo dotknięcie bezpiecznika przed sprawdzeniem sędziego znaczy, że rzutek liczy się jako zero."
+      "explain": "Otwarcie broni albo dotknięcie {{term:safety-catch|bezpiecznika}} przed sprawdzeniem sędziego znaczy, że rzutek liczy się jako zero."
     },
     "sporting-malfunctions-q3": {
       "q": "Pojedynczy, pierwszy przypadek: pierwszy strzał chybia, a drugi nabój nie odpala, więc rzutek jest powtórzony. Przy powtórzeniu strzelec rozbija go pierwszym strzałem. Decyzja?",
@@ -206,17 +206,17 @@
       "explain": "Po niesprawności drugiego strzału powtórzony pojedynczy można rozbić tylko drugim strzałem, więc pierwszy strzał musi być celowym chybieniem."
     },
     "compak-malfunctions-q1": {
-      "q": "Pierwszy przypadek w serii w {{tm:compak}}: pierwszy nabój zawodzi na pojedynczym. Strzelec czeka poprawnie. Decyzja?",
+      "q": "Pierwszy przypadek w {{term:round|serii}} w {{tm:compak}}: pierwszy nabój zawodzi na pojedynczym. Strzelec czeka poprawnie. Decyzja?",
       "options": {
-        "a": "NO BIRD i żółta kartka",
+        "a": "NO BIRD i {{term:yellow-card|żółta kartka}}",
         "b": "Zero, bez powtórzenia",
-        "c": "Czerwona kartka i zero",
+        "c": "{{term:red-card|Czerwona kartka}} i zero",
         "d": "Jeden, strzał się liczy"
       },
       "explain": "Pierwszy przypadek z bronią albo nabojem w serii to NO BIRD z pierwszym ostrzeżeniem w postaci żółtej kartki."
     },
     "compak-malfunctions-q2": {
-      "q": "Broń strzelca się psuje, i chce pożyczyć broń kolegi z grupy. Czy to dozwolone?",
+      "q": "Broń strzelca się psuje, i chce pożyczyć broń kolegi ze {{term:squad|grupy}}. Czy to dozwolone?",
       "options": {
         "a": "Tak, za zgodą właściciela",
         "b": "Tak, jeśli sędzia się zgodzi",
@@ -226,7 +226,7 @@
       "explain": "{{tm:compak}} zabrania dzielenia broni w grupie. Wyjątkowe pożyczenie jest tylko spoza niej, za zgodą właściciela i sędziego."
     },
     "compak-malfunctions-q3": {
-      "q": "Druga usterka broni tego samego typu w tej serii, na pojedynczym, do którego strzelec nie mógł strzelić. Decyzja?",
+      "q": "Druga usterka broni tego samego typu w tej {{term:round|serii}}, na pojedynczym, do którego strzelec nie mógł strzelić. Decyzja?",
       "options": {
         "a": "Znowu NO BIRD",
         "b": "NO BIRD i ostrzeżenie",

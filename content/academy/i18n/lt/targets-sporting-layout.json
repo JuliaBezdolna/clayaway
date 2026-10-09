@@ -45,14 +45,14 @@
   "title": "Kaip veikia {{tm:sporting}} išdėstymas ir serija",
   "summary": "Išdėstymai, šaudymo vietos, mašinėlės A–D, taikinių aprašas, sudėtingumo klasės ir 25 taikinių serija: kaip išdėstyta ir kaip vyksta {{tm:sporting}} varžybos.",
   "body": {
-    "sport-sporting-layout-p1": "{{tm:sporting}} šaudykla padalyta į {{term:layout|išdėstymus}} (layout). Išdėstymas – tai {{term:shooting-stand|šaudymo vietų}} grupė, kuri kartu sudaro vieną seriją – {{fact:targets.sporting-layout-targets}}.",
-    "sporting-rounds-stands-p2": "Išdėstymai statomi dviem būdais. Senesniame tipe 3 šaudymo vietos naudojasi bendromis 5 mašinėlėmis. Naujesnis tipas vadinamas {{term:line|linija}} (line). 4 vietų linijoje trys vietos turi po 4 mašinėles, o viena (Nr. 2 ar 3) – 3 mašinėles. 5 vietų linijoje kiekvienoje vietoje po 3 mašinėles. 3 vietų linija su 5 mašinėlėmis kiekvienoje leidžiama tik Grand Prix.",
-    "sport-sporting-layout-p2": "Šaudymo vieta (shooting stand) – tai, kur stovi šaulys: 1 m kvadratas arba 1 m skersmens ratas. Ji turi būti lygi, kur galima, ir bent neslidi (saugos reikalavimas). Likusi {{term:squad|grupė}} (šaulių, kurie šaudo kartu) laukia netoliese – pakankamai arti, kad sektų, bet netrukdydama šauliui.",
-    "sport-sporting-layout-p3": "Mašinėlės statomos pagal vietovę, dažnai iš dalies paslėptos už krūmų ar medžių. Taikiniai imituoja tikrą žvėrieną: skrenda skersai, į jus, nuo jūsų ar įstrižai (quartering), aukštai ar žemai, atviroje vietoje ar pro medžius. Šaudymo vietos mašinėlės žymimos raidėmis iš kairės į dešinę, žiūrint iš vietos: A, B, C ir toliau (taisyklės vardija A–D). Šias raides naudoja aprašas ir protokolas.",
-    "sport-sporting-layout-p4": "Prieš kiekvieną vietą stovi {{term:target-menu|taikinių aprašas}} (target menu). Jis surašo mašinėles šaudymo tvarka ir įvardija specialius taikinius: {{fact:targets.sporting-menu-special-targets}}. Prieš varžybas teisėjai patikrina, ar mašinėlės atitinka aprašą. Šauliai jį perskaito prieš stodami į vietą; žr. {{lesson:targets-menu}}.",
+    "sport-sporting-layout-p1": "{{tm:sporting}} šaudykla padalyta į {{term:layout|išdėstymus}}. Išdėstymas – tai {{term:shooting-stand|šaudymo vietų}} grupė, kuri kartu sudaro vieną {{term:round|seriją}} – {{fact:targets.sporting-layout-targets}}.",
+    "sporting-rounds-stands-p2": "Išdėstymai statomi dviem būdais. Senesniame tipe 3 šaudymo vietos naudojasi bendromis 5 mašinėlėmis. Naujesnis tipas vadinamas {{term:line|linija}}. 4 vietų linijoje trys vietos turi po 4 {{term:trap|mašinėles}}, o viena (Nr. 2 ar 3) – 3 mašinėles. 5 vietų linijoje kiekvienoje vietoje po 3 mašinėles. 3 vietų linija su 5 mašinėlėmis kiekvienoje leidžiama tik Grand Prix.",
+    "sport-sporting-layout-p2": "{{term:shooting-stand|Šaudymo vieta}} – tai, kur stovi šaulys: 1 m kvadratas arba 1 m skersmens ratas. Ji turi būti lygi, kur galima, ir bent neslidi (saugos reikalavimas). Likusi {{term:squad|grupė}} – šaulių, kurie šaudo kartu – laukia netoliese – pakankamai arti, kad sektų, bet netrukdydama šauliui.",
+    "sport-sporting-layout-p3": "Mašinėlės statomos pagal vietovę, dažnai iš dalies paslėptos už krūmų ar medžių. Taikiniai imituoja tikrą žvėrieną: skrenda skersai, į jus, nuo jūsų ar įstrižai (quartering), aukštai ar žemai, atviroje vietoje ar pro medžius. Šaudymo vietos mašinėlės žymimos raidėmis iš kairės į dešinę, žiūrint iš vietos: A, B, C ir toliau (taisyklės vardija A–D). Šias raides naudoja aprašas ir {{term:score-sheet|protokolas}}.",
+    "sport-sporting-layout-p4": "Prieš kiekvieną vietą stovi {{term:target-menu|taikinių aprašas}}. Jis surašo mašinėles šaudymo tvarka ir įvardija specialius taikinius: {{fact:targets.sporting-menu-special-targets}}. Prieš varžybas {{term:referee|teisėjai}} patikrina, ar mašinėlės atitinka aprašą. Šauliai jį perskaito prieš stodami į vietą; žr. {{lesson:targets-menu}}.",
     "sport-sporting-layout-p5": "Kiekviena trajektorija turi {{term:difficulty-class|sudėtingumo klasę}}: {{fact:targets.sporting-difficulty-classes}}. Vienai vietai taisyklės pataria vieną A, dvi B ir vieną C klasės trajektoriją. Tad C klasės taikinys ir sukurtas sunkus, o praleidimas jame – ne tragedija.",
     "sporting-rounds-stands-p1": "{{tm:sporting}} varžybos skaičiuojamos 25 taikinių serijomis. Tarptautinis renginys – 200 taikinių, tad aštuonios serijos; kiekviena serija šaudoma viename išdėstyme (šaudymo vietų rinkinyje) arba vienoje linijoje.",
-    "sporting-rounds-stands-p4": "Šauliai eina išdėstymu grupėmis (squad) iki šešių; kas kurioje grupėje, nusprendžia burtai. Kiekvienoje vietoje visi pirmiausia šaudo pavienius, tada dubletus. Kas šaudo pirmas, keičiasi kiekvienoje vietoje, o kai prasideda dubletai, keičiasi vėl. Kiti laukia netoliese, netrukdydami šaudančiajam.",
+    "sporting-rounds-stands-p4": "Šauliai eina išdėstymu grupėmis iki šešių; kas kurioje grupėje, nusprendžia burtai. Kiekvienoje vietoje visi pirmiausia šaudo pavienius, tada {{term:double|dubletus}}. Kas šaudo pirmas, keičiasi kiekvienoje vietoje, o kai prasideda dubletai, keičiasi vėl. Kiti laukia netoliese, netrukdydami šaudančiajam.",
     "targets-sporting-layout-ready": "Kai jūsų vardas iškviečiamas, būkite pasiruošę iškart, su šoviniais ir įranga visai serijai. Stokite į vietą tik savo eile ir kai ankstesnis šaulys jau nuėjo.",
     "sporting-rounds-stands-p5": "Rezultatų kortelę pildo teisėjas (arba jo prižiūrimas asmuo), kiekvieną taikinį žymėdamas po jo mašinėlės raide. Palikdamas vietą, kiekvienas šaulys patikrina savo rezultatą; jei nesutinkate, iškart pasakykite teisėjui, ir jo sprendimas galutinis.",
     "targets-sporting-layout-compak": "{{tm:compak}} išdėstytas kitaip: penki numeriai viename nedideliame lauke, ir grupė juda palei liniją. Žr. {{lesson:targets-compak-layout}}."
@@ -94,7 +94,7 @@
     "sporting-rounds-stands-kp1": "Viena serija = {{fact:targets.sporting-layout-targets}}; tarptautinės varžybos = 200 taikinių.",
     "sporting-rounds-stands-kp2": "Mašinėlės pažymėtos A, B, C… iš kairės į dešinę, žiūrint nuo vietos; aprašas rodo tvarką ir specialius taikinius.",
     "sport-sporting-layout-kp5": "Sudėtingumo klasės: {{fact:targets.sporting-difficulty-classes}}.",
-    "sporting-rounds-stands-kp3": "Grupės iki šešių; pirmiausia pavieniai taikiniai, tada dubletai; tvarka keičiasi.",
+    "sporting-rounds-stands-kp3": "Grupės iki šešių; pirmiausia {{term:single-target|pavieniai taikiniai}}, tada dubletai; tvarka keičiasi.",
     "sporting-rounds-stands-kp4": "Pasitikrinkite rezultatą palikdami kiekvieną šaudymo vietą; sprendžia teisėjas."
   },
   "quiz": {
@@ -113,10 +113,10 @@
       "options": {
         "a": "Pirma dubletai, tada pavieniai, fiksuota tvarka",
         "b": "Pirma pavieniai, tada dubletai, keičiantis eilei",
-        "c": "Kiekvienas iškart sušaudo visą vietą",
+        "c": "Kiekvienas iškart iššaudo visą vietą",
         "d": "Šauliai patys susitaria dėl tvarkos"
       },
-      "explain": "Pirma pavieniai, tada dubletai, keičiantis eilei, nebent žiuri nusprendžia kitaip."
+      "explain": "Pirma pavieniai, tada dubletai, keičiantis eilei, nebent {{term:jury|žiuri}} nusprendžia kitaip."
     },
     "sporting-rounds-stands-q3": {
       "q": "Palikdamas šaudymo vietą šaulys pamato, kad pataikymas pažymėtas kaip prašovimas. Ką jis turėtų daryti?",

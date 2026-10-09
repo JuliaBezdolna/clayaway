@@ -37,19 +37,19 @@
     "origin": "interpreter-academy"
   },
   "title": "Einzelscheiben und Doubletten",
-  "summary": "Was eine Einzelscheibe, eine Doublette auf Schuss, eine Simultandoublette und eine Rafale sind, wie viele Patronen Sie abgeben dürfen und worin sich {{tm:sporting}} und {{tm:compak}} unterscheiden.",
+  "summary": "Was eine {{term:single-target|Einzelscheibe}}, eine {{term:double-on-report|Doublette auf Schuss}}, eine {{term:simultaneous-double|Simultandoublette}} und eine Rafale sind, wie viele Patronen Sie abgeben dürfen und worin sich {{tm:sporting}} und {{tm:compak}} unterscheiden.",
   "body": {
-    "flight-pairs-p1": "Eine Einzelscheibe ist eine Scheibe aus einer Wurfmaschine. In beiden Disziplinen dürfen zwei Schüsse auf sie abgegeben werden: Wer beim ersten Schuss daneben trifft, darf es mit dem zweiten Lauf noch einmal versuchen. Ein Paar, oder Doublette, sind zwei Scheiben, die zusammengehören: ein Abruf, und beide werden beschossen.",
-    "flight-pairs-p2": "Doublette auf Schuss (report pair, double on report): Der Abruf löst die erste Scheibe aus, und der Schuss auf sie löst die zweite aus. Im {{tm:sporting}} kommt die zweite 0 bis 3 Sekunden nach diesem Schuss. Die Reihenfolge ist festgelegt. „Report“ bedeutet hier den Knall des Schusses, keinen schriftlichen Bericht.",
-    "flight-pairs-p4": "Simultandoublette („simo“; im {{term:english-sporting|English Sporting}} ein „{{term:true-pair|true pair}}“): Beide Scheiben starten im selben Moment und dürfen in beliebiger Reihenfolge beschossen werden. Sie kommen aus einer oder zwei Maschinen; im {{tm:compak}} immer aus zwei verschiedenen.",
+    "flight-pairs-p1": "Eine {{term:single-target|Einzelscheibe}} ist eine Scheibe aus einer {{term:trap|Wurfmaschine}}. In beiden Disziplinen dürfen zwei Schüsse auf sie abgegeben werden: Wer beim ersten Schuss daneben trifft, darf es mit dem zweiten Lauf noch einmal versuchen. Ein Paar, oder {{term:double|Doublette}}, sind zwei Scheiben, die zusammengehören: ein Abruf, und beide werden beschossen.",
+    "flight-pairs-p2": "{{term:double-on-report|Doublette auf Schuss}}, englisch auch report pair: Der Abruf löst die erste Scheibe aus, und der Schuss auf sie löst die zweite aus. Im {{tm:sporting}} kommt die zweite 0 bis 3 Sekunden nach diesem Schuss. Die Reihenfolge ist festgelegt. „Report“ bedeutet hier den Knall des Schusses, keinen schriftlichen Bericht.",
+    "flight-pairs-p4": "{{term:simultaneous-double|Simultandoublette}} – „simo“; im {{term:english-sporting|English Sporting}} ein „{{term:true-pair|true pair}}“: Beide Scheiben starten im selben Moment und dürfen in beliebiger Reihenfolge beschossen werden. Sie kommen aus einer oder zwei Maschinen; im {{tm:compak}} immer aus zwei verschiedenen.",
     "flight-pairs-p3": "Folgedoublette, von der FITASC Rafale genannt: zwei Scheiben aus derselben Maschine auf derselben Flugbahn; die zweite kommt, sobald die Maschine nachgeladen hat. Sie dürfen zuerst auf eine der beiden schießen. Sie gibt es nur im {{tm:sporting}}: Eine Doublette im {{tm:compak}} ist auf Schuss oder simultan.",
     "targets-singles-and-doubles-cartridges": {
       "sporting": "Zwei Patronen für die Doublette, und beide dürfen auf eine Scheibe abgegeben werden. Zerstört ein Schuss beide Scheiben, zählen beide als Treffer (der Schiedsrichter ruft für jede „one“).",
       "compak": "Eine Patrone pro Scheibe. Werden beide Schüsse absichtlich auf eine Scheibe abgegeben, wird das als {{term:zero-zero|Null-Null}} gewertet (beide Scheiben zählen als Fehlschuss). Zerstört ein Schuss beide Scheiben, zählt das nicht als zwei Treffer. Bei einer Doublette auf Schuss bleibt das Ergebnis der ersten Scheibe bestehen, und die Doublette wird für die zweite erneut geworfen. Bei einer Simultandoublette ist das ein No Bird, und die Doublette wird wiederholt; geschieht das ein drittes Mal, wird Null-Null gewertet."
     },
     "targets-singles-and-doubles-p6": "Wie Doubletten gewertet werden, einschließlich Null-Null und eines No Bird im Paar, erklärt die Lektion {{lesson:rules-doubles}}.",
-    "flight-pairs-p6": "Auf einem {{tm:sporting}}-Stand schießt die Rotte zuerst die Einzelscheiben, dann die Doubletten. Vor dem Schuss werden Simultan- und Rafaledoubletten geworfen, damit die Schützen sie sehen können (sie werden dem ersten Schützen der Rotte gezeigt); Doubletten auf Schuss werden nicht gezeigt.",
-    "targets-singles-and-doubles-p5": "Ein {{tm:sporting}}-Layout gibt {{fact:targets.sporting-layout-targets}}, und die Doubletten bestehen nur aus Scheiben, die am selben Stand schon als Einzelscheiben gezeigt wurden. Eine {{tm:compak}}-Runde sind ebenfalls 25 Scheiben, fünf pro Station, nach einem von drei Mustern: {{fact:targets.compak-station-menus}}.",
+    "flight-pairs-p6": "Auf einem {{tm:sporting}}-Stand schießt die Rotte zuerst die Einzelscheiben, dann die Doubletten. Vor dem Schuss werden Simultan- und {{term:rafale-double|Rafaledoubletten|pl}} geworfen, damit die Schützen sie sehen können (sie werden dem ersten Schützen der Rotte gezeigt); Doubletten auf Schuss werden nicht gezeigt.",
+    "targets-singles-and-doubles-p5": "Ein {{tm:sporting}}-Layout gibt {{fact:targets.sporting-layout-targets}}, und die Doubletten bestehen nur aus Scheiben, die am selben Stand schon als Einzelscheiben gezeigt wurden. Eine {{term:round|Runde}} im {{tm:compak}} hat ebenfalls 25 Scheiben, fünf pro Station, nach einem von drei Mustern: {{fact:targets.compak-station-menus}}.",
     "targets-singles-and-doubles-tip1": "Bevor Sie eine Doublette abrufen, raten viele Trainer dazu, beide Scheiben zu planen: welche zuerst, wo Sie jede treffen und wohin Ihr Blick für die zweite wandert. Mehr dazu in {{lesson:faults-pairs-transition}}."
   },
   "note": {},
@@ -59,7 +59,7 @@
       "say": "Das ist auf Schuss – machen Sie die erste sauber fertig, die zweite wartet auf Ihren Schuss."
     },
     "flight-pairs-ph2": {
-      "meaning": "Bei der Simultandoublette zuerst den Rollhasen schießen, weil der Teal länger in der Luft bleibt.",
+      "meaning": "Bei der Simultandoublette zuerst den {{term:rabbit|Rollhasen}} schießen, weil der Teal länger in der Luft bleibt.",
       "say": "Simultan: zuerst den Hasen, der Teal wartet auf Sie."
     },
     "flight-pairs-ph3": {
@@ -81,7 +81,7 @@
   "did_you_know": "Rafale ist Französisch für „Salve“ oder „Stoß“: Die Scheiben kommen nacheinander, so schnell die Maschine nachladen kann.",
   "quiz": {
     "flight-pairs-q1": {
-      "q": "Was löst bei einer Doublette auf Schuss die zweite Scheibe aus?",
+      "q": "Was löst bei einer {{term:double-on-report|Doublette auf Schuss}} die zweite Scheibe aus?",
       "options": {
         "a": "Ein zweiter Abruf",
         "b": "Das Zeichen des Schiedsrichters",
@@ -91,23 +91,23 @@
       "explain": "„On report“ heißt auf den Knall des Schusses: Der Schuss auf die erste Scheibe löst die zweite aus."
     },
     "flight-pairs-q2": {
-      "q": "Ein Schütze gibt im {{tm:compak}} absichtlich beide Patronen auf die erste Scheibe einer Simultandoublette ab. Ergebnis?",
+      "q": "Ein Schütze gibt im {{tm:compak}} absichtlich beide Patronen auf die erste Scheibe einer {{term:simultaneous-double|Simultandoublette}} ab. Ergebnis?",
       "options": {
         "a": "Erlaubt, wie im {{tm:sporting}}",
         "b": "Null-Null",
         "c": "No Bird und Wiederholung",
         "d": "Nur die zweite Scheibe ist null"
       },
-      "explain": "{{tm:compak}} erlaubt eine Patrone pro Scheibe einer Doublette; beide absichtlich auf eine Scheibe abzugeben wird als Null-Null gewertet. Im {{tm:sporting}} wäre das erlaubt."
+      "explain": "{{tm:compak}} erlaubt eine Patrone pro Scheibe einer {{term:double|Doublette}}; beide absichtlich auf eine Scheibe abzugeben wird als {{term:zero-zero|Null-Null}} gewertet. Im {{tm:sporting}} wäre das erlaubt."
     },
     "targets-singles-and-doubles-q2": {
-      "q": "In welcher Disziplin gibt es Rafaledoubletten?",
+      "q": "In welcher Disziplin gibt es {{term:rafale-double|Rafaledoubletten|pl}}?",
       "options": {
         "a": "Nur im {{tm:sporting}}",
         "b": "Nur im {{tm:compak}}",
         "c": "In beiden"
       },
-      "explain": "Eine Rafale sind zwei Scheiben aus einer Maschine auf einer Flugbahn – eine Doublette des {{tm:sporting}}. Im {{tm:compak}} gibt es nur Doubletten auf Schuss und Simultandoubletten."
+      "explain": "Eine Rafale sind zwei Scheiben aus einer Maschine auf einer Flugbahn – eine {{term:double|Doublette}} des {{tm:sporting}}. Im {{tm:compak}} gibt es nur {{term:double-on-report|Doubletten auf Schuss}} und {{term:simultaneous-double|Simultandoubletten|pl}}."
     },
     "flight-pairs-q3": {
       "q": "Ein britischer Trainer sagt „true pair“. Wie übersetzen Sie das?",
@@ -117,7 +117,7 @@
         "c": "Eine Rafale",
         "d": "Eine Simultandoublette"
       },
-      "explain": "„True pair“ ist der englische Sporting-Name für eine Simultandoublette; „true“ hat nichts mit Richtigkeit zu tun."
+      "explain": "„True pair“ ist der englische Sporting-Name für eine {{term:simultaneous-double|Simultandoublette}}; „true“ hat nichts mit Richtigkeit zu tun."
     },
     "targets-singles-and-doubles-q1": {
       "q": "Wie viele Scheiben gibt ein {{tm:sporting}}-Layout?",
@@ -129,7 +129,7 @@
       "explain": "Jeder {{tm:sporting}}-Layouttyp gibt 25 Scheiben: 15 Einzelscheiben und 5 Doubletten."
     },
     "targets-singles-and-doubles-q-two-with-one": {
-      "q": "Im {{tm:sporting}} zerstört ein Schuss beide Scheiben einer Doublette. Wie wird das gewertet?",
+      "q": "Im {{tm:sporting}} zerstört ein Schuss beide Scheiben einer {{term:double|Doublette}}. Wie wird das gewertet?",
       "options": {
         "a": "„One“ und „one“",
         "b": "No Bird, die Doublette wird wiederholt",

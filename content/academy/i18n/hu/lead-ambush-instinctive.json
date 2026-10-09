@@ -30,10 +30,10 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "lead-ambush-instinctive-p1": "A {{term:ambush|lesből lövés}} (ambush), vagy pontra lövés (spot shooting), a lendítés ellentéte. 1) A csöveket a korong elé, annak vonalára teszik, a lövési pont közelébe. 2) Ott várnak, alig vagy egyáltalán nem mozogva. 3) Az elsütés még azelőtt történik, hogy a korong elérné ezt a pontot. A lövész reakciója és a lövés repülése is időt vesz igénybe, így a korong belerepül a lövésbe. Ha csak akkor lősz, amikor a korong már odaért, a lövés mögötte halad el.",
-    "lead-ambush-instinctive-sporting": "A {{tm:sporting}}-ban a fegyvert csak azután lehet vállba venni, hogy a korong megjelent. Ezért az ambush ott mindig vállba vétellel kezdődik: a tus felmegy, miközben a csövek a várakozási pontra érnek, és a mozdulat nagyon kicsi.",
+    "lead-ambush-instinctive-p1": "Az {{term:ambush|lesből lövés}}, vagy pontra lövés (spot shooting), a lendítés ellentéte. 1) A csöveket a korong elé, annak vonalára teszik, a lövési pont közelébe. 2) Ott várnak, alig vagy egyáltalán nem mozogva. 3) Az elsütés még azelőtt történik, hogy a korong elérné ezt a pontot. A lövész reakciója és a lövés repülése is időt vesz igénybe, így a korong belerepül a lövésbe. Ha csak akkor lősz, amikor a korong már odaért, a lövés mögötte halad el.",
+    "lead-ambush-instinctive-sporting": "A {{tm:sporting}}-ban a fegyvert csak azután lehet vállba venni, hogy a korong megjelent. Ezért az ambush ott mindig {{term:gun-mount|vállba vétellel}} kezdődik: a tus felmegy, miközben a csövek a várakozási pontra érnek, és a mozdulat nagyon kicsi.",
     "lead-ambush-instinctive-p2": "Megszokott szokásként, amely a képzetlen lövészekre jellemző, ez nem megbízható: a fegyver mozdulatlan, az időzítésnek pedig nagyon pontosnak kell lennie. A szándékos ambush néha mégis a helyes választás: egy nagyon gyorsan eltalálandó korongnál, vagy egy nyúlnál, amely csak egy rövid résben látszik a bokrok között. Közeli rokona a „collapse”, amelyet a {{term:battue|battue}} (vékony, lapos korong, amely gyorsan repül az élén, majd megfordul és esik) röppályájának csúcsán használnak. A csövek majdnem ott várnak, ahol a battue-t el fogják törni, így a lövés pillanatában a fegyvernek csak kicsit kell mozdulnia. A {{tm:sporting}}-ban a korongot így is ott kell eltalálni, ahol a bíró látja.",
-    "lead-ambush-instinctive-p3": "Az {{term:instinctive-shooting|ösztönös lövésnél}} (instinctive shooting) a lövész egyáltalán nem gondol az elétartásra. A szem a korongon marad ({{term:hard-focus|éles fókusz}}), a kezek pedig követik a szemet, anélkül hogy bármit mérnének. A vállba vétel és a lendítés egy mozdulattá olvad össze, és az elsütés akkor történik, amikor a tus megérinti az arcodat. A megközelítés a klasszikus brit vadászlövészeti iskolából ered.",
+    "lead-ambush-instinctive-p3": "Az {{term:instinctive-shooting|ösztönös lövésnél}} a lövész egyáltalán nem gondol a {{term:lead|elétartásra}}. A szem a korongon marad – {{term:hard-focus|éles fókusz}} –, a kezek pedig követik a szemet, anélkül hogy bármit mérnének. A vállba vétel és a lendítés egy mozdulattá olvad össze, és az elsütés akkor történik, amikor a tus megérinti az arcodat. A megközelítés a klasszikus brit vadászlövészeti iskolából ered.",
     "lead-ambush-instinctive-p4": "Sok élvonalbeli {{tm:sporting}} lövész vegyíti a módszereket, és korongonként választ. A „Melyik módszer illik erre?” megszokott edzői kérdés.",
     "lead-ambush-instinctive-sim": "Animáció: egy nyúlkorong és egy mozdulatlan fegyver. Lőj, mielőtt a nyúl eléri a csövek pontját; ha akkor lősz, amikor már odaért, a lövés mögé megy."
   },
@@ -65,7 +65,7 @@
   },
   "quiz": {
     "lead-ambush-instinctive-q1": {
-      "q": "Mi jellemzi a lesből lövést (spot shooting)?",
+      "q": "Mi jellemzi az {{term:ambush|lesből lövést}}?",
       "options": {
         "a": "A fegyver gyorsabban lendül a korongnál",
         "b": "A fegyver egy ponton vár a korong előtt",
@@ -96,5 +96,5 @@
     }
   },
   "title": "Lesből lövés és ösztönös lövés",
-  "summary": "Hogyan működik a lesből lövés (ambush), és miért nyomják meg a ravaszt még azelőtt, hogy a korong elérné a pontot; mikor segíthet, és mit jelent az ösztönös lövés."
+  "summary": "Hogyan működik az {{term:ambush|lesből lövés}}, és miért nyomják meg a ravaszt még azelőtt, hogy a korong elérné a pontot; mikor segíthet, és mit jelent az ösztönös lövés."
 }

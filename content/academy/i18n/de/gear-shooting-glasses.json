@@ -37,19 +37,19 @@
  "title": "Schießbrillen und Glasfarben",
  "summary": "Warum eine Brille bei {{tm:sporting}} und {{tm:compak}} Pflicht ist, wie sie schützt, wofür gelbe, orange, violette und graue Gläser da sind, und was Sie tun, wenn Sie eine Sehhilfe brauchen.",
  "body": {
-  "gear-shooting-glasses-p1": "{{term:safety-glasses|Schießbrillen}} schützen die Augen vor Scheibensplittern, abprallenden Kugeln, Zweigen und Staub. Bei FITASC-Wettkämpfen sind sie Pflicht, und ein Schütze, der ohne sie zum Standplatz kommt, wird als nicht erschienen behandelt. Wer sie sonst noch tragen muss, unterscheidet sich etwas zwischen den Disziplinen.",
+  "gear-shooting-glasses-p1": "{{term:safety-glasses|Schießbrillen|pl}} schützen die Augen vor Scheibensplittern, abprallenden Kugeln, Zweigen und Staub. Bei FITASC-Wettkämpfen sind sie Pflicht, und ein Schütze, der ohne sie zum Standplatz kommt, wird als nicht erschienen behandelt. Wer sie sonst noch tragen muss, unterscheidet sich etwas zwischen den Disziplinen.",
   "gear-shooting-glasses-cmp1": {
    "sporting": "Schützen, Schiedsrichter, Personal und alle in der Nähe eines Standplatzes müssen eine Schießbrille tragen, ohne Ausnahme.",
    "compak": "Wettkämpfer, Schiedsrichter und Personal müssen eine Schutzbrille tragen."
   },
   "gear-shooting-glasses-p2": "Schlagfestigkeit steht an erster Stelle. Schießgläser bestehen aus Polycarbonat oder ähnlichen Materialien, die nicht splittern, und gute Fassungen decken die Augen auch seitlich ab. Gewöhnliche Sonnenbrillen reichen nicht aus. Achten Sie auf eine Augenschutznorm: in Europa meist EN 166, in den USA ANSI Z87.1.",
-  "gear-shooting-glasses-p3": "Die {{term:lens-tint|Glasfarbe}} macht Sie nicht zu einem besseren Schützen, kann aber helfen, die Scheibe vor einem bestimmten Hintergrund zu sehen. Viele Schützen verwenden Gelb bei trübem Wetter, Nebel und in der Dämmerung, und Orange als Allrounder. Violett kann eine orange Scheibe vor Bäumen und Gras heller wirken lassen, und graues Rauchglas senkt die Helligkeit bei starker Sonne, ohne Farben zu verändern.",
+  "gear-shooting-glasses-p3": "Die {{term:lens-tint|Glasfarbe}} macht Sie nicht zu einem besseren Schützen, kann aber helfen, die {{term:target|Scheibe}} vor einem bestimmten Hintergrund zu sehen. Viele Schützen verwenden Gelb bei trübem Wetter, Nebel und in der Dämmerung, und Orange als Allrounder. Violett kann eine orange Scheibe vor Bäumen und Gras heller wirken lassen, und graues Rauchglas senkt die Helligkeit bei starker Sonne, ohne Farben zu verändern.",
   "gear-shooting-glasses-p4": "Es gibt auch klare Gläser für sehr dunkles Wetter und Abendlicht. Die Farbe betrifft den Komfort; der Schutz kommt vom schlagfesten Glas. Für einen Einsteiger reicht eine Brille mit Wechselgläsern: klar oder hellgelb plus ein dunkleres Glas. Schießen Sie zuerst, merken Sie sich, bei welchem Licht es schwierig wird, und ergänzen Sie dann Gläser.",
-  "gear-shooting-glasses-p5": "Schießbrillen haben eine besondere Form. Beim Anschlagen neigt sich der Kopf leicht auf den Schaft, und Sie schauen durch den oberen Teil des Glases. Deshalb haben Fassungen einen hohen Steg (den Teil, der auf der Nase aufliegt) und große Gläser, damit Ihr Sichtfeld nicht eingeschränkt wird.",
+  "gear-shooting-glasses-p5": "Schießbrillen haben eine besondere Form. Beim {{term:gun-mount|Anschlagen}} neigt sich der Kopf leicht auf den {{term:stock|Schaft}}, und Sie schauen durch den oberen Teil des Glases. Deshalb haben Fassungen einen hohen Steg (den Teil, der auf der Nase aufliegt) und große Gläser, damit Ihr Sichtfeld nicht eingeschränkt wird.",
   "health-eyes-vision-p4": "Wer eine Sehhilfe trägt, hat zwei Hauptwege. Der eine sind Schießbrillen mit Gläsern nach Sehstärke, bestellt bei einem Optiker, der sich mit Sportbrillen auskennt. Der andere ist eine Fassung mit separatem {{term:prescription-insert|Korrektionseinsatz}} hinter wechselbaren getönten Gläsern.",
   "health-eyes-vision-p8": "Alltagsbrillen sind nur geeignet, wenn ihre Gläser als schlagfest zertifiziert sind und Ihre Fernsicht korrigieren. Besprechen Sie die Wahl vor dem Kauf mit einem Augenarzt oder Optiker.",
-  "health-eyes-vision-p5": "Ein Schütze schaut auf eine Scheibe in der Ferne, scharfe Fernsicht zählt also am meisten. Ab etwa 40 entwickeln viele Menschen eine Alterssichtigkeit (Presbyopie): Die Nahsicht wird schwerer, und das {{term:bead|Korn}} kann verschwimmen.",
-  "gear-shooting-glasses-bead-coaches": "Viele Trainer sagen, das zählt weniger, als es scheint, denn die Augen sollten auf der Scheibe liegen, nicht auf dem Korn.",
+  "health-eyes-vision-p5": "Ein Schütze schaut auf eine Scheibe in der Ferne, scharfe Fernsicht zählt also am meisten. Ab etwa 40 entwickeln viele Menschen eine {{term:presbyopia|Alterssichtigkeit}}: Die Nahsicht wird schwerer, und das {{term:bead|Korn}} kann verschwimmen.",
+  "gear-shooting-glasses-bead-coaches": "Viele {{term:coach|Trainer}} sagen, das zählt weniger, als es scheint, denn die Augen sollten auf der Scheibe liegen, nicht auf dem Korn.",
   "health-eyes-vision-p7": "Lassen Sie Ihre Augen regelmäßig prüfen, besonders wenn Scheiben in der Dämmerung oder bei hellem Licht schwerer zu sehen sind. Fangen Sie mit dem Alter an, zu einer Seite zu verfehlen, lohnt es sich auch, Ihr {{term:master-eye|Führungsauge}} erneut zu prüfen: siehe {{lesson:technique-master-eye}}."
  },
  "note": {},
@@ -87,9 +87,9 @@
    "q": "Wofür verwenden viele Schützen ein gelbes Glas?",
    "options": {
     "a": "Für starke Sonne mitten am Tag",
-    "b": "Um die Scheibe größer aussehen zu lassen",
+    "b": "Um die {{term:target|Scheibe}} größer aussehen zu lassen",
     "c": "Für Kontrast bei trübem Licht und in der Dämmerung",
-    "d": "Um die Augen vor Rückstoß zu schützen"
+    "d": "Um die Augen vor {{term:recoil|Rückstoß}} zu schützen"
    },
    "explain": "Ein gelbes Glas kann den Kontrast steigern, wenn das Licht schwach ist."
   },
@@ -104,7 +104,7 @@
    "explain": "Diese Kennzeichnungen zeigen, dass die Brille eine Augenschutznorm erfüllt, in Europa und den USA."
   },
   "health-eyes-vision-q2": {
-   "q": "Was ist ein Korrektionseinsatz?",
+   "q": "Was ist ein {{term:prescription-insert|Korrektionseinsatz}}?",
    "options": {
     "a": "Ein Glas nach Sehstärke hinter getönten Gläsern",
     "b": "Ein Aufkleber für das Korn der Flinte",
@@ -121,7 +121,7 @@
     "c": "Ihr Führungsauge, mit Ihrem Trainer",
     "d": "Die Länge der Läufe Ihrer Flinte"
    },
-   "explain": "Die Augendominanz kann mit dem Alter schwächer werden oder sich ändern, was Ihre Schüsse verschieben kann; prüfen Sie das mit Ihrem Trainer."
+   "explain": "Die {{term:eye-dominance|Augendominanz}} kann mit dem Alter schwächer werden oder sich ändern, was Ihre Schüsse verschieben kann; prüfen Sie das mit Ihrem Trainer."
   }
  }
 }

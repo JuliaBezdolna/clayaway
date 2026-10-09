@@ -34,8 +34,8 @@
   "body": {
     "clayarena-profile-numbers-p1": "Um {{term:shooter-profile|perfil de atirador}} na ClayArena mostra vários números. São calculados a partir das competições de {{tm:sporting}} e {{tm:compak}} que estão no site, e o perfil pode mostrá-los separadamente para cada disciplina. Ajudam a ver de um olhar o nível e a regularidade de um atirador.",
     "clayarena-profile-numbers-p2": "A {{term:accuracy|precisão}} é a percentagem de pratos partidos em relação aos pratos atirados numa competição. Por exemplo, 150 partidos em 200 são 75%. Um perfil pode mostrar a precisão média em todas as competições terminadas do atirador e a precisão mais alta numa única competição.",
-    "clayarena-profile-numbers-p3": "O {{term:best-score|melhor resultado}} é o total mais alto do atirador numa competição. Compare totais só com o mesmo número de pratos. Uma competição internacional de {{tm:sporting}} é {{fact:basics.international-targets}}, enquanto muitas provas de clube têm menos pratos. Por isso, se o número de pratos for diferente, compare a precisão. A precisão permite comparar números diferentes de pratos, mas os percursos, o tempo e o nível da prova continuam a ser diferentes, por isso trate-a como uma referência aproximada.",
-    "clayarena-profile-numbers-perfect": "Uma série perfeita (perfect round) é uma série sem nenhuma falha. Nas disciplinas da FITASC isso significa uma {{term:round|série}} com todos os {{fact:rules.round-targets}} partidos. O perfil conta quantas séries destas tem o atirador.",
+    "clayarena-profile-numbers-p3": "O {{term:best-score|melhor resultado}} é o total mais alto do atirador numa competição. Compare totais só com o mesmo número de pratos. Uma competição internacional de {{tm:sporting}} é {{fact:basics.international-targets}}, enquanto muitas provas de clube têm menos pratos. Por isso, se o número de pratos for diferente, compare a precisão. A precisão permite comparar números diferentes de pratos, mas os {{term:layout|percursos}}, o tempo e o nível da prova continuam a ser diferentes, por isso trate-a como uma referência aproximada.",
+    "clayarena-profile-numbers-perfect": "Uma {{term:perfect-round|série perfeita}} é uma {{term:round|série}} sem nenhuma falha. Nas disciplinas da FITASC isso significa uma {{term:round|série}} com todos os {{fact:rules.round-targets}} partidos. O perfil conta quantas séries destas tem o atirador.",
     "clayarena-profile-numbers-p4": "A {{term:top-10-rate|taxa de top 10}} é a percentagem de competições em que o atirador terminou entre os dez primeiros, na sua {{term:category|categoria}} ou na geral. Depende também de quem mais atirou: chegar ao top 10 num grande evento internacional é mais difícil do que numa {{term:club-shoot|prova de clube}}. Uma categoria pequena, com poucos atiradores, também torna o top 10 mais fácil de alcançar.",
     "clayarena-profile-numbers-p5": "O {{term:performance-index|índice de desempenho}} é um único número que a ClayArena calcula a partir dos resultados de um atirador numa disciplina. Permite seguir a evolução ao longo do tempo sem ler cada tabela de resultados. Não é uma classificação oficial da {{term:fitasc|FITASC}}.",
     "clayarena-profile-numbers-other": "Pode ver também outros números e secções, como o histórico de provas, uma vista por época e uma comparação com os vencedores. Os seus nomes podem mudar conforme o site evolui, por isso leia as explicações no próprio site.",
@@ -80,11 +80,11 @@
       "explain": "Por isso é mais fiável olhar para os números de várias competições."
     },
     "clayarena-profile-numbers-q4": {
-      "q": "O que é uma série perfeita (perfect round)?",
+      "q": "O que é uma {{term:perfect-round|série perfeita}}?",
       "options": {
-        "a": "Uma série sem nenhuma falha",
-        "b": "Uma série atirada em menos de uma hora",
-        "c": "Uma série sem nenhum double"
+        "a": "Uma {{term:round|série}} sem nenhuma falha",
+        "b": "Uma {{term:round|série}} atirada em menos de uma hora",
+        "c": "Uma {{term:round|série}} sem nenhum double"
       },
       "explain": "Uma série perfeita não tem nenhuma falha. Nas disciplinas da FITASC isso é uma série com todos os {{fact:rules.round-targets}} partidos."
     },
@@ -95,8 +95,8 @@
         "b": "A precisão: 90% das duas vezes",
         "c": "Nada"
       },
-      "explain": "Com números diferentes de pratos, compare a precisão em vez dos totais. Os percursos, o tempo e o nível da prova continuam a ser diferentes, por isso trate-a como uma referência aproximada."
+      "explain": "Com números diferentes de pratos, compare a precisão em vez dos totais. Os {{term:layout|percursos}}, o tempo e o nível da prova continuam a ser diferentes, por isso trate-a como uma referência aproximada."
     }
   },
-  "summary": "A precisão, o melhor resultado, as séries perfeitas, a taxa de top 10 e o índice de desempenho ajudam a ver a forma de um atirador, mas não substituem os próprios resultados."
+  "summary": "A precisão, o melhor resultado, as {{term:round|séries}} perfeitas, a taxa de top 10 e o índice de desempenho ajudam a ver a forma de um atirador, mas não substituem os próprios resultados."
 }

@@ -42,9 +42,9 @@
     "origin": null
   },
   "title": "Trénink na závod",
-  "summary": "Jak přenést závod do tréninku: celé položky, vlastní rituál, časové limity vaší disciplíny a mírný tlak, který roste postupně.",
+  "summary": "Jak přenést závod do tréninku: celé {{term:round|položky}}, vlastní rituál, {{term:firing-time|časové limity}} vaší disciplíny a mírný tlak, který roste postupně.",
   "body": {
-    "training-for-competition-p1": "Na závodě je všechno jinak: nové terče, neznámí střelci poblíž, rozhodčí, nervozita. Aby to bylo povědomé, mnozí trenéři doporučují část tréninků vést, jako by to už byl závod.",
+    "training-for-competition-p1": "Na závodě je všechno jinak: nové terče, neznámí střelci poblíž, {{term:referee|rozhodčí}}, nervozita. Aby to bylo povědomé, mnozí trenéři doporučují část tréninků vést, jako by to už byl závod.",
     "training-for-competition-p2": "Střílejte celé {{term:round|položky}} a počítejte výsledek. Po minutí terč znovu nežádejte a terče střílejte v pořadí {{term:target-menu|menu}}.",
     "training-for-competition-p2-why": "Přesně tak probíhá závod: terč, který jste minuli, se znovu nehodí, a terče jdou v pořadí, v jakém je uvádí menu. Menu je tabulka, která ukazuje, jaké terče a v jakém pořadí se střílí.",
     "training-for-competition-round": {
@@ -52,17 +52,17 @@
       "compak": "Položka je {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}})."
     },
     "training-for-competition-p3": "Před každým terčem používejte svůj {{term:pre-shot-routine|předstřeleckou rutinu}}: stejné kroky ve stejném pořadí. Studie rituálů, většinou z jiných sportů, naznačují, že sportovci s rituálem podávají lepší výkon, i když jsou nervózní. Nejspíš to platí i pro stendovou střelbu. Víc v lekci {{lesson:mind-routine-under-pressure}}.",
-    "training-for-competition-order": "Zdá se, že dělat kroky pokaždé ve stejném pořadí záleží víc než trávit na nich přesně stejný počet sekund. To stendové střelbě vyhovuje, protože čas mezi vaším zavoláním a vypuštěním terče se může u každého terče lišit. Ve {{tm:sporting}} terč vypouští člověk, stejně jako v {{tm:compak}} při ručním spuštění. Pravidla stanovují jen horní hranici této prodlevy. Pevnou ji drží jen {{term:sonopull|fonický systém}} v {{tm:compak}} – zařízení, které vypustí terč, jakmile zaslechne vaše zavolání. Přesné časy jsou níže.",
+    "training-for-competition-order": "Zdá se, že dělat kroky pokaždé ve stejném pořadí záleží víc než trávit na nich přesně stejný počet sekund. To stendové střelbě vyhovuje, protože čas mezi vaším {{term:call|zavoláním}} a vypuštěním terče se může u každého terče lišit. Ve {{tm:sporting}} terč vypouští člověk, stejně jako v {{tm:compak}} při ručním spuštění. Pravidla stanovují jen horní hranici této prodlevy. Pevnou ji drží jen {{term:sonopull|fonický systém}} v {{tm:compak}} – zařízení, které vypustí terč, jakmile zaslechne vaše zavolání. Přesné časy jsou níže.",
     "training-for-competition-p4": {
-      "sporting": "Před {{term:call|zavoláním}} není zbraň zalícena. Botka {{term:stock|pažby}} – horní roh konce, který se opírá o rameno – se dotýká těla. Horní okraj pažby zůstává pod {{term:jacket-line|čárou na vestě}}. Je to pás vyznačený na vestě nebo bundě {{fact:rules.sporting-jacket-line}}; osa ramen je pomyslná vodorovná čára procházející oběma rameny. Toto {{term:ready-position|pohotovostní postoj}} (zbraň dole, připravená k zalícení) se drží, dokud terč nevyletí a vy ho neuvidíte ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+      "sporting": "Před {{term:call|zavoláním}} není zbraň zalícena. {{term:recoil-pad|Botka pažby}} – horní roh konce, který se opírá o rameno – se dotýká těla. Horní okraj {{term:stock|pažby}} zůstává pod {{term:jacket-line|čárou na vestě}}. Je to pás vyznačený na vestě nebo bundě {{fact:rules.sporting-jacket-line}}; osa ramen je pomyslná vodorovná čára procházející oběma rameny. Tento {{term:ready-position|pohotovostní postoj}}, se zbraní dole a připravenou ke {{term:gun-mount|zalícení}}, se drží, dokud terč nevyletí a vy ho neuvidíte ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
       "compak": "Poloha zbraně při zavolání je volná: zalícená nebo ne. Každý terč se střílí se zbraní v rameni. Čára na vestě neexistuje ({{rule:compak:ch17-gun-position}})."
     },
     "training-for-competition-train-start": "Trénujte způsob, jakým ve vaší disciplíně začíná každý výstřel: polohu zbraně, zavolání a čekání na terč.",
     "training-for-competition-p5": {
       "sporting": "Máte {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Po vašem zavolání dá rozhodčí signál {{term:trapper|obsluze vrhačky}} – osobě, která terč vypouští. Terč vyletí {{fact:rules.release-within-3s}} po signálu rozhodčího ({{rule:sporting:ch5-call-and-release}}).",
-      "compak": "Máte {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Terč vyletí {{fact:rules.release-within-3s}} po zavolání při ručním spuštění, nebo {{fact:rules.sonopull-delay}} po zavolání s fonickým systémem (hlasovým spuštěním) ({{rule:compak:ch2-trigger-manual}})."
+      "compak": "Máte {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Terč vyletí {{fact:rules.release-within-3s}} po zavolání při ručním spuštění, nebo {{fact:rules.sonopull-delay}} po zavolání se {{term:sonopull|fonickým systémem}}, tedy hlasovým spuštěním ({{rule:compak:ch2-trigger-manual}})."
     },
-    "training-for-competition-time-it": "Na tréninku si čas svého rituálu měřte: má se vejít do {{term:firing-time|časového limitu}} bez spěchu. Pokud se terče vypouštějí ručně, požádejte obsluhu vrhačky, ať trochu mění prodlevu, abyste si zvykli zůstat připraveni, zatímco čekáte. Víc o pravidlech v lekci {{lesson:rules-call-and-time}}.",
+    "training-for-competition-time-it": "Na tréninku si čas svého rituálu měřte: má se vejít do {{term:firing-time|časového limitu}} bez spěchu. Pokud se terče vypouštějí ručně, požádejte {{term:trapper|obsluhu vrhačky}}, ať trochu mění prodlevu, abyste si zvykli zůstat připraveni, zatímco čekáte. Víc o pravidlech v lekci {{lesson:rules-call-and-time}}.",
     "training-for-competition-pressure": "Přidávejte mírný tlak postupně: výsledek, na kterém záleží, divák, malá sázka. Výzkum tréninku pod tlakem naznačuje, že lidé, kteří trénují pod mírným tlakem, si lépe udrží dovednost, když je tlak skutečný. Studie pocházejí z jiných sportů a úkolů, takže nejspíš to platí i pro stendovou střelbu.",
     "training-for-competition-pressure-steps": [
       "Pět v řadě: vyberte si jeden terč a zůstaňte u něj, dokud nerozbijete pět v řadě; minutí počítání resetuje.",
@@ -81,8 +81,8 @@
     }
   },
   "note": {
-    "training-for-competition-n-coach": "Tlak zvyšujte jen tak rychle, jak drží technika střelce. Pokud se mění zalícení nebo tempo, vraťte se k lehčímu úkolu. Před závodem se domluvte na plánu; během něj radit nelze.",
-    "training-for-competition-n-interpreter": "Během závodu tlumočte jen to, co říkají rozhodčí a pořadatelé. Překlad trenérových rad střelci se může počítat jako zakázané radění (coaching)."
+    "training-for-competition-n-coach": "Tlak zvyšujte jen tak rychle, jak drží technika střelce. Pokud se mění {{term:gun-mount|zalícení}} nebo tempo, vraťte se k lehčímu úkolu. Před závodem se domluvte na plánu; během něj radit nelze.",
+    "training-for-competition-n-interpreter": "Během závodu tlumočte jen to, co říkají rozhodčí a pořadatelé. Překlad trenérových rad střelci se může počítat jako zakázané {{term:coaching|radění}}."
   },
   "phrases": {},
   "key_points": {
@@ -101,16 +101,16 @@
         "b": "Nejvýše 60 sekund",
         "c": "Kolik potřebujete"
       },
-      "explain": "Za překročení limitu je nejdřív napomenutí, pak sankce. V {{tm:compak}} máte na zavolání nejvýše 10 sekund."
+      "explain": "Za překročení limitu je nejdřív napomenutí, pak sankce. V {{tm:compak}} máte na {{term:call|zavolání}} nejvýše 10 sekund."
     },
     "training-for-competition-q2": {
-      "q": "Ve které disciplíně musí pažba zůstat pod čárou na vestě, dokud se neobjeví terč?",
+      "q": "Ve které disciplíně musí {{term:stock|pažba}} zůstat pod čárou na vestě, dokud se neobjeví terč?",
       "options": {
         "a": "V obou disciplínách",
         "b": "Jen ve {{tm:sporting}}",
         "c": "Jen v {{tm:compak}}"
       },
-      "explain": "V {{tm:compak}} je poloha zbraně při zavolání volná a čára na vestě neexistuje."
+      "explain": "V {{tm:compak}} je poloha zbraně při {{term:call|zavolání}} volná a čára na vestě neexistuje."
     },
     "training-for-competition-q-pressure": {
       "q": "Jak podle výzkumů přidávat tlak do tréninku?",
@@ -131,7 +131,7 @@
       "explain": "Koučování během závodu není dovoleno v žádné z disciplín, proto se plán domlouvá předem."
     },
     "training-for-competition-q-compak-time": {
-      "q": "Kolik času máte v {{tm:compak}} na zavolání po výstřelu na předchozím čísle?",
+      "q": "Kolik času máte v {{tm:compak}} na {{term:call|zavolání}} po výstřelu na předchozím čísle?",
       "options": {
         "a": "Nejvýše 10 sekund",
         "b": "Nejvýše 30 sekund",

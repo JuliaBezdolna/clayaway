@@ -48,23 +48,23 @@
     "origin": "interpreter-academy"
   },
   "title": "Abruf, Zeitlimits und Verspätung",
-  "summary": "Wie Sie die Scheibe abrufen, wie schnell sie kommen muss, wie viel Zeit Sie in {{tm:sporting}} und {{tm:compak}} haben, und was Verspätung kostet.",
+  "summary": "Wie Sie die Scheibe abrufen, wie schnell sie kommen muss, wie viel Zeit Sie in {{tm:sporting}} und {{tm:compak}} haben, und was {{term:lateness|Verspätung}} kostet.",
   "body": {
-    "rules-call-and-time-p1": "Eine Scheibe fliegt nicht von selbst: Sie {{term:call|rufen}} sie mit einem kurzen Wort ab, etwa „pull“ oder „ready“. Die Regeln legen dann fest, wie schnell die Scheibe kommen muss und wie viel Zeit Sie sich nehmen dürfen.",
-    "sporting-time-and-lateness-p1": "{{tm:sporting}} hält einen gleichmäßigen Rhythmus, und mehrere Regeln schützen ihn. Sie rufen ab, und der Schiedsrichter gibt Ihren Abruf mit einem akustischen Signal an den {{term:trapper|Puller}} weiter (die Person, die die Scheiben auslöst). Ab diesem Signal muss die Scheibe {{fact:rules.release-within-3s}} in der Luft sein. Kommt sie später, ruft der Schiedsrichter {{term:no-bird|No Bird}}, und die Scheibe wird erneut geworfen.",
-    "compak-gun-and-call-p2": "In {{tm:compak}} kann eine Wurfmaschine per Hand, mit Fernbedienung oder durch einen {{term:sonopull|Sonopull}} ausgelöst werden (ein Mikrofonsystem, das die Maschine auslöst, wenn es Ihren Abruf hört). Bei Auslösung per Hand muss die Scheibe 0 bis 3 Sekunden nach Ihrem Abruf starten. Ein Sonopull wartet immer {{fact:rules.sonopull-delay}} nach Ihrem Abruf, sodass das Timing jedes Mal gleich ist. Internationale Veranstaltungen {{term:compak-in-line|in Linie}} (Schützen treten einzeln an Position 1 an und rücken die Linie entlang bis Position 5 vor) verwenden nur den Sonopull. Eine Scheibe, die mehr als 3 Sekunden später startet, oder eine, die Sie nicht abgerufen haben, ist ein No Bird.",
+    "rules-call-and-time-p1": "Eine Scheibe fliegt nicht von selbst: Sie fordern sie mit einem {{term:call|Abruf}} an, einem kurzen Wort wie „pull“ oder „ready“. Die Regeln legen dann fest, wie schnell die Scheibe kommen muss und wie viel Zeit Sie sich nehmen dürfen.",
+    "sporting-time-and-lateness-p1": "{{tm:sporting}} hält einen gleichmäßigen Rhythmus, und mehrere Regeln schützen ihn. Sie rufen ab, und der {{term:referee|Schiedsrichter}} gibt Ihren Abruf mit einem akustischen Signal an den {{term:trapper|Puller}} weiter (die Person, die die Scheiben auslöst). Ab diesem Signal muss die Scheibe {{fact:rules.release-within-3s}} in der Luft sein. Kommt sie später, ruft der Schiedsrichter {{term:no-bird|No Bird}}, und die Scheibe wird erneut geworfen.",
+    "compak-gun-and-call-p2": "In {{tm:compak}} kann eine {{term:trap|Wurfmaschine}} per Hand, mit Fernbedienung oder durch einen {{term:sonopull|Sonopull}} ausgelöst werden (ein Mikrofonsystem, das die Maschine auslöst, wenn es Ihren Abruf hört). Bei Auslösung per Hand muss die Scheibe 0 bis 3 Sekunden nach Ihrem Abruf starten. Ein Sonopull wartet immer {{fact:rules.sonopull-delay}} nach Ihrem Abruf, sodass das Timing jedes Mal gleich ist. Internationale Veranstaltungen {{term:compak-in-line|in Linie}} – Schützen treten einzeln an Position 1 an und rücken die Linie entlang bis Position 5 vor – verwenden nur den Sonopull. Eine Scheibe, die mehr als 3 Sekunden später startet, oder eine, die Sie nicht abgerufen haben, ist ein No Bird.",
     "rules-call-and-time-p3": "In beiden Disziplinen dürfen Sie nur eine Scheibe ablehnen, die Sie nicht abgerufen haben: Das ist ein No Bird.",
     "rules-call-and-time-cmp1": {
       "sporting": "Ablehnen dürfen Sie sie nicht. Wurde sie korrekt geworfen und Sie schießen nicht, wird sie als Null gewertet.",
-      "compak": "Ablehnen dürfen Sie sie auch nicht. Eine abgelehnte Einzelscheibe wird als Null gewertet; Doubletten nach der Tabelle im Regel-Leitfaden."
+      "compak": "Ablehnen dürfen Sie sie auch nicht. Eine abgelehnte Einzelscheibe wird als Null gewertet; {{term:double|Doubletten|pl}} nach der Tabelle im Regel-Leitfaden."
     },
     "rules-call-and-time-cmp2": {
       "sporting": "Sie haben {{fact:rules.sporting-time-between-targets}}.",
       "compak": "Sie haben {{fact:rules.compak-time-to-call}}."
     },
-    "sporting-time-and-lateness-p2": "Überschreiten Sie das Limit zum ersten Mal, gibt der Schiedsrichter eine Verwarnung. Danach gelten die Sanktionen der Roten Karte ({{rule:sporting:ch12-red-card}}). Hat der Schiedsrichter eine endgültige Entscheidung getroffen, etwa nach Ihrem Protest, müssen Sie {{fact:rules.sporting-resume-after-ruling}} weiterschießen. Tun Sie das nicht, oder verzögern Sie absichtlich, gilt das als {{term:refusal-to-comply|Weigerung, der Anweisung zu folgen}}: ein eigener Verstoß, den die Jury ahnden kann.",
+    "sporting-time-and-lateness-p2": "Überschreiten Sie das Limit zum ersten Mal, gibt der Schiedsrichter eine Verwarnung. Danach gelten die Sanktionen der {{term:red-card|Roten Karte}}, siehe {{rule:sporting:ch12-red-card}}. Hat der Schiedsrichter eine endgültige Entscheidung getroffen, etwa nach Ihrem Protest, müssen Sie {{fact:rules.sporting-resume-after-ruling}} weiterschießen. Tun Sie das nicht, oder verzögern Sie absichtlich, gilt das als {{term:refusal-to-comply|Weigerung, der Anweisung zu folgen}}: ein eigener Verstoß, den die Jury ahnden kann.",
     "compak-gun-and-call-p3": "Überschreiten Sie das Limit zum ersten Mal, vermerkt der Schiedsrichter eine Verwarnung auf der {{term:score-sheet|Ergebnisliste}}. Wiederholt sich das in derselben {{term:round|Runde}}, gibt es eine Rote Karte: Eine Einzelscheibe wird als Null gewertet, Doubletten nach der Tabelle im Regel-Leitfaden ({{rule:compak:ch21-penalty-table}}). Hat der Schiedsrichter eine endgültige Entscheidung getroffen, müssen Sie {{fact:rules.compak-resume-after-ruling}} weiterschießen. Tun Sie das nicht, oder verzögern Sie absichtlich, gilt das als Weigerung, der Anweisung zu folgen, was die Jury ahnden kann.",
-    "rules-call-and-time-p7": "Viele Trainer empfehlen eine kurze, feste {{term:pre-shot-routine|Schussroutine}}, die gut ins Limit passt. Zum Beispiel: auf den Standplatz treten, laden, wenn der Schiedsrichter es erlaubt, die Bereitschaftsstellung einnehmen, ausatmen, dann abrufen. Mehr in {{lesson:mind-routine-under-pressure}}.",
+    "rules-call-and-time-p7": "Viele Trainer empfehlen eine kurze, feste {{term:pre-shot-routine|Schussroutine}}, die gut ins Limit passt. Zum Beispiel: auf den Standplatz treten, laden, wenn der Schiedsrichter es erlaubt, die {{term:ready-position|Bereitschaftsstellung}} einnehmen, ausatmen, dann abrufen. Mehr in {{lesson:mind-routine-under-pressure}}.",
     "sporting-time-and-lateness-p3": "{{term:lateness|Verspätung}}: Fehlen Sie beim Start Ihrer Gruppe, ruft der Schiedsrichter Ihren Namen und Ihre Nummer dreimal innerhalb einer Minute auf. Kommen Sie, während die Gruppe noch die Einzelscheiben am ersten Standplatz schießt und Ihre Reihe noch nicht vorbei ist, steigen Sie ohne Strafe ein. Danach sind alle nicht geschossenen Scheiben Nullen, und Sie können die verpassten Standplätze später nicht mit einer anderen Gruppe nachholen.",
     "sporting-time-and-lateness-p4": "Waren Sie aus Gründen außerhalb Ihrer Kontrolle verspätet, schließen Sie sich in dieser Runde nicht wieder der Gruppe an, sondern wenden Sie sich schriftlich an die Jury. Stimmt die Jury zu, schießen Sie die Runde mit einer anderen Gruppe. Lehnt sie ab, zählt jedes nicht geschossene Layout als 25 Nullen.",
     "compak-dress-and-conduct-p3": "In {{tm:compak}} müssen Sie sich rechtzeitig beim Schiedsrichter melden und Ihre Anwesenheit bestätigen. Neben in Linie gibt es das Format by squad: Eine {{term:squad|Rotte}} von {{fact:rules.squad-max-shooters}} schießt die Runde gemeinsam und wechselt von Position zu Position. In diesem Format erhält ein Schütze, der nach dem ersten Abruf der Rotte in dieser Runde eintrifft, 25 Nullen für diese Runde. Ein Einspruch wird noch am selben Tag schriftlich bei der Jury eingelegt.",
@@ -72,7 +72,7 @@
       "sporting": "Seien Sie {{fact:rules.shootoff-ready-time}} bereit. Sind Sie nicht da, werden Sie disqualifiziert.",
       "compak": "Seien Sie {{fact:rules.shootoff-ready-time}} bereit. Fehlen Sie, gelten Sie als zurückgezogen."
     },
-    "rules-call-and-time-tip2": "Setzen Sie Gehörschutz und Brille auf, bevor Sie den Standplatz betreten: In beiden Disziplinen gilt ein Schütze ohne diese als abwesend ({{lesson:rules-dress-and-safety}})."
+    "rules-call-and-time-tip2": "Setzen Sie {{term:hearing-protection|Gehörschutz}} und Brille auf, bevor Sie den Standplatz betreten: In beiden Disziplinen gilt ein Schütze ohne diese als abwesend ({{lesson:rules-dress-and-safety}})."
   },
   "note": {
     "sporting-time-and-lateness-p6": "Halten Sie die Gruppe nicht mit einer langen Übersetzung auf: jetzt kurz, Einzelheiten nach dem Standplatz."
@@ -113,7 +113,7 @@
   "did_you_know": "In {{tm:compak}} in Linie gelten Sie als verspätet, sobald Ihre Nummer im Auswertungscomputer gestrichen ist und der nächste Schütze schon auf Position 1 steht.",
   "quiz": {
     "rules-call-and-time-q1": {
-      "q": "Innerhalb wie vieler Sekunden nach dem Abruf muss die Scheibe ausgelöst werden?",
+      "q": "Innerhalb wie vieler Sekunden nach dem {{term:call|Abruf}} muss die Scheibe ausgelöst werden?",
       "options": {
         "a": "3 Sekunden",
         "b": "10 Sekunden",
@@ -122,7 +122,7 @@
       "explain": "In beiden Disziplinen ist eine Scheibe, die mehr als 3 Sekunden später ausgelöst wird, ein No Bird."
     },
     "rules-call-and-time-q2": {
-      "q": "Wie viel Zeit haben Sie in {{tm:compak}} für den Abruf?",
+      "q": "Wie viel Zeit haben Sie in {{tm:compak}} für den {{term:call|Abruf}}?",
       "options": {
         "a": "5 Sekunden",
         "b": "10 Sekunden",
@@ -140,7 +140,7 @@
       "explain": "Eine Scheibe, die Sie nicht abgerufen haben, ist ein No Bird, und das ist die einzige, die Sie ablehnen dürfen."
     },
     "sporting-time-and-lateness-q1": {
-      "q": "Der Schütze ruft ab, der Schiedsrichter gibt das Signal weiter, aber die Scheibe startet erst etwa fünf Sekunden später. Entscheidung?",
+      "q": "Der Schütze ruft ab, der {{term:referee|Schiedsrichter}} gibt das Signal weiter, aber die Scheibe startet erst etwa fünf Sekunden später. Entscheidung?",
       "options": {
         "a": "Null",
         "b": "No Bird",
@@ -170,7 +170,7 @@
       "explain": "Das Limit beträgt 15 Sekunden; beim ersten Überschreiten verwarnt der Schiedsrichter, erst danach folgen Strafen."
     },
     "compak-gun-and-call-q2": {
-      "q": "{{tm:compak}} mit Sonopull. Die Scheibe startet eine halbe Sekunde nach dem Abruf des Schützen. Ist das ein No Bird?",
+      "q": "{{tm:compak}} mit Sonopull. Die Scheibe startet eine halbe Sekunde nach dem {{term:call|Abruf}} des Schützen. Ist das ein No Bird?",
       "options": {
         "a": "Ja, die Scheibe war verspätet",
         "b": "Nein, diese Verzögerung ist normal",
@@ -180,7 +180,7 @@
       "explain": "Ein Sonopull löst die Scheibe immer {{fact:rules.sonopull-delay}} nach dem Abruf aus. Nur eine Scheibe, die mehr als 3 Sekunden später startet, ist ein No Bird."
     },
     "compak-gun-and-call-q3": {
-      "q": "Zum zweiten Mal in derselben Runde braucht ein Schütze mehr als 10 Sekunden für den Abruf. Die Scheibe ist eine Einzelscheibe. Entscheidung?",
+      "q": "Zum zweiten Mal in derselben {{term:round|Runde}} braucht ein Schütze mehr als 10 Sekunden für den {{term:call|Abruf}}. Die Scheibe ist eine Einzelscheibe. Entscheidung?",
       "options": {
         "a": "Null",
         "b": "Nur eine weitere Verwarnung",
@@ -190,14 +190,14 @@
       "explain": "Nach der ersten Verwarnung wird eine Wiederholung in derselben Runde nach der Tabelle bestraft: Eine Einzelscheibe wird als Null gewertet."
     },
     "compak-dress-and-conduct-q2": {
-      "q": "{{tm:compak}}, Format by squad. Ein Schütze trifft einen Moment ein, nachdem der erste Schütze der Rotte die erste Scheibe der Runde abgerufen hat. Was folgt?",
+      "q": "{{tm:compak}}, Format by squad. Ein Schütze trifft einen Moment ein, nachdem der erste Schütze der {{term:squad|Rotte}} die erste Scheibe der {{term:round|Runde}} abgerufen hat. Was folgt?",
       "options": {
         "a": "Keine Strafe",
         "b": "Null auf die erste Scheibe",
         "c": "Schießt am Ende der Rotte",
         "d": "25 Nullen für die Runde"
       },
-      "explain": "Die Frist ist der erste Abruf der Rotte. Danach erhält der verspätete Schütze 25 Nullen; ein schriftlicher Einspruch bei der Jury am selben Tag ist möglich."
+      "explain": "Die Frist ist der erste {{term:call|Abruf}} der Rotte. Danach erhält der verspätete Schütze 25 Nullen; ein schriftlicher Einspruch bei der Jury am selben Tag ist möglich."
     }
   }
 }

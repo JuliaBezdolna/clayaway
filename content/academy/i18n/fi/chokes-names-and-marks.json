@@ -31,7 +31,7 @@
   "title": "Supistajien nimet, supistukset ja merkinnät",
   "summary": "Sylinteristä täyteen: tyypilliset supistukset millimetreinä ja thou-yksikköinä, murto-osat 1/4–1/2–3/4 ja tähtimerkinnät, joita käytetään {{tm:sporting}}- ja {{tm:compak}}-lajeissa. Arvot ovat suuntaa antavia ja vaihtelevat valmistajien välillä.",
   "body": {
-    "gear-chokes-p3": "Nimet tulevat englannista, avoimimmasta tiukimpaan: cylinder ({{term:cylinder|sylinteri}}), improved cylinder, light modified, modified, improved modified, full. Eurooppalaiset sanovat ne usein murtolukuina: neljännes ({{term:improved-cylinder|1/4, improved cylinder}}), puolikas ({{term:modified|1/2, modified}}), kolme neljäsosaa ({{term:improved-modified|3/4, improved modified}}) ja täysi ({{term:full-choke|1/1, full}}). Monissa italialaisissa aseissa supistajat merkitään {{term:star-marks|tähdillä}}, ja siellä sääntö on päinvastainen: enemmän tähtiä tarkoittaa avoimempaa supistusta.",
+    "gear-chokes-p3": "Nimet tulevat englannista, avoimimmasta tiukimpaan: {{term:cylinder|sylinteri}}, improved cylinder, light modified, modified, improved modified, full. Eurooppalaiset sanovat ne usein murtolukuina: 1/4 eli neljännes on {{term:improved-cylinder|parannettu sylinteri}}, 1/2 eli puolikas {{term:modified|puolisuppea}}, 3/4 eli kolme neljäsosaa {{term:improved-modified|3/4-suppea}} ja 1/1 eli täysi {{term:full-choke|täyssuppea}}. Monissa italialaisissa aseissa {{term:choke|supistajat}} merkitään {{term:star-marks|tähdillä}}, ja siellä sääntö on päinvastainen: enemmän tähtiä tarkoittaa avoimempaa supistusta.",
     "chokes-names-and-marks-p1": "Alla ovat tyypilliset {{term:constriction|supistukset}} 12 kaliiperille. Yksi thou on tuuman tuhannesosa, noin 0,025 mm. Todelliset arvot riippuvat valmistajasta ja myös kyseisen piipun kanavasta.",
     "chokes-names-and-marks-p2": [
       "Cylinder (sylinteri): ei supistusta, 0 mm.",
@@ -43,7 +43,7 @@
       "Full: noin 0,9–1 mm (35–40 thou), 1/1 tai yksinkertaisesti Full. Tiiviimpiäkin supistajia (extra full) on olemassa, mutta kiekkoammunnassa niitä tarvitaan harvoin."
     ],
     "chokes-names-and-marks-p5": "Murto-osat ovat kätevät puheessa, mutta ne eivät ole tarkkoja millimetrejä: yhden valmistajan 1/2 voi poiketa hieman toisen 1/2:sta.",
-    "chokes-names-and-marks-p6": "Italialaiset valmistajat, esimerkiksi Beretta, käyttävät {{term:star-marks|tähtimerkintöjä}}: viisi tähteä cylinder, neljä improved cylinder (1/4), kolme modified (1/2), kaksi improved modified (3/4) ja yksi full. Muut valmistajat tekevät loveja putken reunaan, käyttävät värillisiä renkaita tai painavat nimen (IC, M, LM).",
+    "chokes-names-and-marks-p6": "Italialaiset valmistajat, esimerkiksi Beretta, käyttävät {{term:star-marks|tähtimerkinnät}} -järjestelmää: viisi tähteä cylinder, neljä improved cylinder (1/4), kolme modified (1/2), kaksi improved modified (3/4) ja yksi full. Muut valmistajat tekevät loveja putken reunaan, käyttävät värillisiä renkaita tai painavat nimen (IC, M, LM).",
     "chokes-names-and-marks-p7": "Luotettavin lähde on merkintä supistajassa itsessään tai aseen käyttöohjeessa. Jos epäilet, {{term:gunsmith|aseseppä}} mittaa supistuksen mittarilla minuutissa."
   },
   "note": {},
@@ -55,7 +55,7 @@
     "chokes-names-and-marks-kp4": "Tähdet: mitä enemmän tähtiä, sitä avoimempi supistaja.",
     "chokes-names-and-marks-kp5": "Arvot ovat suuntaa antavia ja vaihtelevat valmistajien välillä."
   },
-  "did_you_know": "Nykyaikaiset kilpailupiiput ovat usein ”ylikalibroituja” (overbored): sisähalkaisija on tehty hieman kaliiperin standardia leveämmäksi. Niin samalla nimellä oleva supistaja voi antaa hieman erilaisen supistuksen eri aseissa: merkitsevää on piipun ja supistajan välinen erotus.",
+  "did_you_know": "Nykyaikaiset kilpailupiiput ovat usein ”ylikalibroituja” (overbored): sisähalkaisija on tehty hieman {{term:gauge|kaliiperin}} standardia leveämmäksi. Niin samalla nimellä oleva supistaja voi antaa hieman erilaisen supistuksen eri aseissa: merkitsevää on piipun ja supistajan välinen erotus.",
   "quiz": {
     "chokes-names-and-marks-q1": {
       "q": "Mikä on modified (1/2) -supistajan likimääräinen supistus 12 kaliiperissa?",

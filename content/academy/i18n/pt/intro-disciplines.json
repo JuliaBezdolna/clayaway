@@ -29,18 +29,18 @@
  "summary": "Um guia breve sobre o {{tm:sporting}} e o {{tm:compak}}: o que têm em comum e no que diferem.",
  "body": {
   "intro-disciplines-p1": "O {{tm:sporting}} imita a caça. Os {{term:shooting-stand|postos de tiro}}, os pontos marcados de onde se dispara, estão espalhados por terreno natural: em campos, junto a bosques, em encostas. Os pratos voam como voaria uma perdiz, um pato ou um faisão, ou rolam como uma lebre. Cada {{term:layout|percurso}}, um conjunto de postos, dá {{fact:targets.sporting-layout-targets}} (um double conta como dois pratos, ou seja, mais 10). Os dois pratos de um {{term:double|double}} voam juntos ou um depois do outro.",
-  "intro-disciplines-p2": "O {{tm:compak}} é a versão compacta. Tudo se passa num só campo com {{fact:basics.compak-field}}. O atirador passa pelos cinco postos e dispara 5 pratos em cada um, 25 por {{term:round|série}}. Um campo de Compak ocupa pouco espaço, por isso é fácil para um clube construir um.",
+  "intro-disciplines-p2": "O {{tm:compak}} é a versão compacta. Tudo se passa num só {{term:layout|campo}} com {{fact:basics.compak-field}}. O atirador passa pelos cinco postos e dispara 5 pratos em cada um, 25 por {{term:round|série}}. Um campo de Compak ocupa pouco espaço, por isso é fácil para um clube construir um.",
   "intro-disciplines-cmp": {
-   "sporting": "Percorre um trajeto de posto em posto, e cada posto tem os seus próprios pratos. Um double pode ser {{term:double-on-report|ao tiro}}, em que o primeiro tiro liberta o segundo prato, ou {{term:simultaneous-double|simultâneo}}, em que os dois voam ao mesmo tempo. Um {{term:rafale-double|rafale}} é dois pratos da mesma máquina, um logo depois do outro.",
-   "compak": "Fica num só campo e, depois de cada vez, avança um posto para a direita. Um double é {{term:double-on-report|ao tiro}}, em que o primeiro tiro liberta o segundo prato, ou {{term:simultaneous-double|simultâneo}}, em que os dois voam ao mesmo tempo."
+   "sporting": "Percorre um trajeto de posto em posto, e cada posto tem os seus próprios pratos. Um double pode ser {{term:double-on-report|ao tiro}}, em que o primeiro tiro liberta o segundo prato, ou {{term:simultaneous-double|simultâneo}}, em que os dois voam ao mesmo tempo. Um {{term:rafale-double|rafale}} é dois pratos da mesma {{term:trap|máquina}}, um logo depois do outro.",
+   "compak": "Fica num só campo e, depois de cada vez, avança um {{term:shooting-stand|posto}} para a direita. Um double é {{term:double-on-report|ao tiro}}, em que o primeiro tiro liberta o segundo prato, ou {{term:simultaneous-double|simultâneo}}, em que os dois voam ao mesmo tempo."
   },
   "intro-disciplines-p3": "As competições internacionais das duas disciplinas são normalmente {{fact:basics.international-targets}}. Nas duas, pode disparar dois tiros sobre um {{term:single-target|prato simples}}: se o primeiro tiro falhar, o segundo ainda pode partir o prato.",
-  "intro-disciplines-p6": "As duas disciplinas pertencem à {{term:fitasc|FITASC}}, a federação internacional que escreve as suas regras. As bases são comuns: a segurança, {{term:gun-mount|pôr a arma à cara}} (o movimento de levar a arma à face e ao ombro) e saber «ler» o prato."
+  "intro-disciplines-p6": "As duas disciplinas pertencem à {{term:fitasc|FITASC}}, a federação internacional que escreve as suas regras. As bases são comuns: a segurança, {{term:gun-mount|pôr a arma à cara}} — o movimento de levar a arma à face e ao ombro — e saber «ler» o prato."
  },
  "note": {},
  "phrases": {},
  "key_points": {
-  "intro-disciplines-kp1": "{{tm:sporting}}: um percurso por terreno natural; cada percurso dá {{fact:rules.round-targets}}.",
+  "intro-disciplines-kp1": "{{tm:sporting}}: um {{term:layout|percurso}} por terreno natural; cada percurso dá {{fact:rules.round-targets}}.",
   "intro-disciplines-kp2": "{{tm:compak}}: um só campo com {{fact:basics.compak-field}}.",
   "intro-disciplines-kp3": "Uma competição internacional é normalmente {{fact:basics.international-targets}}; pode disparar duas vezes sobre um prato simples.",
   "intro-disciplines-kp4": "As duas disciplinas seguem as regras da FITASC e partilham as bases: segurança, pôr a arma à cara e ler o prato."
@@ -48,7 +48,7 @@
  "did_you_know": "O {{tm:compak}} {{fact:community.compak-created}}.",
  "quiz": {
   "intro-disciplines-q1": {
-   "q": "Quantos pratos dá um percurso de {{tm:sporting}}?",
+   "q": "Quantos pratos dá um {{term:layout|percurso}} de {{tm:sporting}}?",
    "options": {
     "a": "10",
     "b": "25",
@@ -57,7 +57,7 @@
    "explain": "Cada percurso dá {{fact:targets.sporting-layout-targets}} (um double conta como dois pratos, ou seja, mais 10)."
   },
   "intro-disciplines-q2": {
-   "q": "Quantas máquinas há num campo de Compak?",
+   "q": "Quantas {{term:trap|máquinas}} há num {{term:layout|campo}} de Compak?",
    "options": {
     "a": "Seis, com as letras de A a F",
     "b": "Quatro, com as letras de A a D",
@@ -66,16 +66,16 @@
    "explain": "Um campo de {{tm:compak}} tem {{fact:basics.compak-field}}."
   },
   "intro-disciplines-q-course": {
-   "q": "Em que disciplina se percorre um trajeto de posto em posto?",
+   "q": "Em que disciplina se percorre um trajeto de {{term:shooting-stand|posto}} em posto?",
    "options": {
     "a": "{{tm:compak}}",
     "b": "Em ambas, da mesma forma",
     "c": "{{tm:sporting}}"
    },
-   "explain": "No {{tm:sporting}} passa-se de posto em posto em terreno natural; no {{tm:compak}} fica-se num só campo e avança-se um posto para a direita."
+   "explain": "No {{tm:sporting}} passa-se de posto em posto em terreno natural; no {{tm:compak}} fica-se num só {{term:layout|campo}} e avança-se um posto para a direita."
   },
   "intro-disciplines-q-second-shot": {
-   "q": "O seu primeiro tiro falha um prato simples. O que permite a regra?",
+   "q": "O seu primeiro tiro falha um {{term:single-target|prato simples}}. O que permite a regra?",
    "options": {
     "a": "O árbitro repete o prato",
     "b": "Tem de abrir a arma de imediato",

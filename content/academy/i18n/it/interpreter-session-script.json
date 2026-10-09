@@ -43,14 +43,14 @@
     "origin": "interpreter-academy"
   },
   "title": "Un'intera sessione di allenamento, passo per passo",
-  "summary": "Una sessione tipica con un istruttore straniero, dal primo incontro al debrief. Le frasi che probabilmente sentirai, nell'ordine in cui arrivano, e come trasmetterle.",
+  "summary": "Una sessione tipica con un {{term:coach|istruttore}} straniero, dal primo incontro al debrief. Le frasi che probabilmente sentirai, nell'ordine in cui arrivano, e come trasmetterle.",
   "body": {
-    "interpreter-session-script-p1": "Prima della sessione, dedica cinque minuti all'{{term:coach|istruttore}}. Concordate un segnale di pausa e impara i suoi {{term:hand-signal|segnali con le mani}}. Chiedi quale metodo di anticipo insegna (come vuole che il tiratore si porti davanti al piattello) e quali parole usa per l'{{term:lead|anticipo}}. Poi il gruppo si riunisce per il briefing sulla {{term:safety|sicurezza}}: interpretalo in modo {{term:consecutive-interpreting|consecutivo}}, frase per frase, con fermezza e per intero.",
-    "interpreter-session-script-p2": "Sul primo stand l'istruttore di solito comincia senza cartucce: un controllo dell'{{term:eye-dominance|occhio dominante}}, poi la {{term:stance|posizione}} e la {{term:ready-position|posizione di attesa}}. Nel {{tm:sporting}} il fucile parte basso, sotto la linea del gilet; nel {{tm:compak}} la posizione del fucile alla chiamata è libera. Sussurra le sue correzioni da dietro ({{term:chuchotage|chuchotage}}) mentre sistema piedi e mani.",
-    "interpreter-session-script-p3": "Poi si legge il piattello. L'istruttore lo mostra, chiede dove il tiratore lo vede nitido per la prima volta e fissa il {{term:pick-up-point|punto di presa}}, il {{term:hold-point|punto di attesa}} e il {{term:break-point|punto di rottura}}. Usa queste stesse tre parole nella tua lingua per tutto il giorno, così l'ospite le imparerà.",
-    "interpreter-session-script-p4": "Ora si spara. Tra un piattello e l'altro l'istruttore dà indicazioni di due o cinque parole. Tu le ripeti, brevi come le ha dette e nello stesso ordine, mentre il fucile è aperto. Quando l'istruttore nomina la causa di un errore, come «{{term:miss-behind|behind}}» («dietro»), «over the top» («sopra») o «you stopped» («ti sei fermato»), traducila insieme alla correzione. Il tiratore ha bisogno di entrambe le cose: cosa è andato storto e cosa cambiare. Passa i complimenti con la stessa energia.",
-    "interpreter-session-script-p5": "Poi i doppietti: quale piattello viene prima, «prima gli occhi, poi il fucile», e il secondo colpo del {{term:double|doppio}}. Infine il debrief, di nuovo in consecutiva, in cui l'istruttore riassume due o tre punti. Scrivili in entrambe le lingue e dai il foglio all'ospite. Qui sotto trovi una tipica catena di frasi, nell'ordine in cui probabilmente le sentirai.",
-    "interpreter-session-script-comp": "Se l'ospite gareggia il giorno dopo, ricorda a tutti che il {{term:coaching|coaching}} è vietato durante la gara. L'istruttore non può consigliare, e tu traduci solo per l'arbitro, la giuria e l'organizzatore. Di più in {{lesson:interpreter-role}}."
+    "interpreter-session-script-p1": "Prima della sessione, dedica cinque minuti al {{term:coach|istruttore}}. Concordate un segnale di pausa e impara i suoi {{term:hand-signal|segnali con le mani}}. Chiedi quale metodo di {{term:lead|anticipo}} insegna (come vuole che il tiratore si porti davanti al piattello) e quali parole usa per il {{term:lead|anticipo}}. Poi il gruppo si riunisce per il briefing sulla {{term:safety|sicurezza}}: interpretalo in modo {{term:consecutive-interpreting|consecutivo}}, frase per frase, con fermezza e per intero.",
+    "interpreter-session-script-p2": "Sul primo stand l'istruttore di solito comincia senza cartucce: un controllo dell'{{term:eye-dominance|occhio dominante}}, poi la {{term:stance|posizione}} e la {{term:ready-position|posizione di attesa}}. Nel {{tm:sporting}} il fucile parte basso, sotto la linea del gilet; nel {{tm:compak}} la {{term:gun-position|posizione del fucile}} alla chiamata è libera. Sussurra le sue correzioni da dietro ({{term:chuchotage|chuchotage}}) mentre sistema piedi e mani.",
+    "interpreter-session-script-p3": "Poi si legge il piattello. L'istruttore lo mostra, chiede dove il tiratore lo vede nitido per la prima volta e fissa il {{term:pick-up-point|punto di presa}}, l'{{term:hold-point|punto di attesa}} e il {{term:break-point|punto di rottura}}. Usa queste stesse tre parole nella tua lingua per tutto il giorno, così l'ospite le imparerà.",
+    "interpreter-session-script-p4": "Ora si spara. Tra un piattello e l'altro l'istruttore dà indicazioni di due o cinque parole. Tu le ripeti, brevi come le ha dette e nello stesso ordine, mentre il fucile è aperto. Quando l'istruttore nomina la causa di un errore, come «{{term:miss-behind|behind}}», «over the top» («sopra») o «you stopped» («ti sei fermato»), traducila insieme alla correzione. Il tiratore ha bisogno di entrambe le cose: cosa è andato storto e cosa cambiare. Passa i complimenti con la stessa energia.",
+    "interpreter-session-script-p5": "Poi i {{term:double|doppietti}}: quale piattello viene prima, «prima gli occhi, poi il fucile», e il secondo colpo del {{term:double|doppio}}. Infine il debrief, di nuovo in consecutiva, in cui l'istruttore riassume due o tre punti. Scrivili in entrambe le lingue e dai il foglio all'ospite. Qui sotto trovi una tipica catena di frasi, nell'ordine in cui probabilmente le sentirai.",
+    "interpreter-session-script-comp": "Se l'ospite gareggia il giorno dopo, ricorda a tutti che il {{term:coaching|coaching}} è vietato durante la gara. L'istruttore non può consigliare, e tu traduci solo per l'arbitro, la {{term:jury|giuria}} e l'organizzatore. Di più in {{lesson:interpreter-role}}."
   },
   "note": {},
   "phrases": {
@@ -63,7 +63,7 @@
       "say": "I fucili restano aperti finché non siete in pedana e non dico «caricare»."
     },
     "interpreter-session-script-ph3": {
-      "meaning": "Controllo dell'occhio dominante: se il dito salta, l'occhio destro non è l'{{term:master-eye|occhio dominante}}.",
+      "meaning": "Controllo dell'occhio dominante: se il dito salta, l'occhio destro non è il {{term:master-eye|occhio dominante}}.",
       "say": "Indica il mio naso, con entrambi gli occhi aperti. Ora chiudi l'occhio sinistro."
     },
     "interpreter-session-script-ph4": {
@@ -71,7 +71,7 @@
       "say": "Piede avanti verso il punto di rottura, peso in avanti."
     },
     "interpreter-session-script-ph5": {
-      "meaning": "Posizione di attesa {{tm:sporting}}: l'{{term:gun-mount|imbracciata}} comincia solo dopo che compare il piattello; nel {{tm:compak}} la posizione alla chiamata è libera.",
+      "meaning": "Posizione di attesa {{tm:sporting}}: la {{term:gun-mount|imbracciata}} comincia solo dopo che compare il piattello; nel {{tm:compak}} la posizione alla chiamata è libera.",
       "say": "Fucile basso, calcio sotto la linea. Imbraccia solo quando lo vedi."
     },
     "interpreter-session-script-ph6": {
@@ -83,7 +83,7 @@
       "say": "Tieni le volate più o meno a metà strada indietro, appena sotto la linea."
     },
     "interpreter-session-script-ph8": {
-      "meaning": "La rosata è passata dietro il piattello: più anticipo.",
+      "meaning": "La {{term:pattern|rosata}} è passata dietro il piattello: più anticipo.",
       "say": "Dietro. Dagliene di più."
     },
     "interpreter-session-script-ph9": {
@@ -91,7 +91,7 @@
       "say": "Diciamo tre piedi — ecco l'immagine che vuoi."
     },
     "interpreter-session-script-ph10": {
-      "meaning": "Errore sopra, causato da chi {{term:head-lift|alza la testa}} staccando la guancia dal calcio.",
+      "meaning": "Errore sopra, causato dalla {{term:head-lift|testa alzata}}: la guancia si stacca dallo {{term:stock|calcio}}.",
       "say": "Sopra. Hai alzato la testa: resta nel fucile."
     },
     "interpreter-session-script-ph11": {
@@ -99,7 +99,7 @@
       "say": "Polverizzato! Uguale anche il prossimo."
     },
     "interpreter-session-script-ph12": {
-      "meaning": "Errore dietro perché lo swing si è {{term:stopping-the-gun|fermato}}; {{term:follow-through|accompagna}} il colpo.",
+      "meaning": "Errore dietro: è lo {{term:stopping-the-gun|fucile che si ferma}}; serve il {{term:follow-through|accompagnamento}} del colpo.",
       "say": "Hai fermato il fucile. Tienilo in movimento durante lo sparo."
     },
     "interpreter-session-script-ph13": {
@@ -107,7 +107,7 @@
       "say": "Ora un doppio allo sparo: prima il traversone, poi la lepre."
     },
     "interpreter-session-script-ph14": {
-      "meaning": "Sul secondo piattello, trovalo con gli occhi prima di muovere le volate.",
+      "meaning": "Sul secondo piattello, trovalo con gli occhi prima di muovere le {{term:muzzle|volate}}.",
       "say": "Prima gli occhi, poi il fucile."
     },
     "interpreter-session-script-ph15": {
@@ -132,7 +132,7 @@
   },
   "quiz": {
     "interpreter-session-script-q1": {
-      "q": "Quando si interpreta il briefing sulla sicurezza, e come?",
+      "q": "Quando si interpreta il briefing sulla {{term:safety|sicurezza}}, e come?",
       "options": {
         "a": "Brevemente in chuchotage mentre gli ospiti caricano",
         "b": "All'inizio, in consecutiva, frase per frase e per intero",
@@ -142,7 +142,7 @@
       "explain": "La sicurezza viene prima e non va abbreviata; la consecutiva permette a ogni regola di arrivare."
     },
     "interpreter-session-script-q2": {
-      "q": "L'istruttore dice «Behind it. Give it more.» Quale resa tra un piattello e l'altro è corretta?",
+      "q": "Il {{term:coach|istruttore}} dice «Behind it. Give it more.» Quale resa tra un piattello e l'altro è corretta?",
       "options": {
         "a": "Due parti brevi: «dietro», «più anticipo»",
         "b": "Una frase più lunga e gentile, con consigli",
@@ -155,7 +155,7 @@
       "q": "Perché mantenere «pick-up point», «hold point» e «break point» con le stesse parole italiane per tutto il giorno?",
       "options": {
         "a": "Lo richiede il regolamento",
-        "b": "Perché l'istruttore capisca l'italiano",
+        "b": "Perché il istruttore capisca l'italiano",
         "c": "Perché l'ospite impari tre concetti stabili e non li confonda",
         "d": "Non ha importanza"
       },

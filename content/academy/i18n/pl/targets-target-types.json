@@ -36,11 +36,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Rodzaje rzutków",
-  "summary": "Standard, midi, mini, battue, rabbit, flash, ZZ i rocket: czym różnią się rzutki, jak lecą oraz czemu menu wymienia każdy rzutek specjalny.",
+  "summary": "Standard, midi, mini, battue, rabbit, flash, ZZ i rocket: czym różnią się {{term:target|rzutki}}, jak lecą oraz czemu menu wymienia każdy rzutek specjalny.",
   "body": {
     "targets-target-types-p1": "{{term:target|Rzutek}}, często zwany „talerzykiem”, to łamliwy dysk wyrzucany przez maszynę zwaną {{term:trap|wyrzutnią}}. Znajomość typu rzutka pomaga zaplanować strzał jeszcze przed wywołaniem.",
-    "targets-types-p1": "Lista FITASC dla {{tm:sporting}} wymienia siedem typów rzutków: standard, midi, super mini, battue, rabbit, flash i ZZ. {{tm:compak}} dopuszcza każdy rzutek standardowy albo specjalny, a jego lista wymienia też rocket. Każdy typ leci inaczej.",
-    "targets-types-p2": "{{term:standard-target|Standard}}, najczęstszy rzutek, to kopułka o szerokości około 108–110 mm; od niego zwykle zaczynają początkujący. {{term:midi|Midi}} ma 90 mm: dobrze zachowuje prędkość i wydaje się dalej, niż jest. {{term:mini|Mini}} ma zwykle 60 mm: szybko wylatuje z wyrzutni i szybko zwalnia. Więc strzelcy mają skłonność dawać mu za duże wyprzedzenie, czyli strzelać za daleko przed nim. Nazwy małych rzutków bywają różne: lista {{tm:sporting}} mówi „super mini”, a w menu może być 70 mm albo 60 mm. Kieruj się milimetrami zapisanymi w menu.",
+    "targets-types-p1": "Lista FITASC dla {{tm:sporting}} wymienia siedem typów rzutków: standard, midi, super mini, battue, rabbit, flash i ZZ. {{tm:compak}} dopuszcza każdy {{term:standard-target|rzutek standardowy}} albo specjalny, a jego lista wymienia też rocket. Każdy typ leci inaczej.",
+    "targets-types-p2": "{{term:standard-target|Standard}}, najczęstszy rzutek, to kopułka o szerokości około 108–110 mm; od niego zwykle zaczynają początkujący. {{term:midi|Midi}} ma 90 mm: dobrze zachowuje prędkość i wydaje się dalej, niż jest. {{term:mini|Mini}} ma zwykle 60 mm: szybko wylatuje z wyrzutni i szybko zwalnia. Więc strzelcy mają skłonność dawać mu za duże {{term:lead|wyprzedzenie}}, czyli strzelać za daleko przed nim. Nazwy małych rzutków bywają różne: lista {{tm:sporting}} mówi „super mini”, a w menu może być 70 mm albo 60 mm. Kieruj się milimetrami zapisanymi w menu.",
     "targets-types-p3": "{{term:battue|Battue}} to płaski, cienki rzutek 110 mm. Leci bokiem, prawie niewidoczny, potem obraca się, pokazując płaszczyznę, i szybko opada. Przepisy {{tm:compak}} odradzają battue na bardzo krótkich trajektoriach. {{term:rabbit|Rabbit}} to rzutek 110 mm z grubą, wytrzymałą obręczą, toczony na krawędzi po ziemi; odbija się i może podskakiwać na nierównościach. Zob. też {{lesson:flight-rabbit}}.",
     "targets-types-p4": "{{term:flash-target|Rzutek flash}} jest wypełniony kolorowym pudrem, który po trafieniu zostawia jasny obłok; liczy się go jak każdy inny rzutek. {{term:zz-target|Rzutek ZZ}}, zwany też helice, to plastikowe śmigło z białą nakładką pośrodku, które leci nieregularnie. {{term:rocket-target|Rocket}} to kolejny rzutek specjalny, wymieniony tylko na liście {{tm:compak}}.",
     "targets-target-types-p6": "W {{tm:sporting}} {{term:target-menu|menu}} przed każdym stanowiskiem (miejscem, z którego strzelasz) musi wymieniać wszystkie rzutki specjalne: {{fact:targets.sporting-menu-special-targets}}. Przeczytaj je, zanim wejdziesz na stanowisko.",
@@ -85,7 +85,7 @@
       "explain": "Mini ma zwykle 60 mm, a midi 90 mm. Nazwy małych rzutków bywają różne, więc kieruj się milimetrami w menu."
     },
     "targets-types-q3": {
-      "q": "Na stanowisku {{tm:sporting}} wyrzutnia wyrzuca midi zamiast standardu podanego w menu. Co się dzieje?",
+      "q": "Na stanowisku {{tm:sporting}} {{term:trap|wyrzutnia}} wyrzuca midi zamiast standardu podanego w menu. Co się dzieje?",
       "options": {
         "a": "No Bird, rzutek się powtarza",
         "b": "Liczy się jako trafienie",

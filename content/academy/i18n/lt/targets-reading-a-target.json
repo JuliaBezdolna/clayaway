@@ -32,9 +32,9 @@
   "summary": "Ko žiūrėti, kol rodomi taikiniai: iš kur taikinys pasirodo, kur skrenda, kur jį sudaužysite, ir ko daryti negalima.",
   "body": {
     "targets-reading-a-target-p1": "„Perskaityti“ taikinį – tai iki šūvio supratimas, kaip jis skrenda: iš kur pasirodo, kaip greitai juda, kur pasuka, kyla ar leidžiasi. Patyrę šauliai tai daro kiekvienoje vietoje, ir dažnai tai nulemia skirtumą tarp pataikymo ir praleidimo. Tai vienodai svarbu ir {{tm:sporting}}, ir {{tm:compak}}.",
-    "targets-reading-a-target-p2": "Pradėkite nuo {{term:target-menu|taikinių aprašo}}: kokios mašinėlės, kokia tvarka, ar yra specialūs taikiniai. Tada atidžiai žiūrėkite {{term:target-presentation|taikinių rodymą}} (presentation). {{tm:sporting}} vietos taikiniai prieš šaudymą parodomi pirmam grupės šauliui. Dubletai pagal šūvio garsą nerodomi. {{tm:compak}} rodymas organizuotas savaip. Smulkiau – pamokoje {{lesson:rules-viewing-targets}}.",
-    "targets-reading-a-target-p3": "Klauskite savęs paprastų klausimų. Kur pirmą kartą aiškiai matau taikinį? Tai jūsų {{term:pick-up-point|taikinio pastebėjimo taškas}} (pick-up point), nuo kurio akys pradeda jį sekti. Kur lengviausia jį sudaužyti? Tai jūsų {{term:break-point|sudaužymo taškas}} (break point). Tame taške taikinys turi būti dar gerai matomas: jis neturi kristi už medžių ar skrieti už {{term:shooting-limit|šaudymo ribos}}.",
-    "targets-reading-a-target-points": "Kaip kartu veikia {{term:hold-point|laikymo taškas}} (hold point), taikinio pastebėjimo taškas ir sudaužymo taškas, paaiškina pamoka {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p2": "Pradėkite nuo {{term:target-menu|taikinių aprašo}}: kokios {{term:trap|mašinėlės}}, kokia tvarka, ar yra specialūs taikiniai. Tada atidžiai žiūrėkite {{term:target-presentation|taikinių rodymą}}. {{tm:sporting}} vietos taikiniai prieš šaudymą parodomi pirmam grupės šauliui. {{term:double-on-report|Dubletai pagal šūvio garsą}} nerodomi. {{tm:compak}} rodymas organizuotas savaip. Smulkiau – pamokoje {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Klauskite savęs paprastų klausimų. Kur pirmą kartą aiškiai matau taikinį? Tai jūsų {{term:pick-up-point|taikinio pastebėjimo taškas}}, nuo kurio akys pradeda jį sekti. Kur lengviausia jį sudaužyti? Tai jūsų {{term:break-point|sudaužymo taškas}}. Tame taške taikinys turi būti dar gerai matomas: jis neturi kristi už medžių ar skrieti už {{term:shooting-limit|šaudymo ribos}}.",
+    "targets-reading-a-target-points": "Kaip kartu veikia {{term:hold-point|laikymo taškas}}, taikinio pastebėjimo taškas ir sudaužymo taškas, paaiškina pamoka {{lesson:technique-hold-pickup-break-points}}.",
     "targets-reading-a-target-p4": "Atkreipkite dėmesį į greitį, atstumą ir kampą, taip pat į tai, ką taikinys daro: kyla, lėtėja ar krinta. Vėjas gali pakelti ar nuleisti taikinį, o tamsi medžių linija ar ryškus dangus keičia tai, kaip jį matote. Lėtėjančiam taikiniui reikia mažesnio {{term:lead|pralenkimo}} nei skrendančiam visu greičiu.",
     "targets-reading-a-target-p5": "Žiūrėkite, kaip šaudo kiti, bet galvokite savo galva: kiekvienas turi savo tempą. Rodymo metu daug trenerių pataria sekti taikinius tik akimis.",
     "targets-reading-a-target-mock": {
@@ -49,13 +49,13 @@
     "targets-reading-a-target-kp1": "Pirma meniu, tada atidžiai stebėkite taikinių rodymą.",
     "targets-reading-a-target-kp2": "Suraskite tašką, kur pirmą kartą aiškiai matote taikinį, ir tašką, kur jį sudaužysite.",
     "targets-reading-a-target-kp3": "Atkreipkite dėmesį į greitį, kampą, vėją, foną ir tai, ar taikinys lėtėja.",
-    "targets-reading-a-target-kp4": "Sekite akimis; {{tm:sporting}} šaudymo imitavimas neleidžiamas niekur šaudykloje, {{tm:compak}} – už numerių ir kai šaudo kitas.",
+    "targets-reading-a-target-kp4": "Sekite akimis; {{tm:sporting}} {{term:mock-shooting|šaudymo imitavimas}} neleidžiamas niekur šaudykloje, {{tm:compak}} – už numerių ir kai šaudo kitas.",
     "targets-reading-a-target-kp5": "{{tm:sporting}} sudėtingumo klasės: {{fact:targets.sporting-difficulty-classes}}."
   },
-  "did_you_know": "{{tm:sporting}} dubletai pagal šūvio garsą nerodomi, bet abu taikinius jūs jau matėte: dubletai sudaromi tik iš taikinių, parodytų kaip pavieniai toje pačioje vietoje.",
+  "did_you_know": "{{tm:sporting}} {{term:double|dubletai}} pagal šūvio garsą nerodomi, bet abu taikinius jūs jau matėte: dubletai sudaromi tik iš taikinių, parodytų kaip pavieniai toje pačioje vietoje.",
   "quiz": {
     "targets-reading-a-target-q1": {
-      "q": "Kas yra sudaužymo taškas (break point)?",
+      "q": "Kas yra {{term:break-point|sudaužymo taškas}}?",
       "options": {
         "a": "Vieta, kur planuojate sudaužyti taikinį",
         "b": "Vieta, kur stovi jį paleidžianti mašinėlė",

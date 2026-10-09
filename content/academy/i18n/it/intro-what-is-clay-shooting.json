@@ -33,13 +33,13 @@
     "origin": "interpreter-academy"
   },
   "title": "Che cos'è il tiro a volo",
-  "summary": "Il tiro a volo è uno sport in cui si rompono piattelli in volo con un fucile. Ecco come funziona e cosa sono {{tm:sporting}} e {{tm:compak}}.",
+  "summary": "Il tiro a volo è uno sport in cui si rompono {{term:target|piattelli}} in volo con uno {{term:shotgun|fucile}}. Ecco come funziona e cosa sono {{tm:sporting}} e {{tm:compak}}.",
   "body": {
-    "sport-what-is-clay-p1": "Il tiro a volo è uno sport in cui il tiratore rompe con un fucile dei piccoli dischi in volo. Il disco si chiama piattello (target o clay in inglese); i tiratori inglesi lo chiamano spesso bird, «uccello», ma nessuno spara ad animali vivi. Il regolamento FITASC dice chiaramente che sparare ad animali vivi non è consentito e che la sicurezza e il rispetto dell'ambiente vengono prima di tutto.",
-    "sport-what-is-clay-p2": "Ogni piattello viene lanciato da una macchina chiamata lanciapiattelli (trap). Il suo percorso in aria (o lungo il terreno) è la traiettoria. Il fucile ha canne lisce (anima liscia: senza rigature a spirale all'interno, a differenza di una carabina). Spara una cartuccia piena di piccoli pallini che si allargano in una piccola nuvola. Per questo il tiratore punta il fucile dove sta andando il piattello, non dove si trova in quel momento.",
+    "sport-what-is-clay-p1": "Il tiro a volo è uno sport in cui il tiratore rompe con uno {{term:shotgun|fucile}} dei piccoli dischi in volo. Il disco si chiama {{term:target|piattello}}, in inglese anche clay; i tiratori inglesi lo chiamano spesso bird, «uccello», ma nessuno spara ad animali vivi. Il regolamento FITASC dice chiaramente che sparare ad animali vivi non è consentito e che la sicurezza e il rispetto dell'ambiente vengono prima di tutto.",
+    "sport-what-is-clay-p2": "Ogni piattello viene lanciato da una {{term:trap|macchina lanciapiattelli}}. Il suo percorso in aria (o lungo il terreno) è la {{term:trajectory|traiettoria}}. Il fucile ha canne lisce (anima liscia: senza rigature a spirale all'interno, a differenza di una carabina). Spara una {{term:cartridge|cartuccia}} piena di piccoli pallini che si allargano in una piccola nuvola. Per questo il tiratore punta il fucile dove sta andando il piattello, non dove si trova in quel momento.",
     "intro-what-is-clay-shooting-p2": "La macchina lancia il piattello facendolo ruotare, con una velocità e un angolo prestabiliti. Le traiettorie variano molto: un piattello può venire verso di te, allontanarsi, attraversare davanti a te, volare in alto o rotolare sul terreno.",
     "sport-what-is-clay-p3": "Questo corso riguarda due discipline (due tipi di tiro a volo) della federazione internazionale FITASC. Il Parcours de Chasse – Sporting™ (in breve Sporting™) riproduce la caccia. Le sue macchine sono spesso nascoste o schermate da cespugli e alberi, e i piattelli volano come una starna, un'anatra o un fagiano, oppure rotolano come una lepre. Il {{tm:compak}} è la versione compatta: la stessa varietà di piattelli, ma su un unico campo piccolo con cinque pedane in linea e sei macchine.",
-    "sport-what-is-clay-p5": "Un colpo a segno si vede subito: il piattello si rompe o almeno se ne stacca un pezzo visibile. Proprio questa chiarezza rende lo sport facile da guardare e, per te, facile da seguire fin dal primo giorno.",
+    "sport-what-is-clay-p5": "Un colpo a segno si vede subito: il piattello si rompe o almeno se ne stacca un {{term:visible-piece|pezzo visibile}}. Proprio questa chiarezza rende lo sport facile da guardare e, per te, facile da seguire fin dal primo giorno.",
     "intro-what-is-clay-shooting-p5": "Questo sport nasce dalla caccia. In passato i tiratori si esercitavano su uccelli vivi; dalla fine del XIX secolo i piattelli di argilla hanno iniziato a prenderne il posto. Oggi il tiro a volo è uno sport a sé, con regole, arbitri e gare internazionali. Altra storia: {{lesson:history-live-birds-to-clays}}.",
     "intro-what-is-clay-shooting-p6": "Si può tirare solo per divertimento oppure competere. Molte persone vanno su un campo di tiro per passare una giornata all'aperto con gli amici; alcune, più avanti, partecipano a gare di club e campionati. Le discipline sono confrontate nella lezione {{lesson:intro-disciplines}}."
   },
@@ -60,7 +60,7 @@
   },
   "key_points": {
     "sport-what-is-clay-kp1": "Si spara a piattelli lanciati da macchine, non ad animali vivi.",
-    "sport-what-is-clay-kp2": "Il fucile spara una nuvola di piccoli pallini (la rosata), quindi il tiratore punta davanti al piattello.",
+    "sport-what-is-clay-kp2": "Il fucile spara una nuvola di piccoli pallini — la {{term:pattern|rosata}} —, quindi il tiratore punta davanti al piattello.",
     "sport-what-is-clay-kp3": "Lo {{tm:sporting}} riproduce la caccia su terreno naturale; il {{tm:compak}} è la sua versione compatta su un unico campo.",
     "intro-what-is-clay-shooting-kp4": "Un colpo a segno si vede subito: il piattello si rompe o se ne stacca un pezzo visibile."
   },
@@ -77,14 +77,14 @@
       "explain": "«Bird» è il gergo dei tiratori per il piattello; il regolamento FITASC vieta di sparare ad animali vivi."
     },
     "sport-what-is-clay-q2": {
-      "q": "Che cosa spara un fucile da caccia?",
+      "q": "Che cosa spara uno {{term:shotgun|fucile da caccia}}?",
       "options": {
         "a": "Un'unica palla",
         "b": "Un piccolo dardo simile a una freccia",
         "c": "Una nuvola di piccoli pallini (shot)",
         "d": "Una pallina piena di vernice"
       },
-      "explain": "I pallini escono dalla volata come una piccola nuvola, quindi il tiratore punta davanti al piattello in movimento."
+      "explain": "I pallini escono dalla {{term:muzzle|volata}} come una piccola nuvola, quindi il tiratore punta davanti al {{term:target|piattello}} in movimento."
     },
     "sport-what-is-clay-q3": {
       "q": "Quale affermazione sul {{tm:compak}} è corretta?",
@@ -94,7 +94,7 @@
         "c": "Si spara solo a selvaggina viva sul terreno",
         "d": "Usa una sola macchina e una sola pedana"
       },
-      "explain": "Il {{tm:compak}} porta piattelli in stile {{tm:sporting}} su un unico campo piccolo con cinque pedane e sei macchine."
+      "explain": "Il {{tm:compak}} porta {{term:target|piattelli}} in stile {{tm:sporting}} su un unico campo piccolo con cinque pedane e sei macchine."
     },
     "intro-what-is-clay-shooting-q1": {
       "q": "A cosa si spara nel tiro a volo?",
@@ -108,14 +108,14 @@
     "intro-what-is-clay-shooting-q2": {
       "q": "Che cos'è un trap?",
       "options": {
-        "a": "Un fucile con canna corta",
+        "a": "Uno {{term:shotgun|fucile}} con canna corta",
         "b": "L'arbitro che dirige la pedana",
-        "c": "Una macchina che lancia i piattelli"
+        "c": "Una {{term:trap|macchina}} che lancia i {{term:target|piattelli}}"
       },
       "explain": "Il trap è la macchina che lancia un piattello in aria o lo fa rotolare sul terreno."
     },
     "intro-what-is-clay-shooting-q3": {
-      "q": "Perché il tiratore punta il fucile davanti a un piattello in movimento?",
+      "q": "Perché il tiratore punta lo {{term:shotgun|fucile}} davanti a un {{term:target|piattello}} in movimento?",
       "options": {
         "a": "Ai pallini serve tempo per arrivare al piattello",
         "b": "L'arbitro lo chiede a tutti i tiratori",

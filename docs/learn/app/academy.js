@@ -37,6 +37,10 @@
    English only on English pages: term chips of a lesson (data terms[].en/local/label), the search results for terms, the answers of
    "Назви траєкторію", the options of "Рішення судді" that carry "term", the names the animations show (ui.json "terms" + sims.js).
    ONE helper makes them: docs/shared/terms.js (window.ClayTerms); this file never builds "en (local)" itself.
+   RUNNING TEXT (step 2, 09.10.2026): a term token {{term:<id>|<local form>}} in a lesson text is "<English> (<local form>)" at its
+   first mention on the lesson page and "<English>" later. The build renders it (lesson data html / text, exams, phrases.json: see
+   scripts/build_academy.mjs view() and quizItem(), DEVELOPERS.md §4l); this app shows that data as it comes. Only a raw token that
+   slipped into a string goes through ClayTerms.mention() here (plainTok()).
 
    PAGE CONTRACT (what every Academy page needs; the build writes the static pages, docs/learn/index.html is the uk home):
      <html lang="<lang>"> · <link rel="stylesheet" href="…/learn/app/academy.css">
@@ -678,7 +682,7 @@
   async function startExam(rid) {
     const r = routeById(rid), cfg = r.certificate && r.certificate.exam ? r.certificate.exam : r.badge_only.quiz;
     VIEW.exam = { loading: true }; rerender();
-    try { const bank = await getJSON(`${DATA}${LANG}/exams/${rid}.json`), all = (bank.questions || []).filter(q => q.options && q.options.length > 1).map(plainQuiz);
+    try { const bank = await getJSON(`${DATA}${LANG}/exams/${rid}.json`), all = (bank.questions || []).filter(q => q.options && q.options.length > 1).map(q => plainQuiz(q));
       let pool = S.disc === "both" ? all : all.filter(q => !q.disc || q.disc === "both" || q.disc === S.disc); if (pool.length < cfg.n) pool = all;
       const qs = shuffle(pool).slice(0, Math.min(cfg.n, pool.length));
       VIEW.exam = { qs, ord: qs.map(q => shuffle(q.options.map(o => o.k))), ans: {}, i: 0, rid }; }
@@ -1131,12 +1135,27 @@
     await render({ scroll: true });
   }
   /* Catalog strings are plain text with the tokens already rendered by the build (SCHEMA.md §8). If a token slipped through
-     (an editor's new summary before a rebuild), show it as text instead of "{{tm:sporting}}" (never as HTML). */
-  function plainTok(s) { if (typeof s !== "string" || s.indexOf("{{") < 0) return s; let seen = false;
+     (an editor's new summary before a rebuild), show it as text instead of "{{tm:sporting}}" (never as HTML).
+     A term token follows the term rule, step 2 (owner rule 08.10.2026; docs/shared/terms.js mention() — the same function the build
+     uses for the pages): on a page in another language than English "<English> (<local form>)" at its first mention in the string,
+     "<English>" later; English pages show the form. The English name comes from `terms` (the lesson data terms[]), ui.json "terms"
+     or the glossary when it is loaded; without any of them, or without terms.js (an old cached page), the form as written. */
+  function plainTok(s, terms) { if (typeof s !== "string" || s.indexOf("{{") < 0) return s; let seen = false;
+    const CT = window.ClayTerms, sc = CT && CT.mention && CT.scope ? CT.scope() : null;
+    const termOf = id => (Array.isArray(terms) ? terms : []).find(x => x && x.id === id) || UT[id] || (GLO.ready && GLO.term(id)) || null;
     return s.replace(/\{\{tm:(sporting|compak)\}\}/g, (m, d) => d === "compak" ? "Compak® Sporting" : seen ? "Sporting™" : (seen = true, "Parcours de Chasse – Sporting™"))
-      .replace(/\{\{term:[a-z0-9-]+\|([^}]*)\}\}/g, "$1").replace(/\{\{(?:term|rule|lesson|fact):([^}|]*)[^}]*\}\}/g, (m, x) => x.split(":").pop()); }
-  function plainQuiz(q) { q.q = plainTok(q.q); q.explain = plainTok(q.explain); (q.options || []).forEach(o => { o.text = plainTok(o.text); }); return q; }
-  function plainLesson(D) { (D.quiz || []).forEach(plainQuiz); (D.phrases || []).forEach(p => { p.meaning = plainTok(p.meaning); p.say = plainTok(p.say); }); D.summary = plainTok(D.summary); return D; }
+      .replace(/\{\{term:([a-z0-9-]+)(?:\|([^}|]*))?(?:\|([a-z]+))?\}\}/g, (m, id, form, flag, at, str) => { const x = termOf(id);
+        if (!sc || !x || !x.en) return form || (x && x.en) || id;
+        // a quoted English word («Protest!»): as written; its local word after the closing quote (terms.js mention(), "quoted")
+        const rest = str.slice(at + m.length), q = !!CT.quoted && CT.quoted(str.slice(0, at), rest) && CT.englishForm(form, [x.en], []);
+        const own = q && /^[!?.…]*\s*[»“”"’›‘]\s*\(/.test(rest);
+        const r = CT.mention({ en: x.en, local: x.local || "", raw: x.raw || "", form: form || "", names: [x.en], id, lang: LANG, plural: flag === "pl",
+          quoted: q, first: !own && sc.first(id, at), start: CT.atStart(str.slice(0, at).replace(/\{\{[^{}]*\}\}/g, "x")) });
+        return r.after ? `${r.text}\u0000${r.after}\u0001` : r.text; })
+      .replace(/\u0000([^\u0001]*)\u0001([!?.…]*\s*[»“”"’›‘])/g, "$2$1").replace(/[\u0000\u0001]/g, "")
+      .replace(/\{\{(?:rule|lesson|fact):([^}|]*)[^}]*\}\}/g, (m, x) => x.split(":").pop()); }
+  function plainQuiz(q, terms) { q.q = plainTok(q.q, terms); q.explain = plainTok(q.explain, terms); (q.options || []).forEach(o => { o.text = plainTok(o.text, terms); }); return q; }
+  function plainLesson(D) { const T = D.terms || []; (D.quiz || []).forEach(q => plainQuiz(q, T)); (D.phrases || []).forEach(p => { p.meaning = plainTok(p.meaning, T); p.say = plainTok(p.say, T); }); D.summary = plainTok(D.summary, T); return D; }
   /* A title the build has not got in this language yet (null) falls back to the readable id, so no heading or link is empty. */
   const pretty = id => { const s = String(id || "").replace(/-/g, " "); return s.charAt(0).toUpperCase() + s.slice(1); };
   function plainCatalog(C) {

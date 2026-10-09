@@ -22,13 +22,17 @@
     "history-live-birds-to-clays-q2": "52b0041d",
     "history-live-birds-to-clays-q3": "489d7fa3"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Dai piccioni vivi al piattello di argilla",
-  "summary": "Come nel XIX secolo i tiratori passarono dai piccioni vivi alle palle di vetro e poi ai piattelli di argilla, e cosa quel percorso ha lasciato nello sport di oggi.",
+  "summary": "Come nel XIX secolo i tiratori passarono dai piccioni vivi alle {{term:glass-ball|palle di vetro}} e poi ai {{term:target|piattelli}} di argilla, e cosa quel percorso ha lasciato nello sport di oggi.",
   "body": {
     "history-live-birds-to-clays-p1": "Il tiro a volo moderno nasce dalla caccia. I cacciatori volevano allenarsi fuori stagione e competere a parità di condizioni. Nel XVIII e XIX secolo, soprattutto in Inghilterra, usavano come bersaglio piccioni vivi liberati da piccole scatole davanti al tiratore.",
     "history-live-birds-to-clays-p2": "Quell'epoca ha lasciato parole che usiamo ancora. In inglese la macchina lanciapiattelli si chiama ancora {{term:trap|trap}}, il vecchio nome della scatola che teneva l'uccello. La {{term:call|chiamata}} «pull» viene spesso collegata alla corda che si tirava per aprire la scatola. È una bella storia, ma non ne esiste una prova scritta.",
-    "history-live-birds-to-clays-p3": "Il tiro ai piccioni vivi attirava sempre più critiche. Gli uccelli erano anche costosi, e ognuno volava in modo diverso. Le palle di vetro diventarono un'alternativa: un semplice dispositivo le lanciava in aria, e all'impatto si frantumavano. Arrivavano dall'Inghilterra, ma nessuno sa con precisione quando vi furono usate per la prima volta. Giunsero negli Stati Uniti intorno al 1866, e lì il tiro alle palle di vetro ebbe il suo periodo d'oro all'incirca dal 1877 al 1883.",
+    "history-live-birds-to-clays-p3": "Il tiro ai piccioni vivi attirava sempre più critiche. Gli uccelli erano anche costosi, e ognuno volava in modo diverso. Le {{term:glass-ball|palle di vetro}} diventarono un'alternativa: un semplice dispositivo le lanciava in aria, e all'impatto si frantumavano. Arrivavano dall'Inghilterra, ma nessuno sa con precisione quando vi furono usate per la prima volta. Giunsero negli Stati Uniti intorno al 1866, e lì il tiro alle palle di vetro ebbe il suo periodo d'oro all'incirca dal 1877 al 1883.",
     "history-live-birds-to-clays-p4": "Il vetro aveva un difetto grave: dopo ogni gara il campo restava coperto di schegge taglienti, e gli animali al pascolo potevano ferirsi. La svolta arrivò nel 1880, quando un inventore americano brevettò un {{term:target|piattello}} piatto, a forma di piattino, di argilla cotta. Da qui viene il nome inglese clay pigeon.",
     "history-live-birds-to-clays-p5": "I primi piattelli erano davvero di argilla cotta. In seguito i produttori passarono a una miscela di pece (una sostanza nera, simile al catrame, usata come legante) e calcare, e con quella si fa ancora la maggior parte dei piattelli. Esistono anche {{term:biodegradable-target|piattelli biodegradabili}} senza pece. Ma il nome è rimasto, e in inglese l'intero sport si chiama clay shooting.",
     "history-live-birds-to-clays-p6": "Col tempo il tiro ai piccioni vivi è scomparso o è stato vietato in molti paesi. Nel Regno Unito lo vietò una legge del 1921, il Captive Birds Shooting (Prohibition) Act. Nel 2003 l'Assemblea generale della {{term:fitasc|FITASC}} (la riunione di tutte le federazioni membre) votò di sospendere tutte le gare in cui gli animali vivi servivano da bersaglio.",
@@ -46,19 +50,31 @@
   "did_you_know": "I piattelli non sono più fatti di argilla da molto tempo, eppure in inglese si chiamano ancora clay pigeons, o semplicemente clays.",
   "quiz": {
     "history-live-birds-to-clays-q1": {
-      "q": "Cosa usavano come bersaglio i tiratori prima dei piattelli?",
-      "options": { "a": "Bersagli di carta appesi a un muro", "b": "Palle di vetro, e ancora prima piccioni vivi", "c": "Lastre di metallo fissate a un telaio" },
+      "q": "Cosa usavano come bersaglio i tiratori prima dei {{term:target|piattelli}}?",
+      "options": {
+        "a": "Bersagli di carta appesi a un muro",
+        "b": "Palle di vetro, e ancora prima piccioni vivi",
+        "c": "Lastre di metallo fissate a un telaio"
+      },
       "explain": "Prima vennero i piccioni vivi, poi le palle di vetro, e dal 1880 i piattelli di argilla."
     },
     "history-live-birds-to-clays-q2": {
-      "q": "Quando e dove fu brevettato il piattello di argilla?",
-      "options": { "a": "Nel 1921, in Inghilterra", "b": "Nel 1900, in Francia", "c": "Nel 1880, negli Stati Uniti" },
+      "q": "Quando e dove fu brevettato il {{term:target|piattello}} di argilla?",
+      "options": {
+        "a": "Nel 1921, in Inghilterra",
+        "b": "Nel 1900, in Francia",
+        "c": "Nel 1880, negli Stati Uniti"
+      },
       "explain": "Un inventore americano brevettò il piattello di argilla nel 1880. Nel 1921 una legge britannica vietò il tiro ai piccioni vivi."
     },
     "history-live-birds-to-clays-q3": {
-      "q": "Perché si abbandonarono le palle di vetro?",
-      "options": { "a": "Dopo il tiro il campo restava coperto di schegge di vetro", "b": "Erano troppo grandi per mancarle", "c": "Una federazione le vietò con un regolamento" },
-      "explain": "Il vetro lasciava schegge pericolose, e il piattello di argilla risolse quel problema."
+      "q": "Perché si abbandonarono le {{term:glass-ball|palle di vetro}}?",
+      "options": {
+        "a": "Dopo il tiro il campo restava coperto di schegge di vetro",
+        "b": "Erano troppo grandi per mancarle",
+        "c": "Una federazione le vietò con un regolamento"
+      },
+      "explain": "Il vetro lasciava schegge pericolose, e il {{term:target|piattello}} di argilla risolse quel problema."
     }
   }
 }

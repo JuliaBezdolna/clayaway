@@ -32,7 +32,7 @@
   "summary": "Mire figyelj a korongbemutatás alatt: honnan jelenik meg a korong, merre repül, hol töröd el, és mit nem szabad tenned.",
   "body": {
     "targets-reading-a-target-p1": "A korong „kiolvasása” azt jelenti, hogy a lövés előtt megérted, hogyan repül: honnan jelenik meg, milyen gyorsan mozog, hol fordul, emelkedik vagy esik. A tapasztalt lövészek minden lőálláson ezt teszik, és ez gyakran a találat és a hiba közti különbség. Ugyanolyan fontos a {{tm:sporting}}-ban és a {{tm:compak}}-ban.",
-    "targets-reading-a-target-p2": "Kezdd a {{term:target-menu|kottával}}: melyik dobógépek, milyen sorrendben, és van-e különleges korong. Majd figyelj alaposan a korongbemutatásra ({{term:target-presentation|presentation}}). A {{tm:sporting}}-ban egy lőállás korongjait lövés előtt megmutatják a rotte első lövészének. A vadászdubléket nem mutatják. A {{tm:compak}}-nak saját módja van a korongok bemutatására. A részletek az {{lesson:rules-viewing-targets}} órában vannak.",
+    "targets-reading-a-target-p2": "Kezdd a {{term:target-menu|kottával}}: melyik dobógépek, milyen sorrendben, és van-e különleges korong. Majd figyelj alaposan a korongbemutatásra – {{term:target-presentation|presentation}}. A {{tm:sporting}}-ban egy lőállás korongjait lövés előtt megmutatják a rotte első lövészének. A vadászdubléket nem mutatják. A {{tm:compak}}-nak saját módja van a korongok bemutatására. A részletek az {{lesson:rules-viewing-targets}} órában vannak.",
     "targets-reading-a-target-p3": "Tegyél fel magadnak egyszerű kérdéseket. Hol látom először tisztán a korongot? Ez a {{term:pick-up-point|felvételi pontod}}, ahol a szemed elkezdi követni. Hol a legkönnyebb eltörni? Ez a {{term:break-point|lövési pontod}}. Ott a korongnak még jól láthatónak kell lennie, nem szabad fák mögé esnie vagy egy {{term:shooting-limit|lövészeti határon}} túl repülnie.",
     "targets-reading-a-target-points": "Hogyan dolgozik együtt a {{term:hold-point|tartási pont}}, a felvételi pont és a lövési pont, az {{lesson:technique-hold-pickup-break-points}} óra magyarázza el.",
     "targets-reading-a-target-p4": "Figyeld meg a sebességet, a távolságot és a szöget, és azt, mit csinál a korong: emelkedik, lassul vagy esik. A szél felemelheti a korongot, vagy lefelé nyomhatja, és egy sötét fasor vagy egy fényes égbolt megváltoztatja, hogyan látod. Egy lassuló korongnak kisebb {{term:lead|elétartás}} kell, mint egy teljes sebességűnek.",
@@ -49,19 +49,19 @@
     "targets-reading-a-target-kp1": "Előbb a kotta, aztán alaposan figyeld a korongbemutatást.",
     "targets-reading-a-target-kp2": "Találd meg, hol látod először tisztán a korongot, és hol fogod eltörni.",
     "targets-reading-a-target-kp3": "Figyeld a sebességet, a szöget, a szelet, a hátteret, és hogy lassul-e a korong.",
-    "targets-reading-a-target-kp4": "Csak a szemeddel kövesd; a {{tm:sporting}}-ban a lövés imitálása sehol a lőtéren nem megengedett, a {{tm:compak}}-ban a lőállásokon kívül, és amíg más lő, sem.",
+    "targets-reading-a-target-kp4": "Csak a szemeddel kövesd; a {{tm:sporting}}-ban a {{term:mock-shooting|lövés imitálása}} sehol a lőtéren nem megengedett, a {{tm:compak}}-ban a lőállásokon kívül, és amíg más lő, sem.",
     "targets-reading-a-target-kp5": "{{tm:sporting}} nehézségi osztályok: {{fact:targets.sporting-difficulty-classes}}."
   },
   "did_you_know": "A {{tm:sporting}}-ban a vadászdubléket nem mutatják meg, de a két korongot már láttad: a dublékhez csak olyan korongokat használnak, amelyeket ugyanarról a lőállásról már szólóként megmutattak.",
   "quiz": {
     "targets-reading-a-target-q1": {
-      "q": "Mi a lövési pont (break point)?",
+      "q": "Mi a {{term:break-point|lövési pont}}?",
       "options": {
         "a": "Ahol tervezed eltörni a korongot",
         "b": "Ahol az azt kidobó dobógép áll",
         "c": "Ahol a korong leér a földre"
       },
-      "explain": "A lövési pont (break point) a röppályának az a helye, amelyet előre kiválasztasz."
+      "explain": "A {{term:break-point|lövési pont}} a röppályának az a helye, amelyet előre kiválasztasz."
     },
     "targets-reading-a-target-q2": {
       "q": "A {{tm:sporting}}-ban, a korongbemutatás alatt, szabad-e vállba venni a fegyvert, és vezetni a korong vonalán?",

@@ -44,20 +44,20 @@
     "origin": "interpreter-academy"
   },
   "title": "Jak jest zbudowane pole {{tm:compak}}",
-  "summary": "Pięć stanowisk, sześć wyrzutni od A do F, oznaczony prostokąt i menu na każdym stanowisku: jak przebiega seria {{tm:compak}} i jak przesuwa się grupa.",
+  "summary": "Pięć {{term:shooting-stand|stanowisk}}, sześć {{term:trap|wyrzutni}} od A do F, oznaczony prostokąt i menu na każdym stanowisku: jak przebiega {{term:round|seria}} {{tm:compak}} i jak przesuwa się {{term:squad|grupa}}.",
   "body": {
     "targets-compak-layout-p1": "{{tm:compak}} to zwarta dyscyplina FITASC. Została {{fact:community.compak-created}}. W przeciwieństwie do {{tm:sporting}}, który rozciąga się na naturalnym terenie, pole Compak buduje się według jednego ustalonego planu, z określonymi wymiarami.",
     "sport-compak-layout-p1": "{{tm:compak}} mieści się na jednym polu. Przed strzelcami wyznaczony jest prostokąt o szerokości 35–40 m i głębokości 25 m, z palikiem z flagą w każdym rogu. Przepisy wymagają go na każdym polu. Przy bezwietrznej pogodzie każdy rzutek musi w którymś momencie swojego lotu przelecieć nad tym prostokątem.",
-    "targets-compak-layout-p2": "Narożne paliki mają wysokość około 50 cm. Boki {{term:fly-over-zone|prostokąta}} nazywają się AB, BC, CD i AD, a AD to bok zwrócony do strzelców. Linia stanowisk jest równoległa do AD i leży 4–8 m za nim, a stanowisko 3 znajduje się naprzeciw jego środka.",
-    "sport-compak-layout-p2": "Pięć stanowisk strzeleckich, każde to kwadrat 1 m, stoi w linii, 2–5 m między środkami. Są ponumerowane od 1 do 5 od lewej do prawej. Każde stanowisko ma {{term:firing-angle-limiter|ogranicznik kąta strzału}} (Firing Angle Limiter) — ramę z rur. Ogranicza, jak daleko można poprowadzić broń w bok, w górę czy w dół, i nie pozwala strzelcowi się przechylić albo zrobić kroku do przodu.",
-    "sport-compak-layout-p3": "Sześć wyrzutni, od A do F od lewej do prawej, ma tabliczkę ze swoją literą. Mogą stać z przodu, po bokach albo za strzelcami; wyrzutnia za linią stoi na {{term:tower|wieży}} (tower), {{fact:targets.compak-tower-height}}. Każde pole Compak musi mieć trzy obowiązkowe tory lotu. Dwa to {{term:crosser|rzutki poprzeczne}}: jeden leci z lewej na prawą, drugi z prawej na lewą, i obydwa przelatują nad bokami AB i CD. Trzeci to {{term:going-away|rzutek odlatujący}}, lecący od strzelców nad bokiem BC. Pozostałe tory lotu wybiera organizator; są krótkie, by nie docierać do sąsiedniego pola.",
-    "compak-layout-rotation-p3": "{{term:round|Seria}} to 25 rzutków, po pięć na każdym stanowisku. Pięć rzutków stanowiska układa się według jednego z trzech wariantów: {{fact:targets.compak-station-menus}}. Na jednym polu wszystkie dublety są tego samego rodzaju: albo po strzale (drugi rzutek wylatuje, gdy strzelasz do pierwszego), albo jednoczesne (oba wylatują razem). {{term:target-menu|Menu}} — lista rzutków stanowiska w kolejności — jest wywieszone na każdym stanowisku. Stanowiska są połączone w łańcuch: {{fact:targets.compak-double-chain}}.",
+    "targets-compak-layout-p2": "Narożne paliki mają wysokość około 50 cm. Boki {{term:fly-over-zone|prostokąta}} nazywają się AB, BC, CD i AD, a AD to bok zwrócony do strzelców. Linia {{term:shooting-stand|stanowisk}} jest równoległa do AD i leży 4–8 m za nim, a stanowisko 3 znajduje się naprzeciw jego środka.",
+    "sport-compak-layout-p2": "Pięć stanowisk strzeleckich, każde to kwadrat 1 m, stoi w linii, 2–5 m między środkami. Są ponumerowane od 1 do 5 od lewej do prawej. Każde stanowisko ma {{term:firing-angle-limiter|ogranicznik kąta strzału}} — ramę z rur. Ogranicza, jak daleko można poprowadzić broń w bok, w górę czy w dół, i nie pozwala strzelcowi się przechylić albo zrobić kroku do przodu.",
+    "sport-compak-layout-p3": "Sześć {{term:trap|wyrzutni}}, od A do F od lewej do prawej, ma tabliczkę ze swoją literą. Mogą stać z przodu, po bokach albo za strzelcami; wyrzutnia za linią stoi na {{term:tower|wieży}}, {{fact:targets.compak-tower-height}}. Każde pole Compak musi mieć trzy obowiązkowe tory lotu. Dwa to {{term:crosser|rzutki poprzeczne}}: jeden leci z lewej na prawą, drugi z prawej na lewą, i obydwa przelatują nad bokami AB i CD. Trzeci to {{term:going-away|rzutek odlatujący}}, lecący od strzelców nad bokiem BC. Pozostałe tory lotu wybiera organizator; są krótkie, by nie docierać do sąsiedniego pola.",
+    "compak-layout-rotation-p3": "{{term:round|Seria}} to 25 rzutków, po pięć na każdym stanowisku. Pięć rzutków stanowiska układa się według jednego z trzech wariantów: {{fact:targets.compak-station-menus}}. Na jednym polu wszystkie {{term:double|dublety}} są tego samego rodzaju: albo {{term:double-on-report|po strzale}}, w których drugi rzutek wylatuje, gdy strzelasz do pierwszego, albo {{term:simultaneous-double|jednoczesne}}, w których oba wylatują razem. {{term:target-menu|Menu}} — lista rzutków stanowiska w kolejności — jest wywieszone na każdym stanowisku. Stanowiska są połączone w łańcuch: {{fact:targets.compak-double-chain}}.",
     "targets-compak-layout-p5": "FITASC udostępnia {{fact:targets.compak-setting-tables}} i radzi używać ich na zawodach. Jak czytać kartę menu, wyjaśnia lekcja {{lesson:targets-menu}}.",
-    "compak-layout-rotation-p4": "Jak przesuwa się grupa do sześciu osób wzdłuż stanowisk: pierwszy strzela ten, kto stoi na stanowisku 1, a szósty strzelec czeka za stanowiskiem 1. Gdy strzelec na stanowisku 5 skończy, wszyscy przesuwają się o jedno stanowisko w prawo. Strzelec ze stanowiska 5 idzie czekać za stanowisko 1, a ten, kto czekał, wchodzi na stanowisko 1. Stanowiska zmienia się z bronią otwartą i rozładowaną, nie przeszkadzając temu, kto jeszcze strzela.",
+    "compak-layout-rotation-p4": "Jak przesuwa się {{term:squad|grupa}} do sześciu osób wzdłuż stanowisk: pierwszy strzela ten, kto stoi na stanowisku 1, a szósty strzelec czeka za stanowiskiem 1. Gdy strzelec na stanowisku 5 skończy, wszyscy przesuwają się o jedno stanowisko w prawo. Strzelec ze stanowiska 5 idzie czekać za stanowisko 1, a ten, kto czekał, wchodzi na stanowisko 1. Stanowiska zmienia się z bronią otwartą i rozładowaną, nie przeszkadzając temu, kto jeszcze strzela.",
     "targets-compak-layout-p6": "Masz do 10 sekund, by zawołać swój rzutek po tym, jak strzelono do rzutka poprzedniego stanowiska. Gdy nadejdzie twoja kolej, bądź gotowy od razu, z nabojami na całą serię.",
     "sport-compak-layout-p5": "Na niektórych zawodach {{tm:compak}} strzela się inaczej — in line: każdy strzelec zaczyna na stanowisku 1 i kończy na stanowisku 5. Zapytaj organizatora, jaki system obowiązuje, bo procedura jest inna.",
     "targets-compak-layout-p7": {
-      "sporting": "Broń zaczyna niżej: górna część kolby zostaje poniżej {{term:jacket-line|linii na kamizelce}}, aż pojawi się rzutek.",
+      "sporting": "Broń zaczyna niżej: górna część {{term:stock|kolby}} zostaje poniżej {{term:jacket-line|linii na kamizelce}}, aż pojawi się rzutek.",
       "compak": "Pozycja jest wolna: broń może już być przy ramieniu (złożona). Każdy rzutek strzela się jednak z bronią przy ramieniu."
     }
   },
@@ -102,7 +102,7 @@
   "did_you_know": "Dzięki łańcuchowi dubletów sędzia może pokazać następnemu strzelcowi rzutek, od którego zacznie się jego dublet: ostatni rzutek poprzedniego stanowiska.",
   "quiz": {
     "sport-compak-layout-q1": {
-      "q": "Ile wyrzutni i stanowisk ma jedno pole {{tm:compak}}?",
+      "q": "Ile {{term:trap|wyrzutni}} i {{term:shooting-stand|stanowisk}} ma jedno pole {{tm:compak}}?",
       "options": {
         "a": "4 wyrzutnie, 3 stanowiska",
         "b": "6 wyrzutni, 5 stanowisk",
@@ -112,7 +112,7 @@
       "explain": "Wyrzutnie od A do F i stanowiska od 1 do 5."
     },
     "compak-layout-rotation-q2": {
-      "q": "Strzelec na stanowisku 5 skończył swoje menu. Dokąd idzie?",
+      "q": "Strzelec na {{term:shooting-stand|stanowisku}} 5 skończył swoje menu. Dokąd idzie?",
       "options": {
         "a": "Na stanowisko 1",
         "b": "Zostaje na stanowisku 5",
@@ -131,32 +131,32 @@
       "explain": "W {{tm:compak}} pozycja broni w momencie komendy jest wolna, ale strzela się zawsze z bronią przy ramieniu. Broń niżej z linią na kamizelce to zasada {{tm:sporting}}."
     },
     "sport-compak-layout-q2": {
-      "q": "Gdzie w grupie sześciu osób jest szósty strzelec, gdy pozostali strzelają?",
+      "q": "Gdzie w {{term:squad|grupie}} sześciu osób jest szósty strzelec, gdy pozostali strzelają?",
       "options": {
         "a": "W budynku klubowym",
-        "b": "Obok sędziego przy stanowisku 5",
-        "c": "Za wyrzutnią F",
-        "d": "Czeka za stanowiskiem 1"
+        "b": "Obok sędziego przy {{term:shooting-stand|stanowisku}} 5",
+        "c": "Za {{term:trap|wyrzutnią}} F",
+        "d": "Czeka za {{term:shooting-stand|stanowiskiem}} 1"
       },
       "explain": "Czekający strzelec stoi za stanowiskiem 1 i wchodzi na nie po każdej zmianie."
     },
     "sport-compak-layout-q3": {
-      "q": "Do czego służy ogranicznik kąta strzału (Firing Angle Limiter)?",
+      "q": "Do czego służy {{term:firing-angle-limiter|ogranicznik kąta strzału}}?",
       "options": {
         "a": "Ogranicza ruch broni i nie pozwala zrobić kroku do przodu",
         "b": "Mierzy prędkość każdego wyrzuconego rzutka",
         "c": "Przechowuje naboje na całą serię",
         "d": "Zwalnia rzutki na komendę strzelca"
       },
-      "explain": "To rama bezpieczeństwa na każdym stanowisku, ograniczająca ruch broni w bok i w pionie."
+      "explain": "To rama bezpieczeństwa na każdym {{term:shooting-stand|stanowisku}}, ograniczająca ruch broni w bok i w pionie."
     },
     "compak-layout-rotation-q3": {
-      "q": "Na polu Compak pierwszy rzutek każdego dubletu to…",
+      "q": "Na polu Compak pierwszy rzutek każdego {{term:double|dubletu}} to…",
       "options": {
         "a": "dowolny rzutek, od którego strzelec chce zacząć",
-        "b": "zawsze rzutek z wyrzutni A",
+        "b": "zawsze rzutek z {{term:trap|wyrzutni}} A",
         "c": "rzutek pokazywany tylko na prośbę strzelca",
-        "d": "ostatni rzutek strzelany na poprzednim stanowisku"
+        "d": "ostatni rzutek strzelany na poprzednim {{term:shooting-stand|stanowisku}}"
       },
       "explain": "Menu łączy stanowiska w łańcuch: każdy dublet zaczyna się od rzutka, którym zakończyło się poprzednie stanowisko."
     },
@@ -170,7 +170,7 @@
       "explain": "W bezwietrzną pogodę każdy rzutek musi w którymś momencie swojego lotu przelecieć nad prostokątem."
     },
     "targets-compak-layout-q-line": {
-      "q": "Gdzie na polu Compak leży linia stanowisk?",
+      "q": "Gdzie na polu Compak leży linia {{term:shooting-stand|stanowisk}}?",
       "options": {
         "a": "4–8 m za bokiem AD, równolegle do niego",
         "b": "Wewnątrz prostokąta, koło boku BC",

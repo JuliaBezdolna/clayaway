@@ -28,9 +28,9 @@
   "title": "Fix és cserélhető szűkületek",
   "summary": "A szűkületek vagy véglegesen a csőbe vannak megmunkálva, vagy becsavarható, cserélhető tubusok. Mindkét lehetőségről, és arról, mikor engedik meg a {{tm:sporting}} és a {{tm:compak}} szabályai a cseréjüket.",
   "body": {
-    "chokes-fixed-and-multichoke-p1": "A {{term:fixed-choke|fix szűkületet}} (fixed choke) a gyárban munkálják bele a csőbe, és csak egy {{term:gunsmith|puskaműves}} tudja megváltoztatni. Sok régebbi és klasszikus fegyver így készül. Egy ilyen bocknak rendszerint két különböző szűkítése van, például 1/4 és 1/2, és a lövész azzal dolgozik, amije van.",
-    "chokes-fixed-and-multichoke-p2": "A {{term:multichoke|cserélhető szűkületek}} (multichoke) rövid, menetes tubusok, amelyeket egy {{term:choke-key|szűkületkulccsal}} csavarnak a torkolatba. A legtöbb modern versenyfegyvernek ilyen van. A fegyverhez egy több szűkületből álló készlet jár, és a lövész azokat szereli be, amelyek illenek a korongokhoz.",
-    "chokes-fixed-and-multichoke-p3": "A tubusok vagy sík felületűek (flush, egy szintben a cső végével), vagy {{term:extended-choke|kiállóak}} (extended): kiállnak a torkolatból, gyakran 1–5 cm-rel. Sok kiálló szűkület kézzel is elforgatható, és a jelölésük leolvasható anélkül, hogy kivennéd őket.",
+    "chokes-fixed-and-multichoke-p1": "A {{term:fixed-choke|fix szűkületet}} a gyárban munkálják bele a csőbe, és csak egy {{term:gunsmith|puskaműves}} tudja megváltoztatni. Sok régebbi és klasszikus fegyver így készül. Egy ilyen bocknak rendszerint két különböző szűkítése van, például 1/4 és 1/2, és a lövész azzal dolgozik, amije van.",
+    "chokes-fixed-and-multichoke-p2": "A {{term:multichoke|cserélhető szűkületek}} rövid, menetes tubusok, amelyeket egy {{term:choke-key|szűkületkulccsal}} csavarnak a torkolatba. A legtöbb modern versenyfegyvernek ilyen van. A fegyverhez egy több szűkületből álló készlet jár, és a lövész azokat szereli be, amelyek illenek a korongokhoz.",
+    "chokes-fixed-and-multichoke-p3": "A tubusok vagy sík felületűek (flush, egy szintben a cső végével), vagy {{term:extended-choke|kiállóak}}: kiállnak a torkolatból, gyakran 1–5 cm-rel. Sok kiálló {{term:choke|szűkület}} kézzel is elforgatható, és a jelölésük leolvasható anélkül, hogy kivennéd őket.",
     "chokes-fixed-and-multichoke-p4": "A menetek és méretek eltérnek a gyártók között, és akár ugyanazon gyártó modelljei között is. Egy másik rendszerből származó szűkület nem feltétlenül illik, vagy rosszul csavarodhat be, ami veszélyes. Csak a fegyveredhez készült szűkületeket vedd meg.",
     "chokes-fixed-and-multichoke-cmp1": {
       "sporting": "A lőállások között, vagy a szóló korongok és a dublék között cserélheted a szűkületet, az egész fegyvert vagy egy csövet, ha ez nem okoz késlekedést. Amint felléptél a lőállásra, már nincs több csere.",
@@ -51,9 +51,9 @@
       "q": "Mikor cserélhetsz szűkületet a {{tm:sporting}}-ban?",
       "options": {
         "a": "A lőállások között, ha ez nem okoz késlekedést",
-        "b": "A lőálláson, közvetlenül a dublé előtt",
+        "b": "A lőálláson, közvetlenül a {{term:double|dublé}} előtt",
         "c": "Csak a nap első lőállása előtt",
-        "d": "Csak a zsűri írásos beleegyezésével"
+        "d": "Csak a {{term:jury|zsűri}} írásos beleegyezésével"
       },
       "explain": "A lőállások között, vagy a szólók és a dublék között cserélhetsz, de nem akkor, ha már a lőálláson vagy."
     },
@@ -78,7 +78,7 @@
       "explain": "A szűkületrendszerek eltérnek; egy rossz szűkület károsíthatja a csövet."
     },
     "chokes-fixed-and-multichoke-q4": {
-      "q": "Mi az a kiálló szűkület (extended choke)?",
+      "q": "Mi az az {{term:extended-choke|kiálló szűkület}}?",
       "options": {
         "a": "Egy szűkebb szűkület, mint a full",
         "b": "Egy a csőbe megmunkált szűkület",

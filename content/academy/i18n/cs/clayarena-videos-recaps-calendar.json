@@ -39,12 +39,12 @@
   "body": {
     "clayarena-videos-recaps-calendar-p1": "Na ClayArena jsou videa ze soutěží {{tm:sporting}} a {{tm:compak}}, seskupená podle akcí. Pokud na soutěž nemůžete jet, umožňují vidět sport zblízka. Pro začátečníka jsou navíc bezplatnou lekcí techniky a pravidel.",
     "watching-videos-and-recaps-p2": "Nedívejte se na videa jako na film, ale jako student. Vyberte si jednoho střelce a sledujte ho přes několik terčů po sobě. Nejdřív se dívejte jen na nohy a {{term:stance|postoj}}, pak jen na zbraň, pak jen na hlavu a tvář.",
-    "watching-videos-and-recaps-p3": "Hledejte tři body. {{term:hold-point|Bod držení zbraně}} je místo, kde čekají ústí hlavní (přední konce hlavní), zatímco střelec volá terč. {{term:pick-up-point|Bod zachycení terče}} je místo, kde oči poprvé jasně uvidí terč. {{term:break-point|Místo zásahu}} je, kde ho střelec plánuje rozbít. Zkušení střelci se mezi těmito body obvykle pohybují klidně a bez spěchu. Víc v {{lesson:technique-hold-pickup-break-points}}.",
-    "watching-videos-and-recaps-p4": "Další detail je {{term:follow-through|dotažení švihu}} (follow-through): po výstřelu se zbraň nezastaví, ale pokračuje v pohybu podél dráhy terče. Pokud vám přehrávač videa umožní pozastavit nebo zpomalit záznam, využijte to.",
+    "watching-videos-and-recaps-p3": "Hledejte tři body. {{term:hold-point|Bod držení zbraně}} je místo, kde čekají {{term:muzzle|ústí hlavní}}, tedy přední konce hlavní, zatímco střelec volá terč. {{term:pick-up-point|Bod zachycení terče}} je místo, kde oči poprvé jasně uvidí terč. {{term:break-point|Místo zásahu}} je, kde ho střelec plánuje rozbít. Zkušení střelci se mezi těmito body obvykle pohybují klidně a bez spěchu. Víc v {{lesson:technique-hold-pickup-break-points}}.",
+    "watching-videos-and-recaps-p4": "Další detail je {{term:follow-through|dotažení švihu}}: po výstřelu se zbraň nezastaví, ale pokračuje v pohybu podél dráhy terče. Pokud vám přehrávač videa umožní pozastavit nebo zpomalit záznam, využijte to.",
     "clayarena-videos-recaps-calendar-p2": "Hledejte ve videu i pravidla, která už znáte. Když je vidíte na skutečné soutěži, může být snazší si je zapamatovat.",
     "clayarena-videos-recaps-calendar-rules": {
-      "sporting": "Dokud se terč neobjeví, zůstává horní část pažby (části zbraně, která se opírá o rameno) pod {{term:jacket-line|čárou na vestě}}. Mezi stanovišti se zbraň nese otevřená: zbraň s překlápěcím závěrem je „přelomená“, s hlavněmi dolů, aby všichni viděli, že je bezpečná. Střelci, {{term:referee|rozhodčí}} a kdokoli poblíž stanoviště nosí {{term:safety-glasses|střelecké brýle}} a {{term:hearing-protection|chrániče sluchu}}.",
-      "compak": "Když střelec v {{tm:compak}} volá terč, zbraň může být už u ramene, nebo ještě spuštěná: pravidla to nechávají volné. Někteří střelci tak volají se zbraní už „zalícenou“, tedy u ramene. Před otočením na stanovišti střelec zbraň otevře. Střelci a rozhodčí nosí {{term:safety-glasses|střelecké brýle}}; {{term:hearing-protection|chrániče sluchu}} nosí všichni poblíž."
+      "sporting": "Dokud se terč neobjeví, zůstává horní část {{term:stock|pažby}}, tedy části zbraně, která se opírá o rameno, pod {{term:jacket-line|čárou na vestě}}. Mezi stanovišti se zbraň nese otevřená: zbraň s překlápěcím závěrem je „přelomená“, s hlavněmi dolů, aby všichni viděli, že je bezpečná. Střelci, {{term:referee|rozhodčí}} a kdokoli poblíž stanoviště nosí {{term:safety-glasses|střelecké brýle}} a {{term:hearing-protection|chrániče sluchu}}.",
+      "compak": "Když střelec v {{tm:compak}} volá terč, zbraň může být už u ramene, nebo ještě spuštěná: pravidla to nechávají volné. Někteří střelci proto volají terč už po {{term:gun-mount|zalícení}}, tedy se zbraní u ramene. Před otočením na stanovišti střelec zbraň otevře. Střelci a rozhodčí nosí {{term:safety-glasses|střelecké brýle}}; {{term:hearing-protection|chrániče sluchu}} nosí všichni poblíž."
     },
     "clayarena-videos-recaps-calendar-p3": "{{term:season-recap|Shrnutí sezóny}} shrnují rok: klíčová mistrovství, vítěze, žebříčky a významné výsledky. Na webu zůstávají i shrnutí minulých sezón. Pomáhají vidět, kdo je ve formě, které soutěže vynikají a kam byste mohli jet se podívat naživo.",
     "clayarena-videos-recaps-calendar-p4": "Kalendář soutěží ukazuje akce s daty a místy konání. Lze ho filtrovat podle stavu (plánované, probíhající, skončené), regionu a měsíce. Najdete tam velké mezinárodní soutěže i akce blíž domovu.",
@@ -81,7 +81,7 @@
       "explain": "Kalendář pomáhá najít soutěž, na kterou můžete jet, nebo kterou můžete sledovat."
     },
     "watching-videos-and-recaps-q2": {
-      "q": "Co je místo zásahu (break point)?",
+      "q": "Co je {{term:break-point|místo zásahu}}?",
       "options": {
         "a": "Místo, kde stojí střelec",
         "b": "Pauza mezi dvěma položkami",

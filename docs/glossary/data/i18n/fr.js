@@ -1945,14 +1945,13 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://www.chassemarket.com/tir-sportif/accessoires-tir-sportif.html"
   },
   "hang-fire": {
-   "term_local": "raté",
+   "term_local": "long feu",
    "short": "Coup retardé : la cartouche part un certain temps après la pression sur la détente. C'est pourquoi on n'ouvre pas tout de suite un fusil qui a fait long feu.",
    "long": "Le long feu est rare mais dangereux : rien ne se passe à la pression sur la détente, puis un instant plus tard la cartouche part quand même. Si vous ouvrez le fusil à ce moment-là, la douille peut éclater près de votre visage et de vos mains. Après toute défaillance, gardez donc le fusil à l'épaule, ou au moins dirigé dans une direction sûre, et attendez ; de nombreux moniteurs conseillent d'attendre environ 30 secondes. Dans les compétitions FITASC, après une défaillance, on n'ouvre pas le fusil et on ne touche pas à la sûreté avant que l'arbitre l'ait examiné, sinon le plateau est compté perdu. Ici, les règles de sécurité et d'arbitrage se rejoignent.",
    "alt": [
-    "long feu",
-    "raté du premier / deuxième coup"
+    "départ retardé"
    ],
-   "note": "FITASC emploie « raté » ; « long feu » = départ retardé.",
+   "note": "« raté » = misfire (la cartouche ne part pas) ; « long feu » = départ retardé.",
    "conf": "medium",
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },

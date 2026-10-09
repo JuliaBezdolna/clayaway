@@ -26,7 +26,11 @@
     "clayarena-coaches-grounds-tours-q6": "b5ef419f",
     "clayarena-coaches-grounds-tours-q7": "7bb57599"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Trainer und Schießstand auf ClayArena finden",
   "summary": "Was die ClayArena-Kataloge von Trainern und Schießständen zeigen, wie man sie nutzt und was man vor dem ersten Besuch fragen sollte.",
   "body": {
@@ -38,13 +42,13 @@
     "clayarena-coaches-grounds-tours-visit-steps": [
       "Kann ein Einsteiger kommen, und gibt es einen Lehrer oder Trainer?",
       "Kann man vor Ort eine Flinte mieten und Patronen kaufen?",
-      "Welche Disziplinen und {{term:layout|Layouts}} sind an diesem Tag offen?",
+      "Welche Disziplinen und Layouts sind an diesem Tag offen?",
       "Was sollte man mitbringen: Brille, {{term:hearing-protection|Gehörschutz}}, Dokumente?"
     ],
     "clayarena-coaches-grounds-tours-practice": "Steht an diesem Stand bald ein Wettkampf an, fragen Sie, wann Sie trainieren dürfen. Die beiden Disziplinen haben unterschiedliche Regeln:",
     "clayarena-coaches-grounds-tours-practice-compare": {
       "sporting": "Vor der Veranstaltung darf niemand auf den Wettkampflayouts trainieren (den für den Wettkampf eingerichteten Ständen und Scheiben). Auf den anderen Layouts des Stands können Sie trainieren.",
-      "compak": "Auf den Wettkampf-{{term:trajectory|Flugbahnen}} (den Flugwegen, die die Scheiben beim Wettkampf nehmen) dürfen Sie trainieren, aber mit einer anderen {{term:trajectory-setting-table|Flugbahntabelle}}. Das ist der Plan, der festlegt, welche Wurfmaschinen von jeder Schießstelle aus geschossen werden, als Einzelscheiben oder Doubletten. Beim Training kommen die Scheiben also nicht in denselben Kombinationen wie am Wettkampftag. Bei Kontinental- und Weltmeisterschaften beginnt das offizielle Training am Samstag vor der Veranstaltung."
+      "compak": "Auf den {{term:trajectory|Flugbahnen|pl}} des Wettkampfs (den Flugwegen, die die Scheiben beim Wettkampf nehmen) dürfen Sie trainieren, aber mit einer anderen {{term:trajectory-setting-table|Flugbahntabelle}}. Das ist der Plan, der festlegt, welche {{term:trap|Wurfmaschinen|pl}} von jeder Schießstelle aus geschossen werden, als Einzelscheiben oder {{term:double|Doubletten|pl}}. Beim Training kommen die Scheiben also nicht in denselben Kombinationen wie am Wettkampftag. Bei Kontinental- und Weltmeisterschaften beginnt das offizielle Training am Samstag vor der Veranstaltung."
     },
     "clayarena-coaches-grounds-tours-p6": "Planen Sie, an einem Stand in einem anderen Land zu trainieren? Prüfen Sie vorher die Regeln für die Mitnahme von Flinte und Patronen, oder fragen Sie den Stand, ob Sie dort eine Flinte mieten können. Mehr in {{lesson:travel-gun-in-eu}} und {{lesson:travel-gun-outside-eu}}.",
     "clayarena-coaches-grounds-tours-p3": "ClayArena bereitet außerdem Trainingsreisen mit einem Trainer vor, genannt {{term:clayaway|ClayAway}}. Sie werden vorbereitet und sind noch nicht gestartet: {{lesson:travel-clayaway-tour}}."
@@ -58,7 +62,7 @@
     "clayarena-coaches-grounds-tours-kp7": "Training vor einem Wettkampf: bei {{tm:sporting}} nicht auf den Wettkampflayouts; bei {{tm:compak}} mit anderen Flugbahntabellen.",
     "clayarena-coaches-grounds-tours-kp5": "Prüfen Sie vor dem Training im Ausland die Regeln für die Mitnahme einer Flinte."
   },
-  "did_you_know": "In beiden Disziplinen darf niemand einen Teilnehmer während des Wettkampfs {{term:coaching|coachen}}, also Tipps oder Zeichen geben. Bemerkt der Schiedsrichter das, erhält der Schütze eine {{term:yellow-card|Gelbe Karte}}, und der Schiedsrichter weist die coachende Person aus dem Schießbereich. Arbeiten Sie also vor und nach der Veranstaltung mit Ihrem Trainer.",
+  "did_you_know": "In beiden Disziplinen ist {{term:coaching|Coaching}} während des Wettkampfs verboten: Niemand darf einem Teilnehmer Tipps oder Zeichen geben. Bemerkt der Schiedsrichter das, erhält der Schütze eine {{term:yellow-card|Gelbe Karte}}, und der Schiedsrichter weist die coachende Person aus dem Schießbereich. Arbeiten Sie also vor und nach der Veranstaltung mit Ihrem Trainer.",
   "quiz": {
     "clayarena-coaches-grounds-tours-q4": {
       "q": "Nach was lässt sich der ClayArena-Trainerkatalog filtern?",
@@ -79,16 +83,16 @@
       "explain": "Bei {{tm:sporting}} darf niemand vor der Veranstaltung auf den Wettkampflayouts trainieren."
     },
     "clayarena-coaches-grounds-tours-q6": {
-      "q": "Ihr Trainer ist gekommen, um Ihren Wettkampf anzusehen. Was darf er tun, während Sie schießen?",
+      "q": "Ihr {{term:coach|Trainer}} ist gekommen, um Ihren Wettkampf anzusehen. Was darf er tun, während Sie schießen?",
       "options": {
         "a": "Ihnen zwischen den Scheiben Tipps geben",
         "b": "Ihnen von hinten Zeichen geben",
         "c": "Zuschauen, aber Sie nicht coachen"
       },
-      "explain": "Coaching während des Wettkampfs ist in keiner der beiden Disziplinen erlaubt: Es bringt eine Gelbe Karte."
+      "explain": "Coaching während des Wettkampfs ist in keiner der beiden Disziplinen erlaubt: Es bringt eine {{term:yellow-card|Gelbe Karte}}."
     },
     "clayarena-coaches-grounds-tours-q7": {
-      "q": "Wie dürfen Schützen vor einem {{tm:compak}}-Wettkampf auf dessen Flugbahnen trainieren?",
+      "q": "Wie dürfen Schützen vor einem {{tm:compak}}-Wettkampf auf dessen {{term:trajectory|Flugbahnen|pl}} trainieren?",
       "options": {
         "a": "Mit anderen Flugbahntabellen",
         "b": "Gar nicht, das ist verboten",

@@ -32,18 +32,18 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "lead-swing-through-p1": "Az {{term:swing-through|áthúzásnál}} (swing-through) a csövek a korong mögött indulnak, és megelőzik. Az edzők így foglalják össze: „butt, belly, beak, bang” – hátsórész, törzs, orr – lövés. Lépésről lépésre így néz ki:",
+    "lead-swing-through-p1": "A {{term:swing-through|áthúzásnál}} a csövek a korong mögött indulnak, és megelőzik. Az edzők így foglalják össze: „butt, belly, beak, bang” – hátsórész, törzs, orr – lövés. Lépésről lépésre így néz ki:",
     "lead-swing-through-p2": [
       "Kezdés: a csövek a korong mögött, a hátsó részén csatlakoznak a vonalához.",
       "Előzés: a fegyver gyorsabban mozog, mint a korong, a vonalán, a testén keresztül.",
       "Lövés: az elsütés akkor történik, amikor a csövek elhaladnak a korong eleje előtt, épp előtte.",
       "A lendítés a lövés után is folytatódik."
     ],
-    "lead-swing-through-delay": "A döntés és a lövés kilépése között rövid késés van. Mivel a fegyver gyorsabban mozog, mint a korong, ez alatt a pillanat alatt a csövek magától is tovább haladnak előre. Ezért akkor húzod meg a ravaszt, amikor kis távolságot látsz, vagy semmit, és a többit a fegyver sebessége adja hozzá. A lövés pillanatában a valós elétartás nagyobb, mint amit láttál.",
-    "lead-swing-through-p3": "Erősségek: természetes és gyors, jó kezdőknek. Illik közeli, gyors korongokhoz, {{term:driven-target|hajtásos korongokhoz}} (feléd jönnek, és a fejed fölött repülnek el), hátulról jövő {{term:overhead|fej feletti korongokhoz}}, valamint kiszámíthatatlan vagy meglepetésszerű korongokhoz.",
+    "lead-swing-through-delay": "A döntés és a lövés kilépése között rövid késés van. Mivel a fegyver gyorsabban mozog, mint a korong, ez alatt a pillanat alatt a csövek magától is tovább haladnak előre. Ezért akkor húzod meg a ravaszt, amikor kis távolságot látsz, vagy semmit, és a többit a fegyver sebessége adja hozzá. A lövés pillanatában a valós {{term:lead|elétartás}} nagyobb, mint amit láttál.",
+    "lead-swing-through-p3": "Erősségek: természetes és gyors, jó kezdőknek. Illik közeli, gyors korongokhoz, {{term:driven-target|hajtásos korongokhoz}} – feléd jönnek, és a fejed fölött repülnek el –, hátulról jövő {{term:overhead|fej feletti korongokhoz}}, valamint kiszámíthatatlan vagy meglepetésszerű korongokhoz.",
     "lead-swing-through-p4": "Gyengeségek: nagyon rövid az időablak az elsütésre. Hosszú keresztezőknél a lövésznek kifuthat az ideje, elveszítheti a vonalat, vagy túllendülhet. Ha lelassít, amint a csövek elérik a korongot, a lövés mögé megy.",
-    "lead-swing-through-p5": "A források nem egyeznek a „CPSA method” elnevezésen (a CPSA, a Clay Pigeon Shooting Association, Anglia stendlövészeti szövetsége). Egyesek áthúzásként értik, míg a mai CPSA-oktatást úgy írják le, hogy a pull-away-t (mutass oda és lendíts) tanítja. Ha egy edző „CPSA method”-ot mond, kérdezd meg, melyikre gondol.",
-    "lead-swing-through-sim": "Animáció: a csövek hátul indulnak, megelőzik a korongot, és akkor lősz, amikor áthaladnak az elülső élén. A megállított kép mutatja, hogy a valós elétartás nagyobb, mint a látott távolság."
+    "lead-swing-through-p5": "A források nem egyeznek a „CPSA method” elnevezésen (a CPSA, a Clay Pigeon Shooting Association, Anglia stendlövészeti szövetsége). Egyesek áthúzásként értik, míg a mai CPSA-oktatást úgy írják le, hogy a {{term:pull-away|mutass oda és lendíts}} módszert tanítja. Ha egy edző „CPSA method”-ot mond, kérdezd meg, melyikre gondol.",
+    "lead-swing-through-sim": "Animáció: a csövek hátul indulnak, megelőzik a korongot, és akkor lősz, amikor áthaladnak az elülső élén. A megállított kép mutatja, hogy a valós {{term:lead|elétartás}} nagyobb, mint a látott távolság."
   },
   "note": {
     "lead-swing-through-n1": "A brit angolban a „butt” helyett hallhatod a „bum” szót is. A korong hátsó részét jelenti, ezért fordítsd semleges szóval."
@@ -82,7 +82,7 @@
         "c": "Egy rögzített pontról a lövési pontnál",
         "d": "A korong mögül, a vonalán"
       },
-      "explain": "Az áthúzás hátulról indul, és megelőzi a korongot; az elölről indulás az elévezetés, a rögzített pont a lesből lövés."
+      "explain": "Az áthúzás hátulról indul, és megelőzi a korongot; az elölről indulás a {{term:maintained-lead|elévezetés}}, a rögzített pont a lesből lövés."
     },
     "lead-swing-through-q2": {
       "q": "Miért lát az áthúzással lövő kis elétartást vagy semennyit?",
@@ -106,5 +106,5 @@
     }
   },
   "title": "Áthúzás: hátulról, a korongon keresztül",
-  "summary": "Hogyan működik az áthúzás (swing-through) lépésről lépésre, miért látsz kis vagy semmilyen távolságot, és mely korongokhoz illik gyakran."
+  "summary": "Hogyan működik a {{term:swing-through|áthúzás}} lépésről lépésre, miért látsz kis vagy semmilyen távolságot, és mely korongokhoz illik gyakran."
 }

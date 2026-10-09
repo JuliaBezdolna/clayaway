@@ -24,14 +24,18 @@
     "interpreter-position-q2": "d99e7d3c",
     "interpreter-position-q3": "c569b016"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Dove metterti e quando parlare",
   "summary": "Dove si mette l'interprete in allenamento e in gara, quale modalità di interpretazione si adatta a quale momento, e perché si parla solo quando il fucile è aperto.",
   "body": {
-    "interpreter-position-p1": "In allenamento, mettiti proprio dietro il tiratore, accanto all'{{term:coach|istruttore}}, dietro la {{term:shooting-stand|pedana}} o la {{term:cage|gabbia}} e fuori da qualsiasi linea delle canne. Da lì vedi quello che vede l'istruttore, il piattello e le volate insieme, e l'istruttore può parlarti a bassa voce. Accanto al tiratore sei vicino al movimento del fucile e ai bossoli espulsi, e davanti alla pedana non può stare nessuno.",
-    "interpreter-position-p2": "Scegli la modalità in base al momento. L'{{term:consecutive-interpreting|interpretazione consecutiva}} (l'istruttore parla, fa una pausa, parli tu) è adatta al briefing sulla sicurezza, al tragitto tra le pedane e al resoconto finale. L'interpretazione sussurrata, lo {{term:chuchotage|chuchotage}}, permette all'istruttore di continuare a parlare mentre tu sussurri all'orecchio del tiratore da dietro. Funziona con le {{term:hearing-protection|protezioni auditive}} elettroniche; con cuffie passive, aspetta che il fucile sia aperto e che il tiratore possa sentirti. Sussurrare stanca, quindi alterna le due modalità. Concorda un segnale di «pausa, sto traducendo», per esempio il palmo alzato.",
-    "interpreter-position-p3": "Il tempo è ciò che conta di più. La {{term:pre-shot-routine|routine}} del tiratore finisce con lo sparo, e quando il fucile è chiuso è già ben avviata. Quindi parla solo quando il fucile è aperto: tra un piattello e l'altro, tra un doppio e l'altro, dopo la pedana. Tra un doppio e l'altro, ripeti nella tua lingua i brevi spunti dell'istruttore, altrettanto brevi, come «più davanti», «testa giù» o «uguale anche il prossimo». Tieni le spiegazioni lunghe per dopo. In allenamento molti istruttori mantengono il ritmo di gara. In gara un tiratore nello {{tm:sporting}} ha {{fact:rules.sporting-time-between-targets}}. Nel {{tm:compak}} il tiratore ha {{fact:rules.compak-time-to-call}}. Tieni le tue parole brevi, perché il tiratore possa allenare quel ritmo.",
-    "interpreter-position-signals": "Impara all'inizio i {{term:hand-signal|segnali con le mani}} dell'istruttore e traducili una volta per i tuoi ospiti. Dopo avranno meno bisogno di te, ed è un buon segno.",
+    "interpreter-position-p1": "In allenamento, mettiti proprio dietro il tiratore, accanto al {{term:coach|istruttore}}, dietro la {{term:shooting-stand|pedana}} o la {{term:cage|gabbia}} e fuori da qualsiasi linea delle canne. Da lì vedi quello che vede l'istruttore, il piattello e le {{term:muzzle|volate}} insieme, e l'istruttore può parlarti a bassa voce. Accanto al tiratore sei vicino al movimento del fucile e agli {{term:hull|bossoli}} espulsi, e davanti alla pedana non può stare nessuno.",
+    "interpreter-position-p2": "Scegli la modalità in base al momento. La {{term:consecutive-interpreting|interpretazione consecutiva}} — l'istruttore parla, fa una pausa, parli tu — è adatta al briefing sulla sicurezza, al tragitto tra le pedane e al resoconto finale. L'interpretazione sussurrata, lo {{term:chuchotage|chuchotage}}, permette all'istruttore di continuare a parlare mentre tu sussurri all'orecchio del tiratore da dietro. Funziona con le {{term:electronic-ear-muffs|protezioni auditive elettroniche}}; con {{term:passive-ear-muffs|cuffie passive}}, aspetta che il fucile sia aperto e che il tiratore possa sentirti. Sussurrare stanca, quindi alterna le due modalità. Concorda un segnale di «pausa, sto traducendo», per esempio il palmo alzato.",
+    "interpreter-position-p3": "Il tempo è ciò che conta di più. La {{term:pre-shot-routine|routine}} del tiratore finisce con lo sparo, e quando il fucile è chiuso è già ben avviata. Quindi parla solo quando il fucile è aperto: tra un piattello e l'altro, tra un {{term:double|doppio}} e l'altro, dopo la pedana. Tra un doppio e l'altro, ripeti nella tua lingua i brevi spunti dell'istruttore, altrettanto brevi, come «più davanti», «testa giù» o «uguale anche il prossimo». Tieni le spiegazioni lunghe per dopo. In allenamento molti istruttori mantengono il ritmo di gara. In gara un tiratore nello {{tm:sporting}} ha {{fact:rules.sporting-time-between-targets}}. Nel {{tm:compak}} il tiratore ha {{fact:rules.compak-time-to-call}}. Tieni le tue parole brevi, perché il tiratore possa allenare quel ritmo.",
+    "interpreter-position-signals": "Impara all'inizio gli {{term:hand-signal|segnali con le mani}} dell'istruttore e traducili una volta per i tuoi ospiti. Dopo avranno meno bisogno di te, ed è un buon segno.",
     "interpreter-position-ph5": "Non sei sicuro di cosa ha detto l'istruttore? Chiedi di nuovo proponendo le due opzioni che hai sentito: «Sorry — did you say 'under it' or 'on it'?» È più veloce di «Could you repeat that?».",
     "interpreter-position-p4": "In gara, aspetta dove aspetta la {{term:squad|batteria}}, nella {{term:waiting-position|posizione di attesa}} vicino alla pedana, ma senza intralciare il tiratore. Se l'arbitro vede che un tiratore è stato chiaramente disturbato, il piattello viene dichiarato {{term:no-bird|No Bird}} e lanciato di nuovo. Nessuno vuole esserne la causa, quindi mantieni il {{term:quiet-on-stand|silenzio}} mentre qualcuno sta tirando."
   },
@@ -63,12 +67,12 @@
   },
   "quiz": {
     "interpreter-position-q1": {
-      "q": "Dove dovresti metterti durante una sessione di allenamento su una pedana di {{tm:sporting}}?",
+      "q": "Dove dovresti metterti durante una sessione di allenamento su una {{term:shooting-stand|pedana}} di {{tm:sporting}}?",
       "options": {
         "a": "Accanto al tiratore, per vedergli gli occhi",
-        "b": "Dietro il tiratore, accanto all'istruttore",
+        "b": "Dietro il tiratore, accanto al {{term:coach|istruttore}}",
         "c": "Davanti alla gabbia, di fronte a lui",
-        "d": "Vicino alla macchina, per osservare il piattello"
+        "d": "Vicino alla {{term:trap|macchina}}, per osservare il piattello"
       },
       "explain": "Da dietro, fuori dalla linea delle canne, vedi quello che vede l'istruttore e resti al sicuro; accanto o davanti è pericoloso."
     },
@@ -77,20 +81,20 @@
       "options": {
         "a": "Interpretare dopo che chi parla fa una pausa",
         "b": "Una traduzione scritta del regolamento",
-        "c": "Tradurre i segnali con le mani dell'istruttore",
+        "c": "Tradurre i segnali con le mani del istruttore",
         "d": "Sussurrare la traduzione all'orecchio"
       },
       "explain": "Lo chuchotage significa sussurrare la traduzione all'orecchio del tiratore mentre l'istruttore continua a parlare. L'interpretazione consecutiva è la modalità con pausa: l'istruttore dice una frase, si ferma, e tu la traduci."
     },
     "interpreter-position-q3": {
-      "q": "Nel {{tm:compak}}, quanto tempo ha un tiratore per chiamare dopo che è stato tirato il piattello della pedana precedente?",
+      "q": "Nel {{tm:compak}}, quanto tempo ha un tiratore per chiamare dopo che è stato tirato il piattello della {{term:shooting-stand|pedana}} precedente?",
       "options": {
         "a": "10 secondi",
         "b": "15 secondi",
         "c": "30 secondi",
         "d": "Nessun limite"
       },
-      "explain": "Il {{tm:compak}} concede al massimo 10 secondi per chiamare; lo {{tm:sporting}} ammette al massimo 15 secondi tra piattelli singoli o tra doppi."
+      "explain": "Il {{tm:compak}} concede al massimo 10 secondi per chiamare; lo {{tm:sporting}} ammette al massimo 15 secondi tra piattelli singoli o tra {{term:double|doppi}}."
     }
   }
 }

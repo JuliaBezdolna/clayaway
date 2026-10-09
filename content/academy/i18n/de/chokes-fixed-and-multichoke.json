@@ -28,13 +28,13 @@
  "title": "Feste und Wechselchokes",
  "summary": "Chokes sind entweder dauerhaft in den Lauf gearbeitet oder einschraubbare Hülsen, die man wechseln kann. Beide Varianten, und wann die Regeln von {{tm:sporting}} und {{tm:compak}} einen Wechsel erlauben.",
  "body": {
-  "chokes-fixed-and-multichoke-p1": "Eine {{term:fixed-choke|feste Würgebohrung}} wird werkseitig in den Lauf eingearbeitet, und nur ein {{term:gunsmith|Büchsenmacher}} kann sie ändern. Viele ältere und klassische Flinten sind so gefertigt. Eine solche Bockflinte hat meist zwei unterschiedliche Engungen, zum Beispiel 1/4 und 1/2, und der Schütze arbeitet mit dem, was er hat.",
-  "chokes-fixed-and-multichoke-p2": "{{term:multichoke|Wechselchokes}} (Multichoke) sind kurze Gewindehülsen, die mit einem {{term:choke-key|Chokeschlüssel}} in die Mündung geschraubt werden. Die meisten modernen Wettkampfflinten haben sie. Die Flinte kommt mit einem Satz mehrerer Chokes, und der Schütze setzt die ein, die zu den Scheiben passen.",
-  "chokes-fixed-and-multichoke-p3": "Hülsen sitzen entweder bündig (auf gleicher Höhe mit dem Laufende) oder sind {{term:extended-choke|verlängert}}: Sie stehen über die Mündung hinaus, oft um 1–5 cm. Viele verlängerte Chokes lassen sich von Hand drehen, und ihre Markierung lässt sich ohne Herausnehmen ablesen.",
+  "chokes-fixed-and-multichoke-p1": "Eine {{term:fixed-choke|feste Würgebohrung}} wird werkseitig in den Lauf eingearbeitet, und nur ein {{term:gunsmith|Büchsenmacher}} kann sie ändern. Viele ältere und klassische Flinten sind so gefertigt. Eine solche {{term:over-and-under|Bockflinte}} hat meist zwei unterschiedliche {{term:constriction|Engungen|pl}}, zum Beispiel 1/4 und 1/2, und der Schütze arbeitet mit dem, was er hat.",
+  "chokes-fixed-and-multichoke-p2": "Ein {{term:multichoke|Wechselchoke}} ist eine kurze Gewindehülse, die mit einem {{term:choke-key|Chokeschlüssel}} in die {{term:muzzle|Mündung}} geschraubt wird. Die meisten modernen Wettkampfflinten haben solche Wechselchokes. Die Flinte kommt mit einem Satz mehrerer Chokes, und der Schütze setzt die ein, die zu den Scheiben passen.",
+  "chokes-fixed-and-multichoke-p3": "Hülsen sitzen entweder bündig (auf gleicher Höhe mit dem Laufende) oder es sind {{term:extended-choke|verlängerte Chokes|pl}}: Sie stehen über die Mündung hinaus, oft um 1–5 cm. Viele verlängerte Chokes lassen sich von Hand drehen, und ihre Markierung lässt sich ohne Herausnehmen ablesen.",
   "chokes-fixed-and-multichoke-p4": "Gewinde und Größen unterscheiden sich zwischen Herstellern und sogar zwischen Modellen desselben Herstellers. Ein Choke aus einem anderen System passt vielleicht nicht oder schraubt sich falsch ein, was gefährlich ist. Kaufen Sie nur Chokes, die für Ihre Flinte gemacht sind.",
   "chokes-fixed-and-multichoke-cmp1": {
-   "sporting": "Sie dürfen einen Choke, die ganze Flinte oder einen Lauf zwischen Standplätzen wechseln, oder zwischen Einzelscheiben und Dupletten, wenn das keine Verzögerung verursacht. Sobald Sie den Standplatz betreten haben, keine weiteren Wechsel.",
-   "compak": "Innerhalb einer Runde dürfen Sie Flinte, Läufe oder Chokes nicht wechseln. Sie werden nur zwischen den Runden gewechselt; die Ausnahme ist eine Funktionsstörung der Flinte. Wählen Sie also Chokes, die mit allen Scheiben der Runde zurechtkommen."
+   "sporting": "Sie dürfen einen Choke, die ganze Flinte oder einen Lauf zwischen Standplätzen wechseln, oder zwischen Einzelscheiben und Doubletten, wenn das keine Verzögerung verursacht. Sobald Sie den Standplatz betreten haben, keine weiteren Wechsel.",
+   "compak": "Innerhalb einer {{term:round|Runde}} dürfen Sie Flinte, Läufe oder Chokes nicht wechseln. Sie werden nur zwischen den Runden gewechselt; die Ausnahme ist eine {{term:malfunction|Funktionsstörung}} der Flinte. Wählen Sie also Chokes, die mit allen Scheiben der Runde zurechtkommen."
   }
  },
  "note": {},
@@ -51,21 +51,21 @@
    "q": "Wann dürfen Sie bei {{tm:sporting}} einen Choke wechseln?",
    "options": {
     "a": "Zwischen Standplätzen, wenn das keine Verzögerung verursacht",
-    "b": "Auf dem Standplatz, kurz vor der Dublette",
+    "b": "Auf dem Standplatz, kurz vor der Doublette",
     "c": "Nur vor dem ersten Standplatz des Tages",
     "d": "Nur mit schriftlicher Zustimmung der Jury"
    },
-   "explain": "Sie dürfen zwischen Standplätzen oder zwischen Einzelscheiben und Dupletten wechseln, aber nicht mehr, sobald Sie auf dem Standplatz sind."
+   "explain": "Sie dürfen zwischen Standplätzen oder zwischen Einzelscheiben und Doubletten wechseln, aber nicht mehr, sobald Sie auf dem Standplatz sind."
   },
   "chokes-fixed-and-multichoke-q2": {
-   "q": "Dürfen Sie innerhalb einer {{tm:compak}}-Runde Chokes wechseln?",
+   "q": "Dürfen Sie innerhalb einer {{term:round|Runde}} im {{tm:compak}} Chokes wechseln?",
    "options": {
     "a": "Ja, beim Wechsel zwischen den Standplätzen",
     "b": "Ja, wenn die nächsten Scheiben weit sind",
     "c": "Nein, nur zwischen den Runden",
     "d": "Ja, jederzeit während der Runde"
    },
-   "explain": "Bei {{tm:compak}} ist das Wechseln von Flinte, Läufen oder Chokes innerhalb einer Runde verboten; die Ausnahme ist eine Funktionsstörung."
+   "explain": "Bei {{tm:compak}} ist das Wechseln von Flinte, Läufen oder Chokes innerhalb einer Runde verboten; die Ausnahme ist eine {{term:malfunction|Funktionsstörung}}."
   },
   "chokes-fixed-and-multichoke-q3": {
    "q": "Warum sollten Sie keinen Choke aus einem anderen System einsetzen?",
@@ -78,12 +78,12 @@
    "explain": "Choke-Systeme unterscheiden sich; ein falscher Choke kann den Lauf beschädigen."
   },
   "chokes-fixed-and-multichoke-q4": {
-   "q": "Was ist ein verlängerter Choke?",
+   "q": "Was ist ein {{term:extended-choke|verlängerter Choke}}?",
    "options": {
-    "a": "Ein Choke, der enger ist als Vollchoke",
+    "a": "Ein Choke, der enger ist als {{term:full-choke|Vollchoke}}",
     "b": "Ein in den Lauf eingearbeiteter Choke",
-    "c": "Ein nur für Stahlschrot gemachter Choke",
-    "d": "Eine Hülse, die über die Mündung hinaussteht"
+    "c": "Ein nur für {{term:steel-shot|Stahlschrot}} gemachter Choke",
+    "d": "Eine Hülse, die über die {{term:muzzle|Mündung}} hinaussteht"
    },
    "explain": "Verlängerte Chokes stehen über die Mündung hinaus, sodass ihre Markierung ohne Herausnehmen abgelesen werden kann."
   }

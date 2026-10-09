@@ -23,18 +23,22 @@
     "nextstep-becoming-coach-q2": "01918c6f",
     "nextstep-becoming-coach-q3": "751b5b45"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Wie man Trainer wird",
-  "summary": "Ein guter Schütze ist noch kein Trainer. Wie man eine Trainerausbildung findet, warum die Qualifikationen von Land zu Land unterschiedlich sind und was ein Trainer über die Technik hinaus braucht.",
+  "summary": "Ein guter Schütze ist noch kein {{term:coach|Trainer}}. Wie man eine Trainerausbildung findet, warum die Qualifikationen von Land zu Land unterschiedlich sind und was ein Trainer über die Technik hinaus braucht.",
   "body": {
     "nextstep-becoming-coach-p1": "Viele Schützen fragen sich irgendwann, ob sie andere unterrichten sollten. Das ist ein schönes Ziel, doch gut schießen und gut unterrichten sind unterschiedliche Fähigkeiten. Ein {{term:coach|Trainer}} erklärt Dinge einfach, erkennt einen Fehler von außen und wählt die passende Übung für genau diese Person.",
     "nextstep-becoming-coach-p2": "Trainerqualifikationen unterscheiden sich von Land zu Land. In manchen Ländern führt der {{term:national-federation|nationale Verband}} Trainerkurse mit mehreren Stufen durch (Stufe 1, Stufe 2 und so weiter). In anderen übernimmt das ein Schützenverband oder eine Sportschule. Bezahltes Coaching kann ein offizielles Dokument, eine Versicherung oder eine Erlaubnis erfordern. Finden Sie also zuerst die Regeln Ihres Landes heraus.",
-    "nextstep-becoming-coach-p3": "Die Trainerausbildung beginnt meist mit der Sicherheit am Stand und an der Waffe selbst. Dann folgen die {{term:gun-fit|Schaftanpassung}} (die Flinte so einstellen, dass sie dorthin schießt, wohin man schaut) und das Bestimmen des {{term:master-eye|Führungsauges}} (des Auges, das beim Zielen führt). Die Kurse behandeln außerdem Grundlagen der Technik und die Arbeit mit Einsteigern und Kindern. Oft enden sie mit einer praktischen Prüfung.",
+    "nextstep-becoming-coach-p3": "Die Trainerausbildung beginnt meist mit der Sicherheit am Stand und an der Waffe selbst. Dann folgen die {{term:gun-fit|Schaftanpassung}} – die Flinte so einstellen, dass sie dorthin schießt, wohin man schaut – und das Bestimmen des {{term:master-eye|Führungsauges}} – des Auges, das beim Zielen führt. Die Kurse behandeln außerdem Grundlagen der Technik und die Arbeit mit Einsteigern und Kindern. Oft enden sie mit einer praktischen Prüfung.",
     "nextstep-becoming-coach-p4": "{{term:safety|Sicherheit}} geht vor. Ein Trainer ist für mehr als nur die Technik verantwortlich. Der Schüler muss die Flinte richtig handhaben, eine {{term:safety-glasses|Schießbrille}} und {{term:hearing-protection|Gehörschutz}} tragen und die örtlichen Gesetze zu Waffen und Patronen kennen.",
     "nextstep-becoming-coach-p5": "Ein guter Weg ist, an der Seite eines erfahrenen Trainers zu arbeiten: bei Einheiten helfen, zuschauen, Fragen stellen. So lernt man, was in keinem Buch steht, etwa einen nervösen Schüler zu beruhigen oder dieselbe Sache auf drei verschiedene Arten zu erklären.",
-    "nextstep-becoming-coach-p6": "Sowohl bei {{tm:sporting}} als auch bei {{tm:compak}} ist {{term:coaching|Coaching}} eines Schützen (ihm Ratschläge geben) während des Wettkampfs nicht erlaubt. Der Schütze erhält eine {{term:yellow-card|Gelbe Karte}} (eine förmliche Verwarnung), und der Schiedsrichter weist die Person, die den Rat gegeben hat, aus dem Schießbereich. Ein Trainer arbeitet vor und nach dem Wettkampf.",
+    "nextstep-becoming-coach-p6": "Sowohl bei {{tm:sporting}} als auch bei {{tm:compak}} ist {{term:coaching|Coaching}} eines Schützen (ihm Ratschläge geben) während des Wettkampfs nicht erlaubt. Der Schütze erhält eine {{term:yellow-card|Gelbe Karte}} – eine förmliche Verwarnung –, und der Schiedsrichter weist die Person, die den Rat gegeben hat, aus dem Schießbereich. Ein Trainer arbeitet vor und nach dem Wettkampf.",
     "nextstep-becoming-coach-p7": "Sobald Sie Trainer sind, hilft das ClayArena-Trainerverzeichnis Schülern, Sie zu finden. Es zeigt, wer Sie sind und welche Disziplinen Sie unterrichten: {{lesson:clayarena-coaches-grounds-tours}}.",
-    "nextstep-becoming-coach-academy": "Der Academy-Lernpfad für neue Trainer hilft bei der Vorbereitung, ist aber keine Trainerqualifikation."
+    "nextstep-becoming-coach-academy": "Der Academy-Lernpfad für neue Trainer hilft bei der Vorbereitung, ist aber keine {{term:coaching-qualification|Trainerqualifikation}}."
   },
   "note": {},
   "phrases": {},
@@ -54,7 +58,7 @@
         "b": "Nein, sie hängen vom Land ab",
         "c": "Es gibt überhaupt keine Qualifikationen"
       },
-      "explain": "Trainerausbildung und die Regeln für Trainer sind von Land zu Land unterschiedlich."
+      "explain": "Trainerausbildung und die Regeln für {{term:coach|Trainer}} sind von Land zu Land unterschiedlich."
     },
     "nextstep-becoming-coach-q2": {
       "q": "Was passiert, wenn jemand einen Schützen während des Wettkampfs coacht?",
@@ -66,7 +70,7 @@
       "explain": "Coaching während des Wettkampfs ist weder bei {{tm:sporting}} noch bei {{tm:compak}} erlaubt."
     },
     "nextstep-becoming-coach-q3": {
-      "q": "Was steht für einen Trainer an erster Stelle?",
+      "q": "Was steht für einen {{term:coach|Trainer}} an erster Stelle?",
       "options": {
         "a": "Eine teure Flinte",
         "b": "Die Anzahl der Schüler",

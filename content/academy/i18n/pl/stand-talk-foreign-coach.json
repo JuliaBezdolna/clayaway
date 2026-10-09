@@ -50,19 +50,19 @@
     "origin": "pl-wave-2026-10"
   },
   "title": "Trening z trenerem, który mówi innym językiem",
-  "summary": "Jak strzelcy, trenerzy i organizatorzy przygotowują zajęcia z trenerem z innego kraju, z tłumaczem albo bez niego, i co się zmienia na zawodach.",
+  "summary": "Jak strzelcy, {{term:coach|trenerzy}} i organizatorzy przygotowują zajęcia z trenerem z innego kraju, z tłumaczem albo bez niego, i co się zmienia na zawodach.",
   "body": {
     "stand-talk-foreign-coach-p1": "Wielu strzelców trenuje z {{term:coach|trenerem}} z innego kraju — w domu albo w podróży. To dobrze działa, gdy każdy odrobinę się przygotuje: trener, strzelec i, jeśli jest, {{term:interpreter|tłumacz}}. Wiele nieporozumień powstaje ze słów, na które nikt wcześniej się nie zgodził.",
-    "stand-talk-foreign-coach-safety": "{{term:safety|Bezpieczeństwo}} jest najważniejsze. Upewnijcie się, że każdy strzelec zrozumiał instruktaż z bezpieczeństwa, zanim ktokolwiek naładuje broń. Jeśli ktoś nie jest pewien, przetłumaczcie albo pokażcie to jeszcze raz.",
+    "stand-talk-foreign-coach-safety": "przede wszystkim. Upewnijcie się, że każdy strzelec zrozumiał instruktaż z bezpieczeństwa, zanim ktokolwiek naładuje broń. Jeśli ktoś nie jest pewien, przetłumaczcie albo pokażcie to jeszcze raz.",
     "stand-talk-foreign-coach-h1": "Z tłumaczem",
     "stand-talk-foreign-coach-steps": [
-      "Przed zajęciami uzgodnijcie kluczowe terminy: jakimi słowami trener nazywa wyprzedzenie, niewypały oraz {{term:pick-up-point|punkt podjęcia rzutka}}, {{term:hold-point|punkt wyjściowy lufy}} i {{term:break-point|punkt strzału}}.",
+      "Przed zajęciami uzgodnijcie kluczowe terminy: jakimi słowami trener nazywa {{term:lead|wyprzedzenie}}, chybienia oraz {{term:pick-up-point|punkt podjęcia rzutka}}, {{term:hold-point|punkt wyjściowy lufy}} i {{term:break-point|punkt strzału}}.",
       "Uzgodnijcie {{term:hand-signal|sygnały ręką}} trenera i znak pauzy, na przykład podniesioną dłoń.",
       "Trener mówi krótkimi zwrotami i czeka na tłumaczenie.",
       "Rozmawiajcie tylko wtedy, gdy broń jest otwarta, nie podczas rutyny strzelca.",
       "Po wyjaśnieniu sprawdźcie, czy wszystko jasne: poproście strzelca, żeby pokazał, a nie tylko powiedział „tak”."
     ],
-    "stand-talk-foreign-coach-p2": "Krótkie podpowiedzi na stanowisku często szepcze się od tyłu ({{term:chuchotage|szeptanka, chuchotage}}). Instruktaż i podsumowanie idą lepiej tak: trener mówi jedno-dwa zdania, robi pauzę, tłumacz tłumaczy ({{term:consecutive-interpreting|tłumaczenie konsekutywne}}). Więcej dla tłumaczy: {{lesson:interpreter-position}}.",
+    "stand-talk-foreign-coach-p2": "Krótkie podpowiedzi na stanowisku często szepcze się od tyłu: to {{term:chuchotage|szeptanka}}. Instruktaż i podsumowanie idą lepiej tak: trener mówi jedno-dwa zdania, robi pauzę, tłumacz tłumaczy: to {{term:consecutive-interpreting|tłumaczenie konsekutywne}}. Więcej dla tłumaczy: {{lesson:interpreter-position}}.",
     "stand-talk-foreign-coach-h2": "Na zawodach",
     "stand-talk-foreign-coach-p3": "Na zawodach przepisy zmieniają wszystko. W obu dyscyplinach {{term:coaching|podpowiadanie}} w czasie zawodów jest zabronione: strzelec dostaje {{term:yellow-card|żółtą kartkę}}, a trenera usuwa się z obszaru strzelania ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Przepisy nie wspominają o tłumaczach, więc przekazywanie rad może być uznane za podpowiadanie. Tłumacz przekazuje wyłącznie oficjalne informacje: od sędziego, {{term:jury|jury}} i organizatora. Wszystkie wskazówki trenerskie planujcie na dni treningowe i na podsumowania.",
     "stand-talk-foreign-coach-h3": "Bez tłumacza",
@@ -114,7 +114,7 @@
       "say": "Złożenie."
     },
     "stand-talk-foreign-coach-ph11": {
-      "meaning": "Prowadźcie broń dalej po strzale ({{term:follow-through|prowadzenie broni po strzale}}).",
+      "meaning": "Prowadźcie broń dalej po strzale – to {{term:follow-through|prowadzenie broni po strzale}}.",
       "say": "Dokończcie ruch."
     },
     "stand-talk-foreign-coach-ph12": {
@@ -156,7 +156,7 @@
   "did_you_know": null,
   "quiz": {
     "stand-talk-foreign-coach-q1": {
-      "q": "Trener i strzelec nie mają wspólnego języka. Co najbardziej pomoże na pierwszych zajęciach?",
+      "q": "{{term:coach|Trener}} i strzelec nie mają wspólnego języka. Co najbardziej pomoże na pierwszych zajęciach?",
       "options": {
         "a": "Długie wyjaśnienia, mówione wolno",
         "b": "Strzelanie większej liczby rzutków w milczeniu",
@@ -166,7 +166,7 @@
       "explain": "Mały uzgodniony słownik i sygnały trenera niosą większość zajęć; długie wyjaśnienia i telefon w trakcie rutyny przeszkadzają."
     },
     "stand-talk-foreign-coach-q2": {
-      "q": "Na zawodach trener strzelca prosi tłumacza o przekazanie podpowiedzi. Jaka jest bezpieczna praktyka?",
+      "q": "Na zawodach {{term:coach|trener}} strzelca prosi tłumacza o przekazanie podpowiedzi. Jaka jest bezpieczna praktyka?",
       "options": {
         "a": "Przekazać ją tajnie między rzutkami",
         "b": "Przekazać, jeśli sędzia kiwnie głową",
@@ -177,7 +177,7 @@
       "rule_ref": "sporting:ch8-coaching"
     },
     "stand-talk-foreign-coach-q3": {
-      "q": "Kiedy trener i tłumacz powinni rozmawiać ze strzelcem na stanowisku?",
+      "q": "Kiedy {{term:coach|trener}} i tłumacz powinni rozmawiać ze strzelcem na stanowisku?",
       "options": {
         "a": "Gdy strzelec się składa",
         "b": "Tuż przed komendą",

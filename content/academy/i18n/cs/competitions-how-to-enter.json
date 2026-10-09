@@ -50,7 +50,7 @@
     "competitions-how-to-enter-p3": "Na oficiální závody obvykle musíte být členem klubu nebo {{term:national-federation|národního svazu}}. Některé svazy navíc vydávají {{term:sports-licence|licenci střelce}}, která není zbrojním průkazem. Na mistrovství Evropy a světa přihlašuje střelce obvykle jejich národní svaz. Tato pravidla se v jednotlivých zemích liší, takže si je včas ověřte u svého svazu nebo u pořadatele.",
     "competitions-how-to-enter-p4": "Zákony o zbraních se v jednotlivých zemích liší. Zbraň a náboje musíte doma vlastnit legálně a legálně je dopravit tam, kde budete střílet. Pokud žijete v EU a vezete vlastní zbraň do jiné země EU, obvykle potřebujete {{term:european-firearms-pass|Evropský zbrojní pas}}. Pravidla každé jednotlivé země přesto platí dál. Podrobněji: {{lesson:travel-gun-in-eu}}.",
     "competitions-how-to-enter-efp-residents": "Pas se vydává jen obyvatelům zemí EU a schengenských států, které uplatňují pravidla EU o zbraních (Švýcarsko, Norsko, Island a Lichtenštejnsko). Pokud žijete jinde, přečtěte si lekci {{lesson:travel-gun-outside-eu}}, nebo se zeptejte pořadatele, jestli si můžete zbraň zapůjčit na místě.",
-    "competitions-how-to-enter-release": "Toto se týká jen zbraní s {{term:release-trigger|release spouští}}. Ta vystřelí ve chvíli, kdy prst spoušť pustí, ne když na ni zatlačí. Pokud zákon hostitelské země takové spouště zakazuje, musí to program mezinárodních závodů uvádět.",
+    "competitions-how-to-enter-release": "Toto se týká jen zbraní s {{term:release-trigger|release spouští}}. Ta vystřelí ve chvíli, kdy prst {{term:trigger|spoušť}} pustí, ne když na ni zatlačí. Pokud zákon hostitelské země takové spouště zakazuje, musí to program mezinárodních závodů uvádět.",
     "competitions-how-to-enter-p5": "Po uzávěrce přihlášek zveřejní pořadatel {{term:shooting-times|časy střelby}} a seznamy {{term:squad|skupin}}. Skupina je malá skupinka až šesti střelců, kteří střílí každou položku společně; ze seznamu zjistíte, do které skupiny patříte a kdy začínáte. Sledovat harmonogram, včetně případných zpoždění nebo změn během závodů, je vaše vlastní odpovědnost.",
     "competitions-how-to-enter-absent-day-one": "{{tm:compak}} lze střílet {{term:compak-in-line|v řadě}}: střelci nastupují na stanoviště 1 jeden po druhém a postupují řadou až na stanoviště 5. V tomto formátu se střelec, který vynechá první den, od druhého dne vyřadí ze startovní listiny. Aby přesto mohl střílet, musí se obrátit na {{term:jury|jury}}.",
     "competitions-how-to-enter-tip": "Před prvními závody si zapište datum, čas startu vaší skupiny, adresu střelnice a telefon na pořadatele. Potvrzení přihlášky i případné doklady ke zbrani mějte u výbavy."
@@ -62,11 +62,11 @@
   "key_points": {
     "competitions-how-to-enter-kp1": "Nejdřív si přečtěte program: data, terče, harmonogram, startovné, kategorie, kontakty.",
     "competitions-how-to-enter-kp2": "Přihláška se často podává online a na místě se jen potvrzuje v sekretariátu.",
-    "competitions-how-to-enter-kp3": "Na oficiální závody je obvykle potřeba členství v klubu nebo svazu; na mistrovství Evropy a světa vás přihlašuje váš svaz.",
+    "competitions-how-to-enter-kp3": "Na oficiální závody je obvykle potřeba {{term:club-membership|členství v klubu}} nebo svazu; na mistrovství Evropy a světa vás přihlašuje váš svaz.",
     "competitions-how-to-enter-kp4": "Vezete-li vlastní zbraň do jiné země EU, obvykle potřebujete Evropský zbrojní pas; vydává se jen obyvatelům EU, Švýcarska, Norska, Islandu a Lichtenštejnska.",
     "competitions-how-to-enter-kp5": "Sledovat harmonogram je vaše vlastní odpovědnost."
   },
-  "did_you_know": "Tam, kde jsou release spouště povolené, má taková zbraň na vnější straně pažby fluorescenční nálepku s velkým písmenem „R“, aby o tom věděli všichni na stanovišti.",
+  "did_you_know": "Tam, kde jsou release spouště povolené, má taková zbraň na vnější straně {{term:stock|pažby}} fluorescenční nálepku s velkým písmenem „R“, aby o tom věděli všichni na stanovišti.",
   "quiz": {
     "competitions-how-to-enter-q1": {
       "q": "Co byste si měli přečíst nejdřív, jakmile si vyberete závody?",
@@ -75,10 +75,10 @@
         "b": "Program těchto závodů",
         "c": "Předpověď počasí na ten den"
       },
-      "explain": "Program uvádí data, terče, harmonogram, startovné, kategorie a kontakty."
+      "explain": "Program uvádí data, terče, harmonogram, {{term:entry-fee|startovné}}, kategorie a kontakty."
     },
     "competitions-how-to-enter-q2": {
-      "q": "Kdo odpovídá za to, abyste věděli, kdy střílí vaše skupina?",
+      "q": "Kdo odpovídá za to, abyste věděli, kdy střílí vaše {{term:squad|skupina}}?",
       "options": {
         "a": "Rozhodčí na prvním stanovišti",
         "b": "Pořadatel, který vám zavolá",
@@ -105,7 +105,7 @@
       "explain": "Pravidla vyžadují, aby byl takový zákaz oznámen v programu mezinárodních závodů."
     },
     "competitions-how-to-enter-q-absent": {
-      "q": "Ve {{tm:compak}} stříleném v řadě vynechá střelec první den. Co se stane?",
+      "q": "V {{tm:compak}} stříleném v řadě vynechá střelec první den. Co se stane?",
       "options": {
         "a": "Jméno se vyřadí ze seznamu; vrátit se smí jen s dovolením jury",
         "b": "Vynechanou položku odstřílí na konci posledního dne",

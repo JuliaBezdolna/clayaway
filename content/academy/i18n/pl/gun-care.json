@@ -29,17 +29,17 @@
     "origin": null
   },
   "title": "Pielęgnacja i czyszczenie",
-  "summary": "Jak bezpiecznie czyścić broń po strzelaniu i po deszczu, jak ją przechowywać oraz czemu strzelcy {{tm:sporting}} i {{tm:compak}} rezerwują roczny serwis u rusznikarza.",
+  "summary": "Jak bezpiecznie czyścić broń po strzelaniu i po deszczu, jak ją przechowywać oraz czemu strzelcy {{tm:sporting}} i {{tm:compak}} rezerwują roczny serwis u {{term:gunsmith|rusznikarza}}.",
   "body": {
     "gun-care-p1": "Czyszczenie zaczyna się od bezpieczeństwa. Sprawdź, że broń jest rozładowana: otwórz ją i zajrzyj do obu {{term:chamber|komór}}. Odłóż wszystkie naboje z miejsca pracy, żeby przez przypadek nie włożyć żadnego do broni.",
-    "gun-care-p2": "Rozłóż broń: zdejmij {{term:fore-end|czółenko}}, potem lufy z {{term:receiver|baskili}}. Jeśli masz czoki wymienne, wykręć je {{term:choke-key|kluczem do czoków}}; czyści się je osobno (zob. {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p2": "Rozłóż broń: zdejmij {{term:fore-end|czółenko}}, potem lufy z {{term:receiver|baskili}}. Jeśli masz {{term:multichoke|czoki wymienne}}, wykręć je {{term:choke-key|kluczem do czoków}}; czyści się je osobno (zob. {{lesson:chokes-pattern-testing-and-care}}).",
     "gun-care-p3": [
       "Czyść przewody luf po każdym dniu strzelania.",
       "Zwilż je płynem do czyszczenia i przeciągnij przez nie kilka razy małą drucianą szczotkę na pręcie.",
       "Przeciągaj na pręcie czyste kwadraty szmatki (patche), aż będą wychodzić prawie czyste.",
       "Na koniec nałóż bardzo cienką warstwę oleju, a przed kolejnym strzelaniem wytrzyj przewód lufy do sucha."
     ],
-    "gun-care-p4": "Zewnętrzny metal przetrzyj szmatką z kapką oleju, by chronić go przed odciskami palców i wilgocią. Drewnianej kolby nie nasączaj olejem, bo wsiąka w drewno. Zawias i miejsca, gdzie lufy zamykają się na baskili, lekko nasmaruj smarem do broni.",
+    "gun-care-p4": "Zewnętrzny metal przetrzyj szmatką z kapką oleju, by chronić go przed odciskami palców i wilgocią. Drewnianej {{term:stock|kolby}} nie nasączaj olejem, bo wsiąka w drewno. Zawias i miejsca, gdzie lufy zamykają się na baskili, lekko nasmaruj smarem do broni.",
     "gun-care-p5": "Po deszczu osusz broń od razu, na strzelnicy albo w hotelu. Nie zostawiaj mokrej broni na noc w {{term:gun-slip|miękkim pokrowcu}} albo zamkniętym {{term:hard-case|futerale}}: wilgoć tam długo się trzyma, a potem przychodzi rdza. Osusz, przetrzyj, naoliw.",
     "gun-care-p6": "Przechowuj broń suchą, w sejfie albo tak, jak wymaga prawo twojego kraju; wiele przepisów wymaga też trzymania naboi osobno. Wielu rusznikarzy radzi przechowywać broń poziomo albo z wylotami luf skierowanymi w dół, by olej nie ściekał do drewnianej kolby. Nie używaj wełny stalowej albo materiałów ściernych: rysują powłokę.",
     "gun-care-p7": "Raz w roku albo po dużej liczbie strzałów zabierz broń do {{term:gunsmith|rusznikarza}} na serwis. Po złożeniu nie testuj broni na stanowisku zawodów. W {{tm:sporting}} i {{tm:compak}} {{term:gun-test|strzał próbny}} oddaje się tylko na osobnym stanowisku próbnym, jeśli strzelnica je ma."
@@ -63,7 +63,7 @@
         "c": "Sprawdzić, że broń jest rozładowana",
         "d": "Zdjąć stopkę"
       },
-      "explain": "Bezpieczeństwo przede wszystkim: otwórz broń i sprawdź obie komory."
+      "explain": "Bezpieczeństwo przede wszystkim: otwórz broń i sprawdź obie {{term:chamber|komory}}."
     },
     "gun-care-q2": {
       "q": "Czego nie należy robić po strzelaniu w deszczu?",
@@ -76,7 +76,7 @@
       "explain": "W zamkniętym pokrowcu wilgoć długo się trzyma, a potem przychodzi rdza."
     },
     "gun-care-q3": {
-      "q": "Gdzie można oddać strzał próbny przed zawodami?",
+      "q": "Gdzie można oddać {{term:gun-test|strzał próbny}} przed zawodami?",
       "options": {
         "a": "Na stanowisku próbnym, jeśli strzelnica je ma",
         "b": "Na pierwszym stanowisku zawodów",

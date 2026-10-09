@@ -31,17 +31,17 @@
     "origin": "interpreter-academy"
   },
   "title": "Swing-through: iš už taikinio, pro patį taikinį",
-  "summary": "Kaip žingsnis po žingsnio veikia pravedimas pro taikinį (swing-through), kodėl matote mažą tarpą arba jo nematote, ir kuriems taikiniams jis dažnai tinka.",
+  "summary": "Kaip žingsnis po žingsnio veikia {{term:swing-through|pravedimas pro taikinį}}, kodėl matote mažą tarpą arba jo nematote, ir kuriems taikiniams jis dažnai tinka.",
   "body": {
-    "lead-swing-through-p1": "Taikant {{term:swing-through|pravedimą pro taikinį}} (swing-through) vamzdžių galai startuoja atsilikę nuo taikinio ir jį aplenkia. Treneriai šią eigą glaudžia į „butt, belly, beak, bang“: uodega, kūnas, priekis – šūvis. Žingsnis po žingsnio tai atrodo taip:",
+    "lead-swing-through-p1": "Taikant {{term:swing-through|pravedimą pro taikinį}} vamzdžių galai startuoja atsilikę nuo taikinio ir jį aplenkia. Treneriai šią eigą glaudžia į „butt, belly, beak, bang“: uodega, kūnas, priekis – šūvis. Žingsnis po žingsnio tai atrodo taip:",
     "lead-swing-through-p2": [
       "Pradžia: vamzdžių galai įsijungia į taikinio liniją už jo, ties jo „uodega“.",
       "Aplenkimas: šautuvas juda greičiau už taikinį, jo linija, per jo „kūną“.",
-      "Šūvis: į gaiduką spaudžiama, kai vamzdžių galai praeina taikinio priekį, vos priekyje jo.",
+      "Šūvis: į {{term:trigger|gaiduką}} spaudžiama, kai vamzdžių galai praeina taikinio priekį, vos priekyje jo.",
       "Mostas tęsiasi ir po šūvio."
     ],
     "lead-swing-through-delay": "Tarp sprendimo šauti ir šūvio yra trumpa delsa. Kadangi šautuvas juda greičiau už taikinį, per šią akimirką vamzdžių galai patys nueina toliau priekyje. Todėl į gaiduką spaudžiate, kai matote mažą tarpą arba jo nematote visai, o likusią dalį priduoda šautuvo greitis. Tikrasis pralenkimas šūvio metu yra didesnis už tą, kurį matėte.",
-    "lead-swing-through-p3": "Privalumai: tai natūralus ir greitas metodas, geras pradedantiesiems. Jis tinka artimiems, greitiems taikiniams, {{term:driven-target|skriejantiems į jus ir virš galvos taikiniams}} (driven), {{term:overhead|virš galvos skriejantiems taikiniams}} iš užpakalio, taip pat nepastoviems ar netikėtiems taikiniams.",
+    "lead-swing-through-p3": "Privalumai: tai natūralus ir greitas metodas, geras pradedantiesiems. Jis tinka artimiems, greitiems taikiniams, {{term:driven-target|skriejantiems į jus ir virš galvos taikiniams}}, {{term:overhead|virš galvos skriejantiems taikiniams}} iš užpakalio, taip pat nepastoviems ar netikėtiems taikiniams.",
     "lead-swing-through-p4": "Trūkumai: langas spustelėti gaiduką labai trumpas. Ties tolimomis kertančiomis mišenėmis šauliui gali pritrūkti laiko, jis gali pamesti liniją arba praskrieti pro taikinį. Sulėtėjus, kai vamzdžių galai pasiekia taikinį, šūvis praeina už jo.",
     "lead-swing-through-p5": "Šaltiniai nesutaria dėl pavadinimo „CPSA method“ (CPSA, Clay Pigeon Shooting Association, – Anglijos stendinio šaudymo asociacija). Vieni juo vadina pravedimą pro taikinį, o šiandieninis CPSA mokymas aprašomas kaip atitraukimas nuo taikinio. Jei treneris pasako „CPSA method“, pasiklauskite, kurį metodą jis turi omenyje."
   },
@@ -75,17 +75,17 @@
   },
   "quiz": {
     "lead-swing-through-q1": {
-      "q": "Kur pradeda vamzdžio žiotys taikant swing-through?",
+      "q": "Kur pradeda vamzdžio žiotys taikant {{term:swing-through|pravedimą pro taikinį}}?",
       "options": {
         "a": "Prieš taikinį",
         "b": "Ties taikinio priekiniu kraštu",
         "c": "Fiksuotame taške ties sudaužymo tašku",
         "d": "Už taikinio, ant jo linijos"
       },
-      "explain": "Swing-through pradedamas už taikinio ir jį aplenkia; pradžia prieš taikinį — maintained lead, fiksuotas taškas — ambush."
+      "explain": "{{term:swing-through|Pravedimas pro taikinį}} pradedamas už taikinio ir jį aplenkia; pradžia prieš taikinį — {{term:maintained-lead|pastovus pralenkimas}}, fiksuotas taškas — {{term:ambush|šaudymas į tašką}}."
     },
     "lead-swing-through-q2": {
-      "q": "Kodėl pravedimo pro taikinį (swing-through) šaulys mato mažą pralenkimą arba jo nemato visai?",
+      "q": "Kodėl {{term:swing-through|pravedimo pro taikinį}} šaulys mato mažą pralenkimą arba jo nemato visai?",
       "options": {
         "a": "Taikiniai visada lėtesni",
         "b": "Pralenkimą sukuria šautuvo greitis",

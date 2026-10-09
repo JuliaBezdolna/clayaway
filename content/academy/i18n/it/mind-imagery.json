@@ -24,18 +24,22 @@
     "mind-imagery-q2": "a226f60a",
     "mind-imagery-q3": "9fcd9d83"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Visualizzazione: provare la pedana mentalmente",
   "summary": "Come ripercorrere mentalmente ogni piattello dopo la presentazione: con i vostri occhi, alla velocità del colpo reale, una o due volte per piattello.",
   "body": {
-    "mind-imagery-p1": "La {{term:imagery|visualizzazione}}, o ripetizione mentale, significa vedere e sentire un movimento nella mente senza eseguirlo. Gli studi mostrano che di solito aiuta, specialmente insieme all'allenamento reale, ma nessuno sa esattamente quanto.",
+    "mind-imagery-p1": "L'{{term:imagery|visualizzazione}}, o ripetizione mentale, significa vedere e sentire un movimento nella mente senza eseguirlo. Gli studi mostrano che di solito aiuta, specialmente insieme all'allenamento reale, ma nessuno sa esattamente quanto.",
     "mind-imagery-p2": "La visualizzazione sembra funzionare meglio quando è vicina alla realtà: la stessa pedana, gli stessi piattelli, la velocità reale e il vostro punto di vista. La ricerca non viene dal tiro al piattello, quindi molto probabilmente funziona allo stesso modo nel {{tm:sporting}} e nel {{tm:compak}}.",
     "mind-imagery-steps": [
-      "Guardate la {{term:target-presentation|presentazione}} e decidete il {{term:hold-point|punto di attesa}}, il {{term:pick-up-point|punto di aggancio visivo}} e il {{term:break-point|punto di rottura}} per ogni piattello.",
+      "Guardate la {{term:target-presentation|presentazione}} e decidete l'{{term:hold-point|punto di attesa}}, il {{term:pick-up-point|punto di aggancio visivo}} e il {{term:break-point|punto di rottura}} per ogni piattello.",
       "Guardate a terra o chiudete gli occhi e ripercorrete ogni piattello nella mente una o due volte, alla stessa velocità del colpo reale.",
       "Vedetelo con i vostri occhi: le canne al punto di attesa, il piattello che compare, il fucile che arriva sulla sua linea di volo, la rottura.",
       "Ripetete mentalmente anche un errore: vedetevi espirare, fare il reset e rompere il piattello successivo.",
-      "Poi entrate nella vostra routine abituale."
+      "Poi entrate nella vostra {{term:pre-shot-routine|routine pre-tiro}} abituale."
     ],
     "mind-imagery-compare": {
       "sporting": "I piattelli vengono mostrati al primo tiratore della batteria ({{rule:sporting:ch16-presentation}}). Fate la visualizzazione mentre tirano gli altri, non quando siete in pedana e il tempo scorre.",
@@ -61,17 +65,29 @@
   "quiz": {
     "mind-imagery-q1": {
       "q": "Come potete provare mentalmente un piattello?",
-      "options": { "a": "Al rallentatore, come filmato da dietro", "b": "Con i vostri occhi, alla velocità reale", "c": "Solo il momento in cui il piattello si rompe" },
-      "explain": "La visualizzazione sembra funzionare meglio quando è vicina al colpo reale: il vostro punto di vista e la velocità reale."
+      "options": {
+        "a": "Al rallentatore, come filmato da dietro",
+        "b": "Con i vostri occhi, alla velocità reale",
+        "c": "Solo il momento in cui il piattello si rompe"
+      },
+      "explain": "L'{{term:imagery|visualizzazione}} sembra funzionare meglio quando è vicina al colpo reale: il vostro punto di vista e la velocità reale."
     },
     "mind-imagery-q2": {
-      "q": "In una batteria di sei nel {{tm:compak}}, quando è un buon momento per la visualizzazione?",
-      "options": { "a": "Mentre aspettate dietro la postazione 1", "b": "Subito dopo aver chiamato il piattello", "c": "Mentre l'arbitro segna il punteggio" },
+      "q": "In una batteria di sei nel {{tm:compak}}, quando è un buon momento per l'{{term:imagery|visualizzazione}}?",
+      "options": {
+        "a": "Mentre aspettate dietro la postazione 1",
+        "b": "Subito dopo aver chiamato il piattello",
+        "c": "Mentre l'arbitro segna il punteggio"
+      },
       "explain": "In una batteria di sei, l'attesa dietro la postazione 1 è un momento senza pressione: ripercorrete il menu della vostra postazione successiva."
     },
     "mind-imagery-q3": {
       "q": "Nel {{tm:sporting}}, perché non dovreste imbracciare e seguire con la canna la linea di un piattello mentre aspettate?",
-      "options": { "a": "Vi stanca le braccia prima della serie", "b": "Mostra agli altri tiratori il vostro piano", "c": "È simulazione di tiro: non è permessa" },
+      "options": {
+        "a": "Vi stanca le braccia prima della serie",
+        "b": "Mostra agli altri tiratori il vostro piano",
+        "c": "È simulazione di tiro: non è permessa"
+      },
       "explain": "Il {{tm:sporting}} non permette la simulazione di tiro né sui percorsi né fuori; ripetete invece mentalmente."
     }
   }

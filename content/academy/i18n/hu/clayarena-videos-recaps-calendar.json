@@ -35,8 +35,8 @@
   "body": {
     "clayarena-videos-recaps-calendar-p1": "A ClayArenán vannak videók {{tm:sporting}} és {{tm:compak}} versenyekről, rendezvény szerint csoportosítva. Ha nem tud elutazni egy versenyre, ezek közelről megmutatják a sportot. Kezdőknek ingyenes technikai és szabályleckeként is szolgálnak.",
     "watching-videos-and-recaps-p2": "Ne filmként nézze a videókat, hanem tanulóként. Válasszon egy lövőt, és kövesse több egymás utáni korongon át. Először csak a lábára és a {{term:stance|beállására}} figyeljen, majd csak a fegyverére, majd csak a fejére és az arcára.",
-    "watching-videos-and-recaps-p3": "Keressen három pontot. A {{term:hold-point|fegyvertartási pont}} az, ahol a csőtorkolatok (a csövek elülső vége) várnak, amíg a lövő korongot kér. A {{term:pick-up-point|korongfelvételi pont}} az, ahol a szem először látja tisztán a korongot. A {{term:break-point|lövési pont}} az, ahol a lövő tervezi eltalálni. A tapasztalt lövők általában nyugodtan és sietség nélkül mozognak e pontok között. Többet: {{lesson:technique-hold-pickup-break-points}}.",
-    "watching-videos-and-recaps-p4": "Egy további részlet az {{term:follow-through|elkísérés}} (follow-through): a lövés után a fegyver nem áll meg, hanem tovább mozog a korong vonalán. Ha a videólejátszó engedi a szünetet vagy a lassítást, használja ki.",
+    "watching-videos-and-recaps-p3": "Keressen három pontot. A {{term:hold-point|fegyvertartási pont}} az, ahol a {{term:muzzle|csőtorkolatok}} – a csövek elülső vége – várnak, amíg a lövő korongot kér. A {{term:pick-up-point|korongfelvételi pont}} az, ahol a szem először látja tisztán a korongot. A {{term:break-point|lövési pont}} az, ahol a lövő tervezi eltalálni. A tapasztalt lövők általában nyugodtan és sietség nélkül mozognak e pontok között. Többet: {{lesson:technique-hold-pickup-break-points}}.",
+    "watching-videos-and-recaps-p4": "Egy további részlet a {{term:follow-through|elkísérés}}: a lövés után a fegyver nem áll meg, hanem tovább mozog a korong vonalán. Ha a videólejátszó engedi a szünetet vagy a lassítást, használja ki.",
     "clayarena-videos-recaps-calendar-p2": "Keresse meg a videóban azokat a szabályokat is, amelyeket már ismer. Egy valódi versenyen látva könnyebb lehet megjegyezni őket.",
     "clayarena-videos-recaps-calendar-rules": {
       "sporting": "Amíg a korong nem jelenik meg, a tus teteje (a fegyver azon része, amely a vállhoz kerül) a {{term:jacket-line|jelölővonal}} alatt marad. A lőállások között a fegyvert nyitva viszik: egy felnyitható fegyver „fel van nyitva”, a csövekkel lefelé, hogy mindenki lássa, biztonságos. A lövők, a {{term:referee|bírók}} és mindenki a lőállás közelében {{term:safety-glasses|lövészszemüveget}} és {{term:hearing-protection|fülvédőt}} visel.",
@@ -44,7 +44,7 @@
     },
     "clayarena-videos-recaps-calendar-p3": "A {{term:season-recap|szezonösszefoglalók}} összefoglalják az évet: a legfontosabb bajnokságokat, a győzteseket, a rangsorokat és a kiemelkedő eredményeket. A korábbi szezonok összefoglalói is megmaradnak a weboldalon. Segítenek látni, ki van jó formában, mely versenyek a legfontosabbak, és hová érdemes elmenni élőben megnézni egy versenyt.",
     "clayarena-videos-recaps-calendar-p4": "A versenynaptár dátumokkal és helyszínekkel mutatja a rendezvényeket. Szűrhető státusz szerint (tervezett, folyamatban lévő vagy lezajlott), régió szerint és hónap szerint. Megtalálja benne a nagy nemzetközi versenyeket, és a lakóhelyéhez közelebbi rendezvényeket is.",
-    "clayarena-videos-recaps-calendar-p5": "Az első versenyhez sok edző egy közeli rendezvényt javasol, olyan versenyszámban, amelyben már lő. A nevezési feltételeket, a {{term:shooting-times|lövési időpontokat}} és az {{term:dress-code|öltözetre}} vonatkozó szabályokat előre egyeztesse a {{term:organiser|rendezővel}}. Hogyan nevezzen: {{lesson:competitions-how-to-enter}}. Ha a rendezvény külföldön van, nézze meg a fegyver és a töltények odaszállítására vonatkozó szabályokat: {{lesson:travel-gun-in-eu}} és {{lesson:travel-gun-outside-eu}}.",
+    "clayarena-videos-recaps-calendar-p5": "Az első versenyhez sok edző egy közeli rendezvényt javasol, olyan versenyszámban, amelyben már lő. A nevezési feltételeket, a {{term:shooting-times|lövési időpontokat}} és a {{term:dress-code|öltözetre}} vonatkozó szabályokat előre egyeztesse az {{term:organiser|rendezővel}}. Hogyan nevezzen: {{lesson:competitions-how-to-enter}}. Ha a rendezvény külföldön van, nézze meg a fegyver és a töltények odaszállítására vonatkozó szabályokat: {{lesson:travel-gun-in-eu}} és {{lesson:travel-gun-outside-eu}}.",
     "clayarena-videos-recaps-calendar-p6": "A verseny után térjen vissza a ClayArenára: az eredménye megjelenik az eredménytáblázatban, és a rendezvény később felkerülhet a videók közé vagy a szezonösszefoglalóba."
   },
   "note": {},
@@ -77,7 +77,7 @@
       "explain": "A naptár segít megtalálni egy versenyt, amelyre elmehet, vagy amelyet követhet."
     },
     "watching-videos-and-recaps-q2": {
-      "q": "Mi a lövési pont (break point)?",
+      "q": "Mi a {{term:break-point|lövési pont}}?",
       "options": {
         "a": "Ahol a lövő áll",
         "b": "Szünet két kör között",

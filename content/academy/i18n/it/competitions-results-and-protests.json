@@ -34,22 +34,26 @@
     "competitions-results-and-protests-q-deposit-back": "a4c129fb",
     "competitions-results-and-protests-q-resume": "1fb092a3"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Risultati, reclami e ricorsi",
-  "summary": "Come fare reclamo in pedana nel {{tm:sporting}} e nel {{tm:compak}}, cosa si può portare alla giuria, e come riprendere dopo una decisione.",
+  "summary": "Come fare {{term:protest|reclamo}} in pedana nel {{tm:sporting}} e nel {{tm:compak}}, cosa si può portare alla {{term:jury|giuria}}, e come riprendere dopo una decisione.",
   "body": {
     "competitions-results-and-protests-score": "Tutto comincia dal punteggio: nel {{tm:sporting}} controllate lo statino quando lasciate ogni pedana, e nel {{tm:compak}} firmatelo dopo ogni serie. Come leggerlo: {{lesson:watching-reading-results}}.",
-    "referee-appeals-p1": "Un {{term:protest|reclamo}} va fatto sul posto. Alzate la mano e dite «Protest!» o «Appeal!» mentre siete ancora in pedana. Nel {{tm:sporting}} fatelo prima di chiamare il piattello successivo (chiedere che venga lanciato, per esempio con «pull»): una volta chiamato, avete accettato la decisione precedente. Nel {{tm:compak}} fatelo prima che chiami il tiratore successivo. L'{{term:referee|arbitro}} ferma il tiro e ascolta il vostro motivo.",
-    "referee-appeals-p2": "Se l'arbitro è sicuro, la decisione resta ed è definitiva. In caso di dubbio, l'arbitro può chiedere a un altro arbitro, al {{term:trapper|puller}} (la persona che rilascia i piattelli) o ai tiratori della batteria, solo per un parere, e poi decide da solo. Non potete lasciare la pedana né andare a raccogliere un piattello per controllarlo. Nel {{tm:sporting}} dovete rompere i piattelli dove l'arbitro può vederli. Se l'arbitro stabilisce che un piattello si è rotto dietro un cespuglio, un albero o un altro ostacolo naturale, o oltre il {{term:shooting-limit|limite di tiro}}, quella decisione non si può appellare. Il limite di tiro è una linea oltre la quale i colpi non contano.",
-    "referee-appeals-p3": "Alcune decisioni non possono andare alla {{term:jury|giuria}}. Nel {{tm:sporting}} sono «one o zero» (colpito o mancato), un No bird (il piattello viene lanciato di nuovo), e se il piattello è volato correttamente. Nel {{tm:compak}} sono colpito o mancato, un piattello difettoso (rotto o guasto), e un piattello che è volato fuori dal percorso previsto. Qualsiasi altra decisione dell'arbitro può essere appellata alla giuria per iscritto, con una {{term:deposit|cauzione}} (una somma che lasciate con il ricorso). Nel {{tm:sporting}} la cauzione è {{fact:rules.sporting-jury-deposit}}. Nel {{tm:compak}} è l'importo in vigore il giorno della gara, e potete appellarvi solo su qualcosa accaduto quel medesimo giorno. Se la giuria vi dà ragione, la cauzione vi viene restituita.",
+    "referee-appeals-p1": "Un {{term:protest|reclamo}} va fatto sul posto. Alzate la mano e dite «Protest!» o «Appeal!» mentre siete ancora in pedana. Nel {{tm:sporting}} fatelo prima di chiamare il piattello successivo (chiedere che venga lanciato, per esempio con «pull»): una volta chiamato, avete accettato la decisione precedente. Nel {{tm:compak}} fatelo prima che chiami il tiratore successivo. Il {{term:referee|arbitro}} ferma il tiro e ascolta il vostro motivo.",
+    "referee-appeals-p2": "Se l'arbitro è sicuro, la decisione resta ed è definitiva. In caso di dubbio, l'arbitro può chiedere a un altro arbitro, al {{term:trapper|puller}} — la persona che rilascia i piattelli — o ai tiratori della batteria, solo per un parere, e poi decide da solo. Non potete lasciare la pedana né andare a raccogliere un piattello per controllarlo. Nel {{tm:sporting}} dovete rompere i piattelli dove l'arbitro può vederli. Se l'arbitro stabilisce che un piattello si è rotto dietro un cespuglio, un albero o un altro ostacolo naturale, o oltre lo {{term:shooting-limit|limite di tiro}}, quella decisione non si può appellare. Il limite di tiro è una linea oltre la quale i colpi non contano.",
+    "referee-appeals-p3": "Alcune decisioni non possono andare alla {{term:jury|giuria}}. Nel {{tm:sporting}} sono «one o zero» (colpito o mancato), un No bird (il piattello viene lanciato di nuovo), e se il piattello è volato correttamente. Nel {{tm:compak}} sono colpito o mancato, un piattello difettoso (rotto o guasto), e un piattello che è volato fuori dal percorso previsto. Qualsiasi altra decisione dell'arbitro può essere appellata alla giuria per iscritto, con una {{term:deposit|cauzione}} — una somma che lasciate con il ricorso. Nel {{tm:sporting}} la cauzione è {{fact:rules.sporting-jury-deposit}}. Nel {{tm:compak}} è l'importo in vigore il giorno della gara, e potete appellarvi solo su qualcosa accaduto quel medesimo giorno. Se la giuria vi dà ragione, la cauzione vi viene restituita.",
     "competitions-results-and-protests-p4": {
       "sporting": "La giuria può ordinare all'arbitro di cambiare la decisione, nominare un altro arbitro o cambiare essa stessa la decisione.",
       "compak": "La giuria può dare istruzioni all'arbitro per le decisioni future o nominare un altro arbitro."
     },
-    "competitions-results-and-protests-appeal-jury": "Le gare internazionali possono avere anche una {{term:appeal-jury|giuria d'appello}}: un secondo collegio a cui rivolgersi se non siete d'accordo con una decisione della giuria stessa. Nel {{tm:compak}} viene istituita a ogni gara internazionale. Nel {{tm:sporting}} è opzionale; dove non c'è, le decisioni della giuria sono definitive.",
-    "referee-appeals-p4": "Dopo la decisione definitiva dovete riprendere a tirare entro quindici secondi nel {{tm:sporting}} e dieci nel {{tm:compak}}. Se non lo fate, conta come {{term:refusal-to-comply|rifiuto di obbedire}} (non seguire l'arbitro), che viene punito. Continuare a discutere, mostrare disaccordo in modo vistoso, o altre persone che criticano apertamente la decisione, conta come {{term:attempt-to-influence|tentativo di influenzare}} l'arbitro, e anche questo viene punito.",
+    "competitions-results-and-protests-appeal-jury": "Le gare internazionali possono avere anche un'{{term:appeal-jury|giuria d'appello}}: un secondo collegio a cui rivolgersi se non siete d'accordo con una decisione della giuria stessa. Nel {{tm:compak}} viene istituita a ogni gara internazionale. Nel {{tm:sporting}} è opzionale; dove non c'è, le decisioni della giuria sono definitive.",
+    "referee-appeals-p4": "Dopo la decisione definitiva dovete riprendere a tirare entro quindici secondi nel {{tm:sporting}} e dieci nel {{tm:compak}}. Se non lo fate, conta come {{term:refusal-to-comply|rifiuto di obbedire}}, non seguire l'arbitro, che viene punito. Continuare a discutere, mostrare disaccordo in modo vistoso, o altre persone che criticano apertamente la decisione, conta come {{term:attempt-to-influence|tentativo di influenzare}} l'arbitro, e anche questo viene punito.",
     "competitions-results-and-protests-p5": "Quindi fate reclamo con calma e cortesia. Per un rifiuto di obbedire o un tentativo di influenzare l'arbitro, la giuria può togliere un piattello o un'intera serie, oppure escludere il tiratore dalla gara. Cartellini e penalizzazioni: {{lesson:rules-cards-and-appeals}}.",
-    "competitions-results-and-protests-tip": "Prima di fare reclamo, fate un respiro e siate chiari su cosa avete visto. Una volta che la decisione è definitiva, lasciatela andare e tornate alla vostra routine per il piattello successivo: {{lesson:mind-reset-after-miss}}."
+    "competitions-results-and-protests-tip": "Prima di fare reclamo, fate un respiro e siate chiari su cosa avete visto. Una volta che la decisione è definitiva, lasciatela andare e tornate alla vostra {{term:pre-shot-routine|routine pre-tiro}} per il piattello successivo: {{lesson:mind-reset-after-miss}}."
   },
   "note": {
     "competitions-results-and-protests-n1": "Mantenete «protest» e «appeal» come le parole formali del regolamento. Qui bisogna essere rapidi: il reclamo deve arrivare prima della chiamata successiva. Trasmettete la risposta dell'arbitro subito e per intero, senza la vostra opinione. Il vostro compito è tradurre con precisione il reclamo e la risposta, non sostenere la causa."
@@ -77,48 +81,79 @@
     }
   },
   "key_points": {
-    "referee-appeals-kp1": "Reclamo immediato, in pedana, con la mano alzata: «Protest!» / «Appeal!»",
-    "referee-appeals-kp2": "Reclamo prima della vostra chiamata successiva: chiamare significa accettare la decisione (nel {{tm:compak}}: prima che chiami il tiratore successivo)",
+    "referee-appeals-kp1": "{{term:protest|Reclamo}} immediato, in pedana, con la mano alzata: «Protest!» / «Appeal!»",
+    "referee-appeals-kp2": "{{term:protest|Reclamo}} prima della vostra chiamata successiva: chiamare significa accettare la decisione (nel {{tm:compak}}: prima che chiami il tiratore successivo)",
     "referee-appeals-kp3": "Non per la giuria: uno/zero (colpito o mancato), No bird, traiettoria (nel {{tm:compak}}: colpito o mancato, piattello difettoso o fuori traiettoria)",
     "referee-appeals-kp4": "Ricorso scritto alla giuria con una cauzione (nel {{tm:sporting}}: {{fact:rules.sporting-jury-deposit}})",
-    "referee-appeals-kp5": "Riprendere entro 15 s (nel {{tm:sporting}}) o 10 s (nel {{tm:compak}}); continuare a discutere = tentativo di influenzare l'arbitro"
+    "referee-appeals-kp5": "Riprendere entro 15 s (nel {{tm:sporting}}) o 10 s (nel {{tm:compak}}); continuare a discutere = {{term:attempt-to-influence|tentativo di influenzare}} il {{term:referee|arbitro}}"
   },
   "did_you_know": "Nel {{tm:sporting}} la cauzione di un ricorso rigettato non svanisce: va a un'organizzazione benefica scelta dal presidente FITASC.",
   "quiz": {
     "competitions-results-and-protests-q1": {
-      "q": "Come si fa reclamo correttamente?",
-      "options": { "a": "Dopo la serie, alla segreteria della gara", "b": "Chiamare il piattello successivo, poi spiegare perché", "c": "Subito in pedana: mano alzata, dire «protest»" },
+      "q": "Come si fa {{term:protest|reclamo}} correttamente?",
+      "options": {
+        "a": "Dopo la serie, alla segreteria della gara",
+        "b": "Chiamare il piattello successivo, poi spiegare perché",
+        "c": "Subito in pedana: mano alzata, dire «protest»"
+      },
       "explain": "Un reclamo si fa immediatamente in pedana; nel {{tm:sporting}} chiamare il piattello successivo significa accettare la decisione precedente."
     },
     "competitions-results-and-protests-q2": {
-      "q": "Quale decisione non può essere appellata alla giuria?",
-      "options": { "a": "Una penalizzazione per ritardo", "b": "Se un piattello era uno o zero", "c": "Un avvertimento sull'abbigliamento" },
-      "explain": "Colpito o mancato lo decide solo l'arbitro in pedana, in entrambe le discipline. Le altre decisioni dell'arbitro possono andare alla giuria per iscritto."
+      "q": "Quale decisione non può essere appellata alla {{term:jury|giuria}}?",
+      "options": {
+        "a": "Una penalizzazione per ritardo",
+        "b": "Se un piattello era uno o zero",
+        "c": "Un avvertimento sull'abbigliamento"
+      },
+      "explain": "Colpito o mancato lo decide solo il {{term:referee|arbitro}} in pedana, in entrambe le discipline. Le altre decisioni dell'arbitro possono andare alla giuria per iscritto."
     },
     "referee-appeals-q3": {
-      "q": "Nel {{tm:sporting}}, a quanto ammonta la cauzione per un ricorso scritto alla giuria?",
-      "options": { "a": "Il 40% della quota d'iscrizione", "b": "L'intera quota d'iscrizione", "c": "50 euro fissi", "d": "Non serve alcuna cauzione" },
+      "q": "Nel {{tm:sporting}}, a quanto ammonta la {{term:deposit|cauzione}} per un ricorso scritto alla {{term:jury|giuria}}?",
+      "options": {
+        "a": "Il 40% dell'{{term:entry-fee|quota d'iscrizione}}",
+        "b": "L'intera {{term:entry-fee|quota d'iscrizione}}",
+        "c": "50 euro fissi",
+        "d": "Non serve alcuna cauzione"
+      },
       "explain": "Il regolamento {{tm:sporting}} fissa la cauzione al 40% della quota d'iscrizione; viene restituita se la giuria dà ragione al tiratore."
     },
     "referee-appeals-q1": {
-      "q": "Nel {{tm:sporting}}, il vostro tiratore pensa che un piattello conteggiato zero fosse colpito, ma ha già chiamato il piattello successivo. Può ancora fare reclamo su quella decisione?",
-      "options": { "a": "Sì, alla fine della serie", "b": "Sì, per iscritto alla giuria", "c": "No: chiamare il piattello successivo significa accettare la decisione precedente", "d": "Sì, se la batteria è d'accordo" },
+      "q": "Nel {{tm:sporting}}, il vostro tiratore pensa che un piattello conteggiato zero fosse colpito, ma ha già chiamato il piattello successivo. Può ancora fare {{term:protest|reclamo}} su quella decisione?",
+      "options": {
+        "a": "Sì, alla fine della serie",
+        "b": "Sì, per iscritto alla giuria",
+        "c": "No: chiamare il piattello successivo significa accettare la decisione precedente",
+        "d": "Sì, se la batteria è d'accordo"
+      },
       "explain": "Chiamando il piattello successivo il tiratore accetta la decisione precedente, e le decisioni uno/zero non possono comunque andare alla giuria."
     },
     "referee-appeals-q2": {
-      "q": "Nel {{tm:sporting}}, quale decisione SI PUÒ appellare alla giuria?",
-      "options": { "a": "Se un piattello era uno o zero", "b": "Un No bird", "c": "Se una traiettoria era corretta", "d": "Un'altra decisione dell'arbitro, come una penalizzazione per ritardo" },
-      "explain": "Nel {{tm:sporting}} le decisioni su uno/zero, No bird e traiettoria sono definitive; le altre decisioni dell'arbitro possono andare alla giuria per iscritto con una cauzione."
+      "q": "Nel {{tm:sporting}}, quale decisione SI PUÒ appellare alla {{term:jury|giuria}}?",
+      "options": {
+        "a": "Se un piattello era uno o zero",
+        "b": "Un No bird",
+        "c": "Se una traiettoria era corretta",
+        "d": "Un'altra decisione del arbitro, come una penalizzazione per ritardo"
+      },
+      "explain": "Nel {{tm:sporting}} le decisioni su uno/zero, No bird e traiettoria sono definitive; le altre decisioni dell'arbitro possono andare alla giuria per iscritto con una {{term:deposit|cauzione}}."
     },
     "competitions-results-and-protests-q-deposit-back": {
-      "q": "Nel {{tm:sporting}}, cosa succede alla cauzione se la giuria dà ragione al tiratore?",
-      "options": { "a": "Va a un'organizzazione benefica", "b": "Viene restituita al tiratore", "c": "Viene condivisa con l'arbitro" },
+      "q": "Nel {{tm:sporting}}, cosa succede alla {{term:deposit|cauzione}} se la {{term:jury|giuria}} dà ragione al tiratore?",
+      "options": {
+        "a": "Va a un'organizzazione benefica",
+        "b": "Viene restituita al tiratore",
+        "c": "Viene condivisa con il arbitro"
+      },
       "explain": "Un ricorso accolto fa recuperare la cauzione; uno rigettato la manda a un'organizzazione benefica scelta dal presidente FITASC."
     },
     "competitions-results-and-protests-q-resume": {
-      "q": "Nel {{tm:compak}}, quanto presto dovete riprendere a tirare dopo la decisione definitiva dell'arbitro?",
-      "options": { "a": "Entro 10 secondi", "b": "Entro 1 minuto", "c": "Quando vi sentite pronti" },
-      "explain": "Nel {{tm:compak}} si riprende entro 10 secondi, nel {{tm:sporting}} entro 15; altrimenti conta come rifiuto di obbedire."
+      "q": "Nel {{tm:compak}}, quanto presto dovete riprendere a tirare dopo la decisione definitiva del {{term:referee|arbitro}}?",
+      "options": {
+        "a": "Entro 10 secondi",
+        "b": "Entro 1 minuto",
+        "c": "Quando vi sentite pronti"
+      },
+      "explain": "Nel {{tm:compak}} si riprende entro 10 secondi, nel {{tm:sporting}} entro 15; altrimenti conta come {{term:refusal-to-comply|rifiuto di obbedire}}."
     }
   }
 }

@@ -32,13 +32,13 @@
     "origin": null
   },
   "title": "Bezpieczeństwo i nadzór",
-  "summary": "Na zajęciach i treningach dziecko strzela tylko pod bezpośrednim nadzorem trenera, według tych samych zasad bezpieczeństwa co dorośli, i zawsze z ochroną słuchu i oczu.",
+  "summary": "Na zajęciach i treningach dziecko strzela tylko pod bezpośrednim nadzorem {{term:coach|trenera}}, według tych samych zasad bezpieczeństwa co dorośli, i zawsze z ochroną słuchu i oczu.",
   "body": {
     "juniors-safety-supervision-p1": "Dla młodych strzelców zasady bezpieczeństwa są takie same jak dla dorosłych, ale nadzór jest ściślejszy. Na zajęciach i treningach {{term:coach|trener}} albo instruktor stoi na stanowisku bezpośrednio przy dziecku, tak blisko, by w każdej chwili mógł chwycić broń. Dziecko nigdy nie zostaje samo z bronią, ani na strzelnicy, ani w domu.",
-    "juniors-safety-supervision-competition": "Zawody działają inaczej: stanowiskiem kieruje {{term:referee|sędzia}}, i nikt nie może {{term:coaching|podpowiadać}} strzelcowi. Granice wieku i przepisy nadzoru nad niepełnoletnimi zależą od prawa twojego kraju i od przepisów samej strzelnicy: zob. {{lesson:juniors-documents-licences}}.",
-    "juniors-safety-supervision-p2": "Przed pierwszym strzałem dziecko powinno znać podstawowe zasady z lekcji {{lesson:safety-core-rules}}. {{term:muzzle|Wylot lufy}} jest skierowany w bezpieczną stronę. Broń jest otwarta, gdy się nie strzela. Naboje wkłada się tylko na stanowisku, gdy powie o tym trener. Na „Stop!” ({{term:cease-fire|cease fire}}) broń otwiera się i wszyscy czekają.",
+    "juniors-safety-supervision-competition": "Zawody działają inaczej: stanowiskiem kieruje {{term:referee|sędzia}}, a {{term:coaching|podpowiadanie}} strzelcowi jest zabronione. Granice wieku i przepisy nadzoru nad niepełnoletnimi zależą od prawa twojego kraju i od przepisów samej strzelnicy: zob. {{lesson:juniors-documents-licences}}.",
+    "juniors-safety-supervision-p2": "Przed pierwszym strzałem dziecko powinno znać podstawowe zasady z lekcji {{lesson:safety-core-rules}}. {{term:muzzle|Wylot lufy}} jest skierowany w bezpieczną stronę. Broń jest otwarta, gdy się nie strzela. Naboje wkłada się tylko na stanowisku, gdy powie o tym trener. Na komendę „Stop!” – {{term:cease-fire|przerwać strzelanie}} – broń otwiera się i wszyscy czekają.",
     "juniors-safety-supervision-check": "Przydatna kontrola: przed każdymi z pierwszych zajęć poproś dziecko, by wyjaśniło te zasady własnymi słowami.",
-    "juniors-safety-supervision-p3": "Dziecko, które strzela, zawsze nosi {{term:hearing-protection|ochronę słuchu}} i {{term:safety-glasses|okulary strzeleckie}}, jak każdy strzelec. Dla dzieci, które przychodzą popatrzeć w pobliżu {{term:layout|osi}} (pola strzelania z jego stanowiskami i wyrzutniami), przepisy dyscyplin trochę się różnią.",
+    "juniors-safety-supervision-p3": "Dziecko, które strzela, zawsze nosi {{term:hearing-protection|ochronę słuchu}} i {{term:safety-glasses|okulary strzeleckie}}, jak każdy strzelec. Dla dzieci, które przychodzą popatrzeć w pobliżu {{term:layout|osi}}, czyli pola strzelania z jego stanowiskami i wyrzutniami, przepisy dyscyplin trochę się różnią.",
     "juniors-safety-supervision-rules": {
       "sporting": "Dzieci na terenie strzelnicy, poza klubem, przez cały czas noszą ochronę słuchu. Okulary są obowiązkowe dla każdego blisko stanowiska.",
       "compak": "Ochrona słuchu jest obowiązkowa dla wszystkich widzów w pobliżu osi, w tym dzieci. Okulary są obowiązkowe dla zawodników, sędziów i obsługi."
@@ -60,13 +60,13 @@
   "did_you_know": "Strzał ze strzelby sięga {{fact:gear.gunshot-peak-db}} (decybele, dB, mierzą głośność). Dla jednego takiego krótkiego, ostrego huku górne granice to {{fact:gear.impulse-noise-limits}}. Granica dla dorosłych pochodzi z przepisów bezpieczeństwa pracy, a tę dla dzieci rekomenduje WHO. Dlatego ochrona słuchu jest potrzebna też dzieciom, które tylko patrzą.",
   "quiz": {
     "juniors-safety-supervision-q1": {
-      "q": "Gdzie powinien być trener, gdy dziecko strzela na treningu?",
+      "q": "Gdzie powinien być {{term:coach|trener}}, gdy dziecko strzela na treningu?",
       "options": {
         "a": "Za grupą, skąd widzi całe stanowisko",
         "b": "Bezpośrednio przy dziecku, by od razu móc wziąć broń",
         "c": "Przy wyrzutni, w gotowości, by zatrzymać rzutki"
       },
-      "explain": "Na treningu bezpośredni nadzór znaczy, że trener stoi przy dziecku i może natychmiast zareagować. Na zawodach stanowiskiem kieruje sędzia."
+      "explain": "Na treningu bezpośredni nadzór znaczy, że trener stoi przy dziecku i może natychmiast zareagować. Na zawodach stanowiskiem kieruje {{term:referee|sędzia}}."
     },
     "juniors-safety-supervision-q2": {
       "q": "Twoja córka przyszła tylko popatrzeć na zawody. Czy potrzebuje ochrony słuchu?",

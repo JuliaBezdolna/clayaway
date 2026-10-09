@@ -22,13 +22,17 @@
     "culture-club-life-q2": "b916438f",
     "culture-club-life-q3": "388f6a94"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Vita di club e volontariato",
   "summary": "Il club è il cuore dello sport. Come partecipare, come aiutare come volontario alle gare, e perché i volontari contano così tanto.",
   "body": {
     "culture-club-life-p1": "Molti tiratori iniziano in un club. Un club è un luogo per allenarsi, ma è anche una comunità. Le persone si scambiano consigli, viaggiano insieme alle gare, festeggiano le vittorie e si sostengono dopo una giornata storta.",
     "culture-club-life-p2": "I club organizzano le proprie gare, dai tornei amichevoli del fine settimana alle tappe di un campionato nazionale. Una {{term:national-federation|federazione nazionale}} può anche affidare a un club la gestione di una gara internazionale, ma la responsabilità resta della federazione. Tutto questo si basa sulle persone.",
-    "culture-club-life-p3": "I volontari fanno molto a una gara. Registrano i tiratori, caricano le {{term:trap|macchine}} con i piattelli, aiutano con il parcheggio e il cibo, fotografano per il club e raccolgono bossoli e frammenti di piattelli. Alcuni aiutano con gli {{term:score-sheet|statini}} dove il regolamento lo permette, sempre sotto l'occhio dell'{{term:referee|arbitro}}.",
+    "culture-club-life-p3": "I volontari fanno molto a una gara. Registrano i tiratori, caricano le {{term:trap|macchine}} con i piattelli, aiutano con il parcheggio e il cibo, fotografano per il club e raccolgono {{term:hull|bossoli}} e frammenti di piattelli. Alcuni aiutano con gli {{term:score-sheet|statini}} dove il regolamento lo permette, sempre sotto l'occhio del {{term:referee|arbitro}}.",
     "culture-club-life-briefing": "Alcuni compiti, come lavorare da {{term:trapper|puller}} vicino a una macchina, iniziano con un briefing sulla sicurezza. Indossa {{term:hearing-protection|protezioni auditive}} e {{term:safety-glasses|occhiali di protezione}}, e segui le indicazioni dello stand.",
     "culture-club-life-p4": "Vuoi partecipare? Chiedi al tuo club chi ha bisogno di aiuto. Il volontariato è un buon modo per conoscere le persone e vedere come funziona una gara dall'interno. È anche un buon primo passo verso l'arbitraggio o il ruolo di {{term:organiser|organizzatore}}: {{lesson:nextstep-becoming-referee}}.",
     "culture-club-life-p5": "Un buon membro del club segue le regole dello stand, paga le quote in tempo, aiuta i principianti e partecipa alle giornate di pulizia. Una delle cose più gentili che puoi fare per un nuovo arrivato è mostrargli le regole di sicurezza e invitarlo a tirare con te.",
@@ -47,17 +51,29 @@
   "quiz": {
     "culture-club-life-q1": {
       "q": "Chi tiene il protocollo nel {{tm:sporting}}?",
-      "options": { "a": "Qualsiasi tiratore, senza supervisione", "b": "L'arbitro, o un aiutante sotto il suo occhio", "c": "Solo il tiratore che sta sparando" },
+      "options": {
+        "a": "Qualsiasi tiratore, senza supervisione",
+        "b": "Il arbitro, o un aiutante sotto il suo occhio",
+        "c": "Solo il tiratore che sta sparando"
+      },
       "explain": "Nel {{tm:sporting}} il protocollo lo compila l'arbitro, oppure una persona che lui sceglie, sotto la sua supervisione."
     },
     "culture-club-life-q2": {
-      "q": "Qual è un buon primo passo per diventare arbitro?",
-      "options": { "a": "Comprare online un tesserino da arbitro, senza esame", "b": "Vincere una gara di club e poi chiedere di arbitrare", "c": "Aiutare alle gare di club, poi seguire un corso" },
-      "explain": "Aiutare alle gare di club mostra il lavoro dall'interno. Poi il corso e l'esame della federazione portano al tesserino di arbitro."
+      "q": "Qual è un buon primo passo per diventare {{term:referee|arbitro}}?",
+      "options": {
+        "a": "Comprare online un tesserino da arbitro, senza esame",
+        "b": "Vincere una gara di club e poi chiedere di arbitrare",
+        "c": "Aiutare alle gare di club, poi seguire un corso"
+      },
+      "explain": "Aiutare alle gare di club mostra il lavoro dall'interno. Poi il corso e l'esame della federazione portano al {{term:referee-certificate|tesserino di arbitro}}."
     },
     "culture-club-life-q3": {
       "q": "Una federazione può affidare a un club la gestione di una gara?",
-      "options": { "a": "Sì, ma la responsabilità resta della federazione", "b": "No, solo la FITASC può organizzare gare", "c": "Sì, e allora non risponde più nessuno" },
+      "options": {
+        "a": "Sì, ma la responsabilità resta della federazione",
+        "b": "No, solo la FITASC può organizzare gare",
+        "c": "Sì, e allora non risponde più nessuno"
+      },
       "explain": "Una federazione può affidare a un club la gestione di una gara, ma resta responsabile dell'applicazione del regolamento."
     }
   }

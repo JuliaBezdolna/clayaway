@@ -35,9 +35,9 @@
   "summary": "Vier häufige Ursachen von Fehlschüssen – Kopfheben, Anhalten oder Zögern der Flinte, zu langes Mitführen und Stochern – wie sie aussehen und die übliche Korrektur.",
   "body": {
     "faults-head-lift-stopping-p1": "Nach der Richtung nennt der Trainer die Ursache. Vier Ursachen kommen in den meisten Trainingseinheiten vor, jede mit ihrem eigenen kurzen Wort. Lernen Sie sie paarweise: den Fehler und die Korrektur.",
-    "faults-head-lift-stopping-p2": "Head lift: Die Wange verlässt den Schaft beim Schuss oder kurz davor, oft weil der Schütze sehen will, wie die Scheibe zerbricht. Ihr Auge übernimmt die Rolle der Kimme (eine Flinte hat keine). Hebt sich der Kopf, bewegt sich also das Auge, die Flinte zeigt höher, als Sie meinen, und der Schuss geht meist darüber. Korrektur: „head down“ (Kopf unten), „cheek on the stock“ (Wange auf dem Schaft), „stay in the gun“ (nicht von der Flinte lösen).",
-    "faults-head-lift-stopping-p3": "Stopping the gun: Die Läufe bleiben beim Schuss stehen, meist weil der Schütze auf den Lauf schielt, um den Abstand vor der Scheibe zu prüfen. Der Schuss geht dahinter. Eine leichtere Form ist checking: Die Bewegung stockt für den Bruchteil einer Sekunde. Korrektur: „keep the gun moving“ (die Flinte in Bewegung halten), „follow through“ (nachschwingen), „finish the shot“ (den Schuss zu Ende führen).",
-    "faults-head-lift-stopping-p4": "Riding the target: der Scheibe vor dem Schuss zu lange folgen, sodass sie langsamer wird, fällt oder wegdreht und der Schütze die Linie verliert. Korrektur: „take it earlier“ (früher nehmen), „commit to it“ (sich festlegen). Poking (auch „aiming“, „measuring“): die Flinte langsam wie ein Gewehr ausrichten, die Augen auf dem Korn (dem kleinen Punkt am Ende der Läufe) statt auf der Scheibe. Typisch, wenn die Trefferzone zu nah liegt, oder bei einem {{term:teal|Teal}} (einer fast senkrecht nach oben geworfenen Scheibe) am höchsten Punkt ihres Steigens. Korrektur: „eyes on the clay“ (Augen auf die Scheibe), „let the gun go“ (die Flinte laufen lassen).",
+    "faults-head-lift-stopping-p2": "{{term:head-lift|Head lift}}: Die Wange verlässt den {{term:stock|Schaft}} beim Schuss oder kurz davor, oft weil der Schütze sehen will, wie die Scheibe zerbricht. Ihr Auge übernimmt die Rolle der Kimme (eine Flinte hat keine). Hebt sich der Kopf, bewegt sich also das Auge, die Flinte zeigt höher, als Sie meinen, und der Schuss geht meist darüber. Korrektur: „head down“ (Kopf unten), „cheek on the stock“ (Wange auf dem Schaft), „stay in the gun“ (nicht von der Flinte lösen).",
+    "faults-head-lift-stopping-p3": "{{term:stopping-the-gun|Stopping the gun}}: Die Läufe bleiben beim Schuss stehen, meist weil der Schütze auf den Lauf schielt, um den Abstand vor der Scheibe zu prüfen. Der Schuss geht dahinter. Eine leichtere Form ist das {{term:checking|Checking}}: Die Bewegung stockt für den Bruchteil einer Sekunde. Korrektur: „keep the gun moving“ (die Flinte in Bewegung halten), „follow through“ (nachschwingen), „finish the shot“ (den Schuss zu Ende führen).",
+    "faults-head-lift-stopping-p4": "{{term:riding-the-target|Riding the target}}: der Scheibe vor dem Schuss zu lange folgen, sodass sie langsamer wird, fällt oder wegdreht und der Schütze die Linie verliert. Korrektur: „take it earlier“ (früher nehmen), „commit to it“ (sich festlegen). {{term:poking|Poking}}, auch „aiming“ oder „measuring“ genannt: die Flinte langsam wie ein Gewehr ausrichten, die Augen auf dem Korn (dem kleinen Punkt am Ende der Läufe) statt auf der Scheibe. Typisch, wenn die {{term:break-point|Trefferzone}} zu nah liegt, oder bei einem {{term:teal|Teal}} (einer fast senkrecht nach oben geworfenen Scheibe) am höchsten Punkt ihres Steigens. Korrektur: „eyes on the clay“ (Augen auf die Scheibe), „let the gun go“ (die Flinte laufen lassen).",
     "technique-follow-through-and-mistakes-p4": "Eine verwandte Fehlerquelle ist das {{term:flinch|Mucken}}: ein unwillkürliches Zucken kurz vor dem Schuss, oft aus Erwartung des {{term:recoil|Rückstoßes}}. Eine passende Flinte, leichtere Patronen und Arbeit mit einem Trainer helfen meist; siehe {{lesson:health-recoil-shoulder-neck}}."
   },
   "note": {
@@ -74,7 +74,7 @@
     "faults-head-lift-stopping-kp2": "Anhalten oder Zögern: Schuss dahinter; Korrektur: Flinte in Bewegung halten, nachschwingen.",
     "faults-head-lift-stopping-kp3": "Hinterherfahren: Die Scheibe wird langsamer oder fällt weg; Korrektur: früher nehmen, festlegen.",
     "faults-head-lift-stopping-kp4": "Stochern oder Zielen: langsames Ausrichten wie mit der Büchse; Korrektur: Augen auf die Scheibe.",
-    "faults-head-lift-stopping-kp5": "Flinch: ein Zucken vor dem Schuss, oft durch den Rückstoß; Schaftanpassung und Patronen prüfen."
+    "faults-head-lift-stopping-kp5": "Flinch: ein Zucken vor dem Schuss, oft durch den Rückstoß; {{term:gun-fit|Schaftanpassung}} und Patronen prüfen."
   },
   "did_you_know": null,
   "quiz": {
@@ -96,7 +96,7 @@
         "c": "Sofort aufhören zu schießen und die Flinte öffnen",
         "d": "Die Flinte senken und auf den Schiedsrichter warten"
       },
-      "explain": "„Aiming“ im Mund eines Trainers ist ein Fehler (poking); die Korrektur ist, die Augen auf die Scheibe zu richten und frei zu schwingen."
+      "explain": "„Aiming“ bezeichnet im Mund eines Trainers einen Fehler, das {{term:poking|Poking}}; die Korrektur ist, die Augen auf die Scheibe zu richten und frei zu schwingen."
     },
     "faults-head-lift-stopping-q3": {
       "q": "„You rode it too long“ bedeutet…",

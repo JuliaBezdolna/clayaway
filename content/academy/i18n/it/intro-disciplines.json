@@ -28,19 +28,19 @@
   "title": "Le due discipline",
   "summary": "Una breve guida a {{tm:sporting}} e {{tm:compak}}: cosa hanno in comune e come si differenziano.",
   "body": {
-    "intro-disciplines-p1": "Lo {{tm:sporting}} riproduce la caccia. Le {{term:shooting-stand|pedane}}, i punti segnati da cui si tira, sono disposte su terreno naturale: nei campi, vicino ai boschi, sui pendii. I piattelli volano come farebbe una starna, un'anatra o un fagiano, oppure rotolano come una lepre. Ogni {{term:layout|percorso}}, un gruppo di pedane, dà {{fact:targets.sporting-layout-targets}} (un doppio è due piattelli, quindi altri 10). I due piattelli di un {{term:double|doppio}} volano insieme o uno dopo l'altro.",
-    "intro-disciplines-p2": "Il {{tm:compak}} è la versione compatta. Tutto avviene su un unico campo con {{fact:basics.compak-field}}. Il tiratore passa per tutte le cinque pedane e su ciascuna spara a 5 piattelli: 25 per {{term:round|serie}}. Un campo Compak richiede poco spazio, quindi è facile da costruire per un club.",
+    "intro-disciplines-p1": "Lo {{tm:sporting}} riproduce la caccia. Le {{term:shooting-stand|pedane}}, i punti segnati da cui si tira, sono disposte su terreno naturale: nei campi, vicino ai boschi, sui pendii. I piattelli volano come farebbe una starna, un'anatra o un fagiano, oppure rotolano come una lepre. Ogni {{term:layout|percorso}}, un gruppo di pedane, dà {{fact:targets.sporting-layout-targets}} — un {{term:double|doppio}} è due piattelli, quindi altri 10. I due piattelli di un {{term:double|doppio}} volano insieme o uno dopo l'altro.",
+    "intro-disciplines-p2": "Il {{tm:compak}} è la versione compatta. Tutto avviene su un unico {{term:layout|campo}} con {{fact:basics.compak-field}}. Il tiratore passa per tutte le cinque {{term:shooting-stand|pedane}} e su ciascuna spara a 5 piattelli: 25 per {{term:round|serie}}. Un campo Compak richiede poco spazio, quindi è facile da costruire per un club.",
     "intro-disciplines-cmp": {
-      "sporting": "Si percorrono le pedane una dopo l'altra, e ogni pedana ha i suoi piattelli. Un doppio può essere {{term:double-on-report|allo sparo}}, dove il primo colpo libera il secondo piattello, oppure {{term:simultaneous-double|simultaneo}}, dove entrambi volano insieme. Un {{term:rafale-double|doppio a raffica}} è formato da due piattelli della stessa macchina, uno subito dopo l'altro.",
-      "compak": "Si resta su un unico campo e, dopo ogni turno, si passa alla pedana a destra. Un doppio è {{term:double-on-report|allo sparo}}, dove il primo colpo libera il secondo piattello, oppure {{term:simultaneous-double|simultaneo}}, dove entrambi volano insieme."
+      "sporting": "Si percorrono le pedane una dopo l'altra, e ogni pedana ha i suoi piattelli. Un doppio può essere {{term:double-on-report|allo sparo}}, dove il primo colpo libera il secondo piattello, oppure {{term:simultaneous-double|simultaneo}}, dove entrambi volano insieme. Un {{term:rafale-double|doppio a raffica}} è formato da due piattelli della stessa {{term:trap|macchina}}, uno subito dopo l'altro.",
+      "compak": "Si resta su un unico campo e, dopo ogni {{term:rotation|turno}}, si passa alla pedana a destra. Un {{term:double|doppio}} è {{term:double-on-report|allo sparo}}, dove il primo colpo libera il secondo piattello, oppure {{term:simultaneous-double|simultaneo}}, dove entrambi volano insieme."
     },
     "intro-disciplines-p3": "Le gare internazionali di entrambe le discipline sono di solito {{fact:basics.international-targets}}. In entrambe, su un {{term:single-target|piattello singolo}} si possono sparare due colpi: se il primo manca, il secondo può ancora romperlo.",
-    "intro-disciplines-p6": "Entrambe le discipline fanno capo alla {{term:fitasc|FITASC}}, la federazione internazionale che ne scrive le regole. Le basi sono comuni: la sicurezza, l'{{term:gun-mount|imbracciata}} (il gesto che porta il fucile alla guancia e alla spalla) e la lettura del piattello."
+    "intro-disciplines-p6": "Entrambe le discipline fanno capo alla {{term:fitasc|FITASC}}, la federazione internazionale che ne scrive le regole. Le basi sono comuni: la sicurezza, la {{term:gun-mount|imbracciata}} — il gesto che porta il fucile alla guancia e alla spalla — e la lettura del piattello."
   },
   "note": {},
   "phrases": {},
   "key_points": {
-    "intro-disciplines-kp1": "{{tm:sporting}}: un percorso su terreno naturale; ogni campo dà {{fact:rules.round-targets}}.",
+    "intro-disciplines-kp1": "{{tm:sporting}}: un {{term:layout|percorso}} su terreno naturale; ogni campo dà {{fact:rules.round-targets}}.",
     "intro-disciplines-kp2": "{{tm:compak}}: un unico campo con {{fact:basics.compak-field}}.",
     "intro-disciplines-kp3": "Una gara internazionale è di solito {{fact:basics.international-targets}}; su un piattello singolo si può sparare due volte.",
     "intro-disciplines-kp4": "Entrambe le discipline seguono le regole FITASC e hanno basi comuni: sicurezza, imbracciata e lettura del piattello."
@@ -48,16 +48,16 @@
   "did_you_know": "Il {{tm:compak}} è stato {{fact:community.compak-created}}.",
   "quiz": {
     "intro-disciplines-q1": {
-      "q": "Quanti piattelli dà un campo (layout) di {{tm:sporting}}?",
+      "q": "Quanti piattelli dà un {{term:layout|campo}} di {{tm:sporting}}?",
       "options": {
         "a": "10",
         "b": "25",
         "c": "50"
       },
-      "explain": "Ogni campo dà {{fact:targets.sporting-layout-targets}} (un doppio è due piattelli, quindi altri 10)."
+      "explain": "Ogni campo dà {{fact:targets.sporting-layout-targets}} — un {{term:double|doppio}} è due piattelli, quindi altri 10."
     },
     "intro-disciplines-q2": {
-      "q": "Quante macchine ci sono su un campo Compak?",
+      "q": "Quante {{term:trap|macchine}} ci sono su un {{term:layout|campo}} Compak?",
       "options": {
         "a": "Sei, con le lettere da A a F",
         "b": "Quattro, con le lettere da A a D",
@@ -66,7 +66,7 @@
       "explain": "Un campo {{tm:compak}} ha {{fact:basics.compak-field}}."
     },
     "intro-disciplines-q-course": {
-      "q": "In quale disciplina si percorrono le pedane una dopo l'altra lungo un percorso?",
+      "q": "In quale disciplina si percorrono le {{term:shooting-stand|pedane}} una dopo l'altra lungo un {{term:layout|percorso}}?",
       "options": {
         "a": "{{tm:compak}}",
         "b": "In entrambe, allo stesso modo",
@@ -75,7 +75,7 @@
       "explain": "Nel {{tm:sporting}} si passa da una pedana all'altra su un terreno naturale; nel {{tm:compak}} si resta su un unico campo e si passa alla pedana a destra."
     },
     "intro-disciplines-q-second-shot": {
-      "q": "Il primo colpo manca un piattello singolo. Cosa permette il regolamento?",
+      "q": "Il primo colpo manca un {{term:single-target|piattello singolo}}. Cosa permette il regolamento?",
       "options": {
         "a": "L'arbitro ripete il piattello",
         "b": "Devi aprire subito il fucile",

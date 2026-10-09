@@ -37,9 +37,9 @@
   "summary": "O que significam «atrás», «à frente», «acima», «abaixo» e «chipped» (um pedaço partido), o que costuma causar cada erro, e como se pontua um prato com um pedaço partido.",
   "body": {
     "faults-behind-in-front-p1": "Cada falha tem uma direção. Um treinador que observa por trás do atirador diz normalmente primeiro onde foi o chumbo em relação ao prato, e só depois porquê.",
-    "faults-behind-in-front-p2": "«Behind» (atrás) significa que o chumbo passou atrás de um prato em movimento: avanço insuficiente, ou uma arma que abrandou. É uma falha muito comum nos transversais. «In front» (à frente) é o contrário: avanço a mais, muitas vezes depois de o atirador ter corrigido em excesso. Muitos treinadores preferem uma falha à frente: mostra que a arma continuou a mexer.",
-    "faults-behind-in-front-p3": "Over (também «high», «over the top»: por cima, alto) e under («low»: por baixo, baixo) descrevem a falha vertical. Por cima é comum nos pratos descendentes, nos coelhos e nos pratos de entrada, e está muitas vezes ligada à cabeça a sair da coronha. Por baixo é típico nos pratos ascendentes que ainda estão a subir no momento do disparo.",
-    "faults-behind-in-front-p4": "«Chipped» (lascado) significa que só se soltou um pequeno pedaço. Para o treinador é meio elogio, meia correção: o prato foi apanhado pelo bordo da {{term:pattern|chumbada}}, a nuvem de chumbo. Para o árbitro é acerto, desde que o pedaço seja visível. Atenção a um pormenor das regras: um prato que se parte, mesmo que se transforme total ou parcialmente em pó, é acerto nas duas disciplinas. Um prato que continua a voar inteiro e larga apenas uma nuvem de pó ou fumo, sem pedaço visível, é falha (zero). Na gíria dos treinadores, «smoked it» significa um acerto perfeito e centrado que transforma o prato em pó, e «dusted it» ouve-se nos dois sentidos, por isso pergunte quando não tiver a certeza.",
+    "faults-behind-in-front-p2": "«Behind» (atrás) significa que o chumbo passou atrás de um prato em movimento: {{term:lead|avanço}} insuficiente, ou uma arma que abrandou. É uma falha muito comum nos transversais. «In front» (à frente) é o contrário: avanço a mais, muitas vezes depois de o atirador ter corrigido em excesso. Muitos treinadores preferem uma falha à frente: mostra que a arma continuou a mexer.",
+    "faults-behind-in-front-p3": "Over (também «high», «over the top»: por cima, alto) e under («low»: por baixo, baixo) descrevem a falha vertical. Por cima é comum nos pratos descendentes, nos coelhos e nos {{term:incomer|pratos de entrada|pl}}, e está muitas vezes ligada à cabeça a sair da {{term:stock|coronha}}. Por baixo é típico nos pratos ascendentes que ainda estão a subir no momento do disparo.",
+    "faults-behind-in-front-p4": "«Chipped» (lascado) significa que só se soltou um pequeno pedaço. Para o treinador é meio elogio, meia correção: o prato foi apanhado pelo bordo da {{term:pattern|chumbada}}, a nuvem de chumbo. Para o árbitro é acerto, desde que o pedaço seja visível. Atenção a um pormenor das regras: um prato que se parte, mesmo que se transforme total ou parcialmente em pó, é acerto nas duas disciplinas. Um prato que continua a voar inteiro e larga apenas uma nuvem de pó ou fumo, sem {{term:visible-piece|pedaço visível}}, é falha (zero). Na gíria dos treinadores, «smoked it» significa um acerto perfeito e centrado que transforma o prato em pó, e «dusted it» ouve-se nos dois sentidos, por isso pergunte quando não tiver a certeza.",
     "technique-follow-through-and-mistakes-p5": "Muitos destes erros são fáceis de ver de fora. Um treinador atrás de si vê para onde foi o disparo e o que fizeram a sua cabeça, as mãos e os pés. Por conta própria, pode corrigir a coisa errada: um disparo atrás do prato por a arma ter parado não se cura com mais avanço."
   },
   "note": {
@@ -96,10 +96,10 @@
       "options": {
         "a": "Falha, porque a maior parte do prato continuou a voar",
         "b": "No Bird",
-        "c": "One (BOM)",
+        "c": "One",
         "d": "Acerto, só se o treinador concordar"
       },
-      "explain": "Pelo menos um pedaço visível torna o prato um acerto, tanto no {{tm:sporting}} como no {{tm:compak}}; a decisão é só do árbitro."
+      "explain": "Pelo menos um {{term:visible-piece|pedaço visível}} torna o prato um acerto, tanto no {{tm:sporting}} como no {{tm:compak}}; a decisão é só do árbitro."
     },
     "faults-behind-in-front-q3": {
       "q": "Depois de um acerto, o treinador grita «Smoked it!». O que quer dizer?",
@@ -109,7 +109,7 @@
         "c": "Era um prato flash",
         "d": "O atirador devia mudar de cartuchos"
       },
-      "explain": "Na gíria dos treinadores, «smoked it» é um elogio a um prato desfeito em pó, e as regras também contam isso como acerto. Só um prato inteiro que solta uma nuvem de pó ou fumo, sem pedaço visível, é falha (ZERO)."
+      "explain": "Na gíria dos treinadores, «smoked it» é um elogio a um prato desfeito em pó, e as regras também contam isso como acerto. Só um prato inteiro que solta uma nuvem de pó ou fumo, sem {{term:visible-piece|pedaço visível}}, é falha (ZERO)."
     }
   }
 }

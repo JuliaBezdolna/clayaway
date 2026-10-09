@@ -37,18 +37,18 @@
     "origin": "interpreter-academy"
   },
   "title": "Jednotlivé terče a dvojstřely",
-  "summary": "Co je jednotlivý terč, dvojstřel na hlášenou, současný dvojstřel a rafale, kolik nábojů můžete vystřelit a v čem se liší {{tm:sporting}} a {{tm:compak}}.",
+  "summary": "Co je {{term:single-target|jednotlivý terč}}, {{term:double-on-report|dvojstřel na hlášenou}}, {{term:simultaneous-double|současný dvojstřel}} a rafale, kolik nábojů můžete vystřelit a v čem se liší {{tm:sporting}} a {{tm:compak}}.",
   "body": {
-    "flight-pairs-p1": "{{term:single-target|Jednotlivý terč}} (single) je jeden terč z jedné vrhačky. V obou disciplínách na něj lze vystřelit dvě rány, takže po chybě můžete vystřelit znovu druhou hlavní. {{term:double|Dvojstřel}} (pair, double) jsou dva terče, které jdou spolu: jedno zavolání, a vy střílíte oba.",
-    "flight-pairs-p2": "{{term:double-on-report|Dvojstřel na hlášenou}} (report pair, double on report): zavolání vypustí první terč a výstřel na něj vypustí druhý. V {{tm:sporting}} přilétá druhý 0 až 3 sekundy po tomto výstřelu. Pořadí je pevné. „Report“ znamená zvuk výstřelu, ne písemné hlášení.",
-    "flight-pairs-p4": "{{term:simultaneous-double|Současný dvojstřel}} („simo“; v {{term:english-sporting|English Sporting}} „{{term:true-pair|true pair}}“): oba terče vylétají ve stejném okamžiku a lze je střílet v libovolném pořadí. Přilétají z jedné nebo dvou vrhaček; v {{tm:compak}} vždy ze dvou různých vrhaček.",
+    "flight-pairs-p1": "{{term:single-target|Jednotlivý terč}} je jeden terč z jedné {{term:trap|vrhačky}}. V obou disciplínách na něj lze vystřelit dvě rány, takže po chybě můžete vystřelit znovu druhou hlavní. {{term:double|Dvojstřel}} jsou dva terče, které jdou spolu: jedno zavolání, a vy střílíte oba.",
+    "flight-pairs-p2": "{{term:double-on-report|Dvojstřel na hlášenou}}: zavolání vypustí první terč a výstřel na něj vypustí druhý. V {{tm:sporting}} přilétá druhý 0 až 3 sekundy po tomto výstřelu. Pořadí je pevné. „Report“ znamená zvuk výstřelu, ne písemné hlášení.",
+    "flight-pairs-p4": "{{term:simultaneous-double|Současný dvojstřel}}, hovorově „simo“, v {{term:english-sporting|anglickém sportingu}} „{{term:true-pair|true pair}}“: oba terče vylétají ve stejném okamžiku a lze je střílet v libovolném pořadí. Přilétají z jedné nebo dvou vrhaček; v {{tm:compak}} vždy ze dvou různých vrhaček.",
     "flight-pairs-p3": "Following pair, kterému FITASC říká {{term:rafale-double|rafale}}: dva terče ze stejné vrhačky po stejné dráze letu, druhý vylétá, jen co se vrhačka znovu nabije. Střílet můžete v libovolném pořadí. Existuje jen v {{tm:sporting}}: dvojstřel v {{tm:compak}} je na hlášenou nebo současný.",
     "targets-singles-and-doubles-cartridges": {
       "sporting": "Na dvojstřel jsou dva náboje, a oba lze vystřelit na jeden terč. Pokud jedna rána rozbije oba terče, počítají se oba jako zásah (rozhodčí za každý vyhlásí „one“).",
-      "compak": "Jeden náboj na terč. Úmyslné vystřelení obou ran na jeden terč se hodnotí jako {{term:zero-zero|zero-zero}} (oba terče se počítají jako chyba). Pokud jedna rána rozbije oba terče, nepočítají se jako dva zásahy. U dvojstřelu na hlášenou platí výsledek prvního terče a dvojstřel se vypustí znovu, aby se odstřelil druhý. U současného dvojstřelu je to {{term:no-bird|No Bird}} a dvojstřel se opakuje; stane-li se to potřetí, zapíše se zero-zero."
+      "compak": "Jeden náboj na terč. Úmyslné vystřelení obou ran na jeden terč se hodnotí jako {{term:zero-zero|nula-nula}}: oba terče se počítají jako chyba. Pokud jedna rána rozbije oba terče, nepočítají se jako dva zásahy. U dvojstřelu na hlášenou platí výsledek prvního terče a dvojstřel se vypustí znovu, aby se odstřelil druhý. U současného dvojstřelu je to {{term:no-bird|No Bird}} a dvojstřel se opakuje; stane-li se to potřetí, zapíše se zero-zero."
     },
     "targets-singles-and-doubles-p6": "Jak se dvojstřely hodnotí, včetně zero-zero a No Bird v dvojstřelu, vysvětluje lekce {{lesson:rules-doubles}}.",
-    "flight-pairs-p6": "Na stanovišti {{tm:sporting}} skupina střílí nejprve jednotlivé terče, pak dvojstřely. Před střelbou se současné dvojstřely a rafale vypouštějí, aby je střelci viděli ({{term:target-presentation|předvedou}} je prvnímu střelci skupiny); dvojstřely na hlášenou se nepředvádějí.",
+    "flight-pairs-p6": "Na stanovišti {{tm:sporting}} skupina střílí nejprve jednotlivé terče, pak dvojstřely. Před střelbou se současné dvojstřely a rafale prvnímu střelci skupiny ukazují, aby je viděl: to je {{term:target-presentation|předvedení}}. Dvojstřely na hlášenou se nepředvádějí.",
     "targets-singles-and-doubles-p5": "{{term:layout|Střeliště}} {{tm:sporting}} dává {{fact:targets.sporting-layout-targets}}, a dvojstřely používají jen terče, které už byly ukázané jako jednotlivé ze stejného stanoviště. {{term:round|Položka}} {{tm:compak}} je rovněž 25 terčů, pět na číslo, v jedné ze tří kombinací: {{fact:targets.compak-station-menus}}.",
     "targets-singles-and-doubles-tip1": "Než zavoláte dvojstřel, mnozí trenéři radí naplánovat oba terče: který první, kde rozbijete každý z nich a kam přesunete pohled pro druhý. Víc v lekci {{lesson:faults-pairs-transition}}."
   },
@@ -59,7 +59,7 @@
       "say": "Je to na hlášenou – první dotáhněte pořádně, druhý čeká na vaši ránu."
     },
     "flight-pairs-ph2": {
-      "meaning": "V současném dvojstřelu střílejte nejdřív zajíce, protože teal zůstane ve vzduchu déle.",
+      "meaning": "V současném dvojstřelu střílejte nejdřív {{term:rabbit|zajíce}}, protože teal zůstane ve vzduchu déle.",
       "say": "Současný: nejdřív zajíc, teal na vás počká."
     },
     "flight-pairs-ph3": {
@@ -75,13 +75,13 @@
     "flight-pairs-kp1": "Jednotlivý terč: jeden terč, povoleny dvě rány.",
     "flight-pairs-kp2": "Dvojstřel na hlášenou: výstřel na první vypustí druhý; pořadí pevné.",
     "flight-pairs-kp3": "Rafale (following pair): stejná vrhačka, stejná dráha letu, jen {{tm:sporting}}.",
-    "flight-pairs-kp4": "Současný dvojstřel (true pair): oba najednou, libovolné pořadí.",
+    "flight-pairs-kp4": "{{term:simultaneous-double|Současný dvojstřel}}: oba najednou, libovolné pořadí.",
     "flight-pairs-kp5": "{{tm:sporting}}: oba náboje mohou jít na jeden terč; {{tm:compak}}: jeden na terč."
   },
   "did_you_know": "Rafale je francouzsky „dávka“ nebo „závan“: terče vylétají jeden za druhým tak rychle, jak se vrhačka dokáže znovu nabít.",
   "quiz": {
     "flight-pairs-q1": {
-      "q": "Co u dvojstřelu na hlášenou vypustí druhý terč?",
+      "q": "Co u {{term:double-on-report|dvojstřelu na hlášenou}} vypustí druhý terč?",
       "options": {
         "a": "Druhé zavolání",
         "b": "Signál rozhodčího",
@@ -91,23 +91,23 @@
       "explain": "„On report“ znamená na zvuk výstřelu: rána na první terč vypustí druhý."
     },
     "flight-pairs-q2": {
-      "q": "V {{tm:compak}} střelec úmyslně vystřelí oba náboje na první terč současného dvojstřelu. Jaký je výsledek?",
+      "q": "V {{tm:compak}} střelec úmyslně vystřelí oba náboje na první terč {{term:simultaneous-double|současného dvojstřelu}}. Jaký je výsledek?",
       "options": {
         "a": "Dovoleno, jako v {{tm:sporting}}",
         "b": "Zero-zero",
         "c": "No Bird a opakování",
         "d": "Chybou se počítá jen druhý terč"
       },
-      "explain": "{{tm:compak}} dovoluje jeden náboj na každý terč dvojstřelu; úmyslné vystřelení obou na jeden terč se hodnotí jako zero-zero. V {{tm:sporting}} by to bylo dovoleno."
+      "explain": "{{tm:compak}} dovoluje jeden náboj na každý terč {{term:double|dvojstřelu}}; úmyslné vystřelení obou na jeden terč se hodnotí jako zero-zero. V {{tm:sporting}} by to bylo dovoleno."
     },
     "targets-singles-and-doubles-q2": {
-      "q": "Ve které disciplíně existují dvojstřely rafale?",
+      "q": "Ve které disciplíně existují {{term:rafale-double|dvojstřely rafale|pl}}?",
       "options": {
         "a": "Jen v {{tm:sporting}}",
         "b": "Jen v {{tm:compak}}",
         "c": "V obou"
       },
-      "explain": "Rafale jsou dva terče z jedné vrhačky po jedné trajektorii — dvojstřel {{tm:sporting}}. {{tm:compak}} má jen dvojstřely na hlášenou a současné dvojstřely."
+      "explain": "Rafale jsou dva terče z jedné {{term:trap|vrhačky}} po jedné trajektorii — dvojstřel {{tm:sporting}}. {{tm:compak}} má jen {{term:double-on-report|dvojstřely na hlášenou}} a {{term:simultaneous-double|současné dvojstřely}}."
     },
     "flight-pairs-q3": {
       "q": "Britský trenér říká „true pair“. Jak to přeložíte?",
@@ -120,7 +120,7 @@
       "explain": "„True pair“ je v anglickém sportingu název současného dvojstřelu; „true“ nemá se správností nic společného."
     },
     "targets-singles-and-doubles-q1": {
-      "q": "Kolik terčů dává jedno střeliště {{tm:sporting}}?",
+      "q": "Kolik terčů dává jedno {{term:layout|střeliště}} {{tm:sporting}}?",
       "options": {
         "a": "20: 10 jednotlivých a 5 dvojstřelů",
         "b": "25: 15 jednotlivých a 5 dvojstřelů",
@@ -129,7 +129,7 @@
       "explain": "Každý typ střeliště {{tm:sporting}} dává 25 terčů: 15 jednotlivých a 5 dvojstřelů."
     },
     "targets-singles-and-doubles-q-two-with-one": {
-      "q": "V {{tm:sporting}} jedna rána rozbije oba terče dvojstřelu. Jak se to hodnotí?",
+      "q": "V {{tm:sporting}} jedna rána rozbije oba terče {{term:double|dvojstřelu}}. Jak se to hodnotí?",
       "options": {
         "a": "„One“ a „one“",
         "b": "No Bird, dvojstřel se opakuje",

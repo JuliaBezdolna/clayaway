@@ -35,13 +35,13 @@
     "origin": "pl-wave-2026-10"
   },
   "title": "Jak czytać trenera: krótkie komendy i sygnały",
-  "summary": "Na stanowisku trener mówi urywkami i gestami. Co znaczą krótkie słowa i popularne sygnały ręką oraz jak odpowiadać na pytania trenera.",
+  "summary": "Na stanowisku {{term:coach|trener}} mówi urywkami i gestami. Co znaczą krótkie słowa i popularne sygnały ręką oraz jak odpowiadać na pytania trenera.",
   "body": {
     "faults-reading-the-coach-p1": "Na stanowisku {{term:coach|trener}} mówi urywkami: „Behind.” „Head.” „More.” „Again.” Między rzutkami są tylko sekundy, więc zwięzłość jest zamierzona. Każde takie słowo wskazuje na jedną rzecz do zmiany albo do zachowania.",
-    "faults-reading-the-coach-words": "Wiele urywków mówi, dokąd poszedł strzał: {{term:miss-behind|behind}} (z tyłu), {{term:miss-in-front|in front}} (z przodu), {{term:miss-over|over}} (górą) albo {{term:miss-under|under}} (dołem) rzutka. Inne nazywają, co poprawić: „head” znaczy trzymajcie policzek na kolbie, a „feet” znaczy sprawdźcie postawę.",
+    "faults-reading-the-coach-words": "Wiele urywków mówi, dokąd poszedł strzał: {{term:miss-behind|z tyłu}}, {{term:miss-in-front|z przodu}}, {{term:miss-over|górą}} albo {{term:miss-under|dołem}}. Inne nazywają, co poprawić: „head” znaczy trzymajcie policzek na kolbie, a „feet” znaczy sprawdźcie postawę.",
     "faults-reading-the-coach-p2": "Wielu trenerów najpierw pyta, a potem wyjaśnia: „Where did it go?” albo „What did you see?”. To pytanie dydaktyczne, nie sprawdzian. Odpowiadajcie tym, co naprawdę widzieliście, nawet jeśli nie jesteście pewni: „myślę, że z tyłu” albo „zgubiłem go na końcu”. Trenerowi potrzebny jest wasz obraz (to, co widzieliście w chwili strzału), żeby znaleźć przyczynę.",
     "faults-reading-the-coach-p3": "{{term:hand-signal|Sygnały ręką}} mówią bardzo wiele. Ręce rozchodzące się albo zbliżające do siebie zwykle znaczą większe albo mniejsze {{term:lead|wyprzedzenie}}. Płaska dłoń opadająca w dół znaczy „niżej”, a dotknięcie policzka znaczy „policzek na kolbie”. Palec może nakreślić linię rzutka, a kciuk w górę znaczy „tak samo jeszcze raz”. Sygnały różnią się między trenerami, więc uzgodnijcie je przed zajęciami.",
-    "faults-reading-the-coach-p4": "Niektóre słowa to rytm i zachęta, a nie technika: „commit” (zdecydujcie się), „trust it” (zaufajcie), „smooth” (płynnie), „good, same again” (dobrze, tak samo). „Bad luck” po niewypale to współczucie, nie komentarz do decyzji sędziego. Więcej takich zwrotów: {{lesson:stand-talk-mental-game}}.",
+    "faults-reading-the-coach-p4": "Niektóre słowa to rytm i zachęta, a nie technika: „commit” (zdecydujcie się), „trust it” (zaufajcie), „smooth” (płynnie), „good, same again” (dobrze, tak samo). „Bad luck” po chybieniu to współczucie, nie komentarz do decyzji {{term:referee|sędziego}}. Więcej takich zwrotów: {{lesson:stand-talk-mental-game}}.",
     "faults-reading-the-coach-p5": "Na zawodach {{term:coaching|podpowiadanie}} jest zabronione: {{term:referee|sędzia}} daje zawodnikowi {{term:yellow-card|żółtą kartkę}} i usuwa trenera z obszaru strzelania ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Dlatego cały ten język trenera należy do treningu. Przepisy nie mówią, czy tłumacz może przekazywać podczas zawodów rady trenera. Bezpieczna praktyka to tłumaczenie tylko dla sędziego, {{term:jury|jury}} i organizatora."
   },
   "note": {
@@ -70,11 +70,11 @@
       "say": "Zaufajcie — i strzelajcie zdecydowanie."
     },
     "faults-reading-the-coach-ph6": {
-      "meaning": "Współczucie po niewypale; nie skarga na sędziego.",
+      "meaning": "Współczucie po chybieniu; nie skarga na sędziego.",
       "say": "Nie udało się."
     },
     "faults-reading-the-coach-ph-head": {
-      "meaning": "Głowa odeszła od kolby: trzymajcie na niej policzek także podczas strzału.",
+      "meaning": "Głowa odeszła od {{term:stock|kolby}}: trzymajcie na niej policzek także podczas strzału.",
       "say": "Policzek na kolbie!"
     },
     "faults-reading-the-coach-ph-pickup": {
@@ -91,17 +91,17 @@
   "did_you_know": null,
   "quiz": {
     "faults-reading-the-coach-q1": {
-      "q": "Trener pyta strzelca „Where did it go?”. Co powinien zrobić tłumacz?",
+      "q": "{{term:coach|Trener}} pyta strzelca „Where did it go?”. Co powinien zrobić tłumacz?",
       "options": {
         "a": "Odpowiedzieć za strzelca",
         "b": "Przetłumaczyć pytanie, a potem dokładnie odpowiedź strzelca",
-        "c": "Wyjaśnić niewypał własnymi słowami",
+        "c": "Wyjaśnić chybienie własnymi słowami",
         "d": "Nic nie mówić: to pytanie retoryczne"
       },
       "explain": "Trener chce usłyszeć, co naprawdę widział strzelec, więc odpowiedź musi dojść bez zmian."
     },
     "faults-reading-the-coach-q2": {
-      "q": "Podczas zawodów trener strzelca prosi was o przekazanie: „Give the next one more lead”. Jaka jest bezpieczna praktyka?",
+      "q": "Podczas zawodów {{term:coach|trener}} strzelca prosi was o przekazanie: „Give the next one more lead”. Jaka jest bezpieczna praktyka?",
       "options": {
         "a": "Przekazać to po cichu, szeptem",
         "b": "Przekazać, ale tylko między stanowiskami",
@@ -112,7 +112,7 @@
       "rule_ref": "sporting:ch8-coaching"
     },
     "faults-reading-the-coach-q3": {
-      "q": "Co przewidują przepisy, jeśli sędzia uzna, że zawodnikowi podpowiadają?",
+      "q": "Co przewidują przepisy, jeśli {{term:referee|sędzia}} uzna, że zawodnikowi podpowiadają?",
       "options": {
         "a": "Żółta kartka; trenera usuwają",
         "b": "Nic: podpowiadanie jest dozwolone",

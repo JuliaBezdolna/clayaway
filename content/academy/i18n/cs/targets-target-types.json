@@ -36,11 +36,11 @@
     "origin": "interpreter-academy"
   },
   "title": "Druhy terčů",
-  "summary": "Standard, midi, mini, battue, zajíc, flash, ZZ a rocket: čím se terče liší, jak letí a proč menu uvádí každý zvláštní terč.",
+  "summary": "Standard, midi, mini, battue, {{term:rabbit|zajíc}}, flash, ZZ a rocket: čím se terče liší, jak letí a proč menu uvádí každý zvláštní terč.",
   "body": {
     "targets-target-types-p1": "{{term:target|Terč}}, často nazývaný „hliněný holub“ nebo „kolečko“, je křehký kotouč, který vystřeluje stroj zvaný {{term:trap|vrhačka}}. Když znáte druh terče, můžete si naplánovat výstřel ještě před zavoláním.",
-    "targets-types-p1": "Seznam FITASC pro {{tm:sporting}} uvádí sedm druhů terčů: standard, midi, super mini, battue, zajíc, flash a ZZ. {{tm:compak}} povoluje jakýkoli standardní nebo zvláštní terč a jeho seznam uvádí navíc rocket. Každý druh letí jinak.",
-    "targets-types-p2": "{{term:standard-target|Standard}}, nejběžnější terč, je kopule o průměru asi 108–110 mm; na ní obvykle začínají začátečníci. {{term:midi|Midi}} má 90 mm: dobře si udržuje rychlost a vypadá vzdálenější, než ve skutečnosti je. {{term:mini|Mini}} má obvykle 60 mm: z vrhačky vyletí rychle a rychle zpomaluje. Střelci mu proto často dávají příliš velké předsazení, tedy střílí příliš daleko před ním. Názvy malých terčů se liší: seznam {{tm:sporting}} uvádí „super mini“, a v menu může být 70 mm nebo 60 mm. Řiďte se milimetry napsanými v menu.",
+    "targets-types-p1": "Seznam FITASC pro {{tm:sporting}} uvádí sedm druhů terčů: standard, midi, super mini, battue, {{term:rabbit|zajíc}}, flash a ZZ. {{tm:compak}} povoluje jakýkoli standardní nebo zvláštní terč a jeho seznam uvádí navíc rocket. Každý druh letí jinak.",
+    "targets-types-p2": "{{term:standard-target|Standard}}, nejběžnější terč, je kopule o průměru asi 108–110 mm; na ní obvykle začínají začátečníci. {{term:midi|Midi}} má 90 mm: dobře si udržuje rychlost a vypadá vzdálenější, než ve skutečnosti je. {{term:mini|Mini}} má obvykle 60 mm: z vrhačky vyletí rychle a rychle zpomaluje. Střelci mu proto často dávají příliš velké {{term:lead|předsazení}}, tedy střílí příliš daleko před ním. Názvy malých terčů se liší: seznam {{tm:sporting}} uvádí „super mini“, a v menu může být 70 mm nebo 60 mm. Řiďte se milimetry napsanými v menu.",
     "targets-types-p3": "{{term:battue|Battue}} je plochý, tenký terč o průměru 110 mm. Letí hranou, téměř neviditelný, pak se otočí plochou stranou a rychle padá. Pravidla {{tm:compak}} nedoporučují battue na velmi krátkých trajektoriích. {{term:rabbit|Zajíc}} je terč 110 mm se silným, pevným okrajem, který se valí po zemi na hraně; odráží se a umí přeskakovat hrboly. Víc v lekci {{lesson:flight-rabbit}}.",
     "targets-types-p4": "{{term:flash-target|Terč flash}} je naplněný barevným práškem, který po zásahu zanechá výrazný obláček; hodnotí se jako každý jiný terč. {{term:zz-target|Terč ZZ}}, nazývaný také helice, je plastová vrtulka s bílým středovým víčkem, která letí nepředvídatelně. {{term:rocket-target|Rocket}} je další zvláštní terč, uvedený jen v seznamu {{tm:compak}}.",
     "targets-target-types-p6": "V {{tm:sporting}} musí {{term:target-menu|menu terčů}} před každým stanovištěm (místem, odkud střílíte) uvádět všechny zvláštní terče: {{fact:targets.sporting-menu-special-targets}}. Přečtěte si ho, než se postavíte na stanoviště.",
@@ -85,7 +85,7 @@
       "explain": "Mini má obvykle 60 mm a midi 90 mm. Názvy malých terčů se liší, řiďte se milimetry v menu."
     },
     "targets-types-q3": {
-      "q": "Na stanovišti {{tm:sporting}} vrhačka hodí midi místo standardu uvedeného v menu. Co se stane?",
+      "q": "Na stanovišti {{tm:sporting}} {{term:trap|vrhačka}} hodí midi místo standardu uvedeného v menu. Co se stane?",
       "options": {
         "a": "No Bird, terč se opakuje",
         "b": "Počítá se jako zásah",

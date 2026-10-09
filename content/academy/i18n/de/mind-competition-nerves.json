@@ -38,17 +38,17 @@
   "summary": "Nervosität vor einem Wettkampf ist normal. Wie Sie das für Sie passende Niveau finden, ein rasendes Herz als Bereitschaft lesen und wissen, wann Sie um Hilfe bitten sollten.",
   "body": {
     "mind-competition-nerves-p1": "Ihr erster Wettkampf in {{tm:sporting}} oder {{tm:compak}} macht Sie wahrscheinlich nervös: fremde Leute, ein {{term:referee|Schiedsrichter}}, eine {{term:score-sheet|Ergebnisliste}}, Zuschauer. Das ist normal. Auch erfahrene Schützen sind nervös; sie haben gelernt, damit umzugehen.",
-    "mind-competition-nerves-p2": "Sind Sie nervös, schüttet Ihr Körper Adrenalin aus. Das Herz schlägt schneller, die Atmung wird flach, die Hände können zittern. Manche Schützen hetzen dann den {{term:gun-mount|Anschlag}}, {{term:stopping-the-gun|stoppen die Flinte}} oder {{term:head-lift|heben den Kopf}}, um den Treffer zu sehen.",
+    "mind-competition-nerves-p2": "Sind Sie nervös, schüttet Ihr Körper Adrenalin aus. Das Herz schlägt schneller, die Atmung wird flach, die Hände können zittern. Manche Schützen hetzen dann den {{term:gun-mount|Anschlag}}, oder es kommt zu Fehlern wie {{term:stopping-the-gun|Anhalten der Flinte}} oder {{term:head-lift|Kopfheben}}, weil sie den Treffer sehen wollen.",
     "mind-competition-nerves-p8": "Es gibt kein einzelnes richtiges Niveau an Nervosität. Forschung deutet darauf hin, dass jeder Sportler eine persönliche Zone hat: Manche schießen gut, wenn sie etwas angespannt sind, andere, wenn sie ruhig sind.",
     "mind-competition-nerves-p9": "Um Ihre Zone zu finden, bewerten Sie nach jeder Runde von 0 bis 10, wie angespannt Sie sich gefühlt haben, und notieren Sie Ihr Ergebnis. Nach ein paar Wochen sehen Sie vielleicht, welches Niveau zu Ihnen passt.",
     "mind-competition-nerves-p10": "In vielen Studien schnitten Sportler, die sich sorgten, nur etwas schlechter ab, während Sportler, die sich sicher fühlten, deutlich besser abschnitten. Selbstvertrauen wächst aus Vorbereitung: einer Routine, der Sie vertrauen, und Scheiben, die Sie trainiert haben. Keine dieser Studien stammt aus dem Wurfscheibenschießen, höchstwahrscheinlich wirkt das aber ebenso in {{tm:sporting}} und {{tm:compak}}.",
     "mind-competition-nerves-p11": "Ein rasendes Herz lässt sich auch als Bereitschaft lesen. Sich selbst zu sagen „Ich bin bereit, das ist Energie“ statt sich zu beruhigen zu versuchen, half in mehreren Studien außerhalb des Sports. Dort mussten Menschen unter Druck auftreten, etwa indem sie vor anderen sprachen.",
     "mind-competition-nerves-p4": "Sagen Sie sich, was zu tun ist, nicht was zu vermeiden ist: „die Scheibe sehen“ statt „nur nicht daneben“. Mehr in {{lesson:mind-cue-words-self-talk}}. Langsames Atmen vor dem Standplatz kann ebenfalls helfen: siehe {{lesson:mind-breathing}}.",
-    "mind-competition-nerves-p5": "Vorbereitung beseitigt Überraschungen. Kommen Sie früh an, kennen Sie Ihre Startzeit und Ihr Layout, und prüfen Sie Patronen, Brille und Gehörschutz schon am Vorabend. Mehr in {{lesson:mind-long-day-energy-sleep}}.",
+    "mind-competition-nerves-p5": "Vorbereitung beseitigt Überraschungen. Kommen Sie früh an, kennen Sie Ihre Startzeit und Ihr Layout, und prüfen Sie Patronen, Brille und {{term:hearing-protection|Gehörschutz}} schon am Vorabend. Mehr in {{lesson:mind-long-day-energy-sleep}}.",
     "mind-competition-nerves-p6": "Streiten Sie nach einem Fehlschuss nicht öffentlich mit sich selbst. Die Flinte zu werfen oder Aggression oder Gewalt gegenüber dem Schiedsrichter oder anderen Schützen gilt als Verlust der Selbstkontrolle; {{tm:sporting}} nennt auch beleidigende Sprache. Der Schiedsrichter meldet das der {{term:jury|Jury}}, die den Schützen ausschließen kann ({{rule:sporting:ch8-loss-of-control}}, {{rule:compak:ch21-loss-of-control}}). Atmen Sie aus und denken Sie an die nächste Scheibe: siehe {{lesson:mind-reset-after-miss}}.",
     "mind-competition-nerves-p7": "Beginnen Sie mit {{term:club-shoot|Vereinsschießen}}: Die Atmosphäre ist ruhiger, und Sie lernen den Ablauf mit weniger Druck. Mit jedem Wettkampf wird die Nervosität vertrauter.",
     "mind-competition-nerves-p12": "Bleibt die Nervosität wochenlang stark, verdirbt sie Ihren Schlaf oder Ihre Stimmung oder hält Sie vom Schießen ab, sprechen Sie mit einem Sportpsychologen oder einem Arzt. Das ist ein normaler Schritt, genau wie zu einem Trainer für die Technik zu gehen.",
-    "mind-competition-nerves-warn": "Nehmen Sie ohne Arzt nichts gegen die Nervosität ein. Laut WADA-Liste sind Betablocker im Schießsport jederzeit verboten, auch auf Rezept, außer Sie haben eine TUE, eine offizielle medizinische Ausnahmegenehmigung. Behandeln Sie sie auch in {{tm:sporting}} und {{tm:compak}} als verboten: siehe {{lesson:mind-anti-doping}}."
+    "mind-competition-nerves-warn": "Nehmen Sie ohne Arzt nichts gegen die Nervosität ein. Laut WADA-Liste sind Betablocker im Schießsport jederzeit verboten, auch auf Rezept, außer Sie haben eine TUE, eine offizielle {{term:therapeutic-use-exemption|medizinische Ausnahmegenehmigung}}. Behandeln Sie sie auch in {{tm:sporting}} und {{tm:compak}} als verboten: siehe {{lesson:mind-anti-doping}}."
   },
   "note": {
     "mind-competition-nerves-n1": "Halten Sie den Morgen vor dem Wettkampf Ihres Kindes ruhig und reden Sie über alltägliche Dinge. Fragen Sie nicht nach dem Ergebnis, das Sie erwarten."
@@ -73,7 +73,7 @@
       "explain": "Forschung deutet auf persönliche Zonen hin: Manche schießen gut, wenn sie etwas angespannt sind, andere, wenn sie ruhig sind."
     },
     "mind-competition-nerves-q2": {
-      "q": "Welches Selbstgespräch hilft eher?",
+      "q": "Welches {{term:self-talk|Selbstgespräch}} hilft eher?",
       "options": {
         "a": "Nur diesmal nicht daneben",
         "b": "Scheibe sehen, sanft",
@@ -82,7 +82,7 @@
       "explain": "Ein Signalwort, das die gewünschte Handlung beschreibt, hilft meist mehr als eines über das, was zu vermeiden ist."
     },
     "mind-competition-nerves-q3": {
-      "q": "Was kann passieren, wenn ein Schütze die Flinte wirft oder gegenüber dem Schiedsrichter aggressiv wird?",
+      "q": "Was kann passieren, wenn ein Schütze die Flinte wirft oder gegenüber dem {{term:referee|Schiedsrichter}} aggressiv wird?",
       "options": {
         "a": "Nichts, das sind nur Emotionen",
         "b": "Die Scheibe wird einfach noch einmal geschossen",

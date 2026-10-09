@@ -46,7 +46,7 @@
     "clayarena-find-your-results-kp1": "Abra a competição e procure-se na tabela de resultados.",
     "clayarena-find-your-results-kp2": "A partir da tabela pode abrir o seu perfil de atirador.",
     "clayarena-find-your-results-kp3": "Procure o seu nome como está escrito nos documentos da competição: no alfabeto local ou em letras latinas.",
-    "clayarena-find-your-results-kp4": "Verifique o seu resultado no stand: no {{tm:sporting}} ao sair de cada posto, no {{tm:compak}} ao assinar a folha de marcação."
+    "clayarena-find-your-results-kp4": "Verifique o seu resultado no stand: no {{tm:sporting}} ao sair de cada posto, no {{tm:compak}} ao assinar a {{term:score-sheet|folha de marcação}}."
   },
   "quiz": {
     "clayarena-find-your-results-q1": {
@@ -61,9 +61,9 @@
     "clayarena-find-your-results-q2": {
       "q": "Quantos pratos tem normalmente uma competição internacional de {{tm:sporting}}?",
       "options": {
-        "a": "200, em séries de 25",
-        "b": "100, em séries de 10",
-        "c": "50, sem séries"
+        "a": "200, em {{term:round|séries}} de 25",
+        "b": "100, em {{term:round|séries}} de 10",
+        "c": "50, sem {{term:round|séries}}"
       },
       "explain": "As regras da FITASC fixam 200 pratos em séries de 25 para os eventos internacionais."
     },
@@ -77,11 +77,11 @@
       "explain": "Os nomes são escritos como nos documentos da competição: em letras latinas ou no alfabeto local. O mesmo sobrenome também pode ser escrito de mais de uma forma em letras latinas."
     },
     "clayarena-find-your-results-q4": {
-      "q": "Quando é que um atirador de {{tm:compak}} assina a folha de marcação?",
+      "q": "Quando é que um atirador de {{tm:compak}} assina a {{term:score-sheet|folha de marcação}}?",
       "options": {
-        "a": "No final de cada série",
+        "a": "No final de cada {{term:round|série}}",
         "b": "Só depois do último dia",
-        "c": "Assina o árbitro, não o atirador"
+        "c": "Assina o {{term:referee|árbitro}}, não o atirador"
       },
       "explain": "O atirador assina no final de cada série; sem assinatura, nenhuma reclamação posterior é aceite."
     },
@@ -92,7 +92,7 @@
         "b": "Ao sair de cada posto",
         "c": "Só depois da entrega de prémios"
       },
-      "explain": "Verifique-o ao sair de cada posto e avise logo o árbitro se algo estiver errado."
+      "explain": "Verifique-o ao sair de cada posto e avise logo o {{term:referee|árbitro}} se algo estiver errado."
     }
   },
   "summary": "Encontre a competição em que participou e o seu nome na tabela de resultados; a partir daí pode abrir o seu perfil de atirador."

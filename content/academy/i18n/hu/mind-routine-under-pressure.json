@@ -47,21 +47,21 @@
       "Lábak: állítsd be a {{term:stance|beállásodat}} a {{term:break-point|lövési ponthoz}}, ahhoz a helyhez, ahol el akarod találni a korongot.",
       "Fegyver: vedd fel a kezdő helyzetedet, a csőtorkolattal a {{term:hold-point|fegyvertartási pontnál}}, ahol a korong kérésére várnak. A {{tm:sporting}}-ban a fegyver leeresztve indul (lásd lent).",
       "Szem: nézz a {{term:pick-up-point|korongfelvételi pontra}}, ahol először látod tisztán a korongot, {{term:soft-focus|laza fókusszal}}: nyugodt, tág tekintettel.",
-      "Levegő és kulcsszó: egy természetes kilégzés, lazított vállak, majd a kulcsszavad.",
+      "Levegő és {{term:cue-word|kulcsszó}}: egy természetes kilégzés, lazított vállak, majd a kulcsszavad.",
       "Kérés: add meg a {{term:call|korong kérését}} minden alkalommal ugyanúgy, és maradj készen a korong megjelenése előtti rövid késésben.",
       "Korong: válts {{term:hard-focus|éles fókuszra}} a korongon, és tartsd rajta a szemed a lövésig."
     ],
     "mind-routine-under-pressure-compare": {
       "sporting": "Leeresztett fegyver: {{fact:mind.sporting-ready-position}} ({{rule:sporting:ch3-ready-position}}). {{fact:rules.sporting-time-between-targets}} áll rendelkezésedre ({{rule:sporting:ch7-fifteen-seconds}}). A korong kérése után a bíró jelez a {{term:trapper|pullernek}}, és a korong {{fact:rules.release-within-3s}} elindul a bíró jelétől ({{rule:sporting:ch5-call-and-release}}).",
-      "compak": "A fegyver helyzete a korong kérésekor szabad: vállban lehet vagy nem ({{rule:compak:ch17-gun-position}}). {{fact:rules.compak-time-to-call}} áll rendelkezésedre ({{rule:compak:ch21-firing-time}}). A korong {{fact:rules.release-within-3s}} indul a kéréstől kézi indításnál, vagy {{fact:rules.sonopull-delay}} hangvezérléssel (sonopull) ({{rule:compak:ch2-trigger-manual}})."
+      "compak": "A fegyver helyzete a korong kérésekor szabad: vállban lehet vagy nem ({{rule:compak:ch17-gun-position}}). {{fact:rules.compak-time-to-call}} áll rendelkezésedre ({{rule:compak:ch21-firing-time}}). A korong {{fact:rules.release-within-3s}} indul a kéréstől kézi indításnál, vagy {{fact:rules.sonopull-delay}} {{term:sonopull|hangvezérlés}} esetén ({{rule:compak:ch2-trigger-manual}})."
     },
-    "mind-routine-under-pressure-p4": "Tartsd meg a lépések sorrendjét, nem egy pontos másodpercszámot. A korong kérése utáni késés változhat (a {{tm:sporting}}-ban, és kézi indítású {{tm:compak}}-ban is), így az idő kicsit eltérhet. Maradj jól az időkorlát alatt: kérd meg az edződet vagy egy barátodat, hogy edzésen stoppelje a rutinodat.",
+    "mind-routine-under-pressure-p4": "Tartsd meg a lépések sorrendjét, nem egy pontos másodpercszámot. A korong kérése utáni késés változhat (a {{tm:sporting}}-ban, és kézi indítású {{tm:compak}}-ban is), így az idő kicsit eltérhet. Maradj jól a {{term:firing-time|időkorlát}} alatt: kérd meg az edződet vagy egy barátodat, hogy edzésen stoppelje a rutinodat.",
     "mind-routine-under-pressure-p5": "Ha valami megzavar a korong kérése előtt, például egy zaj, egy gondolat vagy a nap, ne kérd a korongot. Ereszd le a fegyvert, fújd ki a levegőt, és kezdd újra a rutint, az időkorláton belül.",
     "mind-routine-under-pressure-p7": "Egy {{term:double|dublén}} mindkét korongot tervezd meg a korong kérése előtt: hol töröd el az elsőt, és hová nézel a másodikért. Kezeld őket két külön lövésként.",
-    "mind-routine-under-pressure-p6": "A lőállások között egy hosszabb rutin segít elengedni az előző lőállást, bármi is volt az eredmény. Nyisd ki a fegyvert, vedd ki az üres hüvelyeket, igyál egy kis vizet, és nézd meg a következő korongokat. A {{tm:compak}}-ban a lőállásokat nyitott és ürített fegyverrel váltod ({{rule:compak:ch17-call-time-and-changeover}}).",
+    "mind-routine-under-pressure-p6": "A lőállások között egy hosszabb rutin segít elengedni az előző lőállást, bármi is volt az eredmény. Nyisd ki a fegyvert, vedd ki az {{term:empties|üres hüvelyeket}}, igyál egy kis vizet, és nézd meg a következő korongokat. A {{tm:compak}}-ban a lőállásokat nyitott és ürített fegyverrel váltod ({{rule:compak:ch17-call-time-and-changeover}}).",
     "mind-routine-under-pressure-warn": "Csak a lőálláson töltsd meg a fegyvert, a lőtér felé irányítva, miután a bíró engedélyezte a lövészet kezdését ({{rule:sporting:ch8-loading}}, {{rule:compak:ch21-shooting-conduct}}).",
     "mind-routine-under-pressure-p8": "Építsd fel a rutint edzésen, és versenyen is tartsd meg ugyanúgy. A tervedet a verseny előtt beszéld meg az edződdel, hogy a napon már csak követned kelljen.",
-    "mind-routine-under-pressure-coaching-rule": "Verseny közben senki nem {{term:coaching|coachingolhat}} egy versenyzőt ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
+    "mind-routine-under-pressure-coaching-rule": "A szabályok szerint ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}) verseny közben tilos a versenyző {{term:coaching|edzői irányítása}}."
   },
   "note": {
     "mind-routine-under-pressure-n1": "Maradj csendben, amíg a lövész végzi a rutinját. Edzésen a korongok között és röviden fordíts; versenyen csak a bíró döntéseit és a hivatalos közléseket add tovább.",
@@ -151,5 +151,5 @@
   },
   "title": "Lövés előtti rutin: ugyanazok a lépések, ugyanabban a sorrendben",
   "summary": "Egy rövid lövés előtti rutin segít, hogy edzésen és versenyen is ugyanúgy lőj: hat lépés, amely beleillik a {{tm:sporting}} és a {{tm:compak}} időkorlátaiba.",
-  "did_you_know": "A lövészek rendszerint «pull» vagy «ready»-t kiáltanak, azokat a szavakat, amelyeket a {{tm:sporting}} szabályai megneveznek. Ha a kérést minden alkalommal ugyanúgy mondod, az segít, különösen a {{tm:compak}}-ban, ahol egy {{term:sonopull|hangvezérlés}} (sonopull) hangra is indíthatja a korongot."
+  "did_you_know": "A lövészek rendszerint «pull» vagy «ready»-t kiáltanak, azokat a szavakat, amelyeket a {{tm:sporting}} szabályai megneveznek. Ha a kérést minden alkalommal ugyanúgy mondod, az segít, különösen a {{tm:compak}}-ban, ahol egy {{term:sonopull|hangvezérlés}} hangra is indíthatja a korongot."
 }

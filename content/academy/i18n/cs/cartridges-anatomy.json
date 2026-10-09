@@ -34,14 +34,14 @@
     "origin": "interpreter-academy"
   },
   "body": {
-    "gear-cartridges-p1": "{{term:cartridge|Náboj}} (cartridge, shell) obsahuje vše pro jeden výstřel: {{term:hull|nábojnici}} (hull) s kovovým dnem, {{term:primer|zápalku}} (primer), {{term:powder|prach}} (powder), {{term:wad|kontejner}} (wad) a broky. {{term:empties|„Empties“}} jsou vystřelené nábojnice.",
+    "gear-cartridges-p1": "{{term:cartridge|Náboj}} obsahuje vše pro jeden výstřel: {{term:hull|nábojnici}} s kovovým dnem, {{term:primer|zápalku}}, {{term:powder|prach}}, {{term:wad|kontejner}} a broky. {{term:empties|„Empties“}} jsou vystřelené nábojnice.",
     "cartridges-anatomy-p2": "Nábojnice je trubička, nejčastěji plastová, s kovovou hlavicí dole. Existují i papírové nábojnice, a některé střelnice je upřednostňují, protože méně zanáší přírodu. Vystřelená nábojnice bývá dlouhá 65–70 mm a musí sedět do {{term:chamber|nábojové komory}} vaší zbraně (viz {{lesson:gun-gauge-and-barrels}}).",
-    "cartridges-anatomy-p3": "Uprostřed hlavice je zápalka. Když do ní udeří úderník, zápalka vydá jiskru a zapálí prach. Prach neexploduje, ale velmi rychle hoří, a plyny tlačí náplň broků hlavní vpřed.",
+    "cartridges-anatomy-p3": "Uprostřed hlavice je zápalka. Když do ní udeří úderník, zápalka vydá jiskru a zapálí prach. Prach neexploduje, ale velmi rychle hoří, a plyny tlačí {{term:load-weight|náplň}} broků hlavní vpřed.",
     "cartridges-anatomy-p4": "Mezi prachem a broky je kontejner. Funguje jako zátka: nepouští horké plyny kolem broků, tlumí náraz a drží broky pohromadě, dokud letí hlavní. Plastový kontejner má obvykle „kalíšek“, který broky chrání a často dává trochu hustší zásah.",
-    "cartridges-anatomy-p8": "{{term:fibre-wad|Vláknitý nebo plstěný kontejner}} (fibre wad) se v přírodě rozkládá, proto na něm mnohé střelnice trvají. Existují i biologicky rozložitelné plastové kontejnery, ale některé střelnice je neuznávají.",
-    "cartridges-anatomy-p5": "Nad kontejnerem jsou broky: několik set malých kuliček. Horní okraj nábojnice uzavírá {{term:crimp|zálisek}} (crimp), nejčastěji „hvězdička“ se 6 nebo 8 záhyby. Dobrý zálisek pevně drží vše na místě a pomáhá, aby každý náboj vystřelil stejně jako ten předchozí.",
-    "cartridges-anatomy-p6": "Pravidla FITASC pro {{tm:sporting}} a {{tm:compak}} zakazují přebíjené náboje, tedy vystřelené nábojnice znovu naplněné, například doma. Zakázané jsou i rozptylovače (vložky, které schválně rozptylují broky víc) a jakékoli jiné zvláštní zařízení uvnitř náboje. Stejně tak nejsou dovolené smíšené broky různých velikostí nebo kvality, černý prach a trasery (náboje, které zanechávají světelnou stopu). Na závody tedy berte tovární náboje, které splňují pravidla.",
-    "cartridges-anatomy-p7": "Na krabičce bývá uvedena ráže, délka nábojnice, náplň, číslo nebo průměr broků, materiál broků a typ kontejneru, často i rychlost. Naučte se číst krabičku a budete vědět, čím nabíjíte.",
+    "cartridges-anatomy-p8": "{{term:fibre-wad|Vláknitý nebo plstěný kontejner}} se v přírodě rozkládá, proto na něm mnohé střelnice trvají. Existují i biologicky rozložitelné plastové kontejnery, ale některé střelnice je neuznávají.",
+    "cartridges-anatomy-p5": "Nad kontejnerem jsou broky: několik set malých kuliček. Horní okraj nábojnice uzavírá {{term:crimp|zálisek}}, nejčastěji „hvězdička“ se 6 nebo 8 záhyby. Dobrý zálisek pevně drží vše na místě a pomáhá, aby každý náboj vystřelil stejně jako ten předchozí.",
+    "cartridges-anatomy-p6": "Pravidla FITASC pro {{tm:sporting}} a {{tm:compak}} zakazují {{term:reloaded-cartridge|přebíjené náboje}}, tedy vystřelené nábojnice znovu naplněné, například doma. Zakázané jsou i rozptylovače (vložky, které schválně rozptylují broky víc) a jakékoli jiné zvláštní zařízení uvnitř náboje. Stejně tak nejsou dovolené smíšené broky různých velikostí nebo kvality, černý prach a trasery (náboje, které zanechávají světelnou stopu). Na závody tedy berte tovární náboje, které splňují pravidla.",
+    "cartridges-anatomy-p7": "Na krabičce bývá uvedena ráže, délka nábojnice, náplň, číslo nebo {{term:shot-size|průměr broků}}, materiál broků a typ kontejneru, často i rychlost. Naučte se číst krabičku a budete vědět, čím nabíjíte.",
     "gear-cartridges-p5": "Některé střelnice mají vlastní ekologická pravidla pro trénink, například jen vláknité kontejnery nebo jen {{term:steel-shot|ocelové broky}}: ověřte si pravidla střelnice před cestou. Prázdné nábojnice patří do koše na stanovišti a střelci se {{term:semi-automatic|samonabíjecími brokovnicemi}} při odchodu sbírají své vystřelené nábojnice.",
     "cartridges-anatomy-p9": "Tři čísla na krabičce mají vlastní lekce: ráže ({{lesson:gun-gauge-and-barrels}}), velikost broků ({{lesson:cartridges-shot-size}}) a náplň ({{lesson:cartridges-load-weight}})."
   },
@@ -52,7 +52,7 @@
       "say": "Nábojnice do koše, prosím, ne do trávy."
     },
     "gear-cartridges-ph4": {
-      "meaning": "Olovo je na této střelnici zakázané (místní pravidlo, ne FITASC).",
+      "meaning": "{{term:lead-shot|Olovo}} je na této střelnici zakázané (místní pravidlo, ne FITASC).",
       "say": "Na této střelnici jen ocelové broky."
     }
   },
@@ -65,7 +65,7 @@
   },
   "quiz": {
     "cartridges-anatomy-q1": {
-      "q": "Co zapálí prach v náboji?",
+      "q": "Co zapálí {{term:powder|prach}} v náboji?",
       "options": {
         "a": "Kontejner",
         "b": "Zápalka",
@@ -85,7 +85,7 @@
       "explain": "Vlákno a plsť se rozkládají, zatímco běžné plastové kontejnery zůstávají na polích roky."
     },
     "cartridges-anatomy-q3": {
-      "q": "Které náboje zakazují pravidla FITASC?",
+      "q": "Které {{term:cartridge|náboje}} zakazují pravidla FITASC?",
       "options": {
         "a": "Tovární s plastovým kontejnerem",
         "b": "Tovární s vláknitým kontejnerem",
@@ -95,7 +95,7 @@
       "explain": "Přebíjené náboje, rozptylovače, smíšené broky, černý prach a trasery jsou zakázané."
     },
     "cartridges-anatomy-q4": {
-      "q": "Co je zálisek náboje?",
+      "q": "Co je zálisek {{term:cartridge|náboje}}?",
       "options": {
         "a": "Zahnutý horní okraj, který uzavírá nábojnici",
         "b": "Kovová hlavice se zápalkou",
@@ -106,6 +106,6 @@
     }
   },
   "title": "Stavba náboje",
-  "summary": "Nábojnice, zápalka, prach, kontejner, broky a zálisek: co je uvnitř sportovního náboje, jak každá část ovlivňuje výstřel a které náboje zakazují pravidla {{tm:sporting}} a {{tm:compak}}.",
+  "summary": "{{term:hull|Nábojnice}}, {{term:primer|zápalka}}, {{term:powder|prach}}, {{term:wad|kontejner}}, broky a zálisek: co je uvnitř sportovního {{term:cartridge|náboje}}, jak každá část ovlivňuje výstřel a které náboje zakazují pravidla {{tm:sporting}} a {{tm:compak}}.",
   "did_you_know": "Po výstřelu letí plastový kontejner ještě několik desítek metrů za stanoviště. Proto bývají pole kolem starých střelnic plné kontejnerů, zatímco vlákno se postupně rozkládá."
 }

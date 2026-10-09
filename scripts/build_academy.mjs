@@ -50,6 +50,8 @@
      --base <url>       absolute site URL (default the GitHub Pages URL); e.g. http://127.0.0.1:8791/ for a local preview
      --docs-root <dir>  where the old pages are looked up (default docs)
      --report <file>    write every finding as JSON
+     --term-report <dir> write the warnings of the term rule, step 2 (term-gloss-dup, term-untokenised, term-grammar) per language:
+                        <dir>/<lang>.json = {counts, skipped_everyday, files: {<file to edit>: [findings]}} (uk + the 9 overlays)
      --check            run the checks only, write nothing
      --own-home         let the build overwrite a hand-written docs/learn/index.html
      --quiet            print only the summary
@@ -141,7 +143,7 @@ const nonEmpty = v => Array.isArray(v) ? v.length > 0 && v.every(x => String(x ?
 const TOKEN_RE = /\{\{([a-z]+):([^{}]*?)\}\}/g;
 // the visible text of a string for the "other-discipline" check: every token is replaced by its label (the part after "|"),
 // so ids such as {{term:<id>}} are never checked, only the words a reader sees
-const tokenLabels = s => String(s ?? "").replace(TOKEN_RE, (_, k, a) => " " + a.split("|").slice(1).join(" ") + " ");
+const tokenLabels = s => String(s ?? "").replace(TOKEN_RE, (_, k, a) => " " + a.split("|").slice(1, 2).join(" ") + " "); // {{term:id|form|pl}}: the form only
 // Ukrainian apostrophe: ’ (U+2019) between two Cyrillic letters in every uk output (pages, catalog, lesson and phrase files,
 // share list, animation texts). Sources may still have ' (U+0027), ʼ (U+02BC), ` or ‘ — the glossary and the law tables do.
 const UK_APOS_RE = /(?<=\p{Script=Cyrillic})['ʼ`‘](?=\p{Script=Cyrillic})/gu;
@@ -156,6 +158,40 @@ const reEsc = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 // "preview" = finished but shown only as a noindex preview (the ClayAway lesson until ClayAway launches; also needs index:"preview").
 const STATUSES = ["draft", "review", "ready", "published", "preview"], PUBLISHABLE = ["review", "ready", "published", "preview"];
 const uniq = a => [...new Set(a)];
+// Warning "term-untokenised" (see termTextChecks()): glossary terms the lessons use as EVERYDAY words ("target" = мішень, "shotgun",
+// "coach", "referee", "safety", …). Their hits are only counted (term report "skipped_everyday"), not listed, unless the lesson names
+// the term in its chips ("terms"). Remove an id to list its hits; add one when its hits are mostly plain words, not the term.
+// The three warnings of the term rule, step 2 (running text): one per-language report (--term-report, result.termReport)
+const TERM_WARNINGS = ["term-gloss-dup", "term-untokenised", "term-grammar", "term-verb", "term-quiz-giveaway"];
+const TERM_REPORT_RULE = "Owner rule 08.10.2026, step 2: a token {{term:<id>|<local form>}} on a page in another language than English is " +
+  "shown as '<English> (<local form>)' at its first mention on the lesson page and as '<English>' later (docs/shared/terms.js mention()). " +
+  "term-gloss-dup: delete the hand-written English next to the token (the page prints it itself). term-untokenised: the glossary word " +
+  "of a term with no token in this lesson and language: wrap its first mention as {{term:<id>|<word as written>}}. term-grammar " +
+  "(heuristic, check by eye): after this preposition write the case form in the token. term-verb (heuristic): the token stands where " +
+  "the sentence needs a verb (after a modal verb or a negation, or the form is an infinitive or a question) and the page prints an English " +
+  "noun there: rephrase so the token stands on a noun. term-quiz-giveaway: the tokens of the options single out one option (only one " +
+  "option, or every option but the right one, shows an English word): write plain local words in the options. A plural form: " +
+  "{{term:<id>|<form>|pl}} (fr and pt: found by the word ending).";
+const UNTOK_SKIP_IDS = [
+  "target", "shotgun", "shooting-stand", "range", "coach", "barrel", "referee", "cartridge", "practice", "safety", "round", "one", "zero",
+  "squad", "single-target", "layout", "call", "line", "trajectory", "target-presentation", "stance", "appeal", "protest", "penalty",
+  "warning", "loading", "competitor-number", "gun-handling", "championship", "organiser", "velocity", "entry", "dress-code",
+  "score-sheet", "scoreboard", "interruption", "lateness", "team", "category", "shooter-class", "accuracy", "conduct", "coaching",
+  "interpreter", "volunteer", "shooting-times", "hydration", "junior", "lady", "men-category", "senior", "veteran", "master-category", "deposit",
+  "refusal", "tour-package", "shooter-profile", "invitation-letter", "sports-licence", "national-federation", "trajectory-setting-table",
+  "background", "warm-up", "mobility", "best-score", "season-recap"];
+// … and words of one language that are a glossary word (term_local or alt) AND an everyday word with another meaning: never a hit
+// (written in lower case, as found). uk «приклад» is also "example" («приклада» is only the stock and stays), «зверху», «позаду» …
+// are plain adverbs (alt of the miss terms), fr "à l'avance" = in advance, "avantage" = advantage, it "sicura" = sure. Add a word
+// when its hits are not the term.
+const UNTOK_SKIP_WORDS = {
+  uk: ["приклад", "приклади", "прикладом", "прикладі", "спуск", "номер", "майстер", "чверть", "таблиця", "контейнер", "профіль", "запрошення",
+    "зверху", "знизу", "позаду", "попереду", "попереду мішені", "позаду мішені", "вище мішені", "нижче мішені", "над мішенню", "під мішенню",
+    "на стрільця", "підказка", "підказки", "підказку", "стартовий"],
+  de: ["system", "programm", "zeigen", "training", "deckung", "trinken"],
+  fr: ["détente", "devant", "simple", "simples", "position", "positions", "bande", "bandes", "lisse", "bouche", "niveau", "niveaux", "charge", "acier",
+    "avance", "avantage", "montant", "montants", "venant", "suivi", "accompagnement"],
+  it: ["sicura"], cs: [], pl: ["skupienie"], pt: [], hu: [], fi: [], lt: [] };
 
 /* =====================================================================================================================
    buildAcademy(options) → {ok, blocking, findings, counts, urls: {lang: [url]}, stubs: Set, sitemaps: [file], learnLinks, newTerms}
@@ -164,7 +200,7 @@ export async function buildAcademy(o = {}) {
   const opt = {
     out: path.resolve(o.out || DOCS), docsRoot: path.resolve(o.docsRoot || DOCS),
     base: String(o.base || SITE_BASE).replace(/\/?$/, "/"),
-    draft: !!o.draft, write: o.write !== false, quiet: !!o.quiet, ownHome: !!o.ownHome, report: o.report || null,
+    draft: !!o.draft, write: o.write !== false, quiet: !!o.quiet, ownHome: !!o.ownHome, report: o.report || null, termReport: o.termReport || null,
     fitascIndex: typeof o.fitascIndex === "boolean" ? o.fitascIndex : readFitascIndex(ROOT),
     today: o.today || new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date()) // project time zone (CLAUDE.md)
   };
@@ -262,11 +298,10 @@ export async function buildAcademy(o = {}) {
   const termId = id => GBY[id] ? id : (ALIAS[id] && GBY[ALIAS[id]] ? ALIAS[id] : null); // glossary id (aliases resolved) or null
   const anyTermId = id => termId(id) || (THIN.has(id) ? id : null);
   const enTerm = id => (GBY[id] ? (GBY[id].display_term || tm(GBY[id].term)) : THIN.has(id) ? tm(THIN.get(id).term) : id);
-  // Name of a glossary term in language L, as shown on lesson pages: term chips ("Терміни"), the JSON-LD `about` DefinedTerm names,
-  // `terms[].local` of the lesson data file and the text of {{term:id}} links without a form. It goes through tm() like the English
-  // name (audit legal-01): local names such as "Compak Sporting" or "Percorso di Caccia (Sporting)" get the FITASC marks
-  // ("Compak® Sporting", "Percorso di Caccia (Sporting™)"), as on the glossary pages. Declined forms written by the author
-  // ({{term:id|form}}) stay as written.
+  // The glossary local name of a term in language L (conf not "low"), through tm() like the English name (audit legal-01): local
+  // names such as "Compak Sporting" or "Percorso di Caccia (Sporting)" get the FITASC marks. Since step 2 of the term rule
+  // (09.10.2026) pages do not show it as the text of {{term:id}} links any more (termMention() below); it stays for English pages
+  // (= the English name) and for the checks that look for a translation's glossary form (term-local-missing).
   const localTerm = (L, id) => {
     if (L === "en") return enTerm(id);
     const x = ((GI[L] || {}).terms || {})[id];
@@ -275,14 +310,36 @@ export async function buildAcademy(o = {}) {
   // TERM LABELS (owner rule 08.10.2026, step 1 = labels only): wherever a term is NAMED as a label (term chips, quiz options with
   // "term", the names the animations show), it is "English (local)" in every language and English only on English pages, made by
   // the ONE helper docs/shared/terms.js (ClayTerms.of: English = display_term/term, or the English option text; local = term_local of
-  // i18n/<lang>.js, uk falls back to the first «…» of uk_usage; same word or plain transliteration → shown once). localTerm() above
-  // stays for the TEXT of {{term:id}} links in running text (step 2 will change running text).
+  // i18n/<lang>.js, uk falls back to the first «…» of uk_usage; same word or plain transliteration → shown once).
   const CT = runScripts([path.join(DOCS, "shared", "terms.js")]).ClayTerms;
-  if (!CT) throw new Error("docs/shared/terms.js did not define window.ClayTerms");
+  if (!CT || !CT.mention || !CT.scope) throw new Error("docs/shared/terms.js did not define window.ClayTerms (with mention and scope)");
   const termNames = (L, id, en) => { const t = GBY[termId(id) || id];
     if (!t) { const e = en || enTerm(id); return { en: e, local: "", label: e }; }
     return CT.of(t, ((GI[L] || {}).terms || {})[t.id], L, { en, mark: tm }); };
   const termHtml = (L, id, en) => { const n = termNames(L, id, en); return CT.html(n.en, n.local, L, esc); };
+  // RUNNING TEXT (owner rule 08.10.2026, step 2, 09.10.2026): a token {{term:id|form}} on a page in another language than English is
+  // "<English> (<local form>)" at the first mention of the term on the page and "<English>" later (docs/shared/terms.js mention():
+  // case, transliterations, inflected forms); English pages show the form (else the English name) as before. first = the scope's
+  // answer (see view(): what counts as one page), start = the token stands at a sentence start. → {text, html} (html without the link).
+  // flag = the third part of the token ({{term:id|form|pl}}): "pl" = the form is plural, the English goes into the plural too
+  // ("cartridges (Patronen)"); "sg" = never. Without a flag, fr and pt forms are plural when a word of the form ends in -s/-x where
+  // the same word of the glossary local word does not (fr "cartouches" of «cartouche», pt "canos" of «cano»: review 09.10.2026);
+  // other languages mark a plural with |pl (de "Patronen", uk «патронники»). The glossary field en_plural overrides the English plural.
+  const autoPlural = (L, form, raw) => {
+    if (!(L === "fr" || L === "pt") || !form || !raw) return false;
+    const fw0 = String(form).toLowerCase().split(/\s+/), rw0 = String(raw).toLowerCase().replace(/\s*\([^()]*\)\s*$/, "").split(/\s+/);
+    return fw0.some(w => /[sx]$/.test(w) && rw0.some(r => r.length >= 3 && !/[sx]$/.test(r) && w.startsWith(r.slice(0, Math.max(3, r.length - 2))) && w.length - r.length <= 3 && w.length > r.length));
+  };
+  // quoted = the token stands alone in quotes and its form is the English name («Protest!»): shown as written (terms.js mention())
+  const termMention = (L, id, form, first, start, flag, quoted) => {
+    const t = GBY[termId(id) || id], n = termNames(L, id);
+    if (L === "en") { const s = form || localTerm(L, id); return { text: s, html: esc(s), first: false }; }
+    const raw = t ? CT.termLocal(t, ((GI[L] || {}).terms || {})[t.id], L) : "";
+    const plural = flag === "pl" || (flag !== "sg" && autoPlural(L, form, raw));
+    const m = CT.mention({ en: n.en, local: n.local, raw, form: form || "", plural, enPlural: t ? t.en_plural : "",
+      names: t ? [t.display_term, t.term].filter(Boolean) : [], aka: t ? t.aka || [] : [], id: t ? t.id : id, lang: L, first, start, esc, quoted: !!quoted });
+    return { text: m.text, html: m.html, first: first && !!m.local, local: m.local, plural, after: m.after || "", afterHtml: m.afterHtml || "" };
+  };
   const glossUrl = (L, id) => { // a glossary page in that language, or null (uk/en: every term; others: terms with a translated definition)
     if (L === "uk" || L === "en") return GBY[id] || THIN.has(id) ? `${BASE}${L === "uk" ? "" : "en/"}glossary/${id}/` : null;
     return (((GI[L] || {}).terms || {})[id] || {}).short ? `${BASE}${L}/glossary/${id}/` : null;
@@ -444,7 +501,8 @@ export async function buildAcademy(o = {}) {
   // Token check: {{term:id|form}} {{tm:sporting|compak}} {{rule:book:id}} {{lesson:id}} {{fact:id}}
   const tokenProblem = (kind, arg) => {
     if (kind === "tm") return ["sporting", "compak"].includes(arg) ? null : `unknown trade mark "${arg}"`;
-    if (kind === "term") { const id = arg.split("|")[0]; return anyTermId(id) ? null : `term "${id}" is not in the glossary`; }
+    if (kind === "term") { const [id, , flag, more] = arg.split("|"); if (flag != null && !["pl", "sg"].includes(flag) || more != null) return `term token "${arg}": the third part can only be "pl" or "sg"`;
+      return anyTermId(id) ? null : `term "${id}" is not in the glossary`; }
     if (kind === "rule") { const i = arg.indexOf(":"), book = arg.slice(0, i), id = arg.slice(i + 1); return RULES[book] && RULES[book].has(id) ? null : `rule "${arg}" is not in docs/rules/data`; }
     if (kind === "lesson") return lessons.has(arg) ? null : `lesson "${arg}" does not exist`;
     if (kind === "fact") return facts[arg] ? null : `fact "${arg}" is not in facts.json`;
@@ -635,6 +693,163 @@ export async function buildAcademy(o = {}) {
         }
       }
     }
+    termTextChecks(m, items);
+  }
+
+  /* ---------- running text and the term rule, step 2 (owner rule 08.10.2026): warnings "term-gloss-dup" and "term-untokenised" ----------
+     Both read the texts of uk (master) and of the 9 overlays; English pages are not affected by step 2. Every finding carries
+     {lesson, lang, item, term, file, text} (file = the file to edit), counted per language in the console and written per language
+     by --term-report <dir> (<dir>/<lang>.json). "term-grammar" is found while the pages are rendered (grammarCheck()).
+     - term-gloss-dup: a token followed by a hand-written bracket that repeats its English term ("{{term:recoil|Віддача}} (recoil)",
+       "(набій; cartridge, shell)", de "(Multichoke)"), or the English term written by hand right before a token in brackets
+       ("cylinder ({{term:cylinder|циліндр}})"). The page now prints "Recoil (віддача)" by itself, so the reader would see the English
+       twice: delete the hand-written part. A bracket piece counts when it is a name of the term (headword, display name, aka, or
+       the start of one: "(soft iron)" of Soft iron shot) — ClayTerms.same(); explanations in the bracket are left alone.
+     - term-untokenised: a glossary local word of a term (term_local / alt of i18n/<lang>.js, conf not "low"; uk without an entry: the
+       first «…» of uk_usage) in a lesson text of that language, while the lesson has NO token of that term in that language (and no
+       quiz option with that "term"): the page shows the local word only, never the English. Kept quiet on purpose, CONFIDENT HITS
+       ONLY (review 09.10.2026: a plain stem search gave 15 600 hits, most of them everyday words or other words with the same stem):
+       · the glossary word has at least 5 letters (a phrase: 7 letters without spaces) and adds something to the English (not the
+         English word, a spelling variant or a transliteration of it: ClayTerms.local());
+       · a PHRASE (two or more words of 4+ letters, «точка пострілу», "plateau battue") is found with word endings (each long word:
+         its stem + up to 4 letters; short words as written); the longest match wins («точка пострілу» before «постріл»);
+       · a SINGLE word (or a phrase with short words, «на стрільця») counts only as the glossary writes it or in a form that the
+         lessons of the same language already write inside a token of that term ({{term:rabbit|зайця}} → «зайця» is a hit, the
+         stem alone is not: «набір» is not «набій», fr "crosser" is not "crosse");
+       · UNTOK_SKIP_WORDS: words of the language that are also everyday words with another meaning (uk «приклад» = stock and
+         "example", fr "détente" = trigger and "rest") never count;
+       · UNTOK_SKIP_IDS: terms the lessons use as everyday words ("target", "shotgun", "coach", "referee", "safety", …) are only
+         COUNTED (term report "skipped_everyday"), not listed — unless the lesson names the term in its chips ("terms").
+       One warning per term, language and lesson (its first place). */
+  const UNTOK_SKIP = new Set(UNTOK_SKIP_IDS);
+  for (const id of UNTOK_SKIP_IDS) if (!GBY[id]) warn("term-untokenised", `UNTOK_SKIP_IDS in scripts/build_academy.mjs: "${id}" is not a glossary id`);
+  const unquoteS = x => String(x || "").trim().replace(/^[„“"«‹]\s*(.*?)\s*[”“"»›]$/, "$1").trim();
+  const fw = x => unquoteS(x).toLowerCase().normalize("NFC").replace(/[\s\u00a0]+/g, " ").trim(); // comparison form of a word
+  const UNTOK_SKIP_W = Object.fromEntries(Object.entries(UNTOK_SKIP_WORDS).map(([L, a]) => [L, new Set(a.map(fw))]));
+  const untokSkipped = {}; // L → {term id: lessons} hits of UNTOK_SKIP_IDS (term report "skipped_everyday")
+  const termStats = {};    // L → {tokens, lessons, summaries_with_tokens, per_lesson} (term report "tokens")
+  const tokFormMemo = {};
+  function tokForms(L) { // L → Map(term id → Set of the forms the lessons of L write inside tokens of that term): the authors' own term words
+    if (tokFormMemo[L]) return tokFormMemo[L];
+    const M = new Map();
+    for (const m of lessons.values()) for (const x of itemsOf(m)) { if (!hasText(x)) continue; const r = valOf(m, x, L); if (!r.v) continue;
+      for (const str of stringsOf(x, r.v)) for (const tk of String(str).matchAll(TOKEN_RE)) { if (tk[1] !== "term") continue;
+        const [i0, f] = tk[2].split("|"), id = anyTermId(i0) || i0; if (!f) continue;
+        if (!M.has(id)) M.set(id, new Set()); M.get(id).add(fw(f)); } }
+    return (tokFormMemo[L] = M);
+  }
+  const STEM_END = { uk: /[аяоеєиіїйьу]$/u, pl: /[aeiouyąę]$/u, cs: /[aeiouyáéíóúůěý]$/u, lt: /(?:as|is|ys|us|ai|os|ės|a|ė|i|o|e|u|ą|į|ų|y)$/u,
+    fi: /[aeiouyäö]$/u, hu: /[aeoö]$/u, de: /e$/u, fr: /[es]$/u, it: /[aeio]$/u, pt: /[aeo]s?$/u };
+  const untokMemo = {};
+  function untokCandidates(L) { // [{id, word, exact, phrase, re}] of language L, longest words first
+    if (untokMemo[L]) return untokMemo[L];
+    const out = [];
+    for (const t of Object.values(GBY)) {
+      const g = ((GI[L] || {}).terms || {})[t.id];
+      let raw = g && g.conf !== "low" ? [g.term_local, ...(g.alt || [])] : [];
+      if (L === "uk" && !g) raw = [CT.termLocal(t, null, "uk")];
+      const names = [t.display_term, t.term].filter(Boolean);
+      const words = uniq(raw.filter(Boolean).flatMap(w => { w = unquoteS(w).replace(/\s*\((?:розм|colloq|coll)\.?\)/giu, "");
+          const mm = /^(.*?)\s*\(([^()]*)\)\s*$/.exec(w); if (mm) w = names.some(n => CT.same(mm[1], n)) ? mm[2] : mm[1];
+          return w.split(/\s*[\/;]\s*|,\s+/).map(unquoteS); }))
+        .filter(w => w && !/\d/.test(w) && CT.local(w, L, names) !== "")                                 // the local word adds something
+        .filter(w => { const ws = w.split(/\s+/); return ws.length > 1 ? w.replace(/\s/g, "").length >= 7 : [...w].length >= 5; });
+      for (const w of words) {
+        const parts = w.toLowerCase().split(/[\s\u00a0-]+/).filter(Boolean), long = p => [...p].length >= 4;
+        const stem = p => [...p].length >= 5 && STEM_END[L] ? p.replace(STEM_END[L], "") : p;
+        // a phrase of two or more long words: each long word with word endings; a single word (or a phrase with short words): the
+        // glossary form or the same start + up to 4 letters (only the glossary form and the token forms of the lessons count, below)
+        const phrase = parts.filter(long).length >= 2;
+        const pat = parts.length === 1 ? reEsc(stem(parts[0])) + "[\\p{L}\\p{M}]{0,4}"
+          : parts.map(p => phrase && long(p) ? reEsc(stem(p)) + "[\\p{L}\\p{M}]{0,4}" : reEsc(p)).join("[\\s\\u00a0-]+");
+        out.push({ id: t.id, word: w, exact: fw(w), phrase, re: new RegExp(`(?<![\\p{L}\\p{M}])${pat}(?![\\p{L}\\p{M}])`, "giu") });
+      }
+    }
+    out.sort((a, b) => b.word.length - a.word.length);
+    return (untokMemo[L] = out);
+  }
+  function termTextChecks(m, items) {
+    for (const L of ["uk", ...OVERLAY_LANGS]) {
+      const file = L === "uk" ? `content/academy/lessons/${m.id}.json` : `content/academy/i18n/${L}/${m.id}.json`;
+      const ctx = extra => ({ lesson: m.id, lang: L, file, ...extra });
+      const texts = []; // [{where, s}] every text of the lesson in L
+      for (const x of items) { if (!hasText(x) || x.draft) continue; const r = valOf(m, x, L); if (!r.v || r.st === "missing") continue;
+        const opts = (x.part === "quiz" || x.part === "pool") ? new Set(Object.values(r.v.options || {}).map(String)) : null;
+        for (const str of stringsOf(x, r.v)) texts.push({ where: x.part === x.k ? x.part : `${x.part} ${x.k}`, s: String(str), opt: !!opts && opts.has(String(str)) && str !== r.v.q && str !== r.v.explain }); }
+      const tokIds = new Set(); // term ids with a token (or a quiz option "term") in this language of the lesson
+      for (const { s: str } of texts) for (const tk of str.matchAll(TOKEN_RE)) if (tk[1] === "term") tokIds.add(anyTermId(tk[2].split("|")[0]) || tk[2].split("|")[0]);
+      for (const q of [...(m.quiz || []), ...(m.exam_pool || [])]) for (const op of q.options || []) if (op.term) tokIds.add(termId(op.term) || op.term);
+      // term-gloss-dup
+      for (const { where, s: str } of texts) for (const tk of str.matchAll(TOKEN_RE)) {
+        if (tk[1] !== "term") continue;
+        const id = anyTermId(tk[2].split("|")[0]), t = id && GBY[id]; if (!t) continue;
+        const names = uniq([t.display_term, t.term, ...(t.aka || [])].filter(Boolean));
+        const isName = p => !!p && /\p{Script=Latin}/u.test(p) && names.some(n => CT.same(p, n) || CT.same(p, CT.core(n)));
+        const after = /^\s*\(([^()]*)\)/.exec(str.slice(tk.index + tk[0].length));
+        if (after && !after[1].includes("{{")) {
+          const hit = after[1].split(/\s*[,;\/]\s*|\s+(?:or|або|oder|ou|o|lub|nebo|vagy|tai|arba)\s+/u).map(unquoteS).find(isName);
+          if (hit) warn("term-gloss-dup", `${m.id} ${where} (${L}): ${tk[0]} is followed by "(${after[1]})": "${hit}" repeats the English term the page now shows itself ("${t.display_term || t.term} (…)") — delete it from the bracket`,
+            ctx({ item: where, term: id, text: `${tk[0]} (${after[1]})` }));
+        }
+        const before = /([\p{Script=Latin}][\p{Script=Latin}\p{M}'’\- ]{0,60}?)\s*\(\s*$/u.exec(str.slice(0, tk.index));
+        if (before && str.slice(tk.index + tk[0].length).trimStart().startsWith(")")) {
+          const ws = before[1].trim().split(/\s+/); let hit = null;
+          for (let k = Math.min(4, ws.length); k >= 1 && !hit; k--) { const p = ws.slice(-k).join(" "); if (names.some(n => CT.core(n).replace(/[™®]/g, "").toLowerCase() === p.toLowerCase())) hit = p; }
+          if (hit) warn("term-gloss-dup", `${m.id} ${where} (${L}): "${hit}" is written by hand right before "(${tk[0]})": the page now shows "${t.display_term || t.term} (…)" itself — delete the hand-written English`,
+            ctx({ item: where, term: id, text: `${hit} (${tk[0]})` }));
+        }
+        // the English name in quotes right before the token (fr "« move, mount, shoot » — {{term:move-mount-shoot|…}}")
+        const quoted = /[«„“"‘]\s*([^«»„“”"‘’{}]{1,60}?)\s*[»”“"’]\s*[—–:,-]?\s*$/u.exec(str.slice(0, tk.index));
+        // (the headword or display name only: an alias in quotes is another name the text explains — en "“Stop!” (cease fire)", the
+        // English Sporting "“Report pair”" next to the FITASC double on report)
+        const headName = p => !!p && [t.display_term, t.term].filter(Boolean).some(n => CT.same(p, n) || CT.same(p, CT.core(n)));
+        if (quoted && headName(quoted[1].replace(/[!?.]+$/, "")))
+          warn("term-gloss-dup", `${m.id} ${where} (${L}): the English "${quoted[1]}" is written in quotes right before ${tk[0]}: the page now shows "${t.display_term || t.term} (…)" itself — delete the quoted English`,
+            ctx({ item: where, term: id, text: `${quoted[0].trim()} ${tk[0]}` }));
+      }
+      // token counts per language (term report "tokens": the density of the term rule, to see when languages drift apart)
+      { const st = (termStats[L] ||= { tokens: 0, lessons: 0, summaries_with_tokens: 0, per_lesson: {} }); let n = 0;
+        for (const { where, s: str } of texts) { const c = [...str.matchAll(TOKEN_RE)].filter(tk => tk[1] === "term").length; n += c; if (where === "summary" && c) st.summaries_with_tokens++; }
+        st.tokens += n; st.lessons++; st.per_lesson[m.id] = n; }
+      // term-quiz-giveaway: the term tokens of the options single out one option (review 09.10.2026). A token in an option prints an
+      // English word; when only one option has one, or every option but the right one, the reader sees the answer. Questions whose
+      // options ALL carry "term" (labels "English (local)", step 1: alike by design) are not checked; in a question that mixes them,
+      // the term options show their own text too (quizItem()) and are checked like the others. A term the question names itself
+      // does not count (the options may repeat it).
+      for (const q of [...(m.quiz || []), ...(m.exam_pool || [])]) {
+        const part = (m.quiz || []).includes(q) ? "quiz" : "pool", r = valOf(m, { part, k: q.k, it: q }, L);
+        if (!r.v || r.st === "missing" || !(q.options || []).length || q.options.every(op => op.term)) continue; // all labels: by design
+        const inQ = new Set([...String(r.v.q || "").matchAll(TOKEN_RE)].filter(tk => tk[1] === "term").map(tk => anyTermId(tk[2].split("|")[0]) || tk[2].split("|")[0]));
+        const T = (q.options || []).filter(op => [...String((r.v.options || {})[op.k] || "").matchAll(TOKEN_RE)]
+          .some(tk => tk[1] === "term" && !inQ.has(anyTermId(tk[2].split("|")[0]) || tk[2].split("|")[0]))).map(op => op.k);
+        const n = q.options.length, single = T.length === 1, allButRight = n >= 3 && T.length === n - 1 && !T.includes(q.correct);
+        if (single || allButRight) warn("term-quiz-giveaway", `${m.id} ${part} ${q.k} (${L}): ${single ? `only option ${T[0]}${T[0] === q.correct ? " (the right one)" : ""} has` : `every option but the right one (${q.correct}) has`} a term token, so the English word singles it out — write the plain local word in the options (the term can stay in the question or the explanation), or name a term in every option`,
+          ctx({ item: `${part} ${q.k}`, term: null, text: T.map(k => `${k}: ${(r.v.options || {})[k] || "(term label)"}`).join(" | ") }));
+      }
+      // term-untokenised
+      const claimed = new Map(), found = new Map(), skipped = new Set(); // text index → [[start, end]] taken by a longer word; id → {where, hit}
+      const chips = new Set((m.terms || []).map(x => termId(x) || x)), forms = tokForms(L), skipW = UNTOK_SKIP_W[L] || new Set();
+      // quiz options are left out: they carry plain local words on purpose (term-quiz-giveaway; the explanation names the term)
+      const plainTexts = texts.map(x => ({ ...x, p: x.opt ? "" : x.s.replace(TOKEN_RE, t0 => "\u2063".repeat(t0.length)) })); // tokens: invisible, same length
+      for (const c of untokCandidates(L)) // every match of a longer word is taken, also of a term the lesson links (no shorter hit inside it)
+        for (const [i, { where, p }] of plainTexts.entries()) for (const mm of p.matchAll(c.re)) {
+          const h = fw(mm[0]), sure = c.phrase || h === c.exact || (forms.get(c.id) || new Set()).has(h);
+          if (!sure || skipW.has(h)) continue;                                      // not this term's word (another word with the same start)
+          const a = mm.index, b = a + mm[0].length, cl = claimed.get(i) || [];
+          if (cl.some(([x, y]) => a < y && b > x)) continue; cl.push([a, b]); claimed.set(i, cl);
+          if (tokIds.has(c.id)) continue;
+          if (UNTOK_SKIP.has(c.id) && !chips.has(c.id)) { skipped.add(c.id); continue; }  // an everyday word: counted only
+          const old = found.get(c.id); if (old && (old.i < i || (old.i === i && old.a < a))) continue; // keep the first place in the file
+          // a hand-written English gloss right after the word ("Заєць (rabbit)") goes when the token is added (the token prints it)
+          const t = GBY[c.id], names = [t.display_term, t.term, ...(t.aka || [])].filter(Boolean), gl = /^\s*\(([^()]*)\)/.exec(p.slice(b));
+          const gloss = gl && gl[1].split(/\s*[,;\/]\s*/).map(unquoteS).some(q => /\p{Script=Latin}/u.test(q) && names.some(n => CT.same(q, n) || CT.same(q, CT.core(n)))) ? gl[0].trim() : "";
+          found.set(c.id, { where, hit: mm[0], i, a, gloss });
+        }
+      for (const id of skipped) { const u = (untokSkipped[L] ||= {}); u[id] = (u[id] || 0) + 1; }
+      for (const [id, f] of found) { const t = GBY[id];
+        warn("term-untokenised", `${m.id} ${f.where} (${L}): «${f.hit}» is the glossary word of "${t.display_term || t.term}", but the lesson has no {{term:${id}}} token in ${L}: the page shows only the local word — link its first mention: {{term:${id}|${f.hit}}}${f.gloss ? ` and delete the hand-written "${f.gloss}" after it (the token prints the English)` : ""}`,
+          ctx({ item: f.where, term: id, text: f.gloss ? `${f.hit} ${f.gloss}` : f.hit })); }
+    }
   }
   for (const m of lessons.values()) checkLesson(m);
   { const top = Object.entries(quizStats.pos).sort((a, b) => b[1] - a[1])[0]; if (top && quizStats.n && top[1] / quizStats.n > 0.5) warn("quiz-answer-position", `${Math.round(100 * top[1] / quizStats.n)}% of all shown quiz answers are option ${"abcdefgh"[top[0]]} (audit R-05)`); }
@@ -662,6 +877,11 @@ export async function buildAcademy(o = {}) {
     if (lint.COUNTRY_RE.test(t) || lint.FLAG_RE.test(t) || lint.RU_LETTERS_RE.test(t)) err("lang-country", `i18n/${L}: shared texts break the language rule`);
     if (L === "lt") { const bad = lint.ltLoanword(t); if (bad) warn("lt-loanword", `i18n/lt: shared/facts text uses "${bad}" — use "tūtelė"`, { lang: "lt" }); }
   }
+  // tokens inside fact texts (a fact may name a term: {{term:shoot-off|перестрілка}}, rendered by token() "fact")
+  for (const [id, f] of Object.entries(facts)) for (const [L, t] of Object.entries(f.text || {})) for (const tk of String(t).matchAll(TOKEN_RE)) {
+    const p = tk[1] === "fact" ? "a fact cannot hold another fact" : tokenProblem(tk[1], tk[2]); if (p) err("token-dead", `fact ${id} (${L}): ${p}`, { lang: L }); }
+  for (const [L, j] of Object.entries(factsI18n)) for (const [id, v] of Object.entries(j || {})) { if (id.startsWith("_")) continue;
+    for (const tk of String(typeof v === "string" ? v : (v || {}).text || "").matchAll(TOKEN_RE)) { const p = tk[1] === "fact" ? "a fact cannot hold another fact" : tokenProblem(tk[1], tk[2]); if (p) err("token-dead", `i18n/${L}/_facts.json ${id}: ${p}`, { lang: L }); } }
   for (const [id, f] of Object.entries(facts)) { if (!/^(?:[a-z0-9-]+\.)?[a-z0-9]+(?:-[a-z0-9]+)+$/.test(id)) warn("fact-id", `fact "${id}": ids are kebab-case with a topic prefix`); if (f.rule_ref) refOk(f.rule_ref, f.scope, `facts.json ${id}`, {}); if (!(f.sources || []).length && !f.rule_ref) warn("numbers-no-sources", `facts.json "${id}" has no sources`); }
   // Sporting™ and Compak® Sporting only (owner decision 08.10.2026, SCHEMA.md §9 "Disciplines"; error "other-discipline", blocks the
   // build): no other clay discipline in any text of the Academy or of the glossary it reads. Lessons are checked in checkLesson();
@@ -769,11 +989,97 @@ export async function buildAcademy(o = {}) {
   const lessonTitle = (L, id) => { const A = (avail.get(id) || {})[L]; if (A && A.ok) return plainOf(A.title, L); const m = lessons.get(id); if (!m) return id;
     if (L === "en" || L === "uk") return m.title && m.title[L] ? plainOf(m.title[L], L) : null; const ov = overlays[L].get(id); return ov && ov.title ? plainOf(ov.title, L) : null; };
   const factText = (id, L) => { const f = facts[id]; if (!f) return null; if (L === "en" || L === "uk") return (f.text || {})[L] || null; const t = (factsI18n[L] || {})[id]; return t ? (typeof t === "string" ? t : t.text) : null; };
-  // token → HTML (or plain text with R.plain): see SCHEMA.md §6
-  function token(kind, arg, R) {
+  // Warning "term-grammar" (heuristic, step 2 of the term rule): at the first mention the brackets show the local form. Right after
+  // a preposition that governs a case, a token WITHOUT a form shows the glossary's dictionary form («з rabbit (заєць)»), and a form
+  // equal to the dictionary form after a preposition that never takes the nominative or accusative («до {{term:x|протяжка}}») is
+  // likely wrong too. Only uk, pl, cs, lt (prepositions + case endings); only mentions that show the brackets (r.first).
+  // PREP_ANY = prepositions; PREP_OBL = those that never take the nominative/accusative (two-word ones are matched as written).
+  // Kept quiet (review 09.10.2026): cs "se" is not listed (mostly the reflexive pronoun: "hlásí se nový terč"); words that do not
+  // change (INDECL: uk -і/-ї/-ю «журі», «батю»; cs -í «předvedení»; pl -um/-i/-u; lt -i/-u «žiuri» and the plural/genitive -os/-ės/-ų)
+  // and lt -a after "su"/"po" (the instrumental of «atrama» is «atrama») are never reported; lt looks at the last word of a phrase
+  // (its head noun: «šaudymo riba»), the others at the first one.
+  const PREP_ANY = {
+    uk: "в у з із зі до від на по при про для без під над за через після перед між біля серед щодо крім замість протягом завдяки навколо поза",
+    pl: "w we z ze do od na po przy o dla bez pod nad za przez przed między u ku obok podczas według wśród oprócz zamiast dzięki wobec koło około spod znad zza",
+    cs: "v ve z ze do od na po při o pro bez pod nad za přes před mezi u k ke s během podle kromě místo vedle kolem okolo díky proti vůči mimo pomocí",
+    lt: "į iš su be prie per po už ant nuo iki pas apie dėl tarp prieš link pagal virš šalia ties palei anot pro" };
+  const PREP_OBL = {
+    uk: "з із зі до від при для без після біля серед щодо крім замість протягом завдяки навколо між над перед|під час|за допомогою|у разі|в разі|з боку",
+    pl: "do od dla bez u przy ku obok podczas według wśród oprócz zamiast dzięki wobec koło około spod znad zza z ze między nad przed|w trakcie|w czasie|za pomocą|z powodu|w przypadku",
+    cs: "do od při bez u k ke s z ze během podle kromě místo vedle kolem okolo díky proti vůči mezi nad před pomocí|v průběhu|v případě",
+    lt: PREP_ANY.lt };
+  const prepSets = Object.fromEntries(Object.keys(PREP_ANY).map(L => [L, { any: new Set(PREP_ANY[L].split(" ")), obl: PREP_OBL[L].split("|").map((x, i) => i ? [x] : x.split(" ")).flat() }]));
+  const flatW = x => String(x || "").toLowerCase().normalize("NFC").replace(/[«»„“”"']/g, "").replace(/\s+/g, " ").trim();
+  // (uk -ння / -ття: verbal nouns «протягування», «прицілювання», «відкриття» keep -ння in the accusative and look the same after
+  // «на / в / за»; the oblique cases are -нню / -нням, so a form in -ння after such a preposition is not a sure finding)
+  const INDECL = { uk: /(?:[іїю]|ння|ття)$/u, cs: /í$/u, pl: /(?:um|i|u)$/u, lt: /(?:i|u|os|ės|ų)$/u };
+  function grammarCheck(R, L, id, form, shown, before) {
+    const PS = prepSets[L]; if (!PS || !R.m) return;
+    const tail = flatW(String(before).replace(TOKEN_RE, " x ")).replace(/[^\p{L}\s]+$/u, "").split(" ").slice(-2); // the last two words
+    const w1 = tail[tail.length - 1] || "", w2 = tail.join(" ");
+    const isAny = PS.any.has(w1) || PS.obl.includes(w2), isObl = PS.obl.includes(w1) || PS.obl.includes(w2);
+    if (!isAny) return;
+    const t = GBY[termId(id) || id], raw = t ? CT.termLocal(t, ((GI[L] || {}).terms || {})[t.id], L) : "";
+    const prep = PS.obl.includes(w2) ? w2 : w1, where = R.where || "text";
+    // the dictionary form changes after this preposition: always after PREP_OBL; after the others (accusative) only for nouns in -а/-я
+    // (uk, pl, cs: the accusative of other nouns often equals the nominative). Indeclinable uk loans in -і/-ї/-ю (міді, батю) never.
+    const ws = flatW(raw || shown).split(" "), w0 = L === "lt" ? ws[ws.length - 1] : ws[0];
+    const changes = (isObl || /[аяa]$/u.test(w0)) && !(INDECL[L] && INDECL[L].test(w0)) && !(L === "lt" && /^(?:su|po)$/.test(prep) && /a$/u.test(w0));
+    let why = null;
+    if (!changes) return;
+    if (!form) why = `no form: the brackets show the dictionary form «${shown}»`;
+    else if (raw && flatW(form) === flatW(raw)) why = `the form «${form}» is the dictionary form`;
+    if (why) warnOnce(`tg:${R.m.id}:${L}:${where}:${id}`, "term-grammar", `${R.m.id} ${where} (${L}): «${prep} {{term:${id}${form ? "|" + form : ""}}}» — after "${prep}" ${why}; write the case form in the token ({{term:${id}|…}})`,
+      { lesson: R.m.id, lang: L, item: where, term: id, file: L === "uk" ? `content/academy/lessons/${R.m.id}.json` : `content/academy/i18n/${L}/${R.m.id}.json` });
+  }
+  // Warning "term-verb" (heuristic, review 09.10.2026): the token stands where the sentence needs a VERB, so the page prints an English
+  // noun in a verb slot ("Le jury peut expulsion (exclure)…", "Não gun mount (monte) a arma", "Saat practice (harjoitella)…",
+  // "elkezdhetsz flinch (rándulni)", "Gun mount (Schlagen) Sie die Flinte nicht an", fi "head lift (nostaako pää)"). Signs: a modal
+  // verb or a negation right before the token, de "Sie" right after it, a hu infinitive (-ni) or a fi question word (-ko/-kö after a
+  // vowel) as the form. Listed per language, item and term (once); check by eye and rephrase so the token stands on a noun.
+  // (kept narrow after a test run 09.10.2026: words that also take a noun are left out — de/cs modals (free word order: "müssen
+  // Läufe", "může rozhodčí"), fi "saa" (gets: "saa keltaisen kortin"), "pitää", "ei"; hu "kell", "lehet", "nem"; lt "reikia",
+  // "turi"; pl "nie")
+  const VERB_BEFORE = {
+    fr: "peut peuvent pouvez pouvons doit doivent devez devons faut ne n' va vont", it: "può possono potete possiamo puoi deve devono dovete devi non",
+    pt: "pode podem podes deve devem deves não", fi: "voi voivat voit täytyy älä", hu: "tud tudsz tudnak fog fogsz ne",
+    pl: "może mogą musi muszą można należy trzeba", cs: "", lt: "gali galite galima", uk: "може можуть мусить треба слід варто можна" };
+  const verbBefore = Object.fromEntries(Object.entries(VERB_BEFORE).map(([L, x]) => [L, new Set(x.split(" ").filter(Boolean))]));
+  function verbCheck(R, L, id, form, s, at) {
+    if (L === "en" || !R.m || !(L in VERB_BEFORE || L === "de")) return;
+    const before = String(s.slice(0, at)).replace(TOKEN_RE, " x ").toLowerCase().replace(/[^\p{L}'’\s]+$/u, "").trim().split(/\s+/).pop() || "";
+    const after = String(s.slice(at)).replace(/^\{\{[^{}]*\}\}/, "").trimStart();
+    const f = String(form || "").toLowerCase().trim(), f1 = f.split(/\s+/)[0] || "";
+    let why = null;
+    if (verbBefore[L] && (verbBefore[L].has(before) || verbBefore[L].has(before.replace(/[’']$/, "'")))) why = `after «${before}» the sentence needs a verb`;
+    else if (L === "de" && /^Sie\b/.test(after) && CT.atStart(String(s.slice(0, at)).replace(TOKEN_RE, "x"))) why = `the sentence starts with it and «Sie» follows: an imperative verb`;
+    else if (L === "hu" && f1.length >= 5 && /ni$/u.test(f1)) why = `the form «${form}» is an infinitive`;
+    else if (L === "fi" && (/(?:aa|ee|ii|oo|uu|yy|ää|öö)(?:ko|kö)$/u.test(f1) || /^(?:onko|eikö|voiko|saako)$/u.test(f1))) why = `the form «${form}» is a question`;
+    if (why) warnOnce(`tv:${R.m.id}:${L}:${R.where || ""}:${id}`, "term-verb", `${R.m.id} ${R.where || "text"} (${L}): {{term:${id}${form ? "|" + form : ""}}} — ${why}, but the page prints the English noun there; rephrase so the token stands on a noun`,
+      { lesson: R.m.id, lang: L, item: R.where || "text", term: id, file: L === "uk" ? `content/academy/lessons/${R.m.id}.json` : `content/academy/i18n/${L}/${R.m.id}.json`, text: `${before} {{term:${id}${form ? "|" + form : ""}}} ${after.slice(0, 30)}` });
+  }
+  // token → HTML (or plain text with R.plain): see SCHEMA.md §6. P = where the token stands: {s: the whole text, at: its index,
+  // occ: tokens of each term id seen so far in s, ts: the term scope (docs/shared/terms.js scope(): the first mention on the page)}.
+  function token(kind, arg, R, P) {
     const L = R.L;
     if (kind === "tm") { const full = arg === "sporting" && !R.plain && !R.tmSeen.has("sporting"); if (!R.plain) R.tmSeen.add(arg); /* full name once per page, then short */ const n = arg === "sporting" ? (full ? DISC_NAME.sporting : DISC_SHORT.sporting) : arg === "compak" ? DISC_NAME.compak : arg; return R.plain ? n : esc(n); }
-    if (kind === "term") { const [id0, form] = arg.split("|"); const id = anyTermId(id0) || id0; const label = form || localTerm(L, id), u = glossUrl(L, id); return R.plain ? label : u ? `<a class="term" href="${esc(u)}">${esc(label)}</a>` : esc(label); }
+    if (kind === "term") { // step 2 of the term rule: "<English> (<local form>)" at the first mention on the page, then "<English>"
+      const [id0, form, flag] = arg.split("|"); const id = anyTermId(id0) || id0, u = glossUrl(L, id);
+      const n = P ? (P.occ[id] = (P.occ[id] || 0) + 1) - 1 : 0;                       // the n-th token of this id in this text
+      // a quoted English word («Protest!», „Smoked it!“): as written inside the quotes; at the first mention its local word goes after
+      // the closing quote (P.defer, put in by inline() / plain()): „behind“ (za terčem). An own bracket of the author right after the
+      // quote („Smoked it!“ (oder „inked it“…)) explains it already: then no brackets, and the next mention is the first one.
+      const tg = GBY[id], afterTok = P ? P.s.slice(P.at).replace(/^\{\{[^{}]*\}\}/, "") : "";
+      const quoted = !!P && L !== "en" && CT.quoted(P.s.slice(0, P.at), afterTok)
+        && CT.englishForm(form, tg ? [tg.display_term, tg.term].filter(Boolean) : [], tg ? tg.aka || [] : []);
+      const ownBracket = quoted && /^[!?.…]*\s*[»“”"’›‘]\s*\(/.test(afterTok);
+      const first = !ownBracket && (!P || P.ts.first(id, `${R.where || ""}|${n}|${P.s}`));  // the same item again (HTML, then plain text) → same answer
+      const start = !P || CT.atStart(P.s.slice(0, P.at).replace(TOKEN_RE, "x"));
+      const r = termMention(L, id, form, first, start, flag, quoted);
+      if (quoted && P && r.after) P.defer = R.plain ? r.after : r.afterHtml;           // " (local)" behind the closing quote
+      if (r.first && P) grammarCheck(R, L, id, form, r.local, P.s.slice(0, P.at));      // warning "term-grammar"
+      if (P && !R.plain) verbCheck(R, L, id, form, P.s, P.at);                          // warning "term-verb"
+      return R.plain ? r.text : u ? `<a class="term" href="${esc(u)}">${r.html}</a>` : r.html; }
     if (kind === "rule") { const i = arg.indexOf(":"), book = arg.slice(0, i), id = arg.slice(i + 1), label = ruleLabel(L, book, id); return R.plain ? label : `<a class="rule" href="${esc(U.rule(L, book, id))}">${esc(label)}</a>`; }
     if (kind === "lesson") {
       const t = lessonTitle(L, arg);
@@ -782,11 +1088,46 @@ export async function buildAcademy(o = {}) {
       const en = lessonTitle("en", arg) || arg; warnOnce(`lessontok:${R.m && R.m.id}:${L}:${arg}`, "lesson-link-other-lang", `${R.m ? R.m.id : ""} (${L}): {{lesson:${arg}}} has no version in ${L} yet; the English title is shown`, { lesson: R.m && R.m.id, lang: L });
       return R.plain ? en : `<span lang="en">${esc(en)}</span>`;
     }
-    if (kind === "fact") { const t = factText(arg, L); if (t != null) return R.plain ? t : esc(t); const en = factText(arg, "en") || ""; warnOnce(`facttok:${L}:${arg}`, "fact-untranslated", `fact "${arg}" has no ${L} text yet`, { lang: L }); return R.plain ? en : `<span lang="en">${esc(en)}</span>`; }
+    if (kind === "fact") { const t = factText(arg, L);
+      // a fact text may hold tokens ({{term:shoot-off|перестрілка}}: review 09.10.2026): rendered in the scope of the text around it
+      if (t != null) { if ((R.factDepth || 0) > 1) return R.plain ? t.replace(TOKEN_RE, (_, k, a) => a.split("|")[1] || a) : esc(t);
+        const Rf = { ...R, plain: false, ts: P ? P.ts : R.ts, factDepth: (R.factDepth || 0) + 1, where: `${R.where || ""} fact ${arg}` };
+        return R.plain ? plain(t, Rf) : inline(t, Rf); }
+      const en = factText(arg, "en") || ""; warnOnce(`facttok:${L}:${arg}`, "fact-untranslated", `fact "${arg}" has no ${L} text yet`, { lang: L }); return R.plain ? en : `<span lang="en">${esc(en)}</span>`; }
     return R.plain ? "" : "";
   }
-  function inline(text, R) { const s = String(text ?? ""); let out = "", last = 0; for (const t of s.matchAll(TOKEN_RE)) { out += esc(s.slice(last, t.index)) + token(t[1], t[2], R); last = t.index + t[0].length; } return out + esc(s.slice(last)); }
-  function plain(text, R) { const s = String(text ?? ""); const Rp = { ...R, plain: true }; return s.replace(TOKEN_RE, (_, k, a) => token(k, a, Rp)); }
+  // inline(): text → HTML, plain(): text → plain text. R.ts = the term scope of the page part the text belongs to (see view());
+  // without one the text counts on its own (a title, a summary, a lesson title in a link).
+  // Italian article before {{tm:sporting}} (review 09.10.2026): the token prints "Parcours de Chasse – Sporting™" the first time and
+  // "Sporting™" later, so an author cannot know which article fits. The article right before it is set here: "lo / dello / nello /
+  // allo / dallo / sullo / uno Sporting™" (s + consonant) and "il / del / nel / al / dal / sul / un Parcours…"; a capital stays.
+  const IT_ART = { nel: "nello", del: "dello", al: "allo", dal: "dallo", sul: "sullo", il: "lo", un: "uno" };
+  const IT_ART_BACK = Object.fromEntries(Object.entries(IT_ART).map(([a, b]) => [b, a]));
+  const itArticle = (prev, name) => prev.replace(/(^|[^\p{L}])(nel|nello|del|dello|al|allo|dal|dallo|sul|sullo|il|lo|un|uno)(\s+)$/iu, (m0, pre, art, sp) => {
+    const lo = art.toLowerCase(), want = /^Sporting/.test(name) ? (IT_ART[lo] || lo) : (IT_ART_BACK[lo] || lo);
+    return pre + (art[0] === art[0].toUpperCase() ? want[0].toUpperCase() + want.slice(1) : want) + sp; });
+  // The same for the Czech and Polish prepositions before {{tm:…}} (review 09.10.2026: cs "Ve Compak® Sporting", pl "nie ze
+  // Parcours…"): the vowel form before "Sporting™" (s + consonant: cs "ve / ze / se / ke", pl "ze"), the short form before
+  // "Parcours…" and "Compak® Sporting" (cs "v / z / s / k", pl "z"; pl "w" stays "w").
+  const PREP_VOWEL = { cs: { v: "ve", z: "ze", s: "se", k: "ke" }, pl: { z: "ze" } };
+  const prepFix = (L, prev, name) => { const V = PREP_VOWEL[L]; if (!V) return prev;
+    const BACK = Object.fromEntries(Object.entries(V).map(([a, b]) => [b, a]));
+    return prev.replace(/(^|[^\p{L}])(\p{L}{1,2})(\s+)$/u, (m0, pre, w, sp) => { const lo = w.toLowerCase();
+      if (!(lo in V) && !(lo in BACK)) return m0;
+      const want = /^Sporting/.test(name) ? (V[lo] || lo) : (BACK[lo] || lo);
+      return pre + (w[0] === w[0].toUpperCase() ? want[0].toUpperCase() + want.slice(1) : want) + sp; }); };
+  const fixBefore = (L, kind, arg, prev, x) => kind !== "tm" ? prev : L === "it" ? (arg === "sporting" ? itArticle(prev, x) : prev) : prepFix(L, prev, x);
+  // seg(): the text between two tokens; a pending P.defer (the local word of a quoted English term) goes right after the closing quote
+  const seg = (P, x, e) => { if (!P.defer) return e(x); const d = P.defer, m = /^[!?.…]*\s*[»“”"’›‘]/.exec(x); P.defer = null;
+    return m ? e(m[0]) + d + e(x.slice(m[0].length)) : d + e(x); };
+  function inline(text, R) { const s = String(text ?? ""), P = { s, occ: {}, ts: R.ts || CT.scope() }; let out = "", last = 0;
+    for (const t of s.matchAll(TOKEN_RE)) { P.at = t.index; out += seg(P, s.slice(last, t.index), esc); const x = token(t[1], t[2], R, P);
+      out = fixBefore(R.L, t[1], t[2], out, x);
+      out += x; last = t.index + t[0].length; } return out + seg(P, s.slice(last), esc); }
+  function plain(text, R) { const s = String(text ?? ""), Rp = { ...R, plain: true }, P = { s, occ: {}, ts: R.ts || CT.scope() }; let out = "", last = 0;
+    for (const t of s.matchAll(TOKEN_RE)) { P.at = t.index; out += seg(P, s.slice(last, t.index), x => x); const x = token(t[1], t[2], Rp, P);
+      out = fixBefore(R.L, t[1], t[2], out, x);
+      out += x; last = t.index + t[0].length; } return out + seg(P, s.slice(last), x => x); }
   const evBadge = (L, level) => `<span class="st-ev st-ev-${level}" title="${esc(S(L, "evidence"))}">${esc(S(L, "ev_" + level))}</span>`;
   const evAfter = (m, k, L) => (m.evidence || []).filter(e => e.for === k && EV_LEVELS.includes(e.level)).map(e => `<p class="st-ev-line">${evBadge(L, e.level)}</p>`).join("");
   const discBadges = m => (m.disciplines || []).map(d => `<span class="st-badge st-b-disc">${esc(DISC_SHORT[d])}</span>`).join("");
@@ -809,7 +1150,7 @@ export async function buildAcademy(o = {}) {
   function blockInner(b, v, R) {
     switch (b.t) {
       case "steps": return (Array.isArray(v) ? v : [v]).map(s => inline(s, R));
-      case "compare": return { sporting: inline(v.sporting, R), compak: inline(v.compak, R) };
+      case "compare": return { sporting: inline(v.sporting, R.ds ? { ...R, ts: R.ds.sporting } : R), compak: inline(v.compak, R.ds ? { ...R, ts: R.ds.compak } : R) }; // a column = its discipline (term scopes, view())
       case "figure": return `<img src="${esc(b.src)}" alt="${esc(plain(v, R))}" loading="lazy" decoding="async"${b.width ? ` width="${+b.width}" height="${+b.height}"` : ""}><figcaption>${inline(v, R)} · © ${esc(b.author)} · ${esc(b.license)}</figcaption>`;
       default: return inline(v, R);
     }
@@ -867,8 +1208,19 @@ export async function buildAcademy(o = {}) {
   const views = new Map();
   function view(m, L) {
     const key = m.id + "|" + L; if (views.has(key)) return views.get(key);
-    const R = { L, m, tmSeen: new Set() }, A = avail.get(m.id)[L];
-    const V = { L, title: plain(A.title, R), body: [], notes: [], phrases: [], kps: [], dyk: null, quiz: [], more: 0, hasSim: false, anchors: new Set(), quizHidden: false };
+    // TERM SCOPES (owner rule 08.10.2026, step 2; docs/shared/terms.js scope()): the first mention of a term on the lesson page is
+    // "<English> (<local form>)", later ones "<English>". Reading order = the order of the page and of the app: body (the animation
+    // right after the first paragraph) → key points → did you know → Stand Talk phrases → notes. Parts that count ON THEIR OWN (they
+    // are also shown elsewhere, or above the text on a phone): the title, the summary / meta description, the caption of the
+    // animation, a key point marked "checklist" (printed in the route checklist), the phrases in phrases.json (Practice), every quiz
+    // and exam question (quizItem). A body block of ONE discipline ("disc": sporting | compak, and each column of a compare block)
+    // is folded for readers of the other discipline ("Моя дисципліна"): it sees what the common text explained before it, but its own
+    // mentions do not count for the common text (R.ds, child scopes). R.where names the item for the warnings.
+    const R = { L, m, tmSeen: new Set(), ts: CT.scope() }, A = avail.get(m.id)[L];
+    R.ds = { sporting: CT.scope(R.ts), compak: CT.scope(R.ts) };
+    const own = where => ({ ...R, ts: CT.scope(), where });
+    const at = (where, d) => ({ ...R, ts: d === "sporting" || d === "compak" ? R.ds[d] : R.ts, where });
+    const V = { L, title: plain(A.title, own("title")), body: [], notes: [], phrases: [], kps: [], dyk: null, quiz: [], more: 0, hasSim: false, anchors: new Set(), quizHidden: false };
     const vis = x => { // visible text of item x, or null (counted in "more in English")
       const r = valOf(m, x, L);
       if (r.st === "missing") { if (L !== "en") V.more++; return null; }
@@ -882,43 +1234,78 @@ export async function buildAcademy(o = {}) {
     const sum = valOf(m, { part: "summary", k: "summary", it: m.summary }, L);
     for (const b of heroOrder(m)) { // display order: the animation right after the first paragraph
       if (b.t === "draft" && !opt.draft) continue;
-      if (b.t === "sim") { if (simShown(b)) { const h = heroOf(m, b, L, R); V.hasSim = true; push(b, h.cap, h.html, { hero: h }); } continue; }
+      if (b.t === "sim") { if (simShown(b)) { const h = heroOf(m, b, L, own(`body ${b.k}`)); V.hasSim = true; push(b, h.cap, h.html, { hero: h }); } continue; }
       if (b.t === "law") { if (L === "en" || L === "uk") { const h = lawHtml(b, L); push(b, h, h); } else V.more++; continue; }
       if (b.t === "evidence") { push(b, "", `<p class="st-ev-line">${evBadge(L, b.level)}</p>`); continue; }
-      if (b.t === "fact") { const t = factText(b.fact, L); if (t == null) { V.more++; continue; } const h = inline(t, R); push(b, h, `<div class="st-fact"${b.anchor ? ` id="${esc(b.anchor)}"` : ""}><p>${h}</p></div>`); continue; }
+      if (b.t === "fact") { const t = factText(b.fact, L); if (t == null) { V.more++; continue; } const h = inline(t, at(`body ${b.k}`, b.disc)); push(b, h, `<div class="st-fact"${b.anchor ? ` id="${esc(b.anchor)}"` : ""}><p>${h}</p></div>`); continue; }
       if (b.t === "draft" && !nonEmpty(b.en)) { // animation or law table of an absorbed lesson (preview only)
         const inner = b.sim ? `<code>${esc(JSON.stringify(b.sim))}</code>` : b.country && (L === "en" || L === "uk") ? lawHtml(b, L) : "";
         push(b, inner, `<div class="st-draft"><div class="st-draft-h">Draft · ${esc(b.role || "")} · ${esc(b.from || "")}</div>${inner}</div>`); continue;
       }
       const t = vis({ part: "body", k: b.k, it: b }); if (!t) continue;
-      const inner = blockInner(b, t.v, R);
+      const inner = blockInner(b, t.v, at(`body ${b.k}`, b.disc));
       push(b, inner, blockStatic(b, inner, R, t) + evAfter(m, b.k, L), t);
     }
-    for (const x of m.note || []) { if (x.draft && !opt.draft) continue; const t = vis({ part: "note", k: x.k, it: x }); if (t) V.notes.push({ x, html: inline(t.v, R), lang: t.lang }); }
-    for (const x of m.phrases || []) { if (x.draft && !opt.draft) continue; const t = vis({ part: "phrase", k: x.k, it: x });
-      if (t) V.phrases.push({ x, meaning: inline(t.v.meaning, R), say: t.v.say ? inline(t.v.say, R) : null, meaningText: plain(t.v.meaning, R), sayText: t.v.say ? plain(t.v.say, R) : null, lang: t.lang }); }
-    for (const x of m.key_points || []) { if (x.draft && !opt.draft) continue; const t = vis({ part: "kp", k: x.k, it: x }); if (t) V.kps.push({ x, html: inline(t.v, R), lang: t.lang }); }
-    if (m.did_you_know && (!m.did_you_know.draft || opt.draft)) { const t = vis({ part: "dyk", k: m.did_you_know.k, it: m.did_you_know }); if (t) V.dyk = { k: m.did_you_know.k, html: inline(t.v, R), lang: t.lang }; }
+    // then in reading order: key points, did you know, phrases, notes (see TERM SCOPES above)
+    for (const x of m.key_points || []) { if (x.draft && !opt.draft) continue; const t = vis({ part: "kp", k: x.k, it: x }); if (t) V.kps.push({ x, html: inline(t.v, x.checklist ? own(`key_points ${x.k}`) : at(`key_points ${x.k}`)), lang: t.lang }); }
+    if (m.did_you_know && (!m.did_you_know.draft || opt.draft)) { const t = vis({ part: "dyk", k: m.did_you_know.k, it: m.did_you_know }); if (t) V.dyk = { k: m.did_you_know.k, html: inline(t.v, at("did_you_know")), lang: t.lang }; }
+    for (const x of m.phrases || []) { if (x.draft && !opt.draft) continue; const t = vis({ part: "phrase", k: x.k, it: x }); if (!t) continue;
+      const Rx = at(`phrases ${x.k}`), Ro = own(`phrases ${x.k}`); // Ro: the phrase on its own, for phrases.json (Practice: phrasebook, translate the coach)
+      V.phrases.push({ x, meaning: inline(t.v.meaning, Rx), say: t.v.say ? inline(t.v.say, Rx) : null, meaningText: plain(t.v.meaning, Rx), sayText: t.v.say ? plain(t.v.say, Rx) : null,
+        meaningOwn: plain(t.v.meaning, Ro), sayOwn: t.v.say ? plain(t.v.say, Ro) : null, lang: t.lang }); }
+    for (const x of m.note || []) { if (x.draft && !opt.draft) continue; const t = vis({ part: "note", k: x.k, it: x }); if (t) V.notes.push({ x, html: inline(t.v, at(`note ${x.k}`)), lang: t.lang }); }
     const qs = (m.quiz || []).map(q => ({ q, r: valOf(m, { part: "quiz", k: q.k, it: q }, L) }));
     if (qs.length && qs.every(({ r }) => r.st === "ok" || (r.st === "stale" && !m.critical))) V.quiz = qs.map(({ q, r }) => ({ q, v: r.v }));
     else V.quizHidden = qs.length > 0;
     const firstP = V.body.find(x => x.text && typeof x.text === "string");
     // Stale summary of a critical lesson (safety, rules, anti-doping): use the English summary for meta description/OG/Twitter/
     // JSON-LD, same rule as critical body paragraphs above (vis()) — never show an outdated critical summary in the old language.
-    V.desc = sum.st === "ok" ? plain(sum.v, R)
-      : sum.st === "stale" ? plain((m.critical ? valOf(m, { part: "summary", k: "summary", it: m.summary }, "en") : sum).v, R)
-      : firstP ? plain(firstP.text, R) : `${V.title} — ${academyName(L)}`;
+    V.desc = sum.st === "ok" ? plain(sum.v, own("summary"))
+      : sum.st === "stale" ? plain((m.critical ? valOf(m, { part: "summary", k: "summary", it: m.summary }, "en") : sum).v, own("summary"))
+      : firstP ? plain(firstP.text, own("summary")) : `${V.title} — ${academyName(L)}`;
     if (sum.st !== "ok" && sum.st !== "stale") warnOnce(`sum:${m.id}:${L}`, "summary-missing", `${m.id} (${L}): no summary; the meta description uses the first paragraph`, { lesson: m.id, lang: L });
     if (V.desc.length > 300) V.desc = V.desc.slice(0, 297).replace(/\s+\S*$/, "") + "…";
     // term chips: label = "English (local)" (docs/shared/terms.js); local = "" when the local word is the English one
     V.terms = uniq((m.terms || []).map(anyTermId).filter(Boolean)).map(id => { const n = termNames(L, id); return { id, en: n.en, local: n.local, label: n.label, url: glossUrl(L, id) }; });
-    // quiz options that name a term show its label (English master text + the local word); others their text
-    V.opt = (op, v, R, html) => op.term ? (html ? termHtml(L, op.term, op.en) : termNames(L, op.term, op.en).label) : html ? inline(v.options[op.k], R) : plain(v.options[op.k], R);
     V.refs = uniq((m.rule_refs || []).map(r => r.book + ":" + r.id)).map(s => { const i = s.indexOf(":"), book = s.slice(0, i), id = s.slice(i + 1); return { book, id, label: ruleLabel(L, book, id), url: U.rule(L, book, id) }; }).filter(r => RULES[r.book] && RULES[r.book].has(r.id));
     V.sources = (m.sources || []).filter(s => s.url).map(s => { const t = isObj(s.title) ? (s.title[L] || s.title.en) : s.title; return { title: t || s.url, lang: isObj(s.title) && !s.title[L] ? "en" : null, url: s.url, fitasc: isFitasc(s.url), checked: s.checked || null, license: s.license || null }; });
     V.R = R;
     views.set(key, V);
     return V;
+  }
+  /* quizItem(V, q, v): one quiz or exam question of view V, v = its texts in V.L → {q, options: [{k, html, text}], explain} with
+     q/explain = {html, text}. Term rule step 2: every question counts ON ITS OWN — the question first; then the options; the
+     explanation last. A token in a free-text option is always a LATER mention ("round", never "round (Runden)"; review 09.10.2026:
+     an option with brackets next to options without them gave the answer away), so it explains nothing: the explanation explains
+     it ("round (Runde)") unless the question did. Options with "term" show the term label (docs/shared/terms.js of(): the English
+     option text + the local word, step 1) and count as a mention for the explanation. Computed once per question and language: the
+     static page (HTML) and the lesson and exam JSON (plain text) show the same. The warning "term-quiz-giveaway" (termTextChecks())
+     still reports options whose tokens single out the right answer (an English word only there, or everywhere but there). */
+  const SEEN = { parent: null, has: () => true, first: () => false, mark() {}, ids: () => [] }; // a scope that has explained everything
+  function quizItem(V, q, v) {
+    const memo = V.qmemo || (V.qmemo = new Map()); if (memo.has(q.k)) return memo.get(q.k);
+    const L = V.L, S0 = CT.scope(), Rq = { ...V.R, ts: S0, where: `quiz ${q.k}` }, after = [];
+    const both = (text, Rx) => ({ html: inline(text, Rx), text: plain(text, Rx) });
+    const Q = { q: both(v.q, Rq) };
+    // A question that MIXES options with "term" and free-text options (30 in the masters, e.g. referee-calls-q1: "No Bird" among
+    // sentences): the label "No Bird (nový terč)" would be the only option with brackets and give the answer away (lead decision
+    // 09.10.2026: all options of a question alike, or none). There the term options show their own text of the language, like the
+    // others (as a later mention), and the explanation explains the term; labels "English (local)" only when EVERY option has "term".
+    // A question whose options ALL carry "term" shows the labels — with brackets only when EVERY label has a local word to show:
+    // "Battue · Midi · Rabbit (заєць)" would single out the one with brackets, so then all of them are "English" only (as a later
+    // mention: the explanation explains them).
+    const mixed = (q.options || []).some(op => !op.term);
+    const names = mixed ? null : (q.options || []).map(op => termNames(L, op.term, op.en));
+    const enOnly = !!names && L !== "en" && names.some(n => n.local) && names.some(n => !n.local);
+    Q.options = (q.options || []).map((op, i) => {
+      const own = (v.options || {})[op.k];
+      if (op.term && enOnly) return { k: op.k, html: CT.html(names[i].en, "", L, esc), text: CT.label(names[i].en, "", L) };
+      if (op.term && !(mixed && own != null && String(own).trim())) { const tid = termId(op.term); if (tid) after.push(tid); return { k: op.k, html: termHtml(L, op.term, op.en), text: termNames(L, op.term, op.en).label }; }
+      const r = both(own, { ...Rq, ts: SEEN, where: `quiz ${q.k} option ${op.k}` }); return { k: op.k, ...r };
+    });
+    for (const id of after) S0.mark(id);
+    Q.explain = both(v.explain, Rq);
+    memo.set(q.k, Q); return Q;
   }
 
   /* ---------- page shell: the page contract of docs/learn/app/academy.js ----------
@@ -1056,7 +1443,7 @@ ${pg.body}
     const notesBy = {}; for (const n of V.notes) (notesBy[n.x.for || "interpreter"] ||= []).push(n);
     const noteLabel = f => S(L, f === "interpreter" ? "for_interpreter" : `for_${f}`);
     const qref = q => { if (!q.rule_ref) return ""; const i = q.rule_ref.indexOf(":"), bk = q.rule_ref.slice(0, i), rid = q.rule_ref.slice(i + 1); return `<p class="st-ref"><a href="${esc(U.rule(L, bk, rid))}">${esc(ruleLabel(L, bk, rid))}</a></p>`; };
-    const quiz = V.quiz.length ? `<details class="st-quiz"><summary>${esc(S(L, "quiz"))} · ${plural(L, "n_questions", V.quiz.length, "question")}</summary><ol>${V.quiz.map(({ q, v }) => `<li class="st-q" data-k="${esc(q.k)}"><p>${inline(v.q, R)}</p><ol class="st-opts">${(q.options || []).map(op => `<li>${V.opt(op, v, R, true)}</li>`).join("")}</ol><details><summary>${esc(S(L, "answer"))}</summary><p><b>${V.opt((q.options || []).find(op => op.k === q.correct) || { k: q.correct }, v, R, true)}</b></p><p>${inline(v.explain, R)}</p>${qref(q)}</details></li>`).join("")}</ol></details>` : "";
+    const quiz = V.quiz.length ? `<details class="st-quiz"><summary>${esc(S(L, "quiz"))} · ${plural(L, "n_questions", V.quiz.length, "question")}</summary><ol>${V.quiz.map(({ q, v }) => { const Q = quizItem(V, q, v), right = Q.options.find(o => o.k === q.correct); return `<li class="st-q" data-k="${esc(q.k)}"><p>${Q.q.html}</p><ol class="st-opts">${Q.options.map(o => `<li>${o.html}</li>`).join("")}</ol><details><summary>${esc(S(L, "answer"))}</summary><p><b>${right ? right.html : esc(q.correct)}</b></p><p>${Q.explain.html}</p>${qref(q)}</details></li>`; }).join("")}</ol></details>` : "";
     const brief = opt.draft && m.brief && m.brief.points && (m.brief.points[L] || m.brief.points.en) ? `<div class="st-draft"><div class="st-draft-h">${esc(S(L, "brief"))} · ${esc(m.plan || "")}</div><ul>${(m.brief.points[L] || m.brief.points.en).map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>` : "";
     const hasLaw = (m.body || []).some(x => x.t === "law");
     const body = `<article class="st-body" id="lesson">
@@ -1260,7 +1647,7 @@ ${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">
         phrases: V.phrases.map(p => ({ k: p.x.k, speaker: p.x.speaker || null, en: p.x.en, meaning: p.meaningText, say: L === "en" ? null : p.sayText })),
         key_points: V.kps.map(k => ({ k: k.x.k, html: k.html, checklist: !!k.x.checklist })),
         did_you_know: V.dyk ? { k: V.dyk.k, html: V.dyk.html } : null,
-        quiz: V.quiz.map(({ q, v }) => ({ k: q.k, q: plain(v.q, R), options: (q.options || []).map(op => ({ k: op.k, text: V.opt(op, v, R) })), correct: q.correct, explain: plain(v.explain, R), ...(q.rule_ref ? { rule_ref: q.rule_ref } : {}), ...(q.disc ? { disc: q.disc } : {}) })),
+        quiz: V.quiz.map(({ q, v }) => { const Q = quizItem(V, q, v); return { k: q.k, q: Q.q.text, options: Q.options.map(o => ({ k: o.k, text: o.text })), correct: q.correct, explain: Q.explain.text, ...(q.rule_ref ? { rule_ref: q.rule_ref } : {}), ...(q.disc ? { disc: q.disc } : {}) }; }),
         terms: V.terms, rule_refs: V.refs, sources: V.sources.map(s => ({ title: s.title, url: s.url, fitasc: s.fitasc })),
         evidence: (m.evidence || []).map(e => ({ for: e.for, level: e.level })), more_in_en: V.more });
     }
@@ -1269,15 +1656,16 @@ ${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">
     const phr = [];
     for (const b of blocks) for (const id of blockLessons(b)) {
       if (!lessonBuilt(id, L)) continue;
-      for (const p of view(lessons.get(id), L).phrases) phr.push({ k: p.x.k, lesson: id, block: b.id, speaker: p.x.speaker || null, en: p.x.en, meaning: p.meaningText, say: L === "en" ? null : p.sayText, ...(p.lang ? { lang: p.lang } : {}) });
+      for (const p of view(lessons.get(id), L).phrases) phr.push({ k: p.x.k, lesson: id, block: b.id, speaker: p.x.speaker || null, en: p.x.en, meaning: p.meaningOwn, say: L === "en" ? null : p.sayOwn, ...(p.lang ? { lang: p.lang } : {}) }); // each phrase on its own (term rule step 2)
     }
     json(`learn/data/${L}/phrases.json`, { lang: L, rev: sha8(JSON.stringify(phr)), phrases: phr });
     for (const r of routes) {
       if (!built.exam[r.id][L]) continue;
       const ex = (r.certificate || {}).exam || (r.badge_only || {}).quiz, qs = [];
-      for (const id of routeLessons(r)) { if (!lessonBuilt(id, L)) continue; const m = lessons.get(id), Vm = view(m, L), R = Vm.R;
+      for (const id of routeLessons(r)) { if (!lessonBuilt(id, L)) continue; const m = lessons.get(id), Vm = view(m, L);
         for (const [list, part] of [[m.quiz || [], "quiz"], [m.exam_pool || [], "pool"]]) for (const q of list) { const v = valOf(m, { part, k: q.k, it: q }, L); if (v.st !== "ok") continue;
-          qs.push({ lesson: id, k: q.k, q: plain(v.v.q, R), options: (q.options || []).map(op => ({ k: op.k, text: Vm.opt(op, v.v, R) })), correct: q.correct, explain: plain(v.v.explain, R), ...(q.rule_ref ? { rule_ref: q.rule_ref } : {}), ...(q.disc ? { disc: q.disc } : {}) }); } }
+          const Q = quizItem(Vm, q, v.v); // every exam question on its own (term rule step 2)
+          qs.push({ lesson: id, k: q.k, q: Q.q.text, options: Q.options.map(o => ({ k: o.k, text: o.text })), correct: q.correct, explain: Q.explain.text, ...(q.rule_ref ? { rule_ref: q.rule_ref } : {}), ...(q.disc ? { disc: q.disc } : {}) }); } }
       json(`learn/data/${L}/exams/${r.id}.json`, { route: r.id, lang: L, n: ex.n, pass_pct: ex.pass_pct, questions: qs });
       if (qs.length < ex.n) warn("exam-bank-small", `${r.id} (${L}): ${qs.length} questions in the bank, the exam asks ${ex.n}`, { lang: L });
     }
@@ -1412,8 +1800,25 @@ ${STUB_NOINDEX ? '<meta name="robots" content="noindex, follow">\n' : ""}<link r
   let written = false; // learnLinks() links to new pages only once they are on disk
   const result = { ok: !blockingList.length, blocking: blockingList.length, findings, counts, stats, urls, stubs: stubUrls, sitemaps, newTerms: [...THIN.values()], options: { ...opt } };
   result.learnLinks = learnLinksFactory();
+  // TERM REPORT (term rule, step 2): the running-text warnings per language, grouped by the file an editor opens
+  // (content/academy/lessons/<id>.json for uk, content/academy/i18n/<lang>/<id>.json for the others). Written with --term-report.
+  result.termReport = Object.fromEntries(["uk", ...OVERLAY_LANGS].map(L => {
+    const list = findings.filter(f => TERM_WARNINGS.includes(f.type) && f.lang === L && f.file), files = {};
+    for (const f of list.slice().sort((a, b) => TERM_WARNINGS.indexOf(a.type) - TERM_WARNINGS.indexOf(b.type)))
+      (files[f.file] ||= []).push({ type: f.type, lesson: f.lesson, item: f.item, term: f.term, text: f.text, msg: f.msg });
+    return [L, { lang: L, date: opt.today, rule: TERM_REPORT_RULE,
+      counts: Object.fromEntries(TERM_WARNINGS.map(t => [t, list.filter(f => f.type === t).length])),
+      files_with_findings: Object.keys(files).length,
+      skipped_everyday: Object.fromEntries(Object.entries(untokSkipped[L] || {}).sort((a, b) => b[1] - a[1])),
+      tokens: termStats[L] ? { total: termStats[L].tokens, per_lesson_avg: Math.round(10 * termStats[L].tokens / Math.max(1, termStats[L].lessons)) / 10,
+        summaries_with_tokens: termStats[L].summaries_with_tokens, lessons: termStats[L].lessons, per_lesson: termStats[L].per_lesson } : null,
+      files: Object.fromEntries(Object.keys(files).sort().map(k => [k, files[k]])) }];
+  }));
   if (!opt.quiet || blockingList.length) printReport(result, opt);
   if (opt.report) { mkdirSync(path.dirname(path.resolve(opt.report)), { recursive: true }); writeFileSync(opt.report, JSON.stringify({ stats, counts, findings }, null, 1)); }
+  if (opt.termReport) { const d = path.resolve(opt.termReport); mkdirSync(d, { recursive: true });
+    for (const [L, x] of Object.entries(result.termReport)) writeFileSync(path.join(d, `${L}.json`), JSON.stringify(x, null, 1));
+    if (!opt.quiet) console.log(`term report (term rule, step 2) written into ${d}: ${Object.keys(result.termReport).map(L => `${L}.json`).join(", ")}`); }
   if (blockingList.length || !opt.write) return result;
   const out = (rel, s) => { const f = path.join(opt.out, rel); mkdirSync(path.dirname(f), { recursive: true }); writeFileSync(f, s); };
   for (const p of PAGES.values()) out(p.rel, p.html);
@@ -1464,6 +1869,11 @@ function printReport(r, opt) {
   if (opt.draft) line("errors in review/ready lessons (would block a real build; not blocking in the --draft preview)", r.counts.preview_errors);
   line("errors in draft lessons (" + (opt.draft ? "built only in this preview" : "not built") + ", do not block)", r.counts.draft_errors);
   line("warnings", r.counts.warnings);
+  if (r.termReport) console.log(`term rule, step 2 (running text) — warnings per language, ${TERM_WARNINGS.join(" / ")}:
+   ` +
+    Object.values(r.termReport).map(x => `${x.lang} ${TERM_WARNINGS.map(t => x.counts[t]).join("/")}`).join(" · ") +
+    `
+   term tokens per lesson (density; summaries with tokens): ` + Object.values(r.termReport).filter(x => x.tokens).map(x => `${x.lang} ${x.tokens.per_lesson_avg} (${x.tokens.summaries_with_tokens})`).join(" · "));
   const show = r.findings.filter(f => f.level === "error" && !f.draft).slice(0, 40);
   if (show.length) { console.log(`\n${opt.draft ? "errors that would block a real build" : "blocking errors"} (first 40):`); for (const f of show) console.log(`  - [${f.type}] ${f.msg}`); }
   if (!r.ok) console.log("\nBUILD STOPPED: nothing was written. Fix the errors above.");
@@ -1474,13 +1884,14 @@ function printReport(r, opt) {
    used to fall through to a REAL build into docs/ (review 08.10.2026: it happened twice to agents); now -h / --help print the
    flags and exit 0, and any other unknown option, or a value flag without its value, prints an error and exits 1 before any
    work. Keep CLI_VALUED / CLI_FLAGS in step with the "Flags" list in the header comment. */
-const CLI_VALUED = new Set(["--out", "--docs-root", "--base", "--report"]), CLI_FLAGS = new Set(["--draft", "--check", "--quiet", "--own-home"]);
+const CLI_VALUED = new Set(["--out", "--docs-root", "--base", "--report", "--term-report"]), CLI_FLAGS = new Set(["--draft", "--check", "--quiet", "--own-home"]);
 const CLI_HELP = `bun scripts/build_academy.mjs [flags]   (without --check or --out it WRITES INTO docs/)
   --out <dir>        site root to write into (default docs). Use a temp folder while developing.
   --draft            also build draft lessons (preview: noindex). Refused for docs/.
   --base <url>       absolute site URL (default the GitHub Pages URL)
   --docs-root <dir>  where the old pages are looked up (default docs)
   --report <file>    write every finding as JSON
+  --term-report <dir> write the term-rule warnings (step 2) per language: <dir>/<lang>.json
   --check            run the checks only, write nothing
   --own-home         let the build overwrite a hand-written docs/learn/index.html
   --quiet            print only the summary
@@ -1498,7 +1909,7 @@ if (import.meta.main) {
   const bad = cliProblem(a);
   if (bad) { console.error(`ERROR: ${bad}. Nothing was built or written.\n\n${CLI_HELP}`); process.exit(1); }
   try {
-    const r = await buildAcademy({ out: val("--out"), docsRoot: val("--docs-root"), base: val("--base"), report: val("--report"), draft: a.includes("--draft"),
+    const r = await buildAcademy({ out: val("--out"), docsRoot: val("--docs-root"), base: val("--base"), report: val("--report"), termReport: val("--term-report"), draft: a.includes("--draft"),
       write: !a.includes("--check"), quiet: a.includes("--quiet"), ownHome: a.includes("--own-home") });
     process.exit(r.ok ? 0 : 1);
   } catch (e) { console.error("ERROR: " + e.message); process.exit(2); }

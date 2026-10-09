@@ -42,8 +42,8 @@
   "title": "Ochrona oczu i słuchu",
   "summary": "Czemu ochrona słuchu jest obowiązkowa dla każdego w pobliżu osi, kto musi nosić okulary w {{tm:sporting}} i {{tm:compak}} oraz jak wybrać ochronę, która dobrze leży.",
   "body": {
-    "safety-eye-ear-protection-p1": "Strzał ze strzelby jest bardzo głośny: {{fact:gear.gunshot-peak-db}}. Decybele (dB) mierzą głośność, a strzał to dźwięk „impulsowy”: jeden krótki, ostry huk. Dla jednego takiego huku górne granice to {{fact:gear.impulse-noise-limits}}. Granica dla dorosłych pochodzi z przepisów bezpieczeństwa pracy, a granicę dla dzieci rekomenduje Światowa Organizacja Zdrowia (WHO). Strzał znacznie przekracza obie granice, więc nawet jeden strzał bez ochrony może uszkodzić słuch. Uszkodzenia od hałasu kumulują się z czasem i zwykle nie mijają. Dzwonienie w uszach po strzelaniu, zwane tinnitusem, może być wczesnym sygnałem ostrzegawczym.",
-    "etiquette-protection-and-dress-p1": "Ochrona słuchu jest obowiązkowa dla każdego na {{term:layout|osi}} (polu strzelania z jego stanowiskami i wyrzutniami) albo w jej pobliżu: strzelców, sędziów, obsługi i widzów. W {{tm:sporting}} okulary strzeleckie są obowiązkowe, bez wyjątków, dla strzelców, sędziów, obsługi i każdego, kto stoi blisko stanowiska. W {{tm:compak}} przepis o okularach wymienia zawodników, sędziów i obsługę. Strzelec, który wejdzie na stanowisko bez okularów albo ochrony słuchu, jest traktowany jako nieobecny, tak jakby nie zjawił się na swoją kolejkę, i nie może strzelać. W {{tm:sporting}} wtedy obowiązuje przepis o spóźnionym strzelcu.",
+    "safety-eye-ear-protection-p1": "Strzał ze strzelby jest bardzo głośny: {{fact:gear.gunshot-peak-db}}. Decybele (dB) mierzą głośność, a strzał to dźwięk „impulsowy”: jeden krótki, ostry huk. Dla jednego takiego huku górne granice to {{fact:gear.impulse-noise-limits}}. Granica dla dorosłych pochodzi z przepisów bezpieczeństwa pracy, a granicę dla dzieci rekomenduje Światowa Organizacja Zdrowia (WHO). Strzał znacznie przekracza obie granice, więc nawet jeden strzał bez ochrony może uszkodzić słuch. Uszkodzenia od hałasu kumulują się z czasem i zwykle nie mijają. {{term:tinnitus|Dzwonienie w uszach}} po strzelaniu, zwane tinnitusem, może być wczesnym sygnałem ostrzegawczym.",
+    "etiquette-protection-and-dress-p1": "Ochrona słuchu jest obowiązkowa dla każdego na {{term:layout|osi}}, czyli polu strzelania z jego stanowiskami i wyrzutniami, albo w jej pobliżu: strzelców, sędziów, obsługi i widzów. W {{tm:sporting}} {{term:safety-glasses|okulary strzeleckie}} są obowiązkowe, bez wyjątków, dla strzelców, sędziów, obsługi i każdego, kto stoi blisko stanowiska. W {{tm:compak}} przepis o okularach wymienia zawodników, sędziów i obsługę. Strzelec, który wejdzie na stanowisko bez okularów albo ochrony słuchu, jest traktowany jako nieobecny, tak jakby nie zjawił się na swoją kolejkę, i nie może strzelać. W {{tm:sporting}} wtedy obowiązuje przepis o spóźnionym strzelcu.",
     "safety-eye-ear-protection-children": {
       "sporting": "Dzieci na terenie strzelnicy, poza klubem, przez cały czas noszą ochronę słuchu.",
       "compak": "Nie ma osobnego przepisu o dzieciach, ale przepis obejmuje wszystkich widzów w pobliżu osi, w tym dzieci."
@@ -97,7 +97,7 @@
       "explain": "Przepisy obu dyscyplin wymieniają strzelców, sędziów, obsługę i widzów w pobliżu osi."
     },
     "etiquette-protection-and-dress-q1": {
-      "q": "Twój strzelec wchodzi na stanowisko bez okularów strzeleckich. Jak traktują go przepisy?",
+      "q": "Twój strzelec wchodzi na stanowisko bez {{term:safety-glasses|okularów strzeleckich}}. Jak traktują go przepisy?",
       "options": {
         "a": "Dostaje ostrzeżenie i może strzelać",
         "b": "Może strzelać, jeśli zgodzi się trener",
@@ -109,8 +109,8 @@
     "safety-eye-ear-protection-q4": {
       "q": "Co daje najsilniejszą ochronę słuchu, gdy pada wiele strzałów?",
       "options": {
-        "a": "Zatyczki i nauszniki noszone razem",
-        "b": "Nauszniki aktywne z podkręconą głośnością",
+        "a": "Zatyczki i {{term:hearing-protection|nauszniki}} noszone razem",
+        "b": "{{term:hearing-protection|Nauszniki}} aktywne z podkręconą głośnością",
         "c": "Zatyczki włożone niegłęboko, dla wygody"
       },
       "explain": "Zatyczki z nausznikami razem chronią najsilniej, o ile obie dobrze leżą."
@@ -135,14 +135,14 @@
       "explain": "Krótkie szorty są zakazane w obu dyscyplinach; długie szorty typu bermudy są dozwolone."
     },
     "etiquette-protection-and-dress-q3": {
-      "q": "Dlaczego ochronniki aktywne to dobry wybór dla tłumacza?",
+      "q": "Dlaczego {{term:electronic-ear-muffs|ochronniki aktywne}} to dobry wybór dla tłumacza?",
       "options": {
         "a": "Tłumią huk strzału, ale przepuszczają głos",
         "b": "Tłumacze nie muszą ich nosić",
         "c": "Całkowicie blokują wszystkie dźwięki",
         "d": "Nagrywają trenera"
       },
-      "explain": "Ochronniki słuchu są obowiązkowe w pobliżu osi, a ochronniki aktywne pozwalają słyszeć trenera i sędziego."
+      "explain": "{{term:hearing-protection|Ochronniki słuchu}} są obowiązkowe w pobliżu osi, a ochronniki aktywne pozwalają słyszeć trenera i sędziego."
     }
   }
 }

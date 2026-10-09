@@ -28,10 +28,10 @@
     "origin": null
   },
   "body": {
-    "juniors-equipment-fit-p1": "Dospělá zbraň je pro dítě obvykle příliš dlouhá a příliš těžká. Dítě se při jejím držení přehýbá dozadu, pažba bije do tváře a ramene a po pár výstřelech se může objevit strach. Proto je {{term:gun-fit|přizpůsobení pažby}} (gun fit) pro mladé střelce ještě důležitější než pro dospělé.",
-    "juniors-equipment-fit-p2": "Klíčovou mírou je {{term:length-of-pull|délka pažby}} (length of pull): {{fact:gear.length-of-pull}}. {{term:youth-gun|Juniorské modely}} (youth gun) mají kratší a lehčí pažbu, a některé zbraně mají nastavitelnou pažbu i {{term:comb|lícnici}}. Jak dítě roste, pažba se prodlužuje vložkami, tak přizpůsobení kontrolujte každou sezonu s trenérem nebo {{term:gun-fitter|specialistou na přizpůsobení pažby}}.",
-    "juniors-equipment-fit-p3": "Běžnou volbou je lehká zbraň ráže 20, ať {{term:over-and-under|kozlice}} nebo {{term:semi-automatic|samonabíjecí brokovnice}}. Plynová samonabíjecí brokovnice rozloží zpětný ráz do delšího času, takže se mnohým zdá měkčí. Náboje s lehkou náplní také snižují zpětný ráz a střelba je příjemnější.",
-    "juniors-equipment-fit-p4": "Ochrana musí také sedět: dětská sluchátka nebo špunty, {{term:safety-glasses|střelecké brýle}} s nárazuvzdornými skly a čepice se štítkem. {{term:shooting-vest|Střelecká vesta}} nesmí být příliš velká, jinak se o ni zbraň při zalícení zachytí.",
+    "juniors-equipment-fit-p1": "Dospělá zbraň je pro dítě obvykle příliš dlouhá a příliš těžká. Dítě se při jejím držení přehýbá dozadu, {{term:stock|pažba}} bije do tváře a ramene a po pár výstřelech se může objevit strach. Proto je {{term:gun-fit|přizpůsobení pažby}} pro mladé střelce ještě důležitější než pro dospělé.",
+    "juniors-equipment-fit-p2": "Klíčovou mírou je {{term:length-of-pull|délka pažby}}: {{fact:gear.length-of-pull}}. {{term:youth-gun|Juniorské modely|pl}} mají kratší a lehčí pažbu, a některé zbraně mají nastavitelnou pažbu i {{term:comb|lícnici}}. Jak dítě roste, pažba se prodlužuje vložkami, tak přizpůsobení kontrolujte každou sezonu s trenérem nebo {{term:gun-fitter|specialistou na přizpůsobení pažby}}.",
+    "juniors-equipment-fit-p3": "Běžnou volbou je lehká zbraň ráže 20, ať {{term:over-and-under|kozlice}} nebo {{term:semi-automatic|samonabíjecí brokovnice}}. Plynová samonabíjecí brokovnice rozloží {{term:recoil|zpětný ráz}} do delšího času, takže se mnohým zdá měkčí. Náboje s lehkou náplní také snižují zpětný ráz a střelba je příjemnější.",
+    "juniors-equipment-fit-p4": "Ochrana musí také sedět: dětská {{term:hearing-protection|sluchátka}} nebo špunty, {{term:safety-glasses|střelecké brýle}} s nárazuvzdornými skly a čepice se štítkem. {{term:shooting-vest|Střelecká vesta}} nesmí být příliš velká, jinak se o ni zbraň při {{term:gun-mount|zalícení}} zachytí.",
     "juniors-equipment-fit-p7": "V {{tm:sporting}} pravidla doplňují ještě jedno: děti na ploše střelnice mimo klubovnu musí mít {{term:hearing-protection|ochranu sluchu}} stále. Mnohé rodiny si tento zvyk udrží na jakékoli střelnici.",
     "juniors-equipment-fit-p5": "Oblečení by mělo být pohodlné a podle počasí. Na závodech jsou v obou disciplínách sandály zakázané a šortky musí být dlouhé, končící {{fact:rules.dress-shorts-length}}. Uzavřená obuv s dobrou přilnavostí je potřeba i na tréninku. Více: {{lesson:gear-clothing-and-shoes}}.",
     "juniors-equipment-fit-p6": "Nekupujte drahé vybavení ve spěchu. Začněte s klubovou zbraní na půjčení, pak se podívejte na použité juniorské modely. Vlastní zbraň se vyplatí koupit, až je zájem dítěte stabilní, a s radou trenéra. O přizpůsobení obecně: {{lesson:gun-fit}}."
@@ -57,12 +57,12 @@
       "explain": "Příliš dlouhá zbraň kazí postoj, zhoršuje účinek zpětného rázu a může dítě vyděsit."
     },
     "juniors-equipment-fit-q2": {
-      "q": "Co je délka pažby (length of pull)?",
+      "q": "Co je {{term:length-of-pull|délka pažby}}?",
       "options": {
-        "a": "Délka hlavní po ústí",
+        "a": "{{term:barrel-length|Délka hlavní}} po ústí",
         "b": "Vzdálenost od spouště po střed botky",
         "c": "Váha zbraně se zahrdleními",
-        "d": "Vzdálenost od lišty po vrchol lícnice"
+        "d": "Vzdálenost od {{term:rib|lišty}} po vrchol {{term:comb|lícnice}}"
       },
       "explain": "Právě tuto míru se nejčastěji mění, aby zbraň seděla dítěti."
     },
@@ -78,6 +78,6 @@
     }
   },
   "title": "Vybavení na míru dítěti",
-  "summary": "Dospělá zbraň je pro dítě obvykle příliš dlouhá a těžká. Kratší pažba, lehká zbraň, měkké náboje a ochrana v dětských velikostech dělají {{tm:sporting}} a {{tm:compak}} bezpečnější a příjemnější.",
+  "summary": "Dospělá zbraň je pro dítě obvykle příliš dlouhá a těžká. Kratší {{term:stock|pažba}}, lehká zbraň, měkké náboje a ochrana v dětských velikostech dělají {{tm:sporting}} a {{tm:compak}} bezpečnější a příjemnější.",
   "did_you_know": "Pravidla FITASC omezují ráži jen shora ({{fact:gear.fitasc-max-gauge}}), takže zbraň ráže 20 je na závodech povolená v obou disciplínách."
 }

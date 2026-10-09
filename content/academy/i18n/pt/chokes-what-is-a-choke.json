@@ -28,12 +28,12 @@
     "origin": "interpreter-academy"
   },
   "title": "O que é um choke",
-  "summary": "Um choke é um estreitamento do cano junto à boca que mantém o chumbo junto. Decide a largura da chumbada no prato, e as regras de {{tm:sporting}} e {{tm:compak}} dizem quando pode mudá-lo.",
+  "summary": "Um choke é um estreitamento do cano junto à boca que mantém o chumbo junto. Decide a largura da {{term:pattern|chumbada}} no prato, e as regras de {{tm:sporting}} e {{tm:compak}} dizem quando pode mudá-lo.",
   "body": {
-    "gear-chokes-p1": "Um {{term:choke|choke}} é um ligeiro estreitamento do cano junto à boca. Controla a rapidez com que o chumbo se espalha. Um choke mais fechado mantém o chumbo junto durante mais tempo, dando uma chumbada mais densa para pratos distantes; um choke mais aberto deixa-o espalhar-se mais cedo, dando uma chumbada mais larga e mais tolerante para pratos próximos.",
-    "gear-chokes-p2": "A maioria das armas de competição tem chokes intermutáveis: tubos curtos que se enroscam na boca do cano com uma chave de chokes. As armas mais antigas podem ter chokes fixos, maquinados no próprio cano. Os tubos de marcas diferentes muitas vezes não são compatíveis, e os fabricantes avisam que não se deve disparar uma arma de chokes intermutáveis sem os tubos.",
+    "gear-chokes-p1": "Um {{term:choke|choke}} é um ligeiro estreitamento do cano junto à boca. Controla a rapidez com que o chumbo se espalha. Um choke mais fechado mantém o chumbo junto durante mais tempo, dando uma {{term:pattern|chumbada}} mais densa para pratos distantes; um choke mais aberto deixa-o espalhar-se mais cedo, dando uma chumbada mais larga e mais tolerante para pratos próximos.",
+    "gear-chokes-p2": "A maioria das armas de competição tem {{term:multichoke|chokes intermutáveis}}: tubos curtos que se enroscam na {{term:muzzle|boca do cano}} com uma {{term:choke-key|chave de chokes}}. As armas mais antigas podem ter {{term:fixed-choke|chokes fixos}}, maquinados no próprio cano. Os tubos de marcas diferentes muitas vezes não são compatíveis, e os fabricantes avisam que não se deve disparar uma arma de chokes intermutáveis sem os tubos.",
     "gear-chokes-p4": "Os treinadores dizem coisas como «quarter and half» (um quarto e meio), «open up the bottom barrel» (abrir mais o cano de baixo), «go tighter in the top» (apertar mais no cano de cima) ou «change chokes for this stand» (trocar os chokes para este posto). Os nomes de cylinder a full, as frações e as marcações: {{lesson:chokes-names-and-marks}}.",
-    "gear-chokes-p5": "As regras diferem entre as disciplinas. No {{tm:sporting}} os chokes podem ser trocados entre postos, ou entre os simples e os doubles, se isso não causar atraso. Depois de o atirador ter entrado no posto, já não podem ser trocados. No {{tm:compak}} a arma, os canos e os chokes não podem ser trocados de todo dentro de uma série, só entre séries, exceto depois de uma avaria."
+    "gear-chokes-p5": "As regras diferem entre as disciplinas. No {{tm:sporting}} os chokes podem ser trocados entre postos, ou entre os simples e os doubles, se isso não causar atraso. Depois de o atirador ter entrado no posto, já não podem ser trocados. No {{tm:compak}} a arma, os canos e os chokes não podem ser trocados de todo dentro de uma série, só entre séries, exceto depois de uma {{term:malfunction|avaria}}."
   },
   "note": {},
   "phrases": {
@@ -61,14 +61,14 @@
   },
   "quiz": {
     "gear-chokes-q1": {
-      "q": "Que choke dá a chumbada mais larga?",
+      "q": "Que choke dá a {{term:pattern|chumbada}} mais larga?",
       "options": {
         "a": "Full",
         "b": "Improved modified",
         "c": "Modified",
         "d": "Cylinder"
       },
-      "explain": "O cylinder (cilíndrico) não tem estrangulamento, por isso o chumbo espalha-se mais cedo."
+      "explain": "O cylinder (cilíndrico) não tem {{term:constriction|estrangulamento}}, por isso o chumbo espalha-se mais cedo."
     },
     "gear-chokes-q2": {
       "q": "No Sporting™, um atirador que já está no posto quer trocar um choke. É permitido?",
@@ -81,21 +81,21 @@
       "explain": "As trocas são permitidas entre postos ou entre simples e doubles, sem atraso, mas não depois de o atirador ter entrado no posto."
     },
     "chokes-what-is-a-choke-q2": {
-      "q": "O que acontece se aumentar o estrangulamento?",
+      "q": "O que acontece se aumentar o {{term:constriction|estrangulamento}}?",
       "options": {
-        "a": "A chumbada abre mais cedo",
-        "b": "A chumbada fica apertada durante mais tempo",
+        "a": "A {{term:pattern|chumbada}} abre mais cedo",
+        "b": "A {{term:pattern|chumbada}} fica apertada durante mais tempo",
         "c": "O chumbo sai do cano mais depressa",
-        "d": "O recuo fica muito mais suave"
+        "d": "O {{term:recoil|recuo}} fica muito mais suave"
       },
-      "explain": "Mais estrangulamento mantém o chumbo junto durante mais tempo, por isso à mesma distância a chumbada é mais estreita e mais densa."
+      "explain": "Mais {{term:constriction|estrangulamento}} mantém o chumbo junto durante mais tempo, por isso à mesma distância a chumbada é mais estreita e mais densa."
     },
     "chokes-what-is-a-choke-q3": {
       "q": "Porque é que um choke muito aberto é uma má escolha para um prato longe?",
       "options": {
-        "a": "Dá muito mais recuo do que os outros",
+        "a": "Dá muito mais {{term:recoil|recuo}} do que os outros",
         "b": "É proibido para pratos a mais de 30 m",
-        "c": "À distância a chumbada fica rala, com buracos",
+        "c": "À distância a {{term:pattern|chumbada}} fica rala, com buracos",
         "d": "Gasta o cano muito mais depressa"
       },
       "explain": "Uma chumbada larga fica rala a longa distância, e o prato pode passar entre os grãos de chumbo."

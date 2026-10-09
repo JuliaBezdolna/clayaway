@@ -24,17 +24,21 @@
     "juniors-competitions-and-costs-q3": "fabccff9",
     "juniors-competitions-and-costs-q-coaching": "fd56d33f"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Gare per junior e costi",
   "summary": "Dalle gare di club alle gare internazionali nel {{tm:sporting}} e nel {{tm:compak}}: la categoria Junior dal 2027, le regole che seguono i giovani tiratori, e i costi da pianificare.",
   "body": {
     "juniors-competitions-and-costs-p1": "Un buon posto per le prime gare di un bambino è il proprio club: le {{term:club-shoot|gare di club}} sono brevi, amichevoli e con poca pressione. Poi vengono le gare regionali e nazionali e, con l'esperienza, le gare internazionali FITASC nel {{tm:sporting}} e nel {{tm:compak}}.",
-    "juniors-competitions-and-costs-p2": "La FITASC usa una nuova tabella di categorie da {{fact:competitions.categories-from}}. Secondo questa tabella, ragazzi e ragazze sono {{term:junior|Junior}} {{fact:basics.fitasc-junior-age}}. Per il 2027 questo significa nati nel 2007–2014; conta solo l'anno di nascita. Il punteggio di un junior conta due volte: nella categoria Junior e nella {{term:open-ranking|classifica assoluta}}, dove competono tutti insieme.",
+    "juniors-competitions-and-costs-p2": "La FITASC usa una nuova tabella di categorie da {{fact:competitions.categories-from}}. Secondo questa tabella, ragazzi e ragazze sono {{term:junior|Junior}} {{fact:basics.fitasc-junior-age}}. Per il 2027 questo significa nati nel 2007–2014; conta solo l'anno di nascita. Il punteggio di un junior conta due volte: nella categoria Junior e nell'{{term:open-ranking|classifica assoluta}}, dove competono tutti insieme.",
     "juniors-competitions-and-costs-p3": "Tutte le sei {{term:category|categorie}} FITASC sono {{fact:basics.fitasc-categories-2027}}. Queste sono regole internazionali: le gare nazionali e di club possono usare categorie e limiti di età propri, quindi leggete il programma. Per saperne di più: {{lesson:competitions-categories-and-shoot-offs}}.",
     "juniors-competitions-and-costs-p4": "Una {{term:team|squadra}} FITASC di solito ha {{fact:competitions.team-size}}. Un tiratore scelto per una squadra di un'altra categoria deve iscriversi anche individualmente a quella categoria: una junior nella squadra Lady, per esempio, è iscritta anche in Lady.",
-    "juniors-competitions-and-costs-p5": "I junior seguono le stesse regole degli adulti: sicurezza, abbigliamento, il divieto di {{term:coaching|coaching}}, e le regole su fucili e cartucce. Le regole sul fucile: un fucile a canna liscia {{fact:gear.fitasc-max-gauge}}, con canne {{fact:gear.fitasc-min-barrel}}; i fucili a pompa non sono permessi. Il calibro è la larghezza della canna, e un numero più alto significa una canna più stretta, quindi un fucile da 20 {{term:gauge|calibro}} (più stretto, di solito più leggero) è permesso. Una cartuccia può contenere {{fact:gear.fitasc-shot-load}}.",
-    "juniors-competitions-and-costs-coaching": "Durante la gara nessuno può fare coaching a un tiratore, genitori compresi. Se l'arbitro nota un coaching, il tiratore riceve un {{term:yellow-card|cartellino giallo}} e chi ha dato i consigli viene allontanato dall'area di tiro. Come sostenere senza fare pressione: {{lesson:juniors-support-without-pressure}}.",
-    "juniors-competitions-and-costs-p6": "Ora i costi, in termini generali. La spesa regolare va su piattelli e {{term:cartridge|cartucce}}, di solito la voce più grande, più le lezioni con un istruttore. La spesa una tantum va sull'equipaggiamento: un fucile o il suo noleggio, le protezioni, un gilet e le scarpe. Ogni anno ci sono l'iscrizione al club, la {{term:sports-licence|tessera federale}} e l'assicurazione. Le gare aggiungono le {{term:entry-fee|quote d'iscrizione}}, il viaggio e l'alloggio.",
+    "juniors-competitions-and-costs-p5": "I junior seguono le stesse regole degli adulti: sicurezza, abbigliamento, il divieto di {{term:coaching|coaching}}, e le regole su fucili e cartucce. Le regole sul fucile: un fucile a canna liscia {{fact:gear.fitasc-max-gauge}}, con canne {{fact:gear.fitasc-min-barrel}}; i {{term:pump-action|fucili a pompa}} non sono permessi. Il {{term:gauge|calibro}} è la larghezza della canna, e un numero più alto significa una canna più stretta, quindi un fucile da 20 {{term:gauge|calibro}} (più stretto, di solito più leggero) è permesso. Una {{term:cartridge|cartuccia}} può contenere {{fact:gear.fitasc-shot-load}}.",
+    "juniors-competitions-and-costs-coaching": "Durante la gara nessuno può fare coaching a un tiratore, genitori compresi. Se l'arbitro nota un coaching, il tiratore riceve uno {{term:yellow-card|cartellino giallo}} e chi ha dato i consigli viene allontanato dall'area di tiro. Come sostenere senza fare pressione: {{lesson:juniors-support-without-pressure}}.",
+    "juniors-competitions-and-costs-p6": "Ora i costi, in termini generali. La spesa regolare va su piattelli e {{term:cartridge|cartucce}}, di solito la voce più grande, più le lezioni con un istruttore. La spesa una tantum va sull'equipaggiamento: un fucile o il suo noleggio, le protezioni, un gilet e le scarpe. Ogni anno ci sono la {{term:club-membership|iscrizione al club}}, la {{term:sports-licence|tessera federale}} e l'assicurazione. Le gare aggiungono le {{term:entry-fee|quote d'iscrizione}}, il viaggio e l'alloggio.",
     "juniors-competitions-and-costs-p7": "Pianificate un budget per la stagione e aggiungete i costi passo dopo passo. Chiedete al club sconti per i junior, fucili del club e attrezzatura usata; alcuni club e federazioni hanno programmi di sostegno per i junior. Quanto costa questo sport: {{lesson:budget-what-it-costs}}; un piano per il primo anno: {{lesson:budget-first-year-plan}}."
   },
   "note": {},
@@ -43,29 +47,45 @@
     "juniors-competitions-and-costs-kp1": "Cominciate con le gare di club.",
     "juniors-competitions-and-costs-kp2": "Junior nella tabella FITASC dal 2027: {{fact:basics.fitasc-junior-age}}.",
     "juniors-competitions-and-costs-kp4": "I junior seguono le regole degli adulti; un fucile da 20 calibro è permesso.",
-    "juniors-competitions-and-costs-kp-coaching": "Nessun consiglio da fuori durante la serie: può costare al giovane tiratore un cartellino giallo.",
+    "juniors-competitions-and-costs-kp-coaching": "Nessun consiglio da fuori durante la serie: può costare al giovane tiratore uno {{term:yellow-card|cartellino giallo}}.",
     "juniors-competitions-and-costs-kp5": "I costi principali sono piattelli e cartucce; pianificate un budget per la stagione."
   },
   "did_you_know": "Per le categorie FITASC conta solo l'anno di nascita: un tiratore nato il 31 dicembre passa alla categoria successiva il 1º gennaio, proprio come uno nato in gennaio.",
   "quiz": {
     "juniors-competitions-and-costs-q1": {
       "q": "Chi è nella categoria Junior nella tabella FITASC dal 2027?",
-      "options": { "a": "Tutti fino all'anno in cui compiono 25", "b": "Dall'anno in cui compiono 13 all'anno in cui compiono 20", "c": "Solo i maschi, dall'anno in cui compiono 12 a 16" },
+      "options": {
+        "a": "Tutti fino all'anno in cui compiono 25",
+        "b": "Dall'anno in cui compiono 13 all'anno in cui compiono 20",
+        "c": "Solo i maschi, dall'anno in cui compiono 12 a 16"
+      },
       "explain": "Junior va dal 1º gennaio dell'anno in cui un tiratore compie 13 anni al 31 dicembre dell'anno in cui compie 20, per ragazze e ragazzi."
     },
     "juniors-competitions-and-costs-q2": {
-      "q": "Un junior partecipa alla classifica assoluta?",
-      "options": { "a": "No, solo nella classifica Junior", "b": "Solo se vince la classifica Junior", "c": "Sì, insieme alla classifica Junior" },
+      "q": "Un junior partecipa all'{{term:open-ranking|classifica assoluta}}?",
+      "options": {
+        "a": "No, solo nella classifica Junior",
+        "b": "Solo se vince la classifica Junior",
+        "c": "Sì, insieme alla classifica Junior"
+      },
       "explain": "Un unico punteggio conta sia nella classifica assoluta sia in quella di categoria."
     },
     "juniors-competitions-and-costs-q3": {
       "q": "Qual è di solito la spesa regolare più grande?",
-      "options": { "a": "Piattelli e cartucce", "b": "Medaglie e trofei", "c": "Un fucile nuovo ogni stagione" },
+      "options": {
+        "a": "Piattelli e cartucce",
+        "b": "Medaglie e trofei",
+        "c": "Un fucile nuovo ogni stagione"
+      },
       "explain": "Piattelli e cartucce si usano a ogni sessione, quindi vanno messi nel budget per primi."
     },
     "juniors-competitions-and-costs-q-coaching": {
       "q": "Un genitore grida un consiglio al proprio figlio durante la serie. Cosa può succedere?",
-      "options": { "a": "Niente: i genitori possono dare consigli", "b": "Un cartellino giallo, e il genitore viene allontanato", "c": "Tutta la serie si ripete" },
+      "options": {
+        "a": "Niente: i genitori possono dare consigli",
+        "b": "Uno cartellino giallo, e il genitore viene allontanato",
+        "c": "Tutta la serie si ripete"
+      },
       "explain": "Il coaching durante la gara non è permesso: il tiratore riceve un cartellino giallo e chi ha dato il consiglio viene allontanato dall'area di tiro."
     }
   }

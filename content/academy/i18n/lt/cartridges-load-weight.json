@@ -30,15 +30,15 @@
   "title": "Šratų užtaisas",
   "summary": "Kas yra šratų užtaisas, kuo skiriasi 24 g ir 28 g šoviniai, kokią ribą nustato {{tm:sporting}} ir {{tm:compak}} taisyklės ir kaip tikrinami šoviniai.",
   "body": {
-    "cartridges-load-weight-p1": "{{term:load-weight|Užtaisas}} (load) – tai šratų masė šovinyje, gramais. Ant dėžutės jį rašo didelėmis raidėmis, pavyzdžiui, „24 g“ ar „28 g“. JAV ir Jungtinėje Karalystėje jį kartais nurodo uncijomis: 1 uncija – apie 28 g.",
-    "gear-cartridges-p4": "{{tm:sporting}} ir {{tm:compak}} taisyklės nustato vienodas ribas. Užtaisas – {{fact:gear.fitasc-shot-load}}, tad iki apie 28,6 g, nepriklausomai nuo kalibro. Šratai turi būti {{fact:gear.fitasc-shot-diameter}}. Draudžiami perkrauti šoviniai, sklaidikliai, skirtingo dydžio šratų maišiniai, juodasis parakas ir trasuojamieji šoviniai.",
+    "cartridges-load-weight-p1": "{{term:load-weight|Užtaisas}} – tai šratų masė šovinyje, gramais. Ant dėžutės jį rašo didelėmis raidėmis, pavyzdžiui, „24 g“ ar „28 g“. JAV ir Jungtinėje Karalystėje jį kartais nurodo uncijomis: 1 uncija – apie 28 g.",
+    "gear-cartridges-p4": "{{tm:sporting}} ir {{tm:compak}} taisyklės nustato vienodas ribas. Užtaisas – {{fact:gear.fitasc-shot-load}}, tad iki apie 28,6 g, nepriklausomai nuo {{term:gauge|kalibro}}. Šratai turi būti {{fact:gear.fitasc-shot-diameter}}. Draudžiami {{term:reloaded-cartridge|pakartotinai užtaisyti šoviniai|pl}}, sklaidikliai, skirtingo dydžio šratų maišiniai, juodasis parakas ir trasuojamieji šoviniai.",
     "cartridges-load-weight-cmp1": {
       "sporting": "Prieš pradedant šaudyti šaudymo vietoje, {{term:referee|teisėjas}} gali paprašyti patikrinti du jūsų šovinius: vieną iš dešinės liemenės kišenės, kitą – iš kairės.",
-      "compak": "Jei patikra parodo, kad jūsų šoviniai neatitinka taisyklių, visi jais iššauti šūviai iki tos patikros įskaitomi kaip {{term:zero|nulis}} (zero), tai yra kaip praleistas. Žiuri gali palikti rezultatą galioti, jei negalėjote apie tai žinoti ir neturėjote pranašumo, su sąlyga, kad pažeidimas ištaisytas, vos jį pastebėjus."
+      "compak": "Jei patikra parodo, kad jūsų šoviniai neatitinka taisyklių, visi jais iššauti šūviai iki tos patikros įskaitomi kaip {{term:zero|nulis}}, tai yra kaip praleistas. {{term:jury|Žiuri}} gali palikti rezultatą galioti, jei negalėjote apie tai žinoti ir neturėjote pranašumo, su sąlyga, kad pažeidimas ištaisytas, vos jį pastebėjus."
     },
     "cartridges-load-weight-p3": "Daug {{tm:sporting}} šaulių varžyboms renkasi 28 g: daugiau šratų duoda tankesnį spiečių, ypač tolimuose taikiniuose. Trūkumas – stipresnė {{term:recoil|atatranka}}, o per dieną su 100–200 taikinių tai jauti.",
     "cartridges-load-weight-p4": "24 g šoviniai lengvesni, švelniau veikia, o dažniausiai truputį pigesni. Treniruotėms ir artimiems, vidutiniams taikiniams jų dažniausiai pakanka, ir jie mažiau vargina; tolimuose taikiniuose 28 g duoda tankesnį spiečių. Yra ir lengvesnių 21 g užtaisų – daugiausia 20 kalibrui arba mokymui.",
-    "cartridges-load-weight-p6": "Daug trenerių pataria pradedantiesiems pradėti nuo 24 g. Mažesnė atatranka – mažiau nuovargio ir mažesnė rizika pramokti {{term:flinch|trūktelėti}} prieš šūvį. Vėliau, kai technika stabilizuosis, galima perlipti ant 28 g."
+    "cartridges-load-weight-p6": "Daug trenerių pataria pradedantiesiems pradėti nuo 24 g. Mažesnė atatranka – mažiau nuovargio ir mažesnė rizika, kad atsiras {{term:flinch|trūktelėjimas}} prieš šūvį. Vėliau, kai technika stabilizuosis, galima perlipti ant 28 g."
   },
   "note": {},
   "phrases": {
@@ -49,7 +49,7 @@
   },
   "key_points": {
     "cartridges-load-weight-kp1": "Užtaisas – šratų masė gramais; 1 uncija – apie 28 g.",
-    "gear-cartridges-kp4": "Ribos: 28 g švino (+2 %), šratai 2,0–2,5 mm; be perkrovimų, maišytų šratų, juodojo parako ir trasuojamųjų.",
+    "gear-cartridges-kp4": "Ribos: 28 g (+2 %) {{term:lead-shot|švino šratų}}, šratai 2,0–2,5 mm; be perkrovimų, maišytų šratų, juodojo parako ir trasuojamųjų.",
     "cartridges-load-weight-kp3": "28 g duoda tankesnį spiečių tolimuose taikiniuose; 24 g švelnesni treniruotėms ir pradedantiesiems.",
     "cartridges-load-weight-kp4": "{{tm:sporting}}: teisėjas gali patikrinti du šovinius; {{tm:compak}}: šūviai netinkamais šoviniais – nuliai."
   },

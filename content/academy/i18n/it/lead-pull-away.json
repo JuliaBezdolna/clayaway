@@ -33,11 +33,11 @@
     "lead-pull-away-p2": [
       "«On it» — sopra: il fucile viene imbracciato sul piattello o sul suo bordo anteriore; le canne lo toccano sulla sua linea.",
       "«With it» — con lui: le canne seguono il piattello per un attimo alla sua velocità, rispettandone linea e andatura.",
-      "«Pull away» — stacca: il fucile accelera in modo fluido in avanti finché non compare l'immagine di anticipo giusta.",
-      "«Shoot» — spara: il grilletto si preme mentre il fucile sta ancora accelerando o è in movimento.",
-      "Accompagnamento: il fucile continua dopo lo sparo."
+      "«Pull away» — stacca: il fucile accelera in modo fluido in avanti finché non compare l'immagine di {{term:lead|anticipo}} giusta.",
+      "«Shoot» — spara: il {{term:trigger|grilletto}} si preme mentre il fucile sta ancora accelerando o è in movimento.",
+      "{{term:follow-through|Accompagnamento}}: il fucile continua dopo lo sparo."
     ],
-    "lead-pull-away-p3": "Punti di forza: segui il piattello per un istante prima di staccarti in avanti. Questo ti permette di percepire la sua velocità, distanza e traiettoria prima di decidere di sparare, così le canne restano bene sulla sua linea. Si adatta ai piattelli lunghi, ai piattelli in diagonale (che volano ad angolo lontano o verso di te) e ai piattelli in salita. Per effetto dell'accelerazione, l'anticipo che vedi è minore rispetto all'anticipo mantenuto.",
+    "lead-pull-away-p3": "Punti di forza: segui il piattello per un istante prima di staccarti in avanti. Questo ti permette di percepire la sua velocità, distanza e traiettoria prima di decidere di sparare, così le canne restano bene sulla sua linea. Si adatta ai piattelli lunghi, ai piattelli in diagonale (che volano ad angolo lontano o verso di te) e ai piattelli in salita. Per effetto dell'accelerazione, l'anticipo che vedi è minore rispetto al {{term:maintained-lead|anticipo mantenuto}}.",
     "lead-pull-away-p4": "Punti deboli: l'accelerazione necessaria varia da piattello a piattello, quindi ci vuole pratica per sentirla; seguire troppo a lungo diventa «riding the target», cavalcare il piattello, e fermare la spinta porta a un errore dietro.",
     "lead-pull-away-p5": "Gli istruttori dicono «touch it and go» (toccalo e vai), «mount on it and push out» (imbraccia sul piattello e spingi fuori), oppure la formula in quattro tempi «on it, with it, pull away, shoot»."
   },
@@ -63,14 +63,14 @@
     }
   },
   "key_points": {
-    "lead-pull-away-kp1": "Le volate partono sul piattello (o sul suo bordo anteriore).",
+    "lead-pull-away-kp1": "Le {{term:muzzle|volate}} partono sul piattello (o sul suo bordo anteriore).",
     "lead-pull-away-kp2": "Seguilo alla sua velocità, poi accelera in avanti.",
     "lead-pull-away-kp3": "Grilletto mentre il fucile si muove ancora in avanti; poi accompagna il colpo.",
     "lead-pull-away-kp4": "Buon controllo della linea; adatto a piattelli lunghi, diagonali e in salita."
   },
   "quiz": {
     "lead-pull-away-q1": {
-      "q": "Nel pull-away, che cosa succede subito prima di premere il grilletto?",
+      "q": "Nel pull-away, che cosa succede subito prima di premere il {{term:trigger|grilletto}}?",
       "options": {
         "a": "Il fucile si ferma sul piattello",
         "b": "Il fucile accelera davanti al piattello",
@@ -90,7 +90,7 @@
       "explain": "«Riding the target» significa seguirlo troppo a lungo, così il piattello rallenta, scende o scappa e la linea si perde."
     },
     "lead-pull-away-q3": {
-      "q": "Rispetto all'anticipo mantenuto, l'anticipo percepito nel pull-away è di solito…",
+      "q": "Rispetto al {{term:maintained-lead|anticipo mantenuto}}, il {{term:perceived-lead|anticipo percepito}} nel pull-away è di solito…",
       "options": {
         "a": "minore, perché l'accelerazione aggiunge anticipo",
         "b": "maggiore, perché il fucile parte sul piattello",

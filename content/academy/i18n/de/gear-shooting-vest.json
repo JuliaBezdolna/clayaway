@@ -29,11 +29,11 @@
   "origin": null
  },
  "title": "Die Schießweste",
- "summary": "Warum ein Schütze eine Weste trägt, was sie hat (Taschen, Schulterpolster, die {{tm:sporting}}-Westenmarkierung), warum {{tm:compak}} keine Linie braucht, und wie Sie Ihre erste Weste wählen.",
+ "summary": "Warum ein Schütze eine Weste trägt, was sie hat – Taschen, {{term:shoulder-pad|Schulterpolster}}, die {{term:jacket-line|Westenmarkierung}} für {{tm:sporting}} –, warum {{tm:compak}} keine Linie braucht, und wie Sie Ihre erste Weste wählen.",
  "body": {
   "gear-shooting-vest-p1": "Die {{term:shooting-vest|Schießweste}} ist der sichtbarste Teil der Ausrüstung eines Schützen. Es geht nicht um Mode: Die Weste hält Patronen griffbereit, schützt die Schulter vor {{term:recoil|Rückstoß}} und hilft, die Flinte jedes Mal gleich anzuschlagen.",
-  "gear-shooting-vest-p2": "Taschen sind das Herz einer Weste. Meist gibt es zwei große vordere Taschen für Patronen, links und rechts, sodass Sie mit beiden Händen laden können. Oft gibt es eine separate Tasche oder einen Netzbeutel für {{term:empties|leere Hülsen}} und kleine Taschen für Chokes, einen Chokeschlüssel und Ohrstöpsel. Patronen dürfen beim Herunterbeugen nicht herausfallen.",
-  "gear-shooting-vest-p3": "An der Schulter sitzt ein {{term:shoulder-pad|Schulterpolster}}, ein glatter Einsatz aus weicherem oder festerem Material. Der Schaft liegt darauf: Die glatte Oberfläche verhakt sich beim Anschlagen nicht im Stoff, und die Polsterung dämpft den Rückstoß etwas. Das Polster muss auf der Schulter sitzen, mit der Sie schießen, und viele Westen haben eines auf beiden Seiten.",
+  "gear-shooting-vest-p2": "Taschen sind das Herz einer Weste. Meist gibt es zwei große vordere Taschen für Patronen, links und rechts, sodass Sie mit beiden Händen laden können. Oft gibt es eine separate Tasche oder einen Netzbeutel für {{term:empties|leere Hülsen}} und kleine Taschen für Chokes, einen {{term:choke-key|Chokeschlüssel}} und {{term:earplugs|Ohrstöpsel}}. Patronen dürfen beim Herunterbeugen nicht herausfallen.",
+  "gear-shooting-vest-p3": "An der Schulter sitzt ein {{term:shoulder-pad|Schulterpolster}}, ein glatter Einsatz aus weicherem oder festerem Material. Der {{term:stock|Schaft}} liegt darauf: Die glatte Oberfläche verhakt sich beim {{term:gun-mount|Anschlagen}} nicht im Stoff, und die Polsterung dämpft den Rückstoß etwas. Das Polster muss auf der Schulter sitzen, mit der Sie schießen, und viele Westen haben eines auf beiden Seiten.",
   "gear-protection-clothes-p3": "Bei {{tm:sporting}} trägt die Weste eine kontrastierende waagerechte {{term:jacket-line|Linie}} {{fact:rules.sporting-jacket-line}} und parallel dazu. Bevor Sie die Scheibe abrufen und bis sie erscheint, muss die Oberseite des Schafts darunter bleiben, und der Schiedsrichter prüft das. Bei {{tm:compak}} gibt es keine solche Linie, weil die {{term:gun-position|Flintenhaltung}} beim Abruf frei ist.",
   "gear-shooting-vest-p4": "Viele Westen werden mit bereits aufgenähter Linie verkauft; falls nicht, können Sie eine aufnähen oder aufkleben. Planen Sie, beide Disziplinen zu schießen, wählen Sie eine Weste mit Linie: Sie funktioniert überall.",
   "women-clothing-community-start-p1": "Westen gibt es in verschiedenen Schnitten, auch in für Frauen gemachten Schnitten, die Brust und schmalere Schultern berücksichtigen. Passt die Weste, sitzt das Polster genau dort, wo der Schaft hinkommt, und steht dem Anschlagen nicht im Weg. Bei einer nicht passenden Weste kann sich der Schaft im Stoff oder an Nähten verhaken.",
@@ -61,17 +61,17 @@
    "explain": "Die {{tm:sporting}}-Regeln verlangen eine Linie 25 cm unter der Schulterachse und parallel dazu."
   },
   "gear-shooting-vest-q2": {
-   "q": "Wofür ist das Schulterpolster an einer Weste da?",
+   "q": "Wofür ist das {{term:shoulder-pad|Schulterpolster}} an einer Weste da?",
    "options": {
     "a": "Damit der Schaft glatt an seinen Platz gleitet",
     "b": "Um Ersatzchokes und einen Schlüssel zu tragen",
     "c": "Um die Startnummer des Schützen zu zeigen",
     "d": "Um die Weste im Winter warm zu halten"
    },
-   "explain": "Ein glattes Polster hilft bei einem saubereren Anschlag und dämpft etwas Rückstoß."
+   "explain": "Ein glattes Polster hilft bei einem saubereren {{term:gun-mount|Anschlag}} und dämpft etwas {{term:recoil|Rückstoß}}."
   },
   "gear-shooting-vest-q3": {
-   "q": "Verlangen die {{tm:compak}}-Regeln eine Westenmarkierung?",
+   "q": "Verlangen die {{tm:compak}}-Regeln eine {{term:jacket-line|Westenmarkierung}}?",
    "options": {
     "a": "Ja, genau wie bei {{tm:sporting}}",
     "b": "Ja, aber nur für Junioren",
@@ -88,7 +88,7 @@
     "c": "Sie ist das billigste Modell im Geschäft",
     "d": "Sie ersetzt die Linie bei {{tm:sporting}}"
    },
-   "explain": "Ein Schnitt, der Brust und Schultern berücksichtigt, hält das Polster an Ort und Stelle, sodass es den Anschlag nicht behindert."
+   "explain": "Ein Schnitt, der Brust und Schultern berücksichtigt, hält das Polster an Ort und Stelle, sodass es den {{term:gun-mount|Anschlag}} nicht behindert."
   }
  }
 }

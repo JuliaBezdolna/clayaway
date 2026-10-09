@@ -23,11 +23,15 @@
     "mind-process-goals-q2": "ff03468d",
     "mind-process-goals-q3": "cbdf0fcb"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Obiettivi di processo e il punteggio",
   "summary": "Perché gli obiettivi su cosa fate tendono ad aiutare più degli obiettivi su vincere, e come fissare obiettivi per la vostra prima gara.",
   "body": {
-    "mind-process-goals-p1": "Ci sono tre tipi di obiettivi. Un {{term:process-goal|obiettivo di processo}} riguarda come tirate: «la routine completa su ogni piattello». Uno standard personale è il vostro livello: «22 su 25 su questo {{term:layout|percorso}}». Un obiettivo di risultato riguarda l'esito: «vincere» o «finire tra i primi tre».",
+    "mind-process-goals-p1": "Ci sono tre tipi di obiettivi. Un {{term:process-goal|obiettivo di processo}} riguarda come tirate: «la {{term:pre-shot-routine|routine pre-tiro}} completa su ogni piattello». Uno standard personale è il vostro livello: «22 su 25 su questo {{term:layout|percorso}}». Un obiettivo di risultato riguarda l'esito: «vincere» o «finire tra i primi tre».",
     "mind-process-goals-p2": "In una revisione di 27 studi, gli obiettivi di processo hanno aiutato i risultati di più, gli standard personali un po', e gli obiettivi di risultato quasi per niente. Alcuni di questi risultati si basano solo su pochi studi, quindi la parte affidabile è l'ordine: prima il processo, poi il vostro standard personale, poi il risultato. Gli studi non vengono dal tiro al piattello, quindi molto probabilmente funziona allo stesso modo nel {{tm:sporting}} e nel {{tm:compak}}.",
     "mind-process-goals-p3": "Un risultato dipende anche dagli altri: potete tirare molto bene e perdere comunque. Un obiettivo di processo resta nelle vostre mani su ogni piattello.",
     "mind-process-goals-steps": [
@@ -48,25 +52,37 @@
   "phrases": {},
   "key_points": {
     "mind-process-goals-kp1": "Gli obiettivi di processo su come tirate tendono ad aiutare più degli obiettivi su vincere.",
-    "mind-process-goals-kp2": "Fissate 2-3 obiettivi di processo e uno standard personale realistico.",
+    "mind-process-goals-kp2": "Fissate 2-3 {{term:process-goal|obiettivi di processo}} e uno standard personale realistico.",
     "mind-process-goals-kp3": "Controllate il punteggio sullo statino, non durante la pedana.",
     "mind-process-goals-kp4": "Dopo la gara, riesaminate ogni obiettivo: raggiunto o no."
   },
   "did_you_know": "Alcuni tiratori trattano una serie di 25 piattelli come 25 piccole gare di un piattello ciascuna. È un altro modo di dire «un piattello alla volta».",
   "quiz": {
     "mind-process-goals-q1": {
-      "q": "Quale è un obiettivo di processo?",
-      "options": { "a": "Vincere il campionato di club di quest'anno", "b": "Rompere 22 su 25 su questo percorso", "c": "La routine completa su ogni piattello" },
+      "q": "Quale è un {{term:process-goal|obiettivo di processo}}?",
+      "options": {
+        "a": "Vincere il campionato di club di quest'anno",
+        "b": "Rompere 22 su 25 su questo {{term:layout|percorso}}",
+        "c": "La {{term:pre-shot-routine|routine pre-tiro}} completa su ogni piattello"
+      },
       "explain": "Un obiettivo di processo riguarda come tirate, cosa che resta nelle vostre mani su ogni piattello."
     },
     "mind-process-goals-q2": {
       "q": "Quale tipo di obiettivo ha aiutato di più i risultati nelle ricerche?",
-      "options": { "a": "Gli obiettivi di processo", "b": "Gli obiettivi di risultato", "c": "Tutti i tipi hanno aiutato ugualmente" },
+      "options": {
+        "a": "I obiettivi di processo",
+        "b": "Gli obiettivi di risultato",
+        "c": "Tutti i tipi hanno aiutato ugualmente"
+      },
       "explain": "Gli obiettivi di processo hanno aiutato di più, gli standard personali un po', gli obiettivi di risultato quasi per niente."
     },
     "mind-process-goals-q3": {
-      "q": "Che tipo di obiettivo è «22 su 25 su questo percorso»?",
-      "options": { "a": "Un obiettivo di risultato", "b": "Uno standard personale", "c": "Un obiettivo di processo" },
+      "q": "Che tipo di obiettivo è «22 su 25 su questo {{term:layout|percorso}}»?",
+      "options": {
+        "a": "Un obiettivo di risultato",
+        "b": "Uno standard personale",
+        "c": "Un obiettivo di processo"
+      },
       "explain": "È il vostro standard personale: sta a metà tra un obiettivo di processo e un obiettivo di risultato."
     }
   }

@@ -31,12 +31,12 @@
     "origin": "interpreter-academy"
   },
   "title": "Prisidėjimo klaidos: vėlus, veidas prie šautuvo, pakreipimas",
-  "summary": "Prisidėjimo klaidos, dėl kurių promašuojama: pavėluotas ar per ankstyvas prisidėjimas, veidas prie šautuvo ir pakreiptas šautuvas, taip pat šautuvo padėties taisyklės {{tm:sporting}} ir {{tm:compak}} rungtyse.",
+  "summary": "Prisidėjimo klaidos, dėl kurių nepataikoma: pavėluotas ar per ankstyvas prisidėjimas, veidas prie šautuvo ir pakreiptas šautuvas, taip pat šautuvo padėties taisyklės {{tm:sporting}} ir {{tm:compak}} rungtyse.",
   "body": {
     "faults-mount-errors-p1": "Daug nepataikymų pradeda ne mostas, o prisidėjimas: judesys, kuriuo šautuvas pakeliamas prie skruosto ir peties. Trenerio žodžiai apie tai trumpi ir apie kūną: galva, skruostas, petys, rankos.",
-    "faults-mount-errors-p2": "Vėlus prisidėjimas (late mount): šautuvas pasiekia petį jau po to momento, kai turėjo nuskambėti šūvis, todėl šaulys skuba arba iššauna dar nepriglaudęs skruosto. Priešinga klaida – per anksti baigtas prisidėjimas, po kurio šautuvas laukia, nejudrus ir sunkus. Taisymas: „move, mount, shoot“ (judesys, prisidėjimas, šūvis), kai vamzdžiai pradeda judėti kartu su taikiniu, o prisidėjimas baigiamas kartu su šūviu.",
-    "faults-mount-errors-p3": "Face to the gun („veidas prie šautuvo“): vietoj to, kad pakeltų buožę prie veido, šaulys nuleidžia galvą jai priešais. Akis kaskart atsiduria kitoje vietoje, o atatranka trenkia į skruostą. Treneriai sako: „bring the gun to your face, not your face to the gun“ („šautuvą prie veido, o ne veidą prie šautuvo“). Skauda ir tada, kai buožė atsiremia į ranką, o ne į peties „kišenę“.",
-    "faults-mount-errors-p4": "Pakreipimas (canting): šūvio metu šautuvas pakreiptas į šoną, ir šratai nukrypsta nuo linijos. Dažnai tai būna kartu su nuleistu pečiu. Taisymas: „keep the gun level“ (laikykite šautuvą lygiai), „turn from the hips“ (sukitės iš klubų).",
+    "faults-mount-errors-p2": "{{term:late-mount|Vėlus prisidėjimas}}: šautuvas pasiekia petį jau po to momento, kai turėjo nuskambėti šūvis, todėl šaulys skuba arba iššauna dar nepriglaudęs skruosto. Priešinga klaida – per anksti baigtas prisidėjimas, po kurio šautuvas laukia, nejudrus ir sunkus. Taisymas: „move, mount, shoot“ (judesys, prisidėjimas, šūvis), kai vamzdžiai pradeda judėti kartu su taikiniu, o prisidėjimas baigiamas kartu su šūviu.",
+    "faults-mount-errors-p3": "Face to the gun („veidas prie šautuvo“): vietoj to, kad pakeltų {{term:stock|buožę}} prie veido, šaulys nuleidžia galvą jai priešais. Akis kaskart atsiduria kitoje vietoje, o {{term:recoil|atatranka}} trenkia į skruostą. Treneriai sako: „bring the gun to your face, not your face to the gun“ („šautuvą prie veido, o ne veidą prie šautuvo“). Skauda ir tada, kai buožė atsiremia į ranką, o ne į peties „kišenę“.",
+    "faults-mount-errors-p4": "{{term:canting|Pakreipimas}}: šūvio metu šautuvas pakreiptas į šoną, ir šratai nukrypsta nuo linijos. Dažnai tai būna kartu su nuleistu pečiu. Taisymas: „keep the gun level“ (laikykite šautuvą lygiai), „turn from the hips“ (sukitės iš klubų).",
     "faults-mount-errors-p5": "FITASC {{tm:sporting}} varžybose šautuvo negalima prisidėti, kol nepasirodė taikinys, tad „pre-mount this one“ – tik treniruočių pratimas. Ankstyvas prisidėjimas {{tm:sporting}} varžybose reiškia įspėjimą ir geltonąją kortelę. {{tm:compak}} rungtyje šautuvas duodant komandą gali būti jau prie peties.",
     "faults-mount-errors-more": "Kaip žingsnis po žingsnio atrodo geras prisidėjimas, rasite pamokoje {{lesson:technique-gun-mount}}."
   },
@@ -90,7 +90,7 @@
         "c": "Šautuvas sustojo šūvio metu",
         "d": "Duodant komandą saugiklis tebebuvo įjungtas"
       },
-      "explain": "Pakreipimas (canting) – šautuvo pasvirimas į šoną, dėl kurio šūvis nukrypsta nuo linijos."
+      "explain": "{{term:canting|Pakreipimas}} – šautuvo pasvirimas į šoną, dėl kurio šūvis nukrypsta nuo linijos."
     },
     "faults-mount-errors-q3": {
       "q": "Kuri nuoroda ištaiso klaidą „face to the gun“?",

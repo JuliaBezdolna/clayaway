@@ -29,10 +29,10 @@
   "origin": null
  },
  "title": "Choke-Namen, Engungen und Markierungen",
- "summary": "Von Cylinder bis Full: typische Engungen in Millimetern und Thou, die Bruchzahlen 1/4–1/2–3/4 und die Sternmarkierungen, die bei {{tm:sporting}} und {{tm:compak}} verwendet werden. Die Werte sind ungefähr und unterscheiden sich zwischen den Herstellern.",
+ "summary": "Von Cylinder bis Full: typische {{term:constriction|Engungen|pl}} in Millimetern und Thou, die Bruchzahlen 1/4–1/2–3/4 und die {{term:star-marks|Sternmarkierungen|pl}}, die bei {{tm:sporting}} und {{tm:compak}} verwendet werden. Die Werte sind ungefähr und unterscheiden sich zwischen den Herstellern.",
  "body": {
   "gear-chokes-p3": "Die Namen stammen aus dem Englischen, von offen bis eng: Cylinder, Improved Cylinder, Light Modified, Modified, Improved Modified, Full. In Europa sagt man oft die Bruchzahlen: Quarter (Improved Cylinder), Half (Modified), Three-Quarter (Improved Modified) und Full. Viele italienische Flinten markieren Chokes mit Sternen, und dort gilt die umgekehrte Regel: mehr Sterne bedeutet einen offeneren Choke.",
-  "chokes-names-and-marks-p1": "Im Folgenden typische {{term:constriction|Engungen}} für das 12er-Kaliber. Ein Thou ist ein Tausendstel Zoll, etwa 0,025 mm. Die tatsächlichen Werte hängen vom Hersteller und sogar von der Bohrung des jeweiligen Laufs ab.",
+  "chokes-names-and-marks-p1": "Im Folgenden typische {{term:constriction|Engungen|pl}} für das {{term:gauge|Kaliber}} 12. Ein Thou ist ein Tausendstel Zoll, etwa 0,025 mm. Die tatsächlichen Werte hängen vom Hersteller und sogar von der Bohrung des jeweiligen Laufs ab.",
   "chokes-names-and-marks-p2": [
    "Cylinder: keine Engung, 0 mm.",
    "1/8: eine sehr leichte Engung, etwa 0,1–0,15 mm (4–6 Thou), zwischen Cylinder und Improved Cylinder; die Hersteller benennen sie unterschiedlich.",
@@ -43,7 +43,7 @@
    "Full: etwa 0,9–1 mm (35–40 Thou), 1/1 oder einfach Full. Engere Chokes (Extra Full) gibt es, aber das Wurfscheibenschießen braucht sie selten."
   ],
   "chokes-names-and-marks-p5": "Die Bruchzahlen sind im Gespräch praktisch, aber sie sind keine exakten Millimeterangaben: Das 1/2 eines Herstellers kann leicht von dem eines anderen abweichen.",
-  "chokes-names-and-marks-p6": "Italienische Hersteller, zum Beispiel Beretta, verwenden {{term:star-marks|Sternmarkierungen}}: fünf Sterne für Cylinder, vier für Improved Cylinder (1/4), drei für Modified (1/2), zwei für Improved Modified (3/4) und einer für Full. Andere Hersteller schneiden Kerben in den Rand der Hülse, verwenden farbige Ringe oder drucken den Namen (IC, M, LM).",
+  "chokes-names-and-marks-p6": "Italienische Hersteller, zum Beispiel Beretta, verwenden {{term:star-marks|Sternmarkierungen|pl}}: fünf Sterne für Cylinder, vier für Improved Cylinder (1/4), drei für Modified (1/2), zwei für Improved Modified (3/4) und einer für Full. Andere Hersteller schneiden Kerben in den Rand der Hülse, verwenden farbige Ringe oder drucken den Namen (IC, M, LM).",
   "chokes-names-and-marks-p7": "Die verlässlichste Quelle ist die Markierung auf dem Choke selbst oder das Handbuch der Flinte. Im Zweifel kann ein {{term:gunsmith|Büchsenmacher}} die Engung in einer Minute mit einer Lehre messen."
  },
  "note": {},
@@ -58,7 +58,7 @@
  "did_you_know": "Moderne Wettkampfläufe sind oft „overbored“: Das Innere ist etwas weiter gefertigt als der Standard für das Kaliber. Derselbe Choke mit demselben Namen kann also in verschiedenen Flinten eine leicht andere Engung ergeben: Entscheidend ist der Unterschied zwischen Bohrung und Choke.",
  "quiz": {
   "chokes-names-and-marks-q1": {
-   "q": "Wie groß ist die ungefähre Engung eines Modified-Chokes (1/2) im Kaliber 12?",
+   "q": "Wie groß ist die ungefähre {{term:constriction|Engung}} eines Modified-Chokes (1/2) im {{term:gauge|Kaliber}} 12?",
    "options": {
     "a": "0 mm",
     "b": "Etwa 0,25 mm",
@@ -95,7 +95,7 @@
     "c": "Modified",
     "d": "Cylinder"
    },
-   "explain": "Cylinder hat überhaupt keine Engung."
+   "explain": "Cylinder hat überhaupt keine {{term:constriction|Engung}}."
   },
   "gear-chokes-q3": {
    "q": "Bei einer italienischen Flinte ist ein Choke mit fünf Sternen …",
@@ -105,7 +105,7 @@
     "c": "ein defekter Choke",
     "d": "ein Büchsenlauf"
    },
-   "explain": "Bei Sternmarkierungen bedeuten mehr Sterne einen offeneren Choke."
+   "explain": "Bei {{term:star-marks|Sternmarkierungen|pl}} bedeuten mehr Sterne einen offeneren Choke."
   }
  }
 }

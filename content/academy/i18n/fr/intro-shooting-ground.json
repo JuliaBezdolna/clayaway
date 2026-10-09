@@ -27,12 +27,12 @@
     "origin": null
   },
   "title": "À quoi ressemble un stand de tir",
-  "summary": "Le club-house, les parcours de {{tm:sporting}}, le terrain de {{tm:compak}} et les lanceurs : ce que vous verrez lors de votre première visite.",
+  "summary": "Le club-house, les {{term:layout|parcours|pl}} de {{tm:sporting}}, le terrain de {{tm:compak}} et les {{term:trap|lanceurs}} : ce que vous verrez lors de votre première visite.",
   "body": {
-    "intro-shooting-ground-p1": "Un {{term:range|stand de tir}}, souvent simplement appelé « le stand », comprend généralement un club-house avec l'accueil, un café et des {{term:gun-rack|râteliers}}, des terrains d'entraînement et les parcours utilisés pour les compétitions.",
-    "intro-shooting-ground-p2": "Pour le {{tm:sporting}}, le terrain est divisé en {{term:layout|parcours}} : des groupes de {{term:shooting-stand|postes de tir}} depuis lesquels on tire une série de {{fact:rules.round-targets}}. Les lanceurs sont souvent cachés derrière des buissons, dans des fossés, ou installés sur des tours. Les plateaux volent alors comme le gibier (les oiseaux et les lièvres que chassent les chasseurs) : au-dessus d'un champ, depuis des arbres, au-dessus de l'eau. Comment fonctionnent un parcours et une série : {{lesson:targets-sporting-layout}}.",
+    "intro-shooting-ground-p1": "Un {{term:range|stand de tir}}, souvent simplement appelé « le stand », comprend généralement un club-house avec l'accueil, un café et des {{term:gun-rack|râteliers}}, des terrains d'entraînement et les {{term:layout|parcours|pl}} utilisés pour les compétitions.",
+    "intro-shooting-ground-p2": "Pour le {{tm:sporting}}, le terrain est divisé en {{term:layout|parcours}} : des groupes de {{term:shooting-stand|postes de tir}} depuis lesquels on tire une série de {{fact:rules.round-targets}}. Les {{term:trap|lanceurs}} sont souvent cachés derrière des buissons, dans des fossés, ou installés sur des tours. Les plateaux volent alors comme le gibier (les oiseaux et les lièvres que chassent les chasseurs) : au-dessus d'un champ, depuis des arbres, au-dessus de l'eau. Comment fonctionnent un parcours et une série : {{lesson:targets-sporting-layout}}.",
     "intro-shooting-ground-p3": "Un poste de {{tm:sporting}} mesure {{fact:basics.sporting-stand-size}}. Il doit être plat autant que possible et ne doit pas être glissant, car c'est une question de sécurité. Devant le poste se trouve le {{term:target-menu|menu}} : il indique les lanceurs dans l'ordre de tir et les plateaux particuliers.",
-    "intro-shooting-ground-p4": "Le {{tm:compak}} est installé sur un seul terrain, où l'on trouve {{fact:basics.compak-field}}. Chaque poste mesure 1 × 1 m, avec 2 à 5 m entre les centres des postes voisins. Les lanceurs peuvent être placés devant ou à côté des postes ; un lanceur placé derrière se trouve sur une {{term:tower|tour}} d'au moins 4 m de haut. Chaque poste dispose d'un {{term:firing-angle-limiter|limiteur d'angle de tir}}, un cadre qui empêche le fusil de pivoter dans une direction dangereuse. Pour en savoir plus : {{lesson:targets-compak-layout}}.",
+    "intro-shooting-ground-p4": "Le {{tm:compak}} est installé sur un seul terrain, où l'on trouve {{fact:basics.compak-field}}. Chaque poste mesure 1 × 1 m, avec 2 à 5 m entre les centres des postes voisins. Les lanceurs peuvent être placés devant ou à côté des postes ; un lanceur placé derrière se trouve sur un {{term:tower|tour}} d'au moins 4 m de haut. Chaque poste dispose d'un {{term:firing-angle-limiter|limiteur d'angle de tir}}, un cadre qui empêche le fusil de pivoter dans une direction dangereuse. Pour en savoir plus : {{lesson:targets-compak-layout}}.",
     "intro-shooting-ground-p5": "Les plateaux existent en plusieurs types : {{term:standard-target|normal}}, {{term:midi|midi}}, {{term:mini|mini}} (aussi appelé super mini), {{term:battue|battue}} (fin et plat), {{term:rabbit|rabbit}} (il roule au sol) et {{term:flash-target|flash}}. Un plateau flash laisse un nuage de poudre bien visible quand il est touché. La couleur est choisie pour que le plateau se détache bien du ciel ou des arbres.",
     "intro-shooting-ground-p6": "Lors de votre première visite, regardez les panneaux et le marquage : où vous pouvez marcher, où se tiennent les spectateurs, où le tir est autorisé. Chaque stand a ses propres règles : demandez-les avant votre premier coup. Les habitudes de sécurité de base sont dans {{lesson:safety-core-rules}}."
   },
@@ -46,7 +46,7 @@
   },
   "quiz": {
     "intro-shooting-ground-q1": {
-      "q": "Quelle est la taille d'un poste de tir en {{tm:sporting}} ?",
+      "q": "Quelle est la taille d'un {{term:shooting-stand|poste de tir}} en {{tm:sporting}} ?",
       "options": {
         "a": "Un carré de 1 m ou un cercle de 1 m",
         "b": "Un carré de 3 m avec une clôture",
@@ -61,7 +61,7 @@
         "b": "Les lanceurs dans l'ordre de tir",
         "c": "Les scores de la planche"
       },
-      "explain": "Le menu devant le poste indique les lanceurs dans l'ordre de tir et les plateaux particuliers."
+      "explain": "Le menu devant le {{term:shooting-stand|poste}} indique les lanceurs dans l'ordre de tir et les plateaux particuliers."
     },
     "intro-shooting-ground-q3": {
       "q": "Quel plateau roule au sol ?",
@@ -73,13 +73,13 @@
       "explain": "Le plateau rabbit roule au sol et bondit sur les irrégularités du terrain."
     },
     "intro-shooting-ground-q-fal": {
-      "q": "À quoi sert le cadre présent à chaque poste de {{tm:compak}} ?",
+      "q": "À quoi sert le cadre présent à chaque {{term:shooting-stand|poste}} de {{tm:compak}} ?",
       "options": {
         "a": "Il porte le menu",
         "b": "Il limite le mouvement du fusil",
         "c": "Il marque la place des spectateurs"
       },
-      "explain": "Le limiteur d'angle de tir empêche le fusil de pointer dans une direction dangereuse et maintient le tireur à l'intérieur du poste."
+      "explain": "Le {{term:firing-angle-limiter|limiteur d'angle de tir}} empêche le fusil de pointer dans une direction dangereuse et maintient le tireur à l'intérieur du poste."
     }
   },
   "did_you_know": "Un plateau flash contient une poudre vive : une touche se voit même de loin. Les spectateurs adorent ça."

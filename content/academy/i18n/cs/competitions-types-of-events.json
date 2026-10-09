@@ -33,13 +33,13 @@
   "body": {
     "competitions-types-of-events-p1": "Závody ve {{tm:sporting}} a {{tm:compak}} sahají od přátelského {{term:club-shoot|klubového závodu}} až po {{term:championship|mistrovství}} světa. Mezinárodní pravidla obou disciplín píše {{term:fitasc|FITASC}}, mezinárodní federace, která je řídí. Jak je tento sport organizovaný, vysvětluje lekce {{lesson:intro-fitasc-and-organisation}}.",
     "competitions-types-of-events-p2": "Klubový závod je dobré místo, kde začít. Pořádají je kluby a střelnice, často o víkendech. Terčů bývá méně než na velkých závodech, tempo je klidnější a lidé vám rádi vysvětlí, co dělat. Počet terčů, formát a část pravidel určuje {{term:organiser|pořadatel}}, takže si přečtěte program závodu.",
-    "competitions-types-of-events-p3": "Dál následují národní závody: mistrovství státu a poháry, které pořádá {{term:national-federation|národní svaz}} nebo klub, který k tomu pověří. Jejich pravidla bývají blízká mezinárodním a výsledky se mohou počítat při nominaci do národního družstva.",
+    "competitions-types-of-events-p3": "Dál následují národní závody: mistrovství státu a poháry, které pořádá {{term:national-federation|národní svaz}} nebo klub, který k tomu pověří. Jejich pravidla bývají blízká mezinárodním a výsledky se mohou počítat při nominaci do národního {{term:team|družstva}}.",
     "competitions-types-of-events-p4": "Mezinárodní závody FITASC jsou otevřené střelcům z mnoha zemí. Patří mezi ně závody {{term:grand-prix|Grand Prix}} a na nejvyšší úrovni mistrovství Evropy a světa. Mezinárodní závod bývá obvykle {{fact:basics.international-targets}}, rozložený na několik dní.",
     "competitions-types-of-events-cmp1": {
       "sporting": "200 terčů se střílí na osmi {{term:layout|střelištích}}, jedna {{term:round|položka}} 25 terčů na každém. Na závodech Grand Prix je povolená i „linie“: řada {{fact:competitions.sporting-grand-prix-line}}.",
-      "compak": "200 terčů se střílí na osmi polích Compak (jedno pole Compak má pět stanovišť a šest vrhaček). Pole jsou čtyř druhů: liší se tím, kolik jednotlivých terčů a dvojstřelů se střílí z každého stanoviště a jaký typ dvojstřelu to je. Na mistrovství kontinentu a světa staví pořadatelský klub {{fact:competitions.compak-championship-machines}} (šest na každé pole) jen pro dané závody, aby měli všichni stejné podmínky."
+      "compak": "200 terčů se střílí na osmi polích Compak (jedno pole Compak má pět stanovišť a šest vrhaček). Pole jsou čtyř druhů: liší se tím, kolik jednotlivých terčů a dvojstřelů se střílí z každého stanoviště a jaký typ {{term:double|dvojstřelu}} to je. Na mistrovství kontinentu a světa staví pořadatelský klub {{fact:competitions.compak-championship-machines}} (šest na každé pole) jen pro dané závody, aby měli všichni stejné podmínky."
     },
-    "competitions-types-of-events-p5": "Velká mistrovství hodnotí kromě jednotlivců i {{term:team|družstva}}: výsledky členů národního družstva se sčítají. Střelci se navíc řadí do {{term:category|kategorií}} podle věku a pohlaví. Obojí vysvětluje lekce {{lesson:competitions-categories-and-shoot-offs}}.",
+    "competitions-types-of-events-p5": "Velká mistrovství hodnotí kromě jednotlivců i {{term:team|družstva}}: výsledky členů národního družstva se sčítají. Střelci se navíc řadí do kategorií podle věku a pohlaví. Obojí vysvětluje lekce {{lesson:competitions-categories-and-shoot-offs}}.",
     "competitions-types-of-events-start": "Řada trenérů doporučuje začít s několika klubovými závody. Zvyknete si na harmonogram, {{term:squad|skupinu}} i {{term:referee|rozhodčího}} bez velkého tlaku. Jak se přihlásit: {{lesson:competitions-how-to-enter}}."
   },
   "note": {
@@ -61,7 +61,7 @@
         "b": "200",
         "c": "150"
       },
-      "explain": "Mezinárodní závod bývá obvykle 200 terčů, které se střílí po položkách 25."
+      "explain": "Mezinárodní závod bývá obvykle 200 terčů, které se střílí po {{term:round|položkách}} 25."
     },
     "competitions-types-of-events-q2": {
       "q": "Kdo obvykle určuje formát klubového závodu?",
@@ -73,7 +73,7 @@
       "explain": "Počet terčů a formát klubového závodu určuje pořadatel a program uvádí, jaké jsou."
     },
     "competitions-types-of-events-q3": {
-      "q": "Proč se na mistrovství kontinentu a světa ve {{tm:compak}} používají nové vrhačky?",
+      "q": "Proč se na mistrovství kontinentu a světa v {{tm:compak}} používají nové {{term:trap|vrhačky}}?",
       "options": {
         "a": "Aby byly podmínky pro všechny stejné",
         "b": "Protože staré vrhačky zakazuje zákon",

@@ -21,17 +21,21 @@
     "culture-traditions-q3": "8144c5e3",
     "culture-traditions-q-thanks": "8ea5b06e"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Traditionen: Siegerehrung, Mannschaften und Bräuche",
-  "summary": "Wie Zeremonien und Siegerehrung ablaufen, wie Mannschaften gegeneinander antreten, und welche Bräuche einen Wettkampf in {{tm:sporting}} oder {{tm:compak}} zu einem Fest machen.",
+  "summary": "Wie Zeremonien und {{term:prize-giving|Siegerehrung}} ablaufen, wie {{term:team|Mannschaften|pl}} gegeneinander antreten, und welche Bräuche einen Wettkampf in {{tm:sporting}} oder {{tm:compak}} zu einem Fest machen.",
   "body": {
-    "culture-traditions-p1": "Ein Wettkampf ist mehr als ein Ergebnis. Schützen pflegen Bräuche, die aus einem langen Tag ein gemeinsames Fest machen: die Zeremonien, die Siegerehrung, Mannschaftsgeist und kleine Höflichkeiten auf dem Gelände.",
+    "culture-traditions-p1": "Ein Wettkampf ist mehr als ein Ergebnis. Schützen pflegen Bräuche, die aus einem langen Tag ein gemeinsames Fest machen: die Zeremonien, die {{term:prize-giving|Siegerehrung}}, Mannschaftsgeist und kleine Höflichkeiten auf dem Gelände.",
     "culture-traditions-ties": "Haben zwei oder mehr Schützen für einen der ersten drei Plätze das gleiche Ergebnis, entscheidet ein {{term:shoot-off|Stechen}}: Sie schießen zusätzliche Scheiben, und das bessere Ergebnis gewinnt. Das ist oft der spannendste Moment des Tages, und Zuschauer versammeln sich darum. Wie Stechen und andere Gleichstände geregelt sind: {{lesson:competitions-categories-and-shoot-offs}}.",
     "culture-traditions-p4": "Mannschaftswettkämpfe sind eine eigene Tradition. Eine {{term:team|Mannschaft}} besteht aus ein paar Schützen eines Landes, bei Vereinswettkämpfen aus einem Verein. Ihre Ergebnisse werden für die Mannschaftswertung addiert. Mannschaften schießen kein Stechen. Stehen zwei Mannschaften gleich, gewinnt die, deren Schützen in der letzten Runde des Wettkampfs zusammen mehr Treffer hatten. Ist das auch gleich, entscheidet die Runde davor, und so weiter.",
     "culture-traditions-ceremony": "Internationale Wettkämpfe beginnen und enden mit einer Zeremonie. Bei der Eröffnung ziehen die Nationalmannschaften in ihrer Mannschaftskleidung oder in gepflegter Hose mit Blazer ein. Beim Abschluss müssen alle Preisträger zur {{term:prize-giving|Siegerehrung}} erscheinen, in derselben Kleidung.",
     "culture-traditions-dress": "Diese Zeremonienregel gilt in beiden Disziplinen gleich. Vereinswettkämpfe sind meist weniger formell, lesen Sie also das Programm. Die {{term:dress-code|Kleiderordnung}} am Stand ist eine eigene Regel: {{lesson:rules-dress-and-safety}}.",
     "culture-traditions-p5": "Auf das Podium zu treten ist auch ein Zeichen des Respekts: für die Rivalen, die neben Ihnen geschossen haben, und für die Menschen, die den Wettkampf ausgerichtet haben.",
-    "culture-traditions-p6": "Es gibt auch informelle Bräuche: dem Sieger gratulieren, ein Foto mit der {{term:squad|Rotte}} (der Gruppe, mit der man geschossen hat), ein Dank an die {{term:organiser|Veranstalter}}, die {{term:referee|Schiedsrichter}} und die {{term:trapper|Puller}}. Umgangsformen direkt am Stand: {{lesson:culture-sportsmanship-referee}}."
+    "culture-traditions-p6": "Es gibt auch informelle Bräuche: dem Sieger gratulieren, ein Foto mit der {{term:squad|Rotte}} – der Gruppe, mit der man geschossen hat –, ein Dank an die {{term:organiser|Veranstalter}}, die {{term:referee|Schiedsrichter}} und die {{term:trapper|Puller}}. Umgangsformen direkt am Stand: {{lesson:culture-sportsmanship-referee}}."
   },
   "note": {},
   "phrases": {},
@@ -47,13 +51,13 @@
       "q": "Was müssen Preisträger bei einem internationalen Wettkampf tun?",
       "options": {
         "a": "Einen Mannschaftskollegen den Preis abholen lassen",
-        "b": "Zur Siegerehrung erscheinen, passend gekleidet",
-        "c": "Auf dem Podium ihre Schießweste tragen"
+        "b": "Zur {{term:prize-giving|Siegerehrung}} erscheinen, passend gekleidet",
+        "c": "Auf dem Podium ihre {{term:shooting-vest|Schießweste}} tragen"
       },
       "explain": "Alle Preisträger nehmen an der Abschlusszeremonie teil, in Mannschaftskleidung oder in gepflegter Hose mit Blazer."
     },
     "culture-traditions-q3": {
-      "q": "Wie werden punktgleiche Mannschaften getrennt?",
+      "q": "Wie werden punktgleiche {{term:team|Mannschaften|pl}} getrennt?",
       "options": {
         "a": "Nach den Ergebnissen der letzten Runden",
         "b": "Durch ein Stechen zwischen den Mannschaften",

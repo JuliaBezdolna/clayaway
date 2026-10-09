@@ -37,9 +37,9 @@
  "summary": "Ce que signifient « derrière », « devant », « dessus », « dessous » et « éclat », ce qui cause en général chaque raté, et comment un plateau éclaté est compté.",
  "body": {
   "faults-behind-in-front-p1": "Chaque raté a une direction. Un entraîneur qui observe depuis l'arrière du tireur dit généralement d'abord où le tir est passé par rapport au plateau, et seulement ensuite pourquoi.",
-  "faults-behind-in-front-p2": "{{term:miss-behind|Derrière}} signifie que le tir est passé derrière un plateau en mouvement : pas assez d'avance, ou un fusil qui a ralenti. C'est un raté très courant sur les traversards. {{term:miss-in-front|Devant}}, c'est l'inverse : trop d'avance, souvent après une surcorrection du tireur. Beaucoup d'entraîneurs apprécient un raté devant : cela montre que le fusil a continué de bouger.",
-  "faults-behind-in-front-p3": "{{term:miss-over|Dessus}} (aussi « high », « over the top ») et {{term:miss-under|dessous}} (« low ») décrivent le raté vertical. Dessus est fréquent sur les plateaux {{term:dropping-target|descendants}}, les rabbits et les rentrants, et souvent lié à une tête qui se décolle de la crosse. Dessous est typique sur les plateaux montants encore en train de grimper au moment du tir.",
-  "faults-behind-in-front-p4": "{{term:chip|Éclat}} (chipped) signifie que seul un petit morceau s'est détaché. Pour l'entraîneur, c'est à moitié un compliment, à moitié une correction : le plateau a été touché par le bord de la {{term:pattern|gerbe}}, le nuage de plombs. Pour l'arbitre, c'est un plateau touché, tant que le morceau est visible. Attention à un détail du règlement. Un plateau qui se casse, même s'il se transforme en totalité ou en partie en poussière, est touché dans les deux disciplines. Un plateau qui continue de voler en un seul morceau et ne produit qu'un nuage de poussière ou de fumée, sans aucun morceau visible, est un zéro. Dans le jargon des entraîneurs, « smoked it » (« {{term:smoked-it|pulvérisé}} ») désigne un tir parfait et centré qui réduit le plateau en poussière, et « dusted it » s'entend dans les deux sens : demandez si vous avez un doute.",
+  "faults-behind-in-front-p2": "{{term:miss-behind|Derrière}} signifie que le tir est passé derrière un plateau en mouvement : pas assez d'avance, ou un fusil qui a ralenti. C'est un raté très courant sur les {{term:crosser|traversards}}. {{term:miss-in-front|Devant}}, c'est l'inverse : trop d'avance, souvent après une surcorrection du tireur. Beaucoup d'entraîneurs apprécient un raté devant : cela montre que le fusil a continué de bouger.",
+  "faults-behind-in-front-p3": "{{term:miss-over|Dessus}} et {{term:miss-under|dessous}} décrivent le raté vertical ; les entraîneurs disent aussi « high » ou « over the top » pour le premier, « low » pour le second. Dessus est fréquent sur les plateaux {{term:dropping-target|descendants}}, les rabbits et les rentrants, et souvent lié à une tête qui se décolle du {{term:stock|crosse}}. Dessous est typique sur les {{term:springing-target|plateaux montants}} encore en train de grimper au moment du tir.",
+  "faults-behind-in-front-p4": "{{term:chip|Éclat}} signifie que seul un petit morceau s'est détaché. Pour l'entraîneur, c'est à moitié un compliment, à moitié une correction : le plateau a été touché par le bord du {{term:pattern|gerbe}}, le nuage de plombs. Pour l'arbitre, c'est un plateau touché, tant que le morceau est visible. Attention à un détail du règlement. Un plateau qui se casse, même s'il se transforme en totalité ou en partie en poussière, est touché dans les deux disciplines. Un plateau qui continue de voler en un seul morceau et ne produit qu'un nuage de poussière ou de fumée, sans aucun {{term:visible-piece|morceau visible}}, est un zéro. Dans le jargon des entraîneurs, « {{term:smoked-it|smoked it}} » désigne un tir parfait et centré qui réduit le plateau en poussière, et « dusted it » s'entend dans les deux sens : demandez si vous avez un doute.",
   "technique-follow-through-and-mistakes-p5": "Beaucoup de ces ratés sont faciles à voir de l'extérieur. Un entraîneur placé derrière vous voit où le tir est passé et ce qu'ont fait votre tête, vos mains et vos pieds. Seul, vous risquez de corriger la mauvaise chose : un tir derrière causé par un fusil arrêté ne se soigne pas avec plus d'avance."
  },
  "note": {
@@ -96,10 +96,10 @@
    "options": {
     "a": "Perdu, car la plus grande partie du plateau a continué de voler",
     "b": "No bird",
-    "c": "One (BON)",
+    "c": "One",
     "d": "Touché seulement si l'entraîneur est d'accord"
    },
-   "explain": "Au moins un morceau visible fait de ce plateau un plateau touché, aussi bien en {{tm:sporting}} qu'en {{tm:compak}} ; seul l'arbitre décide."
+   "explain": "Au moins un {{term:visible-piece|morceau visible}} fait de ce plateau un plateau touché, aussi bien en {{tm:sporting}} qu'en {{tm:compak}} ; seul l'arbitre décide."
   },
   "faults-behind-in-front-q3": {
    "q": "Après un tir réussi, l'entraîneur s'exclame « Smoked it ! ». Que veut-il dire ?",
@@ -109,7 +109,7 @@
     "c": "C'était un plateau flash",
     "d": "Le tireur devrait changer de cartouches"
    },
-   "explain": "Dans le jargon des entraîneurs, « smoked it » est un compliment pour un plateau réduit en poussière, et le règlement compte aussi cela comme touché. Seul un plateau intact qui ne produit qu'un nuage de poussière ou de fumée, sans morceau visible, est un zéro."
+   "explain": "Dans le jargon des entraîneurs, « smoked it » est un compliment pour un plateau réduit en poussière, et le règlement compte aussi cela comme touché. Seul un plateau intact qui ne produit qu'un nuage de poussière ou de fumée, sans {{term:visible-piece|morceau visible}}, est un zéro."
   }
  }
 }

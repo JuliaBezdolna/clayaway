@@ -40,17 +40,17 @@
     "origin": "interpreter-academy"
   },
   "title": "Co liczy się jako trafienie i co to jest NO BIRD",
-  "summary": "W {{tm:sporting}} i {{tm:compak}} rzutek jest trafiony, jeśli odpada przynajmniej jeden widoczny kawałek; sam pył to chybienie. NO BIRD nie liczy się i jest wyrzucany jeszcze raz.",
+  "summary": "W {{tm:sporting}} i {{tm:compak}} rzutek jest trafiony, jeśli odpada przynajmniej jeden {{term:visible-piece|widoczny kawałek}}; sam pył to chybienie. NO BIRD nie liczy się i jest wyrzucany jeszcze raz.",
   "body": {
     "rules-hit-and-no-bird-p1": "W {{tm:sporting}} i {{tm:compak}} każdy rzutek ma tylko dwa wyniki: „jeden” (trafiony) albo „zero” (chybiony). Nie ma połowicznych punktów.",
-    "targets-hit-or-lost-p1": "Rzutek liczy się jako „jeden”, kiedy prawdziwe są trzy rzeczy. Był wyrzucony prawidłowo, strzelec strzelił tak, jak wymagają przepisy, i odpadł z niego przynajmniej jeden {{term:visible-piece|widoczny kawałek}} (rzutek, który rozpada się w całości, też się liczy). Ta sama zasada obejmuje {{term:flash-target|rzutki flash}} (rzutki, które wypuszczają obłoczek kolorowego pudru po trafieniu). Rzutek jest „zerem” (chybiony), kiedy nie odpada żaden widoczny kawałek i jest tylko pył albo dym.",
+    "targets-hit-or-lost-p1": "Rzutek liczy się jako „jeden”, kiedy prawdziwe są trzy rzeczy. Był wyrzucony prawidłowo, strzelec strzelił tak, jak wymagają przepisy, i odpadł z niego przynajmniej jeden {{term:visible-piece|widoczny kawałek}}; rzutek, który rozpada się w całości, też się liczy. Ta sama zasada obejmuje {{term:flash-target|rzutki flash}}, które po trafieniu wypuszczają obłoczek kolorowego pudru. Rzutek jest „zerem” (chybiony), kiedy nie odpada żaden widoczny kawałek i jest tylko pył albo dym.",
     "targets-hit-or-lost-p2": "Więc cały przepis sprowadza się do jednej rzeczy, którą widzisz: kawałek odpadający od rzutka. Mały {{term:chip|odprysk}}, który odlatuje, liczy się jako trafienie. Obłoczek pyłu, gdy rzutek leci dalej w jednym kawałku, to chybienie.",
-    "targets-hit-or-lost-p3": "Tylko {{term:referee|sędzia}} decyduje, czy rzutek był trafiony. Członkowie grupy nie mogą wyrażać opinii, i nikt nie może podnieść rzutka, żeby go sprawdzić.",
+    "targets-hit-or-lost-p3": "Tylko {{term:referee|sędzia}} decyduje, czy rzutek był trafiony. Członkowie {{term:squad|grupy}} nie mogą wyrażać opinii, i nikt nie może podnieść rzutka, żeby go sprawdzić.",
     "rules-hit-and-no-bird-cmp1": {
-      "sporting": "Rozbijaj rzutki w zasięgu wzroku sędziego. Jeśli rzutek rozpada się za przeszkodą albo poza {{term:shooting-limit|granicą strzelania}} (skrajem obszaru, w którym rozbicie się liczy), decyduje sędzia. Od tej decyzji nie można się odwołać. Kiedy zawołasz następny rzutek, zaakceptowałeś decyzję co do poprzedniego.",
+      "sporting": "Rozbijaj rzutki w zasięgu wzroku sędziego. Jeśli rzutek rozpada się za przeszkodą albo poza {{term:shooting-limit|granicą strzelania}}, czyli skrajem obszaru, w którym rozbicie się liczy, decyduje sędzia. Od tej decyzji nie można się odwołać. Kiedy zawołasz następny rzutek, zaakceptowałeś decyzję co do poprzedniego.",
       "compak": "Sędzia ogłasza każde zero na głos albo sygnałem dźwiękowym. Zgłoś zastrzeżenie natychmiast, przed komendą następnego strzelca."
     },
-    "rules-hit-and-no-bird-p5": "{{term:no-bird|NO BIRD}} to rzutek, który się nie liczy i jest wyrzucany jeszcze raz. Sędzia ogłasza go, kiedy rzutek jest wyrzucony już uszkodzony, wychodzi ze złej wyrzutni albo ma zły kolor (w {{tm:sporting}} też zły rozmiar albo typ). Inne powody to nieregularna trajektoria, wypuszczenie spóźnione ponad 3 sekundy (patrz {{lesson:rules-call-and-time}}) albo rzutek, którego nie zawołałeś. NO BIRD daje się też, kiedy coś wyraźnie cię rozproszyło, albo kiedy sędzia nie może ocenić wyniku.",
+    "rules-hit-and-no-bird-p5": "{{term:no-bird|NO BIRD}} to rzutek, który się nie liczy i jest wyrzucany jeszcze raz. Sędzia ogłasza go, kiedy rzutek jest wyrzucony już uszkodzony, wychodzi ze złej {{term:trap|wyrzutni}} albo ma zły kolor (w {{tm:sporting}} też zły rozmiar albo typ). Inne powody to nieregularna trajektoria, wypuszczenie spóźnione ponad 3 sekundy (patrz {{lesson:rules-call-and-time}}) albo rzutek, którego nie zawołałeś. NO BIRD daje się też, kiedy coś wyraźnie cię rozproszyło, albo kiedy sędzia nie może ocenić wyniku.",
     "rules-hit-and-no-bird-cmp2": {
       "sporting": "Dwa rzutki wylatujące z wyrzutni tego samego stanowiska jednocześnie to też NO BIRD.",
       "compak": "Zła pogoda nie daje NO BIRD, niezależnie od warunków. Rzutek albo kawałki lecące z sąsiedniej {{term:layout|osi}} {{tm:compak}} (pola przy twoim) też nie dają NO BIRD. Zabłąkany rzutek z wyrzutni twojej własnej osi — tak."
@@ -59,13 +59,13 @@
     "rules-hit-and-no-bird-p7": "Kiedy sędzia ogłosi NO BIRD, nie możesz już strzelić do tego rzutka. Po pierwszym ostrzeżeniu takie zrobienie jest karane w obu dyscyplinach; jak wtedy liczy się rzutki, jest w przewodniku po przepisach.",
     "rules-hit-and-no-bird-cmp3": {
       "sporting": "Przy nagłej silnej ulewie albo gwałtownej burzy, która wydaje się krótka, sędzia może przerwać strzelanie. Jeśli trwa dłużej, sędzia informuje jury.",
-      "compak": "Tylko Sędzia Główny może przerwać strzelanie przy nagłej ulewie albo burzy. Jeśli może potrwać, informuje się jury."
+      "compak": "Tylko {{term:chief-referee|Sędzia Główny}} może przerwać strzelanie przy nagłej ulewie albo burzy. Jeśli może potrwać, informuje się jury."
     },
     "rules-hit-and-no-bird-tip1": "Jeśli myślisz, że decyzja była błędna, podnieś rękę i powiedz to przed następną komendą. Kłócenie się później nie zmienia wyniku; jak działa protest, jest w {{lesson:competitions-results-and-protests}}."
   },
   "note": {
     "rules-hit-and-no-bird-n1": "Żargon trenera może znaczyć coś odwrotnego niż przepisy. {{term:smoked-it|„Smoked it”}} chwali bardzo czyste rozbicie, podczas gdy w przepisach „tylko pył albo dym” to chybiony rzutek. Więcej w {{lesson:interpreter-false-friends}}.",
-    "targets-hit-or-lost-p5": "Też: „dead” znaczy trafiony, a „lost” znaczy chybiony; nie tłumacz ich dosłownie."
+    "targets-hit-or-lost-p5": "Też: „dead” znaczy trafiony, a „lost” znaczy {{term:zero|chybiony}}; nie tłumacz ich dosłownie."
   },
   "phrases": {
     "targets-hit-or-lost-ph2": {
@@ -88,7 +88,7 @@
     "rules-hit-and-no-bird-kp3": "NO BIRD nie liczy się i jest wyrzucany jeszcze raz; nie możesz strzelić do ogłoszonego NO BIRD.",
     "rules-hit-and-no-bird-kp5": "{{tm:compak}}: zła pogoda nie daje NO BIRD."
   },
-  "did_you_know": "Na kartach wyników {{tm:compak}} trafienie oznacza się X, a chybienie O.",
+  "did_you_know": "Na {{term:score-sheet|kartach wyników}} {{tm:compak}} trafienie oznacza się X, a chybienie O.",
   "quiz": {
     "rules-hit-and-no-bird-q1": {
       "q": "Po strzale rzutek wydaje tylko pył, i nie widać żadnego kawałka. Jaki jest wynik?",
@@ -102,8 +102,8 @@
     "rules-hit-and-no-bird-q2": {
       "q": "Kto decyduje, czy rzutek był trafiony?",
       "options": {
-        "a": "Tylko sędzia",
-        "b": "Głosowanie grupy",
+        "a": "Tylko {{term:referee|sędzia}}",
+        "b": "Głosowanie {{term:squad|grupy}}",
         "c": "Strzelec"
       },
       "explain": "Sędzia decyduje sam i może zapytać innych o radę tylko z własnej inicjatywy."
@@ -115,10 +115,10 @@
         "b": "To zero",
         "c": "NO BIRD, jeśli poprosisz"
       },
-      "explain": "W {{tm:compak}} rozbity rzutek to „jeden”, a chybienie to „zero” w każdej pogodzie. Tylko Sędzia Główny może przerwać strzelanie przy nagłej burzy."
+      "explain": "W {{tm:compak}} rozbity rzutek to „jeden”, a chybienie to „zero” w każdej pogodzie. Tylko {{term:chief-referee|Sędzia Główny}} może przerwać strzelanie przy nagłej burzy."
     },
     "competitions-scoring-basics-q3": {
-      "q": "Z wyrzutni wychodzi rzutek niewłaściwego koloru. Co to jest?",
+      "q": "Z {{term:trap|wyrzutni}} wychodzi rzutek niewłaściwego koloru. Co to jest?",
       "options": {
         "a": "NO BIRD",
         "b": "Zero",
@@ -134,10 +134,10 @@
         "c": "NO BIRD",
         "d": "Pół punktu"
       },
-      "explain": "Każdy widoczny kawałek, który odpada, czyni go trafieniem, nieważne jak mały."
+      "explain": "Każdy {{term:visible-piece|widoczny kawałek}}, który odpada, czyni go trafieniem, nieważne jak mały."
     },
     "targets-hit-or-lost-q3": {
-      "q": "Po ogłoszeniu „chybiony” członek grupy wychodzi, żeby podnieść rzutek i pokazać sędziemu odprysk na nim. Co mówią przepisy?",
+      "q": "Po ogłoszeniu „chybiony” członek {{term:squad|grupy}} wychodzi, żeby podnieść rzutek i pokazać sędziemu odprysk na nim. Co mówią przepisy?",
       "options": {
         "a": "Sędzia musi na niego spojrzeć",
         "b": "Grupa głosuje",

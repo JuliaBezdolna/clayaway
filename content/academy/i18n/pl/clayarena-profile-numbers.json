@@ -31,16 +31,16 @@
     "origin": "pl-wave-2026-10"
   },
   "title": "Co znaczą liczby w profilu",
-  "summary": "Skuteczność, najlepszy wynik, serie bez pomyłki, odsetek miejsc w top 10 i wskaźnik formy pomagają zobaczyć formę zawodnika, ale nie zastępują samych wyników.",
+  "summary": "Skuteczność, najlepszy wynik, {{term:round|serie}} bez pomyłki, odsetek miejsc w top 10 i wskaźnik formy pomagają zobaczyć formę zawodnika, ale nie zastępują samych wyników.",
   "body": {
     "clayarena-profile-numbers-p1": "{{term:shooter-profile|Profil zawodnika}} na ClayArenie pokazuje kilka liczb. Są one liczone na podstawie zawodów {{tm:sporting}} i {{tm:compak}}, które są na stronie, a profil może pokazywać je osobno dla każdej dyscypliny. Pomagają one od razu zobaczyć poziom i stabilność zawodnika.",
     "clayarena-profile-numbers-p2": "{{term:accuracy|Skuteczność}} to udział rozbitych rzutków w liczbie rzutków strzelonych na zawodach. Na przykład 150 rozbitych z 200 to 75%. Profil może pokazywać średnią skuteczność ze wszystkich zakończonych zawodów zawodnika i najwyższą skuteczność na jednych zawodach.",
     "clayarena-profile-numbers-p3": "{{term:best-score|Najlepszy wynik}} to najwyższa suma, jaką zawodnik zdobył na jednych zawodach. Porównujcie sumy tylko przy tej samej liczbie rzutków. Międzynarodowe zawody {{tm:sporting}} to {{fact:basics.international-targets}}, a wiele zawodów klubowych ma mniej rzutków. Jeśli więc liczba rzutków jest inna, porównujcie skuteczność. Pozwala ona porównać różną liczbę rzutków, ale tory, pogoda i poziom zawodów wciąż się różnią, więc traktujcie to jako orientacyjny wskaźnik.",
-    "clayarena-profile-numbers-perfect": "Seria bez pomyłki to seria bez żadnego niewypału. W dyscyplinach FITASC to {{term:round|seria}} z rozbitymi wszystkimi {{fact:rules.round-targets}}. Profil liczy, ile takich serii ma zawodnik.",
-    "clayarena-profile-numbers-p4": "{{term:top-10-rate|Odsetek miejsc w top 10}} to udział zawodów, na których zawodnik skończył w pierwszej dziesiątce swojej {{term:category|kategorii}} albo klasyfikacji generalnej. Zależy on też od tego, kto jeszcze startuje: miejsce w pierwszej dziesiątce na dużych zawodach międzynarodowych jest trudniejsze do zdobycia niż na {{term:club-shoot|zawodach klubowych}}. Mała kategoria z kilkoma zawodnikami też ułatwia znalezienie się w pierwszej dziesiątce.",
+    "clayarena-profile-numbers-perfect": "{{term:round|Seria}} bez pomyłki to seria bez żadnego chybienia. W dyscyplinach FITASC to {{term:round|seria}} z rozbitymi wszystkimi {{fact:rules.round-targets}}. Profil liczy, ile takich serii ma zawodnik.",
+    "clayarena-profile-numbers-p4": "{{term:top-10-rate|Odsetek miejsc w top 10}} to udział zawodów, na których zawodnik skończył w pierwszej dziesiątce swojej kategorii albo klasyfikacji generalnej. Zależy on też od tego, kto jeszcze startuje: miejsce w pierwszej dziesiątce na dużych zawodach międzynarodowych jest trudniejsze do zdobycia niż na {{term:club-shoot|zawodach klubowych}}. Mała kategoria z kilkoma zawodnikami też ułatwia znalezienie się w pierwszej dziesiątce.",
     "clayarena-profile-numbers-p5": "{{term:performance-index|Wskaźnik formy}} to jedna liczba, którą ClayArena wylicza z wyników zawodnika w jednej dyscyplinie. Dzięki niej łatwo śledzić postępy w czasie bez czytania każdej tabeli wyników. To nie jest oficjalny ranking {{term:fitasc|FITASC}}.",
     "clayarena-profile-numbers-other": "W profilu mogą być też inne liczby i sekcje, na przykład historia startów, widok według sezonów czy porównanie ze zwycięzcami. Ich nazwy mogą się zmieniać wraz z rozwojem strony, więc czytajcie wyjaśnienia na samej stronie.",
-    "clayarena-profile-numbers-p6": "Liczby nie mówią wszystkiego. Niektóre {{term:layout|tory}} (zestawy stanowisk i rzutków, które z nich lecą) są łatwe, a inne trudne, a pogoda może bardzo zmienić wyniki. Dlatego liczby z jednych zawodów mówią niewiele; bardziej wiarygodne są liczby z kilku zawodów.",
+    "clayarena-profile-numbers-p6": "Liczby nie mówią wszystkiego. Niektóre {{term:layout|tory}}, czyli zestawy stanowisk i rzutków, które z nich lecą, są łatwe, a inne trudne, a pogoda może bardzo zmienić wyniki. Dlatego liczby z jednych zawodów mówią niewiele; bardziej wiarygodne są liczby z kilku zawodów.",
     "clayarena-profile-numbers-p7": "Dla początkującego dobrym sposobem czytania profilu jest porównywanie siebie z sobą: jak zmieniła się wasza skuteczność w sezonie. Porównywanie się z mocnymi zawodnikami może być ciekawe, ale mało mówi o waszym własnym postępie."
   },
   "note": {},
@@ -82,13 +82,13 @@
       "explain": "Dlatego bardziej wiarygodne jest spojrzenie na liczby z kilku zawodów."
     },
     "clayarena-profile-numbers-q4": {
-      "q": "Co to jest seria bez pomyłki?",
+      "q": "Co to jest {{term:round|seria}} bez pomyłki?",
       "options": {
-        "a": "Seria bez żadnego niewypału",
+        "a": "Seria bez żadnego chybienia",
         "b": "Seria odstrzelana w ciągu godziny",
         "c": "Seria bez żadnego dubletu"
       },
-      "explain": "Seria bez pomyłki nie ma żadnego niewypału. W dyscyplinach FITASC to seria z rozbitymi wszystkimi {{fact:rules.round-targets}}."
+      "explain": "Seria bez pomyłki nie ma żadnego chybienia. W dyscyplinach FITASC to seria z rozbitymi wszystkimi {{fact:rules.round-targets}}."
     },
     "clayarena-profile-numbers-q5": {
       "q": "Wystrzeliliście 90 z 100 na zawodach klubowych i 180 z 200 na zawodach międzynarodowych. Co można porównać?",

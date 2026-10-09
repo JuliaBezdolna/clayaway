@@ -36,12 +36,12 @@
     "origin": null
   },
   "title": "Ochrona słuchu: zatyczki i nauszniki",
-  "summary": "Czemu strzał może nieodwracalnie uszkodzić słuch, jakie są zatyczki i nauszniki oraz czemu wielu strzelców {{tm:sporting}} i {{tm:compak}} nosi oba na głośnych strzelnicach.",
+  "summary": "Czemu strzał może nieodwracalnie uszkodzić słuch, jakie są zatyczki i {{term:hearing-protection|nauszniki}} oraz czemu wielu strzelców {{tm:sporting}} i {{tm:compak}} nosi oba na głośnych strzelnicach.",
   "body": {
-    "gear-ear-protection-p1": "{{term:hearing-protection|Ochrona słuchu}} jest obowiązkowa w {{tm:sporting}} i {{tm:compak}} dla każdego na osi albo w jej pobliżu: strzelców, sędziów, obsługi i widzów. Strzelca, który przyjdzie na stanowisko bez niej, uznaje się za nieobecnego, i nie strzela.",
+    "gear-ear-protection-p1": "{{term:hearing-protection|Ochrona słuchu}} jest obowiązkowa w {{tm:sporting}} i {{tm:compak}} dla każdego na osi albo w jej pobliżu: strzelców, {{term:referee|sędziów}}, obsługi i widzów. Strzelca, który przyjdzie na stanowisko bez niej, uznaje się za nieobecnego, i nie strzela.",
     "health-hearing-p1": "Strzał ze strzelby jest bardzo głośny: {{fact:gear.gunshot-peak-db}}. Dla krótkich, nagłych dźwięków jak huk (hałas impulsowy) zwykła bezpieczna granica to {{fact:gear.impulse-noise-limits}}. Więc każdy strzał bez ochrony przekracza tę granicę, a dzień na strzelnicy to setki strzałów — twoich i cudzych.",
     "health-hearing-p2": "Utrata słuchu od hałasu narasta stopniowo i bezboleśnie. Giną drobne czułe komórki ucha wewnętrznego, i nie odrastają. Zwykle zaczyna się od wysokich tonów: mowa, zwłaszcza w głośnym miejscu, staje się mniej zrozumiała, i wielu ludzi na początku tego nie zauważa. Przy dalszym strzelaniu bez ochrony utrata rozszerza się na więcej dźwięków. Utraconego słuchu nie da się przywrócić — można go tylko chronić.",
-    "health-hearing-p3": "Dzwonienie albo brzęczenie w uszach (tinnitus) po strzelaniu to częsty pierwszy sygnał ostrzegawczy: twoja ochrona była niedostateczna. Sprawdź, jak leżą twoje zatyczki i nauszniki, albo wybierz silniejsze. Jeśli po strzelaniu dzwoni ci w uszach albo dźwięki wydają się przytłumione, zbadaj słuch u lekarza otolaryngologa albo audiologa. Jeśli słuch nagle się pogorszy, pilnie zasięgnij pomocy medycznej.",
+    "health-hearing-p3": "{{term:tinnitus|Dzwonienie albo brzęczenie w uszach}} po strzelaniu to częsty pierwszy sygnał ostrzegawczy: twoja ochrona była niedostateczna. Sprawdź, jak leżą twoje zatyczki i nauszniki, albo wybierz silniejsze. Jeśli po strzelaniu dzwoni ci w uszach albo dźwięki wydają się przytłumione, zbadaj słuch u lekarza otolaryngologa albo audiologa. Jeśli słuch nagle się pogorszy, pilnie zasięgnij pomocy medycznej.",
     "gear-ear-protection-p2": "{{term:earplugs|Zatyczki do uszu}} to najprostsza opcja. Zatyczki piankowe są tanie: zwija się je na tanko, wkłada do ucha i czeka, aż się rozprężą. Są też wielorazowe zatyczki silikonowe i zatyczki robione na miarę ucha. Zatyczki, które uszczelniają kanał słuchowy, dobrze chronią; źle włożone chronią bardzo mało, więc poproś trenera, żeby pokazał.",
     "gear-ear-protection-p3": "{{term:passive-ear-muffs|Nauszniki pasywne}} po prostu zakrywają uszy ściśle przylegającymi czaszami. Łatwo je nałożyć i zdjąć, ale przez nie trudniej usłyszeć głosy. Do strzelby wybieraj nauszniki z wąskimi czaszami, bo grube mogą zahaczać o {{term:stock|kolbę}}, gdy składasz się do strzału.",
     "gear-ear-protection-p4": "{{term:electronic-ear-muffs|Nauszniki aktywne}} mają mikrofony i głośniki. Wzmacniają ciche dźwięki, takie jak głos sędziego i komendy, a w chwili strzału natychmiast przyciszają głośny dźwięk. Pomagają bezpieczeństwu i komunikacji, ale są droższe i potrzebują baterii albo ładowania.",
@@ -58,38 +58,38 @@
     "gear-ear-protection-kp1": "Ochrona słuchu jest obowiązkowa dla każdego blisko stanowiska.",
     "health-hearing-kp1": "Strzał to {{fact:gear.gunshot-peak-db}}; szkody od hałasu kumulują się i nie mijają.",
     "gear-ear-protection-kp2": "Zatyczki chronią tylko, gdy uszczelniają kanał słuchowy.",
-    "health-hearing-kp2": "Dzwonienie w uszach po strzelaniu znaczy, że ochrona była niedostateczna.",
+    "health-hearing-kp2": "{{term:tinnitus|Dzwonienie w uszach}} po strzelaniu znaczy, że ochrona była niedostateczna.",
     "gear-ear-protection-kp5": "Na głośnych strzelnicach zatyczki i nauszniki razem dają dodatkową ochronę; wielu trenerów radzi oba dzieciom."
   },
   "did_you_know": "Piankowe zatyczki są przeznaczone na jedno albo kilka użyć: zużyte i zabrudzone gorzej uszczelniają i słabiej chronią.",
   "quiz": {
     "gear-ear-protection-q1": {
-      "q": "Co robią nauszniki aktywne (elektroniczne)?",
+      "q": "Co robią {{term:hearing-protection|nauszniki}} aktywne (elektroniczne)?",
       "options": {
         "a": "Wzmacniają ciche dźwięki i przycinają huk strzału",
         "b": "Liczą, ile strzałów oddałeś",
         "c": "Zastępują potrzebę okularów strzeleckich",
         "d": "Grają muzykę między seriami"
       },
-      "explain": "Dzięki nim słyszysz sędziego i komendy, a słuch jest chroniony."
+      "explain": "Dzięki nim słyszysz {{term:referee|sędziego}} i komendy, a słuch jest chroniony."
     },
     "gear-ear-protection-q2": {
-      "q": "Czemu do strzelby lepsze są nauszniki z wąskimi czaszami?",
+      "q": "Czemu do strzelby lepsze są {{term:hearing-protection|nauszniki}} z wąskimi czaszami?",
       "options": {
         "a": "Przepuszczają więcej huku strzału",
         "b": "Grube czasze mogą zahaczać o kolbę",
         "c": "Kodeks ubioru wymaga wąskich czasz",
         "d": "Wcale nie potrzebują baterii"
       },
-      "explain": "Kolba podchodzi do policzka, a gruba czasza może przeszkadzać w złożeniu się do strzału."
+      "explain": "Kolba podchodzi do policzka, a gruba czasza może przeszkadzać w {{term:gun-mount|złożeniu się do strzału}}."
     },
     "gear-ear-protection-q3": {
       "q": "Co jest rozsądne na bardzo głośnym stanowisku, na przykład pod dachem?",
       "options": {
         "a": "Strzelać bez ochrony, by lepiej słyszeć",
         "b": "Nosić tylko jedną zatyczkę",
-        "c": "Nosić zatyczki i nauszniki razem",
-        "d": "Stanąć bliżej budki z wyrzutnią"
+        "c": "Nosić zatyczki i {{term:hearing-protection|nauszniki}} razem",
+        "d": "Stanąć bliżej budki z {{term:trap|wyrzutnią}}"
       },
       "explain": "Podwójna ochrona tłumi dźwięk silniej niż każdy środek samodzielnie."
     },
@@ -104,12 +104,12 @@
       "explain": "Utrata słuchu od hałasu jest trwała, więc chroń słuch od pierwszego strzału."
     },
     "health-hearing-q2": {
-      "q": "Co to jest podwójna ochrona słuchu?",
+      "q": "Co to jest {{term:double-hearing-protection|podwójna ochrona słuchu}}?",
       "options": {
         "a": "Dwie pary zatyczek naraz",
-        "b": "Nauszniki noszone na ciepłej czapce",
-        "c": "Zatyczki i nauszniki razem",
-        "d": "Nauszniki z dwoma poziomami głośności"
+        "b": "{{term:hearing-protection|Nauszniki}} noszone na ciepłej czapce",
+        "c": "Zatyczki i {{term:hearing-protection|nauszniki}} razem",
+        "d": "{{term:hearing-protection|Nauszniki}} z dwoma poziomami głośności"
       },
       "explain": "Zatyczki pod nausznikami dają dodatkowy margines ochrony."
     },

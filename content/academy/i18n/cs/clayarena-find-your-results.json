@@ -34,7 +34,7 @@
     "clayarena-find-your-results-p2": "Tabulka ukazuje vaše pořadí a kolik terčů jste zasáhli. {{term:round|Položka}} je {{fact:rules.round-targets}} a váš celkový výsledek je součet vašich položek. Mezinárodní soutěž {{tm:sporting}} má obvykle {{fact:basics.international-targets}}. {{term:club-shoot|Klubové závody}} mají často méně terčů: formát určuje organizátor. Jak číst tabulku: {{lesson:watching-reading-results}}.",
     "clayarena-find-your-results-p3": "Z výsledkové tabulky se dostanete do svého {{term:shooter-profile|profilu střelce}}. Shromažďuje vaše soutěže, které jsou na ClayArena, a vaše klíčová čísla. Sami se můžete vyhledat i v seznamu střelců, který lze filtrovat podle země.",
     "clayarena-find-your-results-p4": "Jména na webu jsou zapsána tak, jak jsou v dokumentech soutěže. Mezinárodní akce obvykle používají latinku. Národní soutěže mohou používat místní abecedu, například cyrilici na ukrajinských akcích. Pokud se nemůžete najít, zkuste místní zápis svého jména a jeho různé varianty v latince.",
-    "clayarena-find-your-results-p5": "ClayArena převezme výsledky z {{term:score-sheet|protokolů}} soutěže: úředních listů, kam {{term:referee|rozhodčí}} zaznamenává každý terč jako zasažený nebo minutý. Nejdůležitější kontrola tedy probíhá na střelnici, ne na webu. Ve vašem profilu bude přesně to, co zapsal rozhodčí.",
+    "clayarena-find-your-results-p5": "ClayArena převezme výsledky ze {{term:score-sheet|protokolů}} soutěže: úředních listů, kam {{term:referee|rozhodčí}} zaznamenává každý terč jako zasažený nebo minutý. Nejdůležitější kontrola tedy probíhá na střelnici, ne na webu. Ve vašem profilu bude přesně to, co zapsal rozhodčí.",
     "clayarena-find-your-results-compare": {
       "sporting": "Zkontrolujte svůj výsledek na kartě (v {{tm:sporting}} se tak říká protokolu skupiny), když odcházíte z každého stanoviště. Pokud je špatně, okamžitě to řekněte rozhodčímu: rozhoduje jen on a jeho rozhodnutí nelze odvolat.",
       "compak": "Podepište protokol na konci každé položky. Pokud podpis odmítnete, žádnou pozdější stížnost nelze přijmout."
@@ -62,8 +62,8 @@
     "clayarena-find-your-results-q2": {
       "q": "Kolik terčů má obvykle mezinárodní soutěž {{tm:sporting}}?",
       "options": {
-        "a": "200, v položkách po 25",
-        "b": "100, v položkách po 10",
+        "a": "200, v {{term:round|položkách}} po 25",
+        "b": "100, v {{term:round|položkách}} po 10",
         "c": "50, bez položek"
       },
       "explain": "Pravidla FITASC stanovují pro mezinárodní akce 200 terčů v položkách po 25."
@@ -80,9 +80,9 @@
     "clayarena-find-your-results-q4": {
       "q": "Kdy podepisuje střelec {{tm:compak}} protokol?",
       "options": {
-        "a": "Na konci každé položky",
+        "a": "Na konci každé {{term:round|položky}}",
         "b": "Jen po posledním dni",
-        "c": "Podepisuje rozhodčí, ne střelec"
+        "c": "Podepisuje {{term:referee|rozhodčí}}, ne střelec"
       },
       "explain": "Střelec podepisuje na konci každé položky; bez podpisu se žádná pozdější stížnost nepřijímá."
     },

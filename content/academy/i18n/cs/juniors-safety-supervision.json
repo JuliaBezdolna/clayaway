@@ -33,10 +33,10 @@
   },
   "body": {
     "juniors-safety-supervision-p1": "Pro mladé střelce platí stejná bezpečnostní pravidla jako pro dospělé, ale dohled je přísnější. Na lekcích a tréninku stojí hned vedle dítěte na stanovišti {{term:coach|trenér}} nebo instruktor – dost blízko, aby mohl kdykoli uchopit zbraň. Dítě se nikdy nenechává samotné se zbraní, ani na střelnici, ani doma.",
-    "juniors-safety-supervision-competition": "Na závodě to funguje jinak: stanoviště řídí {{term:referee|rozhodčí}} a {{term:coaching|radit}} střelci nesmí nikdo. Věkové hranice a pravidla dohledu nad neplnoletými závisí na zákonu vaší země a na pravidlech samotné střelnice: viz {{lesson:juniors-documents-licences}}.",
-    "juniors-safety-supervision-p2": "Ještě před prvním výstřelem by dítě mělo znát hlavní pravidla z lekce {{lesson:safety-core-rules}}. {{term:muzzle|Ústí hlavně}} míří bezpečným směrem. Zbraň zůstává otevřená, když se nestřílí. Náboje se vkládají jen na stanovišti a jen na pokyn trenéra. Na „Stop!“ ({{term:cease-fire|cease fire}}) se zbraň otevře a všichni čekají.",
+    "juniors-safety-supervision-competition": "Na závodě to funguje jinak: stanoviště řídí {{term:referee|rozhodčí}} a {{term:coaching|radění}} střelci je zakázáno. Věkové hranice a pravidla dohledu nad neplnoletými závisí na zákonu vaší země a na pravidlech samotné střelnice: viz {{lesson:juniors-documents-licences}}.",
+    "juniors-safety-supervision-p2": "Ještě před prvním výstřelem by dítě mělo znát hlavní pravidla z lekce {{lesson:safety-core-rules}}. {{term:muzzle|Ústí hlavně}} míří bezpečným směrem. Zbraň zůstává otevřená, když se nestřílí. Náboje se vkládají jen na stanovišti a jen na pokyn trenéra. Na povel „Stop!“, tedy {{term:cease-fire|zastavit střelbu}}, se zbraň otevře a všichni čekají.",
     "juniors-safety-supervision-check": "Užitečná kontrola: před každou z prvních lekcí požádejte dítě, aby tato pravidla vysvětlilo vlastními slovy.",
-    "juniors-safety-supervision-p3": "Dítě, které střílí, vždy nosí {{term:hearing-protection|ochranu sluchu}} a {{term:safety-glasses|střelecké brýle}} jako každý střelec. Pro děti, které přišly jen přihlížet poblíž {{term:layout|střeliště}} (střelecké zóny s jejími stanovišti a vrhačkami), se pravidla disciplín trochu liší.",
+    "juniors-safety-supervision-p3": "Dítě, které střílí, vždy nosí {{term:hearing-protection|ochranu sluchu}} a {{term:safety-glasses|střelecké brýle}} jako každý střelec. Pro děti, které přišly jen přihlížet poblíž {{term:layout|střeliště}}, tedy střelecké zóny s jejími stanovišti a vrhačkami, se pravidla disciplín trochu liší.",
     "juniors-safety-supervision-rules": {
       "sporting": "Děti na ploše střelnice, mimo klubovnu, musí mít vždy ochranu sluchu. Brýle jsou povinné pro všechny poblíž stanoviště.",
       "compak": "Ochrana sluchu je povinná pro všechny diváky poblíž střeliště, děti nevyjímaje. Brýle jsou povinné pro účastníky, rozhodčí a personál."
@@ -57,16 +57,16 @@
   },
   "quiz": {
     "juniors-safety-supervision-q1": {
-      "q": "Kde by měl být trenér, když dítě střílí na tréninku?",
+      "q": "Kde by měl být {{term:coach|trenér}}, když dítě střílí na tréninku?",
       "options": {
         "a": "Za skupinou, odkud vidí celé stanoviště",
         "b": "Hned vedle dítěte, aby mohl okamžitě vzít zbraň",
         "c": "U vrhačky, připravený zastavit terče"
       },
-      "explain": "Na tréninku přímý dohled znamená, že trenér stojí vedle dítěte a může okamžitě zasáhnout. Na závodě řídí stanoviště rozhodčí."
+      "explain": "Na tréninku přímý dohled znamená, že trenér stojí vedle dítěte a může okamžitě zasáhnout. Na závodě řídí stanoviště {{term:referee|rozhodčí}}."
     },
     "juniors-safety-supervision-q2": {
-      "q": "Vaše dcera přišla na závod jen se dívat. Potřebuje ochranu sluchu?",
+      "q": "Vaše dcera přišla na závod jen se dívat. Potřebuje {{term:hearing-protection|ochranu sluchu}}?",
       "options": {
         "a": "Ano, pravidla ji vyžadují poblíž střeliště",
         "b": "Ne, potřebují ji jen ti, kdo střílejí",
@@ -94,6 +94,6 @@
     }
   },
   "title": "Bezpečnost a dohled",
-  "summary": "Na lekcích a tréninku dítě střílí jen pod přímým dohledem trenéra, podle stejných pravidel bezpečnosti jako dospělí, a vždy s ochranou sluchu a očí.",
+  "summary": "Na lekcích a tréninku dítě střílí jen pod přímým dohledem {{term:coach|trenéra}}, podle stejných pravidel bezpečnosti jako dospělí, a vždy s {{term:hearing-protection|ochranou sluchu}} a očí.",
   "did_you_know": "Výstřel z brokovnice dosahuje {{fact:gear.gunshot-peak-db}} (decibely, dB, míra hlasitosti). Pro jeden takový krátký, ostrý ráz jsou horní hranice {{fact:gear.impulse-noise-limits}}. Hranice pro dospělé vychází z pravidel bezpečnosti práce, hranici pro děti doporučuje WHO. Proto ochranu sluchu potřebují i děti, které jen přihlížejí."
 }

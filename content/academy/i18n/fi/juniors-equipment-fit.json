@@ -30,10 +30,10 @@
   "title": "Lapselle sopiva varustus",
   "summary": "Aikuisen ase on lapselle tavallisesti liian pitkä ja raskas. Lyhyempi tukki, kevyt ase, pehmeät patruunat ja lasten kokoiset suojat tekevät {{tm:sporting}}- ja {{tm:compak}}-lajeista turvallisempia ja mukavampia.",
   "body": {
-    "juniors-equipment-fit-p1": "Aikuisen ase on lapselle tavallisesti liian pitkä ja liian raskas. Lapsi nojaa taaksepäin pitääkseen sitä, tukki osuu poskeen ja olkapäähän, ja muutaman laukauksen jälkeen voi syntyä pelko. Siksi {{term:gun-fit|aseen sovitus}} (gun fit) on nuorille ampujille jopa tärkeämpi kuin aikuisille.",
-    "juniors-equipment-fit-p2": "Tärkein mitta on {{term:length-of-pull|perän pituus}} (length of pull): {{fact:gear.length-of-pull}}. {{term:youth-gun|Nuorten mallit}} (youth gun) ovat tukiltaan lyhyempiä ja kevyempiä, ja joissain aseissa on säädettävä tukki ja {{term:comb|poskipakka}}. Lapsen kasvaessa tukkia pidennetään välikkeillä, niin tarkista sovitus joka kausi valmentajan tai {{term:gun-fitter|aseen sovittajan}} kanssa.",
-    "juniors-equipment-fit-p3": "Kevyt 20 kaliiperi on yleinen valinta, {{term:over-and-under|päällekkäispiippuisena}} tai {{term:semi-automatic|puoliautomaattina}}. Kaasutoiminen puoliautomaatti jakaa rekyylin pidemmälle ajalle, niin monista se tuntuu pehmeämmältä. Kevyen latauksen patruunat vähentävät rekyyliä myös, ja ampuminen on mukavampaa.",
-    "juniors-equipment-fit-p4": "Suojienkin on sovittava: lasten kuulosuojaimet tai korvatulpat, {{term:safety-glasses|ampumalasit}} iskunkestävillä linsseillä ja lippalakki. {{term:shooting-vest|Ampumaliivi}} ei saa olla liian suuri, muuten ase tarttuu siihen noston aikana.",
+    "juniors-equipment-fit-p1": "Aikuisen ase on lapselle tavallisesti liian pitkä ja liian raskas. Lapsi nojaa taaksepäin pitääkseen sitä, {{term:stock|tukki}} osuu poskeen ja olkapäähän, ja muutaman laukauksen jälkeen voi syntyä pelko. Siksi {{term:gun-fit|aseen sovitus}} on nuorille ampujille jopa tärkeämpi kuin aikuisille.",
+    "juniors-equipment-fit-p2": "Tärkein mitta on {{term:length-of-pull|perän pituus}}: {{fact:gear.length-of-pull}}. {{term:youth-gun|Nuorten mallit|pl}} ovat tukiltaan lyhyempiä ja kevyempiä, ja joissain aseissa on säädettävä tukki ja {{term:comb|poskipakka}}. Lapsen kasvaessa tukkia pidennetään välikkeillä, niin tarkista sovitus joka kausi valmentajan tai {{term:gun-fitter|aseen sovittajan}} kanssa.",
+    "juniors-equipment-fit-p3": "Kevyt 20 {{term:gauge|kaliiperi}} on yleinen valinta, {{term:over-and-under|päällekkäispiippuisena}} tai {{term:semi-automatic|puoliautomaattina}}. {{term:gas-operated|Kaasutoiminen puoliautomaatti}} jakaa {{term:recoil|rekyylin}} pidemmälle ajalle, niin monista se tuntuu pehmeämmältä. Kevyen latauksen patruunat vähentävät rekyyliä myös, ja ampuminen on mukavampaa.",
+    "juniors-equipment-fit-p4": "Suojienkin on sovittava: lasten kuulosuojaimet tai {{term:earplugs|korvatulpat}}, {{term:safety-glasses|ampumalasit}} iskunkestävillä linsseillä ja lippalakki. {{term:shooting-vest|Ampumaliivi}} ei saa olla liian suuri, muuten ase tarttuu siihen {{term:gun-mount|noston}} aikana.",
     "juniors-equipment-fit-p7": "{{tm:sporting}}-lajissa säännöt lisäävät vielä yhden kohdan: lasten on käytettävä {{term:hearing-protection|kuulosuojaimia}} radalla seuratalon ulkopuolella aina. Monet perheet pitävät tästä tavasta kiinni millä tahansa radalla.",
     "juniors-equipment-fit-p5": "Vaatteiden on oltava mukavat ja sään mukaiset. Kilpailuissa molemmissa lajeissa sandaalit on kielletty, ja shortsien on oltava pitkät, päättyen {{fact:rules.dress-shorts-length}}. Umpinaiset, hyvin pitävät kengät tarvitaan myös harjoituksissa. Lisää: {{lesson:gear-clothing-and-shoes}}.",
     "juniors-equipment-fit-p6": "Älä hätiköi ostamaan kallista varustusta. Aloita seuran vuokra-aseella, sitten katso käytettyjä nuorten malleja. Omaa asetta kannattaa ostaa, kun lapsen kiinnostus on vakiintunut, valmentajan neuvoilla. Yleisesti sovituksesta: {{lesson:gun-fit}}."
@@ -60,7 +60,7 @@
       "explain": "Liian pitkä ase pilaa asennon, pahentaa rekyyliä ja voi pelottaa lasta."
     },
     "juniors-equipment-fit-q2": {
-      "q": "Mikä on perän pituus (length of pull)?",
+      "q": "Mikä on {{term:length-of-pull|perän pituus}}?",
       "options": {
         "a": "Piippujen pituus piipun suuhun",
         "b": "Etäisyys liipaisimesta perälevyn keskikohtaan",

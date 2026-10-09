@@ -31,11 +31,11 @@
     "intro-disciplines-p1": "{{tm:sporting}} imite la chasse. Les {{term:shooting-stand|postes de tir}}, les emplacements balisés d'où l'on tire, sont installés en terrain naturel : dans les champs, près des bois, sur des pentes. Les plateaux volent comme le ferait une perdrix, un canard ou un faisan, ou roulent comme un lièvre. Chaque {{term:layout|parcours}}, un groupe de postes, donne {{fact:targets.sporting-layout-targets}} (un doublé compte deux plateaux, donc 10 de plus). Les deux plateaux d'un {{term:double|doublé}} volent ensemble ou l'un après l'autre.",
     "intro-disciplines-p2": "{{tm:compak}} en est la version compacte. Tout se passe sur un seul terrain, où l'on trouve {{fact:basics.compak-field}}. Le tireur passe par les cinq postes et tire 5 plateaux à chacun, soit 25 par {{term:round|série}}. Un terrain de Compak demande peu de place, ce qui permet à un club d'en installer un facilement.",
     "intro-disciplines-cmp": {
-      "sporting": "Vous parcourez un circuit de poste en poste, chacun ayant ses propres plateaux. Un doublé peut être {{term:double-on-report|au coup de fusil}}, où votre premier tir libère le second plateau, ou {{term:simultaneous-double|simultané}}, où les deux partent ensemble. Un {{term:rafale-double|rafale}} est constitué de deux plateaux issus du même lanceur, l'un juste après l'autre.",
+      "sporting": "Vous parcourez un circuit de poste en poste, chacun ayant ses propres plateaux. Un doublé peut être {{term:double-on-report|au coup de fusil}}, où votre premier tir libère le second plateau, ou {{term:simultaneous-double|simultané}}, où les deux partent ensemble. Un {{term:rafale-double|rafale}} est constitué de deux plateaux issus du même {{term:trap|lanceur}}, l'un juste après l'autre.",
       "compak": "Vous restez sur un seul terrain et, après chaque passage, vous avancez d'un poste vers la droite. Un doublé est {{term:double-on-report|au coup de fusil}}, où votre premier tir libère le second plateau, ou {{term:simultaneous-double|simultané}}, où les deux partent ensemble."
     },
     "intro-disciplines-p3": "Les compétitions internationales des deux disciplines comptent généralement {{fact:basics.international-targets}}. Dans les deux cas, on peut tirer deux coups sur un {{term:single-target|plateau simple}} : si le premier manque, le second peut encore le casser.",
-    "intro-disciplines-p6": "Les deux disciplines relèvent de la {{term:fitasc|FITASC}}, la fédération internationale qui en rédige les règles. Les bases sont communes : la sécurité, l'{{term:gun-mount|épaulé}} (le geste qui amène le fusil à la joue et à l'épaule) et la lecture du plateau."
+    "intro-disciplines-p6": "Les deux disciplines relèvent de la {{term:fitasc|FITASC}}, la fédération internationale qui en rédige les règles. Les bases sont communes : la sécurité, le {{term:gun-mount|épaulé}} — le geste qui amène le fusil à la joue et à l'épaule — et la lecture du plateau."
   },
   "note": {},
   "phrases": {},
@@ -47,7 +47,7 @@
   },
   "quiz": {
     "intro-disciplines-q1": {
-      "q": "Combien de plateaux donne un parcours de {{tm:sporting}} ?",
+      "q": "Combien de plateaux donne un {{term:layout|parcours}} de {{tm:sporting}} ?",
       "options": {
         "a": "10",
         "b": "25",
@@ -56,7 +56,7 @@
       "explain": "Chaque parcours donne {{fact:targets.sporting-layout-targets}} (un doublé compte deux plateaux, donc 10 de plus)."
     },
     "intro-disciplines-q2": {
-      "q": "Combien de lanceurs y a-t-il sur un terrain de Compak ?",
+      "q": "Combien de {{term:trap|lanceurs}} y a-t-il sur un terrain de Compak ?",
       "options": {
         "a": "Six, désignés par les lettres A à F",
         "b": "Quatre, désignés par les lettres A à D",
@@ -65,7 +65,7 @@
       "explain": "Un terrain de {{tm:compak}} compte {{fact:basics.compak-field}}."
     },
     "intro-disciplines-q-course": {
-      "q": "Dans quelle discipline parcourt-on un circuit de poste en poste ?",
+      "q": "Dans quelle discipline parcourt-on un circuit de {{term:shooting-stand|poste}} en poste ?",
       "options": {
         "a": "{{tm:compak}}",
         "b": "Dans les deux, de la même façon",
@@ -74,7 +74,7 @@
       "explain": "En {{tm:sporting}}, on va de poste en poste sur un terrain naturel ; en {{tm:compak}}, on reste sur un seul terrain et on avance d'un poste vers la droite."
     },
     "intro-disciplines-q-second-shot": {
-      "q": "Votre premier coup manque un plateau simple. Que permet le règlement ?",
+      "q": "Votre premier coup manque un {{term:single-target|plateau simple}}. Que permet le règlement ?",
       "options": {
         "a": "L'arbitre refait partir le plateau",
         "b": "Vous devez ouvrir le fusil immédiatement",
