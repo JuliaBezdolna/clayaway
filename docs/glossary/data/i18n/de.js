@@ -2491,12 +2491,16 @@ window.GLOSSARY_I18N.de = {
    "short": "Der Abstand zwischen Mündung und Scheibe, den der Schütze beim Schuss sieht; viel kleiner als der tatsächliche Vorhalt in der Luft."
   },
   "ambush": {
-   "term_local": "Ambush (Abfangen)",
+   "term_local": "Spot Shooting",
    "alt": [
-    "Erwarten"
+    "Spot-Methode",
+    "Spot Shot",
+    "Abfangen"
    ],
-   "conf": "low",
-   "short": "Eine Vorhaltemethode, bei der die Mündungen ruhig an einem Punkt vor der Scheibe warten und abgezogen wird, bevor die Scheibe ihn erreicht, sodass sie in den Schuss fliegt."
+   "conf": "medium",
+   "short": "Eine Vorhaltemethode, bei der die Mündungen ruhig an einem Punkt vor der Scheibe warten und abgezogen wird, bevor die Scheibe ihn erreicht, sodass sie in den Schuss fliegt.",
+   "note": "German-speaking Sporting/Compak coaches use the English loanword «Spot Shooting» / «Spot-Methode» for this wait-at-the-point method; «Abfangen» appears in older hunting literature for a related snap shot.",
+   "src": "https://www.flinten-und-buechsen-coach.de/schiessmethoden-flinte-swing-through-maintained-lead/"
   },
   "instinctive-shooting": {
    "term_local": "instinktives Schießen",

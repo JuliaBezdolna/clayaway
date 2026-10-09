@@ -50,7 +50,7 @@
       "compak": "Grupowo: tylko raz dziennie, rano, dla pierwszej grupy dnia. Strzelec na numerze 1 woła pojedyncze rzutki A do F. In line: patrz poniżej."
     },
     "sporting-viewing-p2": "Możesz poprosić sędziego o ponowny pokaz rzutka: najwyżej dwa razy więcej na każdy rzutek z menu stanowiska.",
-    "sporting-viewing-p3": "{{term:double-on-report|Dublety na zawołanie}} (drugi rzutek wylatuje, gdy strzelasz do pierwszego) nie są pokazywane. Ich rzutki już widziałeś: dublet używa tylko rzutków już wyrzuconych jako pojedyncze z tego stanowiska. Pierwszemu strzelcowi każdej grupy pokazuje się {{term:simultaneous-double|dublety symultaniczne}} (oba rzutki wylatują razem) i {{term:rafale-double|dublety rafale}} (dwa rzutki z tej samej wyrzutni, jeden po drugim). Na prośbę pokazuje się je ponownie, najwyżej dwa razy.",
+    "sporting-viewing-p3": "{{term:double-on-report|Dublety po strzale}} (drugi rzutek wylatuje, gdy strzelasz do pierwszego) nie są pokazywane. Ich rzutki już widziałeś: dublet używa tylko rzutków już wyrzuconych jako pojedyncze z tego stanowiska. Pierwszemu strzelcowi każdej grupy pokazuje się {{term:simultaneous-double|dublety symultaniczne}} (oba rzutki wylatują razem) i {{term:rafale-double|dublety rafale}} (dwa rzutki z tej samej wyrzutni, jeden po drugim). Na prośbę pokazuje się je ponownie, najwyżej dwa razy.",
     "compak-gun-and-call-p4": "Grupowo, po pojedynczych rzutkach następują dublety symultaniczne numerów 1 do 5. Po tym usłyszysz od sędziego „start” albo „competition”, i zaczyna się strzelanie na wynik.",
     "rules-viewing-targets-inline": "{{tm:compak}} można też strzelać {{term:compak-in-line|in line}}: strzelcy wchodzą na numer 1 jeden po drugim i przechodzą wzdłuż linii do numeru 5. Przed startem pierwszy strzelec może poprosić o pokaz pojedynczych rzutków A do F; przy dubletach symultanicznych pokazuje się też dublety każdego numeru. Kiedy linia się wypełnia, każdy nowy strzelec na numerze 1 najpierw widzi otwierający rzutek swojego dubletu. Kiedy linia się opróżnia, sędzia robi to samo na kolejnych numerach. Szczegóły: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
     "rules-viewing-targets-open": "W obu dyscyplinach broń zostaje otwarta i rozładowana podczas pokazu i każdej przerwy. Zamknij swoją tylko wtedy, gdy sędzia pozwoli.",
@@ -94,7 +94,7 @@
   "key_points": {
     "sporting-viewing-kp1": "{{tm:sporting}}: na każdym stanowisku pierwszy strzelec grupy widzi wszystkie trajektorie, stojąc w gotowości.",
     "sporting-viewing-kp2": "{{tm:sporting}}: na prośbę, do dwóch powtórzeń na każdy rzutek z menu.",
-    "sporting-viewing-kp3": "{{tm:sporting}}: dublety na zawołanie nie są pokazywane; pierwszy strzelec każdej grupy widzi dublety symultaniczne i rafale.",
+    "sporting-viewing-kp3": "{{tm:sporting}}: dublety po strzale nie są pokazywane; pierwszy strzelec każdej grupy widzi dublety symultaniczne i rafale.",
     "compak-gun-and-call-kp4": "{{tm:compak}} grupowy: rzutki pokazuje się raz dziennie, rano, tylko dla pierwszej grupy. Po przerwie {{fact:rules.reshow-after-interruption}} sędzia pokazuje jeszcze raz sześć pojedynczych rzutków. In line ma swoją kolejność.",
     "sporting-viewing-kp4": "Broń zostaje otwarta podczas pokazu; w {{tm:sporting}} strzelanie albo imitacja strzelania w tym czasie jest karane."
   },
@@ -108,7 +108,7 @@
         "c": "Na zawołanie",
         "d": "Żadne z nich"
       },
-      "explain": "W {{tm:sporting}} dublety na zawołanie nie są pokazywane; symultaniczne i rafale są. Dublet używa tylko rzutków już wyrzuconych jako pojedyncze na tym stanowisku."
+      "explain": "W {{tm:sporting}} dublety po strzale nie są pokazywane; symultaniczne i rafale są. Dublet używa tylko rzutków już wyrzuconych jako pojedyncze na tym stanowisku."
     },
     "rules-viewing-targets-q2": {
       "q": "W {{tm:compak}} grupowym, jak często pokazuje się rzutki?",
@@ -140,7 +140,7 @@
       "explain": "Na prośbę sędzia pokazuje rzutek jeszcze raz, najwyżej dwa razy na każdy rzutek z menu."
     },
     "rules-viewing-targets-q4": {
-      "q": "{{tm:compak}} in line, z dubletami na zawołanie. Kiedy linia się wypełnia, nowy strzelec wchodzi na numer 1. Co sędzia pokazuje temu strzelcowi?",
+      "q": "{{tm:compak}} in line, z dubletami po strzale. Kiedy linia się wypełnia, nowy strzelec wchodzi na numer 1. Co sędzia pokazuje temu strzelcowi?",
       "options": {
         "a": "Pierwszy rzutek jego dubletu",
         "b": "Nic",

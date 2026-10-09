@@ -36,18 +36,18 @@
     "targets-menu-p1": "{{term:target-menu|Menu rzutków}} (target menu) to tablica na stanowisku, która mówi strzelcowi, co go czeka: które wyrzutnie, w jakiej kolejności i jakie dublety.",
     "targets-menu-p2": "W {{tm:sporting}} menu wymienia wyrzutnie w kolejności strzelania i musi nazywać rzutki specjalne: {{fact:targets.sporting-menu-special-targets}}. Sędziowie z wyprzedzeniem sprawdzają, czy wyrzutnie zgadzają się z menu. Oś daje {{fact:targets.sporting-layout-targets}}. Dublety mogą używać tylko rzutków już pokazanych jako pojedyncze z tego samego stanowiska, a grupa strzela najpierw pojedyncze.",
     "targets-menu-p3": "Każdy dublet jest oznaczony swoim typem. {{term:double-on-report|Na zawołanie}} (on report): drugi rzutek wylatuje na odgłos pierwszego strzału. {{term:simultaneous-double|Symultaniczny}} (simultaneous): oba rzutki wylatują razem. {{term:rafale-double|Rafale}} (rafale): dwa rzutki z tej samej wyrzutni, jeden po drugim — tylko w {{tm:sporting}}. Menu wyglądają różnie na różnych strzelnicach, więc czytaj słowa, a nie tylko litery.",
-    "targets-menu-ex1": "Przykład: na linii z 4 stanowisk jedno stanowisko ma tylko 3 wyrzutnie, i strzela się na nim 3 pojedyncze i 2 dublety. Jego menu może wyglądać tak: pojedyncze A, B, C, potem dublet symultaniczny A + B i rafale C + C (litery to wyrzutnie). Na takim stanowisku co najmniej jeden dublet musi być symultaniczny albo rafale: dwa dublety na zawołanie nie są dozwolone ({{rule:sporting:ch2-doubles-three-traps}}).",
+    "targets-menu-ex1": "Przykład: na linii z 4 stanowisk jedno stanowisko ma tylko 3 wyrzutnie, i strzela się na nim 3 pojedyncze i 2 dublety. Jego menu może wyglądać tak: pojedyncze A, B, C, potem dublet symultaniczny A + B i rafale C + C (litery to wyrzutnie). Na takim stanowisku co najmniej jeden dublet musi być symultaniczny albo rafale: dwa dublety po strzale nie są dozwolone ({{rule:sporting:ch2-doubles-three-traps}}).",
     "targets-menu-p4": "W {{tm:compak}} menu jest wywieszone na każdym z pięciu stanowisk. Każde stanowisko ma pięć rzutków, według jednego z trzech wariantów: {{fact:targets.compak-station-menus}}. Pojedyncze mogą iść z wyrzutni w dowolnej kolejności. Wszystkie pięć stanowisk ma ten sam rodzaj dubletu, a stanowiska są połączone w łańcuch: {{fact:targets.compak-double-chain}}. Na zawody FITASC udostępnia {{fact:targets.compak-setting-tables}}.",
-    "targets-menu-tip1": "Przed wejściem na stanowisko {{tm:compak}} wielu strzelców po cichu powtarza sobie jego menu: „A, potem F, potem B, potem C i E na zawołanie”. To może pomóc zapamiętać kolejność."
+    "targets-menu-tip1": "Przed wejściem na stanowisko {{tm:compak}} wielu strzelców po cichu powtarza sobie jego menu: „A, potem F, potem B, potem C i E po strzale”. To może pomóc zapamiętać kolejność."
   },
   "note": {
     "targets-menu-n1": "Strzelcy naprawdę mówią „menu”, więc zachowaj to słowo, tłumacząc.",
-    "targets-menu-p5": "Zanim twój strzelec wejdzie na stanowisko, przeczytaj mu menu na głos w jego języku, litera po literze: „A, potem F, potem B, potem dublet C i E na zawołanie”."
+    "targets-menu-p5": "Zanim twój strzelec wejdzie na stanowisko, przeczytaj mu menu na głos w jego języku, litera po literze: „A, potem F, potem B, potem dublet C i E po strzale”."
   },
   "phrases": {
     "targets-menu-ph1": {
-      "meaning": "Stanowisko 3: trzy pojedyncze, potem dublet na zawołanie; razem pięć rzutków.",
-      "say": "Przeczytaj menu: na stanowisku trzecim masz A, potem F, potem B, potem dublet C i E na zawołanie."
+      "meaning": "Stanowisko 3: trzy pojedyncze, potem dublet po strzale; razem pięć rzutków.",
+      "say": "Przeczytaj menu: na stanowisku trzecim masz A, potem F, potem B, potem dublet C i E po strzale."
     },
     "targets-menu-ph2": {
       "meaning": "Kolejność zmieniła się od ostatniej serii.",
@@ -62,7 +62,7 @@
     "targets-menu-kp1": "Przeczytaj menu, zanim wejdziesz na stanowisko: kolejność wyrzutni, rzutki specjalne, typ każdego dubletu.",
     "targets-menu-kp2": "Menu {{tm:sporting}}: wyrzutnie po kolei plus rzutki specjalne ({{fact:targets.sporting-menu-special-targets}}).",
     "targets-menu-kp3": "Oś {{tm:sporting}} daje {{fact:targets.sporting-layout-targets}}; dublety używają rzutków już pokazanych jako pojedyncze; najpierw pojedyncze.",
-    "targets-menu-kp4": "Dublety: na zawołanie, symultaniczny, rafale (tylko {{tm:sporting}}).",
+    "targets-menu-kp4": "Dublety: po strzale, symultaniczny, rafale (tylko {{tm:sporting}}).",
     "targets-menu-kp5": "{{tm:compak}}: pięć rzutków na stanowisko, ten sam typ dubletu na wszystkich stanowiskach, każdy dublet zaczyna się od ostatniego rzutka poprzedniego stanowiska."
   },
   "did_you_know": null,
@@ -95,7 +95,7 @@
         "c": "Symultaniczny",
         "d": "Żaden"
       },
-      "explain": "Dublety {{tm:compak}} są na zawołanie albo symultaniczne; rafale to dublet {{tm:sporting}}."
+      "explain": "Dublety {{tm:compak}} są po strzale albo symultaniczne; rafale to dublet {{tm:sporting}}."
     }
   }
 }

@@ -844,7 +844,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "dublet",
    "conf": "high",
    "short": "Dwa rzutki pokazane razem lub jeden po drugim, strzelane jako jedna całość.",
-   "long": "Są trzy rodzaje dubletu: na zawołanie, symultaniczny i, tylko w Sporting™, rafale. W Sporting™ zawodnik ma na dublet dwa naboje i może oddać oba do tego samego rzutka; między pierwszym a drugim rzutkiem pozycja broni jest dowolna. W Compaku do każdego rzutka dubletu można oddać tylko jeden strzał, a na jednym Compaku rodzaj dubletu musi być taki sam na wszystkich 5 stanowiskach; pierwszy rzutek każdego dubletu to ostatni rzutek poprzedniego stanowiska. Jeśli jeden strzał rozbije oba rzutki, w Sporting™ liczy się one i one. W Compaku nie liczą się jako dwa trafienia: w dublecie na zawołanie wynik pierwszego rzutka zostaje, a dublet powtarza się dla drugiego; w dublecie symultanicznym jest to NO BIRD i dublet się powtarza, a za trzecim razem liczy się zero-zero.",
+   "long": "Są trzy rodzaje dubletu: po strzale, symultaniczny i, tylko w Sporting™, rafale. W Sporting™ zawodnik ma na dublet dwa naboje i może oddać oba do tego samego rzutka; między pierwszym a drugim rzutkiem pozycja broni jest dowolna. W Compaku do każdego rzutka dubletu można oddać tylko jeden strzał, a na jednym Compaku rodzaj dubletu musi być taki sam na wszystkich 5 stanowiskach; pierwszy rzutek każdego dubletu to ostatni rzutek poprzedniego stanowiska. Jeśli jeden strzał rozbije oba rzutki, w Sporting™ liczy się one i one. W Compaku nie liczą się jako dwa trafienia: w dublecie po strzale wynik pierwszego rzutka zostaje, a dublet powtarza się dla drugiego; w dublecie symultanicznym jest to NO BIRD i dublet się powtarza, a za trzecim razem liczy się zero-zero.",
    "disciplines": {
     "sporting": "5 dubletów na oś, tylko z rzutków już strzelanych jako pojedyncze z tego stanowiska; oba naboje można oddać do jednego rzutka.",
     "compak": "Jeden nabój na rzutek; celowe oddanie obu strzałów do jednego rzutka daje zero-zero."
@@ -852,11 +852,11 @@ window.GLOSSARY_I18N.pl = {
   },
   "double-on-report": {
    "term_local": "dublet po strzale",
-   "note": "Compak rules: second target released on the shot; PZŁ uses «dublet po strzale» (term_local since 08.10.2026; the earlier «dublet na zawołanie» means 'on call', which is wrong for 'on report').",
+   "note": "Compak rules: second target released on the shot; PZŁ uses «dublet po strzale» (term_local since 08.10.2026; the earlier «dublet po strzale» means 'on call', which is wrong for 'on report').",
    "conf": "high",
    "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Dublet, w którym drugi rzutek wyrzuca dźwięk strzału do pierwszego.",
-   "long": "Oba rzutki lecą z jednej lub dwóch wyrzutni; zawołanie wyrzuca pierwszy, a strzał do pierwszego wyrzuca drugi. W Sporting™ drugi rzutek wylatuje 0–3 sekundy po pierwszym strzale. W Sporting™ dubletów na zawołanie nie pokazuje się podczas pokazu, a stanowisko z 3 wyrzutniami i 2 dubletami nie może mieć dwóch dubletów na zawołanie. W sudden death w Sporting™ dublet na zawołanie liczy się jako para, więc one-zero równa się zero-one. Kary przy dublecie na zawołanie to zwykle zero za pierwszy rzutek i No Bird za drugi.",
+   "long": "Oba rzutki lecą z jednej lub dwóch wyrzutni; zawołanie wyrzuca pierwszy, a strzał do pierwszego wyrzuca drugi. W Sporting™ drugi rzutek wylatuje 0–3 sekundy po pierwszym strzale. W Sporting™ dubletów po strzale nie pokazuje się podczas pokazu, a stanowisko z 3 wyrzutniami i 2 dubletami nie może mieć dwóch dubletów po strzale. W sudden death w Sporting™ dublet po strzale liczy się jako para, więc one-zero równa się zero-one. Kary przy dublecie po strzale to zwykle zero za pierwszy rzutek i No Bird za drugi.",
    "disciplines": {
     "sporting": "Nie pokazuje się go przed strzelaniem; w nagłej śmierci jeden-zero = zero-jeden.",
     "compak": "Jeśli jeden nabój rozbije oba rzutki, pierwszy wynik zostaje, drugi to NO BIRD i dublet się powtarza; pierwszy rzutek dubletu pokazuje się każdemu nowemu zawodnikowi na stanowisku 1."
@@ -893,7 +893,7 @@ window.GLOSSARY_I18N.pl = {
    "conf": "high",
    "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Pokazanie zawodnikom rzutków ze stanowiska przed strzelaniem.",
-   "long": "W Sporting™ wszystkie trajektorie stanowiska pokazuje się pierwszemu zawodnikowi grupy, który musi stać gotowy na stanowisku; na prośbę każdy rzutek można pokazać ponownie do 2 razy. Dubletów na zawołanie się nie pokazuje; symultaniczne i rafale tak, z najwyżej 2 powtórzeniami. Podczas pokazu nikt nie może strzelać ani symulować strzelania, a po awarii wyrzutni albo przerwie dłuższej niż 10 minut rzutki stanowiska pokazuje się ponownie. W Compak® Sporting przy strzelaniu w grupach pierwsza grupa dnia widzi rzutki raz, wcześnie rano: pojedyncze od A do F, potem dublety symultaniczne stanowisk 1–5; po przerwie dłuższej niż 10 minut sześć rzutków pojedynczych pokazuje się ponownie. „In line” każdy nowy zawodnik na stanowisku 1 widzi pierwszy rzutek swojego dubletu. W obu konkurencjach broń podczas pokazu jest otwarta i rozładowana i zamyka się ją tylko za zgodą sędziego. W Compak® Sporting symulowanie strzelania jest zabronione poza stanowiskami i wtedy, gdy strzela inny członek grupy.",
+   "long": "W Sporting™ wszystkie trajektorie stanowiska pokazuje się pierwszemu zawodnikowi grupy, który musi stać gotowy na stanowisku; na prośbę każdy rzutek można pokazać ponownie do 2 razy. Dubletów po strzale się nie pokazuje; symultaniczne i rafale tak, z najwyżej 2 powtórzeniami. Podczas pokazu nikt nie może strzelać ani symulować strzelania, a po awarii wyrzutni albo przerwie dłuższej niż 10 minut rzutki stanowiska pokazuje się ponownie. W Compak® Sporting przy strzelaniu w grupach pierwsza grupa dnia widzi rzutki raz, wcześnie rano: pojedyncze od A do F, potem dublety symultaniczne stanowisk 1–5; po przerwie dłuższej niż 10 minut sześć rzutków pojedynczych pokazuje się ponownie. „In line” każdy nowy zawodnik na stanowisku 1 widzi pierwszy rzutek swojego dubletu. W obu konkurencjach broń podczas pokazu jest otwarta i rozładowana i zamyka się ją tylko za zgodą sędziego. W Compak® Sporting symulowanie strzelania jest zabronione poza stanowiskami i wtedy, gdy strzela inny członek grupy.",
    "disciplines": {
     "sporting": "Pokaz na każdym stanowisku dla pierwszego zawodnika grupy; najwyżej 2 powtórki na rzutek; podczas pokazu bez strzałów i bez symulowania strzelania.",
     "compak": "W grupach: raz, wcześnie rano, dla pierwszej grupy dnia (pojedyncze A–F, potem dublety symultaniczne); po przerwie dłuższej niż 10 minut 6 rzutków pojedynczych pokazuje się ponownie."
@@ -1155,13 +1155,13 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "podwójny wystrzał",
    "conf": "high",
    "short": "Usterka broni, przy której obie lufy wypalają jednocześnie.",
-   "long": "Jeśli oba strzały padną jednocześnie przy rzutku pojedynczym lub pierwszym rzutku dubletu, sędzia ogłasza No Bird i nic nie jest zapisywane. Przy rzutku pojedynczym rzutek się powtarza; przy pierwszym rzutku dubletu na zawołanie, dublecie symultanicznym lub rafale powtarza się cały dublet. Liczy się to jako awaria broni, więc No Bird jest tylko przy pierwszej awarii w serii. Podwójny wystrzał jako druga awaria przy dublecie symultanicznym lub rafale daje zero i zero."
+   "long": "Jeśli oba strzały padną jednocześnie przy rzutku pojedynczym lub pierwszym rzutku dubletu, sędzia ogłasza No Bird i nic nie jest zapisywane. Przy rzutku pojedynczym rzutek się powtarza; przy pierwszym rzutku dubletu po strzale, dublecie symultanicznym lub rafale powtarza się cały dublet. Liczy się to jako awaria broni, więc No Bird jest tylko przy pierwszej awarii w serii. Podwójny wystrzał jako druga awaria przy dublecie symultanicznym lub rafale daje zero i zero."
   },
   "refusal": {
    "term_local": "odmowa rzutka",
    "conf": "high",
    "short": "Niestrzelanie do rzutka, który został zawołany i prawidłowo wyrzucony.",
-   "long": "Zawodnik może odrzucić tylko rzutek, którego nie zawołał. W Sporting™ prawidłowy rzutek, do którego zawodnik nie strzelił, liczy się jako zero; przy dublecie symultanicznym lub rafale zero i zero. W Compaku odmowa jest karana zgodnie z pkt 21.5: rzutek pojedynczy zero; pierwszy rzutek dubletu na zawołanie zero, a dublet powtarza się, żeby ocenić drugi; dublet symultaniczny zero-zero."
+   "long": "Zawodnik może odrzucić tylko rzutek, którego nie zawołał. W Sporting™ prawidłowy rzutek, do którego zawodnik nie strzelił, liczy się jako zero; przy dublecie symultanicznym lub rafale zero i zero. W Compaku odmowa jest karana zgodnie z pkt 21.5: rzutek pojedynczy zero; pierwszy rzutek dubletu po strzale zero, a dublet powtarza się, żeby ocenić drugi; dublet symultaniczny zero-zero."
   },
   "hang-fire": {
    "term_local": "opóźniony wystrzał",
@@ -1344,7 +1344,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "medium",
    "short": "Maksymalny czas, jaki zawodnik może poświęcić przed zawołaniem następnego rzutka.",
-   "long": "W Sporting™ zawodnik ma najwyżej 15 sekund między rzutkami pojedynczymi lub między dubletami; przekroczenie oznacza najpierw ostrzeżenie, a potem kary z art. 12.2. Po ostatecznej decyzji sędziego w sporze strzelanie trzeba wznowić w ciągu 15 sekund, inaczej liczy się to jako odmowa podporządkowania się. W Compaku limit to 10 sekund na zawołanie po strzale do rzutka poprzedniego stanowiska; pierwsze naruszenie to ostrzeżenie odnotowane na karcie wyników, a powtórzenie w tej samej rundzie jest karane (pojedynczy zero, dublet na zawołanie zero / No Bird, symultaniczny zero / zero). Po ostatecznej decyzji zawodnik w Compaku musi wznowić strzelanie w ciągu 10 sekund.",
+   "long": "W Sporting™ zawodnik ma najwyżej 15 sekund między rzutkami pojedynczymi lub między dubletami; przekroczenie oznacza najpierw ostrzeżenie, a potem kary z art. 12.2. Po ostatecznej decyzji sędziego w sporze strzelanie trzeba wznowić w ciągu 15 sekund, inaczej liczy się to jako odmowa podporządkowania się. W Compaku limit to 10 sekund na zawołanie po strzale do rzutka poprzedniego stanowiska; pierwsze naruszenie to ostrzeżenie odnotowane na karcie wyników, a powtórzenie w tej samej rundzie jest karane (pojedynczy zero, dublet po strzale zero / No Bird, symultaniczny zero / zero). Po ostatecznej decyzji zawodnik w Compaku musi wznowić strzelanie w ciągu 10 sekund.",
    "disciplines": {
     "sporting": "15 sekund między rzutkami i na wznowienie po decyzji.",
     "compak": "10 sekund na wywołanie i na wznowienie po decyzji."
@@ -1404,7 +1404,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "czerwona kartka",
    "conf": "high",
    "short": "Kartka za powtórne naruszenie po ostrzeżeniu, z rzutkiem liczonym jako kara.",
-   "long": "Po pierwszym ostrzeżeniu każde kolejne przewinienie na tej samej osi (Sporting™) lub Compaku oznacza czerwoną kartkę. Rzutek jest wtedy liczony: zero przy rzutku pojedynczym; zero i No Bird przy dublecie na zawołanie; zero i zero przy dublecie symultanicznym lub rafale. Przy awarii w Compaku na drugim rzutku dubletu pierwszy wynik zostaje, a drugi to zero. W Compaku druga awaria broni lub amunicji tego samego rodzaju także daje zero z czerwoną kartką."
+   "long": "Po pierwszym ostrzeżeniu każde kolejne przewinienie na tej samej osi (Sporting™) lub Compaku oznacza czerwoną kartkę. Rzutek jest wtedy liczony: zero przy rzutku pojedynczym; zero i No Bird przy dublecie po strzale; zero i zero przy dublecie symultanicznym lub rafale. Przy awarii w Compaku na drugim rzutku dubletu pierwszy wynik zostaje, a drugi to zero. W Compaku druga awaria broni lub amunicji tego samego rodzaju także daje zero z czerwoną kartką."
   },
   "penalty": {
    "term_local": "kara",
@@ -1596,7 +1596,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "tabela ustawień trajektorii",
    "conf": "low",
    "short": "Jedno z 40 gotowych menu dla Compak® Sporting, które określa, z których wyrzutni strzela się na każdym stanowisku.",
-   "long": "Załącznik 3 przepisów Compaku zawiera 40 tabel: 1–8 z 5 rzutkami pojedynczymi na stanowisko, 9–16 z 3 pojedynczymi i dubletem na zawołanie, 17–24 z 3 pojedynczymi i dubletem symultanicznym, 25–32 z 1 pojedynczym i 2 dubletami na zawołanie, 33–40 z 1 pojedynczym i 2 dubletami symultanicznymi. FITASC zaleca ich używanie na zawodach, ale dozwolona jest każda kombinacja zgodna z przepisami. Tabele używane na treningu muszą różnić się od tabel zawodów.",
+   "long": "Załącznik 3 przepisów Compaku zawiera 40 tabel: 1–8 z 5 rzutkami pojedynczymi na stanowisko, 9–16 z 3 pojedynczymi i dubletem po strzale, 17–24 z 3 pojedynczymi i dubletem symultanicznym, 25–32 z 1 pojedynczym i 2 dubletami po strzale, 33–40 z 1 pojedynczym i 2 dubletami symultanicznymi. FITASC zaleca ich używanie na zawodach, ale dozwolona jest każda kombinacja zgodna z przepisami. Tabele używane na treningu muszą różnić się od tabel zawodów.",
    "disciplines": {
     "compak": "Tylko w Compak® Sporting (Załącznik 3)."
    }
@@ -1658,7 +1658,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "Zero-Zero",
    "conf": "low",
    "short": "Oba rzutki dubletu ocenione jako stracone.",
-   "long": "Zero-Zero to wynik dla całego dubletu. W Sporting™ dotyczy dubletu symultanicznego lub rafale, do którego zawodnik bez uzasadnionego powodu nie strzelił, kary czerwonej kartki przy takim dublecie oraz drugiej awarii przy pierwszym strzale. W Compaku to kara przy dublecie symultanicznym za przekroczenie czasu, odmowę lub strzał do No Bird po ostrzeżeniu, wynik celowego oddania obu strzałów do jednego rzutka w każdym dublecie oraz trzeciego przypadku, gdy jeden nabój rozbije oba rzutki dubletu symultanicznego. Przy dublecie na zawołanie odpowiednia kara to zwykle zero i No Bird."
+   "long": "Zero-Zero to wynik dla całego dubletu. W Sporting™ dotyczy dubletu symultanicznego lub rafale, do którego zawodnik bez uzasadnionego powodu nie strzelił, kary czerwonej kartki przy takim dublecie oraz drugiej awarii przy pierwszym strzale. W Compaku to kara przy dublecie symultanicznym za przekroczenie czasu, odmowę lub strzał do No Bird po ostrzeżeniu, wynik celowego oddania obu strzałów do jednego rzutka w każdym dublecie oraz trzeciego przypadku, gdy jeden nabój rozbije oba rzutki dubletu symultanicznego. Przy dublecie po strzale odpowiednia kara to zwykle zero i No Bird."
   },
   "coaching": {
    "term_local": "coaching (podpowiadanie)",
@@ -1765,7 +1765,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "sudden death",
    "conf": "low",
    "short": "Drugi etap dogrywki, w którym odpada pierwszy zawodnik, który uzyska zero.",
-   "long": "Jeśli po 25-rzutkowej serii dogrywki remis trwa, zawodnicy strzelają dalej w systemie sudden death: odpada pierwszy, który uzyska zero, pod warunkiem że wszyscy strzelali do tej samej liczby rzutków, a wygrywa ostatni, który zostanie. W Sporting™ dublet na zawołanie liczy się w sudden death jako para, więc one-zero równa się zero-one. W Compaku po losowaniu zawodnicy strzelają na każdym stanowisku rzutek pojedynczy, potem pierwszy i drugi dublet symultaniczny, a zawodnik rozpoczynający się zmienia (Załącznik 5 podaje kolejność dla 2 i 3 zawodników).",
+   "long": "Jeśli po 25-rzutkowej serii dogrywki remis trwa, zawodnicy strzelają dalej w systemie sudden death: odpada pierwszy, który uzyska zero, pod warunkiem że wszyscy strzelali do tej samej liczby rzutków, a wygrywa ostatni, który zostanie. W Sporting™ dublet po strzale liczy się w sudden death jako para, więc one-zero równa się zero-one. W Compaku po losowaniu zawodnicy strzelają na każdym stanowisku rzutek pojedynczy, potem pierwszy i drugi dublet symultaniczny, a zawodnik rozpoczynający się zmienia (Załącznik 5 podaje kolejność dla 2 i 3 zawodników).",
    "disciplines": {
     "sporting": "Dublet na strzał jako para: jeden-zero = zero-jeden.",
     "compak": "Kolejność według Załącznika 5: dla 3 zawodników 1-2-3, 2-3-1, 3-1-2."

@@ -37,18 +37,18 @@
     "origin": "interpreter-academy"
   },
   "title": "Rzutki pojedyncze i dublety",
-  "summary": "Co to rzutek pojedynczy, dublet na zawołanie, dublet symultaniczny i rafale, ile naboi można oddać oraz czym tu różnią się {{tm:sporting}} i {{tm:compak}}.",
+  "summary": "Co to rzutek pojedynczy, dublet po strzale, dublet symultaniczny i rafale, ile naboi można oddać oraz czym tu różnią się {{tm:sporting}} i {{tm:compak}}.",
   "body": {
     "flight-pairs-p1": "Rzutek pojedynczy (single) to jeden rzutek z jednej wyrzutni. W obu dyscyplinach można do niego strzelić dwa razy, więc po pudle można wystrzelić jeszcze raz z drugiej lufy. Dublet (pair, double) to dwa rzutki, które idą razem: jedna komenda, i strzelasz do obu.",
-    "flight-pairs-p2": "Dublet na zawołanie (report pair, double on report): komenda zwalnia pierwszy rzutek, a strzał do niego zwalnia drugi. W {{tm:sporting}} drugi wylatuje od 0 do 3 sekund po tym strzale. Kolejność jest stała. „Report” znaczy huk strzału, a nie pisemny raport.",
+    "flight-pairs-p2": "Dublet po strzale (report pair, double on report): komenda zwalnia pierwszy rzutek, a strzał do niego zwalnia drugi. W {{tm:sporting}} drugi wylatuje od 0 do 3 sekund po tym strzale. Kolejność jest stała. „Report” znaczy huk strzału, a nie pisemny raport.",
     "flight-pairs-p4": "Dublet symultaniczny („simo”; w {{term:english-sporting|English Sporting}} „{{term:true-pair|true pair}}”): oba rzutki wylatują w tej samej chwili, i można je strzelać w dowolnej kolejności. Lecą z jednej albo dwóch wyrzutni; w {{tm:compak}} — zawsze z dwóch różnych.",
-    "flight-pairs-p3": "Dublet następujący (following pair), który FITASC nazywa rafale: dwa rzutki z tej samej wyrzutni, po tym samym torze lotu, drugi wylatuje, jak tylko wyrzutnia się przeładuje. Strzelać możesz w dowolnej kolejności. Istnieje tylko w {{tm:sporting}}: dublet {{tm:compak}} jest na zawołanie albo symultaniczny.",
+    "flight-pairs-p3": "Dublet następujący (following pair), który FITASC nazywa rafale: dwa rzutki z tej samej wyrzutni, po tym samym torze lotu, drugi wylatuje, jak tylko wyrzutnia się przeładuje. Strzelać możesz w dowolnej kolejności. Istnieje tylko w {{tm:sporting}}: dublet {{tm:compak}} jest po strzale albo symultaniczny.",
     "targets-singles-and-doubles-cartridges": {
       "sporting": "Na dublet są dwa naboje, i oba można oddać do jednego rzutka. Jeśli jeden strzał rozbije oba rzutki, zaliczają się obie jako trafienia (sędzia woła „one” za każdą).",
-      "compak": "Jeden nabój na rzutek. Celowe oddanie obu strzałów do jednego rzutka to {{term:zero-zero|zero-zero}} (oba rzutki liczone jako pudło). Jeśli jeden strzał rozbije oba rzutki, nie liczą się jako dwa trafienia. W dublecie na zawołanie wynik pierwszego rzutka zostaje, a dublet podaje się ponownie, by odstrzelać drugi. W dublecie symultanicznym to No Bird, i dublet się powtarza; gdy zdarzy się to trzeci raz, zapisuje się zero-zero."
+      "compak": "Jeden nabój na rzutek. Celowe oddanie obu strzałów do jednego rzutka to {{term:zero-zero|zero-zero}} (oba rzutki liczone jako pudło). Jeśli jeden strzał rozbije oba rzutki, nie liczą się jako dwa trafienia. W dublecie po strzale wynik pierwszego rzutka zostaje, a dublet podaje się ponownie, by odstrzelać drugi. W dublecie symultanicznym to No Bird, i dublet się powtarza; gdy zdarzy się to trzeci raz, zapisuje się zero-zero."
     },
     "targets-singles-and-doubles-p6": "Jak liczy się punkty w dubletach, w tym zero-zero i No Bird w dublecie, wyjaśnia lekcja {{lesson:rules-doubles}}.",
-    "flight-pairs-p6": "Na stanowisku {{tm:sporting}} grupa strzela najpierw rzutki pojedyncze, potem dublety. Przed strzelaniem dublety symultaniczne i rafale są wyrzucane, by strzelcy je zobaczyli (pokazuje się je pierwszemu strzelcowi grupy); dubletów na zawołanie nie pokazuje się.",
+    "flight-pairs-p6": "Na stanowisku {{tm:sporting}} grupa strzela najpierw rzutki pojedyncze, potem dublety. Przed strzelaniem dublety symultaniczne i rafale są wyrzucane, by strzelcy je zobaczyli (pokazuje się je pierwszemu strzelcowi grupy); dubletów po strzale nie pokazuje się.",
     "targets-singles-and-doubles-p5": "Oś {{tm:sporting}} daje {{fact:targets.sporting-layout-targets}}, a dublety używają tylko rzutków już pokazanych jako pojedyncze z tego samego stanowiska. Seria {{tm:compak}} to także 25 rzutków, po pięć na stanowisko, według jednego z trzech wariantów: {{fact:targets.compak-station-menus}}.",
     "targets-singles-and-doubles-tip1": "Przed zawołaniem dubletu wielu trenerów radzi zaplanować obydwa rzutki: który pierwszy, gdzie rozbić każdy i gdzie skierować wzrok na drugi. Więcej w lekcji {{lesson:faults-pairs-transition}}."
   },
@@ -56,7 +56,7 @@
   "phrases": {
     "flight-pairs-ph1": {
       "meaning": "Drugi rzutek wylatuje dopiero, gdy strzelec strzeli do pierwszego, więc nie trzeba się spieszyć z pierwszym.",
-      "say": "To na zawołanie — dokończ porządnie pierwszego, drugi czeka na twój strzał."
+      "say": "To dublet po strzale — dokończ porządnie pierwszego, drugi czeka na twój strzał."
     },
     "flight-pairs-ph2": {
       "meaning": "W dublecie symultanicznym strzelaj najpierw do rabbita, bo teal dłużej zostaje w powietrzu.",
@@ -73,7 +73,7 @@
   },
   "key_points": {
     "flight-pairs-kp1": "Rzutek pojedynczy: jeden rzutek, dozwolone dwa strzały.",
-    "flight-pairs-kp2": "Dublet na zawołanie: strzał do pierwszego zwalnia drugi; kolejność stała.",
+    "flight-pairs-kp2": "Dublet po strzale: strzał do pierwszego zwalnia drugi; kolejność stała.",
     "flight-pairs-kp3": "Rafale (dublet następujący): ta sama wyrzutnia, ta sama linia, tylko {{tm:sporting}}.",
     "flight-pairs-kp4": "Symultaniczny (true pair): oba naraz, dowolna kolejność.",
     "flight-pairs-kp5": "{{tm:sporting}}: oba naboje mogą iść do jednego rzutka; {{tm:compak}}: jeden na rzutek."
@@ -81,7 +81,7 @@
   "did_you_know": "Rafale po francusku znaczy „seria” albo „podmuch”: rzutki wylatują jeden za drugim tak szybko, jak wyrzutnia zdąży się przeładować.",
   "quiz": {
     "flight-pairs-q1": {
-      "q": "Co w dublecie na zawołanie zwalnia drugi rzutek?",
+      "q": "Co w dublecie po strzale zwalnia drugi rzutek?",
       "options": {
         "a": "Druga komenda",
         "b": "Sygnał sędziego",
@@ -107,7 +107,7 @@
         "b": "Tylko w {{tm:compak}}",
         "c": "W obu"
       },
-      "explain": "Rafale to dwa rzutki z jednej wyrzutni po jednej trajektorii — dublet {{tm:sporting}}. W {{tm:compak}} są tylko dublety na zawołanie i symultaniczne."
+      "explain": "Rafale to dwa rzutki z jednej wyrzutni po jednej trajektorii — dublet {{tm:sporting}}. W {{tm:compak}} są tylko dublety po strzale i symultaniczne."
     },
     "flight-pairs-q3": {
       "q": "Brytyjski trener mówi „true pair”. Jak to przetłumaczysz?",

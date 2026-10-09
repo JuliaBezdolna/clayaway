@@ -124,7 +124,7 @@
     "One i one",
     "No Bird, dublet powtarza się"
    ],
-   "explain": "Tutaj oba rzutki rozbił sam strzał, więc w każdym rodzaju dubletu liczą się oba: one i one. Inaczej jest, gdy kawałek pierwszego rzutka rozbija drugi przed drugim strzałem (dublet na zawołanie): wtedy dublet się powtarza, a pierwszy wynik zostaje zachowany."
+   "explain": "Tutaj oba rzutki rozbił sam strzał, więc w każdym rodzaju dubletu liczą się oba: one i one. Inaczej jest, gdy kawałek pierwszego rzutka rozbija drugi przed drugim strzałem (dublet po strzale): wtedy dublet się powtarza, a pierwszy wynik zostaje zachowany."
   },
   "sp-q010": {
    "q": "Dublet rafale. Oba rzutki wylatują prawidłowo, ale zawodnik opuszcza broń i bez uzasadnionego powodu nie strzela do żadnego. Jaka jest decyzja sędziego?",
@@ -136,16 +136,16 @@
    "explain": "Brak strzału do prawidłowego rzutka bez uzasadnionego powodu to zero; przy dublecie rafale lub symultanicznym oznacza to zero i zero."
   },
   "sp-q011": {
-   "q": "Dublet na zawołanie. Pierwszy rzutek leci po oczywiście złej, nieregularnej trajektorii. Zawodnik mimo to strzela do niego i chybia. Jaka jest decyzja sędziego?",
+   "q": "Dublet po strzale. Pierwszy rzutek leci po oczywiście złej, nieregularnej trajektorii. Zawodnik mimo to strzela do niego i chybia. Jaka jest decyzja sędziego?",
    "options": [
     "No Bird tylko za pierwszy rzutek",
     "Zero za pierwszy rzutek, drugi strzał normalnie",
     "No Bird, cały dublet powtarza się"
    ],
-   "explain": "W dublecie na zawołanie nieregularny pierwszy rzutek oznacza powtórzenie dubletu."
+   "explain": "W dublecie po strzale nieregularny pierwszy rzutek oznacza powtórzenie dubletu."
   },
   "sp-q012": {
-   "q": "Dublet na zawołanie. Zawodnik rozbija pierwszy rzutek, a jeden z jego kawałków rozbija drugi rzutek, zanim zawodnik odda drugi strzał. Jaka jest decyzja sędziego?",
+   "q": "Dublet po strzale. Zawodnik rozbija pierwszy rzutek, a jeden z jego kawałków rozbija drugi rzutek, zanim zawodnik odda drugi strzał. Jaka jest decyzja sędziego?",
    "options": [
     "Powtórka; nic nie zostaje",
     "One i zero, dublet się liczy",
@@ -224,7 +224,7 @@
     "Cały dublet powtarza się, nic nie jest zapisane",
     "Zero i zero"
    ],
-   "explain": "Przy pierwszym rzutku dubletu na zawołanie oraz w dubletach symultanicznych i rafale podwójny wystrzał oznacza powtórzenie całego dubletu bez zapisania wyniku."
+   "explain": "Przy pierwszym rzutku dubletu po strzale oraz w dubletach symultanicznych i rafale podwójny wystrzał oznacza powtórzenie całego dubletu bez zapisania wyniku."
   },
   "sp-q021": {
    "q": "Dublet symultaniczny. Zawodnik miał już wcześniej w tej serii jedną awarię. Teraz pierwszy strzał znowu nie wypala i zawodnik nie strzela. Jaka jest decyzja sędziego?",
@@ -254,13 +254,13 @@
    "explain": "Po pierwszym ostrzeżeniu każde kolejne przewinienie na tej samej osi oznacza czerwoną kartkę, a przy rzutku pojedynczym rzutek to zero."
   },
   "sp-q024": {
-   "q": "Zawodnik, który ma już żółtą kartkę za pozycję broni na tej osi, zaczyna dublet na zawołanie z bronią złożoną przed pojawieniem się pierwszego rzutka. Jaka jest decyzja sędziego?",
+   "q": "Zawodnik, który ma już żółtą kartkę za pozycję broni na tej osi, zaczyna dublet po strzale z bronią złożoną przed pojawieniem się pierwszego rzutka. Jaka jest decyzja sędziego?",
    "options": [
     "Czerwona kartka: zero za pierwszy rzutek, drugi liczony zgodnie ze strzałem",
     "Czerwona kartka: zero i No Bird",
     "Zero i zero"
    ],
-   "explain": "Powtórne przewinienie na tej samej osi karze się czerwoną kartką: zero przy rzutku pojedynczym, zero i No Bird przy dublecie na zawołanie, zero i zero przy dubletach symultanicznych i rafale."
+   "explain": "Powtórne przewinienie na tej samej osi karze się czerwoną kartką: zero przy rzutku pojedynczym, zero i No Bird przy dublecie po strzale, zero i zero przy dubletach symultanicznych i rafale."
   },
   "sp-q025": {
    "q": "Sędzia ogłasza „No Bird” przy rzutku pojedynczym, ale zawodnik mimo to strzela do rzutka. Robi to pierwszy raz. Jaka jest decyzja sędziego?",
@@ -374,14 +374,14 @@
    "explain": "Rzutek musi zostać wyrzucony w ciągu trzech sekund od dźwiękowego sygnału sędziego; późniejszy rzutek to No Bird."
   },
   "sp-q037": {
-   "q": "Kiedy w dublecie na zawołanie wyrzucany jest drugi rzutek?",
+   "q": "Kiedy w dublecie po strzale wyrzucany jest drugi rzutek?",
    "options": [
     "Dokładnie w tym samym momencie co pierwszy",
     "Od 0 do 3 sekund po strzale do pierwszego",
     "Od 3 do 5 sekund po wyrzuceniu pierwszego rzutka",
     "Gdy zawodnik zawoła drugi raz"
    ],
-   "explain": "W dublecie na zawołanie to strzał do pierwszego rzutka uruchamia drugi: wylatuje od 0 do 3 sekund po tym strzale."
+   "explain": "W dublecie po strzale to strzał do pierwszego rzutka uruchamia drugi: wylatuje od 0 do 3 sekund po tym strzale."
   },
   "sp-q038": {
    "q": "Jaki jest maksymalny czas między rzutkami pojedynczymi lub między dubletami?",
@@ -565,7 +565,7 @@
     "Prawda",
     "Fałsz"
    ],
-   "explain": "Prawda, w dubletach na zawołanie, symultanicznych i rafale. Dowolna pozycja obowiązuje tylko między dwoma rzutkami; przed pierwszym nadal wymagana jest pozycja gotowości."
+   "explain": "Prawda, w dubletach po strzale, symultanicznych i rafale. Dowolna pozycja obowiązuje tylko między dwoma rzutkami; przed pierwszym nadal wymagana jest pozycja gotowości."
   },
   "sp-q057": {
    "q": "Do rabbita strzela się z bronią złożoną do ramienia, tak jak do każdego innego rzutka.",
@@ -576,12 +576,12 @@
    "explain": "Prawda. Do każdego rzutka, także do rabbita, strzela się z bronią złożoną do ramienia; strzelanie z biodra jest niedozwolone."
   },
   "sp-q058": {
-   "q": "Podczas pokazu dublety na zawołanie są pokazywane pierwszemu zawodnikowi grupy.",
+   "q": "Podczas pokazu dublety po strzale są pokazywane pierwszemu zawodnikowi grupy.",
    "options": [
     "Prawda",
     "Fałsz"
    ],
-   "explain": "Fałsz. Dubletów na zawołanie się nie pokazuje; pokazuje się tylko dublety symultaniczne i rafale, na prośbę z najwyżej dwoma powtórzeniami."
+   "explain": "Fałsz. Dubletów po strzale się nie pokazuje; pokazuje się tylko dublety symultaniczne i rafale, na prośbę z najwyżej dwoma powtórzeniami."
   },
   "sp-q059": {
    "q": "Zawodnik może oddać jeden strzał próbny na pierwszym stanowisku, żeby sprawdzić, czy świeżo naprawiona broń działa.",
@@ -624,12 +624,12 @@
    "explain": "Prawda. Wykluczony zawodnik nie dostaje z powrotem żadnych pieniędzy ani żadnej rekompensaty finansowej."
   },
   "sp-q064": {
-   "q": "W dogrywce sudden death w dublecie na zawołanie „one-zero” i „zero-one” liczą się tak samo.",
+   "q": "W dogrywce sudden death w dublecie po strzale „one-zero” i „zero-one” liczą się tak samo.",
    "options": [
     "Prawda",
     "Fałsz"
    ],
-   "explain": "Prawda. Tylko w sudden death dublet na zawołanie liczy się jako para dwóch rzutków, niezależnie od tego, który został chybiony."
+   "explain": "Prawda. Tylko w sudden death dublet po strzale liczy się jako para dwóch rzutków, niezależnie od tego, który został chybiony."
   },
   "sp-q065": {
    "q": "Gdy dwie drużyny mają równy wynik, strzelają drużynową dogrywkę na nowej osi.",
@@ -692,18 +692,18 @@
   "sp-q071": {
    "q": "Stanowisko ma 3 wyrzutnie i 2 dublety. Która kombinacja jest NIEDOZWOLONA?",
    "options": [
-    "Jeden symultaniczny i jeden na zawołanie",
-    "Dwa dublety na zawołanie",
-    "Jeden rafale i jeden na zawołanie",
+    "Jeden symultaniczny i jeden po strzale",
+    "Dwa dublety po strzale",
+    "Jeden rafale i jeden po strzale",
     "Jeden symultaniczny i jeden rafale"
    ],
-   "explain": "Na takim stanowisku co najmniej jeden z dwóch dubletów musi być symultaniczny albo rafale. Dwa dublety na zawołanie są niedozwolone."
+   "explain": "Na takim stanowisku co najmniej jeden z dwóch dubletów musi być symultaniczny albo rafale. Dwa dublety po strzale są niedozwolone."
   },
   "sp-q072": {
    "q": "Która zasada obowiązuje przy układaniu dubletów na stanowisku?",
    "options": [
     "Klasa C pojawia się w dubletach najwyżej raz",
-    "Dublety muszą być zawsze na zawołanie",
+    "Dublety muszą być zawsze po strzale",
     "Dublety mogą mieć trajektorie niepokazane jako pojedyncze",
     "Dwa rzutki klasy C tworzą zalecany dublet"
    ],
@@ -888,7 +888,7 @@
    "explain": "Za pierwszym i drugim razem to NO BIRD i dublet się powtarza; za trzecim razem dublet liczy się jako ZERO-ZERO. Regulamin nie mówi, w jakim okresie liczy się te przypadki."
   },
   "cs-q011": {
-   "q": "W dublecie na zawołanie pierwszy strzał rozbija pierwszy rzutek, a jego kawałek rozbija w powietrzu także drugi rzutek. Jaka jest decyzja sędziego?",
+   "q": "W dublecie po strzale pierwszy strzał rozbija pierwszy rzutek, a jego kawałek rozbija w powietrzu także drugi rzutek. Jaka jest decyzja sędziego?",
    "options": [
     "ONE-ONE: oba rzutki się liczą",
     "Cały dublet to NO BIRD; nic się nie liczy",
@@ -1081,7 +1081,7 @@
    "q": "Na jakim Compaku strzela się dogrywki?",
    "options": [
     "5 rzutków pojedynczych na stanowisko",
-    "3 rzutki pojedyncze i 1 dublet na zawołanie na stanowisko",
+    "3 rzutki pojedyncze i 1 dublet po strzale na stanowisko",
     "1 rzutek pojedynczy i 2 dublety symultaniczne na stanowisko",
     "Ostatni Compak zawodów, bez zmian"
    ],
@@ -1169,7 +1169,7 @@
     "Prawda",
     "Fałsz"
    ],
-   "explain": "Prawda. Na jednym Compaku dublety na każdym stanowisku są albo wszystkie symultaniczne, albo wszystkie na zawołanie. Zaleca się różne tabele na różnych Compakach."
+   "explain": "Prawda. Na jednym Compaku dublety na każdym stanowisku są albo wszystkie symultaniczne, albo wszystkie po strzale. Zaleca się różne tabele na różnych Compakach."
   },
   "cs-q041": {
    "q": "Który rzutek w menu Compaku otwiera każdy dublet na stanowisku?",
@@ -1338,14 +1338,14 @@
    "explain": "Tabela NO BIRD dotyczy tylko pierwszej awarii w rundzie. Gdy ten sam rodzaj awarii zdarzy się drugi raz, każdy rzutek tej rundy, do którego jeszcze nie strzelano, to ZERO (czerwona kartka)."
   },
   "cs-q058": {
-   "q": "Dublet na zawołanie: zawodnik rozbija pierwszy rzutek, a potem zawodzi jego drugi nabój. Pierwsza awaria tego rodzaju w rundzie. Jaka jest decyzja sędziego?",
+   "q": "Dublet po strzale: zawodnik rozbija pierwszy rzutek, a potem zawodzi jego drugi nabój. Pierwsza awaria tego rodzaju w rundzie. Jaka jest decyzja sędziego?",
    "options": [
     "ONE-ZERO",
     "Cały dublet to NO BIRD i nic nie zostaje zachowane",
     "ONE za pierwszy rzutek zostaje; dublet powtarza się, by ocenić drugi",
     "ONE za pierwszy, a drugi rzutek wyrzuca się osobno"
    ],
-   "explain": "Gdy w dublecie na zawołanie zawiedzie drugi nabój (pierwsza awaria), wynik pierwszego rzutka zostaje, a dublet powtarza się dla drugiego rzutka."
+   "explain": "Gdy w dublecie po strzale zawiedzie drugi nabój (pierwsza awaria), wynik pierwszego rzutka zostaje, a dublet powtarza się dla drugiego rzutka."
   },
   "cs-q059": {
    "q": "Przy rzutku pojedynczym zawodnik chybia pierwszym strzałem, a drugi nabój zawodzi. To pierwszy incydent w rundzie i wyrzucany jest nowy rzutek. Jak można zaliczyć nowy rzutek?",
@@ -1438,14 +1438,14 @@
    "explain": "Na zawołanie jest 10 sekund. Przy pierwszym przekroczeniu zawodnik dostaje ostrzeżenie odnotowane na karcie wyników; dopiero powtórzenie w tej samej rundzie kosztuje rzutki."
   },
   "cs-q068": {
-   "q": "Zawodnik, który w tej rundzie dostał już ostrzeżenie za przekroczenie 10 sekund, znowu woła za późno, tym razem przy dublecie na zawołanie. Jaka jest decyzja sędziego?",
+   "q": "Zawodnik, który w tej rundzie dostał już ostrzeżenie za przekroczenie 10 sekund, znowu woła za późno, tym razem przy dublecie po strzale. Jaka jest decyzja sędziego?",
    "options": [
     "ZERO / NO BIRD",
     "ZERO / ZERO",
     "Tylko drugie ostrzeżenie",
     "NO BIRD / NO BIRD"
    ],
-   "explain": "Powtórzenie w tej samej rundzie ocenia się według tabeli z pkt 21.5: rzutek pojedynczy ZERO, dublet na zawołanie ZERO / NO BIRD, dublet symultaniczny ZERO / ZERO."
+   "explain": "Powtórzenie w tej samej rundzie ocenia się według tabeli z pkt 21.5: rzutek pojedynczy ZERO, dublet po strzale ZERO / NO BIRD, dublet symultaniczny ZERO / ZERO."
   },
   "cs-q069": {
    "q": "Między stanowiskami trener stojący za Compakiem ciągle podpowiada zawodnikowi, gdzie trzymać lufę przy następnym rzutku. Jaka jest decyzja sędziego?",
@@ -1475,7 +1475,7 @@
     "Pierwszy wynik zachowany, drugi ZERO",
     "ZERO / ZERO"
    ],
-   "explain": "Przy awarii po pierwszym ostrzeżeniu tabela z pkt 21.5 daje ZERO / ZERO za pierwszy rzutek dubletu symultanicznego (ZERO / NO BIRD przy dublecie na zawołanie)."
+   "explain": "Przy awarii po pierwszym ostrzeżeniu tabela z pkt 21.5 daje ZERO / ZERO za pierwszy rzutek dubletu symultanicznego (ZERO / NO BIRD przy dublecie po strzale)."
   },
   "cs-q072": {
    "q": "Ile czasu po awarii ma zawodnik na naprawę lub wymianę broni?",
