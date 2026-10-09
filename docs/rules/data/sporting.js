@@ -868,7 +868,7 @@ window.RULES.push({
       "3 seconds",
       "on the gun",
       "репорт",
-      "дуплет на постріл",
+      "сигнальний дуплет",
       "3 секунди"
      ],
      "quick_guide": false

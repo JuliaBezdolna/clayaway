@@ -727,13 +727,14 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "double-on-report": {
-   "term_local": "дуплет на постріл",
+   "term_local": "сигнальний дуплет",
    "alt": [
-    "сигнальний дуплет",
+    "дуплет на постріл",
     "репорт"
    ],
-   "note": "Several variants circulate; no official Ukrainian FITASC text found.",
-   "conf": "low"
+   "note": "The Ukrainian Sporting Federation translation of the FITASC Compak® Sporting rules (§3.3.1) names it «сигнальний дуплет»; «дуплет на постріл» is also heard.",
+   "conf": "high",
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2020/06/%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9A-%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2%D0%98%D0%9D%D0%93.pdf"
   },
   "simultaneous-double": {
    "term_local": "одночасний дуплет",

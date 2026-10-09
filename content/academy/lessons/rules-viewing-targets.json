@@ -191,7 +191,7 @@
       "core": true,
       "disc": "sporting",
       "rule_ref": "sporting:ch16-presentation-doubles",
-      "uk": "{{term:double-on-report|Дуплети на постріл}}, де друга мішень вилітає на ваш постріл по першій, не показують. Але їхні мішені ви вже бачили: {{term:double|дуплети}} в {{tm:sporting}} беруть лише з тих мішеней, що вже летіли як одиночні на цьому місці. Першому стрільцеві кожної групи показують {{term:simultaneous-double|одночасні дуплети}}, де обидві мішені вилітають разом, і {{term:rafale-double|рафаль}} — дві мішені з однієї {{term:trap|машинки}}, одна за одною. На прохання їх показують ще раз, не більше двох разів.",
+      "uk": "{{term:double-on-report|Сигнальні дуплети}}, де друга мішень вилітає на ваш постріл по першій, не показують. Але їхні мішені ви вже бачили: {{term:double|дуплети}} в {{tm:sporting}} беруть лише з тих мішеней, що вже летіли як одиночні на цьому місці. Першому стрільцеві кожної групи показують {{term:simultaneous-double|одночасні дуплети}}, де обидві мішені вилітають разом, і {{term:rafale-double|рафаль}} — дві мішені з однієї {{term:trap|машинки}}, одна за одною. На прохання їх показують ще раз, не більше двох разів.",
       "en": "{{term:double-on-report|Doubles on report}} (the second target leaves when you fire at the first) are not shown. You have already seen their targets, though: a double only uses targets thrown as singles from the same stand. The first shooter of each squad is shown the {{term:simultaneous-double|simultaneous doubles}} (both targets leave together) and {{term:rafale-double|rafale doubles}} (two targets from the same trap, one after the other). On request they are shown again, at most twice."
     },
     {
@@ -371,7 +371,7 @@
     {
       "k": "sporting-viewing-kp3",
       "en": "{{tm:sporting}}: doubles on report are not presented; the first shooter of each squad sees the simultaneous and rafale doubles.",
-      "uk": "{{tm:sporting}}: дуплети на постріл не показують; одночасні дуплети й рафаль бачить перший стрілець кожної групи."
+      "uk": "{{tm:sporting}}: сигнальні дуплети не показують; одночасні дуплети й рафаль бачить перший стрілець кожної групи."
     },
     {
       "k": "compak-gun-and-call-kp4",
@@ -425,7 +425,7 @@
       "correct": "c",
       "explain": {
         "en": "In {{tm:sporting}} doubles on report are not presented; simultaneous and rafale doubles are. A double only uses targets already thrown as singles on that stand.",
-        "uk": "У {{tm:sporting}} дуплети на постріл не показують, а одночасні й рафаль — показують. У дуплетах бувають лише мішені, які вже летіли як одиночні на цьому місці."
+        "uk": "У {{tm:sporting}} сигнальні дуплети не показують, а одночасні й рафаль — показують. У дуплетах бувають лише мішені, які вже летіли як одиночні на цьому місці."
       },
       "disc": "sporting",
       "rule_ref": "sporting:ch16-presentation-doubles"
@@ -540,7 +540,7 @@
       "disc": "compak",
       "q": {
         "en": "{{tm:compak}} in line, with doubles on report. While the line is filling, a new shooter steps onto station 1. What does the referee show this shooter?",
-        "uk": "{{tm:compak}} in line, дуплети на постріл. Поки лінія заповнюється, на номер 1 стає новий стрілець. Що показує йому суддя?"
+        "uk": "{{tm:compak}} in line, сигнальні дуплети. Поки лінія заповнюється, на номер 1 стає новий стрілець. Що показує йому суддя?"
       },
       "options": [
         {

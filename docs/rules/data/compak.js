@@ -510,7 +510,7 @@ window.RULES.push({
      "title_en": "Double on report",
      "title_uk": "Дуплет «на постріл» (double on report)",
      "summary_en": "In a double on report two targets come from one trap or from two different traps. The shooter's call releases the first; the shot at the first target releases the second, within the time allowed by article 2.3.",
-     "summary_uk": "У дуплеті на постріл (double on report) дві мішені летять з однієї або з двох різних машинок. Команда стрільця запускає першу, а постріл по першій мішені запускає другу — у межах часу, передбаченого статтею 2.3.",
+     "summary_uk": "У сигнальному дуплеті (double on report) дві мішені летять з однієї або з двох різних машинок. Команда стрільця запускає першу, а постріл по першій мішені запускає другу — у межах часу, передбаченого статтею 2.3.",
      "points_en": [
       "Call releases target 1; the shot releases target 2.",
       "One or two traps.",
@@ -530,7 +530,7 @@ window.RULES.push({
       "report pair",
       "report double",
       "on report",
-      "дуплет на постріл",
+      "сигнальний дуплет",
       "дуплет",
       "рапорт"
      ],
@@ -608,9 +608,9 @@ window.RULES.push({
      "ref": "Chapter 3, 3.3.3 (double on report: two targets with one shot)",
      "page": 8,
      "title_en": "Double on report: both targets broken with one shot",
-     "title_uk": "Дуплет на постріл: обидві мішені розбито одним пострілом",
+     "title_uk": "Сигнальний дуплет: обидві мішені розбито одним пострілом",
      "summary_en": "If both targets of a double on report break with a single cartridge, the result on the first target stands and the second target is a NO BIRD, so the double is shot again. The lines about a second and third occurrence (the third being ZERO-ZERO) follow the simultaneous-double paragraph, and the text does not say clearly whether they also cover doubles on report; ask the referee or jury if it matters.",
-     "summary_uk": "Якщо в дуплеті на постріл обидві мішені розбито одним патроном, результат по першій мішені зараховують, а друга мішень — NO BIRD, тож дуплет повторюють. Положення про другий і третій випадок (утретє — «zero — zero») стоять після абзацу про одночасний дуплет, і з тексту не зрозуміло напевно, чи стосуються вони також дуплета на постріл; якщо це важливо, уточніть у судді або журі.",
+     "summary_uk": "Якщо в сигнальному дуплеті обидві мішені розбито одним патроном, результат по першій мішені зараховують, а друга мішень — NO BIRD, тож дуплет повторюють. Положення про другий і третій випадок (утретє — «zero — zero») стоять після абзацу про одночасний дуплет, і з тексту не зрозуміло напевно, чи стосуються вони також сигнального дуплета; якщо це важливо, уточніть у судді або журі.",
      "points_en": [
       "Result on target 1 is recorded.",
       "Target 2 is NO BIRD.",
@@ -952,7 +952,7 @@ window.RULES.push({
      "title_en": "The eight Compaks of an international competition",
      "title_uk": "Вісім Compak міжнародних змагань",
      "summary_en": "An international competition is shot on four kinds of Compak: three with 3 singles and a double on report per station, one with 3 singles and a simultaneous double, three with 1 single and two doubles on report, and one with 1 single and two simultaneous doubles. That adds up to eight Compaks of 25 targets, i.e. 200 targets (our calculation; the rulebook lists only the four kinds).",
-     "summary_uk": "Міжнародні змагання стріляють на Compak чотирьох типів: три з 3 одиночними мішенями й дуплетом на постріл на кожному місці, один — з 3 одиночними й одночасним дуплетом, три — з 1 одиночною і двома дуплетами на постріл, один — з 1 одиночною і двома одночасними дуплетами. Разом це вісім Compak по 25 мішеней, тобто 200 мішеней (наш підрахунок; у правилах наведено лише чотири типи).",
+     "summary_uk": "Міжнародні змагання стріляють на Compak чотирьох типів: три з 3 одиночними мішенями й сигнальним дуплетом на кожному місці, один — з 3 одиночними й одночасним дуплетом, три — з 1 одиночною і двома сигнальними дуплетами, один — з 1 одиночною і двома одночасними дуплетами. Разом це вісім Compak по 25 мішеней, тобто 200 мішеней (наш підрахунок; у правилах наведено лише чотири типи).",
      "points_en": [
       "3 x (3 singles + 1 double on report).",
       "1 x (3 singles + 1 simultaneous double).",
@@ -961,9 +961,9 @@ window.RULES.push({
       "8 Compaks x 25 = 200 targets."
      ],
      "points_uk": [
-      "3 × (3 одиночні + 1 дуплет на постріл).",
+      "3 × (3 одиночні + 1 сигнальний дуплет).",
       "1 × (3 одиночні + 1 одночасний дуплет).",
-      "3 × (1 одиночна + 2 дуплети на постріл).",
+      "3 × (1 одиночна + 2 сигнальні дуплети).",
       "1 × (1 одиночна + 2 одночасні дуплети).",
       "8 Compak × 25 = 200 мішеней."
      ],
@@ -2300,7 +2300,7 @@ window.RULES.push({
      "title_en": "The 40 pre-established trajectory setting tables",
      "title_uk": "40 готових таблиць налаштування траєкторій",
      "summary_en": "Annex 3 contains 40 ready-made menus. Tables 1-8: 5 singles per station. Tables 9-16: 3 singles and 1 double on report. Tables 17-24: 3 singles and 1 simultaneous double. Tables 25-32: 1 single and 2 doubles on report. Tables 33-40: 1 single and 2 simultaneous doubles. Each table gives the trap letters to shoot at each of the five stations.",
-     "summary_uk": "Додаток 3 містить 40 готових меню. Таблиці 1–8: 5 одиночних на місці. Таблиці 9–16: 3 одиночні й 1 дуплет на постріл. Таблиці 17–24: 3 одиночні й 1 одночасний дуплет. Таблиці 25–32: 1 одиночна і 2 дуплети на постріл. Таблиці 33–40: 1 одиночна і 2 одночасні дуплети. Кожна таблиця вказує літери машинок для кожного з п’яти місць.",
+     "summary_uk": "Додаток 3 містить 40 готових меню. Таблиці 1–8: 5 одиночних на місці. Таблиці 9–16: 3 одиночні й 1 сигнальний дуплет. Таблиці 17–24: 3 одиночні й 1 одночасний дуплет. Таблиці 25–32: 1 одиночна і 2 сигнальні дуплети. Таблиці 33–40: 1 одиночна і 2 одночасні дуплети. Кожна таблиця вказує літери машинок для кожного з п’яти місць.",
      "points_en": [
       "Tables 1-8: 5 singles.",
       "9-16: 3 singles + double on report.",
@@ -2310,9 +2310,9 @@ window.RULES.push({
      ],
      "points_uk": [
       "Таблиці 1–8: 5 одиночних.",
-      "9–16: 3 одиночні + дуплет на постріл.",
+      "9–16: 3 одиночні + сигнальний дуплет.",
       "17–24: 3 одиночні + одночасний дуплет.",
-      "25–32: 1 одиночна + 2 дуплети на постріл.",
+      "25–32: 1 одиночна + 2 сигнальні дуплети.",
       "33–40: 1 одиночна + 2 одночасні дуплети."
      ],
      "terms": [
@@ -2550,9 +2550,9 @@ window.RULES.push({
      "ref": "Chapter 17, 17.5.1 Compak Report Double",
      "page": 18,
      "title_en": "In line with doubles on report",
-     "title_uk": "In line з дуплетами на постріл",
+     "title_uk": "In line з сигнальними дуплетами",
      "summary_en": "The line starts with shooter 1 on station 1 and shooter 2 waiting; the referee stands left of station 1, out of the shooter's way. If shooter 1 asks, the referee demonstrates the singles A to F (no more than twice) and then says 'start' or 'competition'. Shooter 1 shoots all the singles in menu order. Before each report double the referee shows its first target, and the shooter then shoots the double (the same again for a second double). Each new shooter who steps onto station 1 is shown the first target of their double(s), and this goes on until a shooter reaches station 5.",
-     "summary_uk": "Лінія починається так: стрілець 1 на місці № 1, стрілець 2 чекає; суддя стоїть ліворуч від місця № 1 і не заважає стрільцеві. Якщо стрілець 1 попросить, суддя демонструє одиночні від A до F (не більше двох разів) і каже «start» або «competition». Стрілець 1 стріляє всі одиночні в порядку меню. Перед кожним дуплетом на постріл суддя показує його першу мішень, а тоді стрілець стріляє дуплет (так само з другим дуплетом). Кожному новому стрільцеві на місці № 1 показують першу мішень його дуплета (дуплетів), і так триває, доки хтось не дійде до місця № 5.",
+     "summary_uk": "Лінія починається так: стрілець 1 на місці № 1, стрілець 2 чекає; суддя стоїть ліворуч від місця № 1 і не заважає стрільцеві. Якщо стрілець 1 попросить, суддя демонструє одиночні від A до F (не більше двох разів) і каже «start» або «competition». Стрілець 1 стріляє всі одиночні в порядку меню. Перед кожним сигнальним дуплетом суддя показує його першу мішень, а тоді стрілець стріляє дуплет (так само з другим дуплетом). Кожному новому стрільцеві на місці № 1 показують першу мішень його дуплета (дуплетів), і так триває, доки хтось не дійде до місця № 5.",
      "points_en": [
       "Referee left of station 1.",
       "Singles A-F demonstrated at most twice if shooter 1 asks.",
@@ -2562,7 +2562,7 @@ window.RULES.push({
      "points_uk": [
       "Суддя ліворуч від місця № 1.",
       "Одиночні A–F демонструють не більше двох разів, якщо попросить стрілець 1.",
-      "Перед кожним дуплетом на постріл показують його першу мішень.",
+      "Перед кожним сигнальним дуплетом показують його першу мішень.",
       "Триває, доки стрілець не дійде до місця № 5."
      ],
      "terms": [
@@ -2577,7 +2577,7 @@ window.RULES.push({
       "2 times",
       "start",
       "in line показ",
-      "дуплет на постріл",
+      "сигнальний дуплет",
       "2 рази"
      ],
      "quick_guide": false
@@ -2589,7 +2589,7 @@ window.RULES.push({
      "title_en": "In line with simultaneous doubles",
      "title_uk": "In line з одночасними дуплетами",
      "summary_en": "The start is the same as with report doubles. The first shooter is shown the singles A to F, the simultaneous double(s) of station 1 and every double of the other stations up to 5; then the referee says 'start' or 'competition'. From the second shooter on, whoever stands on station 1 is shown the first target of the simultaneous double, until a shooter is on station 5 (the same for a second double). The last shooter is treated the same way. If shooting stops for more than 10 minutes, the six singles are shown again.",
-     "summary_uk": "Початок такий самий, як із дуплетами на постріл. Першому стрільцеві показують одиночні від A до F, одночасний дуплет (дуплети) місця № 1 і всі дуплети інших місць до № 5; тоді суддя каже «start» або «competition». Починаючи з другого стрільця, тому, хто стоїть на місці № 1, показують першу мішень одночасного дуплета, доки хтось не стане на місце № 5 (так само з другим дуплетом). З останнім стрільцем роблять так само. Якщо стрільбу зупинили більш ніж на 10 хвилин, шість одиночних показують знову.",
+     "summary_uk": "Початок такий самий, як із сигнальними дуплетами. Першому стрільцеві показують одиночні від A до F, одночасний дуплет (дуплети) місця № 1 і всі дуплети інших місць до № 5; тоді суддя каже «start» або «competition». Починаючи з другого стрільця, тому, хто стоїть на місці № 1, показують першу мішень одночасного дуплета, доки хтось не стане на місце № 5 (так само з другим дуплетом). З останнім стрільцем роблять так само. Якщо стрільбу зупинили більш ніж на 10 хвилин, шість одиночних показують знову.",
      "points_en": [
       "First shooter: singles A-F and all simultaneous doubles.",
       "From shooter 2: the first target of the double is shown on station 1.",
@@ -3329,7 +3329,7 @@ window.RULES.push({
      "title_en": "Both barrels fire together or the first cartridge fails",
      "title_uk": "Обидва стволи вистрілили разом або відмовив перший патрон",
      "summary_en": "On a first incident where both barrels go off together, or the first cartridge fails, the shooter simply gets the target or double again. Single: a new target. First target of a double on report: a new double. Simultaneous double: a new double. The failed attempt does not count for anything.",
-     "summary_uk": "Якщо при першому випадку обидва стволи вистрілили разом або відмовив перший патрон, стрілець просто отримує мішень чи дуплет знову. Одиночна: нова мішень. Перша мішень дуплета на постріл: новий дуплет. Одночасний дуплет: новий дуплет. Невдала спроба нічого не важить.",
+     "summary_uk": "Якщо при першому випадку обидва стволи вистрілили разом або відмовив перший патрон, стрілець просто отримує мішень чи дуплет знову. Одиночна: нова мішень. Перша мішень сигнального дуплета: новий дуплет. Одночасний дуплет: новий дуплет. Невдала спроба нічого не важить.",
      "points_en": [
       "Single: NO BIRD, new target.",
       "First target of a report double: NO BIRD, new double.",
@@ -3338,7 +3338,7 @@ window.RULES.push({
      ],
      "points_uk": [
       "Одиночна: NO BIRD, нова мішень.",
-      "Перша мішень дуплета на постріл: NO BIRD, новий дуплет.",
+      "Перша мішень сигнального дуплета: NO BIRD, новий дуплет.",
       "Одночасний дуплет: NO BIRD, новий дуплет.",
       "Перше попередження (жовта картка)."
      ],
@@ -3368,7 +3368,7 @@ window.RULES.push({
      "title_en": "The second cartridge fails",
      "title_uk": "Відмовив другий патрон",
      "summary_en": "When the second cartridge fails on a first incident, the outcome depends on the target. Single: a new target is thrown, and only the second shot may break it, so the shooter has to miss on purpose with the first. Double on report: the first target's result stands and the double is thrown again to score the second. Simultaneous double: a new double is thrown. The quick guide adds that on a second occurrence with a simultaneous double the first result is kept and the second target is zero.",
-     "summary_uk": "Коли при першому випадку відмовляє другий патрон, наслідок залежить від мішені. Одиночна: подають нову мішень, і розбити її можна лише другим пострілом, тож першим стрілець має навмисно промахнутися. Дуплет на постріл: результат першої мішені зберігають, а дуплет подають знову, щоб оцінити другу. Одночасний дуплет: подають новий дуплет. Короткий довідник додає: при повторному випадку на одночасному дуплеті перший результат зберігають, а друга мішень — промах.",
+     "summary_uk": "Коли при першому випадку відмовляє другий патрон, наслідок залежить від мішені. Одиночна: подають нову мішень, і розбити її можна лише другим пострілом, тож першим стрілець має навмисно промахнутися. Сигнальний дуплет: результат першої мішені зберігають, а дуплет подають знову, щоб оцінити другу. Одночасний дуплет: подають новий дуплет. Короткий довідник додає: при повторному випадку на одночасному дуплеті перший результат зберігають, а друга мішень — промах.",
      "points_en": [
       "Single: new target, only the second shot may break it.",
       "Report double: first result kept, the double again.",
@@ -3377,7 +3377,7 @@ window.RULES.push({
      ],
      "points_uk": [
       "Одиночна: нова мішень, розбити її можна лише другим пострілом.",
-      "Дуплет на постріл: перший результат зберігають, дуплет знову.",
+      "Сигнальний дуплет: перший результат зберігають, дуплет знову.",
       "Одночасний: новий дуплет (перший випадок).",
       "Повторний випадок на одночасному: перший результат зберігають, друга = ZERO (довідник)."
      ],
@@ -3446,7 +3446,7 @@ window.RULES.push({
      "title_en": "What happens after a target NO BIRD",
      "title_uk": "Що буває після NO BIRD через мішень",
      "summary_en": "What follows a target NO BIRD depends on where it happened. Single: a new target is thrown. First target of a double on report: the whole double is thrown again. Second target of a report double irregular, or the first target (or a piece of it) breaks the second before the second shot: the result of the first is kept and the double is thrown again to score the second. Simultaneous double with any irregular target: the double is thrown again.",
-     "summary_uk": "Що буде після NO BIRD через мішень, залежить від того, де це сталося. Одиночна: подають нову мішень. Перша мішень дуплета на постріл: увесь дуплет подають знову. Неправильна друга мішень дуплета на постріл або перша мішень (чи її уламок) розбила другу до другого пострілу: результат першої зберігають, а дуплет подають знову, щоб оцінити другу. Одночасний дуплет із будь-якою неправильною мішенню: дуплет подають знову.",
+     "summary_uk": "Що буде після NO BIRD через мішень, залежить від того, де це сталося. Одиночна: подають нову мішень. Перша мішень сигнального дуплета: увесь дуплет подають знову. Неправильна друга мішень сигнального дуплета або перша мішень (чи її уламок) розбила другу до другого пострілу: результат першої зберігають, а дуплет подають знову, щоб оцінити другу. Одночасний дуплет із будь-якою неправильною мішенню: дуплет подають знову.",
      "points_en": [
       "Single: a new target.",
       "Report double, first target: the double again, nothing scored.",
@@ -3455,8 +3455,8 @@ window.RULES.push({
      ],
      "points_uk": [
       "Одиночна: нова мішень.",
-      "Дуплет на постріл, перша мішень: дуплет знову, нічого не зараховано.",
-      "Дуплет на постріл, друга мішень (або перша розбила другу): перший результат зберігають, дуплет знову.",
+      "Сигнальний дуплет, перша мішень: дуплет знову, нічого не зараховано.",
+      "Сигнальний дуплет, друга мішень (або перша розбила другу): перший результат зберігають, дуплет знову.",
       "Одночасний дуплет: дуплет знову."
      ],
      "terms": [
@@ -3588,7 +3588,7 @@ window.RULES.push({
      "title_en": "10 seconds to call: warning, then penalty",
      "title_uk": "10 секунд на команду: попередження, потім штраф",
      "summary_en": "A shooter has at most 10 seconds to call for the target after the previous station's target has been shot. A shooter who exceeds this first receives a warning noted on the score sheet; repeated in the same round, the targets are scored as in the 21.5 table: single ZERO, double on report ZERO / NO BIRD, simultaneous double ZERO / ZERO.",
-     "summary_uk": "Стрілець має щонайбільше 10 секунд на команду після того, як відстріляли мішень попереднього місця. Того, хто перевищив цей час, спершу попереджають із записом у протоколі; якщо це повториться в тому самому раунді, мішені оцінюють за таблицею 21.5: одиночна — ZERO, дуплет на постріл — ZERO / NO BIRD, одночасний дуплет — ZERO / ZERO.",
+     "summary_uk": "Стрілець має щонайбільше 10 секунд на команду після того, як відстріляли мішень попереднього місця. Того, хто перевищив цей час, спершу попереджають із записом у протоколі; якщо це повториться в тому самому раунді, мішені оцінюють за таблицею 21.5: одиночна — ZERO, сигнальний дуплет — ZERO / NO BIRD, одночасний дуплет — ZERO / ZERO.",
      "points_en": [
       "Max 10 seconds to call.",
       "1st time: warning noted on the score sheet.",
@@ -3625,7 +3625,7 @@ window.RULES.push({
      "title_en": "Refusing a target",
      "title_uk": "Відмова від мішені",
      "summary_en": "A shooter may not refuse a target unless he did not call for it. Refusing to shoot at a target the referee judges regular is penalised per 21.5. The quick guide spells it out: single ZERO; first target of a report double ZERO, and the double is repeated to score the second target; first target of a simultaneous double not fired at: ZERO-ZERO.",
-     "summary_uk": "Стрілець не має права відмовитися від мішені, крім випадку, коли він її не викликав. Відмова стріляти по мішені, яку суддя визнав правильною, карається за 21.5. Короткий довідник пояснює: одиночна — ZERO; перша мішень дуплета на постріл — ZERO, а дуплет повторюють, щоб оцінити другу; якщо не стріляли по першій мішені одночасного дуплета — ZERO-ZERO.",
+     "summary_uk": "Стрілець не має права відмовитися від мішені, крім випадку, коли він її не викликав. Відмова стріляти по мішені, яку суддя визнав правильною, карається за 21.5. Короткий довідник пояснює: одиночна — ZERO; перша мішень сигнального дуплета — ZERO, а дуплет повторюють, щоб оцінити другу; якщо не стріляли по першій мішені одночасного дуплета — ZERO-ZERO.",
      "points_en": [
       "Only an uncalled target may be refused.",
       "Single refused: ZERO.",
@@ -3635,7 +3635,7 @@ window.RULES.push({
      "points_uk": [
       "Відмовитися можна лише від невикликаної мішені.",
       "Одиночна: ZERO.",
-      "Дуплет на постріл, 1-ша: ZERO, дуплет повторюють заради 2-ї.",
+      "Сигнальний дуплет, 1-ша: ZERO, дуплет повторюють заради 2-ї.",
       "Одночасний дуплет: ZERO-ZERO."
      ],
      "terms": [
@@ -3730,7 +3730,7 @@ window.RULES.push({
      "title_en": "Penalty table after a first warning",
      "title_uk": "Таблиця штрафів після першого попередження",
      "summary_en": "After the first warning, any further breach on the same Compak brings a red card and the targets are scored by the table. For firing time (21.1), refusal (21.2) and shooting a NO BIRD (21.3): single ZERO, double on report ZERO / NO BIRD, simultaneous double ZERO / ZERO. For a malfunction (21.4): on a single ZERO; on the first target of a double, ZERO / NO BIRD (report) or ZERO / ZERO (simultaneous); on the second target of a double, the first result is kept and the second is ZERO.",
-     "summary_uk": "Після першого попередження за кожне наступне порушення на тому самому Compak суддя показує червону картку, а мішені оцінюють за таблицею. За час на команду (21.1), відмову (21.2) і постріл по NO BIRD (21.3): одиночна — ZERO, дуплет на постріл — ZERO / NO BIRD, одночасний дуплет — ZERO / ZERO. За несправність (21.4): одиночна — ZERO; на першій мішені дуплета — ZERO / NO BIRD (на постріл) або ZERO / ZERO (одночасний); на другій мішені дуплета перший результат зберігається, а друга — ZERO.",
+     "summary_uk": "Після першого попередження за кожне наступне порушення на тому самому Compak суддя показує червону картку, а мішені оцінюють за таблицею. За час на команду (21.1), відмову (21.2) і постріл по NO BIRD (21.3): одиночна — ZERO, сигнальний дуплет — ZERO / NO BIRD, одночасний дуплет — ZERO / ZERO. За несправність (21.4): одиночна — ZERO; на першій мішені дуплета — ZERO / NO BIRD (сигнальний) або ZERO / ZERO (одночасний); на другій мішені дуплета перший результат зберігається, а друга — ZERO.",
      "points_en": [
       "First breach: warning; next on the same Compak: red card.",
       "21.1-21.3: single ZERO; report ZERO / NO BIRD; simultaneous ZERO / ZERO.",
@@ -3739,8 +3739,8 @@ window.RULES.push({
      ],
      "points_uk": [
       "Перше порушення: попередження; наступне на тому самому Compak: червона картка.",
-      "21.1–21.3: одиночна ZERO; на постріл ZERO / NO BIRD; одночасний ZERO / ZERO.",
-      "21.4 перша мішень дуплета: ZERO / NO BIRD (на постріл), ZERO / ZERO (одночасний).",
+      "21.1–21.3: одиночна ZERO; сигнальний дуплет ZERO / NO BIRD; одночасний ZERO / ZERO.",
+      "21.4 перша мішень дуплета: ZERO / NO BIRD (сигнальний), ZERO / ZERO (одночасний).",
       "21.4 друга мішень дуплета: 1-ша зберігається, 2-га ZERO."
      ],
      "terms": [
@@ -4397,7 +4397,7 @@ window.RULES.push({
    "q_en": "How many targets is an international Compak competition?",
    "q_uk": "Скільки мішеней на міжнародних змаганнях з Compak?",
    "a_en": "It is shot on eight Compaks of 25 targets each: three with 3 singles + a double on report, one with 3 singles + a simultaneous double, three with 1 single + two doubles on report, and one with 1 single + two simultaneous doubles. That makes 200 targets (our calculation).",
-   "a_uk": "Змагання проходять на восьми Compak по 25 мішеней: три з 3 одиночними + дуплет на постріл, один з 3 одиночними + одночасний дуплет, три з 1 одиночною + два дуплети на постріл і один з 1 одиночною + два одночасні дуплети. Разом 200 мішеней (наш підрахунок).",
+   "a_uk": "Змагання проходять на восьми Compak по 25 мішеней: три з 3 одиночними + сигнальний дуплет, один з 3 одиночними + одночасний дуплет, три з 1 одиночною + два сигнальні дуплети і один з 1 одиночною + два одночасні дуплети. Разом 200 мішеней (наш підрахунок).",
    "refs": [
     "ch5-competition-layouts",
     "ch17-round-combinations"
@@ -4743,7 +4743,7 @@ window.RULES.push({
   },
   {
    "q_en": "Both targets of a double on report broke with my first shot. How is it scored?",
-   "q_uk": "Обидві мішені дуплета на постріл розбилися від першого пострілу. Як це оцінюють?",
+   "q_uk": "Обидві мішені сигнального дуплета розбилися від першого пострілу. Як це оцінюють?",
    "a_en": "The first target's result is recorded, the second is a NO BIRD, and the double is repeated.",
    "a_uk": "Результат першої мішені записують, друга — NO BIRD, і дуплет повторюють.",
    "refs": [
@@ -4761,7 +4761,7 @@ window.RULES.push({
   },
   {
    "q_en": "The first target of my report double broke the second one. What now?",
-   "q_uk": "Перша мішень дуплета на постріл розбила другу. Що тепер?",
+   "q_uk": "Перша мішень сигнального дуплета розбила другу. Що тепер?",
    "a_en": "If the first target or its pieces break the second before your second shot, the first result stands and the double is repeated to score the second target.",
    "a_uk": "Якщо перша мішень чи її уламки розбили другу до вашого другого пострілу, результат першої зберігається, а дуплет повторюють, щоб оцінити другу.",
    "refs": [
@@ -4800,7 +4800,7 @@ window.RULES.push({
    "q_en": "I was not ready when the target came. Can I refuse it?",
    "q_uk": "Я не був готовий, коли вилетіла мішень. Чи можу відмовитися?",
    "a_en": "Only if you did not call for it, which is a NO BIRD. Refusing a regular target you called is penalised: a single is ZERO, a report double ZERO with the double repeated for the second, and a simultaneous double ZERO-ZERO.",
-   "a_uk": "Лише якщо ви її не викликали — тоді це NO BIRD. Відмова від правильної мішені, яку ви викликали, карається: одиночна — ZERO, дуплет на постріл — ZERO з повтором дуплета заради другої мішені, одночасний дуплет — ZERO-ZERO.",
+   "a_uk": "Лише якщо ви її не викликали — тоді це NO BIRD. Відмова від правильної мішені, яку ви викликали, карається: одиночна — ZERO, сигнальний дуплет — ZERO з повтором дуплета заради другої мішені, одночасний дуплет — ZERO-ZERO.",
    "refs": [
     "ch21-refusal",
     "ch20-target-no-bird-cases"
@@ -5017,7 +5017,7 @@ window.RULES.push({
   },
   {
    "q_en": "Organiser: can one Compak mix report and simultaneous doubles?",
-   "q_uk": "Організатору: чи можна на одному Compak змішувати дуплети на постріл і одночасні?",
+   "q_uk": "Організатору: чи можна на одному Compak змішувати сигнальні дуплети і одночасні?",
    "a_en": "No. On one Compak the double type must be the same on all five stations.",
    "a_uk": "Ні. На одному Compak тип дуплета має бути однаковим на всіх п’яти місцях.",
    "refs": [

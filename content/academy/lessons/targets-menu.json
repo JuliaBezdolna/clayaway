@@ -141,7 +141,7 @@
       "core": true,
       "disc": "both",
       "en": "Each double is marked with its type. {{term:double-on-report|On report}}: the second target leaves on the sound of the first shot. {{term:simultaneous-double|Simultaneous}}: both targets leave together. {{term:rafale-double|Rafale}}: two targets from the same trap, one after the other, in {{tm:sporting}} only. Menus look different from ground to ground, so read the words, not just the letters.",
-      "uk": "Кожен {{term:double|дуплет}} позначають за типом. {{term:double-on-report|Дуплет на постріл}}: друга мішень вилітає на звук першого пострілу. {{term:simultaneous-double|Одночасний дуплет}}: обидві мішені вилітають разом. {{term:rafale-double|Рафаль}}: дві мішені з однієї машинки одна за одною — лише в {{tm:sporting}}. Меню на різних стрільбищах виглядають по-різному, тож читайте слова, а не лише літери."
+      "uk": "Кожен {{term:double|дуплет}} позначають за типом. {{term:double-on-report|Сигнальний дуплет}}: друга мішень вилітає на звук першого пострілу. {{term:simultaneous-double|Одночасний дуплет}}: обидві мішені вилітають разом. {{term:rafale-double|Рафаль}}: дві мішені з однієї машинки одна за одною — лише в {{tm:sporting}}. Меню на різних стрільбищах виглядають по-різному, тож читайте слова, а не лише літери."
     },
     {
       "k": "targets-menu-ex1",
@@ -149,7 +149,7 @@
       "disc": "sporting",
       "rule_ref": "sporting:ch2-doubles-three-traps",
       "en": "Example: on a line of 4 stands, one stand has only 3 traps, and 3 singles and 2 doubles are shot there. Its menu might read: singles A, B, C, then a simultaneous double A + B and a rafale C + C (the letters are traps). On this stand at least one double must be simultaneous or rafale: two doubles on report are not allowed ({{rule:sporting:ch2-doubles-three-traps}}).",
-      "uk": "Приклад: на лінії з 4 місць одне місце має лише 3 машинки, і на ньому стріляють 3 одиночні й 2 дуплети. Його меню може бути таким: одиночні A, B, C, потім одночасний дуплет A + B і рафаль C + C (літери — це машинки). На такому місці щонайменше один дуплет має бути одночасним або рафалем: два дуплети на постріл не дозволені ({{rule:sporting:ch2-doubles-three-traps}})."
+      "uk": "Приклад: на лінії з 4 місць одне місце має лише 3 машинки, і на ньому стріляють 3 одиночні й 2 дуплети. Його меню може бути таким: одиночні A, B, C, потім одночасний дуплет A + B і рафаль C + C (літери — це машинки). На такому місці щонайменше один дуплет має бути одночасним або рафалем: два сигнальні дуплети не дозволені ({{rule:sporting:ch2-doubles-three-traps}})."
     },
     {
       "k": "targets-menu-p4",
@@ -179,7 +179,7 @@
       "k": "targets-menu-p5",
       "for": "interpreter",
       "en": "Before your shooter steps up, read the menu aloud to them in their language, letter by letter: 'A, then F, then B, then the pair C and E on report.'",
-      "uk": "Перш ніж ваш стрілець стане на номер, прочитайте йому меню вголос його мовою, літера за літерою: «A, потім F, потім B, потім дуплет C і E на постріл»."
+      "uk": "Перш ніж ваш стрілець стане на номер, прочитайте йому меню вголос його мовою, літера за літерою: «A, потім F, потім B, потім сигнальний дуплет C і E»."
     }
   ],
   "phrases": [
@@ -190,10 +190,10 @@
       "en": "Read the menu: on station three you have A, then F, then B, then the pair C and E on report.",
       "meaning": {
         "en": "Station 3: three singles, then a double on report; five targets in all.",
-        "uk": "Третій номер: три одиночні, потім дуплет на постріл; разом п’ять мішеней."
+        "uk": "Третій номер: три одиночні, потім сигнальний дуплет; разом п’ять мішеней."
       },
       "say": {
-        "uk": "Прочитайте меню: на третьому номері A, потім F, потім B, потім дуплет C–E на постріл."
+        "uk": "Прочитайте меню: на третьому номері A, потім F, потім B, потім сигнальний дуплет C–E."
       }
     },
     {
@@ -360,7 +360,7 @@
       "correct": "a",
       "explain": {
         "en": "{{tm:compak}} doubles are on report or simultaneous; rafale is a {{tm:sporting}} double.",
-        "uk": "У {{tm:compak}} дуплети на постріл або одночасні; рафаль — дуплет {{tm:sporting}}."
+        "uk": "У {{tm:compak}} сигнальні дуплети або одночасні; рафаль — дуплет {{tm:sporting}}."
       }
     }
   ],
