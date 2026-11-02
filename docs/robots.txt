@@ -1,3 +1,6 @@
+# Working copy of the ClayArena Academy / Rules / Glossary site (JuliaBezdolna/clayaway).
+# Kept out of search results on purpose: the public site is served elsewhere and the
+# built pages still carry canonical/hreflang pointing at it. Lift this only together
+# with the final domain decision (see the plan in the owner's notes).
 User-agent: *
-Allow: /
-Sitemap: https://fenix-112323.github.io/clayaway/sitemap.xml
+Disallow: /

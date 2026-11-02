@@ -6,7 +6,7 @@
    PRODUCTION (clayarena.com): ClayArena's own analytics under its privacy policy; keep the event names. */
 (function () {
   "use strict";
-  const STATS_ENDPOINT = "https://script.google.com/macros/s/AKfycbyHZC_k45Ex-eV7s2Ko86rTck8gkNtbxyQIG1WsQ1AB7OkSHUaiFZV9-8A0tZTjNFa8rA/exec"; // collector: Apps Script web app URL ".../exec" (tools/stats/README.md)
+  const STATS_ENDPOINT = ""; // off in this working copy — see HANDOVER.md §8; collector: Apps Script web app URL ".../exec" (tools/stats/README.md)
   const W = window, D = document, N = W.navigator || {}, noop = () => {}, host = location.hostname;
   if (W.ClayStats) return;
   W.ClayStats = {on: false, event: noop};
