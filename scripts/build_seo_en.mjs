@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "fs";
 
 export function buildEnglish() {
-  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList } = globalThis.SEO;
+  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, catMore } = globalThis.SEO;
   const out = [];
   const TM = "Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.";
 
@@ -69,7 +69,7 @@ ${disc ? `<h2>In Sporting™ and Compak® Sporting</h2>${disc}` : ""}
 ${refs ? `<h2>Where it is in the rules</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Source: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/en/categories/">FITASC categories</a>` : ""}</p>` : ""}
 ${learn ? `<h2>Learn it</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2>Related terms</h2><p>${rel}</p>` : ""}
+${rel ? `<h2>Related terms</h2><p>${rel}</p>` : ""}${catMore("en", t, GLOSS.terms, { cat: c => c, url: x => `${BASE}en/glossary/${x.id}/`, html: x => esc(dispTerm(x)), list: `${BASE}en/glossary/`, skip: (t.related || []).map(rid) })}
 <div class="disc">ClayArena glossary, based on our summary of the FITASC rulebooks. Only the official FITASC text applies. ${TM}</div>${legal("en")}</main></body></html>`;
       mkdirSync(`${DOCS}/en/glossary/${t.id}`, { recursive: true });
       writeFileSync(`${DOCS}/en/glossary/${t.id}/index.html`, html);

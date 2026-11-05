@@ -39,7 +39,7 @@ const flatTL = s => String(s || "").normalize("NFC").toLowerCase().replace(/[™
 const addsToH1 = (tl, lb) => !!tl && !!lb.local && flatTL(tl) !== flatTL(lb.local) && flatTL(tl) !== flatTL(lb.label);
 
 export async function buildI18n() {
-  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList } = globalThis.SEO;
+  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList, catMore } = globalThis.SEO;
   // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
   // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
   const CAT = {
@@ -122,7 +122,7 @@ ${x.long ? `<h2>${U.detail}</h2><p>${esc(x.long)}</p>` : ""}
 ${disc ? `<h2>${U.disc}</h2>${disc}` : ""}
 ${refs ? `<h2>${U.rules}</h2><ul>${refs}</ul>` : ""}
 ${learn ? `<h2>${U.learn}</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2>${U.rel}</h2><p>${rel}</p>` : ""}
+${rel ? `<h2>${U.rel}</h2><p>${rel}</p>` : ""}${catMore(lang, t, GLOSS.terms.filter(x => D[x.id]), { cat: c => (CAT[lang] || {})[c] || c, url: x => termUrl(lang, x.id), html: x => termHtml(lang, x), list: listUrl(lang), skip: (t.related || []).map(rid) })}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`;
         mkdirSync(`${DOCS}/${lang}/glossary/${t.id}`, { recursive: true });
         writeFileSync(`${DOCS}/${lang}/glossary/${t.id}/index.html`, html);

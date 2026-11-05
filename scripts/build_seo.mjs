@@ -332,7 +332,7 @@ ${ukUsage(t) ? `<h2>Як кажуть українською</h2><p>${esc(ukUsag
 ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
 ${learn ? `<h2>Де вивчити</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
+${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}${catMore("uk", t, GLOSS.terms, { cat: c => CAT_UK[c] || c, url: x => `${BASE}glossary/${x.id}/`, html: x => termHtml("uk", x), list: `${BASE}glossary/`, skip: (t.related || []).map(rid) })}`;
     const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || []), lb.local].filter(Boolean))].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name: lb.label, item: url }] }];
     mkdirSync(`${DOCS}/glossary/${t.id}`, { recursive: true });
@@ -417,6 +417,39 @@ const glossaryIndexList = (lang, terms, o) => {
   return box + "\n" + cats.map(c => `<h2 id="cat-${GS.catSlug(c)}">${esc(o.cat(c))}</h2><div class="list" data-cat="${GS.catSlug(c)}">${inCat(c).sort((a, b) => a.term.localeCompare(b.term)).map(t => {
     const g = gsKeys(lang, t), d = o.short(t);
     return `<a href="${o.url(t)}" data-k="${esc(g.k.join("|"))}"${g.a.length ? ` data-a="${esc(g.a.join("|"))}"` : ""}${d ? ` data-d="${esc(d)}"` : ""}${ANIM.has(t.id) ? " data-anim" : ""}>${o.html(t)}</a>`; }).join("")}</div>`).join("\n"); };
+// "More in this category" on every term page, after "Related terms" (glossary plan, wave 8: internal links, 05.11.2026): up to
+// CAT_MORE_N other terms of the same category in the page language, then a link to that category on the index (#cat-<slug>, the
+// index filters itself to it, docs/shared/glossary-search.js). The terms shown are the alphabetical neighbours of the term in its
+// category (the order of the index list), taken in turn after and before it, round the end of the list; "Related terms" are left
+// out (already linked). So every term page is linked from the pages of its category neighbours, and a big category (Equipment, 50)
+// does not put 50 links on every page. Text in the 11 ClayArena languages below ({c} category name, {n} terms in it).
+const CAT_MORE_N = 12;
+const CAT_MORE = {
+  uk: ["Ще в категорії «{c}»", "Усі терміни категорії ({n}) →"],
+  en: ["More in {c}", "All terms in this category ({n}) →"],
+  de: ["Mehr in der Kategorie „{c}“", "Alle Begriffe dieser Kategorie ({n}) →"],
+  fr: ["Aussi dans la catégorie « {c} »", "Tous les termes de cette catégorie ({n}) →"],
+  it: ["Altro nella categoria «{c}»", "Tutti i termini di questa categoria ({n}) →"],
+  cs: ["Další v kategorii „{c}“", "Všechny pojmy této kategorie ({n}) →"],
+  pl: ["Więcej w kategorii „{c}”", "Wszystkie terminy tej kategorii ({n}) →"],
+  pt: ["Mais na categoria «{c}»", "Todos os termos desta categoria ({n}) →"],
+  hu: ["Még ebben a kategóriában: {c}", "A kategória összes kifejezése ({n}) →"],
+  fi: ["Lisää samasta luokasta: {c}", "Kaikki tämän luokan termit ({n}) →"],
+  lt: ["Daugiau kategorijoje „{c}“", "Visi šios kategorijos terminai ({n}) →"]
+};
+// lang, the term, the terms that have a page in this language, o = { cat(c) category name, url(t), html(t) link text, list index URL,
+// skip: ids already linked on the page }. Empty when the category has no other term.
+const catMore = (lang, t, terms, o) => {
+  const same = terms.filter(x => x.cat === t.cat).sort((a, b) => a.term.localeCompare(b.term)), i = same.findIndex(x => x.id === t.id);
+  if (i < 0) return "";
+  const pick = new Set(), skip = new Set([t.id, ...(o.skip || [])]);
+  for (let k = 1; k < same.length && pick.size < CAT_MORE_N; k++)
+    for (const x of [same[(i + k) % same.length], same[(i - k + same.length) % same.length]]) if (pick.size < CAT_MORE_N && !skip.has(x.id)) pick.add(x.id);
+  if (!pick.size) return "";
+  const [h, all] = CAT_MORE[lang] || CAT_MORE.en, name = o.cat(t.cat);
+  return `
+<h2>${esc(h.replace("{c}", name))}</h2><p>${same.filter(x => pick.has(x.id)).map(x => `<a href="${o.url(x)}">${o.html(x)}</a>`).join(" · ")}</p>
+<p class="ref"><a href="${o.list}#cat-${GS.catSlug(t.cat)}">${esc(all.replace("{n}", same.length))}</a></p>`; };
 const ukUsage = t => { const x = ((window.GLOSSARY_I18N || {}).uk || {terms: {}}).terms[t.id];
   if (x && x.term_local && x.conf !== "low") return [x.term_local, ...(x.alt || [])].filter(v => v !== t.term).slice(0, 3).map(v => `«${v}»`).join(", ");
   return t.uk_usage && t.uk_usage !== "—" ? t.uk_usage : ""; };
@@ -492,7 +525,7 @@ urls.push(...glossaryPages());
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList };
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, catMore };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
