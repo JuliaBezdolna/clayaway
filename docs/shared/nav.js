@@ -15,6 +15,12 @@
      (role="tooltip" + aria-describedby; Esc hides it). Narrow screens (< 760 px): one button «☰ ClayArena · <current section>»
      that opens a list of the sections with their descriptions visible. Touch targets are at least 44 px high.
    - Skip link «Перейти до змісту» as the very first element of <body> (target: <main>, else #app).
+   - NO LAYOUT SHIFT (Core Web Vitals CLS, 05.11.2026; Lighthouse had 0.16–0.34 on every page because this deferred script pushed
+     the page down after the first paint): the builds (scripts/build_seo.mjs) put an empty <div class="ca-slot"> first in <body> with
+     its height in the page CSS (48 px; 60 px under 760 px or on touch screens), and the bar is drawn INTO it. The banners (visitor
+     language, hints, "where was I") float at the bottom of the screen (.ca-float, position: fixed) instead of pushing the page; an
+     equally tall spacer at the end of <body> keeps the last lines of the page reachable. A page without the slot gets the bar at
+     the top as before.
    - ALL names and descriptions of the sections live in NAMES below (11 ClayArena languages, never others): pages ask
      ClayNav.name(id) / ClayNav.link(id) instead of keeping their own copies (one naming table for the whole site).
 
@@ -201,11 +207,18 @@ main[tabindex="-1"]:focus{outline:none}
 .ca-hint a:hover,.ca-lang a:hover{border-color:${color}}
 .ca-hint button,.ca-lang button{margin-left:auto;background:none;border:0;color:#9CA3AF;font:inherit;cursor:pointer;min-width:36px;min-height:36px;border-radius:8px}
 @media (pointer:coarse){.ca-hint button,.ca-lang button,.ca-hint a,.ca-lang a{min-height:44px;min-width:44px}}
-.ca-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}`;
+.ca-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.ca-float{position:fixed;left:0;right:0;bottom:0;z-index:35;padding-bottom:env(safe-area-inset-bottom,0px);background:#0B1120;box-shadow:0 -10px 28px rgba(0,0,0,.5)}
+.ca-float:empty{display:none}.ca-float .ca-hint,.ca-float .ca-lang{border-bottom:0;border-top:1px solid rgba(255,255,255,.14)}
+@media print{.ca-float,.ca-float-sp,.ca-slot{display:none!important}}`;
   const st = document.createElement("style"); st.textContent = css; document.head.appendChild(st);
   const bar = document.createElement("div"); bar.className = "ca-bar";
   const hint = document.createElement("div"); hint.className = "ca-hint"; hint.setAttribute("role", "status");
   const lang = document.createElement("div"); lang.className = "ca-lang"; lang.setAttribute("role", "note");
+  // the banners float at the bottom (no layout shift); the spacer at the end of <body> is as tall as they are
+  const float = document.createElement("div"); float.className = "ca-float";
+  const spacer = document.createElement("div"); spacer.className = "ca-float-sp"; spacer.setAttribute("aria-hidden", "true");
+  const fit = () => { spacer.style.height = float.offsetHeight ? float.offsetHeight + "px" : "0"; };
 
   /* "Where was I?" — apps call ClayNav.setResume({section, label, url}) while a task is in progress (trainer run, open lesson,
      Academy game round) and ClayNav.clearResume(section) when it is finished. In another section (or on another page type: the
@@ -275,7 +288,7 @@ main[tabindex="-1"]:focus{outline:none}
     return [key, `🌐 <span>${esc(pick(TX.only).replace("{l}", NATIVE[PL]))}</span>${en ? ` <a href="${esc(en)}" hreflang="en" lang="en">English →</a>` : ""}`];
   }
   const isNarrow = () => { try { return matchMedia("(max-width: 759.98px)").matches; } catch (e) { return false; } };
-  function focusBar() { const el = isNarrow() ? bar.querySelector(".ca-mbtn") : bar.querySelector(".ca-list a[aria-current]") || bar.querySelector(".ca-home"); if (el) el.focus(); }
+  function focusBar() { const el = isNarrow() ? bar.querySelector(".ca-mbtn") : bar.querySelector(".ca-list a[aria-current]") || bar.querySelector(".ca-home"); if (el) el.focus({preventScroll: true}); } // the banner was at the bottom: no jump to the top
   function dismiss(el, key) { const s = ls.get("clayarena-hints") || {}; s[key] = Date.now(); ls.set("clayarena-hints", s); el.remove(); draw(); focusBar(); } // next hint, focus back to the bar
   const cleanUrl = u => String(u).replace(/[?#].*$/, "").replace(/index\.html$/, "");
   function itemHTML(id, mobile) {
@@ -306,8 +319,9 @@ main[tabindex="-1"]:focus{outline:none}
       if (!html) { el.remove(); continue; }
       el.innerHTML = `<div><span class="ca-tx">${html[1]}</span><button type="button" aria-label="${esc(pick(TX.close))}" title="${esc(pick(TX.close))}">✕</button></div>`;
       el.querySelector("button").onclick = () => dismiss(el, html[0]);
-      if (!el.isConnected) (el === lang ? bar : lang.isConnected ? lang : bar).after(el);
+      if (!el.isConnected) { if (el === lang) float.prepend(el); else float.append(el); }
     }
+    fit();
     // Links into the rules guide / trainer written by the static builds carry data-vl: they get the visitor language as ?lang.
     document.querySelectorAll("a[data-vl]").forEach(a => { try { const u = new URL(a.href); u.searchParams.set("lang", VL); a.href = u.href; } catch (e) {} });
     try { document.dispatchEvent(new CustomEvent("claynav:update", {detail: {lang: VL, page: PL, learn: LEARN ? LEARN.published : null}})); } catch (e) {} // see ClayNav.link
@@ -319,8 +333,11 @@ main[tabindex="-1"]:focus{outline:none}
   if (target) { if (!target.id) target.id = "ca-main"; if (!target.hasAttribute("tabindex")) target.setAttribute("tabindex", "-1"); skip.href = "#" + target.id; }
   const drawSkip = () => { skip.textContent = pick(TX.skip); };
   document.addEventListener("claynav:update", drawSkip);
-  document.body.insertBefore(bar, document.body.firstChild);
-  if (target) document.body.insertBefore(skip, bar);
+  const slot = document.querySelector("body > .ca-slot"); // reserved by the build: the bar is drawn into it, nothing moves
+  if (slot) slot.appendChild(bar); else document.body.insertBefore(bar, document.body.firstChild);
+  if (target) document.body.insertBefore(skip, document.body.firstChild);
+  document.body.appendChild(spacer); document.body.appendChild(float);
+  addEventListener("resize", fit, {passive: true});
   draw();
   // apps that switch language without reloading (rules guide, trainer) change <html lang>: follow it (they also call setLang)
   new MutationObserver(() => { const n = pageLang(); if (n !== PL) { PL = n; if (!stored) VL = PL; draw(); } })

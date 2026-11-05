@@ -65,9 +65,24 @@ await import("../docs/shared/glossary-search.js");
 const GS = window.ClayGlossarySearch;
 // Glossary terms whose page shows an animation: TERM_SIMS of docs/shared/sims.js, the one list (the term pages mount it below) →
 // data-anim on the index links, the "▶ with animation" filter. sims.js runs in a sandbox, as in build_academy.mjs.
-const ANIM = (() => { try { const ctx = { window: {}, console }; vm.createContext(ctx);
-  vm.runInContext(readFileSync("docs/shared/sims.js", "utf8"), ctx, { filename: "docs/shared/sims.js" }); return new Set(Object.keys(ctx.window.ClaySims.TERM_SIMS || {})); }
-  catch (e) { console.log(`WARNING: docs/shared/sims.js could not be read (${e.message}): no "with animation" filter on the glossary index`); return new Set(); } })();
+const TERM_SIMS = (() => { try { const ctx = { window: {}, console }; vm.createContext(ctx);
+  vm.runInContext(readFileSync("docs/shared/sims.js", "utf8"), ctx, { filename: "docs/shared/sims.js" }); return ctx.window.ClaySims.TERM_SIMS || {}; }
+  catch (e) { console.log(`WARNING: docs/shared/sims.js could not be read (${e.message}): no "with animation" filter on the glossary index`); return {}; } })();
+const ANIM = new Set(Object.keys(TERM_SIMS));
+// The height a term animation takes once ClaySims.auto() has drawn it (heading + canvas + tabs + controls + caption), so its host
+// reserves the room before the scripts run and the text below it does not jump (Core Web Vitals CLS; Lighthouse 05.11.2026: +0.11
+// on the animated pages). Measured on the uk pages at a content width of 324 and 868 px (h324, h868) for every TERM_SIMS entry;
+// the host gets min-height = a straight line between them over the real width min(100vw − 32px, 868px), 16 px under it (a gap of
+// a few pixels is better than a jump). Another layout of an animation in sims.js: measure again (a wrong pair only brings back a
+// small shift or leaves a small gap, never breaks the page).
+const simBox = s => s.type === "flight" ? (s.also ? [451, 638] : s.focus === "points" ? [382, 615] : s.focus ? [359, 615] : [359, 592])
+  : s.type === "pair" ? (s.also ? [542, 692] : [404, 615])
+  : s.type === "lead" ? (s.focus === "perceived-vs-actual" ? [1544, 1028] : [1006, 792])
+  : s.type === "call" ? ((s.also || []).length > 1 ? [714, 737] : s.kind === "signal" && s.also ? [668, 737] : s.kind === "gun-ready" ? [594, 714]
+    : s.kind === "gun-early" || s.kind === "misfire" ? [482, 668] : s.kind === "mount" ? [502, 699] : [576, 691]) : null;
+const simReserve = id => { const s = TERM_SIMS[id], hb = s && simBox(s); if (!hb) return "";
+  const a = (hb[1] - hb[0]) / 544, b = hb[0] - a * 324 - 16;
+  return ` style="min-height:calc(${a.toFixed(4)} * min(100vw - 32px, 868px) + ${Math.round(b)}px)"`; };
 await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
 // Rules guide and trainer data (scripts/check_rules_data.mjs: unique ids, refs, pages, no FITASC text copied word for word, no other
@@ -546,6 +561,11 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       const h2 = h.replace(/<script\b([^>]*?)\bsrc="([^"]*?)shared\/sims\.min\.js"([^>]*)><\/script>/, (m, a, pre, b) => `<script${a}src="${pre}shared/terms.js"${b}></script>\n${m}`);
       if (h2 !== h) { h = h2; changed = true; } }
     if (!h.includes("shared/nav.js")) { h = h.replace("</head>", `<script src="${rel}shared/nav.js" defer></script>\n</head>`); changed = true; }
+    // The room of the project bar, reserved before nav.js runs (deferred): an empty slot first in <body>, its height in the page CSS
+    // (the bar is 48 px; 60 px on narrow or touch screens). nav.js draws the bar into it, so the page does not jump (CLS).
+    if (!h.includes('class="ca-slot"')) {
+      h = h.replace("</head>", `<style>.ca-slot{min-height:48px}@media (max-width:759.98px),(pointer:coarse){.ca-slot{min-height:60px}}@media print{.ca-slot{display:none}}</style>\n</head>`)
+        .replace(/<body\b[^>]*>/, m => `${m}<div class="ca-slot"></div>`); changed = true; }
     // Glossary term pages (all languages): English pronunciation (🔊) + the shared animation of the term. Only the terms of TERM_SIMS
     // (docs/shared/sims.js, the set ANIM above: 50 of 325) load the animations (terms.js + sims-text-<lang>.js, the page language only
     // + sims.min.js ≈ 45 KB gzip);
@@ -556,7 +576,7 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       h = h.replace(/<\/h1>/, `</h1><p><button class="btn" type="button" onclick="ClaySpeak(${JSON.stringify(term).replace(/"/g, "&quot;")})" title="en-GB">🔊 ${ui}</button></p>`);
       if (ANIM.has(id)) {
         const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
-        if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"></div>\n` + h.slice(second);
+        if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"${simReserve(id)}></div>\n` + h.slice(second);
         h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text-${gm[1] || "uk"}.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
       } else h = h.replace("</body>", `<script src="${rel}shared/speak.js" defer></script>\n</body>`);
       changed = true;

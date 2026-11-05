@@ -193,6 +193,10 @@ bun scripts/build_seo.mjs; if ($?) { python scripts/make_og.py }; if ($?) { pyth
 - `docs/shared/nav.js` — панель проєктів ClayArena на кожній сторінці (додає `scripts/build_seo.mjs`): **єдина таблиця назв** розділів 11 мовами,
   мова відвідувача, колір і значок розділу, «шлях назад» (`ClayNav.setResume({section, label, url})` / `ClayNav.clearResume(section)`),
   персональні підказки з `localStorage`, «Перейти до змісту». Повністю — §4i.
+  **Без зсуву макета (CLS, 05.11.2026):** `build_seo.mjs` ставить першим у `<body>` кожної сторінки порожній `<div class="ca-slot">` з висотою
+  в CSS сторінки (48 px; 60 px до 760 px або на сенсорних екранах), і `nav.js` малює панель у нього; рядки-підказки (мова, підказки, «Повернутися»)
+  плавають унизу екрана (`.ca-float`, `position: fixed`) і нічого не зсувають. Контейнер анімації терміна `[data-clay-term]` отримує
+  `min-height` за виміряною висотою анімації (`simBox()` у `build_seo.mjs`). Lighthouse: CLS сторінок глосарію 0,16–0,34 → 0,000.
 - `docs/shared/glossary-search.js` — пошук і фільтр за категоріями на індексах глосарію (усі 11 мов; 05.11.2026). Один файл для збірки
   й браузера, як `terms.js`: збірка (`glossaryIndexList()` у `build_seo.mjs`, ним користуються `build_seo_en.mjs` і `build_seo_i18n.mjs`)
   пише поле пошуку й кнопки категорій просто в HTML сторінки (без зсуву макета; кнопки — звичайні якорі `#cat-<slug>`, працюють і без JS),

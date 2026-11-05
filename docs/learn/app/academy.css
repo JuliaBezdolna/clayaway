@@ -276,7 +276,7 @@ fieldset.ac-q legend{font-weight:600;font-size:16.5px;padding:0 4px;max-width:10
   .ac-toast{transition:opacity .3s}
 }
 @media print{
-  .ca-bar,.ca-hint,#acTop,#acFoot,.ac-endnav,.ac-banner,.ac-quiz,.ac-btn{display:none!important}
+  .ca-bar,.ca-hint,.ca-lang,.ca-slot,.ca-float,.ca-float-sp,#acTop,#acFoot,.ac-endnav,.ac-banner,.ac-quiz,.ac-btn{display:none!important}
   /* a printed lesson keeps the animation's still picture, heading and caption, not its buttons, tabs, sliders and results */
   .ac-anim .cs-ctl,.ac-anim .cs-tabs,.ac-anim .cs-out:not(.cs-cmp),.ac-anim .cs-words,a.ac-animark{display:none!important}
   .ac-anim{break-inside:avoid}
