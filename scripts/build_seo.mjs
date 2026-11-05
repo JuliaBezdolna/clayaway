@@ -23,6 +23,7 @@
 //   -h, --help        print the flags and exit; any other unknown option stops with an error before anything is built
 import { readdirSync, mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 import { resolve } from "path";
+import vm from "node:vm";
 import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
 import { buildAcademy, minifySims } from "./build_academy.mjs";
 import { checkRulesData } from "./check_rules_data.mjs";
@@ -62,6 +63,11 @@ const CT = window.ClayTerms;
 // (docs/shared/glossary-search.js, window.ClayGlossarySearch: the same file in both places).
 await import("../docs/shared/glossary-search.js");
 const GS = window.ClayGlossarySearch;
+// Glossary terms whose page shows an animation: TERM_SIMS of docs/shared/sims.js, the one list (the term pages mount it below) →
+// data-anim on the index links, the "▶ with animation" filter. sims.js runs in a sandbox, as in build_academy.mjs.
+const ANIM = (() => { try { const ctx = { window: {}, console }; vm.createContext(ctx);
+  vm.runInContext(readFileSync("docs/shared/sims.js", "utf8"), ctx, { filename: "docs/shared/sims.js" }); return new Set(Object.keys(ctx.window.ClaySims.TERM_SIMS || {})); }
+  catch (e) { console.log(`WARNING: docs/shared/sims.js could not be read (${e.message}): no "with animation" filter on the glossary index`); return new Set(); } })();
 await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
 // Rules guide and trainer data (scripts/check_rules_data.mjs: unique ids, refs, pages, no FITASC text copied word for word, no other
@@ -383,10 +389,10 @@ const gsKeys = (lang, t) => {
   return { k: clean([t.term, t.display_term, tr && CT.termLocal(t, tr, lang)]), a: clean([...(t.aka || []), ...((tr && tr.alt) || []), ...uk]) }; };
 const glossaryIndexList = (lang, terms, o) => {
   const cats = [...new Set(terms.map(t => t.cat))], inCat = c => terms.filter(t => t.cat === c);
-  const box = GS.form(lang, cats.map(c => ({ slug: GS.catSlug(c), name: o.cat(c), n: inCat(c).length })), esc);
+  const box = GS.form(lang, cats.map(c => ({ slug: GS.catSlug(c), name: o.cat(c), n: inCat(c).length })), esc, terms.filter(t => ANIM.has(t.id)).length);
   return box + "\n" + cats.map(c => `<h2 id="cat-${GS.catSlug(c)}">${esc(o.cat(c))}</h2><div class="list" data-cat="${GS.catSlug(c)}">${inCat(c).sort((a, b) => a.term.localeCompare(b.term)).map(t => {
     const g = gsKeys(lang, t), d = o.short(t);
-    return `<a href="${o.url(t)}" data-k="${esc(g.k.join("|"))}"${g.a.length ? ` data-a="${esc(g.a.join("|"))}"` : ""}${d ? ` data-d="${esc(d)}"` : ""}>${o.html(t)}</a>`; }).join("")}</div>`).join("\n"); };
+    return `<a href="${o.url(t)}" data-k="${esc(g.k.join("|"))}"${g.a.length ? ` data-a="${esc(g.a.join("|"))}"` : ""}${d ? ` data-d="${esc(d)}"` : ""}${ANIM.has(t.id) ? " data-anim" : ""}>${o.html(t)}</a>`; }).join("")}</div>`).join("\n"); };
 const ukUsage = t => { const x = ((window.GLOSSARY_I18N || {}).uk || {terms: {}}).terms[t.id];
   if (x && x.term_local && x.conf !== "low") return [x.term_local, ...(x.alt || [])].filter(v => v !== t.term).slice(0, 3).map(v => `«${v}»`).join(", ");
   return t.uk_usage && t.uk_usage !== "—" ? t.uk_usage : ""; };
