@@ -68,7 +68,7 @@
   const LANGS = ["en", "uk", "de", "fr", "it", "cs", "pl", "pt", "hu", "fi", "lt"]; // ClayArena site languages only
   const LANG_NAMES = { en: "English", uk: "Українська", de: "Deutsch", fr: "Français", it: "Italiano", cs: "Čeština", pl: "Polski",
     pt: "Português", hu: "Magyar", fi: "Suomi", lt: "Lietuvių" };
-  const PROD_BASE = "https://fenix-112323.github.io/clayaway/"; // links the build writes; rewritten to this site when previewed elsewhere
+  const PROD_BASE = "https://juliabezdolna.github.io/clayaway/"; // links the build writes; rewritten to this site when previewed elsewhere
   const ME = document.currentScript || [...document.scripts].find(s => /learn\/app\/academy\.js/.test(s.src));
   const SITE = ME ? ME.src.replace(/learn\/app\/academy\.js.*$/, "") : PROD_BASE;
   const CFG = Object.assign({ dataBase: SITE + "learn/data/" }, window.ACADEMY_CONFIG || {});

@@ -4,8 +4,12 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 
-// GitHub Pages address of the project site (docs/). Every generated URL starts with it.
-export const BASE = "https://fenix-112323.github.io/clayaway/";
+// Address of the site (docs/): every generated URL starts with it (canonical, hreflang, sitemap, Open Graph, JSON-LD, links).
+// THE ONE PLACE: scripts/make_og.py, seo_meta.py and build_interpreter_pages.py read this line too (read_base()), so the move to
+// clayarena.com is this one line + a full rebuild. Now: the working copy on GitHub Pages (JuliaBezdolna/clayaway, switched
+// 05.11.2026 from the original fenix-112323.github.io so that the preview links stay on the preview; robots.txt keeps it out of
+// search until BASE is a clayarena.com address, scripts/build_seo.mjs).
+export const BASE = "https://juliabezdolna.github.io/clayaway/";
 
 // ClayArena site languages, the only ones the project uses (CLAUDE.md). English is the master language.
 export const LANGS = ["en", "uk", "de", "fr", "it", "cs", "pl", "pt", "hu", "fi", "lt"];

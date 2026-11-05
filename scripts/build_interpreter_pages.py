@@ -12,12 +12,13 @@ Every page: canonical, hreflang for all 11 languages + x-default (en), Open Grap
 The project bar (docs/shared/nav.js) is added by scripts/build_seo.mjs; animations come from docs/shared/sims.js.
 In production these become server-rendered lesson pages of clayarena.com with the same markup.
 """
-import json, html
+import json, html, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 D = ROOT / "docs" / "interpreter"
-BASE = "https://fenix-112323.github.io/clayaway/"
+# Site address: ONE place, scripts/site_common.mjs ("export const BASE = …"), read from there (also by make_og.py, seo_meta.py)
+BASE = re.search(r'^export const BASE = "([^"]+)";', (Path(__file__).resolve().parent / "site_common.mjs").read_text(encoding="utf-8"), re.M).group(1)
 LOCALE = {"en": "en_GB", "uk": "uk_UA", "de": "de_DE", "fr": "fr_FR", "it": "it_IT", "cs": "cs_CZ", "pl": "pl_PL", "pt": "pt_PT", "hu": "hu_HU", "fi": "fi_FI", "lt": "lt_LT"}
 NAMES = {"en": "English", "uk": "Українська", "de": "Deutsch", "fr": "Français", "it": "Italiano", "cs": "Čeština", "pl": "Polski", "pt": "Português", "hu": "Magyar", "fi": "Suomi", "lt": "Lietuvių"}
 e = lambda s: html.escape(str(s or ""), quote=True)

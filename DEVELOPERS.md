@@ -114,12 +114,7 @@ bun scripts/build_seo.mjs; if ($?) { python scripts/make_og.py }; if ($?) { pyth
 **Автоматичних тестів Bun для `docs/shared/progress.js` і JS-переадресатора `/interpreter/` у репозиторії немає** (їх запускали разово
 під час розробки) — перед зміною цих файлів пройдіть вручну чек-лист з §4e «Перевірка».
 
-**Перенесення на clayarena.com.** Адреса сайту `https://fenix-112323.github.io/clayaway/` записана в: `scripts/site_common.mjs` (`BASE` — для
-`build_seo*.mjs` і `build_academy.mjs`, отже й усіх згенерованих сторінок, sitemap, `robots.txt`), `scripts/make_og.py` (`BASE`),
-`scripts/seo_meta.py` (`B`), `docs/learn/app/academy.js` (`PROD_BASE`), рукописних `docs/learn/index.html`, `docs/rules/index.html`,
-`docs/rules/trainer/index.html`, `docs/404.html`, `docs/interpreter/index.html`, `docs/llms.txt` і в тестовому `tools/stats/checks/check_tracker.mjs`
-(а також у виведеному `scripts/build_interpreter_pages.py`). Блоки canonical / OG у `index.html`, `en/`, `tours/`, `concept/`, `rules-spec/`,
-`dornsberg/`, `sologne/` пишуть `make_og.py` і `seo_meta.py`. У продакшені — одна змінна конфігурації, canonical на clayarena.com, 301 з github.io
+**Перенесення на clayarena.com.** Адреса сайту — **одне місце**: `export const BASE` у `scripts/site_common.mjs` (з 05.11.2026 `https://juliabezdolna.github.io/clayaway/`, робоча копія; до того — `fenix-112323.github.io`). Її читають `build_seo*.mjs`, `build_academy.mjs`, а також `make_og.py`, `seo_meta.py` і `build_interpreter_pages.py` (рядок `BASE`/`B = re.search(...)` бере її з `site_common.mjs`), отже й усі згенеровані сторінки, sitemap, `robots.txt` (дозвіл для пошуковиків — лише коли `BASE` на clayarena.com). Рукописні файли, яких збірка не переписує, тримають адресу самі — їх міняти разом із `BASE`: `docs/learn/app/academy.js` (`PROD_BASE`), `docs/index.html`, `docs/en/index.html`, `docs/learn/index.html`, `docs/rules/index.html`, `docs/rules/trainer/index.html`, `docs/404.html`, `docs/rules-spec/index.html`, `docs/llms.txt` (перевірка: `git grep -l "<стара адреса>" -- docs` після повної пересборки має бути порожнім). Тестовий `tools/stats/checks/check_tracker.mjs` тримає стару адресу як приклад. У продакшені — одна змінна конфігурації, canonical на clayarena.com, 301 з github.io
 (§6). Так само **назва сервісу «ClayAway»**: у статичному проєкті вона написана в текстах (сторінки турів, `nav.js` `NAMES`, тексти прев’ю, ТЗ)
 свідомо, щоб макети читалися; у продакшені — один ключ конфігурації й переклади з нього (правило CLAUDE.md «название в одном месте»).
 

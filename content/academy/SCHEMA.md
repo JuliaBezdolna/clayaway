@@ -324,7 +324,7 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   (the text alternative of the animation, may be empty): one string. `steps`: an array of strings, one per step.
   `compare`: an object `{sporting, compak}`, one string per column (the app writes the column labels itself, both mandatory).
   `evidence` blocks carry `level` and `for` (no `html`); `rule` and `compare` blocks always carry `disc`.
-- **URLs** may be absolute (`https://fenix-112323.github.io/clayaway/…`) or relative to the site root; the app builds its own Academy
+- **URLs** may be absolute (`<BASE>…`, the site address of `scripts/site_common.mjs`) or relative to the site root; the app builds its own Academy
   links from the ids (`/<p>learn/<id>/`, `topics/<block>/`, `routes/<route>/`, `practice/<game>/`), so `url` fields are for the
   pages and SEO. `alt` may be `{lang: url}` or a list of language codes (a list keeps the catalog near the ~30 KB target).
 - Phrases have no `core` flag in the lesson file: the phrasebook shows every phrase of the lessons of the chosen block (from `phrases.json`).

@@ -14,7 +14,8 @@ from pathlib import Path
 
 # --docs <dir>: the site root to write (default docs), as in make_og.py (handover check 09.10.2026)
 DOCS = Path(sys.argv[sys.argv.index("--docs") + 1]).resolve() if "--docs" in sys.argv else Path(__file__).resolve().parent.parent / "docs"
-B = "https://fenix-112323.github.io/clayaway/"
+# Site address: ONE place, scripts/site_common.mjs ("export const BASE = …"), read from there (also by make_og.py, seo_meta.py)
+B = re.search(r'^export const BASE = "([^"]+)";', (Path(__file__).resolve().parent / "site_common.mjs").read_text(encoding="utf-8"), re.M).group(1)
 SITE = {"@type": "WebSite", "name": "ClayArena", "url": B}  # one site of ClayArena projects; ClayAway = the tours service inside it
 CLAYARENA = {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}
 
