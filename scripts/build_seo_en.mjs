@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "fs";
 
 export function buildEnglish() {
-  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, catMore } = globalThis.SEO;
+  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, catMore, crumbLd } = globalThis.SEO;
   const out = [];
   const TM = "Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.";
 
@@ -47,7 +47,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 
   // ---- glossary
   if (GLOSS) {
-    const SET = { "@type": "DefinedTermSet", name: "ClayArena clay shooting glossary", url: BASE + "en/glossary/" };
+    const SET = { "@type": "DefinedTermSet", name: "ClayArena clay shooting glossary", url: BASE + "en/glossary/", inLanguage: "en" };
     for (const t of GLOSS.terms) {
       const uk = `${BASE}glossary/${t.id}/`, en = `${BASE}en/glossary/${t.id}/`;
       const name = dispTerm(t);
@@ -59,7 +59,8 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
       const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}en/glossary/${r}/">${esc(dispTerm(GBY[r]))}</a>`).join(" ");
       // "Learn it": Academy lessons that teach the term (scripts/build_academy.mjs learnLinks)
       const learn = ACADEMY.learnLinks(t.id, "en").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
-      const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_en, `en/glossary/${t.id}/`), termCode: t.id, url: en, inDefinedTermSet: SET, inLanguage: "en" }];
+      const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_en, `en/glossary/${t.id}/`), termCode: t.id, url: en, inDefinedTermSet: SET, inLanguage: "en" },
+        crumbLd([{ name: "Glossary", url: `${BASE}en/glossary/` }, { name, url: en }])];
       const html = head({ title, desc, url: en, uk, en, ld, img: "glossary", css: GS.CSS }) + bar(crumbs("en", "📖", [{ label: "Glossary", url: `${BASE}en/glossary/` }, { label: name }]), en, uk, true) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 ${GS.mini("en", esc)}<div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}

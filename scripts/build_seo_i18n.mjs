@@ -39,7 +39,7 @@ const flatTL = s => String(s || "").normalize("NFC").toLowerCase().replace(/[™
 const addsToH1 = (tl, lb) => !!tl && !!lb.local && flatTL(tl) !== flatTL(lb.local) && flatTL(tl) !== flatTL(lb.label);
 
 export async function buildI18n() {
-  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList, catMore } = globalThis.SEO;
+  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList, catMore, crumbLd } = globalThis.SEO;
   // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
   // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
   const CAT = {
@@ -96,7 +96,8 @@ export async function buildI18n() {
         const rel = (t.related || []).map(rid).filter(r => GBY[r] && D[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${termUrl(lang, r)}">${termHtml(lang, GBY[r])}</a>`).join(" ");
         const learn = ACADEMY.learnLinks(t.id, lang).slice(0, 5).map(x => x.lang === lang ? `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`
           : `<li><a href="${esc(x.url)}" hreflang="${x.lang}" lang="${x.lang}">${esc(x.title)}</a> · ${esc(U.acad_en || x.context)}</li>`).join("");
-        const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, x.term_local].filter(Boolean))].filter(a => a !== name), description: tmMeta(x.short, `${lang}/glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: lang }];
+        const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, x.term_local].filter(Boolean))].filter(a => a !== name), description: tmMeta(x.short, `${lang}/glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: lang },
+          crumbLd([{ name: U.gl, url: listUrl(lang) }, { name: lb.label, url }])];
         const html = `<!doctype html>
 <html lang="${lang}">
 <head>

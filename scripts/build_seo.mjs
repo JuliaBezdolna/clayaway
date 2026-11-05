@@ -309,7 +309,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">${body}
 <div class="disc">Глосарій ClayArena побудовано на нашому переказі регламентів FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}</main>
 </body></html>`;
-  const SET = { "@type": "DefinedTermSet", name: "ClayArena clay shooting glossary", url: BASE + "glossary/" };
+  const SET = { "@type": "DefinedTermSet", name: "Глосарій стендової стрільби ClayArena", url: BASE + "glossary/", inLanguage: "uk" };
   for (const t of GLOSS.terms) {
     const url = `${BASE}glossary/${t.id}/`, name = dispTerm(t), lb = termLabel("uk", t); // lb.label = "Rabbit (заєць)"
     // the subtitle only where the h1 has no local word (lb.local empty); the FITASC marks as in the names (tm)
@@ -334,7 +334,7 @@ ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" 
 ${learn ? `<h2>Де вивчити</h2><ul>${learn}</ul>` : ""}
 ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}${catMore("uk", t, GLOSS.terms, { cat: c => CAT_UK[c] || c, url: x => `${BASE}glossary/${x.id}/`, html: x => termHtml("uk", x), list: `${BASE}glossary/`, skip: (t.related || []).map(rid) })}`;
     const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || []), lb.local].filter(Boolean))].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
-      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name: lb.label, item: url }] }];
+      crumbLd([{ name: "Глосарій", url: BASE + "glossary/" }, { name: lb.label, url }])];
     mkdirSync(`${DOCS}/glossary/${t.id}`, { recursive: true });
     writeFileSync(`${DOCS}/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body, lb.label, `${BASE}en/glossary/${t.id}/`));
     out.push(url);
@@ -417,6 +417,10 @@ const glossaryIndexList = (lang, terms, o) => {
   return box + "\n" + cats.map(c => `<h2 id="cat-${GS.catSlug(c)}">${esc(o.cat(c))}</h2><div class="list" data-cat="${GS.catSlug(c)}">${inCat(c).sort((a, b) => a.term.localeCompare(b.term)).map(t => {
     const g = gsKeys(lang, t), d = o.short(t);
     return `<a href="${o.url(t)}" data-k="${esc(g.k.join("|"))}"${g.a.length ? ` data-a="${esc(g.a.join("|"))}"` : ""}${d ? ` data-d="${esc(d)}"` : ""}${ANIM.has(t.id) ? " data-anim" : ""}>${o.html(t)}</a>`; }).join("")}</div>`).join("\n"); };
+// Breadcrumbs in JSON-LD (BreadcrumbList) of the glossary term pages, all 11 languages (glossary plan, wave 8: markup, 05.11.2026;
+// until then only the uk pages had it): the same steps as the visible breadcrumb "Glossary › term", so Google can show them in
+// the result instead of the URL. items = [{ name, url }, …].
+const crumbLd = items => ({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: items.map((x, i) => ({ "@type": "ListItem", position: i + 1, name: x.name, item: x.url })) });
 // "More in this category" on every term page, after "Related terms" (glossary plan, wave 8: internal links, 05.11.2026): up to
 // CAT_MORE_N other terms of the same category in the page language, then a link to that category on the index (#cat-<slug>, the
 // index filters itself to it, docs/shared/glossary-search.js). The terms shown are the alphabetical neighbours of the term in its
@@ -525,7 +529,7 @@ urls.push(...glossaryPages());
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, catMore };
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, catMore, crumbLd };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
