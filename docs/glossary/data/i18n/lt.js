@@ -2190,11 +2190,6 @@ window.GLOSSARY_I18N.lt = {
    "conf": "low",
    "short": "Britų trenerių žargonas porai iš triušio ir skraidančio taikinio."
   },
-  "true-pair": {
-   "term_local": "vienalaikė pora (true pair)",
-   "conf": "low",
-   "short": "Taip britų treneriai vadina vienalaikį dubletą: abu taikiniai išmetami tuo pačiu metu."
-  },
   "shell-catcher": {
    "term_local": "tūtelių gaudyklė",
    "conf": "low",
@@ -2240,11 +2235,6 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "low",
    "short": "Trenerių žargonas pataikymui, po kurio taikinys virsta dulkėmis. Pagal taisykles visiškai ar iš dalies į dulkes subyrėjęs taikinys yra pataikytas; sveikas taikinys, iš kurio pasirodo tik dulkės ar dūmai be matomo gabalo, yra nulis."
-  },
-  "peg": {
-   "term_local": "šaudymo vieta (peg)",
-   "conf": "low",
-   "short": "Britų žodis pažymėtai šaudymo vietai."
   },
   "gun-up": {
    "term_local": "šautuvas prisidėtas (gun up)",

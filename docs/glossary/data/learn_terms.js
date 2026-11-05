@@ -4433,19 +4433,6 @@ window.GLOSSARY_LEARN = {
    "uk_usage": ""
   },
   {
-   "id": "true-pair",
-   "term": "True pair",
-   "aka": [],
-   "cat": "Targets",
-   "short_uk": "Так британські тренери називають одночасний дуплет: обидві мішені вилітають в одну мить.",
-   "short_en": "A word British coaches use for a simultaneous pair: both targets released at the same moment.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
    "id": "shell-catcher",
    "term": "Shell catcher",
    "aka": [],
@@ -4545,19 +4532,6 @@ window.GLOSSARY_LEARN = {
    "cat": "Technique",
    "short_uk": "Тренерський сленг: влучання, після якого мішень перетворюється на пил. За правилами мішень, яка повністю чи частково розсипалася на пил, — влучання; ціла мішень, від якої лише пил чи дим без видимого уламка, — промах (zero).",
    "short_en": "Coach slang for a hit that turns the clay to dust. Under the rules a clay turned wholly or partly to dust is a hit; an intact clay giving off only dust or smoke, with no visible piece, is a zero.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
-   "id": "peg",
-   "term": "Peg",
-   "aka": [],
-   "cat": "Interpreting",
-   "short_uk": "Британське слово для позначеного місця стрільця на позиції.",
-   "short_en": "British word for the marked shooting spot on a stand.",
    "long_uk": "",
    "long_en": "",
    "related": [],

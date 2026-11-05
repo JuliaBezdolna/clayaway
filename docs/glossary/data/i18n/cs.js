@@ -2381,14 +2381,6 @@ window.GLOSSARY_I18N.cs = {
    "conf": "low",
    "short": "Slang britských trenérů pro dvojici složenou ze zajíce a vzdušného terče."
   },
-  "true-pair": {
-   "term_local": "true pair",
-   "alt": [
-    "současný dvojstřel"
-   ],
-   "conf": "low",
-   "short": "Tak říkají britští trenéři současné dvojici: oba terče vyletí ve stejném okamžiku."
-  },
   "shell-catcher": {
    "term_local": "lapač nábojnic",
    "alt": [
@@ -2443,14 +2435,6 @@ window.GLOSSARY_I18N.cs = {
    ],
    "conf": "low",
    "short": "Trenérský slang pro zásah, po kterém se terč změní v prach. Podle pravidel je terč rozprášený zcela nebo zčásti zásah; terč, který zůstal celý a uvolní jen prach nebo kouř bez viditelného úlomku, je nula."
-  },
-  "peg": {
-   "term_local": "peg",
-   "alt": [
-    "střelecké místo"
-   ],
-   "conf": "low",
-   "short": "Britské slovo pro vyznačené střelecké místo na stanovišti."
   },
   "gun-up": {
    "term_local": "start se zalícenou zbraní",

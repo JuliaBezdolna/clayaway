@@ -2375,14 +2375,6 @@ window.GLOSSARY_I18N.pt = {
    "conf": "low",
    "short": "Gíria dos treinadores britânicos para um par formado por um coelho e um prato aéreo."
   },
-  "true-pair": {
-   "term_local": "double simultâneo",
-   "alt": [
-    "true pair"
-   ],
-   "conf": "low",
-   "short": "Nome que os treinadores britânicos dão a um par simultâneo: os dois pratos lançados no mesmo instante."
-  },
   "shell-catcher": {
    "term_local": "apara-cartuchos",
    "alt": [
@@ -2434,14 +2426,6 @@ window.GLOSSARY_I18N.pt = {
    ],
    "conf": "low",
    "short": "Gíria de treinador para um prato desfeito em pó. Pelas regras, um prato desfeito em pó, no todo ou em parte, é BOM; um prato que continua inteiro e só solta pó ou fumo, sem pedaço visível, é ZERO."
-  },
-  "peg": {
-   "term_local": "peg",
-   "alt": [
-    "posto"
-   ],
-   "conf": "low",
-   "short": "Palavra britânica para o lugar de tiro marcado num posto."
   },
   "gun-up": {
    "term_local": "arma à cara",

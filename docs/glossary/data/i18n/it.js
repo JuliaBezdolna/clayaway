@@ -2201,11 +2201,6 @@ window.GLOSSARY_I18N.it = {
    "conf": "low",
    "short": "Gergo degli istruttori britannici per un doppio composto da una lepre e un piattello in aria."
   },
-  "true-pair": {
-   "term_local": "true pair",
-   "conf": "low",
-   "short": "Il nome usato dagli istruttori britannici per il doppio simultaneo: entrambi i piattelli lanciati nello stesso momento."
-  },
   "shell-catcher": {
    "term_local": "parabossoli",
    "conf": "low",
@@ -2245,11 +2240,6 @@ window.GLOSSARY_I18N.it = {
    "term_local": "polverizzato",
    "conf": "low",
    "short": "Gergo degli istruttori per un piattello ridotto in polvere. Per le regole un piattello ridotto in polvere in tutto o in parte è BUONO; un piattello rimasto intero che lascia solo polvere o fumo, senza un pezzo visibile, è ZERO."
-  },
-  "peg": {
-   "term_local": "peg",
-   "conf": "low",
-   "short": "Parola britannica per il punto di tiro segnato su una pedana."
   },
   "gun-up": {
    "term_local": "fucile imbracciato (gun up)",

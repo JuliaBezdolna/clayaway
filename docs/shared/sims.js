@@ -1582,7 +1582,7 @@ const TERM_SIMS = {
   "break-point": {type: "flight", preset: "quartering-away", focus: "points"}, "stance": {type: "flight", preset: "crosser-lr", focus: "stance"},
   "soft-focus": {type: "flight", preset: "going-away", focus: "eyes"}, "hard-focus": {type: "flight", preset: "going-away", focus: "eyes"},
   "leading-edge": {type: "flight", preset: "going-away", focus: "eyes"},
-  "double-on-report": {type: "pair", kind: "report"}, "simultaneous-double": {type: "pair", kind: "simultaneous"}, "true-pair": {type: "pair", kind: "simultaneous"},
+  "double-on-report": {type: "pair", kind: "report"}, "simultaneous-double": {type: "pair", kind: "simultaneous"},
   "rafale-double": {type: "pair", kind: "rafale"}, "double": {type: "pair", kind: "report", also: ["simultaneous", "rafale"]},
   "lead": {type: "lead", method: "maintained", focus: "perceived-vs-actual"}, "perceived-lead": {type: "lead", method: "swing", focus: "perceived-vs-actual"},
   "gun-speed": {type: "lead", method: "maintained", focus: "perceived-vs-actual"},

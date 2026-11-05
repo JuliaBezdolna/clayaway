@@ -545,7 +545,8 @@ urls.push(...(await buildI18n()));
 // and the id here (DEVELOPERS.md §4k).
 const GLOSSARY_STUBS = ["fly-over-rectangle", "hand-signals", "smoke-ball", "super-mini", // merged duplicates (audit G-06)
   "issf", "olympic-trap", "skeet",                                                          // other disciplines, retired 08.10.2026
-  "english-sporting", "cpsa", "nsca", "hoa"];                                               // other versions of the sport and their bodies, retired 09.10.2026
+  "english-sporting", "cpsa", "nsca", "hoa",                                                // other versions of the sport and their bodies, retired 09.10.2026
+  "true-pair", "peg"];                                                                       // British words merged into simultaneous-double / shooting-stand, 05.11.2026
 function redirectStubs() {
   const done = [];
   const bases = ["glossary", ...readdirSync(DOCS, { withFileTypes: true }).filter(e => e.isDirectory() && /^[a-z]{2}$/.test(e.name)).map(e => `${e.name}/glossary`)];

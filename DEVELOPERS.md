@@ -759,6 +759,11 @@ bun scripts/build_seo.mjs; if ($?) { python scripts/make_og.py }; if ($?) { pyth
   Джерело WADA лишається; джерела інших федерацій (`mind-anti-doping`, `mind-long-day-energy-sleep`, `travel-jet-lag`) прибрано цілком, назви
   джерел не змінюємо; доказ про добавки (`mind-anti-doping-p9`) тепер — сторінка USADA Supplement Connect. Дослідження кофеїну зі стрільцями
   (`mind-long-day-energy-sleep-p10`) описано як «зі спортсменами-стрільцями (не стендовиками)», без назви дисципліни; назва статті — як є.
+- **Дублі `true-pair` і `peg` злито (05.11.2026, рішення Юлії, умова здачі етапу «Глосарій»):** `true-pair → simultaneous-double`,
+  `peg → shooting-stand` (`aliases.json`, `GLOSSARY_STUBS`; «True pair» і «Peg» уже є в `aka` цільових термінів, тож пошук їх знаходить).
+  Записи прибрано з `learn_terms.js`, усіх `i18n/<lang>.js`, `sources/uk.json` і `TERM_SIMS` (`sims.js`). В уроках `interpreter-false-friends` і
+  `targets-singles-and-doubles` британські слова лишились у лапках («true pair», «peg»), але без токена `{{term:…}}` (en, uk і 9 оверлеїв);
+  хеші `h_uk` / `h` цих 3 абзаців перенесено на новий англійський текст (переклад змінено тим самим правленням, лише прибрано токен).
 - **Чоки** — за звуженням: cylinder, 1/8 (дуже легке), improved cylinder (1/4), light modified, modified, improved modified, full. Назва «Skeet»/«SK» —
   лише в терміні глосарію `skeet-choke` (виняток вище), в уроках її немає.
 - **Британські й американські версії спорту та їхні організації (знято 09.10.2026, перед передачею):** урок `interpreter-english-sporting-vs-fitasc`

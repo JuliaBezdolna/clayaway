@@ -2213,11 +2213,6 @@ window.GLOSSARY_I18N.hu = {
    "conf": "low",
    "short": "A brit edzők szlengje egy nyúlból és egy légi korongból álló párra."
   },
-  "true-pair": {
-   "term_local": "true pair (szimultán dublé)",
-   "conf": "low",
-   "short": "A brit edzők így nevezik a szimultán párt: mindkét korongot ugyanabban a pillanatban dobják ki."
-  },
   "shell-catcher": {
    "term_local": "hüvelyfogó",
    "conf": "low",
@@ -2257,11 +2252,6 @@ window.GLOSSARY_I18N.hu = {
    "term_local": "porrá lőtte (smoke)",
    "conf": "low",
    "short": "Edzői szleng a porrá lőtt korongra. A szabályok szerint a teljesen vagy részben porrá tört korong találat; az ép korong, amelyből csak por vagy füst száll fel, látható darab nélkül, „Nulla”."
-  },
-  "peg": {
-   "term_local": "peg (lőhely)",
-   "conf": "low",
-   "short": "Brit szó a lőállás kijelölt lőhelyére."
   },
   "gun-up": {
    "term_local": "vállba vett fegyverrel (gun up)",

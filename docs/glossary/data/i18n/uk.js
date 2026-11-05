@@ -1728,14 +1728,6 @@ window.GLOSSARY_I18N.uk = {
    "term_local": "рух, вкладка, постріл",
    "conf": "low"
   },
-  "true-pair": {
-   "term_local": "синхронний дуплет",
-   "conf": "source"
-  },
-  "peg": {
-   "term_local": "стрілецьке місце",
-   "conf": "source"
-  },
   "gun-up": {
    "term_local": "рушниця вкладена в плече",
    "conf": "source"

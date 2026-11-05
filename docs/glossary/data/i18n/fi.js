@@ -2373,14 +2373,6 @@ window.GLOSSARY_I18N.fi = {
    "conf": "low",
    "short": "Brittivalmentajien slangia parille, jossa on jänis ja ilmassa lentävä kiekko."
   },
-  "true-pair": {
-   "term_local": "true pair",
-   "alt": [
-    "yhtäaikainen kaksoiskiekko"
-   ],
-   "conf": "low",
-   "short": "Brittivalmentajien nimi yhtäaikaiselle parille: molemmat kiekot lähtevät samalla hetkellä."
-  },
   "shell-catcher": {
    "term_local": "hylsynsieppari",
    "alt": [
@@ -2435,14 +2427,6 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "low",
    "short": "Valmentajien slangia osumasta, joka murskaa kiekon pölyksi. Sääntöjen mukaan kokonaan tai osittain pölyksi hajonnut kiekko on osuma; ehjänä pysyvä kiekko, josta irtoaa vain pölyä tai savua ilman näkyvää palaa, on ohi (nolla)."
-  },
-  "peg": {
-   "term_local": "peg",
-   "alt": [
-    "ampumapaikka"
-   ],
-   "conf": "low",
-   "short": "Brittiläinen sana ampumapaikan merkitylle seisontakohdalle."
   },
   "gun-up": {
    "term_local": "ase nostettuna",

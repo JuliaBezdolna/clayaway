@@ -2118,11 +2118,6 @@ window.GLOSSARY_I18N.pl = {
    "conf": "low",
    "short": "Żargon brytyjskich trenerów na parę złożoną z rabbita i rzutka powietrznego."
   },
-  "true-pair": {
-   "term_local": "true pair",
-   "conf": "low",
-   "short": "Tak brytyjscy trenerzy nazywają parę symultaniczną: oba rzutki wyrzucane w tym samym momencie."
-  },
   "shell-catcher": {
    "term_local": "łapacz łusek",
    "conf": "low",
@@ -2162,11 +2157,6 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "smoked it",
    "conf": "low",
    "short": "Trenerski slang na trafienie, po którym rzutek zamienia się w pył. Według przepisów rzutek rozbity na pył w całości lub części to trafienie; cały rzutek, z którego leci tylko pył lub dym, bez widocznego odprysku, to pudło (zero)."
-  },
-  "peg": {
-   "term_local": "peg",
-   "conf": "low",
-   "short": "Brytyjskie słowo na oznaczone miejsce strzelania na stanowisku."
   },
   "gun-up": {
    "term_local": "gun up (broń złożona)",

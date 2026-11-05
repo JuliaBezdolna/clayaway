@@ -2260,11 +2260,6 @@ window.GLOSSARY_I18N.fr = {
    "conf": "low",
    "short": "Expression des entraîneurs britanniques pour un doublé composé d'un lapin et d'un plateau aérien."
   },
-  "true-pair": {
-   "term_local": "true pair (doublé simultané)",
-   "conf": "low",
-   "short": "Nom que les entraîneurs britanniques donnent au doublé simultané : les deux plateaux partent au même instant."
-  },
   "shell-catcher": {
    "term_local": "récupérateur de douilles",
    "conf": "low",
@@ -2304,11 +2299,6 @@ window.GLOSSARY_I18N.fr = {
    "term_local": "pulvérisé",
    "conf": "low",
    "short": "Argot d'entraîneur pour un plateau réduit en poussière. Selon les règles, un plateau réduit en poussière en tout ou en partie est BON ; un plateau resté entier qui ne lâche que de la poussière ou de la fumée, sans morceau visible, est ZÉRO."
-  },
-  "peg": {
-   "term_local": "peg (emplacement de tir)",
-   "conf": "low",
-   "short": "Mot britannique pour l'emplacement de tir marqué sur un poste."
   },
   "gun-up": {
    "term_local": "fusil épaulé au départ",

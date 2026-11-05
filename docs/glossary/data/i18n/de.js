@@ -2227,11 +2227,6 @@ window.GLOSSARY_I18N.de = {
    "conf": "low",
    "short": "Ausdruck britischer Trainer für eine Doublette aus einem Hasen und einer Flugscheibe."
   },
-  "true-pair": {
-   "term_local": "True Pair (Simultan-Doublette)",
-   "conf": "low",
-   "short": "So nennen britische Trainer eine Simultan-Doublette: beide Scheiben werden gleichzeitig geworfen."
-  },
   "shell-catcher": {
    "term_local": "Hülsenfänger",
    "conf": "low",
@@ -2271,11 +2266,6 @@ window.GLOSSARY_I18N.de = {
    "term_local": "pulverisiert (Smoked it)",
    "conf": "low",
    "short": "Trainerjargon für einen Treffer, der die Scheibe zu Staub macht. Nach den Regeln ist eine ganz oder teilweise zu Staub zerfallene Scheibe ein Treffer; eine ganze Scheibe, die nur Staub oder Rauch abgibt, ohne sichtbares Stück, ist eine Null."
-  },
-  "peg": {
-   "term_local": "Peg (Schießstelle)",
-   "conf": "low",
-   "short": "Britisches Wort für die markierte Schießstelle an einem Stand."
   },
   "gun-up": {
    "term_local": "Gun up (Voranschlag)",

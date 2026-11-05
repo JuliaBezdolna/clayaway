@@ -40,7 +40,6 @@
     "one",
     "trap",
     "shooting-stand",
-    "peg",
     "call",
     "pull-away",
     "length-of-pull",
@@ -52,7 +51,6 @@
     "driven-target",
     "battue",
     "trapper",
-    "true-pair",
     "simultaneous-double",
     "rafale-double",
     "target-presentation",
@@ -160,8 +158,8 @@
       "k": "interpreter-false-friends-p3",
       "t": "p",
       "core": true,
-      "en": "Equipment and place words. A “{{term:trap|trap}}” is the throwing machine, not a snare. A “stand” is a single shooting place, the {{term:shooting-stand|shooting stand}}, not the whole ground; in {{tm:compak}} the places are often called stations. A “{{term:peg|peg}}” is the shooting position. The name comes from the numbered stake that marks each shooter’s place at a driven game shoot, so do not translate it as a stake. A “broken gun” is an open gun. “Pull!” is the {{term:call|call}}, “{{term:pull-away|pull-away}}” is a lead method and “{{term:length-of-pull|length of pull}}” is the length of the stock, from the trigger to the butt pad.",
-      "uk": "Слова про обладнання й місце. «Trap» означає не «пастку»: так називають {{term:trap|метальну машинку}}. «Stand» — одне місце для стрільби, {{term:shooting-stand|стрілецьке місце}}, а не весь стенд; у {{tm:compak}} такі місця називають номерами. «{{term:peg|Peg}}» — місце стрільця: назва походить від номерного кілочка, яким на загінному полюванні позначають номер кожного стрільця, тож не перекладайте її як «кілок». «Broken gun» — відкрита (переламана) рушниця. «Pull!» — це {{term:call|команда}}, {{term:pull-away|«pull-away»}} — метод {{term:lead|виносу}}, а {{term:length-of-pull|«length of pull»}} — розмір рушниці, а не команда."
+      "en": "Equipment and place words. A “{{term:trap|trap}}” is the throwing machine, not a snare. A “stand” is a single shooting place, the {{term:shooting-stand|shooting stand}}, not the whole ground; in {{tm:compak}} the places are often called stations. A “peg” is the shooting position. The name comes from the numbered stake that marks each shooter’s place at a driven game shoot, so do not translate it as a stake. A “broken gun” is an open gun. “Pull!” is the {{term:call|call}}, “{{term:pull-away|pull-away}}” is a lead method and “{{term:length-of-pull|length of pull}}” is the length of the stock, from the trigger to the butt pad.",
+      "uk": "Слова про обладнання й місце. «Trap» означає не «пастку»: так називають {{term:trap|метальну машинку}}. «Stand» — одне місце для стрільби, {{term:shooting-stand|стрілецьке місце}}, а не весь стенд; у {{tm:compak}} такі місця називають номерами. «Peg» — місце стрільця: назва походить від номерного кілочка, яким на загінному полюванні позначають номер кожного стрільця, тож не перекладайте її як «кілок». «Broken gun» — відкрита (переламана) рушниця. «Pull!» — це {{term:call|команда}}, {{term:pull-away|«pull-away»}} — метод {{term:lead|виносу}}, а {{term:length-of-pull|«length of pull»}} — розмір рушниці, а не команда."
     },
     {
       "k": "interpreter-false-friends-cards",
@@ -174,8 +172,8 @@
       "k": "interpreter-false-friends-pairs",
       "t": "p",
       "core": true,
-      "en": "Pairs have different names. A “{{term:true-pair|true pair}}” (British and American) is a FITASC {{term:simultaneous-double|simultaneous double}}: both targets leave at the same time. A “report pair” is a {{term:double-on-report|double on report}}: the second target is launched by the sound of your first shot. A “following pair” is a FITASC {{term:rafale-double|rafale}}: two targets from the same trap, one right after the other. A “show pair” is the {{term:target-presentation|presentation}} of a pair before shooting. A “{{term:peg|peg}}” is the {{term:shooting-stand|shooting stand}}, “station” is the American word for a stand, and a “{{term:cage|cage}}” is the frame around it.",
-      "uk": "{{term:double|Дуплети|pl}} мають різні назви. «{{term:true-pair|True pair}}» (британське й американське) — це {{term:simultaneous-double|одночасний дуплет}} FITASC: обидві мішені вилітають разом. «Report pair» — {{term:double-on-report|сигнальний дуплет}}: другу мішень випускає звук вашого першого пострілу. «Following pair» — {{term:rafale-double|рафаль}} FITASC: дві мішені з однієї {{term:trap|машинки}} одна за одною. «Show pair» — {{term:target-presentation|показ}} дуплета перед стрільбою. «{{term:peg|Peg}}» — це {{term:shooting-stand|стрілецьке місце}}, «station» — американське слово для стрілецького місця, а «{{term:cage|cage}}» — рама навколо нього."
+      "en": "Pairs have different names. A “true pair” (British and American) is a FITASC {{term:simultaneous-double|simultaneous double}}: both targets leave at the same time. A “report pair” is a {{term:double-on-report|double on report}}: the second target is launched by the sound of your first shot. A “following pair” is a FITASC {{term:rafale-double|rafale}}: two targets from the same trap, one right after the other. A “show pair” is the {{term:target-presentation|presentation}} of a pair before shooting. A “peg” is the {{term:shooting-stand|shooting stand}}, “station” is the American word for a stand, and a “{{term:cage|cage}}” is the frame around it.",
+      "uk": "{{term:double|Дуплети|pl}} мають різні назви. «True pair» (британське й американське) — це {{term:simultaneous-double|одночасний дуплет}} FITASC: обидві мішені вилітають разом. «Report pair» — {{term:double-on-report|сигнальний дуплет}}: другу мішень випускає звук вашого першого пострілу. «Following pair» — {{term:rafale-double|рафаль}} FITASC: дві мішені з однієї {{term:trap|машинки}} одна за одною. «Show pair» — {{term:target-presentation|показ}} дуплета перед стрільбою. «Peg» — це {{term:shooting-stand|стрілецьке місце}}, «station» — американське слово для стрілецького місця, а «{{term:cage|cage}}» — рама навколо нього."
     },
     {
       "k": "interpreter-false-friends-p4",
@@ -514,7 +512,7 @@
     "interpreter-false-friends-intro": "39c55cd5",
     "interpreter-false-friends-p1": "3e0535c1",
     "interpreter-false-friends-p2": "3cf9ded2",
-    "interpreter-false-friends-p3": "d259b08c",
+    "interpreter-false-friends-p3": "c8618f64",
     "interpreter-false-friends-cards": "3645d5da",
     "interpreter-false-friends-p4": "54eb687c",
     "interpreter-false-friends-ph1": "7ff90f13",
@@ -532,7 +530,7 @@
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
     "interpreter-false-friends-q3": "3c4d036d",
-    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-pairs": "9e9dc114",
     "interpreter-false-friends-ph7": "d3f511e4",
     "interpreter-false-friends-ph8": "eccdc387",
     "interpreter-false-friends-ph9": "37f10461",
