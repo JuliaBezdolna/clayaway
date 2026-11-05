@@ -516,6 +516,9 @@ bun scripts/build_seo.mjs; if ($?) { python scripts/make_og.py }; if ($?) { pyth
   Описи сторінок глосарію (meta, og:description, JSON-LD) мають страховку `tmMeta()` у `build_seo.mjs` (аудит legal-02): відмінкову форму без знака
   («Compaku», «Sportingban») вона позначає як «Compak®-u», «Sporting™-ban» і пише WARNING — тоді визначення в `docs/glossary/data/i18n/<lang>.js`
   (або `glossary.js` / `learn_terms.js`) переписують з назвою в базовій формі: «w Sporting™ i Compak® Sporting», «Sporting™ varžybų lygis».
+  Унікальність сніпетів (план Глосарію, хвиля 8, 05.11.2026): наприкінці збірки рядок `glossary snippets: N unique descriptions, N unique titles`
+  по всіх сторінках глосарію 11 мов (без заглушок переадресації; зараз 3 586 / 3 586). Однаковий title чи description на двох сторінках або їх
+  відсутність — WARNING зі списком адрес: дати кожному терміну власне визначення або злити терміни (`aliases.json`).
 - **Переадресації** (дизайн §5.2): A — `/learn/<влитий id>/` і `/en/learn/<влитий id>/`; B і C — `/interpreter/<lang>/<id>/`; D — `/interpreter/<lang>/`.
   Заглушка — миттєвий meta refresh + `location.replace` + canonical на ціль + OG (старі посилання у Viber дають прев’ю), **без noindex**.
   Заглушка з’являється лише тоді, коли сторінка-ціль є тією самою мовою; до того стара сторінка лишається, а пара стоїть у `pending` у `redirects.json`.

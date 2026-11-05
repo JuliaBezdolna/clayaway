@@ -549,6 +549,13 @@ writeFileSync(`${DOCS}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>
 ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod></sitemap>`).join("\n")}
 </sitemapindex>
 `);
+// One title and one meta description per glossary page (glossary plan, wave 8: SEO): the pass below collects them on every index and
+// term page of the 11 languages (redirect stubs left out) and the end of the build prints a WARNING for any text shared by two pages
+// or missing. Two pages with the same snippet compete with each other in search; Google then shows only one of them. Check 05.11.2026:
+// 3 586 pages, every title and description unique. A WARNING here usually means two terms with the same definition in
+// docs/glossary/data/i18n/<lang>.js (or glossary.js / learn_terms.js): write each its own, or merge them (aliases.json).
+const GLOSS_PAGE_RE = /^(?:[a-z]{2}\/)?glossary\/(?:[a-z0-9-]+\/)?index\.html$/;
+const glossMeta = { description: new Map(), title: new Map(), missing: [] };
 // ClayArena project bar (docs/shared/nav.js): one navigation for every page of every project; added here so new pages get it too.
 // The animations: every page loads docs/shared/sims.min.js, the minified copy of docs/shared/sims.js (the one source, with the
 // comments for the team; review 08.10.2026: 160 KB with comments, ≈ 76 KB minified). It is written here too (the Academy build writes
@@ -564,6 +571,10 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
     const rp = f.slice(DOCS.length + 1); // path inside the site root
     let h = readFileSync(f, "utf8"); const depth = rp.split("/").length - 1, rel = depth ? "../".repeat(depth) : "";
     if (h.includes('http-equiv="refresh"')) continue; // redirect stubs stay bare
+    if (GLOSS_PAGE_RE.test(rp)) for (const [k, re] of [["description", /<meta name="description" content="([^"]*)"/], ["title", /<title>([^<]*)<\/title>/]]) {
+      const v = (h.match(re) || [])[1], page = rp.replace(/index\.html$/, "");
+      if (!v) { glossMeta.missing.push(`${page} (${k})`); continue; }
+      glossMeta[k].set(v, [...(glossMeta[k].get(v) || []), page]); }
     let changed = false;
     { const h2 = h.replace(SIMS_SRC_RE, '$1sims.min.js"'); if (h2 !== h) { h = h2; changed = true; } } // the minified animations
     if (h.includes("shared/sims.min.js") && !h.includes("shared/terms.js")) { // the term helper before the animations, same defer
@@ -605,4 +616,10 @@ if (!ARGS.includes("--quiet")) console.log("pages", urls.length, urls.join("\n")
 console.log(`sitemap index: ${SITEMAPS.join(", ")} · site pages ${urls.length} · Academy URLs ${Object.values(ACADEMY.urls || {}).reduce((n, a) => n + a.length, 0)}${SKIP_ACADEMY ? " (Academy skipped: not written)" : ""}`);
 // Safety net of tmMeta() (audit legal-02): declined FITASC marks it had to mark in glossary meta descriptions. The pages are correct,
 // but the definition should say the mark in its base form: rewrite it in docs/glossary/data/i18n/<lang>.js (or glossary.js / learn_terms.js).
+for (const k of ["description", "title"]) {
+  const dup = [...glossMeta[k]].filter(([, pages]) => pages.length > 1);
+  if (dup.length) console.log(`WARNING: ${dup.length} glossary ${k}s shared by several pages (each page needs its own): ${dup.map(([v, pages]) => `"${v.slice(0, 60)}…" — ${pages.join(", ")}`).join("; ")}`);
+}
+if (glossMeta.missing.length) console.log(`WARNING: glossary pages without a title or meta description: ${glossMeta.missing.join(", ")}`);
+console.log(`glossary snippets: ${glossMeta.description.size} unique descriptions, ${glossMeta.title.size} unique titles`);
 if (tmMetaHits.size) console.log(`WARNING: glossary meta descriptions with a declined FITASC mark (marked as "Compak®-…" / "Sporting™-…"; write the base form "Sporting™" / "Compak® Sporting" in the definition): ${[...tmMetaHits].map(([w, p]) => `${w} (${p})`).join(", ")}`);
