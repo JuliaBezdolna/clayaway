@@ -134,7 +134,10 @@ ${rel ? `<h2>${U.rel}</h2><p>${rel}</p>` : ""}${catMore(lang, t, GLOSS.terms.fil
       const missing = cats.filter(c => !(CAT[lang] || {})[c]);
       if (missing.length) console.log(`WARNING: glossary ${lang}: no category name for ${missing.join(", ")} (add it to ui-${lang}.json "cat")`);
       const n = GLOSS.terms.filter(t => D[t.id]).length;
-      const title = `${fill(U.list, "n", n)} | ClayArena`, desc = fill(U.intro, "n", n), url = listUrl(lang);
+      // The noun after the number agrees with it: ui-<lang>.json "plural": {"few": {"list", "intro"}, …} by Intl.PluralRules
+      // (pl/lt "323 terminy" / "323 terminai", not the default "terminów" / "terminų"); without a variant, list / intro as they are.
+      const PV = (U.plural || {})[new Intl.PluralRules(lang).select(n)] || {}, LIST = PV.list || U.list;
+      const title = `${fill(LIST, "n", n)} | ClayArena`, desc = fill(PV.intro || U.intro, "n", n), url = listUrl(lang);
       writeFileSync(`${DOCS}/${lang}/glossary/index.html`, `<!doctype html>
 <html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title><meta name="description" content="${esc(desc)}">
@@ -146,7 +149,7 @@ ${og({ lang, title, desc, url, U })}
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", ...SET, inLanguage: lang, hasDefinedTerm: GLOSS.terms.filter(t => D[t.id]).map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: termUrl(lang, t.id) })) })}</script>
 <style>${CSS}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}${GS.CSS}</style></head>
 <body><header><div class="in">${crumbs(lang, "📖", [{ label: U.gl }])}<span style="flex:1"></span>${langBtns(lang, listUrl)}</div></header>
-<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>${esc(fill(U.list, "n", n))}</h1><p>${esc(desc)}</p>
+<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>${esc(fill(LIST, "n", n))}</h1><p>${esc(desc)}</p>
 ${glossaryIndexList(lang, GLOSS.terms.filter(t => D[t.id]), { cat: c => (CAT[lang] || {})[c] || c, url: t => termUrl(lang, t.id), html: t => termHtml(lang, t), short: t => D[t.id].short })}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`);
       out.push(url);

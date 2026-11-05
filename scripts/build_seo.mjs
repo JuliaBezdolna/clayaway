@@ -281,6 +281,8 @@ globalThis.termLinks = (it, lang) => {
 // Descriptive subtitles of the uk term pages whose h1 is the English word alone ("Battue" → «мішень, що летить ребром і різко
 // падає»): content/glossary/subtitles/uk.json, shown under the h1 and used in <title> (glossary plan, wave 4.3, 05.11.2026).
 const SUB_UK = (() => { try { const j = JSON.parse(readFileSync("content/glossary/subtitles/uk.json", "utf8")); delete j._note; return j; } catch (e) { return {}; } })();
+// "323 терміни", "325 термінів", "321 термін": the Ukrainian plural after a number (the count changes when terms are merged).
+const ukTerms = n => `${n} ${{ one: "термін", few: "терміни", many: "термінів" }[new Intl.PluralRules("uk").select(n)] || "термінів"}`;
 function glossaryPages() {
   if (!GLOSS) return [];
   const out = [];
@@ -341,9 +343,9 @@ ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}${catMore
   }
   { const extra = Object.keys(SUB_UK).filter(id => !GBY[id] || termLabel("uk", GBY[id]).local);
     if (extra.length) console.log(`WARNING: content/glossary/subtitles/uk.json: no term or the h1 already has a local word, subtitle not shown: ${extra.join(", ")}`); }
-  const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
+  const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${ukTerms(GLOSS.terms.length)} Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
 ${glossaryIndexList("uk", GLOSS.terms, { cat: c => CAT_UK[c] || c, url: t => `${BASE}glossary/${t.id}/`, html: t => termHtml("uk", t), short: t => t.short_uk })}`;
-  writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
+  writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${ukTerms(GLOSS.terms.length)} | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
     [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody, null, `${BASE}en/glossary/`));
   return [BASE + "glossary/", ...out];
 }
