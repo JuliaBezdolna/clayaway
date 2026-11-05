@@ -2,544 +2,1206 @@
  "_note": "Provenance of the uk local words of the ClayArena glossary (docs/glossary/data/i18n/uk.js): src = the page the word was taken from, note = the editor's note. Moved out of docs/ on 09.10.2026 so the published glossary files carry no source addresses or editor notes (some named other disciplines or other federations; owner rule: Sporting™ and Compak® Sporting only, no other federation named). Not published, not read by the build. Edit together with the term in i18n/uk.js.",
  "lang": "uk",
  "terms": {
+  "accuracy": {
+   "note": "Source check 05.11.2026 (descriptive). Це показник самої ClayArena; незалежного джерела саме в цьому значенні не знайшли, лишаємо як є."
+  },
   "adjustable-comb": {
-   "note": "Both forms heard; «регульована щока» common in shop specs."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (confirmed). «прикладу з регульованим гребнем або іншим пристосуванням»"
+  },
+  "ambush": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "anti-doping": {
+   "src": "https://mms.gov.ua/storage/app/uploads/public/67f/8cf/8ac/67f8cf8ac6d89239538888.pdf",
+   "note": "Source check 05.11.2026 (replace). «11. Медичне забезпечення. Антидопінговий контроль» Регламенти Мінмолодьспорту зі спортінгу називають це «антидопінговий контроль», окремого слова «антидопінг» там немає."
+  },
+  "appeal": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=13",
+   "note": "Source check 05.11.2026 (confirmed). «проведення стрільби. Розділ 9 - ПРОТЕСТИ І АПЕЛЯЦІЇ 9.1 СтрІльці повинні вражати мішені в зоні» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "appeal-jury": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=19",
+   "note": "Source check 05.11.2026 (confirmed). «особами для проведення змагань. 15.7 Апеляційне журі 15.7.1 Апеляційне журі може створюватися на кожне міжнародне» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "assistant-referee": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (confirmed). «випадку, зацікавленний суддя може виступати тільки як помічник судді, при умові поперед ьнього погодження жури» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "attempt-to-influence": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=14",
+   "note": "Source check 05.11.2026 (replace). «підкоритися правилам. Розділ 11 - Спроба тиску на суддю 11.1 Вважається, що стрільці тиснуть на» Так називається розділ 11 правил спортінгу."
+  },
+  "background": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (replace). «Мішені повинні бути обов’язково кольоровими і виділятися на фоні довкілля.» Правила УФС кажуть, що мішені мають виділятися «на фоні», а не «на тлі»."
   },
   "barrel": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "On an O/U people say «стволи» (plural)."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=10",
+   "note": "Source check 05.11.2026 (confirmed). «калібр не перевищує 12, з мінімальною довжиною стволу 66см. Заборонено використання мікрокамер, вмонтованних на зброї.» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "barrel-length": {
-   "note": "Shops give cm (71/76/81 см); coaches often say inches."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=10",
+   "note": "Source check 05.11.2026 (confirmed). «калібр не перевищує 12, з мінімальною довжиною стволу 66см. Заборонено використання мікрокамер, вмонтованних на зброї.» У правилах однина «довжина стволу»; на вертикалці кажуть «стволів»."
+  },
+  "barrel-selector": {
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-browning-b725-game-12m-kal-12-76-stvol-71-sm/",
+   "note": "Source check 05.11.2026 (confirmed). «ударний механізм отримав механічний перемикач черговості роботи стволів»"
   },
   "battue": {
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/",
-   "note": "Spelling unsettled: clubs write «Бату», project glossary «батю»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (replace). «мішені, мішені «Заєць», міді, суперміні, «Бату», «Флеш» і «Пропелер». Мішені повинні бути обов’язково кольоровими і» В обох українських правилах — «бату», а не «батю»."
   },
   "bead": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://ibis.net.ua/zbroia/details/mushka-dead-ringer-5-16-accu-bead-extreme-single-pack-na-planku-8-mm-3-kolorovi-vstavki/",
+   "note": "Source check 05.11.2026 (confirmed). «Мушка Dead Ringer 5/16 Accu-Bead Extreme Single Pack (на планку 8 мм)»"
+  },
+  "best-score": {
+   "note": "Source check 05.11.2026 (descriptive). Це показник самої ClayArena; незалежного джерела не знайшли, лишаємо як є."
+  },
+  "beta-blocker": {
+   "src": "https://www.fvu.in.ua/sites/default/files/2021-09/PL_2019_Ukr.pdf",
+   "note": "Source check 05.11.2026 (confirmed). «Р1. БЕТА-БЛОКАТОРИ Бета-блокатори заборонені тільки під час змагань в наступних видах спорту»"
+  },
+  "biodegradable-target": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела ні для цього слова, ні для іншого не знайшли, тому лишаємо простий опис."
   },
   "blazed-target": {
-   "note": "Descriptive (no source): the Ukrainian rules only say targets must be coloured. 05.11.2026."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (descriptive). «Мішені повинні бути обов’язково кольоровими і виділятися на фоні довкілля.» Джерела немає: українські правила кажуть лише, що мішені мають бути кольоровими; окремої назви немає."
+  },
+  "blot-out": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "bolting-rabbit": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Правила УФС знають лише мішень «Заєць»; окремої назви для цього варіанта в українських джерелах не знайшли."
+  },
+  "box-breathing": {
+   "src": "https://www.pogodairadar.com.ua/pohodni-novyny/tryvozhnist-vprava-dlya-podolannya-tryvohy--0b4b7e80-a363-4315-add6-fee324755095",
+   "note": "Source check 05.11.2026 (confirmed). «виконуйте вправу «Квадратне дихання»»"
+  },
+  "break-point": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "cage": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). У правилах компаку — «обмежувальна рамка», але це слово вже взяв Firing Angle Limiter. Схоже, Cage і Firing Angle Limiter — одне й те саме: можливий дубль, вирішити керівництву."
   },
   "call": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: targets «викликані спортсменом», «попросити мішень». The spoken call word varies by shooter."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=18",
+   "note": "Source check 05.11.2026 (confirmed). «по мішеням згідно своєї програми. В момент виклику мішені рушниця може знаходитися в вільному положенні» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "canting": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Джерела для «завал рушниці» не знайдено; простий опис зрозуміліший. Пропозицію помічника «нахил рушниці вбік» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "cartridge": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Both are standard Ukrainian; the Ukrainian competition rules use «патрон», shops and clubs often «набої»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (confirmed). «пилу («мішень пилила»). Якщо виникла несправність зброї або набоїв, але стрілець відкрив рушницю або торкнувся» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "cartridge-bag": {
+   "src": "https://prom.ua/ua/Uniform.html",
+   "note": "Source check 05.11.2026 (confirmed). «Сумка для набоїв \"Beretta\" Uniform Pro EVO Smal»"
   },
   "cartridge-pouch": {
-   "note": "Not «патронташ» (that is a belt)."
+   "src": "https://prom.ua/ua/Podsumok-dlya-patronov-12k.html",
+   "note": "Source check 05.11.2026 (confirmed). «M-Tac підсумок для набоїв 12 калібру горизонтальний Laser Cut Multicam»"
   },
   "cast": {
-   "note": "No settled Ukrainian term; interpreters often keep «cast» and explain."
+   "src": "https://shopgun.com.ua/ua/cupit-ruzhe/drobovik/poluavtomaticheskoe-ruzhe/ruzhe-ohotniche-mr155-1276-710mm-plastik-kamuflyazh/",
+   "note": "Source check 05.11.2026 (confirmed). «Є можливість виконувати регулювання відведення приклада по вертикалі і горизонталі»"
   },
   "category": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=14",
+   "note": "Source check 05.11.2026 (confirmed). «2, 3 місця) проводяться як у загальній категорії, так і для кожної категорії в серії» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "cease-fire": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=13",
+   "note": "Source check 05.11.2026 (replace). «при зупинках стрільби стрілець зобов’язанний тримати свою рушницю відкритою і незарядженною» Команди «СТОП» у правилах УФС немає; там ідеться про зупинку стрільби, під час якої рушниця відкрита й незаряджена."
+  },
+  "central-vision": {
+   "note": "Source check 05.11.2026 (descriptive). Джерела не знайдено; «центральний зір» українською означає інше (чіткий зір у центрі поля), тож краще простий опис."
   },
   "chamber": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «в патроннику ... немає патронів»."
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-kofs-sceptre-e-12-76-71-sm-ezhektor/",
+   "note": "Source check 05.11.2026 (confirmed). «Внутрішні поверхні каналів і патронників хромовані»"
+  },
+  "championship": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=10",
+   "note": "Source check 05.11.2026 (confirmed). «використовувати/ділити одну рушницю на офіційних змаганнях або чемпіонатах. 7.3. У виключних обставинах, у випадку несправності» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "chandelle": {
-   "note": "Англійська назва на майданчику; зазвичай кажуть англійською. Не плутати з французьким «chandelle» (= teal)."
+   "note": "Source check 05.11.2026 (descriptive). Українського слова не знайшли; «свічко-подібні» у правилах УФС — переклад французького chandelle (вертикальна мішень), тобто інше значення."
   },
   "checking": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "chief-referee": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=22",
+   "note": "Source check 05.11.2026 (confirmed). «дії мають контролюватися міжнародними суддями. Головний суддя повинен мати міжнародну ліцензію FITASC і визнання в» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "chip": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (replace). «від неї відділився хоча б один видимий фрагмент» Правила УФС не вживають «відколок»: зараховують мішень, від якої відділився «видимий фрагмент»."
   },
   "choke": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "«Чок» is universal; «дульне звуження» is the technical term."
+   "src": "https://ibis.net.ua/post/strojnyj-vid-browning-b725-hunter/",
+   "note": "Source check 05.11.2026 (confirmed). «Рушниця комплектується наступними змінними чоками: циліндр (без насічок)»"
+  },
+  "choke-grease": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела з назвою мастила для чоків не знайдено; подаємо опис. Пропозицію помічника «мастило для різьби чоків» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "choke-key": {
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "src": "https://ibis.net.ua/zbroia/details/kliuch-dlia-zmini-chokiv-v-rushnitsiakh-ata-arms-1/",
+   "note": "Source check 05.11.2026 (confirmed). «Ключ для зміни чоків в рушницях ATA ARMS» У магазині повна форма «ключ для зміни чоків»."
+  },
+  "choking": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела з «зрив» чи «зрив під тиском» у цьому значенні не знайдено; праці описують явище загально як стрес."
+  },
+  "chuchotage": {
+   "note": "Source check 05.11.2026 (descriptive). «Шушотаж» — рішення власника проєкту (DEVELOPERS.md); у джерелах трапляється й «шушутаж». Вирішити судді/керівництву."
+  },
+  "clayaway": {
+   "note": "Source check 05.11.2026 (descriptive). Назва продукту ClayArena; сторінки бренду на сайті ще немає, лишаємо назву без змін."
   },
   "clock-face": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела про вказування напрямку мішені «за циферблатом» у спортингу не знайдено."
+  },
+  "club-membership": {
+   "src": "https://safari-stend.com/uk/stendovaya-strelba/",
+   "note": "Source check 05.11.2026 (descriptive). «для членів клубу “Сафарі-Україна”» Сторінки зі словом «членство в клубі» не знайдено; стенд «Сафарі-Україна» пише лише про пільгову ціну «для членів клубу»."
+  },
+  "club-shoot": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела зі спортінгу з цим словом не знайшли; лишаємо простий опис «клубні змагання»."
   },
   "coach": {
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "src": "https://www.sporting-lviv.com.ua/",
+   "note": "Source check 05.11.2026 (confirmed). «усні вказівки Інструктора і/або Тренера»"
+  },
+  "coaching": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=26",
+   "note": "Source check 05.11.2026 (replace). «Тренерська робота під час серії неприпустима.» Правила УФС називають заборонені підказки під час серії «тренерська робота»."
+  },
+  "coaching-qualification": {
+   "src": "https://uni-sport.edu.ua/images/documents/Proekt%20profesijnogo%20standartu%20za%20profesieu%20Trener%20z%20vidu%20sportu080825%20roboca%20grupa.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «Сертифікат про присвоєння/підтвердження професійної та/або часткової професійної кваліфікації «Тренер з виду спорту»» Професійний стандарт НУФВСУ говорить про сертифікат професійної кваліфікації «Тренер з виду спорту»."
   },
   "comb": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "Coaches often say «щока» for the cheek area / adjustable comb."
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-blaser-fbx-sporting-grand-luxe-multichoke-kal-12-76-76-sm/",
+   "note": "Source check 05.11.2026 (confirmed). «Характеристика приклада/ложі Регульований гребінь приклада»"
+  },
+  "compak-in-line": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=2",
+   "note": "Source check 05.11.2026 (confirmed). «9. ЗАПІЗНЕННЯ СТРІЛЬЦЯ 13 10. КОМПАК В ЛІНІЮ/ВІДСУТНІСТЬ СТРІЛЬЦЯ 13 11. ПЕРЕВІРКА ЗБРОЇ 13 12.» У правилах «компак в лінію» (в/у — чергування)."
+  },
+  "compak-sporting": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (replace). «5 РОЗДІЛ 1. ЗАГАЛЬНІ ПОЛОЖЕННЯ Компак – спортінг є спортивною дисципліною стрільби по глиняним мішеням.» У правилах — «компак-спортінг»; «компак» лишається розмовним."
   },
   "competitor-number": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=21",
+   "note": "Source check 05.11.2026 (replace). «Номер стрільця повинен бути прикріплений до його/її верхньої частини спини» У правилах УФС номер на спині названо «номер стрільця»."
   },
   "conduct": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «неспортивна поведінка»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (replace). «20.3.3 Негода 23 21. СУДДІВСТВО, ПРАВИЛА ПОВЕДІНКИ ТА ШТРАФИ 23 21.1 Час на постріл 23» У правилах — «поведінка» («Правила поведінки»), без «спортивна»."
   },
   "consecutive-interpreting": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://ntidea.com.ua/ua/novosti/vidy-ustnogo-perevoda",
+   "note": "Source check 05.11.2026 (confirmed). «Послідовний переклад має на увазі донесення інформації після логічних пауз»"
+  },
+  "constriction": {
+   "src": "https://ibis.net.ua/post/strojnyj-vid-browning-b725-hunter/",
+   "note": "Source check 05.11.2026 (confirmed). «при найсильнішому дульному звуженні ми нарахували 84,4% дробин»"
+  },
+  "countback": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=21",
+   "note": "Source check 05.11.2026 (replace). «місця розподіляються з урахуванням результатів, починаючи з останньої серії в зворотньому порядку» Правила УФС не вживають «каунтбек», а описують розподіл місць за результатами, починаючи з останньої серії."
+  },
+  "course-designer": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (replace). «Для полегшення роботи дизайнеру траєкторій ця зона повинна бути позначена на грунті» У правилах УФС цю людину називають «дизайнер траєкторій» (у спортінгу також «дизайнер майданчику»)."
+  },
+  "crimp": {
+   "src": "https://geneta.com.ua/ua/vse-o-snaryazhenii-patrona-12-kalibra/",
+   "note": "Source check 05.11.2026 (confirmed). «Після закрутки матрицею патрон порадує вас ідеальною зірочкою»"
+  },
+  "cross-dominance": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; простіше описати, ніж «перехресна домінантність». Пропозицію помічника «провідне око з іншого боку» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
+  },
+  "crosser": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела зі словом «поперечна» не знайшли; правила УФС лише описують траєкторію «зліва направо» чи «справа наліво»."
+  },
+  "cue-word": {
+   "note": "Source check 05.11.2026 (descriptive). Українських сторінок спортивної психології з терміном «слово-підказка» чи іншим усталеним відповідником не знайдено."
+  },
+  "customs-declaration": {
+   "src": "https://zakon.rada.gov.ua/laws/show/4495-17",
+   "note": "Source check 05.11.2026 (confirmed). «митна декларація - заява встановленої форми»"
   },
   "cylinder": {
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "src": "https://ibis.net.ua/post/strojnyj-vid-browning-b725-hunter/",
+   "note": "Source check 05.11.2026 (confirmed). «змінними чоками: циліндр (без насічок), циліндр з напором ¼ (****)»"
+  },
+  "deposit": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=14",
+   "note": "Source check 05.11.2026 (confirmed). «прийме рішення на користь стрільця, застава повертається. В іншому випадку кошти переходять в благодійний фонд,» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "derogation": {
+   "note": "Source check 05.11.2026 (descriptive). У правилах УФС і на сайті федерації слова «дерогація» не знайшли; простіше й зрозуміліше «виняток» (дозвіл федерації). Пропозицію помічника «виняток» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
+  },
+  "difficulty-class": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=4",
+   "note": "Source check 05.11.2026 (confirmed). «різні траєкторії по ступеню складності: від класу А до класу С»"
   },
   "double": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (confirmed). «на кожну одиночну мішень. 4.2. Визначення дуплетів Стрільці можуть використати тільки два набоя на дуплет.» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "double-discharge": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=11",
+   "note": "Source check 05.11.2026 (replace). «Якщо два стволи рушниці вистрілюють одночасно (здвоєний постріл)» У правилах спортінгу і компак-спортінгу УФС ця несправність зветься «здвоєний постріл»."
+  },
+  "double-hearing-protection": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=13",
+   "note": "Source check 05.11.2026 (descriptive). «Захист органів слуху є обов’язковим для всіх стрільців» Джерела з цим терміном не знайдено; правила УФС уживають «захист органів слуху». Пропозицію помічника «подвійний захист слуху (беруші й навушники разом)» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "double-on-report": {
-   "src": "https://usf-shooting.com.ua/wp-content/uploads/2020/06/%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9A-%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2%D0%98%D0%9D%D0%93.pdf",
-   "note": "The Ukrainian Sporting Federation translation of the FITASC Compak® Sporting rules (§3.3.1) names it «сигнальний дуплет»; «дуплет на постріл» is also heard."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=20",
+   "note": "Source check 05.11.2026 (confirmed). «12.2. 16.6 Стрільцям не демонструються сигнальні дуплети. Кожному першому стрільцю в групі демонструються тільки синхронні» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "dress-code": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=2",
+   "note": "Source check 05.11.2026 (confirmed). «11 6. ПРИСТРІЛЮВАННЯ 12 7. ДРЕС КОД 12 7.1 Дрес код 12 7.2 Особистий стрілецький» У правилах «дрес код» (без дефіса)."
+  },
+  "driven-target": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела ні для цього слова, ні для іншого не знайшли, тому лишаємо простий опис."
+  },
+  "dropping-target": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (replace). «Траєкторії мішеней повинні бути: висхідні, низхідні» Правила УФС називають мішені, що летять донизу, «низхідні»."
   },
   "dry-mounting": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «холосте тренування»."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела ні для цього слова, ні для іншого не знайшли, тому лишаємо простий опис."
   },
   "earplugs": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "«Беруші» everyday; rules: «вушні затички»."
+   "src": "https://ibis.net.ua/zbroia/indyvidualnyi-zakhyst/",
+   "note": "Source check 05.11.2026 (confirmed). «Беруші Lifeventure Silicone Travel Ear Plugs»"
   },
   "ejector": {
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/",
-   "note": "Do not confuse with «екстрактор» (only pushes the case out)."
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-kofs-sceptre-e-12-76-71-sm-ezhektor/",
+   "note": "Source check 05.11.2026 (confirmed). «Ежектори забезпечують швидке автоматичне видалення стріляних гільз»"
+  },
+  "electronic-ear-muffs": {
+   "src": "https://ibis.net.ua/zbroia/indyvidualnyi-zakhyst/",
+   "note": "Source check 05.11.2026 (confirmed). «Активні навушники Earmor M300A Black»"
+  },
+  "electronic-refereeing": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (confirmed). «тільки акустичні системи запуску і електронного суддівства, визнані F.I.T.A.S.C. 2.4 МЕТАЛЬНІ МАШИНКИ» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "empties": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=19",
+   "note": "Source check 05.11.2026 (replace). «них засіб, що мінімалізує викид стріляних гільз. Це не має заважати другим стрільцям, які знаходяться» У правилах — «стріляні / відстріляні гільзи», не «порожні»."
   },
   "entry": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/?page_id=2091",
+   "note": "Source check 05.11.2026 (confirmed). «Реєстрація учасників, жеребкування, а також внесення, виведення та збереження результатів»"
+  },
+  "entry-fee": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела зі спортінгу чи компак-спортінгу з цим словом не знайшли; «стартовий внесок» — звичайна назва в інших видах спорту."
   },
   "european-firearms-pass": {
-   "note": "Approved Academy term (owner decision)."
+   "note": "Source check 05.11.2026 (descriptive). «Європейський вогнепальний паспорт» — рішення власника проєкту; офіційні сторінки пишуть «Європейський паспорт вогнепальної зброї». Вирішити керівництву."
+  },
+  "expulsion": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=22",
+   "note": "Source check 05.11.2026 (confirmed). «що відсутні під час перестрілювання, будуть дискваліфіковані. 18.6 Журі може вирішити відкласти перестріл ювання на» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "extended-choke": {
-   "note": "Usage uncertain; shops also write «зовнішній чок»."
+   "src": "https://xtarget.com.ua/ua/p1380574821-chok-beretta-ochp.html",
+   "note": "Source check 05.11.2026 (replace). «Подовжене дулове звуження Beretta Optima HP» Український магазин пише «подовжене дулове звуження», «чок з подовженням»; «виносний чок» не трапився."
+  },
+  "eye-dominance": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела зі спортінгу чи стрільби з рушниці для «домінантність ока» не знайшли; «провідне око» — звичайна назва в українських посібниках зі стрільби, і воно вже є в означенні. Пропозицію помічника «провідне око» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "false-friend": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://www.kpi.kharkov.ua/archive/Наукова_періодика/elits/2010/28_1/«Хибні друзі перекладача» в науково-технічних текстах та особливості їх  перекладу з англійської мови на українську.pdf",
+   "note": "Source check 05.11.2026 (confirmed). ««Хибні друзі перекладача» в науково-технічних текстах та особливості їх перекладу»"
   },
   "fibre-wad": {
-   "note": "Mostly a shop term; usage not well documented."
+   "src": "https://stvol.ua/catalog/drobovi-naboji/c390",
+   "note": "Source check 05.11.2026 (replace). «Набої мисливські B&P MAGNUM FIBER (б / к, фетровий пиж)» Українські магазини називають непластиковий пиж «фетровий пиж», навіть у набоях B&P MAGNUM FIBER; «фібровий пиж» не знайдено."
+  },
+  "firing-angle-limiter": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (replace). «нахилятись вперед за межі номеру. Обмежувальна рамка * (див примітки) Стрілецький номер, виготовленний з кольорових» У правилах компаку — «обмежувальна рамка» (рамка F.A.L.)."
   },
   "firing-time": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=24",
+   "note": "Source check 05.11.2026 (replace). «21.1 ЧАС НА ПОСТРІЛ Для виклику мішені у стрільця є не більше 10 секунд» У правилах УФС (компак, п. 21.1) цей ліміт названо «час на постріл»."
+  },
+  "fitasc": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=14",
+   "note": "Source check 05.11.2026 (confirmed). «переходять в благодійний фонд, заснований Президентом ФІТАСК. Якщо журі вважатиме протест обґрунтованим по причинам, крім» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "fixed-choke": {
-   "note": "Usage varies; meaning: choke machined into the barrel."
+   "src": "https://xtarget.com.ua/ua/a518183-dulnye-nasadki-suzheniya.html",
+   "note": "Source check 05.11.2026 (descriptive). «дульне звуження зафіксовано на цих значеннях і стовбур не використовує дульні насадки» Терміна «фіксований чок» в українських джерелах не знайдено; магазин описує, що «дульне звуження зафіксовано». Пропозицію помічника «фіксоване звуження» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "flash-target": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «мішені «Заєць», міді, суперміні, «Бату», «Флеш» і «Пропелер». Мішені повинні бути обов’язково кольоровими і виділятися» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "flinch": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "fly-over-zone": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (confirmed). «2.1 ТЕРИТОРІЯ МАЙДАНЧИКУ Територія обмежена прямокутною зоною для обов’язкового прольоту мішеней від 35м до 40м» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "follow-through": {
-   "note": "In the Academy «проводка» is the swing itself, so it is not used for the follow-through."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "fore-end": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "Universal; same word in catalogues and on the range."
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-fabarm-elos-b2-elite-field-kal-12-76-stvol-71-sm-1/",
+   "note": "Source check 05.11.2026 (confirmed). «Деревʼяні приклад і цівка виготовлені з турецького горіха»"
   },
   "full-choke": {
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "src": "https://ibis.net.ua/post/strojnyj-vid-browning-b725-hunter/",
+   "note": "Source check 05.11.2026 (confirmed). «посилений напівчок ¾ (**) і повний чок (*)»"
   },
   "fur-and-feather": {
-   "note": "Descriptive (no source): British coaching slang. 05.11.2026."
+   "note": "Source check 05.11.2026 (descriptive). Джерела немає: британський тренерський сленг. Мішень «Заєць» у правилах є, назви такого дуплету немає."
+  },
+  "gas-operated": {
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-fabarm-l4s-initial-hunter-kal-12-76-dovzhina-stvola-71-sm/",
+   "note": "Source check 05.11.2026 (confirmed). «Система перезаряджання – газовідвідна»"
   },
   "gauge": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Said as «12-й калібр»; chamber length added as 12/70, 12/76."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=19",
+   "note": "Source check 05.11.2026 (confirmed). «Дозволено використовувати будь-яку гладкоствольну зброю не більше 12 калібру і довжиною стволу не меньше 66» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "glass-ball": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела ні для цього слова, ні для іншого не знайшли, тому лишаємо простий опис."
   },
   "global-dro": {
-   "note": "Service name, not translated; local word = what it is. 05.11.2026."
+   "note": "Source check 05.11.2026 (descriptive). Назва сервісу антидопінгових агенцій, не перекладається (як FITASC чи WADA). Пропоную назву + пояснення в дужках."
+  },
+  "going-away": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (replace). «3. Траєкторія, що віддаляється, з перетином сторони ВС.» Правила УФС називають такі траєкторії «що віддаляються»."
+  },
+  "grand-prix": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «3 стрілецькими позиціями (нова система): тільки для Гран-Прі 5 метальних машинок на кожній стрілецькій позиції» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "grip": {
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/",
-   "note": "Catalogues: «приклад з напівпістолетним руків’ям»."
+   "src": "https://ibis.net.ua/post/teper-20-j-fabarm-elos-venti-al/",
+   "note": "Source check 05.11.2026 (replace). «з дрібним рифленням і пістолетною шийкою» В українських описах рушниць ця частина ложі — «пістолетна шийка», а не «руків’я»."
+  },
+  "group": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=2",
+   "note": "Source check 05.11.2026 (confirmed). «та порядок стрільби 17 17.3 Команди та групи стрільців 17 17.4 Порядок ведення стрільби командами» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "guardian-consent": {
+   "src": "https://www.radiosvoboda.org/a/news-minosvity-strilba-tyry/31272490.html",
+   "note": "Source check 05.11.2026 (confirmed). «у разі згоди батьків, опікунів або піклувальників» Офіційне повідомлення про шкільну стрілецьку підготовку неповнолітніх вживає саме «згода батьків, опікунів»."
+  },
+  "gun-fit": {
+   "note": "Source check 05.11.2026 (descriptive). Надійного українського джерела не знайшли: трапляються лише машинні переклади статей про «підгонку приклада»; лишаємо просте слово «підгонка рушниці»."
+  },
+  "gun-fitter": {
+   "note": "Source check 05.11.2026 (descriptive). Слова «майстер-підгонщик» в українських джерелах не знайшли; описово — «майстер з підгонки рушниць». Пропозицію помічника «майстер з підгонки рушниць» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "gun-handling": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «рушниця — відкритою», «перенесення рушниць»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=27",
+   "note": "Source check 05.11.2026 (confirmed). «навіть якщо вона не заряджена, треба поводитися з обережністью. Рушниці слід переносити у відкритому вигляді» Правила: «з будь-якою зброєю … треба поводитися з обережністю»."
   },
   "gun-mount": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «підняти рушницю до плеча»; verb «вкладати / вкласти рушницю». One term everywhere: «вкладка»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (confirmed). «не побачить мішень. 3.1.2 Стрілець не повинен вкладати зброю в плече до тих пір, поки» Правила вживають дієслово «вкладати зброю в плече»."
+  },
+  "gun-position": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (confirmed). «сигнальному, синхроному або послідовному дуплетах положення рушниці може бути вільним тільки між першою та другою» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "gun-rack": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «поміщені в підставку»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=10",
+   "note": "Source check 05.11.2026 (replace). «її в вертикальне положення в піраміду для рушниць або в спеціально відведене для цього місце.» У правилах — «піраміда для рушниць»."
+  },
+  "gun-rental": {
+   "src": "https://ibis-club.com.ua/prices/",
+   "note": "Source check 05.11.2026 (confirmed). «понад 120 моделями прокатної зброї»"
+  },
+  "gun-slip": {
+   "src": "https://ibis.net.ua/zbroia/details/chokhol-dlia-zbroyi-a-line-ch18-dovzhina-130-sm-kolir-chornii-1/",
+   "note": "Source check 05.11.2026 (confirmed). «М’який Чохол A-line Ч18 призначений для зручного перенесення та зберігання зброї.»"
+  },
+  "gun-speed": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "gun-test": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (replace). «3.1.4. Перевірка зброї Перевірку зброї ні в якому разі не можна робити на стрілецькому місці» У правилах УФС цей пункт називається «Перевірка зброї»."
   },
   "gun-up": {
    "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=18",
-   "note": "Ukrainian Compak® Sporting rules 2026 (USF), 17.5.2: the gun may be «вкладена в плече або ні» when the target is called. Checked 05.11.2026."
+   "note": "Source check 05.11.2026 (confirmed). «рушниця може знаходитися в вільному положенні (вкладена в плече або ні)» Уже внесено на сайт 05.11.2026 (крок 1). Українського слова не було. Українські правила Compak® Sporting описують саме цей старт: рушниця «вкладена в плече або ні» (п. 17.5.2)."
+  },
+  "gunsmith": {
+   "src": "https://www.perazzi.com.ua/",
+   "note": "Source check 05.11.2026 (confirmed). «замовити у молодого зброяра Перацці вертикалку для Олімпійських ігор у Токіо»"
   },
   "hand-signal": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "hang-fire": {
-   "note": "«Осічка» = no shot at all (misfire), not hang fire."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела зі стрільби з рушниці з цим словом не знайшли; правила УФС кажуть лише про неправильне спрацювання рушниці або набоїв."
   },
   "hard-case": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «закритий футляр для зброї»; on ranges «кейс»."
+   "src": "https://ibis.net.ua/zbroia/keysy/",
+   "note": "Source check 05.11.2026 (confirmed). «Збройові кейси для гвинтівок, рушниць, пістолетів — купити в Україні»"
+  },
+  "hard-focus": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "head-lift": {
+   "src": "https://zbroya.info/uk/blog/22589_strilba-z-rushnitsi-shcho-potribno-znati-novachkam/",
+   "note": "Source check 05.11.2026 (confirmed). «Під час стрільби не відривайте щоку від прикладу і не підкидайте голову.»"
   },
   "hearing-protection": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «навушники, вушні затички або інші засоби захисту вух»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=19",
+   "note": "Source check 05.11.2026 (confirmed). «неподалік від майданчиків, повинні користуватися засобами захисту слуху. Будь-який стрілець, який знаходиться на стрілецькому номері» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "heat-exhaustion": {
+   "src": "https://assets.publishing.service.gov.uk/media/65df6d9df1cab36b60fc4756/Beat-the-heat-staying-safe-in-hot-weather_Ukrainian_.pdf",
+   "note": "Source check 05.11.2026 (confirmed). «Теплове виснаження відбувається, коли тіло перегрівається і не може охолонути.»"
+  },
+  "hold-point": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис. Пропозицію помічника «точка утримання стволів» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "hull": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=12",
+   "note": "Source check 05.11.2026 (confirmed). «для гільз, стрілець повинен викинути відстріляні гільзи» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "hunting-ethics": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=4",
+   "note": "Source check 05.11.2026 (replace). «Стрілецькі майданчики повинні відповідати мисливським нормам і стрілецьким дистанціям стрільби» У правилах спортінгу УФС цей принцип передано як «мисливські норми», а не «мисливська етика»."
+  },
+  "hydration": {
+   "src": "https://dsfos.udu.edu.ua/entities/publication/71ce1da7-8e1d-475c-8f49-18d48f52effa",
+   "note": "Source check 05.11.2026 (replace). «індивідуальний питний режим, що враховує об’єм втраченої спортсменом під час тренування рідини» Українські спортивні праці пишуть «питний режим», а «водний режим» у джерелах не трапився."
+  },
+  "iata": {
+   "src": "https://log.logcluster.org/sites/default/files/pages/115/uk/aviaperevezennya-nebezpechnykh-vantazhiv-hb.pdf",
+   "note": "Source check 05.11.2026 (confirmed). «рекомендації як від Міжнародної асоціації повітряного транспорту (IATA)»"
+  },
+  "imagery": {
+   "src": "https://osvita.ua/vnz/reports/psychology/29111/",
+   "note": "Source check 05.11.2026 (confirmed). «Метод уявної репетиції успішно використовується для адаптації психіки спортсменів»"
   },
   "improved-cylinder": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "Range talk uses fractions («чверть»); written sources split between «покращений» and «модифікований» циліндр."
+   "src": "https://ibis.net.ua/zbroia/choky/search/browning/",
+   "note": "Source check 05.11.2026 (confirmed). «Позначення - 1/4 або Improved Cylinder (IC).»"
   },
   "improved-modified": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "Fractions dominate in speech; written forms vary."
+   "src": "https://ibis.net.ua/zbroia/choky/search/browning/",
+   "note": "Source check 05.11.2026 (confirmed). «Позначення - 3/4 або Improved Modified (IM).»"
   },
   "incomer": {
-   "src": "https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2%D0%B0_%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8C%D0%B1%D0%B0"
+   "src": "https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2%D0%B0_%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8C%D0%B1%D0%B0",
+   "note": "Source check 05.11.2026 (descriptive). Правила УФС перелічують траєкторії «такі, що віддаляються, повертаються» — чи це саме зустрічна мішень, неочевидно. Лишаємо «зустрічна мішень»; підтвердить суддя."
+  },
+  "insertion-point": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "instinctive-shooting": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "interpreter": {
+   "src": "https://www.0462.ua/list/403877",
+   "note": "Source check 05.11.2026 (confirmed). «Сам перекладач у процесі комунікації не бере участі»"
+  },
+  "interruption": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=23",
+   "note": "Source check 05.11.2026 (confirmed). «але якщо суддя розуміє, що перерва затягнеться, він повинен повідомити про це Журі. РОЗДІЛ 20.» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "invitation-letter": {
+   "src": "https://zakon.rada.gov.ua/laws/show/z0637-98",
+   "note": "Source check 05.11.2026 (replace). «копія запрошення, виданого власнику відповідним суб’єктом іноземної держави» Інструкція МВС про перевезення зброї за кордон вимагає саме «запрошення» від іноземної сторони."
+  },
+  "jacket-line": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (replace). «повинна бути під горизонтальною лінією, що нанесена на одяг стрільця» У правилах УФС це «горизонтальна лінія, що нанесена на одяг стрільця»; слово «жилет» тут не вживають."
+  },
+  "jet-lag": {
+   "src": "https://www.unian.ua/tourism/lifehacking/yak-podolati-dzhetlag-i-naslidki-trivalogo-perelotu-poradi-ekspertiv-13456986.html",
+   "note": "Source check 05.11.2026 (confirmed). «саме так проявляється джетлаг – порушення добових біоритмів після перетину кількох часових поясів»"
+  },
+  "junior": {
+   "src": "https://usf-shooting.com.ua/?p=4330",
+   "note": "Source check 05.11.2026 (confirmed). «Категорія ``Юніори`` 1 місце – Владислав Терещенко (155/200)»"
   },
   "jury": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "National rules use «ГСК» (головна суддівська колегія) for the organizing panel."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=2",
+   "note": "Source check 05.11.2026 (confirmed). «4.1 Склад Журі 10 4.2 Компетенція Журі 10 4.3 Апеляційне Журі 11 5. ПРОГРАМИ ПОЛЬОТІВ» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "ladies-cut": {
+   "note": "Source check 05.11.2026 (descriptive). Українського магазину, що називає стрілецький жилет «жіночий крій», не знайдено."
+  },
+  "ladies-day": {
+   "note": "Source check 05.11.2026 (descriptive). Українського стрілецького клубу, що проводить «жіночий день», не знайдено."
+  },
+  "lady": {
+   "src": "https://usf-shooting.com.ua/?p=4330",
+   "note": "Source check 05.11.2026 (confirmed). «Категорія ``Жінки`` 1 місце – Марія Демцюра (157/200)»"
   },
   "late-mount": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Джерела для терміна не знайдено; зауважте, що правила УФС для вкладки вживають слово «вскидка» (#page=5)."
+  },
+  "lateness": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=2",
+   "note": "Source check 05.11.2026 (confirmed). «8. РОЗКЛАД ЧАСУ 12 9. ЗАПІЗНЕННЯ СТРІЛЬЦЯ 13 10. КОМПАК В ЛІНІЮ/ВІДСУТНІСТЬ СТРІЛЬЦЯ 13 11.» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "layout": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «та спортивних навиків стрі льця. На майданчику (лінії) представлені мисливські траєкторії різних рівней складності. При» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "lead": {
    "src": "https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2%D0%B0_%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8C%D0%B1%D0%B0",
-   "note": "«Винос» on ranges; «упередження» in written sources."
+   "note": "Source check 05.11.2026 (descriptive). Джерела для тарілочок немає ні на «винос», ні на «упередження» (знайдено лише блог про качок з «упередженням»). «Винос» — термін усієї Академії; «упередження» лишається іншим варіантом."
+  },
+  "lead-hygiene": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела з такою назвою не знайшли; лишаємо простий опис."
   },
   "lead-shot": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://ibis.net.ua/post/supermagnum-12-go-kalibra-o-razmere-i-ego-znachenii/",
+   "note": "Source check 05.11.2026 (confirmed). «Кращою альтернативою свинцевого дробу була визнана сталева або виготовлена з м'якого заліза»"
+  },
+  "leading-edge": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "length-of-pull": {
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-figura-light-kal-12-76-2/",
+   "note": "Source check 05.11.2026 (confirmed). «Довжина приклада 373 мм»"
+  },
+  "lens-tint": {
+   "src": "https://rozetka.com.ua/ua/390039381/p390039381/",
+   "note": "Source check 05.11.2026 (confirmed). «Характеристики: Колір лінз» У магазинах уживають форму «колір лінз»."
+  },
+  "light-modified": {
+   "src": "https://xtarget.com.ua/ua/p1380515645-chok-beretta-choke.html",
+   "note": "Source check 05.11.2026 (replace). «Чок Beretta CHOKE FLUSH OPTIMABORE HP LIGHT MODIFIED LM» Український магазин називає це звуження «Light Modified (LM)», позначки «3/8» не знайдено."
+  },
+  "line": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «15 одиночних мішеней, 5 дуплетів Лінія з 4 стрілецькими позиціями (нова система) 3 позиції з» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "live-pigeon-shooting": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела про цю історичну дисципліну не знайдено; лишаємо простий опис."
   },
   "load-weight": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "«Наважка», as in the official translation of the rules; loads are also named by grams: «24-ка», «28-ка». The older spelling with «-віс-» is not used."
+   "src": "https://ibis.net.ua/zbroia/details/patron-rio-load-game-30-rio-10-kal-12-70-drib-11-1-5-mm-navazhka-30-g-1/",
+   "note": "Source check 05.11.2026 (confirmed). «Маса снаряда (наважка) 30 г»"
   },
   "loading": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=12",
+   "note": "Source check 05.11.2026 (confirmed). «Стрілець повинен заряджати рушницю тільки на стрілецькому місці»"
   },
   "looper": {
-   "note": "The Academy writes «лупер, або дуга»; not a chandelle: names vary between countries."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела ні для «лупер», ні для «дуга» в значенні мішені не знайдено; у правилах FITASC слова немає."
+  },
+  "low-recoil-cartridge": {
+   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
+   "note": "Source check 05.11.2026 (confirmed). «Спеціалізовані патрони для практичної стрільби зі зменшеною віддачею»"
   },
   "maintained-lead": {
-   "note": "Усталеного українського терміна немає; стрільці часто кажуть англійською."
+   "note": "Source check 05.11.2026 (descriptive). Джерела для назви методу немає; лишаємо «постійний винос» (узгоджено з Lead)."
   },
   "malfunction": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «команди \"НЕМАЄ МІШЕНІ\" 24 21.4 Несправність зброї та набоїв 24 21.5 Штрафи 24 21.6 Правила» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "manual-release": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (confirmed). «управління або акустичної системи запуску. При ручному запуску або запуску системою дистанційного управління мішень повинна» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "master-category": {
+   "note": "Source check 05.11.2026 (descriptive). Українського відповідника в джерелах не знайдено; УФС у протоколах лишає назви категорій англійською (SENIOR, LADY, JUNIOR), тож лишаємо «Master»."
+  },
+  "master-eye": {
+   "note": "Source check 05.11.2026 (descriptive). Джерела про стрільбу з рушниці з цим словом не знайдено (є лише загальні, не стрілецькі сторінки); лишаємо простий опис."
+  },
+  "men-category": {
+   "src": "https://usf-shooting.com.ua/?p=4330",
+   "note": "Source check 05.11.2026 (confirmed). «Категорія ``Чоловіки. Група А`` 1 місце – Олег Макодзеба (190/200)»"
   },
   "midi": {
-   "note": "Loanword, no native term."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «це стандартні мішені, мішені «Заєць», міді, суперміні, «Бату», «Флеш» і «Пропелер». Мішені повинні бути обов’язково» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "mini": {
-   "note": "Loanword; go by the millimetres."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (confirmed). «стандартні, так і спеціальні ( бату, міді, міні, «Заєць», «Свіча» і т.д.). Колір мішеней обирається» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "miss-behind": {
-   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through)."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "miss-in-front": {
-   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through)."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "miss-over": {
-   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through)."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "miss-under": {
-   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through)."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "mobility": {
+   "src": "https://repository.tdmu.edu.ua/handle/123456789/24512?show=full",
+   "note": "Source check 05.11.2026 (confirmed). «Рухливість плечового суглоба покращилась у всіх учасників експерименту»"
   },
   "mock-shooting": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Official Ukrainian rules also say «холосте прицілювання»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=27",
+   "note": "Source check 05.11.2026 (confirmed). «стріляти в тварин або птахів. Забороняється імітація стрільби поза межами стрілецького номеру. Забороняється імітація стрільби» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "modified": {
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/",
-   "note": "Both forms in Ukrainian sources."
+   "src": "https://ibis.net.ua/post/strojnyj-vid-browning-b725-hunter/",
+   "note": "Source check 05.11.2026 (replace). «напівчок ½ (***), посилений напівчок ¾ (**) і повний чок (*)» Український зброярський магазин називає звуження ½ «напівчок», форма «півчок» не трапилася."
   },
   "move-mount-shoot": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "multichoke": {
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/",
-   "note": "Rules: «змінних чоків». «Мультичок» is shop/hunter slang."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=11",
+   "note": "Source check 05.11.2026 (confirmed). «Повна або часткова заміна зброї, змінних чоків або стволів дозволена під час однієї серії між» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "muzzle": {
-   "src": "https://uk.wikipedia.org/wiki/%D0%A7%D0%BE%D0%BA",
-   "note": "«Дульний зріз» technical; «дуло» everyday."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=27",
+   "note": "Source check 05.11.2026 (replace). «ому забороняється класти рушницю, а дуло рушниці має бути направлено в зону стрільби, в межах» У правилах — «дуло»; «дульний зріз» лишається іншим варіантом."
+  },
+  "national-federation": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (confirmed). «в розпорядженні дійсне суддівське посвідчення, видане національною федерацією його/її країни, або у випадку з головним» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "no-bird": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Owner decision: the referee's call stays English «No Bird» in every language, with a short local explanation (uk: «мішень повторюють»). The official Ukrainian command «НЕМАЄ МІШЕНІ» is kept as alt."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=23",
+   "note": "Source check 05.11.2026 (replace). «пилу ( мішень «димить»). 20.3 Випадки «Немає мішені» 20.3.1 З причин, пов’язаним з несправністю зброї» У правилах рішення звучить «НЕМАЄ МІШЕНІ»; англійське No Bird лишається назвою терміна."
+  },
+  "noise-induced-hearing-loss": {
+   "src": "https://moz.gov.ua/uploads/ckeditor/%D0%93%D1%80%D0%BE%D0%BC%D0%B0%D0%B4%D1%81%D1%8C%D0%BA%D0%B5%20%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F/2022/11/03/%D0%9F%D0%9E%D0%92%D0%86%D0%94%D0%9E%D0%9C%D0%9B%D0%95%D0%9D%D0%9D%D0%AF%20%D0%BF%D1%80%D0%BE%20%D0%BE%D0%BF%D1%80%D0%B8%D0%BB%D1%8E%D0%B4%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F.pdf",
+   "note": "Source check 05.11.2026 (confirmed). «значення щумового впливу на робочому місці визначаються для запобігання можливості незворотної втрати слуху» МОЗ пише «втрата слуху» від шумового впливу (у/в — звичайне чергування)."
   },
   "one": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Owner decision: uk «влучання»; the referee's call stays as it is said on the stand («one», «dead»). Rules: «уражена мішень»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (replace). «6.3 Мішень зараховується як \"ВРАЖЕНА\"» У правилах УФС зарахована мішень зветься «вражена», а не «влучання»."
+  },
+  "open-ranking": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=14",
+   "note": "Source check 05.11.2026 (replace). «проводяться як у загальній категорії, так і для кожної категорії» Правила УФС називають спільний залік усіх учасників «загальна категорія», а «загальний залік» там не вживається."
+  },
+  "organiser": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=18",
+   "note": "Source check 05.11.2026 (confirmed). «специфікаціям. 15.5.2 Після церемонії відкриття, федерація-організатор оголошує час початку стрільби, що обрало журі. 15.5.3 Журі» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "over-and-under": {
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/",
-   "note": "«Вертикалка» is the range word; catalogues use the long form."
+   "src": "https://ibis.net.ua/zbroia/dvostvolni/",
+   "note": "Source check 05.11.2026 (confirmed). «більш сучасна вертикальна двостволка (вертикалка), яку також називають “бокфлінт”»"
+  },
+  "overhead": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела ні для цього слова, ні для іншого не знайшли, тому лишаємо простий опис."
+  },
+  "passive-ear-muffs": {
+   "src": "https://hunter.rozetka.com.ua/ua/protect_ear/c272131/26794=24626;26795=24627/",
+   "note": "Source check 05.11.2026 (confirmed). «Пасивні навушники для стрільби купити в Києві: ціна, відгуки, продаж» У магазинах точніше — «пасивні навушники»."
   },
   "pattern": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "«Осип» = the spread pattern; «купчастість» = its density."
+   "src": "https://ibis.net.ua/post/strojnyj-vid-browning-b725-hunter/",
+   "note": "Source check 05.11.2026 (confirmed). «Як наслідок, осип стає більш рівномірним з деяким згущенням у центрі.»"
+  },
+  "pattern-plate": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела з назвою плити для перевірки осипу не знайдено; подаємо опис."
   },
   "penalty": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=13",
+   "note": "Source check 05.11.2026 (confirmed). «штрафів (Жовта / Червона картка, розділ 13 «Покарання»). 8.7 Під час показу мішеней або при» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "perceived-lead": {
+   "note": "Source check 05.11.2026 (descriptive). Джерела немає; лишаємо «видимий винос» (узгоджено з Lead)."
+  },
+  "perfect-round": {
+   "note": "Source check 05.11.2026 (descriptive). Готової назви не знайшли; правила УФС називають 25 мішеней «серією», а протоколи пишуть результат «з 25»."
+  },
+  "performance-index": {
+   "note": "Source check 05.11.2026 (descriptive). Це показник самої ClayArena; незалежного джерела не знайшли; «індекс виступів» зрозуміліший за голе «індекс»."
+  },
+  "pick-up-point": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "pitch": {
+   "note": "Source check 05.11.2026 (descriptive). Українського магазину чи майстерні з терміном для кута потилиці приклада не знайдено."
   },
   "poking": {
-   "note": "Descriptive (no source): name of a fault in English coaching. 05.11.2026."
+   "note": "Source check 05.11.2026 (descriptive). Джерела немає: назва типової помилки з англомовних методик, українського слова не знайшлося."
   },
   "powder": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=11",
+   "note": "Source check 05.11.2026 (confirmed). «різного діаметру, а також використання чорного пороху та трасуючих набоїв. 7.9 Якщо обидві мішені в» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "practice": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=12",
+   "note": "Source check 05.11.2026 (confirmed). «рівні умови для всіх учасників, проведення офіційних тренуваннь буде можливим з суботи, що передує чемпіонату.» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "pre-shot-routine": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; простіший опис замість «передпостріловий ритуал». Пропозицію помічника «ритуал перед пострілом» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
+  },
+  "presbyopia": {
+   "src": "https://doc.ua/ua/bolezn/presbiopiya",
+   "note": "Source check 05.11.2026 (confirmed). «Пресбіопія , або вікова далекозорість – це порушення функції органів зору»"
+  },
+  "prescription-insert": {
+   "src": "https://rozetka.com.ua/ua/390039381/p390039381/",
+   "note": "Source check 05.11.2026 (replace). «Тактичні Окуляри OAKLEY із 5-ма змінними лінзами та діоптричною вставкою» Українські магазини стрілецьких окулярів пишуть «діоптрична вставка», форма «діоптрійна» не трапилася."
   },
   "primer": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://ibis.net.ua/zbroia/details/kapsul-nobel-sport-martignoni-spa-688/",
+   "note": "Source check 05.11.2026 (confirmed). «Патрони Релоадінг Капсулі Капсуль Nobel Sport Martignoni SPA 688»"
+  },
+  "prize-giving": {
+   "src": "https://mms.gov.ua/storage/app/uploads/public/67f/8cf/8ac/67f8cf8ac6d89239538888.pdf",
+   "note": "Source check 05.11.2026 (confirmed). «оголошення результатів змагань, нагородження призерів»"
+  },
+  "process-goal": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела ні для «ціль процесу», ні для іншого слова не знайшли. Пропозицію помічника «ціль, що стосується виконання дії» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
+  },
+  "proof-mark": {
+   "src": "https://ibis.net.ua/post/teper-20-j-fabarm-elos-venti-al/",
+   "note": "Source check 05.11.2026 (confirmed). «На стволах нанесене клеймо, що свідчить про проходження «надвипробування» тиском в 1630 Бар»"
   },
   "protest": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (confirmed). «почути; • з повагою вислуховувати протести стрільців, не дозволяючи здійснювати тиск на себе зі сторони» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "pull-away": {
-   "note": "Усталеного українського терміна немає; стрільці часто кажуть англійською."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела для назви методу не знайдено; лишаємо простий опис."
   },
   "pump-action": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "The Ukrainian competition rules exclude «помпові» guns; colloquially «помпа»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=10",
+   "note": "Source check 05.11.2026 (confirmed). «включно з напівавтоматичною (за виключенням помпових рушниць), дозволена при умові, що її калібр не перевищує» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "quartering-away": {
-   "note": "Not documented in written sources."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела для «коса мішень» не знайшли; опис узгоджено з правилами УФС («що віддаляються»). Пропозицію помічника «мішень, що віддаляється під кутом» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "quartering-towards": {
-   "note": "Not documented in written sources."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела ні для цього слова, ні для іншого не знайшли, тому лишаємо простий опис. Пропозицію помічника «мішень, що летить на стрільця під кутом» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "quiet-eye": {
-   "note": "Research term; the Academy writes «тихе око» (quiet eye)."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено (лише англомовні дослідження quiet eye); лишаємо простий опис."
+  },
+  "quiet-on-stand": {
+   "note": "Source check 05.11.2026 (descriptive). Окремої назви в джерелах не знайшли; «номер» — слово правил компак-спортінгу УФС для стрілецького місця."
   },
   "rabbit": {
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/",
-   "note": "Owner decision (07.10.2026): «заєць», as the target is called in Ukraine; «кролик» is kept only as a search alias."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «Мішені - це стандартні мішені, мішені «Заєць», міді, суперміні, «Бату», «Флеш» і «Пропелер». Мішені повинні» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "rafale-double": {
-   "note": "Loanword only."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (replace). «4.2.3 Послідовний дуплет Мішені запускаються послідовно з однієї метальної машини по одній траєкторії» В українському перекладі правил FITASC (УФС) рафаль названо «послідовний дуплет»."
   },
   "range": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "«Стенд» colloquially = the whole ground."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=12",
+   "note": "Source check 05.11.2026 (confirmed). «Забороняється моделювання стрільби зі зброєю на стрільбищі або за його межами. Якщо стрілець до виклику» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "ready-position": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (replace). «Коли стрілець зайняв положення готовності, задня точка верхньої частини прикладу» У правилах УФС ця позиція називається «положення готовності»."
   },
   "receiver": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "«Колодка» for break-action guns; «ствольна коробка» for semi-autos."
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-figura-light-kal-12-76-2/",
+   "note": "Source check 05.11.2026 (confirmed). «Модифікація Light має колодку з нікель-хром-молібденового сплаву»"
   },
   "recoil": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "Colloquially «б’є в плече»."
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-blaser-fbx-sporting-grand-luxe-multichoke-kal-12-76-76-sm/",
+   "note": "Source check 05.11.2026 (confirmed). «Модель FBX вирізняється ефективною системою контролю віддачі»"
   },
   "recoil-pad": {
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/",
-   "note": "Both «затильник» and «потиличник» appear in shop specs."
+   "src": "https://ibis.net.ua/products/zatilniky/",
+   "note": "Source check 05.11.2026 (replace). «Потиличник на приклад — купити в Україні» Українські збройові магазини називають цю деталь «потиличник»; «затильник» — калька з російської."
   },
   "recovery": {
-   "note": "Descriptive (no source): element of technique in English coaching. 05.11.2026."
+   "note": "Source check 05.11.2026 (descriptive). Джерела немає: елемент техніки з англомовних методик, українського слова не знайшлося."
   },
   "red-card": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=13",
+   "note": "Source check 05.11.2026 (confirmed). «цього приводить до штрафів ( Жовта / Червона картка, розділ 13 «Покарання»). 8.7 Під час» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "referee": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=14",
+   "note": "Source check 05.11.2026 (confirmed). «та заявивши \"АПЕЛЯЦІЯ\" або \"ПРОТЕСТ\". Суддя повинен зупинити стрільбу, а стрілець повинен обґрунтувати апеляцію. 9.5.1» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "referee-certificate": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=22",
+   "note": "Source check 05.11.2026 (replace). «змаганнями. Кожен суддя повинен мати дійсну суддівську картку, виготовлену його національною федерацією. У випадку, якщо» У правилах компаку — «суддівська картка»."
   },
   "refusal": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «Час на постріл 23 21.2 Відмова від мішені 24 21.3 Стрільба після команди \"НЕМАЄ МІШЕНІ\"» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "refusal-to-comply": {
-   "note": "Owner decision: «відмова виконувати вимоги судді» (not «відмова підкорятися»)."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=14",
+   "note": "Source check 05.11.2026 (replace). «РОЗДІЛ 10 - Відмова підкоритися правилам» У правилах УФС розділ 10 називається «Відмова підкоритися правилам»."
   },
   "release-trigger": {
-   "note": "Anglicism dominates; rare in Ukraine."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=11",
+   "note": "Source check 05.11.2026 (replace). «ОБОВ’ЯЗКОВЕ МАРКУВАННЯ “RELEASE TRIGGER” (Зворотній спуск)» У правилах УФС release trigger перекладено як «зворотній спуск» (нормативно — «зворотний»)."
+  },
+  "reloaded-cartridge": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=19",
+   "note": "Source check 05.11.2026 (replace). «Використання перезарядженних набоїв заборонено» У правилах УФС заборонено саме «перезаряджені набої»."
+  },
+  "reset-routine": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела з «ритуал перезапуску» чи іншим відповідником не знайдено."
   },
   "rib": {
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/",
-   "note": "Catalogues: «прицільна планка – вентильована»."
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-fabarm-elos-b2-elite-field-kal-12-76-stvol-71-sm-1/",
+   "note": "Source check 05.11.2026 (confirmed). «На стволі встановлена вентильована прицільна планка шириною 6 мм»"
   },
   "riding-the-target": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "rocket-target": {
-   "note": "Rarely used in Ukraine; unsettled."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (replace). «(бату, міді, міні, «Заєць», «Свіча» і т.д.)» У правилах компаку УФС у переліку мішеней на місці rocket стоїть «Свіча»."
   },
   "rotation": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=20",
+   "note": "Source check 05.11.2026 (replace). «Стрільці стріляють у порядку ротації на стрілецьких місцях» Правила спортінгу УФС називають це «порядок ротації» на стрілецьких місцях."
   },
   "round": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «раунд (серія)»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=20",
+   "note": "Source check 05.11.2026 (replace). «із двухсот мішеней, одна серія складається із двадцяти п’яти мішеней. В виключних обставинах журі може» У правилах 25 мішеней — «серія» («Протокол серії»); «раунд» лишається іншим варіантом."
   },
   "safety": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «25 23. ПОКАРАННЯ 25 24. ПРАВИЛА БЕЗПЕКИ 26 25. МЕХАНІЗМ \"Зворотній спуск\" 28 25.1 Система» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "safety-catch": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «не зняв запобіжник»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (confirmed). «але стрілець відкрив рушницю або торкнувся рукою запобіжника до того, як суддя перевірить зброю. Якщо» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "safety-glasses": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (replace). «розділ \"Правила проведення/Безпека\", 8.9. 3.3 Захисні окуляри Див. розділ \"Правила проведення/Безпека\", 8.10. Розділ 4 -» У правилах — «захисні окуляри»; «стрілецькі окуляри» лишаються іншим варіантом."
   },
   "score-sheet": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=16",
+   "note": "Source check 05.11.2026 (confirmed). «14 - Протокол серії 14.1 Протокол серії знаходиться у судді або у іншої людини, що» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "scoreboard": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=21",
+   "note": "Source check 05.11.2026 (replace). «Результати кожної серії потім відображаються на центральному табло.» Правила УФС кажуть просто «табло» (центральне табло), без «результатів»."
+  },
+  "season-recap": {
+   "note": "Source check 05.11.2026 (descriptive). Незалежного джерела не знайшли; увага: меню сайту ClayArena пише «Рекап сезону», варто узгодити."
+  },
+  "self-talk": {
+   "src": "https://netfreedom.org.ua/chi-normalno-govoriti-sama-z-soboyu-vidpovid-nauki/",
+   "note": "Source check 05.11.2026 (confirmed). «Розмова з собою — давній супутник людського розуму.»"
   },
   "semi-automatic": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «напівавтоматична зброя/рушниці»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=10",
+   "note": "Source check 05.11.2026 (confirmed). «відведене для цього місце. У напівавтоматичних рушниць необхідно відкрити затвор. 7.2. Заборонено чіпати зброю другого» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "senior": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2025/04/cat.pdf",
+   "note": "Source check 05.11.2026 (confirmed). «Категорія СЕНЬОРИ» УФС пише категорію як «СЕНЬОРИ» (без й); за правописом і словником правильно «сеньйори», тож лишаємо «сеньйори»."
   },
   "shell-catcher": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=19",
+   "note": "Source check 05.11.2026 (descriptive). «зобов’язані встановити на них засіб, що мінімалізує викид стріляних гільз» Джерела з назвою пристрою не знайдено; правила компаку лише описують «засіб, що мінімалізує викид стріляних гільз»."
   },
   "shoot-off": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (replace). «стрілецькому місці та під час перестрілювання. 5.4 Коли стрілець готовий до пострілу, він/вона озвучує судді» У правилах — «перестрілювання»; «перестрілка» лишається розмовним варіантом."
+  },
+  "shooter-class": {
+   "note": "Source check 05.11.2026 (descriptive). УФС ділить стрільців на групи A–E, але слово «група» вже мають терміни Squad і Group; лишаємо «клас», щоб не було двох однакових слів."
+  },
+  "shooter-profile": {
+   "note": "Source check 05.11.2026 (descriptive). Це термін самої ClayArena; незалежного джерела не знайшли, лишаємо як є."
+  },
+  "shooting-cap": {
+   "src": "https://ibis-gear.com/ekipiruvannia/kepky/",
+   "note": "Source check 05.11.2026 (confirmed). «Кепки для полювання і риболовлі — купити в Україні»"
+  },
+  "shooting-gloves": {
+   "src": "https://ibis-gear.com/ekipiruvannia/rukavychky/",
+   "note": "Source check 05.11.2026 (confirmed). «Тактичні рукавички для стрільби — Купити рукавички для полювання»"
   },
   "shooting-limit": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=13",
+   "note": "Source check 05.11.2026 (replace). «мішень була вражена за природною перешкодою або за межами обмеження дальності пострілу» У правилах УФС цю межу названо «обмеження дальності пострілу»."
   },
   "shooting-stand": {
    "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=4",
-   "note": "Ukrainian FITASC rules 2026 (USF), Sporting 2.4 «Стрілецькі місця обмежуються квадратом зі стороною 1 м». For the stations of Compak® Sporting always «номер» (owner decision), never «місце». Checked 05.11.2026."
+   "note": "Source check 05.11.2026 (confirmed). «Стрілецькі місця обмежуються квадратом зі стороною 1 м»"
+  },
+  "shooting-times": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=2",
+   "note": "Source check 05.11.2026 (confirmed). «Особистий стрілецький номер 12 8. РОЗКЛАД ЧАСУ 12 9. ЗАПІЗНЕННЯ СТРІЛЬЦЯ 13 10. КОМПАК В» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "shooting-vest": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=21",
+   "note": "Source check 05.11.2026 (confirmed). «5см вище колін). Голий торс під стрілецьким жилетом заборонено. Сорочки, як мінімум, повинні мати короткий» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "shot-size": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "Said as «сьомий/дев’ятий дріб» or «7,5»."
+   "src": "https://ibis.net.ua/zbroia/hladkostvolni/search/75-36/",
+   "note": "Source check 05.11.2026 (confirmed). «Гладкоствольні патрони номер дробу 7,5 — купити в Україні»"
   },
   "shotgun": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Official rules: «гладкоствольні рушниці». Colloquially shooters also say «ствол»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (confirmed). «межах стрілецького місця, при цьому приклад рушниці торкається тіла. Це стосується всіх типів прикладів, включно:» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "shoulder-pad": {
+   "src": "https://www.decathlon.ua/uk/p/311115-32235_zhilet-520-sporting-dlya-stendovoyi-strilbi-sirij.html",
+   "note": "Source check 05.11.2026 (replace). «Вставка для прикладу типу замші для зручнішого прицілювання.» Український магазин у картці жилета для компак-спортингу пише «вставка для прикладу», а «наплічник» не трапився."
   },
   "show-clear": {
    "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=27",
-   "note": "Ukrainian FITASC rules 2026 (USF): «відкрити рушницю»; Compak safety: «Рушниці слід переносити у відкритому вигляді та розряженими». Checked 05.11.2026."
+   "note": "Source check 05.11.2026 (confirmed). «Рушниці слід переносити у відкритому вигляді та розряженими.» Уже внесено на сайт 05.11.2026 (крок 1). Українського слова не було. У правилах дія звучить «відкрити рушницю»; рушниці носять «у відкритому вигляді та розряженими»."
+  },
+  "show-pair": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=20",
+   "note": "Source check 05.11.2026 (confirmed). «може повторити показ синхронних і послідовних дуплетів»"
   },
   "side-by-side": {
-   "note": "Rare on sporting ranges; mostly a hunting gun."
+   "src": "https://ibis.net.ua/zbroia/dvostvolni/",
+   "note": "Source check 05.11.2026 (confirmed). «класичні двостволки з горизонтальним розташуванням стволів (двостволка горизонталка)»"
   },
   "simultaneous-double": {
    "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=6",
-   "note": "Ukrainian FITASC rules 2026 (USF), Sporting 4.2.2 «Синхронний дуплет», Compak 3.3.2. Checked 05.11.2026."
+   "note": "Source check 05.11.2026 (confirmed). «4.2.2 Синхронний дуплет Дві мішені, одночасно запущені з однієї або двох метальних машинок» Уже внесено на сайт 05.11.2026 (крок 1). В українських правилах FITASC (спортінг п. 4.2.2, компак п. 3.3.2) — «синхронний дуплет», а не «одночасний». «Одночасний дуплет» лишити як інший варіант."
   },
   "single-target": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «Тип місцевості Кількість метальних машинок Кількість одиночних мішеней і дуплетів Стрілецький майданчик(стара система) 5 метальних» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "skeet-choke": {
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "src": "https://xtarget.com.ua/ua/p1380518996-chok-beretta-choke.html",
+   "note": "Source check 05.11.2026 (replace). «Чок Beretta CHOKE FLUSH OPTIMABORE HP звуження SKEET USA» Українські магазини пишуть це звуження латиницею «Skeet»; кириличне «скіт» для чока не трапилося."
   },
   "smoked-it": {
-   "note": "Descriptive (no source: coaching slang). NOT «мішень пилила / димить»: in the Ukrainian rules that is a ZERO (dust only, no piece). 05.11.2026."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (descriptive). «видно тільки частки пилу («мішень пилила»)» Джерела немає: це тренерський сленг. Увага: у правилах «мішень пилила» / «мішень димить» означає протилежне — ПРОМАХ (лише пил без уламка), тому ці слова брати не можна."
+  },
+  "snap-cap": {
+   "src": "https://ibis.net.ua/ua/products/details/falsh-patron-megaline-kal-12/",
+   "note": "Source check 05.11.2026 (replace). «Фальш-патрон MegaLine кал. 12. Пластик» Українські збройові магазини продають такі муляжі як «фальш-патрон» (фальшпатрон)."
+  },
+  "soft-focus": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "soft-iron-shot": {
+   "src": "https://ibis.net.ua/post/supermagnum-12-go-kalibra-o-razmere-i-ego-znachenii/",
+   "note": "Source check 05.11.2026 (confirmed). «альтернативою свинцевого дробу була визнана сталева або виготовлена з м'якого заліза»"
   },
   "sonopull": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «система електронного мікрофона»; brand name used colloquially."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=6",
+   "note": "Source check 05.11.2026 (replace). «за допомогою системи дистанційного управління або акустичної системи запуску» У правилах УФС SONOPULL у тексті названо «акустична система запуску», а не «сонопул»."
+  },
+  "spectator-area": {
+   "note": "Source check 05.11.2026 (descriptive). Окремої назви в джерелах не знайшли; правила УФС згадують лише глядачів, без назви місця."
+  },
+  "sporting": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=1",
+   "note": "Source check 05.11.2026 (replace). «МІЖНАРОДНІ ПРАВИЛА ЗІ СПОРТIНГУ (PARCOURS DE CHASSE) I. Визначення міжнародних» Федерація й Мінмолодьспорт пишуть «спортінг» (з «і»); за правописом було б «спортинг» — вирішити керівництву."
+  },
+  "sports-licence": {
+   "note": "Source check 05.11.2026 (descriptive). Прямого відповідника не знайдено: УФС допускає до змагань членів федерації зі сплаченим внеском. Лишаємо «спортивна ліцензія»."
+  },
+  "springing-target": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (replace). «Траєкторії мішеней повинні бути: висхідні, низхідні» Правила УФС називають мішені, що злітають угору, «висхідні»."
   },
   "squad": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Owner decision: uk «група»; the English word «squad» is not used in Ukrainian texts."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (confirmed). «Судді приймають рішення єдиноосібно. 6.2 Стрільці групи не мають права втручатися або висловлювати свою думку» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "stance": {
    "src": "https://www.sporting-lviv.com.ua/",
-   "note": "Rules speak of «положення ніг на номері»."
+   "note": "Source check 05.11.2026 (confirmed). «правильна стійка стрільця при стрільбі по літаючих мішенях стендових (тарілочках)»"
   },
   "standard-target": {
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (replace). «2.3. Мішені Мішені - це стандартні мішені, мішені «Заєць», міді, суперміні, «Бату», «Флеш» і «Пропелер».» У правилах — «стандартні мішені»; «стандарт» лишається розмовним."
+  },
+  "star-marks": {
+   "src": "https://xtarget.com.ua/ua/a518183-dulnye-nasadki-suzheniya.html",
+   "note": "Source check 05.11.2026 (replace). «Зірки та альфа-код вигравіровані на боці корпусу насадки.» Український магазин пише, що на чоках Beretta вигравірувано «зірки»; форма «зірочки» не трапилася."
+  },
+  "steel-shot": {
+   "src": "https://ibis.net.ua/post/supermagnum-12-go-kalibra-o-razmere-i-ego-znachenii/",
+   "note": "Source check 05.11.2026 (confirmed). «Стало ясно, що для стрільби сталевим дробом потрібні інші рушниці»"
   },
   "stock": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=5",
+   "note": "Source check 05.11.2026 (confirmed). «межах стрілецького місця, при цьому приклад рушниці торкається тіла. Це стосується всіх типів прикладів, включно:» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "stopping-the-gun": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
+  },
+  "sudden-death": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=14",
+   "note": "Source check 05.11.2026 (confirmed). «випадку рівності результатів - \" ДО ПЕРШОГО ПРОМАХУ\" в 2-й серії при умові, що всі» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "swing-through": {
-   "note": "Усталеного українського терміна немає; стрільці часто кажуть англійською."
+   "note": "Source check 05.11.2026 (descriptive). Джерела для «протяжка» в цьому значенні не знайдено; простий опис зрозуміліший. Пропозицію помічника «проведення крізь мішень» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "target": {
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/",
-   "note": "Rules: «мішень»; on ranges «тарілка/тарілочка»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «без них … 2.3. Мішені Мішені - це стандартні мішені, мішені «Заєць», міді, суперміні, «Бату»,» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "target-line": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Окремого українського слова не знайшли; правила УФС кажуть лише «траєкторія» (це інший термін)."
+  },
+  "target-menu": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=17",
+   "note": "Source check 05.11.2026 (confirmed). «їх рекомендується використовувати на змаганнях. Приклад меню програми номер 10 (3 одиночні мішені і 1» Компак: «меню програми»."
+  },
+  "target-presentation": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=13",
+   "note": "Source check 05.11.2026 (confirmed). «картка, розділ 13 «Покарання»). 8.7 Під час показу мішеней або при зупинках стрільби стрілець зобов’язанний» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "taster-session": {
+   "note": "Source check 05.11.2026 (descriptive). Українського клубу, що пропонує «пробне заняття» зі стендової стрільби, не знайдено; трапилося лише «практичне заняття» в подарунковому сертифікаті."
   },
   "teal": {
-   "note": "Some shooters call the vertical riser «свічка»; overlaps with springing."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (replace). «такі, що віддаляються, повертаються, свічко-подібні, «зайці»» Правила компаку називають такі траєкторії «свічко-подібні»; мішень «Свіча» в переліку — це Rocket. «Чирок» лишається варіантом."
   },
   "team": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=2",
+   "note": "Source check 05.11.2026 (confirmed). «та порядок стрільби 17 17.3 Команди та групи стрільців 17 17.4 Порядок ведення стрільби командами» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "technical-commission": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=10",
+   "note": "Source check 05.11.2026 (confirmed). «склад якого входять: 1) присутні члени технічної комісії; 2) представники кожної країни, які мають чоловічу» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "tempo": {
    "src": "https://goroh.pp.ua/Тлумачення/темп",
-   "note": "Ordinary Ukrainian word: «Ступінь швидкості, здійснення, виконання…» (explanatory dictionary). Checked 05.11.2026."
+   "note": "Source check 05.11.2026 (confirmed). «Ступінь швидкості, здійснення, виконання або інтенсивність розвитку чого-небудь.» «Темп» — звичайне українське слово в цьому значенні (тлумачний словник). На сайті воно вже записане, але не показувалося: позначка «низька довіра»."
+  },
+  "temporary-import-permit": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела з цією назвою не знайшли; дозвіл дає право на тимчасове ввезення, тому «тимчасовий дозвіл» неточно."
+  },
+  "therapeutic-use-exemption": {
+   "src": "https://www.fvu.in.ua/sites/default/files/2021-09/PL_2019_Ukr.pdf",
+   "note": "Source check 05.11.2026 (confirmed). «якщо тільки у спортсмена не буде схваленого дозволу на терапевтичне використання (ТВ)»"
+  },
+  "third-party-insurance": {
+   "src": "https://www.euroins.com.ua/storage/app/uploads/public/64a/2ae/e9d/64a2aee9dc726528564489.pdf",
+   "note": "Source check 05.11.2026 (confirmed). «Умови обов’язкового страхування цивільної відповідальності громадян України, що мають у власності»"
+  },
+  "tinnitus": {
+   "src": "https://zaxid.net/shum_u_vuhah_prichini_shho_robiti_poradi_otolaringologa_n1624894",
+   "note": "Source check 05.11.2026 (confirmed). «Шум у вухах (тинітус) хоча б раз у житті відчувала майже кожна друга людина.»"
+  },
+  "top-10-rate": {
+   "note": "Source check 05.11.2026 (descriptive). Це показник самої ClayArena; незалежного джерела не знайшли, лишаємо як є."
   },
   "top-lever": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-ata-arms-sp-supersport-kal-12-76-stvol-81-sm-regulovana-shchoka/",
+   "note": "Source check 05.11.2026 (replace). «Запобіжник та важіль відкривання стволів» Український збройовий магазин називає його «важіль відкривання стволів»; «важіль замка» не трапився."
+  },
+  "tour-package": {
+   "src": "https://zakon.rada.gov.ua/laws/show/324/95-%D0%B2%D1%80",
+   "note": "Source check 05.11.2026 (replace). «туристичний продукт - попередньо розроблений комплекс туристичних послуг» Закон «Про туризм» називає набір кількох послуг за однією ціною «туристичний продукт»; «пакет туру» в джерелах не знайдено."
   },
   "tower": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "«Вишка» is the usual word; «тауер» is a loan from English."
+   "note": "Source check 05.11.2026 (descriptive). Правила УФС пишуть російське «(Башня)»; українського джерела немає. Лишаємо «вишка»."
+  },
+  "training-diary": {
+   "src": "https://teletype.in/@driveternopil/EoR8o1Z7n",
+   "note": "Source check 05.11.2026 (confirmed). «Для зручності варто задуматися про щоденник тренувань.»"
   },
   "trajectory": {
-   "src": "https://www.sporting-lviv.com.ua/"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (confirmed). «льця. На майданчику (лінії) представлені мисливські траєкторії різних рівней складності. При організації спортінгового майданчику (лінії)» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "trajectory-setting-table": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=17",
+   "note": "Source check 05.11.2026 (replace). «Заздалегідь складені програми стрільби приведені в Додатку 3» У правилах УФС готові схеми з Додатка 3 названо «програми стрільби»."
   },
   "transition": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайдено; лишаємо простий опис."
   },
   "trap": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules use both «метальна» and «пускова машинка»; on the range just «машинка»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (replace). «двоколірних мішеней не рекомендується. 2.2. Метальні машинки Стрілецькі майданчики повинні бути обладнані наступним чином: Тип» У правилах завжди «метальна машинка»; «машинка» лишається розмовним варіантом."
   },
   "trapper": {
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=7",
+   "note": "Source check 05.11.2026 (replace). «а суддя аудіосигналом передає команду оператору метальних машин так швидко, як це можливо. Мішень повинна» Так у правилах (спортінг): «оператор метальних машин»."
+  },
+  "travel-fatigue": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела з такою назвою не знайшли; лишаємо простий опис."
   },
   "trigger": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: «натискання на спусковий гачок»; «спуск» colloquial."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=12",
+   "note": "Source check 05.11.2026 (confirmed). «-або тримати спусковий гачок натиснутим і викликати нову мішень; -або тримати» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "velocity": {
+   "src": "https://ibis.net.ua/zbroia/details/patron-rio-load-game-30-rio-10-kal-12-70-drib-11-1-5-mm-navazhka-30-g-1/",
+   "note": "Source check 05.11.2026 (confirmed). «Початкова швидкість, м/с 410»"
+  },
+  "veteran": {
+   "src": "https://usf-shooting.com.ua/?p=4330",
+   "note": "Source check 05.11.2026 (confirmed). «Категорія ``Ветерани`` 1 місце – Станіслав Бондаренко (175/200)»"
   },
   "visible-piece": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (confirmed). «попадає в мішень, від неї не відокремився видимий уламок або видно тільки частки пилу («мішень» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "visitors-permit": {
+   "note": "Source check 05.11.2026 (descriptive). Українського джерела не знайшли; це британський документ, тож лишаємо опис з англійською назвою. Пропозицію помічника «дозвіл для відвідувача (Visitor's Permit)» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
+  },
+  "volunteer": {
+   "src": "https://fizkult.chnu.edu.ua/media/2lhhevav/polozhennia-volonterskyy-tsenrt.pdf#page=2",
+   "note": "Source check 05.11.2026 (confirmed). «Волонтери – громадяни, що здійснюють діяльність у формі добровільної безоплатної допомоги»"
   },
   "wad": {
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
-   "note": "Plastic one-piece wad is usually called «контейнер»."
+   "src": "https://ibis.net.ua/zbroia/details/patron-rio-load-game-30-rio-10-kal-12-70-drib-11-1-5-mm-navazhka-30-g-1/",
+   "note": "Source check 05.11.2026 (confirmed). «безконтейнерні патрони (FW) з промасленим фетровим пижом»"
   },
   "waiting-position": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=4",
+   "note": "Source check 05.11.2026 (confirmed). «Місця для очікування спортсменів повинні бути розташованні максимально близко до стрілецького місця»"
+  },
+  "warm-up": {
+   "src": "https://fitwill.app/uk/exercise/1839/neck-flexor-stretch/",
+   "note": "Source check 05.11.2026 (confirmed). «Використовуйте Розтягнення згиначів шиї як частину розминки, заминки або сесії мобільності»"
+  },
+  "warning": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (confirmed). «інциденту в поточній серії пострілів. Стрілець отримує попередження (ЖОВТА КАРТКА) за перший випадок і мішень» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
   },
   "yellow-card": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (confirmed). «пострілів. Стрілець отримує попередження ( ЖОВТА КАРТКА) за перший випадок і мішень оголошується \"НЕПРАВИЛЬНОЮ МІШЕННЮ\"» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "youth-gun": {
+   "note": "Source check 05.11.2026 (descriptive). Назви «юніорська рушниця» в українських магазинах не знайшли; магазини пишуть просто про рушниці для підлітків. Пропозицію помічника «рушниця для підлітків» не беремо: джерела немає і на неї, тож лишаємо слово сайту."
   },
   "zero": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Owner decision: uk «промах»; the referee's call stays as it is said on the stand («zero», «lost»). Rules: команда «ПРОМАХ»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (confirmed). «мішеней типу «Флеш». 6.4 Мішень зараховується \"ПРОМАХ\": Якщо стрілець необґрунтовано не стріляв в мішень (послідовний» Слово є в офіційному українському перекладі правил FITASC (УФС, 2026)."
+  },
+  "zero-zero": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=8",
+   "note": "Source check 05.11.2026 (replace). «саме трапляється втретє, результат фіксується «ПРОМАХ – ПРОМАХ» або «ZERO – ZERO».» У правилах — «промах – промах» або «zero – zero»."
+  },
+  "zz-target": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=3",
+   "note": "Source check 05.11.2026 (replace). «мішені «Заєць», міді, суперміні, «Бату», «Флеш» і «Пропелер»» У правилах спортінгу УФС у переліку мішеней на місці ZZ стоїть «Пропелер»."
   }
  }
 }

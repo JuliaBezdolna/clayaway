@@ -9,7 +9,7 @@ window.GLOSSARY_I18N.uk = {
     "гладкоствольна рушниця",
     "гладкоствольна зброя"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "over-and-under": {
    "term_local": "вертикалка",
@@ -17,14 +17,14 @@ window.GLOSSARY_I18N.uk = {
     "рушниця з вертикальним розташуванням стволів",
     "вертикальна рушниця"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "side-by-side": {
    "term_local": "горизонталка",
    "alt": [
     "рушниця з горизонтальним розташуванням стволів"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "semi-automatic": {
    "term_local": "напівавтомат",
@@ -32,14 +32,14 @@ window.GLOSSARY_I18N.uk = {
     "напівавтоматична рушниця",
     "автомат (розм.)"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "pump-action": {
    "term_local": "помпова рушниця",
    "alt": [
     "помпа"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "gauge": {
    "term_local": "калібр",
@@ -47,14 +47,14 @@ window.GLOSSARY_I18N.uk = {
     "12-й калібр",
     "12/76"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "barrel": {
    "term_local": "ствол",
    "alt": [
     "стволи (мн.)"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "barrel-length": {
    "term_local": "довжина стволів",
@@ -62,7 +62,7 @@ window.GLOSSARY_I18N.uk = {
     "76 см",
     "30 дюймів"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "rib": {
    "term_local": "прицільна планка",
@@ -70,29 +70,29 @@ window.GLOSSARY_I18N.uk = {
     "вентильована планка",
     "планка"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "muzzle": {
-   "term_local": "дульний зріз",
+   "term_local": "дуло",
    "alt": [
-    "дуло"
+    "дульний зріз"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "chamber": {
    "term_local": "патронник",
-   "conf": "high"
+   "conf": "source"
   },
   "receiver": {
    "term_local": "колодка",
    "alt": [
     "ствольна коробка (у напівавтомата)"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "stock": {
    "term_local": "приклад",
-   "conf": "high"
+   "conf": "source"
   },
   "comb": {
    "term_local": "гребінь приклада",
@@ -100,67 +100,69 @@ window.GLOSSARY_I18N.uk = {
     "щока приклада",
     "гребінь"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "adjustable-comb": {
    "term_local": "регульований гребінь",
    "alt": [
     "регульована щока"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "fore-end": {
    "term_local": "цівка",
-   "conf": "high"
+   "conf": "source"
   },
   "grip": {
-   "term_local": "пістолетне руків’я",
+   "term_local": "пістолетна шийка",
    "alt": [
+    "пістолетне руків’я",
     "напівпістолетне руків’я",
     "шийка приклада"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "trigger": {
    "term_local": "спусковий гачок",
    "alt": [
     "спуск"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "release-trigger": {
-   "term_local": "релізний спуск",
+   "term_local": "зворотний спуск",
    "alt": [
+    "релізний спуск",
     "реліз",
     "спуск на відпускання"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "safety-catch": {
    "term_local": "запобіжник",
-   "conf": "high"
+   "conf": "source"
   },
   "barrel-selector": {
    "term_local": "перемикач стволів",
    "alt": [
     "селектор"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "ejector": {
    "term_local": "ежектор",
    "alt": [
     "ежектори (мн.)"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "recoil-pad": {
-   "term_local": "затильник",
+   "term_local": "потиличник",
    "alt": [
-    "потиличник",
+    "затильник",
     "амортизуючий затильник"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "choke": {
    "term_local": "чок",
@@ -168,7 +170,7 @@ window.GLOSSARY_I18N.uk = {
     "дульне звуження",
     "звуження"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "fixed-choke": {
    "term_local": "фіксований чок",
@@ -176,7 +178,7 @@ window.GLOSSARY_I18N.uk = {
     "незмінне звуження",
     "постійний чок"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "multichoke": {
    "term_local": "змінні чоки",
@@ -184,37 +186,38 @@ window.GLOSSARY_I18N.uk = {
     "мультичок",
     "змінні звуження"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "choke-key": {
    "term_local": "ключ для чоків",
    "alt": [
     "чоковий ключ"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "extended-choke": {
-   "term_local": "виносний чок",
+   "term_local": "подовжений чок",
    "alt": [
-    "подовжений чок",
+    "виносний чок",
     "виносники (розм.)"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "cylinder": {
    "term_local": "циліндр",
    "alt": [
     "CYL"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "skeet-choke": {
-   "term_local": "скіт",
+   "term_local": "Skeet",
    "alt": [
+    "скіт",
     "скітовий чок",
     "SK"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "improved-cylinder": {
    "term_local": "1/4",
@@ -224,15 +227,15 @@ window.GLOSSARY_I18N.uk = {
     "модифікований циліндр",
     "IC"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "modified": {
-   "term_local": "півчок",
+   "term_local": "напівчок",
    "alt": [
-    "напівчок",
+    "півчок",
     "1/2"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "improved-modified": {
    "term_local": "3/4",
@@ -241,7 +244,7 @@ window.GLOSSARY_I18N.uk = {
     "модифікований чок",
     "IM"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "full-choke": {
    "term_local": "повний чок",
@@ -250,7 +253,7 @@ window.GLOSSARY_I18N.uk = {
     "1/1",
     "F"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "pattern": {
    "term_local": "осип",
@@ -258,44 +261,45 @@ window.GLOSSARY_I18N.uk = {
     "купчастість (щільність осипу)",
     "розліт дробу"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "cartridge": {
    "term_local": "набій",
    "alt": [
     "патрон"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "hull": {
    "term_local": "гільза",
-   "conf": "high"
+   "conf": "source"
   },
   "primer": {
    "term_local": "капсуль",
-   "conf": "high"
+   "conf": "source"
   },
   "powder": {
    "term_local": "порох",
    "alt": [
     "пороховий заряд"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "wad": {
    "term_local": "пиж",
    "alt": [
     "контейнер (пластиковий пиж)"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "fibre-wad": {
-   "term_local": "фібровий пиж",
+   "term_local": "фетровий пиж",
    "alt": [
+    "фібровий пиж",
     "біорозкладний пиж",
     "набої з фіброю"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "shot-size": {
    "term_local": "номер дробу",
@@ -303,7 +307,7 @@ window.GLOSSARY_I18N.uk = {
     "розмір дробу",
     "діаметр дробинок"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "load-weight": {
    "term_local": "наважка",
@@ -313,103 +317,104 @@ window.GLOSSARY_I18N.uk = {
     "24-ка",
     "28-ка"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "lead-shot": {
    "term_local": "свинцевий дріб",
    "alt": [
     "свинець"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "steel-shot": {
    "term_local": "сталевий дріб",
    "alt": [
     "сталь"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "recoil": {
    "term_local": "віддача",
-   "conf": "medium"
+   "conf": "source"
   },
   "gun-fit": {
    "term_local": "підгонка рушниці",
    "alt": [
     "підгонка приклада"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "length-of-pull": {
    "term_local": "довжина приклада",
-   "conf": "medium"
+   "conf": "source"
   },
   "cast": {
    "term_local": "відведення приклада",
    "alt": [
     "відхилення приклада вбік"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "gunsmith": {
    "term_local": "зброяр",
    "alt": [
     "майстер"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "hearing-protection": {
    "term_local": "засоби захисту слуху",
    "alt": [
     "навушники"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "earplugs": {
    "term_local": "беруші",
    "alt": [
     "вушні затички"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "electronic-ear-muffs": {
    "term_local": "активні навушники",
    "alt": [
     "електронні навушники"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "safety-glasses": {
-   "term_local": "стрілецькі окуляри",
+   "term_local": "захисні окуляри",
    "alt": [
+    "стрілецькі окуляри",
     "окуляри"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "shooting-vest": {
    "term_local": "стрілецький жилет",
    "alt": [
     "жилет"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "cartridge-bag": {
    "term_local": "сумка для набоїв",
-   "conf": "medium"
+   "conf": "source"
   },
   "cartridge-pouch": {
    "term_local": "підсумок для набоїв",
    "alt": [
     "підсумок"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "gun-slip": {
    "term_local": "м’який чохол",
    "alt": [
     "чохол"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "hard-case": {
    "term_local": "кейс для рушниці",
@@ -417,15 +422,16 @@ window.GLOSSARY_I18N.uk = {
     "футляр для зброї",
     "кейс"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "gun-rack": {
-   "term_local": "стійка для рушниць",
+   "term_local": "піраміда для рушниць",
    "alt": [
+    "стійка для рушниць",
     "підставка для рушниць",
     "пірамідка"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "target": {
    "term_local": "мішень",
@@ -433,34 +439,34 @@ window.GLOSSARY_I18N.uk = {
     "тарілка",
     "тарілочка"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "standard-target": {
-   "term_local": "стандарт",
+   "term_local": "стандартна мішень",
    "alt": [
-    "стандартна мішень",
+    "стандарт",
     "стандартна тарілка"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "midi": {
    "term_local": "міді",
-   "conf": "medium"
+   "conf": "source"
   },
   "mini": {
    "term_local": "міні",
    "alt": [
     "супер-міні"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "battue": {
-   "term_local": "батю",
+   "term_local": "бату",
    "alt": [
-    "бату",
+    "батю",
     "баттю"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "rabbit": {
    "term_local": "заєць",
@@ -468,21 +474,22 @@ window.GLOSSARY_I18N.uk = {
     "кролик",
     "rabbit"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "rocket-target": {
-   "term_local": "рокет",
+   "term_local": "свіча",
    "alt": [
+    "рокет",
     "ракета"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "flash-target": {
    "term_local": "флеш-мішень",
    "alt": [
     "флеш"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "biodegradable-target": {
    "term_local": "біорозкладна мішень",
@@ -490,15 +497,15 @@ window.GLOSSARY_I18N.uk = {
     "екологічна мішень",
     "біомішень"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "trap": {
-   "term_local": "машинка",
+   "term_local": "метальна машинка",
    "alt": [
-    "метальна машинка",
+    "машинка",
     "пускова машинка"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "tower": {
    "term_local": "вишка",
@@ -508,23 +515,25 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "trapper": {
-   "term_local": "оператор машинки",
+   "term_local": "оператор метальних машин",
    "alt": [
+    "оператор машинки",
     "оператор"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "sonopull": {
-   "term_local": "сонопул",
+   "term_local": "акустична система запуску",
    "alt": [
+    "сонопул",
     "голосовий пуск",
     "електронний мікрофон"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "trajectory": {
    "term_local": "траєкторія",
-   "conf": "high"
+   "conf": "source"
   },
   "crosser": {
    "term_local": "поперечна мішень",
@@ -541,25 +550,26 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "going-away": {
-   "term_local": "мішень від стрільця",
+   "term_local": "мішень, що віддаляється",
    "alt": [
+    "мішень від стрільця",
     "на відхід"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "quartering-away": {
    "term_local": "коса від стрільця",
    "alt": [
     "коса на відхід"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "quartering-towards": {
    "term_local": "коса на стрільця",
    "alt": [
     "коса зустрічна"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "driven-target": {
    "term_local": "мішень над головою спереду",
@@ -567,22 +577,23 @@ window.GLOSSARY_I18N.uk = {
     "драйв",
     "driven"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "teal": {
-   "term_local": "чирок",
+   "term_local": "свічка",
    "alt": [
-    "свічка",
+    "чирок",
     "вертикальна"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "springing-target": {
-   "term_local": "злітаюча мішень",
+   "term_local": "висхідна мішень",
    "alt": [
+    "злітаюча мішень",
     "свічка"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "looper": {
    "term_local": "лупер",
@@ -590,15 +601,21 @@ window.GLOSSARY_I18N.uk = {
     "дуга",
     "looper"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "chandelle": {
-   "term_local": "chandelle",
+   "term_local": "мішень, що круто йде вгору по дузі",
+   "alt": [
+    "chandelle"
+   ],
    "conf": "medium"
   },
   "dropping-target": {
-   "term_local": "падаюча мішень",
-   "conf": "low"
+   "term_local": "низхідна мішень",
+   "alt": [
+    "падаюча мішень"
+   ],
+   "conf": "source"
   },
   "single-target": {
    "term_local": "одиночна мішень",
@@ -606,14 +623,14 @@ window.GLOSSARY_I18N.uk = {
     "одиночна",
     "сингл"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "double": {
    "term_local": "дуплет",
    "alt": [
     "пара"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "double-on-report": {
    "term_local": "сигнальний дуплет",
@@ -621,7 +638,7 @@ window.GLOSSARY_I18N.uk = {
     "дуплет на постріл",
     "репорт"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "simultaneous-double": {
    "term_local": "синхронний дуплет",
@@ -632,33 +649,34 @@ window.GLOSSARY_I18N.uk = {
    "conf": "source"
   },
   "rafale-double": {
-   "term_local": "рафаль",
+   "term_local": "послідовний дуплет",
    "alt": [
+    "рафаль",
     "дуплет рафаль"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "target-presentation": {
    "term_local": "показ мішеней",
-   "conf": "medium"
+   "conf": "source"
   },
   "target-menu": {
    "term_local": "меню",
-   "conf": "medium"
+   "conf": "source"
   },
   "lead": {
    "term_local": "винос",
    "alt": [
     "упередження"
    ],
-   "conf": "high"
+   "conf": "medium"
   },
   "maintained-lead": {
    "term_local": "постійний винос",
    "alt": [
     "maintained lead"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "swing-through": {
    "term_local": "протяжка",
@@ -666,7 +684,7 @@ window.GLOSSARY_I18N.uk = {
     "swing-through",
     "через мішень"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "pull-away": {
    "term_local": "вихід з мішені",
@@ -674,7 +692,7 @@ window.GLOSSARY_I18N.uk = {
     "pull-away",
     "відрив"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "hold-point": {
    "term_local": "точка утримання",
@@ -695,12 +713,13 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "ready-position": {
-   "term_local": "вихідне положення",
+   "term_local": "положення готовності",
    "alt": [
+    "вихідне положення",
     "рушниця внизу",
     "низька позиція"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "gun-mount": {
    "term_local": "вкладка",
@@ -708,7 +727,7 @@ window.GLOSSARY_I18N.uk = {
     "вкладати рушницю",
     "підйом рушниці до плеча"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "follow-through": {
    "term_local": "продовження руху",
@@ -724,14 +743,14 @@ window.GLOSSARY_I18N.uk = {
     "постановка ніг",
     "положення ніг"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "eye-dominance": {
    "term_local": "домінантність ока",
    "alt": [
     "провідне око"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "master-eye": {
    "term_local": "провідне око",
@@ -742,28 +761,28 @@ window.GLOSSARY_I18N.uk = {
   },
   "cross-dominance": {
    "term_local": "перехресна домінантність",
-   "conf": "low"
+   "conf": "medium"
   },
   "head-lift": {
    "term_local": "відрив щоки від приклада",
    "alt": [
     "підняв голову"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "stopping-the-gun": {
    "term_local": "зупинка стволів",
    "alt": [
     "зупинка рушниці"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "flinch": {
    "term_local": "смикання",
    "alt": [
     "смик"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "dry-mounting": {
    "term_local": "вкладка без пострілу",
@@ -786,63 +805,65 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "інструктор"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "call": {
    "term_local": "виклик мішені",
    "alt": [
     "команда"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "one": {
-   "term_local": "влучання",
+   "term_local": "вражена мішень",
    "alt": [
+    "влучання",
     "уражена мішень"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "zero": {
    "term_local": "промах",
    "alt": [
     "неуражена мішень"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "visible-piece": {
    "term_local": "видимий уламок",
    "alt": [
     "видима частина"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "no-bird": {
-   "term_local": "No Bird",
+   "term_local": "немає мішені",
    "alt": [
-    "немає мішені"
+    "No Bird"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "malfunction": {
    "term_local": "несправність",
    "alt": [
     "несправність рушниці або патрона"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "double-discharge": {
-   "term_local": "одночасний постріл з обох стволів",
+   "term_local": "здвоєний постріл",
    "alt": [
+    "одночасний постріл з обох стволів",
     "подвійний постріл"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "refusal": {
    "term_local": "відмова від мішені",
    "alt": [
     "відхилена мішень"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "hang-fire": {
    "term_local": "затяжний постріл",
@@ -863,7 +884,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "лейаут"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "range": {
    "term_local": "стрільбище",
@@ -871,154 +892,162 @@ window.GLOSSARY_I18N.uk = {
     "стенд",
     "стрілецький комплекс"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "line": {
    "term_local": "лінія",
-   "conf": "low"
+   "conf": "source"
   },
   "round": {
-   "term_local": "раунд",
+   "term_local": "серія",
    "alt": [
-    "серія"
+    "раунд"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "rotation": {
-   "term_local": "порядок стрільби",
+   "term_local": "ротація",
    "alt": [
+    "порядок стрільби",
     "черговість"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "squad": {
    "term_local": "група",
    "alt": [
     "група стрільців"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "referee": {
    "term_local": "суддя",
    "alt": [
     "рефері"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "chief-referee": {
    "term_local": "головний суддя",
-   "conf": "high"
+   "conf": "source"
   },
   "jury": {
    "term_local": "журі",
    "alt": [
     "суддівська колегія"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "score-sheet": {
    "term_local": "протокол",
    "alt": [
     "картка"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "protest": {
    "term_local": "протест",
-   "conf": "high"
+   "conf": "source"
   },
   "appeal": {
    "term_local": "апеляція",
    "alt": [
     "скарга"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "shoot-off": {
-   "term_local": "перестрілка",
-   "conf": "high"
+   "term_local": "перестрілювання",
+   "alt": [
+    "перестрілка"
+   ],
+   "conf": "source"
   },
   "countback": {
-   "term_local": "каунтбек",
+   "term_local": "розподіл місць з останньої серії",
    "alt": [
+    "каунтбек",
     "за останньою серією"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "firing-time": {
-   "term_local": "ліміт часу",
+   "term_local": "час на постріл",
    "alt": [
+    "ліміт часу",
     "час на підготовку"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "mock-shooting": {
    "term_local": "імітація стрільби",
    "alt": [
     "холосте прицілювання"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "shooting-limit": {
-   "term_local": "межа зони стрільби",
+   "term_local": "обмеження дальності пострілу",
    "alt": [
+    "межа зони стрільби",
     "межа стрільби"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "gun-test": {
-   "term_local": "пробний постріл",
+   "term_local": "перевірка зброї",
    "alt": [
+    "пробний постріл",
     "пробні постріли"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "practice": {
    "term_local": "офіційне тренування",
    "alt": [
     "тренування"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "yellow-card": {
    "term_local": "жовта картка",
-   "conf": "high"
+   "conf": "source"
   },
   "red-card": {
    "term_local": "червона картка",
-   "conf": "high"
+   "conf": "source"
   },
   "penalty": {
    "term_local": "покарання",
    "alt": [
     "штраф"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "category": {
    "term_local": "категорія",
-   "conf": "high"
+   "conf": "source"
   },
   "veteran": {
    "term_local": "ветерани",
    "alt": [
     "ветеран"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "team": {
    "term_local": "команда",
    "alt": [
     "збірна"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "entry": {
    "term_local": "реєстрація",
    "alt": [
     "заявка"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "entry-fee": {
    "term_local": "стартовий внесок",
@@ -1028,91 +1057,96 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "competitor-number": {
-   "term_local": "стартовий номер",
+   "term_local": "номер стрільця",
    "alt": [
+    "стартовий номер",
     "наспинний номер"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "prize-giving": {
    "term_local": "нагородження",
-   "conf": "medium"
+   "conf": "source"
   },
   "safety": {
    "term_local": "безпека",
    "alt": [
     "техніка безпеки"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "gun-handling": {
    "term_local": "поводження зі зброєю",
    "alt": [
     "рушниця відкрита"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "loading": {
    "term_local": "заряджання / розряджання",
-   "conf": "high"
+   "conf": "source"
   },
   "cease-fire": {
-   "term_local": "СТОП",
+   "term_local": "зупинка стрільби",
    "alt": [
+    "СТОП",
     "припинити стрільбу"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "quiet-on-stand": {
    "term_local": "тиша на номері",
-   "conf": "low"
+   "conf": "medium"
   },
   "conduct": {
-   "term_local": "спортивна поведінка",
+   "term_local": "поведінка",
    "alt": [
-    "поведінка"
+    "спортивна поведінка"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "dress-code": {
    "term_local": "дрес-код",
    "alt": [
     "форма одягу"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "empties": {
-   "term_local": "порожні гільзи",
+   "term_local": "стріляні гільзи",
    "alt": [
+    "порожні гільзи",
     "гільзи"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "anti-doping": {
-   "term_local": "антидопінг",
+   "term_local": "антидопінговий контроль",
    "alt": [
+    "антидопінг",
     "антидопінгові правила",
     "допінг-контроль"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "therapeutic-use-exemption": {
    "term_local": "дозвіл на терапевтичне використання (TUE)",
    "alt": [
     "TUE"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "beta-blocker": {
    "term_local": "бета-блокатор",
    "alt": [
     "бета-блокатори"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "global-dro": {
-   "term_local": "онлайн-перевірка ліків",
+   "term_local": "Global DRO (онлайн-перевірка ліків)",
    "alt": [
+    "онлайн-перевірка ліків",
     "Global DRO"
    ],
    "conf": "medium"
@@ -1122,7 +1156,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "box breathing"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "quiet-eye": {
    "term_local": "тихе око",
@@ -1136,7 +1170,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "внутрішній діалог"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "cue-word": {
    "term_local": "слово-підказка",
@@ -1150,7 +1184,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "візуалізація"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "choking": {
    "term_local": "зрив",
@@ -1171,28 +1205,28 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "мобільність"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "gun-rental": {
    "term_local": "прокат рушниці",
    "alt": [
     "рушниця напрокат"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "third-party-insurance": {
    "term_local": "страхування цивільної відповідальності",
    "alt": [
     "страховка"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "proof-mark": {
    "term_local": "клеймо випробування",
    "alt": [
     "клеймо"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "club-membership": {
    "term_local": "членство в клубі",
@@ -1202,11 +1236,11 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "reloaded-cartridge": {
-   "term_local": "переспоряджений набій",
+   "term_local": "перезаряджений набій",
    "alt": [
-    "перезаряджений набій"
+    "переспоряджений набій"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "taster-session": {
    "term_local": "пробне заняття",
@@ -1217,7 +1251,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "шумова приглухуватість"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "tinnitus": {
    "term_local": "шум у вухах",
@@ -1225,7 +1259,7 @@ window.GLOSSARY_I18N.uk = {
     "дзвін у вухах",
     "тинітус"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "double-hearing-protection": {
    "term_local": "подвійний захист слуху",
@@ -1236,7 +1270,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "пресбіопія"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "lead-hygiene": {
    "term_local": "гігієна при роботі зі свинцем",
@@ -1247,7 +1281,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "перегрів"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "live-pigeon-shooting": {
    "term_local": "стрільба по живих голубах",
@@ -1258,48 +1292,52 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "hydration": {
-   "term_local": "водний режим",
+   "term_local": "питний режим",
    "alt": [
+    "водний режим",
     "пиття"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "travel-fatigue": {
    "term_local": "утома від дороги",
    "conf": "medium"
   },
   "referee-certificate": {
-   "term_local": "суддівський сертифікат",
+   "term_local": "суддівська картка",
    "alt": [
-    "суддівська картка"
+    "суддівський сертифікат"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "assistant-referee": {
    "term_local": "помічник судді",
-   "conf": "high"
+   "conf": "source"
   },
   "coaching-qualification": {
    "term_local": "кваліфікація тренера",
    "alt": [
     "тренерська ліцензія"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "volunteer": {
    "term_local": "волонтер",
-   "conf": "high"
+   "conf": "source"
   },
   "tour-package": {
-   "term_local": "пакет туру",
-   "conf": "medium"
+   "term_local": "туристичний продукт",
+   "alt": [
+    "пакет туру"
+   ],
+   "conf": "source"
   },
   "scoreboard": {
-   "term_local": "табло результатів",
+   "term_local": "табло",
    "alt": [
-    "табло"
+    "табло результатів"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "spectator-area": {
    "term_local": "зона для глядачів",
@@ -1310,21 +1348,21 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "виняток"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "pitch": {
    "term_local": "нахил потилиці приклада",
    "alt": [
     "pitch"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "gas-operated": {
    "term_local": "газовідвідна система",
    "alt": [
     "газовідвідний напівавтомат"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "ladies-cut": {
    "term_local": "жіночий крій",
@@ -1335,26 +1373,28 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "snap-cap": {
-   "term_local": "навчальний патрон",
+   "term_local": "фальш-патрон",
    "alt": [
+    "навчальний патрон",
     "snap cap"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "blot-out": {
    "term_local": "закрити стволами",
-   "conf": "low"
+   "conf": "medium"
   },
   "show-pair": {
    "term_local": "показ дуплета",
    "alt": [
     "show pair"
    ],
-   "conf": "low"
+   "conf": "source"
   },
   "perfect-round": {
-   "term_local": "чистий раунд",
+   "term_local": "чиста серія",
    "alt": [
+    "чистий раунд",
     "25 із 25"
    ],
    "conf": "medium"
@@ -1364,7 +1404,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "visitor's permit"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "ambush": {
    "term_local": "стрільба в точку",
@@ -1387,7 +1427,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "overhead"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "european-firearms-pass": {
    "term_local": "Європейський вогнепальний паспорт",
@@ -1395,7 +1435,7 @@ window.GLOSSARY_I18N.uk = {
     "EFP",
     "європейський паспорт на зброю"
    ],
-   "conf": "high"
+   "conf": "medium"
   },
   "jet-lag": {
    "term_local": "джетлаг",
@@ -1403,7 +1443,7 @@ window.GLOSSARY_I18N.uk = {
     "зміна часових поясів",
     "jet lag"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "shooter-profile": {
    "term_local": "профіль стрільця",
@@ -1420,24 +1460,27 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "refusal-to-comply": {
-   "term_local": "відмова виконувати вимоги судді",
-   "alt": [],
-   "conf": "medium"
+   "term_local": "відмова підкоритися правилам",
+   "alt": [
+    "відмова виконувати вимоги судді"
+   ],
+   "conf": "source"
   },
   "attempt-to-influence": {
-   "term_local": "спроба вплинути на суддю",
+   "term_local": "спроба тиску на суддю",
    "alt": [
+    "спроба вплинути на суддю",
     "тиск на суддю"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "warm-up": {
    "term_local": "розминка",
-   "conf": "high"
+   "conf": "source"
   },
   "national-federation": {
    "term_local": "національна федерація",
-   "conf": "high"
+   "conf": "source"
   },
   "soft-focus": {
    "term_local": "м’який фокус",
@@ -1459,7 +1502,7 @@ window.GLOSSARY_I18N.uk = {
   },
   "interpreter": {
    "term_local": "перекладач",
-   "conf": "high"
+   "conf": "source"
   },
   "instinctive-shooting": {
    "term_local": "інстинктивна стрільба",
@@ -1467,30 +1510,37 @@ window.GLOSSARY_I18N.uk = {
   },
   "insertion-point": {
    "term_local": "точка входу",
-   "conf": "low"
+   "conf": "medium"
   },
   "central-vision": {
-   "term_local": "центральний зір",
-   "conf": "low"
+   "term_local": "без провідного ока",
+   "alt": [
+    "центральний зір"
+   ],
+   "conf": "medium"
   },
   "gun-speed": {
    "term_local": "швидкість стволів",
-   "conf": "low"
+   "conf": "medium"
   },
   "perceived-lead": {
    "term_local": "видимий винос",
-   "conf": "low"
+   "conf": "medium"
   },
   "shoulder-pad": {
-   "term_local": "наплічник",
-   "conf": "high"
+   "term_local": "вставка для прикладу",
+   "alt": [
+    "наплічник"
+   ],
+   "conf": "source"
   },
   "jacket-line": {
-   "term_local": "лінія на жилеті",
+   "term_local": "лінія на одязі",
    "alt": [
+    "лінія на жилеті",
     "мітка"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "gun-fitter": {
    "term_local": "майстер-підгонщик",
@@ -1501,11 +1551,12 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "firing-angle-limiter": {
-   "term_local": "обмежувач кута стрільби",
+   "term_local": "обмежувальна рамка",
    "alt": [
+    "обмежувач кута стрільби",
     "рамка-обмежувач"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "low-recoil-cartridge": {
    "term_local": "набій зі зменшеною віддачею",
@@ -1513,7 +1564,7 @@ window.GLOSSARY_I18N.uk = {
     "набій зі зниженою віддачею",
     "легкий набій"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "youth-gun": {
    "term_local": "юніорська рушниця",
@@ -1525,62 +1576,64 @@ window.GLOSSARY_I18N.uk = {
   },
   "training-diary": {
    "term_local": "щоденник тренувань",
-   "conf": "high"
+   "conf": "source"
   },
   "guardian-consent": {
    "term_local": "згода батьків або опікунів",
    "alt": [
     "згода батьків"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "sports-licence": {
    "term_local": "спортивна ліцензія",
    "alt": [
     "ліцензія"
    ],
-   "conf": "high"
+   "conf": "medium"
   },
   "open-ranking": {
-   "term_local": "загальний залік",
+   "term_local": "загальна категорія",
    "alt": [
+    "загальний залік",
     "абсолютний залік",
     "open"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "club-shoot": {
    "term_local": "клубні змагання",
    "alt": [
     "клубний старт"
    ],
-   "conf": "high"
+   "conf": "medium"
   },
   "grand-prix": {
    "term_local": "Гран-прі",
-   "conf": "high"
+   "conf": "source"
   },
   "championship": {
    "term_local": "чемпіонат",
-   "conf": "high"
+   "conf": "source"
   },
   "invitation-letter": {
-   "term_local": "лист-запрошення",
+   "term_local": "запрошення",
    "alt": [
-    "запрошення"
+    "лист-запрошення"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "temporary-import-permit": {
-   "term_local": "тимчасовий дозвіл на ввезення",
+   "term_local": "дозвіл на тимчасове ввезення зброї",
    "alt": [
+    "тимчасовий дозвіл на ввезення",
     "тимчасовий дозвіл"
    ],
    "conf": "medium"
   },
   "customs-declaration": {
    "term_local": "митна декларація",
-   "conf": "high"
+   "conf": "source"
   },
   "lens-tint": {
    "term_local": "колір лінзи",
@@ -1588,27 +1641,31 @@ window.GLOSSARY_I18N.uk = {
     "колір лінз",
     "фільтр"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "background": {
-   "term_local": "тло",
-   "conf": "medium"
+   "term_local": "фон",
+   "alt": [
+    "тло"
+   ],
+   "conf": "source"
   },
   "organiser": {
    "term_local": "організатор",
-   "conf": "high"
+   "conf": "source"
   },
   "lateness": {
    "term_local": "запізнення",
-   "conf": "high"
+   "conf": "source"
   },
   "trajectory-setting-table": {
-   "term_local": "таблиця налаштування траєкторій",
+   "term_local": "програма стрільби",
    "alt": [
+    "таблиця налаштування траєкторій",
     "таблиця налаштування",
     "таблиця"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "process-goal": {
    "term_local": "ціль процесу",
@@ -1654,79 +1711,85 @@ window.GLOSSARY_I18N.uk = {
   },
   "waiting-position": {
    "term_local": "місце очікування",
-   "conf": "low"
+   "conf": "source"
   },
   "cage": {
    "term_local": "захисна рама",
-   "conf": "low"
+   "conf": "medium"
   },
   "chip": {
-   "term_local": "відколок",
-   "conf": "low"
+   "term_local": "видимий фрагмент",
+   "alt": [
+    "відколок"
+   ],
+   "conf": "source"
   },
   "checking": {
    "term_local": "пригальмовування",
-   "conf": "low"
+   "conf": "medium"
   },
   "riding-the-target": {
    "term_local": "надто довге супроводження мішені",
-   "conf": "low"
+   "conf": "medium"
   },
   "canting": {
    "term_local": "завал рушниці",
-   "conf": "low"
+   "conf": "medium"
   },
   "late-mount": {
    "term_local": "запізніла вкладка",
-   "conf": "low"
+   "conf": "medium"
   },
   "transition": {
    "term_local": "перехід",
-   "conf": "low"
+   "conf": "medium"
   },
   "hand-signal": {
    "term_local": "жест",
-   "conf": "low"
+   "conf": "medium"
   },
   "shell-catcher": {
    "term_local": "уловлювач гільз",
-   "conf": "low"
+   "conf": "medium"
   },
   "top-lever": {
-   "term_local": "важіль замка",
-   "conf": "low"
+   "term_local": "важіль відкривання стволів",
+   "alt": [
+    "важіль замка"
+   ],
+   "conf": "source"
   },
   "bead": {
    "term_local": "мушка",
-   "conf": "low"
+   "conf": "source"
   },
   "consecutive-interpreting": {
    "term_local": "послідовний переклад",
-   "conf": "low"
+   "conf": "source"
   },
   "false-friend": {
    "term_local": "хибний друг",
-   "conf": "low"
+   "conf": "source"
   },
   "clock-face": {
    "term_local": "циферблат",
-   "conf": "low"
+   "conf": "medium"
   },
   "target-line": {
    "term_local": "лінія польоту мішені",
-   "conf": "low"
+   "conf": "medium"
   },
   "bolting-rabbit": {
    "term_local": "заєць, що вискакує",
-   "conf": "low"
+   "conf": "medium"
   },
   "manual-release": {
    "term_local": "ручний запуск",
-   "conf": "low"
+   "conf": "source"
   },
   "move-mount-shoot": {
    "term_local": "рух, вкладка, постріл",
-   "conf": "low"
+   "conf": "medium"
   },
   "gun-up": {
    "term_local": "рушниця вкладена в плече",
@@ -1755,6 +1818,291 @@ window.GLOSSARY_I18N.uk = {
   "recovery": {
    "term_local": "повернення рушниці після пострілу",
    "conf": "medium"
+  },
+  "sporting": {
+   "term_local": "спортінг",
+   "alt": [
+    "спортинг",
+    "parcours",
+    "FITASC sporting"
+   ],
+   "conf": "source"
+  },
+  "compak-sporting": {
+   "term_local": "компак-спортінг",
+   "alt": [
+    "компак"
+   ],
+   "conf": "source"
+  },
+  "compak-in-line": {
+   "term_local": "компак у лінію",
+   "alt": [
+    "лінія"
+   ],
+   "conf": "source"
+  },
+  "fitasc": {
+   "term_local": "фітаск",
+   "conf": "source"
+  },
+  "hunting-ethics": {
+   "term_local": "мисливські норми",
+   "alt": [
+    "мисливська етика"
+   ],
+   "conf": "source"
+  },
+  "fly-over-zone": {
+   "term_local": "прямокутник",
+   "alt": [
+    "зона прольоту"
+   ],
+   "conf": "source"
+  },
+  "zz-target": {
+   "term_local": "пропелер",
+   "alt": [
+    "зет-зет"
+   ],
+   "conf": "source"
+  },
+  "difficulty-class": {
+   "term_local": "клас складності",
+   "conf": "source"
+  },
+  "gun-position": {
+   "term_local": "положення рушниці",
+   "conf": "source"
+  },
+  "interruption": {
+   "term_local": "перерва",
+   "alt": [
+    "зупинка"
+   ],
+   "conf": "source"
+  },
+  "electronic-refereeing": {
+   "term_local": "електронне суддівство",
+   "conf": "source"
+  },
+  "zero-zero": {
+   "term_local": "промах – промах",
+   "alt": [
+    "zero-zero"
+   ],
+   "conf": "source"
+  },
+  "coaching": {
+   "term_local": "тренерська робота",
+   "alt": [
+    "підказки",
+    "тренування під час змагань"
+   ],
+   "conf": "source"
+  },
+  "warning": {
+   "term_local": "попередження",
+   "conf": "source"
+  },
+  "expulsion": {
+   "term_local": "дискваліфікація",
+   "alt": [
+    "виключення"
+   ],
+   "conf": "source"
+  },
+  "appeal-jury": {
+   "term_local": "апеляційне журі",
+   "conf": "source"
+  },
+  "deposit": {
+   "term_local": "застава",
+   "alt": [
+    "депозит"
+   ],
+   "conf": "source"
+  },
+  "technical-commission": {
+   "term_local": "технічна комісія",
+   "conf": "source"
+  },
+  "course-designer": {
+   "term_local": "дизайнер траєкторій",
+   "alt": [
+    "курс-дизайнер",
+    "постановник"
+   ],
+   "conf": "source"
+  },
+  "group": {
+   "term_local": "група",
+   "conf": "source"
+  },
+  "shooting-times": {
+   "term_local": "розклад",
+   "alt": [
+    "час стрільби"
+   ],
+   "conf": "source"
+  },
+  "sudden-death": {
+   "term_local": "до першого промаху",
+   "conf": "source"
+  },
+  "junior": {
+   "term_local": "юніори",
+   "alt": [
+    "юніор",
+    "юніорка"
+   ],
+   "conf": "source"
+  },
+  "lady": {
+   "term_local": "жінки",
+   "alt": [
+    "леді"
+   ],
+   "conf": "source"
+  },
+  "men-category": {
+   "term_local": "чоловіки",
+   "conf": "source"
+  },
+  "senior": {
+   "term_local": "сеньйори",
+   "conf": "source"
+  },
+  "master-category": {
+   "term_local": "найстарша вікова категорія",
+   "alt": [
+    "Master"
+   ],
+   "conf": "medium"
+  },
+  "crimp": {
+   "term_local": "закрутка",
+   "alt": [
+    "зірочка"
+   ],
+   "conf": "source"
+  },
+  "velocity": {
+   "term_local": "швидкість",
+   "alt": [
+    "швидкий набій"
+   ],
+   "conf": "source"
+  },
+  "soft-iron-shot": {
+   "term_local": "м’яке залізо",
+   "alt": [
+    "залізний дріб"
+   ],
+   "conf": "source"
+  },
+  "constriction": {
+   "term_local": "звуження",
+   "alt": [
+    "дульне звуження"
+   ],
+   "conf": "source"
+  },
+  "light-modified": {
+   "term_local": "Light Modified (LM)",
+   "alt": [
+    "3/8",
+    "LM"
+   ],
+   "conf": "source"
+  },
+  "star-marks": {
+   "term_local": "зірки на чоках",
+   "alt": [
+    "зірочки на чоках"
+   ],
+   "conf": "source"
+  },
+  "pattern-plate": {
+   "term_local": "плита для перевірки осипу",
+   "alt": [
+    "плита",
+    "пристрілювальна плита"
+   ],
+   "conf": "medium"
+  },
+  "choke-grease": {
+   "term_local": "мастило для чоків",
+   "conf": "medium"
+  },
+  "prescription-insert": {
+   "term_local": "діоптрична вставка",
+   "alt": [
+    "діоптрійна вставка"
+   ],
+   "conf": "source"
+  },
+  "passive-ear-muffs": {
+   "term_local": "навушники",
+   "alt": [
+    "пасивні навушники"
+   ],
+   "conf": "source"
+  },
+  "shooting-gloves": {
+   "term_local": "рукавички",
+   "conf": "source"
+  },
+  "shooting-cap": {
+   "term_local": "кепка",
+   "conf": "source"
+  },
+  "shooter-class": {
+   "term_local": "клас",
+   "alt": [
+    "розряд"
+   ],
+   "conf": "medium"
+  },
+  "clayaway": {
+   "term_local": "ClayAway",
+   "alt": [
+    "тур",
+    "тренувальний тур"
+   ],
+   "conf": "medium"
+  },
+  "accuracy": {
+   "term_local": "влучність",
+   "alt": [
+    "відсоток"
+   ],
+   "conf": "medium"
+  },
+  "best-score": {
+   "term_local": "найкращий результат",
+   "alt": [
+    "особистий рекорд"
+   ],
+   "conf": "medium"
+  },
+  "performance-index": {
+   "term_local": "індекс виступів",
+   "alt": [
+    "індекс"
+   ],
+   "conf": "medium"
+  },
+  "season-recap": {
+   "term_local": "підсумки сезону",
+   "conf": "medium"
+  },
+  "iata": {
+   "term_local": "IATA",
+   "alt": [
+    "правила IATA"
+   ],
+   "conf": "source"
   }
  }
 };
