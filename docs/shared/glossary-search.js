@@ -14,22 +14,25 @@
    same skeleton, or the start of a longer one from 4 sounds on; a short skeleton also needs the vowels close, ClayTerms.lev of the
    Latin forms), so «но берд» finds No Bird and «батю» finds Battue, but not Butt. Deep links: ?q=<query>&cat=<slug> (kept up to date while typing; the canonical URL of the
    page stays the plain index). Keys: "/" focuses the box, ↓/↑ walk the results, Enter opens the first one, Esc clears.
+   Term pages (all languages) get the compact box of mini(lang, esc): the same matching in a drop-down list; the search data is the
+   index page of the language ("../", data-src), fetched on the first focus or key (one request, the browser caches it), so the term
+   pages carry no copy of it. Without JavaScript the box submits to the index page as ?q=…, where the full search runs.
    Interface strings: STR below (11 ClayArena languages, never others). Production (clayarena.com): the same box in the site
    template, fed by the same data attributes or by the glossary API. */
 (function (root) {
   "use strict";
   const STR = {
-    uk: { label: "Пошук у глосарії", ph: "Знайти термін: No Bird, дуплет, чок…", all: "Усі", cats: "Категорії", found: "Знайдено: {n}", none: "Нічого не знайдено. Спробуйте інше слово або англійську назву.", in_cat: "{c}: {n}", clear: "Очистити" },
-    en: { label: "Search the glossary", ph: "Find a term: No Bird, double, choke…", all: "All", cats: "Categories", found: "{n} found", none: "Nothing found. Try another word.", in_cat: "{c}: {n}", clear: "Clear" },
-    de: { label: "Glossar durchsuchen", ph: "Begriff suchen: No Bird, Doublette, Choke…", all: "Alle", cats: "Kategorien", found: "Gefunden: {n}", none: "Nichts gefunden. Versuchen Sie ein anderes Wort oder den englischen Begriff.", in_cat: "{c}: {n}", clear: "Löschen" },
-    fr: { label: "Rechercher dans le glossaire", ph: "Chercher un terme : No Bird, doublé, choke…", all: "Tous", cats: "Catégories", found: "Résultats : {n}", none: "Aucun résultat. Essayez un autre mot ou le terme anglais.", in_cat: "{c} : {n}", clear: "Effacer" },
-    it: { label: "Cerca nel glossario", ph: "Cerca un termine: No Bird, doppietto, choke…", all: "Tutti", cats: "Categorie", found: "Risultati: {n}", none: "Nessun risultato. Prova un'altra parola o il termine inglese.", in_cat: "{c}: {n}", clear: "Cancella" },
-    cs: { label: "Hledat v glosáři", ph: "Hledat termín: No Bird, dvojstřel, zahrdlení…", all: "Vše", cats: "Kategorie", found: "Nalezeno: {n}", none: "Nic nenalezeno. Zkuste jiné slovo nebo anglický termín.", in_cat: "{c}: {n}", clear: "Vymazat" },
-    pl: { label: "Szukaj w słowniku", ph: "Szukaj terminu: No Bird, dublet, czok…", all: "Wszystkie", cats: "Kategorie", found: "Znaleziono: {n}", none: "Nic nie znaleziono. Spróbuj innego słowa lub angielskiej nazwy.", in_cat: "{c}: {n}", clear: "Wyczyść" },
-    pt: { label: "Pesquisar no glossário", ph: "Procurar um termo: No Bird, dupla, choke…", all: "Todos", cats: "Categorias", found: "Resultados: {n}", none: "Nada encontrado. Experimente outra palavra ou o termo em inglês.", in_cat: "{c}: {n}", clear: "Limpar" },
-    hu: { label: "Keresés a szótárban", ph: "Kifejezés keresése: No Bird, dublé, choke…", all: "Mind", cats: "Kategóriák", found: "Találatok: {n}", none: "Nincs találat. Próbáljon másik szót vagy az angol kifejezést.", in_cat: "{c}: {n}", clear: "Törlés" },
-    fi: { label: "Hae sanastosta", ph: "Hae termiä: No Bird, tupla, choke…", all: "Kaikki", cats: "Luokat", found: "Löytyi: {n}", none: "Ei tuloksia. Kokeile toista sanaa tai englanninkielistä termiä.", in_cat: "{c}: {n}", clear: "Tyhjennä" },
-    lt: { label: "Ieškoti žodyne", ph: "Ieškoti termino: No Bird, dubletas, choke…", all: "Visi", cats: "Kategorijos", found: "Rasta: {n}", none: "Nieko nerasta. Pabandykite kitą žodį arba anglišką terminą.", in_cat: "{c}: {n}", clear: "Išvalyti" }
+    uk: { label: "Пошук у глосарії", ph: "Знайти термін: No Bird, дуплет, чок…", all: "Усі", cats: "Категорії", found: "Знайдено: {n}", none: "Нічого не знайдено. Спробуйте інше слово або англійську назву.", in_cat: "{c}: {n}", clear: "Очистити", ph2: "Знайти інший термін…", more: "Усі результати в глосарії" },
+    en: { label: "Search the glossary", ph: "Find a term: No Bird, double, choke…", all: "All", cats: "Categories", found: "{n} found", none: "Nothing found. Try another word.", in_cat: "{c}: {n}", clear: "Clear", ph2: "Find another term…", more: "All results in the glossary" },
+    de: { label: "Glossar durchsuchen", ph: "Begriff suchen: No Bird, Doublette, Choke…", all: "Alle", cats: "Kategorien", found: "Gefunden: {n}", none: "Nichts gefunden. Versuchen Sie ein anderes Wort oder den englischen Begriff.", in_cat: "{c}: {n}", clear: "Löschen", ph2: "Anderen Begriff suchen…", more: "Alle Ergebnisse im Glossar" },
+    fr: { label: "Rechercher dans le glossaire", ph: "Chercher un terme : No Bird, doublé, choke…", all: "Tous", cats: "Catégories", found: "Résultats : {n}", none: "Aucun résultat. Essayez un autre mot ou le terme anglais.", in_cat: "{c} : {n}", clear: "Effacer", ph2: "Chercher un autre terme…", more: "Tous les résultats dans le glossaire" },
+    it: { label: "Cerca nel glossario", ph: "Cerca un termine: No Bird, doppietto, choke…", all: "Tutti", cats: "Categorie", found: "Risultati: {n}", none: "Nessun risultato. Prova un'altra parola o il termine inglese.", in_cat: "{c}: {n}", clear: "Cancella", ph2: "Cerca un altro termine…", more: "Tutti i risultati nel glossario" },
+    cs: { label: "Hledat v glosáři", ph: "Hledat termín: No Bird, dvojstřel, zahrdlení…", all: "Vše", cats: "Kategorie", found: "Nalezeno: {n}", none: "Nic nenalezeno. Zkuste jiné slovo nebo anglický termín.", in_cat: "{c}: {n}", clear: "Vymazat", ph2: "Hledat jiný termín…", more: "Všechny výsledky v glosáři" },
+    pl: { label: "Szukaj w słowniku", ph: "Szukaj terminu: No Bird, dublet, czok…", all: "Wszystkie", cats: "Kategorie", found: "Znaleziono: {n}", none: "Nic nie znaleziono. Spróbuj innego słowa lub angielskiej nazwy.", in_cat: "{c}: {n}", clear: "Wyczyść", ph2: "Szukaj innego terminu…", more: "Wszystkie wyniki w słowniku" },
+    pt: { label: "Pesquisar no glossário", ph: "Procurar um termo: No Bird, dupla, choke…", all: "Todos", cats: "Categorias", found: "Resultados: {n}", none: "Nada encontrado. Experimente outra palavra ou o termo em inglês.", in_cat: "{c}: {n}", clear: "Limpar", ph2: "Procurar outro termo…", more: "Todos os resultados no glossário" },
+    hu: { label: "Keresés a szótárban", ph: "Kifejezés keresése: No Bird, dublé, choke…", all: "Mind", cats: "Kategóriák", found: "Találatok: {n}", none: "Nincs találat. Próbáljon másik szót vagy az angol kifejezést.", in_cat: "{c}: {n}", clear: "Törlés", ph2: "Másik kifejezés keresése…", more: "Összes találat a szótárban" },
+    fi: { label: "Hae sanastosta", ph: "Hae termiä: No Bird, tupla, choke…", all: "Kaikki", cats: "Luokat", found: "Löytyi: {n}", none: "Ei tuloksia. Kokeile toista sanaa tai englanninkielistä termiä.", in_cat: "{c}: {n}", clear: "Tyhjennä", ph2: "Hae toista termiä…", more: "Kaikki tulokset sanastossa" },
+    lt: { label: "Ieškoti žodyne", ph: "Ieškoti termino: No Bird, dubletas, choke…", all: "Visi", cats: "Kategorijos", found: "Rasta: {n}", none: "Nieko nerasta. Pabandykite kitą žodį arba anglišką terminą.", in_cat: "{c}: {n}", clear: "Išvalyti", ph2: "Ieškoti kito termino…", more: "Visi rezultatai žodyne" }
   };
   const S = lang => STR[lang] || STR.en;
   const fill = (s, o) => s.replace(/\{(\w+)\}/g, (m, k) => (o[k] != null ? o[k] : m));
@@ -46,7 +49,10 @@
 .gs-st{min-height:1.65em;margin:10px 0 0;font-size:13.5px;color:var(--muted)}
 .gs-res{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px}.gs-res a{display:grid;gap:2px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);text-decoration:none;color:var(--soft)}
 .gs-res a:hover,.gs-res a:focus-visible{border-color:var(--em);background:rgba(52,211,153,.07);outline:none}.gs-res b{color:var(--ink);font-size:16.5px}.gs-res small{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.gs-res .gs-d{font-size:14.5px;line-height:1.5}
-.gs-res[hidden],.gs-hide{display:none!important}`;
+.gs-res[hidden],.gs-hide{display:none!important}
+.gs-mini{position:relative;margin:2px 0 16px}.gs-mini .gs-q{min-height:44px;font-size:16px;padding-block:9px}
+.gs-pop{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:40;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;max-height:min(62vh,460px);overflow:auto;box-shadow:0 14px 34px rgba(0,0,0,.55)}
+.gs-pop[hidden]{display:none}.gs-pop .gs-st{margin:4px 8px 6px;min-height:0}.gs-pop .gs-st[hidden]{display:none}.gs-pop .gs-res{margin:0}.gs-pop .gs-res a{border-color:transparent;background:transparent;padding:8px 10px}.gs-more{font-size:14px;font-weight:600;color:var(--em)!important}`;
 
   /* form(lang, cats, esc): the static markup of the box. cats = [{slug, name, n}] in page order; n = terms in the category. */
   function form(lang, cats, esc) {
@@ -55,6 +61,14 @@
 <label class="gs-l" for="gsQ">${esc(s.label)}</label><div class="gs-box"><input id="gsQ" class="gs-q" type="search" name="q" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" placeholder="${esc(s.ph)}"><button class="gs-x" type="button" aria-label="${esc(s.clear)}" hidden>×</button></div>
 <nav class="gs-cats" aria-label="${esc(s.cats)}"><a class="gs-c" href="#gsQ" data-cat="" aria-current="true">${esc(s.all)} <span>${total}</span></a>${cats.map(c => `<a class="gs-c" href="#cat-${esc(c.slug)}" data-cat="${esc(c.slug)}">${esc(c.name)} <span>${c.n}</span></a>`).join("")}</nav>
 <p class="gs-st" aria-live="polite"></p><ol class="gs-res" hidden></ol></form>`;
+  }
+
+  /* mini(lang, esc): the compact box of a term page; the data is the index page "../" of the same language (data-src). */
+  function mini(lang, esc) {
+    const s = S(lang);
+    return `<form class="gs gs-mini" role="search" data-gsearch data-lang="${esc(lang)}" data-src="../" action="../">
+<label class="gs-l" for="gsQ">${esc(s.label)}</label><div class="gs-box"><input id="gsQ" class="gs-q" type="search" name="q" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" placeholder="${esc(s.ph2)}"><button class="gs-x" type="button" aria-label="${esc(s.clear)}" hidden>×</button></div>
+<div class="gs-pop" hidden><p class="gs-st" aria-live="polite"></p><ol class="gs-res" hidden></ol></div></form>`;
   }
 
   /* ---- browser ---- */
@@ -66,16 +80,23 @@
     const skel = CT.skel || null, latin = CT.latin || (x => norm(x)), lev = CT.lev || ((a, b) => (a === b ? 0 : 9));
     const bare = x => latin(x).replace(/[^a-z]/g, "");
     const Q = F.querySelector(".gs-q"), X = F.querySelector(".gs-x"), ST = F.querySelector(".gs-st"), R = F.querySelector(".gs-res");
+    const MINI = F.dataset.src != null, POP = F.querySelector(".gs-pop"), SRC = MINI ? new URL(F.dataset.src, location.href).href : "";
     const chips = [...F.querySelectorAll(".gs-c")];
-    const lists = [...document.querySelectorAll(".list[data-cat]")];
-    const catName = {}; chips.forEach(c => { if (c.dataset.cat) catName[c.dataset.cat] = c.firstChild.textContent.trim(); });
+    const lists = MINI ? [] : [...document.querySelectorAll(".list[data-cat]")];
+    const catName = {};
     const split = v => (v || "").split("|").map(x => x.trim()).filter(Boolean);
     const words = v => v.split(/[^\p{L}\p{N}]+/u).filter(Boolean);
     const T = [];
-    for (const L of lists) for (const a of L.querySelectorAll("a[data-k]")) {
-      const k = split(a.dataset.k).map(norm), al = split(a.dataset.a).map(norm), d = a.dataset.d || "";
-      T.push({ a, cat: L.dataset.cat, k, al, d, dw: words(norm(d)), sk: skel ? [...split(a.dataset.k), ...split(a.dataset.a)].map(v => [skel(v), bare(v)]) : [] });
-    }
+    function collect(doc) { // the term links of an index page (this one, or the one a term page fetched)
+      doc.querySelectorAll(".gs-c").forEach(c => { if (c.dataset.cat) catName[c.dataset.cat] = c.firstChild.textContent.trim(); });
+      for (const L of doc.querySelectorAll(".list[data-cat]")) for (const a of L.querySelectorAll("a[data-k]")) {
+        const k = split(a.dataset.k).map(norm), al = split(a.dataset.a).map(norm), d = a.dataset.d || "";
+        T.push({ a, cat: L.dataset.cat, k, al, d, dw: words(norm(d)), sk: skel ? [...split(a.dataset.k), ...split(a.dataset.a)].map(v => [skel(v), bare(v)]) : [] });
+      } }
+    let loading = null;
+    const load = () => loading || (loading = fetch(SRC).then(r => (r.ok ? r.text() : Promise.reject(r.status)))
+      .then(h => collect(new DOMParser().parseFromString(h, "text/html"))).catch(() => { loading = null; }));
+    if (!MINI) collect(document);
     let cat = "", q = "";
 
     /* score of one term for the query (lower = better; null = no match) */
@@ -94,7 +115,21 @@
     }
     const esc = v => String(v).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+    const rank = n => { const qw = words(n), qs = skel && n.replace(/[^\p{L}]/gu, "").length >= 3 ? skel(q) : "", qb = qs ? bare(q) : "";
+      return T.filter(t => !cat || t.cat === cat).map(t => [t, score(t, n, qw, qs, qb)]).filter(([, sc]) => sc !== null)
+        .sort((x, y) => x[1] - y[1] || x[0].a.textContent.localeCompare(y[0].a.textContent)); };
+    const item = (t, withCat) => `<li><a href="${esc(t.a.getAttribute("href"))}"><b>${t.a.innerHTML}</b>${withCat ? `<small>${esc(catName[t.cat] || "")}</small>` : ""}${t.d ? `<span class="gs-d">${esc(t.d)}</span>` : ""}</a></li>`;
+    function renderMini() { // term page: the best 8 in a drop-down, then "all results" on the index page
+      const n = norm(q); X.hidden = !q;
+      if (!n) { POP.hidden = true; R.innerHTML = ""; return; }
+      if (!T.length) { load().then(() => { if (T.length && norm(Q.value) === n) renderMini(); }); return; }
+      const hits = rank(n), more = new URL(SRC); more.searchParams.set("q", q.trim());
+      ST.textContent = hits.length ? "" : s.none; ST.hidden = !!hits.length;
+      R.innerHTML = hits.slice(0, 8).map(([t]) => item(t, true)).join("") + (hits.length > 8 ? `<li><a class="gs-more" href="${esc(more.href)}">${esc(s.more)} (${hits.length}) →</a></li>` : "");
+      R.hidden = !hits.length; POP.hidden = false;
+    }
     function render() {
+      if (MINI) return renderMini();
       const n = norm(q);
       chips.forEach(c => c.setAttribute("aria-current", String(c.dataset.cat === cat)));
       { const on = chips.find(c => c.dataset.cat === cat), row = on && on.parentNode; // narrow screens: the chips scroll in one row
@@ -107,26 +142,30 @@
         return;
       }
       lists.forEach(L => { L.classList.add("gs-hide"); const h = document.getElementById("cat-" + L.dataset.cat); if (h) h.classList.add("gs-hide"); });
-      const qw = words(n), qs = skel && n.replace(/[^\p{L}]/gu, "").length >= 3 ? skel(q) : "", qb = qs ? bare(q) : "";
-      const hits = T.filter(t => !cat || t.cat === cat).map(t => [t, score(t, n, qw, qs, qb)]).filter(([, sc]) => sc !== null)
-        .sort((x, y) => x[1] - y[1] || x[0].a.textContent.localeCompare(y[0].a.textContent));
+      const hits = rank(n);
       ST.textContent = hits.length ? fill(s.found, { n: hits.length }) : s.none;
-      R.innerHTML = hits.slice(0, 80).map(([t]) => `<li><a href="${esc(t.a.getAttribute("href"))}"><b>${t.a.innerHTML}</b>${cat ? "" : `<small>${esc(catName[t.cat] || "")}</small>`}${t.d ? `<span class="gs-d">${esc(t.d)}</span>` : ""}</a></li>`).join("");
+      R.innerHTML = hits.slice(0, 80).map(([t]) => item(t, !cat)).join("");
       R.hidden = !hits.length;
     }
     let tUrl = 0;
-    function syncUrl() { clearTimeout(tUrl); tUrl = setTimeout(() => { try {
+    function syncUrl() { if (MINI) return; clearTimeout(tUrl); tUrl = setTimeout(() => { try {
       const u = new URL(location.href); q.trim() ? u.searchParams.set("q", q.trim()) : u.searchParams.delete("q"); cat ? u.searchParams.set("cat", cat) : u.searchParams.delete("cat");
       if (u.hash.startsWith("#cat-") || u.hash === "#gsQ") u.hash = ""; history.replaceState(history.state, "", u.pathname + u.search + u.hash);
     } catch (e) { /* file:// or an old browser: no deep link, the search still works */ } }, 300); }
 
     Q.addEventListener("input", () => { q = Q.value; render(); syncUrl(); });
-    F.addEventListener("submit", e => { e.preventDefault(); const first = R.querySelector("a"); if (first) location.href = first.href; });
+    // Enter: the first result; on a term page whose data has not arrived yet the form goes to the index page as ?q=…
+    F.addEventListener("submit", e => { const first = R.querySelector("a"); if (first) { e.preventDefault(); location.href = first.href; } else if (!MINI) e.preventDefault(); });
+    if (MINI) { // data on the first focus; the drop-down closes on Esc, a click elsewhere, or when the focus leaves the box
+      Q.addEventListener("focus", () => { load(); if (q) renderMini(); });
+      document.addEventListener("click", e => { if (!F.contains(e.target)) POP.hidden = true; });
+      F.addEventListener("focusout", e => { if (!F.contains(e.relatedTarget)) POP.hidden = true; }); }
     X.addEventListener("click", () => { Q.value = q = ""; render(); syncUrl(); Q.focus(); });
     chips.forEach(c => c.addEventListener("click", e => { e.preventDefault(); cat = c.dataset.cat === cat ? "" : c.dataset.cat; render(); syncUrl();
       if (!q && cat) { const h = document.getElementById("cat-" + cat); if (h) h.scrollIntoView({ block: "start", behavior: "smooth" }); } }));
     Q.addEventListener("keydown", e => {
-      if (e.key === "Escape" && q) { e.preventDefault(); Q.value = q = ""; render(); syncUrl(); }
+      if (e.key === "Escape" && MINI && !POP.hidden) { e.preventDefault(); POP.hidden = true; }
+      else if (e.key === "Escape" && q) { e.preventDefault(); Q.value = q = ""; render(); syncUrl(); }
       else if (e.key === "ArrowDown") { const first = R.querySelector("a"); if (first) { e.preventDefault(); first.focus(); } } });
     R.addEventListener("keydown", e => {
       const items = [...R.querySelectorAll("a")], i = items.indexOf(document.activeElement); if (i < 0) return;
@@ -138,14 +177,14 @@
       const el = document.activeElement; if (el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
       e.preventDefault(); Q.focus(); Q.select(); });
 
-    // the state of a shared link: ?q=…&cat=… (or a #cat-<slug> anchor)
-    try { const u = new URL(location.href); q = u.searchParams.get("q") || ""; cat = u.searchParams.get("cat") || "";
+    // the state of a shared link: ?q=…&cat=… (or a #cat-<slug> anchor); index pages only
+    if (!MINI) try { const u = new URL(location.href); q = u.searchParams.get("q") || ""; cat = u.searchParams.get("cat") || "";
       if (!cat && u.hash.startsWith("#cat-")) cat = u.hash.slice(5);
       if (cat && !lists.some(L => L.dataset.cat === cat)) cat = ""; } catch (e) {}
-    Q.value = q; if (q || cat) render();
+    if (!MINI) { Q.value = q; if (q || cat) render(); }
   }
 
-  const API = { STR, CSS, form, catSlug };
+  const API = { STR, CSS, form, mini, catSlug };
   if (root) root.ClayGlossarySearch = API;
   if (typeof module === "object" && module && module.exports) module.exports = API;
   if (typeof document !== "undefined" && document.querySelector) {

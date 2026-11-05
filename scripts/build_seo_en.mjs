@@ -60,9 +60,9 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
       // "Learn it": Academy lessons that teach the term (scripts/build_academy.mjs learnLinks)
       const learn = ACADEMY.learnLinks(t.id, "en").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
       const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_en, `en/glossary/${t.id}/`), termCode: t.id, url: en, inDefinedTermSet: SET, inLanguage: "en" }];
-      const html = head({ title, desc, url: en, uk, en, ld, img: "glossary" }) + bar(crumbs("en", "📖", [{ label: "Glossary", url: `${BASE}en/glossary/` }, { label: name }]), en, uk, true) + `
+      const html = head({ title, desc, url: en, uk, en, ld, img: "glossary", css: GS.CSS }) + bar(crumbs("en", "📖", [{ label: "Glossary", url: `${BASE}en/glossary/` }, { label: name }]), en, uk, true) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
-<div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}
+${GS.mini("en", esc)}<div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}
 <h2>What it is</h2><p><b>${esc(t.short_en)}</b></p>
 ${t.long_en ? `<h2>In detail</h2><p>${esc(t.long_en)}</p>` : ""}
 ${disc ? `<h2>In Sporting™ and Compak® Sporting</h2>${disc}` : ""}

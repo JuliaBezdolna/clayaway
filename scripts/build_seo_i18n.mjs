@@ -111,12 +111,12 @@ ${alts(l => termUrl(l, t.id), t.id)}
 <!-- /hreflang -->
 ${og({ lang, title, desc, url, U })}
 ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n")}
-<style>${CSS}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}</style>
+<style>${CSS}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}${GS.CSS}</style>
 </head>
 <body>
 <header><div class="in">${crumbs(lang, "📖", [{ label: U.gl, url: listUrl(lang) }, { label: lb.label }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
-<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}
+${GS.mini(lang, esc)}<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}
 <h2>${U.what}</h2><p><b>${esc(x.short)}</b></p>
 ${x.long ? `<h2>${U.detail}</h2><p>${esc(x.long)}</p>` : ""}
 ${disc ? `<h2>${U.disc}</h2>${disc}` : ""}

@@ -277,7 +277,7 @@ function glossaryPages() {
 <meta property="og:locale" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/glossary.png">
 <meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${css}${name ? "" : GS.CSS}</style>
+<style>${css}${GS.CSS}</style>
 </head>
 <body>
 <header><div class="in">${crumbs("uk", "📖", name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">📘 Правила FITASC</a>
@@ -296,7 +296,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${termHtml("uk", GBY[r])}</a>`).join(" ");
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
     const learn = ACADEMY.learnLinks(t.id, "uk").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
-    const body = `<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
+    const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
 <h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p>
 ${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
 ${disc ? `<h2>У Sporting™ і Compak® Sporting</h2>${disc}` : ""}
@@ -540,9 +540,6 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       const h2 = h.replace(/<script\b([^>]*?)\bsrc="([^"]*?)shared\/sims\.min\.js"([^>]*)><\/script>/, (m, a, pre, b) => `<script${a}src="${pre}shared/terms.js"${b}></script>\n${m}`);
       if (h2 !== h) { h = h2; changed = true; } }
     if (!h.includes("shared/nav.js")) { h = h.replace("</head>", `<script src="${rel}shared/nav.js" defer></script>\n</head>`); changed = true; }
-    // Glossary index pages (all languages): the search (docs/shared/glossary-search.js; ClayTerms.flat/skel of terms.js match)
-    if (/^(?:[a-z]{2}\/)?glossary\/index\.html$/.test(rp) && h.includes("data-gsearch") && !h.includes("shared/glossary-search.js")) {
-      h = h.replace("</body>", `<script src="${rel}shared/terms.js" defer></script><script src="${rel}shared/glossary-search.js" defer></script>\n</body>`); changed = true; }
     // Glossary term pages (all languages): English pronunciation + the shared animation for target / pair / lead terms
     // (docs/shared/sims.js → sims.min.js, TERM_SIMS decides which terms get one; other terms get an empty, invisible host).
     const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
@@ -554,6 +551,9 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
       changed = true;
     }
+    // Glossary pages, index and terms (all languages): the search box (docs/shared/glossary-search.js; ClayTerms of terms.js matches)
+    if (/^(?:[a-z]{2}\/)?glossary\/(?:[a-z0-9-]+\/)?index\.html$/.test(rp) && h.includes("data-gsearch") && !h.includes("shared/glossary-search.js")) {
+      h = h.replace("</body>", `${h.includes("shared/terms.js") ? "" : `<script src="${rel}shared/terms.js" defer></script>`}<script src="${rel}shared/glossary-search.js" defer></script>\n</body>`); changed = true; }
     if (changed) writeFileSync(f, h);
   }
 }
