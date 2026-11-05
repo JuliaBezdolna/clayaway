@@ -278,10 +278,13 @@ globalThis.termLinks = (it, lang) => {
   if (!ids.length) return "";
   return `<div class="ref">${lang === "uk" ? "Терміни" : "Terms"}: ${ids.map(id => `<a href="${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/">${termHtml(lang, GBY[id])}</a>`).join(" · ")}</div>`;
 };
+// Descriptive subtitles of the uk term pages whose h1 is the English word alone ("Battue" → «мішень, що летить ребром і різко
+// падає»): content/glossary/subtitles/uk.json, shown under the h1 and used in <title> (glossary plan, wave 4.3, 05.11.2026).
+const SUB_UK = (() => { try { const j = JSON.parse(readFileSync("content/glossary/subtitles/uk.json", "utf8")); delete j._note; return j; } catch (e) { return {}; } })();
 function glossaryPages() {
   if (!GLOSS) return [];
   const out = [];
-  const css = CSS + `.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}`;
+  const css = CSS + `.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}.h1-sub{margin:-2px 0 12px;font-size:18px;line-height:1.45;color:var(--soft)}`;
   const shell = (title, desc, url, ld, body, name, enUrl) => `<!doctype html>
 <html lang="uk">
 <head>
@@ -309,15 +312,19 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
   const SET = { "@type": "DefinedTermSet", name: "ClayArena clay shooting glossary", url: BASE + "glossary/" };
   for (const t of GLOSS.terms) {
     const url = `${BASE}glossary/${t.id}/`, name = dispTerm(t), lb = termLabel("uk", t); // lb.label = "Rabbit (заєць)"
-    // <title> at most 65 characters (audit W-07): the full title, else "label | site", else "English | site" (the h1 and og:title keep the label)
-    const title = fitTitle(`${lb.label} — термін стендової стрільби | Глосарій ClayArena`, fitTitle(`${lb.label} | Глосарій ClayArena`, `${lb.head} | Глосарій ClayArena`));
+    // the subtitle only where the h1 has no local word (lb.local empty); the FITASC marks as in the names (tm)
+    const sub = SUB_UK[t.id] && !lb.local ? tm(SUB_UK[t.id]) : "";
+    // <title> at most 65 characters (audit W-07): with the subtitle when there is one ("Battue — мішень, що летить ребром і різко
+    // падає | Глосарій ClayArena"), else the full title, else "label | site", else "English | site" (the h1 and og:title keep the label)
+    const plain = fitTitle(`${lb.label} — термін стендової стрільби | Глосарій ClayArena`, fitTitle(`${lb.label} | Глосарій ClayArena`, `${lb.head} | Глосарій ClayArena`));
+    const title = sub ? fitTitle(`${lb.label} — ${sub} | Глосарій ClayArena`, fitTitle(`${lb.label} — ${sub} | ClayArena`, plain)) : plain;
     const desc = fitDesc(tm(`${t.term}: ${t.short_uk}`), "Термін стендової стрільби — глосарій ClayArena.", `glossary/${t.id}/`);
     const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/${r.book}/#${r.id}">${esc(refUk(r))}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, с. ${r.page}</a></li>`).join("");
     const disc = ["sporting", "compak"].filter(k => t.disciplines && t.disciplines[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines[k])}</p></div>`).join("");
     const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${termHtml("uk", GBY[r])}</a>`).join(" ");
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
     const learn = ACADEMY.learnLinks(t.id, "uk").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
-    const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
+    const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
 <h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p>
 ${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
 ${disc ? `<h2>У Sporting™ і Compak® Sporting</h2>${disc}` : ""}
@@ -332,6 +339,8 @@ ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
     writeFileSync(`${DOCS}/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body, lb.label, `${BASE}en/glossary/${t.id}/`));
     out.push(url);
   }
+  { const extra = Object.keys(SUB_UK).filter(id => !GBY[id] || termLabel("uk", GBY[id]).local);
+    if (extra.length) console.log(`WARNING: content/glossary/subtitles/uk.json: no term or the h1 already has a local word, subtitle not shown: ${extra.join(", ")}`); }
   const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
 ${glossaryIndexList("uk", GLOSS.terms, { cat: c => CAT_UK[c] || c, url: t => `${BASE}glossary/${t.id}/`, html: t => termHtml("uk", t), short: t => t.short_uk })}`;
   writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
@@ -573,7 +582,7 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
     const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
     if (gm && !h.includes("ClaySpeak(")) {
       const id = gm[2], term = (GBY[id] || {}).term || id, ui = gm[1] ? "English" : "Вимова англійською";
-      h = h.replace(/<\/h1>/, `</h1><p><button class="btn" type="button" onclick="ClaySpeak(${JSON.stringify(term).replace(/"/g, "&quot;")})" title="en-GB">🔊 ${ui}</button></p>`);
+      h = h.replace(/<\/h1>(<p class="h1-sub">[^<]*<\/p>)?/, m => `${m}<p><button class="btn" type="button" onclick="ClaySpeak(${JSON.stringify(term).replace(/"/g, "&quot;")})" title="en-GB">🔊 ${ui}</button></p>`);
       if (ANIM.has(id)) {
         const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
         if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"${simReserve(id)}></div>\n` + h.slice(second);
