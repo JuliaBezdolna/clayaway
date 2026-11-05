@@ -624,12 +624,12 @@ window.GLOSSARY_I18N.uk = {
    "conf": "high"
   },
   "simultaneous-double": {
-   "term_local": "одночасний дуплет",
+   "term_local": "синхронний дуплет",
    "alt": [
-    "синхронний дуплет",
+    "одночасний дуплет",
     "сім"
    ],
-   "conf": "medium"
+   "conf": "source"
   },
   "rafale-double": {
    "term_local": "рафаль",
@@ -856,7 +856,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "номер"
    ],
-   "conf": "high"
+   "conf": "source"
   },
   "layout": {
    "term_local": "майданчик",
@@ -1111,8 +1111,11 @@ window.GLOSSARY_I18N.uk = {
    "conf": "high"
   },
   "global-dro": {
-   "term_local": "Global DRO",
-   "conf": "high"
+   "term_local": "онлайн-перевірка ліків",
+   "alt": [
+    "Global DRO"
+   ],
+   "conf": "medium"
   },
   "box-breathing": {
    "term_local": "квадратне дихання",
@@ -1647,7 +1650,7 @@ window.GLOSSARY_I18N.uk = {
   },
   "tempo": {
    "term_local": "темп",
-   "conf": "low"
+   "conf": "source"
   },
   "waiting-position": {
    "term_local": "місце очікування",
@@ -1724,6 +1727,42 @@ window.GLOSSARY_I18N.uk = {
   "move-mount-shoot": {
    "term_local": "рух, вкладка, постріл",
    "conf": "low"
+  },
+  "true-pair": {
+   "term_local": "синхронний дуплет",
+   "conf": "source"
+  },
+  "peg": {
+   "term_local": "стрілецьке місце",
+   "conf": "source"
+  },
+  "gun-up": {
+   "term_local": "рушниця вкладена в плече",
+   "conf": "source"
+  },
+  "show-clear": {
+   "term_local": "відкрити рушницю",
+   "conf": "source"
+  },
+  "smoked-it": {
+   "term_local": "мішень у пил",
+   "conf": "medium"
+  },
+  "blazed-target": {
+   "term_local": "мішень з помаранчевим куполом",
+   "conf": "medium"
+  },
+  "fur-and-feather": {
+   "term_local": "дуплет «заєць і птах»",
+   "conf": "medium"
+  },
+  "poking": {
+   "term_local": "прицілювання, як з гвинтівки",
+   "conf": "medium"
+  },
+  "recovery": {
+   "term_local": "повернення рушниці після пострілу",
+   "conf": "medium"
   }
  }
 };

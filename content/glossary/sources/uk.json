@@ -19,6 +19,9 @@
   "bead": {
    "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
   },
+  "blazed-target": {
+   "note": "Descriptive (no source): the Ukrainian rules only say targets must be coloured. 05.11.2026."
+  },
   "bolting-rabbit": {
    "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
   },
@@ -156,9 +159,15 @@
   "full-choke": {
    "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
   },
+  "fur-and-feather": {
+   "note": "Descriptive (no source): British coaching slang. 05.11.2026."
+  },
   "gauge": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
    "note": "Said as «12-й калібр»; chamber length added as 12/70, 12/76."
+  },
+  "global-dro": {
+   "note": "Service name, not translated; local word = what it is. 05.11.2026."
   },
   "grip": {
    "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/",
@@ -178,6 +187,10 @@
   },
   "gun-test": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+  },
+  "gun-up": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=18",
+   "note": "Ukrainian Compak® Sporting rules 2026 (USF), 17.5.2: the gun may be «вкладена в плече або ні» when the target is called. Checked 05.11.2026."
   },
   "hand-signal": {
    "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
@@ -296,8 +309,15 @@
    "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua",
    "note": "«Осип» = the spread pattern; «купчастість» = its density."
   },
+  "peg": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=4",
+   "note": "British word for the shooter's marked place; Ukrainian FITASC rules 2026 (USF), Sporting 2.4 «Стрілецькі місця». Checked 05.11.2026."
+  },
   "penalty": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+  },
+  "poking": {
+   "note": "Descriptive (no source): name of a fault in English coaching. 05.11.2026."
   },
   "powder": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
@@ -349,6 +369,9 @@
   "recoil-pad": {
    "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/",
    "note": "Both «затильник» and «потиличник» appear in shop specs."
+  },
+  "recovery": {
+   "note": "Descriptive (no source): element of technique in English coaching. 05.11.2026."
   },
   "red-card": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
@@ -409,8 +432,8 @@
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "shooting-stand": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Academy usage: «стрілецьке місце»; for the stations of Compak® Sporting always «номер» (owner decision), never «місце»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=4",
+   "note": "Ukrainian FITASC rules 2026 (USF), Sporting 2.4 «Стрілецькі місця обмежуються квадратом зі стороною 1 м». For the stations of Compak® Sporting always «номер» (owner decision), never «місце». Checked 05.11.2026."
   },
   "shooting-vest": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
@@ -423,18 +446,25 @@
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
    "note": "Official rules: «гладкоствольні рушниці». Colloquially shooters also say «ствол»."
   },
+  "show-clear": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАР_-ІНСТРУКЦІЇ-з-КОМП-СПОРТІНГУ_2026-.pdf#page=27",
+   "note": "Ukrainian FITASC rules 2026 (USF): «відкрити рушницю»; Compak safety: «Рушниці слід переносити у відкритому вигляді та розряженими». Checked 05.11.2026."
+  },
   "side-by-side": {
    "note": "Rare on sporting ranges; mostly a hunting gun."
   },
   "simultaneous-double": {
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Rules: duplet = targets «випущені з вікон одночасно»."
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=6",
+   "note": "Ukrainian FITASC rules 2026 (USF), Sporting 4.2.2 «Синхронний дуплет», Compak 3.3.2. Checked 05.11.2026."
   },
   "single-target": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "skeet-choke": {
    "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+  },
+  "smoked-it": {
+   "note": "Descriptive (no source: coaching slang). NOT «мішень пилила / димить»: in the Ukrainian rules that is a ZERO (dust only, no piece). 05.11.2026."
   },
   "sonopull": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
@@ -471,7 +501,8 @@
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "tempo": {
-   "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
+   "src": "https://goroh.pp.ua/Тлумачення/темп",
+   "note": "Ordinary Ukrainian word: «Ступінь швидкості, здійснення, виконання…» (explanatory dictionary). Checked 05.11.2026."
   },
   "top-lever": {
    "note": "Added 09.10.2026 (handover) from the words the Ukrainian lessons already use for this term; conf low until a Ukrainian editor confirms it."
@@ -496,6 +527,10 @@
   "trigger": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
    "note": "Rules: «натискання на спусковий гачок»; «спуск» colloquial."
+  },
+  "true-pair": {
+   "src": "https://usf-shooting.com.ua/wp-content/uploads/2026/03/МІЖНАРОДНІ-ПРАВИЛА-СПОРТІНГУ-2026-.pdf#page=6",
+   "note": "British name of the simultaneous double; Ukrainian FITASC rules 2026 (USF), Sporting 4.2.2 «Синхронний дуплет». Checked 05.11.2026."
   },
   "visible-piece": {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
