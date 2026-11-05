@@ -620,12 +620,14 @@
     const out = body.slice(); out.splice(i, 1); out.splice(p, 0, hero); return out;
   }
   /* No lesson data (offline, a failed request): the static page stays and its animation (figure.st-anim > div.st-sim[data-clay-sim],
-     written by scripts/build_academy.mjs) is mounted by ClaySims.auto() with the texts of docs/shared/sims-text.js (11 languages).
+     written by scripts/build_academy.mjs) is mounted by ClaySims.auto() with the texts of docs/shared/sims-text-<lang>.js (the page
+     language only; the all-language sims-text.js if that file cannot be loaded).
      Without JavaScript the empty figure is hidden by the static CSS of the build (:has(.st-sim:empty)). */
   function staticSims() {
     const app = $("app"); if (!app || !window.ClaySims || !app.querySelector("[data-clay-sim]")) return;
     const go = () => { try { ClaySims.auto(); } catch (e) {} };
-    if (window.CLAYSIMS_TEXT) go(); else loadScript(SITE + "shared/sims-text.js").then(go, go);
+    if (window.CLAYSIMS_TEXT && window.CLAYSIMS_TEXT[LANG]) go();
+    else loadScript(SITE + `shared/sims-text-${LANG}.js`).catch(() => loadScript(SITE + "shared/sims-text.js")).then(go, go);
   }
   function phraseHtml(p, i) {
     return `<div class="ac-phrase"><div class="ac-phrase-h"><span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span>

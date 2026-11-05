@@ -547,7 +547,8 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       if (h2 !== h) { h = h2; changed = true; } }
     if (!h.includes("shared/nav.js")) { h = h.replace("</head>", `<script src="${rel}shared/nav.js" defer></script>\n</head>`); changed = true; }
     // Glossary term pages (all languages): English pronunciation (🔊) + the shared animation of the term. Only the terms of TERM_SIMS
-    // (docs/shared/sims.js, the set ANIM above: 50 of 325) load the animations (terms.js + sims-text.js + sims.min.js ≈ 70 KB gzip);
+    // (docs/shared/sims.js, the set ANIM above: 50 of 325) load the animations (terms.js + sims-text-<lang>.js, the page language only
+    // + sims.min.js ≈ 45 KB gzip);
     // the other pages load docs/shared/speak.js alone (≈ 0.5 KB) for the button (glossary plan, wave 2: page weight, 05.11.2026).
     const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
     if (gm && !h.includes("ClaySpeak(")) {
@@ -556,7 +557,7 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       if (ANIM.has(id)) {
         const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
         if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"></div>\n` + h.slice(second);
-        h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
+        h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text-${gm[1] || "uk"}.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
       } else h = h.replace("</body>", `<script src="${rel}shared/speak.js" defer></script>\n</body>`);
       changed = true;
     }

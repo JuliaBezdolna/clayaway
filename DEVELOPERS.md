@@ -213,7 +213,9 @@ bun scripts/build_seo.mjs; if ($?) { python scripts/make_og.py }; if ($?) { pyth
   осічка, вкладка) і `TERM_SIMS` (термін → анімація); `ClaySims.auto()` монтує `[data-clay-sim]` / `[data-clay-term]` на статичних сторінках;
   `ClaySpeak(text)` — вимова англійською (Web Speech API); з 05.11.2026 її джерело — окремий `docs/shared/speak.js` (≈ 0,9 КБ gzip): `minifySims()`
   кладе його перед `sims.js` у `sims.min.js`, а сторінки глосарію **без анімації** (терміни поза `TERM_SIMS`, 275 із 325) вантажать лише `speak.js`, без
-  `terms.js`, `sims-text.js` і `sims.min.js` (сторінка −60 %: ≈ 115 → 46 КБ gzip; пошук підтягує `terms.js` сам при першому пошуку). Тексти й назви термінів — `docs/shared/sims-text.js` (`CLAYSIMS_TEXT`, `CLAYSIMS_TERMS`).
+  `terms.js`, `sims-text.js` і `sims.min.js` (сторінка −60 %: ≈ 115 → 46 КБ gzip; пошук підтягує `terms.js` сам при першому пошуку). Тексти й назви термінів — `docs/shared/sims-text.js` (`CLAYSIMS_TEXT`, `CLAYSIMS_TERMS`). З 05.11.2026 збірка пише ще й
+  `docs/shared/sims-text-<мова>.js` — лише одна мова (≈ 3–4 КБ gzip замість ≈ 28 КБ): їх вантажать сторінки глосарію з анімацією й запасний
+  режим Академії; повний `sims-text.js` лишається для сторінок, що перемикають мову на місці (тренажер правил).
   **Сторінки підключають `docs/shared/sims.min.js`** — мінімізовану копію `sims.js`, яку пише кожна збірка (`minifySims()` у `build_academy.mjs`;
   ≈ 78 КБ, gzip ≈ 29 КБ замість ≈ 181 КБ з коментарями (10.2026); малює піксель у піксель так само). Джерело одне — `sims.js` (коментарі для команди):
   правити лише його й перезібрати, `.min`-файл не редагувати. `build_seo.mjs` переводить на `.min` і рукописні сторінки (`docs/learn/index.html`,

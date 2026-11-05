@@ -34,6 +34,9 @@
      <p>learn/<retired id>/      redirect stubs of retired lessons in every language (group H; their lessons/<id>.json is removed)
      sitemap-learn-<lang>.xml    one sitemap per language (scripts/build_seo.mjs lists them in the sitemap index)
      og/og-list.json             the share pictures to draw (python scripts/make_og.py reads it)
+     shared/sims-text-<lang>.js  the same, ONE language each (≈ 3 KB gzip instead of ≈ 28 KB): what a page in one language loads (the
+                                 glossary term pages with an animation, the Academy's static fallback); sims-text.js keeps all 11
+                                 for pages that switch the language in place (the rules trainer)
      shared/sims-text.js         texts of the shared animations, from content/academy/ui/<lang>.json, and the term names they (and the
                                  rules trainer options) show: window.CLAYSIMS_TERMS = {lang: {id: [en, local?]}}
      shared/sims.min.js          the shared animations as the pages load them: docs/shared/sims.js minified (see minifySims())
@@ -1751,7 +1754,11 @@ ${STUB_NOINDEX ? '<meta name="robots" content="noindex, follow">\n' : ""}<link r
     const termIds = uniq([...((SIMREG && SIMREG.TERMS) || []), "pick-up-point", "hold-point", "break-point", "soft-focus", "hard-focus", ...TRAINER_TERMS]).map(id => termId(id) || id).filter(id => GBY[id]);
     const tn = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(termIds.map(id => { const n = termNames(L, id);
       return [id, n.local ? [n.en, L === "uk" ? ukApos(n.local) : n.local] : [n.en]]; }))]));
-    FILES.set("shared/sims-text.js", `/* ${GEN} from content/academy/ui/<lang>.json and the glossary — texts of docs/shared/sims.js (all 11 ClayArena languages; English where a translation is missing) and the names of the terms the animations show. Do not edit. */\nwindow.CLAYSIMS_TEXT = ${JSON.stringify(st)};\nwindow.CLAYSIMS_TERMS = ${JSON.stringify(tn)};\n`); }
+    FILES.set("shared/sims-text.js", `/* ${GEN} from content/academy/ui/<lang>.json and the glossary — texts of docs/shared/sims.js (all 11 ClayArena languages; English where a translation is missing) and the names of the terms the animations show. Do not edit. */\nwindow.CLAYSIMS_TEXT = ${JSON.stringify(st)};\nwindow.CLAYSIMS_TERMS = ${JSON.stringify(tn)};\n`);
+    // one language per file (glossary plan, wave 2: page weight, 05.11.2026): every key is filled (English where a translation is
+    // missing), so a page in that language needs nothing else; the objects merge into what another file has set already
+    for (const L of LANGS) FILES.set(`shared/sims-text-${L}.js`, `/* ${GEN} from content/academy/ui/${L}.json and the glossary — the texts of docs/shared/sims.js and the names of the terms the animations show, ${L} only (all languages: sims-text.js). Do not edit. */\n`
+      + `(window.CLAYSIMS_TEXT = window.CLAYSIMS_TEXT || {})[${JSON.stringify(L)}] = ${JSON.stringify(st[L])};\n(window.CLAYSIMS_TERMS = window.CLAYSIMS_TERMS || {})[${JSON.stringify(L)}] = ${JSON.stringify(tn[L])};\n`); }
   // canvas words (review 08.10.2026): the "line" pill of the stand scenes sits between the referee and the shooter's vest; since
   // 08.10.2026 it is the English "line" in every language (sims.js CANVAS_EN; the old ui key anim_line and its length check are gone)
   // the animations as the pages load them (minifySims(): docs/shared/sims.js minified; the source is read from the repo, not from --out)
