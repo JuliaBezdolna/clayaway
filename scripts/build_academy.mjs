@@ -119,9 +119,12 @@ export const sha8 = s => createHash("sha1").update(String(s), "utf8").digest("he
    sims.js and rebuild; never edit the .min file. Without Bun the source is copied as it is (warning "sims-min"), so a page never
    loads a missing or stale file. The checks of this build (S-09 registry, kind()) read the source. Production (clayarena.com): the
    front-end bundler minifies it the same way. */
+// docs/shared/speak.js (window.ClaySpeak, English pronunciation) goes in front of it: the pages with animations keep ClaySpeak in one
+// file, and the glossary term pages without an animation load speak.js alone (05.11.2026).
 export function minifySims(docsRoot = DOCS) {
-  const src = readFileSync(path.join(docsRoot, "shared", "sims.js"), "utf8");
-  const head = `/* ${GEN} from docs/shared/sims.js (the source, with the comments for the team): the minified copy the pages load. Do not edit: change docs/shared/sims.js and rebuild. */\n`;
+  const sp = path.join(docsRoot, "shared", "speak.js");
+  const src = (existsSync(sp) ? readFileSync(sp, "utf8") + "\n" : "") + readFileSync(path.join(docsRoot, "shared", "sims.js"), "utf8");
+  const head = `/* ${GEN} from docs/shared/speak.js + docs/shared/sims.js (the sources, with the comments for the team): the minified copy the pages load. Do not edit: change the sources and rebuild. */\n`;
   try { if (typeof Bun !== "undefined" && Bun.Transpiler) return { code: head + new Bun.Transpiler({ loader: "js", minify: true }).transformSync(src), minified: true }; } catch (e) {}
   return { code: head + src, minified: false };
 }

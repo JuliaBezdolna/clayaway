@@ -546,20 +546,24 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       const h2 = h.replace(/<script\b([^>]*?)\bsrc="([^"]*?)shared\/sims\.min\.js"([^>]*)><\/script>/, (m, a, pre, b) => `<script${a}src="${pre}shared/terms.js"${b}></script>\n${m}`);
       if (h2 !== h) { h = h2; changed = true; } }
     if (!h.includes("shared/nav.js")) { h = h.replace("</head>", `<script src="${rel}shared/nav.js" defer></script>\n</head>`); changed = true; }
-    // Glossary term pages (all languages): English pronunciation + the shared animation for target / pair / lead terms
-    // (docs/shared/sims.js → sims.min.js, TERM_SIMS decides which terms get one; other terms get an empty, invisible host).
+    // Glossary term pages (all languages): English pronunciation (🔊) + the shared animation of the term. Only the terms of TERM_SIMS
+    // (docs/shared/sims.js, the set ANIM above: 50 of 325) load the animations (terms.js + sims-text.js + sims.min.js ≈ 70 KB gzip);
+    // the other pages load docs/shared/speak.js alone (≈ 0.5 KB) for the button (glossary plan, wave 2: page weight, 05.11.2026).
     const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
-    if (gm && !h.includes("data-clay-term")) {
+    if (gm && !h.includes("ClaySpeak(")) {
       const id = gm[2], term = (GBY[id] || {}).term || id, ui = gm[1] ? "English" : "Вимова англійською";
       h = h.replace(/<\/h1>/, `</h1><p><button class="btn" type="button" onclick="ClaySpeak(${JSON.stringify(term).replace(/"/g, "&quot;")})" title="en-GB">🔊 ${ui}</button></p>`);
-      const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
-      if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"></div>\n` + h.slice(second);
-      h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
+      if (ANIM.has(id)) {
+        const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
+        if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"></div>\n` + h.slice(second);
+        h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
+      } else h = h.replace("</body>", `<script src="${rel}shared/speak.js" defer></script>\n</body>`);
       changed = true;
     }
-    // Glossary pages, index and terms (all languages): the search box (docs/shared/glossary-search.js; ClayTerms of terms.js matches)
+    // Glossary pages, index and terms (all languages): the search box (docs/shared/glossary-search.js; ClayTerms of terms.js matches).
+    // The index loads terms.js with it; a term page without it gets terms.js from the search on the first search (lazy).
     if (/^(?:[a-z]{2}\/)?glossary\/(?:[a-z0-9-]+\/)?index\.html$/.test(rp) && h.includes("data-gsearch") && !h.includes("shared/glossary-search.js")) {
-      h = h.replace("</body>", `${h.includes("shared/terms.js") ? "" : `<script src="${rel}shared/terms.js" defer></script>`}<script src="${rel}shared/glossary-search.js" defer></script>\n</body>`); changed = true; }
+      h = h.replace("</body>", `${gm || h.includes("shared/terms.js") ? "" : `<script src="${rel}shared/terms.js" defer></script>`}<script src="${rel}shared/glossary-search.js" defer></script>\n</body>`); changed = true; }
     if (changed) writeFileSync(f, h);
   }
 }

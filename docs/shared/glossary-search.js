@@ -18,11 +18,15 @@
    page stays the plain index). Keys: "/" focuses the box, ↓/↑ walk the results, Enter opens the first one, Esc clears.
    Term pages (all languages) get the compact box of mini(lang, esc): the same matching in a drop-down list; the search data is the
    index page of the language ("../", data-src), fetched on the first focus or key (one request, the browser caches it), so the term
-   pages carry no copy of it. Without JavaScript the box submits to the index page as ?q=…, where the full search runs.
+   pages carry no copy of it; docs/shared/terms.js (the matching) is loaded at the same moment when the page has not got it (only
+   the term pages with an animation load it anyway). Without JavaScript the box submits to the index page as ?q=….
    Interface strings: STR below (11 ClayArena languages, never others). Production (clayarena.com): the same box in the site
    template, fed by the same data attributes or by the glossary API. */
 (function (root) {
   "use strict";
+  // the folder of this file (docs/shared/), for loading terms.js on demand on the term pages
+  const ME = typeof document !== "undefined" ? document.currentScript : null;
+  const HERE = ME && ME.src ? ME.src.replace(/glossary-search\.js(?:[?#].*)?$/, "") : "";
   const STR = {
     uk: { label: "Пошук у глосарії", ph: "Знайти термін: No Bird, дуплет, чок…", all: "Усі", cats: "Категорії", found: "Знайдено: {n}", none: "Нічого не знайдено. Спробуйте інше слово або англійську назву.", in_cat: "{c}: {n}", clear: "Очистити", ph2: "Знайти інший термін…", more: "Усі результати в глосарії", anim: "З анімацією" },
     en: { label: "Search the glossary", ph: "Find a term: No Bird, double, choke…", all: "All", cats: "Categories", found: "{n} found", none: "Nothing found. Try another word.", in_cat: "{c}: {n}", clear: "Clear", ph2: "Find another term…", more: "All results in the glossary", anim: "With animation" },
@@ -78,10 +82,12 @@
   /* ---- browser ---- */
   function init() {
     const F = document.querySelector("form[data-gsearch]"); if (!F) return;
-    const CT = root.ClayTerms || {}, s = S(F.dataset.lang || document.documentElement.lang);
-    const flat = CT.flat || (x => String(x || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[-\s]+/g, " ").trim());
+    const s = S(F.dataset.lang || document.documentElement.lang);
+    const C = () => root.ClayTerms || {}; // read when used: a term page loads terms.js only on the first search
+    const flat = x => (C().flat ? C().flat(x) : String(x || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[-\s]+/g, " ").trim());
     const norm = x => flat(String(x || "").replace(/ʼ/g, "'"));
-    const skel = CT.skel || null, latin = CT.latin || (x => norm(x)), lev = CT.lev || ((a, b) => (a === b ? 0 : 9));
+    const skel = v => C().skel(v), hasSkel = () => !!C().skel;
+    const latin = x => (C().latin ? C().latin(x) : norm(x)), lev = (a, b) => (C().lev ? C().lev(a, b) : (a === b ? 0 : 9));
     const bare = x => latin(x).replace(/[^a-z]/g, "");
     const Q = F.querySelector(".gs-q"), X = F.querySelector(".gs-x"), ST = F.querySelector(".gs-st"), R = F.querySelector(".gs-res");
     const MINI = F.dataset.src != null, POP = F.querySelector(".gs-pop"), SRC = MINI ? new URL(F.dataset.src, location.href).href : "";
@@ -95,10 +101,12 @@
       doc.querySelectorAll(".gs-c").forEach(c => { if (c.dataset.cat) catName[c.dataset.cat] = c.dataset.cat === "anim" ? s.anim : c.firstChild.textContent.trim(); });
       for (const L of doc.querySelectorAll(".list[data-cat]")) for (const a of L.querySelectorAll("a[data-k]")) {
         const k = split(a.dataset.k).map(norm), al = split(a.dataset.a).map(norm), d = a.dataset.d || "";
-        T.push({ a, cat: L.dataset.cat, anim: a.hasAttribute("data-anim"), k, al, d, dw: words(norm(d)), sk: skel ? [...split(a.dataset.k), ...split(a.dataset.a)].map(v => [skel(v), bare(v)]) : [] });
+        T.push({ a, cat: L.dataset.cat, anim: a.hasAttribute("data-anim"), k, al, d, dw: words(norm(d)), sk: hasSkel() ? [...split(a.dataset.k), ...split(a.dataset.a)].map(v => [skel(v), bare(v)]) : [] });
       } }
     let loading = null;
-    const load = () => loading || (loading = fetch(SRC).then(r => (r.ok ? r.text() : Promise.reject(r.status)))
+    const terms = () => (C().flat || !HERE ? Promise.resolve() : new Promise(ok => { const j = document.createElement("script");
+      j.src = HERE + "terms.js"; j.onload = j.onerror = () => ok(); document.head.appendChild(j); })); // a failed load: plain matching
+    const load = () => loading || (loading = terms().then(() => fetch(SRC)).then(r => (r.ok ? r.text() : Promise.reject(r.status)))
       .then(h => collect(new DOMParser().parseFromString(h, "text/html"))).catch(() => { loading = null; }));
     if (!MINI) collect(document);
     let cat = "", q = "";
@@ -120,7 +128,7 @@
     const esc = v => String(v).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
     const inCat = t => !cat || (cat === "anim" ? t.anim : t.cat === cat);
-    const rank = n => { const qw = words(n), qs = skel && n.replace(/[^\p{L}]/gu, "").length >= 3 ? skel(q) : "", qb = qs ? bare(q) : "";
+    const rank = n => { const qw = words(n), qs = hasSkel() && n.replace(/[^\p{L}]/gu, "").length >= 3 ? skel(q) : "", qb = qs ? bare(q) : "";
       return T.filter(inCat).map(t => [t, score(t, n, qw, qs, qb)]).filter(([, sc]) => sc !== null)
         .sort((x, y) => x[1] - y[1] || x[0].a.textContent.localeCompare(y[0].a.textContent)); };
     const item = (t, withCat) => `<li><a href="${esc(t.a.getAttribute("href"))}"><b>${t.a.innerHTML}${t.anim ? `<span class="gs-an" aria-hidden="true"></span>` : ""}</b>${withCat ? `<small>${esc(catName[t.cat] || "")}</small>` : ""}${t.d ? `<span class="gs-d">${esc(t.d)}</span>` : ""}</a></li>`;

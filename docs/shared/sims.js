@@ -1615,10 +1615,6 @@ function auto(){
 }
 window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, stopSims,
   FLIGHTS, PAIRS, SCENES, CALL, TERM_SIMS, NAMES: NAME, TERM_IDS, tabLabel};
-/* English pronunciation of a term (British English, Web Speech API). A voice that runs on the device (localService) is preferred;
-   if the browser offers only online voices, its default voice is used, and that browser may send the text to its speech service. */
-const localVoice = () => { try { const vs = speechSynthesis.getVoices() || [];
-  return vs.find(v => v.localService && /^en[-_]GB/i.test(v.lang)) || vs.find(v => v.localService && /^en\b/i.test(v.lang)) || null; } catch (e) { return null; } };
-window.ClaySpeak = (t, o = {}) => { stat("speak", t); try { const u = new SpeechSynthesisUtterance(t); u.lang = "en-GB"; u.rate = o.rate || .9; const v = localVoice(); if (v) u.voice = v;
-  speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) {} };
+/* English pronunciation (window.ClaySpeak): docs/shared/speak.js, the one source since 05.11.2026. The pages that load the
+   animations get it inside sims.min.js (minifySims() in scripts/build_academy.mjs puts speak.js in front of this file). */
 })();
