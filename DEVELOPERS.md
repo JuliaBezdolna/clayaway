@@ -198,6 +198,15 @@ bun scripts/build_seo.mjs; if ($?) { python scripts/make_og.py }; if ($?) { pyth
 - `docs/shared/nav.js` — панель проєктів ClayArena на кожній сторінці (додає `scripts/build_seo.mjs`): **єдина таблиця назв** розділів 11 мовами,
   мова відвідувача, колір і значок розділу, «шлях назад» (`ClayNav.setResume({section, label, url})` / `ClayNav.clearResume(section)`),
   персональні підказки з `localStorage`, «Перейти до змісту». Повністю — §4i.
+- `docs/shared/glossary-search.js` — пошук і фільтр за категоріями на індексах глосарію (усі 11 мов; 05.11.2026). Один файл для збірки
+  й браузера, як `terms.js`: збірка (`glossaryIndexList()` у `build_seo.mjs`, ним користуються `build_seo_en.mjs` і `build_seo_i18n.mjs`)
+  пише поле пошуку й кнопки категорій просто в HTML сторінки (без зсуву макета; кнопки — звичайні якорі `#cat-<slug>`, працюють і без JS),
+  а кожне посилання на термін несе дані пошуку: `data-k` — назви (англійська, display-назва, місцеве слово мови), `data-a` — синоніми
+  (`aka`, `alt` з `i18n/<мова>.js`, для uk ще «…» з `uk_usage`), `data-d` — визначення одним реченням. Статичний список термінів лишається
+  як був — пошуковики бачать усі посилання. Порівняння — `ClayTerms.flat`, нечіткий збіг «на звук» — `ClayTerms.skel` / `latin` / `lev`
+  («но берд» → No Bird, «батю» → Battue). Посилання на стан: `?q=…&cat=…` (canonical сторінки лишається чистим). Клавіші: `/` — до поля,
+  ↓/↑ — результати, Enter — перший результат, Esc — очистити. Тексти інтерфейсу — `STR` у файлі (11 мов). Скрипти (`terms.js`,
+  `glossary-search.js`, `defer`) додає прохід підключення скриптів наприкінці `build_seo.mjs`.
 - `docs/shared/sims.js` — анімації (траєкторії, дуплети, лабораторія виносу, сцени на стрілецькому місці: команда й виліт, положення рушниці,
   осічка, вкладка) і `TERM_SIMS` (термін → анімація); `ClaySims.auto()` монтує `[data-clay-sim]` / `[data-clay-term]` на статичних сторінках;
   `ClaySpeak(text)` — вимова англійською (Web Speech API). Тексти й назви термінів — `docs/shared/sims-text.js` (`CLAYSIMS_TEXT`, `CLAYSIMS_TERMS`).

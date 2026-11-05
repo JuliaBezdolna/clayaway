@@ -58,6 +58,10 @@ await import("../docs/rules/data/sporting.js");
 // breadcrumbs, index lists and related terms (uk here, other languages in build_seo_i18n.mjs) and the term links of the rule pages.
 await import("../docs/shared/terms.js");
 const CT = window.ClayTerms;
+// Glossary search of the index pages (all languages): the box is written into the page here, the matching runs in the browser
+// (docs/shared/glossary-search.js, window.ClayGlossarySearch: the same file in both places).
+await import("../docs/shared/glossary-search.js");
+const GS = window.ClayGlossarySearch;
 await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
 // Rules guide and trainer data (scripts/check_rules_data.mjs: unique ids, refs, pages, no FITASC text copied word for word, no other
@@ -273,7 +277,7 @@ function glossaryPages() {
 <meta property="og:locale" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/glossary.png">
 <meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${css}</style>
+<style>${css}${name ? "" : GS.CSS}</style>
 </head>
 <body>
 <header><div class="in">${crumbs("uk", "📖", name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">📘 Правила FITASC</a>
@@ -307,9 +311,8 @@ ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
     writeFileSync(`${DOCS}/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body, lb.label, `${BASE}en/glossary/${t.id}/`));
     out.push(url);
   }
-  const cats = [...new Set(GLOSS.terms.map(t => t.cat))];
   const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
-${cats.map(c => `<h2>${esc(CAT_UK[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}glossary/${t.id}/">${termHtml("uk", t)}</a>`).join("")}</div>`).join("\n")}`;
+${glossaryIndexList("uk", GLOSS.terms, { cat: c => CAT_UK[c] || c, url: t => `${BASE}glossary/${t.id}/`, html: t => termHtml("uk", t), short: t => t.short_uk })}`;
   writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
     [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody, null, `${BASE}en/glossary/`));
   return [BASE + "glossary/", ...out];
@@ -367,6 +370,23 @@ try { await import("../docs/glossary/data/i18n/uk.js"); } catch (e) {}
 const termLabel = (lang, t) => { const n = CT.of(t, (((window.GLOSSARY_I18N || {})[lang] || {}).terms || {})[t.id], lang, { en: dispTerm(t), mark: tm });
   return { ...n, head: CT.label(n.en, "", lang) }; };
 const termHtml = (lang, t) => { const n = termLabel(lang, t); return CT.html(n.en, n.local, lang, esc); };
+// Index list of the glossary in one language (uk below, en in build_seo_en.mjs, the others in build_seo_i18n.mjs): the search box
+// (docs/shared/glossary-search.js) and one section per category, <h2 id="cat-<slug>"> + its term links with the search data:
+// data-k the names (English headword, display name, the local word of the language), data-a the aliases (English aka, the search
+// aliases "alt" of docs/glossary/data/i18n/<lang>.js, uk also the «…» names of uk_usage), data-d the one-sentence definition.
+// terms = the terms of the page; o.cat(c) category name, o.url(t) term page, o.html(t) link text (HTML), o.short(t) definition.
+const gsKeys = (lang, t) => {
+  const tr = lang === "en" ? null : (((window.GLOSSARY_I18N || {})[lang] || {}).terms || {})[t.id];
+  const uk = lang === "uk" ? [...String(t.uk_usage || "").matchAll(/«([^»]+)»/g)].map(m => m[1]) : [];
+  const seen = new Set(), clean = a => a.filter(Boolean).map(v => String(v).replace(/\|/g, " ").trim()) // once each, case-insensitive
+    .filter(v => { const f = CT.flat(v); if (!f || seen.has(f)) return false; seen.add(f); return true; });
+  return { k: clean([t.term, t.display_term, tr && CT.termLocal(t, tr, lang)]), a: clean([...(t.aka || []), ...((tr && tr.alt) || []), ...uk]) }; };
+const glossaryIndexList = (lang, terms, o) => {
+  const cats = [...new Set(terms.map(t => t.cat))], inCat = c => terms.filter(t => t.cat === c);
+  const box = GS.form(lang, cats.map(c => ({ slug: GS.catSlug(c), name: o.cat(c), n: inCat(c).length })), esc);
+  return box + "\n" + cats.map(c => `<h2 id="cat-${GS.catSlug(c)}">${esc(o.cat(c))}</h2><div class="list" data-cat="${GS.catSlug(c)}">${inCat(c).sort((a, b) => a.term.localeCompare(b.term)).map(t => {
+    const g = gsKeys(lang, t), d = o.short(t);
+    return `<a href="${o.url(t)}" data-k="${esc(g.k.join("|"))}"${g.a.length ? ` data-a="${esc(g.a.join("|"))}"` : ""}${d ? ` data-d="${esc(d)}"` : ""}>${o.html(t)}</a>`; }).join("")}</div>`).join("\n"); };
 const ukUsage = t => { const x = ((window.GLOSSARY_I18N || {}).uk || {terms: {}}).terms[t.id];
   if (x && x.term_local && x.conf !== "low") return [x.term_local, ...(x.alt || [])].filter(v => v !== t.term).slice(0, 3).map(v => `«${v}»`).join(", ");
   return t.uk_usage && t.uk_usage !== "—" ? t.uk_usage : ""; };
@@ -442,7 +462,7 @@ urls.push(...glossaryPages());
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn };
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
@@ -520,6 +540,9 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       const h2 = h.replace(/<script\b([^>]*?)\bsrc="([^"]*?)shared\/sims\.min\.js"([^>]*)><\/script>/, (m, a, pre, b) => `<script${a}src="${pre}shared/terms.js"${b}></script>\n${m}`);
       if (h2 !== h) { h = h2; changed = true; } }
     if (!h.includes("shared/nav.js")) { h = h.replace("</head>", `<script src="${rel}shared/nav.js" defer></script>\n</head>`); changed = true; }
+    // Glossary index pages (all languages): the search (docs/shared/glossary-search.js; ClayTerms.flat/skel of terms.js match)
+    if (/^(?:[a-z]{2}\/)?glossary\/index\.html$/.test(rp) && h.includes("data-gsearch") && !h.includes("shared/glossary-search.js")) {
+      h = h.replace("</body>", `<script src="${rel}shared/terms.js" defer></script><script src="${rel}shared/glossary-search.js" defer></script>\n</body>`); changed = true; }
     // Glossary term pages (all languages): English pronunciation + the shared animation for target / pair / lead terms
     // (docs/shared/sims.js → sims.min.js, TERM_SIMS decides which terms get one; other terms get an empty, invisible host).
     const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
@@ -534,7 +557,10 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
     if (changed) writeFileSync(f, h);
   }
 }
-writeFileSync(`${DOCS}/robots.txt`, `User-agent: *\nAllow: /\nSitemap: ${BASE}sitemap.xml\n`);
+// robots.txt: open to crawlers only when the site is built for clayarena.com (owner decision 05.11.2026: the products live there).
+// Any other address (the GitHub Pages working copy) is a preview: Disallow: /, so it never competes with clayarena.com in search.
+writeFileSync(`${DOCS}/robots.txt`, /^https:\/\/(www\.)?clayarena\.com\//.test(BASE) ? `User-agent: *\nAllow: /\nSitemap: ${BASE}sitemap.xml\n`
+  : `# Working copy of the ClayArena Academy / Rules / Glossary (preview), kept out of search on purpose: the products are published\n# on clayarena.com. scripts/build_seo.mjs writes "Allow" here only when BASE (scripts/site_common.mjs) is a clayarena.com address.\nUser-agent: *\nDisallow: /\n`);
 if (!ARGS.includes("--quiet")) console.log("pages", urls.length, urls.join("\n"));
 console.log(`sitemap index: ${SITEMAPS.join(", ")} · site pages ${urls.length} · Academy URLs ${Object.values(ACADEMY.urls || {}).reduce((n, a) => n + a.length, 0)}${SKIP_ACADEMY ? " (Academy skipped: not written)" : ""}`);
 // Safety net of tmMeta() (audit legal-02): declined FITASC marks it had to mark in glossary meta descriptions. The pages are correct,

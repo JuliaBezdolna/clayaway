@@ -39,7 +39,7 @@ const flatTL = s => String(s || "").normalize("NFC").toLowerCase().replace(/[™
 const addsToH1 = (tl, lb) => !!tl && !!lb.local && flatTL(tl) !== flatTL(lb.local) && flatTL(tl) !== flatTL(lb.label);
 
 export async function buildI18n() {
-  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml } = globalThis.SEO;
+  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList } = globalThis.SEO;
   // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
   // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
   const CAT = {
@@ -143,10 +143,10 @@ ${alts(listUrl)}
 <!-- /hreflang -->
 ${og({ lang, title, desc, url, U })}
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", ...SET, inLanguage: lang, hasDefinedTerm: GLOSS.terms.filter(t => D[t.id]).map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: termUrl(lang, t.id) })) })}</script>
-<style>${CSS}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}</style></head>
+<style>${CSS}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}${GS.CSS}</style></head>
 <body><header><div class="in">${crumbs(lang, "📖", [{ label: U.gl }])}<span style="flex:1"></span>${langBtns(lang, listUrl)}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>${esc(fill(U.list, "n", n))}</h1><p>${esc(desc)}</p>
-${cats.map(c => `<h2>${esc((CAT[lang] || {})[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c && D[t.id]).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${termUrl(lang, t.id)}">${termHtml(lang, t)}</a>`).join("")}</div>`).join("\n")}
+${glossaryIndexList(lang, GLOSS.terms.filter(t => D[t.id]), { cat: c => (CAT[lang] || {})[c] || c, url: t => termUrl(lang, t.id), html: t => termHtml(lang, t), short: t => D[t.id].short })}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`);
       out.push(url);
     }

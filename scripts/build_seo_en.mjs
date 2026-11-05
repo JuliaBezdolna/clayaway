@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "fs";
 
 export function buildEnglish() {
-  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn } = globalThis.SEO;
+  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList } = globalThis.SEO;
   const out = [];
   const TM = "Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.";
 
@@ -21,7 +21,7 @@ export function buildEnglish() {
     s = s.replace(/(<link rel="canonical" href="[^"]*">)/, `$1\n<!-- hreflang -->\n${alt(uk, en)}\n<!-- /hreflang -->`);
     writeFileSync(file, s);
   };
-  const head = ({ title, desc, url, uk, en, ld, img = "rules" }) => `<!doctype html>
+  const head = ({ title, desc, url, uk, en, ld, img = "rules", css = "" }) => `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -38,7 +38,7 @@ ${alt(uk, en)}
 <meta property="og:locale" content="en_GB"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/${img}.png">
 <meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${CSS}.kp{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:14px 0}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}article p{font-size:17px;line-height:1.75}table{border-collapse:collapse;width:100%;font-size:14.5px}td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px}</style>
+<style>${CSS}.kp{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:14px 0}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}article p{font-size:17px;line-height:1.75}table{border-collapse:collapse;width:100%;font-size:14.5px}td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px}${css}</style>
 </head>
 <body>`;
   // Page header: the section as a breadcrumb (no second logo; the ONE ClayArena logo is in the project bar, docs/shared/nav.js)
@@ -76,11 +76,10 @@ ${rel ? `<h2>Related terms</h2><p>${rel}</p>` : ""}
       patchUk(`${DOCS}/glossary/${t.id}/index.html`, uk, en);
       out.push(en);
     }
-    const cats = [...new Set(GLOSS.terms.map(t => t.cat))];
     writeFileSync(`${DOCS}/en/glossary/index.html`, head({ title: `Clay shooting glossary — ${GLOSS.terms.length} terms | ClayArena`, desc: "Sporting™ and Compak® Sporting terms explained in plain English, with links to the FITASC rules and to beginner lessons.", url: BASE + "en/glossary/", uk: BASE + "glossary/", en: BASE + "en/glossary/",
-      ld: [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}en/glossary/${t.id}/` })) }], img: "glossary" }) + bar(crumbs("en", "📖", [{ label: "Glossary" }]), BASE + "en/glossary/", BASE + "glossary/", true) + `
+      ld: [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}en/glossary/${t.id}/` })) }], img: "glossary", css: GS.CSS }) + bar(crumbs("en", "📖", [{ label: "Glossary" }]), BASE + "en/glossary/", BASE + "glossary/", true) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>Clay shooting glossary</h1><p>${GLOSS.terms.length} terms of Sporting™ and Compak® Sporting, explained in plain English with links to the FITASC rules and to ClayArena Academy lessons.</p>
-${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}en/glossary/${t.id}/">${esc(dispTerm(t))}</a>`).join("")}</div>`).join("\n")}
+${glossaryIndexList("en", GLOSS.terms, { cat: c => c, url: t => `${BASE}en/glossary/${t.id}/`, html: t => esc(dispTerm(t)), short: t => t.short_en })}
 <div class="disc">${TM}</div>${legal("en")}</main></body></html>`);
     patchUk(`${DOCS}/glossary/index.html`, BASE + "glossary/", BASE + "en/glossary/");
     out.push(BASE + "en/glossary/");

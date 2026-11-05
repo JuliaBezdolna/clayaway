@@ -27,7 +27,8 @@
 
    WHO USES IT (one copy of the logic):
    - browser: docs/learn/app/academy.js (window.ClayTerms; plainTok() renders a raw token with mention()), docs/shared/sims.js (tabs, method and flight names; falls back to the
-     English name when this file is not on the page), the rules trainer (docs/rules/trainer/index.html, quiz options);
+     English name when this file is not on the page), the rules trainer (docs/rules/trainer/index.html, quiz options), the glossary
+     search of the index pages (docs/shared/glossary-search.js: flat(), latin(), skel(), lev());
    - build (Bun): scripts/build_academy.mjs (lesson pages and data, exams, ui.json "terms", docs/shared/sims-text.js; running text
      of lessons through mention() and scope()) and
      scripts/build_seo.mjs / build_seo_en.mjs / build_seo_i18n.mjs (glossary pages, the FITASC categories page, term links of the
@@ -342,7 +343,8 @@
     return S;
   }
 
-  const API = { local, label, html, termLocal, of, same, core, english, mention, scope, atStart, casedEn, keepCase, pluralEn, quoted, englishForm };
+  /* flat (comparison form), latin, skel (sound skeleton) and lev are also the matching of the glossary search (docs/shared/glossary-search.js). */
+  const API = { local, label, html, termLocal, of, same, core, english, mention, scope, atStart, casedEn, keepCase, pluralEn, quoted, englishForm, flat, latin, skel, lev };
   if (root) root.ClayTerms = API;
   if (typeof module === "object" && module && module.exports) module.exports = API;
 })(typeof window !== "undefined" ? window : this);

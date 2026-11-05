@@ -1,6 +1,4 @@
-# Working copy of the ClayArena Academy / Rules / Glossary site (JuliaBezdolna/clayaway).
-# Kept out of search results on purpose: the public site is served elsewhere and the
-# built pages still carry canonical/hreflang pointing at it. Lift this only together
-# with the final domain decision (see the plan in the owner's notes).
+# Working copy of the ClayArena Academy / Rules / Glossary (preview), kept out of search on purpose: the products are published
+# on clayarena.com. scripts/build_seo.mjs writes "Allow" here only when BASE (scripts/site_common.mjs) is a clayarena.com address.
 User-agent: *
 Disallow: /
