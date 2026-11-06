@@ -15,6 +15,8 @@
      the 76 cm circle (the lesson's Trulock figures) and the target drawn to scale; opts.choke (glossary plan, wave 6, 06.11.2026).
    - missSim(host, kind, opts): where the shot went — behind, in front (crosser), over (dropping target), under (teal), as the
      coach behind the shooter sees it; the cause under the canvas (glossary plan, wave 6, 06.11.2026).
+   - tiesSim(host, kind, opts): ties — "countback" (below 3rd: layouts 8 → 1) or "shoot-off" (25 targets, then sudden death),
+     a score table that lights up step by step; HTML, no canvas (glossary plan, wave 6, 06.11.2026).
    - pairSim(host, kind, opts): a pair of targets — report pair, simultaneous pair, rafale (following pair, Sporting™ only).
    - leadLab(host, method, opts): crossing target in slow motion; methods maintained / swing / pullaway / ambush; "watch the method"
      or "your turn"; freeze-frame at the shot with the actual lead in metres and feet. Its still picture (before anything is played,
@@ -255,6 +257,18 @@ const DEF = {
   anim_miss_front: "In front: too much lead, often after over-correcting. Many coaches like this miss: it shows the gun kept moving.",
   anim_miss_over: "Over: common on dropping targets, rabbits and incomers, and often linked to the head coming off the stock.",
   anim_miss_under: "Under: typical on rising targets that are still climbing at the shot.",
+  anim_h_ties: "Watch how ties are broken",
+  anim_w_ties: "Places 1–3: a shoot-off; below third: countback (in Compak® Sporting the same, from the 8th Compak to the 1st). The numbers are an example: 200 targets, 8 layouts of 25.",
+  anim_ties_shooter: "Shooter", anim_ties_total: "Total", anim_ties_place: "Place", anim_ties_layout: "Layout",
+  anim_ties_so: "Shoot-off (25)", anim_ties_sd: "Sudden death",
+  anim_ties_cb0: "D and E both have 181 of 200: 5th place. Below third there is no shoot-off — countback decides the order on the score sheet.",
+  anim_ties_cb_eq: "Layout {n}: {a} : {b} — level, look at the one before.",
+  anim_ties_cb_win: "Layout {n}: {a} : {b} — {who} is listed higher. Both keep the same place: 5=.",
+  anim_ties_so0: "A and B both have 192 of 200 — a tie for 1st place. A shoot-off decides it: a round of 25 targets.",
+  anim_ties_so1: "Shoot-off: {a} : {b} — still level. Now sudden death: the first to miss is out.",
+  anim_ties_sd_ok: "Target {n}: both hit.",
+  anim_ties_sd_both: "Target {n}: both missed. They have shot the same number of targets, so nobody is out.",
+  anim_ties_sd_out: "Target {n}: A hit, B missed — B is out. A takes 1st place.",
   anim_pattern_load: "Simplified. 28 g of No. 7½ shot is about 370 pellets; the percentages are a guide for lead shot, and your gun and cartridge may give different ones. The target (110 mm) and the circle are to scale.",
 };
 const T = k => { const v = CFG.t(k); return v == null || v === "" ? (DEF[k] ?? k) : v; };
@@ -285,6 +299,8 @@ const CSS = `.cs-sim{border:1px solid rgba(255,255,255,.1);border-radius:14px;ov
 .cs-say{padding:10px 12px 12px;font-size:14.5px;line-height:1.5;color:#E5E7EB;min-height:3.2em;border-top:1px solid rgba(255,255,255,.06)}
 .cs-scale{margin:0;padding:5px 12px 7px;font-size:12.5px;line-height:1.4;color:#9CA3AF}
 .cs-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 -6px}.cs-tabs .cs-btn{min-height:40px}
+.cs-tie{overflow-x:auto;padding:10px 12px 2px}.cs-tie table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}.cs-tie caption{text-align:left;padding:0 0 4px}.cs-tie th,.cs-tie td{padding:6px 5px;text-align:center;border-bottom:1px solid rgba(255,255,255,.08);color:#E5E7EB;transition:background .3s}.cs-tie th{font-size:12px;color:#9CA3AF;font-weight:600}.cs-tie .cs-nm{font-weight:700}.cs-tie .cs-tc{background:rgba(34,211,238,.16)}.cs-tie .cs-w{color:#34D399;font-weight:700}.cs-tie .cs-x{color:#F87171;font-weight:700}.cs-tie tr.cs-gone td{opacity:.45}
+@media (max-width:440px){.cs-tie{padding:8px 6px 2px}.cs-tie table{font-size:12.5px}.cs-tie th,.cs-tie td{padding:5px 2px}.cs-tie th{font-size:11px}}
 .cs-hero{margin:14px 0 20px}.cs-hero-h{font-weight:700;font-size:18px;color:#34D399;margin:0 0 4px}.cs-hero-w{font-size:14px;color:#9CA3AF;margin:4px 0 0}
 .cs-hero .cs-sim{margin:10px 0 0}
 .cs-cmp{overflow-x:auto}.cs-cmp table{border-collapse:collapse;width:100%;font-size:13px;margin-top:6px}.cs-cmp td,.cs-cmp th{padding:4px 6px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left;vertical-align:top}.cs-cmp th{color:#9CA3AF;font-weight:600}
@@ -750,7 +766,7 @@ function clock(c, v, sub, state, s = 1){
    list if it has one. termLabel(id, en): the label outside the canvas (tabs, names, the method select): "English (local)" through
    the ONE helper docs/shared/terms.js; English only on English pages or without that helper. TERM_EN = English names used only when
    the page gives no term list (a page without glossary data); the glossary stays the source. */
-const TERM_EN = {"choke": "Choke", "miss-behind": "Behind", "miss-in-front": "In front", "miss-over": "Over", "miss-under": "Under", "pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
+const TERM_EN = {"countback": "Countback", "shoot-off": "Shoot-off", "choke": "Choke", "miss-behind": "Behind", "miss-in-front": "In front", "miss-over": "Over", "miss-under": "Under", "pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
   "maintained-lead": "Maintained lead", "swing-through": "Swing-through", "pull-away": "Pull-away", "ambush": "Ambush",
   "double-on-report": "Double on report", "simultaneous-double": "Simultaneous double", "rafale-double": "Rafale double",
   "gun-mount": "Gun mount", "ready-position": "Ready position", "sonopull": "Sonopull"};
@@ -953,6 +969,54 @@ function missSim(host, kind, opts = {}){
   const unwatch = watchSize(cv, () => { if (!raf) poster(); });
   const off = autoStart(host, cv, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
   const s = {stop: () => { off(); unwatch(); cancelAnimationFrame(raf); raf = 0; }, run}; SIMS.push(s); return s;
+}
+
+/* Ties (glossary plan, wave 6, 06.11.2026): how equal scores are separated — a score table that lights up, step by step, what is
+   compared. No canvas: the table is HTML (readable, translatable, works with a screen reader). The rules (FITASC Sporting ch. 18,
+   18.1–18.3; Compak ch. 14, the same in substance; the rules data docs/rules/data): ties for places 1–3 are settled by a shoot-off,
+   a round of 25 targets, and if still level by sudden death — the first zero is out, PROVIDED all have shot the same number of
+   targets; below 3rd place there is no shoot-off: the tied shooters share the place and are listed by counting back their scores
+   from the 8th layout (Compak: the 8th Compak) to the 1st. The numbers are an EXAMPLE (the caption says so): 200 targets, 8 layouts
+   of 25. countback: D and E 181, level on layouts 8 and 7, D 24 : 22 on layout 6 → D listed first, both "5=". shoot-off: A and B
+   192, shoot-off 23 : 23, sudden death 1 : 1, 0 : 0 (both missed after the same number of targets: nobody is out), 1 : 0 → B out.
+   Steps every 1.6 s (× slow motion); the still picture (before play, after stop, reduced motion) is the last step. */
+const TIES = {countback: {term: "countback"}, "shoot-off": {term: "shoot-off"}};
+function tiesSim(host, kind, opts = {}){
+  const sum = a => a.reduce((x, y) => x + y, 0), L8 = [1, 2, 3, 4, 5, 6, 7, 8];
+  const steps = [];
+  if (kind === "countback") {
+    const R = {D: [22, 23, 21, 24, 22, 24, 22, 23], E: [24, 22, 23, 22, 23, 22, 22, 23]};
+    steps.push({order: ["E", "D"], hl: 0, msg: T("anim_ties_cb0")});
+    for (let n = 8; n >= 1; n--) { const a = R.D[n - 1], b = R.E[n - 1];
+      if (a === b) { steps.push({order: ["E", "D"], hl: n, msg: fill(T("anim_ties_cb_eq"), {n, a, b})}); continue; }
+      const w = a > b ? "D" : "E"; steps.push({order: [w, w === "D" ? "E" : "D"], hl: n, win: w, msg: fill(T("anim_ties_cb_win"), {n, a, b, who: w})}); break; }
+    const head = `<tr><th>${esc(T("anim_ties_place"))}</th><th>${esc(T("anim_ties_shooter"))}</th>${L8.map(n => `<th data-c="${n}">${n}</th>`).join("")}<th>${esc(T("anim_ties_total"))}</th></tr>`;
+    var table = st => `<table><caption class="cs-note">${esc(T("anim_ties_layout"))} 1–8</caption><thead>${head.replace(`data-c="${st.hl}"`, `data-c="${st.hl}" class="cs-tc"`)}</thead><tbody>`
+      + st.order.map(k => `<tr><td>5=</td><td class="cs-nm${st.win === k ? " cs-w" : ""}">${k}${st.win === k ? " ↑" : ""}</td>`
+        + R[k].map((v, i) => `<td${i + 1 === st.hl ? ` class="cs-tc${st.win ? (st.win === k ? " cs-w" : " cs-x") : ""}"` : ""}>${v}</td>`).join("") + `<td>${sum(R[k])}</td></tr>`).join("") + `</tbody></table>`;
+  } else {
+    const SO = {A: 23, B: 23}, SD = {A: [1, 0, 1], B: [1, 0, 0]};
+    steps.push({so: false, sd: 0, hl: "total", place: {A: "1=", B: "1="}, msg: T("anim_ties_so0")});
+    steps.push({so: true, sd: 0, hl: "so", place: {A: "1=", B: "1="}, msg: fill(T("anim_ties_so1"), {a: SO.A, b: SO.B})});
+    for (let n = 1; n <= 3; n++) { const a = SD.A[n - 1], b = SD.B[n - 1], out = a !== b;
+      steps.push({so: true, sd: n, hl: "sd" + n, place: out ? {A: "1", B: "2"} : {A: "1=", B: "1="}, gone: out ? (a ? "B" : "A") : "",
+        msg: fill(T(out ? "anim_ties_sd_out" : a ? "anim_ties_sd_ok" : "anim_ties_sd_both"), {n})}); if (out) break; }
+    const c = (st, key) => st.hl === key ? ` class="cs-tc"` : "";
+    var table = st => `<table><thead><tr><th>${esc(T("anim_ties_place"))}</th><th>${esc(T("anim_ties_shooter"))}</th><th${c(st, "total")}>${esc(T("anim_ties_total"))}</th><th${c(st, "so")}>${esc(T("anim_ties_so"))}</th>`
+      + `<th colspan="3"${st.hl.startsWith && st.hl.startsWith("sd") ? ` class="cs-tc"` : ""}>${esc(T("anim_ties_sd"))}</th></tr></thead><tbody>`
+      + ["A", "B"].map(k => `<tr${st.gone === k ? ` class="cs-gone"` : ""}><td>${st.place[k]}</td><td class="cs-nm${st.place[k] === "1" ? " cs-w" : ""}">${k}</td><td${c(st, "total")}>192</td><td${c(st, "so")}>${st.so ? SO[k] : "·"}</td>`
+        + [1, 2, 3].map(n => { const v = n <= st.sd ? SD[k][n - 1] : null; return `<td${c(st, "sd" + n)}>${v == null ? "·" : `<span class="${v ? "cs-w" : "cs-x"}">${v}</span>`}</td>`; }).join("") + `</tr>`).join("") + `</tbody></table>`;
+  }
+  host.innerHTML = `<div class="cs-sim"><div class="cs-tie" data-k="t"></div><div class="cs-say" aria-live="polite" data-k="say"></div><div class="cs-ctl">${playBtn("anim_play")}${slowBtn()}</div></div>`;
+  const tb = host.querySelector("[data-k=t]"), say = host.querySelector("[data-k=say]"); let timer = 0, i = 0, on = false;
+  const show = k => { const st = steps[k]; tb.innerHTML = table(st); say.textContent = st.msg; };
+  const tick = () => { show(i); if (++i < steps.length) timer = setTimeout(tick, 1600 * slowF()); else { timer = 0; on = false; setPlay(host, false); } };
+  const halt = () => { clearTimeout(timer); timer = 0; on = false; show(steps.length - 1); setPlay(host, false); };
+  const run = () => { clearTimeout(timer); i = 0; if (RM()) { show(steps.length - 1); setPlay(host, false); return; } on = true; setPlay(host, true); tick(); };
+  wire(host, run, () => { if (on) { clearTimeout(timer); timer = setTimeout(tick, 1600 * slowF()); } }, halt);
+  show(steps.length - 1);
+  const off = autoStart(host, host.querySelector(".cs-sim"), run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
+  const s = {stop: () => { off(); clearTimeout(timer); timer = 0; }, run, steps: steps.length}; SIMS.push(s); return s;
 }
 
 /* Lead lab: a crossing target at distance d (m) and speed v (m/s), seen side-on. World x in metres (left to right; the drawing is
@@ -1668,13 +1732,14 @@ function mount(host, sim, o = {}){ if (!host || !sim) return;
   let tabs;
   if (sim.type === "flight") tabs = [...[sim.preset, ...(sim.also || [])].filter(p => FLIGHTS[p]).map(p => ({k: "f:" + p, label: tabLabel(p)})),
                                    ...(sim.pairs || []).filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}))];
+  else if (sim.type === "ties") tabs = [sim.kind || "countback", ...(sim.also || [])].filter(k => TIES[k]).map(k => ({k: "t:" + k, label: termLabel(TIES[k].term)}));
   else if (sim.type === "miss") tabs = [sim.kind || "behind", ...(sim.also || [])].filter(k => MISS[k]).map(k => ({k: "m:" + k, label: termLabel(MISS[k].term)}));
   else if (sim.type === "pair") tabs = [sim.kind, ...(sim.also || [])].filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}));
   else if (sim.type === "call") tabs = [sim.kind || "signal", ...(sim.also || [])].filter(k => SCENES[k]).map(k => ({k: "c:" + k, label: sceneTitle(SCENES[k])}));
   else return; // a type without an animation mounts nothing
   const show = (el, k, a) => { const x = k.slice(2), op = {autoplay: a, onAutoplay: done, onUser};
-    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
-  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : "f:" + sim.preset}];
+    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : k.startsWith("t:") ? tiesSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
+  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : sim.type === "ties" ? "t:countback" : "f:" + sim.preset}];
   if (tabs.length < 2) return show(host, tabs[0].k, ap);
   const first = o.tab && tabs.some(b => b.k === o.tab) ? o.tab : tabs[0].k;
   host.innerHTML = `<div class="cs-tabs" role="group">${tabs.map(b => `<button type="button" class="cs-btn${b.k === first ? " cs-primary" : ""}" data-p="${esc(b.k)}" aria-pressed="${b.k === first}">${esc(b.label)}</button>`).join("")}</div><div></div>`;
@@ -1690,6 +1755,7 @@ function kind(sim){ sim = sim || {};
   if (sim.type === "pair") return "pair";
   if (sim.type === "pattern") return "pattern";
   if (sim.type === "miss") return "miss";
+  if (sim.type === "ties") return "ties";
   if (sim.type === "lead") return sim.focus === "mount" ? "mount" : sim.focus === "follow-through" ? "follow" : "lead";
   if (sim.type === "call") { const k = sim.kind || "signal"; return k === "mount" ? "mount" : /^gun-/.test(k) ? "gunpos" : k === "misfire" ? "misfire" : "call"; }
   if ((sim.pairs || []).length) return "pair";
@@ -1740,6 +1806,9 @@ const TERM_SIMS = {
   // where the shot went (wave 6, 06.11.2026); miss-behind keeps the lead lab (a stopped gun), the other three get the coach's view
   "miss-in-front": {type: "miss", kind: "front", also: ["behind", "over", "under"]}, "miss-over": {type: "miss", kind: "over", also: ["under", "behind", "front"]},
   "miss-under": {type: "miss", kind: "under", also: ["over", "behind", "front"]}, "head-lift": {type: "miss", kind: "over"},
+  // ties (wave 6, 06.11.2026): a score table, step by step
+  "countback": {type: "ties", kind: "countback", also: ["shoot-off"]}, "shoot-off": {type: "ties", kind: "shoot-off", also: ["countback"]},
+  "sudden-death": {type: "ties", kind: "shoot-off"},
 };
 /* auto(): mount every <div data-clay-sim='{"type":...}'> or <div data-clay-term="crosser"> on a static page. A term host (the
    glossary) or a host with data-clay-hero gets the hero layout (heading + caption); a data-clay-sim host only the animation.
@@ -1754,7 +1823,7 @@ function auto(){
     if (!sim) return;
     if (el.dataset.clayTerm || el.hasAttribute("data-clay-hero")) hero(el, sim); else mount(el, sim); });
 }
-window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, patternSim, CHOKES, missSim, MISS, stopSims,
+window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, patternSim, CHOKES, missSim, MISS, tiesSim, TIES, stopSims,
   FLIGHTS, PAIRS, SCENES, CALL, TERM_SIMS, NAMES: NAME, TERM_IDS, tabLabel};
 /* English pronunciation (window.ClaySpeak): docs/shared/speak.js, the one source since 05.11.2026. The pages that load the
    animations get it inside sims.min.js (minifySims() in scripts/build_academy.mjs puts speak.js in front of this file). */
