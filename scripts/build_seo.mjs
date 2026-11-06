@@ -549,13 +549,28 @@ const GLOSSARY_STUBS = ["fly-over-rectangle", "hand-signals", "smoke-ball", "sup
   "issf", "olympic-trap", "skeet",                                                          // other disciplines, retired 08.10.2026
   "english-sporting", "cpsa", "nsca", "hoa",                                                // other versions of the sport and their bodies, retired 09.10.2026
   "true-pair", "peg"];                                                                       // British words merged into simultaneous-double / shooting-stand, 05.11.2026
+// The pronunciation button of the term pages (see the walk below): its name in each language [label, "synthesised voice"], the icon,
+// the style, and the recorded files (glossary plan, wave 5: English pronunciation, synthesised voice, Ukrainian pages first).
+const SAY_UI = {
+  uk: ["Вимова англійською", "синтезований голос"], en: ["English pronunciation", "synthesised voice"],
+  de: ["Englische Aussprache", "synthetische Stimme"], fr: ["Prononciation anglaise", "voix de synthèse"],
+  it: ["Pronuncia inglese", "voce sintetica"], cs: ["Anglická výslovnost", "syntetický hlas"], pl: ["Wymowa angielska", "głos syntetyczny"],
+  pt: ["Pronúncia em inglês", "voz sintetizada"], hu: ["Angol kiejtés", "szintetikus hang"],
+  fi: ["Englanninkielinen ääntäminen", "synteettinen ääni"], lt: ["Tarimas anglų kalba", "sintetinis balsas"] };
+const SAY_ICON = '<svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor" stroke="none"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path class="w2" d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+const SAY_CSS = ".th{display:flex;align-items:center;gap:12px;margin:8px 0 10px}.th h1{margin:0;min-width:0}"
+  + ".say{display:inline-flex;align-items:center;justify-content:center;flex:none;width:38px;height:38px;padding:0;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;transition:color .15s,border-color .15s}"
+  + ".say:hover,.say:focus-visible{color:var(--em);border-color:rgba(52,211,153,.5)}.say:focus-visible{outline:2px solid var(--em);outline-offset:2px}"
+  + ".say.on{color:var(--em);border-color:var(--em)}.say.on .w2{animation:sayw .5s ease-in-out infinite alternate}@keyframes sayw{from{opacity:.25}to{opacity:1}}"
+  + "@media (pointer:coarse){.say{width:44px;height:44px}}@media (prefers-reduced-motion:reduce){.say.on .w2{animation:none}}@media print{.say{display:none}}";
+const SAY_AUDIO = new Set(existsSync(`${DOCS}/glossary/audio`) ? readdirSync(`${DOCS}/glossary/audio`).filter(n => n.endsWith(".mp3")).map(n => n.slice(0, -4)) : []);
 function redirectStubs() {
   const done = [];
   const bases = ["glossary", ...readdirSync(DOCS, { withFileTypes: true }).filter(e => e.isDirectory() && /^[a-z]{2}$/.test(e.name)).map(e => `${e.name}/glossary`)];
   for (const base of bases) {
     const dir = `${DOCS}/${base}`; if (!existsSync(dir)) continue;
     const names = new Set(GLOSSARY_STUBS.filter(id => !GBY[id]));
-    for (const e of readdirSync(dir, { withFileTypes: true })) if (e.isDirectory() && e.name !== "data" && !GBY[e.name]) names.add(e.name);
+    for (const e of readdirSync(dir, { withFileTypes: true })) if (e.isDirectory() && e.name !== "data" && e.name !== "audio" && !GBY[e.name]) names.add(e.name);
     for (const name of [...names].sort()) {
       const to = rid(name), target = GBY[to] && existsSync(`${dir}/${to}/index.html`) ? `${BASE}${base}/${to}/` : `${BASE}${base}/`;
       const lang = base === "glossary" ? "uk" : base.split("/")[0];
@@ -630,10 +645,16 @@ const glossMeta = { description: new Map(), title: new Map(), missing: [] };
     // (docs/shared/sims.js, the set ANIM above: 50 of 325) load the animations (terms.js + sims-text-<lang>.js, the page language only
     // + sims.min.js ≈ 45 KB gzip);
     // the other pages load docs/shared/speak.js alone (≈ 0.5 KB) for the button (glossary plan, wave 2: page weight, 05.11.2026).
+    // The button (wave 5, 06.11.2026, variant A of design-mockups/term-voice-button.html): a small round speaker icon right of the
+    // h1, outside it (the heading text stays the term alone), the same in all 11 languages; its name (aria-label, tooltip) is in the
+    // page language (SAY_UI). Ukrainian pages play the recorded voice when docs/glossary/audio/<id>.mp3 exists (SAY_AUDIO), the
+    // other pages and the terms without a file use the browser voice (docs/shared/speak.js).
     const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
-    if (gm && !h.includes("ClaySpeak(")) {
-      const id = gm[2], term = (GBY[id] || {}).term || id, ui = gm[1] ? "English" : "Вимова англійською";
-      h = h.replace(/<\/h1>(<p class="h1-sub">[^<]*<\/p>)?/, m => `${m}<p><button class="btn" type="button" onclick="ClaySpeak(${JSON.stringify(term).replace(/"/g, "&quot;")})" title="en-GB">🔊 ${ui}</button></p>`);
+    if (gm && !h.includes('class="say"')) {
+      const id = gm[2], term = (GBY[id] || {}).term || id, l = SAY_UI[gm[1] || "uk"] || SAY_UI.en, file = !gm[1] && SAY_AUDIO.has(id);
+      const btn = `<button class="say" type="button" data-say="${esc(term)}"${file ? ` data-src="${rel}glossary/audio/${id}.mp3"` : ""} aria-label="${l[0]}" title="${file ? `${l[0]} · ${l[1]}` : l[0]}">${SAY_ICON}</button>`;
+      h = h.replace(/<h1>([\s\S]*?)<\/h1>/, m => `<div class="th">${m}${btn}</div>`)
+        .replace("</head>", `<style>${SAY_CSS}</style>\n</head>`);
       if (ANIM.has(id)) {
         const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
         if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"${simReserve(id)}></div>\n` + h.slice(second);
