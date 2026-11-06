@@ -13,6 +13,8 @@
      hold point (with "points" the gun follows the muzzle mark).
    - patternSim(host, opts): a shot at a pattern plate from 36.6 m with a choke picker (cylinder … full): the share of the shot in
      the 76 cm circle (the lesson's Trulock figures) and the target drawn to scale; opts.choke (glossary plan, wave 6, 06.11.2026).
+   - missSim(host, kind, opts): where the shot went — behind, in front (crosser), over (dropping target), under (teal), as the
+     coach behind the shooter sees it; the cause under the canvas (glossary plan, wave 6, 06.11.2026).
    - pairSim(host, kind, opts): a pair of targets — report pair, simultaneous pair, rafale (following pair, Sporting™ only).
    - leadLab(host, method, opts): crossing target in slow motion; methods maintained / swing / pullaway / ambush; "watch the method"
      or "your turn"; freeze-frame at the shot with the actual lead in metres and feet. Its still picture (before anything is played,
@@ -247,6 +249,12 @@ const DEF = {
   anim_h_pattern: "Watch how the choke changes the pattern",
   anim_w_pattern: "A shot at a plate from 36.6 m (40 yards). Pick a choke: the tighter it is, the more shot lands in the 76 cm circle and the denser it is on the target in the centre.",
   anim_pattern_in: "In the 76 cm circle: ≈ {n}% of the shot",
+  anim_h_miss: "Watch where the shot went",
+  anim_w_miss: "What a coach standing behind the shooter sees: first where the shot went compared with the clay, then why. Switch the tabs.",
+  anim_miss_behind: "Behind: the shot passed behind the target — not enough lead, or the gun slowed down or stopped. Very common on crossers.",
+  anim_miss_front: "In front: too much lead, often after over-correcting. Many coaches like this miss: it shows the gun kept moving.",
+  anim_miss_over: "Over: common on dropping targets, rabbits and incomers, and often linked to the head coming off the stock.",
+  anim_miss_under: "Under: typical on rising targets that are still climbing at the shot.",
   anim_pattern_load: "Simplified. 28 g of No. 7½ shot is about 370 pellets; the percentages are a guide for lead shot, and your gun and cartridge may give different ones. The target (110 mm) and the circle are to scale.",
 };
 const T = k => { const v = CFG.t(k); return v == null || v === "" ? (DEF[k] ?? k) : v; };
@@ -742,7 +750,7 @@ function clock(c, v, sub, state, s = 1){
    list if it has one. termLabel(id, en): the label outside the canvas (tabs, names, the method select): "English (local)" through
    the ONE helper docs/shared/terms.js; English only on English pages or without that helper. TERM_EN = English names used only when
    the page gives no term list (a page without glossary data); the glossary stays the source. */
-const TERM_EN = {"choke": "Choke", "pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
+const TERM_EN = {"choke": "Choke", "miss-behind": "Behind", "miss-in-front": "In front", "miss-over": "Over", "miss-under": "Under", "pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
   "maintained-lead": "Maintained lead", "swing-through": "Swing-through", "pull-away": "Pull-away", "ambush": "Ambush",
   "double-on-report": "Double on report", "simultaneous-double": "Simultaneous double", "rafale-double": "Rafale double",
   "gun-mount": "Gun mount", "ready-position": "Ready position", "sonopull": "Sonopull"};
@@ -894,6 +902,55 @@ function patternSim(host, opts = {}){
   const poster = () => { paint(N); say(true); };
   shot(ck); wire(host, run, null, halt); poster();
   const unwatch = watchSize(cv, () => { if (!raf) paint(N); });
+  const off = autoStart(host, cv, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
+  const s = {stop: () => { off(); unwatch(); cancelAnimationFrame(raf); raf = 0; }, run}; SIMS.push(s); return s;
+}
+
+/* Miss directions (glossary plan, wave 6, 06.11.2026): what a coach standing behind the shooter sees — where the shot went compared
+   with the clay. The lessons faults-behind-in-front and faults-head-lift-stopping: behind = too little lead or a slowing gun, very
+   common on crossers; in front = too much lead; over = common on dropping targets, rabbits and incomers, often a head lift; under =
+   typical on targets still rising at the shot. So each miss is shown on the target where the lesson says it is typical: behind and in
+   front on a crosser, over on a dropping target (it falls away under the shot), under on a teal still climbing. The view and the
+   shooter are those of flightSim; the gun drifts onto the wrong spot before the shot (aim = target + the miss offset), fires at tS,
+   follows through; the shot cloud (cyan dashed ring with pellets, the colour of the pattern) reaches the target's distance at tS + .03
+   and fades, and the clay flies on unbroken. The offset is 1.9 ring radii, so the ring clearly misses. Canvas words English
+   (CANVAS_EN); the cause is HTML text under the canvas (ui anim_miss_<kind>). */
+const MISS = {
+  behind: {preset: "crosser-lr", tS: .42, off: [-1, 0], word: "behind", term: "miss-behind"},
+  front:  {preset: "crosser-lr", tS: .42, off: [1, 0], word: "in front", term: "miss-in-front"},
+  over:   {preset: "dropping", tS: .62, off: [0, -1], word: "over", term: "miss-over"},
+  under:  {preset: "teal", tS: .3, off: [0, 1], word: "under", term: "miss-under"},
+};
+function missSim(host, kind, opts = {}){
+  const ms = MISS[kind] || MISS.behind, f = FLIGHTS[ms.preset], W = 720, H = 380, RR = 26, D = 1.9 * RR, tI = ms.tS + .03;
+  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(termLabel(ms.term))}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}</div>`
+    + `<div class="cs-out">${esc(T("anim_miss_" + kind))}</div></div>`;
+  const cv = logical(host.querySelector("canvas"), W, H), c = cv.getContext("2d"); let raf = 0, t0 = 0, dur = 2400;
+  const P = t => { const [x, y] = f.p(t); return [x * W, y * H]; };
+  const ring = () => { const [x, y] = P(tI); return [x + ms.off[0] * D, y + ms.off[1] * D]; };
+  // the gun: on the target until tS − .25, then it drifts to the miss offset by tS, and keeps that offset as it follows through
+  const aimAt = t => { const k = ease(clamp01((Math.min(t, tI + .2) - (ms.tS - .25)) / .25)), [x, y] = P(Math.min(t, tI + .2)); return [x + ms.off[0] * D * k, y + ms.off[1] * D * k]; };
+  const mounted = t => ease(clamp01((t - (ms.tS - .32)) / .14));
+  const pellets = (() => { const R = rng(4111), a = []; for (let i = 0; i < 26; i++) { const r = RR * Math.sqrt(R()), th = R() * TAU; a.push([r * Math.cos(th), r * Math.sin(th)]); } return a; })();
+  const cloud = (k, still) => { if (k < 0 || k > 1) return; const [x, y] = ring(), al = still ? 1 : 1 - k * k, m = MK(c);
+    c.save(); c.globalAlpha = al; c.fillStyle = "rgba(34,211,238,.12)"; c.beginPath(); c.arc(x, y, RR, 0, TAU); c.fill();
+    c.strokeStyle = ART.cyan; c.lineWidth = 1.6 * m; c.setLineDash([5 * m, 4 * m]); c.beginPath(); c.arc(x, y, RR, 0, TAU); c.stroke(); c.setLineDash([]);
+    c.fillStyle = "#E0F7FB"; pellets.forEach(([px, py]) => dot(c, x + px, y + py, 1.3 * m)); c.restore();
+    label(c, ms.word, x, ms.off[1] > 0 ? y + RR + 14 + 14 * FK(c) : y - RR - 10, ART.cyan); }; // under: below the ring, clear of the clay above it
+  const scene = (t, still) => { fit(cv, c); layer(c, "flight", W, H, flightPaint);
+    pathDots(c, P, 0, still ? 1 : t, still ? ART.path : "rgba(110,231,183,.35)");
+    const tip = shooterBack(c, W / 2, H, aimAt(t), {mounted: mounted(t)});
+    if (!still && t >= ms.tS && t < ms.tS + .06) { const [ax, ay] = aimAt(t); flash(c, tip, Math.atan2(ay - tip[1], ax - tip[0]), (t - ms.tS) / .06); }
+    if (still) cloud(0, true); else cloud((t - tI) / .45);
+    const [x, y] = P(t); if (!still) comet(c, P, t, .13, 9 * f.s(t)); clay(c, x, y, f.s(t), f, t, {spin: still ? .6 : (RM() ? 0 : t * 21.6)}); };
+  const frame = ts => { if (!t0) t0 = ts; const t = Math.min(1, (ts - t0) / dur); scene(t, false);
+    if (t < 1) raf = requestAnimationFrame(frame); else { raf = 0; setPlay(host, false); } };
+  // still picture before it plays: the whole flight line, the gun at the shot and the shot cloud beside the clay at the impact
+  const poster = () => scene(tI, true);
+  const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * slowF(); setPlay(host, true); raf = requestAnimationFrame(frame); };
+  const halt = () => { cancelAnimationFrame(raf); raf = 0; setPlay(host, false); poster(); };
+  wire(host, run, null, halt); poster();
+  const unwatch = watchSize(cv, () => { if (!raf) poster(); });
   const off = autoStart(host, cv, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
   const s = {stop: () => { off(); unwatch(); cancelAnimationFrame(raf); raf = 0; }, run}; SIMS.push(s); return s;
 }
@@ -1611,12 +1668,13 @@ function mount(host, sim, o = {}){ if (!host || !sim) return;
   let tabs;
   if (sim.type === "flight") tabs = [...[sim.preset, ...(sim.also || [])].filter(p => FLIGHTS[p]).map(p => ({k: "f:" + p, label: tabLabel(p)})),
                                    ...(sim.pairs || []).filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}))];
+  else if (sim.type === "miss") tabs = [sim.kind || "behind", ...(sim.also || [])].filter(k => MISS[k]).map(k => ({k: "m:" + k, label: termLabel(MISS[k].term)}));
   else if (sim.type === "pair") tabs = [sim.kind, ...(sim.also || [])].filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}));
   else if (sim.type === "call") tabs = [sim.kind || "signal", ...(sim.also || [])].filter(k => SCENES[k]).map(k => ({k: "c:" + k, label: sceneTitle(SCENES[k])}));
   else return; // a type without an animation mounts nothing
   const show = (el, k, a) => { const x = k.slice(2), op = {autoplay: a, onAutoplay: done, onUser};
-    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
-  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : "f:" + sim.preset}];
+    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
+  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : "f:" + sim.preset}];
   if (tabs.length < 2) return show(host, tabs[0].k, ap);
   const first = o.tab && tabs.some(b => b.k === o.tab) ? o.tab : tabs[0].k;
   host.innerHTML = `<div class="cs-tabs" role="group">${tabs.map(b => `<button type="button" class="cs-btn${b.k === first ? " cs-primary" : ""}" data-p="${esc(b.k)}" aria-pressed="${b.k === first}">${esc(b.label)}</button>`).join("")}</div><div></div>`;
@@ -1631,6 +1689,7 @@ function mount(host, sim, o = {}){ if (!host || !sim) return;
 function kind(sim){ sim = sim || {};
   if (sim.type === "pair") return "pair";
   if (sim.type === "pattern") return "pattern";
+  if (sim.type === "miss") return "miss";
   if (sim.type === "lead") return sim.focus === "mount" ? "mount" : sim.focus === "follow-through" ? "follow" : "lead";
   if (sim.type === "call") { const k = sim.kind || "signal"; return k === "mount" ? "mount" : /^gun-/.test(k) ? "gunpos" : k === "misfire" ? "misfire" : "call"; }
   if ((sim.pairs || []).length) return "pair";
@@ -1678,6 +1737,9 @@ const TERM_SIMS = {
   "choke": {type: "pattern", choke: "ic"}, "pattern": {type: "pattern", choke: "m"}, "pattern-plate": {type: "pattern", choke: "m"},
   "constriction": {type: "pattern", choke: "m"}, "cylinder": {type: "pattern", choke: "cyl"}, "improved-cylinder": {type: "pattern", choke: "ic"},
   "modified": {type: "pattern", choke: "m"}, "improved-modified": {type: "pattern", choke: "im"}, "full-choke": {type: "pattern", choke: "full"},
+  // where the shot went (wave 6, 06.11.2026); miss-behind keeps the lead lab (a stopped gun), the other three get the coach's view
+  "miss-in-front": {type: "miss", kind: "front", also: ["behind", "over", "under"]}, "miss-over": {type: "miss", kind: "over", also: ["under", "behind", "front"]},
+  "miss-under": {type: "miss", kind: "under", also: ["over", "behind", "front"]}, "head-lift": {type: "miss", kind: "over"},
 };
 /* auto(): mount every <div data-clay-sim='{"type":...}'> or <div data-clay-term="crosser"> on a static page. A term host (the
    glossary) or a host with data-clay-hero gets the hero layout (heading + caption); a data-clay-sim host only the animation.
@@ -1692,7 +1754,7 @@ function auto(){
     if (!sim) return;
     if (el.dataset.clayTerm || el.hasAttribute("data-clay-hero")) hero(el, sim); else mount(el, sim); });
 }
-window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, patternSim, CHOKES, stopSims,
+window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, patternSim, CHOKES, missSim, MISS, stopSims,
   FLIGHTS, PAIRS, SCENES, CALL, TERM_SIMS, NAMES: NAME, TERM_IDS, tabLabel};
 /* English pronunciation (window.ClaySpeak): docs/shared/speak.js, the one source since 05.11.2026. The pages that load the
    animations get it inside sims.min.js (minifySims() in scripts/build_academy.mjs puts speak.js in front of this file). */

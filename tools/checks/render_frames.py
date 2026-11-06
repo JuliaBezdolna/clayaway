@@ -2,7 +2,7 @@
 
 Run from the repository root:
     python tools/checks/render_frames.py                      all types, desktop + phone (about 1-2 minutes)
-    python tools/checks/render_frames.py --only stand         only the stand scenes (also: flight, pair, lab, pattern)
+    python tools/checks/render_frames.py --only stand         only the stand scenes (also: flight, pair, lab, pattern, miss)
 Options: --nomascot (without docs/shared/mascot.js: no dog, no handler) · --rm (prefers-reduced-motion) · --out <folder>
 (default tools/checks/out/frames, ignored by git) · --chrome (installed Google Chrome). Frames: <out>/desktop[...]/ (host 720 px,
 DPR 1) and <out>/phone[...]/ (viewport 375, host 343 px, DPR 2), named <animation>__<moment>.png; requestAnimationFrame is a manual
@@ -19,8 +19,8 @@ OUT = pathlib.Path(opt("--out", OUT0 / "frames"))
 MASCOT = not flag("--nomascot")
 ONLY = opt("--only")
 RMO = flag("--rm")
-if ONLY not in (None, "stand", "flight", "pair", "lab", "pattern"):
-    sys.exit("ERROR: --only takes stand, flight, pair, lab or pattern")
+if ONLY not in (None, "stand", "flight", "pair", "lab", "pattern", "miss"):
+    sys.exit("ERROR: --only takes stand, flight, pair, lab, pattern or miss")
 
 JS = r"""
 async (o) => {
@@ -61,6 +61,12 @@ async (o) => {
   if (!o.only || o.only === "pattern") for (const ch of ClaySims.CHOKES) { const h = host(), s = ClaySims.patternSim(h, {choke: ch.k, autoplay: false}), cv = h.querySelector("canvas");
     res.push(["pattern_" + ch.k, "poster", shot(cv)]);
     q.length = 0; s.run(); let cb = q.pop(); cb = pump(cb, T0); if (cb) { cb = pump(cb, T0 + 250); res.push(["pattern_" + ch.k, "t0.25s", shot(cv)]); }
+    s.stop(); h.remove(); }
+  // ---- where the shot went (wave 6, 06.11.2026): poster + before the shot, the impact, after
+  if (!o.only || o.only === "miss") for (const [k, m] of Object.entries(ClaySims.MISS)) { const h = host(), s = ClaySims.missSim(h, k, {autoplay: false}), cv = h.querySelector("canvas");
+    res.push(["miss_" + k, "poster", shot(cv)]);
+    q.length = 0; s.run(); let cb = q.pop(); cb = pump(cb, T0);
+    for (const t of [m.tS - .1, m.tS + .01, m.tS + .1, .9]) { if (!cb) break; cb = pump(cb, T0 + t * 2400); res.push(["miss_" + k, "t" + t.toFixed(2), shot(cv)]); }
     s.stop(); h.remove(); }
   // ---- pairs
   if (!o.only || o.only === "pair") for (const k of Object.keys(ClaySims.PAIRS)) { const h = host(), s = ClaySims.pairSim(h, k, {autoplay: false}), cv = h.querySelector("canvas");
