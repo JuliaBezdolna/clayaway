@@ -17,6 +17,8 @@
      coach behind the shooter sees it; the cause under the canvas (glossary plan, wave 6, 06.11.2026).
    - tiesSim(host, kind, opts): ties — "countback" (below 3rd: layouts 8 → 1) or "shoot-off" (25 targets, then sudden death),
      a score table that lights up step by step; HTML, no canvas (glossary plan, wave 6, 06.11.2026).
+   - stockSim(host, kind, opts): gun fit diagrams — "lop" (length of pull from the side: fits / too short / too long) and "cast"
+     (from above: cast off / cast on, exaggerated); no animation (glossary plan, wave 6, 06.11.2026).
    - pairSim(host, kind, opts): a pair of targets — report pair, simultaneous pair, rafale (following pair, Sporting™ only).
    - leadLab(host, method, opts): crossing target in slow motion; methods maintained / swing / pullaway / ambush; "watch the method"
      or "your turn"; freeze-frame at the shot with the actual lead in metres and feet. Its still picture (before anything is played,
@@ -269,6 +271,14 @@ const DEF = {
   anim_ties_sd_ok: "Target {n}: both hit.",
   anim_ties_sd_both: "Target {n}: both missed. They have shot the same number of targets, so nobody is out.",
   anim_ties_sd_out: "Target {n}: A hit, B missed — B is out. A takes 1st place.",
+  anim_h_stock: "See how a stock is measured",
+  anim_w_stock: "A coach or a gun fitter sets the stock dimensions; the numbers here are only a guide.",
+  anim_stock_b_fit: "Fits", anim_stock_b_short: "Too short", anim_stock_b_long: "Too long", anim_stock_b_off: "Cast off", anim_stock_b_on: "Cast on",
+  anim_stock_fit: "Length of pull is measured from the trigger to the middle of the butt pad. For adults it is often about 36–38 cm (14¼–15 in); many factory competition guns come at about 37.5 cm (14¾ in). This is only a guide.",
+  anim_stock_short: "Too short: under recoil the thumb of the trigger hand may hit your nose, and recoil feels stronger.",
+  anim_stock_long: "Too long: the stock catches on your clothes as you mount the gun and may land on the arm instead of the shoulder.",
+  anim_stock_off: "Cast off: the stock bends slightly to the right, for a right-handed shooter, so that the eye sits exactly over the rib. It is a matter of a few millimetres; the drawing exaggerates it.",
+  anim_stock_on: "Cast on: the stock bends to the left, for a left-handed shooter. Without the cast a shooter needs, a gun may keep shooting to one side.",
   anim_pattern_load: "Simplified. 28 g of No. 7½ shot is about 370 pellets; the percentages are a guide for lead shot, and your gun and cartridge may give different ones. The target (110 mm) and the circle are to scale.",
 };
 const T = k => { const v = CFG.t(k); return v == null || v === "" ? (DEF[k] ?? k) : v; };
@@ -766,7 +776,7 @@ function clock(c, v, sub, state, s = 1){
    list if it has one. termLabel(id, en): the label outside the canvas (tabs, names, the method select): "English (local)" through
    the ONE helper docs/shared/terms.js; English only on English pages or without that helper. TERM_EN = English names used only when
    the page gives no term list (a page without glossary data); the glossary stays the source. */
-const TERM_EN = {"countback": "Countback", "shoot-off": "Shoot-off", "choke": "Choke", "miss-behind": "Behind", "miss-in-front": "In front", "miss-over": "Over", "miss-under": "Under", "pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
+const TERM_EN = {"length-of-pull": "Length of pull", "cast": "Cast", "countback": "Countback", "shoot-off": "Shoot-off", "choke": "Choke", "miss-behind": "Behind", "miss-in-front": "In front", "miss-over": "Over", "miss-under": "Under", "pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
   "maintained-lead": "Maintained lead", "swing-through": "Swing-through", "pull-away": "Pull-away", "ambush": "Ambush",
   "double-on-report": "Double on report", "simultaneous-double": "Simultaneous double", "rafale-double": "Rafale double",
   "gun-mount": "Gun mount", "ready-position": "Ready position", "sonopull": "Sonopull"};
@@ -1017,6 +1027,87 @@ function tiesSim(host, kind, opts = {}){
   show(steps.length - 1);
   const off = autoStart(host, host.querySelector(".cs-sim"), run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
   const s = {stop: () => { off(); clearTimeout(timer); timer = 0; }, run, steps: steps.length}; SIMS.push(s); return s;
+}
+
+/* The stock (glossary plan, wave 6, 06.11.2026): two diagrams of gun fit, no animation (a drawing is enough; the variant buttons
+   redraw it). The lesson gun-fit and the glossary: length of pull is measured from the trigger to the middle of the butt pad; for
+   adults it is often about 36–38 cm (14¼–15 in), many factory competition guns come at about 37.5 cm (14¾ in) — only a guide; too
+   long: it catches on clothing during the mount and may land on the arm; too short: the thumb of the trigger hand may hit the nose
+   and recoil feels stronger. Cast is a sideways bend of a few millimetres so that the eye sits exactly over the rib: cast off (to
+   the right) for a right-hander, cast on (to the left) for a left-hander. Drawings (our own, from primitives):
+   - "lop": the over-and-under from the side, muzzles to the left, barrels shortened (a break mark), the stock to scale at 5 px per
+     cm from the trigger; a dimension line from the trigger to the middle of the butt pad; variants short 33 cm / fit 37.5 cm /
+     long 42 cm (short and long are only drawn longer or shorter, no number is claimed for them).
+   - "cast": from above, muzzles away from the reader (so the shooter's right is the screen's right); the stock bends at the butt by
+     24 px — EXAGGERATED about ten times (the canvas says so); a dotted straight stock for comparison; the rib line runs on to the
+     eye, which sits over it; the face on the side of the comb where the cheek goes (left of the stock for a right-hander).
+   Canvas words English (CANVAS_EN); the explanation is HTML under the canvas (ui anim_stock_<variant>). The gun is drawn alone (no
+   person), as an over-and-under with its seam (E4 in spirit; it does not call gun()). */
+const STOCK = {lop: {term: "length-of-pull", vars: ["fit", "short", "long"], def: "fit"}, cast: {term: "cast", vars: ["off", "on"], def: "off"}};
+function stockSim(host, kind, opts = {}){
+  const sk = STOCK[kind] ? kind : "lop", st = STOCK[sk], W = 720, H = 300; let v = st.vars.includes(opts.variant) ? opts.variant : st.def;
+  host.innerHTML = `<div class="cs-tabs" role="group">${st.vars.map(x => `<button type="button" class="cs-btn${x === v ? " cs-primary" : ""}" data-v="${x}" aria-pressed="${x === v}">${esc(T("anim_stock_b_" + x))}</button>`).join("")}</div>`
+    + `<div class="cs-sim"><canvas width="720" height="300" role="img" aria-label="${esc(termLabel(st.term))}"></canvas><div class="cs-out" data-k="say"></div></div>`;
+  const cv = logical(host.querySelector("canvas"), W, H), c = cv.getContext("2d"), say = host.querySelector("[data-k=say]");
+  const WOOD = ["#6b4226", "#8a5a35", "#a8744a"], STEEL = ["#4b5563", "#9aa5b1", "#cbd5e1"], PAD = "#1f2937";
+  const poly = (pts, fillCol) => { c.beginPath(); pts.forEach(([x, y], i) => i ? c.lineTo(x, y) : c.moveTo(x, y)); c.closePath(); c.fillStyle = fillCol; c.fill(); };
+  const vgrad = (y0, y1, cols) => { const g = c.createLinearGradient(0, y0, 0, y1); g.addColorStop(0, cols[2]); g.addColorStop(.5, cols[1]); g.addColorStop(1, cols[0]); return g; };
+  const hgrad = (x0, x1, cols) => { const g = c.createLinearGradient(x0, 0, x1, 0); g.addColorStop(0, cols[0]); g.addColorStop(.5, cols[2]); g.addColorStop(1, cols[1]); return g; };
+  const sideView = () => {
+    const K = 5, Tx = 300, L = v === "short" ? 33 : v === "long" ? 42 : 37.5, Bx = Tx + L * K - 8, PADW = 9, Ym = 160;
+    // barrels (two stacked tubes, the seam between them), shortened with a break mark; the rib on top; the fore-end below
+    c.fillStyle = vgrad(100, 124, STEEL); box(c, 24, 100, 232, 24, 3); c.fill();
+    c.strokeStyle = "#111827"; c.lineWidth = 1.2; seg(c, 24, 112, 256, 112);                                   // the seam
+    c.fillStyle = STEEL[2]; c.fillRect(24, 97, 232, 3);                                                         // the rib
+    c.strokeStyle = "#06101d"; c.lineWidth = 6; c.beginPath(); c.moveTo(92, 90); c.lineTo(100, 104); c.lineTo(94, 118); c.lineTo(102, 132); c.stroke(); // break
+    c.fillStyle = vgrad(124, 138, WOOD); box(c, 150, 123, 100, 14, 5); c.fill();                               // fore-end
+    c.fillStyle = vgrad(96, 150, STEEL); box(c, 254, 96, 58, 54, 5); c.fill();                                  // receiver
+    c.strokeStyle = STEEL[0]; c.lineWidth = 3; c.beginPath(); c.ellipse(Tx - 2, 160, 16, 11, 0, 0, Math.PI); c.stroke(); // trigger guard
+    c.strokeStyle = ART.amber; c.lineWidth = 3.2; c.beginPath(); c.moveTo(Tx, 150); c.quadraticCurveTo(Tx + 5, 158, Tx - 1, 166); c.stroke(); // trigger
+    // the stock: comb from the receiver to the heel, the grip down and back to the toe; the butt pad at the end
+    const heel = [Bx, 112], toe = [Bx, 210];
+    c.beginPath(); c.moveTo(312, 98); c.lineTo(heel[0], heel[1]); c.lineTo(toe[0], toe[1]);
+    c.quadraticCurveTo(Bx - 120, 196, 352, 170); c.quadraticCurveTo(334, 160, 312, 150); c.closePath(); c.fillStyle = vgrad(98, 210, WOOD); c.fill();
+    c.fillStyle = PAD; box(c, Bx, 110, PADW, 102, 3); c.fill();                                                 // butt pad
+    // the dimension: from the trigger to the middle of the butt pad
+    const col = v === "fit" ? ART.em : ART.red, yd = 250, xe = Bx + PADW / 2;
+    c.strokeStyle = rgba(ART.ink, .55); c.lineWidth = 1.2; c.setLineDash([4, 4]); seg(c, Tx, 168, Tx, yd + 6); seg(c, xe, Ym + 52, xe, yd + 6); c.setLineDash([]);
+    c.fillStyle = ART.em; dot(c, xe, Ym, 4.5);                                                    // the reference point (always green)
+     c.strokeStyle = col; c.lineWidth = 2; seg(c, Tx, yd, xe, yd);
+    [[Tx, 1], [xe, -1]].forEach(([x, d]) => { c.beginPath(); c.moveTo(x, yd); c.lineTo(x + 9 * d, yd - 5); c.lineTo(x + 9 * d, yd + 5); c.closePath(); c.fillStyle = col; c.fill(); });
+    label(c, v === "fit" ? "length of pull · 37.5 cm · 14¾ in" : v === "short" ? "too short" : "too long", (Tx + xe) / 2, yd - 10, col);
+    label(c, "trigger", Tx - 24, 196, ART.amber, "right"); c.strokeStyle = rgba(ART.em, .7); c.lineWidth = 1.2; seg(c, xe + 4, Ym - 4, W - 120, 58);                // leader to the label in the free top-right corner
+    label(c, "middle of the butt pad", W - 12, 50, ART.em, "right");
+    label(c, "barrels shortened", 96, 80, ART.muted);
+  };
+  const topView = () => {
+    const X = 360, d = v === "off" ? 1 : -1, CAST = 24 * d;
+    // the stock centre line bends from the grip (y 186) to the butt (y 288): offset ∝ (distance from the grip)²
+    const cx0 = (y, k) => X + k * sq(Math.max(0, (y - 186) / 102)), cx = y => cx0(y, CAST), wd = y => 9 + 12 * clamp01((y - 186) / 102);
+    const side = (s, k = CAST) => { const a = []; for (let y = 186; y <= 288; y += 6) a.push([cx0(y, k) + s * wd(y), y]); return a; };
+    c.save(); c.setLineDash([3, 4]); c.strokeStyle = rgba(ART.ink, .4); c.lineWidth = 1.4; c.beginPath();            // the same stock without cast, for comparison
+    [...side(-1, 0), ...side(1, 0).reverse()].forEach(([x, y], i) => i ? c.lineTo(x, y) : c.moveTo(x, y)); c.closePath(); c.stroke(); c.restore();
+    poly([...side(-1), ...side(1).reverse()], hgrad(X - 30, X + 30, WOOD));                                          // the stock
+    c.fillStyle = PAD; const yb = 286; box(c, cx(yb) - 22, yb, 44, 8, 3); c.fill();                                  // butt pad
+    c.fillStyle = hgrad(X - 12, X + 12, STEEL); box(c, X - 12, 18, 24, 136, 4); c.fill();                           // barrels from above (the rib on top)
+    c.fillStyle = STEEL[2]; c.fillRect(X - 2, 18, 4, 136);
+    c.fillStyle = hgrad(X - 17, X + 17, STEEL); box(c, X - 17, 150, 34, 38, 5); c.fill();                           // receiver
+    // the rib line runs on to the eye: the eye sits over it; the face is beside the comb (left of the stock for a right-hander)
+    c.strokeStyle = rgba(ART.amber, .8); c.lineWidth = 1.4; c.setLineDash([5, 5]); seg(c, X, 150, X, 232); c.setLineDash([]);
+    const fy = 226, fx = X - d * 46; c.fillStyle = rgba(ART.ink, .14); c.beginPath(); c.ellipse(fx, fy, 30, 38, 0, 0, TAU); c.fill();
+    c.fillStyle = ART.amber; dot(c, X, 222, 5);
+    label(c, "eye over the rib", X - d * 92, 214, ART.amber, d > 0 ? "right" : "left");
+    label(c, v === "off" ? "cast off · right-handed" : "cast on · left-handed", X + d * 64, 246, ART.em, d > 0 ? "left" : "right");
+    label(c, "exaggerated", X + d * 64, 272, ART.muted, d > 0 ? "left" : "right");
+    label(c, "muzzles", X + 22, 32, ART.muted, "left");
+  };
+  const draw = () => { fit(cv, c); c.fillStyle = "#06101d"; c.fillRect(0, 0, W, H); (sk === "lop" ? sideView : topView)(); say.textContent = T("anim_stock_" + v); };
+  host.querySelectorAll("[data-v]").forEach(b => b.onclick = () => { v = b.dataset.v;
+    host.querySelectorAll("[data-v]").forEach(x => { const on = x.dataset.v === v; x.classList.toggle("cs-primary", on); x.setAttribute("aria-pressed", on ? "true" : "false"); });
+    draw(); if (opts.onUser) opts.onUser(); });
+  draw();
+  const unwatch = watchSize(cv, draw);
+  const s = {stop: () => unwatch(), run: draw}; SIMS.push(s); return s;
 }
 
 /* Lead lab: a crossing target at distance d (m) and speed v (m/s), seen side-on. World x in metres (left to right; the drawing is
@@ -1732,14 +1823,15 @@ function mount(host, sim, o = {}){ if (!host || !sim) return;
   let tabs;
   if (sim.type === "flight") tabs = [...[sim.preset, ...(sim.also || [])].filter(p => FLIGHTS[p]).map(p => ({k: "f:" + p, label: tabLabel(p)})),
                                    ...(sim.pairs || []).filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}))];
+  else if (sim.type === "stock") tabs = [sim.kind || "lop", ...(sim.also || [])].filter(k => STOCK[k]).map(k => ({k: "s:" + k, label: termLabel(STOCK[k].term)}));
   else if (sim.type === "ties") tabs = [sim.kind || "countback", ...(sim.also || [])].filter(k => TIES[k]).map(k => ({k: "t:" + k, label: termLabel(TIES[k].term)}));
   else if (sim.type === "miss") tabs = [sim.kind || "behind", ...(sim.also || [])].filter(k => MISS[k]).map(k => ({k: "m:" + k, label: termLabel(MISS[k].term)}));
   else if (sim.type === "pair") tabs = [sim.kind, ...(sim.also || [])].filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}));
   else if (sim.type === "call") tabs = [sim.kind || "signal", ...(sim.also || [])].filter(k => SCENES[k]).map(k => ({k: "c:" + k, label: sceneTitle(SCENES[k])}));
   else return; // a type without an animation mounts nothing
   const show = (el, k, a) => { const x = k.slice(2), op = {autoplay: a, onAutoplay: done, onUser};
-    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : k.startsWith("t:") ? tiesSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
-  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : sim.type === "ties" ? "t:countback" : "f:" + sim.preset}];
+    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : k.startsWith("t:") ? tiesSim(el, x, op) : k.startsWith("s:") ? stockSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
+  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : sim.type === "ties" ? "t:countback" : sim.type === "stock" ? "s:lop" : "f:" + sim.preset}];
   if (tabs.length < 2) return show(host, tabs[0].k, ap);
   const first = o.tab && tabs.some(b => b.k === o.tab) ? o.tab : tabs[0].k;
   host.innerHTML = `<div class="cs-tabs" role="group">${tabs.map(b => `<button type="button" class="cs-btn${b.k === first ? " cs-primary" : ""}" data-p="${esc(b.k)}" aria-pressed="${b.k === first}">${esc(b.label)}</button>`).join("")}</div><div></div>`;
@@ -1756,6 +1848,7 @@ function kind(sim){ sim = sim || {};
   if (sim.type === "pattern") return "pattern";
   if (sim.type === "miss") return "miss";
   if (sim.type === "ties") return "ties";
+  if (sim.type === "stock") return "stock";
   if (sim.type === "lead") return sim.focus === "mount" ? "mount" : sim.focus === "follow-through" ? "follow" : "lead";
   if (sim.type === "call") { const k = sim.kind || "signal"; return k === "mount" ? "mount" : /^gun-/.test(k) ? "gunpos" : k === "misfire" ? "misfire" : "call"; }
   if ((sim.pairs || []).length) return "pair";
@@ -1809,6 +1902,9 @@ const TERM_SIMS = {
   // ties (wave 6, 06.11.2026): a score table, step by step
   "countback": {type: "ties", kind: "countback", also: ["shoot-off"]}, "shoot-off": {type: "ties", kind: "shoot-off", also: ["countback"]},
   "sudden-death": {type: "ties", kind: "shoot-off"},
+  // the stock (wave 6, 06.11.2026): length of pull and cast, two diagrams
+  "length-of-pull": {type: "stock", kind: "lop", also: ["cast"]}, "cast": {type: "stock", kind: "cast", also: ["lop"]},
+  "gun-fit": {type: "stock", kind: "lop", also: ["cast"]}, "stock": {type: "stock", kind: "lop", also: ["cast"]},
 };
 /* auto(): mount every <div data-clay-sim='{"type":...}'> or <div data-clay-term="crosser"> on a static page. A term host (the
    glossary) or a host with data-clay-hero gets the hero layout (heading + caption); a data-clay-sim host only the animation.
@@ -1823,7 +1919,7 @@ function auto(){
     if (!sim) return;
     if (el.dataset.clayTerm || el.hasAttribute("data-clay-hero")) hero(el, sim); else mount(el, sim); });
 }
-window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, patternSim, CHOKES, missSim, MISS, tiesSim, TIES, stopSims,
+window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, patternSim, CHOKES, missSim, MISS, tiesSim, TIES, stockSim, STOCK, stopSims,
   FLIGHTS, PAIRS, SCENES, CALL, TERM_SIMS, NAMES: NAME, TERM_IDS, tabLabel};
 /* English pronunciation (window.ClaySpeak): docs/shared/speak.js, the one source since 05.11.2026. The pages that load the
    animations get it inside sims.min.js (minifySims() in scripts/build_academy.mjs puts speak.js in front of this file). */
