@@ -2,7 +2,7 @@
    the Academy (docs/learn/app/academy.js: lesson animations, Practice games), the FITASC rules trainer (docs/rules/trainer/)
    and the glossary term pages (docs/glossary/<id>/, docs/<lang>/glossary/<id>/, mounted through TERM_SIMS below).
    - flightSim(host, preset, opts): animated target presentation (crosser, incomer, driven, going-away, overhead, quartering,
-     teal, chandelle, looper, battue, dropping, rabbit). opts.focus adds a teaching overlay:
+     teal, springing, chandelle, looper, battue, dropping, rabbit, bolting rabbit). opts.focus adds a teaching overlay:
        "points" = pick-up point (eyes), hold point (muzzles at the call) and break point; the clay breaks at the break point;
        "stance" = hold point and break point with lines from the stand, labelled "front foot" (to the break point) and "body"
                   (turned back to the hold point);
@@ -372,6 +372,16 @@ const FLIGHTS = {
   "dropping":     {p: t => [.28 + .3*t, .08 + .66*t*t], s: () => .8, term: "dropping-target"},
   // rabbit: rolls and hops along the ground at the edge of the wood (y ≈ 0.76–0.8), clear of the shooter's mark at the bottom
   "rabbit":       {p: t => [1.05 - 1.1*t, .8 - .04*Math.abs(Math.sin(t*9))], s: () => .9, rabbit: 1, term: "rabbit"},
+  // springing (glossary: climbs steeply at an angle, like a bird flushing from the ground; 06.11.2026): unlike the teal (almost
+  // straight up, near the stand) it leaves from the field at the tree line well to the left of the stand, climbs at a steep angle
+  // AWAY from the shooter (it shrinks): about 75° in the first third, slows at the top (t ≈ 0.3) and falls away on a long, shallow
+  // slope back to the tree line (review 06.11.2026: a symmetric arch looked like the looper)
+  "springing":    {p: t => [.22 + .6*Math.pow(t, 1.6), .76 - .6*Math.sin(Math.PI*Math.pow(t, .6))], s: t => 1 - .45*t, term: "springing-target"},
+  // bolting rabbit (glossary: bursts out of cover and runs fast along the ground; 06.11.2026): it comes out of the wood at the tree
+  // line (y .76 → .8) right of the stand, then runs right to left with low quick hops, faster than the rabbit (f.dur .7: the same
+  // kind of stretch in less time); it rolls along the edge of the wood like the rabbit, clear of the shooter's mark
+  "bolting":      {p: t => { const k = Math.min(1, t/.1); return [.78 - .9*t, .76 + .04*k - .03*Math.abs(Math.sin(t*14))*k]; }, s: () => .9, rabbit: 1,
+                   dur: .7, term: "bolting-rabbit"},
 };
 
 /* ======================= ART (style 10.2026) =======================
@@ -789,7 +799,7 @@ function flightSim(host, preset, opts = {}){
   const name = termLabel(f.term, NAME[preset] || preset); // "Crosser (поперечна мішень)": English, the local word in brackets
   host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(opts.hideName ? "" : name)}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}
   ${opts.hideName ? "" : `<b>${esc(name)}</b>`}</div></div>`;
-  const cv = logical(host.querySelector("canvas"), 720, 380), c = cv.getContext("2d"), W = 720, H = 380; let raf = 0, t0 = 0, dur = 2400;
+  const cv = logical(host.querySelector("canvas"), 720, 380), c = cv.getContext("2d"), W = 720, H = 380; let raf = 0, t0 = 0, dur = 2400 * (f.dur || 1);
   const P = t => { const [x, y] = f.p(t); return [x*W, y*H]; };
   const brk = focus === "points" || focus === "stance" ? BR : null; // with these overlays the clay is broken at the break point
   // the shooter from behind: ready at the hold point; with "points" the gun follows the muzzle mark and is mounted as it joins the line
@@ -817,7 +827,7 @@ function flightSim(host, preset, opts = {}){
   const poster = () => { fit(cv, c); layer(c, "flight", W, H, flightPaint); const tp = brk != null ? brk : focus === "eyes" ? .7 : .5, end = brk != null ? brk : 1;
     pathDots(c, P, 0, end, ART.path); const ct = chevAt(tp, end); if (ct != null) chevron(c, P, ct, rgba(ART.mint, .85));
     figure(tp); if (focus) overlay(c, f, P, tp, focus, W, H, true); const [x, y] = P(tp); clay(c, x, y, f.s(tp), f, tp, {spin: .6}); };
-  const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * slowF(); setPlay(host, true); raf = requestAnimationFrame(frame); };
+  const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * (f.dur || 1) * slowF(); setPlay(host, true); raf = requestAnimationFrame(frame); };
   const halt = () => { cancelAnimationFrame(raf); raf = 0; setPlay(host, false); };
   wire(host, run, null, halt); poster();
   const unwatch = watchSize(cv, () => { if (!raf) poster(); });
@@ -1520,7 +1530,7 @@ function standSim(host, kind, opts = {}){
 const DIR = {"crosser-lr": "→", "crosser-rl": "←"};
 const NAME = {"crosser-lr": "Crosser", "crosser-rl": "Crosser", "incomer": "Incomer", "driven": "Driven target", "going-away": "Going away", "overhead": "Overhead",
   "quartering-away": "Quartering away", "quartering-towards": "Quartering towards", "teal": "Teal", "chandelle": "Chandelle", "looper": "Looper", "battue": "Battue",
-  "dropping": "Dropping target", "rabbit": "Rabbit"};
+  "dropping": "Dropping target", "rabbit": "Rabbit", "springing": "Springing target", "bolting": "Bolting rabbit"};
 const tabLabel = p => `${termLabel(FLIGHTS[p].term, NAME[p] || p)}${DIR[p] ? " " + DIR[p] : ""}`;
 const pairName = k => termLabel((PAIRS[k] || PAIRS.report).term);
 const sceneTitle = sc => sc.tab ? fill(T(sc.tab), {term: sc.term ? termLabel(sc.term) : ""}) : sc.term ? termLabel(sc.term) : T("anim_h_misfire");
@@ -1577,7 +1587,7 @@ const TERM_SIMS = {
   "quartering-away": {type: "flight", preset: "quartering-away"}, "quartering-towards": {type: "flight", preset: "quartering-towards"},
   "teal": {type: "flight", preset: "teal"}, "chandelle": {type: "flight", preset: "chandelle"}, "looper": {type: "flight", preset: "looper"},
   "battue": {type: "flight", preset: "battue"}, "dropping-target": {type: "flight", preset: "dropping"}, "rabbit": {type: "flight", preset: "rabbit"},
-  "bolting-rabbit": {type: "flight", preset: "rabbit"},
+  "bolting-rabbit": {type: "flight", preset: "bolting", also: ["rabbit"]}, "springing-target": {type: "flight", preset: "springing", also: ["teal"]},
   "pick-up-point": {type: "flight", preset: "quartering-away", focus: "points"}, "hold-point": {type: "flight", preset: "quartering-away", focus: "points"},
   "break-point": {type: "flight", preset: "quartering-away", focus: "points"}, "stance": {type: "flight", preset: "crosser-lr", focus: "stance"},
   "soft-focus": {type: "flight", preset: "going-away", focus: "eyes"}, "hard-focus": {type: "flight", preset: "going-away", focus: "eyes"},
