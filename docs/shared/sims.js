@@ -11,6 +11,8 @@
      soft focus at the pick-up point and hard focus on the target), so a reader who does not play it still sees it.
      The view is from behind the stand: the shooter is seen from the back at the bottom centre (shooterBack()), gun ready at the
      hold point (with "points" the gun follows the muzzle mark).
+   - patternSim(host, opts): a shot at a pattern plate from 36.6 m with a choke picker (cylinder … full): the share of the shot in
+     the 76 cm circle (the lesson's Trulock figures) and the target drawn to scale; opts.choke (glossary plan, wave 6, 06.11.2026).
    - pairSim(host, kind, opts): a pair of targets — report pair, simultaneous pair, rafale (following pair, Sporting™ only).
    - leadLab(host, method, opts): crossing target in slow motion; methods maintained / swing / pullaway / ambush; "watch the method"
      or "your turn"; freeze-frame at the shot with the actual lead in metres and feet. Its still picture (before anything is played,
@@ -242,6 +244,10 @@ const DEF = {
   anim_s_mount: "Mount: the stock comes up to the cheek and into the shoulder; the head stays still.",
   anim_s_shoot: "Shoot: the mount is finished as the shot comes.",
   anim_scale: "Only the shooter and the stand are to scale; the field and the target's flight are shortened.",
+  anim_h_pattern: "Watch how the choke changes the pattern",
+  anim_w_pattern: "A shot at a plate from 36.6 m (40 yards). Pick a choke: the tighter it is, the more shot lands in the 76 cm circle and the denser it is on the target in the centre.",
+  anim_pattern_in: "In the 76 cm circle: ≈ {n}% of the shot",
+  anim_pattern_load: "Simplified. 28 g of No. 7½ shot is about 370 pellets; the percentages are a guide for lead shot, and your gun and cartridge may give different ones. The target (110 mm) and the circle are to scale.",
 };
 const T = k => { const v = CFG.t(k); return v == null || v === "" ? (DEF[k] ?? k) : v; };
 const TERM = id => CFG.term(id);
@@ -736,7 +742,7 @@ function clock(c, v, sub, state, s = 1){
    list if it has one. termLabel(id, en): the label outside the canvas (tabs, names, the method select): "English (local)" through
    the ONE helper docs/shared/terms.js; English only on English pages or without that helper. TERM_EN = English names used only when
    the page gives no term list (a page without glossary data); the glossary stays the source. */
-const TERM_EN = {"pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
+const TERM_EN = {"choke": "Choke", "pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
   "maintained-lead": "Maintained lead", "swing-through": "Swing-through", "pull-away": "Pull-away", "ambush": "Ambush",
   "double-on-report": "Double on report", "simultaneous-double": "Simultaneous double", "rafale-double": "Rafale double",
   "gun-mount": "Gun mount", "ready-position": "Ready position", "sonopull": "Sonopull"};
@@ -831,6 +837,63 @@ function flightSim(host, preset, opts = {}){
   const halt = () => { cancelAnimationFrame(raf); raf = 0; setPlay(host, false); };
   wire(host, run, null, halt); poster();
   const unwatch = watchSize(cv, () => { if (!raf) poster(); });
+  const off = autoStart(host, cv, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
+  const s = {stop: () => { off(); unwatch(); cancelAnimationFrame(raf); raf = 0; }, run}; SIMS.push(s); return s;
+}
+
+/* Pattern plate (glossary plan, wave 6, 06.11.2026): what a choke does to the pattern. One shot from 36.6 m (40 yards) at a steel
+   pattern plate, seen face-on, with the 76 cm (30 in) circle round the densest part, as in the classic test. Share of the shot inside
+   the circle — TEACHING, the lesson chokes-pattern-testing-and-care (Trulock Chokes table): cylinder ≈ 40 %, improved cylinder (1/4)
+   ≈ 50 %, modified (1/2) ≈ 60 %, improved modified (3/4) ≈ 65 %, full ≈ 70 %. 370 pellets: 28 g of No. 7½ holds about 350–400
+   (lesson cartridges-shot-size; FITASC allows at most 28 g). Simplified on purpose: the pellets spread as a round Gaussian cloud whose
+   width is set so that exactly that share lands in the circle (σ = R / √(−2 ln(1 − p))), at stratified radii (so the share is exact)
+   and seeded angles (the same picture on every load). Real patterns differ from shot to shot and between cartridges: the note under
+   the canvas says so. The target (110 mm) is drawn to scale in the centre so the reader sees how dense the shot is on it.
+   300 px = 1 m (the canvas shows about 2.4 × 1.27 m of the plate). Canvas words are English (CANVAS_EN rule); the share is HTML text
+   (ui anim_pattern_in), the note ui anim_pattern_load. opts.choke: cyl | ic | m | im | full (default m). */
+const CHOKES = [{k: "cyl", label: "Cylinder", p: .40}, {k: "ic", label: "1/4 · IC", p: .50}, {k: "m", label: "1/2 · M", p: .60},
+  {k: "im", label: "3/4 · IM", p: .65}, {k: "full", label: "Full", p: .70}];
+function patternSim(host, opts = {}){
+  const W = 720, H = 380, N = 370, PXM = 300, R = .38 * PXM, CX = W / 2, CY = H / 2 + 4, CLAY = .055 * PXM, M0 = 12;
+  let ck = CHOKES.some(x => x.k === opts.choke) ? opts.choke : "m";
+  host.innerHTML = `<div class="cs-tabs" role="group" aria-label="${esc(termLabel("choke"))}">${CHOKES.map(x => `<button type="button" class="cs-btn${x.k === ck ? " cs-primary" : ""}" data-ck="${x.k}" aria-pressed="${x.k === ck}">${esc(x.label)}</button>`).join("")}</div>`
+    + `<div class="cs-sim"><canvas width="720" height="380" role="img"></canvas><div class="cs-ctl">${playBtn("shoot")}<b data-out aria-live="polite"></b></div>`
+    + `<div class="cs-out cs-note">${esc(T("anim_pattern_load"))}</div></div>`;
+  const cv = logical(host.querySelector("canvas"), W, H), c = cv.getContext("2d"), out = host.querySelector("[data-out]");
+  let raf = 0, t0 = 0, dur = 700, P = [], inside = 0;
+  const shot = k => { const ch = CHOKES.find(x => x.k === k), sg = R / Math.sqrt(-2 * Math.log(1 - ch.p)), rnd = rng(7919 + 101 * CHOKES.indexOf(ch));
+    const order = [...Array(N).keys()]; for (let i = N - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+    // pellet i sits at the radius of quantile (i + .5) / N of the cloud; the shuffled order is only the order in which the marks appear
+    P = order.map(i => { const r = sg * Math.sqrt(-2 * Math.log(1 - (i + .5) / N)), a = rnd() * TAU; return [CX + r * Math.cos(a), CY + r * Math.sin(a), r <= R]; });
+    inside = P.filter(q => q[2]).length; };
+  const say = show => { out.textContent = show ? fill(T("anim_pattern_in"), {n: Math.round(100 * inside / N)}) : ""; };
+  const paint = upto => { fit(cv, c);
+    c.fillStyle = "#06101d"; c.fillRect(0, 0, W, H);
+    const g = c.createRadialGradient(CX, CY, 30, CX, CY, W * .62); g.addColorStop(0, "#3b4756"); g.addColorStop(1, "#1f2833");
+    c.fillStyle = g; box(c, M0, M0, W - 2 * M0, H - 2 * M0, 10); c.fill();                            // the plate (painted steel)
+    c.save(); box(c, M0, M0, W - 2 * M0, H - 2 * M0, 10); c.clip(); c.fillStyle = "#E5E7EB";
+    for (let i = 0; i < upto; i++) { c.beginPath(); c.arc(P[i][0], P[i][1], 1.9, 0, TAU); c.fill(); }   // pellet marks
+    c.restore();
+    c.save(); c.strokeStyle = ART.cyan; c.lineWidth = 2; c.setLineDash([8, 6]); c.beginPath(); c.arc(CX, CY, R, 0, TAU); c.stroke(); c.restore();
+    c.save(); c.strokeStyle = ART.clayTop; c.lineWidth = 2.2; c.beginPath(); c.arc(CX, CY, CLAY, 0, TAU); c.stroke(); c.restore();
+    label(c, "76 cm", CX + R * .71 + 4, CY - R * .71 - 6, ART.cyan, "left");
+    label(c, "36.6 m · 40 yd", M0 + 14, M0 + 26, ART.ink, "left");
+    label(c, "target 110 mm", W - M0 - 14, H - M0 - 14, ART.clayTop, "right");
+    const y = H - M0 - 30, x0 = M0 + 16, x1 = x0 + .5 * PXM; c.strokeStyle = ART.ink; c.lineWidth = 2; c.beginPath();
+    c.moveTo(x0, y); c.lineTo(x1, y); c.moveTo(x0, y - 5); c.lineTo(x0, y + 5); c.moveTo(x1, y - 5); c.lineTo(x1, y + 5); c.stroke();
+    label(c, "50 cm", (x0 + x1) / 2, y + 22, ART.ink); };
+  const frame = ts => { if (!t0) t0 = ts; const k = Math.min(1, (ts - t0) / dur); paint(Math.round(N * easeOut(k)));
+    if (k < 1) raf = requestAnimationFrame(frame); else { raf = 0; say(true); setPlay(host, false); } };
+  const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 700 * slowF(); say(false);
+    if (RM()) { paint(N); say(true); setPlay(host, false); return; } setPlay(host, true); raf = requestAnimationFrame(frame); };
+  const halt = () => { cancelAnimationFrame(raf); raf = 0; paint(N); say(true); setPlay(host, false); };
+  host.querySelectorAll("[data-ck]").forEach(b => b.onclick = () => { ck = b.dataset.ck;
+    host.querySelectorAll("[data-ck]").forEach(x => { const on = x.dataset.ck === ck; x.classList.toggle("cs-primary", on); x.setAttribute("aria-pressed", on ? "true" : "false"); });
+    shot(ck); run(); });
+  // still picture before it plays: the whole pattern of the chosen choke and its share in the circle
+  const poster = () => { paint(N); say(true); };
+  shot(ck); wire(host, run, null, halt); poster();
+  const unwatch = watchSize(cv, () => { if (!raf) paint(N); });
   const off = autoStart(host, cv, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
   const s = {stop: () => { off(); unwatch(); cancelAnimationFrame(raf); raf = 0; }, run}; SIMS.push(s); return s;
 }
@@ -1544,6 +1607,7 @@ const TERM_IDS = [...new Set([...Object.values(FLIGHTS).map(f => f.term), ...Obj
 function mount(host, sim, o = {}){ if (!host || !sim) return;
   const ap = o.autoplay === undefined ? "view" : o.autoplay, done = o.onAutoplay, onUser = o.onUser;
   if (sim.type === "lead") return leadLab(host, sim.method, Object.assign({}, sim, {autoplay: ap, onAutoplay: done, onUser}));
+  if (sim.type === "pattern") return patternSim(host, Object.assign({}, sim, {autoplay: ap, onAutoplay: done, onUser}));
   let tabs;
   if (sim.type === "flight") tabs = [...[sim.preset, ...(sim.also || [])].filter(p => FLIGHTS[p]).map(p => ({k: "f:" + p, label: tabLabel(p)})),
                                    ...(sim.pairs || []).filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}))];
@@ -1566,6 +1630,7 @@ function mount(host, sim, o = {}){ if (!host || !sim) return;
    (the Academy build and the glossary use the same words). */
 function kind(sim){ sim = sim || {};
   if (sim.type === "pair") return "pair";
+  if (sim.type === "pattern") return "pattern";
   if (sim.type === "lead") return sim.focus === "mount" ? "mount" : sim.focus === "follow-through" ? "follow" : "lead";
   if (sim.type === "call") { const k = sim.kind || "signal"; return k === "mount" ? "mount" : /^gun-/.test(k) ? "gunpos" : k === "misfire" ? "misfire" : "call"; }
   if ((sim.pairs || []).length) return "pair";
@@ -1609,6 +1674,10 @@ const TERM_SIMS = {
   "yellow-card": {type: "call", kind: "gun-early"},
   "malfunction": {type: "call", kind: "misfire"},
   "gun-mount": {type: "call", kind: "mount"}, "move-mount-shoot": {type: "call", kind: "mount"},
+  // the pattern plate (wave 6, 06.11.2026): the choke terms open on their own choke; light modified has no figure in the lesson
+  "choke": {type: "pattern", choke: "ic"}, "pattern": {type: "pattern", choke: "m"}, "pattern-plate": {type: "pattern", choke: "m"},
+  "constriction": {type: "pattern", choke: "m"}, "cylinder": {type: "pattern", choke: "cyl"}, "improved-cylinder": {type: "pattern", choke: "ic"},
+  "modified": {type: "pattern", choke: "m"}, "improved-modified": {type: "pattern", choke: "im"}, "full-choke": {type: "pattern", choke: "full"},
 };
 /* auto(): mount every <div data-clay-sim='{"type":...}'> or <div data-clay-term="crosser"> on a static page. A term host (the
    glossary) or a host with data-clay-hero gets the hero layout (heading + caption); a data-clay-sim host only the animation.
@@ -1623,7 +1692,7 @@ function auto(){
     if (!sim) return;
     if (el.dataset.clayTerm || el.hasAttribute("data-clay-hero")) hero(el, sim); else mount(el, sim); });
 }
-window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, stopSims,
+window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, patternSim, CHOKES, stopSims,
   FLIGHTS, PAIRS, SCENES, CALL, TERM_SIMS, NAMES: NAME, TERM_IDS, tabLabel};
 /* English pronunciation (window.ClaySpeak): docs/shared/speak.js, the one source since 05.11.2026. The pages that load the
    animations get it inside sims.min.js (minifySims() in scripts/build_academy.mjs puts speak.js in front of this file). */

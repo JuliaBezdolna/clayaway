@@ -2,7 +2,7 @@
 
 Run from the repository root:
     python tools/checks/render_frames.py                      all types, desktop + phone (about 1-2 minutes)
-    python tools/checks/render_frames.py --only stand         only the stand scenes (also: flight, pair, lab)
+    python tools/checks/render_frames.py --only stand         only the stand scenes (also: flight, pair, lab, pattern)
 Options: --nomascot (without docs/shared/mascot.js: no dog, no handler) · --rm (prefers-reduced-motion) · --out <folder>
 (default tools/checks/out/frames, ignored by git) · --chrome (installed Google Chrome). Frames: <out>/desktop[...]/ (host 720 px,
 DPR 1) and <out>/phone[...]/ (viewport 375, host 343 px, DPR 2), named <animation>__<moment>.png; requestAnimationFrame is a manual
@@ -19,8 +19,8 @@ OUT = pathlib.Path(opt("--out", OUT0 / "frames"))
 MASCOT = not flag("--nomascot")
 ONLY = opt("--only")
 RMO = flag("--rm")
-if ONLY not in (None, "stand", "flight", "pair", "lab"):
-    sys.exit("ERROR: --only takes stand, flight, pair or lab")
+if ONLY not in (None, "stand", "flight", "pair", "lab", "pattern"):
+    sys.exit("ERROR: --only takes stand, flight, pair, lab or pattern")
 
 JS = r"""
 async (o) => {
@@ -57,6 +57,11 @@ async (o) => {
       for (const t of [.3, .6, .9]) { if (!cb) break; cb = pump(cb, T0 + t * 2400); res.push([nm, "t" + t.toFixed(2), shot(cv)]); }
       s.stop(); h.remove(); }
   }
+  // ---- pattern plate (wave 6, 06.11.2026): every choke, the poster and the marks half-way in
+  if (!o.only || o.only === "pattern") for (const ch of ClaySims.CHOKES) { const h = host(), s = ClaySims.patternSim(h, {choke: ch.k, autoplay: false}), cv = h.querySelector("canvas");
+    res.push(["pattern_" + ch.k, "poster", shot(cv)]);
+    q.length = 0; s.run(); let cb = q.pop(); cb = pump(cb, T0); if (cb) { cb = pump(cb, T0 + 250); res.push(["pattern_" + ch.k, "t0.25s", shot(cv)]); }
+    s.stop(); h.remove(); }
   // ---- pairs
   if (!o.only || o.only === "pair") for (const k of Object.keys(ClaySims.PAIRS)) { const h = host(), s = ClaySims.pairSim(h, k, {autoplay: false}), cv = h.querySelector("canvas");
     res.push(["pair_" + k, "poster", shot(cv)]);
