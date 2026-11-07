@@ -130,8 +130,12 @@
     const inCat = t => !cat || (cat === "anim" ? t.anim : t.cat === cat);
     const rank = n => { const qw = words(n), qs = hasSkel() && n.replace(/[^\p{L}]/gu, "").length >= 3 ? skel(q) : "", qb = qs ? bare(q) : "";
       return T.filter(inCat).map(t => [t, score(t, n, qw, qs, qb)]).filter(([, sc]) => sc !== null)
-        .sort((x, y) => x[1] - y[1] || x[0].a.textContent.localeCompare(y[0].a.textContent)); };
-    const item = (t, withCat) => `<li><a href="${esc(t.a.getAttribute("href"))}"><b>${t.a.innerHTML}${t.anim ? `<span class="gs-an" aria-hidden="true"></span>` : ""}</b>${withCat ? `<small>${esc(catName[t.cat] || "")}</small>` : ""}${t.d ? `<span class="gs-d">${esc(t.d)}</span>` : ""}</a></li>`;
+        .sort((x, y) => x[1] - y[1] || (x[0].a.querySelector(".en") || x[0].a).textContent.localeCompare((y[0].a.querySelector(".en") || y[0].a).textContent)); };
+    // index items are two lines (<span class="en">English</span><span class="lc">local</span>, build_seo.mjs): one line "English (local)"
+    // here; the italic subtitle (.lc.sub) is left out, the definition follows anyway
+    const name = a => { const e = a.querySelector(".en"), l = a.querySelector(".lc:not(.sub)");
+      return e ? `<span lang="en">${e.innerHTML}</span>${l ? ` (${l.innerHTML})` : ""}` : a.innerHTML; };
+    const item = (t, withCat) => `<li><a href="${esc(t.a.getAttribute("href"))}"><b>${name(t.a)}${t.anim ? `<span class="gs-an" aria-hidden="true"></span>` : ""}</b>${withCat ? `<small>${esc(catName[t.cat] || "")}</small>` : ""}${t.d ? `<span class="gs-d">${esc(t.d)}</span>` : ""}</a></li>`;
     function renderMini() { // term page: the best 8 in a drop-down, then "all results" on the index page
       const n = norm(q); X.hidden = !q;
       if (!n) { POP.hidden = true; R.innerHTML = ""; return; }

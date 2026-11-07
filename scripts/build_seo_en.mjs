@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "fs";
 
 export function buildEnglish() {
-  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, catMore, crumbLd } = globalThis.SEO;
+  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd } = globalThis.SEO;
   const out = [];
   const TM = "Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.";
 
@@ -78,7 +78,7 @@ ${rel ? `<h2>Related terms</h2><p>${rel}</p>` : ""}${catMore("en", t, GLOSS.term
       out.push(en);
     }
     writeFileSync(`${DOCS}/en/glossary/index.html`, head({ title: `Clay shooting glossary — ${GLOSS.terms.length} terms | ClayArena`, desc: "Sporting™ and Compak® Sporting terms explained in plain English, with links to the FITASC rules and to beginner lessons.", url: BASE + "en/glossary/", uk: BASE + "glossary/", en: BASE + "en/glossary/",
-      ld: [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}en/glossary/${t.id}/` })) }], img: "glossary", css: GS.CSS }) + bar(crumbs("en", "📖", [{ label: "Glossary" }]), BASE + "en/glossary/", BASE + "glossary/", true) + `
+      ld: [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}en/glossary/${t.id}/` })) }], img: "glossary", css: GS.CSS + LIST_CSS }) + bar(crumbs("en", "📖", [{ label: "Glossary" }]), BASE + "en/glossary/", BASE + "glossary/", true) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>Clay shooting glossary</h1><p>${GLOSS.terms.length} terms of Sporting™ and Compak® Sporting, explained in plain English with links to the FITASC rules and to ClayArena Academy lessons.</p>
 ${glossaryIndexList("en", GLOSS.terms, { cat: c => c, url: t => `${BASE}en/glossary/${t.id}/`, html: t => esc(dispTerm(t)), short: t => t.short_en })}
 <div class="disc">${TM}</div>${legal("en")}</main></body></html>`);

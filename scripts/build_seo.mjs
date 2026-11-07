@@ -346,7 +346,7 @@ ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}${catMore
   const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${ukTerms(GLOSS.terms.length)} Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
 ${glossaryIndexList("uk", GLOSS.terms, { cat: c => CAT_UK[c] || c, url: t => `${BASE}glossary/${t.id}/`, html: t => termHtml("uk", t), short: t => t.short_uk })}`;
   writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${ukTerms(GLOSS.terms.length)} | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
-    [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody, null, `${BASE}en/glossary/`));
+    [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody, null, `${BASE}en/glossary/`).replace("</head>", `<style>${LIST_CSS}</style>\n</head>`));
   return [BASE + "glossary/", ...out];
 }
 
@@ -413,12 +413,24 @@ const gsKeys = (lang, t) => {
   const seen = new Set(), clean = a => a.filter(Boolean).map(v => String(v).replace(/\|/g, " ").trim()) // once each, case-insensitive
     .filter(v => { const f = CT.flat(v); if (!f || seen.has(f)) return false; seen.add(f); return true; });
   return { k: clean([t.term, t.display_term, tr && CT.termLocal(t, tr, lang)]), a: clean([...(t.aka || []), ...((tr && tr.alt) || []), ...uk]) }; };
+// Each list item in two lines (glossary plan, wave 10: design of the index, 07.11.2026): the English term (bold, light) and under it
+// the local word of the language (grey). uk: a term with no Ukrainian word in its name shows the subtitle of its page instead
+// (content/glossary/subtitles/uk.json, in italics: Jury — «журі змагання»). English pages: the term alone. o.html(t) gives
+// '<span lang="en">English</span> (local)' (ClayTerms.html) or plain text on the English pages; it is split here.
+// The search drop-down (glossary-search.js) puts them back into one line "English (local)".
+const LIST_CSS = ".list{columns:3 230px;column-gap:28px}.list a{padding:6px 8px;margin:0 -8px 2px;border-radius:8px;line-height:1.3}.list a:hover{background:rgba(255,255,255,.05)}"
+  + ".list .en{display:block;color:var(--ink);font-weight:600}.list .lc{display:block;color:var(--muted);font-size:13.5px;margin-top:1px}.list .lc.sub{font-style:italic}"
+  + ".list a[data-anim]::after{content:none}.list a[data-anim] .en::after{content:\"▶\";margin-left:5px;font-size:.7em;color:var(--em);vertical-align:.14em}";
+const twoLine = (lang, t, h) => { const m = /^<span lang="en">([\s\S]*?)<\/span>(?: \(([\s\S]*)\))?$/.exec(h);
+  if (!m) return `<span class="en" lang="en">${h}</span>`;
+  const sub = !m[2] && lang === "uk" && SUB_UK[t.id] ? esc(tm(SUB_UK[t.id])) : "";
+  return `<span class="en" lang="en">${m[1]}</span>${m[2] ? `<span class="lc">${m[2]}</span>` : sub ? `<span class="lc sub">${sub}</span>` : ""}`; };
 const glossaryIndexList = (lang, terms, o) => {
   const cats = [...new Set(terms.map(t => t.cat))], inCat = c => terms.filter(t => t.cat === c);
   const box = GS.form(lang, cats.map(c => ({ slug: GS.catSlug(c), name: o.cat(c), n: inCat(c).length })), esc, terms.filter(t => ANIM.has(t.id)).length);
   return box + "\n" + cats.map(c => `<h2 id="cat-${GS.catSlug(c)}">${esc(o.cat(c))}</h2><div class="list" data-cat="${GS.catSlug(c)}">${inCat(c).sort((a, b) => a.term.localeCompare(b.term)).map(t => {
     const g = gsKeys(lang, t), d = o.short(t);
-    return `<a href="${o.url(t)}" data-k="${esc(g.k.join("|"))}"${g.a.length ? ` data-a="${esc(g.a.join("|"))}"` : ""}${d ? ` data-d="${esc(d)}"` : ""}${ANIM.has(t.id) ? " data-anim" : ""}>${o.html(t)}</a>`; }).join("")}</div>`).join("\n"); };
+    return `<a href="${o.url(t)}" data-k="${esc(g.k.join("|"))}"${g.a.length ? ` data-a="${esc(g.a.join("|"))}"` : ""}${d ? ` data-d="${esc(d)}"` : ""}${ANIM.has(t.id) ? " data-anim" : ""}>${twoLine(lang, t, o.html(t))}</a>`; }).join("")}</div>`).join("\n"); };
 // Breadcrumbs in JSON-LD (BreadcrumbList) of the glossary term pages, all 11 languages (glossary plan, wave 8: markup, 05.11.2026;
 // until then only the uk pages had it): the same steps as the visible breadcrumb "Glossary › term", so Google can show them in
 // the result instead of the URL. items = [{ name, url }, …].
@@ -531,7 +543,7 @@ urls.push(...glossaryPages());
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, catMore, crumbLd };
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
