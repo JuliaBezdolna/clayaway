@@ -114,10 +114,10 @@ p{margin:0 0 10px;max-width:72ch}
 .faqlist p{margin:6px 0 0;color:var(--soft)}
 .empty{padding:30px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
 mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2px}
-/* CLS: until render() fills #app (it still holds only the <noscript>), the static-pages line would sit right under the header
-   and then jump down by the whole guide (Lighthouse 09.11.2026: CLS 0.100, node nav#statics). Keep it hidden until then:
-   an element that appears is not a layout shift. Without JS the <noscript> links stand in for it. */
-#app:has(>noscript)~#statics{display:none}
+/* CLS: until render() has drawn the whole guide (class "ready" on #app), the static-pages line would sit right under the header
+   or the title and then jump down by the whole guide (Lighthouse 09.11.2026: CLS 0.100, node nav#statics). Keep it hidden until
+   then: an element that appears is not a layout shift. Without JS the <noscript> links stand in for it. */
+#app:not(.ready)~#statics{display:none}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 <script src="../shared/nav.js" defer></script>
@@ -132,16 +132,34 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
 </div></header>
 <main id="app"><noscript><p><a href="sporting/">Правила Parcours de Chasse – Sporting™</a> · <a href="compak/">Правила Compak® Sporting</a> · <a href="en/sporting/">Parcours de Chasse – Sporting™ rules (EN)</a> · <a href="en/compak/">Compak® Sporting rules (EN)</a></p></noscript></main>
 <nav id="statics" aria-label="Статичні сторінки" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · <span lang="en">English</span>: <a href="en/sporting/" hreflang="en">Sporting™</a> · <a href="en/compak/" hreflang="en">Compak® Sporting</a> · <a href="trainer/?lang=uk">🎯 Тренажер правил</a></nav>
-<script src="data/sporting.js"></script>
-<script src="data/compak.js"></script>
+<!-- the rules books (data/sporting.js, data/compak.js, ~280 KB each) are loaded by the script below: loadBook() -->
 <script>
 /* ClayArena · FITASC rules guide (stage 1, static).
    Data: docs/rules/data/<key>.js push one "book" each into window.RULES (format: rules/SCHEMA.md in the repository, outside docs/).
+   Loading (09.11.2026, Lighthouse: both books blocked the first paint, FCP 4.0 s / LCP 4.6 s locally): the title and the lead
+   are drawn at once from T below; only the book of the discipline shown is loaded, after that first paint (start()), and the
+   other book only when the visitor switches to it.
    Flow: question -> toks() -> search() over rule items + FAQ -> answerHTML() shows the best FAQ answer
    (if it scores close to the best rule item) plus the most relevant rule items with PDF page links.
    Stage 2 replaces search() with POST /api/rules/ask on the ClayArena server (retrieval + Claude API),
    keeping the same item ids/refs for citations. See docs/rules-spec/. */
-const BOOKS=Object.fromEntries((window.RULES||[]).map(b=>[b.key,b]));
+const BOOK=k=>(window.RULES||[]).find(b=>b.key===k);
+const LOAD={}, DONE={};
+function loadBook(k){
+  if(!LOAD[k]) LOAD[k]=new Promise(res=>{ const s=document.createElement("script"); s.src=`data/${k}.js`;
+    s.onload=s.onerror=()=>{ DONE[k]=true; res(BOOK(k)); }; document.head.appendChild(s); });
+  return LOAD[k];
+}
+/* start(): after the first paint of the title (a largest-contentful-paint entry), so the book does not hold that paint back;
+   browsers without LCP entries (Safari) start on the next frame; 1 s at the latest (a tab opened in the background). */
+let started=false;
+function start(){ if(started) return; started=true; render(); }
+try{
+  if((PerformanceObserver.supportedEntryTypes||[]).includes("largest-contentful-paint"))
+    new PerformanceObserver((l,o)=>{ o.disconnect(); setTimeout(start,0); }).observe({type:"largest-contentful-paint",buffered:true});
+  else requestAnimationFrame(()=>setTimeout(start,0));
+}catch(e){ setTimeout(start,0); }
+setTimeout(start,1000);
 const T={
  uk:{svc:"Правила FITASC",svcS:"ClayArena · довідник спортсмена",title:"Правила {d} простими словами",lead:"Читайте правила розділ за розділом або просто запитайте. Відповіді — нашим переказом офіційного регламенту FITASC, з номером розділу і посиланням на сторінку PDF.",
    ph:"Запитайте: «скільки відмов машинки дозволено?», «положення рушниці», «що таке no bird?»",ask:"Відповісти",ex:"Часті питання",answer:"Відповідь",rel:"Правила за темою",open:"Відкрити в PDF FITASC, стор.",none:"Не знайшли точної відповіді. Спробуйте інші слова або перегляньте розділи нижче.",
@@ -265,12 +283,20 @@ function render(){
   const sn=document.getElementById("statics"); sn.setAttribute("aria-label",t("statics")); sn.innerHTML=staticsHTML();
   document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===L()));
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===S.disc));
-  const book=BOOKS[S.disc], app=document.getElementById("app");
+  const book=BOOK(S.disc), app=document.getElementById("app");
   const dname=S.disc==="sporting"?"Sporting™":"Compak® Sporting";
+  const hero=`<div class="eyebrow">FITASC · ${esc(dname)}</div><h1>${t("title").replace("{d}",esc(dname))}</h1><p class="muted">${t("lead")}</p>`;
+  if(!book&&!DONE[S.disc]){
+    /* the book is not here yet: draw the title and the lead (first load), or keep the guide shown until the other book arrives */
+    if(!app.classList.contains("ready")) app.innerHTML=hero; else app.setAttribute("aria-busy","true");
+    if(started){ const k=S.disc; loadBook(k).then(()=>{ if(S.disc===k){ app.removeAttribute("aria-busy"); if(S.q) S.res=search(BOOK(k)||{sections:[],faq:[],source:{}},S.q); render(); } }); }
+    return;
+  }
+  app.removeAttribute("aria-busy"); app.classList.add("ready");
   if(!book){ app.innerHTML=`<h1>${t("title").replace("{d}",dname)}</h1><div class="empty">${t("notReady")}</div>`; return; }
   const ex=(book.faq||[]).slice(0,8);
   let parts=[]; book.sections.forEach(s=>{ if(!parts.includes(s.part)) parts.push(s.part); });
-  app.innerHTML=`<div class="eyebrow">FITASC · ${esc(dname)}</div><h1>${t("title").replace("{d}",esc(dname))}</h1><p class="muted">${t("lead")}</p>
+  app.innerHTML=`${hero}
    <div class="source"><span>${t("src")}: <a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} ↗</a></span><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<span><a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a></span>`:""}<span>${t("checked")}</span><a class="btn primary" style="padding:6px 14px;font-size:14px;text-decoration:none" href="trainer/?lang=${esc(VL())}#${S.disc}">🎯 ${t("trainer")} →</a><a class="btn" style="padding:4px 12px;font-size:13px;text-decoration:none" href="${L()==="uk"?"categories/":"en/categories/"}">${t("cats")}</a></div>
    <form class="ask" id="askf"><label for="q" class="eyebrow" style="display:block;margin-bottom:8px">${t("askL")}</label><div class="askrow"><input id="q" type="search" autocomplete="off" placeholder="${esc(t("ph"))}" value="${esc(S.q)}"><button class="btn primary" type="submit">${t("ask")}</button></div>
      <div class="chips">${ex.map(f=>`<button type="button" data-q="${esc(tx(f,"q"))}">${esc(tx(f,"q"))}</button>`).join("")}</div></form>
@@ -279,8 +305,9 @@ function render(){
    <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}</section>`).join("")}
    <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?`<button data-jump="${id}">${esc(idx(book).byId[id].ref||id)}</button>`:"").join("")}</div></details>`).join("")}</section>
    <div class="disclaimer">${t("disc")}</div></div></div>`;
+  if(ITEM){ const i=ITEM; ITEM=null; setTimeout(()=>jump("it-"+i),150); }
 }
-function ask(q){ S.q=q; S.res=search(BOOKS[S.disc],q); document.getElementById("ans").innerHTML=answerHTML(BOOKS[S.disc]); document.getElementById("q").value=q; document.getElementById("ans").scrollIntoView({behavior:"smooth",block:"nearest"}); }
+function ask(q){ S.q=q; S.res=search(BOOK(S.disc),q); document.getElementById("ans").innerHTML=answerHTML(BOOK(S.disc)); document.getElementById("q").value=q; document.getElementById("ans").scrollIntoView({behavior:"smooth",block:"nearest"}); }
 function jump(id){ const el=document.getElementById(id); if(!el) return; if(el.tagName==="DETAILS") el.open=true; window.scrollTo({top:el.getBoundingClientRect().top+scrollY-80,behavior:"smooth"}); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b) return; const d=b.dataset;
@@ -288,19 +315,19 @@ document.addEventListener("click",e=>{
      the guide in English: pressing "English" keeps "de" for the rest of the site) */
   if(d.lang){ S.lang=d.lang; store.set({lang:S.lang,disc:S.disc}); if((VL()==="uk"?"uk":"en")!==S.lang) vlSet(S.lang);
     try{ const u=new URL(location.href); u.searchParams.set("lang",VL()); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(_){} // reload / shared link keep it (?lang=de still shows English)
-    if(S.q) S.res=search(BOOKS[S.disc]||{sections:[],faq:[],source:{}},S.q); render(); return; }
+    if(S.q) S.res=search(BOOK(S.disc)||{sections:[],faq:[],source:{}},S.q); render(); return; }
   if(d.disc){ S.disc=d.disc; S.q=""; S.res=null; store.set({lang:S.lang,disc:S.disc}); try{history.replaceState(null,"","#"+S.disc)}catch(_){} render(); return; }
   if(d.q){ ask(d.q); return; }
   if(d.jump){ jump("it-"+d.jump); return; }
   if(d.sec){ jump("sec-"+d.sec); return; }
 });
 document.addEventListener("submit",e=>{ if(e.target.id==="askf"){ e.preventDefault(); ask(document.getElementById("q").value); } });
+/* Deep link from the trainer: ?item=<id>#<discipline> opens and highlights that rule item (once the book is drawn, in render()). */
+let ITEM=null; try{ ITEM=new URLSearchParams(location.search).get("item"); }catch(_){}
 render();
 /* The trainer links follow the visitor language: refresh them when the bar reports it (nav.js runs after this script). */
 document.addEventListener("claynav:update",()=>{ const sn=document.getElementById("statics"); if(sn) sn.innerHTML=staticsHTML();
   document.querySelectorAll('#app a[href^="trainer/"]').forEach(a=>{ a.href=`trainer/?lang=${encodeURIComponent(VL())}#${S.disc}`; }); });
-/* Deep link from the trainer: ?item=<id>#<discipline> opens and highlights that rule item. */
-try{ const it=new URLSearchParams(location.search).get("item"); if(it) setTimeout(()=>jump("it-"+it),150); }catch(_){}
 </script>
 </body>
 </html>
