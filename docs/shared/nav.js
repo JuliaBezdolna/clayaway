@@ -209,6 +209,7 @@ main[tabindex="-1"]:focus{outline:none}
 @media (pointer:coarse){.ca-hint button,.ca-lang button,.ca-hint a,.ca-lang a{min-height:44px;min-width:44px}}
 .ca-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
 .ca-float{position:fixed;left:0;right:0;bottom:0;z-index:35;padding-bottom:env(safe-area-inset-bottom,0px);background:#0B1120;box-shadow:0 -10px 28px rgba(0,0,0,.5)}
+.ca-hint{transition:opacity .2s}.ca-hint.ca-out{opacity:0}@media (prefers-reduced-motion:reduce){.ca-hint{transition:none}}
 .ca-float:empty{display:none}.ca-float .ca-hint,.ca-float .ca-lang{border-bottom:0;border-top:1px solid rgba(255,255,255,.14)}
 @media print{.ca-float,.ca-float-sp,.ca-slot{display:none!important}}`;
   const st = document.createElement("style"); st.textContent = css; document.head.appendChild(st);
@@ -250,6 +251,8 @@ main[tabindex="-1"]:focus{outline:none}
 
   /* Personal hints (one at a time; dismissed hints are remembered on this device). Order: way back > own mistakes (per discipline,
      opens the trainer in mistakes mode) > unfinished route > old Interpreter Academy progress > first-visit tip of this section.
+     The first-visit tip shows ONCE (09.11.2026: on a phone it took 12 % of the screen on every page until ✕): it counts as seen as
+     soon as it is shown, and it fades out when the visitor scrolls (no focus move: the reader is reading).
      Reads only this browser's own progress (never sent anywhere). Labels and URLs come from storage: escaped, http(s)/relative only. */
   const safeUrl = u => /^(https?:\/\/|\.{0,2}\/|[?#])/i.test(String(u || "")) ? String(u) : "#";
   const DISC = {sporting: "Sporting™", compak: "Compak® Sporting"};
@@ -275,7 +278,7 @@ main[tabindex="-1"]:focus{outline:none}
     if (iaDone > 0 && !(ac && ac.migrated && ac.migrated["clayarena-interpreter"]) && SEC.id !== "learn" && !seen["interp-moved"])
       return ["interp-moved", `<span aria-hidden="true">${LOOK.learn[1]}</span> <a href="${esc(learnUrl)}routes/interpreter/">${esc(pick(TX.interp_moved))}</a>`];
     const tip = TX["tip_" + pageKey];
-    if (tip && !seen["tip:" + pageKey]) return ["tip:" + pageKey, `<span aria-hidden="true">${(LOOK[pageKey] || [])[1] || ""}</span> ${esc(pick(tip))}`];
+    if (tip && (!seen["tip:" + pageKey] || tipShown === "tip:" + pageKey)) return ["tip:" + pageKey, `<span aria-hidden="true">${(LOOK[pageKey] || [])[1] || ""}</span> ${esc(pick(tip))}`];
     return null;
   }
   /* Language banner (see the header): only when the page language differs from the visitor language. The Academy app shows its own. */
@@ -289,6 +292,15 @@ main[tabindex="-1"]:focus{outline:none}
   }
   const isNarrow = () => { try { return matchMedia("(max-width: 759.98px)").matches; } catch (e) { return false; } };
   function focusBar() { const el = isNarrow() ? bar.querySelector(".ca-mbtn") : bar.querySelector(".ca-list a[aria-current]") || bar.querySelector(".ca-home"); if (el) el.focus({preventScroll: true}); } // the banner was at the bottom: no jump to the top
+  let tipShown = null; // the first-visit tip on screen now (marked seen when shown, so the next page has none)
+  function tipOnce(el, key) {
+    if (tipShown === key) return; tipShown = key;
+    const s = ls.get("clayarena-hints") || {}; s[key] = Date.now(); ls.set("clayarena-hints", s);
+    const y0 = window.scrollY;
+    const onScroll = () => { if (Math.abs(window.scrollY - y0) < 80) return; removeEventListener("scroll", onScroll);
+      el.classList.add("ca-out"); setTimeout(() => { if (tipShown === key) { tipShown = null; el.remove(); fit(); } }, 250); };
+    addEventListener("scroll", onScroll, {passive: true});
+  }
   function dismiss(el, key) { const s = ls.get("clayarena-hints") || {}; s[key] = Date.now(); ls.set("clayarena-hints", s); el.remove(); draw(); focusBar(); } // next hint, focus back to the bar
   const cleanUrl = u => String(u).replace(/[?#].*$/, "").replace(/index\.html$/, "");
   function itemHTML(id, mobile) {
@@ -318,7 +330,8 @@ main[tabindex="-1"]:focus{outline:none}
     for (const [el, html] of [[lang, langHTML()], [hint, hintHTML()]]) {
       if (!html) { el.remove(); continue; }
       el.innerHTML = `<div><span class="ca-tx">${html[1]}</span><button type="button" aria-label="${esc(pick(TX.close))}" title="${esc(pick(TX.close))}">✕</button></div>`;
-      el.querySelector("button").onclick = () => dismiss(el, html[0]);
+      el.querySelector("button").onclick = () => { if (el === hint) tipShown = null; dismiss(el, html[0]); };
+      if (el === hint) { el.classList.remove("ca-out"); if (html[0].startsWith("tip:")) tipOnce(el, html[0]); }
       if (!el.isConnected) { if (el === lang) float.prepend(el); else float.append(el); }
     }
     fit();
