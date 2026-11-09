@@ -251,8 +251,9 @@ main[tabindex="-1"]:focus{outline:none}
 
   /* Personal hints (one at a time; dismissed hints are remembered on this device). Order: way back > own mistakes (per discipline,
      opens the trainer in mistakes mode) > unfinished route > old Interpreter Academy progress > first-visit tip of this section.
-     The first-visit tip shows ONCE (09.11.2026: on a phone it took 12 % of the screen on every page until ✕): it counts as seen as
-     soon as it is shown, and it fades out when the visitor scrolls (no focus move: the reader is reading).
+     On a phone (narrow screen, < 760 px) the first-visit tip shows ONCE (09.11.2026: it took 12 % of the screen on every page until ✕):
+     it counts as seen as soon as it is shown, and it fades out when the visitor scrolls (no focus move: the reader is reading).
+     On a wide screen it stays as before: on every page of the section until ✕.
      Reads only this browser's own progress (never sent anywhere). Labels and URLs come from storage: escaped, http(s)/relative only. */
   const safeUrl = u => /^(https?:\/\/|\.{0,2}\/|[?#])/i.test(String(u || "")) ? String(u) : "#";
   const DISC = {sporting: "Sporting™", compak: "Compak® Sporting"};
@@ -331,7 +332,7 @@ main[tabindex="-1"]:focus{outline:none}
       if (!html) { el.remove(); continue; }
       el.innerHTML = `<div><span class="ca-tx">${html[1]}</span><button type="button" aria-label="${esc(pick(TX.close))}" title="${esc(pick(TX.close))}">✕</button></div>`;
       el.querySelector("button").onclick = () => { if (el === hint) tipShown = null; dismiss(el, html[0]); };
-      if (el === hint) { el.classList.remove("ca-out"); if (html[0].startsWith("tip:")) tipOnce(el, html[0]); }
+      if (el === hint) { el.classList.remove("ca-out"); if (html[0].startsWith("tip:") && isNarrow()) tipOnce(el, html[0]); }
       if (!el.isConnected) { if (el === lang) float.prepend(el); else float.append(el); }
     }
     fit();
