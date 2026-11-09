@@ -114,6 +114,10 @@ p{margin:0 0 10px;max-width:72ch}
 .faqlist p{margin:6px 0 0;color:var(--soft)}
 .empty{padding:30px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
 mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2px}
+/* CLS: until render() fills #app (it still holds only the <noscript>), the static-pages line would sit right under the header
+   and then jump down by the whole guide (Lighthouse 09.11.2026: CLS 0.100, node nav#statics). Keep it hidden until then:
+   an element that appears is not a layout shift. Without JS the <noscript> links stand in for it. */
+#app:has(>noscript)~#statics{display:none}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 <script src="../shared/nav.js" defer></script>
