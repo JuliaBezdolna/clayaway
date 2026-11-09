@@ -67,6 +67,7 @@ details.langs nav a{color:var(--soft);text-decoration:none;padding:8px 10px;bord
 <script src="../../shared/nav.js" defer></script>
 <style>.ca-slot{min-height:48px}@media (max-width:759.98px),(pointer:coarse){.ca-slot{min-height:60px}}@media print{.ca-slot{display:none}}</style>
 <style>.th{display:flex;align-items:center;gap:12px;margin:8px 0 10px}.th h1{margin:0;min-width:0}.say{display:inline-flex;align-items:center;justify-content:center;flex:none;width:38px;height:38px;padding:0;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;transition:color .15s,border-color .15s}.say:hover,.say:focus-visible{color:var(--em);border-color:rgba(52,211,153,.5)}.say:focus-visible{outline:2px solid var(--em);outline-offset:2px}.say.on{color:var(--em);border-color:var(--em)}.say.on .w2{animation:sayw .5s ease-in-out infinite alternate}@keyframes sayw{from{opacity:.25}to{opacity:1}}@media (pointer:coarse){.say{width:44px;height:44px}}@media (prefers-reduced-motion:reduce){.say.on .w2{animation:none}}@media print{.say{display:none}}</style>
+<link rel="stylesheet" href="../../shared/3d/glossary3d.css">
 </head>
 <body><div class="ca-slot"></div>
 <header><div class="in"><nav class="crumbs" aria-label="Навігаційний ланцюжок"><span aria-hidden="true">📖</span><a href="https://juliabezdolna.github.io/clayaway/glossary/">Глосарій</a><span aria-hidden="true">›</span><span aria-current="page">Gun speed (швидкість стволів)</span></nav><span style="flex:1"></span><a class="btn" data-vl href="https://juliabezdolna.github.io/clayaway/rules/?lang=uk">📘 Правила FITASC</a>
@@ -77,6 +78,53 @@ details.langs nav a{color:var(--soft);text-decoration:none;padding:8px 10px;bord
 <h2>Що це</h2><p><b>Швидкість стволів порівняно з мішенню; вона визначає метод виносу.</b></p>
 
 
+<h2>Подивіться в 3D</h2>
+<section class="l3" tabindex="0" data-term="gun-speed" aria-label="3D-анімація: швидкість стволів — стволи, мішень і дріб. Стрілки ← → — кроки, пробіл — пауза">
+  <div class="l3-h"><span class="l3-badge">3D</span><b>Швидкість стволів крок за кроком</b></div>
+  <div class="l3-stage">
+    <div class="l3-canvas" role="img" aria-label="3D-анімація: швидкість стволів — стволи, мішень і дріб"></div>
+    <div class="l3-load">Завантажуємо стрільця…</div>
+    <div class="l3-cap" aria-live="polite"><span class="l3-cap-n"></span><p class="l3-cap-t"></p></div>
+    <div class="l3-bar l3-tr">
+      <div class="l3-seg-g" role="group" aria-label="Камера">
+        <button class="l3-b" type="button" data-view="cine" aria-pressed="true">🎬 Кіно</button>
+        <button class="l3-b" type="button" data-view="eye" aria-pressed="false">Очима стрільця</button>
+        <button class="l3-b" type="button" data-view="side" aria-pressed="false">Збоку</button>
+        <button class="l3-b" type="button" data-view="top" aria-pressed="false">Згори</button>
+      </div>
+    </div>
+    <div class="l3-stats"></div>
+  </div>
+  <div class="l3-ctl">
+    <div class="l3-tlw">
+      <div class="l3-btns">
+        <button class="l3-prev" type="button" aria-label="Попередній крок" title="Попередній крок (←)">‹</button>
+        <button class="l3-play" type="button" aria-label="Відтворити" title="Відтворити / пауза (пробіл)">▶</button>
+        <button class="l3-next" type="button" aria-label="Наступний крок" title="Наступний крок (→)">Далі ›</button>
+        <button class="l3-replay" type="button" aria-label="Спочатку" title="Спочатку">↺</button>
+      </div>
+      <div class="l3-tlbox"><div class="l3-tl"></div><i class="l3-head"></i></div>
+    </div>
+    <div class="l3-row">
+      <button class="l3-b l3-stepmode" type="button" aria-pressed="true" title="Зупинятися після кожного кроку">⏸ По кроках</button>
+      <span class="l3-lbl">Метод</span>
+      <div class="l3-seg-g" role="group" aria-label="Метод виносу">
+        <button class="l3-b" type="button" data-method="maintained" aria-pressed="true"><span lang="en">Maintained lead</span></button>
+        <button class="l3-b" type="button" data-method="swing" aria-pressed="false"><span lang="en">Swing-through</span></button>
+        <button class="l3-b" type="button" data-method="pull" aria-pressed="false"><span lang="en">Pull-away</span></button>
+        <button class="l3-b" type="button" data-method="ambush" aria-pressed="false"><span lang="en">Ambush</span></button>
+        <button class="l3-b" type="button" data-method="none" aria-pressed="false">Без виносу <small>помилка</small></button>
+      </div>
+    </div>
+    <div class="l3-row">
+      <label class="l3-rng">Швидкість мішені <input class="l3-speed" type="range" min="10" max="25" step="1" value="17"><output class="l3-speed-v">17 м/с</output></label>
+      <label class="l3-rng">Відстань <input class="l3-dist" type="range" min="15" max="40" step="1" value="25"><output class="l3-dist-v">25 м</output></label>
+    </div>
+    <p class="l3-note">Уповільнено, спрощена фізика для навчання — та сама, що в анімації нижче. Мішень намальовано більшою, ніж насправді; відстані, винос і кільце осипу — в масштабі.</p>
+  </div>
+</section>
+<script type="module" src="../../shared/3d/assets/lead3d.js"></script>
+<h2>Спробуйте самі</h2>
 <div data-clay-term="gun-speed" style="min-height:calc(-0.9485 * min(100vw - 32px, 868px) + 1835px)"></div>
 <h2>Як кажуть українською</h2><p>«швидкість стволів»</p>
 
