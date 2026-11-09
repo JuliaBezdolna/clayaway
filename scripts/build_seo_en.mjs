@@ -64,8 +64,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
       const html = head({ title, desc, url: en, uk, en, ld, img: "glossary", css: GS.CSS + JUMP_CSS }) + bar(crumbs("en", "📖", [{ label: "Glossary", url: `${BASE}en/glossary/` }, { label: name }]), en, uk, true) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 ${GS.mini("en", esc)}<div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("en", { disc, rules: refs, learn, rel })}
-<h2 id="what">What it is</h2><p><b>${esc(t.short_en)}</b></p>
-${t.long_en ? `<h2>In detail</h2><p>${esc(t.long_en)}</p>` : ""}
+<section class="what-card"><h2 id="what">What it is</h2><p class="def">${esc(t.short_en)}</p>${t.long_en ? `<div class="sep"></div><h2>In detail</h2><p class="txt">${esc(t.long_en)}</p>` : ""}</section>
 ${disc ? `<h2 id="disc">In Sporting™ and Compak® Sporting</h2><div class="duo">${disc}</div>` : ""}
 ${refs ? `<h2 id="rules">Where it is in the rules</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Source: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/en/categories/">FITASC categories</a>` : ""}</p>` : ""}

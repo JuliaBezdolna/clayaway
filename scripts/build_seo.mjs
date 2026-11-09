@@ -327,8 +327,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
     const learn = ACADEMY.learnLinks(t.id, "uk").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
     const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("uk", { disc, rules: refs, learn, rel })}
-<h2 id="what">Що це</h2><p><b>${esc(t.short_uk)}</b></p>
-${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
+<section class="what-card"><h2 id="what">Що це</h2><p class="def">${esc(t.short_uk)}</p>${t.long_uk ? `<div class="sep"></div><h2>Детально</h2><p class="txt">${esc(t.long_uk)}</p>` : ""}</section>
 ${disc ? `<h2 id="disc">У Sporting™ і Compak® Sporting</h2><div class="duo">${disc}</div>` : ""}
 ${ukUsage(t) ? `<h2>Як кажуть українською</h2><p>${esc(ukUsage(t))}</p>` : ""}
 ${refs ? `<h2 id="rules">Де це в правилах</h2><ul>${refs}</ul>` : ""}
@@ -486,7 +485,11 @@ const JUMP = {
 // "У дисциплінах": the Sporting™ and Compak® Sporting boxes side by side (one under the other on a phone), the discipline name
 // small in the accent colour (glossary plan, wave 10, design-mockups/term-choke-new.html). Added to JUMP_CSS: the term pages load both.
 const DUO_CSS = `.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:10px 0}.duo .box{margin:0}.duo .box>b{display:inline-block;font-size:12.5px;letter-spacing:.04em;color:var(--em);margin-bottom:2px}.duo .box p{margin:4px 0 0}`;
-const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}` + DUO_CSS;
+// "Що це" + "Детально" in one card in the style of clayarena.com (variant A of design-mockups/term-choke-what-detail.html, 09.11.2026):
+// the card of its competition list (rounded-xl, border white/10, gradient white/10 -> white/5), the two headings as its "pill" badges
+// (emerald-300, 12px, uppercase by CSS: the h2 text stays as it is), a thin line between them. The animation goes after the card.
+const CARD_CSS = `.what-card{border:1px solid rgba(255,255,255,.1);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));padding:16px 18px;margin:20px 0 14px}.what-card h2{display:inline-flex;align-items:center;margin:0 0 8px;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;text-transform:uppercase}.what-card p{margin:0;max-width:none}.what-card .def{font-size:19px;line-height:1.5;font-weight:600;color:#fff}.what-card .txt{line-height:1.65;color:var(--soft)}.what-card .sep{height:1px;background:rgba(255,255,255,.1);margin:16px 0 14px}`;
+const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}` + DUO_CSS + CARD_CSS;
 const jumpNav = (lang, have) => { const [lbl, ...n] = JUMP[lang] || JUMP.en;
   const links = [["what", 1], ["disc", have.disc], ["rules", have.rules], ["learn", have.learn], ["rel", have.rel]].map((x, i) => x[1] ? `<a href="#${x[0]}">${n[i]}</a>` : "").join("");
   return `<nav class="jump" aria-label="${lbl}"><span>${lbl}:</span>${links}</nav>`; };
@@ -690,7 +693,8 @@ const glossMeta = { description: new Map(), title: new Map(), missing: [] };
       h = h.replace(/<h1>([\s\S]*?)<\/h1>/, m => `<div class="th">${m}${btn}</div>`)
         .replace("</head>", `<style>${SAY_CSS}</style>\n</head>`);
       if (ANIM.has(id)) {
-        const second = ([...h.matchAll(/<h2[\s>]/g)][1] || { index: -1 }).index; // an h2 may carry an id (the "На сторінці" anchors)
+        const card = h.indexOf('<section class="what-card">'), cardEnd = card >= 0 ? h.indexOf("</section>", card) + 10 : -1; // after the "Що це" card
+        const second = cardEnd > 9 ? cardEnd : ([...h.matchAll(/<h2[\s>]/g)][1] || { index: -1 }).index; // else before the second h2 (it may carry an id)
         if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"${simReserve(id)}></div>\n` + h.slice(second);
         h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text-${gm[1] || "uk"}.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
       } else h = h.replace("</body>", `<script src="${rel}shared/speak.js" defer></script>\n</body>`);
