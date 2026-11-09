@@ -118,6 +118,45 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
    or the title and then jump down by the whole guide (Lighthouse 09.11.2026: CLS 0.100, node nav#statics). Keep it hidden until
    then: an element that appears is not a layout shift. Without JS the <noscript> links stand in for it. */
 #app:not(.ready)~#statics{display:none}
+/* Phone layout (≤900 px; wave 2, variant B of design-mockups/rules-header-toc-mobile.html, chosen 09.11.2026). The sticky header was
+   174 px on a 375 px phone (title, disciplines and languages on three rows) and the contents a 716 px block above the rules. Now:
+   a one-row header that scrolls away (language in a dropdown, as on the glossary pages), Sporting/Compak as two tabs above the title,
+   and once the title has scrolled away a thin "you are here" line at the top (#where) that opens the list of chapters (#whereList). */
+.langs,.disc-tabs,#where,#whereList,.where-shade{display:none}
+@media (max-width:900px){
+ .top{position:static}
+ .top-in{flex-wrap:nowrap;padding-block:6px}
+ #svc{min-width:0}#svc small{display:none}
+ #discG,#langG{display:none}
+ .langs{display:block;position:relative;font-size:13px;flex:none}
+ .langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;min-height:44px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}
+ .langs summary::-webkit-details-marker{display:none}
+ .langs summary::after{content:"▾";font-size:11px}
+ .langs[open] summary{border-color:var(--em);color:#fff}
+ .langs .menu{position:absolute;right:0;top:calc(100% + 6px);z-index:35;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;min-width:170px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+ .langs .menu button{border:0;background:none;text-align:left;color:var(--soft);padding:8px 10px;border-radius:8px;min-height:44px}
+ .langs .menu button:hover{background:rgba(255,255,255,.06);color:#fff}
+ .langs .menu button[aria-pressed="true"]{color:var(--em);font-weight:700}
+ .disc-tabs{display:flex;max-width:1180px;margin:14px 16px 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
+ .disc-tabs button{flex:1;border:0;background:transparent;color:var(--muted);font-size:15px;font-weight:600;min-height:46px;padding:8px}
+ .disc-tabs button[aria-pressed="true"]{background:#fff;color:#030712}
+ .layout>nav.toc{display:none}
+ #where{display:flex;position:fixed;left:0;right:0;top:0;z-index:60;width:100%;align-items:center;gap:10px;min-height:48px;padding:6px 16px;padding-top:max(6px,env(safe-area-inset-top,0px));
+   background:rgba(3,7,18,.95);backdrop-filter:blur(8px);border:0;border-bottom:1px solid var(--line);font-size:14px;color:var(--soft);text-align:left;
+   visibility:hidden;transform:translateY(-110%);transition:transform .2s,visibility 0s .2s}
+ #where.show{visibility:visible;transform:none;transition:transform .2s}
+ #where .d{color:var(--em);font-weight:700;flex:none}
+ #where .c{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;font-weight:600}
+ #where .x{flex:none;color:var(--muted)}
+ #where[aria-expanded="true"] .x{transform:rotate(180deg)}
+ #whereList.open{display:block;position:fixed;left:0;right:0;top:48px;z-index:70;max-height:70vh;overflow:auto;background:#0B1120;border-bottom:1px solid var(--line);
+   border-radius:0 0 16px 16px;padding:4px 16px 16px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+ #whereList .part{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
+ #whereList button{display:block;width:100%;text-align:left;border:0;background:none;color:var(--soft);font-size:15px;min-height:44px;padding:8px 10px;border-left:2px solid var(--line)}
+ #whereList button.on{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}
+ .where-shade.open{display:block;position:fixed;inset:0;z-index:55;background:rgba(0,0,0,.55)}
+}
+@media print{#where,#whereList,.where-shade{display:none!important}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 <script src="../shared/nav.js" defer></script>
@@ -129,7 +168,12 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
   <span class="spacer"></span>
   <div class="seg disc" role="group" aria-label="Дисципліна" id="discG"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
   <div class="seg" role="group" aria-label="Мова" id="langG"><button data-lang="uk" lang="uk">Українська</button><button data-lang="en" lang="en">English</button></div>
+  <details class="langs" id="langD"><summary><span aria-hidden="true">🌐</span> <span id="langN">Українська</span></summary><div class="menu" role="group" aria-label="Мова"><button data-lang="uk" lang="uk">Українська</button><button data-lang="en" lang="en">English</button></div></details>
 </div></header>
+<div class="disc-tabs" role="group" aria-label="Дисципліна" id="discT"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
+<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d"></span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
+<div class="where-shade" id="whereShade"></div>
+<nav id="whereList" aria-label="Зміст"></nav>
 <main id="app"><noscript><p><a href="sporting/">Правила Parcours de Chasse – Sporting™</a> · <a href="compak/">Правила Compak® Sporting</a> · <a href="en/sporting/">Parcours de Chasse – Sporting™ rules (EN)</a> · <a href="en/compak/">Compak® Sporting rules (EN)</a></p></noscript></main>
 <nav id="statics" aria-label="Статичні сторінки" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · <span lang="en">English</span>: <a href="en/sporting/" hreflang="en">Sporting™</a> · <a href="en/compak/" hreflang="en">Compak® Sporting</a> · <a href="trainer/?lang=uk">🎯 Тренажер правил</a></nav>
 <!-- the rules books (data/sporting.js, data/compak.js, ~280 KB each) are loaded by the script below: loadBook() -->
@@ -280,6 +324,8 @@ function render(){
   document.documentElement.lang=L()==="uk"?"uk":"en"; headLang();
   document.getElementById("svc").innerHTML=`<span class="ic" aria-hidden="true">📘</span><span>${t("svc")}<small>${t("svcS")}</small></span>`;
   document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("langG").setAttribute("aria-label",t("langG"));
+  document.getElementById("discT").setAttribute("aria-label",t("discG")); document.querySelector("#langD .menu").setAttribute("aria-label",t("langG"));
+  document.getElementById("langN").textContent=L()==="uk"?"Українська":"English"; document.getElementById("whereList").setAttribute("aria-label",t("toc"));
   const sn=document.getElementById("statics"); sn.setAttribute("aria-label",t("statics")); sn.innerHTML=staticsHTML();
   document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===L()));
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===S.disc));
@@ -305,6 +351,7 @@ function render(){
    <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}</section>`).join("")}
    <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?`<button data-jump="${id}">${esc(idx(book).byId[id].ref||id)}</button>`:"").join("")}</div></details>`).join("")}</section>
    <div class="disclaimer">${t("disc")}</div></div></div>`;
+  whereBuild(book,parts,dname);
   if(ITEM){ const i=ITEM; ITEM=null; setTimeout(()=>jump("it-"+i),150); }
 }
 function ask(q){ S.q=q; S.res=search(BOOK(S.disc),q); document.getElementById("ans").innerHTML=answerHTML(BOOK(S.disc)); document.getElementById("q").value=q; document.getElementById("ans").scrollIntoView({behavior:"smooth",block:"nearest"}); }
@@ -319,8 +366,36 @@ document.addEventListener("click",e=>{
   if(d.disc){ S.disc=d.disc; S.q=""; S.res=null; store.set({lang:S.lang,disc:S.disc}); try{history.replaceState(null,"","#"+S.disc)}catch(_){} render(); return; }
   if(d.q){ ask(d.q); return; }
   if(d.jump){ jump("it-"+d.jump); return; }
-  if(d.sec){ jump("sec-"+d.sec); return; }
+  if(d.sec){ whereOpen(false); jump("sec-"+d.sec); return; }
 });
+/* Phone (≤900 px, see the CSS): "you are here" line #where — shown once the title has scrolled away and the rules are on screen;
+   it names the chapter under the top edge and opens #whereList (all chapters + FAQ). The language dropdown closes after a choice. */
+let WSECS=[], WCUR=null;
+function whereBuild(book,parts,dname){
+  WSECS=book.sections.map(s=>({id:s.id,t:(s.chapter?s.chapter+". ":"")+tx(s,"title")})).concat([{id:"faq",t:t("faq")}]);
+  document.querySelector("#where .d").textContent=dname.replace(" Sporting","");
+  document.getElementById("whereList").innerHTML=parts.map(p=>`<div class="part">${t("part")} ${esc(p)}</div>`+book.sections.filter(s=>s.part===p).map(s=>`<button type="button" data-sec="${s.id}">${s.chapter?esc(s.chapter)+". ":""}${esc(tx(s,"title"))}</button>`).join("")).join("")+`<div class="part">FAQ</div><button type="button" data-sec="faq">${t("faq")}</button>`;
+  WCUR=null; whereTick();
+}
+function whereOpen(on){
+  const w=document.getElementById("where"); w.setAttribute("aria-expanded",on?"true":"false");
+  document.getElementById("whereList").classList.toggle("open",on); document.getElementById("whereShade").classList.toggle("open",on);
+  if(on){ const b=document.querySelector("#whereList button.on"); if(b) b.scrollIntoView({block:"center"}); }
+}
+function whereTick(){
+  const w=document.getElementById("where"), h1=document.querySelector("#app h1"); if(!WSECS.length||!h1) return;
+  let c=WSECS[0].id; for(const s of WSECS){ const el=document.getElementById("sec-"+s.id); if(el&&el.getBoundingClientRect().top<90) c=s.id; }
+  const first=document.getElementById("sec-"+WSECS[0].id), show=h1.getBoundingClientRect().bottom<0&&!!first&&first.getBoundingClientRect().top<innerHeight;
+  if(w.classList.contains("show")!==show){ w.classList.toggle("show",show); if(!show) whereOpen(false); }
+  if(c===WCUR) return; WCUR=c;
+  document.querySelectorAll("#whereList button").forEach(b=>b.classList.toggle("on",b.dataset.sec===c));
+  const s=WSECS.find(x=>x.id===c); w.querySelector(".c").textContent=s?s.t:"";
+}
+let wRaf=0; addEventListener("scroll",()=>{ if(!wRaf) wRaf=requestAnimationFrame(()=>{ wRaf=0; whereTick(); }); },{passive:true});
+document.getElementById("where").addEventListener("click",()=>whereOpen(document.getElementById("where").getAttribute("aria-expanded")!=="true"));
+document.getElementById("whereShade").addEventListener("click",()=>whereOpen(false));
+document.getElementById("langD").addEventListener("click",e=>{ if(e.target.closest(".menu [data-lang]")) document.getElementById("langD").open=false; });
+document.addEventListener("keydown",e=>{ if(e.key!=="Escape") return; if(document.getElementById("whereList").classList.contains("open")){ whereOpen(false); document.getElementById("where").focus(); } document.getElementById("langD").open=false; });
 document.addEventListener("submit",e=>{ if(e.target.id==="askf"){ e.preventDefault(); ask(document.getElementById("q").value); } });
 /* Deep link from the trainer: ?item=<id>#<discipline> opens and highlights that rule item (once the book is drawn, in render()). */
 let ITEM=null; try{ ITEM=new URLSearchParams(location.search).get("item"); }catch(_){}
