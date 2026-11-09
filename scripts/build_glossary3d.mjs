@@ -19,9 +19,16 @@ export function buildGlossary3d() {
     const f = `${DOCS}/glossary/${id}/index.html`;
     if (!existsSync(f)) { console.log(`WARNING: glossary 3D: no page for ${id}`); continue; }
     let h = readFileSync(f, "utf8");
-    if (h.includes('class="l3"') || h.includes('http-equiv="refresh"')) continue;
+    if (h.includes('http-equiv="refresh"')) continue;
     const rel = "../../shared/3d/";
     const block = b.html + `\n<script type="module" src="${rel}${b.script}"></script>\n`;
+    if (h.includes('class="l3"')) {   // already there: refresh it in place when the export changed it
+      const a = h.indexOf("<h2>Подивіться в 3D</h2>"), m = h.slice(a).match(/<script type="module" src="[^"]*shared\/3d\/[^"]*"><\/script>\n/);
+      if (a < 0 || !m) { console.log(`WARNING: glossary 3D: broken block on ${id}`); continue; }
+      const end = a + m.index + m[0].length;
+      if (h.slice(a, end) !== block) { writeFileSync(f, h.slice(0, a) + block + h.slice(end)); n++; }
+      continue;
+    }
     const sim = h.search(/<div data-clay-term="/);
     if (sim >= 0) {
       // the 2D animation follows «Що це»: the 3D block goes before it, the 2D gets its own heading «Спробуйте самі»
