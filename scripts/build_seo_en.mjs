@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "fs";
 
 export function buildEnglish() {
-  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd } = globalThis.SEO;
+  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS } = globalThis.SEO;
   const out = [];
   const TM = "Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.";
 
@@ -61,16 +61,16 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
       const learn = ACADEMY.learnLinks(t.id, "en").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
       const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_en, `en/glossary/${t.id}/`), termCode: t.id, url: en, inDefinedTermSet: SET, inLanguage: "en" },
         crumbLd([{ name: "Glossary", url: `${BASE}en/glossary/` }, { name, url: en }])];
-      const html = head({ title, desc, url: en, uk, en, ld, img: "glossary", css: GS.CSS }) + bar(crumbs("en", "📖", [{ label: "Glossary", url: `${BASE}en/glossary/` }, { label: name }]), en, uk, true) + `
+      const html = head({ title, desc, url: en, uk, en, ld, img: "glossary", css: GS.CSS + JUMP_CSS }) + bar(crumbs("en", "📖", [{ label: "Glossary", url: `${BASE}en/glossary/` }, { label: name }]), en, uk, true) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
-${GS.mini("en", esc)}<div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}
-<h2>What it is</h2><p><b>${esc(t.short_en)}</b></p>
+${GS.mini("en", esc)}<div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("en", { disc, rules: refs, learn, rel })}
+<h2 id="what">What it is</h2><p><b>${esc(t.short_en)}</b></p>
 ${t.long_en ? `<h2>In detail</h2><p>${esc(t.long_en)}</p>` : ""}
-${disc ? `<h2>In Sporting™ and Compak® Sporting</h2>${disc}` : ""}
-${refs ? `<h2>Where it is in the rules</h2><ul>${refs}</ul>` : ""}
+${disc ? `<h2 id="disc">In Sporting™ and Compak® Sporting</h2>${disc}` : ""}
+${refs ? `<h2 id="rules">Where it is in the rules</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Source: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/en/categories/">FITASC categories</a>` : ""}</p>` : ""}
-${learn ? `<h2>Learn it</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2>Related terms</h2><p>${rel}</p>` : ""}${catMore("en", t, GLOSS.terms, { cat: c => c, url: x => `${BASE}en/glossary/${x.id}/`, html: x => esc(dispTerm(x)), list: `${BASE}en/glossary/`, skip: (t.related || []).map(rid) })}
+${learn ? `<h2 id="learn">Learn it</h2><ul>${learn}</ul>` : ""}
+${rel ? `<h2 id="rel">Related terms</h2><p>${rel}</p>` : ""}${catMore("en", t, GLOSS.terms, { cat: c => c, url: x => `${BASE}en/glossary/${x.id}/`, html: x => esc(dispTerm(x)), list: `${BASE}en/glossary/`, skip: (t.related || []).map(rid) })}
 <div class="disc">ClayArena glossary, based on our summary of the FITASC rulebooks. Only the official FITASC text applies. ${TM}</div>${legal("en")}</main></body></html>`;
       mkdirSync(`${DOCS}/en/glossary/${t.id}`, { recursive: true });
       writeFileSync(`${DOCS}/en/glossary/${t.id}/index.html`, html);

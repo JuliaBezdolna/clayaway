@@ -286,7 +286,7 @@ const ukTerms = n => `${n} ${{ one: "термін", few: "терміни", many:
 function glossaryPages() {
   if (!GLOSS) return [];
   const out = [];
-  const css = CSS + `.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}.h1-sub{margin:-2px 0 12px;font-size:18px;line-height:1.45;color:var(--soft)}`;
+  const css = CSS + `.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}.h1-sub{margin:-2px 0 12px;font-size:18px;line-height:1.45;color:var(--soft)}` + JUMP_CSS;
   const shell = (title, desc, url, ld, body, name, enUrl) => `<!doctype html>
 <html lang="uk">
 <head>
@@ -326,15 +326,15 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${termHtml("uk", GBY[r])}</a>`).join(" ");
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
     const learn = ACADEMY.learnLinks(t.id, "uk").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
-    const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
-<h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p>
+    const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("uk", { disc, rules: refs, learn, rel })}
+<h2 id="what">Що це</h2><p><b>${esc(t.short_uk)}</b></p>
 ${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
-${disc ? `<h2>У Sporting™ і Compak® Sporting</h2>${disc}` : ""}
+${disc ? `<h2 id="disc">У Sporting™ і Compak® Sporting</h2>${disc}` : ""}
 ${ukUsage(t) ? `<h2>Як кажуть українською</h2><p>${esc(ukUsage(t))}</p>` : ""}
-${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
+${refs ? `<h2 id="rules">Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
-${learn ? `<h2>Де вивчити</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}${catMore("uk", t, GLOSS.terms, { cat: c => CAT_UK[c] || c, url: x => `${BASE}glossary/${x.id}/`, html: x => termHtml("uk", x), list: `${BASE}glossary/`, skip: (t.related || []).map(rid) })}`;
+${learn ? `<h2 id="learn">Де вивчити</h2><ul>${learn}</ul>` : ""}
+${rel ? `<h2 id="rel">Повʼязані терміни</h2><p>${rel}</p>` : ""}${catMore("uk", t, GLOSS.terms, { cat: c => CAT_UK[c] || c, url: x => `${BASE}glossary/${x.id}/`, html: x => termHtml("uk", x), list: `${BASE}glossary/`, skip: (t.related || []).map(rid) })}`;
     const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || []), lb.local].filter(Boolean))].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
       crumbLd([{ name: "Глосарій", url: BASE + "glossary/" }, { name: lb.label, url }])];
     mkdirSync(`${DOCS}/glossary/${t.id}`, { recursive: true });
@@ -468,6 +468,25 @@ const catMore = (lang, t, terms, o) => {
   return `
 <h2>${esc(h.replace("{c}", name))}</h2><p>${same.filter(x => pick.has(x.id)).map(x => `<a href="${o.url(x)}">${o.html(x)}</a>`).join(" · ")}</p>
 <p class="ref"><a href="${o.list}#cat-${GS.catSlug(t.cat)}">${esc(all.replace("{n}", same.length))}</a></p>`; };
+// "На сторінці:" row under the term header (glossary plan, wave 10, design-mockups/term-choke-new.html): links to the sections the
+// page has, the same in all 11 languages; the sections carry the ids what / disc / rules / learn / rel. have = { disc, rules, learn, rel }.
+const JUMP = {
+  uk: ["На сторінці", "Що це", "У дисциплінах", "Правила", "Уроки", "Повʼязані"],
+  en: ["On this page", "What it is", "In disciplines", "Rules", "Lessons", "Related"],
+  de: ["Auf dieser Seite", "Was es ist", "In den Disziplinen", "Regeln", "Lektionen", "Verwandte"],
+  fr: ["Sur cette page", "Définition", "Disciplines", "Règlement", "Leçons", "Termes liés"],
+  it: ["In questa pagina", "Che cos'è", "Discipline", "Regolamento", "Lezioni", "Correlati"],
+  cs: ["Na této stránce", "Co to je", "V disciplínách", "Pravidla", "Lekce", "Související"],
+  pl: ["Na tej stronie", "Co to jest", "W konkurencjach", "Przepisy", "Lekcje", "Powiązane"],
+  pt: ["Nesta página", "O que é", "Nas disciplinas", "Regras", "Lições", "Relacionados"],
+  hu: ["Ezen az oldalon", "Mi ez", "A szakágakban", "Szabályok", "Leckék", "Kapcsolódó"],
+  fi: ["Tällä sivulla", "Mikä se on", "Lajeissa", "Säännöt", "Oppitunnit", "Liittyvät"],
+  lt: ["Šiame puslapyje", "Kas tai", "Disciplinose", "Taisyklės", "Pamokos", "Susiję"]
+};
+const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}`;
+const jumpNav = (lang, have) => { const [lbl, ...n] = JUMP[lang] || JUMP.en;
+  const links = [["what", 1], ["disc", have.disc], ["rules", have.rules], ["learn", have.learn], ["rel", have.rel]].map((x, i) => x[1] ? `<a href="#${x[0]}">${n[i]}</a>` : "").join("");
+  return `<nav class="jump" aria-label="${lbl}"><span>${lbl}:</span>${links}</nav>`; };
 const ukUsage = t => { const x = ((window.GLOSSARY_I18N || {}).uk || {terms: {}}).terms[t.id];
   if (x && x.term_local && x.conf !== "low") return [x.term_local, ...(x.alt || [])].filter(v => v !== t.term).slice(0, 3).map(v => `«${v}»`).join(", ");
   return t.uk_usage && t.uk_usage !== "—" ? t.uk_usage : ""; };
@@ -543,7 +562,7 @@ urls.push(...glossaryPages());
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd };
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
@@ -668,7 +687,7 @@ const glossMeta = { description: new Map(), title: new Map(), missing: [] };
       h = h.replace(/<h1>([\s\S]*?)<\/h1>/, m => `<div class="th">${m}${btn}</div>`)
         .replace("</head>", `<style>${SAY_CSS}</style>\n</head>`);
       if (ANIM.has(id)) {
-        const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
+        const second = ([...h.matchAll(/<h2[\s>]/g)][1] || { index: -1 }).index; // an h2 may carry an id (the "На сторінці" anchors)
         if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"${simReserve(id)}></div>\n` + h.slice(second);
         h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text-${gm[1] || "uk"}.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
       } else h = h.replace("</body>", `<script src="${rel}shared/speak.js" defer></script>\n</body>`);
