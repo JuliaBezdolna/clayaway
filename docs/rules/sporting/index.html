@@ -40,13 +40,25 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--em);outline-offset
 details.langs{position:relative;font-size:13px}details.langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;min-height:34px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}details.langs summary::-webkit-details-marker{display:none}details.langs summary::after{content:"▾";font-size:11px}
 details.langs[open] summary{border-color:var(--em);color:#fff}details.langs nav{position:absolute;right:0;top:calc(100% + 6px);z-index:35;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;min-width:170px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
 details.langs nav a{color:var(--soft);text-decoration:none;padding:8px 10px;border-radius:8px;min-height:40px;display:flex;align-items:center}details.langs nav a:hover{background:rgba(255,255,255,.06);color:#fff}details.langs nav a[aria-current]{color:var(--em);font-weight:700}
-@media (pointer:coarse){details.langs nav a,details.langs summary,.btn{min-height:44px}}</style>
+@media (pointer:coarse){details.langs nav a,details.langs summary,.btn{min-height:44px}}
+#where,#whereList,.where-shade{display:none}
+@media(max-width:860px){html.js .wrap>.toc{display:none}main>section[id],article.item{scroll-margin-top:60px}
+#where{display:flex;position:fixed;left:0;right:0;top:0;z-index:60;width:100%;align-items:center;gap:10px;min-height:48px;padding:6px 16px;padding-top:max(6px,env(safe-area-inset-top,0px));background:rgba(3,7,18,.95);backdrop-filter:blur(8px);border:0;border-bottom:1px solid var(--line);font:inherit;font-size:14px;color:var(--soft);text-align:left;cursor:pointer;visibility:hidden;transform:translateY(-110%);transition:transform .2s,visibility 0s .2s}
+#where.show{visibility:visible;transform:none;transition:transform .2s}#where .d{color:var(--em);font-weight:700;flex:none}#where .c{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;font-weight:600}#where .x{flex:none;color:var(--muted)}#where[aria-expanded="true"] .x{transform:rotate(180deg)}
+#whereList.open{display:block;position:fixed;left:0;right:0;top:48px;z-index:70;max-height:70vh;overflow:auto;background:#0B1120;border-bottom:1px solid var(--line);border-radius:0 0 16px 16px;padding:4px 16px 16px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+#whereList .p{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}#whereList a{display:flex;align-items:center;min-height:44px;padding:8px 10px;color:var(--soft);text-decoration:none;font-size:15px;border-left:2px solid var(--line)}#whereList a.on{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}
+.where-shade.open{display:block;position:fixed;inset:0;z-index:55;background:rgba(0,0,0,.55)}}
+@media print{#where,#whereList,.where-shade{display:none!important}}
+@media (prefers-reduced-motion:reduce){#where{transition:none}}</style>
+<script>document.documentElement.classList.add("js")</script>
 <script src="../../shared/nav.js" defer></script>
 <style>.ca-slot{min-height:48px}@media (max-width:759.98px),(pointer:coarse){.ca-slot{min-height:60px}}@media print{.ca-slot{display:none}}</style>
 </head>
 <body><div class="ca-slot"></div>
 <header><div class="in"><nav class="crumbs" aria-label="Навігаційний ланцюжок"><span aria-hidden="true">📘</span><a href="https://juliabezdolna.github.io/clayaway/rules/?lang=uk#sporting" data-vl>Правила FITASC</a><span aria-hidden="true">›</span><span aria-current="page">Sporting™</span></nav>
 <span style="flex:1"></span><details class="langs"><summary lang="uk"><span aria-hidden="true">🌐</span> Українська<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> · Мова</span></summary><nav aria-label="Мова"><a href="https://juliabezdolna.github.io/clayaway/rules/en/sporting/" hreflang="en" lang="en" data-setlang="en">English</a><a href="https://juliabezdolna.github.io/clayaway/rules/sporting/" hreflang="uk" lang="uk" data-setlang="uk" aria-current="true">Українська</a></nav></details></div></header>
+<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d">Sporting™</span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
+<div class="where-shade" id="whereShade"></div><nav id="whereList" aria-label="Зміст"></nav>
 <div class="wrap">
 <nav class="toc" aria-label="Зміст"><div class="p">Частина I</div><a href="#ch1">1. Визначення дисципліни Sporting™</a><a href="#ch2">2. Layout для Sporting™</a><a href="#ch3">3. Правила стрільби</a><a href="#ch4">4. Визначення</a><div class="p">Частина II</div><a href="#ch5">5. Судді</a><a href="#ch6">6. Суддівство мішеней</a><a href="#ch7">7. Зброя і набої</a><a href="#ch8">8. Правила поведінки / Безпека</a><a href="#ch9">9. Протести (апеляції)</a><a href="#ch10">10. Непокора (refusal to comply)</a><a href="#ch11">11. Спроба вплинути на суддю</a><a href="#ch12">12. Попередження</a><a href="#ch13">13. Санкції</a><a href="#ch14">14. Картки результатів</a><div class="p">Частина III</div><a href="#ch15">15. Організація змагань</a><a href="#ch16">16. Порядок проведення чемпіонату</a><a href="#ch17">17. Одяг</a><a href="#ch18">18. Перестрілки (shoot-offs)</a><div class="p">FAQ</div><a href="#faq">Часті питання</a></nav>
 <main>
@@ -393,5 +405,15 @@ details.langs nav a{color:var(--soft);text-decoration:none;padding:8px 10px;bord
 <details><summary>Чи може суддя зупинити стрільбу через грозу?</summary><p>Так, у виняткових випадках — через раптову зливу чи сильну бурю, що, імовірно, буде короткою. Якщо перерва затягнеться, треба повідомити журі. Під час перерви рушниці відкривають і розряджають.</p></details></section>
 <div class="disc">Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div><p class="legal">© 2026 ClayArena · <a href="https://clayarena.com/uk-ua/privacy/">Політика конфіденційності</a> · <a href="https://clayarena.com/uk-ua/legal/">Правова інформація</a> · <a href="https://clayarena.com/uk-ua/contacts/">Контакти (зокрема для правовласників)</a></p>
 </main></div>
+<script>(function(){var w=document.getElementById("where"),L=document.getElementById("whereList"),sh=document.getElementById("whereShade"),toc=document.querySelector(".wrap>.toc"),h1=document.querySelector("main h1");
+if(!w||!L||!toc||!h1)return;L.innerHTML=toc.innerHTML;var secs=[].slice.call(document.querySelectorAll("main>section[id]")),links=[].slice.call(L.querySelectorAll("a")),cur=null;if(!secs.length)return;
+function open(on){w.setAttribute("aria-expanded",on?"true":"false");L.classList.toggle("open",on);sh.classList.toggle("open",on);if(on){var a=L.querySelector("a.on");if(a)a.scrollIntoView({block:"center"});}}
+function tick(){var c=secs[0];secs.forEach(function(s){if(s.getBoundingClientRect().top<90)c=s;});var show=h1.getBoundingClientRect().bottom<0&&secs[0].getBoundingClientRect().top<innerHeight;
+if(w.classList.contains("show")!==show){w.classList.toggle("show",show);if(!show)open(false);}if(c===cur)return;cur=c;
+links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+c.id);});var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
+var r=0;addEventListener("scroll",function(){if(!r)r=requestAnimationFrame(function(){r=0;tick();});},{passive:true});
+w.addEventListener("click",function(){open(w.getAttribute("aria-expanded")!=="true");});sh.addEventListener("click",function(){open(false);});
+L.addEventListener("click",function(e){if(e.target.closest("a"))open(false);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&L.classList.contains("open")){open(false);w.focus();}});tick();})();</script>
 </body>
 </html>

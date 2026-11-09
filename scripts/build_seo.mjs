@@ -179,6 +179,30 @@ const crumbs = (lang, icon, items) => `<nav class="crumbs" aria-label="${BREAD[l
 const langSwitch = (cur, items) => { const list = LANGS.map(l => items.find(x => x.l === l)).filter(Boolean);
   return `<details class="langs"><summary lang="${cur}"><span aria-hidden="true">🌐</span> ${LANG_NAME[cur]}<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> · ${LANGW[cur]}</span></summary><nav aria-label="${LANGW[cur]}">${list.map(x => `<a href="${x.url}" hreflang="${x.l}" lang="${x.l}" data-setlang="${x.l}"${x.l === cur ? ' aria-current="true"' : ""}>${LANG_NAME[x.l]}</a>`).join("")}</nav></details>`; };
 
+// Phone navigation of the static rules pages (wave 2, 09.11.2026; the same "you are here" line as the guide /rules/, variant B of
+// design-mockups/rules-header-toc-mobile.html). At ≤860 px the contents box above the text (220 px, its own scroll) is hidden — only
+// with JS (class "js" set in <head> before the first paint, so nothing shifts; without JS the box stays). Once the title has scrolled
+// away, a thin fixed line #where names the chapter under the top edge and opens #whereList (a copy of the contents). Desktop unchanged.
+const RULES_CSS = `#where,#whereList,.where-shade{display:none}
+@media(max-width:860px){html.js .wrap>.toc{display:none}main>section[id],article.item{scroll-margin-top:60px}
+#where{display:flex;position:fixed;left:0;right:0;top:0;z-index:60;width:100%;align-items:center;gap:10px;min-height:48px;padding:6px 16px;padding-top:max(6px,env(safe-area-inset-top,0px));background:rgba(3,7,18,.95);backdrop-filter:blur(8px);border:0;border-bottom:1px solid var(--line);font:inherit;font-size:14px;color:var(--soft);text-align:left;cursor:pointer;visibility:hidden;transform:translateY(-110%);transition:transform .2s,visibility 0s .2s}
+#where.show{visibility:visible;transform:none;transition:transform .2s}#where .d{color:var(--em);font-weight:700;flex:none}#where .c{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;font-weight:600}#where .x{flex:none;color:var(--muted)}#where[aria-expanded="true"] .x{transform:rotate(180deg)}
+#whereList.open{display:block;position:fixed;left:0;right:0;top:48px;z-index:70;max-height:70vh;overflow:auto;background:#0B1120;border-bottom:1px solid var(--line);border-radius:0 0 16px 16px;padding:4px 16px 16px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+#whereList .p{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}#whereList a{display:flex;align-items:center;min-height:44px;padding:8px 10px;color:var(--soft);text-decoration:none;font-size:15px;border-left:2px solid var(--line)}#whereList a.on{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}
+.where-shade.open{display:block;position:fixed;inset:0;z-index:55;background:rgba(0,0,0,.55)}}
+@media print{#where,#whereList,.where-shade{display:none!important}}
+@media (prefers-reduced-motion:reduce){#where{transition:none}}`;
+const RULES_JS = `(function(){var w=document.getElementById("where"),L=document.getElementById("whereList"),sh=document.getElementById("whereShade"),toc=document.querySelector(".wrap>.toc"),h1=document.querySelector("main h1");
+if(!w||!L||!toc||!h1)return;L.innerHTML=toc.innerHTML;var secs=[].slice.call(document.querySelectorAll("main>section[id]")),links=[].slice.call(L.querySelectorAll("a")),cur=null;if(!secs.length)return;
+function open(on){w.setAttribute("aria-expanded",on?"true":"false");L.classList.toggle("open",on);sh.classList.toggle("open",on);if(on){var a=L.querySelector("a.on");if(a)a.scrollIntoView({block:"center"});}}
+function tick(){var c=secs[0];secs.forEach(function(s){if(s.getBoundingClientRect().top<90)c=s;});var show=h1.getBoundingClientRect().bottom<0&&secs[0].getBoundingClientRect().top<innerHeight;
+if(w.classList.contains("show")!==show){w.classList.toggle("show",show);if(!show)open(false);}if(c===cur)return;cur=c;
+links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+c.id);});var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
+var r=0;addEventListener("scroll",function(){if(!r)r=requestAnimationFrame(function(){r=0;tick();});},{passive:true});
+w.addEventListener("click",function(){open(w.getAttribute("aria-expanded")!=="true");});sh.addEventListener("click",function(){open(false);});
+L.addEventListener("click",function(e){if(e.target.closest("a"))open(false);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&L.classList.contains("open")){open(false);w.focus();}});tick();})();`;
+
 function page(key, lang) {
   const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk";
   const items = b.sections.flatMap(s => s.items);
@@ -216,11 +240,15 @@ function page(key, lang) {
 <meta name="theme-color" content="#030712">
 <link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${CSS}</style>
+<style>${CSS}
+${RULES_CSS}</style>
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
 <header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d }])}
 <span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: urlOf(o, key) }])}</div></header>
+<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d">${key === "sporting" ? "Sporting™" : "Compak®"}</span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
+<div class="where-shade" id="whereShade"></div><nav id="whereList" aria-label="${T.toc}"></nav>
 <div class="wrap">
 <nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(s => s.part === p).map(s => `<a href="#${s.id}">${s.chapter ? s.chapter + ". " : ""}${esc(tx(s, "title"))}</a>`).join("")).join("")}<div class="p">FAQ</div><a href="#faq">${T.faq}</a></nav>
 <main>
@@ -236,6 +264,7 @@ ${s.items.map(it => `<article class="item" id="${it.id}"><h3>${esc(tx(it, "title
 <section id="faq" class="faq"><h2>${T.faq}</h2>${b.faq.map(f => `<details><summary>${esc(tx(f, "q"))}</summary><p>${esc(tx(f, "a"))}</p></details>`).join("\n")}</section>
 <div class="disc">${T.disc}</div>${legal(lang)}
 </main></div>
+<script>${RULES_JS}</script>
 </body>
 </html>`;
   const dir = lang === "uk" ? `${DOCS}/rules/${key}` : `${DOCS}/rules/en/${key}`;
