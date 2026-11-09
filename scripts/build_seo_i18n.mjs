@@ -120,7 +120,7 @@ ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`
 ${GS.mini(lang, esc)}<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}${jumpNav(lang, { disc, rules: refs, learn, rel })}
 <h2 id="what">${U.what}</h2><p><b>${esc(x.short)}</b></p>
 ${x.long ? `<h2>${U.detail}</h2><p>${esc(x.long)}</p>` : ""}
-${disc ? `<h2 id="disc">${U.disc}</h2>${disc}` : ""}
+${disc ? `<h2 id="disc">${U.disc}</h2><div class="duo">${disc}</div>` : ""}
 ${refs ? `<h2 id="rules">${U.rules}</h2><ul>${refs}</ul>` : ""}
 ${learn ? `<h2 id="learn">${U.learn}</h2><ul>${learn}</ul>` : ""}
 ${rel ? `<h2 id="rel">${U.rel}</h2><p>${rel}</p>` : ""}${catMore(lang, t, GLOSS.terms.filter(x => D[x.id]), { cat: c => (CAT[lang] || {})[c] || c, url: x => termUrl(lang, x.id), html: x => termHtml(lang, x), list: listUrl(lang), skip: (t.related || []).map(rid) })}

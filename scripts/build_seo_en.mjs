@@ -66,7 +66,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 ${GS.mini("en", esc)}<div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("en", { disc, rules: refs, learn, rel })}
 <h2 id="what">What it is</h2><p><b>${esc(t.short_en)}</b></p>
 ${t.long_en ? `<h2>In detail</h2><p>${esc(t.long_en)}</p>` : ""}
-${disc ? `<h2 id="disc">In Sporting™ and Compak® Sporting</h2>${disc}` : ""}
+${disc ? `<h2 id="disc">In Sporting™ and Compak® Sporting</h2><div class="duo">${disc}</div>` : ""}
 ${refs ? `<h2 id="rules">Where it is in the rules</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Source: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/en/categories/">FITASC categories</a>` : ""}</p>` : ""}
 ${learn ? `<h2 id="learn">Learn it</h2><ul>${learn}</ul>` : ""}

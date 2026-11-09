@@ -329,7 +329,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("uk", { disc, rules: refs, learn, rel })}
 <h2 id="what">Що це</h2><p><b>${esc(t.short_uk)}</b></p>
 ${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
-${disc ? `<h2 id="disc">У Sporting™ і Compak® Sporting</h2>${disc}` : ""}
+${disc ? `<h2 id="disc">У Sporting™ і Compak® Sporting</h2><div class="duo">${disc}</div>` : ""}
 ${ukUsage(t) ? `<h2>Як кажуть українською</h2><p>${esc(ukUsage(t))}</p>` : ""}
 ${refs ? `<h2 id="rules">Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
@@ -483,7 +483,10 @@ const JUMP = {
   fi: ["Tällä sivulla", "Mikä se on", "Lajeissa", "Säännöt", "Oppitunnit", "Liittyvät"],
   lt: ["Šiame puslapyje", "Kas tai", "Disciplinose", "Taisyklės", "Pamokos", "Susiję"]
 };
-const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}`;
+// "У дисциплінах": the Sporting™ and Compak® Sporting boxes side by side (one under the other on a phone), the discipline name
+// small in the accent colour (glossary plan, wave 10, design-mockups/term-choke-new.html). Added to JUMP_CSS: the term pages load both.
+const DUO_CSS = `.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:10px 0}.duo .box{margin:0}.duo .box>b{display:inline-block;font-size:12.5px;letter-spacing:.04em;color:var(--em);margin-bottom:2px}.duo .box p{margin:4px 0 0}`;
+const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}` + DUO_CSS;
 const jumpNav = (lang, have) => { const [lbl, ...n] = JUMP[lang] || JUMP.en;
   const links = [["what", 1], ["disc", have.disc], ["rules", have.rules], ["learn", have.learn], ["rel", have.rel]].map((x, i) => x[1] ? `<a href="#${x[0]}">${n[i]}</a>` : "").join("");
   return `<nav class="jump" aria-label="${lbl}"><span>${lbl}:</span>${links}</nav>`; };
