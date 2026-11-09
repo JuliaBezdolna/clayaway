@@ -69,7 +69,7 @@ ${disc ? `<h2 id="disc">In Sporting™ and Compak® Sporting</h2><div class="duo
 ${refs ? `<h2 id="rules">Where it is in the rules</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Source: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/en/categories/">FITASC categories</a>` : ""}</p>` : ""}
 ${learn ? `<h2 id="learn">Learn it</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2 id="rel">Related terms</h2><p>${rel}</p>` : ""}${catMore("en", t, GLOSS.terms, { cat: c => c, url: x => `${BASE}en/glossary/${x.id}/`, html: x => esc(dispTerm(x)), list: `${BASE}en/glossary/`, skip: (t.related || []).map(rid) })}
+${rel ? `<h2 id="rel">Related terms</h2><p class="rel-row">${rel}</p>` : ""}${catMore("en", t, GLOSS.terms, { cat: c => c, url: x => `${BASE}en/glossary/${x.id}/`, html: x => esc(dispTerm(x)), list: `${BASE}en/glossary/`, skip: (t.related || []).map(rid) })}
 <div class="disc">ClayArena glossary, based on our summary of the FITASC rulebooks. Only the official FITASC text applies. ${TM}</div>${legal("en")}</main></body></html>`;
       mkdirSync(`${DOCS}/en/glossary/${t.id}`, { recursive: true });
       writeFileSync(`${DOCS}/en/glossary/${t.id}/index.html`, html);

@@ -333,7 +333,7 @@ ${ukUsage(t) ? `<h2>Як кажуть українською</h2><p>${esc(ukUsag
 ${refs ? `<h2 id="rules">Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
 ${learn ? `<h2 id="learn">Де вивчити</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2 id="rel">Повʼязані терміни</h2><p>${rel}</p>` : ""}${catMore("uk", t, GLOSS.terms, { cat: c => CAT_UK[c] || c, url: x => `${BASE}glossary/${x.id}/`, html: x => termHtml("uk", x), list: `${BASE}glossary/`, skip: (t.related || []).map(rid) })}`;
+${rel ? `<h2 id="rel">Повʼязані терміни</h2><p class="rel-row">${rel}</p>` : ""}${catMore("uk", t, GLOSS.terms, { cat: c => CAT_UK[c] || c, url: x => `${BASE}glossary/${x.id}/`, html: x => termHtml("uk", x), list: `${BASE}glossary/`, skip: (t.related || []).map(rid) })}`;
     const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || []), lb.local].filter(Boolean))].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
       crumbLd([{ name: "Глосарій", url: BASE + "glossary/" }, { name: lb.label, url }])];
     mkdirSync(`${DOCS}/glossary/${t.id}`, { recursive: true });
@@ -489,7 +489,11 @@ const DUO_CSS = `.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(
 // the card of its competition list (rounded-xl, border white/10, gradient white/10 -> white/5), the two headings as its "pill" badges
 // (emerald-300, 12px, uppercase by CSS: the h2 text stays as it is), a thin line between them. The animation goes after the card.
 const CARD_CSS = `.what-card{border:1px solid rgba(255,255,255,.1);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));padding:16px 18px;margin:20px 0 14px}.what-card h2{display:inline-flex;align-items:center;margin:0 0 8px;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;text-transform:uppercase}.what-card p{margin:0;max-width:none}.what-card .def{font-size:19px;line-height:1.5;font-weight:600;color:#fff}.what-card .txt{line-height:1.65;color:var(--soft)}.what-card .sep{height:1px;background:rgba(255,255,255,.1);margin:16px 0 14px}`;
-const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}` + DUO_CSS + CARD_CSS;
+// "Повʼязані терміни": the chips (a.btn) in a wrapping row over the full width. An inline chip broke across two lines with its border
+// cut in half ("Electronic refereeing (електронне суддівство)", 09.11.2026); in the flex row a chip moves to the next line whole.
+const REL_CSS = `.rel-row{display:flex;flex-wrap:wrap;gap:6px;max-width:none;margin:10px 0}.rel-row .btn{align-content:center;line-height:1.4}`; // on a phone .btn has min-height 44px (touch target): the text in its middle
+// (align-content on the block, not inline-flex: flex items would drop the space in "Call (виклик мішені)")
+const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}` + DUO_CSS + CARD_CSS + REL_CSS;
 const jumpNav = (lang, have) => { const [lbl, ...n] = JUMP[lang] || JUMP.en;
   const links = [["what", 1], ["disc", have.disc], ["rules", have.rules], ["learn", have.learn], ["rel", have.rel]].map((x, i) => x[1] ? `<a href="#${x[0]}">${n[i]}</a>` : "").join("");
   return `<nav class="jump" aria-label="${lbl}"><span>${lbl}:</span>${links}</nav>`; };

@@ -122,7 +122,7 @@ ${GS.mini(lang, esc)}<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}<
 ${disc ? `<h2 id="disc">${U.disc}</h2><div class="duo">${disc}</div>` : ""}
 ${refs ? `<h2 id="rules">${U.rules}</h2><ul>${refs}</ul>` : ""}
 ${learn ? `<h2 id="learn">${U.learn}</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2 id="rel">${U.rel}</h2><p>${rel}</p>` : ""}${catMore(lang, t, GLOSS.terms.filter(x => D[x.id]), { cat: c => (CAT[lang] || {})[c] || c, url: x => termUrl(lang, x.id), html: x => termHtml(lang, x), list: listUrl(lang), skip: (t.related || []).map(rid) })}
+${rel ? `<h2 id="rel">${U.rel}</h2><p class="rel-row">${rel}</p>` : ""}${catMore(lang, t, GLOSS.terms.filter(x => D[x.id]), { cat: c => (CAT[lang] || {})[c] || c, url: x => termUrl(lang, x.id), html: x => termHtml(lang, x), list: listUrl(lang), skip: (t.related || []).map(rid) })}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`;
         mkdirSync(`${DOCS}/${lang}/glossary/${t.id}`, { recursive: true });
         writeFileSync(`${DOCS}/${lang}/glossary/${t.id}/index.html`, html);
