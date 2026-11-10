@@ -73,7 +73,13 @@ p{margin:0 0 10px;max-width:72ch}
 .big:focus-within{border-color:var(--em);box-shadow:0 0 0 3px rgba(52,211,153,.2)}
 .big .lo{font-size:18px;color:var(--muted)}
 .big input{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);font:inherit;font-size:17px;padding:10px 0;outline:none}
-.big button{border:0;border-radius:12px;background:var(--primary);color:#fff;min-width:50px;min-height:50px;font-size:19px;font-weight:700}
+.big button[type=submit]{border:0;border-radius:12px;background:var(--primary);color:#fff;min-width:50px;min-height:50px;font-size:19px;font-weight:700}
+/* our own "clear" ✕ instead of the browser's (owner, 10.11.2026): shown while the field has text, lit on hover, no tooltip;
+   it empties the field and removes the answer of the previous question from the page */
+.big input::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.big .clr{display:none;flex:none;border:0;border-radius:10px;background:transparent;color:var(--muted);min-width:40px;min-height:40px;font-size:17px;line-height:1;place-items:center;transition:background .15s,color .15s}
+.big .clr.on{display:grid}
+.big .clr:hover,.big .clr:focus-visible{color:#fff;background:rgba(255,255,255,.12)}
 .topics{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
 .topics button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:13.5px;color:var(--soft);min-height:38px}
 .topics button:hover{border-color:rgba(52,211,153,.5);color:#fff}
@@ -228,7 +234,7 @@ try{
 setTimeout(start,1000);
 const T={
  uk:{svc:"Правила FITASC",svcS:"ClayArena · довідник спортсмена",title:"Правила {d} простими словами",lead:"Запитайте своїми словами або читайте розділ за розділом. Це наш переказ офіційного регламенту FITASC, кожна відповідь — з номером пункту й сторінкою PDF.",
-   phS:"Запитайте про правила",often:"Часто шукають",topics:["No Bird","Несправність рушниці","Дуплет","Положення рушниці","Перестрілка","Запізнення","Протест"],
+   phS:"Запитайте про правила",clr:"Очистити пошук",often:"Часто шукають",topics:["No Bird","Несправність рушниці","Дуплет","Положення рушниці","Перестрілка","Запізнення","Протест"],
    trS:"Пояснення після кожної відповіді",trAcc:"Точність",trBest:"найкращий іспит",catsT:"Категорії за віком",catsS:"Junior, Senior, Veteran, Dame",faqS:"{n} на суперечки зі стенду",pdfS:"PDF, с.",
    ph:"Запитайте: «скільки відмов машинки дозволено?», «положення рушниці», «що таке no bird?»",ask:"Відповісти",ex:"Часті питання",answer:"Відповідь",rel:"Правила за темою",open:"Відкрити в PDF FITASC, стор.",none:"Не знайшли точної відповіді. Спробуйте інші слова або перегляньте розділи нижче.",
    read:"Читати правила",faq:"Усі питання і відповіді",src:"Джерело",ed:"Редакція",checked:"Перевірка оновлень: щотижня",off:"Офіційний PDF",guide:"Пам'ятка суддям",qg:"є в пам'ятці суддів",
@@ -236,7 +242,7 @@ const T={
    page:"Правила FITASC простими словами · ClayArena",ogT:"Правила FITASC простими словами — ClayArena",ogD:"Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC.",locale:"uk_UA",
    discG:"Дисципліна",langG:"Мова",toc:"Зміст",statics:"Статичні сторінки",full:"Повний текст переказу",other:"English",otherL:"en",trainer:"Тренажер правил",cats:"Категорії FITASC (вік)",askL:"Запитайте про правила",similar:"Схожі питання",chapter:"Розділ",n_art:"п. ",n_ch:"розд. ",n_ann:"дод. ",prev:"← Попередній розділ",next:"Наступний розділ →",chs:"Розділи"},
  en:{svc:"FITASC rules",svcS:"ClayArena · shooter's guide",title:"{d} rules in plain words",lead:"Ask in your own words or read chapter by chapter. This is our summary of the official FITASC rulebook; every answer comes with the rule number and the PDF page.",
-   phS:"Ask about the rules",often:"Often searched",topics:["No Bird","Gun malfunction","Double","Gun position","Shoot-off","Late arrival","Protest"],
+   phS:"Ask about the rules",clr:"Clear the search",often:"Often searched",topics:["No Bird","Gun malfunction","Double","Gun position","Shoot-off","Late arrival","Protest"],
    trS:"An explanation after every answer",trAcc:"Accuracy",trBest:"best exam",catsT:"Age categories",catsS:"Junior, Senior, Veteran, Dame",faqS:"{n} for disputes on the stand",pdfS:"PDF, p.",
    ph:"Ask: “how many malfunctions are allowed?”, “gun position”, “what is a no bird?”",ask:"Answer",ex:"Common questions",answer:"Answer",rel:"Rules on this topic",open:"Open in FITASC PDF, p.",none:"No exact answer found. Try other words or browse the chapters below.",
    read:"Read the rules",faq:"All questions and answers",src:"Source",ed:"Edition",checked:"Update check: weekly",off:"Official PDF",guide:"Referees' quick guide",qg:"in the referees' quick guide",
@@ -267,45 +273,87 @@ const L=()=>S.lang,t=k=>T[L()][k],tx=(o,k)=>o[k+"_"+L()]||o[k+"_en"]||"";
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 /* Text normalisation: lower case, keep Latin + Ukrainian letters and digits. */
 const norm=s=>String(s||"").toLowerCase().replace(/[’'`]/g,"'").replace(/[^a-zа-щьюяєіїґ0-9' ]+/gi," ");
-/* Stop words (UA + EN) that carry no meaning for search. */
-const STOP=new Set("the a an is are of to in on and or for what how many much can i my do does it be at with by from if when who which що як чи це у в на з і й та до за від при для скільки який яка які мені можна треба має є а не".split(" "));
+/* Search quality (10.11.2026, owner: «people will ask in their own words»): measured with scripts/check_rules_search.mjs —
+   questions typed the way a shooter asks on the stand, each with the rule items that answer it. Keep that check green when
+   changing anything below; add the question there when a visitor's question is answered wrong. */
+/* Stop words (UA + EN) that carry no meaning for search. Short prepositions and pronouns matter: a 2-letter word of a rule text
+   («по», «зі») used to match every query word that starts with it («почалась гроза» → the FAQ «стріляти по зайцю…»). */
+const STOP=new Set(("the a an is are of to in on and or for what how many much can could should would will i me my you your we our they their he she his her it its be been was were has have had do does did at with by from if when who which this that there then than not as so get got "+
+ "що як чи це у в на з зі із і й та до за від при для скільки який яка яке які якого мені мене мій моя моє мої мою ми ви ти він вона воно вони його її їх можна треба має є а не по про під над без ще вже так тож бо або коли тому чому де куди хто був була було були буде будуть якщо тоді там тут цей ця ці той те ті свій своя своє свої").split(" "));
 /* Naive stemming: cut word endings so «відмови/відмов», «malfunction/malfunctions» match. */
 const stem=w=>w.length>5?w.slice(0,Math.max(5,w.length-2)):w;
 const toks=s=>norm(s).split(/\s+/).filter(w=>w&&!STOP.has(w)&&w.length>1).map(stem);
-/* UA/EN synonyms: a query word starting with one of the prefixes also searches the English words. */
+/* Two word forms match: the same stem = 1; otherwise, both at least 4 letters long, one is the start of the other, or (Ukrainian
+   endings) they differ only in the last letter of the shorter one («суддею/суддя»), or share 5+ letters and differ in the last two
+   («запізнився/запізнення») = 0.6. */
+const cpl=(a,b)=>{ let i=0; while(i<a.length&&i<b.length&&a[i]===b[i]) i++; return i; };
+const wmatch=(w,x)=>{ if(x===w) return 1; const m=Math.min(w.length,x.length); if(m<4) return 0; const c=cpl(w,x); return c===m||(c>=4&&c>=m-1)||(c>=5&&c>=m-2)?.6:0; };
+/* UA/EN synonyms: a query word starting with one of the prefixes also searches the words on the right (the rule texts are in both
+   languages, so English words reach the Ukrainian items too), unless it starts with one of the prefixes of the third element
+   («відмовився» = refused, not a gun malfunction). Everyday words of shooters, not only the words of the rulebook. */
 const SYN=[
- [["відмов","осічк","несправн","збій","заклин","malfunct","misfire"],"malfunction malfunctioning failure misfire defective"],
+ [["відмов","осічк","несправн","збій","заклин","malfunct","misfire"],"malfunction malfunctioning failure misfire defective",["відмовив","відмовля","відмовлю"]],
+ [["відмовив","відмовля","відмовлю","refus"],"refuse refusal refusing"],
+ [["вдруге","повторн","second"],"second"],
+ [["команд","team"],"team"],
+ [["чемпіонат","championship"],"championship"],
+ [["зарядит","заряджа","зарядив","load"],"load loading"],
+ [["кошту","ціна","вартіст","плати","cost","price","fee"],"deposit fee"],
  [["машинк","метальн","оператор"],"trap machine trapper"],
  [["мішен","тарілоч","тарілк"],"target clay"],
  [["рушниц","зброя","зброї","ствол"],"gun shotgun weapon barrel"],
+ [["напівавтомат","автомат","semi"],"semi-automatic permitted guns"],
  [["патрон","набій","набо","дріб"],"cartridge ammunition shot lead"],
- [["суддя","судді","рефері","арбітр"],"referee judge"],
+ [["суддя","судді","суддею","рефері","арбітр"],"referee judge"],
  [["дуплет","дублет","дубль","пара","пари"],"double pair report simultaneous"],
  [["положен","позиці","плеч","приклад","вкладк","вклада","вкидк","вскид"],"position shoulder mount ready"],
  [["заєц","зайц","заяц","кролик"],"rabbit"],
- [["перестріл","шут"],"shoot-off shoot off tie"],
- [["squad","склад","груп"],"squad group"],
- [["протест","апеляц","скарг"],"appeal protest jury deposit"],
- [["одяг","вбранн","шорт","футбол"],"dress clothing shorts"],
- [["запізн","спізн","пропуст"],"late lateness absent absence"],
- [["окуляр","навушн","захист"],"glasses ear protection eye safety"],
+ [["перестріл","шут","нічи","однаков","рівний","рівним","рівні","tie"],"shoot-off tie"],
+ [["squad","склад","груп","людей","стрільців"],"squad group"],
+ [["протест","апеляц","скарг","оскарж","незгод"],"appeal protest jury deposit"],
+ [["одяг","вбранн","шорт","футбол","майк"],"dress clothing shorts"],
+ [["запізн","спізн","пропуст","проспа","late"],"late lateness absent absence"],
+ [["окуляр","glasses"],"glasses eye protection"],
+ [["навушн","беруш","слух"],"ear hearing protection"],
  [["штраф","покаран","попередж","дискваліф"],"penalty warning disqualification sanction"],
- [["розбит","збит","влучан","уламок"],"broken hit fragment dead"],
- [["нерегуляр","неправиль","no"],"irregular no bird"],
- [["час","секунд","швидко"],"time seconds"],
+ [["картк","картц"],"card"],[["жовт"],"yellow"],[["червон"],"red"],
+ [["протокол","рахун"],"scorecard score sheet"],
+ [["розбит","розбил","розлет","збит","влучан","уламок","уламк","шматоч","осколк"],"broken hit fragment"],
+ [["нерегуляр","неправиль"],"irregular no bird"],
+ [["час","секунд","швидко","довго","чека"],"time seconds"],
  [["номер","майданчик","стенд"],"station stand layout shooting position"],
- [["картк","протокол","рахун"],"scorecard score sheet"],
- [["тренуван","пристріл","практик"],"practice training"],
- [["зміна","змінит","замін","чок"],"change replace choke"]
+ [["тренуван","пристріл","практик","потренув"],"practice training"],
+ [["тренер","підказ","coach"],"coach coaching advice"],
+ [["зміна","змінит","замін","поміня","міня","чок"],"change replace choke"],
+ [["гроз","дощ","злив","негод","блискав","storm","rain"],"weather storm rain interruption"],
+ [["випадков","accident"],"accidental discharge"],
+ [["оберт","поверта","розверт"],"turn turning"],
+ [["траєктор"],"trajectory"]
 ];
-function expand(q){ const words=norm(q).split(/\s+/); let extra=[]; words.forEach(w=>SYN.forEach(([pre,en])=>{ if(pre.some(p=>w.startsWith(p))) extra.push(en); })); return q+" "+extra.join(" "); }
+/* Phrases a word alone does not carry («не вистрілила» = a malfunction; «до пострілу» = broken before the shot). */
+const SYNP=[
+ [/(^|\s)не\s+(вистріл|стріля|спрацюв)|didn'?t fire|did not fire|won'?t fire|failed to fire/,"malfunction misfire failure"],
+ [/(^|\s)до\s+(пострілу|того як)|before (i|the|my) (fired|shot|shoot)/,"broken target thrown leaves machine"],
+ [/не з тієї машинк|wrong (trap|machine)/,"wrong trap no bird"],
+ [/двічі|два постріли|two shots|twice/,"two shots single target"],
+ [/вдруге|другий раз|ще раз|second time|again/,"second malfunction same series"],
+ [/посвар|крича|лаяв|лайк|агрес|нерв|кинув рушницю|swear|shout|angry|abus/,"loss of self control abusive language anger"],
+ [/(перш|друг|трет)\S*\s+місц|first place|top three|medal/,"first three places medal shoot-off"],
+ [/з другом|у друга|в друга|на двох|однією рушницею|one gun|share/,"share another competitor gun"],
+ [/(підня|перевір)\S*\s+(уламок|уламк|мішен)|pick up/,"checking target"]
+];
+/* expand(q) → {syn, phr}: the words added by SYN (they help to reach the right item, so they weigh half of the visitor's own words:
+   with full weight «рушниця» brought «gun shotgun weapon barrel» and every item about guns outranked «рушниця не вистрілила»),
+   and the words added by SYNP (they carry the meaning of a phrase, full weight). */
+function expand(q){ const n=norm(q), words=n.split(/\s+/), syn=[], phr=[]; words.forEach(w=>SYN.forEach(([pre,en,not])=>{ if(pre.some(p=>w.startsWith(p))&&!(not||[]).some(p=>w.startsWith(p))) syn.push(en); }));
+  SYNP.forEach(([re,en])=>{ if(re.test(n)) phr.push(en); }); return {syn:syn.join(" "),phr:phr.join(" ")}; }
 /* Build (once per book) the search index: every rule item and FAQ entry becomes a document
    with weighted fields; df = document frequency per word for IDF weighting. */
 function idx(book){
   if(book._idx) return book._idx;
   const items=[]; book.sections.forEach(sec=>sec.items.forEach(it=>items.push(Object.assign({sec},it))));
   const docs=[];
-  items.forEach(it=>docs.push({type:"item",it,fields:[[it.title_en+" "+it.title_uk,3],[(it.keywords||[]).join(" ")+" "+(it.terms||[]).join(" ").replace(/-/g," "),3],[(it.points_en||[]).join(" ")+" "+(it.points_uk||[]).join(" "),1.3],[it.summary_en+" "+it.summary_uk,1]]}));
+  items.forEach(it=>docs.push({type:"item",it,fields:[[it.title_en+" "+it.title_uk,3],[(it.keywords||[]).join(" ")+" "+(it.terms||[]).join(" ").replace(/-/g," "),3],[(it.points_en||[]).join(" ")+" "+(it.points_uk||[]).join(" "),1.3],[it.summary_en+" "+it.summary_uk,1],[it.sec.title_en+" "+it.sec.title_uk,1.5]]}));
   (book.faq||[]).forEach(f=>docs.push({type:"faq",f,fields:[[f.q_en+" "+f.q_uk,3.2],[f.a_en+" "+f.a_uk,1]]}));
   docs.forEach(d=>{d.tok=d.fields.map(([s,w])=>[toks(s),w]);});
   const df={}; docs.forEach(d=>{new Set(d.tok.flatMap(([ts])=>ts)).forEach(w=>df[w]=(df[w]||0)+1);});
@@ -314,10 +362,18 @@ function idx(book){
 /* Score = sum over query words of field weight x IDF x (1 + log(matches)); prefix matches count 0.6.
    Returns the top FAQ entries and top rule items separately. */
 function search(book,q){
-  const I=idx(book), qt=[...new Set(toks(expand(q)))]; if(!qt.length) return null;
-  const base=new Set(toks(q)); const scored=I.docs.map(d=>{ let sc=0, hit=new Set(); qt.forEach(w=>{ const idf=Math.log(1+I.N/(1+(I.df[w]||0))); d.tok.forEach(([ts,wt],fi)=>{ let c=0; ts.forEach(x=>{ if(x===w) c+=1; else if(w.length>=4&&(x.startsWith(w)||w.startsWith(x))) c+=.6; }); if(c){ sc+=wt*idf*(1+Math.log(c)); if(fi===0&&base.has(w)) hit.add(w); } }); }); return {d,sc,cov:base.size?hit.size/base.size:0}; }).filter(x=>x.sc>0).sort((a,b)=>b.sc-a.sc);
+  const I=idx(book), ex=expand(q), QW=new Map(); toks(ex.syn).forEach(w=>QW.set(w,.5)); toks(ex.phr).forEach(w=>QW.set(w,1)); toks(q).forEach(w=>QW.set(w,1));
+  const qt=[...QW.keys()]; if(!qt.length) return null;
+  const base=new Set(toks(q)); const scored=I.docs.map(d=>{ let sc=0, hit=new Set(); qt.forEach(w=>{ const idf=Math.log(1+I.N/(1+(I.df[w]||0)))*QW.get(w); d.tok.forEach(([ts,wt],fi)=>{ let c=0; ts.forEach(x=>{ c+=wmatch(w,x); }); if(c){ sc+=wt*idf*(1+Math.log(c)); if(fi===0&&base.has(w)) hit.add(w); } }); }); return {d,sc,cov:base.size?hit.size/base.size:0}; }).filter(x=>x.sc>0).sort((a,b)=>b.sc-a.sc);
   const faq=scored.filter(x=>x.d.type==="faq").slice(0,3), items=scored.filter(x=>x.d.type==="item").slice(0,5);
-  return {faq,items,qt};
+  /* lead = the FAQ answer is shown first (answerHTML) only when it agrees with the rule items: it cites the best rule item and is
+     either about as relevant (≥ 40% of its score) or its question covers most of the visitor's words (≥ 60%). A FAQ about a
+     neighbouring case («рівний результат за 5-те місце» for «нічия за третє місце») cites other items and stays below. Otherwise the rule items lead (the item is the source of truth). Before 10.11.2026 any FAQ at 40% of the
+     best item's score led, so a FAQ that shared one word could win. */
+  const top=faq[0], ti=items[0];
+  const cites=s=>(top.d.f.refs||[]).some(id=>s.has(id));
+  const lead=!!top&&(!ti||(cites(new Set([ti.d.it.id]))&&(top.sc>=ti.sc*0.4||top.cov>=0.6)));
+  return {faq,items,qt,lead};
 }
 function pdfLink(book,page){ return `<a class="pdf" href="${esc(book.source.url)}#page=${page}" target="_blank" rel="nofollow noopener noreferrer">${t("open")} ${page} ↗</a>`; }
 /* the same function is in scripts/build_seo.mjs (static rules pages) — keep them in step */
@@ -333,17 +389,16 @@ function itemHTML(book,it,open){ const n=ruleNum(it.ref), top=(n?`<span class="i
 function refBtn(it){ const n=ruleNum(it.ref); return `<button data-jump="${it.id}"${n?` class="num" title="FITASC: ${esc(it.ref)}"`:""}>${n?esc(t("n_"+n.k)+n.v):esc(it.ref||tx(it,"title"))}</button>`; }
 function secNav(book,id){ const o=[...book.sections.map(s=>({id:s.id,t:(s.chapter?esc(s.chapter)+". ":"")+esc(tx(s,"title"))})),{id:"faq",t:t("faq")}], i=o.findIndex(x=>x.id===id), pv=o[i-1], nx=o[i+1];
   return `<nav class="secnav" aria-label="${t("chs")}">${pv?`<button type="button" data-sec="${pv.id}"><small>${t("prev")}</small>${pv.t}</button>`:""}${nx?`<button type="button" class="nx" data-sec="${nx.id}"><small>${t("next")}</small>${nx.t}</button>`:""}</nav>`; }
-/* Show the FAQ answer when it is at least 40% as relevant as the best rule item, or when its question
-   contains 60%+ of the user's words (FAQ entries are short, so raw scores favour long rule items),
-   otherwise lead with the rule items themselves (the item is the source of truth). */
+/* The FAQ answer first when search() says so (r.lead, see there), otherwise the rule items themselves lead (the item is the
+   source of truth). */
 function answerHTML(book){
   const r=S.res; if(!r) return "";
   if(!r.faq.length&&!r.items.length) return `<div class="answer"><div class="empty">${t("none")}</div></div>`;
   const I=idx(book); let h=`<div class="answer">`;
   const top=r.faq[0], topItem=r.items[0];
-  if(top && (!topItem || top.sc>=topItem.sc*0.4||top.cov>=0.6)){ const f=top.d.f; h+=`<div class="ans-main"><div class="q">${t("answer")} · ${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?refBtn(I.byId[id]):"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdfS")} ${it.page} ↗</a>`).join("")}</div></div>`;
+  if(r.lead){ const f=top.d.f; h+=`<div class="ans-main"><div class="q">${t("answer")} · ${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?refBtn(I.byId[id]):"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdfS")} ${it.page} ↗</a>`).join("")}</div></div>`;
     if(r.faq.length>1) h+=`<div class="also">${t("similar")}: ${r.faq.slice(1).map(x=>`<button class="btn" style="padding:2px 9px;font-size:12.5px" data-q="${esc(tx(x.d.f,"q"))}">${esc(tx(x.d.f,"q"))}</button>`).join(" ")}</div>`; }
-  if(r.items.length){ h+=`<h3 style="margin-top:6px">${t("rel")}</h3>`+r.items.slice(0,4).map((x,i)=>itemHTML(book,x.d.it,i===0&&!(top&&(!topItem||top.sc>=topItem.sc*0.4||top.cov>=0.6)))).join(""); }
+  if(r.items.length){ h+=`<h3 style="margin-top:6px">${t("rel")}</h3>`+r.items.slice(0,4).map((x,i)=>itemHTML(book,x.d.it,i===0&&!r.lead)).join(""); }
   return h+`</div>`;
 }
 /* The trainer tile: this browser's trainer result when there is one (the trainer writes localStorage "clayarena-trainer",
@@ -387,7 +442,7 @@ function render(){
   let parts=[]; book.sections.forEach(s=>{ if(!parts.includes(s.part)) parts.push(s.part); });
   const nf=(book.faq||[]).length;
   app.innerHTML=`${hero}
-   <form id="askf" role="search"><div class="big"><span class="lo" aria-hidden="true">🔍</span><input id="q" type="search" autocomplete="off" placeholder="${esc(t("phS"))}" title="${esc(t("ph"))}" aria-label="${esc(t("askL"))}" value="${esc(S.q)}"><button type="submit" aria-label="${esc(t("ask"))}" title="${esc(t("ask"))}">→</button></div></form>
+   <form id="askf" role="search"><div class="big"><span class="lo" aria-hidden="true">🔍</span><input id="q" type="search" autocomplete="off" placeholder="${esc(t("phS"))}" aria-label="${esc(t("askL"))}" value="${esc(S.q)}"><button type="button" class="clr${S.q?" on":""}" data-clr="1" aria-label="${esc(t("clr"))}">✕</button><button type="submit" aria-label="${esc(t("ask"))}" title="${esc(t("ask"))}">→</button></div></form>
    <div class="topics"><span>${t("often")}:</span>${t("topics").map(x=>`<button type="button" data-q="${esc(x)}">${esc(x)}</button>`).join("")}</div>
    <div id="ans">${answerHTML(book)}</div>
    <div class="tiles"><a class="tile main" href="trainer/?lang=${esc(VL())}#${S.disc}"><span class="ic" aria-hidden="true">🎯</span><span><b>${t("trainer")}</b><span>${esc(trainerLine())}</span></span></a>
@@ -401,7 +456,7 @@ function render(){
   whereBuild(book,parts,dname);
   if(ITEM){ const i=ITEM; ITEM=null; setTimeout(()=>jump("it-"+i),150); }
 }
-function ask(q){ S.q=q; S.res=search(BOOK(S.disc),q); document.getElementById("ans").innerHTML=answerHTML(BOOK(S.disc)); document.getElementById("q").value=q; document.getElementById("ans").scrollIntoView({behavior:"smooth",block:"nearest"}); }
+function ask(q){ if(!String(q||"").trim()){ clearAsk(); return; } S.q=q; S.res=search(BOOK(S.disc),q); document.getElementById("ans").innerHTML=answerHTML(BOOK(S.disc)); document.getElementById("q").value=q; clrShow(); document.getElementById("ans").scrollIntoView({behavior:"smooth",block:"nearest"}); }
 function jump(id){ const el=document.getElementById(id); if(!el) return; if(el.tagName==="DETAILS") el.open=true; window.scrollTo({top:el.getBoundingClientRect().top+scrollY-80,behavior:"smooth"}); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b) return; const d=b.dataset;
@@ -411,6 +466,7 @@ document.addEventListener("click",e=>{
     try{ const u=new URL(location.href); u.searchParams.set("lang",VL()); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(_){} // reload / shared link keep it (?lang=de still shows English)
     if(S.q) S.res=search(BOOK(S.disc)||{sections:[],faq:[],source:{}},S.q); render(); return; }
   if(d.disc){ S.disc=d.disc; S.q=""; S.res=null; store.set({lang:S.lang,disc:S.disc}); try{history.replaceState(null,"","#"+S.disc)}catch(_){} render(); return; }
+  if(d.clr){ const q=document.getElementById("q"); q.value=""; clearAsk(); q.focus(); return; }
   if(d.q){ ask(d.q); return; }
   if(d.jump){ jump("it-"+d.jump); return; }
   if(d.sec){ whereOpen(false); jump("sec-"+d.sec); return; }
@@ -444,6 +500,12 @@ document.getElementById("whereShade").addEventListener("click",()=>whereOpen(fal
 document.getElementById("langD").addEventListener("click",e=>{ if(e.target.closest(".menu [data-lang]")) document.getElementById("langD").open=false; });
 document.addEventListener("keydown",e=>{ if(e.key!=="Escape") return; if(document.getElementById("whereList").classList.contains("open")){ whereOpen(false); document.getElementById("where").focus(); } document.getElementById("langD").open=false; });
 document.addEventListener("submit",e=>{ if(e.target.id==="askf"){ e.preventDefault(); ask(document.getElementById("q").value); } });
+/* The ✕ of the field is shown while there is text; an emptied field (✕, select-all + delete, Esc in the field) also removes the
+   answer of the previous question, so the page does not keep showing an answer to a question that is no longer there. */
+function clearAsk(){ S.q=""; S.res=null; const a=document.getElementById("ans"); if(a) a.innerHTML=""; clrShow(); }
+function clrShow(){ const q=document.getElementById("q"), c=document.querySelector("#askf .clr"); if(q&&c) c.classList.toggle("on",!!q.value); }
+document.addEventListener("input",e=>{ if(e.target.id!=="q") return; clrShow(); if(!e.target.value&&S.res) clearAsk(); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&e.target.id==="q"&&e.target.value){ e.target.value=""; clearAsk(); } });
 /* Deep link from the trainer: ?item=<id>#<discipline> opens and highlights that rule item (once the book is drawn, in render()). */
 let ITEM=null; try{ ITEM=new URLSearchParams(location.search).get("item"); }catch(_){}
 render();
