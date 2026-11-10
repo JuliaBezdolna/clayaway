@@ -35,7 +35,7 @@
   color-scheme:dark;
   --bg:#030712; --surface:rgba(255,255,255,.04); --surface2:#0B1120; --line:rgba(255,255,255,.1);
   --ink:#F3F4F6; --soft:#D1D5DB; --muted:#9CA3AF;
-  --em:#34D399; --em-soft:rgba(16,185,129,.15); --primary:#059669; --cyan:#22D3EE;
+  --em:#34D399; --em-soft:rgba(16,185,129,.15); --primary:#05845D; --cyan:#22D3EE;
   --clay:#FB923C; --clay-soft:rgba(251,146,60,.14); --red:#F87171; --red-soft:rgba(248,113,113,.14);
   --body:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
@@ -136,13 +136,9 @@ p{margin:0 0 10px;max-width:70ch}
   <button type="button" id="tlangGo" class="langgo" style="display:none" aria-label="Відкрити обраною мовою" title="Відкрити обраною мовою">→</button>
 </div></header>
 <main id="app"></main>
-<script src="../data/sporting.js"></script>
-<script src="../data/compak.js"></script>
 <script src="../data/quiz-sporting.js"></script>
 <script src="../data/quiz-compak.js"></script>
-<script src="../../shared/terms.js"></script>
-<script src="../../shared/sims-text.js"></script>
-<script src="../../shared/sims.min.js"></script>
+<!-- the rules books, the term labels and the animations are loaded after the first paint: DEPS / READY in the script below -->
 <script>
 /* ClayArena · FITASC rules trainer.
    Questions: docs/rules/data/quiz-<key>.js (format rules/QUIZ_SCHEMA.md in the repository, outside docs/); every question cites rule item ids (refs)
@@ -177,7 +173,27 @@ p{margin:0 0 10px;max-width:70ch}
 const LANGS=["en","uk","de","fr","it","cs","pl","pt","hu","fi","lt"];
 const LANG_NAMES={en:"English",uk:"Українська",de:"Deutsch",fr:"Français",it:"Italiano",cs:"Čeština",pl:"Polski",pt:"Português",hu:"Magyar",fi:"Suomi",lt:"Lietuvių"};
 let OV={ui:{},questions:{}};
-const BOOKS=Object.fromEntries((window.RULES||[]).map(b=>[b.key,b]));
+/* Speed (Lighthouse 09.11.2026: LCP 2.88 s, 319 KB of scripts before the first paint): the mode screen needs only the question
+   banks, loaded above as plain (blocking) scripts. The rules books (the references under an answer), the term labels (terms.js,
+   sims-text.js) and the animations (sims.min.js) are requested (loadDeps, in this order: async=false) as soon as the content of
+   #app has been painted (a "largest-contentful-paint" entry inside #app: the mode screen), or when a test or a result is to be
+   shown (render), and at the latest after 3 s (a background tab, a browser without LCP timing). The test and result views wait
+   for them: READY, resolved when all have loaded or failed (then the trainer still works: plain option texts, no animation).
+   Tried 09.11.2026 on the local server and dropped: "defer" or requestAnimationFrame (Chrome paints the first frame later than
+   both, LCP stayed 7.5 s), the first-contentful-paint entry (the header can be painted a frame before #app: LCP 2.7 or 5.9 s).
+   The build (scripts/build_seo.mjs) adds terms.js before sims.min.js only to pages that lack it: both names are in DEPS, so it
+   leaves this page alone. */
+const DEPS=["../data/sporting.js","../data/compak.js","../../shared/terms.js","../../shared/sims-text.js","../../shared/sims.min.js"];
+let ready=false, asked=false, readyRes;
+const READY=new Promise(r=>{ readyRes=r; });
+function loadDeps(){ if(asked) return; asked=true; let n=DEPS.length;
+  DEPS.forEach(src=>{ const s=document.createElement("script"); s.src=src; s.async=false;
+    s.onload=s.onerror=()=>{ if(--n===0){ ready=true; readyRes(); } }; document.head.appendChild(s); }); }
+try{ new PerformanceObserver((l,o)=>{ const app=document.getElementById("app");
+    if(l.getEntries().some(e=>e.element&&app&&app.contains(e.element))){ o.disconnect(); setTimeout(loadDeps,0); } })
+  .observe({type:"largest-contentful-paint",buffered:true}); }catch(e){}
+setTimeout(loadDeps,3000);
+const BOOKS=()=>Object.fromEntries((window.RULES||[]).map(b=>[b.key,b]));
 const QUIZ=Object.fromEntries((window.RULES_QUIZ||[]).map(q=>[q.key,q.questions]));
 const PASS=0.8;
 const T={
@@ -308,7 +324,7 @@ async function loadLang(l){ OV={ui:{},questions:{}}; if(l==="uk"||l==="en") retu
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const st=()=>{ const s=P.stats[P.disc]=P.stats[P.disc]||{ans:0,ok:0,best:0,wrong:[]}; return s; };
 const shuffle=a=>{ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
-function itemById(id){ const b=BOOKS[P.disc]; if(!b) return null; for(const s of b.sections) for(const it of s.items) if(it.id===id) return it; return null; }
+function itemById(id){ const b=BOOKS()[P.disc]; if(!b) return null; for(const s of b.sections) for(const it of s.items) if(it.id===id) return it; return null; }
 function pool(){ const qs=QUIZ[P.disc]||[]; return S.level?qs.filter(q=>q.level===S.level):qs; }
 /* Display order of the options: a random permutation of option indices; true/false keeps True, False.
    (Function declarations, so the saved-run restore above can use them before this point.) */
@@ -321,7 +337,7 @@ function start(mode){
   S.run={mode,disc:P.disc,qs,ord:qs.map(optOrder),i:0,ans:[],picked:null,from:FROM_LEARN?"learn":""}; S.view="run"; S.paused=false; S.ask=false; render(); scrollTo(0,0);
 }
 function refsHTML(q){
-  const b=BOOKS[P.disc]; return `<div class="refs">${(q.refs||[]).map(id=>{ const it=itemById(id); if(!it) return ""; return `<a href="../?item=${encodeURIComponent(id)}#${P.disc}">${esc(it.ref||tx(it,"title"))}</a><a href="${esc(b.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdf")} ${it.page} ↗</a>`; }).join("")}</div>`;
+  const b=BOOKS()[P.disc]; return `<div class="refs">${(q.refs||[]).map(id=>{ const it=itemById(id); if(!it) return ""; return `<a href="../?item=${encodeURIComponent(id)}#${P.disc}">${esc(it.ref||tx(it,"title"))}</a><a href="${esc(b.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdf")} ${it.page} ↗</a>`; }).join("")}</div>`;
 }
 /* ord = display order (array of option indices); data-opt always carries the ORIGINAL index. */
 function qCard(q,picked,reveal,idx,total,ord){
@@ -360,15 +376,16 @@ function resultView(){
     ${exam||r.ans.some((a,i)=>a!==r.qs[i].answer)?`<h2 style="margin-top:24px">${t("review")}</h2><div class="review">${r.qs.map((q,i)=>exam||r.ans[i]!==q.answer?qCard(q,r.ans[i],true,i,r.qs.length,(r.ord||[])[i]):"").join("")}</div>`:""}`;
 }
 function render(){
+  if(S.view!=="home"&&!ready){ loadDeps(); READY.then(render); return; } // a test or a result needs the scripts of DEPS (see READY)
   document.documentElement.lang=L();
   const cr=document.getElementById("crumbs"); cr.innerHTML=crumbsHTML(); cr.setAttribute("aria-label",t("crumbs")); document.title=`${t("svc")} FITASC · ClayArena`;
   document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("tlang").setAttribute("aria-label",t("langG"));
   const lg=document.getElementById("tlangGo"); lg.setAttribute("aria-label",t("langGo")); lg.title=t("langGo");
   const sel=document.getElementById("tlang"); if(!sel.options.length) sel.innerHTML=LANGS.map(l=>`<option value="${l}">${LANG_NAMES[l]}</option>`).join(""); sel.value=L();
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===P.disc));
-  ClaySims.stopSims();
+  if(window.ClaySims) ClaySims.stopSims();
   document.getElementById("app").innerHTML = S.view==="run"?runView():S.view==="result"?resultView():homeView();
-  if(S.view==="run") ClaySims.auto();
+  if(S.view==="run"&&window.ClaySims) ClaySims.auto();
   saveRun();
 }
 document.addEventListener("click",e=>{

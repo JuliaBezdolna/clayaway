@@ -39,7 +39,7 @@ const flatTL = s => String(s || "").normalize("NFC").toLowerCase().replace(/[™
 const addsToH1 = (tl, lb) => !!tl && !!lb.local && flatTL(tl) !== flatTL(lb.local) && flatTL(tl) !== flatTL(lb.label);
 
 export async function buildI18n() {
-  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd } = globalThis.SEO;
+  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS } = globalThis.SEO;
   // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
   // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
   const CAT = {
@@ -112,18 +112,17 @@ ${alts(l => termUrl(l, t.id), t.id)}
 <!-- /hreflang -->
 ${og({ lang, title, desc, url, U })}
 ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n")}
-<style>${CSS}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}${GS.CSS}</style>
+<style>${CSS}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}${GS.CSS}${JUMP_CSS}</style>
 </head>
 <body>
 <header><div class="in">${crumbs(lang, "📖", [{ label: U.gl, url: listUrl(lang) }, { label: lb.label }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
-${GS.mini(lang, esc)}<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}
-<h2>${U.what}</h2><p><b>${esc(x.short)}</b></p>
-${x.long ? `<h2>${U.detail}</h2><p>${esc(x.long)}</p>` : ""}
-${disc ? `<h2>${U.disc}</h2>${disc}` : ""}
-${refs ? `<h2>${U.rules}</h2><ul>${refs}</ul>` : ""}
-${learn ? `<h2>${U.learn}</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2>${U.rel}</h2><p>${rel}</p>` : ""}${catMore(lang, t, GLOSS.terms.filter(x => D[x.id]), { cat: c => (CAT[lang] || {})[c] || c, url: x => termUrl(lang, x.id), html: x => termHtml(lang, x), list: listUrl(lang), skip: (t.related || []).map(rid) })}
+${GS.mini(lang, esc)}<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}${jumpNav(lang, { disc, rules: refs, learn, rel })}
+<section class="what-card"><h2 id="what">${U.what}</h2><p class="def">${esc(x.short)}</p>${x.long ? `<div class="sep"></div><h2>${U.detail}</h2><p class="txt">${esc(x.long)}</p>` : ""}</section>
+${disc ? `<h2 id="disc">${U.disc}</h2><div class="duo">${disc}</div>` : ""}
+${refs ? `<h2 id="rules">${U.rules}</h2><ul>${refs}</ul>` : ""}
+${learn ? `<h2 id="learn">${U.learn}</h2><ul>${learn}</ul>` : ""}
+${rel ? `<h2 id="rel">${U.rel}</h2><p class="rel-row">${rel}</p>` : ""}${catMore(lang, t, GLOSS.terms.filter(x => D[x.id]), { cat: c => (CAT[lang] || {})[c] || c, url: x => termUrl(lang, x.id), html: x => termHtml(lang, x), list: listUrl(lang), skip: (t.related || []).map(rid) })}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`;
         mkdirSync(`${DOCS}/${lang}/glossary/${t.id}`, { recursive: true });
         writeFileSync(`${DOCS}/${lang}/glossary/${t.id}/index.html`, html);

@@ -122,7 +122,7 @@ const TXT = {
     desc: (d, n, f) => `Правила ${d} FITASC українською: ${n} пунктів за розділами і ${f} відповідей на часті питання — положення рушниці, No Bird, відмови, протести, перестрілки. З посиланням на сторінку офіційного PDF.`,
     lead: "Наш переказ офіційного регламенту FITASC простими словами: розділ за розділом, з номером пункту і посиланням на сторінку PDF. Терміни англійською, як їх кажуть на стенді.",
     ask: "Запитати про правила", trainer: "Перевірити себе в тренажері", other: "Інша мова", faq: "Часті питання", toc: "Зміст", part: "Частина", ch: "Розділ",
-    src: "Джерело", ed: "Редакція", off: "Офіційний PDF FITASC", pdf: "PDF, стор.",
+    src: "Джерело", ed: "Редакція", off: "Офіційний PDF FITASC", pdf: "PDF, с.", qg: "є в пам'ятці суддів", prev: "← Попередній розділ", next: "Наступний розділ →", nav: "Розділи",
     disc: "Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",
     crumbs: ["ClayArena", "Правила FITASC"], updated: "Оновлено"
   },
@@ -132,7 +132,7 @@ const TXT = {
     desc: (d, n, f) => `FITASC ${d} rules explained: ${n} rule points by chapter and ${f} answers to common questions — gun position, No Bird, malfunctions, appeals, shoot-offs. Each linked to the official PDF page.`,
     lead: "Our plain-language summary of the official FITASC rulebook, chapter by chapter, with the rule reference and a link to the PDF page.",
     ask: "Ask about the rules", trainer: "Test yourself in the trainer", other: "Other language", faq: "Common questions", toc: "Contents", part: "Part", ch: "Chapter",
-    src: "Source", ed: "Edition", off: "Official FITASC PDF", pdf: "PDF, p.",
+    src: "Source", ed: "Edition", off: "Official FITASC PDF", pdf: "PDF, p.", qg: "in the referees' quick guide", prev: "← Previous chapter", next: "Next chapter →", nav: "Chapters",
     disc: "This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",
     crumbs: ["ClayArena", "FITASC rules"], updated: "Updated"
   }
@@ -140,7 +140,7 @@ const TXT = {
 const urlOf = (lang, key) => BASE + (lang === "uk" ? `rules/${key}/` : `rules/en/${key}/`);
 const NF = 'rel="nofollow noopener noreferrer" target="_blank"';
 
-const CSS = `:root{color-scheme:dark;--bg:#030712;--surface:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--ink:#F3F4F6;--soft:#D1D5DB;--muted:#9CA3AF;--em:#34D399;--primary:#059669}
+const CSS = `:root{color-scheme:dark;--bg:#030712;--surface:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--ink:#F3F4F6;--soft:#D1D5DB;--muted:#9CA3AF;--em:#34D399;--primary:#05845D}
 *{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--ink);font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 a{color:var(--em)}.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:20px 72px;display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px}
 @media(max-width:860px){.wrap{grid-template-columns:1fr}.toc{position:static!important;max-height:220px!important;border:1px solid var(--line);border-radius:12px;padding:6px 10px}}
@@ -179,6 +179,56 @@ const crumbs = (lang, icon, items) => `<nav class="crumbs" aria-label="${BREAD[l
 const langSwitch = (cur, items) => { const list = LANGS.map(l => items.find(x => x.l === l)).filter(Boolean);
   return `<details class="langs"><summary lang="${cur}"><span aria-hidden="true">🌐</span> ${LANG_NAME[cur]}<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> · ${LANGW[cur]}</span></summary><nav aria-label="${LANGW[cur]}">${list.map(x => `<a href="${x.url}" hreflang="${x.l}" lang="${x.l}" data-setlang="${x.l}"${x.l === cur ? ' aria-current="true"' : ""}>${LANG_NAME[x.l]}</a>`).join("")}</nav></details>`; };
 
+// Phone navigation of the static rules pages (wave 2, 09.11.2026; the same "you are here" line as the guide /rules/, variant B of
+// design-mockups/rules-header-toc-mobile.html). At ≤860 px the contents box above the text (220 px, its own scroll) is hidden — only
+// with JS (class "js" set in <head> before the first paint, so nothing shifts; without JS the box stays). Once the title has scrolled
+// away, a thin fixed line #where names the chapter under the top edge and opens #whereList (a copy of the contents). Desktop unchanged.
+const RULES_CSS = `#where,#whereList,.where-shade{display:none}
+@media(max-width:860px){html.js .wrap>.toc{display:none}main>section[id],article.item{scroll-margin-top:60px}
+#where{display:flex;position:fixed;left:0;right:0;top:0;z-index:60;width:100%;align-items:center;gap:10px;min-height:48px;padding:6px 16px;padding-top:max(6px,env(safe-area-inset-top,0px));background:rgba(3,7,18,.95);backdrop-filter:blur(8px);border:0;border-bottom:1px solid var(--line);font:inherit;font-size:14px;color:var(--soft);text-align:left;cursor:pointer;visibility:hidden;transform:translateY(-110%);transition:transform .2s,visibility 0s .2s}
+#where.show{visibility:visible;transform:none;transition:transform .2s}#where .d{color:var(--em);font-weight:700;flex:none}#where .c{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;font-weight:600}#where .x{flex:none;color:var(--muted)}#where[aria-expanded="true"] .x{transform:rotate(180deg)}
+#whereList.open{display:block;position:fixed;left:0;right:0;top:48px;z-index:70;max-height:70vh;overflow:auto;background:#0B1120;border-bottom:1px solid var(--line);border-radius:0 0 16px 16px;padding:4px 16px 16px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+#whereList .p{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}#whereList a{display:flex;align-items:center;min-height:44px;padding:8px 10px;color:var(--soft);text-decoration:none;font-size:15px;border-left:2px solid var(--line)}#whereList a.on{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}
+.where-shade.open{display:block;position:fixed;inset:0;z-index:55;background:rgba(0,0,0,.55)}}
+@media print{#where,#whereList,.where-shade{display:none!important}}
+article.item{border:1px solid var(--line);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));padding:14px 16px 16px;margin:12px 0}
+.itop{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}.itop .sp{flex:1}
+.inum{display:inline-flex;align-items:center;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;white-space:nowrap}
+.iqg{display:inline-flex;align-items:center;padding:2px 9px;border-radius:999px;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);color:#FCD34D;font-size:11.5px;font-weight:600;white-space:nowrap}
+.ipdf{font-size:13px;white-space:nowrap}
+article.item h3{margin:10px 0 4px;font-size:18px;line-height:1.35}article.item p{margin:6px 0 0}article.item ul{margin:10px 0 0;padding-left:20px}
+.iterms{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0}.iterms .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.iterms a{display:inline-block;line-height:24px;min-height:32px;padding:3px 11px;border:1px solid var(--line);border-radius:999px;color:var(--soft);text-decoration:none;font-size:13px}.iterms a:hover{border-color:var(--em);color:#fff}
+.secnav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0 8px}
+.secnav a{display:grid;gap:2px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink);background:var(--surface);min-height:56px}
+.secnav a small{font-size:11.5px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}.secnav a.nx{text-align:right;grid-column:2}.secnav a:hover{border-color:var(--em)}
+@media(max-width:520px){.secnav{grid-template-columns:1fr}.secnav a.nx{grid-column:1}}
+@media (prefers-reduced-motion:reduce){#where{transition:none}}`;
+const RULES_JS = `(function(){var w=document.getElementById("where"),L=document.getElementById("whereList"),sh=document.getElementById("whereShade"),toc=document.querySelector(".wrap>.toc"),h1=document.querySelector("main h1");
+if(!w||!L||!toc||!h1)return;L.innerHTML=toc.innerHTML;var secs=[].slice.call(document.querySelectorAll("main>section[id]")),links=[].slice.call(L.querySelectorAll("a")),cur=null;if(!secs.length)return;
+function open(on){w.setAttribute("aria-expanded",on?"true":"false");L.classList.toggle("open",on);sh.classList.toggle("open",on);if(on){var a=L.querySelector("a.on");if(a)a.scrollIntoView({block:"center"});}}
+function tick(){var c=secs[0];secs.forEach(function(s){if(s.getBoundingClientRect().top<90)c=s;});var show=h1.getBoundingClientRect().bottom<0&&secs[0].getBoundingClientRect().top<innerHeight;
+if(w.classList.contains("show")!==show){w.classList.toggle("show",show);if(!show)open(false);}if(c===cur)return;cur=c;
+links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+c.id);});var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
+var r=0;addEventListener("scroll",function(){if(!r)r=requestAnimationFrame(function(){r=0;tick();});},{passive:true});
+w.addEventListener("click",function(){open(w.getAttribute("aria-expanded")!=="true");});sh.addEventListener("click",function(){open(false);});
+L.addEventListener("click",function(e){if(e.target.closest("a"))open(false);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&L.classList.contains("open")){open(false);w.focus();}});tick();})();`;
+
+// Rule item as a card (wave 2, 09.11.2026, variant A of design-mockups/rules-item.html): a top row with the article number badge
+// (taken from the English FITASC reference, which stays in the badge's tooltip), the "in the referees' quick guide" badge and the PDF link.
+// ruleNum("Chapter 6, 6.4; 6.5.1 (quick guide)") → {k:"art", v:"6.4 · 6.5.1"}; ranges stay ranges; no dotted number → the chapter/annex.
+// The guide /rules/ (docs/rules/index.html) has the same function — keep them in step.
+const ruleNum = ref => {
+  const r = ref || "", rng = [];
+  const rest = r.replace(/(\d+(?:\.\d+)+)\s*[–-]\s*(\d+(?:\.\d+)+)/g, (m, a, b) => { rng.push([a, b]); return " "; });
+  const one = rest.match(/\d+(?:\.\d+)+/g) || [], all = [...one, ...rng.flat()];
+  const v = [...new Set([...one.filter(x => !all.some(m => m !== x && m.startsWith(x + "."))), ...rng.map(x => x.join("–"))])];
+  if (v.length) return { k: "art", v: v.join(" · ") };
+  const m = r.match(/^(Chapter|Annex|Appendix) (\d+)/);
+  return m ? { k: m[1] === "Chapter" ? "ch" : "ann", v: m[2] } : null;
+};
+const NUM_LBL = { uk: { art: "п. ", ch: "розд. ", ann: "дод. " }, en: { art: "", ch: "Ch. ", ann: "Annex " } };
 function page(key, lang) {
   const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk";
   const items = b.sections.flatMap(s => s.items);
@@ -195,6 +245,10 @@ function page(key, lang) {
     { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: b.faq.map(f => ({ "@type": "Question", name: tx(f, "q"), acceptedAnswer: { "@type": "Answer", text: tx(f, "a") } })) }
   ];
   const parts = [...new Set(b.sections.map(s => s.part))];
+  // previous / next chapter at the end of every chapter, in the order of the contents (the last chapter leads to the FAQ)
+  const order = [...b.sections.map(s => ({ id: s.id, t: `${s.chapter ? s.chapter + ". " : ""}${esc(tx(s, "title"))}` })), { id: "faq", t: T.faq }];
+  const secNav = id => { const i = order.findIndex(x => x.id === id), pv = order[i - 1], nx = order[i + 1];
+    return `<nav class="secnav" aria-label="${T.nav}">${pv ? `<a href="#${pv.id}"><small>${T.prev}</small>${pv.t}</a>` : ""}${nx ? `<a class="nx" href="#${nx.id}"><small>${T.next}</small>${nx.t}</a>` : ""}</nav>`; };
   const html = `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -216,11 +270,15 @@ function page(key, lang) {
 <meta name="theme-color" content="#030712">
 <link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${CSS}</style>
+<style>${CSS}
+${RULES_CSS}</style>
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
 <header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d }])}
 <span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: urlOf(o, key) }])}</div></header>
+<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d">${key === "sporting" ? "Sporting™" : "Compak®"}</span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
+<div class="where-shade" id="whereShade"></div><nav id="whereList" aria-label="${T.toc}"></nav>
 <div class="wrap">
 <nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(s => s.part === p).map(s => `<a href="#${s.id}">${s.chapter ? s.chapter + ". " : ""}${esc(tx(s, "title"))}</a>`).join("")).join("")}<div class="p">FAQ</div><a href="#faq">${T.faq}</a></nav>
 <main>
@@ -230,12 +288,13 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <p class="src">${T.src}: <a href="${esc(b.source.url)}" ${NF}>${T.off} ↗</a> · ${T.ed}: ${esc(b.source.edition)} · ${T.updated}: ${TODAY}</p>
 <div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">🎯 ${T.trainer}</a></div>
 ${b.sections.map(s => `<section id="${s.id}"><h2><small>${T.part} ${esc(s.part)}${s.chapter ? " · " + T.ch + " " + s.chapter : ""}</small>${esc(tx(s, "title"))}</h2>
-${s.items.map(it => `<article class="item" id="${it.id}"><h3>${esc(tx(it, "title"))}</h3><div class="ref">${esc(it.ref || "")} · <a href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page}</a></div>
-<p>${esc(tx(it, "summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${globalThis.termLinks ? globalThis.termLinks(it, lang) : ""}</article>`).join("\n")}
-</section>`).join("\n")}
+${s.items.map(it => { const n = ruleNum(it.ref); return `<article class="item" id="${it.id}"><div class="itop">${n ? `<span class="inum" title="FITASC: ${esc(it.ref)}">${NUM_LBL[lang][n.k]}${n.v}</span>` : ""}${it.quick_guide ? `<span class="iqg">${T.qg}</span>` : ""}<span class="sp"></span><a class="ipdf" href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page} ↗</a></div><h3>${esc(tx(it, "title"))}</h3>
+<p>${esc(tx(it, "summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${globalThis.termLinks ? globalThis.termLinks(it, lang) : ""}</article>`; }).join("\n")}
+${secNav(s.id)}</section>`).join("\n")}
 <section id="faq" class="faq"><h2>${T.faq}</h2>${b.faq.map(f => `<details><summary>${esc(tx(f, "q"))}</summary><p>${esc(tx(f, "a"))}</p></details>`).join("\n")}</section>
 <div class="disc">${T.disc}</div>${legal(lang)}
 </main></div>
+<script>${RULES_JS}</script>
 </body>
 </html>`;
   const dir = lang === "uk" ? `${DOCS}/rules/${key}` : `${DOCS}/rules/en/${key}`;
@@ -276,7 +335,7 @@ globalThis.termLinks = (it, lang) => {
   if (!GLOSS) return "";
   const ids = [...new Set((it.terms || []).map(t => ALIAS[t] || t).filter(id => GBY[id]))];
   if (!ids.length) return "";
-  return `<div class="ref">${lang === "uk" ? "Терміни" : "Terms"}: ${ids.map(id => `<a href="${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/">${termHtml(lang, GBY[id])}</a>`).join(" · ")}</div>`;
+  return `<div class="iterms"><span class="sr">${lang === "uk" ? "Терміни" : "Terms"}: </span>${ids.map(id => `<a href="${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/">${termHtml(lang, GBY[id])}</a>`).join(" ")}</div>`;
 };
 // Descriptive subtitles of the uk term pages whose h1 is the English word alone ("Battue" → «мішень, що летить ребром і різко
 // падає»): content/glossary/subtitles/uk.json, shown under the h1 and used in <title> (glossary plan, wave 4.3, 05.11.2026).
@@ -286,7 +345,7 @@ const ukTerms = n => `${n} ${{ one: "термін", few: "терміни", many:
 function glossaryPages() {
   if (!GLOSS) return [];
   const out = [];
-  const css = CSS + `.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}.h1-sub{margin:-2px 0 12px;font-size:18px;line-height:1.45;color:var(--soft)}`;
+  const css = CSS + `.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}.h1-sub{margin:-2px 0 12px;font-size:18px;line-height:1.45;color:var(--soft)}` + JUMP_CSS;
   const shell = (title, desc, url, ld, body, name, enUrl) => `<!doctype html>
 <html lang="uk">
 <head>
@@ -326,15 +385,14 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${termHtml("uk", GBY[r])}</a>`).join(" ");
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
     const learn = ACADEMY.learnLinks(t.id, "uk").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
-    const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
-<h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p>
-${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
-${disc ? `<h2>У Sporting™ і Compak® Sporting</h2>${disc}` : ""}
+    const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("uk", { disc, rules: refs, learn, rel })}
+<section class="what-card"><h2 id="what">Що це</h2><p class="def">${esc(t.short_uk)}</p>${t.long_uk ? `<div class="sep"></div><h2>Детально</h2><p class="txt">${esc(t.long_uk)}</p>` : ""}</section>
+${disc ? `<h2 id="disc">У Sporting™ і Compak® Sporting</h2><div class="duo">${disc}</div>` : ""}
 ${ukUsage(t) ? `<h2>Як кажуть українською</h2><p>${esc(ukUsage(t))}</p>` : ""}
-${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
+${refs ? `<h2 id="rules">Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
-${learn ? `<h2>Де вивчити</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}${catMore("uk", t, GLOSS.terms, { cat: c => CAT_UK[c] || c, url: x => `${BASE}glossary/${x.id}/`, html: x => termHtml("uk", x), list: `${BASE}glossary/`, skip: (t.related || []).map(rid) })}`;
+${learn ? `<h2 id="learn">Де вивчити</h2><ul>${learn}</ul>` : ""}
+${rel ? `<h2 id="rel">Повʼязані терміни</h2><p class="rel-row">${rel}</p>` : ""}${catMore("uk", t, GLOSS.terms, { cat: c => CAT_UK[c] || c, url: x => `${BASE}glossary/${x.id}/`, html: x => termHtml("uk", x), list: `${BASE}glossary/`, skip: (t.related || []).map(rid) })}`;
     const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || []), lb.local].filter(Boolean))].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
       crumbLd([{ name: "Глосарій", url: BASE + "glossary/" }, { name: lb.label, url }])];
     mkdirSync(`${DOCS}/glossary/${t.id}`, { recursive: true });
@@ -468,6 +526,36 @@ const catMore = (lang, t, terms, o) => {
   return `
 <h2>${esc(h.replace("{c}", name))}</h2><p>${same.filter(x => pick.has(x.id)).map(x => `<a href="${o.url(x)}">${o.html(x)}</a>`).join(" · ")}</p>
 <p class="ref"><a href="${o.list}#cat-${GS.catSlug(t.cat)}">${esc(all.replace("{n}", same.length))}</a></p>`; };
+// "На сторінці:" row under the term header (glossary plan, wave 10, design-mockups/term-choke-new.html): links to the sections the
+// page has, the same in all 11 languages; the sections carry the ids what / disc / rules / learn / rel. have = { disc, rules, learn, rel }.
+const JUMP = {
+  uk: ["На сторінці", "Що це", "У дисциплінах", "Правила", "Уроки", "Повʼязані"],
+  en: ["On this page", "What it is", "In disciplines", "Rules", "Lessons", "Related"],
+  de: ["Auf dieser Seite", "Was es ist", "In den Disziplinen", "Regeln", "Lektionen", "Verwandte"],
+  fr: ["Sur cette page", "Définition", "Disciplines", "Règlement", "Leçons", "Termes liés"],
+  it: ["In questa pagina", "Che cos'è", "Discipline", "Regolamento", "Lezioni", "Correlati"],
+  cs: ["Na této stránce", "Co to je", "V disciplínách", "Pravidla", "Lekce", "Související"],
+  pl: ["Na tej stronie", "Co to jest", "W konkurencjach", "Przepisy", "Lekcje", "Powiązane"],
+  pt: ["Nesta página", "O que é", "Nas disciplinas", "Regras", "Lições", "Relacionados"],
+  hu: ["Ezen az oldalon", "Mi ez", "A szakágakban", "Szabályok", "Leckék", "Kapcsolódó"],
+  fi: ["Tällä sivulla", "Mikä se on", "Lajeissa", "Säännöt", "Oppitunnit", "Liittyvät"],
+  lt: ["Šiame puslapyje", "Kas tai", "Disciplinose", "Taisyklės", "Pamokos", "Susiję"]
+};
+// "У дисциплінах": the Sporting™ and Compak® Sporting boxes side by side (one under the other on a phone), the discipline name
+// small in the accent colour (glossary plan, wave 10, design-mockups/term-choke-new.html). Added to JUMP_CSS: the term pages load both.
+const DUO_CSS = `.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:10px 0}.duo .box{margin:0}.duo .box>b{display:inline-block;font-size:12.5px;letter-spacing:.04em;color:var(--em);margin-bottom:2px}.duo .box p{margin:4px 0 0}`;
+// "Що це" + "Детально" in one card in the style of clayarena.com (variant A of design-mockups/term-choke-what-detail.html, 09.11.2026):
+// the card of its competition list (rounded-xl, border white/10, gradient white/10 -> white/5), the two headings as its "pill" badges
+// (emerald-300, 12px, uppercase by CSS: the h2 text stays as it is), a thin line between them. The animation goes after the card.
+const CARD_CSS = `.what-card{border:1px solid rgba(255,255,255,.1);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));padding:16px 18px;margin:20px 0 14px}.what-card h2{display:inline-flex;align-items:center;margin:0 0 8px;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;text-transform:uppercase}.what-card p{margin:0;max-width:none}.what-card .def{font-size:19px;line-height:1.5;font-weight:600;color:#fff}.what-card .txt{line-height:1.65;color:var(--soft)}.what-card .sep{height:1px;background:rgba(255,255,255,.1);margin:16px 0 14px}`;
+// "Повʼязані терміни": the chips (a.btn) in a wrapping row over the full width. An inline chip broke across two lines with its border
+// cut in half ("Electronic refereeing (електронне суддівство)", 09.11.2026); in the flex row a chip moves to the next line whole.
+const REL_CSS = `.rel-row{display:flex;flex-wrap:wrap;gap:6px;max-width:none;margin:10px 0}.rel-row .btn{align-content:center;line-height:1.4}`; // on a phone .btn has min-height 44px (touch target): the text in its middle
+// (align-content on the block, not inline-flex: flex items would drop the space in "Call (виклик мішені)")
+const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}` + DUO_CSS + CARD_CSS + REL_CSS;
+const jumpNav = (lang, have) => { const [lbl, ...n] = JUMP[lang] || JUMP.en;
+  const links = [["what", 1], ["disc", have.disc], ["rules", have.rules], ["learn", have.learn], ["rel", have.rel]].map((x, i) => x[1] ? `<a href="#${x[0]}">${n[i]}</a>` : "").join("");
+  return `<nav class="jump" aria-label="${lbl}"><span>${lbl}:</span>${links}</nav>`; };
 const ukUsage = t => { const x = ((window.GLOSSARY_I18N || {}).uk || {terms: {}}).terms[t.id];
   if (x && x.term_local && x.conf !== "low") return [x.term_local, ...(x.alt || [])].filter(v => v !== t.term).slice(0, 3).map(v => `«${v}»`).join(", ");
   return t.uk_usage && t.uk_usage !== "—" ? t.uk_usage : ""; };
@@ -543,7 +631,7 @@ urls.push(...glossaryPages());
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd };
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
@@ -668,7 +756,8 @@ const glossMeta = { description: new Map(), title: new Map(), missing: [] };
       h = h.replace(/<h1>([\s\S]*?)<\/h1>/, m => `<div class="th">${m}${btn}</div>`)
         .replace("</head>", `<style>${SAY_CSS}</style>\n</head>`);
       if (ANIM.has(id)) {
-        const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
+        const card = h.indexOf('<section class="what-card">'), cardEnd = card >= 0 ? h.indexOf("</section>", card) + 10 : -1; // after the "Що це" card
+        const second = cardEnd > 9 ? cardEnd : ([...h.matchAll(/<h2[\s>]/g)][1] || { index: -1 }).index; // else before the second h2 (it may carry an id)
         if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"${simReserve(id)}></div>\n` + h.slice(second);
         h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text-${gm[1] || "uk"}.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
       } else h = h.replace("</body>", `<script src="${rel}shared/speak.js" defer></script>\n</body>`);
