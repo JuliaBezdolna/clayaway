@@ -1,0 +1,138 @@
+/* 3D-блок глоссария в стиле конструктора полётов (how.html → .ed-*) */
+.l3 { --l3-line: rgba(148,163,184,.34); --l3-em: #10b981; --l3-em-l: #34d399; --l3-or: #f97316; --l3-or-l: #fb923c;
+  margin: 14px 0 6px; border: 1px solid rgba(255,255,255,.1); border-radius: 16px; background: #0b1324; overflow: hidden;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.l3-h { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,.08); }
+.l3-h b { font-size: 15px; color: #F3F4F6; }
+.l3-h .l3-badge { font: 700 11px ui-monospace, Consolas, monospace; letter-spacing: .06em; color: #02130d; background: var(--l3-em-l); border-radius: 6px; padding: 2px 6px; }
+.l3-stage { position: relative; }
+.l3-canvas { width: 100%; aspect-ratio: 16 / 9; min-height: 300px; max-height: 78vh; }
+.l3-canvas canvas { display: block; width: 100%; height: 100%; }
+.l3-bar { position: absolute; display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-start; pointer-events: none; }
+.l3-bar > * { pointer-events: auto; }
+.l3-tr { left: 12px; bottom: 12px; }
+.l3-seg-g { max-width: 100%; display: inline-flex; flex-wrap: wrap; gap: 2px; padding: 3px; border-radius: 12px; background: rgba(2,6,23,.72); border: 1px solid var(--l3-line); backdrop-filter: blur(8px); }
+.l3-b { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 10px; border: 0; border-radius: 9px; background: transparent; color: #e5e7eb; font: 600 13px Inter, system-ui, sans-serif; cursor: pointer; transition: background .16s, transform .16s; }
+.l3-b:hover { background: rgba(148,163,184,.14); }
+.l3-b:active { transform: scale(.95); }
+.l3-b[aria-pressed="true"] { background: var(--l3-em); color: #02130d; }
+.l3-b small { font-weight: 500; opacity: .75; }
+.l3-cap { position: absolute; left: 12px; top: 12px; max-width: min(640px, calc(100% - 24px)); display: flex; gap: 10px; align-items: flex-start;
+  padding: 10px 14px; border-radius: 14px; background: rgba(2,6,23,.82); border: 1px solid var(--l3-line); backdrop-filter: blur(8px); pointer-events: none; }
+.l3-cap-n { flex: none; font: 700 12px ui-monospace, Consolas, monospace; color: var(--l3-or-l); padding-top: 3px; }
+.l3-cap-t { margin: 0; font-size: 15px; line-height: 1.45; color: #F3F4F6; max-width: none; }
+.l3-stats { position: absolute; right: 12px; bottom: 12px; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; pointer-events: none; }
+.l3-stats span { padding: 6px 10px; border-radius: 10px; background: rgba(2,6,23,.78); border: 1px solid var(--l3-line); font-size: 12.5px; color: #cbd5e1; }
+.l3-stats b { color: #fff; font-family: ui-monospace, Consolas, monospace; }
+.l3-ctl { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 10px 12px 12px; border-top: 1px solid rgba(255,255,255,.08); }
+.l3-row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.l3-lbl { font-size: 11.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: #9CA3AF; }
+.l3-tlw { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; align-items: center; }
+.l3-btns { display: flex; gap: 6px; }
+.l3-prev, .l3-next { height: 34px; border: 0; border-radius: 9px; cursor: pointer; font: 700 14px Inter, sans-serif; background: rgba(148,163,184,.14); color: #e5e7eb; padding: 0 12px; }
+.l3-prev { width: 40px; padding: 0; font-size: 18px; }
+.l3-next { background: var(--l3-em); color: #02130d; }
+.l3-next.pulse { animation: l3pulse 1.1s ease-in-out infinite; }
+@keyframes l3pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(52,211,153,.6); } 50% { box-shadow: 0 0 0 7px rgba(52,211,153,0); } }
+.l3:focus-visible { outline: 2px solid var(--l3-em-l); outline-offset: 2px; }
+.l3-stepmode { border: 1px solid var(--l3-line) !important; }
+.l3-load { position: absolute; inset: 0; display: grid; place-items: center; color: #e5e7eb; font-size: 14px; background: rgba(2,6,23,.35); pointer-events: none; transition: opacity .5s; }
+.l3-ready .l3-load { opacity: 0; }
+.l3-play, .l3-replay { width: 40px; height: 34px; border: 0; border-radius: 9px; cursor: pointer; font: 700 14px Inter, sans-serif; }
+.l3-play { background: var(--l3-or); color: #1c0a02; }
+.l3-replay { background: rgba(148,163,184,.14); color: #e5e7eb; }
+.l3-tlbox { position: relative; min-width: 0; }
+.l3-tl { display: flex; gap: 3px; height: 34px; cursor: ew-resize; touch-action: none; }
+.l3-seg { flex: 1 1 0; min-width: 52px; border: 1px solid rgba(251,146,60,.45); border-radius: 7px; background: rgba(148,163,184,.08); color: #cbd5e1; font: 600 11.5px Inter, sans-serif; cursor: pointer; padding: 0 4px; overflow: hidden; }
+.l3-seg span { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.l3-seg.on { background: color-mix(in srgb, var(--l3-or) 40%, transparent); color: #fff; border-color: var(--l3-or-l); }
+.l3-head { position: absolute; top: -3px; bottom: -3px; width: 2px; background: #fb923c; box-shadow: 0 0 8px #f97316; pointer-events: none; }
+.l3-rng { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: #D1D5DB; }
+.l3-rng input { width: 140px; accent-color: var(--l3-em); }
+.l3-rng output { font: 600 12.5px ui-monospace, Consolas, monospace; color: #fff; min-width: 52px; }
+.l3-note { margin: 0; font-size: 12px; color: #9CA3AF; max-width: none; }
+.l3-nogl .l3-stage, .l3-nogl .l3-ctl { display: none; }
+.l3-nogl::after { content: "Ваш браузер не показує 3D (WebGL вимкнено)."; display: block; padding: 20px; color: #9CA3AF; }
+/* кадр для ролика: без кнопок */
+.l3-capture .l3-tr, .l3-capture .l3-ctl, .l3-capture .l3-h { display: none; }
+.l3-capture { border: 0; border-radius: 0; margin: 0; }
+@media (max-width: 760px) {
+  .l3-tlw { grid-template-columns: 1fr; }
+  .l3-cap { order: -1; position: static; max-width: none; border-radius: 0; border-width: 0 0 1px; background: #0b1324; }
+  .l3-tr { position: static; padding: 8px 12px 0; justify-content: flex-start; }
+  .l3-stage { display: flex; flex-direction: column; }
+  .l3-stats { position: static; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; padding: 8px 12px; }
+  .l3-seg { min-width: 0; padding: 0 2px; }
+  .l3-seg span { display: none; }
+  .l3-seg.on { flex-grow: 6 !important; }
+  .l3-seg.on span { display: block; }
+  .l3-seg span { font-size: 10px; }
+  .l3-tl { height: 30px; }
+}
+
+/* на весь екран: сцена займає все, керування — смугою знизу */
+.l3:fullscreen, .l3.l3-fs { margin: 0; border: 0; border-radius: 0; width: 100vw; height: 100vh; height: 100dvh; display: flex; flex-direction: column; background: #0b1324; }
+.l3.l3-fs { position: fixed; inset: 0; z-index: 1000; }
+.l3:fullscreen .l3-h, .l3.l3-fs .l3-h { display: none; }
+.l3:fullscreen .l3-stage, .l3.l3-fs .l3-stage { flex: 1 1 auto; min-height: 0; }
+.l3:fullscreen .l3-canvas, .l3.l3-fs .l3-canvas { aspect-ratio: auto; height: 100%; max-height: none; min-height: 0; }
+.l3:fullscreen .l3-note, .l3.l3-fs .l3-note { display: none; }
+.l3:fullscreen .l3-ctl, .l3.l3-fs .l3-ctl { flex: none; }
+html.l3-lock, html.l3-lock body { overflow: hidden; }
+@media (max-width: 760px) { .l3-fsbtn span { display: none; } }
+.l3:fullscreen .l3-stage, .l3.l3-fs .l3-stage { display: flex; flex-direction: column; }
+.l3:fullscreen .l3-canvas, .l3.l3-fs .l3-canvas { flex: 1 1 auto; }
+@media (max-width: 760px) { .l3:fullscreen .l3-stats, .l3.l3-fs .l3-stats { display: none; } }
+
+/* ===== оформлення сторінки: світіння, мішені обабіч, «Як дивитися» ===== */
+html.gl-deco body {
+  background:
+    radial-gradient(900px 520px at 12% -6%, rgba(16,185,129,.16), transparent 60%),
+    radial-gradient(800px 520px at 100% 8%, rgba(249,115,22,.12), transparent 60%),
+    radial-gradient(1000px 700px at 50% 110%, rgba(56,189,248,.08), transparent 60%),
+    #030712;
+  background-attachment: fixed;
+}
+.gl-sky { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
+html.gl-deco body > header, html.gl-deco body > main, html.gl-deco body > nav, html.gl-deco body > div:not(.gl-sky) { position: relative; z-index: 1; }
+html.gl-deco main h2 { position: relative; padding-left: 14px; }
+html.gl-deco main h2::before { content: ""; position: absolute; left: 0; top: .25em; bottom: .25em; width: 4px; border-radius: 4px; background: linear-gradient(#34d399, #f97316); }
+.gl-how { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 6px 0 14px; }
+.gl-how > div { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; border-radius: 14px; background: rgba(15,23,42,.72); border: 1px solid rgba(148,163,184,.18); backdrop-filter: blur(6px); }
+.gl-how span { flex: none; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; background: rgba(16,185,129,.16); font-size: 17px; }
+.gl-how p { margin: 0; font-size: 13.5px; line-height: 1.4; color: #9CA3AF; }
+.gl-how b { display: block; color: #F3F4F6; font-size: 14.5px; margin-bottom: 2px; }
+@media (max-width: 760px) { .gl-how { grid-template-columns: 1fr; } }
+
+/* ===== HUD 3D-блоку ===== */
+.l3 { box-shadow: 0 20px 60px rgba(0,0,0,.45), 0 0 0 1px rgba(52,211,153,.08); position: relative; z-index: 1; }
+.l3-cap { flex-direction: column; gap: 4px; padding: 12px 16px; border-left: 3px solid var(--l3-or-l); }
+.l3-cap.l3-in { animation: l3cap .45s cubic-bezier(.2,.7,.2,1); }
+@keyframes l3cap { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+.l3-cap-n { display: flex; gap: 10px; align-items: baseline; padding: 0; font-family: Inter, system-ui, sans-serif; }
+.l3-cap-n b { font-size: 16px; color: #fff; letter-spacing: .01em; }
+.l3-cap-n span { font: 600 11.5px ui-monospace, Consolas, monospace; color: var(--l3-or-l); text-transform: uppercase; letter-spacing: .06em; }
+.l3-next { min-width: 120px; white-space: nowrap; }
+.l3-stats span { backdrop-filter: blur(6px); }
+.l3-start { position: absolute; inset: 0; margin: auto; width: max-content; height: max-content; display: flex; align-items: center; gap: 14px; padding: 14px 24px 14px 14px; border: 0; border-radius: 999px; background: rgba(2,6,23,.78); color: #fff; cursor: pointer; backdrop-filter: blur(8px); box-shadow: 0 0 0 1px rgba(52,211,153,.5), 0 18px 50px rgba(0,0,0,.5); z-index: 5; transition: transform .2s, opacity .3s; font-family: Inter, system-ui, sans-serif; text-align: left; }
+.l3-start:hover { transform: scale(1.04); }
+.l3-start-i { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; background: var(--l3-em); color: #02130d; font-size: 22px; animation: l3pulse 1.6s ease-in-out infinite; }
+.l3-start b { display: block; font-size: 20px; }
+.l3-start small { display: block; font-size: 13px; color: #9CA3AF; }
+.l3-started .l3-start { opacity: 0; pointer-events: none; }
+.l3-capture .l3-start { display: none; }
+.l3-gfxrow { justify-content: flex-start; }
+.l3-keys { margin-left: auto; font-size: 12px; color: #9CA3AF; }
+.l3-keys kbd { font: 600 11px ui-monospace, Consolas, monospace; padding: 1px 6px; border-radius: 5px; background: rgba(148,163,184,.16); color: #e5e7eb; }
+@media (max-width: 760px) { .l3-keys { display: none; } .l3-voicebtn span { display: none; } .l3-start b { font-size: 17px; } }
+
+/* ширший 3D-блок для тих, хто не розгортає на весь екран: виходить за колонку тексту */
+.l3:not(:fullscreen):not(.l3-fs), .gl-how {
+  width: min(1280px, calc(100vw - 32px));
+  margin-left: calc(50% - min(640px, 50vw - 16px));
+}
+
+/* кнопка «на весь екран» — правий верхній кут сцени */
+.l3-stage > .l3-fsbtn { position: absolute; top: 12px; right: 12px; z-index: 6; background: rgba(11,19,36,.82); border: 1px solid rgba(255,255,255,.14); backdrop-filter: blur(4px); }
+.l3-capture .l3-stage > .l3-fsbtn { display: none; }
+.l3-h > .l3-fsbtn { margin-left: auto; padding: 5px 10px; font-size: 13px; }

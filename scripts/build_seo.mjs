@@ -785,3 +785,6 @@ for (const k of ["description", "title"]) {
 if (glossMeta.missing.length) console.log(`WARNING: glossary pages without a title or meta description: ${glossMeta.missing.join(", ")}`);
 console.log(`glossary snippets: ${glossMeta.description.size} unique descriptions, ${glossMeta.title.size} unique titles`);
 if (tmMetaHits.size) console.log(`WARNING: glossary meta descriptions with a declined FITASC mark (marked as "Compak®-…" / "Sporting™-…"; write the base form "Sporting™" / "Compak® Sporting" in the definition): ${[...tmMetaHits].map(([w, p]) => `${w} (${p})`).join(", ")}`);
+// 3D animations of glossary terms (docs/shared/3d/, exported from ClayArenaPromo): the block goes into the Ukrainian term pages
+// after they are written above. Idempotent; see scripts/build_glossary3d.mjs.
+{ const { buildGlossary3d } = await import("./build_glossary3d.mjs"); buildGlossary3d(); }
