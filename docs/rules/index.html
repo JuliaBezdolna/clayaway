@@ -89,15 +89,22 @@ p{margin:0 0 10px;max-width:72ch}
 .toc button:hover,.toc button.on{color:#fff;border-left-color:var(--em)}
 .sec{margin-bottom:26px;scroll-margin-top:80px}
 .sec h2 small{display:block;font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.05em;text-transform:uppercase}
-.item{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:8px;scroll-margin-top:80px}
-.item summary{cursor:pointer;list-style:none;padding:12px 14px;display:flex;gap:10px;align-items:baseline}
+/* rule item as a card (wave 2, 09.11.2026, variant A of design-mockups/rules-item.html, as on the static rules pages): the number
+   badge from the FITASC reference (full reference in its tooltip) and "in the referees' quick guide" above the title */
+.item{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px;margin-bottom:10px;scroll-margin-top:80px}
+.item summary{cursor:pointer;list-style:none;padding:12px 14px;display:flex;gap:10px;align-items:flex-start}
+.item summary .ih{flex:1;min-width:0;display:grid;gap:7px}
+.item summary .ih b{font-size:16.5px;line-height:1.35}
+.itop{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.inum{display:inline-flex;align-items:center;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;white-space:nowrap}
+.iqg{display:inline-flex;align-items:center;padding:2px 9px;border-radius:999px;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);color:#FCD34D;font-size:11.5px;font-weight:600;white-space:nowrap}
+.secnav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0 8px}
+.secnav button{display:grid;gap:2px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;text-align:left;color:var(--ink);background:var(--surface);min-height:56px;font-weight:600}
+.secnav button small{font-size:11.5px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;font-weight:400}.secnav button.nx{text-align:right;grid-column:2}.secnav button:hover{border-color:var(--em)}
+@media (max-width:520px){.secnav{grid-template-columns:1fr}.secnav button.nx{grid-column:1}}
 .item summary::-webkit-details-marker{display:none}
-.item summary::before{content:"+";color:var(--em);font-weight:700;width:12px;flex:none}
+.item summary::before{content:"+";color:var(--em);font-weight:700;width:12px;flex:none;line-height:1.6}
 .item[open] summary::before{content:"–"}
-.item summary b{flex:1}
-.item summary .ref{font-size:12px;color:var(--muted);white-space:nowrap}
-/* narrow screens: a long citation ("Chapter 6, 6.5.1, table: …") wraps under the title instead of widening the page (375 px check 09.10.2026) */
-@media (max-width:480px){.item summary{flex-wrap:wrap}.item summary .ref{white-space:normal}}
 .item .body{padding:0 14px 14px 36px}
 .item .body p{color:var(--soft)}
 .item ul{margin:6px 0 10px;padding-left:18px;color:var(--soft)}
@@ -106,7 +113,6 @@ p{margin:0 0 10px;max-width:72ch}
 .item.flash{animation:fl 1.4s ease-out}
 @keyframes fl{0%{box-shadow:0 0 0 0 rgba(52,211,153,.6)}100%{box-shadow:0 0 0 14px rgba(52,211,153,0)}}
 .pdf{font-size:13px}
-.tag{display:inline-block;font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:999px;background:var(--clay-soft);color:var(--clay);margin-left:6px;vertical-align:1px}
 .source{margin-top:10px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
 .disclaimer{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:12.5px;color:var(--muted)}
 .faqlist details{border-top:1px solid var(--line);padding:9px 0}
@@ -210,13 +216,13 @@ const T={
    read:"Читати правила",faq:"Усі питання і відповіді",src:"Джерело",ed:"Редакція",checked:"Перевірка оновлень: щотижня",off:"Офіційний PDF",guide:"Пам'ятка суддям",qg:"є в пам'ятці суддів",
    disc:"Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",notReady:"Довідник для цієї дисципліни ще готується.",part:"Частина",
    page:"Правила FITASC простими словами · ClayArena",ogT:"Правила FITASC простими словами — ClayArena",ogD:"Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC.",locale:"uk_UA",
-   discG:"Дисципліна",langG:"Мова",toc:"Зміст",statics:"Статичні сторінки",full:"Повний текст переказу",other:"English",otherL:"en",trainer:"Тренажер правил",cats:"Категорії FITASC (вік)",askL:"Запитайте про правила",similar:"Схожі питання",chapter:"Розділ"},
+   discG:"Дисципліна",langG:"Мова",toc:"Зміст",statics:"Статичні сторінки",full:"Повний текст переказу",other:"English",otherL:"en",trainer:"Тренажер правил",cats:"Категорії FITASC (вік)",askL:"Запитайте про правила",similar:"Схожі питання",chapter:"Розділ",n_art:"п. ",n_ch:"розд. ",n_ann:"дод. ",prev:"← Попередній розділ",next:"Наступний розділ →",chs:"Розділи"},
  en:{svc:"FITASC rules",svcS:"ClayArena · shooter's guide",title:"{d} rules in plain words",lead:"Read the rules chapter by chapter or just ask. Answers are our summary of the official FITASC rulebook, with the chapter and a link to the PDF page.",
    ph:"Ask: “how many malfunctions are allowed?”, “gun position”, “what is a no bird?”",ask:"Answer",ex:"Common questions",answer:"Answer",rel:"Rules on this topic",open:"Open in FITASC PDF, p.",none:"No exact answer found. Try other words or browse the chapters below.",
    read:"Read the rules",faq:"All questions and answers",src:"Source",ed:"Edition",checked:"Update check: weekly",off:"Official PDF",guide:"Referees' quick guide",qg:"in the referees' quick guide",
    disc:"This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",notReady:"The guide for this discipline is still being prepared.",part:"Part",
    page:"FITASC rules in plain words · ClayArena",ogT:"FITASC rules in plain words — ClayArena",ogD:"Parcours de Chasse – Sporting™ and Compak® Sporting: 232 rule points and 140 answers, in English and Ukrainian, with links to the official FITASC PDF.",locale:"en_GB",
-   discG:"Discipline",langG:"Language",toc:"Contents",statics:"Static pages",full:"Full text of the summary",other:"Українська",otherL:"uk",trainer:"Rules trainer",cats:"FITASC categories (age)",askL:"Ask about the rules",similar:"Similar questions",chapter:"Chapter"}
+   discG:"Discipline",langG:"Language",toc:"Contents",statics:"Static pages",full:"Full text of the summary",other:"Українська",otherL:"uk",trainer:"Rules trainer",cats:"FITASC categories (age)",askL:"Ask about the rules",similar:"Similar questions",chapter:"Chapter",n_art:"",n_ch:"Ch. ",n_ann:"Annex ",prev:"← Previous chapter",next:"Next chapter →",chs:"Chapters"}
 };
 /* Per-browser preferences (language, discipline) in localStorage "clayarena-rules"; until 10.2026 the key was
    "clayaway-rules" (ClayAway is only the tours service), moved over once here. In production: the ClayArena user profile. */
@@ -294,7 +300,17 @@ function search(book,q){
   return {faq,items,qt};
 }
 function pdfLink(book,page){ return `<a class="pdf" href="${esc(book.source.url)}#page=${page}" target="_blank" rel="nofollow noopener noreferrer">${t("open")} ${page} ↗</a>`; }
-function itemHTML(book,it,open){ return `<details class="item" id="it-${it.id}" ${open?"open":""}><summary><b>${esc(tx(it,"title"))}</b><span class="ref">${esc(it.ref||"")}</span></summary><div class="body"><p>${esc(tx(it,"summary"))}</p>${(it["points_"+L()]||[]).length?`<ul>${it["points_"+L()].map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}${pdfLink(book,it.page)}${it.quick_guide?`<span class="tag">${t("qg")}</span>`:""}</div></details>`; }
+/* the same function is in scripts/build_seo.mjs (static rules pages) — keep them in step */
+function ruleNum(ref){ const r=ref||"", rng=[];
+  const rest=r.replace(/(\d+(?:\.\d+)+)\s*[–-]\s*(\d+(?:\.\d+)+)/g,(m,a,b)=>{ rng.push([a,b]); return " "; });
+  const one=rest.match(/\d+(?:\.\d+)+/g)||[], all=[...one,...rng.flat()];
+  const v=[...new Set([...one.filter(x=>!all.some(m=>m!==x&&m.startsWith(x+"."))),...rng.map(x=>x.join("–"))])];
+  if(v.length) return {k:"art",v:v.join(" · ")};
+  const m=r.match(/^(Chapter|Annex|Appendix) (\d+)/); return m?{k:m[1]==="Chapter"?"ch":"ann",v:m[2]}:null; }
+function itemHTML(book,it,open){ const n=ruleNum(it.ref), top=(n?`<span class="inum" title="FITASC: ${esc(it.ref)}">${t("n_"+n.k)}${n.v}</span>`:"")+(it.quick_guide?`<span class="iqg">${t("qg")}</span>`:"");
+  return `<details class="item" id="it-${it.id}" ${open?"open":""}><summary><span class="ih">${top?`<span class="itop">${top}</span>`:""}<b>${esc(tx(it,"title"))}</b></span></summary><div class="body"><p>${esc(tx(it,"summary"))}</p>${(it["points_"+L()]||[]).length?`<ul>${it["points_"+L()].map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}${pdfLink(book,it.page)}</div></details>`; }
+function secNav(book,id){ const o=[...book.sections.map(s=>({id:s.id,t:(s.chapter?esc(s.chapter)+". ":"")+esc(tx(s,"title"))})),{id:"faq",t:t("faq")}], i=o.findIndex(x=>x.id===id), pv=o[i-1], nx=o[i+1];
+  return `<nav class="secnav" aria-label="${t("chs")}">${pv?`<button type="button" data-sec="${pv.id}"><small>${t("prev")}</small>${pv.t}</button>`:""}${nx?`<button type="button" class="nx" data-sec="${nx.id}"><small>${t("next")}</small>${nx.t}</button>`:""}</nav>`; }
 /* Show the FAQ answer when it is at least 40% as relevant as the best rule item, or when its question
    contains 60%+ of the user's words (FAQ entries are short, so raw scores favour long rule items),
    otherwise lead with the rule items themselves (the item is the source of truth). */
@@ -348,7 +364,7 @@ function render(){
      <div class="chips">${ex.map(f=>`<button type="button" data-q="${esc(tx(f,"q"))}">${esc(tx(f,"q"))}</button>`).join("")}</div></form>
    <div id="ans">${answerHTML(book)}</div>
    <div class="layout"><nav class="toc" aria-label="${t("toc")}">${parts.map(p=>`<div class="part">${t("part")} ${esc(p)}</div>`+book.sections.filter(s=>s.part===p).map(s=>`<button data-sec="${s.id}">${s.chapter?esc(s.chapter)+". ":""}${esc(tx(s,"title"))}</button>`).join("")).join("")}<div class="part">FAQ</div><button data-sec="faq">${t("faq")}</button></nav>
-   <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}</section>`).join("")}
+   <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}${secNav(book,s.id)}</section>`).join("")}
    <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?`<button data-jump="${id}">${esc(idx(book).byId[id].ref||id)}</button>`:"").join("")}</div></details>`).join("")}</section>
    <div class="disclaimer">${t("disc")}</div></div></div>`;
   whereBuild(book,parts,dname);
