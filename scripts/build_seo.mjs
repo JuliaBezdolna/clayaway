@@ -471,7 +471,7 @@ globalThis.ruleTerms = (it, lang, defs) => {
   let sum = plain.sum, lis = plain.pts;
   if (RT) {
     if (!RT_NAMES) RT_NAMES = RT.namer(GLOSS.terms, ((window.GLOSSARY_I18N || {}).uk || {}).terms);
-    const cands = ids.map(id => ({ id, href: href(id), names: RT_NAMES(GBY[id], lang), attrs: ` data-g="${id}"${NEWTAB}` }));
+    const cands = ids.map(id => ({ id, href: href(id), ...RT_NAMES(GBY[id], lang), attrs: ` data-g="${id}"${NEWTAB}` }));
     sum = RT.link(tx("summary"), cands, used, esc); lis = pts.map(x => RT.link(x, cands, used, esc));
     for (const id of used) if (!defs.has(id)) defs.set(id, [termLabel(lang, GBY[id]).label, GBY[id][`short_${lang}`] || GBY[id].short_en || ""]);
   }

@@ -112,7 +112,7 @@ var r=0;addEventListener("scroll",function(){if(!r)r=requestAnimationFrame(funct
 w.addEventListener("click",function(){open(w.getAttribute("aria-expanded")!=="true");});sh.addEventListener("click",function(){open(false);});
 L.addEventListener("click",function(e){if(e.target.closest("a"))open(false);});
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&L.classList.contains("open")){open(false);w.focus();}});tick();})();</script>
-<script type="application/json" id="gdefs">{"competitor-number":["Competitor number (номер стрільця)","Номер, який стрілець носить на спині під час змагань."],"warning":["Warning (попередження)","Перша санкція за порушення правил, яку дає суддя або журі."],"jury":["Jury","Орган, що керує міжнародним змаганням, розглядає апеляції й призначає покарання."]}</script>
+<script type="application/json" id="gdefs">{"warning":["Warning (попередження)","Перша санкція за порушення правил, яку дає суддя або журі."],"jury":["Jury","Орган, що керує міжнародним змаганням, розглядає апеляції й призначає покарання."],"competitor-number":["Competitor number (номер стрільця)","Номер, який стрілець носить на спині під час змагань."]}</script>
 <script>(function(){var D=document.getElementById("gdefs");if(!D)return;var M=JSON.parse(D.textContent),pop=null,cur=null,tm=0,
 OPEN=document.documentElement.lang==="uk"?"Відкрити в Глосарії →":"Open in the glossary →",hov=matchMedia("(hover:hover) and (pointer:fine)").matches;
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
