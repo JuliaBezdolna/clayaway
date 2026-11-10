@@ -362,13 +362,20 @@ const SYNP=[
  [/посвар|крича|лаяв|лайк|агрес|нерв|кинув рушницю|swear|shout|angry|abus/,"loss of self control abusive language anger"],
  [/(перш|друг|трет)\S*\s+місц|first place|top three|medal/,"first three places medal shoot-off"],
  [/з другом|у друга|в друга|на двох|однією рушницею|one gun|share/,"share another competitor gun"],
- [/(підня|перевір)\S*\s+(уламок|уламк|мішен)|pick up/,"checking target"]
+ [/(підня|перевір)\S*\s+(уламок|уламк|мішен)|pick up/,"checking target"],
+ /* a trap (not a gun) that fails: «машинка зламалась», «відмова машинки», «trap broke» → what the rules say about it (No Bird for an
+    irregular target, the targets shown again after a long stop, the trajectory put right); 10.11.2026: «скільки відмов машинки
+    дозволено?» led with «Кількість машин для різних типів layout» */
+ [/машин\S*\s+(\S+\s+)?(злама|відмов|не\s+працю|не\s+кида|не\s+подає|не\s+викида|заклин|поламал|зупинил)|(злама|відмов|поломк|несправн|поламал|заклин)\S*\s+(\S+\s+)?машин|(trap|machine)s?\s+(\S+\s+)?(broke|break|fail|malfunction|jam|stopp|not\s+working|doesn'?t\s+work|won'?t\s+throw)|(breakdown|failure|malfunction)\s+of\s+(the\s+)?(trap|machine)/,"broken breakdown breaks irregular no bird interruption leaves",["malfunction malfunctioning failure misfire defective"]]
 ];
 /* expand(q) → {syn, phr}: the words added by SYN (they help to reach the right item, so they weigh half of the visitor's own words:
    with full weight «рушниця» brought «gun shotgun weapon barrel» and every item about guns outranked «рушниця не вистрілила»),
-   and the words added by SYNP (they carry the meaning of a phrase, full weight). */
-function expand(q){ const n=norm(q), words=n.split(/\s+/), syn=[], phr=[]; words.forEach(w=>SYN.forEach(([pre,en,not])=>{ if(pre.some(p=>w.startsWith(p))&&!(not||[]).some(p=>w.startsWith(p))) syn.push(en); }));
-  SYNP.forEach(([re,en])=>{ if(re.test(n)) phr.push(en); }); return {syn:syn.join(" "),phr:phr.join(" ")}; }
+   and the words added by SYNP (they carry the meaning of a phrase, full weight). A SYNP entry may name, third, the SYN words it
+   cancels: «відмова машинки» is a trap, so the gun-malfunction words of «відмов» are not added. */
+function expand(q){ const n=norm(q), words=n.split(/\s+/), syn=[], phr=[], drop=new Set();
+  SYNP.forEach(([re,en,no])=>{ if(re.test(n)){ phr.push(en); (no||[]).forEach(x=>drop.add(x)); } });
+  words.forEach(w=>SYN.forEach(([pre,en,not])=>{ if(pre.some(p=>w.startsWith(p))&&!(not||[]).some(p=>w.startsWith(p))&&!drop.has(en)) syn.push(en); }));
+  return {syn:syn.join(" "),phr:phr.join(" ")}; }
 /* Build (once per book) the search index: every rule item and FAQ entry becomes a document
    with weighted fields; df = document frequency per word for IDF weighting. */
 function idx(book){

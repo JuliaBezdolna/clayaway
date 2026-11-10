@@ -84,8 +84,15 @@ const CASES = {
     ["coach giving advice during the round", "ch8-coaching"],
     ["both barrels fired at once", "ch6-double-discharge ch7-double-discharge"],
     ["two targets with one shot", "ch6-two-with-one-shot"],
+    // a trap that fails, not a gun (10.11.2026: «скільки відмов машинки дозволено?» led with the number of traps per layout);
+    // the rulebook sets no limit for traps: an irregular target is a No Bird, a long stop shows the targets again
+    ["скільки відмов машинки дозволено?", "ch6-nobird-target-cases ch16-long-interruption ch15-trajectory-reset"],
+    ["машинка зламалася", "ch6-nobird-target-cases ch16-long-interruption ch15-trajectory-reset"],
+    ["the trap broke down", "ch6-nobird-target-cases ch16-long-interruption ch15-trajectory-reset"],
   ],
   compak: [
+    ["машинка зламалася", "ch20-target-no-bird-cases"],
+    ["скільки відмов машинки дозволено?", "ch20-target-no-bird-cases"],
     ["мішень розбилася до пострілу", "ch20-target-no-bird-cases"],
     ["рушниця не вистрілила", "ch20-gun-failure-principle ch20-gun-failure-first-shot ch21-malfunction"],
     ["запізнився на групу", "ch9-late-squad ch9-late-inline"],
