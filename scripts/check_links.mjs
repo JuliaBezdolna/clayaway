@@ -27,7 +27,7 @@ for (const f of files) {
   const html = readFileSync(f, "utf8"), dir = posix.dirname(f.slice("docs/".length));
   for (const m of html.matchAll(/<a\b[^>]*?\shref="([^"]+)"/g)) {
     let u = m[1].replace(/&amp;/g, "&");
-    if (/^(mailto:|tel:|javascript:|data:)/.test(u) || /\$\{|' \+|" \+/.test(u)) continue; // templates inside page scripts
+    if (/^(mailto:|tel:|javascript:|data:)/.test(u) || /\$\{|'\s*\+|"\s*\+|\+\s*'|\+\s*"/.test(u)) continue; // templates inside page scripts
     let rel;
     if (u.startsWith(BASE)) rel = u.slice(BASE.length);
     else if (/^[a-z]+:\/\//i.test(u) || u.startsWith("//")) continue;

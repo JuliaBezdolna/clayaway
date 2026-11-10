@@ -67,7 +67,11 @@ article.item h3,article.item h2{margin:10px 0 4px;font-size:18px;line-height:1.3
 .chap ul{margin:8px 0 0;padding-left:20px;columns:2 260px;column-gap:28px}.chap li{font-size:14.5px;break-inside:avoid;scroll-margin-top:60px}.chap li a{color:var(--soft);text-decoration:none}.chap li a:hover{color:#fff;text-decoration:underline}
 .chap li:target a{color:#fff;background:rgba(52,211,153,.15);border-radius:4px}.chap .go{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;text-decoration:none}
 .parth{margin:30px 0 4px;font-size:12.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
-.kick{font-size:13px;color:var(--em);font-weight:600;letter-spacing:.03em}</style>
+.kick{font-size:13px;color:var(--em);font-weight:600;letter-spacing:.03em}
+.iterms .more{font-size:12px;color:var(--muted);align-self:center;margin-right:2px}
+.gpop{position:absolute;z-index:90;width:max-content;max-width:min(320px,calc(100vw - 16px));background:#0B1120;border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:12px 14px 6px;box-shadow:0 14px 40px rgba(0,0,0,.6);font-size:14px;line-height:1.5;color:var(--soft)}
+.gpop b{display:block;color:#fff;font-size:15px;margin-bottom:4px}.gpop a{display:flex;align-items:center;min-height:40px;font-weight:600;color:var(--em);text-decoration:none}.gpop a:hover{text-decoration:underline}
+@media print{.gpop{display:none!important}}</style>
 <script>document.documentElement.classList.add("js")</script>
 <script src="../../../../shared/nav.js" defer></script>
 <style>.ca-slot{min-height:48px}@media (max-width:759.98px),(pointer:coarse){.ca-slot{min-height:60px}}@media print{.ca-slot{display:none}}</style>
@@ -86,7 +90,7 @@ article.item h3,article.item h2{margin:10px 0 4px;font-size:18px;line-height:1.3
 <p class="src">Source: <a href="https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf" rel="nofollow noopener noreferrer" target="_blank">Official FITASC PDF ↗</a> · Edition: 01/01/2025 · Updated: 2026-10-09</p>
 <section id="ch11">
 <article class="item" id="ch11-testing-guns"><div class="itop"><span class="inum" title="FITASC: Chapter 11, Testing Guns">Ch. 11</span><span class="sp"></span><a class="ipdf" href="https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf#page=13" rel="nofollow noopener noreferrer" target="_blank">PDF, p. 13 ↗</a></div><h2>Where to test your gun</h2>
-<p>Before taking part, a shooter may test that the gun works on a stand set up specially for this, near the gun room. Guns may never be test-fired on the competition stand before the round starts.</p><ul><li>Dedicated test stand near the gun room.</li><li>No test shots on the competition stand before the round.</li></ul><div class="iterms"><span class="sr">Terms: </span><a href="https://juliabezdolna.github.io/clayaway/en/glossary/gun-test/">Gun test</a></div></article>
+<p>Before taking part, a shooter may test that the gun works on a stand set up specially for this, near the gun room. Guns may never be test-fired on the competition stand before the round starts.</p><ul><li>Dedicated <a class="gt" href="https://juliabezdolna.github.io/clayaway/en/glossary/gun-test/" data-g="gun-test" target="_blank" rel="noopener">test stand</a> near the gun room.</li><li>No test shots on the competition stand before the round.</li></ul></article>
 </section>
 <div id="faq" class="faq"><h2>Common questions on this chapter</h2><details><summary>Where can I test-fire my gun before the round?</summary><p>Only on the stand set up for testing near the gun room. Test shots on the competition stand before the round are never allowed.</p></details></div>
 <nav class="secnav" aria-label="Chapters"><a href="../compak-in-line-absence-of-a-shooter/"><small>← Previous chapter</small>10. Compak in line / Absence of a shooter</a><a class="nx" href="../borrowing-a-shotgun/"><small>Next chapter →</small>12. Borrowing a shotgun</a></nav>
@@ -103,5 +107,19 @@ var r=0;addEventListener("scroll",function(){if(!r)r=requestAnimationFrame(funct
 w.addEventListener("click",function(){open(w.getAttribute("aria-expanded")!=="true");});sh.addEventListener("click",function(){open(false);});
 L.addEventListener("click",function(e){if(e.target.closest("a"))open(false);});
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&L.classList.contains("open")){open(false);w.focus();}});tick();})();</script>
+<script type="application/json" id="gdefs">{"gun-test":["Gun test","Checking that a gun works by firing it on a special test stand, never on a competition stand."]}</script>
+<script>(function(){var D=document.getElementById("gdefs");if(!D)return;var M=JSON.parse(D.textContent),pop=null,cur=null,tm=0,
+OPEN=document.documentElement.lang==="uk"?"Відкрити в Глосарії →":"Open in the glossary →",hov=matchMedia("(hover:hover) and (pointer:fine)").matches;
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function close(){if(pop){pop.remove();pop=null;}if(cur){cur.removeAttribute("aria-expanded");cur=null;}}
+function open(a){var d=M[a.getAttribute("data-g")];if(!d)return false;close();pop=document.createElement("div");pop.className="gpop";pop.id="gpop";pop.setAttribute("role","dialog");pop.setAttribute("aria-label",d[0]);
+pop.innerHTML="<b>"+esc(d[0])+"</b>"+esc(d[1])+'<a href="'+a.href+'" target="_blank" rel="noopener">'+OPEN+"</a>";document.body.appendChild(pop);
+var r=a.getBoundingClientRect(),w=pop.offsetWidth,h=pop.offsetHeight,x=Math.max(8,Math.min(r.left,innerWidth-w-8)),y=r.bottom+6;if(y+h>innerHeight-8&&r.top-h-6>8)y=r.top-h-6;
+pop.style.left=(x+scrollX)+"px";pop.style.top=(y+scrollY)+"px";cur=a;a.setAttribute("aria-expanded","true");a.setAttribute("aria-controls","gpop");return true;}
+function gt(e){return e.target.closest?e.target.closest("a.gt[data-g]"):null;}
+document.addEventListener("click",function(e){var a=gt(e);if(a){if(!hov&&cur!==a&&open(a))e.preventDefault();return;}if(!(e.target.closest&&e.target.closest(".gpop")))close();});
+if(hov){document.addEventListener("mouseover",function(e){var a=gt(e);clearTimeout(tm);if(a&&a!==cur)tm=setTimeout(function(){open(a);},200);else if(!a&&pop&&!(e.target.closest&&e.target.closest(".gpop")))tm=setTimeout(close,300);});}
+document.addEventListener("focusin",function(e){var a=gt(e);if(a&&a!==cur&&e.target.matches(":focus-visible"))open(a);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&pop){var a=cur;close();if(a)a.focus();}});addEventListener("resize",close);})();</script>
 </body>
 </html>

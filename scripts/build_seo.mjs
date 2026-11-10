@@ -262,9 +262,32 @@ const NUM_LBL = { uk: { art: "п. ", ch: "розд. ", ann: "дод. " }, en: { 
 //                         items as cards, the common questions that refer to its items, previous / next chapter.
 // Links between these pages are relative (they work on the preview, locally and on clayarena.com alike); canonical, hreflang, og:url
 // and JSON-LD are absolute. Indexing: the FITASC_INDEX switch below covers every file under docs/rules/ (noindex until permission).
-const itemHTML = (b, it, lang, hx) => { const T = TXT[lang], n = ruleNum(it.ref), tx = k => it[`${k}_${lang}`] || it[`${k}_en`] || "";
+const itemHTML = (b, it, lang, hx, defs) => { const T = TXT[lang], n = ruleNum(it.ref), tx = k => it[`${k}_${lang}`] || it[`${k}_en`] || "";
+  const r = globalThis.ruleTerms(it, lang, defs);
   return `<article class="item" id="${it.id}"><div class="itop">${n ? `<span class="inum" title="FITASC: ${esc(it.ref)}">${NUM_LBL[lang][n.k]}${n.v}</span>` : ""}${it.quick_guide ? `<span class="iqg">${T.qg}</span>` : ""}<span class="sp"></span><a class="ipdf" href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page} ↗</a></div><${hx}>${esc(tx("title"))}</${hx}>
-<p>${esc(tx("summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${globalThis.termLinks ? globalThis.termLinks(it, lang) : ""}</article>`; };
+<p>${r.sum}</p>${r.pts.length ? `<ul>${r.pts.map(x => `<li>${x}</li>`).join("")}</ul>` : ""}${r.chips}</article>`; };
+// The term card of the chapter pages (wave 3, variant C): a link in the rule text (a.gt, data-g = glossary id) opens a small card with
+// the term and its short definition (#gdefs, JSON written by the build) and «Відкрити в Глосарії →». Touch: the first tap opens the
+// card, the link in it (or a second tap on the word) goes on. Mouse: the card opens on hover, a click goes straight to the glossary.
+// Keyboard: the card follows the focus; Esc closes it. Without JS the words are plain links to the glossary.
+// a.gt looks like every other link of the site (green, plain underline — as «PDF, с. 9 ↗»; Юлія, 10.11.2026: no separate dotted style)
+const GT_CSS = `.iterms .more{font-size:12px;color:var(--muted);align-self:center;margin-right:2px}
+.gpop{position:absolute;z-index:90;width:max-content;max-width:min(320px,calc(100vw - 16px));background:#0B1120;border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:12px 14px 6px;box-shadow:0 14px 40px rgba(0,0,0,.6);font-size:14px;line-height:1.5;color:var(--soft)}
+.gpop b{display:block;color:#fff;font-size:15px;margin-bottom:4px}.gpop a{display:flex;align-items:center;min-height:40px;font-weight:600;color:var(--em);text-decoration:none}.gpop a:hover{text-decoration:underline}
+@media print{.gpop{display:none!important}}`;
+const GT_JS = `(function(){var D=document.getElementById("gdefs");if(!D)return;var M=JSON.parse(D.textContent),pop=null,cur=null,tm=0,
+OPEN=document.documentElement.lang==="uk"?"Відкрити в Глосарії →":"Open in the glossary →",hov=matchMedia("(hover:hover) and (pointer:fine)").matches;
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function close(){if(pop){pop.remove();pop=null;}if(cur){cur.removeAttribute("aria-expanded");cur=null;}}
+function open(a){var d=M[a.getAttribute("data-g")];if(!d)return false;close();pop=document.createElement("div");pop.className="gpop";pop.id="gpop";pop.setAttribute("role","dialog");pop.setAttribute("aria-label",d[0]);
+pop.innerHTML="<b>"+esc(d[0])+"</b>"+esc(d[1])+'<a href="'+a.href+'" target="_blank" rel="noopener">'+OPEN+"</a>";document.body.appendChild(pop);
+var r=a.getBoundingClientRect(),w=pop.offsetWidth,h=pop.offsetHeight,x=Math.max(8,Math.min(r.left,innerWidth-w-8)),y=r.bottom+6;if(y+h>innerHeight-8&&r.top-h-6>8)y=r.top-h-6;
+pop.style.left=(x+scrollX)+"px";pop.style.top=(y+scrollY)+"px";cur=a;a.setAttribute("aria-expanded","true");a.setAttribute("aria-controls","gpop");return true;}
+function gt(e){return e.target.closest?e.target.closest("a.gt[data-g]"):null;}
+document.addEventListener("click",function(e){var a=gt(e);if(a){if(!hov&&cur!==a&&open(a))e.preventDefault();return;}if(!(e.target.closest&&e.target.closest(".gpop")))close();});
+if(hov){document.addEventListener("mouseover",function(e){var a=gt(e);clearTimeout(tm);if(a&&a!==cur)tm=setTimeout(function(){open(a);},200);else if(!a&&pop&&!(e.target.closest&&e.target.closest(".gpop")))tm=setTimeout(close,300);});}
+document.addEventListener("focusin",function(e){var a=gt(e);if(a&&a!==cur&&e.target.matches(":focus-visible"))open(a);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&pop){var a=cur;close();if(a)a.focus();}});addEventListener("resize",close);})();`;
 const faqHTML = (f, lang) => { const tx = k => f[`${k}_${lang}`] || f[`${k}_en`] || ""; return `<details><summary>${esc(tx("q"))}</summary><p>${esc(tx("a"))}</p></details>`; };
 const faqRefs = f => (f.refs || []).map(r => typeof r === "string" ? r : r && r.id).filter(Boolean);
 const headHTML = ({ lang, title, desc, url, alt, ld, extra = "" }) => `<!doctype html>
@@ -289,7 +312,8 @@ const headHTML = ({ lang, title, desc, url, alt, ld, extra = "" }) => `<!doctype
 <link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
 <style>${CSS}
-${RULES_CSS}</style>
+${RULES_CSS}
+${GT_CSS}</style>
 <script>document.documentElement.classList.add("js")${extra}</script>
 </head>`;
 const whereHTML = (key, T) => `<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d">${key === "sporting" ? "Sporting™" : "Compak®"}</span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
@@ -357,6 +381,7 @@ function chapterPage(key, lang, i) {
   const list = heads.slice(0, 3).join("; ") + (heads.length > 3 ? "…" : ".");
   const desc = tmMeta(T.chDesc(d, n, name, list, T.nItems(s.items.length)), `rules/${key}/${sl}/`).slice(0, 300);
   const ids = new Set(s.items.map(it => it.id)), faq = b.faq.filter(f => faqRefs(f).some(r => ids.has(r)));
+  const defs = new Map(); // glossary terms linked in the rule texts of this page → their card (filled by itemHTML, written as #gdefs)
   const chLbl = `${T.ch} ${n}`;
   const ld = [
     { "@context": "https://schema.org", "@type": "WebPage", name: title, headline: name, description: desc, url, inLanguage: lang, dateModified: TODAY,
@@ -384,7 +409,7 @@ ${whereHTML(key, T)}
 <p>${T.chLead(d, n)}</p>
 <p class="src">${T.src}: <a href="${esc(b.source.url)}" ${NF}>${T.off} ↗</a> · ${T.ed}: ${esc(b.source.edition)} · ${T.updated}: ${TODAY}</p>
 <section id="${s.id}">
-${s.items.map(it => itemHTML(b, it, lang, "h2")).join("\n")}
+${s.items.map(it => itemHTML(b, it, lang, "h2", defs)).join("\n")}
 </section>
 ${faq.length ? `<div id="faq" class="faq"><h2>${T.chFaq}</h2>${faq.map(f => faqHTML(f, lang)).join("\n")}</div>` : ""}
 ${secnav}
@@ -392,6 +417,8 @@ ${secnav}
 <div class="disc">${T.disc}</div>${legal(lang)}
 </main></div>
 <script>${RULES_JS}</script>
+${defs.size ? `<script type="application/json" id="gdefs">${JSON.stringify(Object.fromEntries(defs)).replace(/</g, "\\u003c")}</script>
+<script>${GT_JS}</script>` : ""}
 </body>
 </html>`;
   writePage(`${lang === "uk" ? "rules" : "rules/en"}/${key}/${sl}`, html);
@@ -425,12 +452,32 @@ const CAT_UK = { "Appeals": "Протести", "Discipline": "Дисциплі�
 // Rule reference in Ukrainian: "Розділ 18 · <item title_uk>" (r.ref in the data is the English PDF heading).
 const refUk = r => { const b = BOOKS[r.book]; const sec = b && b.sections.find(s => s.items.some(x => x.id === r.id)); const it = sec && sec.items.find(x => x.id === r.id);
   return it ? `Розділ ${sec.chapter} · ${it.title_uk}` : r.ref.replace(/^Chapter (\d+)/, "Розділ $1"); };
-// termLinks(item, lang): HTML links from a rule item to its glossary terms (deduplicated through aliases).
-globalThis.termLinks = (it, lang) => {
-  if (!GLOSS) return "";
-  const ids = [...new Set((it.terms || []).map(t => ALIAS[t] || t).filter(id => GBY[id]))];
-  if (!ids.length) return "";
-  return `<div class="iterms"><span class="sr">${lang === "uk" ? "Терміни" : "Terms"}: </span>${ids.map(id => `<a href="${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/">${termHtml(lang, GBY[id])}</a>`).join(" ")}</div>`;
+// ruleTerms(item, lang, defs): the glossary terms of a rule item (deduplicated through aliases) on the static rule pages — wave 3,
+// variant C of design-mockups/rules-terms.html (Юлія, 10.11.2026). The first mention of each term in the item's own text becomes a
+// link (docs/shared/rule-terms.js: the words already written there are wrapped, the text is never changed); the terms not found in
+// the text stay as chips under the item («Ще:», or «Терміни:» when none was found). defs (Map id → [label, short definition])
+// collects what the term card of the page shows (GT_JS: a tap — or hover with a mouse — opens it before going to the glossary).
+// → { sum, pts: [..], chips } as HTML.
+try { await import("../docs/shared/rule-terms.js"); } catch (e) { console.log("docs/shared/rule-terms.js not found — rule texts without term links"); }
+// glossary links of the rule pages (in the text, the chips and the card) open in a new tab: the reader keeps the rule (Юлія, 10.11.2026)
+const NEWTAB = ' target="_blank" rel="noopener"';
+let RT_NAMES = null;
+globalThis.ruleTerms = (it, lang, defs) => {
+  const tx = k => it[`${k}_${lang}`] || it[`${k}_en`] || "", pts = it["points_" + lang] || [];
+  const plain = { sum: esc(tx("summary")), pts: pts.map(x => esc(x)), chips: "" };
+  const ids = GLOSS ? [...new Set((it.terms || []).map(t => ALIAS[t] || t).filter(id => GBY[id]))] : [];
+  if (!ids.length) return plain;
+  const RT = window.ClayRuleTerms, href = id => `${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/`, used = new Set();
+  let sum = plain.sum, lis = plain.pts;
+  if (RT) {
+    if (!RT_NAMES) RT_NAMES = RT.namer(GLOSS.terms, ((window.GLOSSARY_I18N || {}).uk || {}).terms);
+    const cands = ids.map(id => ({ id, href: href(id), names: RT_NAMES(GBY[id], lang), attrs: ` data-g="${id}"${NEWTAB}` }));
+    sum = RT.link(tx("summary"), cands, used, esc); lis = pts.map(x => RT.link(x, cands, used, esc));
+    for (const id of used) if (!defs.has(id)) defs.set(id, [termLabel(lang, GBY[id]).label, GBY[id][`short_${lang}`] || GBY[id].short_en || ""]);
+  }
+  const rest = ids.filter(id => !used.has(id)), lbl = used.size ? (lang === "uk" ? "Ще:" : "More:") : (lang === "uk" ? "Терміни:" : "Terms:");
+  const chips = rest.length ? `<div class="iterms"><span class="more">${lbl}</span>${rest.map(id => `<a href="${href(id)}"${NEWTAB}>${termHtml(lang, GBY[id])}</a>`).join(" ")}</div>` : "";
+  return { sum, pts: lis, chips };
 };
 // Descriptive subtitles of the uk term pages whose h1 is the English word alone ("Battue" → «мішень, що летить ребром і різко
 // падає»): content/glossary/subtitles/uk.json, shown under the h1 and used in <title> (glossary plan, wave 4.3, 05.11.2026).
