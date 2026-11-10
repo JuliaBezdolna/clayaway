@@ -135,3 +135,4 @@ html.gl-deco main h2::before { content: ""; position: absolute; left: 0; top: .2
 /* кнопка «на весь екран» — правий верхній кут сцени */
 .l3-stage > .l3-fsbtn { position: absolute; top: 12px; right: 12px; z-index: 6; background: rgba(11,19,36,.82); border: 1px solid rgba(255,255,255,.14); backdrop-filter: blur(4px); }
 .l3-capture .l3-stage > .l3-fsbtn { display: none; }
+.l3-h > .l3-fsbtn { margin-left: auto; padding: 5px 10px; font-size: 13px; }
