@@ -65,20 +65,37 @@ h3{font-size:16px;margin:0 0 4px}
 p{margin:0 0 10px;max-width:72ch}
 .muted{color:var(--muted)}.small{font-size:13px}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--em)}
-.ask{margin:16px 0 8px;padding:18px;border-radius:16px;background:radial-gradient(120% 140% at 0% 0%,rgba(6,78,59,.5),transparent 60%),var(--surface2);border:1px solid var(--line)}
-.askrow{display:flex;gap:8px;flex-wrap:wrap}
-.askrow input{flex:1 1 300px;background:#030712;border:1px solid rgba(52,211,153,.35);border-radius:12px;padding:12px 14px;color:var(--ink);font:inherit;font-size:16px}
+/* Top of the guide (wave 2, 10.11.2026, variant D of design-mockups/rules-home.html, put together by the owner from A and B):
+   lead → one big search field + "frequently searched" topics → three tiles (trainer, age categories, all questions) → a small
+   service line (official PDF, edition, quick guide, update check). Before: four service lines and the trainer/categories buttons
+   above the search, the field at 584 px on a 375 px phone and 8 long example questions (434 px) under it. */
+.big{display:flex;align-items:center;gap:8px;background:#030712;border:1.5px solid rgba(52,211,153,.55);border-radius:16px;padding:4px 4px 4px 14px;margin:12px 0 10px;min-height:58px}
+.big:focus-within{border-color:var(--em);box-shadow:0 0 0 3px rgba(52,211,153,.2)}
+.big .lo{font-size:18px;color:var(--muted)}
+.big input{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);font:inherit;font-size:17px;padding:10px 0;outline:none}
+.big button{border:0;border-radius:12px;background:var(--primary);color:#fff;min-width:50px;min-height:50px;font-size:19px;font-weight:700}
+.topics{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
+.topics button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:13.5px;color:var(--soft);min-height:38px}
+.topics button:hover{border-color:rgba(52,211,153,.5);color:#fff}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0 0}
+@media(max-width:760px){.tiles{grid-template-columns:1fr;gap:8px}}
+.tile{display:flex;gap:12px;align-items:flex-start;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));text-decoration:none;color:var(--ink);text-align:left;font:inherit}
+.tile:hover{border-color:rgba(52,211,153,.5)}
+.tile.main{border-color:rgba(52,211,153,.45)}
+.tile .ic{font-size:22px;line-height:1.2;flex:none}
+.tile>span:last-child{min-width:0}
+.tile b{display:block;font-size:15.5px}.tile span span{display:block;font-size:13px;color:var(--muted)}
+.meta{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;margin:14px 0 0}
+.meta a{color:var(--muted)}.meta a:hover{color:#fff}
 .btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px}
 .btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
-.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-.chips button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;font-size:13px;color:var(--soft)}
-.chips button:hover{border-color:rgba(52,211,153,.5);color:#fff}
 .answer{margin:16px 0;display:grid;gap:10px}
 .ans-main{background:var(--surface);border:1px solid rgba(52,211,153,.35);border-radius:14px;padding:16px 18px}
 .ans-main .q{font-size:13px;color:var(--muted);margin-bottom:4px}
 .ans-main .a{font-size:16.5px;line-height:1.65}
 .refs{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .refs button,.refs a{border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:999px;padding:3px 10px;font-size:12.5px;color:var(--em);text-decoration:none}
+.refs button.num{color:#6ee7b7;font-weight:600;letter-spacing:.04em}
 .also{font-size:13px;color:var(--muted)}
 .layout>*{min-width:0}
 .layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:26px;align-items:start;margin-top:22px}
@@ -113,7 +130,6 @@ p{margin:0 0 10px;max-width:72ch}
 .item.flash{animation:fl 1.4s ease-out}
 @keyframes fl{0%{box-shadow:0 0 0 0 rgba(52,211,153,.6)}100%{box-shadow:0 0 0 14px rgba(52,211,153,0)}}
 .pdf{font-size:13px}
-.source{margin-top:10px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
 .disclaimer{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:12.5px;color:var(--muted)}
 .faqlist details{border-top:1px solid var(--line);padding:9px 0}
 .faqlist summary{cursor:pointer;font-weight:600}
@@ -211,13 +227,17 @@ try{
 }catch(e){ setTimeout(start,0); }
 setTimeout(start,1000);
 const T={
- uk:{svc:"Правила FITASC",svcS:"ClayArena · довідник спортсмена",title:"Правила {d} простими словами",lead:"Читайте правила розділ за розділом або просто запитайте. Відповіді — нашим переказом офіційного регламенту FITASC, з номером розділу і посиланням на сторінку PDF.",
+ uk:{svc:"Правила FITASC",svcS:"ClayArena · довідник спортсмена",title:"Правила {d} простими словами",lead:"Запитайте своїми словами або читайте розділ за розділом. Це наш переказ офіційного регламенту FITASC, кожна відповідь — з номером пункту й сторінкою PDF.",
+   phS:"Запитайте про правила",often:"Часто шукають",topics:["No Bird","Несправність рушниці","Дуплет","Положення рушниці","Перестрілка","Запізнення","Протест"],
+   trS:"Пояснення після кожної відповіді",trAcc:"Точність",trBest:"найкращий іспит",catsT:"Категорії за віком",catsS:"Junior, Senior, Veteran, Dame",faqS:"{n} на суперечки зі стенду",pdfS:"PDF, с.",
    ph:"Запитайте: «скільки відмов машинки дозволено?», «положення рушниці», «що таке no bird?»",ask:"Відповісти",ex:"Часті питання",answer:"Відповідь",rel:"Правила за темою",open:"Відкрити в PDF FITASC, стор.",none:"Не знайшли точної відповіді. Спробуйте інші слова або перегляньте розділи нижче.",
    read:"Читати правила",faq:"Усі питання і відповіді",src:"Джерело",ed:"Редакція",checked:"Перевірка оновлень: щотижня",off:"Офіційний PDF",guide:"Пам'ятка суддям",qg:"є в пам'ятці суддів",
    disc:"Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",notReady:"Довідник для цієї дисципліни ще готується.",part:"Частина",
    page:"Правила FITASC простими словами · ClayArena",ogT:"Правила FITASC простими словами — ClayArena",ogD:"Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC.",locale:"uk_UA",
    discG:"Дисципліна",langG:"Мова",toc:"Зміст",statics:"Статичні сторінки",full:"Повний текст переказу",other:"English",otherL:"en",trainer:"Тренажер правил",cats:"Категорії FITASC (вік)",askL:"Запитайте про правила",similar:"Схожі питання",chapter:"Розділ",n_art:"п. ",n_ch:"розд. ",n_ann:"дод. ",prev:"← Попередній розділ",next:"Наступний розділ →",chs:"Розділи"},
- en:{svc:"FITASC rules",svcS:"ClayArena · shooter's guide",title:"{d} rules in plain words",lead:"Read the rules chapter by chapter or just ask. Answers are our summary of the official FITASC rulebook, with the chapter and a link to the PDF page.",
+ en:{svc:"FITASC rules",svcS:"ClayArena · shooter's guide",title:"{d} rules in plain words",lead:"Ask in your own words or read chapter by chapter. This is our summary of the official FITASC rulebook; every answer comes with the rule number and the PDF page.",
+   phS:"Ask about the rules",often:"Often searched",topics:["No Bird","Gun malfunction","Double","Gun position","Shoot-off","Late arrival","Protest"],
+   trS:"An explanation after every answer",trAcc:"Accuracy",trBest:"best exam",catsT:"Age categories",catsS:"Junior, Senior, Veteran, Dame",faqS:"{n} for disputes on the stand",pdfS:"PDF, p.",
    ph:"Ask: “how many malfunctions are allowed?”, “gun position”, “what is a no bird?”",ask:"Answer",ex:"Common questions",answer:"Answer",rel:"Rules on this topic",open:"Open in FITASC PDF, p.",none:"No exact answer found. Try other words or browse the chapters below.",
    read:"Read the rules",faq:"All questions and answers",src:"Source",ed:"Edition",checked:"Update check: weekly",off:"Official PDF",guide:"Referees' quick guide",qg:"in the referees' quick guide",
    disc:"This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",notReady:"The guide for this discipline is still being prepared.",part:"Part",
@@ -309,6 +329,8 @@ function ruleNum(ref){ const r=ref||"", rng=[];
   const m=r.match(/^(Chapter|Annex|Appendix) (\d+)/); return m?{k:m[1]==="Chapter"?"ch":"ann",v:m[2]}:null; }
 function itemHTML(book,it,open){ const n=ruleNum(it.ref), top=(n?`<span class="inum" title="FITASC: ${esc(it.ref)}">${t("n_"+n.k)}${n.v}</span>`:"")+(it.quick_guide?`<span class="iqg">${t("qg")}</span>`:"");
   return `<details class="item" id="it-${it.id}" ${open?"open":""}><summary><span class="ih">${top?`<span class="itop">${top}</span>`:""}<b>${esc(tx(it,"title"))}</b></span></summary><div class="body"><p>${esc(tx(it,"summary"))}</p>${(it["points_"+L()]||[]).length?`<ul>${it["points_"+L()].map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}${pdfLink(book,it.page)}</div></details>`; }
+/* a reference to a rule item (answer, FAQ): the number badge as on the item cards («п. 9.6 · 9.7»), the FITASC reference in the tooltip */
+function refBtn(it){ const n=ruleNum(it.ref); return `<button data-jump="${it.id}"${n?` class="num" title="FITASC: ${esc(it.ref)}"`:""}>${n?esc(t("n_"+n.k)+n.v):esc(it.ref||tx(it,"title"))}</button>`; }
 function secNav(book,id){ const o=[...book.sections.map(s=>({id:s.id,t:(s.chapter?esc(s.chapter)+". ":"")+esc(tx(s,"title"))})),{id:"faq",t:t("faq")}], i=o.findIndex(x=>x.id===id), pv=o[i-1], nx=o[i+1];
   return `<nav class="secnav" aria-label="${t("chs")}">${pv?`<button type="button" data-sec="${pv.id}"><small>${t("prev")}</small>${pv.t}</button>`:""}${nx?`<button type="button" class="nx" data-sec="${nx.id}"><small>${t("next")}</small>${nx.t}</button>`:""}</nav>`; }
 /* Show the FAQ answer when it is at least 40% as relevant as the best rule item, or when its question
@@ -319,11 +341,17 @@ function answerHTML(book){
   if(!r.faq.length&&!r.items.length) return `<div class="answer"><div class="empty">${t("none")}</div></div>`;
   const I=idx(book); let h=`<div class="answer">`;
   const top=r.faq[0], topItem=r.items[0];
-  if(top && (!topItem || top.sc>=topItem.sc*0.4||top.cov>=0.6)){ const f=top.d.f; h+=`<div class="ans-main"><div class="q">${t("answer")} · ${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?`<button data-jump="${id}">${esc(I.byId[id].ref||tx(I.byId[id],"title"))}</button>`:"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">PDF ${it.page} ↗</a>`).join("")}</div></div>`;
+  if(top && (!topItem || top.sc>=topItem.sc*0.4||top.cov>=0.6)){ const f=top.d.f; h+=`<div class="ans-main"><div class="q">${t("answer")} · ${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?refBtn(I.byId[id]):"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdfS")} ${it.page} ↗</a>`).join("")}</div></div>`;
     if(r.faq.length>1) h+=`<div class="also">${t("similar")}: ${r.faq.slice(1).map(x=>`<button class="btn" style="padding:2px 9px;font-size:12.5px" data-q="${esc(tx(x.d.f,"q"))}">${esc(tx(x.d.f,"q"))}</button>`).join(" ")}</div>`; }
   if(r.items.length){ h+=`<h3 style="margin-top:6px">${t("rel")}</h3>`+r.items.slice(0,4).map((x,i)=>itemHTML(book,x.d.it,i===0&&!(top&&(!topItem||top.sc>=topItem.sc*0.4||top.cov>=0.6)))).join(""); }
   return h+`</div>`;
 }
+/* The trainer tile: this browser's trainer result when there is one (the trainer writes localStorage "clayarena-trainer",
+   stats[discipline] = {ans, ok, best}; read only), else what the trainer offers. */
+function trainerLine(){ try{ const p=JSON.parse(localStorage.getItem("clayarena-trainer")||"{}"), s=(p.stats||{})[S.disc];
+  if(s&&s.ans) return `${t("trAcc")} ${Math.round(s.ok/s.ans*100)}%${s.best?` · ${t("trBest")} ${s.best}%`:""}`; }catch(e){} return t("trS"); }
+/* "70 відповідей" / "70 answers" */
+function nAns(n){ if(L()!=="uk") return `${n} answer${n===1?"":"s"}`; const a=n%10,b=n%100; return `${n} ${a===1&&b!==11?"відповідь":a>=2&&a<=4&&(b<10||b>=20)?"відповіді":"відповідей"}`; }
 /* Tab title and share tags follow the language shown (the static tags in <head> are the Ukrainian ones of scripts/make_og.py). */
 function setMeta(sel,v){ const m=document.querySelector(sel); if(m) m.setAttribute("content",v); }
 function headLang(){
@@ -356,16 +384,19 @@ function render(){
   }
   app.removeAttribute("aria-busy"); app.classList.add("ready");
   if(!book){ app.innerHTML=`<h1>${t("title").replace("{d}",dname)}</h1><div class="empty">${t("notReady")}</div>`; return; }
-  const ex=(book.faq||[]).slice(0,8);
   let parts=[]; book.sections.forEach(s=>{ if(!parts.includes(s.part)) parts.push(s.part); });
+  const nf=(book.faq||[]).length;
   app.innerHTML=`${hero}
-   <div class="source"><span>${t("src")}: <a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} ↗</a></span><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<span><a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a></span>`:""}<span>${t("checked")}</span><a class="btn primary" style="padding:6px 14px;font-size:14px;text-decoration:none" href="trainer/?lang=${esc(VL())}#${S.disc}">🎯 ${t("trainer")} →</a><a class="btn" style="padding:4px 12px;font-size:13px;text-decoration:none" href="${L()==="uk"?"categories/":"en/categories/"}">${t("cats")}</a></div>
-   <form class="ask" id="askf"><label for="q" class="eyebrow" style="display:block;margin-bottom:8px">${t("askL")}</label><div class="askrow"><input id="q" type="search" autocomplete="off" placeholder="${esc(t("ph"))}" value="${esc(S.q)}"><button class="btn primary" type="submit">${t("ask")}</button></div>
-     <div class="chips">${ex.map(f=>`<button type="button" data-q="${esc(tx(f,"q"))}">${esc(tx(f,"q"))}</button>`).join("")}</div></form>
+   <form id="askf" role="search"><div class="big"><span class="lo" aria-hidden="true">🔍</span><input id="q" type="search" autocomplete="off" placeholder="${esc(t("phS"))}" title="${esc(t("ph"))}" aria-label="${esc(t("askL"))}" value="${esc(S.q)}"><button type="submit" aria-label="${esc(t("ask"))}" title="${esc(t("ask"))}">→</button></div></form>
+   <div class="topics"><span>${t("often")}:</span>${t("topics").map(x=>`<button type="button" data-q="${esc(x)}">${esc(x)}</button>`).join("")}</div>
    <div id="ans">${answerHTML(book)}</div>
+   <div class="tiles"><a class="tile main" href="trainer/?lang=${esc(VL())}#${S.disc}"><span class="ic" aria-hidden="true">🎯</span><span><b>${t("trainer")}</b><span>${esc(trainerLine())}</span></span></a>
+    <a class="tile" href="${L()==="uk"?"categories/":"en/categories/"}"><span class="ic" aria-hidden="true">👥</span><span><b>${t("catsT")}</b><span>${t("catsS")}</span></span></a>
+    <button type="button" class="tile" data-sec="faq"><span class="ic" aria-hidden="true">💬</span><span><b>${t("faq")}</b><span>${t("faqS").replace("{n}",nAns(nf))}</span></span></button></div>
+   <div class="meta"><a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} FITASC ↗</a><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a>`:""}<span>${t("checked")}</span></div>
    <div class="layout"><nav class="toc" aria-label="${t("toc")}">${parts.map(p=>`<div class="part">${t("part")} ${esc(p)}</div>`+book.sections.filter(s=>s.part===p).map(s=>`<button data-sec="${s.id}">${s.chapter?esc(s.chapter)+". ":""}${esc(tx(s,"title"))}</button>`).join("")).join("")}<div class="part">FAQ</div><button data-sec="faq">${t("faq")}</button></nav>
    <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}${secNav(book,s.id)}</section>`).join("")}
-   <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?`<button data-jump="${id}">${esc(idx(book).byId[id].ref||id)}</button>`:"").join("")}</div></details>`).join("")}</section>
+   <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?refBtn(idx(book).byId[id]):"").join("")}</div></details>`).join("")}</section>
    <div class="disclaimer">${t("disc")}</div></div></div>`;
   whereBuild(book,parts,dname);
   if(ITEM){ const i=ITEM; ITEM=null; setTimeout(()=>jump("it-"+i),150); }
