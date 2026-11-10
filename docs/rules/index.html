@@ -136,6 +136,9 @@ p{margin:0 0 10px;max-width:72ch}
 .item.flash{animation:fl 1.4s ease-out}
 @keyframes fl{0%{box-shadow:0 0 0 0 rgba(52,211,153,.6)}100%{box-shadow:0 0 0 14px rgba(52,211,153,0)}}
 .pdf{font-size:13px}
+/* the words of the answer that matched the question (markAns()): amber as the «є в пам'ятці суддів» badge, not green (green = links) */
+mark.hl{background:rgba(245,158,11,.22);color:#fff;border-radius:3px;padding:0 1px;box-shadow:inset 0 -1px 0 rgba(252,211,77,.55)}
+@media print{mark.hl{background:none;color:inherit;box-shadow:none;font-weight:700}}
 /* glossary terms of a rule item (wave 3, as on the chapter pages, scripts/build_seo.mjs GT_CSS): links in the text, the rest as chips
    («Ще:»), a card with the short definition (termCard() below) */
 .iterms{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 12px}.iterms .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
@@ -503,10 +506,38 @@ function render(){
    <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}${secNav(book,s.id)}</section>`).join("")}
    <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?refBtn(idx(book).byId[id]):"").join("")}</div></details>`).join("")}</section>
    <div class="disclaimer">${t("disc")}</div></div></div>`;
+  markAns();
   whereBuild(book,parts,dname);
   if(ITEM){ const i=ITEM; ITEM=null; setTimeout(()=>jump("it-"+i),150); }
 }
-function ask(q){ if(!String(q||"").trim()){ clearAsk(); return; } S.q=q; S.res=search(BOOK(S.disc),q); document.getElementById("ans").innerHTML=answerHTML(BOOK(S.disc)); document.getElementById("q").value=q; clrShow(); document.getElementById("ans").scrollIntoView({behavior:"smooth",block:"nearest"}); }
+/* Highlight of the match (wave 4, 10.11.2026): in the answer, the words that matched the question are marked, by the same rule the
+   search scores them (toks() + wmatch(): «відмови» ~ «відмова», «malfunctions» ~ «malfunction»), the synonyms of SYN/SYNP included
+   (a Ukrainian question in the English guide marks «malfunction», «gun»). Only the text: the rule number buttons, the «similar
+   questions» buttons, the chips and the PDF links stay as they are. The words of the page are not changed, only wrapped.
+   - a word found in more than 40% of the book's items and answers («мішень», «target») is not marked when the visitor's own words
+     have a rarer one: marked everywhere it hides the words that matter («вітер розбив мішень»: 31 marks → «розбив» only);
+   - a hyphenated word («shoot-off», also of SYN) is marked whole, never its parts alone («off»);
+   - stricter than the search: the same stem, or one word the start of the other, or 5+ common first letters (the search's 4-letter
+     match «положення» ~ «поломки» helps the score but would mark the wrong word). */
+const NOMARK="button,.iterms,.pdf,.refs,.also,mark";
+const near=(w,x)=>{ if(w===x) return true; const m=Math.min(w.length,x.length), c=cpl(w,x); return m>=4&&(c===m||(c>=5&&c>=m-2)); };
+function markAns(){
+  const root=document.getElementById("ans"), book=BOOK(S.disc); let qt=S.res&&S.res.qt; if(!root||!book||!qt||!qt.length) return;
+  const ex=expand(S.q), comp=[...new Set(`${S.q} ${ex.syn} ${ex.phr}`.toLowerCase().match(/[\p{L}\p{N}]+(?:-[\p{L}\p{N}]+)+/gu)||[])];
+  const part=new Set(comp.flatMap(c=>toks(c.replace(/-/g," ")))), alone=new Set(toks(`${S.q} ${ex.syn} ${ex.phr}`.replace(/[\p{L}\p{N}]+(?:-[\p{L}\p{N}]+)+/gu," ")));
+  qt=qt.filter(w=>!part.has(w)||alone.has(w));
+  const I=idx(book), rare=w=>(I.df[w]||0)/I.N<=0.4;
+  if(toks(S.q).some(w=>qt.includes(w)&&rare(w))) qt=qt.filter(rare);
+  const hit=w=>{ const k=toks(w); return k.length===1&&qt.some(q=>near(q,k[0])); };
+  const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest(NOMARK)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+  const nodes=[]; while(tw.nextNode()) nodes.push(tw.currentNode);
+  const word=comp.length?new RegExp(`(?:${comp.map(c=>c.split("-").map(p=>p.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("[-\\s]")).join("|")})|[\\p{L}\\p{N}'’]+`,"giu"):/[\p{L}\p{N}'’]+/gu;
+  for(const n of nodes){ const s=n.nodeValue, re=new RegExp(word.source,word.flags); let m, at=0, f=null;
+    while((m=re.exec(s))){ if(!(/[-\s]/.test(m[0])||hit(m[0]))) continue; f=f||document.createDocumentFragment();
+      if(m.index>at) f.append(s.slice(at,m.index)); const k=document.createElement("mark"); k.className="hl"; k.textContent=m[0]; f.append(k); at=m.index+m[0].length; }
+    if(f){ if(at<s.length) f.append(s.slice(at)); n.replaceWith(f); } }
+}
+function ask(q){ if(!String(q||"").trim()){ clearAsk(); return; } S.q=q; S.res=search(BOOK(S.disc),q); document.getElementById("ans").innerHTML=answerHTML(BOOK(S.disc)); markAns(); document.getElementById("q").value=q; clrShow(); document.getElementById("ans").scrollIntoView({behavior:"smooth",block:"nearest"}); }
 function jump(id){ const el=document.getElementById(id); if(!el) return; if(el.tagName==="DETAILS") el.open=true; window.scrollTo({top:el.getBoundingClientRect().top+scrollY-80,behavior:"smooth"}); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b) return; const d=b.dataset;
