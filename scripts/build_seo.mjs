@@ -27,6 +27,7 @@ import vm from "node:vm";
 import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
 import { buildAcademy, minifySims } from "./build_academy.mjs";
 import { checkRulesData } from "./check_rules_data.mjs";
+import { ruleIndex, rulePath } from "./rules_paths.mjs";
 
 // ⚠⚠ FITASC_INDEX — the FITASC rules retelling (guide, rule pages UA/EN, categories, trainer) stays `noindex` and out of the sitemap
 // and llms.txt until FITASC gives WRITTEN permission (CLAUDE.md, rules-spec "Легальність контенту"). Only the project owner sets it
@@ -85,6 +86,9 @@ const simReserve = id => { const s = TERM_SIMS[id], hb = s && simBox(s); if (!hb
   return ` style="min-height:calc(${a.toFixed(4)} * min(100vw - 32px, 868px) + ${Math.round(b)}px)"`; };
 await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
+// One static page per chapter (wave 3, scripts/rules_paths.mjs): ruleHref(lang, book, item or chapter id, "?lang=pl") → full URL.
+const RIDX = ruleIndex(window.RULES);
+const ruleHref = (lang, book, id, q = "") => BASE + rulePath(RIDX, lang, book, id, q);
 // Rules guide and trainer data (scripts/check_rules_data.mjs: unique ids, refs, pages, no FITASC text copied word for word, no other
 // discipline): its errors stop the build here, before anything is written.
 { const r = await checkRulesData({ quiet: ARGS.includes("--quiet") });
@@ -124,7 +128,14 @@ const TXT = {
     ask: "Запитати про правила", trainer: "Перевірити себе в тренажері", other: "Інша мова", faq: "Часті питання", toc: "Зміст", part: "Частина", ch: "Розділ",
     src: "Джерело", ed: "Редакція", off: "Офіційний PDF FITASC", pdf: "PDF, с.", qg: "є в пам'ятці суддів", prev: "← Попередній розділ", next: "Наступний розділ →", nav: "Розділи",
     disc: "Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",
-    crumbs: ["ClayArena", "Правила FITASC"], updated: "Оновлено"
+    crumbs: ["ClayArena", "Правила FITASC"], updated: "Оновлено",
+    // chapter pages (wave 3)
+    chTitle: [(t, d) => `${t}: правила ${d} FITASC простими словами`, (t, d) => `${t} — правила ${d} FITASC`, t => `${t} — правила FITASC`],
+    chKicker: (d, n) => `Правила ${d} · Розділ ${n}`,
+    chLead: (d, n) => `Розділ ${n} регламенту FITASC ${d} нашими словами: кожен пункт із номером і посиланням на сторінку офіційного PDF.`,
+    chDesc: (d, n, t, list, k) => `Розділ ${n} правил ${d} FITASC «${t}» простими словами: ${list} ${k} з посиланням на сторінку офіційного PDF.`,
+    nItems: n => `${n} ${{ one: "пункт", few: "пункти", many: "пунктів" }[new Intl.PluralRules("uk").select(n)] || "пунктів"}`,
+    chFaq: "Часті питання з цього розділу", allCh: "Усі розділи", contents: "Зміст", read: "Читати розділ"
   },
   en: {
     title: d => `FITASC ${d} rules in plain English — ClayArena`,
@@ -134,7 +145,13 @@ const TXT = {
     ask: "Ask about the rules", trainer: "Test yourself in the trainer", other: "Other language", faq: "Common questions", toc: "Contents", part: "Part", ch: "Chapter",
     src: "Source", ed: "Edition", off: "Official FITASC PDF", pdf: "PDF, p.", qg: "in the referees' quick guide", prev: "← Previous chapter", next: "Next chapter →", nav: "Chapters",
     disc: "This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",
-    crumbs: ["ClayArena", "FITASC rules"], updated: "Updated"
+    crumbs: ["ClayArena", "FITASC rules"], updated: "Updated",
+    chTitle: [(t, d) => `${t}: FITASC ${d} rules in plain English`, (t, d) => `${t} — FITASC ${d} rules`, t => `${t} — FITASC rules`],
+    chKicker: (d, n) => `${d} rules · Chapter ${n}`,
+    chLead: (d, n) => `Chapter ${n} of the FITASC ${d} rulebook in our own words: every rule point with its reference and a link to the official PDF page.`,
+    chDesc: (d, n, t, list, k) => `FITASC ${d} rules, chapter ${n} “${t}” in plain English: ${list} ${k}, each linked to the official PDF page.`,
+    nItems: n => `${n} rule point${n === 1 ? "" : "s"}`,
+    chFaq: "Common questions on this chapter", allCh: "All chapters", contents: "Contents", read: "Read the chapter"
   }
 };
 const urlOf = (lang, key) => BASE + (lang === "uk" ? `rules/${key}/` : `rules/en/${key}/`);
@@ -196,20 +213,27 @@ article.item{border:1px solid var(--line);border-radius:12px;background:linear-g
 .inum{display:inline-flex;align-items:center;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;white-space:nowrap}
 .iqg{display:inline-flex;align-items:center;padding:2px 9px;border-radius:999px;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);color:#FCD34D;font-size:11.5px;font-weight:600;white-space:nowrap}
 .ipdf{font-size:13px;white-space:nowrap}
-article.item h3{margin:10px 0 4px;font-size:18px;line-height:1.35}article.item p{margin:6px 0 0}article.item ul{margin:10px 0 0;padding-left:20px}
+article.item h3,article.item h2{margin:10px 0 4px;font-size:18px;line-height:1.35}article.item p{margin:6px 0 0}article.item ul{margin:10px 0 0;padding-left:20px}
 .iterms{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0}.iterms .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .iterms a{display:inline-block;line-height:24px;min-height:32px;padding:3px 11px;border:1px solid var(--line);border-radius:999px;color:var(--soft);text-decoration:none;font-size:13px}.iterms a:hover{border-color:var(--em);color:#fff}
 .secnav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0 8px}
 .secnav a{display:grid;gap:2px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink);background:var(--surface);min-height:56px}
 .secnav a small{font-size:11.5px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}.secnav a.nx{text-align:right;grid-column:2}.secnav a:hover{border-color:var(--em)}
 @media(max-width:520px){.secnav{grid-template-columns:1fr}.secnav a.nx{grid-column:1}}
-@media (prefers-reduced-motion:reduce){#where{transition:none}}`;
+@media (prefers-reduced-motion:reduce){#where{transition:none}}
+.toc a[aria-current]{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}.toc .all{margin-top:10px;font-weight:600}
+.chap{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:12px 16px 14px;margin:10px 0;scroll-margin-top:60px}
+.chap h3{margin:0;font-size:18px;line-height:1.35}.chap h3 a{color:#fff;text-decoration:none}.chap h3 a:hover{text-decoration:underline}.chap h3 small{display:block;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;margin-bottom:2px}
+.chap ul{margin:8px 0 0;padding-left:20px;columns:2 260px;column-gap:28px}.chap li{font-size:14.5px;break-inside:avoid;scroll-margin-top:60px}.chap li a{color:var(--soft);text-decoration:none}.chap li a:hover{color:#fff;text-decoration:underline}
+.chap li:target a{color:#fff;background:rgba(52,211,153,.15);border-radius:4px}.chap .go{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;text-decoration:none}
+.parth{margin:30px 0 4px;font-size:12.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.kick{font-size:13px;color:var(--em);font-weight:600;letter-spacing:.03em}`;
 const RULES_JS = `(function(){var w=document.getElementById("where"),L=document.getElementById("whereList"),sh=document.getElementById("whereShade"),toc=document.querySelector(".wrap>.toc"),h1=document.querySelector("main h1");
 if(!w||!L||!toc||!h1)return;L.innerHTML=toc.innerHTML;var secs=[].slice.call(document.querySelectorAll("main>section[id]")),links=[].slice.call(L.querySelectorAll("a")),cur=null;if(!secs.length)return;
 function open(on){w.setAttribute("aria-expanded",on?"true":"false");L.classList.toggle("open",on);sh.classList.toggle("open",on);if(on){var a=L.querySelector("a.on");if(a)a.scrollIntoView({block:"center"});}}
 function tick(){var c=secs[0];secs.forEach(function(s){if(s.getBoundingClientRect().top<90)c=s;});var show=h1.getBoundingClientRect().bottom<0&&secs[0].getBoundingClientRect().top<innerHeight;
 if(w.classList.contains("show")!==show){w.classList.toggle("show",show);if(!show)open(false);}if(c===cur)return;cur=c;
-links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+c.id);});var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
+links.forEach(function(a){a.classList.toggle("on",a.getAttribute("data-id")===c.id);});var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
 var r=0;addEventListener("scroll",function(){if(!r)r=requestAnimationFrame(function(){r=0;tick();});},{passive:true});
 w.addEventListener("click",function(){open(w.getAttribute("aria-expanded")!=="true");});sh.addEventListener("click",function(){open(false);});
 L.addEventListener("click",function(e){if(e.target.closest("a"))open(false);});
@@ -229,27 +253,21 @@ const ruleNum = ref => {
   return m ? { k: m[1] === "Chapter" ? "ch" : "ann", v: m[2] } : null;
 };
 const NUM_LBL = { uk: { art: "п. ", ch: "розд. ", ann: "дод. " }, en: { art: "", ch: "Ch. ", ann: "Annex " } };
-function page(key, lang) {
-  const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk";
-  const items = b.sections.flatMap(s => s.items);
-  const url = urlOf(lang, key), title = T.title(d), desc = T.desc(d, items.length, b.faq.length);
-  const tx = (x, k) => x[`${k}_${lang}`] || x[`${k}_en`] || "";
-  const ld = [
-    { "@context": "https://schema.org", "@type": "WebPage", name: title, description: desc, url, inLanguage: lang, dateModified: TODAY,
-      isPartOf: { "@type": "WebSite", name: "ClayArena", url: BASE },
-      isBasedOn: { "@type": "CreativeWork", name: b.source.doc_title, author: { "@type": "Organization", name: "FITASC" }, url: b.source.url } },
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-      { "@type": "ListItem", position: 1, name: T.crumbs[0], item: BASE },
-      { "@type": "ListItem", position: 2, name: T.crumbs[1], item: BASE + "rules/" },
-      { "@type": "ListItem", position: 3, name: d, item: url }] },
-    { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: b.faq.map(f => ({ "@type": "Question", name: tx(f, "q"), acceptedAnswer: { "@type": "Answer", text: tx(f, "a") } })) }
-  ];
-  const parts = [...new Set(b.sections.map(s => s.part))];
-  // previous / next chapter at the end of every chapter, in the order of the contents (the last chapter leads to the FAQ)
-  const order = [...b.sections.map(s => ({ id: s.id, t: `${s.chapter ? s.chapter + ". " : ""}${esc(tx(s, "title"))}` })), { id: "faq", t: T.faq }];
-  const secNav = id => { const i = order.findIndex(x => x.id === id), pv = order[i - 1], nx = order[i + 1];
-    return `<nav class="secnav" aria-label="${T.nav}">${pv ? `<a href="#${pv.id}"><small>${T.prev}</small>${pv.t}</a>` : ""}${nx ? `<a class="nx" href="#${nx.id}"><small>${T.next}</small>${nx.t}</a>` : ""}</nav>`; };
-  const html = `<!doctype html>
+// Static rules pages, one per chapter (wave 3, 10.11.2026; Ivan: "physical pages with their own meta"). Addresses: scripts/rules_paths.mjs.
+//   rules/<key>/          the book: title, contents (every chapter as a card with its rule items, each a link into the chapter page)
+//                         and all common questions (FAQPage). Old links rules/<key>/#<item id> still work: a tiny script in <head>
+//                         sends them to the chapter page before the first paint; without JS the item's line in the contents has that
+//                         id (highlighted with :target) and links on. rules/<key>/#chN lands on the chapter card.
+//   rules/<key>/<slug>/   one chapter: its own title, description, h1, breadcrumbs (Правила FITASC › Sporting™ › Розділ 6), the rule
+//                         items as cards, the common questions that refer to its items, previous / next chapter.
+// Links between these pages are relative (they work on the preview, locally and on clayarena.com alike); canonical, hreflang, og:url
+// and JSON-LD are absolute. Indexing: the FITASC_INDEX switch below covers every file under docs/rules/ (noindex until permission).
+const itemHTML = (b, it, lang, hx) => { const T = TXT[lang], n = ruleNum(it.ref), tx = k => it[`${k}_${lang}`] || it[`${k}_en`] || "";
+  return `<article class="item" id="${it.id}"><div class="itop">${n ? `<span class="inum" title="FITASC: ${esc(it.ref)}">${NUM_LBL[lang][n.k]}${n.v}</span>` : ""}${it.quick_guide ? `<span class="iqg">${T.qg}</span>` : ""}<span class="sp"></span><a class="ipdf" href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page} ↗</a></div><${hx}>${esc(tx("title"))}</${hx}>
+<p>${esc(tx("summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${globalThis.termLinks ? globalThis.termLinks(it, lang) : ""}</article>`; };
+const faqHTML = (f, lang) => { const tx = k => f[`${k}_${lang}`] || f[`${k}_en`] || ""; return `<details><summary>${esc(tx("q"))}</summary><p>${esc(tx("a"))}</p></details>`; };
+const faqRefs = f => (f.refs || []).map(r => typeof r === "string" ? r : r && r.id).filter(Boolean);
+const headHTML = ({ lang, title, desc, url, alt, ld, extra = "" }) => `<!doctype html>
 <html lang="${lang}">
 <head>
 <meta charset="utf-8">
@@ -258,9 +276,9 @@ function page(key, lang) {
 <meta name="description" content="${esc(desc)}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="${url}">
-<link rel="alternate" hreflang="uk" href="${urlOf("uk", key)}">
-<link rel="alternate" hreflang="en" href="${urlOf("en", key)}">
-<link rel="alternate" hreflang="x-default" href="${urlOf("en", key)}">
+<link rel="alternate" hreflang="uk" href="${alt.uk}">
+<link rel="alternate" hreflang="en" href="${alt.en}">
+<link rel="alternate" hreflang="x-default" href="${alt.en}">
 <meta property="og:type" content="article"><meta property="og:site_name" content="ClayArena">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}og/rules.png">
@@ -272,34 +290,111 @@ function page(key, lang) {
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
 <style>${CSS}
 ${RULES_CSS}</style>
-<script>document.documentElement.classList.add("js")</script>
-</head>
+<script>document.documentElement.classList.add("js")${extra}</script>
+</head>`;
+const whereHTML = (key, T) => `<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d">${key === "sporting" ? "Sporting™" : "Compak®"}</span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
+<div class="where-shade" id="whereShade"></div><nav id="whereList" aria-label="${T.toc}"></nav>`;
+const chapUrl = (lang, key, s) => BASE + rulePath(RIDX, lang, key, s.id);
+const chapName = (s, lang) => `${s.chapter ? s.chapter + ". " : ""}${esc(s[`title_${lang}`] || s.title_en)}`;
+const writePage = (path, html) => { mkdirSync(`${DOCS}/${path}`, { recursive: true }); writeFileSync(`${DOCS}/${path}/index.html`, html); };
+
+function page(key, lang) {
+  const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk";
+  const items = b.sections.flatMap(s => s.items);
+  const url = urlOf(lang, key), title = T.title(d), desc = T.desc(d, items.length, b.faq.length);
+  const tx = (x, k) => x[`${k}_${lang}`] || x[`${k}_en`] || "";
+  const slugOf = s => RIDX.get(`${key}:${s.id}`).slug;
+  const ld = [
+    { "@context": "https://schema.org", "@type": "WebPage", name: title, description: desc, url, inLanguage: lang, dateModified: TODAY,
+      isPartOf: { "@type": "WebSite", name: "ClayArena", url: BASE },
+      hasPart: b.sections.map(s => ({ "@type": "WebPage", name: tx(s, "title"), url: chapUrl(lang, key, s) })),
+      isBasedOn: { "@type": "CreativeWork", name: b.source.doc_title, author: { "@type": "Organization", name: "FITASC" }, url: b.source.url } },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: T.crumbs[0], item: BASE },
+      { "@type": "ListItem", position: 2, name: T.crumbs[1], item: BASE + "rules/" },
+      { "@type": "ListItem", position: 3, name: d, item: url }] },
+    { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: b.faq.map(f => ({ "@type": "Question", name: tx(f, "q"), acceptedAnswer: { "@type": "Answer", text: tx(f, "a") } })) }
+  ];
+  const parts = [...new Set(b.sections.map(s => s.part))];
+  // old anchors (#<item id>, ids start with their chapter id) → the chapter page, keeping ?lang; runs before the first paint
+  const map = Object.fromEntries(b.sections.map(s => [s.id, slugOf(s)]));
+  const redirect = `;(function(){var M=${JSON.stringify(map)},h=decodeURIComponent(location.hash.slice(1)),m=/^(ch\\d+)-/.exec(h);if(m&&M[m[1]])location.replace(location.pathname.replace(/index\\.html$/,"")+M[m[1]]+"/"+location.search+location.hash);})()`;
+  const html = `${headHTML({ lang, title, desc, url, alt: { uk: urlOf("uk", key), en: urlOf("en", key) }, ld, extra: redirect })}
 <body>
 <header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d }])}
 <span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: urlOf(o, key) }])}</div></header>
-<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d">${key === "sporting" ? "Sporting™" : "Compak®"}</span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
-<div class="where-shade" id="whereShade"></div><nav id="whereList" aria-label="${T.toc}"></nav>
+${whereHTML(key, T)}
 <div class="wrap">
-<nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(s => s.part === p).map(s => `<a href="#${s.id}">${s.chapter ? s.chapter + ". " : ""}${esc(tx(s, "title"))}</a>`).join("")).join("")}<div class="p">FAQ</div><a href="#faq">${T.faq}</a></nav>
+<nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(s => s.part === p).map(s => `<a href="#${s.id}" data-id="${s.id}">${chapName(s, lang)}</a>`).join("")).join("")}<div class="p">FAQ</div><a href="#faq" data-id="faq">${T.faq}</a></nav>
 <main>
 <div class="src">FITASC · ${esc(d)}</div>
 <h1>${esc(T.h1(d))}</h1>
 <p>${T.lead}</p>
 <p class="src">${T.src}: <a href="${esc(b.source.url)}" ${NF}>${T.off} ↗</a> · ${T.ed}: ${esc(b.source.edition)} · ${T.updated}: ${TODAY}</p>
 <div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">🎯 ${T.trainer}</a></div>
-${b.sections.map(s => `<section id="${s.id}"><h2><small>${T.part} ${esc(s.part)}${s.chapter ? " · " + T.ch + " " + s.chapter : ""}</small>${esc(tx(s, "title"))}</h2>
-${s.items.map(it => { const n = ruleNum(it.ref); return `<article class="item" id="${it.id}"><div class="itop">${n ? `<span class="inum" title="FITASC: ${esc(it.ref)}">${NUM_LBL[lang][n.k]}${n.v}</span>` : ""}${it.quick_guide ? `<span class="iqg">${T.qg}</span>` : ""}<span class="sp"></span><a class="ipdf" href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page} ↗</a></div><h3>${esc(tx(it, "title"))}</h3>
-<p>${esc(tx(it, "summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${globalThis.termLinks ? globalThis.termLinks(it, lang) : ""}</article>`; }).join("\n")}
-${secNav(s.id)}</section>`).join("\n")}
-<section id="faq" class="faq"><h2>${T.faq}</h2>${b.faq.map(f => `<details><summary>${esc(tx(f, "q"))}</summary><p>${esc(tx(f, "a"))}</p></details>`).join("\n")}</section>
+<h2>${T.contents}</h2>
+${parts.map(p => `<p class="parth">${T.part} ${esc(p)}</p>\n` + b.sections.filter(s => s.part === p).map(s => { const sl = slugOf(s);
+  return `<section class="chap" id="${s.id}"><h3><small>${s.chapter ? T.ch + " " + s.chapter + " · " : ""}${T.nItems(s.items.length)}</small><a href="${sl}/">${esc(tx(s, "title"))}</a></h3>
+<ul>${s.items.map(it => `<li id="${it.id}"><a href="${sl}/#${it.id}">${esc(tx(it, "title"))}</a></li>`).join("")}</ul></section>`; }).join("\n")).join("\n")}
+<section id="faq" class="faq"><h2>${T.faq}</h2>${b.faq.map(f => faqHTML(f, lang)).join("\n")}</section>
 <div class="disc">${T.disc}</div>${legal(lang)}
 </main></div>
 <script>${RULES_JS}</script>
 </body>
 </html>`;
-  const dir = lang === "uk" ? `${DOCS}/rules/${key}` : `${DOCS}/rules/en/${key}`;
-  mkdirSync(dir, { recursive: true });
-  writeFileSync(`${dir}/index.html`, html);
+  writePage(lang === "uk" ? `rules/${key}` : `rules/en/${key}`, html);
+  return [url, ...b.sections.map((s, i) => chapterPage(key, lang, i))];
+}
+
+function chapterPage(key, lang, i) {
+  const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk", s = b.sections[i];
+  const tx = (x, k) => x[`${k}_${lang}`] || x[`${k}_en`] || "";
+  const slugOf = x => RIDX.get(`${key}:${x.id}`).slug, sl = slugOf(s);
+  const url = chapUrl(lang, key, s), book = urlOf(lang, key), name = tx(s, "title"), n = s.chapter;
+  const title = T.chTitle.reduce((acc, f) => acc || (f(name, d).length <= 65 ? f(name, d) : ""), "") || T.chTitle[2](name, d);
+  // the first rule items as the snippet; titles with a declined mark ("Compaks") are left out of the meta (the item text stays as it is)
+  const heads = s.items.map(it => tx(it, "title")).filter(h => !/(?<![\p{L}\p{M}\p{N}])(Compak|Sporting)(?![®™])[\p{L}\p{M}]/u.test(h));
+  const list = heads.slice(0, 3).join("; ") + (heads.length > 3 ? "…" : ".");
+  const desc = tmMeta(T.chDesc(d, n, name, list, T.nItems(s.items.length)), `rules/${key}/${sl}/`).slice(0, 300);
+  const ids = new Set(s.items.map(it => it.id)), faq = b.faq.filter(f => faqRefs(f).some(r => ids.has(r)));
+  const chLbl = `${T.ch} ${n}`;
+  const ld = [
+    { "@context": "https://schema.org", "@type": "WebPage", name: title, headline: name, description: desc, url, inLanguage: lang, dateModified: TODAY,
+      isPartOf: { "@type": "WebPage", name: T.title(d), url: book },
+      isBasedOn: { "@type": "CreativeWork", name: b.source.doc_title, author: { "@type": "Organization", name: "FITASC" }, url: b.source.url } },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: T.crumbs[0], item: BASE },
+      { "@type": "ListItem", position: 2, name: T.crumbs[1], item: BASE + "rules/" },
+      { "@type": "ListItem", position: 3, name: d, item: book },
+      { "@type": "ListItem", position: 4, name: `${chLbl}. ${name}`, item: url }] }
+  ];
+  const parts = [...new Set(b.sections.map(x => x.part))];
+  const pv = b.sections[i - 1], nx = b.sections[i + 1];
+  const secnav = `<nav class="secnav" aria-label="${T.nav}">${pv ? `<a href="../${slugOf(pv)}/"><small>${T.prev}</small>${chapName(pv, lang)}</a>` : `<a href="../"><small>←</small>${T.allCh}</a>`}${nx ? `<a class="nx" href="../${slugOf(nx)}/"><small>${T.next}</small>${chapName(nx, lang)}</a>` : `<a class="nx" href="../#faq"><small>→</small>${T.faq}</a>`}</nav>`;
+  const html = `${headHTML({ lang, title, desc, url, alt: { uk: chapUrl("uk", key, s), en: chapUrl("en", key, s) }, ld })}
+<body>
+<header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d, url: "../" }, { label: chLbl }])}
+<span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: chapUrl(o, key, s) }])}</div></header>
+${whereHTML(key, T)}
+<div class="wrap">
+<nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(x => x.part === p).map(x => `<a href="../${slugOf(x)}/" data-id="${x.id}"${x === s ? ' aria-current="page"' : ""}>${chapName(x, lang)}</a>`).join("")).join("")}<a class="all" href="../">← ${T.allCh}</a><a href="../#faq">${T.faq}</a></nav>
+<main>
+<div class="kick">${esc(T.chKicker(d, n))} · ${T.part} ${esc(s.part)}</div>
+<h1>${esc(name)}</h1>
+<p>${T.chLead(d, n)}</p>
+<p class="src">${T.src}: <a href="${esc(b.source.url)}" ${NF}>${T.off} ↗</a> · ${T.ed}: ${esc(b.source.edition)} · ${T.updated}: ${TODAY}</p>
+<section id="${s.id}">
+${s.items.map(it => itemHTML(b, it, lang, "h2")).join("\n")}
+</section>
+${faq.length ? `<div id="faq" class="faq"><h2>${T.chFaq}</h2>${faq.map(f => faqHTML(f, lang)).join("\n")}</div>` : ""}
+${secnav}
+<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">🎯 ${T.trainer}</a></div>
+<div class="disc">${T.disc}</div>${legal(lang)}
+</main></div>
+<script>${RULES_JS}</script>
+</body>
+</html>`;
+  writePage(`${lang === "uk" ? "rules" : "rules/en"}/${key}/${sl}`, html);
   return url;
 }
 
@@ -380,7 +475,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const plain = fitTitle(`${lb.label} — термін стендової стрільби | Глосарій ClayArena`, fitTitle(`${lb.label} | Глосарій ClayArena`, `${lb.head} | Глосарій ClayArena`));
     const title = sub ? fitTitle(`${lb.label} — ${sub} | Глосарій ClayArena`, fitTitle(`${lb.label} — ${sub} | ClayArena`, plain)) : plain;
     const desc = fitDesc(tm(`${t.term}: ${t.short_uk}`), "Термін стендової стрільби — глосарій ClayArena.", `glossary/${t.id}/`);
-    const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/${r.book}/#${r.id}">${esc(refUk(r))}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, с. ${r.page}</a></li>`).join("");
+    const refs = (t.rule_refs || []).map(r => `<li><a href="${ruleHref("uk", r.book, r.id)}">${esc(refUk(r))}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, с. ${r.page}</a></li>`).join("");
     const disc = ["sporting", "compak"].filter(k => t.disciplines && t.disciplines[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines[k])}</p></div>`).join("");
     const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${termHtml("uk", GBY[r])}</a>`).join(" ");
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
@@ -631,13 +726,13 @@ try { await import("../docs/rules/data/categories.js"); } catch (e) { console.lo
 
 const urls = [BASE + "rules/", BASE + "rules/trainer/"];
 urls.push(...categoriesPage());
-for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(page(key, lang));
+for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(...page(key, lang));
 urls.push(...glossaryPages());
 // /interpreter/ (the old Interpreter Academy app) is a noindex forwarder to the Academy's interpreter route now
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS };
+globalThis.SEO = { ruleHref, BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).

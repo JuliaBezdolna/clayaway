@@ -74,6 +74,9 @@ import vm from "node:vm";
 import { createHash } from "node:crypto";
 import { BASE as SITE_BASE, LANGS, OG_LOCALE, esc, tm, legal, readFitascIndex } from "./site_common.mjs";
 import * as lint from "./academy/lint.mjs";
+import { ruleIndex, rulePath } from "./rules_paths.mjs";
+// one static page per rules chapter (scripts/rules_paths.mjs): filled when the rules data is read, used by U.rule
+let RULE_IDX = new Map();
 
 const ROOT = path.resolve(import.meta.dir, "..");
 const CONTENT = path.join(ROOT, "content", "academy");
@@ -356,6 +359,7 @@ export async function buildAcademy(o = {}) {
   };
   const rw = runScripts(["sporting", "compak", "categories"].map(b => path.join(DOCS, "rules", "data", `${b}.js`)));
   const RULES = {};
+  RULE_IDX = ruleIndex(rw.RULES || []);
   for (const b of rw.RULES || []) { RULES[b.key] = new Map(); for (const s of b.sections) for (const it of s.items) RULES[b.key].set(it.id, { chapter: s.chapter, en: it.title_en, uk: it.title_uk }); }
   // FITASC categories (docs/rules/data/categories.js): their names are glossary terms (junior, lady, men-category, senior, veteran,
   // master-category), so a rule reference to a category is labelled like a term in every language ("Lady (жінки)", de "Men (Herren)",
@@ -989,7 +993,7 @@ export async function buildAcademy(o = {}) {
     practice: (L, g) => `${BASE}${P(L)}learn/practice/${g ? g + "/" : ""}`, progress: L => `${BASE}${P(L)}learn/progress/`,
     data: (L, f) => `${BASE}learn/data/${L}/${f}`,
     rule: (L, book, id) => book === "categories" ? `${BASE}rules/${L === "uk" ? "" : "en/"}categories/#${id}`
-      : `${BASE}rules/${L === "uk" ? "" : "en/"}${book}/${L === "uk" || L === "en" ? "" : "?lang=" + L}#${id}`,
+      : BASE + rulePath(RULE_IDX, L, book, id, L === "uk" || L === "en" ? "" : "?lang=" + L),
     trainer: L => `${BASE}rules/trainer/?lang=${L}&from=learn`,
     contacts: L => `https://clayarena.com/${({ uk: "uk-ua", de: "de-de" })[L] || "en"}/contacts/`
   };
