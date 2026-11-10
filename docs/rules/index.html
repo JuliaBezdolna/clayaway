@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- The book of the discipline shown and the term files start DOWNLOADING at once, alongside the page (preload does not run them and
+     does not hold the first paint back); loadBook() runs them after the first paint, as before (Lighthouse, 09.11.2026). Without it
+     the visitor saw only the title until a second round trip to the server ended (Юлія, 10.11.2026: «шапка відразу, решта потім»).
+     The discipline: #compak / #sporting of the link, else the last one chosen here (localStorage "clayarena-rules"), as S.disc below. -->
+<script>(function(){var k="sporting";try{var h=location.hash;if(h==="#compak"||h==="#sporting")k=h.slice(1);else{var s=JSON.parse(localStorage.getItem("clayarena-rules")||"{}");if(s.disc==="compak")k="compak";}}catch(e){}
+["data/"+k+".js","terms.js","../shared/rule-terms.js"].forEach(function(u){var l=document.createElement("link");l.rel="preload";l.as="script";l.href=u;document.head.appendChild(l);});})();</script>
 <title>Правила FITASC · ClayArena</title>
 <!-- share-preview -->
 <meta name="description" content="Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC.">
