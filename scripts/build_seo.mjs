@@ -362,7 +362,7 @@ function glossaryPages() {
 <meta property="og:locale" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/glossary.png">
 <meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${css}${GS.CSS}</style>
+<style>${css}${GS.CSS}${G3D.has((url.match(/\/glossary\/([^/]+)\/$/) || [])[1]) ? GL3D_CSS : ""}</style>
 </head>
 <body>
 <header><div class="in">${crumbs("uk", "📖", name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">📘 Правила FITASC</a>
@@ -552,6 +552,12 @@ const CARD_CSS = `.what-card{border:1px solid rgba(255,255,255,.1);border-radius
 // cut in half ("Electronic refereeing (електронне суддівство)", 09.11.2026); in the flex row a chip moves to the next line whole.
 const REL_CSS = `.rel-row{display:flex;flex-wrap:wrap;gap:6px;max-width:none;margin:10px 0}.rel-row .btn{align-content:center;line-height:1.4}`; // on a phone .btn has min-height 44px (touch target): the text in its middle
 // (align-content on the block, not inline-flex: flex items would drop the space in "Call (виклик мішені)")
+// The 3D export (docs/shared/3d/glossary3d.css, made in ClayArenaPromo, not edited here) gives every h2 of a 3D page a
+// green-to-orange stripe. Kept only on «Подивіться в 3D» (the h2 right before section.l3, or before .gl-how that the 3D script puts there), as Єгор designed it with the 3D;
+// the other headings and the «Що це / Детально» pills go without it. Without :has() the stripes stay as the export has them.
+// Only on the Ukrainian term pages that have a 3D block (docs/shared/3d/blocks.json): the others have no html.gl-deco.
+const G3D = (() => { try { return new Set(Object.keys(JSON.parse(readFileSync("docs/shared/3d/blocks.json", "utf8")))); } catch (e) { return new Set(); } })();
+const GL3D_CSS = `html.gl-deco body main h2:not(:has(+ .l3, + .gl-how)){padding-left:0}html.gl-deco body main h2:not(:has(+ .l3, + .gl-how))::before{content:none}html.gl-deco body main .what-card h2{padding-left:10px}`;
 const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}` + DUO_CSS + CARD_CSS + REL_CSS;
 const jumpNav = (lang, have) => { const [lbl, ...n] = JUMP[lang] || JUMP.en;
   const links = [["what", 1], ["disc", have.disc], ["rules", have.rules], ["learn", have.learn], ["rel", have.rel]].map((x, i) => x[1] ? `<a href="#${x[0]}">${n[i]}</a>` : "").join("");
