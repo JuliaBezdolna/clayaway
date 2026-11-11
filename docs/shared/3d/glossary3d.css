@@ -136,3 +136,30 @@ html.gl-deco main h2::before { content: ""; position: absolute; left: 0; top: .2
 .l3-stage > .l3-fsbtn { position: absolute; top: 12px; right: 12px; z-index: 6; background: rgba(11,19,36,.82); border: 1px solid rgba(255,255,255,.14); backdrop-filter: blur(4px); }
 .l3-capture .l3-stage > .l3-fsbtn { display: none; }
 .l3-h > .l3-fsbtn { margin-left: auto; padding: 5px 10px; font-size: 13px; }
+
+/* ===== HUD v2 (11.11.2026): камери й налаштування — справа вгорі, керування — компактно знизу ===== */
+.l3 [hidden] { display: none !important; }
+.l3-tr { left: auto; bottom: auto; top: 12px; right: 12px; justify-content: flex-end; z-index: 4; }
+.l3-cap { max-width: min(520px, calc(100% - 560px)); min-width: 260px; }
+.l3-tools .l3-b { padding: 0 9px; }
+.l3-tools .l3-b[aria-pressed="true"], .l3-gearbtn.on { background: rgba(16,185,129,.2); color: var(--l3-em-l); }
+.l3-gfxpop { position: absolute; top: calc(100% + 8px); right: 0; display: grid; gap: 8px; padding: 12px 14px; border-radius: 14px; background: rgba(2,6,23,.9); border: 1px solid var(--l3-line); backdrop-filter: blur(8px); }
+.l3-gfxpop .l3-seg-g { background: transparent; border: 0; padding: 0; }
+.l3 .l3-seg-g .l3-b[aria-pressed="true"] { background: rgba(16,185,129,.2); color: var(--l3-em-l); }
+.l3-next { min-width: 0; width: 40px; padding: 0; font-size: 18px; background: rgba(148,163,184,.14); color: #e5e7eb; }
+.l3-next.pulse { background: var(--l3-em); color: #02130d; }
+.l3-play { width: 60px; }
+.l3-tlw { grid-template-columns: auto minmax(0, 1fr) auto; }
+.l3-gfxrow { justify-content: flex-end; }
+@media (min-width: 761px) and (max-width: 1100px) {   /* вузький блок: камери вниз ліворуч, щоб не накладались на підпис */
+  .l3-tr { top: auto; bottom: 12px; left: 12px; right: auto; justify-content: flex-start; }
+  .l3-gfxpop { top: auto; bottom: calc(100% + 8px); left: 0; right: auto; }
+  .l3-cap { max-width: min(640px, calc(100% - 24px)); }
+}
+@media (max-width: 760px) {
+  .l3-tr { position: relative; top: auto; right: auto; }
+  .l3-cap { max-width: none; min-width: 0; }
+  .l3-gfxpop { right: 12px; }
+  .l3-tlw { grid-template-columns: auto minmax(0, 1fr) auto; }
+  .l3-tlw .l3-tlbox { grid-column: 1 / -1; order: 3; }
+}
