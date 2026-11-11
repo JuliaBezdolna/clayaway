@@ -63,6 +63,9 @@
     } else {
       const reg = () => sw.register(ROOT + "sw.js", { scope: ROOT }).then(() => {
         if (location.href.startsWith(ROOT + "rules/")) sw.ready.then(r => r.active && r.active.postMessage({ type: "warm", pack: "rules" }));
+        // step 3: the glossary home and the Academy home get «Зберегти для офлайну» (the whole product in that language)
+        if (/^(?:[a-z]{2}\/)?(?:glossary|learn)\/$/.test(location.href.replace(/[?#].*$/, "").slice(ROOT.length))) {
+          const op = document.createElement("script"); op.src = ROOT + "shared/offline-pack.js"; op.async = true; document.head.appendChild(op); }
       }).catch(() => {});
       if (document.readyState === "complete") reg(); else addEventListener("load", reg);
     }

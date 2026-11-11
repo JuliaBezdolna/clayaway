@@ -892,6 +892,7 @@ const glossMeta = { description: new Map(), title: new Map(), missing: [] };
     const rp = f.slice(DOCS.length + 1); // path inside the site root
     let h = readFileSync(f, "utf8"); const depth = rp.split("/").length - 1, rel = depth ? "../".repeat(depth) : "";
     if (h.includes('http-equiv="refresh"')) continue; // redirect stubs stay bare
+    if (rp === "offline.html") continue; // PWA: docs/sw.js shows it at the address of ANY page, so no relative nav.js / slot
     if (GLOSS_PAGE_RE.test(rp)) for (const [k, re] of [["description", /<meta name="description" content="([^"]*)"/], ["title", /<title>([^<]*)<\/title>/]]) {
       const v = (h.match(re) || [])[1], page = rp.replace(/index\.html$/, "");
       if (!v) { glossMeta.missing.push(`${page} (${k})`); continue; }
@@ -954,3 +955,6 @@ if (tmMetaHits.size) console.log(`WARNING: glossary meta descriptions with a dec
 // 3D animations of glossary terms (docs/shared/3d/, exported from ClayArenaPromo): the block goes into the Ukrainian term pages
 // after they are written above. Idempotent; see scripts/build_glossary3d.mjs.
 { const { buildGlossary3d } = await import("./build_glossary3d.mjs"); buildGlossary3d(); }
+// Offline packs (PWA step 3): the lists of files «Зберегти для офлайну» saves, per product and language, docs/offline/*.json.
+// LAST, so they hash the pages as they are published (3D blocks included); see scripts/build_offline.mjs.
+{ const { buildOffline } = await import("./build_offline.mjs"); buildOffline({ docs: DOCS, quiet: ARGS.includes("--quiet") }); }

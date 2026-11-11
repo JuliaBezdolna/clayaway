@@ -5,6 +5,8 @@
    FRESH FIRST. With a network every request goes to the server, so a new version is seen at once (the preview after a push must
    never show the old page). The saved copy is used only when the network fails, or when the server has not answered within
    WAIT ms and a saved copy exists (a weak signal on the shooting ground); the late answer still updates the copy.
+   SAVED BY CHOICE (step 3): «Зберегти для офлайну» on the glossary and Academy homes puts a whole product of one language into
+   "clayarena-pack-<product>-<lang>" (docs/shared/offline-pack.js, lists docs/offline/*.json); caches.match() finds those copies too.
    SAVED: every same-origin page and file the visitor opened (pages: up to MAX_PAGES, files: up to MAX_FILES, oldest dropped),
    plus the PACKS a page asks for (nav.js posts {type:"warm", pack:"rules"} on every rules page: the guide with the search of both
    disciplines and the trainer then work without a network even if only one page was opened).
@@ -69,6 +71,9 @@ function keep(req, res, name, max) {
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET" || !req.url.startsWith(BASE) || req.headers.has("range")) return;
+  // «Зберегти для офлайну» (docs/shared/offline-pack.js, step 3) downloads a whole product into its own cache
+  // "clayarena-pack-<product>-<lang>": straight to the network, not into the caches of visited pages (they would be flushed)
+  if (req.headers.has("x-clay-pack")) return;
   if (new URL(req.url).pathname.endsWith("/sw.js")) return;
   const page = req.mode === "navigate";
   e.respondWith((async () => {
