@@ -69,7 +69,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--em);outline-offset:
 .resume b{margin-right:4px}
 /* "→" next to the language select: shown only after a keyboard choice (arrows move in the list, Enter or this button applies it) */
 .langgo{background:var(--surface2,#0B1120);border:1px solid rgba(52,211,153,.45);border-radius:8px;padding:6px 12px;font-size:13.5px;min-height:36px;color:var(--em)}
-@media (pointer:coarse){.btn,.seg button,.chip,.opts button,.langgo{min-height:44px}}
+@media (pointer:coarse){.btn,.seg button,.opts button,.langgo{min-height:44px}}
 .spacer{flex:1}
 .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
 .seg button{border:0;background:transparent;padding:6px 12px;font-size:13.5px;color:var(--muted);white-space:nowrap}
@@ -96,9 +96,20 @@ p{margin:0 0 10px;max-width:70ch}
 .list b{font-size:15.5px}.list .tx span{font-size:13px;color:var(--muted)}.list small{font-size:12px;color:var(--em)}
 .list em{flex:none;font-style:normal;font-size:13px;color:var(--muted);text-align:right}
 .list em strong{display:block;font-size:20px;color:#fff;font-variant-numeric:tabular-nums}
-.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:6px 0 4px;font-size:13px;color:var(--muted)}
-.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;font-size:13px;color:var(--soft)}
-.chip[aria-pressed="true"]{background:var(--em-soft);border-color:rgba(52,211,153,.5);color:var(--em);font-weight:600}
+/* Level filter (11.11.2026, variant C «tiles» of the level-row mockup): four tiles «all levels / basic / organizer / referee»,
+   each with its difficulty (1–3 bars), the number of questions and a short description (hidden on phones: 2 × 2 tiles). */
+.lvl{margin:10px 0 4px}.lvl .cap{font-size:13px;color:var(--muted);margin:0 0 6px}
+.lvtiles{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.lvtiles button{text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:10px 12px;display:grid;gap:4px;align-content:start;min-height:44px;transition:border-color .15s}
+.lvtiles button:hover{border-color:rgba(52,211,153,.5)}
+.lvtiles button[aria-pressed="true"]{border-color:var(--em);box-shadow:inset 0 0 0 1px var(--em);background:rgba(52,211,153,.07)}
+.lvtiles .t{display:flex;align-items:center;justify-content:space-between;gap:6px}.lvtiles b{font-size:14.5px;color:#fff;overflow-wrap:anywhere}
+.lvtiles .n{font-size:12.5px;color:var(--muted)}.lvtiles .n strong{color:#fff;font-size:16px;font-variant-numeric:tabular-nums;margin-right:3px}
+.lvtiles .d{font-size:12px;color:var(--muted);line-height:1.3}
+.lvbars{flex:none;display:inline-flex;gap:2px;align-items:flex-end}.lvbars i{display:block;width:4px;border-radius:1px;background:rgba(255,255,255,.18)}
+.lvbars i:nth-child(1){height:6px}.lvbars i:nth-child(2){height:9px}.lvbars i:nth-child(3){height:12px}.lvbars i.on{background:var(--em)}
+.lvtiles .all .lvbars i{background:rgba(52,211,153,.45)}
+@media (max-width:600px){.lvtiles{grid-template-columns:1fr 1fr}.lvtiles .d{display:none}}
 /* During a test: one sticky line «mode · n of N · ✓ saved · ✕» and the progress track, one segment per question
    (green right / red wrong; grey in the exam and the short test, where the answer is shown only at the end; outlined = current). */
 .run{position:sticky;top:0;z-index:30;margin:0 -16px 12px;padding:8px 16px 10px;background:rgba(3,7,18,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
@@ -248,7 +259,7 @@ const PASS=0.8;
 const T={
  uk:{svc:"Тренажер правил",svcS:"ClayArena · FITASC",title:"Тренажер правил {d}",lead:"Перевірте, як ви знаєте правила: ситуації на стенді, цифри й ліміти, «правда чи ні». Після кожної відповіді — пояснення і посилання на пункт довідника та сторінку офіційного PDF.",
    quick:"Швидкий тест",quickS:"10 випадкових питань, пояснення одразу",exam:"Іспит",examS:"30 питань, результат у кінці, прохідний бал 80%",mist:"Мої помилки",mistS:"питання, на які ви відповіли неправильно",
-   level:"Рівень",all:"усі",l1:"базовий",l2:"організатор",l3:"суддя",q:"Питання",of:"з",next:"Далі",finish:"Завершити",right:"Правильно!",wrong:"Неправильно.",
+   level:"Рівень",all:"усі",lvAll:"Усі рівні",lvD0:"змішано, від основ до суддівських",lvD1:"основи для кожного стрільця",lvD2:"ліміти, процедури, організація",lvD3:"рішення в спірних ситуаціях",l1:"базовий",l2:"організатор",l3:"суддя",q:"Питання",of:"з",next:"Далі",finish:"Завершити",right:"Правильно!",wrong:"Неправильно.",
    decision:"Рішення судді",number:"Цифри",truefalse:"Правда чи ні",choice:"Вибір",open:"Пункт у довіднику",pdf:"PDF, с.",
    savedS:"збережено",ch:"Розділ",correctIs:"Правильна відповідь:",best:"найкращий",accEmpty:"Тут з'явиться ваша точність. Почніть зі швидкого тесту.",byCh:"За розділами, спершу слабші",repeatMist:"Повторити помилки",
    resGood:"Чудово — правила ви знаєте",resMid:"Непогано, але є що повторити",resLow:"Варто повторити — помилки збережено в «{m}»",
@@ -259,7 +270,7 @@ const T={
    stop:"Перервати тест",stopQ:"Перервати тест?",stopD:"Його можна зберегти й продовжити пізніше (24 год) або скинути.",pause:"Зберегти й вийти",reset:"Скинути",cancel:"Продовжити тест",saved:"прогрес збережено",unfinished:"Незавершений тест:",cont:"Продовжити",discG:"Дисципліна",langG:"Мова",crumbs:"Навігаційний ланцюжок",practice:"Практика",langGo:"Відкрити обраною мовою"},
  en:{svc:"Rules trainer",svcS:"ClayArena · FITASC",title:"{d} rules trainer",lead:"Test your knowledge of the rules: situations on the stand, numbers and limits, true or false. After every answer you get an explanation and a link to the rule in the guide and to the official PDF page.",
    quick:"Quick test",quickS:"10 random questions, explanation straight away",exam:"Exam",examS:"30 questions, result at the end, pass mark 80%",mist:"My mistakes",mistS:"questions you answered wrong",
-   level:"Level",all:"all",l1:"basic",l2:"organizer",l3:"referee",q:"Question",of:"of",next:"Next",finish:"Finish",right:"Correct!",wrong:"Wrong.",
+   level:"Level",all:"all",lvAll:"All levels",lvD0:"mixed, from the basics to referee level",lvD1:"the basics every shooter needs",lvD2:"limits, procedures, organisation",lvD3:"decisions in disputed situations",l1:"basic",l2:"organizer",l3:"referee",q:"Question",of:"of",next:"Next",finish:"Finish",right:"Correct!",wrong:"Wrong.",
    decision:"Referee's decision",number:"Numbers",truefalse:"True or false",choice:"Choice",open:"Rule in the guide",pdf:"PDF, p.",
    savedS:"saved",ch:"Chapter",correctIs:"Correct answer:",best:"best",accEmpty:"Your accuracy will appear here. Start with a quick test.",byCh:"By chapter, weakest first",repeatMist:"Repeat my mistakes",
    resGood:"Great — you know the rules",resMid:"Not bad, but there is something to review",resLow:"Worth reviewing — your mistakes are saved in “{m}”",
@@ -300,7 +311,13 @@ const TX={
  repeatMist:{de:"Fehler wiederholen",fr:"Revoir mes erreurs",it:"Ripeti gli errori",cs:"Zopakovat chyby",pl:"Powtórz błędy",pt:"Repetir os erros",hu:"Hibák ismétlése",fi:"Kertaa virheet",lt:"Kartoti klaidas"},
  resGood:{de:"Sehr gut — Sie kennen die Regeln",fr:"Très bien — vous connaissez les règles",it:"Ottimo — conosci le regole",cs:"Výborně — pravidla znáte",pl:"Świetnie — znasz przepisy",pt:"Muito bem — conhece as regras",hu:"Kiváló — ismeri a szabályokat",fi:"Hienoa — osaat säännöt",lt:"Puiku — taisykles žinote"},
  resMid:{de:"Nicht schlecht, aber einiges sollten Sie wiederholen",fr:"Pas mal, mais il reste des points à revoir",it:"Non male, ma c'è qualcosa da ripassare",cs:"Není to špatné, ale je co opakovat",pl:"Nieźle, ale jest co powtórzyć",pt:"Nada mal, mas há o que rever",hu:"Nem rossz, de van mit ismételni",fi:"Ei huono, mutta kerrattavaa on",lt:"Neblogai, bet yra ką pakartoti"},
- resLow:{de:"Wiederholen lohnt sich — Ihre Fehler sind unter „{m}“ gespeichert",fr:"À revoir — vos erreurs sont enregistrées dans « {m} »",it:"Vale la pena ripassare — gli errori sono salvati in «{m}»",cs:"Vyplatí se opakovat — chyby jsou uložené v „{m}“",pl:"Warto powtórzyć — błędy zapisano w „{m}”",pt:"Vale a pena rever — os erros ficam guardados em «{m}»",hu:"Érdemes ismételni — a hibái a(z) „{m}” részben vannak",fi:"Kannattaa kerrata — virheet on tallennettu kohtaan ”{m}”",lt:"Verta pakartoti — klaidos išsaugotos skiltyje „{m}“"}
+ resLow:{de:"Wiederholen lohnt sich — Ihre Fehler sind unter „{m}“ gespeichert",fr:"À revoir — vos erreurs sont enregistrées dans « {m} »",it:"Vale la pena ripassare — gli errori sono salvati in «{m}»",cs:"Vyplatí se opakovat — chyby jsou uložené v „{m}“",pl:"Warto powtórzyć — błędy zapisano w „{m}”",pt:"Vale a pena rever — os erros ficam guardados em «{m}»",hu:"Érdemes ismételni — a hibái a(z) „{m}” részben vannak",fi:"Kannattaa kerrata — virheet on tallennettu kohtaan ”{m}”",lt:"Verta pakartoti — klaidos išsaugotos skiltyje „{m}“"},
+ // 11.11.2026, level tiles on the mode screen: «all levels» and a short description of each level
+ lvAll:{de:"Alle Niveaus",fr:"Tous les niveaux",it:"Tutti i livelli",cs:"Všechny úrovně",pl:"Wszystkie poziomy",pt:"Todos os níveis",hu:"Minden szint",fi:"Kaikki tasot",lt:"Visi lygiai"},
+ lvD0:{de:"gemischt, von den Grundlagen bis zum Schiedsrichter",fr:"mélangé, des bases au niveau arbitre",it:"misto, dalle basi al livello arbitro",cs:"mix od základů po rozhodčí",pl:"mieszane, od podstaw po poziom sędziego",pt:"misto, do básico ao nível de árbitro",hu:"vegyesen, az alapoktól a bírói szintig",fi:"sekaisin, perusteista tuomaritasoon",lt:"mišriai – nuo pagrindų iki teisėjo lygio"},
+ lvD1:{de:"das Wichtigste für jeden Schützen",fr:"l'essentiel pour chaque tireur",it:"le basi per ogni tiratore",cs:"základy pro každého střelce",pl:"podstawy dla każdego strzelca",pt:"o essencial para cada atirador",hu:"az alapok minden lövőnek",fi:"perusasiat jokaiselle ampujalle",lt:"pagrindai kiekvienam šauliui"},
+ lvD2:{de:"Limits, Abläufe, Organisation",fr:"limites, procédures, organisation",it:"limiti, procedure, organizzazione",cs:"limity, postupy, organizace",pl:"limity, procedury, organizacja",pt:"limites, procedimentos, organização",hu:"limitek, eljárások, szervezés",fi:"rajat, menettelyt, järjestäminen",lt:"limitai, procedūros, organizavimas"},
+ lvD3:{de:"Entscheidungen in strittigen Fällen",fr:"décisions dans les cas litigieux",it:"decisioni nei casi controversi",cs:"rozhodnutí ve sporných situacích",pl:"decyzje w spornych sytuacjach",pt:"decisões em situações controversas",hu:"döntések vitás helyzetekben",fi:"ratkaisut kiistanalaisissa tilanteissa",lt:"sprendimai ginčytinose situacijose"},
 };
 TX.sBestShort=TX.short; // stats card "best short test": the card shows the best %, so the test name is enough
 /* Opened from the ClayArena Academy: ?from=learn (link back) and ?mode=short (the short test of a route requirement). */
@@ -349,6 +366,12 @@ function saveRun(){ try{ const r=S.run; if(r&&(S.view==="run"||S.paused)){ local
     window.ClayNav&&ClayNav.setResume({section:"trainer",label:`${t("svc")} ${dname(r.disc)} · ${t("q")} ${r.i+1} ${t("of")} ${r.qs.length}`,url:runUrl(r)}); }
   else { localStorage.removeItem(RUNKEY); window.ClayNav&&ClayNav.clearResume("trainer"); } }catch(e){} }
 const L=()=>P.lang;
+/* «29 questions»: the word after a number, by the plural rules of the language (Intl.PluralRules: one / few / many / other). */
+const QW={uk:{one:"питання",few:"питання",other:"питань"},en:{one:"question",other:"questions"},de:{one:"Frage",other:"Fragen"},
+ fr:{one:"question",other:"questions"},it:{one:"domanda",other:"domande"},cs:{one:"otázka",few:"otázky",other:"otázek"},
+ pl:{one:"pytanie",few:"pytania",other:"pytań"},pt:{one:"pergunta",other:"perguntas"},hu:{one:"kérdés",other:"kérdés"},
+ fi:{one:"kysymys",other:"kysymystä"},lt:{one:"klausimas",few:"klausimai",other:"klausimų"}};
+const qWord=n=>{ const w=QW[L()]||QW.en; let c="other"; try{ c=new Intl.PluralRules(L()).select(n); }catch(e){} return w[c]||w.other; };
 const t=k=>(T[L()]&&T[L()][k])||(OV.ui&&OV.ui[k])||(TX[k]&&TX[k][L()])
   ||(k==="shortS"&&OV.ui&&/\b30\b/.test(OV.ui.examS||"")?OV.ui.examS.replace(/\b30\b/,"10"):"")||T.en[k];
 /* "← Академія": back to the Academy page the reader came from (same language), else the Academy home of the current language
@@ -451,7 +474,8 @@ function homeView(){
   const r=S.paused&&S.run, resume=r?`<div class="resume" role="region" aria-label="${esc(t("unfinished"))}"><b>${t("unfinished")}</b><span>${t(modeKey(r.mode))} · ${dname(r.disc)} · ${r.i+1}/${r.qs.length}</span><button class="btn primary" data-resume="1">${t("cont")} →</button><button class="btn" data-reset="1">${t("reset")}</button></div>`:"";
   return `<p class="back">${FROM_LEARN?learnA("")+" · ":""}${rulesA("")}</p>${resume}<div class="eyebrow">FITASC · ${d}</div><h1>${t("title").replace("{d}",d)}</h1><p class="muted">${t("lead")}</p>
    <div class="acc"><div class="ring" style="--p:${acc}" aria-hidden="true"><span>${s.ans?acc+"%":"—"}</span></div><p>${s.ans?`${t("sAcc")} <b>${acc}%</b> · ${t("sAns")}: <b>${s.ans}</b><br>${t("sMist")}: <b>${s.wrong.length}</b>`:t("accEmpty")}</p></div>
-   <div class="filters">${t("level")}: ${[0,1,2,3].map(l=>`<button class="chip" data-level="${l}" aria-pressed="${S.level===l}">${l?t("l"+l):t("all")}</button>`).join("")}<span>· ${pool().length} ${t("count")}</span></div>
+   <div class="lvl"><p class="cap" id="lvCap">${t("level")}</p><div class="lvtiles" role="group" aria-labelledby="lvCap">${[0,1,2,3].map(l=>{ const n=l?qs.filter(q=>q.level===l).length:qs.length, nm=l?t("l"+l):t("lvAll");
+     return `<button class="${l?"":"all"}" data-level="${l}" aria-pressed="${S.level===l}"><span class="t"><b>${nm.charAt(0).toUpperCase()+nm.slice(1)}</b><span class="lvbars" aria-hidden="true">${[1,2,3].map(i=>`<i class="${l&&i<=l?"on":""}"></i>`).join("")}</span></span><span class="n"><strong>${n}</strong>${qWord(n)}</span><span class="d">${t("lvD"+l)}</span></button>`; }).join("")}</div></div>
    <div class="list">${rec?short+quick:quick+short}${it("exam",t("examS"),s.best?best(s.best):"")}${it("mistakes",s.wrong.length?t("mistS"):t("noMist"),s.wrong.length?`<strong>${s.wrong.length}</strong>`:"",{dis:!s.wrong.length})}</div>
    <div class="disclaimer">${t("disc")}</div>`;
 }
