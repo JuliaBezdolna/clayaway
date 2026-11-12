@@ -259,6 +259,17 @@ const DEF = {
   anim_miss_front: "In front: too much lead, often after over-correcting. Many coaches like this miss: it shows the gun kept moving.",
   anim_miss_over: "Over: common on dropping targets, rabbits and incomers, and often linked to the head coming off the stock.",
   anim_miss_under: "Under: typical on rising targets that are still climbing at the shot.",
+  anim_t_late_manual: "Compak® Sporting: late target (by hand)",
+  anim_s_manual_late: "Released by hand: the target leaves {n} s after the call, later than {max} s: the referee calls “No Bird”.",
+  anim_t_uncalled: "Target without a call",
+  anim_t_uncalled_shot: "Target without a call: a shot",
+  anim_s_uncalled: "The shooter has not called yet, but the target is already out. He does not shoot.",
+  anim_s_uncalled_shot: "The target is out without a call. The shooter mounts late, fires — and misses.",
+  anim_t_broken: "Broken at the launch",
+  anim_s_broken: "The target leaves the trap already broken in two.",
+  anim_s_broken_hit: "The shooter breaks the larger piece.",
+  anim_t_nobird_shot: "A shot after “No Bird”",
+  anim_s_nobird_shot: "The referee calls “No Bird”, but the shooter fires anyway.",
   anim_h_hit: "Watch what happens to the clay", anim_w_hit: "The magnifier follows the clay from the shot: dust only, or a piece that breaks away.",
   anim_t_hit_dust: "Only dust", anim_t_hit_chip: "A visible piece",
   anim_hit_dust: "The edge of the pattern touches the clay: a puff of dust, but not one piece breaks away — the clay flies on whole.",
@@ -586,6 +597,12 @@ function pathDots(c, P, t0, t1, col, gap = 10){ if (t1 <= t0) return; const m = 
 function chevron(c, P, t, col){ const m = MK(c), [x, y] = P(t), [x2, y2] = P(Math.min(1, t + .01)), a = Math.atan2(y2 - y, x2 - x);
   c.save(); c.translate(x, y); c.rotate(a); c.strokeStyle = col; c.lineWidth = 2 * m; c.lineCap = "round"; c.lineJoin = "round";
   c.beginPath(); c.moveTo(-6 * m, -5 * m); c.lineTo(1 * m, 0); c.lineTo(-6 * m, 5 * m); c.stroke(); c.restore(); }
+/* piece(c, x, y, s, part, side, rot): a part of a clay broken in two — the clay clipped by a chord: part = the share of its width
+   kept (.62 the larger piece, .38 the smaller), side = 1 keeps the left side, −1 the right; rot = its tumble. */
+function piece(c, x, y, s, part, side, rot = 0){ const r = 9 * s * MK(c) + 2;
+  c.save(); c.translate(x, y); c.rotate(rot * .15); c.beginPath();
+  if (side > 0) c.rect(-r - 4, -r - 4, 2 * r * part + 4, 2 * r + 8); else c.rect(r + 4 - (2 * r * part + 4), -r - 4, 2 * r * part + 4, 2 * r + 8);
+  c.clip(); clay(c, 0, 0, s, {}, 0, {glow: .01}); c.restore(); } // no glow: clipped, it would show the cut as a hard-edged box
 /* burst(c, x, y, k, o): a broken target, k = seconds since the break (callers keep their own scaling). A puff of target dust (o.flash:
    a "flash" target's bright puff with a grey edge) and 13 seeded shards (o.seed) that fly out, spin and fall; the shards fade out
    between k .5 and .9, so a frozen last frame never shows shards hanging in the air. Reduced motion: 6 shards, no rotation. */
@@ -1459,6 +1476,20 @@ const SCENES = {
   "gun-early":   {tab: "anim_t_early",    line: 1, mount: [.4, .75], call: 1.2, card: 1.7, end: 4},
   misfire:       {tab: null,              call: .4, release: 1, mount: [1.1, 1.45], shot: 1.85, click: 1, safe: [2.2, 2.6], walk: [3.3, 4.3], end: 6.8},
   mount:         {term: "gun-mount",      words: 1, cheek: 1, call: .3, release: .8, move: [1, 1.4], mount: [1.3, 1.85], shot: 1.9, end: 3.8},
+  /* rules trainer, 12.11.2026 — situations the referee decides (rules/QUIZ_SCHEMA.md "call"). say = [scene second, ui key] lines of
+     the status line. Only "manual-late" shows the decision (No Bird); the others show the situation, the question asks for it.
+     - manual-late: Compak® Sporting, released by hand 4 s after the call (limit 3 s): the clock goes red, the referee calls No Bird;
+     - uncalled: no call at all, the trapper releases while the shooter is still getting ready; he does not shoot;
+     - uncalled-shot: the same, but the shooter mounts late, fires and misses (miss: the target flies on);
+     - broken-launch: Sporting™ (referee's signal, line on the vest): the target leaves the trap already broken in two; the shooter
+       breaks the larger piece, the smaller one falls;
+     - nobird-shot: the referee calls "No Bird!" while the target is in the air, the shooter fires anyway and breaks it. */
+  "manual-late": {tab: "anim_t_late_manual", timer: "call", up: 1, call: .3, release: .3 + 4, nobird: 4.6, end: 7},
+  uncalled:      {tab: "anim_t_uncalled",   release: 1, say: [[1, "anim_s_uncalled"]], end: 4.2},
+  "uncalled-shot": {tab: "anim_t_uncalled_shot", release: 1, mount: [1.35, 1.7], shot: 2.1, miss: 1, say: [[1, "anim_s_uncalled_shot"]], end: 4.4},
+  "broken-launch": {tab: "anim_t_broken",  line: 1, call: .3, signal: .7, release: 1.5, mount: [1.62, 1.95], shot: 2.35, broken: 1,
+                  say: [[1.5, "anim_s_broken"], [2.35, "anim_s_broken_hit"]], end: 4.4},
+  "nobird-shot": {tab: "anim_t_nobird_shot", call: .3, release: 1, nobird: 1.25, mount: [1.1, 1.45], shot: 1.95, say: [[1.25, "anim_s_nobird_shot"]], end: 4.2},
 };
 const GY = 322, LINE_Y = 203, FLY = 2.2, SH = 380; // SH = scene height; narrow screens get a band for the clock above it
 // SAFETY layout (see above): people only left of BEHIND_X (the shooter's back heel is at x ≈ 150, the stand starts at 126); the
@@ -1740,7 +1771,7 @@ function standSim(host, kind, opts = {}){
   host.innerHTML = `<div class="cs-sim">${sc.words ? `<div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div>` : ""}<canvas width="720" height="${SH}" role="img" aria-label="${esc(title)}"></canvas><p class="cs-scale">${esc(T("anim_scale"))}</p><div class="cs-ctl">${playBtn("anim_play")}${slowBtn()}<b>${esc(title)}</b></div><div class="cs-say" aria-live="polite" data-k="say"></div></div>`;
   const cv = logical(host.querySelector("canvas"), 720, SH), c = cv.getContext("2d"), W = 720, out = host.querySelector('[data-k="say"]');
   const words = sc.words ? wordsBar(host.querySelector('[data-k="words"]')) : null;
-  const rel = sc.release, t0c = sc.timer === "signal" ? sc.signal : sc.call, hitT = sc.shot != null && !sc.click ? sc.shot : null;
+  const rel = sc.release, t0c = sc.timer === "signal" ? sc.signal : sc.call, shotT = sc.shot != null && !sc.click ? sc.shot : null, hitT = sc.miss ? null : shotT; // miss: a shot, the target flies on
   // the trapper presses the release button at pressT: after the referee's signal (or the call), at most 0.25 s before the release;
   // the pulse runs along the cable from pressT and reaches the trap house at the release (the scene times are unchanged)
   const pressT = rel == null ? null : Math.max(rel - .25, sc.signal != null ? sc.signal + .15 : -1, sc.call != null ? sc.call + .05 : -1);
@@ -1752,16 +1783,20 @@ function standSim(host, kind, opts = {}){
     const b = sc.timer && k > 1.35 ? Math.ceil(12 + 72 * ck + 10) : 0; if (b !== band) { band = b; cv._lh = SH + band; } };
   // what the status line says, and from when (scene seconds)
   const says = [];
-  if (sc.timer) { const n = rel - t0c; says.push([rel, fill(T(sc.timer === "call" ? (sc.mic ? "anim_s_sonopull" : "anim_s_manual") : n > CALL.limit ? "anim_s_late" : "anim_s_in_time"), {n: num1(n), max: CALL.limit})]); }
+  if (sc.timer) { const n = rel - t0c; says.push([rel, fill(T(sc.timer === "call" ? (sc.mic ? "anim_s_sonopull" : n > CALL.limit ? "anim_s_manual_late" : "anim_s_manual") : n > CALL.limit ? "anim_s_late" : "anim_s_in_time"), {n: num1(n), max: CALL.limit})]); }
+  if (sc.say) for (const [at, key] of sc.say) says.push([at, T(key)]);
   if (kind === "gun-ready") says.push([0, T("anim_s_gun_low")], [sc.mount[0], T("anim_s_gun_mount")]);
   if (sc.move) says.push([0, T("anim_s_mount_ready")], [sc.move[0], T("anim_s_move")], [sc.mount[0], T("anim_s_mount")], [sc.shot, T("anim_s_shoot")]);
   if (sc.card) says.push([sc.card, T("anim_s_early")]);
   if (sc.click) says.push([sc.shot, T("anim_s_click")], [sc.safe[0] + .2, T("anim_s_hold")], [sc.walk[1], T("anim_s_ref")], [sc.walk[1] + 1, T("anim_s_repeat")]);
+  says.sort((a, b) => a[0] - b[0]);
   let said = null;
   const say = t => { let s = ""; for (const [at, x] of says) if (t >= at) s = x; if (s !== said) { said = s; out.textContent = s; } };
   const pose = t => { // gun pose at time t, and the aim point
-    const u = rel != null && t >= rel ? (t - rel) / FLY : null, flying = u != null && u <= 1 && (hitT == null || t < hitT + .25);
-    const aim = flying ? TP(Math.min(1, u + .03)) : hitT != null && t >= hitT ? TP((hitT + .25 - rel) / FLY) : AIM0;
+    // after a shot (a hit or a miss) the gun follows through for 0.25 s and stays there: it never follows a missed target down
+    // toward the trap house (the safety check, tools/checks/check_safety.py)
+    const u = rel != null && t >= rel ? (t - rel) / FLY : null, flying = u != null && u <= 1 && (shotT == null || t < shotT + .25);
+    const aim = flying ? TP(Math.min(1, u + .03)) : shotT != null && t >= shotT ? TP((shotT + .25 - rel) / FLY) : AIM0;
     // Compak® Sporting gun-up (sc.up): the muzzles wait at the hold point AIM0 and never dip toward the trap house (a loader may
     // shelter there); they join the target once it has climbed to the hold height (y ≤ AIM0[1]), so before the shot the barrels
     // always point up (audit 08.10.2026: they used to snap down onto the trap at the release). SCENES: the shot comes ≥ 0.15 s later.
@@ -1788,6 +1823,17 @@ function standSim(host, kind, opts = {}){
       look = lerp(REST, aimL, ease(clamp01((t - rel) / .15)) * (1 - back)); }
     const wag = !rm && hitT != null && t >= hitT && t < hitT + 1 ? TAU * 4 * (t - hitT) : 0;
     return {ear: clamp01(ear), look, wag}; };
+  // the target at scene time t (drawn on the scene, and again inside the magnifier of a broken launch)
+  const target = (t, zoom) => { // zoom: inside the magnifier (no comet trail there: at × 3 it would hide the pieces)
+    if (rel != null && t >= rel) { const u = (t - rel) / FLY;
+    if (sc.broken) { // two pieces from the trap: the larger one on the target's line, the smaller one drifts off and falls
+      const k = Math.min(u, 1.2), [x, y] = TP(Math.min(1, u)), sx = x + 6 + 18 * k, sy = y + 3 + 60 * k * k, spin = RM() ? 0 : t * 9;
+      if (sy < GY - 8) piece(c, sx, sy, .75, .38, -1, spin * 1.4);
+      if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [bx, by] = TP((hitT - rel) / FLY); burst(c, bx, by, (t - hitT) * .8, {seed: 9}); } }
+      else if (u <= 1) { if (!zoom) comet(c, TP, u, .10, 6.5); piece(c, x, y, .75, .62, 1, spin); } }
+    else if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [x, y] = TP((hitT - rel) / FLY); burst(c, x, y, (t - hitT) * .8); } }
+    else if (u <= 1) { comet(c, TP, u, .10, 6.5); const [x, y] = TP(u); clay(c, x, y, .75, {}, 0, {spin: RM() ? 0 : t * 9}); } }
+  };
   let lastT = 0;
   const draw = t => {
     lastT = t; fit(cv, c); const m = MK(c), k = FK(c);
@@ -1803,9 +1849,7 @@ function standSim(host, kind, opts = {}){
       if (on) { const g = c.createRadialGradient(MIC_X, 246, 0, MIC_X, 246, 12); g.addColorStop(0, "rgba(52,211,153,.5)"); g.addColorStop(1, "rgba(52,211,153,0)"); c.fillStyle = g; dot(c, MIC_X, 246, 12); }
       c.fillStyle = on ? ART.em : "#1F2937"; box(c, MIC_X - 4, 240, 8, 12, 4); c.fill(); c.strokeStyle = "rgba(255,255,255,.25)"; c.lineWidth = 1; for (let i = 0; i < 3; i++) seg(c, MIC_X - 2.5, 243 + i * 3, MIC_X + 2.5, 243 + i * 3); }
     // the target: in the air (with its comet trail), broken by the shot, or (after a click) flying on unbroken
-    if (rel != null && t >= rel) { const u = (t - rel) / FLY;
-      if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [x, y] = TP((hitT - rel) / FLY); burst(c, x, y, (t - hitT) * .8); } }
-      else if (u <= 1) { comet(c, TP, u, .10, 6.5); const [x, y] = TP(u); clay(c, x, y, .75, {}, 0, {spin: RM() ? 0 : t * 9}); } }
+    target(t);
     // the people behind the stand and the dog, back to front: the handler, the trapper, the dog, the referee. A part that does not
     // move in this frame is a cached sprite (sprite(): same picture, one drawImage; review 08.10.2026), the others are drawn directly.
     const withDog = !!window.ClayMascot && !dogBroken, LH = restHand(HANDLER.x, HANDLER.h); LH[1] += HANDLER.dy; // the handler's hand with the lead
@@ -1851,7 +1895,7 @@ function standSim(host, kind, opts = {}){
     const g = pose(t), early = heelY(g) < LINE_Y && (rel == null || t < rel), muzzle = shooter(c, g, sc.line ? (early ? "bad" : "ok") : null); // the "line" pill is right of the stand now: no need to hide it during the signal
     if (sc.call != null && t >= sc.call && t < sc.call + .9) bubble(c, 196, 128, "Pull!", {age: t - sc.call});
     if (sc.mic && t >= sc.call && t < rel) { c.strokeStyle = rgba(ART.em, .8); c.lineWidth = 1.5; for (let i = 0; i < 3; i++) { c.beginPath(); c.arc(206, 166, 10 + i * 8, .2, 1.2); c.stroke(); } c.lineWidth = 1; } // the call heard by the microphone
-    if (hitT != null && t >= hitT) { if (t < hitT + .09) flash(c, muzzle, g.th, (t - hitT) / .09); smoke(c, GF(pose(hitT))(120, -BORE), t - hitT); }
+    if (shotT != null && t >= shotT) { if (t < shotT + .09) flash(c, muzzle, g.th, (t - shotT) / .09); smoke(c, GF(pose(shotT))(120, -BORE), t - shotT); }
     // gun-mount scene: when the mount is finished, the cheek rests on the comb (the top edge of the stock) and the head is still. The
     // mark is an amber highlight ALONG the top edge of the comb (gun frame u 8 → 27), not a ring: the comb is only about 6 px below
     // the eye, so a ring circled the amber lens and crossed the ear cup on a phone (review 08.10.2026: eye and ear protection must
@@ -1861,6 +1905,16 @@ function standSim(host, kind, opts = {}){
       c.strokeStyle = ART.amber; c.lineWidth = 2 * m; c.lineCap = "round"; c.beginPath(); c.moveTo(a0[0], a0[1]); c.quadraticCurveTo(a1[0], a1[1], a2[0], a2[1]); c.stroke(); c.lineCap = "butt"; c.lineWidth = 1;
       const yb = 145 - 8 - 4 * k, pb = pillBox(c, T("anim_cheek"), 150, yb, "left", 12, "650"), long = pb.x + pb.w > 400;
       label(c, T("anim_cheek"), long ? 178 : 150, yb, ART.amber, long ? "right" : "left"); }
+    // broken launch: at 0.75 scale the two pieces are a few px, so a magnifier (× 3, top left over the sky, a dashed line to the
+    // target) shows them from the release until just after the shot
+    if (sc.broken && rel != null && t >= rel && t < (hitT == null ? sc.end : hitT + .7)) { const u = Math.min(1, (t - rel) / FLY), [x, y] = TP(hitT != null && t >= hitT ? (hitT - rel) / FLY : u);
+      const Z = 3, R0 = 62, mx = 20 + R0, my = 12 + R0, a = Math.atan2(y - my, x - mx);
+      c.save(); c.strokeStyle = "rgba(243,244,246,.35)"; c.lineWidth = 1; c.setLineDash([3, 4]); seg(c, x - Math.cos(a) * 12, y - Math.sin(a) * 12, mx + Math.cos(a) * R0, my + Math.sin(a) * R0); c.setLineDash([]);
+      c.beginPath(); c.arc(x, y, 12, 0, TAU); c.stroke();
+      c.save(); c.beginPath(); c.arc(mx, my, R0, 0, TAU); c.clip(); const sg = c.createLinearGradient(0, my - R0, 0, my + R0); sg.addColorStop(0, ART.sky1); sg.addColorStop(1, ART.sky2);
+      c.fillStyle = sg; c.fillRect(mx - R0, my - R0, 2 * R0, 2 * R0); c.translate(mx, my); c.scale(Z, Z); c.translate(-x, -y); target(t, true); c.restore();
+      c.strokeStyle = "rgba(243,244,246,.55)"; c.lineWidth = 1.5; c.beginPath(); c.arc(mx, my, R0, 0, TAU); c.stroke();
+      c.fillStyle = ART.muted; font(c, 11, "600"); c.textAlign = "right"; c.textBaseline = "top"; c.fillText("× " + Z, mx + R0 - 8, my - R0 + 14); c.restore(); }
     c.setTransform(c._s, 0, 0, c._s, 0, 0);
     // the clock (call and release scenes): over the sky on wide screens, in the band above the scene on narrow ones
     if (sc.timer) { const v = t < t0c ? 0 : Math.min(t, rel) - t0c; clock(c, v, T(sc.timer === "signal" ? "anim_after_signal" : "anim_after_call"), t < rel ? "run" : v > CALL.limit ? "late" : "ok", band ? ck : 1); }

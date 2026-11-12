@@ -34,7 +34,12 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch2-trigger-manual",
     "ch20-target-no-bird-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "manual-late",
+    "after": true
+   }
   },
   {
    "id": "cs-q002",
@@ -2039,7 +2044,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch20-target-no-bird-cases",
     "ch21-refusal"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "uncalled-shot"
+   }
   },
   {
    "id": "cs-q064",
@@ -2145,7 +2154,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch21-shooting-no-bird",
     "ch21-penalty-table"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "nobird-shot"
+   }
   },
   {
    "id": "cs-q067",

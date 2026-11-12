@@ -167,7 +167,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch5-refusing-target",
     "ch6-nobird-target-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "uncalled"
+   }
   },
   {
    "id": "sp-q006",
@@ -198,7 +202,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch6-nobird-target-cases",
     "ch6-nobird-target-single-rabbit"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "broken-launch"
+   }
   },
   {
    "id": "sp-q007",
@@ -810,7 +818,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch12-shooting-nobird",
     "ch13-acceptance"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "nobird-shot"
+   }
   },
   {
    "id": "sp-q026",

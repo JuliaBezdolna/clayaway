@@ -89,13 +89,14 @@ export async function checkRulesData({ quiet = false } = {}) {
       const m = depth === 0 && /"?([a-z][a-z-]*)"?\s*:$/.exec(tok); if (m) { out.add(m[1]); tok = ""; } }
     return out; };
   const SIMK = {flight: keysOf("FLIGHTS"), pair: keysOf("PAIRS"), call: keysOf("SCENES"), ties: keysOf("TIES"), hit: keysOf("HIT")};
-  const SPORTING_ONLY = new Set(["rafale", "signal", "signal-late", "gun-ready", "gun-early"]);
+  const SPORTING_ONLY = new Set(["rafale", "signal", "signal-late", "gun-ready", "gun-early", "broken-launch"]), COMPAK_ONLY = new Set(["manual", "manual-late", "sonopull"]);
   const simCheck = (w, key, sim) => { if (!sim) return;
     if (sim.after !== undefined && sim.after !== true) E(`${w}: sim.after is true or absent`);
     const set = SIMK[sim.type]; if (!set) { E(`${w}: sim type "${sim.type}" is not drawn in the trainer (flight, pair, call, ties, hit)`); return; }
     for (const k of [sim.type === "flight" ? sim.preset : sim.kind, ...(sim.also || [])]) {
       if (!set.has(k)) E(`${w}: sim ${sim.type} "${k}" is not in docs/shared/sims.js`);
-      if (key === "compak" && SPORTING_ONLY.has(k)) E(`${w}: sim "${k}" is a Sporting™ scene, not for Compak® Sporting`); } };
+      if (key === "compak" && SPORTING_ONLY.has(k)) E(`${w}: sim "${k}" is a Sporting™ scene, not for Compak® Sporting`);
+      if (key === "sporting" && COMPAK_ONLY.has(k)) E(`${w}: sim "${k}" is a Compak® Sporting scene, not for Sporting™`); } };
   const qids = new Map();
   for (const bank of banks) {
     if (!books.some(b => b.key === bank.key)) E(`quiz-${bank.key}.js: no rulebook "${bank.key}"`);
