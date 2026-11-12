@@ -17,10 +17,22 @@
    Plain ES2018. */
 (function (root) {
   "use strict";
-  const LET = "\\p{L}\\p{M}\\p{N}";
+  // letters, marks and digits of the texts (uk and en): explicit ranges instead of \p{L}\p{M}\p{N}, which made every pattern slow to
+  // compile (Latin with Latin-1 and Extended-A/B, modifier letters with the Ukrainian apostrophe ʼ, combining marks, Greek, Cyrillic)
+  const LET = "0-9A-Za-z\\u00AA\\u00B5\\u00BA\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u024F\\u02B0-\\u02FF\\u0300-\\u036F\\u0370-\\u03FF\\u0400-\\u052F";
   const escR = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const CYR = /[а-яіїєґ]/i;
-  const cache = new Map();
+  const cache = new Map(), gcache = new Map(), ncache = new Map();
+  // Speed (final check 12.11.2026: Lighthouse /rules/ 73, TBT 1.7 s, 3.3 s of script here): a regex with \p{…} classes is costly to
+  // build, and link() built a new global one for every name of every candidate on every call (115 items × terms × names × texts).
+  // Now the global regex is cached per name, and a name is tried only when the text contains its needle: the lower-case first word
+  // (a Cyrillic word of 5+ letters without its last two letters, as in the pattern). The result is exactly the same.
+  function needle(name) {
+    if (ncache.has(name)) return ncache.get(name);
+    const w = String(name).trim().split(/\s+/)[0] || "", n = (CYR.test(w) && w.length >= 5 ? w.slice(0, w.length - 2) : w).toLowerCase();
+    ncache.set(name, n); return n;
+  }
+  function gpattern(name) { if (!gcache.has(name)) gcache.set(name, new RegExp(pattern(name).source, "giu")); return gcache.get(name); }
   function pattern(name) {
     if (cache.has(name)) return cache.get(name);
     const ws = String(name).trim().split(/\s+/);
@@ -40,9 +52,11 @@
   // 3. a name inside a longer name of another term is not a mention of its own («Parcours» in «Parcours de Chasse», «дуплет» in
   //    «одночасний дуплет»); at the same starting place the longer name wins; two links never overlap.
   function link(text, cands, used, esc) {
-    const s = String(text == null ? "" : text), hits = [], all = [];
+    const s = String(text == null ? "" : text), low = s.toLowerCase(), hits = [], all = [];
     const add = (c, list, tier) => { for (const n0 of list || []) { const n = String(n0 || "").replace(/[™®]/g, "").trim(); if (n.length < 3) continue;
-      for (const r of s.matchAll(new RegExp(pattern(n).source, "giu"))) all.push({ a: r.index, b: r.index + r[0].length, c, tier }); } };
+      if (!low.includes(needle(n))) continue; // the name cannot be in this text
+      const re = gpattern(n); re.lastIndex = 0; let r; // exec on the cached regex: matchAll() would clone (and compile) it every call
+      while ((r = re.exec(s))) { all.push({ a: r.index, b: r.index + r[0].length, c, tier }); if (!r[0]) re.lastIndex++; } } };
     // terms already linked earlier in the item still count for rules 2 and 3 (they only get no second link)
     for (const c of cands || []) { add(c, c.names, 0); add(c, c.more, 1); }
     const key = m => m.a + ":" + m.b, owners = new Map();
