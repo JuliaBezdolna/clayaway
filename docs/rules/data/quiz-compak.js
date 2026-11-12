@@ -194,7 +194,15 @@ window.RULES_QUIZ.push({
    "explain_uk": "Блок sonopull має фіксовану затримку 0,5 секунди, яку не можна змінити; при ручному запуску — від 0 до 3 секунд.",
    "refs": [
     "ch2-trigger-manual"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "sonopull",
+    "also": [
+     "manual"
+    ],
+    "after": true
+   }
   },
   {
    "id": "cs-q007",
@@ -951,7 +959,15 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch14-countback",
     "ch14-shootoff-medals"
-   ]
+   ],
+   "sim": {
+    "type": "ties",
+    "kind": "shoot-off",
+    "also": [
+     "countback"
+    ],
+    "after": true
+   }
   },
   {
    "id": "cs-q031",
@@ -1765,7 +1781,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch20-gun-failure-first-shot",
     "ch20-gun-failure-principle"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "misfire"
+   }
   },
   {
    "id": "cs-q057",
@@ -1797,7 +1817,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Таблиця NO BIRD діє лише для першої відмови в серії. Коли така сама відмова стається вдруге, усі мішені цієї серії, по яких ще не стріляли, — ZERO (червона картка).",
    "refs": [
     "ch20-gun-failure-principle"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "misfire"
+   }
   },
   {
    "id": "cs-q058",

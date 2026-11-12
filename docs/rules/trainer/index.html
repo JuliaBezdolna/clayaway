@@ -150,6 +150,7 @@ p{margin:0 0 10px;max-width:70ch}
 .verdict.ok i{background:var(--em)}.verdict.no i{background:var(--red)}
 .verdict b{color:#fff}
 .expl{color:var(--soft);margin-top:10px}
+.qsim.after{margin-top:14px}
 /* the rule under an answer, as on the rules pages: number badge (FITASC reference in its tooltip), title, PDF page */
 .qrefs{display:grid;gap:6px;margin-top:12px}
 .qrefs .rr{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
@@ -453,10 +454,14 @@ function verdictHTML(q,picked,order){ const ok=picked===q.answer, k=order.indexO
 function qCard(q,picked,reveal,idx,total,ord){
   const order=validOrd(ord,q)?ord:q.options.map((_,i)=>i), LT=LETTERS();
   return `<div class="qcard"><div class="qhead"><span class="type ${q.type}">${t(q.type)||q.type}</span><span class="qch">${idx!=null&&S.view==="result"?`${t("q")} ${idx+1} ${t("of")} ${total} · `:""}${chapLabel(q)} · ${t("l"+q.level)||""}</span></div>
-    ${q.sim?`<div class="qsim" data-clay-sim='${JSON.stringify(q.sim)}'></div>`:""}<h2>${esc(tx(q,"q"))}</h2><div class="opts">${order.map((i,k)=>{ const o=q.options[i]; let c=""; if(reveal){ if(i===q.answer)c="right"; else if(i===picked)c="wrong"; } else if(i===picked)c="chosen";
+    ${q.sim&&!q.sim.after?simDiv(q):""}<h2>${esc(tx(q,"q"))}</h2><div class="opts">${order.map((i,k)=>{ const o=q.options[i]; let c=""; if(reveal){ if(i===q.answer)c="right"; else if(i===picked)c="wrong"; } else if(i===picked)c="chosen";
       return `<button ${reveal||picked!=null?"disabled":""} class="${c}" data-opt="${i}"><span class="lt" aria-hidden="true">${q.type==="truefalse"?(i===0?"✓":"✕"):LT[k]}</span><span>${esc(optText(q,o,i))}</span></button>`; }).join("")}</div>
-    ${reveal?`<div class="ans">${verdictHTML(q,picked,order)}<div class="expl">${esc(tx(q,"explain"))}</div>${refsHTML(q)}</div>`:""}</div>`;
+    ${reveal?`<div class="ans">${verdictHTML(q,picked,order)}<div class="expl">${esc(tx(q,"explain"))}</div>${q.sim&&q.sim.after&&S.view==="run"?simDiv(q):""}${refsHTML(q)}</div>`:""}</div>`;
 }
+/* The animation of a question (rules/QUIZ_SCHEMA.md "sim"): above the question, or with "after": true (a scene whose captions name
+   the answer: the late target is No Bird, the first gun-up is a yellow card, the sonopull delay, countback) under the explanation,
+   once the answer is shown (the quick test and my mistakes; the exam and the short test show the answers only at the end). */
+const simDiv=q=>`<div class="qsim${q.sim.after?" after":""}" data-clay-sim='${JSON.stringify(q.sim)}'></div>`;
 /* The track: one segment per question. Answered: green / red (exam and short test: grey, the answer comes at the end);
    cur = the question on screen, not answered yet. On the result screen (cur=false) every answer is shown right or wrong. */
 function trackHTML(r,cur){ const ex=cur&&EXAMLIKE(r.mode);

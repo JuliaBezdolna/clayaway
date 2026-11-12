@@ -50,6 +50,17 @@ Drawn by the shared module `docs/shared/sims.js` (the same one the Academy, its 
 - `{type: "flight", preset}`: one target flight. `preset` is a key of `FLIGHTS` in `sims.js`
   (`crosser-lr`, `crosser-rl`, `incomer`, `driven`, `going-away`, `overhead`, `quartering-away`, `quartering-towards`,
   `teal`, `chandelle`, `looper`, `battue`, `dropping`, `rabbit`).
+- `{type: "call", kind, also?}`: a scene on the stand (11.11.2026). `kind` is a key of `SCENES` in `sims.js`: `signal`,
+  `signal-late` (target later than 3 s after the referee's signal → No Bird), `gun-ready`, `gun-early` (gun up on the call: first
+  time a warning with a yellow card) — Sporting™ only; `manual`, `sonopull` — Compak® Sporting release; `misfire` (stay put, gun
+  closed, pointing down the range, until the referee has checked it), `mount`.
+- `{type: "ties", kind, also?}`: `shoot-off` (places 1–3) or `countback` (below third place, from the last layout / Compak back).
+- `also: [...]`: more kinds of the same type, shown as tabs (the first tab is `kind`).
+- `after: true`: the scene is shown under the explanation once the answer is revealed, not above the question. Use it whenever
+  the scene or its caption names the answer (a late target is No Bird, the first gun-up is a yellow card, the sonopull delay,
+  countback below third place): an animation must never give the answer away.
+- `bun scripts/check_rules_data.mjs` checks that every kind exists in `sims.js` and that no Sporting™-only scene or rafale is in
+  a Compak® Sporting question.
 - The animation must show exactly the double or target the question is about (a question on a double on report gets
   `kind: "report"`, not a simultaneous pair). No animation is better than a wrong one.
 
