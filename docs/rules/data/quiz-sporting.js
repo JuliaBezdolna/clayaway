@@ -31,7 +31,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch6-target-zero",
     "ch6-target-one"
-   ]
+   ],
+   "sim": {
+    "type": "hit",
+    "kind": "dust"
+   }
   },
   {
    "id": "sp-q002",
@@ -61,7 +65,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Достатньо одного видимого уламка: правильно запущена мішень, по якій стріляли з правильної позиції, зараховується, якщо від неї видимо відлетів хоча б один шматок.",
    "refs": [
     "ch6-target-one"
-   ]
+   ],
+   "sim": {
+    "type": "hit",
+    "kind": "chip"
+   }
   },
   {
    "id": "sp-q003",

@@ -76,7 +76,7 @@ export async function checkRulesData({ quiet = false } = {}) {
   });
 
   // ---- trainer banks
-  /* Animations (sim, rules/QUIZ_SCHEMA.md): the kind must exist in docs/shared/sims.js (keys of FLIGHTS, PAIRS, SCENES, TIES), a
+  /* Animations (sim, rules/QUIZ_SCHEMA.md): the kind must exist in docs/shared/sims.js (keys of FLIGHTS, PAIRS, SCENES, TIES, HIT), a
      rafale never in Compak® Sporting, a Sporting™ scene (referee signal, ready position, gun up on the call) never in Compak®.
      Read from the source text: sims.js is a browser module. */
   const SJS = readFileSync(path.join(ROOT, "docs", "shared", "sims.js"), "utf8");
@@ -88,11 +88,11 @@ export async function checkRulesData({ quiet = false } = {}) {
       if (depth === 0 && c === ",") tok = "";
       const m = depth === 0 && /"?([a-z][a-z-]*)"?\s*:$/.exec(tok); if (m) { out.add(m[1]); tok = ""; } }
     return out; };
-  const SIMK = {flight: keysOf("FLIGHTS"), pair: keysOf("PAIRS"), call: keysOf("SCENES"), ties: keysOf("TIES")};
+  const SIMK = {flight: keysOf("FLIGHTS"), pair: keysOf("PAIRS"), call: keysOf("SCENES"), ties: keysOf("TIES"), hit: keysOf("HIT")};
   const SPORTING_ONLY = new Set(["rafale", "signal", "signal-late", "gun-ready", "gun-early"]);
   const simCheck = (w, key, sim) => { if (!sim) return;
     if (sim.after !== undefined && sim.after !== true) E(`${w}: sim.after is true or absent`);
-    const set = SIMK[sim.type]; if (!set) { E(`${w}: sim type "${sim.type}" is not drawn in the trainer (flight, pair, call, ties)`); return; }
+    const set = SIMK[sim.type]; if (!set) { E(`${w}: sim type "${sim.type}" is not drawn in the trainer (flight, pair, call, ties, hit)`); return; }
     for (const k of [sim.type === "flight" ? sim.preset : sim.kind, ...(sim.also || [])]) {
       if (!set.has(k)) E(`${w}: sim ${sim.type} "${k}" is not in docs/shared/sims.js`);
       if (key === "compak" && SPORTING_ONLY.has(k)) E(`${w}: sim "${k}" is a Sporting™ scene, not for Compak® Sporting`); } };

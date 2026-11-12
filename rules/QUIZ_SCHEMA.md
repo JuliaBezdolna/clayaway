@@ -55,6 +55,8 @@ Drawn by the shared module `docs/shared/sims.js` (the same one the Academy, its 
   time a warning with a yellow card) — Sporting™ only; `manual`, `sonopull` — Compak® Sporting release; `misfire` (stay put, gun
   closed, pointing down the range, until the referee has checked it), `mount`.
 - `{type: "ties", kind, also?}`: `shoot-off` (places 1–3) or `countback` (below third place, from the last layout / Compak back).
+- `{type: "hit", kind}` (12.11.2026): is it a hit — the edge of the pattern touches a crosser, a magnifier follows the clay.
+  `dust` (only a puff of dust, the clay flies on whole) or `chip` (one small visible piece breaks away). No verdict is shown.
 - `also: [...]`: more kinds of the same type, shown as tabs (the first tab is `kind`).
 - `after: true`: the scene is shown under the explanation once the answer is revealed, not above the question. Use it whenever
   the scene or its caption names the answer (a late target is No Bird, the first gun-up is a yellow card, the sonopull delay,

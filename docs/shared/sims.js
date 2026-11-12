@@ -259,6 +259,10 @@ const DEF = {
   anim_miss_front: "In front: too much lead, often after over-correcting. Many coaches like this miss: it shows the gun kept moving.",
   anim_miss_over: "Over: common on dropping targets, rabbits and incomers, and often linked to the head coming off the stock.",
   anim_miss_under: "Under: typical on rising targets that are still climbing at the shot.",
+  anim_h_hit: "Watch what happens to the clay", anim_w_hit: "The magnifier follows the clay from the shot: dust only, or a piece that breaks away.",
+  anim_t_hit_dust: "Only dust", anim_t_hit_chip: "A visible piece",
+  anim_hit_dust: "The edge of the pattern touches the clay: a puff of dust, but not one piece breaks away — the clay flies on whole.",
+  anim_hit_chip: "The edge of the pattern touches the clay: one small piece breaks away and is clearly seen; the rest of the clay flies on.",
   anim_h_ties: "Watch how ties are broken",
   anim_w_ties: "Places 1–3: a shoot-off; below third: countback (in Compak® Sporting the same, from the 8th Compak to the 1st). The numbers are an example: 200 targets, 8 layouts of 25.",
   anim_ties_shooter: "Shooter", anim_ties_total: "Total", anim_ties_place: "Place", anim_ties_layout: "Layout",
@@ -973,6 +977,82 @@ function missSim(host, kind, opts = {}){
     if (t < 1) raf = requestAnimationFrame(frame); else { raf = 0; setPlay(host, false); } };
   // still picture before it plays: the whole flight line, the gun at the shot and the shot cloud beside the clay at the impact
   const poster = () => scene(tI, true);
+  const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * slowF(); setPlay(host, true); raf = requestAnimationFrame(frame); };
+  const halt = () => { cancelAnimationFrame(raf); raf = 0; setPlay(host, false); poster(); };
+  wire(host, run, null, halt); poster();
+  const unwatch = watchSize(cv, () => { if (!raf) poster(); });
+  const off = autoStart(host, cv, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
+  const s = {stop: () => { off(); unwatch(); cancelAnimationFrame(raf); raf = 0; }, run}; SIMS.push(s); return s;
+}
+
+/* Is it a hit? (rules trainer, 12.11.2026): the edge of the pattern just touches a crosser and only that is shown — no verdict, the
+   question asks for it. "dust": a puff of clay dust, not one piece breaks away, the clay flies on whole; "chip": one small, clearly
+   visible piece breaks away and falls, the rest flies on. The view, the shooter and the shot are those of missSim (the gun drifts a
+   little behind, the pattern ring passes with its front edge over the back half of the clay; two pellets touch it). A target is
+   ~10 px on the canvas, so a MAGNIFIER (× HZ, top left, joined to the clay by a dashed line) follows the clay from just before the
+   impact to the end: the dust and the piece are drawn relative to the clay, the same in the magnifier and on the scene. Canvas words
+   English (CANVAS_EN rule); what happens is HTML text under the canvas (ui anim_hit_<kind>). Reduced motion: no spin; the poster is
+   the frame 0.25 s after the impact. */
+const HIT = {dust: {word: "dust"}, chip: {word: "piece"}};
+function hitSim(host, kind, opts = {}){
+  const hs = HIT[kind] || HIT.dust, f = FLIGHTS["crosser-lr"], W = 720, H = 380, RR = 26, tS = .42, tI = tS + .03, HZ = 4;
+  const SEC = 2.4; // seconds of the scene at normal speed (dur 2400 ms): k = seconds since the impact = (t − tI) · SEC
+  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(T("anim_t_hit_" + kind))}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}</div>`
+    + `<div class="cs-out">${esc(T("anim_hit_" + kind))}</div></div>`;
+  const cv = logical(host.querySelector("canvas"), W, H), c = cv.getContext("2d"); let raf = 0, t0 = 0, dur = 2400;
+  const P = t => { const [x, y] = f.p(t); return [x * W, y * H]; };
+  const OFF = -.92 * RR; // the ring centre is this far behind the clay at the impact: its front edge crosses the clay's back half
+  const ringC = () => { const [x, y] = P(tI); return [x + OFF, y]; };
+  const aimAt = t => { const k = ease(clamp01((Math.min(t, tI + .2) - (tS - .25)) / .25)), [x, y] = P(Math.min(t, tI + .2)); return [x + OFF * k, y]; };
+  const mounted = t => ease(clamp01((t - (tS - .32)) / .14));
+  const pellets = (() => { const R = rng(4111), a = []; for (let i = 0; i < 24; i++) { const r = RR * Math.sqrt(R()), th = R() * TAU, px = r * Math.cos(th), py = r * Math.sin(th);
+    if (Math.hypot(px + OFF, py) > 9) a.push([px, py]); } a.push([-OFF - 5, -1.5], [-OFF - 3, 2.5]); return a; })(); // the two that touch the clay
+  const cloud = (k, still) => { if (k < 0 || k > 1) return; const [x, y] = ringC(), m = MK(c);
+    c.save(); c.globalAlpha = still ? 1 : 1 - k * k; c.fillStyle = "rgba(34,211,238,.10)"; c.beginPath(); c.arc(x, y, RR, 0, TAU); c.fill();
+    c.strokeStyle = ART.cyan; c.lineWidth = 1.4 * m; c.setLineDash([5 * m, 4 * m]); c.beginPath(); c.arc(x, y, RR, 0, TAU); c.stroke(); c.setLineDash([]);
+    c.fillStyle = "#E0F7FB"; pellets.forEach(([px, py]) => dot(c, x + px, y + py, 1.2 * m)); c.restore(); };
+  // the piece: off the back edge, up, then it falls behind the clay (px of the scene, relative to the clay centre, × z)
+  const piecePos = (k, z) => { const m = MK(c) * z; return [(-6 - 30 * k) * m, (-3 - 34 * k + 75 * k * k) * m]; };
+  // the effect, relative to the clay centre, k seconds after the impact, × z (1 on the scene, HZ in the magnifier)
+  const effect = (k, z) => { if (k < 0) return; const m = MK(c) * z;
+    const da = Math.max(0, .85 - .75 * k), dx = (-4 - 34 * k) * m, dy = (-1 - 5 * k) * m, dr = (4 + 22 * Math.min(1, k * 1.6)) * m; // dust: lags behind and fades
+    if (da > 0) { const g = c.createRadialGradient(dx, dy, 0, dx, dy, dr); g.addColorStop(0, `rgba(222,208,192,${da})`); g.addColorStop(.6, `rgba(222,208,192,${da * .5})`); g.addColorStop(1, "rgba(222,208,192,0)");
+      c.fillStyle = g; c.fillRect(dx - dr, dy - dr, 2 * dr, 2 * dr); }
+    if (kind !== "chip") return;
+    const ca = k < .7 ? 1 : Math.max(0, 1 - (k - .7) / .3); if (ca <= 0) return;
+    const sz = 2.6 * m, [cx, cy] = piecePos(k, z);
+    c.save(); c.globalAlpha *= ca; c.translate(cx, cy); c.rotate(RM() ? .4 : .4 + 9 * k); c.fillStyle = ART.clayTop; c.strokeStyle = ART.clayRim; c.lineWidth = .6 * m;
+    c.beginPath(); c.moveTo(-sz, -sz * .45); c.lineTo(sz, -sz * .15); c.lineTo(-sz * .1, sz * .75); c.closePath(); c.fill(); c.stroke(); c.restore(); };
+  const scene = (t, still) => { fit(cv, c); layer(c, "flight", W, H, flightPaint); const m = MK(c), k = (t - tI) * SEC;
+    pathDots(c, P, 0, still ? 1 : t, still ? ART.path : "rgba(110,231,183,.35)");
+    const tip = shooterBack(c, W / 2, H, aimAt(t), {mounted: mounted(t)});
+    if (!still && t >= tS && t < tS + .06) { const [ax, ay] = aimAt(t); flash(c, tip, Math.atan2(ay - tip[1], ax - tip[0]), (t - tS) / .06); }
+    const ck = (t - tI) / .45; cloud(ck, false);
+    const [x, y] = P(t), spin = RM() ? .6 : t * 21.6;
+    if (!still) comet(c, P, t, .13, 9 * f.s(t)); clay(c, x, y, f.s(t), f, t, {spin});
+    c.save(); c.translate(x, y); effect(k, 1); c.restore();
+    if (t < tI - .1) return;
+    // the magnifier: a round window top right, the clay × HZ at its centre, the ring edge and the effect around it
+    const R0 = 80 * m, mx = 16 * m + R0, my = 12 * m + R0; // top left: the clay flies away from it
+    c.save(); c.globalAlpha = clamp01((t - (tI - .1)) / .05);
+    const a = Math.atan2(y - my, x - mx); c.strokeStyle = "rgba(243,244,246,.35)"; c.lineWidth = m; c.setLineDash([3 * m, 4 * m]);
+    seg(c, x - Math.cos(a) * 12 * m, y - Math.sin(a) * 12 * m, mx + Math.cos(a) * R0, my + Math.sin(a) * R0); c.setLineDash([]);
+    c.beginPath(); c.arc(x, y, 12 * m, 0, TAU); c.stroke();
+    c.save(); c.beginPath(); c.arc(mx, my, R0, 0, TAU); c.clip();
+    const g = c.createLinearGradient(0, my - R0, 0, my + R0); g.addColorStop(0, ART.sky1); g.addColorStop(1, ART.sky2); c.fillStyle = g; c.fillRect(mx - R0, my - R0, 2 * R0, 2 * R0);
+    c.translate(mx, my);
+    if (ck >= 0 && ck <= 1) { const [rx, ry] = ringC(); c.save(); c.globalAlpha *= 1 - ck * ck; c.scale(HZ, HZ); c.translate(rx - x, ry - y);
+      c.strokeStyle = ART.cyan; c.lineWidth = 1.6 * m / HZ; c.setLineDash([5 * m / HZ, 4 * m / HZ]); c.beginPath(); c.arc(0, 0, RR, 0, TAU); c.stroke(); c.setLineDash([]);
+      c.fillStyle = "#E0F7FB"; pellets.forEach(([px, py]) => dot(c, px, py, 1.1 * m)); c.restore(); }
+    c.save(); c.scale(HZ, HZ); clay(c, 0, 0, f.s(t), f, t, {spin}); c.restore();
+    effect(k, HZ); c.restore();
+    c.strokeStyle = "rgba(243,244,246,.55)"; c.lineWidth = 1.5 * m; c.beginPath(); c.arc(mx, my, R0, 0, TAU); c.stroke();
+    c.fillStyle = ART.muted; c.font = `600 ${11 * FK(c)}px system-ui, sans-serif`; c.textAlign = "right"; c.textBaseline = "top"; c.fillText("× " + HZ, mx + R0 - 10 * m, my - R0 + 18 * m);
+    if (k > .06) label(c, hs.word, mx, my + R0 + 18 * m, kind === "chip" ? ART.clayHi : ART.ink);
+    c.restore(); };
+  const frame = ts => { if (!t0) t0 = ts; const t = Math.min(1, (ts - t0) / dur); scene(t, false);
+    if (t < 1) raf = requestAnimationFrame(frame); else { raf = 0; setPlay(host, false); } };
+  const poster = () => scene(tI + .25 / SEC, true);
   const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * slowF(); setPlay(host, true); raf = requestAnimationFrame(frame); };
   const halt = () => { cancelAnimationFrame(raf); raf = 0; setPlay(host, false); poster(); };
   wire(host, run, null, halt); poster();
@@ -1826,12 +1906,13 @@ function mount(host, sim, o = {}){ if (!host || !sim) return;
   else if (sim.type === "stock") tabs = [sim.kind || "lop", ...(sim.also || [])].filter(k => STOCK[k]).map(k => ({k: "s:" + k, label: termLabel(STOCK[k].term)}));
   else if (sim.type === "ties") tabs = [sim.kind || "countback", ...(sim.also || [])].filter(k => TIES[k]).map(k => ({k: "t:" + k, label: termLabel(TIES[k].term)}));
   else if (sim.type === "miss") tabs = [sim.kind || "behind", ...(sim.also || [])].filter(k => MISS[k]).map(k => ({k: "m:" + k, label: termLabel(MISS[k].term)}));
+  else if (sim.type === "hit") tabs = [sim.kind || "dust", ...(sim.also || [])].filter(k => HIT[k]).map(k => ({k: "h:" + k, label: T("anim_t_hit_" + k)}));
   else if (sim.type === "pair") tabs = [sim.kind, ...(sim.also || [])].filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}));
   else if (sim.type === "call") tabs = [sim.kind || "signal", ...(sim.also || [])].filter(k => SCENES[k]).map(k => ({k: "c:" + k, label: sceneTitle(SCENES[k])}));
   else return; // a type without an animation mounts nothing
   const show = (el, k, a) => { const x = k.slice(2), op = {autoplay: a, onAutoplay: done, onUser};
-    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : k.startsWith("t:") ? tiesSim(el, x, op) : k.startsWith("s:") ? stockSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
-  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : sim.type === "ties" ? "t:countback" : sim.type === "stock" ? "s:lop" : "f:" + sim.preset}];
+    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : k.startsWith("h:") ? hitSim(el, x, op) : k.startsWith("t:") ? tiesSim(el, x, op) : k.startsWith("s:") ? stockSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
+  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : sim.type === "hit" ? "h:dust" : sim.type === "ties" ? "t:countback" : sim.type === "stock" ? "s:lop" : "f:" + sim.preset}];
   if (tabs.length < 2) return show(host, tabs[0].k, ap);
   const first = o.tab && tabs.some(b => b.k === o.tab) ? o.tab : tabs[0].k;
   host.innerHTML = `<div class="cs-tabs" role="group">${tabs.map(b => `<button type="button" class="cs-btn${b.k === first ? " cs-primary" : ""}" data-p="${esc(b.k)}" aria-pressed="${b.k === first}">${esc(b.label)}</button>`).join("")}</div><div></div>`;
@@ -1847,6 +1928,7 @@ function kind(sim){ sim = sim || {};
   if (sim.type === "pair") return "pair";
   if (sim.type === "pattern") return "pattern";
   if (sim.type === "miss") return "miss";
+  if (sim.type === "hit") return "hit";
   if (sim.type === "ties") return "ties";
   if (sim.type === "stock") return "stock";
   if (sim.type === "lead") return sim.focus === "mount" ? "mount" : sim.focus === "follow-through" ? "follow" : "lead";
