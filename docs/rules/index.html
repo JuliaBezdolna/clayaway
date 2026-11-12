@@ -75,7 +75,7 @@ p{margin:0 0 10px;max-width:72ch}
    lead → one big search field + "frequently searched" topics → three tiles (trainer, age categories, all questions) → a small
    service line (official PDF, edition, quick guide, update check). Before: four service lines and the trainer/categories buttons
    above the search, the field at 584 px on a 375 px phone and 8 long example questions (434 px) under it. */
-.big{display:flex;align-items:center;gap:8px;background:#030712;border:1.5px solid rgba(52,211,153,.55);border-radius:16px;padding:4px 4px 4px 14px;margin:12px 0 10px;min-height:58px}
+.big{display:flex;align-items:center;gap:8px;background:#030712;border:1.5px solid rgba(52,211,153,.55);border-radius:12px;padding:4px 4px 4px 14px;margin:12px 0 10px;min-height:58px}
 .big:focus-within{border-color:var(--em);box-shadow:0 0 0 3px rgba(52,211,153,.2)}
 .big .lo{font-size:18px;color:var(--muted)}
 .big input{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);font:inherit;font-size:17px;padding:10px 0;outline:none}
@@ -102,11 +102,13 @@ p{margin:0 0 10px;max-width:72ch}
 .btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px}
 .btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
 .answer{margin:16px 0;display:grid;gap:10px}
-.ans-main{background:var(--surface);border:1px solid rgba(52,211,153,.35);border-radius:14px;padding:16px 18px}
-.ans-main .q{font-size:13px;color:var(--muted);margin-bottom:4px}
+/* 12.11.2026: the cards and badges of the Glossary (rounded 12 px, border white/10 — here emerald, it is the answer —, gradient white/10 → white/5;
+   the label «Відповідь» as the pill of «Що це» on a term page) */
+.ans-main{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid rgba(52,211,153,.35);border-radius:12px;padding:16px 18px}
+.ans-main .q{font-size:13px;color:var(--muted);margin-bottom:8px}.ans-main .lbl{display:inline-flex;align-items:center;margin-right:6px;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
 .ans-main .a{font-size:16.5px;line-height:1.65}
 .refs{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-.refs button,.refs a{border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:999px;padding:3px 10px;font-size:12.5px;color:var(--em);text-decoration:none}
+.refs button,.refs a{border:1px solid var(--line);background:rgba(255,255,255,.05);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--em);text-decoration:none}
 .refs button.num{color:#6ee7b7;font-weight:600;letter-spacing:.04em}
 .also{font-size:13px;color:var(--muted)}
 .layout>*{min-width:0}
@@ -142,8 +144,9 @@ p{margin:0 0 10px;max-width:72ch}
 .item.flash{animation:fl 1.4s ease-out}
 @keyframes fl{0%{box-shadow:0 0 0 0 rgba(52,211,153,.6)}100%{box-shadow:0 0 0 14px rgba(52,211,153,0)}}
 .pdf{font-size:13px}
-/* the words of the answer that matched the question (markAns()): amber as the «є в пам'ятці суддів» badge, not green (green = links) */
-mark.hl{background:rgba(245,158,11,.22);color:#fff;border-radius:3px;padding:0 1px;box-shadow:inset 0 -1px 0 rgba(252,211,77,.55)}
+/* the words of the answer that matched the question (markAns()): the look of the highlighted clear button «✕» of the search field
+   (.clr:hover — white text on white/12, rounded), not green (green = links); 12.11.2026, Юлія: the amber stood out of the style */
+mark.hl{background:rgba(255,255,255,.12);color:#fff;border-radius:4px;padding:0 2px}
 @media print{mark.hl{background:none;color:inherit;box-shadow:none;font-weight:700}}
 /* glossary terms of a rule item (wave 3, as on the chapter pages, scripts/build_seo.mjs GT_CSS): links in the text, the rest as chips
    («Ще:»), a card with the short definition (termCard() below) */
@@ -462,7 +465,7 @@ function answerHTML(book){
   if(!r.faq.length&&!r.items.length) return `<div class="answer"><div class="empty">${t("none")}</div></div>`;
   const I=idx(book); let h=`<div class="answer">`;
   const top=r.faq[0], topItem=r.items[0];
-  if(r.lead){ const f=top.d.f; h+=`<div class="ans-main"><div class="q">${t("answer")} · ${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?refBtn(I.byId[id]):"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdfS")} ${it.page} ↗</a>`).join("")}</div></div>`;
+  if(r.lead){ const f=top.d.f; h+=`<div class="ans-main"><div class="q"><span class="lbl">${t("answer")}</span>${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?refBtn(I.byId[id]):"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdfS")} ${it.page} ↗</a>`).join("")}</div></div>`;
     if(r.faq.length>1) h+=`<div class="also">${t("similar")}: ${r.faq.slice(1).map(x=>`<button class="btn" style="padding:2px 9px;font-size:12.5px" data-q="${esc(tx(x.d.f,"q"))}">${esc(tx(x.d.f,"q"))}</button>`).join(" ")}</div>`; }
   if(r.items.length){ h+=`<h3 style="margin-top:6px">${t("rel")}</h3>`+r.items.slice(0,4).map((x,i)=>itemHTML(book,x.d.it,i===0&&!r.lead)).join(""); }
   return h+`</div>`;

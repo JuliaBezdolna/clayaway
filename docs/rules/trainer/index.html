@@ -129,7 +129,8 @@ p{margin:0 0 10px;max-width:70ch}
 .type.number{background:rgba(34,211,238,.14);color:var(--cyan)}
 .type.truefalse{background:var(--em-soft);color:var(--em)}
 .type.choice{background:rgba(255,255,255,.08);color:var(--soft)}
-.qcard{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:10px}
+/* 12.11.2026: the question and the result are cards of the Glossary: rounded 12 px, border white/10, gradient white/10 → white/5 */
+.qcard{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px;padding:20px;margin-top:10px}
 .qcard h2{font-size:19px;font-weight:600;line-height:1.45;margin:8px 0 16px}
 .opts{display:grid;gap:8px}
 .opts button{text-align:left;border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:12px;padding:12px 14px;font-size:15px}
@@ -165,7 +166,7 @@ p{margin:0 0 10px;max-width:70ch}
 .ans .verdict{margin-top:0}
 .btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:9px 16px;font-weight:600;font-size:14px;text-decoration:none;color:var(--ink);display:inline-block}
 .btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
-.result{background:var(--surface2);border:1px solid var(--line);border-radius:16px;padding:22px;text-align:center}
+.result{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px;padding:22px;text-align:center}
 .result .score{font-size:56px;font-weight:800;line-height:1;margin:10px 0;font-variant-numeric:tabular-nums}
 /* colour of the score: green from 80 % (the pass mark), amber 50–79 %, red below 50 % */
 .score.good{color:var(--em)}.score.mid{color:#FCD34D}.score.low{color:var(--red)}
