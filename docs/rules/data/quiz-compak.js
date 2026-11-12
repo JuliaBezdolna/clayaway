@@ -34,7 +34,12 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch2-trigger-manual",
     "ch20-target-no-bird-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "manual-late",
+    "after": true
+   }
   },
   {
    "id": "cs-q002",
@@ -194,7 +199,15 @@ window.RULES_QUIZ.push({
    "explain_uk": "Блок sonopull має фіксовану затримку 0,5 секунди, яку не можна змінити; при ручному запуску — від 0 до 3 секунд.",
    "refs": [
     "ch2-trigger-manual"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "sonopull",
+    "also": [
+     "manual"
+    ],
+    "after": true
+   }
   },
   {
    "id": "cs-q007",
@@ -951,7 +964,15 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch14-countback",
     "ch14-shootoff-medals"
-   ]
+   ],
+   "sim": {
+    "type": "ties",
+    "kind": "shoot-off",
+    "also": [
+     "countback"
+    ],
+    "after": true
+   }
   },
   {
    "id": "cs-q031",
@@ -1632,7 +1653,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Мішень — ZERO, якщо з неї не відлетів жоден видимий уламок; сам лише пил (так звана «димляча» мішень) не зараховують.",
    "refs": [
     "ch20-zero"
-   ]
+   ],
+   "sim": {
+    "type": "hit",
+    "kind": "dust"
+   }
   },
   {
    "id": "cs-q053",
@@ -1666,7 +1691,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Мішень зараховують (ONE), якщо від неї відлетів хоча б один видимий уламок або її повністю чи частково розпилено.",
    "refs": [
     "ch20-one"
-   ]
+   ],
+   "sim": {
+    "type": "hit",
+    "kind": "chip"
+   }
   },
   {
    "id": "cs-q054",
@@ -1699,7 +1728,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Мішень або уламки з іншого Compak ніколи не є підставою для NO BIRD; підставою є лише випадкова мішень з машинки того самого Compak. Промах залишається.",
    "refs": [
     "ch20-other-compak"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "neighbour"
+   }
   },
   {
    "id": "cs-q055",
@@ -1732,7 +1765,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Погана погода ніколи не є підставою для NO BIRD: кожна промахнута мішень — ZERO, кожна розбита — ONE, за будь-яких умов.",
    "refs": [
     "ch20-bad-weather"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "gust"
+   }
   },
   {
    "id": "cs-q056",
@@ -1765,7 +1802,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch20-gun-failure-first-shot",
     "ch20-gun-failure-principle"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "misfire"
+   }
   },
   {
    "id": "cs-q057",
@@ -1797,7 +1838,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Таблиця NO BIRD діє лише для першої відмови в серії. Коли така сама відмова стається вдруге, усі мішені цієї серії, по яких ще не стріляли, — ZERO (червона картка).",
    "refs": [
     "ch20-gun-failure-principle"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "misfire"
+   }
   },
   {
    "id": "cs-q058",
@@ -1973,7 +2018,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "NO BIRD оголошують, коли суддя бачить, що стрільцеві явно завадили.",
    "refs": [
     "ch20-target-no-bird-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "noise-call"
+   }
   },
   {
    "id": "cs-q063",
@@ -2007,7 +2056,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch20-target-no-bird-cases",
     "ch21-refusal"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "uncalled-shot"
+   }
   },
   {
    "id": "cs-q064",
@@ -2113,7 +2166,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch21-shooting-no-bird",
     "ch21-penalty-table"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "nobird-shot"
+   }
   },
   {
    "id": "cs-q067",

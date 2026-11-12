@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "fs";
 
 export function buildEnglish() {
-  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS } = globalThis.SEO;
+  const { ruleHref, BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS } = globalThis.SEO;
   const out = [];
   const TM = "Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.";
 
@@ -54,7 +54,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
       const title = fitTitle(`${name} — clay shooting term | ClayArena glossary`, `${name} | ClayArena glossary`);
       // meta + og:description: fitDesc() runs tmMeta(), the FITASC-mark safety net of build_seo.mjs (audit legal-02)
       const desc = fitDesc(tm(`${t.term}: ${t.short_en || ""}`), "Clay shooting term — ClayArena glossary.", `en/glossary/${t.id}/`);
-      const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/en/${r.book}/#${r.id}">${esc(r.ref)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF ${r.page}</a></li>`).join("");
+      const refs = (t.rule_refs || []).map(r => `<li><a href="${ruleHref("en", r.book, r.id)}">${esc(r.ref)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF ${r.page}</a></li>`).join("");
       const disc = ["sporting", "compak"].filter(k => t.disciplines_en && t.disciplines_en[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines_en[k])}</p></div>`).join("");
       const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}en/glossary/${r}/">${esc(dispTerm(GBY[r]))}</a>`).join(" ");
       // "Learn it": Academy lessons that teach the term (scripts/build_academy.mjs learnLinks)

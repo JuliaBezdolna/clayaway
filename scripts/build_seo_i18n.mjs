@@ -39,7 +39,7 @@ const flatTL = s => String(s || "").normalize("NFC").toLowerCase().replace(/[™
 const addsToH1 = (tl, lb) => !!tl && !!lb.local && flatTL(tl) !== flatTL(lb.local) && flatTL(tl) !== flatTL(lb.label);
 
 export async function buildI18n() {
-  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS } = globalThis.SEO;
+  const { ruleHref, BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS } = globalThis.SEO;
   // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
   // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
   const CAT = {
@@ -91,7 +91,7 @@ export async function buildI18n() {
         // definitions use the base form ("Sporting™", "Compak® Sporting"), and fitDesc() runs tmMeta(), the safety net of build_seo.mjs (audit legal-02).
         const desc = fitDesc(tm(`${t.term}: ${x.short}`), ctx, `${lang}/glossary/${t.id}/`);
         // the rules exist in uk/en: the English rule page, with ?lang so the visitor language stays (docs/shared/nav.js)
-        const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/en/${r.book}/?lang=${lang}#${r.id}" hreflang="en">${CHW[lang]} ${chapOf(r)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, ${PG[lang]} ${r.page}</a></li>`).join("");
+        const refs = (t.rule_refs || []).map(r => `<li><a href="${ruleHref("en", r.book, r.id, "?lang=" + lang)}" hreflang="en">${CHW[lang]} ${chapOf(r)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, ${PG[lang]} ${r.page}</a></li>`).join("");
         const disc = Object.entries(x.disciplines || {}).filter(([, v]) => v).map(([k, v]) => `<div class="box"><b>${NAMES[k] || k}</b><p>${esc(v)}</p></div>`).join("");
         const rel = (t.related || []).map(rid).filter(r => GBY[r] && D[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${termUrl(lang, r)}">${termHtml(lang, GBY[r])}</a>`).join(" ");
         const learn = ACADEMY.learnLinks(t.id, lang).slice(0, 5).map(x => x.lang === lang ? `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`

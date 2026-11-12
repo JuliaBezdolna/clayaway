@@ -8,7 +8,8 @@
      them as "<book>:<id>"), every item has a page number ≥ 1 and, when the local FITASC text is there, a page inside that PDF; every FAQ
      answer refs only items of its own book;
    - trainer banks quiz-sporting.js, quiz-compak.js: question ids unique across both banks, refs into the book of the same key, 2–4
-     options (truefalse: 2), the answer index inside the options; translations docs/rules/data/i18n/quiz-<lang>.json name only
+     options (truefalse: 2), the answer index inside the options, the animation (sim) names a scene of docs/shared/sims.js fit for
+     the discipline; translations docs/rules/data/i18n/quiz-<lang>.json name only
      existing questions (warning);
    - copyright (audit R-01): no 10 or more words in a row equal to the FITASC rulebook text in summary_en, points_en, title_en, the FAQ
      (q_en, a_en) and the trainer (q_en, option en, explain_en). The FITASC text is the local cache rules/pdf/*.txt (not in git:
@@ -75,6 +76,27 @@ export async function checkRulesData({ quiet = false } = {}) {
   });
 
   // ---- trainer banks
+  /* Animations (sim, rules/QUIZ_SCHEMA.md): the kind must exist in docs/shared/sims.js (keys of FLIGHTS, PAIRS, SCENES, TIES, HIT), a
+     rafale never in Compak® Sporting, a Sporting™ scene (referee signal, ready position, gun up on the call) never in Compak®.
+     Read from the source text: sims.js is a browser module. */
+  const SJS = readFileSync(path.join(ROOT, "docs", "shared", "sims.js"), "utf8");
+  const keysOf = name => { const i = SJS.indexOf(`const ${name} = {`); if (i < 0) return new Set();
+    let d = 0, j = SJS.indexOf("{", i), out = new Set(), k = j;
+    for (; k < SJS.length; k++) { const c = SJS[k]; if (c === "{") d++; else if (c === "}" && --d === 0) break; }
+    const body = SJS.slice(j + 1, k).replace(/\/\*[\s\S]*?\*\//g, "").replace(/\/\/[^\n]*/g, ""); let depth = 0, tok = "";
+    for (const c of body) { if (c === "{" || c === "[") depth++; else if (c === "}" || c === "]") depth--; else if (depth === 0) tok += c;
+      if (depth === 0 && c === ",") tok = "";
+      const m = depth === 0 && /"?([a-z][a-z-]*)"?\s*:$/.exec(tok); if (m) { out.add(m[1]); tok = ""; } }
+    return out; };
+  const SIMK = {flight: keysOf("FLIGHTS"), pair: keysOf("PAIRS"), call: keysOf("SCENES"), ties: keysOf("TIES"), hit: keysOf("HIT")};
+  const SPORTING_ONLY = new Set(["rafale", "signal", "signal-late", "gun-ready", "gun-early", "broken-launch", "noise-shot"]), COMPAK_ONLY = new Set(["manual", "manual-late", "sonopull", "noise-call", "neighbour", "gust"]);
+  const simCheck = (w, key, sim) => { if (!sim) return;
+    if (sim.after !== undefined && sim.after !== true) E(`${w}: sim.after is true or absent`);
+    const set = SIMK[sim.type]; if (!set) { E(`${w}: sim type "${sim.type}" is not drawn in the trainer (flight, pair, call, ties, hit)`); return; }
+    for (const k of [sim.type === "flight" ? sim.preset : sim.kind, ...(sim.also || [])]) {
+      if (!set.has(k)) E(`${w}: sim ${sim.type} "${k}" is not in docs/shared/sims.js`);
+      if (key === "compak" && SPORTING_ONLY.has(k)) E(`${w}: sim "${k}" is a Sporting™ scene, not for Compak® Sporting`);
+      if (key === "sporting" && COMPAK_ONLY.has(k)) E(`${w}: sim "${k}" is a Compak® Sporting scene, not for Sporting™`); } };
   const qids = new Map();
   for (const bank of banks) {
     if (!books.some(b => b.key === bank.key)) E(`quiz-${bank.key}.js: no rulebook "${bank.key}"`);
@@ -89,6 +111,7 @@ export async function checkRulesData({ quiet = false } = {}) {
       for (const k of ["q_en", "explain_en"]) verbatim(`${w} ${k}`, q[k]);
       (q.options || []).forEach((o, i) => { verbatim(`${w} option ${i}`, o.en); texts(`${w} option ${i}`, o, ["en", "uk"]); });
       texts(w, q, ["q_en", "q_uk", "explain_en", "explain_uk"]);
+      simCheck(w, bank.key, q.sim);
     }
   }
   const i18n = path.join(DATA, "i18n");

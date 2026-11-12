@@ -259,6 +259,29 @@ const DEF = {
   anim_miss_front: "In front: too much lead, often after over-correcting. Many coaches like this miss: it shows the gun kept moving.",
   anim_miss_over: "Over: common on dropping targets, rabbits and incomers, and often linked to the head coming off the stock.",
   anim_miss_under: "Under: typical on rising targets that are still climbing at the shot.",
+  anim_t_late_manual: "Compak® Sporting: late target (by hand)",
+  anim_s_manual_late: "Released by hand: the target leaves {n} s after the call, later than {max} s: the referee calls “No Bird”.",
+  anim_t_uncalled: "Target without a call",
+  anim_t_uncalled_shot: "Target without a call: a shot",
+  anim_s_uncalled: "The shooter has not called yet, but the target is already out. He does not shoot.",
+  anim_s_uncalled_shot: "The target is out without a call. The shooter mounts late, fires — and misses.",
+  anim_t_broken: "Broken at the launch",
+  anim_s_broken: "The target leaves the trap already broken in two.",
+  anim_s_broken_hit: "The shooter breaks the larger piece.",
+  anim_t_nobird_shot: "A shot after “No Bird”",
+  anim_s_nobird_shot: "The referee calls “No Bird”, but the shooter fires anyway.",
+  anim_t_noise_shot: "Noise at the shot",
+  anim_s_noise_shot: "A phone rings loudly just behind the stand; the shooter flinches and misses.",
+  anim_t_noise_call: "Noise at the call",
+  anim_s_noise_call: "A loudspeaker announcement booms right at the call; the shooter flinches and lowers the gun.",
+  anim_t_neighbour: "A target from the next Compak",
+  anim_s_neighbour: "While the shooter swings, a target from the neighbouring Compak crosses his view. He misses his own.",
+  anim_t_gust: "A gust of wind",
+  anim_s_gust: "A gust knocks the target down just as the shooter fires; the shot goes over it.",
+  anim_h_hit: "Watch what happens to the clay", anim_w_hit: "The magnifier follows the clay from the shot: dust only, or a piece that breaks away.",
+  anim_t_hit_dust: "Only dust", anim_t_hit_chip: "A visible piece",
+  anim_hit_dust: "The edge of the pattern touches the clay: a puff of dust, but not one piece breaks away — the clay flies on whole.",
+  anim_hit_chip: "The edge of the pattern touches the clay: one small piece breaks away and is clearly seen; the rest of the clay flies on.",
   anim_h_ties: "Watch how ties are broken",
   anim_w_ties: "Places 1–3: a shoot-off; below third: countback (in Compak® Sporting the same, from the 8th Compak to the 1st). The numbers are an example: 200 targets, 8 layouts of 25.",
   anim_ties_shooter: "Shooter", anim_ties_total: "Total", anim_ties_place: "Place", anim_ties_layout: "Layout",
@@ -582,6 +605,12 @@ function pathDots(c, P, t0, t1, col, gap = 10){ if (t1 <= t0) return; const m = 
 function chevron(c, P, t, col){ const m = MK(c), [x, y] = P(t), [x2, y2] = P(Math.min(1, t + .01)), a = Math.atan2(y2 - y, x2 - x);
   c.save(); c.translate(x, y); c.rotate(a); c.strokeStyle = col; c.lineWidth = 2 * m; c.lineCap = "round"; c.lineJoin = "round";
   c.beginPath(); c.moveTo(-6 * m, -5 * m); c.lineTo(1 * m, 0); c.lineTo(-6 * m, 5 * m); c.stroke(); c.restore(); }
+/* piece(c, x, y, s, part, side, rot): a part of a clay broken in two — the clay clipped by a chord: part = the share of its width
+   kept (.62 the larger piece, .38 the smaller), side = 1 keeps the left side, −1 the right; rot = its tumble. */
+function piece(c, x, y, s, part, side, rot = 0){ const r = 9 * s * MK(c) + 2;
+  c.save(); c.translate(x, y); c.rotate(rot * .15); c.beginPath();
+  if (side > 0) c.rect(-r - 4, -r - 4, 2 * r * part + 4, 2 * r + 8); else c.rect(r + 4 - (2 * r * part + 4), -r - 4, 2 * r * part + 4, 2 * r + 8);
+  c.clip(); clay(c, 0, 0, s, {}, 0, {glow: .01}); c.restore(); } // no glow: clipped, it would show the cut as a hard-edged box
 /* burst(c, x, y, k, o): a broken target, k = seconds since the break (callers keep their own scaling). A puff of target dust (o.flash:
    a "flash" target's bright puff with a grey edge) and 13 seeded shards (o.seed) that fly out, spin and fall; the shards fade out
    between k .5 and .9, so a frozen last frame never shows shards hanging in the air. Reduced motion: 6 shards, no rotation. */
@@ -973,6 +1002,82 @@ function missSim(host, kind, opts = {}){
     if (t < 1) raf = requestAnimationFrame(frame); else { raf = 0; setPlay(host, false); } };
   // still picture before it plays: the whole flight line, the gun at the shot and the shot cloud beside the clay at the impact
   const poster = () => scene(tI, true);
+  const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * slowF(); setPlay(host, true); raf = requestAnimationFrame(frame); };
+  const halt = () => { cancelAnimationFrame(raf); raf = 0; setPlay(host, false); poster(); };
+  wire(host, run, null, halt); poster();
+  const unwatch = watchSize(cv, () => { if (!raf) poster(); });
+  const off = autoStart(host, cv, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay, opts.onUser);
+  const s = {stop: () => { off(); unwatch(); cancelAnimationFrame(raf); raf = 0; }, run}; SIMS.push(s); return s;
+}
+
+/* Is it a hit? (rules trainer, 12.11.2026): the edge of the pattern just touches a crosser and only that is shown — no verdict, the
+   question asks for it. "dust": a puff of clay dust, not one piece breaks away, the clay flies on whole; "chip": one small, clearly
+   visible piece breaks away and falls, the rest flies on. The view, the shooter and the shot are those of missSim (the gun drifts a
+   little behind, the pattern ring passes with its front edge over the back half of the clay; two pellets touch it). A target is
+   ~10 px on the canvas, so a MAGNIFIER (× HZ, top left, joined to the clay by a dashed line) follows the clay from just before the
+   impact to the end: the dust and the piece are drawn relative to the clay, the same in the magnifier and on the scene. Canvas words
+   English (CANVAS_EN rule); what happens is HTML text under the canvas (ui anim_hit_<kind>). Reduced motion: no spin; the poster is
+   the frame 0.25 s after the impact. */
+const HIT = {dust: {word: "dust"}, chip: {word: "piece"}};
+function hitSim(host, kind, opts = {}){
+  const hs = HIT[kind] || HIT.dust, f = FLIGHTS["crosser-lr"], W = 720, H = 380, RR = 26, tS = .42, tI = tS + .03, HZ = 4;
+  const SEC = 2.4; // seconds of the scene at normal speed (dur 2400 ms): k = seconds since the impact = (t − tI) · SEC
+  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(T("anim_t_hit_" + kind))}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}</div>`
+    + `<div class="cs-out">${esc(T("anim_hit_" + kind))}</div></div>`;
+  const cv = logical(host.querySelector("canvas"), W, H), c = cv.getContext("2d"); let raf = 0, t0 = 0, dur = 2400;
+  const P = t => { const [x, y] = f.p(t); return [x * W, y * H]; };
+  const OFF = -.92 * RR; // the ring centre is this far behind the clay at the impact: its front edge crosses the clay's back half
+  const ringC = () => { const [x, y] = P(tI); return [x + OFF, y]; };
+  const aimAt = t => { const k = ease(clamp01((Math.min(t, tI + .2) - (tS - .25)) / .25)), [x, y] = P(Math.min(t, tI + .2)); return [x + OFF * k, y]; };
+  const mounted = t => ease(clamp01((t - (tS - .32)) / .14));
+  const pellets = (() => { const R = rng(4111), a = []; for (let i = 0; i < 24; i++) { const r = RR * Math.sqrt(R()), th = R() * TAU, px = r * Math.cos(th), py = r * Math.sin(th);
+    if (Math.hypot(px + OFF, py) > 9) a.push([px, py]); } a.push([-OFF - 5, -1.5], [-OFF - 3, 2.5]); return a; })(); // the two that touch the clay
+  const cloud = (k, still) => { if (k < 0 || k > 1) return; const [x, y] = ringC(), m = MK(c);
+    c.save(); c.globalAlpha = still ? 1 : 1 - k * k; c.fillStyle = "rgba(34,211,238,.10)"; c.beginPath(); c.arc(x, y, RR, 0, TAU); c.fill();
+    c.strokeStyle = ART.cyan; c.lineWidth = 1.4 * m; c.setLineDash([5 * m, 4 * m]); c.beginPath(); c.arc(x, y, RR, 0, TAU); c.stroke(); c.setLineDash([]);
+    c.fillStyle = "#E0F7FB"; pellets.forEach(([px, py]) => dot(c, x + px, y + py, 1.2 * m)); c.restore(); };
+  // the piece: off the back edge, up, then it falls behind the clay (px of the scene, relative to the clay centre, × z)
+  const piecePos = (k, z) => { const m = MK(c) * z; return [(-6 - 30 * k) * m, (-3 - 34 * k + 75 * k * k) * m]; };
+  // the effect, relative to the clay centre, k seconds after the impact, × z (1 on the scene, HZ in the magnifier)
+  const effect = (k, z) => { if (k < 0) return; const m = MK(c) * z;
+    const da = Math.max(0, .85 - .75 * k), dx = (-4 - 34 * k) * m, dy = (-1 - 5 * k) * m, dr = (4 + 22 * Math.min(1, k * 1.6)) * m; // dust: lags behind and fades
+    if (da > 0) { const g = c.createRadialGradient(dx, dy, 0, dx, dy, dr); g.addColorStop(0, `rgba(222,208,192,${da})`); g.addColorStop(.6, `rgba(222,208,192,${da * .5})`); g.addColorStop(1, "rgba(222,208,192,0)");
+      c.fillStyle = g; c.fillRect(dx - dr, dy - dr, 2 * dr, 2 * dr); }
+    if (kind !== "chip") return;
+    const ca = k < .7 ? 1 : Math.max(0, 1 - (k - .7) / .3); if (ca <= 0) return;
+    const sz = 2.6 * m, [cx, cy] = piecePos(k, z);
+    c.save(); c.globalAlpha *= ca; c.translate(cx, cy); c.rotate(RM() ? .4 : .4 + 9 * k); c.fillStyle = ART.clayTop; c.strokeStyle = ART.clayRim; c.lineWidth = .6 * m;
+    c.beginPath(); c.moveTo(-sz, -sz * .45); c.lineTo(sz, -sz * .15); c.lineTo(-sz * .1, sz * .75); c.closePath(); c.fill(); c.stroke(); c.restore(); };
+  const scene = (t, still) => { fit(cv, c); layer(c, "flight", W, H, flightPaint); const m = MK(c), k = (t - tI) * SEC;
+    pathDots(c, P, 0, still ? 1 : t, still ? ART.path : "rgba(110,231,183,.35)");
+    const tip = shooterBack(c, W / 2, H, aimAt(t), {mounted: mounted(t)});
+    if (!still && t >= tS && t < tS + .06) { const [ax, ay] = aimAt(t); flash(c, tip, Math.atan2(ay - tip[1], ax - tip[0]), (t - tS) / .06); }
+    const ck = (t - tI) / .45; cloud(ck, false);
+    const [x, y] = P(t), spin = RM() ? .6 : t * 21.6;
+    if (!still) comet(c, P, t, .13, 9 * f.s(t)); clay(c, x, y, f.s(t), f, t, {spin});
+    c.save(); c.translate(x, y); effect(k, 1); c.restore();
+    if (t < tI - .1) return;
+    // the magnifier: a round window top right, the clay × HZ at its centre, the ring edge and the effect around it
+    const R0 = 80 * m, mx = 16 * m + R0, my = 12 * m + R0; // top left: the clay flies away from it
+    c.save(); c.globalAlpha = clamp01((t - (tI - .1)) / .05);
+    const a = Math.atan2(y - my, x - mx); c.strokeStyle = "rgba(243,244,246,.35)"; c.lineWidth = m; c.setLineDash([3 * m, 4 * m]);
+    seg(c, x - Math.cos(a) * 12 * m, y - Math.sin(a) * 12 * m, mx + Math.cos(a) * R0, my + Math.sin(a) * R0); c.setLineDash([]);
+    c.beginPath(); c.arc(x, y, 12 * m, 0, TAU); c.stroke();
+    c.save(); c.beginPath(); c.arc(mx, my, R0, 0, TAU); c.clip();
+    const g = c.createLinearGradient(0, my - R0, 0, my + R0); g.addColorStop(0, ART.sky1); g.addColorStop(1, ART.sky2); c.fillStyle = g; c.fillRect(mx - R0, my - R0, 2 * R0, 2 * R0);
+    c.translate(mx, my);
+    if (ck >= 0 && ck <= 1) { const [rx, ry] = ringC(); c.save(); c.globalAlpha *= 1 - ck * ck; c.scale(HZ, HZ); c.translate(rx - x, ry - y);
+      c.strokeStyle = ART.cyan; c.lineWidth = 1.6 * m / HZ; c.setLineDash([5 * m / HZ, 4 * m / HZ]); c.beginPath(); c.arc(0, 0, RR, 0, TAU); c.stroke(); c.setLineDash([]);
+      c.fillStyle = "#E0F7FB"; pellets.forEach(([px, py]) => dot(c, px, py, 1.1 * m)); c.restore(); }
+    c.save(); c.scale(HZ, HZ); clay(c, 0, 0, f.s(t), f, t, {spin}); c.restore();
+    effect(k, HZ); c.restore();
+    c.strokeStyle = "rgba(243,244,246,.55)"; c.lineWidth = 1.5 * m; c.beginPath(); c.arc(mx, my, R0, 0, TAU); c.stroke();
+    c.fillStyle = ART.muted; c.font = `600 ${11 * FK(c)}px system-ui, sans-serif`; c.textAlign = "right"; c.textBaseline = "top"; c.fillText("× " + HZ, mx + R0 - 10 * m, my - R0 + 18 * m);
+    if (k > .06) label(c, hs.word, mx, my + R0 + 18 * m, kind === "chip" ? ART.clayHi : ART.ink);
+    c.restore(); };
+  const frame = ts => { if (!t0) t0 = ts; const t = Math.min(1, (ts - t0) / dur); scene(t, false);
+    if (t < 1) raf = requestAnimationFrame(frame); else { raf = 0; setPlay(host, false); } };
+  const poster = () => scene(tI + .25 / SEC, true);
   const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * slowF(); setPlay(host, true); raf = requestAnimationFrame(frame); };
   const halt = () => { cancelAnimationFrame(raf); raf = 0; setPlay(host, false); poster(); };
   wire(host, run, null, halt); poster();
@@ -1379,6 +1484,32 @@ const SCENES = {
   "gun-early":   {tab: "anim_t_early",    line: 1, mount: [.4, .75], call: 1.2, card: 1.7, end: 4},
   misfire:       {tab: null,              call: .4, release: 1, mount: [1.1, 1.45], shot: 1.85, click: 1, safe: [2.2, 2.6], walk: [3.3, 4.3], end: 6.8},
   mount:         {term: "gun-mount",      words: 1, cheek: 1, call: .3, release: .8, move: [1, 1.4], mount: [1.3, 1.85], shot: 1.9, end: 3.8},
+  /* rules trainer, 12.11.2026 — situations the referee decides (rules/QUIZ_SCHEMA.md "call"). say = [scene second, ui key] lines of
+     the status line. Only "manual-late" shows the decision (No Bird); the others show the situation, the question asks for it.
+     - manual-late: Compak® Sporting, released by hand 4 s after the call (limit 3 s): the clock goes red, the referee calls No Bird;
+     - uncalled: no call at all, the trapper releases while the shooter is still getting ready; he does not shoot;
+     - uncalled-shot: the same, but the shooter mounts late, fires and misses (miss: the target flies on);
+     - broken-launch: Sporting™ (referee's signal, line on the vest): the target leaves the trap already broken in two; the shooter
+       breaks the larger piece, the smaller one falls;
+     - nobird-shot: the referee calls "No Bird!" while the target is in the air, the shooter fires anyway and breaks it. */
+  "manual-late": {tab: "anim_t_late_manual", timer: "call", up: 1, call: .3, release: .3 + 4, nobird: 4.6, end: 7},
+  uncalled:      {tab: "anim_t_uncalled",   release: 1, say: [[1, "anim_s_uncalled"]], end: 4.2},
+  "uncalled-shot": {tab: "anim_t_uncalled_shot", release: 1, mount: [1.35, 1.7], shot: 2.1, miss: 1, say: [[1, "anim_s_uncalled_shot"]], end: 4.4},
+  "broken-launch": {tab: "anim_t_broken",  line: 1, call: .3, signal: .7, release: 1.5, mount: [1.62, 1.95], shot: 2.35, broken: 1,
+                  say: [[1.5, "anim_s_broken"], [2.35, "anim_s_broken_hit"]], end: 4.4},
+  "nobird-shot": {tab: "anim_t_nobird_shot", call: .3, release: 1, nobird: 1.25, mount: [1.1, 1.45], shot: 1.95, say: [[1.25, "anim_s_nobird_shot"]], end: 4.2},
+  /* interference (12.11.2026), the situation only:
+     - noise-shot: Sporting™ — a spectator's phone rings loudly just behind the stand as the shooter fires; he flinches and misses;
+     - noise-call: Compak® — a loudspeaker announcement at the call; the shooter flinches and lowers the gun, he does not shoot;
+     - neighbour: Compak® — while he swings, a target of the neighbouring Compak crosses his view far out; he misses his own;
+     - gust: Compak® — a gust knocks the target down just as he fires; the shot goes over it.
+     noise = [from, to, "phone" | "speaker"]; flinch = [from, to] (the gun jerks up); lower = [from, to] (gun up → ready, Compak);
+     other = [release, duration] of the neighbour's target; gust = [time, drop px]. */
+  "noise-shot":  {tab: "anim_t_noise_shot", line: 1, call: .3, signal: .7, release: 1.5, mount: [1.62, 1.95], noise: [2.05, 2.9, "phone"], flinch: [2.12, 2.4], shot: 2.25, miss: 1,
+                  say: [[2.05, "anim_s_noise_shot"]], end: 4.6},
+  "noise-call":  {tab: "anim_t_noise_call", up: 1, call: .3, noise: [.3, 1.3, "speaker"], lower: [.45, .9], release: 1.3, say: [[.3, "anim_s_noise_call"]], end: 4.2},
+  neighbour:     {tab: "anim_t_neighbour", up: 1, call: .3, release: 1.1, other: [1.3, 1.7], shot: 2.25, miss: 1, say: [[1.3, "anim_s_neighbour"]], end: 4.4},
+  gust:          {tab: "anim_t_gust", up: 1, call: .3, release: 1.1, gust: [1.8, 46], shot: 1.95, miss: 1, say: [[1.8, "anim_s_gust"]], end: 4.4},
 };
 const GY = 322, LINE_Y = 203, FLY = 2.2, SH = 380; // SH = scene height; narrow screens get a band for the clock above it
 // SAFETY layout (see above): people only left of BEHIND_X (the shooter's back heel is at x ≈ 150, the stand starts at 126); the
@@ -1660,7 +1791,7 @@ function standSim(host, kind, opts = {}){
   host.innerHTML = `<div class="cs-sim">${sc.words ? `<div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div>` : ""}<canvas width="720" height="${SH}" role="img" aria-label="${esc(title)}"></canvas><p class="cs-scale">${esc(T("anim_scale"))}</p><div class="cs-ctl">${playBtn("anim_play")}${slowBtn()}<b>${esc(title)}</b></div><div class="cs-say" aria-live="polite" data-k="say"></div></div>`;
   const cv = logical(host.querySelector("canvas"), 720, SH), c = cv.getContext("2d"), W = 720, out = host.querySelector('[data-k="say"]');
   const words = sc.words ? wordsBar(host.querySelector('[data-k="words"]')) : null;
-  const rel = sc.release, t0c = sc.timer === "signal" ? sc.signal : sc.call, hitT = sc.shot != null && !sc.click ? sc.shot : null;
+  const rel = sc.release, t0c = sc.timer === "signal" ? sc.signal : sc.call, shotT = sc.shot != null && !sc.click ? sc.shot : null, hitT = sc.miss ? null : shotT; // miss: a shot, the target flies on
   // the trapper presses the release button at pressT: after the referee's signal (or the call), at most 0.25 s before the release;
   // the pulse runs along the cable from pressT and reaches the trap house at the release (the scene times are unchanged)
   const pressT = rel == null ? null : Math.max(rel - .25, sc.signal != null ? sc.signal + .15 : -1, sc.call != null ? sc.call + .05 : -1);
@@ -1672,16 +1803,24 @@ function standSim(host, kind, opts = {}){
     const b = sc.timer && k > 1.35 ? Math.ceil(12 + 72 * ck + 10) : 0; if (b !== band) { band = b; cv._lh = SH + band; } };
   // what the status line says, and from when (scene seconds)
   const says = [];
-  if (sc.timer) { const n = rel - t0c; says.push([rel, fill(T(sc.timer === "call" ? (sc.mic ? "anim_s_sonopull" : "anim_s_manual") : n > CALL.limit ? "anim_s_late" : "anim_s_in_time"), {n: num1(n), max: CALL.limit})]); }
+  if (sc.timer) { const n = rel - t0c; says.push([rel, fill(T(sc.timer === "call" ? (sc.mic ? "anim_s_sonopull" : n > CALL.limit ? "anim_s_manual_late" : "anim_s_manual") : n > CALL.limit ? "anim_s_late" : "anim_s_in_time"), {n: num1(n), max: CALL.limit})]); }
+  if (sc.say) for (const [at, key] of sc.say) says.push([at, T(key)]);
   if (kind === "gun-ready") says.push([0, T("anim_s_gun_low")], [sc.mount[0], T("anim_s_gun_mount")]);
   if (sc.move) says.push([0, T("anim_s_mount_ready")], [sc.move[0], T("anim_s_move")], [sc.mount[0], T("anim_s_mount")], [sc.shot, T("anim_s_shoot")]);
   if (sc.card) says.push([sc.card, T("anim_s_early")]);
   if (sc.click) says.push([sc.shot, T("anim_s_click")], [sc.safe[0] + .2, T("anim_s_hold")], [sc.walk[1], T("anim_s_ref")], [sc.walk[1] + 1, T("anim_s_repeat")]);
+  says.sort((a, b) => a[0] - b[0]);
   let said = null;
   const say = t => { let s = ""; for (const [at, x] of says) if (t >= at) s = x; if (s !== said) { said = s; out.textContent = s; } };
-  const pose = t => { // gun pose at time t, and the aim point
-    const u = rel != null && t >= rel ? (t - rel) / FLY : null, flying = u != null && u <= 1 && (hitT == null || t < hitT + .25);
-    const aim = flying ? TP(Math.min(1, u + .03)) : hitT != null && t >= hitT ? TP((hitT + .25 - rel) / FLY) : AIM0;
+  const pose = t => { let g = pose0(t); // the scene pose, then the interference: a flinch (the gun jerks up), lowering the gun
+    if (sc.lower && t >= sc.lower[0]) g = mixPose(g, LOW, ease(clamp01((t - sc.lower[0]) / (sc.lower[1] - sc.lower[0]))));
+    if (sc.flinch && t >= sc.flinch[0] && t < sc.flinch[1]) { const k = (t - sc.flinch[0]) / (sc.flinch[1] - sc.flinch[0]); g = {hx: g.hx, hy: g.hy, th: g.th - .14 * Math.sin(Math.PI * k)}; } // only the muzzles jerk: a moved stock would hide the shooter's glasses
+    return g; };
+  const pose0 = t => { // gun pose at time t, and the aim point
+    // after a shot (a hit or a miss) the gun follows through for 0.25 s and stays there: it never follows a missed target down
+    // toward the trap house (the safety check, tools/checks/check_safety.py)
+    const u = rel != null && t >= rel ? (t - rel) / FLY : null, flying = u != null && u <= 1 && (shotT == null || t < shotT + .25);
+    const aim = flying ? TP(Math.min(1, u + .03)) : shotT != null && t >= shotT ? TP((shotT + .25 - rel) / FLY) : AIM0;
     // Compak® Sporting gun-up (sc.up): the muzzles wait at the hold point AIM0 and never dip toward the trap house (a loader may
     // shelter there); they join the target once it has climbed to the hold height (y ≤ AIM0[1]), so before the shot the barrels
     // always point up (audit 08.10.2026: they used to snap down onto the trap at the release). SCENES: the shot comes ≥ 0.15 s later.
@@ -1708,6 +1847,19 @@ function standSim(host, kind, opts = {}){
       look = lerp(REST, aimL, ease(clamp01((t - rel) / .15)) * (1 - back)); }
     const wag = !rm && hitT != null && t >= hitT && t < hitT + 1 ? TAU * 4 * (t - hitT) : 0;
     return {ear: clamp01(ear), look, wag}; };
+  // the target at scene time t (drawn on the scene, and again inside the magnifier of a broken launch)
+  const gustDy = t => sc.gust && t >= sc.gust[0] ? sc.gust[1] * ease(clamp01((t - sc.gust[0]) / .3)) : 0;
+  const TG = sc.gust ? (v => { const q = TP(v); return [q[0], q[1] + gustDy(rel + v * FLY)]; }) : TP;
+  const target = (t, zoom) => { // zoom: inside the magnifier (no comet trail there: at × 3 it would hide the pieces)
+    if (rel != null && t >= rel) { const u = (t - rel) / FLY;
+    if (sc.broken) { // two pieces from the trap: the larger one on the target's line, the smaller one drifts off and falls
+      const k = Math.min(u, 1.2), [x, y] = TP(Math.min(1, u)), sx = x + 6 + 18 * k, sy = y + 3 + 60 * k * k, spin = RM() ? 0 : t * 9;
+      if (sy < GY - 8) piece(c, sx, sy, .75, .38, -1, spin * 1.4);
+      if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [bx, by] = TP((hitT - rel) / FLY); burst(c, bx, by, (t - hitT) * .8, {seed: 9}); } }
+      else if (u <= 1) { if (!zoom) comet(c, TP, u, .10, 6.5); piece(c, x, y, .75, .62, 1, spin); } }
+    else if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [x, y] = TP((hitT - rel) / FLY); burst(c, x, y, (t - hitT) * .8); } }
+    else if (u <= 1) { comet(c, TG, u, .10, 6.5); const [x, y] = TG(u); clay(c, x, y, .75, {}, 0, {spin: RM() ? 0 : t * 9}); } }
+  };
   let lastT = 0;
   const draw = t => {
     lastT = t; fit(cv, c); const m = MK(c), k = FK(c);
@@ -1723,9 +1875,14 @@ function standSim(host, kind, opts = {}){
       if (on) { const g = c.createRadialGradient(MIC_X, 246, 0, MIC_X, 246, 12); g.addColorStop(0, "rgba(52,211,153,.5)"); g.addColorStop(1, "rgba(52,211,153,0)"); c.fillStyle = g; dot(c, MIC_X, 246, 12); }
       c.fillStyle = on ? ART.em : "#1F2937"; box(c, MIC_X - 4, 240, 8, 12, 4); c.fill(); c.strokeStyle = "rgba(255,255,255,.25)"; c.lineWidth = 1; for (let i = 0; i < 3; i++) seg(c, MIC_X - 2.5, 243 + i * 3, MIC_X + 2.5, 243 + i * 3); }
     // the target: in the air (with its comet trail), broken by the shot, or (after a click) flying on unbroken
-    if (rel != null && t >= rel) { const u = (t - rel) / FLY;
-      if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [x, y] = TP((hitT - rel) / FLY); burst(c, x, y, (t - hitT) * .8); } }
-      else if (u <= 1) { comet(c, TP, u, .10, 6.5); const [x, y] = TP(u); clay(c, x, y, .75, {}, 0, {spin: RM() ? 0 : t * 9}); } }
+    target(t);
+    if (sc.other && t >= sc.other[0] && t < sc.other[0] + sc.other[1]) { // the neighbouring Compak's target: far out, smaller, right to left
+      const OP = v => [700 - 330 * v, 64 - 34 * Math.sin(Math.PI * v) + 10 * v], v = (t - sc.other[0]) / sc.other[1];
+      comet(c, OP, v, .12, 4); const [x, y] = OP(v); clay(c, x, y, .45, {}, 0, {spin: RM() ? 0 : t * 9}); }
+    if (sc.gust && t >= sc.gust[0] - .25 && t < sc.gust[0] + .9) { const k = (t - sc.gust[0] + .25) / 1.15, a = Math.sin(Math.PI * k); // the gust: three wind lines over the target
+      const [gx, gy] = TP(clamp01((sc.gust[0] - rel) / FLY)); c.strokeStyle = `rgba(226,232,240,${(.75 * a).toFixed(3)})`; c.lineWidth = 2; c.lineCap = "round";
+      for (let i = 0; i < 3; i++) { const ox = gx - 60 + 26 * k * 3 - i * 14, oy = gy - 42 + i * 16; c.beginPath(); c.moveTo(ox, oy); c.quadraticCurveTo(ox + 30, oy - 6, ox + 52, oy + 16); c.stroke();
+        seg(c, ox + 52, oy + 16, ox + 44, oy + 14); seg(c, ox + 52, oy + 16, ox + 50, oy + 8); } c.lineCap = "butt"; c.lineWidth = 1; }
     // the people behind the stand and the dog, back to front: the handler, the trapper, the dog, the referee. A part that does not
     // move in this frame is a cached sprite (sprite(): same picture, one drawImage; review 08.10.2026), the others are drawn directly.
     const withDog = !!window.ClayMascot && !dogBroken, LH = restHand(HANDLER.x, HANDLER.h); LH[1] += HANDLER.dy; // the handler's hand with the lead
@@ -1765,13 +1922,20 @@ function standSim(host, kind, opts = {}){
       c.globalAlpha = 1; c.lineWidth = 1.2; c.strokeStyle = rgba(ART.cyan, .8); c.setLineDash([4, 5]); const p = clamp01(q / .2); seg(c, rh[0], rh[1], lerp(rh[0], ear[0], p), lerp(rh[1], ear[1], p)); c.setLineDash([]); c.lineWidth = 1;
       font(c, 15, "800"); c.textAlign = "center"; c.textBaseline = "alphabetic"; c.lineJoin = "round"; c.lineWidth = 3 * k; c.strokeStyle = ART.pill; // "♪": a symbol, not a word —
       c.strokeText("♪", rh[0] - 5, rh[1] - 14); c.fillStyle = ART.cyan; c.fillText("♪", rh[0] - 5, rh[1] - 14); c.lineJoin = "miter"; c.lineWidth = 1; } // no pill, so on a phone it hides no face
+    if (sc.noise && t >= sc.noise[0] && t < sc.noise[1]) { const q = t - sc.noise[0], ph = sc.noise[2] === "phone"; // the noise behind the stand
+      const [nx, ny] = ph ? [70, 108] : [34, 78]; // above the heads (they start at y ≥ 145): nothing hides a face
+      if (ph) { c.fillStyle = "#0f141b"; box(c, nx - 6, ny - 10, 12, 20, 2.5); c.fill(); c.strokeStyle = ART.red; c.lineWidth = 1.5; c.stroke(); c.fillStyle = rgba(ART.red, .55); c.fillRect(nx - 4, ny - 7, 8, 12); }
+      else { c.fillStyle = "#4B5563"; c.fillRect(nx - 1.5, 0, 3, ny - 4); /* the loudspeaker hangs from a mast out of the picture */ c.fillStyle = "#9CA3AF"; c.beginPath(); c.moveTo(nx - 8, ny - 4); c.lineTo(nx + 2, ny - 4); c.lineTo(nx + 14, ny - 12); c.lineTo(nx + 14, ny + 12); c.lineTo(nx + 2, ny + 4); c.lineTo(nx - 8, ny + 4); c.closePath(); c.fill(); }
+      c.strokeStyle = ART.red; c.lineWidth = 2; const ax = ph ? nx + 8 : nx + 16;
+      for (let i = 0; i < 3; i++) { const r = 6 + ((q * 50 + i * 9) % 27); c.globalAlpha = Math.max(0, 1 - (r - 6) / 30); c.beginPath(); c.arc(ax, ny, r, -.7, .7); c.stroke(); }
+      c.globalAlpha = 1; c.lineWidth = 1; }
     if (sc.nobird != null && t >= sc.nobird) bubble(c, rx + 6, GY - REF_H - 14 - 10, "No Bird!", {bg: "#FEE2E2", fg: "#7F1D1D", age: t - sc.nobird});
     // the shooter and the line on the vest: red while the heel of the stock (as drawn) is above it BEFORE the target is out (the mount
     // after the release is correct, so the line turns amber again), the call, the shot
     const g = pose(t), early = heelY(g) < LINE_Y && (rel == null || t < rel), muzzle = shooter(c, g, sc.line ? (early ? "bad" : "ok") : null); // the "line" pill is right of the stand now: no need to hide it during the signal
     if (sc.call != null && t >= sc.call && t < sc.call + .9) bubble(c, 196, 128, "Pull!", {age: t - sc.call});
     if (sc.mic && t >= sc.call && t < rel) { c.strokeStyle = rgba(ART.em, .8); c.lineWidth = 1.5; for (let i = 0; i < 3; i++) { c.beginPath(); c.arc(206, 166, 10 + i * 8, .2, 1.2); c.stroke(); } c.lineWidth = 1; } // the call heard by the microphone
-    if (hitT != null && t >= hitT) { if (t < hitT + .09) flash(c, muzzle, g.th, (t - hitT) / .09); smoke(c, GF(pose(hitT))(120, -BORE), t - hitT); }
+    if (shotT != null && t >= shotT) { if (t < shotT + .09) flash(c, muzzle, g.th, (t - shotT) / .09); smoke(c, GF(pose(shotT))(120, -BORE), t - shotT); }
     // gun-mount scene: when the mount is finished, the cheek rests on the comb (the top edge of the stock) and the head is still. The
     // mark is an amber highlight ALONG the top edge of the comb (gun frame u 8 → 27), not a ring: the comb is only about 6 px below
     // the eye, so a ring circled the amber lens and crossed the ear cup on a phone (review 08.10.2026: eye and ear protection must
@@ -1781,6 +1945,16 @@ function standSim(host, kind, opts = {}){
       c.strokeStyle = ART.amber; c.lineWidth = 2 * m; c.lineCap = "round"; c.beginPath(); c.moveTo(a0[0], a0[1]); c.quadraticCurveTo(a1[0], a1[1], a2[0], a2[1]); c.stroke(); c.lineCap = "butt"; c.lineWidth = 1;
       const yb = 145 - 8 - 4 * k, pb = pillBox(c, T("anim_cheek"), 150, yb, "left", 12, "650"), long = pb.x + pb.w > 400;
       label(c, T("anim_cheek"), long ? 178 : 150, yb, ART.amber, long ? "right" : "left"); }
+    // broken launch: at 0.75 scale the two pieces are a few px, so a magnifier (× 3, top left over the sky, a dashed line to the
+    // target) shows them from the release until just after the shot
+    if (sc.broken && rel != null && t >= rel && t < (hitT == null ? sc.end : hitT + .7)) { const u = Math.min(1, (t - rel) / FLY), [x, y] = TP(hitT != null && t >= hitT ? (hitT - rel) / FLY : u);
+      const Z = 3, R0 = 62, mx = 20 + R0, my = 12 + R0, a = Math.atan2(y - my, x - mx);
+      c.save(); c.strokeStyle = "rgba(243,244,246,.35)"; c.lineWidth = 1; c.setLineDash([3, 4]); seg(c, x - Math.cos(a) * 12, y - Math.sin(a) * 12, mx + Math.cos(a) * R0, my + Math.sin(a) * R0); c.setLineDash([]);
+      c.beginPath(); c.arc(x, y, 12, 0, TAU); c.stroke();
+      c.save(); c.beginPath(); c.arc(mx, my, R0, 0, TAU); c.clip(); const sg = c.createLinearGradient(0, my - R0, 0, my + R0); sg.addColorStop(0, ART.sky1); sg.addColorStop(1, ART.sky2);
+      c.fillStyle = sg; c.fillRect(mx - R0, my - R0, 2 * R0, 2 * R0); c.translate(mx, my); c.scale(Z, Z); c.translate(-x, -y); target(t, true); c.restore();
+      c.strokeStyle = "rgba(243,244,246,.55)"; c.lineWidth = 1.5; c.beginPath(); c.arc(mx, my, R0, 0, TAU); c.stroke();
+      c.fillStyle = ART.muted; font(c, 11, "600"); c.textAlign = "right"; c.textBaseline = "top"; c.fillText("× " + Z, mx + R0 - 8, my - R0 + 14); c.restore(); }
     c.setTransform(c._s, 0, 0, c._s, 0, 0);
     // the clock (call and release scenes): over the sky on wide screens, in the band above the scene on narrow ones
     if (sc.timer) { const v = t < t0c ? 0 : Math.min(t, rel) - t0c; clock(c, v, T(sc.timer === "signal" ? "anim_after_signal" : "anim_after_call"), t < rel ? "run" : v > CALL.limit ? "late" : "ok", band ? ck : 1); }
@@ -1826,12 +2000,13 @@ function mount(host, sim, o = {}){ if (!host || !sim) return;
   else if (sim.type === "stock") tabs = [sim.kind || "lop", ...(sim.also || [])].filter(k => STOCK[k]).map(k => ({k: "s:" + k, label: termLabel(STOCK[k].term)}));
   else if (sim.type === "ties") tabs = [sim.kind || "countback", ...(sim.also || [])].filter(k => TIES[k]).map(k => ({k: "t:" + k, label: termLabel(TIES[k].term)}));
   else if (sim.type === "miss") tabs = [sim.kind || "behind", ...(sim.also || [])].filter(k => MISS[k]).map(k => ({k: "m:" + k, label: termLabel(MISS[k].term)}));
+  else if (sim.type === "hit") tabs = [sim.kind || "dust", ...(sim.also || [])].filter(k => HIT[k]).map(k => ({k: "h:" + k, label: T("anim_t_hit_" + k)}));
   else if (sim.type === "pair") tabs = [sim.kind, ...(sim.also || [])].filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}));
   else if (sim.type === "call") tabs = [sim.kind || "signal", ...(sim.also || [])].filter(k => SCENES[k]).map(k => ({k: "c:" + k, label: sceneTitle(SCENES[k])}));
   else return; // a type without an animation mounts nothing
   const show = (el, k, a) => { const x = k.slice(2), op = {autoplay: a, onAutoplay: done, onUser};
-    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : k.startsWith("t:") ? tiesSim(el, x, op) : k.startsWith("s:") ? stockSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
-  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : sim.type === "ties" ? "t:countback" : sim.type === "stock" ? "s:lop" : "f:" + sim.preset}];
+    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : k.startsWith("m:") ? missSim(el, x, op) : k.startsWith("h:") ? hitSim(el, x, op) : k.startsWith("t:") ? tiesSim(el, x, op) : k.startsWith("s:") ? stockSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
+  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : sim.type === "miss" ? "m:behind" : sim.type === "hit" ? "h:dust" : sim.type === "ties" ? "t:countback" : sim.type === "stock" ? "s:lop" : "f:" + sim.preset}];
   if (tabs.length < 2) return show(host, tabs[0].k, ap);
   const first = o.tab && tabs.some(b => b.k === o.tab) ? o.tab : tabs[0].k;
   host.innerHTML = `<div class="cs-tabs" role="group">${tabs.map(b => `<button type="button" class="cs-btn${b.k === first ? " cs-primary" : ""}" data-p="${esc(b.k)}" aria-pressed="${b.k === first}">${esc(b.label)}</button>`).join("")}</div><div></div>`;
@@ -1847,6 +2022,7 @@ function kind(sim){ sim = sim || {};
   if (sim.type === "pair") return "pair";
   if (sim.type === "pattern") return "pattern";
   if (sim.type === "miss") return "miss";
+  if (sim.type === "hit") return "hit";
   if (sim.type === "ties") return "ties";
   if (sim.type === "stock") return "stock";
   if (sim.type === "lead") return sim.focus === "mount" ? "mount" : sim.focus === "follow-through" ? "follow" : "lead";

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Немає з'єднання · ClayArena</title>
+<meta name="theme-color" content="#030712">
+<!-- ClayArena · offline page (PWA step 1, 11.11.2026). docs/sw.js shows it instead of a page that was never opened on this device
+     when there is no network, at THAT page's address — so everything is inline and the links are absolute (the saved pages, read
+     from the caches of the service worker). Language: the visitor language of the site (localStorage "clayarena-lang"), uk or en. -->
+<style>
+:root{--bg:#030712;--ink:#F3F4F6;--soft:#D1D5DB;--muted:#9CA3AF;--line:rgba(255,255,255,.12);--em:#34D399;--surface:rgba(255,255,255,.04)}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:28px 16px 60px}
+.ic{font-size:40px;line-height:1}
+h1{font-size:26px;line-height:1.25;margin:10px 0 8px}
+p{color:var(--soft);margin:0 0 12px}
+.btn{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border-radius:10px;background:#05845D;color:#fff;font:inherit;font-weight:600;border:0;cursor:pointer}
+h2{font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:26px 0 8px}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+li a{display:flex;align-items:center;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);text-decoration:none}
+li a:hover,li a:focus-visible{border-color:var(--em)}
+a:focus-visible,.btn:focus-visible{outline:2px solid var(--em);outline-offset:2px}
+.none{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <div class="ic" aria-hidden="true">📶</div>
+  <h1 id="h">Немає з'єднання</h1>
+  <p id="p">Цю сторінку ще не відкривали на цьому пристрої, тож без інтернету її показати не можна. Те, що вже збережено, працює і без мережі.</p>
+  <button class="btn" id="retry" type="button">Спробувати ще раз</button>
+  <div id="list"></div>
+</main>
+<script>
+(function(){
+  var L="uk"; try{ var v=JSON.parse(localStorage.getItem("clayarena-lang")||"null"); if(v&&v!=="uk") L="en"; }catch(e){}
+  var T={uk:{t:"Немає з'єднання · ClayArena",h:"Немає з'єднання",p:"Цю сторінку ще не відкривали на цьому пристрої, тож без інтернету її показати не можна. Те, що вже збережено, працює і без мережі.",r:"Спробувати ще раз",s:"Збережено на цьому пристрої",none:"Поки нічого не збережено. Відкрийте потрібні сторінки, коли буде інтернет, і вони працюватимуть без нього.",
+      g:{rules:"Правила FITASC",glossary:"Глосарій",learn:"Академія",other:"Інше"}},
+    en:{t:"No connection · ClayArena",h:"No connection",p:"This page has not been opened on this device yet, so it cannot be shown without the internet. What is already saved works without a network.",r:"Try again",s:"Saved on this device",none:"Nothing is saved yet. Open the pages you need while you are online, and they will work without it.",
+      g:{rules:"FITASC rules",glossary:"Glossary",learn:"Academy",other:"Other"}}}[L];
+  document.documentElement.lang=L; document.title=T.t;
+  document.getElementById("h").textContent=T.h; document.getElementById("p").textContent=T.p;
+  var rb=document.getElementById("retry"); rb.textContent=T.r; rb.onclick=function(){ location.reload(); };
+  var esc=function(s){ return String(s).replace(/[&<>"]/g,function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); };
+  var box=document.getElementById("list");
+  if(!window.caches||!navigator.serviceWorker){ return; }
+  var base=location.origin+"/";
+  navigator.serviceWorker.getRegistration().then(function(r){ if(r) base=r.scope; return caches.keys(); }).then(function(keys){
+    keys=keys.filter(function(k){ return k.indexOf("clayarena-")===0; });
+    return Promise.all(keys.map(function(k){ return caches.open(k).then(function(c){ return c.keys().then(function(rs){ return Promise.all(rs.map(function(r){ return c.match(r).then(function(res){ return {url:r.url,res:res}; }); })); }); }); }));
+  }).then(function(all){
+    var seen={}, items=[];
+    all.forEach(function(list){ list.forEach(function(x){
+      var ct=(x.res&&x.res.headers.get("content-type"))||"", path=x.url.replace(/[?#].*$/,"");
+      if(ct.indexOf("text/html")<0||/offline\.html$/.test(path)||seen[path]) return; seen[path]=1; items.push(x); }); });
+    return Promise.all(items.map(function(x){ return x.res.clone().text().then(function(h){ var m=/<title>([^<]*)<\/title>/i.exec(h); return {url:x.url,title:m?m[1].replace(/&amp;/g,"&").replace(/&#39;|&apos;/g,"'").replace(/&quot;/g,'"').replace(/\s*[|·]\s*[^|·]*ClayArena\s*$/,""):x.url}; }); }));
+  }).then(function(pages){
+    var grp={rules:[],glossary:[],learn:[],other:[]};
+    pages.forEach(function(p){ var rel=p.url.indexOf(base)===0?p.url.slice(base.length):p.url;
+      var k=/^rules\//.test(rel)?"rules":/^([a-z]{2}\/)?glossary\//.test(rel)?"glossary":/^([a-z]{2}\/)?learn\//.test(rel)?"learn":"other"; grp[k].push(p); });
+    var h="<h2>"+esc(T.s)+"</h2>";
+    if(!pages.length){ box.innerHTML=h+'<p class="none">'+esc(T.none)+"</p>"; return; }
+    ["rules","glossary","learn","other"].forEach(function(k){ if(!grp[k].length) return;
+      grp[k].sort(function(a,b){ return a.title.localeCompare(b.title); });
+      h+="<h2>"+esc(T.g[k])+" · "+grp[k].length+"</h2><ul>"+grp[k].slice(0,60).map(function(p){ return '<li><a href="'+esc(p.url)+'">'+esc(p.title)+"</a></li>"; }).join("")+"</ul>"; });
+    box.innerHTML=h;
+  }).catch(function(){});
+})();
+</script>
+</body>
+</html>

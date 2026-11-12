@@ -50,6 +50,26 @@
      is empty). Loaded from here because this bar is on every page. Collector and private dashboard: tools/stats/ (not published).
      In production clayarena.com uses its own analytics instead (DEVELOPERS.md §4h). */
   if (me && !window.ClayStats) { try { const sj = document.createElement("script"); sj.src = ROOT + "shared/stats.js"; sj.async = true; document.head.appendChild(sj); } catch (e) {} }
+  /* Offline (PWA, step 1, 11.11.2026): the service worker docs/sw.js for the whole site, registered from here because this bar is
+     on every page of the three products. Fresh first: with a network the pages come from the server; a saved copy only without
+     one (see sw.js). On every FITASC rules page the "rules" pack is saved too (the guide with its search and the trainer work
+     offline). After the page has loaded, so it never competes with the page itself. ?nosw in any address removes the worker and
+     what it saved on this device (for testing). Production (clayarena.com): question T-10 to the ClayArena team. */
+  if (me && !window.ClayNav && "serviceWorker" in navigator && /^(https:|http:\/\/(localhost|127\.0\.0\.1)[:/])/.test(ROOT)) {
+    const sw = navigator.serviceWorker;
+    if (/[?&]nosw\b/.test(location.search)) {
+      sw.getRegistrations().then(rs => rs.forEach(r => r.unregister())).catch(() => {});
+      if (window.caches) caches.keys().then(ks => ks.filter(k => k.startsWith("clayarena-")).forEach(k => caches.delete(k))).catch(() => {});
+    } else {
+      const reg = () => sw.register(ROOT + "sw.js", { scope: ROOT }).then(() => {
+        if (location.href.startsWith(ROOT + "rules/")) sw.ready.then(r => r.active && r.active.postMessage({ type: "warm", pack: "rules" }));
+        // step 3: the glossary home and the Academy home get «Зберегти для офлайну» (the whole product in that language)
+        if (/^(?:[a-z]{2}\/)?(?:glossary|learn)\/$/.test(location.href.replace(/[?#].*$/, "").slice(ROOT.length))) {
+          const op = document.createElement("script"); op.src = ROOT + "shared/offline-pack.js"; op.async = true; document.head.appendChild(op); }
+      }).catch(() => {});
+      if (document.readyState === "complete") reg(); else addEventListener("load", reg);
+    }
+  }
   if (window.ClayNav && window.ClayNav.ready) return; // loaded twice (e.g. 404 page): keep the first bar
   const LANGS = ["en", "uk", "de", "fr", "it", "cs", "pl", "pt", "hu", "fi", "lt"]; // ClayArena site languages only
   const NATIVE = {en: "English", uk: "Українська", de: "Deutsch", fr: "Français", it: "Italiano", cs: "Čeština", pl: "Polski", pt: "Português", hu: "Magyar", fi: "Suomi", lt: "Lietuvių"};

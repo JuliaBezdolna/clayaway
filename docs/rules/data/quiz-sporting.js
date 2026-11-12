@@ -31,7 +31,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch6-target-zero",
     "ch6-target-one"
-   ]
+   ],
+   "sim": {
+    "type": "hit",
+    "kind": "dust"
+   }
   },
   {
    "id": "sp-q002",
@@ -61,7 +65,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Достатньо одного видимого уламка: правильно запущена мішень, по якій стріляли з правильної позиції, зараховується, якщо від неї видимо відлетів хоча б один шматок.",
    "refs": [
     "ch6-target-one"
-   ]
+   ],
+   "sim": {
+    "type": "hit",
+    "kind": "chip"
+   }
   },
   {
    "id": "sp-q003",
@@ -91,7 +99,15 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch5-call-and-release",
     "ch6-nobird-target-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "signal-late",
+    "also": [
+     "signal"
+    ],
+    "after": true
+   }
   },
   {
    "id": "sp-q004",
@@ -151,7 +167,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch5-refusing-target",
     "ch6-nobird-target-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "uncalled"
+   }
   },
   {
    "id": "sp-q006",
@@ -182,7 +202,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch6-nobird-target-cases",
     "ch6-nobird-target-single-rabbit"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "broken-launch"
+   }
   },
   {
    "id": "sp-q007",
@@ -211,7 +235,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Якщо стрільцю явно завадили, суддя оголошує No Bird і мішень повторюють. Чи була завада очевидною, вирішує суддя.",
    "refs": [
     "ch6-nobird-target-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "noise-shot"
+   }
   },
   {
    "id": "sp-q008",
@@ -472,7 +500,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch6-nobird-gun-rules",
     "ch6-malfunction-first-shot"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "misfire"
+   }
   },
   {
    "id": "sp-q016",
@@ -502,7 +534,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch6-second-malfunction",
     "ch7-malfunction-procedure"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "misfire"
+   }
   },
   {
    "id": "sp-q017",
@@ -687,7 +723,15 @@ window.RULES_QUIZ.push({
     "ch12-yellow-card",
     "ch3-mounting",
     "ch3-ready-position"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "gun-early",
+    "also": [
+     "gun-ready"
+    ],
+    "after": true
+   }
   },
   {
    "id": "sp-q023",
@@ -778,7 +822,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch12-shooting-nobird",
     "ch13-acceptance"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "nobird-shot"
+   }
   },
   {
    "id": "sp-q026",
@@ -1080,7 +1128,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Лінія проходить на 25 см (9,85 дюйма) нижче осі плечей, паралельно їй, і має контрастний колір.",
    "refs": [
     "ch3-jacket-line"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "gun-ready"
+   }
   },
   {
    "id": "sp-q036",
@@ -1112,7 +1164,15 @@ window.RULES_QUIZ.push({
    "explain_uk": "Мішень має вилетіти протягом трьох секунд після звукового сигналу судді; пізніша мішень — No Bird.",
    "refs": [
     "ch5-call-and-release"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "signal",
+    "also": [
+     "signal-late"
+    ],
+    "after": true
+   }
   },
   {
    "id": "sp-q037",
@@ -1147,7 +1207,8 @@ window.RULES_QUIZ.push({
    ],
    "sim": {
     "type": "pair",
-    "kind": "report"
+    "kind": "report",
+    "after": true
    }
   },
   {
@@ -2419,7 +2480,12 @@ window.RULES_QUIZ.push({
    "explain_uk": "Перестрілку проводять лише за перші три місця. Нижче третього стрільці ділять місце, а в списку їх розташовують за результатами у зворотному порядку з 8-го layout до 1-го.",
    "refs": [
     "ch18-top-three"
-   ]
+   ],
+   "sim": {
+    "type": "ties",
+    "kind": "countback",
+    "after": true
+   }
   },
   {
    "id": "sp-q080",

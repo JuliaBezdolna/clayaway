@@ -27,6 +27,7 @@ import vm from "node:vm";
 import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
 import { buildAcademy, minifySims } from "./build_academy.mjs";
 import { checkRulesData } from "./check_rules_data.mjs";
+import { ruleIndex, rulePath } from "./rules_paths.mjs";
 
 // ⚠⚠ FITASC_INDEX — the FITASC rules retelling (guide, rule pages UA/EN, categories, trainer) stays `noindex` and out of the sitemap
 // and llms.txt until FITASC gives WRITTEN permission (CLAUDE.md, rules-spec "Легальність контенту"). Only the project owner sets it
@@ -85,6 +86,9 @@ const simReserve = id => { const s = TERM_SIMS[id], hb = s && simBox(s); if (!hb
   return ` style="min-height:calc(${a.toFixed(4)} * min(100vw - 32px, 868px) + ${Math.round(b)}px)"`; };
 await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
+// One static page per chapter (wave 3, scripts/rules_paths.mjs): ruleHref(lang, book, item or chapter id, "?lang=pl") → full URL.
+const RIDX = ruleIndex(window.RULES);
+const ruleHref = (lang, book, id, q = "") => BASE + rulePath(RIDX, lang, book, id, q);
 // Rules guide and trainer data (scripts/check_rules_data.mjs: unique ids, refs, pages, no FITASC text copied word for word, no other
 // discipline): its errors stop the build here, before anything is written.
 { const r = await checkRulesData({ quiet: ARGS.includes("--quiet") });
@@ -124,7 +128,14 @@ const TXT = {
     ask: "Запитати про правила", trainer: "Перевірити себе в тренажері", other: "Інша мова", faq: "Часті питання", toc: "Зміст", part: "Частина", ch: "Розділ",
     src: "Джерело", ed: "Редакція", off: "Офіційний PDF FITASC", pdf: "PDF, с.", qg: "є в пам'ятці суддів", prev: "← Попередній розділ", next: "Наступний розділ →", nav: "Розділи",
     disc: "Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",
-    crumbs: ["ClayArena", "Правила FITASC"], updated: "Оновлено"
+    crumbs: ["ClayArena", "Правила FITASC"], updated: "Оновлено",
+    // chapter pages (wave 3)
+    chTitle: [(t, d) => `${t}: правила ${d} FITASC простими словами`, (t, d) => `${t} — правила ${d} FITASC`, t => `${t} — правила FITASC`],
+    chKicker: (d, n) => `Правила ${d} · Розділ ${n}`,
+    chLead: (d, n) => `Розділ ${n} регламенту FITASC ${d} нашими словами: кожен пункт із номером і посиланням на сторінку офіційного PDF.`,
+    chDesc: (d, n, t, list, k) => `Розділ ${n} правил ${d} FITASC «${t}» простими словами: ${list} ${k} з посиланням на сторінку офіційного PDF.`,
+    nItems: n => `${n} ${{ one: "пункт", few: "пункти", many: "пунктів" }[new Intl.PluralRules("uk").select(n)] || "пунктів"}`,
+    chFaq: "Часті питання з цього розділу", allCh: "Усі розділи", contents: "Зміст", read: "Читати розділ"
   },
   en: {
     title: d => `FITASC ${d} rules in plain English — ClayArena`,
@@ -134,7 +145,13 @@ const TXT = {
     ask: "Ask about the rules", trainer: "Test yourself in the trainer", other: "Other language", faq: "Common questions", toc: "Contents", part: "Part", ch: "Chapter",
     src: "Source", ed: "Edition", off: "Official FITASC PDF", pdf: "PDF, p.", qg: "in the referees' quick guide", prev: "← Previous chapter", next: "Next chapter →", nav: "Chapters",
     disc: "This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",
-    crumbs: ["ClayArena", "FITASC rules"], updated: "Updated"
+    crumbs: ["ClayArena", "FITASC rules"], updated: "Updated",
+    chTitle: [(t, d) => `${t}: FITASC ${d} rules in plain English`, (t, d) => `${t} — FITASC ${d} rules`, t => `${t} — FITASC rules`],
+    chKicker: (d, n) => `${d} rules · Chapter ${n}`,
+    chLead: (d, n) => `Chapter ${n} of the FITASC ${d} rulebook in our own words: every rule point with its reference and a link to the official PDF page.`,
+    chDesc: (d, n, t, list, k) => `FITASC ${d} rules, chapter ${n} “${t}” in plain English: ${list} ${k}, each linked to the official PDF page.`,
+    nItems: n => `${n} rule point${n === 1 ? "" : "s"}`,
+    chFaq: "Common questions on this chapter", allCh: "All chapters", contents: "Contents", read: "Read the chapter"
   }
 };
 const urlOf = (lang, key) => BASE + (lang === "uk" ? `rules/${key}/` : `rules/en/${key}/`);
@@ -196,20 +213,27 @@ article.item{border:1px solid var(--line);border-radius:12px;background:linear-g
 .inum{display:inline-flex;align-items:center;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;white-space:nowrap}
 .iqg{display:inline-flex;align-items:center;padding:2px 9px;border-radius:999px;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);color:#FCD34D;font-size:11.5px;font-weight:600;white-space:nowrap}
 .ipdf{font-size:13px;white-space:nowrap}
-article.item h3{margin:10px 0 4px;font-size:18px;line-height:1.35}article.item p{margin:6px 0 0}article.item ul{margin:10px 0 0;padding-left:20px}
+article.item h3,article.item h2{margin:10px 0 4px;font-size:18px;line-height:1.35}article.item p{margin:6px 0 0}article.item ul{margin:10px 0 0;padding-left:20px}
 .iterms{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0}.iterms .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .iterms a{display:inline-block;line-height:24px;min-height:32px;padding:3px 11px;border:1px solid var(--line);border-radius:999px;color:var(--soft);text-decoration:none;font-size:13px}.iterms a:hover{border-color:var(--em);color:#fff}
 .secnav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0 8px}
 .secnav a{display:grid;gap:2px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink);background:var(--surface);min-height:56px}
 .secnav a small{font-size:11.5px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}.secnav a.nx{text-align:right;grid-column:2}.secnav a:hover{border-color:var(--em)}
 @media(max-width:520px){.secnav{grid-template-columns:1fr}.secnav a.nx{grid-column:1}}
-@media (prefers-reduced-motion:reduce){#where{transition:none}}`;
+@media (prefers-reduced-motion:reduce){#where{transition:none}}
+.toc a[aria-current]{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}.toc .all{margin-top:10px;font-weight:600}
+.chap{border:1px solid var(--line);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));padding:12px 16px 14px;margin:10px 0;scroll-margin-top:60px}
+.chap h3{margin:0;font-size:18px;line-height:1.35}.chap h3 a{color:#fff;text-decoration:none}.chap h3 a:hover{text-decoration:underline}.chap h3 small{display:block;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;margin-bottom:2px}
+.chap ul{margin:8px 0 0;padding-left:20px;columns:2 260px;column-gap:28px}.chap li{font-size:14.5px;break-inside:avoid;scroll-margin-top:60px}.chap li a{color:var(--soft);text-decoration:none;padding:3px 0}.chap li+li{margin-top:3px}.chap li a:hover{color:#fff;text-decoration:underline}
+.chap li:target a{color:#fff;background:rgba(52,211,153,.15);border-radius:4px}.chap .go{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;text-decoration:none}
+.parth{margin:30px 0 4px;font-size:12.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.kick{font-size:13px;color:var(--em);font-weight:600;letter-spacing:.03em}`;
 const RULES_JS = `(function(){var w=document.getElementById("where"),L=document.getElementById("whereList"),sh=document.getElementById("whereShade"),toc=document.querySelector(".wrap>.toc"),h1=document.querySelector("main h1");
 if(!w||!L||!toc||!h1)return;L.innerHTML=toc.innerHTML;var secs=[].slice.call(document.querySelectorAll("main>section[id]")),links=[].slice.call(L.querySelectorAll("a")),cur=null;if(!secs.length)return;
 function open(on){w.setAttribute("aria-expanded",on?"true":"false");L.classList.toggle("open",on);sh.classList.toggle("open",on);if(on){var a=L.querySelector("a.on");if(a)a.scrollIntoView({block:"center"});}}
 function tick(){var c=secs[0];secs.forEach(function(s){if(s.getBoundingClientRect().top<90)c=s;});var show=h1.getBoundingClientRect().bottom<0&&secs[0].getBoundingClientRect().top<innerHeight;
 if(w.classList.contains("show")!==show){w.classList.toggle("show",show);if(!show)open(false);}if(c===cur)return;cur=c;
-links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+c.id);});var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
+links.forEach(function(a){a.classList.toggle("on",a.getAttribute("data-id")===c.id);});var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
 var r=0;addEventListener("scroll",function(){if(!r)r=requestAnimationFrame(function(){r=0;tick();});},{passive:true});
 w.addEventListener("click",function(){open(w.getAttribute("aria-expanded")!=="true");});sh.addEventListener("click",function(){open(false);});
 L.addEventListener("click",function(e){if(e.target.closest("a"))open(false);});
@@ -229,27 +253,44 @@ const ruleNum = ref => {
   return m ? { k: m[1] === "Chapter" ? "ch" : "ann", v: m[2] } : null;
 };
 const NUM_LBL = { uk: { art: "п. ", ch: "розд. ", ann: "дод. " }, en: { art: "", ch: "Ch. ", ann: "Annex " } };
-function page(key, lang) {
-  const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk";
-  const items = b.sections.flatMap(s => s.items);
-  const url = urlOf(lang, key), title = T.title(d), desc = T.desc(d, items.length, b.faq.length);
-  const tx = (x, k) => x[`${k}_${lang}`] || x[`${k}_en`] || "";
-  const ld = [
-    { "@context": "https://schema.org", "@type": "WebPage", name: title, description: desc, url, inLanguage: lang, dateModified: TODAY,
-      isPartOf: { "@type": "WebSite", name: "ClayArena", url: BASE },
-      isBasedOn: { "@type": "CreativeWork", name: b.source.doc_title, author: { "@type": "Organization", name: "FITASC" }, url: b.source.url } },
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-      { "@type": "ListItem", position: 1, name: T.crumbs[0], item: BASE },
-      { "@type": "ListItem", position: 2, name: T.crumbs[1], item: BASE + "rules/" },
-      { "@type": "ListItem", position: 3, name: d, item: url }] },
-    { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: b.faq.map(f => ({ "@type": "Question", name: tx(f, "q"), acceptedAnswer: { "@type": "Answer", text: tx(f, "a") } })) }
-  ];
-  const parts = [...new Set(b.sections.map(s => s.part))];
-  // previous / next chapter at the end of every chapter, in the order of the contents (the last chapter leads to the FAQ)
-  const order = [...b.sections.map(s => ({ id: s.id, t: `${s.chapter ? s.chapter + ". " : ""}${esc(tx(s, "title"))}` })), { id: "faq", t: T.faq }];
-  const secNav = id => { const i = order.findIndex(x => x.id === id), pv = order[i - 1], nx = order[i + 1];
-    return `<nav class="secnav" aria-label="${T.nav}">${pv ? `<a href="#${pv.id}"><small>${T.prev}</small>${pv.t}</a>` : ""}${nx ? `<a class="nx" href="#${nx.id}"><small>${T.next}</small>${nx.t}</a>` : ""}</nav>`; };
-  const html = `<!doctype html>
+// Static rules pages, one per chapter (wave 3, 10.11.2026; Ivan: "physical pages with their own meta"). Addresses: scripts/rules_paths.mjs.
+//   rules/<key>/          the book: title, contents (every chapter as a card with its rule items, each a link into the chapter page)
+//                         and all common questions (FAQPage). Old links rules/<key>/#<item id> still work: a tiny script in <head>
+//                         sends them to the chapter page before the first paint; without JS the item's line in the contents has that
+//                         id (highlighted with :target) and links on. rules/<key>/#chN lands on the chapter card.
+//   rules/<key>/<slug>/   one chapter: its own title, description, h1, breadcrumbs (Правила FITASC › Sporting™ › Розділ 6), the rule
+//                         items as cards, the common questions that refer to its items, previous / next chapter.
+// Links between these pages are relative (they work on the preview, locally and on clayarena.com alike); canonical, hreflang, og:url
+// and JSON-LD are absolute. Indexing: the FITASC_INDEX switch below covers every file under docs/rules/ (noindex until permission).
+const itemHTML = (b, it, lang, hx, defs) => { const T = TXT[lang], n = ruleNum(it.ref), tx = k => it[`${k}_${lang}`] || it[`${k}_en`] || "";
+  const r = globalThis.ruleTerms(it, lang, defs);
+  return `<article class="item" id="${it.id}"><div class="itop">${n ? `<span class="inum" title="FITASC: ${esc(it.ref)}">${NUM_LBL[lang][n.k]}${n.v}</span>` : ""}${it.quick_guide ? `<span class="iqg">${T.qg}</span>` : ""}<span class="sp"></span><a class="ipdf" href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page} ↗</a></div><${hx}>${esc(tx("title"))}</${hx}>
+<p>${r.sum}</p>${r.pts.length ? `<ul>${r.pts.map(x => `<li>${x}</li>`).join("")}</ul>` : ""}${r.chips}</article>`; };
+// The term card of the chapter pages (wave 3, variant C): a link in the rule text (a.gt, data-g = glossary id) opens a small card with
+// the term and its short definition (#gdefs, JSON written by the build) and «Відкрити в Глосарії →». Touch: the first tap opens the
+// card, the link in it (or a second tap on the word) goes on. Mouse: the card opens on hover, a click goes straight to the glossary.
+// Keyboard: the card follows the focus; Esc closes it. Without JS the words are plain links to the glossary.
+// a.gt looks like every other link of the site (green, plain underline — as «PDF, с. 9 ↗»; Юлія, 10.11.2026: no separate dotted style)
+const GT_CSS = `.iterms .more{font-size:12px;color:var(--muted);align-self:center;margin-right:2px}
+.gpop{position:absolute;z-index:90;width:max-content;max-width:min(320px,calc(100vw - 16px));background:#0B1120;border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:12px 14px 6px;box-shadow:0 14px 40px rgba(0,0,0,.6);font-size:14px;line-height:1.5;color:var(--soft)}
+.gpop b{display:block;color:#fff;font-size:15px;margin-bottom:4px}.gpop a{display:flex;align-items:center;min-height:40px;font-weight:600;color:var(--em);text-decoration:none}.gpop a:hover{text-decoration:underline}
+@media print{.gpop{display:none!important}}`;
+const GT_JS = `(function(){var D=document.getElementById("gdefs");if(!D)return;var M=JSON.parse(D.textContent),pop=null,cur=null,tm=0,
+OPEN=document.documentElement.lang==="uk"?"Відкрити в Глосарії →":"Open in the glossary →",hov=matchMedia("(hover:hover) and (pointer:fine)").matches;
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function close(){if(pop){pop.remove();pop=null;}if(cur){cur.removeAttribute("aria-expanded");cur=null;}}
+function open(a){var d=M[a.getAttribute("data-g")];if(!d)return false;close();pop=document.createElement("div");pop.className="gpop";pop.id="gpop";pop.setAttribute("role","dialog");pop.setAttribute("aria-label",d[0]);
+pop.innerHTML="<b>"+esc(d[0])+"</b>"+esc(d[1])+'<a href="'+a.href+'" target="_blank" rel="noopener">'+OPEN+"</a>";document.body.appendChild(pop);
+var r=a.getBoundingClientRect(),w=pop.offsetWidth,h=pop.offsetHeight,x=Math.max(8,Math.min(r.left,innerWidth-w-8)),y=r.bottom+6;if(y+h>innerHeight-8&&r.top-h-6>8)y=r.top-h-6;
+pop.style.left=(x+scrollX)+"px";pop.style.top=(y+scrollY)+"px";cur=a;a.setAttribute("aria-expanded","true");a.setAttribute("aria-controls","gpop");return true;}
+function gt(e){return e.target.closest?e.target.closest("a.gt[data-g]"):null;}
+document.addEventListener("click",function(e){var a=gt(e);if(a){if(!hov&&cur!==a&&open(a))e.preventDefault();return;}if(!(e.target.closest&&e.target.closest(".gpop")))close();});
+if(hov){document.addEventListener("mouseover",function(e){var a=gt(e);clearTimeout(tm);if(a&&a!==cur)tm=setTimeout(function(){open(a);},200);else if(!a&&pop&&!(e.target.closest&&e.target.closest(".gpop")))tm=setTimeout(close,300);});}
+document.addEventListener("focusin",function(e){var a=gt(e);if(a&&a!==cur&&e.target.matches(":focus-visible"))open(a);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&pop){var a=cur;close();if(a)a.focus();}});addEventListener("resize",close);})();`;
+const faqHTML = (f, lang) => { const tx = k => f[`${k}_${lang}`] || f[`${k}_en`] || ""; return `<details><summary>${esc(tx("q"))}</summary><p>${esc(tx("a"))}</p></details>`; };
+const faqRefs = f => (f.refs || []).map(r => typeof r === "string" ? r : r && r.id).filter(Boolean);
+const headHTML = ({ lang, title, desc, url, alt, ld, extra = "" }) => `<!doctype html>
 <html lang="${lang}">
 <head>
 <meta charset="utf-8">
@@ -258,9 +299,9 @@ function page(key, lang) {
 <meta name="description" content="${esc(desc)}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="${url}">
-<link rel="alternate" hreflang="uk" href="${urlOf("uk", key)}">
-<link rel="alternate" hreflang="en" href="${urlOf("en", key)}">
-<link rel="alternate" hreflang="x-default" href="${urlOf("en", key)}">
+<link rel="alternate" hreflang="uk" href="${alt.uk}">
+<link rel="alternate" hreflang="en" href="${alt.en}">
+<link rel="alternate" hreflang="x-default" href="${alt.en}">
 <meta property="og:type" content="article"><meta property="og:site_name" content="ClayArena">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}og/rules.png">
@@ -271,35 +312,116 @@ function page(key, lang) {
 <link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
 <style>${CSS}
-${RULES_CSS}</style>
-<script>document.documentElement.classList.add("js")</script>
-</head>
+${RULES_CSS}
+${GT_CSS}</style>
+<script>document.documentElement.classList.add("js")${extra}</script>
+</head>`;
+const whereHTML = (key, T) => `<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d">${key === "sporting" ? "Sporting™" : "Compak®"}</span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
+<div class="where-shade" id="whereShade"></div><nav id="whereList" aria-label="${T.toc}"></nav>`;
+const chapUrl = (lang, key, s) => BASE + rulePath(RIDX, lang, key, s.id);
+const chapName = (s, lang) => `${s.chapter ? s.chapter + ". " : ""}${esc(s[`title_${lang}`] || s.title_en)}`;
+const writePage = (path, html) => { mkdirSync(`${DOCS}/${path}`, { recursive: true }); writeFileSync(`${DOCS}/${path}/index.html`, html); };
+
+function page(key, lang) {
+  const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk";
+  const items = b.sections.flatMap(s => s.items);
+  const url = urlOf(lang, key), title = T.title(d), desc = T.desc(d, items.length, b.faq.length);
+  const tx = (x, k) => x[`${k}_${lang}`] || x[`${k}_en`] || "";
+  const slugOf = s => RIDX.get(`${key}:${s.id}`).slug;
+  const ld = [
+    { "@context": "https://schema.org", "@type": "WebPage", name: title, description: desc, url, inLanguage: lang, dateModified: TODAY,
+      isPartOf: { "@type": "WebSite", name: "ClayArena", url: BASE },
+      hasPart: b.sections.map(s => ({ "@type": "WebPage", name: tx(s, "title"), url: chapUrl(lang, key, s) })),
+      isBasedOn: { "@type": "CreativeWork", name: b.source.doc_title, author: { "@type": "Organization", name: "FITASC" }, url: b.source.url } },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: T.crumbs[0], item: BASE },
+      { "@type": "ListItem", position: 2, name: T.crumbs[1], item: BASE + "rules/" },
+      { "@type": "ListItem", position: 3, name: d, item: url }] },
+    { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: b.faq.map(f => ({ "@type": "Question", name: tx(f, "q"), acceptedAnswer: { "@type": "Answer", text: tx(f, "a") } })) }
+  ];
+  const parts = [...new Set(b.sections.map(s => s.part))];
+  // old anchors (#<item id>, ids start with their chapter id) → the chapter page, keeping ?lang; runs before the first paint
+  const map = Object.fromEntries(b.sections.map(s => [s.id, slugOf(s)]));
+  const redirect = `;(function(){var M=${JSON.stringify(map)},h=decodeURIComponent(location.hash.slice(1)),m=/^(ch\\d+)-/.exec(h);if(m&&M[m[1]])location.replace(location.pathname.replace(/index\\.html$/,"")+M[m[1]]+"/"+location.search+location.hash);})()`;
+  const html = `${headHTML({ lang, title, desc, url, alt: { uk: urlOf("uk", key), en: urlOf("en", key) }, ld, extra: redirect })}
 <body>
 <header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d }])}
 <span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: urlOf(o, key) }])}</div></header>
-<button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d">${key === "sporting" ? "Sporting™" : "Compak®"}</span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
-<div class="where-shade" id="whereShade"></div><nav id="whereList" aria-label="${T.toc}"></nav>
+${whereHTML(key, T)}
 <div class="wrap">
-<nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(s => s.part === p).map(s => `<a href="#${s.id}">${s.chapter ? s.chapter + ". " : ""}${esc(tx(s, "title"))}</a>`).join("")).join("")}<div class="p">FAQ</div><a href="#faq">${T.faq}</a></nav>
+<nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(s => s.part === p).map(s => `<a href="#${s.id}" data-id="${s.id}">${chapName(s, lang)}</a>`).join("")).join("")}<div class="p">FAQ</div><a href="#faq" data-id="faq">${T.faq}</a></nav>
 <main>
 <div class="src">FITASC · ${esc(d)}</div>
 <h1>${esc(T.h1(d))}</h1>
 <p>${T.lead}</p>
 <p class="src">${T.src}: <a href="${esc(b.source.url)}" ${NF}>${T.off} ↗</a> · ${T.ed}: ${esc(b.source.edition)} · ${T.updated}: ${TODAY}</p>
 <div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">🎯 ${T.trainer}</a></div>
-${b.sections.map(s => `<section id="${s.id}"><h2><small>${T.part} ${esc(s.part)}${s.chapter ? " · " + T.ch + " " + s.chapter : ""}</small>${esc(tx(s, "title"))}</h2>
-${s.items.map(it => { const n = ruleNum(it.ref); return `<article class="item" id="${it.id}"><div class="itop">${n ? `<span class="inum" title="FITASC: ${esc(it.ref)}">${NUM_LBL[lang][n.k]}${n.v}</span>` : ""}${it.quick_guide ? `<span class="iqg">${T.qg}</span>` : ""}<span class="sp"></span><a class="ipdf" href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page} ↗</a></div><h3>${esc(tx(it, "title"))}</h3>
-<p>${esc(tx(it, "summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${globalThis.termLinks ? globalThis.termLinks(it, lang) : ""}</article>`; }).join("\n")}
-${secNav(s.id)}</section>`).join("\n")}
-<section id="faq" class="faq"><h2>${T.faq}</h2>${b.faq.map(f => `<details><summary>${esc(tx(f, "q"))}</summary><p>${esc(tx(f, "a"))}</p></details>`).join("\n")}</section>
+<h2>${T.contents}</h2>
+${parts.map(p => `<p class="parth">${T.part} ${esc(p)}</p>\n` + b.sections.filter(s => s.part === p).map(s => { const sl = slugOf(s);
+  return `<section class="chap" id="${s.id}"><h3><small>${s.chapter ? T.ch + " " + s.chapter + " · " : ""}${T.nItems(s.items.length)}</small><a href="${sl}/">${esc(tx(s, "title"))}</a></h3>
+<ul>${s.items.map(it => `<li id="${it.id}"><a href="${sl}/#${it.id}">${esc(tx(it, "title"))}</a></li>`).join("")}</ul></section>`; }).join("\n")).join("\n")}
+<section id="faq" class="faq"><h2>${T.faq}</h2>${b.faq.map(f => faqHTML(f, lang)).join("\n")}</section>
 <div class="disc">${T.disc}</div>${legal(lang)}
 </main></div>
 <script>${RULES_JS}</script>
 </body>
 </html>`;
-  const dir = lang === "uk" ? `${DOCS}/rules/${key}` : `${DOCS}/rules/en/${key}`;
-  mkdirSync(dir, { recursive: true });
-  writeFileSync(`${dir}/index.html`, html);
+  writePage(lang === "uk" ? `rules/${key}` : `rules/en/${key}`, html);
+  return [url, ...b.sections.map((s, i) => chapterPage(key, lang, i))];
+}
+
+function chapterPage(key, lang, i) {
+  const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk", s = b.sections[i];
+  const tx = (x, k) => x[`${k}_${lang}`] || x[`${k}_en`] || "";
+  const slugOf = x => RIDX.get(`${key}:${x.id}`).slug, sl = slugOf(s);
+  const url = chapUrl(lang, key, s), book = urlOf(lang, key), name = tx(s, "title"), n = s.chapter;
+  const title = T.chTitle.reduce((acc, f) => acc || (f(name, d).length <= 65 ? f(name, d) : ""), "") || T.chTitle[2](name, d);
+  // the first rule items as the snippet; titles with a declined mark ("Compaks") are left out of the meta (the item text stays as it is)
+  const heads = s.items.map(it => tx(it, "title")).filter(h => !/(?<![\p{L}\p{M}\p{N}])(Compak|Sporting)(?![®™])[\p{L}\p{M}]/u.test(h));
+  const list = heads.slice(0, 3).join("; ") + (heads.length > 3 ? "…" : ".");
+  const desc = tmMeta(T.chDesc(d, n, name, list, T.nItems(s.items.length)), `rules/${key}/${sl}/`).slice(0, 300);
+  const ids = new Set(s.items.map(it => it.id)), faq = b.faq.filter(f => faqRefs(f).some(r => ids.has(r)));
+  const defs = new Map(); // glossary terms linked in the rule texts of this page → their card (filled by itemHTML, written as #gdefs)
+  const chLbl = `${T.ch} ${n}`;
+  const ld = [
+    { "@context": "https://schema.org", "@type": "WebPage", name: title, headline: name, description: desc, url, inLanguage: lang, dateModified: TODAY,
+      isPartOf: { "@type": "WebPage", name: T.title(d), url: book },
+      isBasedOn: { "@type": "CreativeWork", name: b.source.doc_title, author: { "@type": "Organization", name: "FITASC" }, url: b.source.url } },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: T.crumbs[0], item: BASE },
+      { "@type": "ListItem", position: 2, name: T.crumbs[1], item: BASE + "rules/" },
+      { "@type": "ListItem", position: 3, name: d, item: book },
+      { "@type": "ListItem", position: 4, name: `${chLbl}. ${name}`, item: url }] }
+  ];
+  const parts = [...new Set(b.sections.map(x => x.part))];
+  const pv = b.sections[i - 1], nx = b.sections[i + 1];
+  const secnav = `<nav class="secnav" aria-label="${T.nav}">${pv ? `<a href="../${slugOf(pv)}/"><small>${T.prev}</small>${chapName(pv, lang)}</a>` : `<a href="../"><small>←</small>${T.allCh}</a>`}${nx ? `<a class="nx" href="../${slugOf(nx)}/"><small>${T.next}</small>${chapName(nx, lang)}</a>` : `<a class="nx" href="../#faq"><small>→</small>${T.faq}</a>`}</nav>`;
+  const html = `${headHTML({ lang, title, desc, url, alt: { uk: chapUrl("uk", key, s), en: chapUrl("en", key, s) }, ld })}
+<body>
+<header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d, url: "../" }, { label: chLbl }])}
+<span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: chapUrl(o, key, s) }])}</div></header>
+${whereHTML(key, T)}
+<div class="wrap">
+<nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(x => x.part === p).map(x => `<a href="../${slugOf(x)}/" data-id="${x.id}"${x === s ? ' aria-current="page"' : ""}>${chapName(x, lang)}</a>`).join("")).join("")}<a class="all" href="../">← ${T.allCh}</a><a href="../#faq">${T.faq}</a></nav>
+<main>
+<div class="kick">${esc(T.chKicker(d, n))} · ${T.part} ${esc(s.part)}</div>
+<h1>${esc(name)}</h1>
+<p>${T.chLead(d, n)}</p>
+<p class="src">${T.src}: <a href="${esc(b.source.url)}" ${NF}>${T.off} ↗</a> · ${T.ed}: ${esc(b.source.edition)} · ${T.updated}: ${TODAY}</p>
+<section id="${s.id}">
+${s.items.map(it => itemHTML(b, it, lang, "h2", defs)).join("\n")}
+</section>
+${faq.length ? `<div id="faq" class="faq"><h2>${T.chFaq}</h2>${faq.map(f => faqHTML(f, lang)).join("\n")}</div>` : ""}
+${secnav}
+<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">🎯 ${T.trainer}</a></div>
+<div class="disc">${T.disc}</div>${legal(lang)}
+</main></div>
+<script>${RULES_JS}</script>
+${defs.size ? `<script type="application/json" id="gdefs">${JSON.stringify(Object.fromEntries(defs)).replace(/</g, "\\u003c")}</script>
+<script>${GT_JS}</script>` : ""}
+</body>
+</html>`;
+  writePage(`${lang === "uk" ? "rules" : "rules/en"}/${key}/${sl}`, html);
   return url;
 }
 
@@ -330,12 +452,32 @@ const CAT_UK = { "Appeals": "Протести", "Discipline": "Дисциплі�
 // Rule reference in Ukrainian: "Розділ 18 · <item title_uk>" (r.ref in the data is the English PDF heading).
 const refUk = r => { const b = BOOKS[r.book]; const sec = b && b.sections.find(s => s.items.some(x => x.id === r.id)); const it = sec && sec.items.find(x => x.id === r.id);
   return it ? `Розділ ${sec.chapter} · ${it.title_uk}` : r.ref.replace(/^Chapter (\d+)/, "Розділ $1"); };
-// termLinks(item, lang): HTML links from a rule item to its glossary terms (deduplicated through aliases).
-globalThis.termLinks = (it, lang) => {
-  if (!GLOSS) return "";
-  const ids = [...new Set((it.terms || []).map(t => ALIAS[t] || t).filter(id => GBY[id]))];
-  if (!ids.length) return "";
-  return `<div class="iterms"><span class="sr">${lang === "uk" ? "Терміни" : "Terms"}: </span>${ids.map(id => `<a href="${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/">${termHtml(lang, GBY[id])}</a>`).join(" ")}</div>`;
+// ruleTerms(item, lang, defs): the glossary terms of a rule item (deduplicated through aliases) on the static rule pages — wave 3,
+// variant C of design-mockups/rules-terms.html (Юлія, 10.11.2026). The first mention of each term in the item's own text becomes a
+// link (docs/shared/rule-terms.js: the words already written there are wrapped, the text is never changed); the terms not found in
+// the text stay as chips under the item («Ще:», or «Терміни:» when none was found). defs (Map id → [label, short definition])
+// collects what the term card of the page shows (GT_JS: a tap — or hover with a mouse — opens it before going to the glossary).
+// → { sum, pts: [..], chips } as HTML.
+try { await import("../docs/shared/rule-terms.js"); } catch (e) { console.log("docs/shared/rule-terms.js not found — rule texts without term links"); }
+// glossary links of the rule pages (in the text, the chips and the card) open in a new tab: the reader keeps the rule (Юлія, 10.11.2026)
+const NEWTAB = ' target="_blank" rel="noopener"';
+let RT_NAMES = null;
+globalThis.ruleTerms = (it, lang, defs) => {
+  const tx = k => it[`${k}_${lang}`] || it[`${k}_en`] || "", pts = it["points_" + lang] || [];
+  const plain = { sum: esc(tx("summary")), pts: pts.map(x => esc(x)), chips: "" };
+  const ids = GLOSS ? [...new Set((it.terms || []).map(t => ALIAS[t] || t).filter(id => GBY[id]))] : [];
+  if (!ids.length) return plain;
+  const RT = window.ClayRuleTerms, href = id => `${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/`, used = new Set();
+  let sum = plain.sum, lis = plain.pts;
+  if (RT) {
+    if (!RT_NAMES) RT_NAMES = RT.namer(GLOSS.terms, ((window.GLOSSARY_I18N || {}).uk || {}).terms);
+    const cands = ids.map(id => ({ id, href: href(id), ...RT_NAMES(GBY[id], lang), attrs: ` data-g="${id}"${NEWTAB}` }));
+    sum = RT.link(tx("summary"), cands, used, esc); lis = pts.map(x => RT.link(x, cands, used, esc));
+    for (const id of used) if (!defs.has(id)) defs.set(id, [termLabel(lang, GBY[id]).label, GBY[id][`short_${lang}`] || GBY[id].short_en || ""]);
+  }
+  const rest = ids.filter(id => !used.has(id)), lbl = used.size ? (lang === "uk" ? "Ще:" : "More:") : (lang === "uk" ? "Терміни:" : "Terms:");
+  const chips = rest.length ? `<div class="iterms"><span class="more">${lbl}</span>${rest.map(id => `<a href="${href(id)}"${NEWTAB}>${termHtml(lang, GBY[id])}</a>`).join(" ")}</div>` : "";
+  return { sum, pts: lis, chips };
 };
 // Descriptive subtitles of the uk term pages whose h1 is the English word alone ("Battue" → «мішень, що летить ребром і різко
 // падає»): content/glossary/subtitles/uk.json, shown under the h1 and used in <title> (glossary plan, wave 4.3, 05.11.2026).
@@ -362,7 +504,7 @@ function glossaryPages() {
 <meta property="og:locale" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/glossary.png">
 <meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${css}${GS.CSS}</style>
+<style>${css}${GS.CSS}${G3D.has((url.match(/\/glossary\/([^/]+)\/$/) || [])[1]) ? GL3D_CSS : ""}</style>
 </head>
 <body>
 <header><div class="in">${crumbs("uk", "📖", name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">📘 Правила FITASC</a>
@@ -380,7 +522,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const plain = fitTitle(`${lb.label} — термін стендової стрільби | Глосарій ClayArena`, fitTitle(`${lb.label} | Глосарій ClayArena`, `${lb.head} | Глосарій ClayArena`));
     const title = sub ? fitTitle(`${lb.label} — ${sub} | Глосарій ClayArena`, fitTitle(`${lb.label} — ${sub} | ClayArena`, plain)) : plain;
     const desc = fitDesc(tm(`${t.term}: ${t.short_uk}`), "Термін стендової стрільби — глосарій ClayArena.", `glossary/${t.id}/`);
-    const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/${r.book}/#${r.id}">${esc(refUk(r))}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, с. ${r.page}</a></li>`).join("");
+    const refs = (t.rule_refs || []).map(r => `<li><a href="${ruleHref("uk", r.book, r.id)}">${esc(refUk(r))}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, с. ${r.page}</a></li>`).join("");
     const disc = ["sporting", "compak"].filter(k => t.disciplines && t.disciplines[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines[k])}</p></div>`).join("");
     const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${termHtml("uk", GBY[r])}</a>`).join(" ");
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
@@ -552,6 +694,12 @@ const CARD_CSS = `.what-card{border:1px solid rgba(255,255,255,.1);border-radius
 // cut in half ("Electronic refereeing (електронне суддівство)", 09.11.2026); in the flex row a chip moves to the next line whole.
 const REL_CSS = `.rel-row{display:flex;flex-wrap:wrap;gap:6px;max-width:none;margin:10px 0}.rel-row .btn{align-content:center;line-height:1.4}`; // on a phone .btn has min-height 44px (touch target): the text in its middle
 // (align-content on the block, not inline-flex: flex items would drop the space in "Call (виклик мішені)")
+// The 3D export (docs/shared/3d/glossary3d.css, made in ClayArenaPromo, not edited here) gives every h2 of a 3D page a
+// green-to-orange stripe. Kept only on «Подивіться в 3D» (the h2 right before section.l3, or before .gl-how that the 3D script puts there), as Єгор designed it with the 3D;
+// the other headings and the «Що це / Детально» pills go without it. Without :has() the stripes stay as the export has them.
+// Only on the Ukrainian term pages that have a 3D block (docs/shared/3d/blocks.json): the others have no html.gl-deco.
+const G3D = (() => { try { return new Set(Object.keys(JSON.parse(readFileSync("docs/shared/3d/blocks.json", "utf8")))); } catch (e) { return new Set(); } })();
+const GL3D_CSS = `html.gl-deco body main h2:not(:has(+ .l3, + .gl-how)){padding-left:0}html.gl-deco body main h2:not(:has(+ .l3, + .gl-how))::before{content:none}html.gl-deco body main .what-card h2{padding-left:10px}`;
 const JUMP_CSS = `.jump{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:22px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.jump a{color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;min-height:32px;display:inline-flex;align-items:center}.jump a:hover{border-color:var(--em);color:#fff}h2[id]{scroll-margin-top:56px}` + DUO_CSS + CARD_CSS + REL_CSS;
 const jumpNav = (lang, have) => { const [lbl, ...n] = JUMP[lang] || JUMP.en;
   const links = [["what", 1], ["disc", have.disc], ["rules", have.rules], ["learn", have.learn], ["rel", have.rel]].map((x, i) => x[1] ? `<a href="#${x[0]}">${n[i]}</a>` : "").join("");
@@ -625,13 +773,31 @@ try { await import("../docs/rules/data/categories.js"); } catch (e) { console.lo
 
 const urls = [BASE + "rules/", BASE + "rules/trainer/"];
 urls.push(...categoriesPage());
-for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(page(key, lang));
+for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(...page(key, lang));
+// docs/rules/terms.js — the small data file of the term links in the guide /rules/ (the page with the search, docs/rules/index.html;
+// wave 3, 10.11.2026). The guide does not load the glossary (glossary.js + i18n/uk.js, ~320 KB): it gets only the terms the rule
+// items list, with what ClayRuleTerms.link (docs/shared/rule-terms.js) needs to find them in the text and what the term card and the
+// chips show, so the guide links the same words as the chapter pages (ruleTerms() above). GENERATED here, never edited by hand.
+// window.RULE_TERMS = { a: { <old id of item.terms>: <glossary id> } (aliases.json, only those the items use),
+//                       t: { <glossary id>: { uk: [label, short definition, chip HTML, names, more], en: [...] } } }
+if (GLOSS) {
+  const RT = window.ClayRuleTerms, a = {}, t = {};
+  if (RT && !RT_NAMES) RT_NAMES = RT.namer(GLOSS.terms, ((window.GLOSSARY_I18N || {}).uk || {}).terms);
+  for (const b of Object.values(BOOKS)) for (const s of b.sections) for (const it of s.items) for (const x of it.terms || []) {
+    const id = ALIAS[x] || x; if (!GBY[id]) continue;
+    if (id !== x) a[x] = id;
+    if (!t[id]) t[id] = Object.fromEntries(["uk", "en"].map(lang => { const n = RT_NAMES ? RT_NAMES(GBY[id], lang) : { names: [], more: [] };
+      return [lang, [termLabel(lang, GBY[id]).label, GBY[id][`short_${lang}`] || GBY[id].short_en || "", termHtml(lang, GBY[id]), n.names, n.more]]; }));
+  }
+  writeFileSync(`${DOCS}/rules/terms.js`, `/* GENERATED by scripts/build_seo.mjs — do not edit. Glossary terms of the rule items for the guide /rules/ (term links and card). */\n`
+    + `window.RULE_TERMS=${JSON.stringify({ a, t })};\n`);
+}
 urls.push(...glossaryPages());
 // /interpreter/ (the old Interpreter Academy app) is a noindex forwarder to the Academy's interpreter route now
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS };
+globalThis.SEO = { ruleHref, BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn, GS, glossaryIndexList, LIST_CSS, catMore, crumbLd, jumpNav, JUMP_CSS };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
@@ -726,6 +892,7 @@ const glossMeta = { description: new Map(), title: new Map(), missing: [] };
     const rp = f.slice(DOCS.length + 1); // path inside the site root
     let h = readFileSync(f, "utf8"); const depth = rp.split("/").length - 1, rel = depth ? "../".repeat(depth) : "";
     if (h.includes('http-equiv="refresh"')) continue; // redirect stubs stay bare
+    if (rp === "offline.html") continue; // PWA: docs/sw.js shows it at the address of ANY page, so no relative nav.js / slot
     if (GLOSS_PAGE_RE.test(rp)) for (const [k, re] of [["description", /<meta name="description" content="([^"]*)"/], ["title", /<title>([^<]*)<\/title>/]]) {
       const v = (h.match(re) || [])[1], page = rp.replace(/index\.html$/, "");
       if (!v) { glossMeta.missing.push(`${page} (${k})`); continue; }
@@ -788,3 +955,6 @@ if (tmMetaHits.size) console.log(`WARNING: glossary meta descriptions with a dec
 // 3D animations of glossary terms (docs/shared/3d/, exported from ClayArenaPromo): the block goes into the Ukrainian term pages
 // after they are written above. Idempotent; see scripts/build_glossary3d.mjs.
 { const { buildGlossary3d } = await import("./build_glossary3d.mjs"); buildGlossary3d(); }
+// Offline packs (PWA step 3): the lists of files «Зберегти для офлайну» saves, per product and language, docs/offline/*.json.
+// LAST, so they hash the pages as they are published (3D blocks included); see scripts/build_offline.mjs.
+{ const { buildOffline } = await import("./build_offline.mjs"); buildOffline({ docs: DOCS, quiet: ARGS.includes("--quiet") }); }
