@@ -1728,7 +1728,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Мішень або уламки з іншого Compak ніколи не є підставою для NO BIRD; підставою є лише випадкова мішень з машинки того самого Compak. Промах залишається.",
    "refs": [
     "ch20-other-compak"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "neighbour"
+   }
   },
   {
    "id": "cs-q055",
@@ -1761,7 +1765,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Погана погода ніколи не є підставою для NO BIRD: кожна промахнута мішень — ZERO, кожна розбита — ONE, за будь-яких умов.",
    "refs": [
     "ch20-bad-weather"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "gust"
+   }
   },
   {
    "id": "cs-q056",
@@ -2010,7 +2018,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "NO BIRD оголошують, коли суддя бачить, що стрільцеві явно завадили.",
    "refs": [
     "ch20-target-no-bird-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "noise-call"
+   }
   },
   {
    "id": "cs-q063",

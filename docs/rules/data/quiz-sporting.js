@@ -235,7 +235,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Якщо стрільцю явно завадили, суддя оголошує No Bird і мішень повторюють. Чи була завада очевидною, вирішує суддя.",
    "refs": [
     "ch6-nobird-target-cases"
-   ]
+   ],
+   "sim": {
+    "type": "call",
+    "kind": "noise-shot"
+   }
   },
   {
    "id": "sp-q008",

@@ -57,7 +57,10 @@ Drawn by the shared module `docs/shared/sims.js` (the same one the Academy, its 
   `manual-late` (Compak® only: released by hand 4 s after the call, the referee calls No Bird — use `after: true`),
   `uncalled` (released without a call, no shot), `uncalled-shot` (the same, a late shot that misses), `broken-launch`
   (Sporting™ only: the target leaves the trap broken in two, the larger piece is hit), `nobird-shot` (the referee calls
-  No Bird, the shooter fires anyway). Except `manual-late` they show the situation, not the decision.
+  No Bird, the shooter fires anyway). Except `manual-late` they show the situation, not the decision. Interference:
+  `noise-shot` (Sporting™: a phone rings behind the stand at the shot, a flinch, a miss), `noise-call` (Compak®: a loudspeaker at
+  the call, the gun is lowered), `neighbour` (Compak®: a target of the next Compak crosses the view, a miss), `gust` (Compak®: a
+  gust pushes the target down at the shot, the shot goes over).
 - `{type: "ties", kind, also?}`: `shoot-off` (places 1–3) or `countback` (below third place, from the last layout / Compak back).
 - `{type: "hit", kind}` (12.11.2026): is it a hit — the edge of the pattern touches a crosser, a magnifier follows the clay.
   `dust` (only a puff of dust, the clay flies on whole) or `chip` (one small visible piece breaks away). No verdict is shown.

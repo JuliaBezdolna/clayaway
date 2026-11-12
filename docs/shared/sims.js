@@ -270,6 +270,14 @@ const DEF = {
   anim_s_broken_hit: "The shooter breaks the larger piece.",
   anim_t_nobird_shot: "A shot after “No Bird”",
   anim_s_nobird_shot: "The referee calls “No Bird”, but the shooter fires anyway.",
+  anim_t_noise_shot: "Noise at the shot",
+  anim_s_noise_shot: "A phone rings loudly just behind the stand; the shooter flinches and misses.",
+  anim_t_noise_call: "Noise at the call",
+  anim_s_noise_call: "A loudspeaker announcement booms right at the call; the shooter flinches and lowers the gun.",
+  anim_t_neighbour: "A target from the next Compak",
+  anim_s_neighbour: "While the shooter swings, a target from the neighbouring Compak crosses his view. He misses his own.",
+  anim_t_gust: "A gust of wind",
+  anim_s_gust: "A gust knocks the target down just as the shooter fires; the shot goes over it.",
   anim_h_hit: "Watch what happens to the clay", anim_w_hit: "The magnifier follows the clay from the shot: dust only, or a piece that breaks away.",
   anim_t_hit_dust: "Only dust", anim_t_hit_chip: "A visible piece",
   anim_hit_dust: "The edge of the pattern touches the clay: a puff of dust, but not one piece breaks away — the clay flies on whole.",
@@ -1490,6 +1498,18 @@ const SCENES = {
   "broken-launch": {tab: "anim_t_broken",  line: 1, call: .3, signal: .7, release: 1.5, mount: [1.62, 1.95], shot: 2.35, broken: 1,
                   say: [[1.5, "anim_s_broken"], [2.35, "anim_s_broken_hit"]], end: 4.4},
   "nobird-shot": {tab: "anim_t_nobird_shot", call: .3, release: 1, nobird: 1.25, mount: [1.1, 1.45], shot: 1.95, say: [[1.25, "anim_s_nobird_shot"]], end: 4.2},
+  /* interference (12.11.2026), the situation only:
+     - noise-shot: Sporting™ — a spectator's phone rings loudly just behind the stand as the shooter fires; he flinches and misses;
+     - noise-call: Compak® — a loudspeaker announcement at the call; the shooter flinches and lowers the gun, he does not shoot;
+     - neighbour: Compak® — while he swings, a target of the neighbouring Compak crosses his view far out; he misses his own;
+     - gust: Compak® — a gust knocks the target down just as he fires; the shot goes over it.
+     noise = [from, to, "phone" | "speaker"]; flinch = [from, to] (the gun jerks up); lower = [from, to] (gun up → ready, Compak);
+     other = [release, duration] of the neighbour's target; gust = [time, drop px]. */
+  "noise-shot":  {tab: "anim_t_noise_shot", line: 1, call: .3, signal: .7, release: 1.5, mount: [1.62, 1.95], noise: [2.05, 2.9, "phone"], flinch: [2.12, 2.4], shot: 2.25, miss: 1,
+                  say: [[2.05, "anim_s_noise_shot"]], end: 4.6},
+  "noise-call":  {tab: "anim_t_noise_call", up: 1, call: .3, noise: [.3, 1.3, "speaker"], lower: [.45, .9], release: 1.3, say: [[.3, "anim_s_noise_call"]], end: 4.2},
+  neighbour:     {tab: "anim_t_neighbour", up: 1, call: .3, release: 1.1, other: [1.3, 1.7], shot: 2.25, miss: 1, say: [[1.3, "anim_s_neighbour"]], end: 4.4},
+  gust:          {tab: "anim_t_gust", up: 1, call: .3, release: 1.1, gust: [1.8, 46], shot: 1.95, miss: 1, say: [[1.8, "anim_s_gust"]], end: 4.4},
 };
 const GY = 322, LINE_Y = 203, FLY = 2.2, SH = 380; // SH = scene height; narrow screens get a band for the clock above it
 // SAFETY layout (see above): people only left of BEHIND_X (the shooter's back heel is at x ≈ 150, the stand starts at 126); the
@@ -1792,7 +1812,11 @@ function standSim(host, kind, opts = {}){
   says.sort((a, b) => a[0] - b[0]);
   let said = null;
   const say = t => { let s = ""; for (const [at, x] of says) if (t >= at) s = x; if (s !== said) { said = s; out.textContent = s; } };
-  const pose = t => { // gun pose at time t, and the aim point
+  const pose = t => { let g = pose0(t); // the scene pose, then the interference: a flinch (the gun jerks up), lowering the gun
+    if (sc.lower && t >= sc.lower[0]) g = mixPose(g, LOW, ease(clamp01((t - sc.lower[0]) / (sc.lower[1] - sc.lower[0]))));
+    if (sc.flinch && t >= sc.flinch[0] && t < sc.flinch[1]) { const k = (t - sc.flinch[0]) / (sc.flinch[1] - sc.flinch[0]); g = {hx: g.hx, hy: g.hy, th: g.th - .14 * Math.sin(Math.PI * k)}; } // only the muzzles jerk: a moved stock would hide the shooter's glasses
+    return g; };
+  const pose0 = t => { // gun pose at time t, and the aim point
     // after a shot (a hit or a miss) the gun follows through for 0.25 s and stays there: it never follows a missed target down
     // toward the trap house (the safety check, tools/checks/check_safety.py)
     const u = rel != null && t >= rel ? (t - rel) / FLY : null, flying = u != null && u <= 1 && (shotT == null || t < shotT + .25);
@@ -1824,6 +1848,8 @@ function standSim(host, kind, opts = {}){
     const wag = !rm && hitT != null && t >= hitT && t < hitT + 1 ? TAU * 4 * (t - hitT) : 0;
     return {ear: clamp01(ear), look, wag}; };
   // the target at scene time t (drawn on the scene, and again inside the magnifier of a broken launch)
+  const gustDy = t => sc.gust && t >= sc.gust[0] ? sc.gust[1] * ease(clamp01((t - sc.gust[0]) / .3)) : 0;
+  const TG = sc.gust ? (v => { const q = TP(v); return [q[0], q[1] + gustDy(rel + v * FLY)]; }) : TP;
   const target = (t, zoom) => { // zoom: inside the magnifier (no comet trail there: at × 3 it would hide the pieces)
     if (rel != null && t >= rel) { const u = (t - rel) / FLY;
     if (sc.broken) { // two pieces from the trap: the larger one on the target's line, the smaller one drifts off and falls
@@ -1832,7 +1858,7 @@ function standSim(host, kind, opts = {}){
       if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [bx, by] = TP((hitT - rel) / FLY); burst(c, bx, by, (t - hitT) * .8, {seed: 9}); } }
       else if (u <= 1) { if (!zoom) comet(c, TP, u, .10, 6.5); piece(c, x, y, .75, .62, 1, spin); } }
     else if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [x, y] = TP((hitT - rel) / FLY); burst(c, x, y, (t - hitT) * .8); } }
-    else if (u <= 1) { comet(c, TP, u, .10, 6.5); const [x, y] = TP(u); clay(c, x, y, .75, {}, 0, {spin: RM() ? 0 : t * 9}); } }
+    else if (u <= 1) { comet(c, TG, u, .10, 6.5); const [x, y] = TG(u); clay(c, x, y, .75, {}, 0, {spin: RM() ? 0 : t * 9}); } }
   };
   let lastT = 0;
   const draw = t => {
@@ -1850,6 +1876,13 @@ function standSim(host, kind, opts = {}){
       c.fillStyle = on ? ART.em : "#1F2937"; box(c, MIC_X - 4, 240, 8, 12, 4); c.fill(); c.strokeStyle = "rgba(255,255,255,.25)"; c.lineWidth = 1; for (let i = 0; i < 3; i++) seg(c, MIC_X - 2.5, 243 + i * 3, MIC_X + 2.5, 243 + i * 3); }
     // the target: in the air (with its comet trail), broken by the shot, or (after a click) flying on unbroken
     target(t);
+    if (sc.other && t >= sc.other[0] && t < sc.other[0] + sc.other[1]) { // the neighbouring Compak's target: far out, smaller, right to left
+      const OP = v => [700 - 330 * v, 64 - 34 * Math.sin(Math.PI * v) + 10 * v], v = (t - sc.other[0]) / sc.other[1];
+      comet(c, OP, v, .12, 4); const [x, y] = OP(v); clay(c, x, y, .45, {}, 0, {spin: RM() ? 0 : t * 9}); }
+    if (sc.gust && t >= sc.gust[0] - .25 && t < sc.gust[0] + .9) { const k = (t - sc.gust[0] + .25) / 1.15, a = Math.sin(Math.PI * k); // the gust: three wind lines over the target
+      const [gx, gy] = TP(clamp01((sc.gust[0] - rel) / FLY)); c.strokeStyle = `rgba(226,232,240,${(.75 * a).toFixed(3)})`; c.lineWidth = 2; c.lineCap = "round";
+      for (let i = 0; i < 3; i++) { const ox = gx - 60 + 26 * k * 3 - i * 14, oy = gy - 42 + i * 16; c.beginPath(); c.moveTo(ox, oy); c.quadraticCurveTo(ox + 30, oy - 6, ox + 52, oy + 16); c.stroke();
+        seg(c, ox + 52, oy + 16, ox + 44, oy + 14); seg(c, ox + 52, oy + 16, ox + 50, oy + 8); } c.lineCap = "butt"; c.lineWidth = 1; }
     // the people behind the stand and the dog, back to front: the handler, the trapper, the dog, the referee. A part that does not
     // move in this frame is a cached sprite (sprite(): same picture, one drawImage; review 08.10.2026), the others are drawn directly.
     const withDog = !!window.ClayMascot && !dogBroken, LH = restHand(HANDLER.x, HANDLER.h); LH[1] += HANDLER.dy; // the handler's hand with the lead
@@ -1889,6 +1922,13 @@ function standSim(host, kind, opts = {}){
       c.globalAlpha = 1; c.lineWidth = 1.2; c.strokeStyle = rgba(ART.cyan, .8); c.setLineDash([4, 5]); const p = clamp01(q / .2); seg(c, rh[0], rh[1], lerp(rh[0], ear[0], p), lerp(rh[1], ear[1], p)); c.setLineDash([]); c.lineWidth = 1;
       font(c, 15, "800"); c.textAlign = "center"; c.textBaseline = "alphabetic"; c.lineJoin = "round"; c.lineWidth = 3 * k; c.strokeStyle = ART.pill; // "♪": a symbol, not a word —
       c.strokeText("♪", rh[0] - 5, rh[1] - 14); c.fillStyle = ART.cyan; c.fillText("♪", rh[0] - 5, rh[1] - 14); c.lineJoin = "miter"; c.lineWidth = 1; } // no pill, so on a phone it hides no face
+    if (sc.noise && t >= sc.noise[0] && t < sc.noise[1]) { const q = t - sc.noise[0], ph = sc.noise[2] === "phone"; // the noise behind the stand
+      const [nx, ny] = ph ? [70, 108] : [34, 78]; // above the heads (they start at y ≥ 145): nothing hides a face
+      if (ph) { c.fillStyle = "#0f141b"; box(c, nx - 6, ny - 10, 12, 20, 2.5); c.fill(); c.strokeStyle = ART.red; c.lineWidth = 1.5; c.stroke(); c.fillStyle = rgba(ART.red, .55); c.fillRect(nx - 4, ny - 7, 8, 12); }
+      else { c.fillStyle = "#4B5563"; c.fillRect(nx - 1.5, 0, 3, ny - 4); /* the loudspeaker hangs from a mast out of the picture */ c.fillStyle = "#9CA3AF"; c.beginPath(); c.moveTo(nx - 8, ny - 4); c.lineTo(nx + 2, ny - 4); c.lineTo(nx + 14, ny - 12); c.lineTo(nx + 14, ny + 12); c.lineTo(nx + 2, ny + 4); c.lineTo(nx - 8, ny + 4); c.closePath(); c.fill(); }
+      c.strokeStyle = ART.red; c.lineWidth = 2; const ax = ph ? nx + 8 : nx + 16;
+      for (let i = 0; i < 3; i++) { const r = 6 + ((q * 50 + i * 9) % 27); c.globalAlpha = Math.max(0, 1 - (r - 6) / 30); c.beginPath(); c.arc(ax, ny, r, -.7, .7); c.stroke(); }
+      c.globalAlpha = 1; c.lineWidth = 1; }
     if (sc.nobird != null && t >= sc.nobird) bubble(c, rx + 6, GY - REF_H - 14 - 10, "No Bird!", {bg: "#FEE2E2", fg: "#7F1D1D", age: t - sc.nobird});
     // the shooter and the line on the vest: red while the heel of the stock (as drawn) is above it BEFORE the target is out (the mount
     // after the release is correct, so the line turns amber again), the call, the shot

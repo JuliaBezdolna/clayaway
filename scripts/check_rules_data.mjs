@@ -89,7 +89,7 @@ export async function checkRulesData({ quiet = false } = {}) {
       const m = depth === 0 && /"?([a-z][a-z-]*)"?\s*:$/.exec(tok); if (m) { out.add(m[1]); tok = ""; } }
     return out; };
   const SIMK = {flight: keysOf("FLIGHTS"), pair: keysOf("PAIRS"), call: keysOf("SCENES"), ties: keysOf("TIES"), hit: keysOf("HIT")};
-  const SPORTING_ONLY = new Set(["rafale", "signal", "signal-late", "gun-ready", "gun-early", "broken-launch"]), COMPAK_ONLY = new Set(["manual", "manual-late", "sonopull"]);
+  const SPORTING_ONLY = new Set(["rafale", "signal", "signal-late", "gun-ready", "gun-early", "broken-launch", "noise-shot"]), COMPAK_ONLY = new Set(["manual", "manual-late", "sonopull", "noise-call", "neighbour", "gust"]);
   const simCheck = (w, key, sim) => { if (!sim) return;
     if (sim.after !== undefined && sim.after !== true) E(`${w}: sim.after is true or absent`);
     const set = SIMK[sim.type]; if (!set) { E(`${w}: sim type "${sim.type}" is not drawn in the trainer (flight, pair, call, ties, hit)`); return; }
