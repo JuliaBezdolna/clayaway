@@ -530,3 +530,40 @@ body>.ca-off{max-width:1008px;margin:28px max(16px,calc((100% - 1008px) / 2)) 8p
 .ac-exmore[open] summary{margin-bottom:6px}
 .ac-prcerts{color:var(--soft);font-size:14.5px}
 @media(max-width:560px){ .ac-exrow b{font-size:14.5px} }
+
+/* ---- Quiz games (mcRound), wave 2: the look of the rules trainer — counter and segmented track at the top of the card,
+   letter circles, a coloured answer box with «Далі →» on the right, the result as a card with a ring ---- */
+.ac-gq{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border-radius:12px;padding:16px}
+.ac-gq-head{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted)}
+.ac-gq-head b{color:var(--ink)}
+.ac-gq-ok{margin-left:auto;font-size:13px;color:#6EE7B7}
+.ac-gtrack{display:flex;gap:4px;margin:8px 0 12px}
+.ac-gtrack i{flex:1;height:6px;border-radius:99px;background:rgba(255,255,255,.12)}
+.ac-gtrack i.ok{background:var(--em)}.ac-gtrack i.bad{background:var(--red)}
+.ac-gtrack i.cur{background:transparent;box-shadow:inset 0 0 0 1.5px #E5E7EB}
+.ac-gq .ac-qtext{font-size:17px;line-height:1.45}
+.ac-gq .ac-opts{display:grid;gap:8px}
+.ac-gq .ac-opt{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.03);padding:10px 14px;min-height:48px;color:var(--ink)}
+.ac-gl{flex:none;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;border:1px solid var(--line2);font-size:13px;font-weight:700;color:var(--soft)}
+.ac-gq .ac-opt.right{background:rgba(16,185,129,.14)}
+.ac-gq .ac-opt.right .ac-gl{background:var(--em);border-color:var(--em);color:#022C22}
+.ac-gq .ac-opt.wrong{background:rgba(248,113,113,.12)}
+.ac-gq .ac-opt.wrong .ac-gl{background:var(--red);border-color:var(--red);color:#2B0A0A}
+.ac-explain.ac-gfb{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-top:14px;background:rgba(255,255,255,.03)}
+.ac-explain.ac-gfb.ok{border-color:rgba(52,211,153,.45);background:rgba(16,185,129,.08)}
+.ac-explain.ac-gfb.bad{border-color:rgba(248,113,113,.45);background:rgba(248,113,113,.07)}
+.ac-gfb-h{display:block;margin-bottom:4px}
+.ac-gfb.ok .ac-gfb-h{color:#6EE7B7}.ac-gfb.bad .ac-gfb-h{color:#FCA5A5}
+.ac-gfb .ac-mascot-ex{float:right;margin:0 0 6px 10px}
+.ac-gnext{display:flex;margin:12px 0 0}
+.ac-gnext .ac-btn{margin-left:auto;min-width:140px;justify-content:center}
+.ac-gres{display:grid;grid-template-columns:auto 1fr;gap:14px 18px;align-items:center;text-align:left;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px}
+.ac-gres.pass{border-color:rgba(52,211,153,.45)}
+.ac-gres .ac-gtrack{grid-column:1/-1;margin:0}
+.ac-gring{width:84px;height:84px;transform:rotate(-90deg)}
+.ac-gring circle{fill:none;stroke:rgba(255,255,255,.12);stroke-width:7}
+.ac-gring circle.v{stroke:var(--em);stroke-linecap:round}.ac-gring circle.v.lo{stroke:var(--amber)}
+.ac-gres-k{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ac-gres .ac-score{font-size:16px;font-weight:400;color:var(--soft)}.ac-gres .ac-score b{font-size:30px;color:var(--ink)}
+.ac-gres p{margin:4px 0 0;color:var(--soft);font-size:14.5px}
+.ac-gacts{display:flex;flex-wrap:wrap;gap:8px}

@@ -923,26 +923,36 @@
     const sig = opts.sig == null ? "" : String(opts.sig), sv = rounds.get(g.id, sig);
     if (sv) { items = sv.items.map(it => Object.assign({}, it, { before: simBefore(it.sd) })); if (sv.k || sv.picked != null) toast(un("nav_round_resumed", `${u("question")} ${sv.k + 1} ${u("of")} ${items.length}`, { n: sv.k + 1, t: items.length })); }
     let k = sv ? sv.k : 0, ok = sv ? sv.ok : 0, picked = sv && sv.picked != null ? sv.picked : null;
+    const hist = sv && sv.hist ? sv.hist.slice() : []; // per question: true right / false wrong
     delete host.dataset.locked;
-    const keep = () => rounds.set(g.id, { sig, k, ok, picked, view: opts.view || null,
+    const keep = () => rounds.set(g.id, { sig, k, ok, picked, hist, view: opts.view || null,
       items: items.map(it => ({ q: it.q, options: it.options, answer: it.answer, why: it.why || "", sd: it.sd || null })) });
     /* show the answer j to question k; fresh = given just now (counts, XP, saved), else restored from the saved round */
     const reveal = (b, j, fresh) => { const it = items[k], right = j === it.answer; host.dataset.locked = "1";
-      if (fresh) { if (right) ok++; answerXP(g, right); picked = j; keep(); }
+      if (fresh) { if (right) ok++; answerXP(g, right); picked = j; hist[k] = right; keep(); }
       host.querySelectorAll(".ac-opt").forEach(x => { x.setAttribute("aria-disabled", "true"); if (+x.dataset.j === it.answer) x.classList.add("right"); }); if (!right && b) b.classList.add("wrong");
-      host.querySelector(".ac-explain").innerHTML = `${dogOk(g) ? dogFor(right, { size: 66, anim: fresh, cls: "ac-mascot-ex" }) : ""}<b>${right ? t("correct") : t("wrong")}</b> ${it.why || ""}<p><button type="button" class="ac-btn primary" data-k="next">${k + 1 < items.length ? t("next") : t("game_finish")} →</button></p>`;
+      const ex = host.querySelector(".ac-explain"); ex.classList.add("ac-gfb", right ? "ok" : "bad"); paintQ();
+      ex.innerHTML = `${dogOk(g) ? dogFor(right, { size: 66, anim: fresh, cls: "ac-mascot-ex" }) : ""}<b class="ac-gfb-h">${right ? "✓" : "✗"} ${t(right ? "correct" : "wrong")}</b> ${it.why || ""}<p class="ac-gnext"><button type="button" class="ac-btn primary" data-k="next">${k + 1 < items.length ? t("next") : t("game_finish")} →</button></p>`;
       const nb = host.querySelector('[data-k="next"]'); if (fresh) nb.focus();
       nb.onclick = () => { delete host.dataset.locked; try { ClaySims.stopSims(); } catch (e) {} k++; picked = null; if (k < items.length) { keep(); draw(); } else end(); }; };
+    /* segmented track: one segment per question (green right, red wrong, outlined current) */
+    const track = cur => `<div class="ac-gtrack" aria-hidden="true">${items.map((_, i) => `<i class="${hist[i] === true ? "ok" : hist[i] === false ? "bad" : ""}${i === cur ? " cur" : ""}"></i>`).join("")}</div>`;
+    const nRight = () => hist.filter(x => x === true).length;
+    const paintQ = () => { const h = host.querySelector(".ac-gq-head"); if (!h) return;
+      h.querySelector(".ac-gq-ok").textContent = nRight() ? t("g_n_right", { n: nRight() }) : ""; h.nextElementSibling.outerHTML = track(k); };
+    const LET = LANG === "uk" ? "АБВГҐДЕ" : "ABCDEFG";
     const draw = () => { const it = items[k]; gameResume(g, k, items.length);
-      host.innerHTML = `${bar(k, items.length, g.title)}<div class="ac-q"><p class="ac-meta">${t("question")} ${k + 1} ${t("of")} ${items.length}</p>${it.before ? '<div class="ac-qsim"></div>' : ""}<p class="ac-qtext">${it.q}</p>
-        <div class="ac-opts">${it.options.map((o, j) => `<button type="button" class="ac-opt" data-j="${j}">${esc(o)}</button>`).join("")}</div><div class="ac-explain" aria-live="polite"></div></div>`;
+      host.innerHTML = `<div class="ac-q ac-gq"><div class="ac-gq-head"><span>${t("question")} <b>${k + 1}</b> ${t("of")} ${items.length}</span><span class="ac-gq-ok"></span></div>${track(k)}${it.before ? '<div class="ac-qsim"></div>' : ""}<p class="ac-qtext">${it.q}</p>
+        <div class="ac-opts">${it.options.map((o, j) => `<button type="button" class="ac-opt" data-j="${j}"><span class="ac-gl" aria-hidden="true">${LET[j] || j + 1}</span><span>${esc(o)}</span></button>`).join("")}</div><div class="ac-explain" aria-live="polite"></div></div>`;
+      paintQ();
       if (it.before) it.before(host.querySelector(".ac-qsim"));
       host.querySelectorAll(".ac-opt").forEach(b => b.onclick = () => { if (host.dataset.locked) return; reveal(b, +b.dataset.j, true); });
       if (picked != null) reveal(host.querySelector(`.ac-opt[data-j="${picked}"]`), picked, false);
     };
     const end = () => { rounds.clear(g.id); if (window.ClayNav) ClayNav.clearResume("learn"); roundEnd(g, ok, items.length);
-      const passed = ok / items.length >= .8; // same mark as the green result box
-      host.innerHTML = `<div class="ac-result ${passed ? "pass" : ""}">${dogOk(g) ? dogFor(passed, { size: 84 }) : ""}<div class="ac-score">${ok} / ${items.length}</div></div><p><button type="button" class="ac-btn primary" data-k="again">${t("play_again")}</button> <a class="ac-btn" href="${href("practice/")}" data-nav>${t("practice")}</a></p>`;
+      const pct = Math.round(ok / items.length * 100), passed = pct >= 80, c = 2 * Math.PI * 34; // same mark as the exams (80 %)
+      host.innerHTML = `<div class="ac-result ac-gres ${passed ? "pass" : ""}"><svg class="ac-gring" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34"/><circle class="v${passed ? "" : " lo"}" cx="40" cy="40" r="34" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${(c * (1 - pct / 100)).toFixed(1)}"/></svg>
+        <div><span class="ac-gres-k">${t("g_result")}</span><div class="ac-score"><b>${ok}</b> ${t("of")} ${items.length} · ${pct}&nbsp;%</div><p>${t(passed ? "g_res_great" : pct >= 50 ? "g_res_close" : "g_res_retry", { p: 80 })}</p></div>${track(-1)}</div><p class="ac-gacts"><button type="button" class="ac-btn primary" data-k="again">${t("play_again")}</button> <a class="ac-btn" href="${href("practice/")}" data-nav>${t("practice")}</a></p>`;
       host.querySelector('[data-k="again"]').onclick = () => { rounds.clear(g.id); (opts.again || (() => GAMES[g.id](host, g)))(); }; };
     if (!items.length) { host.innerHTML = `<p class="ac-note">${t("game_need_more")}</p>`; return; }
     keep(); draw();
@@ -1006,8 +1016,9 @@
        translations and animations; discipline filter. Options are shuffled by index (the i18n overlays keep the data order). */
     async "referees-call"(host, g) {
       const disc = VIEW.rdisc || S.disc;
-      host.innerHTML = `<div class="ac-filters"><label class="ac-inline">${t("my_discipline")} <select data-k="disc">${["both", "sporting", "compak"].map(d => `<option value="${d}"${d === disc ? " selected" : ""}>${discName(d)}</option>`).join("")}</select></label></div><div class="ac-round"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
-      host.querySelector('[data-k="disc"]').onchange = e => { VIEW.rdisc = e.target.value; stat("disc", e.target.value); GAMES[g.id](host, g); };
+      host.innerHTML = `<div class="ac-filters"><div class="ac-seg" role="group" aria-label="${t("my_discipline")}"><span class="ac-seg-l">${t("my_discipline")}:</span>${["both", "sporting", "compak"].map(d =>
+        `<button type="button" data-k="disc" data-v="${d}" aria-pressed="${d === disc}">${discName(d)}</button>`).join("")}</div></div><div class="ac-round"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
+      host.querySelectorAll('[data-k="disc"]').forEach(b => b.onclick = () => { if (b.dataset.v === disc) return; VIEW.rdisc = b.dataset.v; stat("disc", b.dataset.v); GAMES[g.id](host, g); const nb = host.querySelector(`[data-k="disc"][data-v="${b.dataset.v}"]`); if (nb) nb.focus(); });
       try { await loadScript(SITE + "rules/data/quiz-sporting.js"); await loadScript(SITE + "rules/data/quiz-compak.js"); } catch (e) { host.querySelector(".ac-round").innerHTML = `<p class="ac-note">${t("data_error")}</p>`; return; }
       let ov = { questions: {} }; if (!["uk", "en"].includes(LANG)) { try { ov = await getJSON(`${SITE}rules/data/i18n/quiz-${LANG}.json`); } catch (e) {} }
       const bank = (window.RULES_QUIZ || []).filter(b => disc === "both" || b.key === disc).flatMap(b => b.questions.filter(q => q.type === "decision").map(q => Object.assign({ book: b.key }, q)));
