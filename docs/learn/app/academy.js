@@ -741,14 +741,40 @@
   }
 
   /* ---------- 8.6 Practice hub and games ---------- */
+  /* Practice hub, wave 2 (practice mockup, variant A «Групи за метою», 16.11.2026): the header as a card (as the route and progress
+     pages) with three numbers; the games grouped by what they train; each game shows its topics, what it gives (XP), your result
+     and a «Грати / Ще раз / Відкрити» button; route exams: the current route's row first, the others folded; certificates → «Прогрес». */
+  const PRACTICE_GROUPS = [["pg_targets", ["lead-lab", "name-the-flight"]], ["pg_talk", ["translate-the-coach", "term-cards", "phrasebook"]],
+    ["pg_rules", ["referees-call", "rules-exam"]], ["pg_mind", ["routine"]]];
   function viewPractice() {
     setHead({ title: `${u("practice")} — ${u("academy_name")}`, desc: u("practice_lead"), index: true, langs: LANGS });
-    const certs = routesSorted().filter(r => (S.routes[r.id] || {}).cert);
-    return `${langBanner()}${crumbs([home(), { label: u("practice") }])}<header class="ac-head"><h1 tabindex="-1">${t("practice")}</h1><p class="ac-lead">${t("practice_lead")}</p></header>
-      <div class="ac-grid ac-grid-games">${(CAT.practice || []).map(g => gameCard(g, "h2")).join("")}</div>
-      <section aria-labelledby="h-rex"><h2 id="h-rex">${t("route_exams")}</h2><ul class="ac-lessons">${routesSorted().filter(r => (r.certificate && r.certificate.exam) || r.badge_only).map(r => { const st = P.routeStatus(S, CAT, r, TRAINER);
-        return `<li><a class="ac-les${st.exam ? " is-done" : ""}" href="${href(`routes/${r.id}/exam/`)}" data-nav><span class="ac-ck" aria-hidden="true">${st.exam ? "✓" : icon(r.icon)}</span><span class="ac-les-t"><b>${esc(r.title)}</b><span class="ac-les-m">${st.lessonsOk || st.exam ? t("exam_open") : t("exam_locked_short", { d: st.done, t: st.total })}</span></span></a></li>`; }).join("")}</ul></section>
-      <section aria-labelledby="h-certs"><h2 id="h-certs">${t("certificates")}</h2>${certs.length ? `<ul class="ac-chips">${certs.map(r => `<li><a class="ac-chip" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav>🎓 ${esc(r.title)}</a></li>`).join("")}</ul>` : `<p class="ac-muted">${t("cert_none")}</p>`}</section>`;
+    const all = CAT.practice || [], X = xpCfg(), gs = S.games || {}, played = all.filter(g => gs[g.id] && gs[g.id].plays).length;
+    const gxp = Object.values(gs).reduce((s, g) => s + (+g.xp || 0), 0);
+    const blockTitle = id => (blockById(id) || {}).title;
+    const card = g => { const r = gs[g.id], on = !!(r && r.plays), topics = (g.blocks || []).map(blockTitle).filter(Boolean);
+      const xpText = g.later ? "" : g.external ? t("g_xp_disc", { n: X.rules_exam_per_discipline || 50 }) : g.xp === false ? t("g_no_xp") : t("g_xp_answer", { n: X.game_correct || 5 });
+      const meta = [topics.length ? t("g_topics", { list: topics.join(" · ") }) : "", xpText].filter(Boolean).join(" · ");
+      const res = g.later ? "" : g.external ? t("g_result_ext") : on ? `${t("g_best", { n: r.best_pct ? r.best_pct + " %" : r.best || 0 })} · ${plural("n_plays", r.plays)}` : g.xp === false ? "" : t("g_not_played");
+      if (g.later) return `<div class="ac-gcard is-off" aria-disabled="true"><span class="ac-gic" aria-hidden="true">${icon(g.id)}</span><h3>${esc(g.title)}</h3><p>${esc(gameDesc(g))}</p><span class="ac-gmeta">${meta}</span><div class="ac-gfoot"><span></span><span class="ac-gsoon">${t("practice_soon")}</span></div></div>`;
+      const pl = pageLink(g, `practice/${g.id}/`), url = g.external ? extUrl(g) : pl.url, nav = !g.external && !pl.en;
+      const btn = g.external ? `${t("g_open")} ↗` : g.xp === false ? `${t("g_open")} →` : on ? `${t("g_again")} →` : `${t("g_play")} →`;
+      return `<div class="ac-gcard"><span class="ac-gic" aria-hidden="true">${icon(g.id)}</span><h3>${esc(gameTitle(g))}${pl.en && !g.external ? ' <span class="ac-tag" lang="en">EN</span>' : ""}</h3><p>${esc(gameDesc(g))}</p><span class="ac-gmeta">${meta}</span>
+        ${g.xp === false && (g.known_issues || []).length ? `<span class="ac-gmeta">${t("practice_known_issue")}</span>` : ""}
+        <div class="ac-gfoot"><span class="ac-gres${on ? " on" : ""}">${res}</span><a class="ac-btn${on ? "" : " primary"} ac-ggo" href="${esc(url)}"${nav ? " data-nav" : pl.en ? ' hreflang="en"' : ""} aria-label="${esc(btn.replace(/ [→↗]$/, ""))}: ${esc(gameTitle(g))}">${btn}</a></div></div>`; };
+    const known = new Set(PRACTICE_GROUPS.flatMap(x => x[1])), rest = all.filter(g => !known.has(g.id));
+    const groups = PRACTICE_GROUPS.map(([k, ids]) => [k, ids.map(gameById).filter(Boolean)]).concat(rest.length ? [["practice", rest]] : []).filter(x => x[1].length);
+    // route exams: the current route (else the first) as a row, the others folded
+    const exR = routesSorted().filter(r => (r.certificate && r.certificate.exam) || r.badge_only), cur = exR.find(r => r.id === S.routes.current) || exR[0];
+    const exRow = r => { const st = P.routeStatus(S, CAT, r, TRAINER), open = st.lessonsOk || st.exam;
+      return `<li><a class="ac-exrow${st.exam ? " is-done" : open ? "" : " is-locked"}" href="${href(`routes/${r.id}/exam/`)}" data-nav><span class="ac-exi" aria-hidden="true">${st.exam ? "✓" : icon(r.icon)}</span><b>${esc(r.title)}</b>
+        <span class="ac-exs">${st.exam ? t("req_done") : open ? `${t("exam_open")} →` : `<span aria-hidden="true">🔒</span> ${t("req_after_lessons")} · ${st.done}/${st.total}`}</span></a></li>`; };
+    return `${langBanner()}${crumbs([home(), { label: u("practice") }])}<header class="ac-head ac-rhead ac-prhead"><div class="ac-eyebrow"><span aria-hidden="true">🎯</span> ${t("practice_eyebrow")}</div><h1 tabindex="-1">${t("practice")}</h1><p class="ac-lead">${t("practice_lead")}</p>
+      <div class="ac-pstats"><div><span>${t("practice_eyebrow")}</span><b>${all.filter(g => !g.later).length}</b></div><div><span>${t("st_played")}</span><b>${played}</b></div><div><span>${t("st_practice_xp")}</span><b>${gxp}</b></div></div>
+      <p class="ac-prnote">${t("practice_no_rush")}</p></header>
+      ${groups.map(([k, list]) => `<section class="ac-ggroup" aria-labelledby="h-${k}"><div class="ac-ggh"><h2 id="h-${k}">${t(k)}</h2>${U[k + "_d"] != null ? `<span>${t(k + "_d")}</span>` : ""}</div><div class="ac-ggrid">${list.map(card).join("")}</div></section>`).join("")}
+      <section class="ac-pcard" aria-labelledby="h-rex"><h2 id="h-rex">${t("route_exams")}</h2><p class="ac-exd">${t("exams_d")}</p>
+        ${cur ? `<ul class="ac-exl">${exRow(cur)}</ul>` : ""}${exR.length > 1 ? `<details class="ac-exmore"><summary>${t("exams_more", { n: exR.length - 1 })}</summary><ul class="ac-exl">${exR.filter(r => r !== cur).map(exRow).join("")}</ul></details>` : ""}</section>
+      <p class="ac-prcerts"><span aria-hidden="true">🎓</span> ${t("certs_on_progress", { page: "\u0001" }).replace("\u0001", `<a href="${href("progress/")}" data-nav>${t("progress")}</a>`)}</p>`;
   }
   function viewGame(id) {
     const g = gameById(id); if (!g) return viewNotFound();
