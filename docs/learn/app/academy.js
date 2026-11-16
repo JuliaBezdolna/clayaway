@@ -456,27 +456,37 @@
     const st = P.routeStatus(S, CAT, r, TRAINER), nx = firstUndone(r), h = nx && lessonHref(nx), legacy = st.cert && st.cert.legacy;
     setHead({ title: `${u("route_title", { route: r.title })} — ${u("academy_name")}`, desc: r.for, index: true, langs: LANGS });
     const pass = r.certificate && r.certificate.exam ? r.certificate.exam : r.badge_only && r.badge_only.quiz;
+    /* certificate steps (route mockup, certificate variant A «Кроки», 16.11.2026): a title, what is needed, and a progress bar,
+       an action («Скласти →», «Пройти →»), «🔒 після уроків» or «Виконано» on the right */
     const reqs = [
-      { ok: st.lessonsOk, text: `${u("route_required")}: ${st.done}/${st.total}` },
-      pass ? { ok: st.exam, text: `${u("route_exam")}: ${u("exam_rule", { n: pass.n, p: pass.pass_pct })}`, link: st.lessonsOk || st.exam ? href(`routes/${r.id}/exam/`) : null } : null,
-      ...st.practice.map(p => ({ ok: p.ok, waiting: p.waiting, text: practiceReqText(p.item), link: practiceReqLink(p.item) })) ].filter(Boolean);
+      { ok: st.lessonsOk, head: u("route_required"), d: st.done, n: st.total },
+      pass ? { ok: st.exam, head: u("route_exam"), need: u("exam_rule", { n: pass.n, p: pass.pass_pct }), exam: true, link: st.lessonsOk || st.exam ? href(`routes/${r.id}/exam/`) : null } : null,
+      ...st.practice.map(p => { const x = practiceReqText(p.item), i = x.indexOf(": ");
+        return { ok: p.ok, waiting: p.waiting, head: i > 0 ? x.slice(0, i) : x, need: i > 0 ? x.slice(i + 2) : "", link: practiceReqLink(p.item) }; }) ].filter(Boolean);
+    const step = (x, i) => { const done = x.ok && !x.waiting;
+      const act = done ? `<span class="ac-cs-ok">${t("req_done")}</span>`
+        : x.link ? `<a class="ac-btn primary ac-cs-go" href="${x.link}"${x.link.startsWith(href("")) ? " data-nav" : ""}>${x.exam ? t("req_take") : t("req_go")} →</a>`
+        : x.exam ? `<span class="ac-cs-lock"><span aria-hidden="true">🔒</span> ${t("req_after_lessons")}</span>` : "";
+      return `<li class="ac-cs${done ? " ok" : ""}"><span class="ac-cs-n" aria-hidden="true">${done ? "✓" : i + 1}</span><span class="ac-cs-t"><b>${esc(x.head)}</b>${x.need ? `<span>${esc(x.need).replace(/(\d) %/g, "$1 %")}${x.waiting ? ` (${t("req_waiting")})` : ""}</span>` : ""}${x.n != null ? `<span class="ac-cs-prog">${bar(x.d, x.n, x.head)}<span>${t("route_progress", { done: "\u0001", total: x.n }).replace("\u0001", `<b>${x.d}</b>`)}</span></span>` : ""}</span>${act}</li>`; };
     return `${langBanner()}${crumbs([home(), { label: u("routes"), url: href("") + "#h-who" }, { label: r.title }])}
-    <header class="ac-head"><div class="ac-eyebrow"><span aria-hidden="true">${icon(r.icon)}</span> ${t("route_word")}</div><h1 tabindex="-1">${esc(r.title)}</h1>
-      <p class="ac-lead"><b>${t("route_for")}:</b> ${esc(r.for)}</p>
-      <p class="ac-meta">${plural("n_lessons", st.total)} · ~${mins((r.totals && r.totals.minutes) || 0)} · ${bar(st.done, st.total, r.title)} ${st.done}/${st.total}</p>
+    <header class="ac-head ac-rhead"><div class="ac-eyebrow"><span aria-hidden="true">${icon(r.icon)}</span> ${t("route_word")}</div><h1 tabindex="-1">${esc(r.title)}</h1>
+      <p class="ac-lead">${esc(r.for)}</p>
+      <p class="ac-rinfo"><span>${plural("n_lessons", st.total)}</span><span>~${mins((r.totals && r.totals.minutes) || 0)}</span><span><span aria-hidden="true">${r.certificate ? "🎓" : "🏅"}</span> ${r.certificate ? t("cert_title") : t("badge_word")}${r.certificate && r.certificate.title ? ` «${esc(r.certificate.title)}»` : ""}</span></p>
       ${r.disclaimer ? `<p class="ac-note">${esc(r.disclaimer)}</p>` : ""}
-      <p>${nx ? `<a class="ac-btn primary" href="${h ? withRoute(h.url, r.id) : "#"}"${h && !h.en ? " data-nav" : ""} data-route="${esc(r.id)}">${st.done ? t("continue") : t("start_stage")} →</a>`
+      <div class="ac-rfoot"><p class="ac-rprog">${bar(st.done, st.total, r.title)} <span>${t("route_progress", { done: "\u0001", total: st.total }).replace("\u0001", `<b>${st.done}</b>`)}</span></p>
+      <p class="ac-racts">${nx ? `<a class="ac-btn primary" href="${h ? withRoute(h.url, r.id) : "#"}"${h && !h.en ? " data-nav" : ""} data-route="${esc(r.id)}">${st.done ? t("continue") : t("start_stage")} →</a>`
         : `<a class="ac-btn primary" href="#certificate">${t("route_done")} →</a>`}
-        ${S.routes.current === r.id ? `<span class="ac-chip is-on">${t("route_current")}</span>` : `<button type="button" class="ac-btn" data-act="setroute" data-v="${esc(r.id)}">${t("route_choose")}</button>`}</p></header>
+        ${S.routes.current === r.id ? `<span class="ac-btn ac-rcur"><span aria-hidden="true">✓</span> ${t("route_current")}</span>` : `<button type="button" class="ac-btn" data-act="setroute" data-v="${esc(r.id)}">${t("route_choose")}</button>`}</p></div></header>
     <ol class="ac-stages">${r.stages.map((s, i) => { const sd = s.lessons.filter(done).length, all = sd === s.lessons.length;
       return `<li class="ac-stage${all ? " is-done" : ""}" id="stage-${esc(s.id)}"><details${(!all && (i === 0 || r.stages[i - 1].lessons.every(done))) || (nx && s.lessons.includes(nx)) ? " open" : ""}>
         <summary><span class="ac-stage-n" aria-hidden="true">${all ? "✓" : i + 1}</span><span class="ac-stage-t"><b>${t("stage")} ${i + 1}. ${esc(s.title)}</b>
         <span class="ac-meta">${plural("n_lessons", s.lessons.length)} · ~${mins(s.minutes)} · ${sd}/${s.lessons.length}${all ? " · 🏅 " + esc((badgeById(s.badge) || {}).title || "") : ""}</span></span></summary>
         ${lessonList(s.lessons, { route: r.id })}</details></li>`; }).join("")}</ol>
-    ${(r.extras || []).length ? `<details class="ac-extras"><summary><h2>${t("go_deeper")}</h2></summary>${lessonList(r.extras, { route: r.id, summary: true })}</details>` : ""}
-    <section class="ac-certbox" id="certificate" aria-labelledby="h-cert"><h2 id="h-cert">${r.certificate ? "🎓 " + t("cert_title") : "🏅 " + t("badge_word")}${r.certificate && r.certificate.title ? ` «${esc(r.certificate.title)}»` : ""}</h2>
-      ${st.complete || st.cert ? (r.certificate ? certHtml(r, st.cert) + `<p><button type="button" class="ac-btn primary" data-act="printcert" data-v="${esc(r.id)}">🖨 ${t("cert_print")}</button> <a class="ac-btn" href="${href("progress/")}#name" data-nav>${t("cert_name")}</a></p>` : `<p class="ac-ok">🏅 ${t("badge_earned")}</p>`) : `<p>${t("cert_missing")}:</p>`}
-      <ul class="ac-reqs">${reqs.map(x => `<li class="${x.ok ? "ok" : x.waiting ? "wait" : ""}"><span aria-hidden="true">${x.ok && !x.waiting ? "✓" : x.waiting ? "…" : "○"}</span> ${x.link ? `<a href="${x.link}"${x.link.startsWith(href("")) ? " data-nav" : ""}>${esc(x.text)}</a>` : esc(x.text)}${x.waiting ? ` <span class="ac-muted">(${t("req_waiting")})</span>` : ""}</li>`).join("")}</ul>
+    ${(r.extras || []).length ? `<details class="ac-extras"><summary><h2>${t("route_extras")}</h2><span class="ac-meta">${plural("n_lessons", r.extras.length)} · ${t("route_extras_d")}</span></summary>${lessonList(r.extras, { route: r.id, summary: true })}</details>` : ""}
+    <section class="ac-certbox" id="certificate" aria-labelledby="h-cert"><div class="ac-cs-head"><span class="ac-cs-ic" aria-hidden="true">${r.certificate ? "🎓" : "🏅"}</span><div><span class="ac-eyebrow">${r.certificate ? t("cert_title") : t("badge_word")}</span>
+      <h2 id="h-cert">${r.certificate && r.certificate.title ? `«${esc(r.certificate.title)}»` : `${t("route_word")} «${esc(r.title)}»`}</h2></div></div>
+      ${st.complete || st.cert ? (r.certificate ? certHtml(r, st.cert) + `<p><button type="button" class="ac-btn primary" data-act="printcert" data-v="${esc(r.id)}">🖨 ${t("cert_print")}</button> <a class="ac-btn" href="${href("progress/")}#name" data-nav>${t("cert_name")}</a></p>` : `<p class="ac-ok">🏅 ${t("badge_earned")}</p>`) : ""}
+      <ol class="ac-csteps">${reqs.map(step).join("")}</ol>
       ${legacy ? `<p class="ac-muted">${t("cert_legacy")}</p>` : ""}
       <details class="ac-means"><summary>${t("cert_means")}</summary><p>${t("cert_means_p")}</p><p><b>${t("cert_disclaimer")}</b>${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p></details></section>
     ${r.checklist ? `<section aria-labelledby="h-chk"><h2 id="h-chk">📋 ${esc(r.checklist.title)}</h2><p class="ac-muted">${t("checklist_d")}</p><button type="button" class="ac-btn" data-act="checklist" data-v="${esc(r.id)}">🖨 ${t("checklist_print")}</button></section>` : ""}`;

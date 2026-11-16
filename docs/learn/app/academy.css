@@ -397,3 +397,59 @@ body>.ca-off{max-width:1008px;margin:28px max(16px,calc((100% - 1008px) / 2)) 8p
   .ac-cert-dog svg{width:auto;height:52px}
   .ac-mascot-head svg{width:auto;height:82px}
 }
+
+/* ---- Route page header, wave 2 (route mockup, header variant 2 «Кнопки внизу з прогресом», fill «сіра», 16.11.2026):
+   a framed card with a solid fill (clayarena.com --bg-secondary #111827, no gradient: it differs from the home hero); lessons,
+   time and the certificate as plain text; a bottom strip with the progress on the left and two equal buttons on the right ---- */
+.ac-rhead{background:#111827;border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+.ac-rhead h1{margin:4px 0 6px}
+.ac-rhead .ac-lead{margin:0 0 10px;font-size:16.5px}
+.ac-rinfo{display:flex;flex-wrap:wrap;margin:0 0 12px;font-size:14px;color:var(--soft)}
+.ac-rinfo>span{white-space:nowrap}
+.ac-rinfo>span:not(:last-child)::after{content:"·";margin:0 8px;color:var(--muted)}
+.ac-rhead .ac-note{margin:0 0 14px}
+.ac-rfoot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 16px;border-top:1px solid var(--line);margin-top:4px;padding-top:14px}
+.ac-rprog{display:flex;align-items:center;gap:10px;margin:0;flex:1 1 220px;font-size:13.5px;color:var(--muted)}
+.ac-rprog .ac-pbar{width:160px;max-width:none;flex:none}
+.ac-rprog>span:last-child{white-space:nowrap}
+.ac-rprog b{color:var(--soft)}
+.ac-racts{display:flex;flex-wrap:wrap;gap:8px;margin:0}
+.ac-racts .ac-btn{justify-content:center}
+.ac-rcur{border-color:rgba(52,211,153,.5);background:var(--em-soft);color:var(--em);white-space:nowrap}
+.ac-rcur:hover{border-color:rgba(52,211,153,.5)}
+@media(max-width:719px){
+  .ac-rprog .ac-pbar{flex:1;width:auto}
+  .ac-racts{flex:1 1 100%}
+  .ac-racts>*{flex:1 1 auto;white-space:nowrap} /* two in a row when they fit, else one under the other */
+}
+/* «Додаткові уроки» (was «Хочете глибше», Юлія 16.11.2026): the title, then the count and «необов’язкові» */
+.ac-extras summary{flex-wrap:wrap;column-gap:10px;row-gap:0}
+.ac-extras summary .ac-meta{font-size:13px}
+
+/* ---- Route certificate box, wave 2 (route mockup, certificate variant A «Кроки», 16.11.2026): a card as in the Glossary and the
+   Rules (white/10 → white/5, line white/10, 12 px); the icon in an emerald circle; each requirement a row with its own status ---- */
+.ac-certbox{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px;padding:16px}
+.ac-cs-head{display:flex;gap:14px;align-items:center;margin-bottom:14px}
+.ac-cs-ic{flex:none;display:grid;place-items:center;width:52px;height:52px;border-radius:50%;font-size:26px;background:rgba(16,185,129,.12);border:1px solid rgba(52,211,153,.45)}
+.ac-cs-head h2{margin:2px 0 0;font-size:20px}
+.ac-csteps{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:8px}
+.ac-cs{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.03)}
+.ac-cs.ok{border-color:rgba(52,211,153,.35)}
+.ac-cs-n{flex:none;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--line2);font-size:13px;font-weight:700;color:var(--soft)}
+.ac-cs.ok .ac-cs-n{background:var(--em);border-color:var(--em);color:#022C22}
+.ac-cs-t{flex:1;min-width:0;display:grid;gap:2px}
+.ac-cs-t b{font-size:15px;font-weight:600;line-height:1.35}
+.ac-cs-t>span{font-size:13px;color:var(--muted);line-height:1.4}
+.ac-cs-prog{display:flex;align-items:center;gap:8px}
+.ac-cs-prog .ac-pbar{width:140px;max-width:none;flex:none}
+.ac-cs-prog b{color:var(--soft)}
+.ac-cs-ok{flex:none;font-size:12px;font-weight:700;color:#6EE7B7;border:1px solid rgba(52,211,153,.4);border-radius:999px;padding:2px 10px}
+.ac-cs-lock{flex:none;font-size:12.5px;color:var(--muted);white-space:nowrap}
+.ac-cs-go{flex:none;padding:6px 12px;font-size:14px}
+.ac-certbox .ac-means{margin-top:10px}
+@media(max-width:560px){
+  .ac-cs{flex-wrap:wrap;row-gap:8px}
+  .ac-cs-t{flex:1 1 calc(100% - 40px)}
+  .ac-cs-ok,.ac-cs-lock,.ac-cs-go{margin-left:40px}
+  .ac-cs-prog .ac-pbar{flex:1;width:auto}
+}
