@@ -64,12 +64,15 @@
   const date = t => { try { return new Intl.DateTimeFormat(LANG, { day: "numeric", month: "long", year: "numeric" }).format(new Date(t)).replace(/\.$/, ""); } /* «2026 р.» + «.» */ catch (e) { return new Date(t).toISOString().slice(0, 10); } };
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-  const css = `.ca-off{max-width:900px;margin:28px auto 8px;padding:16px;border:1px solid rgba(255,255,255,.14);border-radius:14px;background:rgba(255,255,255,.04);color:#F3F4F6;font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-.ca-off h2{margin:0 0 6px;font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:#9CA3AF;font-weight:700}
+  /* 16.11.2026 (Юлія: less prominent, in the style of the page): a quiet card as in the Glossary and the Rules (12 px, line white/10,
+     a faint gradient); before saving — the text on the left, an outlined button on the right (no filled green button). */
+  const css = `.ca-off{max-width:900px;margin:28px auto 8px;padding:14px 16px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.06),rgba(255,255,255,.02));color:#F3F4F6;font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.ca-off .top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px}.ca-off .top .m{margin-top:2px}
+.ca-off h2{margin:0 0 6px;font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:#9CA3AF;font-weight:700}.ca-off .top h2{margin:0}
 .ca-off p{margin:6px 0 0;color:#D1D5DB}.ca-off .m{color:#9CA3AF;font-size:13.5px}
 .ca-off .row{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-top:10px}
-.ca-off button{font:inherit;cursor:pointer;min-height:44px;border-radius:10px;padding:8px 16px}
-.ca-off .go{background:#05845D;color:#fff;border:0;font-weight:600}.ca-off .go:hover{background:#047052}
+.ca-off button{font:inherit;cursor:pointer;min-height:40px;border-radius:10px;padding:6px 14px}
+.ca-off .go{background:transparent;color:#6EE7B7;border:1px solid rgba(52,211,153,.45);font-size:14px;font-weight:600}.ca-off .go:hover{background:rgba(16,185,129,.15);border-color:#34D399}
 .ca-off .ln{background:none;border:0;color:#9CA3AF;text-decoration:underline;padding:8px 4px}.ca-off .ln:hover{color:#fff}
 .ca-off .bar{height:8px;border-radius:99px;background:rgba(255,255,255,.1);overflow:hidden;margin-top:10px}.ca-off .bar i{display:block;height:100%;background:#34D399;width:0;transition:width .2s}
 .ca-off .ok{color:#6EE7B7;font-weight:600}
@@ -94,10 +97,11 @@
     if (state === "saving") { box.innerHTML = `${head}<p>${esc(fmt(S.saving, { i: o.i, n: o.n }))}</p><div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${o.n}" aria-valuenow="${o.i}"><i style="width:${Math.round(o.i / o.n * 100)}%"></i></div><p class="m">${esc(S.keep)}</p>`; return; }
     if (state === "saved") { box.innerHTML = `${head}<p class="ok">✓ ${fmt(esc(S.saved), { p: P })}</p><p class="m">${esc(fmt(S.when, { d: date(o.at) }))}${o.upd ? " " + esc(S.upd) : ""}</p>
       <div class="row">${o.upd ? `<button class="go" data-a="save">${esc(S.update)}</button>` : ""}<button class="ln" data-a="del">${esc(S.del)}</button></div>`; return; }
-    const sz = list ? `<p class="m">${fmt(esc(S.size), { p: P, mb: num(list.gz / 1048576, 1) })}</p>` : "";
+    // «≈ 2,4 МБ» never splits over two lines (no-break spaces around the number)
+    const sz = list ? `<p class="m">${fmt(esc(S.size), { p: P, mb: num(list.gz / 1048576, 1) }).replace(/≈ (\S+) /,"≈ $1 ")}</p>` : "";
     if (state === "fail") { box.innerHTML = `${head}<p>${esc(fmt(S.fail, { k: o.k }))}</p><div class="row"><button class="go" data-a="save">${esc(S.retry)}</button></div>`; return; }
     if (state === "offline") { box.innerHTML = `${head}<p class="m">${esc(S.off)}</p>`; return; }
-    box.innerHTML = `${head}<div class="row"><button class="go" data-a="save">⬇ ${fmt(esc(S.save), { p: P })}</button></div>${sz}`;
+    box.innerHTML = `<div class="top"><div>${head}${sz}</div><button class="go" data-a="save">⬇ ${fmt(esc(S.save), { p: P })}</button></div>`;
   }
   async function refresh() {
     const meta = await savedMeta();
