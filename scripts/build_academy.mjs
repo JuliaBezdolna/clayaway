@@ -1340,10 +1340,10 @@ export async function buildAcademy(o = {}) {
      div.st-sim is empty: without JavaScript there is nothing to play, so no "▶ Watch …" heading over an empty box; academy.js replaces
      the static content, or mounts the box from data-clay-sim when the lesson data cannot load (staticSims). */
   const CSS = `body{background:#030712;color:#F3F4F6}
-.st-top{max-width:1040px;margin:0 auto;padding:10px 16px;display:flex;gap:8px 14px;align-items:center;flex-wrap:wrap;font-size:13px;border-bottom:1px solid rgba(255,255,255,.1)}
-.st-crumbs{color:#9CA3AF}.st-crumbs a{color:#9CA3AF}.st-crumbs a:hover{color:#F3F4F6}.st-sp{flex:1}
-.st-langs{display:flex;gap:6px;flex-wrap:wrap}.st-langs a{font-size:12px;padding:3px 9px;border:1px solid rgba(255,255,255,.1);border-radius:999px;text-decoration:none;color:#D1D5DB}.st-langs a[aria-current]{border-color:#34D399;color:#34D399}
-.st{max-width:780px;margin:0 auto;padding:20px 16px 40px;overflow-wrap:break-word}.st.st-wide{max-width:1040px}.st p,.st li{color:#D1D5DB}.st h2{margin:30px 0 10px}
+#app{min-height:100vh}.st-hold{display:block;width:0;height:32px}
+.st-crumbs{color:#9CA3AF;font-size:13px;margin:0 0 8px}.st-crumbs a{color:#9CA3AF}.st-crumbs a:hover{color:#F3F4F6}
+.st-langs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}.st-langs a{font-size:12px;padding:3px 9px;border:1px solid rgba(255,255,255,.1);border-radius:999px;text-decoration:none;color:#D1D5DB}.st-langs a[aria-current]{border-color:#34D399;color:#34D399}
+.st{max-width:780px;margin:0 auto;padding:0 16px 40px;overflow-wrap:break-word}.st.st-wide{max-width:1040px}.st p,.st li{color:#D1D5DB}.st h2{margin:30px 0 10px}
 .st-body p{font-size:17px;line-height:1.75;max-width:72ch}.st-lead{font-size:18px}.st-small,.st-ref{font-size:13px;color:#9CA3AF!important}.st-ref a{color:#9CA3AF}
 .st-meta{font-size:13px;color:#9CA3AF;display:flex;gap:6px 10px;flex-wrap:wrap;align-items:center;margin:4px 0}
 .st-badge{display:inline-block;font-size:12px;font-weight:600;line-height:1.5;padding:1px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:#D1D5DB;text-decoration:none}
@@ -1369,7 +1369,7 @@ export async function buildAcademy(o = {}) {
 .st figure.st-anim{margin:22px 0;padding:14px 16px;border:1px solid rgba(52,211,153,.35);border-radius:14px;background:rgba(52,211,153,.05)}.st-anim-h{font-size:19px;font-weight:700;color:#34D399!important;margin:0 0 6px}.st-anim figcaption{font-size:14.5px;color:#D1D5DB}.st-b-anim{border-color:rgba(52,211,153,.55);color:#34D399}
 .st figure.st-anim:has(.st-sim:empty){display:none}
 .st-foot{max-width:1040px;margin:0 auto;padding:14px 16px 56px;border-top:1px solid rgba(255,255,255,.1)}.st-foot p{font-size:12.5px;color:#9CA3AF}.st-foot a{color:#9CA3AF}
-@media print{.st-top,.st-langs,.st-cta{display:none}}`;
+@media print{.st-hold,.st-langs,.st-cta{display:none}}`;
   const PAGES = new Map(); // site-relative file → {url, L, kind, html, title, h1, desc, index, alts, lesson, img}
   const footer = L => `<p>${esc(ui[L].footer ? S(L, "footer") : ui[L].disclaimer ? S(L, "disclaimer") : S(L, "footer"))}</p>${legal(L)}`;
   function shell(pg) { // pg: {L, url, title, desc, index, alts:[{l,url}], ogType, img, ld:[], crumbs:[{name,url}], body, wide, data, kind, lesson}
@@ -1403,11 +1403,11 @@ ${(pg.ld || []).map(x => `<script type="application/ld+json">${JSON.stringify(x)
 <style>${CSS}</style>
 </head>
 <body data-academy="${esc(JSON.stringify(pg.data || {}))}">
-<header id="acTop"><div class="st-top"><nav class="st-crumbs" aria-label="${esc(S(L, "breadcrumbs"))}">${crumbs}</nav><span class="st-sp"></span>${langs}</div></header>
+<header id="acTop"><div class="ac-top-in">${built.home[L] ? `<a class="ac-brand" href="${esc(U.home(L))}">` : `<span class="ac-brand">`}<span aria-hidden="true">🎓</span> <span>${esc(academyName(L))}</span>${built.home[L] ? "</a>" : "</span>"}<span class="ac-spacer"></span><span class="st-hold" aria-hidden="true"></span></div></header>
 <main id="app"><div class="st${pg.wide ? " st-wide" : ""}">
-${pg.body}
+${crumbs ? `<nav class="st-crumbs" aria-label="${esc(S(L, "breadcrumbs"))}">${crumbs}</nav>\n` : ""}${pg.body}
 </div></main>
-<footer id="acFoot"><div class="st-foot">${footer(L)}</div></footer>
+<footer id="acFoot"><div class="st-foot">${langs}${footer(L)}</div></footer>
 <div id="acLive" class="ac-sr" aria-live="polite"></div>
 <div id="acToast" class="ac-toast" role="status" aria-live="polite"></div>
 <script src="${up}shared/nav.js" defer></script>
