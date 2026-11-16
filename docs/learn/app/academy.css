@@ -453,3 +453,46 @@ body>.ca-off{max-width:1008px;margin:28px max(16px,calc((100% - 1008px) / 2)) 8p
   .ac-cs-ok,.ac-cs-lock,.ac-cs-go{margin-left:40px}
   .ac-cs-prog .ac-pbar{flex:1;width:auto}
 }
+
+/* ---- Progress page, wave 2 (progress mockup, variant B «Наступні значки й медалі», 16.11.2026): the level card (as the route
+   header, .ac-rhead), cards as in the Glossary and the Rules, «Наступні значки» and badges as medals ---- */
+.ac-phead h1{margin:4px 0 12px}
+.ac-pk{display:block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ac-plv{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.ac-plvn{font-size:22px;color:var(--em)}
+.ac-pxp{font-size:14px;color:var(--soft)}.ac-pxp b{font-size:22px;color:var(--ink)}
+.ac-phead>.ac-pbar{display:block;width:100%;max-width:none;height:8px;border-radius:99px;margin:8px 0 6px}
+.ac-pto{margin:0 0 12px;font-size:13.5px;color:var(--muted)}
+.ac-ladder{list-style:none;margin:0 0 14px;padding:0;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.ac-ladder li{flex:1 0 76px;display:grid;gap:1px;padding:6px 8px;border-radius:8px;border:1px solid var(--line);font-size:12px;color:var(--muted)}
+.ac-ladder li b{font-size:13px;font-weight:600}
+.ac-ladder li.is-ok{color:var(--soft)}
+.ac-ladder li.is-on{border-color:rgba(52,211,153,.6);background:var(--em-soft);color:var(--em)}
+.ac-pstats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;border-top:1px solid var(--line);padding-top:12px}
+.ac-pstats div{display:grid;gap:2px}.ac-pstats span{font-size:12.5px;color:var(--muted)}.ac-pstats b{font-size:22px}.ac-pstats small{font-size:13px;font-weight:400;color:var(--muted)}
+.ac-pcard{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px;padding:16px;margin:16px 0}
+.ac-pcard h2{margin:2px 0 10px;font-size:19px}
+.ac-pcont{border-color:rgba(52,211,153,.4)}
+.ac-pcont .ac-rprog{margin:0 0 12px}
+.ac-pcont .ac-rprog .ac-pbar{width:200px}
+.ac-pnone{color:var(--soft);margin:0 0 10px}
+.ac-pname summary{cursor:pointer;color:var(--soft);font-size:14px;padding:4px 0}
+.ac-pcard .ac-h3{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:16px 0 8px}
+.ac-bnext{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.ac-bnext li{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.03)}
+.ac-bnext-t{flex:1;min-width:0;display:grid}.ac-bnext-t b{font-size:14.5px;font-weight:600}.ac-bnext-t>span{font-size:12.5px;color:var(--muted)}
+.ac-bnext-p{flex:none;display:grid;gap:2px;justify-items:end;font-size:12px;color:var(--muted)}.ac-bnext-p .ac-pbar{width:110px;max-width:none}
+.ac-medals{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(84px,1fr));gap:12px 6px}
+.ac-medal{display:grid;justify-items:center;align-content:start;gap:4px;text-align:center;padding:2px}
+.ac-medal-c{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;font-size:20px;border:1.5px dashed rgba(255,255,255,.18);filter:grayscale(1);opacity:.55}
+.ac-bnext .ac-medal-c{width:36px;height:36px;font-size:16px}
+.ac-medal.is-on .ac-medal-c{border:1.5px solid rgba(251,191,36,.6);background:radial-gradient(circle,rgba(251,191,36,.2),transparent);filter:none;opacity:1;font-size:24px}
+.ac-medal-l{font-size:12px;line-height:1.3;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ac-medal.is-on .ac-medal-l{color:var(--soft)}
+.ac-medal-d{font-size:11px;color:#6EE7B7}
+.ac-mgroup summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:center}
+.ac-mgroup summary::-webkit-details-marker{display:none}
+.ac-fold{margin-left:auto;text-transform:none;letter-spacing:0;font-weight:400;color:var(--soft)}
+.ac-mgroup .ac-fold span+span,.ac-mgroup[open] .ac-fold span:first-child{display:none}
+.ac-mgroup[open] .ac-fold span+span{display:inline}
+@media(max-width:560px){ .ac-pcont .ac-rprog .ac-pbar{flex:1;width:auto} .ac-pcont .ac-racts>*{flex:1 1 100%} .ac-bnext-p .ac-pbar{width:64px} .ac-bnext li{gap:10px} }

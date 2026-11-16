@@ -765,24 +765,65 @@
     return `<ul class="ac-reqs">${["sporting", "compak"].map(d => { const s = tr.stats[d]; return s ? `<li class="${P.trainerPass(tr, d) ? "ok" : ""}"><span aria-hidden="true">${P.trainerPass(tr, d) ? "✓" : "○"}</span> ${discName(d)}: ${t("trainer_best", { p: s.best || 0 })}${s.short_best != null && U.trainer_short_best != null ? " · " + t("trainer_short_best", { p: s.short_best }) : ""}</li>` : ""; }).join("")}</ul>`; }
 
   /* ---------- 8.7 Progress (noindex): XP, badges, certificates, name, transfer, reset ---------- */
+  /* Progress page, wave 2 (progress mockup, variant B «Наступні значки й медалі», 16.11.2026): the level as a card (#111827, as the
+     route header) with a wide XP bar, the ladder of levels and three numbers; «Продовжити навчання» (the current route, else the one
+     with most lessons done); certificates with the nearest one; badges: «Наступні значки» (closest, with progress) and all as medals
+     by group (groups of more than 8 folded); hints in the reader's language. «Перенести прогрес» as a card, «Скинути прогрес» as before. */
   function viewProgress() {
     setHead({ title: `${u("progress")} — ${u("academy_name")}`, desc: u("progress"), index: false });
-    const x = xp(), lv = P.levelOf(x.total, CAT), earned = P.earnedBadges(S, CAT, TRAINER);
+    const x = xp(), lv = P.levelOf(x.total, CAT), earned = P.earnedBadges(S, CAT, TRAINER), all = CAT.badges || [];
+    const levels = ((CAT.levels && CAT.levels.levels) || []).slice().sort((a, b) => a.min_xp - b.min_xp);
     const groups = [["misc", "badges_general"], ["practice", "practice"], ["route", "routes"], ["block", "topics"], ["stage", "badges_stages"], ["legacy", "badges_legacy"]];
-    const badge = b => { const on = earned.has(b.id), wait = b.enabled_after && !P.gameOn(CAT, b.ref);
-      return `<li class="ac-badge${on ? " is-on" : ""}" title="${esc(b.rule || "")}"><span aria-hidden="true">${on ? "🏅" : "○"}</span> ${esc(b.title)}${on && S.badges[b.id] ? ` <span class="ac-muted">${esc(S.badges[b.id])}</span>` : wait ? ` <span class="ac-muted">(${t("badge_after_fix")})</span>` : ""}<span class="ac-sr">${on ? t("badge_earned") : t("badge_locked")}</span></li>`; };
-    const certs = routesSorted().filter(r => (S.routes[r.id] || {}).cert);
-    return `${crumbs([home(), { label: u("progress") }])}<header class="ac-head"><h1 tabindex="-1">${t("progress")}</h1>
-      <p class="ac-lead"><b>${esc(lv.level.title)}</b> · ${x.total} ${t("xp")}${lv.next ? ` · ${t("xp_to_next", { n: lv.next.min_xp - x.total, level: lv.next.title })}` : ""}</p>${bar(lv.pct, 100, u("level"))}
-      <p class="ac-meta">${t("progress_lessons", { n: Object.keys(S.done).length, t: Object.keys(CAT.lessons).length })}</p>
-      ${!Object.keys(S.done).length && !certs.length && !x.total ? `<div class="ac-empty">${dog("sleep", { size: 110 })}</div>` : ""}
+    const certs = routesSorted().filter(r => (S.routes[r.id] || {}).cert), nDone = Object.keys(S.done).length;
+    const cap = s => s ? s.charAt(0).toLocaleUpperCase(LANG) + s.slice(1) : s;
+    const day = s => { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(s || ""); return m ? new Date(+m[1], +m[2] - 1, +m[3]).toLocaleDateString(LANG) : s || ""; };
+    const cnt = ids => [ids.filter(done).length, ids.length];
+    const blockOf = Object.fromEntries((CAT.blocks || []).map(b => [b.id, b]));
+    const bprog = b => { if (b.kind === "block") { const k = blockOf[b.ref]; return k ? cnt(k.sections.flatMap(s => s.lessons)) : null; }
+      if (b.kind === "stage") { const [rid, sid] = String(b.ref).split("/"), r = routeById(rid), st = r && r.stages.find(s => s.id === sid); return st ? cnt(st.lessons) : null; }
+      if (b.kind === "route") { const r = routeById(b.ref); return r ? cnt(required(r)) : null; } return null; };
+    const hint = b => u(b.kind === "misc" ? (b.id === "first" ? "badge_h_first" : "badge_h_returning") : "badge_h_" + b.kind);
+    const short = b => { const m = /[«“„"]([^»”“"]+)[»”“"]/.exec(b.title); return (b.kind === "block" || b.kind === "route") && m ? m[1] : b.title; };
+    // «Продовжити навчання»
+    const rs = routesSorted().map(r => ({ r, d: required(r).filter(done).length, n: required(r).length, nx: firstUndone(r) }));
+    const cur = rs.find(z => z.r.id === S.routes.current) || rs.filter(z => z.d).sort((a, b) => b.d - a.d)[0];
+    const nh = cur && cur.nx && lessonHref(cur.nx), nl = cur && cur.nx && L(cur.nx);
+    const prog = (d, n, label) => `<p class="ac-rprog">${bar(d, n, label)} <span>${t("route_progress", { done: "\u0001", total: n }).replace("\u0001", `<b>${d}</b>`)}</span></p>`;
+    const cont = cur ? `<section class="ac-pcard ac-pcont" aria-labelledby="h-cont"><span class="ac-eyebrow">${t("continue_h")}</span><h2 id="h-cont">${t("route_word")} «${esc(cur.r.title)}»</h2>
+        ${prog(cur.d, cur.n, cur.r.title)}<p class="ac-racts">${nh ? `<a class="ac-btn primary" href="${withRoute(nh.url, cur.r.id)}"${nh.en ? "" : " data-nav"} data-route="${esc(cur.r.id)}">${t("next_title", { title: nl.title })} →</a>` : ""}<a class="ac-btn" href="${href(`routes/${cur.r.id}/`)}" data-nav>${t("to_route")}</a></p></section>`
+      : `<section class="ac-pcard ac-pcont" aria-labelledby="h-cont"><span class="ac-eyebrow">${t("start_h")}</span><h2 id="h-cont">${t("start_choose_h")}</h2><p class="ac-racts"><a class="ac-btn primary" href="${href("")}#h-who" data-nav>${t("choose_route")} →</a></p></section>`;
+    // the nearest certificate (the current route if it gives one, else the first route that does)
+    const near = !certs.length && ((cur && cur.r.certificate ? cur : null) || rs.find(z => z.r.certificate));
+    // badges
+    const medal = b => { const on = earned.has(b.id), wait = b.enabled_after && !P.gameOn(CAT, b.ref), p = !on && bprog(b);
+      const tip = `${b.title} — ${on ? u("badge_got", { date: day(S.badges[b.id]) }) : hint(b) + (p ? ` · ${p[0]}/${p[1]}` : "") + (wait ? ` (${u("badge_after_fix")})` : "")}`;
+      return `<li class="ac-medal${on ? " is-on" : ""}" title="${esc(tip)}"><span class="ac-medal-c" aria-hidden="true">${on ? "🏅" : "🔒"}</span><span class="ac-medal-l">${esc(short(b))}</span>${on && S.badges[b.id] ? `<span class="ac-medal-d">${esc(day(S.badges[b.id]))}</span>` : ""}<span class="ac-sr">. ${on ? t("badge_earned") : t("badge_locked") + ": " + esc(hint(b))}</span></li>`; };
+    const cr = S.routes.current || "", inCur = b => b.kind === "stage" && String(b.ref).startsWith(cr + "/") ? 1 : 0;
+    let next = all.filter(b => !earned.has(b.id) && (b.kind === "stage" || b.kind === "block")).map(b => ({ b, p: bprog(b) })).filter(z => z.p && z.p[0] > 0)
+      .sort((a, b) => inCur(b.b) - inCur(a.b) || b.p[0] / b.p[1] - a.p[0] / a.p[1]).slice(0, 3);
+    if (!next.length) next = all.filter(b => b.kind === "stage" && !earned.has(b.id)).slice(0, 3).map(b => ({ b, p: bprog(b) }));
+    const groupHtml = ([k, title]) => { const list = all.filter(b => b.kind === k); if (!list.length) return "";
+      const h = `${t(title)} <span class="ac-muted">${list.filter(b => earned.has(b.id)).length}/${list.length}</span>`, ul = `<ul class="ac-medals">${list.map(medal).join("")}</ul>`;
+      return list.length > 8 ? `<details class="ac-mgroup"><summary class="ac-h3">${h}<span class="ac-fold" aria-hidden="true"><span>${t("fold_show")} ▾</span><span>${t("fold_hide")} ▴</span></span></summary>${ul}</details>` : `<h3 class="ac-h3">${h}</h3>${ul}`; };
+    const ladder = levels.map((l, i) => `<li class="${i === lv.index ? "is-on" : i < lv.index ? "is-ok" : ""}"${i === lv.index ? ' aria-current="step"' : ""}><b>${esc(l.title)}</b><span>${l.min_xp} ${t("xp")}</span></li>`).join("");
+    const nameP = `<p id="name"><label for="acName"><b>${t("cert_name")}</b></label><br><input id="acName" type="text" maxlength="80" autocomplete="name" value="${esc(S.name)}"> <button type="button" class="ac-btn" data-act="savename">${t("save")}</button><br><span class="ac-muted ac-small">${t("name_device_only")}</span></p>`;
+    return `${crumbs([home(), { label: u("progress") }])}<header class="ac-head ac-rhead ac-phead"><div class="ac-eyebrow">${t("progress_eyebrow")}</div><h1 tabindex="-1">${t("progress")}</h1>
+      <div class="ac-plv"><div><span class="ac-pk">${t("level")}</span><b class="ac-plvn">${esc(lv.level.title)}</b></div><div class="ac-pxp"><b>${x.total}</b> ${t("xp")}</div></div>
+      ${bar(lv.next ? x.total - lv.level.min_xp : 1, lv.next ? lv.next.min_xp - lv.level.min_xp : 1, u("level"))}
+      <p class="ac-pto">${lv.next ? `${esc(cap(u("xp_to_next", { n: lv.next.min_xp - x.total, level: lv.next.title })))} · ${t("xp_how")}` : t("level_top")}</p>
+      <ol class="ac-ladder" aria-label="${t("levels_label")}">${ladder}</ol>
+      <div class="ac-pstats"><div><span>${t("stat_lessons")}</span><b>${nDone}<small> / ${Object.keys(CAT.lessons).length}</small></b></div><div><span>${t("badges")}</span><b>${earned.size}<small> / ${all.length}</small></b></div><div><span>${t("certificates")}</span><b>${certs.length}</b></div></div>
       ${!PERSIST ? `<p class="ac-note">${t("progress_not_saved")}</p>` : ""}</header>
-    <section aria-labelledby="h-certs"><h2 id="h-certs">🎓 ${t("certificates")}</h2>${certs.length ? certs.map(r => certHtml(r, S.routes[r.id].cert) + `<p><button type="button" class="ac-btn" data-act="printcert" data-v="${esc(r.id)}">🖨 ${t("cert_print")}</button></p>`).join("") : `<p class="ac-muted">${t("cert_none")}</p>`}
-      <p id="name"><label for="acName"><b>${t("cert_name")}</b></label><br><input id="acName" type="text" maxlength="80" autocomplete="name" value="${esc(S.name)}"> <button type="button" class="ac-btn" data-act="savename">${t("save")}</button><br><span class="ac-muted ac-small">${t("name_device_only")}</span></p></section>
-    <section aria-labelledby="h-badges"><h2 id="h-badges">🏅 ${t("badges")} <span class="ac-muted">${[...earned].length}/${(CAT.badges || []).length}</span></h2>
-      ${groups.map(([k, title]) => { const list = (CAT.badges || []).filter(b => b.kind === k); return list.length ? `<h3 class="ac-h3">${t(title)}</h3><ul class="ac-badges">${list.map(badge).join("")}</ul>` : ""; }).join("")}
+    ${cont}
+    ${!nDone && !certs.length && !x.total ? `<div class="ac-empty">${dog("sleep", { size: 110 })}</div>` : ""}
+    <section class="ac-pcard" aria-labelledby="h-certs"><h2 id="h-certs">🎓 ${t("certificates")}</h2>${certs.length ? certs.map(r => certHtml(r, S.routes[r.id].cert) + `<p><button type="button" class="ac-btn" data-act="printcert" data-v="${esc(r.id)}">🖨 ${t("cert_print")}</button></p>`).join("")
+        : `<p class="ac-pnone">${t("cert_none")}${near ? " " + t("cert_nearest", { cert: near.r.certificate.title ? `«${near.r.certificate.title}»` : u("cert_title").toLocaleLowerCase(LANG), route: near.r.title, d: near.d, n: near.n }) : ""}</p>`}
+      ${certs.length || S.name ? nameP : `<details class="ac-pname"><summary>${t("cert_name")}</summary>${nameP}</details>`}</section>
+    <section class="ac-pcard" aria-labelledby="h-badges"><h2 id="h-badges">🏅 ${t("badges")} <span class="ac-muted">${earned.size}/${all.length}</span></h2>
+      ${next.length ? `<h3 class="ac-h3">${t("badges_next")}</h3><ul class="ac-bnext">${next.map(z => `<li><span class="ac-medal-c" aria-hidden="true">🔒</span><span class="ac-bnext-t"><b>${esc(z.b.title)}</b><span>${esc(hint(z.b))}</span></span>${z.p ? `<span class="ac-bnext-p">${bar(z.p[0], z.p[1], z.b.title)}<span>${z.p[0]}/${z.p[1]}</span></span>` : ""}</li>`).join("")}</ul>` : ""}
+      ${groups.map(groupHtml).join("")}
       <p class="ac-muted ac-small">${t("no_streaks")}</p></section>
-    <section aria-labelledby="h-tr"><h2 id="h-tr">${t("progress_transfer")}</h2><p>${t("transfer_d")}</p>
+    <section class="ac-pcard" aria-labelledby="h-tr"><h2 id="h-tr">${t("progress_transfer")}</h2><p>${t("transfer_d")}</p>
       <p><button type="button" class="ac-btn" data-act="export">${t("transfer_make")}</button></p><div id="acExport"></div>
       <p><label for="acImport">${t("import_paste")}</label><br><input id="acImport" type="text" inputmode="url" autocomplete="off"> <button type="button" class="ac-btn" data-act="import">${t("import_btn")}</button></p></section>
     <section aria-labelledby="h-reset"><h2 id="h-reset">${t("reset")}</h2><p class="ac-muted">${t("reset_d")}</p><p><button type="button" class="ac-btn ac-danger" data-act="reset">${t("reset")}</button></p></section>`;
