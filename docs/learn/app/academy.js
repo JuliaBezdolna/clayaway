@@ -951,8 +951,8 @@
     };
     const end = () => { rounds.clear(g.id); if (window.ClayNav) ClayNav.clearResume("learn"); roundEnd(g, ok, items.length);
       const pct = Math.round(ok / items.length * 100), passed = pct >= 80, c = 2 * Math.PI * 34; // same mark as the exams (80 %)
-      host.innerHTML = `<div class="ac-result ac-gres ${passed ? "pass" : ""}"><svg class="ac-gring" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34"/><circle class="v${passed ? "" : " lo"}" cx="40" cy="40" r="34" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${(c * (1 - pct / 100)).toFixed(1)}"/></svg>
-        <div><span class="ac-gres-k">${t("g_result")}</span><div class="ac-score"><b>${ok}</b> ${t("of")} ${items.length} · ${pct}&nbsp;%</div><p>${t(passed ? "g_res_great" : pct >= 50 ? "g_res_close" : "g_res_retry", { p: 80 })}</p></div>${track(-1)}</div><p class="ac-gacts"><button type="button" class="ac-btn primary" data-k="again">${t("play_again")}</button> <a class="ac-btn" href="${href("practice/")}" data-nav>${t("practice")}</a></p>`;
+      host.innerHTML = `<div class="ac-result ac-gend ${passed ? "pass" : ""}"><svg class="ac-gring" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34"/><circle class="v${passed ? "" : " lo"}" cx="40" cy="40" r="34" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${(c * (1 - pct / 100)).toFixed(1)}"/></svg>
+        <div><span class="ac-gend-k">${t("g_result")}</span><div class="ac-score"><b>${ok}</b> ${t("of")} ${items.length} · ${pct}&nbsp;%</div><p>${t(passed ? "g_res_great" : pct >= 50 ? "g_res_close" : "g_res_retry", { p: 80 })}</p></div>${track(-1)}</div><p class="ac-gacts"><button type="button" class="ac-btn primary" data-k="again">${t("play_again")}</button> <a class="ac-btn" href="${href("practice/")}" data-nav>${t("practice")}</a></p>`;
       host.querySelector('[data-k="again"]').onclick = () => { rounds.clear(g.id); (opts.again || (() => GAMES[g.id](host, g)))(); }; };
     if (!items.length) { host.innerHTML = `<p class="ac-note">${t("game_need_more")}</p>`; return; }
     keep(); draw();
