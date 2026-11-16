@@ -97,7 +97,7 @@
   Тренер-початківець, Організатор, Вболівальник і родина), «Практика» (`practice.json`), id-map и `ids.lock`, интерфейс на 11 языках.
   Формат и проверки — `content/academy/SCHEMA.md`. Правки уроков — только здесь; старые исходники прежних академий перенесены в `archive/legacy-docs/` (не публикуются, только для истории).
 - `docs/learn/` — Академия ClayArena на сайте: приложение `learn/app/academy.js`, страницы `/learn/…` (uk) и `/<lang>/learn/…`, данные `learn/data/<lang>/`;
-  страницы и данные пишет `scripts/build_academy.mjs` (кроме рукописной `docs/learn/index.html`). Путеводитель для программистов — DEVELOPERS.md §4d–4g.
+  страницы и данные пишет `scripts/build_academy.mjs` (с 16.11.2026 и главную `docs/learn/index.html`). Путеводитель для программистов — DEVELOPERS.md §4d–4g.
 - `docs/interpreter/` — бывшая Академия переводчика: постоянный переадресатор (noindex) на маршрут «Перекладач»; старые адреса ведут на те же уроки
   на том же языке (`id-map.json`); её старые `src/` и `data/` — в `archive/legacy-docs/`.
 - `archive/` — не публикуется (`archive/README.md`): `legacy-docs/` (замороженные исходники прежних академий), `glossary-sources-removed.json`

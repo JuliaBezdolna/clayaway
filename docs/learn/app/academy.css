@@ -62,7 +62,7 @@ main#app[aria-busy="true"]{opacity:.6}
 .ac-grid>*{min-width:0}
 .ac-card{display:grid;gap:6px;align-content:start;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
 a.ac-card:hover{border-color:rgba(52,211,153,.55)}
-.ac-card h3{margin:0}
+.ac-card h3,.ac-card h2{margin:0}.ac-card h2{font-size:17px}
 .ac-card p{font-size:14px;color:var(--soft);margin:0}
 .ac-card .ac-ic{font-size:24px;line-height:1}
 .ac-card.is-off{opacity:.55}
@@ -164,7 +164,7 @@ details[open]>summary::after{content:"▴"}
 .ac-other-d{color:var(--soft);font-weight:600}                    /* the discipline name in the summary of folded blocks */
 .ac-other-n{display:inline-block;margin-left:4px;padding:0 7px;border-radius:999px;border:1px solid var(--line2);font-size:12px;font-variant-numeric:tabular-nums}
 .ac-law{margin:14px 0}
-.ac-law h3{margin:16px 0 6px}
+.ac-law h3,.ac-law h2{margin:16px 0 6px}.ac-law h2{font-size:17px}
 .ac-law .law-note{font-size:13px;color:var(--muted)}
 .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;max-width:100%}
 .table-wrap table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}

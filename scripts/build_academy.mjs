@@ -1167,7 +1167,7 @@ export async function buildAcademy(o = {}) {
       rows = D.lead.map(x => `<tr><td><b>${esc(x[`scope_${lc}`])}</b></td><td>${link(x)}</td><td>${esc(x[`rule_${lc}`])}${unv(x)}</td><td>${esc(x.since || "—")}</td></tr>`); }
     else { title = `${name}: ${T("law_title_travel")}`; head = [T("law_col_topic"), T("law_col_norm"), T("law_col_applies")];
       rows = D.travel.map(x => `<tr><td><b>${esc(x[`topic_${lc}`] || x[`scope_${lc}`] || "")}</b></td><td>${link(x)}</td><td>${esc(x[`rule_${lc}`])}${unv(x)}</td></tr>`); }
-    return `<section class="st-law"><h3>${esc(title)}</h3><p class="st-small">${esc(D[`note_${lc}`] || "")} (${esc(D.as_of || "")})</p><div class="table-wrap st-tw"><table><thead><tr>${head.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div></section>`;
+    return `<section class="st-law"><h2>${esc(title)}</h2><p class="st-small">${esc(D[`note_${lc}`] || "")} (${esc(D.as_of || "")})</p><div class="table-wrap st-tw"><table><thead><tr>${head.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div></section>`;
   }
   // Inner HTML of a body block: what the lesson JSON carries in "html" (docs/learn/app/academy.js blockHtml() adds the wrapper).
   // steps → [html], compare → {sporting, compak}, law → the whole table, figure → <img> + <figcaption>, other types → inline HTML.
@@ -1359,6 +1359,7 @@ export async function buildAcademy(o = {}) {
 .st-banner{border:1px solid rgba(251,191,36,.55);background:rgba(251,191,36,.08);color:#FBBF24!important;border-radius:12px;padding:10px 14px;margin:12px 0;font-size:14px}
 .st details{border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:2px 16px;margin:16px 0;background:rgba(255,255,255,.04)}.st details>summary{cursor:pointer;font-weight:700;padding:9px 0}.st details details{background:transparent;padding:0 12px}
 .st-ph{margin:0}.st-ph q{font-weight:700;color:#F3F4F6;quotes:none}.st-q{margin:14px 0}.st-opts{list-style:upper-alpha;padding-left:22px}
+.st-law h2{font-size:17px;margin:16px 0 6px}
 .st-tw{overflow-x:auto;border:1px solid rgba(255,255,255,.1);border-radius:12px;margin:10px 0}.st table{border-collapse:collapse;width:100%;font-size:14px}.st td,.st th{border-bottom:1px solid rgba(255,255,255,.1);padding:8px 10px;text-align:left;vertical-align:top}.st th{font-size:12px;color:#9CA3AF}
 .st-chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0;padding:0;list-style:none}.st-chips a,.st-chips span{font-size:13px;padding:3px 10px;border:1px solid rgba(255,255,255,.1);border-radius:999px;text-decoration:none;color:#D1D5DB}
 .st-list{list-style:none;padding:0;margin:0;display:grid;gap:10px}.st-list>li{margin:0}.st-list>li>a{font-weight:700;text-decoration:none;font-size:17px}.st-list p{margin:4px 0 0;font-size:14.5px}
@@ -1370,6 +1371,7 @@ export async function buildAcademy(o = {}) {
 .st figure.st-anim:has(.st-sim:empty){display:none}
 .st-foot{max-width:1040px;margin:0 auto;padding:14px 16px 56px;border-top:1px solid rgba(255,255,255,.1)}.st-foot p{font-size:12.5px;color:#9CA3AF}.st-foot a{color:#9CA3AF}
 @media print{.st-hold,.st-langs,.st-cta{display:none}}`;
+  const SIM_GAMES = new Set(["lead-lab", "name-the-flight", "referees-call", "term-cards"]); // keep in step with academy.js
   const PAGES = new Map(); // site-relative file → {url, L, kind, html, title, h1, desc, index, alts, lesson, img}
   const footer = L => `<p>${esc(ui[L].footer ? S(L, "footer") : ui[L].disclaimer ? S(L, "disclaimer") : S(L, "footer"))}</p>${legal(L)}`;
   function shell(pg) { // pg: {L, url, title, desc, index, alts:[{l,url}], ogType, img, ld:[], crumbs:[{name,url}], body, wide, data, kind, lesson}
@@ -1380,6 +1382,9 @@ export async function buildAcademy(o = {}) {
     const crumbs = (pg.crumbs || []).map((c, i, a) => i < a.length - 1 && c.url ? `<a href="${esc(c.url)}">${esc(c.name)}</a>` : `<span>${esc(c.name)}</span>`).join(" › ");
     const langs = alts.length > 1 ? `<nav class="st-langs" aria-label="${esc(S(L, "language"))}">${alts.map(a => `<a href="${esc(a.url)}" hreflang="${a.l}" lang="${a.l}" data-setlang="${a.l}"${a.l === L ? ' aria-current="true"' : ""}>${esc(LANG_NAME[a.l])}</a>`).join("")}</nav>` : "";
     const robots = pg.index ? "index, follow, max-image-preview:large" : "noindex, follow";
+    // the animations (~110 KB) only where the page shows one: a lesson with an animation, the games of SIM_GAMES; the app
+    // (docs/learn/app/academy.js, needsSims) loads them itself when in-app navigation opens such a view
+    const needSims = /data-clay-sim/.test(pg.body || "") || (pg.data && pg.data.page === "game" && SIM_GAMES.has(pg.data.id));
     const html = `<!doctype html>
 <html lang="${L}">
 <head>
@@ -1412,8 +1417,8 @@ ${crumbs ? `<nav class="st-crumbs" aria-label="${esc(S(L, "breadcrumbs"))}">${cr
 <div id="acToast" class="ac-toast" role="status" aria-live="polite"></div>
 <script src="${up}shared/nav.js" defer></script>
 <script src="${up}shared/terms.js" defer></script>
-<script src="${up}shared/sims.min.js" defer></script>
-<script src="${up}shared/progress.js" defer></script>
+${needSims ? `<script src="${up}shared/sims.min.js" defer></script>
+` : ""}<script src="${up}shared/progress.js" defer></script>
 <script src="${up}learn/app/academy.js" defer></script>
 </body>
 </html>

@@ -99,6 +99,9 @@
     "rules-exam": "📝", routine: "⏱️" };
   const icon = k => ICON[k] || "•";
   const SIM_TYPES = ["flight", "lead", "pair", "call"]; // what ClaySims.mount can draw ("call" = stand scenes: call and release, gun position, misfire)
+  // the Practice games that draw animations (keep in step with SIM_GAMES in scripts/build_academy.mjs)
+  const SIM_GAMES = new Set(["lead-lab", "name-the-flight", "referees-call", "term-cards"]);
+  const needsSims = () => LOC.view === "lesson" ? !!(L(LOC.id) || {}).anim : LOC.view === "game" && SIM_GAMES.has(LOC.id);
 
   /* ================================ 1. Helpers ================================ */
   const $ = id => document.getElementById(id);
@@ -192,7 +195,20 @@
 
   /* ================================ 5. Head (title, description, canonical, robots, hreflang) ================================ */
   function setMeta(name, content) { let m = document.querySelector(`meta[name="${name}"]`); if (!m) { m = document.createElement("meta"); m.name = name; document.head.appendChild(m); } m.content = content; }
-  function setHead({ title, desc, index, langs }) {
+  /* The page the browser opened was written by the build (scripts/build_academy.mjs) with the title, description, robots,
+     canonical and hreflang that search engines index; on that address the app keeps them as they are, so a crawler that runs
+     the script sees the same head as one that does not. Other views (in-app navigation) get the app's own head below. */
+  const metaOf = n => { const m = document.querySelector(`meta[name="${n}"]`); return m ? m.content : null; };
+  const BOOT_HEAD = { path: location.pathname, title: document.title, desc: metaOf("description"), robots: metaOf("robots"),
+    canonical: (document.querySelector('link[rel="canonical"]') || {}).href || null,
+    alts: [...document.querySelectorAll('link[rel="alternate"][hreflang]')].map(a => a.cloneNode()) };
+  function bootHead() {
+    document.title = BOOT_HEAD.title; if (BOOT_HEAD.desc != null) setMeta("description", BOOT_HEAD.desc); if (BOOT_HEAD.robots) setMeta("robots", BOOT_HEAD.robots);
+    const c = document.querySelector('link[rel="canonical"]'); if (c && BOOT_HEAD.canonical) c.href = BOOT_HEAD.canonical;
+    document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(x => x.remove()); BOOT_HEAD.alts.forEach(a => document.head.appendChild(a.cloneNode()));
+  }
+  function setHead({ title, desc, index, langs, notFound }) {
+    if (!notFound && BOOT_HEAD.title && location.pathname === BOOT_HEAD.path) { bootHead(); return; }
     document.title = title; if (desc) setMeta("description", desc);
     setMeta("robots", index ? "index, follow, max-image-preview:large" : "noindex, follow");
     let c = document.querySelector('link[rel="canonical"]'); if (!c) { c = document.createElement("link"); c.rel = "canonical"; document.head.appendChild(c); }
@@ -328,11 +344,11 @@
   /* The rules trainer is part of this Practice (owner decision 07.10.2026): same site, so no "↗"; its name comes from the ONE
      naming table of the project bar (docs/shared/nav.js, ClayNav.name("trainer"): «Тренажер правил», "Rules trainer" …). */
   const gameTitle = g => (g.external && window.ClayNav && ClayNav.name && ClayNav.name("trainer", LANG)) || g.title;
-  function gameCard(g) {
+  function gameCard(g, hl = "h3") { // hl: the heading level of the card (h2 on the Practice page, where the cards come right under its h1)
     const desc = gameDesc(g);
-    if (g.later) return `<div class="ac-card ac-game is-off" aria-disabled="true"><span class="ac-ic" aria-hidden="true">${icon(g.id)}</span><h3>${esc(g.title)}</h3><p>${esc(desc)}</p><span class="ac-tag">${t("practice_soon")}</span></div>`;
+    if (g.later) return `<div class="ac-card ac-game is-off" aria-disabled="true"><span class="ac-ic" aria-hidden="true">${icon(g.id)}</span><${hl}>${esc(g.title)}</${hl}><p>${esc(desc)}</p><span class="ac-tag">${t("practice_soon")}</span></div>`;
     const pl = pageLink(g, `practice/${g.id}/`), url = g.external ? extUrl(g) : pl.url, nav = !g.external && !pl.en;
-    return `<a class="ac-card ac-game" href="${esc(url)}"${nav ? " data-nav" : pl.en ? ' hreflang="en"' : ""}><span class="ac-ic" aria-hidden="true">${icon(g.id)}</span><h3>${esc(gameTitle(g))}${pl.en && !g.external ? ' <span class="ac-tag" lang="en">EN</span>' : ""}</h3><p>${esc(desc)}</p>
+    return `<a class="ac-card ac-game" href="${esc(url)}"${nav ? " data-nav" : pl.en ? ' hreflang="en"' : ""}><span class="ac-ic" aria-hidden="true">${icon(g.id)}</span><${hl}>${esc(gameTitle(g))}${pl.en && !g.external ? ' <span class="ac-tag" lang="en">EN</span>' : ""}</${hl}><p>${esc(desc)}</p>
       ${g.xp === false && (g.known_issues || []).length ? `<span class="ac-meta">${t("practice_known_issue")}</span>` : ""}${g.external ? `<span class="ac-meta">${t("practice_external")}</span>` : ""}</a>`;
   }
   function discSwitch() {
@@ -396,7 +412,7 @@
     <section aria-labelledby="h-topics" id="topics"><div class="ac-h2row"><h2 id="h-topics">${t("topics")}</h2>${discSwitch()}</div>
       <div class="ac-grid ac-grid-blocks">${blocksSorted().map(blockCard).join("")}</div></section>
     <section aria-labelledby="h-prac"><div class="ac-h2row"><h2 id="h-prac">${t("practice")}</h2><a href="${href("practice/")}" data-nav>${t("practice_all")} →</a></div>
-      <div class="ac-grid ac-grid-games">${(CAT.practice || []).filter(g => !g.later).map(gameCard).join("")}</div></section>`;
+      <div class="ac-grid ac-grid-games">${(CAT.practice || []).filter(g => !g.later).map(g => gameCard(g)).join("")}</div></section>`;
   }
   const demoNote = () => CAT.test ? `<p class="ac-test">PREVIEW BUILD — draft lessons are shown; not for publishing.</p>` : "";
 
@@ -427,7 +443,7 @@
     ${discSwitch()}
     <section aria-labelledby="h-start"><h2 id="h-start">★ ${t("start_here")}</h2>${lessonList(b.starters || [], { summary: true })}</section>
     ${b.sections.map(s => `<section id="${esc(s.id)}" aria-labelledby="h-${esc(s.id)}"><h2 id="h-${esc(s.id)}">${esc(s.title)}</h2>${lessonList(s.lessons, { summary: true })}</section>`).join("")}
-    ${games.length ? `<section aria-labelledby="h-bg"><h2 id="h-bg">${t("block_games")}</h2><div class="ac-grid ac-grid-games">${games.map(gameCard).join("")}</div></section>` : ""}
+    ${games.length ? `<section aria-labelledby="h-bg"><h2 id="h-bg">${t("block_games")}</h2><div class="ac-grid ac-grid-games">${games.map(g => gameCard(g)).join("")}</div></section>` : ""}
     ${b.glossary_category ? `<p><a href="${SITE}${pre(LANG)}glossary/#${esc(b.glossary_category)}">${t("block_glossary")} →</a></p>` : ""}`;
   }
 
@@ -710,7 +726,7 @@
     setHead({ title: `${u("practice")} — ${u("academy_name")}`, desc: u("practice_lead"), index: true, langs: LANGS });
     const certs = routesSorted().filter(r => (S.routes[r.id] || {}).cert);
     return `${langBanner()}${crumbs([home(), { label: u("practice") }])}<header class="ac-head"><h1 tabindex="-1">${t("practice")}</h1><p class="ac-lead">${t("practice_lead")}</p></header>
-      <div class="ac-grid ac-grid-games">${(CAT.practice || []).map(gameCard).join("")}</div>
+      <div class="ac-grid ac-grid-games">${(CAT.practice || []).map(g => gameCard(g, "h2")).join("")}</div>
       <section aria-labelledby="h-rex"><h2 id="h-rex">${t("route_exams")}</h2><ul class="ac-lessons">${routesSorted().filter(r => (r.certificate && r.certificate.exam) || r.badge_only).map(r => { const st = P.routeStatus(S, CAT, r, TRAINER);
         return `<li><a class="ac-les${st.exam ? " is-done" : ""}" href="${href(`routes/${r.id}/exam/`)}" data-nav><span class="ac-ck" aria-hidden="true">${st.exam ? "✓" : icon(r.icon)}</span><span class="ac-les-t"><b>${esc(r.title)}</b><span class="ac-les-m">${st.lessonsOk || st.exam ? t("exam_open") : t("exam_locked_short", { d: st.done, t: st.total })}</span></span></a></li>`; }).join("")}</ul></section>
       <section aria-labelledby="h-certs"><h2 id="h-certs">${t("certificates")}</h2>${certs.length ? `<ul class="ac-chips">${certs.map(r => `<li><a class="ac-chip" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav>🎓 ${esc(r.title)}</a></li>`).join("")}</ul>` : `<p class="ac-muted">${t("cert_none")}</p>`}</section>`;
@@ -752,7 +768,7 @@
       <p><label for="acImport">${t("import_paste")}</label><br><input id="acImport" type="text" inputmode="url" autocomplete="off"> <button type="button" class="ac-btn" data-act="import">${t("import_btn")}</button></p></section>
     <section aria-labelledby="h-reset"><h2 id="h-reset">${t("reset")}</h2><p class="ac-muted">${t("reset_d")}</p><p><button type="button" class="ac-btn ac-danger" data-act="reset">${t("reset")}</button></p></section>`;
   }
-  function viewNotFound() { setHead({ title: `${u("not_found")} — ${u("academy_name")}`, index: false });
+  function viewNotFound() { setHead({ title: `${u("not_found")} — ${u("academy_name")}`, index: false, notFound: true });
     return `<header class="ac-head"><h1 tabindex="-1">${t("not_found")}</h1></header><p><a class="ac-btn primary" href="${href("")}" data-nav>${t("back_academy")}</a></p>`; }
 
   /* ================================ 9. Practice games ================================ */
@@ -993,6 +1009,10 @@
       $("app").removeAttribute("aria-busy");
       simsConfig(VIEW.data.terms || []);
     }
+    // The animations (docs/shared/sims.min.js, ~110 KB) are on the page only where it shows one (scripts/build_academy.mjs:
+    // lessons with an animation, the games of SIM_GAMES); a view that needs them after in-app navigation loads them first.
+    if (!window.ClaySims && needsSims()) { try { await loadScript(SITE + "shared/sims.min.js"); } catch (e) {}
+      if (LOC.view === "lesson" && VIEW.data) simsConfig(VIEW.data.terms || []); }
     const html = LOC.view === "home" ? viewHome() : LOC.view === "block" ? viewBlock(LOC.id) : LOC.view === "route" ? viewRoute(LOC.id) : LOC.view === "exam" ? viewExam(LOC.id)
       : LOC.view === "lesson" ? viewLesson(LOC.id) : LOC.view === "practice" ? viewPractice() : LOC.view === "game" ? viewGame(LOC.id) : LOC.view === "progress" ? viewProgress() : viewNotFound();
     $("app").innerHTML = html; APP_DONE = true; fixLinks($("app"));

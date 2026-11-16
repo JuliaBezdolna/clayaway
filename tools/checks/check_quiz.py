@@ -79,7 +79,9 @@ async def lesson(ctx, base, case, fails):
             pick = q["correct"] if i % 2 == 0 else next(k for k in keys if k != q["correct"])
             sel = f'section.ac-quiz button.ac-opt[data-q="{q["k"]}"][data-v="{pick}"]'
             btn = page.locator(sel)
-            await btn.scroll_into_view_if_needed()
+            # to the middle of the screen: the site's floating banners (docs/shared/nav.js, .ca-float) sit at the bottom edge;
+            # a button under one makes Playwright scroll before the click, which read as a "jump" of the option
+            await btn.evaluate("b => b.scrollIntoView({block: 'center'})")
             y0 = await btn.evaluate("b => b.getBoundingClientRect().top")
             await btn.click()
             await page.wait_for_timeout(450)             # rerender + the dog of docs/shared/mascot.js (async)

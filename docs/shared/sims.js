@@ -319,7 +319,7 @@ let SIMS = [];
 function stopSims(){ SIMS.forEach(s => s.stop && s.stop()); SIMS = []; }
 const CSS = `.cs-sim{border:1px solid rgba(255,255,255,.1);border-radius:14px;overflow:hidden;background:#06101d;margin:16px 0}
 .cs-sim canvas{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;touch-action:manipulation}
-.cs-words{padding:8px 12px 2px;font-size:14px;line-height:1.45;color:#6B7280}.cs-words b{color:#F3F4F6}
+.cs-words{padding:8px 12px 2px;font-size:14px;line-height:1.45;color:#9CA3AF}.cs-words b{color:#F3F4F6}
 .cs-ctl{display:flex;gap:8px 12px;flex-wrap:wrap;align-items:center;padding:10px 12px;border-top:1px solid rgba(255,255,255,.1);font-size:13.5px;color:#D1D5DB}
 .cs-ctl label{display:flex;gap:6px;align-items:center;min-width:0;max-width:100%}.cs-ctl input[type=range]{width:110px;accent-color:#34D399}.cs-ctl input[type=checkbox]{accent-color:#FB923C}
 .cs-ctl select{background:#0B1120;color:#F3F4F6;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:5px 8px;font:inherit;min-width:0;max-width:100%;flex:1 1 auto;text-overflow:ellipsis}
