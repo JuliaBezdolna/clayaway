@@ -46,8 +46,24 @@ main#app>*{min-width:0}
 main#app[aria-busy="true"]{opacity:.6}
 
 /* blocks of the page */
-.ac-hero{padding:22px;border-radius:16px;background:radial-gradient(120% 140% at 0% 0%,rgba(6,78,59,.55),transparent 60%),var(--surface2);border:1px solid var(--line);margin-bottom:18px}
-.ac-hero p{color:var(--soft);font-size:17px}
+/* home hero: a card as in the Glossary and the Rules (12 px, line white/10, gradient) with the search in it
+   (wave 2 of the Academy plan, 16.11.2026: element of variant A of design-mockups/academy-home.html) */
+.ac-hero{padding:18px;border-radius:12px;background:radial-gradient(120% 140% at 0% 0%,rgba(6,78,59,.55),transparent 60%),var(--surface2);border:1px solid var(--line);margin-bottom:18px} /* the green glow of the first version (Юлія, 16.11.2026) */
+.ac-hero h1{font-size:26px;margin:4px 0 8px}
+.ac-hero p{color:var(--soft);font-size:15.5px;margin:0}
+.ac-hero .ac-search{margin-top:16px}
+.ac-qwrap{position:relative;display:block}
+.ac-qic{position:absolute;left:14px;top:0;bottom:0;display:flex;align-items:center;font-size:17px;line-height:1;pointer-events:none}
+.ac-hero .ac-search input{width:100%;margin:0;background:var(--bg);border:1.5px solid rgba(52,211,153,.55);border-radius:14px;padding:13px 14px 13px 42px;font-size:16.5px;min-height:52px;color:var(--ink)}
+.ac-hero .ac-search input:focus{outline:none;border-color:var(--em);box-shadow:0 0 0 3px rgba(52,211,153,.2)}
+.ac-hero #acQR:not(:empty){margin-top:12px}
+/* our own clear «✕» (as in Rules FITASC): shown while the field has text, lit on hover/focus — white on white/12, rounded */
+.ac-hero .ac-search input{padding-right:54px}
+.ac-search input::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.ac-qclr{position:absolute;right:6px;top:50%;transform:translateY(-50%);display:none;place-items:center;min-width:40px;min-height:40px;border:0;border-radius:10px;background:transparent;color:var(--muted);font-size:17px;line-height:1;transition:background .15s,color .15s}
+.ac-qclr.on{display:grid}
+.ac-qclr:hover,.ac-qclr:focus-visible{color:#fff;background:rgba(255,255,255,.12)}
+@media (prefers-reduced-motion:reduce){.ac-qclr{transition:none}}
 .ac-banner{display:flex;align-items:center;gap:8px;background:var(--surface2);border:1px solid var(--line2);border-radius:12px;padding:8px 12px;margin-bottom:12px;font-size:14.5px}
 .ac-banner a{font-weight:600}
 .ac-x{margin-left:auto;background:none;border:0;color:var(--muted);padding:2px 8px}
@@ -56,6 +72,13 @@ main#app[aria-busy="true"]{opacity:.6}
 .ac-continue:hover{border-color:var(--em)}
 .ac-h2row{display:flex;align-items:center;justify-content:space-between;gap:8px 16px;flex-wrap:wrap}
 .ac-h2row h2{margin-bottom:6px}
+/* home section heading (Хто ви? · Теми · Практика): icon tile, h2, a dividing line to the right edge, the count; also on the static home */
+.ac-shead{display:flex;align-items:center;gap:10px;width:100%;margin:34px 0 12px}
+.ac-h2row .ac-shead{flex:1 1 100%}
+.ac-shead>h2,.st .ac-shead>h2{margin:0;font-size:21px;line-height:1.3;min-width:0}
+.ac-sic{display:inline-flex;align-items:center;justify-content:center;flex:none;width:36px;height:36px;border-radius:10px;background:var(--em-soft);border:1px solid rgba(52,211,153,.45);font-size:18px;line-height:1}
+.ac-sline{flex:1;min-width:12px;height:1px;background:linear-gradient(90deg,rgba(52,211,153,.55),transparent)}
+.ac-sn{flex:none;font-size:12px;line-height:1.5;font-weight:600;color:#6EE7B7;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);white-space:nowrap}
 .ac-h3{font-size:15px;color:var(--soft);margin:18px 0 8px}
 .ac-grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr))}
 .ac-grid-routes{grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr))}

@@ -1605,10 +1605,12 @@ ${gb.length ? `<ul class="st-chips">${gb.map(bid => `<li><a href="${esc(U.block(
     const rs = routes.filter(r => built.route[r.id][L]), bs = blocks.filter(b => built.block[b.id][L]);
     const gl = games.filter(g => !g.later && (built.game[g.id][L] || g.external));
     const desc = tm(S(L, "home_desc"));
+    // section heading as in the app (viewHome → shead): icon tile · h2 · dividing line · count; classes from academy.css
+    const shead = (ic, h, count) => `<div class="ac-shead"><span class="ac-sic" aria-hidden="true">${ic}</span><h2>${h}</h2><span class="ac-sline" aria-hidden="true"></span><span class="ac-sn">${esc(count)}</span></div>`;
     const body = `<h1>${esc(S(L, "home_hero_h1"))}</h1><p class="st-lead">${esc(tm(S(L, "home_hero_lead")))}</p>
-<section id="h-who"><h2>${esc(S(L, "who_are_you"))}</h2><div class="st-cards">${rs.filter(r => r.primary).map(rcard).join("")}</div>${rs.some(r => !r.primary) ? `<h3>${esc(S(L, "more_routes"))}</h3><div class="st-cards">${rs.filter(r => !r.primary).map(rcard).join("")}</div>` : ""}</section>
-<section id="topics"><h2>${esc(S(L, "topics"))}</h2><div class="st-cards">${bs.map(bcard).join("")}</div></section>
-${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">${esc(S(L, "practice"))}</a></h2><ul class="st-chips">${gl.map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_trainer"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("")}</ul></section>` : ""}
+<section id="h-who">${shead("🧭", esc(S(L, "who_are_you")), plural(L, "n_routes", rs.length, "routes"))}<div class="st-cards">${rs.filter(r => r.primary).concat(rs.filter(r => !r.primary)).map(rcard).join("")}</div></section>
+<section id="topics">${shead("📚", esc(S(L, "topics")), plural(L, "n_topics", bs.length, "topics"))}<div class="st-cards">${bs.map(bcard).join("")}</div></section>
+${built.practice[L] ? `<section id="h-prac">${shead("🎯", `<a href="${esc(U.practice(L))}">${esc(S(L, "practice"))}</a>`, plural(L, "n_trainers", gl.length, "practice"))}<ul class="st-chips">${gl.map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_trainer"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("")}</ul></section>` : ""}
 <p class="st-small">${esc(S(L, "saved_local"))}</p>`;
     shell({ kind: "home", L, url, title: tm(S(L, "home_title")), h1: S(L, "home_hero_h1"), desc, index: true, alts, ogType: "website", img: ogImg(L, "home"), wide: true,
       ld: [{ "@context": "https://schema.org", "@type": "CollectionPage", name: t, description: desc, url, inLanguage: L, publisher: ld.org,

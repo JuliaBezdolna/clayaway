@@ -398,22 +398,23 @@
       else cont = `<a class="ac-continue" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav><span class="ac-eyebrow">${esc(r.title)}</span><b>${t("route_complete_go")}</b></a>`;
     } else if (anyDone && S.last && L(S.last)) { const nx = nextInBlocks(S.last), id = nx && !done(nx) ? nx : S.last, h = lessonHref(id);
       if (h) cont = `<a class="ac-continue" href="${h.url}"${h.en ? "" : " data-nav"}><span class="ac-eyebrow">${t("continue")}</span><b>${t("continue_last", { lesson: L(id).title })}</b></a>`; }
-    const prim = routesSorted().filter(x => x.primary), more = routesSorted().filter(x => !x.primary);
+    const prim = routesSorted().filter(x => x.primary), more = routesSorted().filter(x => !x.primary), games = (CAT.practice || []).filter(g => !g.later);
     setHead({ title: u("home_title"), desc: u("home_desc"), index: true, langs: LANGS });
     return `${langBanner()}${demoNote()}
-    <section class="ac-hero"><div class="ac-eyebrow">ClayArena · ${t("disc_sporting")} · ${t("disc_compak")}</div><h1 tabindex="-1">${t("home_hero_h1")}</h1><p>${t("home_hero_lead")}</p></section>
+    <section class="ac-hero"><div class="ac-eyebrow">ClayArena · ${t("disc_sporting")} · ${t("disc_compak")}</div><h1 tabindex="-1">${t("home_hero_h1")}</h1><p>${t("home_hero_short")}</p>
+      <div class="ac-search" role="search" aria-label="${t("search")}"><label for="acQ" class="ac-sr">${t("search")}</label>
+        <span class="ac-qwrap"><span class="ac-qic" aria-hidden="true">🔍</span><input id="acQ" type="search" autocomplete="off" placeholder="${t("search")}" value="${esc(VIEW.q || "")}"><button type="button" class="ac-qclr${VIEW.q ? " on" : ""}" data-qclr aria-label="${t("search_clear")}">✕</button></span>
+        <div id="acQR" aria-live="polite"></div></div></section>
     ${cont}
-    <section aria-labelledby="h-who"><h2 id="h-who">${t("who_are_you")}</h2><p class="ac-muted">${t("who_hint")}</p>
-      <div class="ac-grid ac-grid-routes">${prim.map(x => routeCard(x, true)).join("")}</div>
-      <h3 class="ac-h3">${t("more_routes")}</h3><div class="ac-grid ac-grid-more">${more.map(x => routeCard(x, false)).join("")}</div></section>
-    <section aria-labelledby="h-search" class="ac-search"><h2 id="h-search" class="ac-sr">${t("search")}</h2>
-      <label for="acQ" class="ac-sr">${t("search")}</label><input id="acQ" type="search" autocomplete="off" placeholder="${t("search")}" value="${esc(VIEW.q || "")}">
-      <div id="acQR" aria-live="polite"></div></section>
-    <section aria-labelledby="h-topics" id="topics"><div class="ac-h2row"><h2 id="h-topics">${t("topics")}</h2>${discSwitch()}</div>
+    <section aria-labelledby="h-who">${shead("h-who", "🧭", t("who_are_you"), plural("n_routes", routesSorted().length))}<p class="ac-muted">${t("who_hint")}</p>
+      <div class="ac-grid ac-grid-routes">${prim.concat(more).map(x => routeCard(x, true)).join("")}</div></section>
+    <section aria-labelledby="h-topics" id="topics"><div class="ac-h2row">${shead("h-topics", "📚", t("topics"), plural("n_topics", blocksSorted().length))}${discSwitch()}</div>
       <div class="ac-grid ac-grid-blocks">${blocksSorted().map(blockCard).join("")}</div></section>
-    <section aria-labelledby="h-prac"><div class="ac-h2row"><h2 id="h-prac">${t("practice")}</h2><a href="${href("practice/")}" data-nav>${t("practice_all")} →</a></div>
-      <div class="ac-grid ac-grid-games">${(CAT.practice || []).filter(g => !g.later).map(g => gameCard(g)).join("")}</div></section>`;
+    <section aria-labelledby="h-prac"><div class="ac-h2row">${shead("h-prac", "🎯", t("practice"), plural("n_trainers", games.length))}<a href="${href("practice/")}" data-nav>${t("practice_all")} →</a></div>
+      <div class="ac-grid ac-grid-games">${games.map(g => gameCard(g)).join("")}</div></section>`;
   }
+  /* home section heading: icon tile · h2 · dividing line · count (the same classes on the static home, build_academy.mjs) */
+  const shead = (id, ic, title, count) => `<div class="ac-shead"><span class="ac-sic" aria-hidden="true">${ic}</span><h2 id="${id}">${title}</h2><span class="ac-sline" aria-hidden="true"></span><span class="ac-sn">${esc(count)}</span></div>`;
   const demoNote = () => CAT.test ? `<p class="ac-test">PREVIEW BUILD — draft lessons are shown; not for publishing.</p>` : "";
 
   /* Search: lessons from the catalog at once; glossary terms after the glossary data has loaded (on the first search). */
@@ -1089,7 +1090,12 @@
       P.reset(); S = P.normalize(null, LANG); S.migrated = { "clayarena-learn": today(), "clayarena-interpreter": today() }; save(); // old keys are not moved again after a reset
       if (window.ClayNav) ClayNav.clearResume("learn"); rerender(); toast(u("reset_done")); return; }
   });
-  document.addEventListener("input", e => { if (e.target.id === "acQ") { VIEW.q = e.target.value; const r = $("acQR"); if (r) r.innerHTML = searchResults(VIEW.q);
+  /* search field: our own clear «✕» instead of the browser's, as in Rules FITASC — shown while the field has text, lit on hover */
+  const qClear = () => { const q = $("acQ"); if (!q) return; q.value = ""; VIEW.q = ""; const r = $("acQR"); if (r) r.innerHTML = ""; qClr(); q.focus(); };
+  const qClr = () => { const q = $("acQ"), c = document.querySelector(".ac-qclr"); if (q && c) c.classList.toggle("on", !!q.value); };
+  document.addEventListener("click", e => { if (e.target.closest && e.target.closest("[data-qclr]")) { e.preventDefault(); qClear(); } });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && e.target.id === "acQ" && e.target.value) { e.preventDefault(); qClear(); } });
+  document.addEventListener("input", e => { if (e.target.id === "acQ") { VIEW.q = e.target.value; qClr(); const r = $("acQR"); if (r) r.innerHTML = searchResults(VIEW.q);
       if (!GLO.ready && VIEW.q.trim().length >= 2) GLO.load().then(() => { const r2 = $("acQR"); if (r2) r2.innerHTML = searchResults(VIEW.q); }).catch(() => {}); } });
   document.addEventListener("change", e => { if (e.target.id === "acLang") langSelChange(e.target); });
   document.addEventListener("keydown", langSelKey);
