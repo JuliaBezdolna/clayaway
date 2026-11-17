@@ -4,10 +4,10 @@
   "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "db8fb42a",
+    "summary": "eb95dbfb",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5031b8cc",
+    "mind-anti-doping-p2": "c99048ae",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -21,13 +21,13 @@
     "health-alcohol-medication-weather-p2": "23558c46",
     "mind-anti-doping-p12": "8aa6cd7e",
     "mind-anti-doping-n1": "f68a061a",
-    "health-alcohol-medication-weather-kp3": "834632a3",
+    "health-alcohol-medication-weather-kp3": "9efdb351",
     "mind-anti-doping-kp2": "bd1c92a0",
     "mind-anti-doping-kp3": "e18296f0",
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "f7c71a6a",
+    "mind-anti-doping-q1": "0f0187a3",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
@@ -40,11 +40,11 @@
     "origin": null
   },
   "title": "Lääkkeet ja antidoping: beetasalpaajat, TUE, lisäravinteet",
-  "summary": "WADAn luettelo kieltää beetasalpaajat aina ammunnassa; pidä niitä kiellettyinä myös {{tm:sporting}}- ja {{tm:compak}}-lajeissa. Miten lääke tarkistetaan, milloin tarvitaan {{term:therapeutic-use-exemption|erivapaus}} ja mitä kannattaa tietää lisäravinteista, CBD:stä ja alkoholista.",
+  "summary": "WADAn luettelo kieltää beetasalpaajat aina niissä ammuntalajeissa, jotka se mainitsee; {{tm:sporting}}- ja {{tm:compak}}-lajeja se ei mainitse, mutta pidä niitä kiellettyinä myös niissä. Miten lääke tarkistetaan, milloin tarvitaan {{term:therapeutic-use-exemption|erivapaus}} ja mitä kannattaa tietää lisäravinteista, CBD:stä ja alkoholista.",
   "body": {
     "health-alcohol-medication-weather-p3": "{{term:championship|Mestaruuskilpailuissa}} ja suurissa kilpailuissa sinua voidaan testata dopingista. Kansainväliset säännöt tulevat Maailman antidopingtoimistolta (WADA), joka julkaisee uuden kielletyn luettelon joka vuosi.",
     "mind-anti-doping-beta": "{{term:beta-blocker|Beetasalpaajat}} ovat sydänlääkkeitä, jotka hidastavat sykettä ja vähentävät vapinaa; esimerkkejä ovat propranololi, atenololi, bisoprololi ja metoprololi. Huomaa, että {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "Luettelo ei mainitse {{tm:sporting}}- ja {{tm:compak}}-lajeja erikseen: pidä beetasalpaajia kiellettyinä myös niissä. Kansallinen {{term:anti-doping|antidoping}}-elimesi voi testata kansallisissa kilpailuissa, ja järjestäjät voivat soveltaa WADAn luetteloa.",
+    "mind-anti-doping-p2": "{{tm:sporting}}- ja {{tm:compak}}-lajit eivät ole luettelon mainitsemien ammuntalajien joukossa. Pidä beetasalpaajia varmuuden vuoksi kiellettyinä myös niissä ja kysy ennen kilpailua liitostasi, mitkä säännöt ovat voimassa. Kansallinen {{term:anti-doping|antidoping}}-elimesi voi testata kansallisissa kilpailuissa, ja järjestäjät voivat soveltaa WADAn luetteloa.",
     "mind-anti-doping-p3": "Ne ovat kiellettyjä tarkkuuslajeissa, koska hitaampi syke ja vähäisempi vapina voivat vakauttaa asetta.",
     "mind-anti-doping-warn": "Jos lääkäri on määrännyt sinulle beetasalpaajan esimerkiksi verenpaineeseen, sydämen rytmihäiriöön, migreeniin tai vapinaan, älä lopeta sen käyttöä itse. Puhu lääkärisi ja liittosi kanssa hyvissä ajoin ennen kilpailua sallitusta vaihtoehdosta tai erivapaudesta.",
     "mind-anti-doping-p4": "{{term:therapeutic-use-exemption|Erivapaus terapeuttiseen käyttöön}}, lyhyesti TUE, on virallinen lupa käyttää kiellettyä lääkettä lääketieteellisestä syystä. Resepti yksin ei riitä: kielletty aine pysyy kiellettynä, niin lupaa haetaan etukäteen, yleensä kansalliselta antidopingtoimistolta (liittosi kertoo, miltä).",
@@ -63,7 +63,7 @@
   },
   "phrases": {},
   "key_points": {
-    "health-alcohol-medication-weather-kp3": "Beetasalpaajat ovat kiellettyjä ampumisessa aina; pidä niitä kiellettyinä myös savikiekkoammunnassa.",
+    "health-alcohol-medication-weather-kp3": "WADA kieltää beetasalpaajat aina mainitsemissaan ammuntalajeissa; pidä niitä kiellettyinä myös savikiekkoammunnassa.",
     "mind-anti-doping-kp2": "Lääkäri on määrännyt lääkkeen: älä lopeta sitä itse; kysy lääkäriltä vaihtoehdosta tai erivapaudesta hyvissä ajoin.",
     "mind-anti-doping-kp3": "Tarkista joka lääke Global DRO:sta vaikuttavan aineen mukaan tai kysy kansalliselta antidopingtoimistolta; tarkista uudelleen joka vuosi.",
     "health-alcohol-medication-weather-kp2": "Lääke aiheuttaa väsymystä tai huimausta: kysy lääkäriltä ja älä ammu niin kauan kuin tunnet sitä.",
@@ -71,13 +71,13 @@
   },
   "quiz": {
     "mind-anti-doping-q1": {
-      "q": "Milloin beetasalpaajat ovat WADAn luettelon mukaan kiellettyjä ampumisessa?",
+      "q": "Milloin beetasalpaajat ovat WADAn luettelon mukaan kiellettyjä sen mainitsemissa ammuntalajeissa?",
       "options": {
         "a": "Vain kilpailupäivinä",
         "b": "Vain MM- ja EM-kilpailuissa",
         "c": "Aina, kilpailun aikana ja sen ulkopuolella"
       },
-      "explain": "Vuosien 2026 ja 2027 luettelot merkitsevät ampumisen lajiksi, jossa ne ovat kiellettyjä aina. Pidä tätä sääntönä myös savikiekkoammunnassa."
+      "explain": "Vuosien 2026 ja 2027 luettelot kieltävät ne aina mainitsemissaan ammuntalajeissa. Savikiekkoammuntaa ei mainita, mutta pidä tätä sääntönä myös siinä."
     },
     "health-alcohol-medication-weather-q2": {
       "q": "Tarvitset reseptilääkettä ja olet menossa mestaruuskilpailuun. Mitä tehdä?",

@@ -17,14 +17,14 @@
     "budget-rent-or-buy-p6": "e17e8e9b",
     "gun-first-gun-p7": "3db6839f",
     "gun-first-gun-kp1": "458400c3",
-    "budget-rent-or-buy-kp2": "0687cf62",
+    "budget-rent-or-buy-kp2": "d6690078",
     "gun-first-gun-kp3": "bfab6a97",
     "gun-first-gun-kp4": "da2a8611",
     "budget-rent-or-buy-kp5": "67166cca",
     "budget-rent-or-buy-dyk": "d70cb485",
     "gun-first-gun-q1": "ef1e0b30",
     "gun-first-gun-q2": "fbbbecc2",
-    "budget-rent-or-buy-q3": "8ddabd0e",
+    "budget-rent-or-buy-q3": "6c406af2",
     "gun-first-gun-q3": "6c69c380",
     "budget-rent-or-buy-q1": "a091196b",
     "budget-rent-or-buy-q2": "766b0851"
@@ -53,7 +53,7 @@
   "phrases": {},
   "key_points": {
     "gun-first-gun-kp1": "Commencez avec le fusil de location du stand et un entraîneur ; essayez plusieurs modèles avant d'acheter.",
-    "budget-rent-or-buy-kp2": "Achetez le vôtre une fois que vous vous entraînez régulièrement et avez fait une conformation.",
+    "budget-rent-or-buy-kp2": "Achetez le vôtre une fois que vous vous entraînez régulièrement et qu'un entraîneur a vu votre {{term:gun-mount|épaulé}}.",
     "gun-first-gun-kp3": "Deux tireurs d'une même planche ne peuvent pas partager un fusil en compétition.",
     "gun-first-gun-kp4": "Faites vérifier un fusil d'occasion par un armurier.",
     "budget-rent-or-buy-kp5": "Achetez uniquement par des voies légales ; les permis dépendent du pays."
@@ -85,9 +85,9 @@
         "a": "Avant même la première leçon sur un stand",
         "b": "Juste après les premiers coups",
         "c": "Dès qu'un magasin fait une promotion",
-        "d": "Quand on s'entraîne régulièrement et qu'on a fait un conformation"
+        "d": "Quand on s'entraîne régulièrement et qu'un entraîneur a vu son épaulé"
       },
-      "explain": "D'abord l'expérience et une conformation ; ensuite le fusil vous conviendra."
+      "explain": "D'abord l'expérience et l'œil d'un entraîneur ; ensuite le fusil vous conviendra."
     },
     "gun-first-gun-q3": {
       "q": "Que faire avant d'acheter un {{term:shotgun|fusil}} d'occasion ?",

@@ -1,6 +1,6 @@
 {
   "id": "travel-flying-with-guns",
-  "rev": 2,
+  "rev": 3,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -100,8 +100,8 @@
     {
       "k": "travel-flying-with-guns-p4",
       "t": "p",
-      "en": "Cartridges count as ‘dangerous goods’ (things that are risky to carry on a plane), so they travel under their own rules. The {{term:iata|IATA}} rules (IATA is the airlines' international association) allow sporting {{term:cartridge|cartridges}} {{fact:gear.iata-ammunition}}. ‘Gross’ means that the weight of the boxes counts too. Pack them firmly, usually in the maker's boxes. Two passengers may not combine their limits in one package.",
-      "uk": "Набої належать до «небезпечних вантажів» (речей, які ризиковано везти літаком), тому для них є окремі правила. Правила {{term:iata|IATA}} (міжнародної асоціації авіакомпаній) дозволяють везти спортивні {{term:cartridge|набої}} {{fact:gear.iata-ammunition}}. «Брутто» означає, що враховують і вагу коробок. Пакуйте набої надійно, зазвичай у заводських коробках. Двоє пасажирів не можуть скласти свої ліміти в одну упаковку."
+      "en": "Cartridges count as ‘dangerous goods’ (things that are risky to carry on a plane), so they travel under their own rules. The {{term:iata|IATA}} rules (IATA is the airlines' international association) allow sporting {{term:cartridge|cartridges}} {{fact:gear.iata-ammunition}}. That is, the weight of the boxes counts too. Pack them firmly, usually in the maker's boxes. Two passengers may not combine their limits in one package.",
+      "uk": "Набої належать до «небезпечних вантажів» (речей, які ризиковано везти літаком), тому для них є окремі правила. Правила {{term:iata|IATA}} (міжнародної асоціації авіакомпаній) дозволяють везти спортивні {{term:cartridge|набої}} {{fact:gear.iata-ammunition}}. Тобто враховують і вагу коробок. Пакуйте набої надійно, зазвичай у заводських коробках. Двоє пасажирів не можуть скласти свої ліміти в одну упаковку."
     },
     {
       "k": "travel-flying-with-guns-p7",
@@ -206,7 +206,7 @@
         {
           "k": "c",
           "en": "In your jacket pockets, to save baggage weight",
-          "uk": "У кишенях куртки, щоб не важив багаж"
+          "uk": "У кишенях куртки, щоб багаж був легшим"
         }
       ],
       "correct": "a",
@@ -283,7 +283,7 @@
     "travel-flying-with-guns-p1": "01a54b09",
     "travel-flying-with-guns-p2": "14f74903",
     "travel-flying-with-guns-p3": "4b9ad99e",
-    "travel-flying-with-guns-p4": "6ce48786",
+    "travel-flying-with-guns-p4": "94ec59f8",
     "travel-flying-with-guns-p7": "505685a2",
     "travel-flying-with-guns-p5": "ce139713",
     "travel-flying-with-guns-p6": "a96493cb",

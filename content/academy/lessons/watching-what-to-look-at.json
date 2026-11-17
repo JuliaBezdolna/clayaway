@@ -1,6 +1,6 @@
 {
   "id": "watching-what-to-look-at",
-  "rev": 2,
+  "rev": 3,
   "status": "ready",
   "plan": "keep",
   "level": 1,
@@ -183,11 +183,11 @@
       "disc": "both",
       "sporting": {
         "en": "{{term:squad|Squads}} of {{fact:rules.squad-max-shooters}} walk from stand to stand across the ground. On each stand they usually shoot the singles first, then the doubles: on report, simultaneous or rafale. The {{term:stock|stock}} is the part of the gun that goes to the shoulder. Until the target appears, its top must stay below the {{term:jacket-line|line on the vest}}, drawn {{fact:rules.sporting-jacket-line}} (an imaginary line through both shoulders). So you see the whole {{term:gun-mount|gun mount}}: the gun coming up to the shoulder and cheek.",
-        "uk": "{{term:squad|Групи}} — {{fact:rules.squad-max-shooters}} — переходять від одного стрілецького місця до іншого по всьому стенду. На кожному місці зазвичай спершу стріляють одиночні мішені, потім дуплети: сигнальний, одночасні або рафаль. {{term:stock|Приклад}} — частина рушниці, яку притискають до плеча. Доки мішень не з’явиться, його верх має лишатися нижче {{term:jacket-line|лінії на жилеті}}, проведеної {{fact:rules.sporting-jacket-line}} (уявної лінії через обидва плечі). Тож добре видно всю {{term:gun-mount|вкладку}} — як рушниця піднімається до плеча і щоки."
+        "uk": "{{term:squad|Групи}} — {{fact:rules.squad-max-shooters}} — переходять від одного стрілецького місця до іншого по всьому стенду. На кожному місці зазвичай спершу стріляють одиночні мішені, потім дуплети: сигнальні, одночасні або рафаль. {{term:stock|Приклад}} — частина рушниці, яку притискають до плеча. Доки мішень не з’явиться, його верх має лишатися нижче {{term:jacket-line|лінії на жилеті}}, проведеної {{fact:rules.sporting-jacket-line}} (уявної лінії через обидва плечі). Тож добре видно всю {{term:gun-mount|вкладку}} — як рушниця піднімається до плеча і щоки."
       },
       "compak": {
-        "en": "A {{term:squad|squad}} of {{fact:rules.squad-max-shooters}} shoots from five stations in a line, at targets from six traps (the machines that throw the targets). The shooters take turns, five targets each; when the shooter on station 5 has finished, everyone moves one station to the right. Doubles are on report or simultaneous. When a {{tm:compak}} shooter calls for the target, the gun may already be at the shoulder or still lowered: the rules leave this free. So some shooters call with the gun already “mounted”, that is, at the shoulder.",
-        "uk": "{{term:squad|Група}} — {{fact:rules.squad-max-shooters}} — стріляє з п’яти номерів у лінію по мішенях із шести машинок. Стрільці стріляють по черзі, по п’ять мішеней кожен; коли стрілець на п’ятому номері закінчив, усі переходять на один номер праворуч. Дуплети бувають на постріл або одночасні. Під час виклику мішені в {{tm:compak}} рушниця може бути вже біля плеча або ще опущена: правила це не обмежують. Тож дехто кличе мішень уже з вкладеною рушницею, тобто з прикладом біля плеча."
+        "en": "A {{term:squad|squad}} of {{fact:rules.squad-max-shooters}} shoots from five stations in a line, at targets from six traps (the machines that throw the targets). The shooters take turns, one target or double at a time, until each has shot the five targets of their station. When the shooter on station 5 has finished, everyone moves one station to the right. Doubles are on report or simultaneous. When a {{tm:compak}} shooter calls for the target, the gun may already be at the shoulder or still lowered: the rules leave this free. So some shooters call with the gun already “mounted”, that is, at the shoulder.",
+        "uk": "{{term:squad|Група}} — {{fact:rules.squad-max-shooters}} — стріляє з п’яти номерів у лінію по мішенях із шести машинок. Стрільці стріляють по черзі, по одній мішені чи дуплету, доки кожен не відстріляє п’ять мішеней свого номера. Коли стрілець на п’ятому номері закінчив, усі переходять на один номер праворуч. Дуплети бувають сигнальні або одночасні. Під час виклику мішені в {{tm:compak}} рушниця може бути вже біля плеча або ще опущена: правила це не обмежують. Тож дехто кличе мішень уже з вкладеною рушницею, тобто з прикладом біля плеча."
       }
     },
     {
@@ -300,7 +300,7 @@
       "correct": "b",
       "explain": {
         "en": "A {{tm:compak}} double is on report or simultaneous; the rafale belongs to {{tm:sporting}} only.",
-        "uk": "Дуплет у {{tm:compak}} буває на постріл або одночасний; рафаль є лише в {{tm:sporting}}."
+        "uk": "Дуплет у {{tm:compak}} буває сигнальний або одночасний; рафаль є лише в {{tm:sporting}}."
       },
       "rule_ref": "sporting:ch4-rafale-double"
     },
@@ -407,7 +407,7 @@
     "watching-what-to-look-at-p3": "46f18086",
     "watching-what-to-look-at-directions": "61c87962",
     "watching-what-to-look-at-p4": "23cb33d2",
-    "watching-what-to-look-at-compare": "a6afdd18",
+    "watching-what-to-look-at-compare": "064271ce",
     "watching-what-to-look-at-p5": "ad5ac669",
     "watching-what-to-look-at-p6": "3f585713",
     "watching-what-to-look-at-kp1": "3addf973",

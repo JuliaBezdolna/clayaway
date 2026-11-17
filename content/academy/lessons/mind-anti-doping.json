@@ -1,6 +1,6 @@
 {
   "id": "mind-anti-doping",
-  "rev": 4,
+  "rev": 5,
   "status": "review",
   "plan": "new",
   "level": 2,
@@ -119,13 +119,13 @@
     "uk": "Ліки й антидопінг: бета-блокатори, TUE, добавки"
   },
   "summary": {
-    "en": "The WADA list bans beta-blockers in shooting at all times; treat them as prohibited in {{tm:sporting}} and {{tm:compak}} too. How to check a medicine, when you need a TUE, and what to know about supplements, CBD and alcohol.",
-    "uk": "Список WADA забороняє бета-блокатори у стрільбі в будь-який час; вважайте їх забороненими і в {{tm:sporting}} та {{tm:compak}}. Як перевірити ліки, коли потрібен TUE і що знати про добавки, CBD та алкоголь."
+    "en": "The WADA list bans beta-blockers at all times in the shooting disciplines it names; it does not name {{tm:sporting}} or {{tm:compak}}, but treat them as prohibited there too. How to check a medicine, when you need a TUE, and what to know about supplements, CBD and alcohol.",
+    "uk": "Список WADA забороняє бета-блокатори в будь-який час у названих у ньому видах стрільби; {{tm:sporting}} і {{tm:compak}} там не названо, але вважайте їх забороненими й тут. Як перевірити ліки, коли потрібен TUE і що знати про добавки, CBD та алкоголь."
   },
   "brief": {
     "points": {
       "en": [
-        "The WADA Prohibited Lists for 2026 and 2027 prohibit beta-blockers in shooting at all times, in and out of competition. Sporting™ and Compak® Sporting are not named there separately; the project rule is to treat them as prohibited for every clay shooter (owner decision 08.10.2026: no other federations or disciplines are named).",
+        "The WADA Prohibited Lists for 2026 and 2027 prohibit beta-blockers at all times, in and out of competition, in the shooting disciplines they name (checked 17.11.2026: the list names other federations only; Sporting™ and Compak® Sporting are not among them). The project rule is to treat them as prohibited for every clay shooter as a precaution and to ask the federation before a competition (owner decision 08.10.2026: no other federations or disciplines are named in the text).",
         "Do not stop a prescribed medicine on your own: talk to your doctor and your federation in advance about an alternative or a TUE (Therapeutic Use Exemption).",
         "Check medicines in Global DRO.",
         "Stimulants in some cold and ADHD medicines are prohibited in competition.",
@@ -168,8 +168,8 @@
       "k": "mind-anti-doping-p2",
       "t": "p",
       "critical": true,
-      "en": "The list does not name {{tm:sporting}} or {{tm:compak}} separately: treat beta-blockers as prohibited there too. Your national {{term:anti-doping|anti-doping}} agency can test at national events, and organisers may apply the WADA list.",
-      "uk": "Окремо {{tm:sporting}} і {{tm:compak}} у списку не названо: вважайте бета-блокатори забороненими і там. Національна {{term:anti-doping|антидопінгова}} агенція може проводити контроль на національних змаганнях, а організатори можуть застосовувати список WADA."
+      "en": "{{tm:sporting}} and {{tm:compak}} are not among the shooting disciplines the list names. As a precaution, treat beta-blockers as prohibited there too, and before a competition ask your federation which rules apply. Your national {{term:anti-doping|anti-doping}} agency can test at national events, and organisers may apply the WADA list.",
+      "uk": "{{tm:sporting}} і {{tm:compak}} серед названих у списку видів стрільби немає. З обережності вважайте бета-блокатори забороненими і там, а перед змаганням спитайте свою федерацію, які правила діють. Національна {{term:anti-doping|антидопінгова}} агенція може проводити контроль на національних змаганнях, а організатори можуть застосовувати список WADA."
     },
     {
       "k": "mind-anti-doping-p3",
@@ -264,8 +264,8 @@
   "key_points": [
     {
       "k": "health-alcohol-medication-weather-kp3",
-      "en": "Beta-blockers are prohibited in shooting at all times; treat them as prohibited in clay shooting too.",
-      "uk": "Бета-блокатори у стрільбі заборонені в будь-який час; вважайте їх забороненими і в стендовій стрільбі.",
+      "en": "WADA prohibits beta-blockers at all times in the shooting disciplines it names; treat them as prohibited in clay shooting too.",
+      "uk": "WADA забороняє бета-блокатори в будь-який час у названих нею видах стрільби; вважайте їх забороненими і в стендовій стрільбі.",
       "checklist": true,
       "from": "health-alcohol-medication-weather"
     },
@@ -301,8 +301,8 @@
     {
       "k": "mind-anti-doping-q1",
       "q": {
-        "en": "Under the WADA list, when are beta-blockers prohibited in shooting?",
-        "uk": "Коли за списком WADA бета-блокатори заборонені у стрільбі?"
+        "en": "Under the WADA list, when are beta-blockers prohibited in the shooting disciplines it names?",
+        "uk": "Коли за списком WADA бета-блокатори заборонені в названих у ньому видах стрільби?"
       },
       "options": [
         {
@@ -323,8 +323,8 @@
       ],
       "correct": "c",
       "explain": {
-        "en": "The 2026 and 2027 lists mark shooting as prohibited at all times. Treat this as the rule in clay shooting too.",
-        "uk": "Списки 2026 і 2027 років позначають стрільбу як вид, де вони заборонені в будь-який час. Вважайте це правилом і в стендовій стрільбі."
+        "en": "The 2026 and 2027 lists prohibit them at all times in the shooting disciplines they name. Clay shooting is not named, but treat this as the rule there too.",
+        "uk": "Списки 2026 і 2027 років забороняють їх у будь-який час у названих у них видах стрільби. Стендову стрільбу там не названо, але вважайте це правилом і в ній."
       }
     },
     {
@@ -494,10 +494,10 @@
   ],
   "h_uk": {
     "title": "16e7c3d5",
-    "summary": "db8fb42a",
+    "summary": "eb95dbfb",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5031b8cc",
+    "mind-anti-doping-p2": "c99048ae",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -511,13 +511,13 @@
     "health-alcohol-medication-weather-p2": "23558c46",
     "mind-anti-doping-p12": "8aa6cd7e",
     "mind-anti-doping-n1": "f68a061a",
-    "health-alcohol-medication-weather-kp3": "834632a3",
+    "health-alcohol-medication-weather-kp3": "9efdb351",
     "mind-anti-doping-kp2": "bd1c92a0",
     "mind-anti-doping-kp3": "e18296f0",
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "f7c71a6a",
+    "mind-anti-doping-q1": "0f0187a3",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",

@@ -1,6 +1,6 @@
 {
   "id": "training-for-competition",
-  "rev": 5,
+  "rev": 6,
   "status": "review",
   "plan": "rewrite",
   "level": 2,
@@ -275,7 +275,7 @@
       },
       "compak": {
         "en": "The gun position at the call is free: mounted or not. Each target is shot with the gun at the shoulder. There is no jacket line ({{rule:compak:ch17-gun-position}}).",
-        "uk": "{{term:gun-position|Положення рушниці}} під час виклику вільне: вкладена вона чи ні. Кожну мішень стріляють із рушницею біля плеча. Лінії на жилеті немає ({{rule:compak:ch17-gun-position}})."
+        "uk": "{{term:gun-position|Положення рушниці}} під час виклику вільне: вкладена вона чи ні. Кожну мішень стріляють із вкладеною рушницею. Лінії на жилеті немає ({{rule:compak:ch17-gun-position}})."
       }
     },
     {
@@ -295,7 +295,7 @@
       },
       "compak": {
         "en": "You have {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). The target leaves {{fact:rules.release-within-3s}} of the call with a manual release, or {{fact:rules.sonopull-delay}} after it with a sonopull (voice release) ({{rule:compak:ch2-trigger-manual}}).",
-        "uk": "У вас є {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Мішень вилітає {{fact:rules.release-within-3s}} після виклику при ручному запуску або через {{fact:rules.sonopull-delay}} із сонопулом (голосовим запуском) ({{rule:compak:ch2-trigger-manual}})."
+        "uk": "У вас є {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Мішень вилітає {{fact:rules.release-within-3s}} після виклику при ручному запуску або через {{fact:rules.sonopull-delay}} з {{term:sonopull|акустичною системою запуску}} ({{rule:compak:ch2-trigger-manual}})."
       }
     },
     {
@@ -332,14 +332,14 @@
       "k": "training-for-competition-shoot-off",
       "t": "p",
       "disc": "both",
-      "en": "A real shoot-off is held only for the first three places. In both disciplines it is 25 targets and, if the shooters are still level, sudden death: the first to miss is out ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
-      "uk": "Справжню перестрілку проводять лише за перші три місця. В обох дисциплінах це 25 мішеней, а якщо рахунок і далі рівний — {{term:sudden-death|sudden death}}: хто першим промахнеться, той вибуває ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}})."
+      "en": "A real shoot-off is held only for the first three places (in {{tm:compak}}, both overall and in each category). In both disciplines it is 25 targets and, if the shooters are still level, sudden death: the first to miss is out ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
+      "uk": "Справжню перестрілку проводять лише за перші три місця (у {{tm:compak}} — і в загальному заліку, і в кожній категорії). В обох дисциплінах це 25 мішеней, а якщо рахунок і далі рівний — {{term:sudden-death|sudden death}}: хто першим промахнеться, той вибуває ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}})."
     },
     {
       "k": "training-for-competition-fit-in",
       "t": "p",
       "en": "How to fit this into normal training. Many coaches keep technique work for the first part of a session and add one pressure task near the end, once or twice a week. While you are learning a new movement, leave the pressure out until it feels settled. If technique falls apart, make the task easier rather than pushing on.",
-      "uk": "Як поєднати це зі звичайним тренуванням. Багато тренерів залишають роботу над технікою на першу частину тренування, а одне завдання під тиском додають ближче до кінця, раз-два на тиждень. Поки ви вчите новий рух, не додавайте тиску, доки рух не закріпиться. Якщо техніка розсипається, полегшіть завдання, а не тисніть далі."
+      "uk": "Як поєднати це зі звичайним тренуванням. Багато тренерів залишають роботу над технікою на першу частину тренування, а одне завдання під тиском додають ближче до кінця, раз-два на тиждень. Поки рух новий і ще не закріпився, тиску не додавайте. Якщо техніка розсипається, полегшіть завдання, а не тисніть далі."
     },
     {
       "k": "training-for-competition-no-new-kit",
@@ -669,7 +669,7 @@
     "training-for-competition-q3": "2586076a",
     "training-for-competition-q-compak-time": "2e75b105",
     "training-for-competition-p2-why": "b885b16c",
-    "training-for-competition-shoot-off": "bf65f20f"
+    "training-for-competition-shoot-off": "7b1103ee"
   },
   "todo": {
     "audit": [],

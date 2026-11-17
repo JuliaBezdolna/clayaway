@@ -4,10 +4,10 @@
   "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "db8fb42a",
+    "summary": "eb95dbfb",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5031b8cc",
+    "mind-anti-doping-p2": "c99048ae",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -21,13 +21,13 @@
     "health-alcohol-medication-weather-p2": "23558c46",
     "mind-anti-doping-p12": "8aa6cd7e",
     "mind-anti-doping-n1": "f68a061a",
-    "health-alcohol-medication-weather-kp3": "834632a3",
+    "health-alcohol-medication-weather-kp3": "9efdb351",
     "mind-anti-doping-kp2": "bd1c92a0",
     "mind-anti-doping-kp3": "e18296f0",
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "f7c71a6a",
+    "mind-anti-doping-q1": "0f0187a3",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
@@ -40,11 +40,11 @@
     "origin": null
   },
   "title": "Médicaments et antidopage : bêtabloquants, AUT, compléments",
-  "summary": "La liste de l'AMA interdit les {{term:beta-blocker|bêtabloquants}} en permanence dans le tir ; considérez-les comme interdits aussi en {{tm:sporting}} et en {{tm:compak}}. Comment vérifier un médicament, quand une AUT est nécessaire, et ce qu'il faut savoir sur les compléments, le CBD et l'alcool.",
+  "summary": "La liste de l'AMA interdit les {{term:beta-blocker|bêtabloquants}} en permanence dans les disciplines de tir qu'elle nomme ; elle ne cite pas le {{tm:sporting}} ni le {{tm:compak}}, mais considérez-les comme interdits là aussi. Comment vérifier un médicament, quand une AUT est nécessaire, et ce qu'il faut savoir sur les compléments, le CBD et l'alcool.",
   "body": {
     "health-alcohol-medication-weather-p3": "Aux {{term:championship|championnats}} et aux grandes épreuves, vous pouvez être soumis à un {{term:anti-doping|contrôle antidopage}}. Les règles internationales viennent de l'Agence mondiale antidopage (AMA), qui publie chaque année une nouvelle liste des interdictions.",
     "mind-anti-doping-beta": "Les {{term:beta-blocker|bêtabloquants}} sont des médicaments cardiaques qui ralentissent les battements du cœur et réduisent les tremblements ; exemples : propranolol, aténolol, bisoprolol et métoprolol. Sachez que {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "La liste ne cite pas à part le {{tm:sporting}} ni le {{tm:compak}} : considérez les bêtabloquants comme interdits là aussi. Votre agence nationale {{term:anti-doping|antidopage}} peut contrôler lors d'épreuves nationales, et les organisateurs peuvent appliquer la liste de l'AMA.",
+    "mind-anti-doping-p2": "Le {{tm:sporting}} et le {{tm:compak}} ne figurent pas parmi les disciplines de tir que cite la liste. Par précaution, considérez les bêtabloquants comme interdits là aussi et, avant une compétition, demandez à votre fédération quelles règles s'appliquent. Votre agence nationale {{term:anti-doping|antidopage}} peut contrôler lors d'épreuves nationales, et les organisateurs peuvent appliquer la liste de l'AMA.",
     "mind-anti-doping-p3": "Ils sont interdits dans les sports de précision parce qu'un cœur plus lent et moins de tremblements peuvent stabiliser le fusil.",
     "mind-anti-doping-warn": "Si un médecin vous a prescrit un bêtabloquant, par exemple pour la tension, un trouble du rythme cardiaque, la migraine ou des tremblements, ne l'arrêtez pas de vous-même. Parlez à votre médecin et à votre fédération bien avant la compétition d'une alternative autorisée ou d'une AUT.",
     "mind-anti-doping-p4": "Une {{term:therapeutic-use-exemption|AUT}} — autorisation d'usage à des fins thérapeutiques — est une autorisation officielle d'utiliser un médicament interdit pour une raison médicale. Une prescription seule ne suffit pas : une substance interdite reste interdite, donc vous faites une demande à l'avance, généralement à votre agence nationale antidopage (votre fédération peut vous dire laquelle).",
@@ -63,7 +63,7 @@
   },
   "phrases": {},
   "key_points": {
-    "health-alcohol-medication-weather-kp3": "Les bêtabloquants sont interdits au tir en permanence ; considérez-les comme interdits aussi au tir aux plateaux.",
+    "health-alcohol-medication-weather-kp3": "L'AMA interdit les bêtabloquants en permanence dans les disciplines de tir qu'elle nomme ; considérez-les comme interdits aussi au tir aux plateaux.",
     "mind-anti-doping-kp2": "Médicament prescrit : ne l'arrêtez pas vous-même ; demandez à votre médecin une alternative ou une AUT bien à l'avance.",
     "mind-anti-doping-kp3": "Vérifiez chaque médicament dans Global DRO par son principe actif, ou demandez à votre agence nationale antidopage ; vérifiez à nouveau chaque année.",
     "health-alcohol-medication-weather-kp2": "Un médicament vous rend somnolent ou donne des vertiges : demandez à un médecin, et ne tirez pas tant que vous le ressentez.",
@@ -72,13 +72,13 @@
   "did_you_know": "La liste des interdictions de l'AMA est mise à jour chaque année, et la liste suivante est généralement publiée autour de septembre. Un médicament autorisé la saison dernière vaut la peine d'être vérifié à nouveau.",
   "quiz": {
     "mind-anti-doping-q1": {
-      "q": "Selon la liste de l'AMA, quand les {{term:beta-blocker|bêtabloquants}} sont-ils interdits au tir ?",
+      "q": "Selon la liste de l'AMA, quand les {{term:beta-blocker|bêtabloquants}} sont-ils interdits dans les disciplines de tir qu'elle nomme ?",
       "options": {
         "a": "Seulement les jours de compétition",
         "b": "Seulement aux championnats du monde et d'Europe",
         "c": "En permanence, en et hors compétition"
       },
-      "explain": "Les listes 2026 et 2027 marquent le tir comme une discipline où ils sont interdits en permanence. Considérez cela comme la règle au tir aux plateaux aussi."
+      "explain": "Les listes 2026 et 2027 les interdisent en permanence dans les disciplines de tir qu'elles nomment. Le tir aux plateaux n'y figure pas, mais considérez cela comme la règle là aussi."
     },
     "health-alcohol-medication-weather-q2": {
       "q": "Vous avez besoin d'un médicament prescrit et vous allez à un {{term:championship|championnat}}. Que devez-vous faire ?",

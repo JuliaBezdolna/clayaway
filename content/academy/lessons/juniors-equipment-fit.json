@@ -1,6 +1,6 @@
 {
   "id": "juniors-equipment-fit",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -173,8 +173,8 @@
   ],
   "did_you_know": {
     "k": "juniors-equipment-fit-dyk",
-    "en": "The FITASC rules limit the gauge only from above, {{fact:gear.fitasc-max-gauge}}, so a 20-gauge gun is allowed in competition in both disciplines.",
-    "uk": "Правила FITASC обмежують калібр лише зверху ({{fact:gear.fitasc-max-gauge}}), тож рушниця 20 калібру на змаганнях дозволена в обох дисциплінах."
+    "en": "The FITASC rules limit the gauge only from above, {{fact:gear.fitasc-max-gauge}}, so a 20-gauge gun is allowed in competition in both disciplines. Its barrels must be {{fact:gear.fitasc-min-barrel}}, and some youth models have shorter ones.",
+    "uk": "Правила FITASC обмежують калібр лише зверху ({{fact:gear.fitasc-max-gauge}}), тож рушниця 20 калібру на змаганнях дозволена в обох дисциплінах. Її стволи мають бути {{fact:gear.fitasc-min-barrel}}, а в деяких юнацьких моделях вони коротші."
   },
   "quiz": [
     {
@@ -297,7 +297,7 @@
     "juniors-equipment-fit-kp3": "ed30b802",
     "juniors-equipment-fit-kp4": "072ab1c0",
     "juniors-equipment-fit-kp5": "8087d16c",
-    "juniors-equipment-fit-dyk": "854a04c5",
+    "juniors-equipment-fit-dyk": "b3606d49",
     "juniors-equipment-fit-q1": "cedce39c",
     "juniors-equipment-fit-q2": "9fbee996",
     "juniors-equipment-fit-q3": "a37e7a90"

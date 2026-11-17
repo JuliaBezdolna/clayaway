@@ -17,14 +17,14 @@
   "budget-rent-or-buy-p6": "e17e8e9b",
   "gun-first-gun-p7": "3db6839f",
   "gun-first-gun-kp1": "458400c3",
-  "budget-rent-or-buy-kp2": "0687cf62",
+  "budget-rent-or-buy-kp2": "d6690078",
   "gun-first-gun-kp3": "bfab6a97",
   "gun-first-gun-kp4": "da2a8611",
   "budget-rent-or-buy-kp5": "67166cca",
   "budget-rent-or-buy-dyk": "d70cb485",
   "gun-first-gun-q1": "ef1e0b30",
   "gun-first-gun-q2": "fbbbecc2",
-  "budget-rent-or-buy-q3": "8ddabd0e",
+  "budget-rent-or-buy-q3": "6c406af2",
   "gun-first-gun-q3": "6c69c380",
   "budget-rent-or-buy-q1": "a091196b",
   "budget-rent-or-buy-q2": "766b0851"
@@ -53,7 +53,7 @@
  "phrases": {},
  "key_points": {
   "gun-first-gun-kp1": "Beginnen Sie mit der Leihflinte des Schießstands und einem Trainer; probieren Sie mehrere Modelle, bevor Sie kaufen.",
-  "budget-rent-or-buy-kp2": "Kaufen Sie eine eigene, sobald Sie regelmäßig trainieren und eine Anpassung hatten.",
+  "budget-rent-or-buy-kp2": "Kaufen Sie eine eigene, sobald Sie regelmäßig trainieren und ein Trainer Ihren Anschlag gesehen hat.",
   "gun-first-gun-kp3": "Zwei Schützen derselben Rotte dürfen im Wettkampf nicht dieselbe Flinte teilen.",
   "gun-first-gun-kp4": "Lassen Sie eine gebrauchte Flinte von einem Büchsenmacher prüfen.",
   "budget-rent-or-buy-kp5": "Kaufen Sie nur auf legalem Weg; Lizenzen hängen vom Land ab."
@@ -86,9 +86,9 @@
     "a": "Vor der allerersten Lektion an einem Schießstand",
     "b": "Direkt nach den ersten paar Schüssen",
     "c": "Sobald ein Geschäft eine Verkaufsaktion hat",
-    "d": "Wenn man regelmäßig trainiert und eine Anpassung hatte"
+    "d": "Wenn man regelmäßig trainiert und ein Trainer den Anschlag gesehen hat"
    },
-   "explain": "Erst Erfahrung und eine Anpassung; dann passt die Flinte."
+   "explain": "Erst Erfahrung und der Blick eines Trainers; dann passt die Flinte."
   },
   "gun-first-gun-q3": {
    "q": "Was sollten Sie vor dem Kauf einer gebrauchten {{term:shotgun|Flinte}} tun?",

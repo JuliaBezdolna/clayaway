@@ -1,6 +1,6 @@
 {
   "id": "gear-bags-cases-accessories",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -96,14 +96,14 @@
     {
       "k": "gear-bags-cases-accessories-p3",
       "t": "p",
-      "en": "A {{term:gun-slip|gun slip}} is a light zipped soft case for carrying the gun around the ground and between stands. Some grounds require the gun to be in a slip, or open and unloaded, when you are away from the stand. Rules for carrying a gun: {{lesson:gun-transport-documents}}.",
-      "uk": "{{term:gun-slip|М’який чохол}} — легкий чохол на блискавці, щоб носити рушницю по стенду й між стрілецькими місцями. Деякі стенди вимагають, щоб поза стрілецьким місцем рушниця була в чохлі або відкрита й розряджена. Правила, як носити рушницю: {{lesson:gun-transport-documents}}."
+      "en": "A {{term:gun-slip|gun slip}} is a light zipped soft case for carrying the gun around the ground and between stands. Under FITASC rules a gun is carried open, muzzle up or down; some grounds also require it to be in a slip away from the stand. Rules for carrying a gun: {{lesson:gun-transport-documents}}.",
+      "uk": "{{term:gun-slip|М’який чохол}} — легкий чохол на блискавці, щоб носити рушницю по стенду й між стрілецькими місцями. За правилами FITASC рушницю носять відкритою, стволами вгору чи вниз; деякі стенди ще й вимагають, щоб поза стрілецьким місцем вона була в чохлі. Правила, як носити рушницю: {{lesson:gun-transport-documents}}."
     },
     {
       "k": "gear-bags-cases-accessories-p7",
       "t": "warn",
-      "en": "Never put a loaded gun into a slip. Unload it and check both chambers first.",
-      "uk": "Ніколи не кладіть у чохол заряджену рушницю. Спершу розрядіть її й перевірте обидва {{term:chamber|патронники}}."
+      "en": "Never put a loaded gun into a slip. Unload it and check the chambers first, and the magazine on a semi-automatic.",
+      "uk": "Ніколи не кладіть у чохол заряджену рушницю. Спершу розрядіть її й перевірте {{term:chamber|патронники}}, а в напівавтомата — ще й магазин."
     },
     {
       "k": "gear-bags-cases-accessories-p4",
@@ -270,8 +270,8 @@
     "summary": "e72f31ce",
     "gear-bags-cases-accessories-p1": "13016992",
     "gear-bags-cases-accessories-p2": "fd8b466d",
-    "gear-bags-cases-accessories-p3": "25c8fe51",
-    "gear-bags-cases-accessories-p7": "75bbc591",
+    "gear-bags-cases-accessories-p3": "ead6b52c",
+    "gear-bags-cases-accessories-p7": "20c629aa",
     "gear-bags-cases-accessories-p4": "f0f2918e",
     "gear-bags-cases-accessories-p5": "54beb6df",
     "gear-bags-cases-accessories-p6": "00c2ed42",

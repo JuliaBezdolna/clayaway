@@ -1,6 +1,6 @@
 {
   "id": "interpreter-role",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 1,
@@ -104,8 +104,8 @@
       "core": true,
       "disc": "both",
       "rule_ref": "sporting:ch8-coaching",
-      "en": "A competition is different. In both {{tm:sporting}} and {{tm:compak}}, {{term:coaching|coaching}} a competitor during the competition is forbidden. The shooter gets a {{term:yellow-card|yellow card}}, repeats bring heavier penalties, and the {{term:referee|referee}} sends the person who coached out of the shooting area ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). The referee’s decision is the referee’s alone. Nobody in the {{term:squad|squad}} comments on hits. Open criticism of a ruling counts as an {{term:attempt-to-influence|attempt to influence}} the referee, that is, trying to push the referee towards another decision ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
-      "uk": "На змаганнях усе інакше. {{term:coaching|Підказки}} учасникові під час змагань заборонені і в {{tm:sporting}}, і в {{tm:compak}}. Стрілець отримує {{term:yellow-card|жовту картку}}, за повтори — суворіші санкції, а того, хто підказував, {{term:referee|суддя}} видаляє із зони стрільби ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Рішення ухвалює лише суддя. Ніхто в {{term:squad|групі}} не коментує влучання. Відкрита критика рішення вважається {{term:attempt-to-influence|спробою вплинути}} на суддю, тобто схилити його до іншого рішення ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}})."
+      "en": "A competition is different. In both {{tm:sporting}} and {{tm:compak}}, {{term:coaching|coaching}} a competitor during the competition is forbidden. The shooter gets a {{term:yellow-card|yellow card}}, repeats bring heavier penalties, and the {{term:referee|referee}} sends the person who coached out of the shooting area ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). The referee’s decision is the referee’s alone. Nobody in the {{term:squad|squad}} comments on the referee's rulings. Open criticism of a ruling counts as an {{term:attempt-to-influence|attempt to influence}} the referee, that is, trying to push the referee towards another decision ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+      "uk": "На змаганнях усе інакше. {{term:coaching|Підказки}} учасникові під час змагань заборонені і в {{tm:sporting}}, і в {{tm:compak}}. Стрілець отримує {{term:yellow-card|жовту картку}}, за повтори — суворіші санкції, а того, хто підказував, {{term:referee|суддя}} видаляє із зони стрільби ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Рішення ухвалює лише суддя. Ніхто в {{term:squad|групі}} не коментує рішень судді. Відкрита критика рішення вважається {{term:attempt-to-influence|спробою вплинути}} на суддю, тобто схилити його до іншого рішення ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}})."
     },
     {
       "k": "interpreter-role-p3",
@@ -328,7 +328,7 @@
     "title": "e32c790c",
     "summary": "735494ce",
     "interpreter-role-p1": "63aa3afe",
-    "interpreter-role-p2": "20bf17dd",
+    "interpreter-role-p2": "eca4eff3",
     "interpreter-role-p3": "ffa9d77d",
     "interpreter-role-p4": "05133f45",
     "interpreter-role-p5": "95880a4b",

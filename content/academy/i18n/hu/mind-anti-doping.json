@@ -4,10 +4,10 @@
   "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "db8fb42a",
+    "summary": "eb95dbfb",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5031b8cc",
+    "mind-anti-doping-p2": "c99048ae",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -21,13 +21,13 @@
     "health-alcohol-medication-weather-p2": "23558c46",
     "mind-anti-doping-p12": "8aa6cd7e",
     "mind-anti-doping-n1": "f68a061a",
-    "health-alcohol-medication-weather-kp3": "834632a3",
+    "health-alcohol-medication-weather-kp3": "9efdb351",
     "mind-anti-doping-kp2": "bd1c92a0",
     "mind-anti-doping-kp3": "e18296f0",
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "f7c71a6a",
+    "mind-anti-doping-q1": "0f0187a3",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
@@ -42,7 +42,7 @@
   "body": {
     "health-alcohol-medication-weather-p3": "{{term:championship|Bajnokságokon}} és nagy versenyeken dopping-vizsgálatra is kiválaszthatnak. A nemzetközi szabályok a Világ Doppingellenes Ügynökségtől (WADA) származnak, amely minden évben kiadja az új Tiltólistát.",
     "mind-anti-doping-beta": "A {{term:beta-blocker|béta-blokkolók}} szívgyógyszerek, amelyek lassítják a szívverést, és csökkentik a remegést; példák a propranolol, az atenolol, a biszoprolol és a metoprolol. Vedd figyelembe, hogy {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "A lista a {{tm:sporting}} és a {{tm:compak}} szakágat külön nem nevezi meg: a béta-blokkolókat ott is tiltottnak kezeld. A nemzeti {{term:anti-doping|antidopping}}-ügynökséged nemzeti versenyeken vizsgálhat, és a szervezők alkalmazhatják a WADA listát.",
+    "mind-anti-doping-p2": "A {{tm:sporting}} és a {{tm:compak}} nincs a listán megnevezett lövészeti szakágak között. Óvatosságból ott is kezeld tiltottnak a béta-blokkolókat, és verseny előtt kérdezd meg a szövetségedet, milyen szabályok érvényesek. A nemzeti {{term:anti-doping|antidopping}}-ügynökséged nemzeti versenyeken vizsgálhat, és a szervezők alkalmazhatják a WADA listát.",
     "mind-anti-doping-p3": "A precíziós sportokban tiltottak, mert egy lassabb szív és kevesebb remegés megnyugtathatja a fegyvert.",
     "mind-anti-doping-warn": "Ha egy orvos béta-blokkolót írt fel neked, például vérnyomásra, szívritmusra, migrénre vagy remegésre, ne hagyd el saját döntésedből. Beszélj az orvosoddal és a szövetségeddel jóval a verseny előtt egy engedélyezett alternatíváról vagy egy TUE-ről.",
     "mind-anti-doping-p4": "A {{term:therapeutic-use-exemption|gyógyászati célú mentesség}}, röviden TUE, hivatalos engedély egy tiltott gyógyszer orvosi okból való használatára. Egy recept önmagában nem elég: egy tiltott anyag tiltott marad, ezért előre kell kérelmezned, rendszerint a nemzeti antidopping-ügynöködnél (a szövetséged megmondja, melyiknél).",
@@ -61,7 +61,7 @@
   },
   "phrases": {},
   "key_points": {
-    "health-alcohol-medication-weather-kp3": "A béta-blokkolók mindig tilosak a lövészetben; a koronglövészetben is tiltottként kezeld őket.",
+    "health-alcohol-medication-weather-kp3": "A WADA mindig tiltja a béta-blokkolókat az általa megnevezett lövészeti szakágakban; a koronglövészetben is tiltottként kezeld őket.",
     "mind-anti-doping-kp2": "Egy felírt gyógyszer: ne hagyd el saját döntésedből; kérdezd meg az orvosodat egy alternatíváról vagy egy TUE-ről jóval előre.",
     "mind-anti-doping-kp3": "Ellenőrizz minden gyógyszert a Global DRO-ban a hatóanyag szerint, vagy kérdezd meg a nemzeti antidopping-ügynöködet; minden évben ellenőrizd újra.",
     "health-alcohol-medication-weather-kp2": "Egy gyógyszer álmossá vagy szédültté tesz: kérdezz orvost, és addig ne lőj, amíg ezt érzed.",
@@ -69,13 +69,13 @@
   },
   "quiz": {
     "mind-anti-doping-q1": {
-      "q": "A WADA listája szerint mikor tilosak a béta-blokkolók a lövészetben?",
+      "q": "A WADA listája szerint mikor tilosak a béta-blokkolók a rajta megnevezett lövészeti szakágakban?",
       "options": {
         "a": "Csak a verseny napjain",
         "b": "Csak világ- és Európa-bajnokságokon",
         "c": "Mindig, versenyen és azon kívül is"
       },
-      "explain": "A 2026-os és 2027-es listák a lövészetet mindig tiltottként jelölik. Ezt a koronglövészetben is szabálynak kezeld."
+      "explain": "A 2026-os és 2027-es listák a rajtuk megnevezett lövészeti szakágakban mindig tiltják őket. A koronglövészet nincs köztük, de ott is kezeld ezt szabályként."
     },
     "health-alcohol-medication-weather-q2": {
       "q": "Felírt gyógyszerre van szükséged, és egy bajnokságra mész. Mit tegyél?",
@@ -124,6 +124,6 @@
     }
   },
   "title": "Gyógyszerek és doppingellenes szabályok: béta-blokkolók, TUE, étrend-kiegészítők",
-  "summary": "A WADA listája mindig tiltja a béta-blokkolókat a lövészetben; a {{tm:sporting}} és a {{tm:compak}} szakágban is kezeld őket tiltottként. Hogyan ellenőrizz egy gyógyszert, mikor van szükséged TUE-re, és mit kell tudnod az étrend-kiegészítőkről, a CBD-ről és az alkoholról.",
+  "summary": "A WADA listája mindig tiltja a béta-blokkolókat a rajta megnevezett lövészeti szakágakban; a {{tm:sporting}} és a {{tm:compak}} nincs köztük, de ott is kezeld őket tiltottként. Hogyan ellenőrizz egy gyógyszert, mikor van szükséged TUE-re, és mit kell tudnod az étrend-kiegészítőkről, a CBD-ről és az alkoholról.",
   "did_you_know": "A WADA Tiltólistát minden évben frissítik, és a következő lista rendszerint szeptember körül jelenik meg. Egy gyógyszert, amely az előző szezonban megengedett volt, érdemes újra ellenőrizni."
 }

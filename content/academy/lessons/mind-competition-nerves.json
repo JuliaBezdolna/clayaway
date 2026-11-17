@@ -1,6 +1,6 @@
 {
   "id": "mind-competition-nerves",
-  "rev": 5,
+  "rev": 6,
   "status": "review",
   "plan": "rewrite",
   "level": 2,
@@ -173,8 +173,8 @@
     {
       "k": "mind-competition-nerves-p10",
       "t": "p",
-      "en": "Across many studies, athletes who worried did only slightly worse, while athletes who felt confident did clearly better. Confidence grows from preparation: a routine you trust and targets you have trained. None of these studies is from clay shooting, so most likely this works the same way in {{tm:sporting}} and {{tm:compak}}.",
-      "uk": "У багатьох дослідженнях спортсмени, які тривожилися, виступали лише трохи гірше, а ті, хто почувався впевнено, — помітно краще. Упевненість росте з підготовки: {{term:pre-shot-routine|ритуал}}, якому ви довіряєте, і мішені, які ви натренували. Жодне з цих досліджень не проводили у стендовій стрільбі, тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+      "en": "Across many studies, athletes who worried did only slightly worse, while athletes who felt confident did better. Confidence grows from preparation: a routine you trust and targets you have trained. None of these studies is from clay shooting, but most likely this works the same way in {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "У багатьох дослідженнях спортсмени, які тривожилися, виступали лише трохи гірше, а ті, хто почувався впевнено, — краще. Упевненість росте з підготовки: {{term:pre-shot-routine|ритуал}}, якому ви довіряєте, і мішені, які ви натренували. Жодне з цих досліджень не проводили у стендовій стрільбі, але, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
     },
     {
       "k": "mind-competition-nerves-p11",
@@ -217,8 +217,8 @@
       "k": "mind-competition-nerves-warn",
       "t": "warn",
       "critical": true,
-      "en": "Do not take anything to calm your nerves without a doctor. Under the WADA list, beta-blockers are prohibited at all times in shooting, even on prescription, unless you have a TUE, an official medical exemption. Treat them as prohibited in {{tm:sporting}} and {{tm:compak}} too: see {{lesson:mind-anti-doping}}.",
-      "uk": "Не приймайте нічого від хвилювання без лікаря. За списком WADA бета-блокатори заборонені в будь-який час у стрільбі, навіть за рецептом, якщо у вас немає TUE — офіційного дозволу на медичне використання. Вважайте їх забороненими і в {{tm:sporting}} та {{tm:compak}}: див. {{lesson:mind-anti-doping}}."
+      "en": "Do not take anything to calm your nerves without a doctor. Under the WADA list, beta-blockers are prohibited at all times in the shooting disciplines it names, even on prescription, unless you have a TUE, an official medical exemption. {{tm:sporting}} and {{tm:compak}} are not named, but treat them as prohibited there too: see {{lesson:mind-anti-doping}}.",
+      "uk": "Не приймайте нічого від хвилювання без лікаря. За списком WADA бета-блокатори заборонені в будь-який час у названих у ньому видах стрільби, навіть за рецептом, якщо у вас немає TUE — офіційного дозволу на медичне використання. {{tm:sporting}} і {{tm:compak}} там не названо, але вважайте їх забороненими й тут: див. {{lesson:mind-anti-doping}}."
     }
   ],
   "note": [
@@ -449,14 +449,14 @@
     "mind-competition-nerves-p2": "eb4dd143",
     "mind-competition-nerves-p8": "3f9bfb3c",
     "mind-competition-nerves-p9": "ce215d53",
-    "mind-competition-nerves-p10": "032e340c",
+    "mind-competition-nerves-p10": "055d29b7",
     "mind-competition-nerves-p11": "bc8551c1",
     "mind-competition-nerves-p4": "29ebdf3c",
     "mind-competition-nerves-p5": "80e3fe8e",
     "mind-competition-nerves-p6": "fbacd42d",
     "mind-competition-nerves-p7": "24970c51",
     "mind-competition-nerves-p12": "b47ddcc8",
-    "mind-competition-nerves-warn": "b9745f9d",
+    "mind-competition-nerves-warn": "cdad8275",
     "mind-competition-nerves-n1": "a534c2ce",
     "mind-competition-nerves-kp1": "8b08e4d4",
     "mind-competition-nerves-kp6": "7e97881b",

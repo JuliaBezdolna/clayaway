@@ -1,6 +1,6 @@
 {
   "id": "intro-fitasc-and-organisation",
-  "rev": 2,
+  "rev": 3,
   "status": "ready",
   "plan": "rewrite",
   "level": 2,
@@ -154,8 +154,8 @@
       "k": "sport-fitasc-p3",
       "t": "p",
       "core": true,
-      "en": "At the shooting ground the rules are applied by {{term:referee|referees}}. Each referee holds a certificate from a national federation, and the {{term:chief-referee|chief referee}} needs an international FITASC certificate. At international events, a {{term:jury|jury}} (a small panel of officials) handles {{term:protest|protests}} (formal complaints about a decision), penalties and technical problems.",
-      "uk": "На стрільбищі правила застосовують {{term:referee|судді}}. Кожен суддя має посвідчення національної федерації, а {{term:chief-referee|головний суддя}} — міжнародне посвідчення FITASC. На міжнародних змаганнях {{term:protest|протести|pl}} (офіційні скарги на рішення), покарання й технічні питання розглядає {{term:jury|журі}} — невелика комісія."
+      "en": "At the shooting ground the rules are applied by {{term:referee|referees}}. Each referee holds a certificate from a national federation, and the {{term:chief-referee|chief referee}} needs an international FITASC certificate. At international events, a {{term:jury|jury}} (a panel of FITASC officials and representatives of the competing countries) handles {{term:protest|protests}} (formal complaints about a decision), penalties and technical problems.",
+      "uk": "На стрільбищі правила застосовують {{term:referee|судді}}. Кожен суддя має посвідчення національної федерації, а {{term:chief-referee|головний суддя}} — міжнародне посвідчення FITASC. На міжнародних змаганнях {{term:protest|протести|pl}} (офіційні скарги на рішення), покарання й технічні питання розглядає {{term:jury|журі}} — комісія з представників FITASC і країн-учасниць."
     },
     {
       "k": "intro-fitasc-and-organisation-p5",
@@ -201,7 +201,7 @@
       "en": "Ask the chief referee, not the stand referee.",
       "meaning": {
         "en": "The question is for the senior official of the competition.",
-        "uk": "Питання — до старшого судді змагань, а не до судді на стрілецькому місці."
+        "uk": "Питання — до головного судді змагань, а не до судді на стрілецькому місці."
       },
       "say": {
         "uk": "Запитайте головного суддю, а не суддю на стрілецькому місці."
@@ -468,7 +468,7 @@
     "sport-fitasc-p1": "ce22b2b2",
     "sport-fitasc-p2": "73c5138d",
     "intro-fitasc-and-organisation-p6": "2d88b1bd",
-    "sport-fitasc-p3": "397a2fe7",
+    "sport-fitasc-p3": "6926f10f",
     "intro-fitasc-and-organisation-p5": "8476f6e5",
     "sport-fitasc-p5": "20961f0f",
     "intro-fitasc-and-organisation-n1": "b1934554",

@@ -1,6 +1,6 @@
 {
   "id": "targets-traps",
-  "rev": 3,
+  "rev": 4,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -138,7 +138,7 @@
       "core": true,
       "disc": "both",
       "en": "A voice release has a microphone at the station. Your own voice can trigger it. On such a stand, stay silent while the shooter is ready: whisper between targets or step back.",
-      "uk": "Голосовий запуск має мікрофон на номері. Ваш власний голос теж може запустити мішень. На такому місці мовчіть, коли стрілець готовий: шепочіть між мішенями або відійдіть."
+      "uk": "Для голосового запуску на номері стоїть мікрофон. Ваш власний голос теж може запустити мішень. На такому місці мовчіть, коли стрілець готовий: шепочіть між мішенями або відійдіть."
     },
     {
       "k": "targets-traps-p5",
@@ -212,8 +212,8 @@
       "core": true,
       "en": "The trapper was late on that one — that's a no bird.",
       "meaning": {
-        "en": "The target left more than three seconds after the call.",
-        "uk": "Мішень вилетіла пізніше ніж через три секунди після команди."
+        "en": "The target left more than three seconds after the call or the referee's signal.",
+        "uk": "Мішень вилетіла пізніше ніж через три секунди після команди стрільця чи сигналу судді."
       },
       "say": {
         "uk": "Оператор запізнився — це No Bird."
@@ -371,7 +371,7 @@
     "targets-traps-n2": "dfb58822",
     "targets-traps-ph1": "5b0d7a5c",
     "targets-traps-ph2": "4e6e8b21",
-    "targets-traps-ph3": "0d6b05e9",
+    "targets-traps-ph3": "8a7a3feb",
     "targets-traps-kp1": "5d8f8aa8",
     "targets-traps-kp2": "9837dbae",
     "targets-traps-kp3": "2aaf4d92",

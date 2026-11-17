@@ -1,6 +1,6 @@
 {
   "id": "gun-first-gun",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "rewrite",
   "level": 2,
@@ -168,8 +168,8 @@
     },
     {
       "k": "budget-rent-or-buy-kp2",
-      "en": "Buy your own once you train regularly and have had a fitting.",
-      "uk": "Власну купуйте, коли тренуєтеся регулярно й зробили підгонку."
+      "en": "Buy your own once you train regularly and a coach has seen your mount.",
+      "uk": "Власну купуйте, коли тренуєтеся регулярно й тренер бачив вашу {{term:gun-mount|вкладку}}."
     },
     {
       "k": "gun-first-gun-kp3",
@@ -287,14 +287,14 @@
         },
         {
           "k": "d",
-          "en": "When you train regularly and have had a fitting",
-          "uk": "Коли тренуєтеся регулярно й зробили підгонку"
+          "en": "When you train regularly and a coach has seen your mount",
+          "uk": "Коли тренуєтеся регулярно й тренер бачив вашу вкладку"
         }
       ],
       "correct": "d",
       "explain": {
-        "en": "Experience and a fitting first; then the gun will suit you.",
-        "uk": "Спершу досвід і підгонка, тоді рушниця підійде саме вам."
+        "en": "Experience and a coach's eye first; then the gun will suit you.",
+        "uk": "Спершу досвід і погляд тренера, тоді рушниця підійде саме вам."
       }
     }
   ],
@@ -420,14 +420,14 @@
     "budget-rent-or-buy-p6": "e17e8e9b",
     "gun-first-gun-p7": "3db6839f",
     "gun-first-gun-kp1": "458400c3",
-    "budget-rent-or-buy-kp2": "0687cf62",
+    "budget-rent-or-buy-kp2": "d6690078",
     "gun-first-gun-kp3": "bfab6a97",
     "gun-first-gun-kp4": "da2a8611",
     "budget-rent-or-buy-kp5": "67166cca",
     "budget-rent-or-buy-dyk": "d70cb485",
     "gun-first-gun-q1": "ef1e0b30",
     "gun-first-gun-q2": "fbbbecc2",
-    "budget-rent-or-buy-q3": "8ddabd0e",
+    "budget-rent-or-buy-q3": "6c406af2",
     "gun-first-gun-q3": "6c69c380",
     "budget-rent-or-buy-q1": "a091196b",
     "budget-rent-or-buy-q2": "766b0851"

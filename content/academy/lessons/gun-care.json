@@ -1,6 +1,6 @@
 {
   "id": "gun-care",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -89,8 +89,8 @@
     {
       "k": "gun-care-p1",
       "t": "warn",
-      "en": "Cleaning starts with safety. Make sure the gun is unloaded: open it and look into both {{term:chamber|chambers}}. Move all cartridges away from your work area, so that you cannot put one into the gun by mistake.",
-      "uk": "Чищення починається з безпеки. Переконайтеся, що {{term:shotgun|рушниця}} розряджена: відкрийте її й подивіться в обидва {{term:chamber|патронники}}. Приберіть усі патрони з робочого місця, щоб випадково не вкласти їх у рушницю."
+      "en": "Cleaning starts with safety. Make sure the gun is unloaded: open it and look into both {{term:chamber|chambers}}; on a semi-automatic, lock the action open and check the chamber and the magazine. Move all cartridges away from your work area, so that you cannot put one into the gun by mistake.",
+      "uk": "Чищення починається з безпеки. Переконайтеся, що {{term:shotgun|рушниця}} розряджена: відкрийте її й подивіться в обидва {{term:chamber|патронники}}; у {{term:semi-automatic|напівавтомата}} відкрийте затвор і перевірте патронник і магазин. Приберіть усі патрони з робочого місця, щоб випадково не вкласти їх у рушницю."
     },
     {
       "k": "gun-care-p2",
@@ -206,8 +206,8 @@
       ],
       "correct": "c",
       "explain": {
-        "en": "Safety first: open the gun and check both chambers.",
-        "uk": "Безпека передусім: відкрийте рушницю й перевірте обидва патронники."
+        "en": "Safety first: open the gun and check the chambers (and the magazine on a semi-automatic).",
+        "uk": "Безпека передусім: відкрийте рушницю й перевірте патронники (у напівавтомата — ще й магазин)."
       }
     },
     {
@@ -321,7 +321,7 @@
   "h_uk": {
     "title": "42bc807c",
     "summary": "53ea9070",
-    "gun-care-p1": "e7fec0b7",
+    "gun-care-p1": "f975bcf8",
     "gun-care-p2": "311dadd8",
     "gun-care-p3": "5d55cf61",
     "gun-care-p4": "3cd3a115",
@@ -334,7 +334,7 @@
     "gun-care-kp4": "51137384",
     "gun-care-kp5": "9b69a2ed",
     "gun-care-dyk": "8beaba79",
-    "gun-care-q1": "77aa2722",
+    "gun-care-q1": "fb3bd15b",
     "gun-care-q2": "8bd12cd7",
     "gun-care-q3": "c3f948e6",
     "gun-care-q4": "5fd25464"
