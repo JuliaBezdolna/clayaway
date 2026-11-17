@@ -330,7 +330,7 @@
       "disc": "compak",
       "rule_ref": "compak:ch9-late-squad",
       "en": "In {{tm:compak}} you must report to the referee in good time and confirm that you are there. Besides in line, there is the by-squad format: a {{term:squad|squad}} of {{fact:rules.squad-max-shooters}} shoots the round together, moving from station to station. In this format, a shooter who arrives after the squad's first call of the round gets 25 zeros for that round. An appeal is made in writing to the jury, on the same day.",
-      "uk": "У {{tm:compak}} треба завчасно відзначитися в судді й підтвердити, що ви на місці. Крім формату in line, є формат by squad: {{term:squad|група}}, у якій {{fact:rules.squad-max-shooters}}, проходить раунд разом, переходячи з номера на номер. У цьому форматі стрілець, який прийшов після першої команди групи в раунді, отримує 25 zero за цей раунд. Оскаржити це можна письмово в журі того самого дня."
+      "uk": "У {{tm:compak}} треба завчасно підійти до судді й підтвердити, що ви на місці. Крім формату in line, є формат by squad: {{term:squad|група}}, у якій {{fact:rules.squad-max-shooters}}, проходить раунд разом, переходячи з номера на номер. У цьому форматі стрілець, який прийшов після першої команди групи в раунді, отримує 25 zero за цей раунд. Оскаржити це можна письмово в журі того самого дня."
     },
     {
       "k": "rules-call-and-time-cmp3",
@@ -505,8 +505,8 @@
       "k": "rules-call-and-time-q1",
       "disc": "both",
       "q": {
-        "en": "Within how many seconds of the call must the target be released?",
-        "uk": "Протягом скількох секунд після команди має вилетіти мішень?"
+        "en": "Within how many seconds must the target be released (in {{tm:sporting}} after the referee’s signal, in {{tm:compak}} after the call)?",
+        "uk": "Протягом скількох секунд має вилетіти мішень (у {{tm:sporting}} — після сигналу судді, у {{tm:compak}} — після команди стрільця)?"
       },
       "options": [
         {
@@ -748,7 +748,7 @@
       "k": "compak-gun-and-call-q3",
       "q": {
         "en": "For the second time in the same round, a shooter takes more than 10 seconds to call. The target is a single. Decision?",
-        "uk": "Удруге за той самий раунд стрілець дає команду пізніше ніж за 10 секунд. Мішень одиночна. Рішення?"
+        "uk": "Удруге за той самий раунд стрілець не подає команду протягом 10 секунд. Мішень одиночна. Рішення?"
       },
       "options": [
         {
@@ -851,7 +851,7 @@
     "compak-gun-and-call-kp3": "fb8edeb7",
     "sporting-time-and-lateness-kp4": "7dcffddc",
     "rules-call-and-time-dyk": "5a220225",
-    "rules-call-and-time-q1": "639c4301",
+    "rules-call-and-time-q1": "4f064517",
     "rules-call-and-time-q2": "01fc45fe",
     "rules-call-and-time-q3": "b9e7b314",
     "sporting-time-and-lateness-q1": "e7cea05e",

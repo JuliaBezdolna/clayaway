@@ -1,6 +1,6 @@
 {
   "id": "juniors-safety-supervision",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -128,8 +128,8 @@
     {
       "k": "juniors-safety-supervision-p2",
       "t": "p",
-      "en": "Before the first shot, the child should know the core rules from {{lesson:safety-core-rules}}. The {{term:muzzle|muzzle}} points in a safe direction. The gun stays open when not shooting. Cartridges go in only on the stand, when the coach says so. On “Stop!” ({{term:cease-fire|cease fire}}) the gun is opened and everyone waits.",
-      "uk": "Ще до першого пострілу дитина має знати головні правила з уроку {{lesson:safety-core-rules}}. {{term:muzzle|Дуло}} — завжди в безпечний бік. Рушниця відкрита, коли не стріляєш. Набої — лише на стрілецькому місці й лише за командою тренера. На команду «Стоп!» чи іншу команду {{term:cease-fire|зупинки стрільби}} рушницю відкривають і чекають."
+      "en": "Before the first shot, the child should know the core rules from {{lesson:safety-core-rules}}. The {{term:muzzle|muzzle}} points in a safe direction. The gun stays open when not shooting. Cartridges go in only on the stand, when the coach says so. On “Stop!” ({{term:cease-fire|cease fire}}) the gun is opened and unloaded, and everyone waits.",
+      "uk": "Ще до першого пострілу дитина має знати головні правила з уроку {{lesson:safety-core-rules}}. {{term:muzzle|Дуло}} — завжди в безпечний бік. Рушниця відкрита, коли не стріляєш. Набої — лише на стрілецькому місці й лише за командою тренера. На команду «Стоп!» чи іншу команду {{term:cease-fire|зупинки стрільби}} рушницю відкривають, виймають набої й чекають."
     },
     {
       "k": "juniors-safety-supervision-check",
@@ -350,7 +350,7 @@
     "summary": "7db0d75c",
     "juniors-safety-supervision-p1": "546c3a8b",
     "juniors-safety-supervision-competition": "b6dbcd3a",
-    "juniors-safety-supervision-p2": "f031ce32",
+    "juniors-safety-supervision-p2": "7768ab24",
     "juniors-safety-supervision-check": "c63339ca",
     "juniors-safety-supervision-p3": "2f11a7b1",
     "juniors-safety-supervision-rules": "f51238df",

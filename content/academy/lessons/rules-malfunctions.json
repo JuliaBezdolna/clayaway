@@ -1,6 +1,6 @@
 {
   "id": "rules-malfunctions",
-  "rev": 1,
+  "rev": 2,
   "status": "review",
   "plan": "rewrite",
   "level": 2,
@@ -253,7 +253,7 @@
       "rule_ref": "sporting:ch6-malfunction-first-shot",
       "anchor": "sporting-malfunctions",
       "en": "Your first malfunction in the round, case by case. (1) The first shot fails: you shoot the single or the double again. If you still fired the second shot, that result counts. (2) On a single, the second shot fails: you shoot it again, and on the repeat only a hit with the second shot counts. So miss with the first shot on purpose. (3) Both barrels go off at once at a single, or at the first target of a double: No Bird, nothing is written down, and you shoot again. How each kind of double is repeated is in the rules guide ({{rule:sporting:ch6-malfunction-second-shot}}).",
-      "uk": "Перша несправність у раунді — по черзі. (1) Не спрацював перший постріл: одиночну мішень або {{term:double|дуплет}} стріляєте знову. Якщо ви все ж зробили другий постріл, його результат зараховують. (2) На одиночній не спрацював другий постріл: стріляєте її знову, і на повторі рахується тільки влучання другим пострілом. Тож першим пострілом навмисно промахніться. (3) Обидва стволи вистрілили разом по одиночній або по першій мішені дуплета: No Bird, нічого не записують, стріляєте знову. Як повторюють кожен вид дуплета — у довіднику правил ({{rule:sporting:ch6-malfunction-second-shot}})."
+      "uk": "Перша несправність у раунді — розберімо випадки. (1) Не спрацював перший постріл: одиночну мішень або {{term:double|дуплет}} стріляєте знову. Якщо ви все ж зробили другий постріл, його результат зараховують. (2) На одиночній не спрацював другий постріл: стріляєте її знову, і на повторі рахується тільки влучання другим пострілом. Тож першим пострілом навмисно промахніться. (3) Обидва стволи вистрілили разом по одиночній або по першій мішені дуплета: No Bird, нічого не записують, стріляєте знову. Як повторюють кожен вид дуплета — у довіднику правил ({{rule:sporting:ch6-malfunction-second-shot}})."
     },
     {
       "k": "sporting-malfunctions-p5",
@@ -446,8 +446,8 @@
     },
     {
       "k": "compak-malfunctions-kp1",
-      "en": "Second incident in the same round: no repeat. In {{tm:sporting}} the target is zero. In {{tm:compak}} a second failure of the same kind brings a red card, and targets not shot at are zero.",
-      "uk": "Друга несправність у тому самому раунді — без повтору. У {{tm:sporting}} мішень — zero. У {{tm:compak}} друга несправність того самого типу — червона картка, а мішені, по яких не стріляли, — zero."
+      "en": "Second incident in the same round. In {{tm:sporting}}: no repeat, the target is zero. In {{tm:compak}}, if it is of the same kind: a red card, and targets not shot at are zero.",
+      "uk": "Друга несправність у тому самому раунді. У {{tm:sporting}} — без повтору, мішень zero. У {{tm:compak}}, якщо вона того самого типу, — червона картка, а мішені, по яких не стріляли, — zero."
     },
     {
       "k": "sporting-malfunctions-kp4",
@@ -934,7 +934,7 @@
     "compak-malfunctions-ph4": "8cf9d336",
     "sporting-malfunctions-kp1": "849f2ecd",
     "sporting-malfunctions-kp2": "ebfb6f3d",
-    "compak-malfunctions-kp1": "13690047",
+    "compak-malfunctions-kp1": "334a5b20",
     "sporting-malfunctions-kp4": "103b47fd",
     "rules-malfunctions-kp5": "86bbb46b",
     "safety-malfunction-dyk": "1e8c958c",
