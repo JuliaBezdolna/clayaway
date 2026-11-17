@@ -108,7 +108,7 @@ coach phrases, a key point and an exam question moved there with their translati
 | `brief` | new and rewritten lessons only: `{title?: {en, uk}, points: {en: [], uk: []}}` — what the author must write. Internal. |
 | `body` | list of blocks (section 4). |
 | `note` | `[{k, for: "interpreter"\|"coach"\|"parent", en, uk}]` — side notes ("Для перекладача" is open on the interpreter route). |
-| `phrases` | Stand Talk: `[{k, speaker: "coach"\|"referee"\|"shooter", core, en, meaning: {en, uk}, say: {uk}}]`. `en` is the English phrase as it is said on the stand (never translated; spoken only with a local voice). `say` = how to say it in your language. |
+| `phrases` | Stand Talk: `[{k, speaker: "coach"\|"referee"\|"shooter", core, en, meaning: {en, uk}, say: {uk}}]`. `en` is the English phrase as it is said on the stand (never translated; spoken with the recorded voice `docs/learn/audio/<k>.mp3` when the file exists, one file for all 11 languages, otherwise with the device voice). `say` = how to say it in your language. |
 | `key_points` | "Головне": `[{k, en, uk, checklist?}]`. `checklist: true` puts the point on the printable checklists of the routes. |
 | `did_you_know` | `{k, en, uk}` or null. |
 | `quiz` | exactly 3 questions shown in the lesson: `{k, disc?, q: {en, uk}, options: [{k: "a", term?, en, uk}, …], correct: "<option key>", explain: {en, uk}, rule_ref?}`. The answer is stored by **option key**, never by position; options are shuffled on screen. `term` (glossary id) on an option whose whole text NAMES that term ("Rabbit", "Swing-through", "Zero (lost)"): every language then shows the term label "<English> (<local word>)" made by `docs/shared/terms.js` (owner rule 08.10.2026, §9): the English option text without its article and in the headword's spelling when it is the headword ("The wad" → "Wad (пиж)", "ZERO" → "Zero (промах)", "Going-away" → "Going away (…)"; English pages: the text as written), and the option's translations are not shown. Mark every option of a question that names a term the same way, including those with an article ("A rabbit", "The pick-up point"). Not for numbers ("One" cartridge), colours ("Yellow"), combinations ("One and zero") or "name (1/4)" chokes. Unknown id: error `term-unknown`; English text that is not a name of the term: warning `quiz-term-option`. |
@@ -281,9 +281,9 @@ in block and lesson order, for the Practice games "Зрозумійте / пер
 lesson; the app falls back to the lesson files when the index is missing):
 
 ```
-{lang, rev, phrases: [{k, lesson, block, speaker, en, meaning, say, lang?}]}
+{lang, rev, phrases: [{k, lesson, block, speaker, en, meaning, say, audio?, lang?}]}
 ```
-`meaning`/`say` are plain text in the file's language (`say` is null in en); `lang: "en"` marks a stale critical phrase shown in English.
+`meaning`/`say` are plain text in the file's language (`say` is null in en); `lang: "en"` marks a stale critical phrase shown in English. `audio: 1` = a recorded file `learn/audio/<k>.mp3` exists.
 
 **f) `docs/learn/data/languages.json`** (one file for the site) — where the Academy is published, for the project bar
 (`docs/shared/nav.js`): its "Академія" item opens `/<p>learn/` only in a published language, otherwise `/en/learn/`:
@@ -295,7 +295,7 @@ lesson; the app falls back to the lesson files when the index is missing):
 Rules:
 - All strings are in the file's language. Every `html` string is **already escaped text** in which the build has rendered the
   tokens (`{{term}}`, `{{tm}}`, `{{rule}}`, `{{lesson}}`, `{{fact}}`) as links or text; the app inserts it as is and never builds
-  HTML from raw text. `en` of a phrase is the English stand phrase (spoken only with a local voice).
+  HTML from raw text. `en` of a phrase is the English stand phrase (spoken with the recorded voice when `audio: 1`, otherwise with the device voice).
 - `block` and `section` come from `blocks.json`; `routes` are `routes.json` with titles in the language; `rev` is the master's `rev`
   (the app shows "Урок оновлено" when a reader finished an older `rev`).
 - `status`: `published`, `preview` (noindex, ClayAway), `draft` (not built) or `untranslated` (no ready version in this language: no
