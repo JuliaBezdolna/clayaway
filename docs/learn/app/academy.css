@@ -606,3 +606,10 @@ fieldset.ac-gq .ac-opts{clear:both}
 .ac-lquiet{display:flex;flex-wrap:wrap;gap:6px 10px;margin:14px 0 0;font-size:14px;color:var(--muted)}
 .ac-lquiet a{color:var(--soft)}
 @media (max-width:560px){.ac-ltiles{grid-template-columns:1fr}.ac-ltile.next{order:-1}.ac-ltiles .ac-ltile.next{text-align:left;align-items:flex-start}}
+
+/* ---- Topic page header, wave 2 (17.11.2026): the card of the route header + the routes as a text line ---- */
+.ac-thead .ac-lead{max-width:62ch}
+.ac-troutes{margin:0 0 12px;font-size:14px;color:var(--muted)}
+.ac-troutes a{color:var(--soft)}
+.ac-tmore{border:0;background:none;padding:0;font:inherit;color:#6EE7B7;cursor:pointer;text-decoration:underline dotted;text-underline-offset:3px}
+.ac-thead .ac-racts .ac-btn{max-width:100%;white-space:normal;text-align:left}

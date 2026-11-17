@@ -443,10 +443,16 @@
     const routes = routesSorted().filter(r => required(r).some(x => ids.includes(x)));
     setHead({ title: `${b.title} — ${u("academy_name")}`, desc: b.purpose, index: true, langs: LANGS });
     const games = (b.practice || []).map(gameById).filter(Boolean);
+    /* header card (topic mockup, variant A header, 17.11.2026): as the route header — «Тема», «8 уроків · ~44 хв», the routes as a
+       text line (the first 3, the rest under «ще N»), «Пройдено 1 з 8» + «Продовжити: <the first undone lesson> →» */
+    const nx = [...(b.starters || []), ...ids].find(x => !done(x) && lessonHref(x)), nh = nx && lessonHref(nx);
+    const rlink = r => `<a href="${pageLink(r, `routes/${r.id}/`).url}" data-nav>${esc(r.title)}</a>`;
     return `${langBanner()}${crumbs([home(), { label: u("topics"), url: href("") + "#topics" }, { label: b.title }])}
-    <header class="ac-head"><div class="ac-eyebrow"><span aria-hidden="true">${icon(b.icon)}</span> ${t("topics")}</div><h1 tabindex="-1">${esc(b.title)}</h1><p class="ac-lead">${esc(b.purpose)}</p>
-      <p class="ac-meta">${plural("n_lessons", ids.length)} · ~${mins(blockMinutes(b))} · ${bar(d, ids.length, b.title)} ${d}/${ids.length}</p>
-      ${routes.length ? `<p class="ac-meta">${t("in_routes")}: ${routes.map(r => `<a class="ac-chip" href="${pageLink(r, `routes/${r.id}/`).url}" data-nav>${esc(r.title)}</a>`).join(" ")}</p>` : ""}</header>
+    <header class="ac-head ac-rhead ac-thead"><div class="ac-eyebrow"><span aria-hidden="true">${icon(b.icon)}</span> ${t("topic_word")}</div><h1 tabindex="-1">${esc(b.title)}</h1><p class="ac-lead">${esc(b.purpose)}</p>
+      <p class="ac-rinfo"><span>${plural("n_lessons", ids.length)}</span><span>~${mins(blockMinutes(b))}</span></p>
+      ${routes.length ? `<p class="ac-troutes">${t("in_routes")}: ${routes.slice(0, 3).map(rlink).join(" · ")}${routes.length > 3 ? ` <button type="button" class="ac-tmore" data-act="tmore" aria-expanded="false">${t("n_more", { n: routes.length - 3 })}</button><span hidden>· ${routes.slice(3).map(rlink).join(" · ")}</span>` : ""}</p>` : ""}
+      <div class="ac-rfoot"><p class="ac-rprog">${bar(d, ids.length, b.title)} <span>${t("route_progress", { done: "", total: ids.length }).replace("", `<b>${d}</b>`)}</span></p>
+      <p class="ac-racts">${nx ? `<a class="ac-btn primary" href="${nh.url}"${nh.en ? ' hreflang="en"' : " data-nav"}>${d ? t("continue") : t("start")}: ${esc(L(nx).title)}${nh.en ? " (EN)" : ""} →</a>` : `<span class="ac-btn ac-rcur"><span aria-hidden="true">✓</span> ${t("topic_done")}</span>`}</p></div></header>
     ${discSwitch()}
     <section aria-labelledby="h-start"><h2 id="h-start">★ ${t("start_here")}</h2>${lessonList(b.starters || [], { summary: true })}</section>
     ${b.sections.map(s => `<section id="${esc(s.id)}" aria-labelledby="h-${esc(s.id)}"><h2 id="h-${esc(s.id)}">${esc(s.title)}</h2>${lessonList(s.lessons, { summary: true })}</section>`).join("")}
@@ -1196,6 +1202,7 @@
     if (act === "say") { const p = (VIEW.phr || [])[+v]; if (p) say(p.en, phSrc(p)); return; }
     if (act === "sim") { const sim = VIEW.sims && VIEW.sims[v], host = $("sim-" + v); if (sim && host && window.ClaySims) { b.remove(); ClaySims.mount(host, sim); } return; }
     if (act === "ans") { onAnswer(b.dataset.q, v); return; }
+    if (act === "tmore") { const x = b.nextElementSibling; if (x) { x.hidden = false; const f = x.querySelector("a"); if (f) f.focus(); } b.remove(); return; }
     if (act === "quizagain") { VIEW.ans = {}; VIEW.order = {}; VIEW.lastQ = VIEW.dogAnim = null; rerender(); const q = $("quiz"); if (q) q.scrollIntoView(); return; }
     if (act === "markdone") { finish(LOC.id, 0); rerender(); return; }
     if (act === "examstart") { startExam(v); return; }
