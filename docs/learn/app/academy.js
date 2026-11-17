@@ -531,15 +531,19 @@
     for (const x of D.body || []) if (x.t === "evidence" && x.for) (ev[x.for] = ev[x.for] || []).push(x.level);
     const hero = heroBlock(D.body || []);
     const body = foldRuns((narrow() ? heroUp(D.body || [], hero) : D.body || []).map(x => blockHtml(x, ev, D)));
-    const navLink = (lid, cls, label) => { if (!lid) return ""; const h = lessonHref(lid); if (!h) return "";
-      return `<a class="ac-btn ${cls}" href="${inRoute ? withRoute(h.url, inRoute.id) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>${label}: ${esc(L(lid).title)}${h.en ? " (EN)" : ""}</a>`; };
+    /* End of the lesson (wave 2, 17.11.2026): tiles «← Попередній урок» / «Наступний урок →» with the titles (and the step of the
+       route), then «До маршруту» and «Повідомити про помилку» as a quiet line */
+    const navTile = (lid, cls, k) => { if (!lid) return ""; const h = lessonHref(lid); if (!h) return ""; const n = inRoute ? req.indexOf(lid) : -1;
+      return `<a class="ac-ltile ${cls}" href="${inRoute ? withRoute(h.url, inRoute.id) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>
+        <span class="ac-ltk">${k}</span><span class="ac-ltt">${esc(L(lid).title)}${h.en ? " (EN)" : ""}</span>${n >= 0 ? `<span class="ac-lts">${t("step_of", { n: n + 1, t: req.length })}</span>` : ""}</a>`; };
     /* Key points first (wave 2, lesson variant B, 16.11.2026): the card right under the header, then what comes next */
     const keyPoints = (D.key_points || []).length ? `<section class="ac-kp ac-kp-top" aria-labelledby="h-kp"><h2 id="h-kp">${t("kp_fast")}</h2><ul>${D.key_points.map(k => `<li${k.checklist ? ' class="chk"' : ""}>${k.html}</li>`).join("")}</ul>
       <p class="ac-kp-next">${(D.quiz || []).length ? t("kp_next", { min: `${c.minutes || 4} ${t("min")}`, q: plural("n_questions", D.quiz.length) }) : t("kp_next_noq", { min: `${c.minutes || 4} ${t("min")}` })}</p></section>` : "";
-    const multi = (c.disciplines || []).length > 1, dur = `${c.minutes || 4} ${t("min")}`;
+    const multi = (c.disciplines || []).length > 1, dur = `${c.minutes || 4} ${t("min")}`, strip = !!(inRoute && step >= 0);
+    if (strip) after(() => { const x = document.querySelector(".ac-rstrip"); if (x) x.style.top = $("acTop").offsetHeight + "px"; });
     return `${langBanner()}${crumbs(cr.filter(Boolean), "ac-crumbs-1")}${lc.also ? alsoRoute(lc.also, id) : ""}
-    ${inRoute && step >= 0 ? `<div class="ac-strip"><span>${esc(inRoute.title)} · ${t("step_of", { n: step + 1, t: req.length })}</span>${bar(req.filter(done).length, req.length, inRoute.title)}
-      <span class="ac-strip-nav">${prev && lessonHref(prev) ? `<a href="${withRoute(lessonHref(prev).url, inRoute.id)}" data-nav aria-label="${t("prev_lesson")}">←</a>` : ""}${next && lessonHref(next) ? `<a href="${withRoute(lessonHref(next).url, inRoute.id)}" data-nav aria-label="${t("next_lesson")}">→</a>` : ""}</span></div>` : ""}
+    ${strip ? `<div class="ac-strip ac-rstrip"><a class="ac-rs-l" href="${pageLink(inRoute, `routes/${inRoute.id}/`).url}" data-nav><span aria-hidden="true">🧭</span> ${esc(inRoute.title)} · <b title="${t("step_of", { n: step + 1, t: req.length })}">${step + 1} / ${req.length}</b><span class="ac-sr"> — ${t("step_of", { n: step + 1, t: req.length })}</span></a><span class="ac-rs-t" aria-hidden="true">${esc(c.title)}</span>
+      ${next && lessonHref(next) ? `<a class="ac-rs-next" href="${withRoute(lessonHref(next).url, inRoute.id)}"${lessonHref(next).en ? ' hreflang="en"' : " data-nav"} data-route="${esc(inRoute.id)}" aria-label="${t("next_lesson")}: ${esc(L(next).title)}">${t("next")} →</a>` : ""}<i class="ac-rs-read" aria-hidden="true"><i></i></i></div>` : ""}
     <article class="ac-lesson" lang="${LANG}">
     <header class="ac-head">${c.block === "safety" ? dog("safety", { bubble: SAFE, size: 60, anim: !VIEW.safeDog, cls: "ac-mascot-head" }) : ""}<div class="ac-eyebrow">${b ? `<span aria-hidden="true">${icon(b.icon)}</span> ${esc(b.title)}` : ""}${sec ? " · " + esc(sec.title) : ""}</div>
       <h1 tabindex="-1">${esc(c.title)}</h1>
@@ -564,11 +568,11 @@
     ${(D.sources || []).length ? `<section aria-labelledby="h-src"><h2 id="h-src">${t("sources")}</h2><ul class="ac-src">${D.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="${s.fitasc || /fitasc\.com/i.test(s.url) ? "nofollow noopener noreferrer" : "noopener noreferrer"}">${esc(s.title)} ↗</a></li>`).join("")}</ul></section>` : ""}
     ${D.disclaimer === "medical" || c.disclaimer === "medical" ? `<p class="ac-disclaimer">⚕ ${t("not_medical_advice")}</p>` : ""}
     <section class="ac-quiz" aria-labelledby="h-quiz" id="quiz"><h2 id="h-quiz">${t("quiz")}</h2>${quizHtml(id, D)}</section>
-    <nav class="ac-endnav" aria-label="${t("lesson_nav")}">${navLink(next, "primary", t("next_lesson"))}
-      ${inRoute ? `<a class="ac-btn" href="${pageLink(inRoute, `routes/${inRoute.id}/`).url}" data-nav>${t("to_route")}</a>` : b ? `<a class="ac-btn" href="${pageLink(b, `topics/${b.id}/`).url}" data-nav>${esc(b.title)}</a>` : ""}
-      <a class="ac-btn ac-ghost" href="https://clayarena.com/${CA_PATH[LANG] || "en"}/contacts/" title="${esc(id)}">${t("report_error")}</a></nav>
+    <nav class="ac-endnav" aria-label="${t("lesson_nav")}"><div class="ac-ltiles${prev && next ? "" : " one"}">${navTile(prev, "prev", `← ${t("prev_lesson")}`)}${navTile(next, "next", `${t("next_lesson")} →`)}</div>
+      <p class="ac-lquiet">${inRoute ? `<a href="${pageLink(inRoute, `routes/${inRoute.id}/`).url}" data-nav>${t("to_route")}</a>` : b ? `<a href="${pageLink(b, `topics/${b.id}/`).url}" data-nav>${esc(b.title)}</a>` : ""}<span aria-hidden="true">·</span>
+      <a href="https://clayarena.com/${CA_PATH[LANG] || "en"}/contacts/" title="${esc(id)}">${t("report_error")}</a></p></nav>
     </article>
-    <div class="ac-rbar" aria-hidden="true"><i></i></div>`;
+    ${strip ? "" : '<div class="ac-rbar" aria-hidden="true"><i></i></div>'}`;
   }
   /* Body block → HTML. "html" is already escaped by the build (tokens rendered as links); the app only wraps it. */
   function blockHtml(x, ev, D) {
@@ -678,18 +682,25 @@
       <ul>${list.map(n => `<li>${n.html}</li>`).join("")}</ul></details>`).join("");
   }
   /* Quiz: 3 questions, options shuffled on screen (answer stored by option key, audit R-05), explanation after each answer. */
+  const OPT_LET = () => LANG === "uk" ? "АБВГҐДЕ" : "ABCDEFG"; // letters of the answers (quiz games, lesson quiz)
   function quizHtml(id, D) {
     const qs = D.quiz || [];
     if (!qs.length) return done(id) ? `<p class="ac-ok">✓ ${t("lesson_done")}</p>` : `<p><button type="button" class="ac-btn primary" data-act="markdone">${t("mark_done")}</button></p>`;
     VIEW.order = VIEW.order || {}; VIEW.ans = VIEW.ans || {};
-    const html = qs.map((q, qi) => { const ord = VIEW.order[q.k] = VIEW.order[q.k] || shuffle(q.options.map(o => o.k)), a = VIEW.ans[q.k];
-      return `<fieldset class="ac-q"><legend>${qi + 1}. ${esc(q.q)}</legend><div class="ac-opts">${ord.map(k => { const o = q.options.find(x => x.k === k);
+    const n = qs.length, hist = qs.map(q => VIEW.ans[q.k] == null ? null : VIEW.ans[q.k] === q.correct), nOk = hist.filter(x => x === true).length;
+    const track = cur => `<div class="ac-gtrack" aria-hidden="true">${hist.map((x, i) => `<i class="${x === true ? "ok" : x === false ? "bad" : ""}${i === cur ? " cur" : ""}"></i>`).join("")}</div>`;
+    const top = `<div class="ac-qtop"><span>${plural("n_questions", n)} · ${t("quiz_instant")}</span><span class="ac-gq-ok">${nOk ? t("g_n_right", { n: nOk }) : ""}</span></div>${track(hist.indexOf(null))}`;
+    const html = top + qs.map((q, qi) => { const ord = VIEW.order[q.k] = VIEW.order[q.k] || shuffle(q.options.map(o => o.k)), a = VIEW.ans[q.k];
+      return `<fieldset class="ac-q ac-gq"><legend><span class="ac-gq-head"><span>${t("question")} <b>${qi + 1}</b> ${t("of")} ${n}</span></span><span class="ac-qtext">${esc(q.q)}</span></legend><div class="ac-opts">${ord.map((k, j) => { const o = q.options.find(x => x.k === k);
         const cls = a == null ? "" : k === q.correct ? " right" : k === a ? " wrong" : "";
-        return `<button type="button" class="ac-opt${cls}" data-act="ans" data-q="${esc(q.k)}" data-v="${esc(k)}"${a != null ? ' aria-disabled="true"' : ""} aria-pressed="${a === k}">${esc(o ? o.text : k)}</button>`; }).join("")}</div>
-        <div class="ac-explain ac-explain-q" aria-live="polite">${a != null ? `${VIEW.lastQ === q.k ? dogFor(a === q.correct, { size: 66, anim: VIEW.dogAnim === q.k, cls: "ac-mascot-ex" }) : ""}<b>${a === q.correct ? t("correct") : t("wrong")}</b> ${esc(q.explain || "")}${q.rule_ref ? ` <a href="${esc(rulesUrl(...String(q.rule_ref).split(":")))}">${t("rules_where")} →</a>` : ""}` : ""}</div></fieldset>`; }).join("");
+        return `<button type="button" class="ac-opt${cls}" data-act="ans" data-q="${esc(q.k)}" data-v="${esc(k)}"${a != null ? ' aria-disabled="true"' : ""} aria-pressed="${a === k}"><span class="ac-gl" aria-hidden="true">${OPT_LET()[j] || j + 1}</span><span>${esc(o ? o.text : k)}</span></button>`; }).join("")}</div>
+        <div class="ac-explain ac-explain-q${a != null ? (a === q.correct ? " ac-gfb ok" : " ac-gfb bad") : ""}" aria-live="polite">${a != null ? `${VIEW.lastQ === q.k ? dogFor(a === q.correct, { size: 66, anim: VIEW.dogAnim === q.k, cls: "ac-mascot-ex" }) : ""}<b class="ac-gfb-h">${a === q.correct ? "✓" : "✗"} ${a === q.correct ? t("correct") : t("wrong")}</b> ${esc(q.explain || "")}${q.rule_ref ? ` <a href="${esc(rulesUrl(...String(q.rule_ref).split(":")))}">${t("rules_where")} →</a>` : ""}` : ""}</div></fieldset>`; }).join("");
     const all = qs.every(q => VIEW.ans[q.k] != null), score = qs.filter(q => VIEW.ans[q.k] === q.correct).length;
     if (VIEW.dogAnim) after(() => { VIEW.dogAnim = null; }); // the dog of the last answer moves once (onAnswer), then stays still
-    return html + (all ? `<p class="ac-qres"><b>${t("quiz_score", { n: score, t: qs.length })}</b> <button type="button" class="ac-btn" data-act="quizagain">${t("quiz_again")}</button></p>`
+    const pct = Math.round(score / n * 100), C = 2 * Math.PI * 34;
+    return html + (all ? `<div class="ac-result ac-gend ac-qres${score === n ? " pass" : ""}"><svg class="ac-gring" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34"/><circle class="v${score === n ? "" : " lo"}" cx="40" cy="40" r="34" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${(C * (1 - pct / 100)).toFixed(1)}"/></svg>
+        <div><span class="ac-gend-k">${t("g_result")}</span><div class="ac-score">${t("quiz_score", { n: score, t: n })}</div><p>${t(score === n ? "quiz_res_all" : "quiz_res_some")}</p></div>${track(-1)}</div>
+        <p class="ac-gacts"><button type="button" class="ac-btn" data-act="quizagain">${t("quiz_again")}</button></p>`
       : done(id) ? `<p class="ac-muted">✓ ${t("lesson_done")} · ${t("quiz_best", { n: S.done[id].q, t: qs.length })}</p>` : "");
   }
   function viewUntranslated(c) {
@@ -942,7 +953,7 @@
     const nRight = () => hist.filter(x => x === true).length;
     const paintQ = () => { const h = host.querySelector(".ac-gq-head"); if (!h) return;
       h.querySelector(".ac-gq-ok").textContent = nRight() ? t("g_n_right", { n: nRight() }) : ""; h.nextElementSibling.outerHTML = track(k); };
-    const LET = LANG === "uk" ? "АБВГҐДЕ" : "ABCDEFG";
+    const LET = OPT_LET();
     const draw = () => { const it = items[k]; gameResume(g, k, items.length);
       host.innerHTML = `<div class="ac-q ac-gq"><div class="ac-gq-head"><span>${t("question")} <b>${k + 1}</b> ${t("of")} ${items.length}</span><span class="ac-gq-ok"></span></div>${track(k)}${it.before ? '<div class="ac-qsim"></div>' : ""}<p class="ac-qtext">${it.q}</p>
         <div class="ac-opts">${it.options.map((o, j) => `<button type="button" class="ac-opt" data-j="${j}"><span class="ac-gl" aria-hidden="true">${LET[j] || j + 1}</span><span>${esc(o)}</span></button>`).join("")}</div><div class="ac-explain" aria-live="polite"></div></div>`;
@@ -1201,7 +1212,7 @@
   /* Lesson (wave 2, variant B): a thin bar of how much of the lesson is read, at the top of the screen (the floating "✅ Check
      yourself" button of the mockup was removed at Юлія's request, 16.11.2026) */
   // (scroll events come once per frame anyway; a direct update, no requestAnimationFrame, which a hidden page never runs)
-  const readUpd = () => { const bar = document.querySelector(".ac-rbar i"), art = document.querySelector("article.ac-lesson"); if (!bar || !art) return;
+  const readUpd = () => { const bar = document.querySelector(".ac-rbar i, .ac-rs-read i"), art = document.querySelector("article.ac-lesson"); if (!bar || !art) return;
     const r = art.getBoundingClientRect(), h = r.height - innerHeight; bar.style.transform = `scaleX(${Math.max(0, Math.min(1, -r.top / (h > 0 ? h : 1)))})`; };
   addEventListener("scroll", readUpd, { passive: true }); addEventListener("resize", readUpd);
   document.addEventListener("keydown", langSelKey);

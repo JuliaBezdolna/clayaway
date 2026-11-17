@@ -339,8 +339,6 @@ fieldset.ac-q legend{font-weight:600;font-size:16.5px;padding:0 4px;max-width:10
 .ac-ruleln{display:flex;gap:10px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:9px 12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));font-size:14px;color:var(--soft);text-decoration:none}
 .ac-ruleln:hover{border-color:rgba(52,211,153,.55)}
 .ac-rbadge{flex:none;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6EE7B7;font-size:12px;font-weight:600;line-height:1.5;white-space:nowrap}
-.ac-lesson .ac-endnav{display:grid;gap:8px}
-.ac-lesson .ac-endnav .primary{justify-content:center;text-align:center;min-height:48px}
 .ac-quiz{scroll-margin-top:64px}
 /* «Без інтернету» (docs/shared/offline-pack.js) stands between main#app and the footer: the width and left edge of the page column */
 body>.ca-off{max-width:1008px;margin:28px max(16px,calc((100% - 1008px) / 2)) 8px}
@@ -571,3 +569,40 @@ body>.ca-off{max-width:1008px;margin:28px max(16px,calc((100% - 1008px) / 2)) 8p
 .ac-saved{max-width:none;margin:28px 0 8px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.03);font-size:14.5px;color:var(--soft)}
 .ac-saved a{display:inline-block;margin-left:8px;color:#6EE7B7;font-weight:600;text-decoration:none;white-space:nowrap}
 .ac-saved a:hover{text-decoration:underline}
+
+/* ---- Lesson page, wave 2 (variant B, 17.11.2026): sticky route bar with the reading progress, the quiz as the game cards,
+   tiles «previous / next lesson» at the end ---- */
+.ac-strip.ac-rstrip{position:sticky;top:48px;z-index:15;flex-wrap:nowrap;gap:10px;padding:8px 12px;border-radius:0 0 12px 12px;background:rgba(17,24,39,.96);backdrop-filter:blur(8px);overflow:hidden}
+.ac-rs-l{flex:none;color:var(--soft);text-decoration:none}
+.ac-rs-l b{color:var(--ink)}
+.ac-rs-t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted)}
+.ac-rs-next{flex:none;margin-left:auto;padding:5px 12px;border-radius:8px;background:var(--primary);color:#fff;font-weight:600;text-decoration:none}
+.ac-rs-read{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.08)}
+.ac-rs-read>i{display:block;height:100%;background:linear-gradient(90deg,#34D399,#22D3EE);transform:scaleX(0);transform-origin:left}
+@media (max-width:560px){.ac-rs-t{display:none}}
+.ac-qtop{display:flex;align-items:baseline;gap:4px 10px;font-size:14px;color:var(--muted)}
+.ac-qtop>span:first-child{flex:1;min-width:0}.ac-qtop .ac-gq-ok{white-space:nowrap}
+.ac-quiz>.ac-gtrack{margin:8px 0 4px}
+fieldset.ac-gq{border:1px solid var(--line);margin:12px 0;min-width:0}
+fieldset.ac-gq legend{float:left;width:100%;padding:0;margin:0 0 12px;font-weight:400;font-size:inherit}
+fieldset.ac-gq legend .ac-gq-head{margin-bottom:6px}
+fieldset.ac-gq legend .ac-qtext{display:block;font-weight:600}
+fieldset.ac-gq .ac-opts{clear:both}
+.ac-gq .ac-explain-q.ac-gfb{min-height:0;padding-right:14px}
+.ac-gq .ac-explain-q.ac-gfb .ac-mascot-ex{position:static;float:right;margin:0 0 6px 10px}
+.ac-quiz .ac-gend{margin-top:16px}
+.ac-quiz .ac-gacts{margin:10px 0 0}
+.ac-lesson .ac-endnav{display:block;margin-top:28px}
+.ac-ltiles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ac-ltiles.one{grid-template-columns:1fr}
+.ac-ltile{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));text-decoration:none;color:var(--ink);min-height:84px}
+.ac-ltile:hover{border-color:rgba(52,211,153,.55)}
+.ac-ltile.next{border-color:rgba(52,211,153,.45)}
+.ac-ltiles:not(.one) .ac-ltile.next{text-align:right;align-items:flex-end}
+.ac-ltk{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.ac-ltile.next .ac-ltk{color:#6EE7B7}
+.ac-ltt{font-weight:700;font-size:15.5px;line-height:1.35}
+.ac-lts{font-size:13px;color:var(--muted)}
+.ac-lquiet{display:flex;flex-wrap:wrap;gap:6px 10px;margin:14px 0 0;font-size:14px;color:var(--muted)}
+.ac-lquiet a{color:var(--soft)}
+@media (max-width:560px){.ac-ltiles{grid-template-columns:1fr}.ac-ltile.next{order:-1}.ac-ltiles .ac-ltile.next{text-align:left;align-items:flex-start}}
