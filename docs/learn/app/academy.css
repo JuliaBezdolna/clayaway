@@ -624,3 +624,14 @@ fieldset.ac-gq .ac-opts{clear:both}
 .ac-flash,.ac-result{border-color:var(--line)}
 .ac-note{border-radius:var(--r)}
 .ac-stage details .ac-les,.ac-extras .ac-les,.ac-panel .ac-phrase,.ac-q .ac-opt{background:var(--row);border-radius:10px}
+
+/* ---- Design rule 5 (17.11.2026, variant A of the mockup): two button heights.
+   42 px: every action of a page, green or outline, also in card rows («Скласти →», «Ще раз →», «Відкрити ↗»).
+   36 px: a small action repeated in rows (🔊 Прослухати, ← →, «Далі →» in the route strip), switches (discipline, lists)
+   and the links in the lesson meta row («▶ з анімацією»), so that row stays even.
+   The animation buttons (docs/shared, shared with the Glossary) are not touched. ---- */
+.ac-btn{min-height:42px;justify-content:center;line-height:1.25;box-sizing:border-box}
+.ac-btn.ac-say{min-height:36px;padding:4px 12px}
+.ac-seg button,.ac-rs-next,.ac-discsel,.ac-pills a.ac-chip{display:inline-flex;align-items:center;justify-content:center;min-height:36px;box-sizing:border-box}
+.ac-strip-nav a{width:36px;height:36px}
+.ac-inline select,label>select:not(.ac-discsel select){min-height:36px;box-sizing:border-box}
