@@ -914,11 +914,12 @@ const glossMeta = { description: new Map(), title: new Map(), missing: [] };
     // the other pages load docs/shared/speak.js alone (≈ 0.5 KB) for the button (glossary plan, wave 2: page weight, 05.11.2026).
     // The button (wave 5, 06.11.2026, variant A of design-mockups/term-voice-button.html): a small round speaker icon right of the
     // h1, outside it (the heading text stays the term alone), the same in all 11 languages; its name (aria-label, tooltip) is in the
-    // page language (SAY_UI). Ukrainian pages play the recorded voice when docs/glossary/audio/<id>.mp3 exists (SAY_AUDIO), the
-    // other pages and the terms without a file use the browser voice (docs/shared/speak.js).
+    // page language (SAY_UI). Every language plays the recorded voice when docs/glossary/audio/<id>.mp3 exists (SAY_AUDIO; the
+    // term is English in all 11 languages, one file serves them all, 17.11.2026), the terms without a file use the browser voice
+    // (docs/shared/speak.js).
     const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
     if (gm && !h.includes('class="say"')) {
-      const id = gm[2], term = (GBY[id] || {}).term || id, l = SAY_UI[gm[1] || "uk"] || SAY_UI.en, file = !gm[1] && SAY_AUDIO.has(id);
+      const id = gm[2], term = (GBY[id] || {}).term || id, l = SAY_UI[gm[1] || "uk"] || SAY_UI.en, file = SAY_AUDIO.has(id);
       const btn = `<button class="say" type="button" data-say="${esc(term)}"${file ? ` data-src="${rel}glossary/audio/${id}.mp3"` : ""} aria-label="${l[0]}" title="${file ? `${l[0]} · ${l[1]}` : l[0]}">${SAY_ICON}</button>`;
       h = h.replace(/<h1>([\s\S]*?)<\/h1>/, m => `<div class="th">${m}${btn}</div>`)
         .replace("</head>", `<style>${SAY_CSS}</style>\n</head>`);
