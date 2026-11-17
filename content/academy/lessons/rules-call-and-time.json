@@ -222,7 +222,7 @@
       "rule_ref": "sporting:ch5-call-and-release",
       "anchor": "sporting-time-and-lateness",
       "en": "{{tm:sporting}} keeps a steady rhythm, and several rules protect it. You call, and the referee relays your call to the {{term:trapper|trapper}} (the person who releases the targets) with a sound signal. From that signal, the target has to be in the air {{fact:rules.release-within-3s}}. If it comes later, the referee calls a {{term:no-bird|No Bird}} and the target is thrown again.",
-      "uk": "{{tm:sporting}} тримає рівний ритм, і його захищають кілька правил. Ви подаєте команду, а {{term:referee|суддя}} звуковим сигналом передає її {{term:trapper|операторові машинки}}, тобто людині, яка запускає мішені. Після цього сигналу мішень має бути в повітрі {{fact:rules.release-within-3s}}. Якщо вона вилітає пізніше, суддя оголошує {{term:no-bird|No Bird}}, і мішень запускають знову."
+      "uk": "{{tm:sporting}} тримає рівний ритм, і його захищають кілька правил. Ви подаєте команду, а {{term:referee|суддя}} звуковим сигналом передає її {{term:trapper|операторові машинки}}, тобто людині, яка запускає мішені. Після цього сигналу мішень має бути в повітрі {{fact:rules.release-within-3s}}. Якщо вона вилітає пізніше, суддя оголошує {{term:no-bird|«немає мішені»}}, і мішень запускають знову."
     },
     {
       "k": "compak-gun-and-call-p2",
@@ -232,7 +232,7 @@
       "rule_ref": "compak:ch2-trigger-manual",
       "anchor": "compak-gun-and-call",
       "en": "In {{tm:compak}} a trap can be released by hand, with a remote control or by a {{term:sonopull|sonopull}} (a microphone system that releases the trap when it hears your call). Released by hand, the target must leave 0 to 3 seconds after you call. A sonopull always waits {{fact:rules.sonopull-delay}} after your call, so the timing is the same each time. International events shot {{term:compak-in-line|in line}} (shooters step onto station 1 one by one and move along the line to station 5) use sonopull only. A target that leaves more than 3 seconds late, or one you did not call for, is a No Bird.",
-      "uk": "У {{tm:compak}} мішень запускають вручну, з пульта або {{term:sonopull|сонопулом}} — мікрофонною системою, яка запускає {{term:trap|машинку}}, почувши вашу команду. При ручному запуску мішень має вилетіти через 0–3 секунди після команди. Сонопул завжди спрацьовує через {{fact:rules.sonopull-delay}} після команди, тож затримка щоразу однакова. На міжнародних змаганнях у форматі {{term:compak-in-line|«у лінію»}}, коли стрільці по одному заходять на номер 1 і рухаються лінією до номера 5, використовують лише сонопул. Мішень, що вилетіла більш ніж на 3 секунди пізніше або без вашої команди, — No Bird."
+      "uk": "У {{tm:compak}} мішень запускають вручну, з пульта або {{term:sonopull|акустичною системою запуску}} — мікрофонною системою, яка запускає {{term:trap|метальну машинку}}, почувши вашу команду. При ручному запуску мішень має вилетіти через 0–3 секунди після команди. Сонопул завжди спрацьовує через {{fact:rules.sonopull-delay}} після команди, тож затримка щоразу однакова. На міжнародних змаганнях у форматі {{term:compak-in-line|«у лінію»}}, коли стрільці по одному заходять на номер 1 і рухаються лінією до номера 5, використовують лише сонопул. Мішень, що вилетіла більш ніж на 3 секунди пізніше або без вашої команди, — No Bird."
     },
     {
       "k": "rules-call-and-time-p3",
@@ -297,13 +297,13 @@
       "disc": "compak",
       "rule_ref": "compak:ch21-firing-time",
       "en": "The first time you go over the limit, the referee notes a warning on the {{term:score-sheet|score sheet}}. If it happens again in the same {{term:round|round}}, it is a red card: a single is scored zero, and doubles follow the table in the rules guide ({{rule:compak:ch21-penalty-table}}). When the referee has given a final decision, you must carry on shooting {{fact:rules.compak-resume-after-ruling}}. If you do not, or if you stall on purpose, it counts as refusal to comply, which the jury can sanction.",
-      "uk": "Коли ви вперше перевищуєте ліміт, суддя записує попередження до {{term:score-sheet|протоколу}}. Якщо це повториться в тому самому {{term:round|раунді}}, — червона картка: одиночну мішень зараховують як zero, а дуплети — за таблицею в довіднику правил ({{rule:compak:ch21-penalty-table}}). Коли суддя ухвалив остаточне рішення, ви маєте продовжити стрільбу {{fact:rules.compak-resume-after-ruling}}. Якщо ні — або якщо навмисно тягнете час, — це вважають відмовою виконувати вимоги судді, і журі може за це покарати."
+      "uk": "Коли ви вперше перевищуєте ліміт, суддя записує попередження до {{term:score-sheet|протоколу}}. Якщо це повториться в тій самій {{term:round|серії}}, — червона картка: одиночну мішень зараховують як zero, а дуплети — за таблицею в довіднику правил ({{rule:compak:ch21-penalty-table}}). Коли суддя ухвалив остаточне рішення, ви маєте продовжити стрільбу {{fact:rules.compak-resume-after-ruling}}. Якщо ні — або якщо навмисно тягнете час, — це вважають відмовою виконувати вимоги судді, і журі може за це покарати."
     },
     {
       "k": "rules-call-and-time-p7",
       "t": "tip",
       "en": "Many coaches suggest a short, steady {{term:pre-shot-routine|pre-shot routine}} that fits well inside the limit. For example: step onto the stand, load when the referee allows it, take your ready position, breathe out, then call. More in {{lesson:mind-routine-under-pressure}}.",
-      "uk": "Багато тренерів радять короткий і сталий {{term:pre-shot-routine|передпостріловий ритуал}}, який легко вкладається в ліміт. Наприклад: стати на місце, зарядити рушницю, коли дозволить суддя, стати у {{term:ready-position|вихідне положення}}, видихнути й тоді кликати мішень. Докладніше — {{lesson:mind-routine-under-pressure}}."
+      "uk": "Багато тренерів радять короткий і сталий {{term:pre-shot-routine|передпостріловий ритуал}}, який легко вкладається в ліміт. Наприклад: стати на місце, зарядити рушницю, коли дозволить суддя, стати у {{term:ready-position|положення готовності}}, видихнути й тоді кликати мішень. Докладніше — {{lesson:mind-routine-under-pressure}}."
     },
     {
       "k": "sporting-time-and-lateness-p3",
@@ -486,7 +486,7 @@
     {
       "k": "compak-gun-and-call-kp3",
       "en": "Over the time limit, the first time brings a warning and a repeat brings a red card.",
-      "uk": "Перше перевищення {{term:firing-time|ліміту часу}} — попередження, повторне — червона картка."
+      "uk": "Перше перевищення {{term:firing-time|часу на постріл}} — попередження, повторне — червона картка."
     },
     {
       "k": "sporting-time-and-lateness-kp4",

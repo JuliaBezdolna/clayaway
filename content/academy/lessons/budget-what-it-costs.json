@@ -1,6 +1,6 @@
 {
   "id": "budget-what-it-costs",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -128,13 +128,13 @@
       "t": "p",
       "disc": "both",
       "en": "Cartridges and targets are the main regular cost. A {{term:round|round}} is {{fact:rules.round-targets}}, and each target needs at least one cartridge. Take spares: at a {{term:single-target|single target}} you may fire a second shot, so a round can use more cartridges than it has targets. Targets are paid for separately, per target or per round, depending on the ground.",
-      "uk": "Набої й мішені — головна регулярна витрата. {{term:round|Раунд}} — це {{fact:rules.round-targets}}, і на кожну мішень потрібен щонайменше один набій. Беріть запас: по {{term:single-target|одиночній мішені}} можна зробити другий постріл, тож за раунд може піти більше набоїв, ніж у ньому мішеней. Мішені оплачують окремо — за кожну або за раунд, залежно від стенду."
+      "uk": "Набої й мішені — головна регулярна витрата. {{term:round|Серія}} — це {{fact:rules.round-targets}}, і на кожну мішень потрібен щонайменше один набій. Беріть запас: по {{term:single-target|одиночній мішені}} можна зробити другий постріл, тож за раунд може піти більше набоїв, ніж у ньому мішеней. Мішені оплачують окремо — за кожну або за раунд, залежно від стенду."
     },
     {
       "k": "budget-what-it-costs-p5",
       "t": "p",
       "en": "Protection and clothing: {{term:safety-glasses|safety glasses}}, {{term:earplugs|earplugs}} or ear muffs, and later a {{term:shooting-vest|shooting vest}}, a cap and comfortable shoes. Glasses and hearing protection are needed from the first session; grounds often lend them.",
-      "uk": "Захист і одяг: {{term:safety-glasses|стрілецькі окуляри}}, {{term:earplugs|беруші}} чи навушники, а згодом — {{term:shooting-vest|стрілецький жилет}}, {{term:shooting-cap|кепка}} і зручне взуття. Окуляри й {{term:hearing-protection|захист слуху}} потрібні з першого заняття; на стенді їх часто дають напрокат."
+      "uk": "Захист і одяг: {{term:safety-glasses|захисні окуляри}}, {{term:earplugs|беруші}} чи навушники, а згодом — {{term:shooting-vest|стрілецький жилет}}, {{term:shooting-cap|кепка}} і зручне взуття. Окуляри й {{term:hearing-protection|захист слуху}} потрібні з першого заняття; на стенді їх часто дають напрокат."
     },
     {
       "k": "budget-what-it-costs-p6",
@@ -181,8 +181,8 @@
   ],
   "did_you_know": {
     "k": "budget-what-it-costs-dyk",
-    "en": "Under FITASC rules an international competition is {{fact:basics.international-targets}}, so one such event needs at least as many cartridges, and more with spares.",
-    "uk": "За правилами FITASC міжнародне змагання — це {{fact:basics.international-targets}}, тож на один такий старт потрібно щонайменше стільки ж набоїв, а з запасом — більше."
+    "en": "An international FITASC competition is usually {{fact:basics.international-targets}}, so one such event needs at least as many cartridges, and more with spares.",
+    "uk": "Міжнародне змагання FITASC зазвичай — це {{fact:basics.international-targets}}, тож на один такий старт потрібно щонайменше стільки ж набоїв, а з запасом — більше."
   },
   "quiz": [
     {
@@ -241,7 +241,7 @@
       "correct": "a",
       "explain": {
         "en": "You need one cartridge per target, and you may fire a second shot at a single target, so take spares.",
-        "uk": "Потрібен щонайменше набій на мішень, а по одиночній мішені можна вистрілити двічі, тож беріть запас."
+        "uk": "Потрібен один набій на мішень, а по одиночній мішені можна вистрілити двічі, тож беріть запас."
       }
     },
     {
@@ -321,7 +321,7 @@
     "budget-what-it-costs-kp3": "5d41933f",
     "budget-what-it-costs-kp4": "12a6b93d",
     "budget-what-it-costs-kp5": "72393657",
-    "budget-what-it-costs-dyk": "b748910f",
+    "budget-what-it-costs-dyk": "107b1f70",
     "budget-what-it-costs-q1": "9ffc0377",
     "budget-what-it-costs-q2": "bd2c3eda",
     "budget-what-it-costs-q3": "de60fb84",

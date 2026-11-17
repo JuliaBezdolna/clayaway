@@ -1,6 +1,6 @@
 {
   "id": "safety-stand-etiquette",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "rewrite",
   "level": 2,
@@ -168,7 +168,7 @@
       "k": "safety-stand-etiquette-p3",
       "t": "p",
       "en": "When ready, the shooter gives a {{term:call|call}}, for example “Pull!” or “Ready!”. Do not keep the squad waiting: each discipline has a {{term:firing-time|time limit}}. Details are in {{lesson:rules-call-and-time}}.",
-      "uk": "Коли готові, стрілець подає {{term:call|команду}}, наприклад «Pull!» або «Ready!». Не змушуйте групу чекати: у кожній дисципліні є {{term:firing-time|ліміт часу}}. Докладніше — в уроці {{lesson:rules-call-and-time}}."
+      "uk": "Коли готові, стрілець подає {{term:call|команду}}, наприклад «Pull!» або «Ready!». Не змушуйте групу чекати: у кожній дисципліні обмежено {{term:firing-time|час на постріл}}. Докладніше — в уроці {{lesson:rules-call-and-time}}."
     },
     {
       "k": "safety-stand-etiquette-time",
@@ -216,14 +216,14 @@
       "core": true,
       "disc": "both",
       "en": "If you disturb a shooter, the rules step in. When the referee sees that a shooter was clearly disturbed, the target is declared a {{term:no-bird|No Bird}} (it does not count) and is thrown again. Do not mount the gun and swing it as if at a target ({{term:mock-shooting|mock shooting}}) while a squad member is shooting. In {{tm:sporting}} this is not allowed anywhere at the ground. Only the shooter whose turn it is shoots, and only at his or her own target.",
-      "uk": "Якщо завадити стрільцеві, у дію вступають правила. Коли суддя бачить, що стрільцеві явно завадили, мішень оголошують {{term:no-bird|No Bird}} (вона не зараховується) і запускають знову. Не робіть {{term:gun-mount|вкладку}} й не ведіть рушницю, ніби за мішенню, поки стріляє учасник групи: це {{term:mock-shooting|імітація стрільби}}. У {{tm:sporting}} це заборонено будь-де на стрільбищі. Стріляє лише той, чия черга, і лише по своїй мішені."
+      "uk": "Якщо завадити стрільцеві, у дію вступають правила. Коли суддя бачить, що стрільцеві явно завадили, мішень оголошують {{term:no-bird|«немає мішені»}} (вона не зараховується) і запускають знову. Не робіть {{term:gun-mount|вкладку}} й не ведіть рушницю, ніби за мішенню, поки стріляє учасник групи: це {{term:mock-shooting|імітація стрільби}}. У {{tm:sporting}} це заборонено будь-де на стрільбищі. Стріляє лише той, чия черга, і лише по своїй мішені."
     },
     {
       "k": "safety-stand-etiquette-p2",
       "t": "warn",
       "disc": "both",
-      "en": "Animals sometimes cross the shooting area. Do not aim or shoot at them: both rulebooks forbid it, and in {{tm:sporting}} deliberately shooting at a live animal can lead to expulsion.",
-      "uk": "Інколи через стрілецьку зону пробігають чи пролітають тварини. Не цільтеся в них і не стріляйте: правила обох дисциплін це забороняють, а в {{tm:sporting}} за навмисний постріл у живу тварину можуть виключити зі змагання."
+      "en": "Animals sometimes cross the shooting area. Do not aim or shoot at them: both rulebooks forbid it, and in both deliberately shooting at a live animal can lead to expulsion.",
+      "uk": "Інколи через стрілецьку зону пробігають чи пролітають тварини. Не цільтеся в них і не стріляйте: правила обох дисциплін це забороняють, і за навмисний постріл у живу тварину можуть виключити зі змагання."
     },
     {
       "k": "safety-stand-etiquette-p5",
@@ -237,7 +237,7 @@
       "t": "p",
       "disc": "both",
       "en": "After shooting, open the gun and take out the {{term:empties|empty cases}}; put them in the bin if there is one. If you shoot a semi-automatic, pick up your ejected cases when you leave the stand. Thanking the referee and the squad is a good habit.",
-      "uk": "Після стрільби відкрийте рушницю й вийміть {{term:empties|порожні гільзи}}; покладіть їх у кошик, якщо він є. Якщо стріляєте з {{term:semi-automatic|напівавтомата}}, підберіть викинуті гільзи, коли сходите зі стрілецького місця. Подякувати судді й групі — добра звичка."
+      "uk": "Після стрільби відкрийте рушницю й вийміть {{term:empties|стріляні гільзи}}; покладіть їх у кошик, якщо він є. Якщо стріляєте з {{term:semi-automatic|напівавтомата}}, підберіть викинуті гільзи, коли сходите зі стрілецького місця. Подякувати судді й групі — добра звичка."
     }
   ],
   "note": [
@@ -549,7 +549,7 @@
     "safety-stand-etiquette-p4": "3de3099e",
     "etiquette-on-the-stand-p2": "5f3adc0a",
     "etiquette-on-the-stand-p3": "32fd6d5d",
-    "safety-stand-etiquette-p2": "97296e1a",
+    "safety-stand-etiquette-p2": "2896dd9b",
     "safety-stand-etiquette-p5": "f3a54843",
     "safety-stand-etiquette-p6": "fd5d3145",
     "etiquette-on-the-stand-p4": "f79a480d",
