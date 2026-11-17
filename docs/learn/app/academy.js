@@ -252,13 +252,16 @@
      third language posing as that language). */
   function urlInLang(l) { if (LOC.view === "lesson" && !altLangs(L(LOC.id)).includes(l)) { const c = L(LOC.id); return c ? href(`topics/${c.block}/`, l) : href("", l); }
     return href(pathOf(LOC), l); }
+  /* The one line about progress: right under the content of every page (not in the footer, where nobody finds it); on the
+     Progress page itself without the link. */
+  const savedLine = () => `<p class="ac-saved"><span aria-hidden="true">🎓</span> <span>${PERSIST ? t("saved_all") : `<b>${t("progress_not_saved")}</b>`}</span>${LOC.view === "progress" ? "" : ` <a href="${href("progress/")}" data-nav>${t("progress_link")} →</a>`}</p>`;
   function renderFoot() {
     const p = CA_PATH[LANG] || "en", lg = LEGAL[LANG] || LEGAL.en;
     $("acFoot").innerHTML = `<div class="ac-foot-in">
       <p>${t("footer")}</p>
       <p class="ac-legal">© ${new Date().getFullYear()} ClayArena · <a href="https://clayarena.com/${p}/privacy/">${esc(lg[0])}</a> · <a href="https://clayarena.com/${p}/legal/">${esc(lg[1])}</a> · <a href="https://clayarena.com/${p}/contacts/">${esc(lg[2])}</a></p>
       <nav aria-label="${t("language")}"><ul class="ac-langs">${LANGS.map(l => `<li><a href="${urlInLang(l)}" hreflang="${l}" lang="${l}"${l === LANG ? ' aria-current="true"' : ""}>${LANG_NAMES[l]}</a></li>`).join("")}</ul></nav>
-      <p class="ac-saved">${PERSIST ? t("saved_local") : `<b>${t("progress_not_saved")}</b>`} · <a href="${href("progress/")}" data-nav>${t("progress_link")}</a></p></div>`;
+</div>`;
   }
   /* The language the reader prefers (state, old academies, browser), if it differs from this page: one banner, never a redirect. */
   function langBanner() {
@@ -773,8 +776,7 @@
       <p class="ac-prnote">${t("practice_no_rush")}</p></header>
       ${groups.map(([k, list]) => `<section class="ac-ggroup" aria-labelledby="h-${k}"><div class="ac-ggh"><h2 id="h-${k}">${t(k)}</h2>${U[k + "_d"] != null ? `<span>${t(k + "_d")}</span>` : ""}</div><div class="ac-ggrid">${list.map(card).join("")}</div></section>`).join("")}
       <section class="ac-pcard" aria-labelledby="h-rex"><h2 id="h-rex">${t("route_exams")}</h2><p class="ac-exd">${t("exams_d")}</p>
-        ${cur ? `<ul class="ac-exl">${exRow(cur)}</ul>` : ""}${exR.length > 1 ? `<details class="ac-exmore"><summary>${t("exams_more", { n: exR.length - 1 })}</summary><ul class="ac-exl">${exR.filter(r => r !== cur).map(exRow).join("")}</ul></details>` : ""}</section>
-      <p class="ac-prcerts"><span aria-hidden="true">🎓</span> ${t("certs_on_progress", { page: "\u0001" }).replace("\u0001", `<a href="${href("progress/")}" data-nav>${t("progress")}</a>`)}</p>`;
+        ${cur ? `<ul class="ac-exl">${exRow(cur)}</ul>` : ""}${exR.length > 1 ? `<details class="ac-exmore"><summary>${t("exams_more", { n: exR.length - 1 })}</summary><ul class="ac-exl">${exR.filter(r => r !== cur).map(exRow).join("")}</ul></details>` : ""}</section>`;
   }
   function viewGame(id) {
     const g = gameById(id); if (!g) return viewNotFound();
@@ -1112,7 +1114,7 @@
       if (LOC.view === "lesson" && VIEW.data) simsConfig(VIEW.data.terms || []); }
     const html = LOC.view === "home" ? viewHome() : LOC.view === "block" ? viewBlock(LOC.id) : LOC.view === "route" ? viewRoute(LOC.id) : LOC.view === "exam" ? viewExam(LOC.id)
       : LOC.view === "lesson" ? viewLesson(LOC.id) : LOC.view === "practice" ? viewPractice() : LOC.view === "game" ? viewGame(LOC.id) : LOC.view === "progress" ? viewProgress() : viewNotFound();
-    $("app").innerHTML = html; APP_DONE = true; fixLinks($("app"));
+    $("app").innerHTML = html + savedLine(); APP_DONE = true; fixLinks($("app"));
     renderTop(); renderFoot(); document.documentElement.lang = LANG;
     AFTER.forEach(fn => { try { fn(); } catch (e) { console.error(e); } });
     if (LOC.view === "lesson") lessonSideEffects();
