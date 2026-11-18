@@ -31,6 +31,7 @@
     "interpreter": []
   },
   "terms": [
+    "heat-exhaustion",
     "dress-code",
     "stance",
     "layout",
@@ -132,7 +133,7 @@
     {
       "k": "health-alcohol-medication-weather-p5",
       "t": "warn",
-      "en": "Heat: tiredness, dizziness, headache, feeling sick or heavy sweating can be signs of heat exhaustion. Stop shooting, move to a cool, shady place, drink water, cool your skin and tell someone nearby. If there is no improvement within about 30 minutes, or the person becomes confused, call emergency help.",
+      "en": "Heat: tiredness, dizziness, headache, feeling sick or heavy sweating can be signs of {{term:heat-exhaustion|heat exhaustion}}. Stop shooting, move to a cool, shady place, drink water, cool your skin and tell someone nearby. If there is no improvement within about 30 minutes, or the person becomes confused, call emergency help.",
       "uk": "Спека: утома, запаморочення, головний біль, нудота чи сильне потіння можуть бути ознаками {{term:heat-exhaustion|теплового виснаження}}. Припиніть стрільбу, перейдіть у прохолодне затінене місце, пийте воду, охолодіть шкіру й скажіть комусь поруч. Якщо за приблизно 30 хвилин не стає краще або в людини сплутується свідомість, викликайте швидку допомогу."
     },
     {
@@ -393,7 +394,7 @@
     "gear-clothing-and-shoes-p4": "a38ddc0c",
     "women-clothing-community-start-p3": "46a88ebd",
     "health-alcohol-medication-weather-p4": "063da8f9",
-    "health-alcohol-medication-weather-p5": "bdf9ed2c",
+    "health-alcohol-medication-weather-p5": "fc03d558",
     "health-alcohol-medication-weather-p6": "d770ef75",
     "gear-clothing-and-shoes-p6": "4ca581fe",
     "gear-clothing-and-shoes-kp1": "aab844b5",
@@ -412,8 +413,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Glossary: the term heat-exhaustion (moved in with health-alcohol-medication-weather-p5) is in docs/glossary/data/learn_terms.js now: add it to terms and link \"heat exhaustion\" / «теплового виснаження» in health-alcohol-medication-weather-p5 (the English changes, so update the 9 overlays of that paragraph)."
-    ]
+    "tasks": []
   }
 }

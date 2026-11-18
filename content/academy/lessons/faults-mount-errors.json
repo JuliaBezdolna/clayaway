@@ -32,6 +32,7 @@
     ]
   },
   "terms": [
+    "target-line",
     "gun-mount",
     "late-mount",
     "move-mount-shoot",
@@ -181,7 +182,7 @@
       "en": "Mount on the line.",
       "meaning": {
         "en": "The gun should come up already on the target's path.",
-        "uk": "Рушниця має підніматися одразу на лінію польоту мішені."
+        "uk": "Рушниця має підніматися одразу на {{term:target-line|лінію польоту мішені}}."
       },
       "say": {
         "uk": "Вкладайте одразу на лінію мішені."

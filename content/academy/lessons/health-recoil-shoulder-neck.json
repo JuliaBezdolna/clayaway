@@ -34,6 +34,7 @@
     "interpreter": []
   },
   "terms": [
+    "gas-operated",
     "recoil",
     "gun-mount",
     "comb",
@@ -151,7 +152,7 @@
     {
       "k": "women-recoil-management-p5",
       "t": "p",
-      "en": "A gas-operated {{term:semi-automatic|semi-automatic}} uses part of the powder gas to reload, which spreads the push over a longer time. A {{term:recoil-pad|recoil pad}} on the stock and a {{term:shoulder-pad|shoulder pad}} in the vest soften it further.",
+      "en": "A {{term:gas-operated|gas-operated}} {{term:semi-automatic|semi-automatic}} uses part of the powder gas to reload, which spreads the push over a longer time. A {{term:recoil-pad|recoil pad}} on the stock and a {{term:shoulder-pad|shoulder pad}} in the vest soften it further.",
       "uk": "{{term:gas-operated|Газовий напівавтомат}} частину порохових газів використовує на перезаряджання, і поштовх розтягується в часі. Амортизаційний {{term:recoil-pad|потиличник}} на прикладі та {{term:shoulder-pad|вставка для прикладу}} у жилеті додатково пом’якшують його."
     },
     {
@@ -461,7 +462,7 @@
     "women-recoil-management-dyk": "c396f3f1",
     "health-recoil-shoulder-neck-p5": "b056166b",
     "health-recoil-shoulder-neck-heavy-gun": "379d6832",
-    "women-recoil-management-p5": "11aabe25",
+    "women-recoil-management-p5": "26b9813c",
     "health-recoil-shoulder-neck-p6": "5902abe1",
     "women-recoil-management-p6": "d22580cc",
     "health-recoil-shoulder-neck-p7": "18ed3235",
@@ -482,8 +483,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Specialist check (sports doctor or physiotherapist) before review.status can leave \"pending\".",
-      "Glossary: the term gas-operated is in docs/glossary/data/learn_terms.js now: add it to terms and link “gas-operated” in women-recoil-management-p5 (the English changes, so update the 9 overlays of that paragraph). The recoil-pad entry already has this lesson’s old definition."
+      "Specialist check (sports doctor or physiotherapist) before review.status can leave \"pending\"."
     ]
   }
 }

@@ -30,6 +30,7 @@
     "interpreter": []
   },
   "terms": [
+    "travel-fatigue",
     "background",
     "jet-lag",
     "lens-tint",
@@ -107,8 +108,8 @@
     {
       "k": "travel-jet-lag-p2",
       "t": "p",
-      "en": "Tiredness from the journey itself is a different thing. A long trip by car, train or plane brings stiff muscles, short sleep and dry air, even with no time difference. It often eases after rest, while jet lag lasts until the body clock has adjusted.",
-      "uk": "Утома від самої дороги — інша річ. Довга поїздка автомобілем, потягом чи літаком дає затерплі м’язи, короткий сон і сухе повітря навіть без різниці в часі. Вона часто минає після відпочинку, а джетлаг триває, доки внутрішній годинник не підлаштується."
+      "en": "{{term:travel-fatigue|Tiredness from the journey itself}} is a different thing. A long trip by car, train or plane brings stiff muscles, short sleep and dry air, even with no time difference. It often eases after rest, while jet lag lasts until the body clock has adjusted.",
+      "uk": "{{term:travel-fatigue|Утома від самої дороги}} — інша річ. Довга поїздка автомобілем, потягом чи літаком дає затерплі м’язи, короткий сон і сухе повітря навіть без різниці в часі. Вона часто минає після відпочинку, а джетлаг триває, доки внутрішній годинник не підлаштується."
     },
     {
       "k": "travel-jet-lag-p3",
@@ -445,7 +446,7 @@
     "title": "091a3e5a",
     "summary": "806e36d8",
     "travel-jet-lag-p1": "96768561",
-    "travel-jet-lag-p2": "49da9c16",
+    "travel-jet-lag-p2": "d559d99d",
     "travel-jet-lag-p3": "92e7774a",
     "travel-planning-trip-dyk": "1b7f0096",
     "travel-jet-lag-p5": "6e47cc61",
@@ -476,8 +477,7 @@
     "moves_in": [],
     "tasks": [
       "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the doctor (sports medicine) named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
-      "Specialist check of the evidence badges: interventions (light timing p5, shifting sleep before the flight p6, naps, coffee, melatonin p9, easy first days p10, organiser tip) are all \"little\", because the consensus statement (doi 10.1007/s40279-021-01502-0) calls the evidence for jet-lag interventions low quality; descriptions (p1-p3, east harder than west) are \"some\". Confirm or change these levels as one set, not one by one.",
-      "Glossary: the term travel-fatigue is in docs/glossary/data/learn_terms.js now: add it to terms and link \"Tiredness from the journey itself\" / «Утома від самої дороги» in travel-jet-lag-p2 (the English changes, so update the 9 overlays of that paragraph)."
+      "Specialist check of the evidence badges: interventions (light timing p5, shifting sleep before the flight p6, naps, coffee, melatonin p9, easy first days p10, organiser tip) are all \"little\", because the consensus statement (doi 10.1007/s40279-021-01502-0) calls the evidence for jet-lag interventions low quality; descriptions (p1-p3, east harder than west) are \"some\". Confirm or change these levels as one set, not one by one."
     ]
   }
 }

@@ -30,6 +30,7 @@
     "interpreter": []
   },
   "terms": [
+    "target-line",
     "training-diary",
     "pre-shot-routine",
     "self-talk",
@@ -196,7 +197,7 @@
       "en": "Stay on the line.",
       "meaning": {
         "en": "Keep the gun moving along the target's flight line.",
-        "uk": "Веди рушницю вздовж лінії польоту мішені."
+        "uk": "Веди рушницю вздовж {{term:target-line|лінії польоту мішені}}."
       },
       "say": {
         "uk": "Тримай лінію."

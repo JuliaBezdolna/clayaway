@@ -1380,7 +1380,7 @@ export async function buildAcademy(o = {}) {
   const SIM_GAMES = new Set(["lead-lab", "name-the-flight", "referees-call", "term-cards"]); // keep in step with academy.js
   const PAGES = new Map(); // site-relative file → {url, L, kind, html, title, h1, desc, index, alts, lesson, img}
   const footer = L => `<p>${esc(ui[L].footer ? S(L, "footer") : ui[L].disclaimer ? S(L, "disclaimer") : S(L, "footer"))}</p>${legal(L)}`;
-  function shell(pg) { // pg: {L, url, title, desc, index, alts:[{l,url}], ogType, img, ld:[], crumbs:[{name,url}], body, wide, data, kind, lesson}
+  function shell(pg) { pg.desc = fitDesc(pg.desc); // pg: {L, url, title, desc, index, alts:[{l,url}], ogType, img, ld:[], crumbs:[{name,url}], body, wide, data, kind, lesson}
     const rel = fileOf(pg.url), up = upOf(rel), L = pg.L;
     if (L === "uk") for (const k of ["title", "desc", "h1", "ogTitle"]) if (pg[k] != null) pg[k] = ukApos(pg[k]); // ’ (redirect stubs reuse these)
     const alts = pg.alts || [];
@@ -1431,7 +1431,11 @@ ${needSims ? `<script src="${up}shared/sims.min.js" defer></script>
 `;
     PAGES.set(rel, { ...pg, rel, html: L === "uk" ? ukOut(html) : html, robots });
   }
-  const fitTitle = (t, L, ctx) => { const full = ctx ? `${t} · ${ctx} — ${academyName(L)}` : `${t} — ${academyName(L)}`; return full.length <= 65 ? full : (ctx && `${t} — ${academyName(L)}`.length <= 65 ? `${t} — ${academyName(L)}` : `${t} | ClayArena`); };
+  const fitTitle = (t, L, ctx) => { const full = ctx ? `${t} · ${ctx} — ${academyName(L)}` : `${t} — ${academyName(L)}`; return full.length <= 65 ? full : (ctx && `${t} — ${academyName(L)}`.length <= 65 ? `${t} — ${academyName(L)}` : `${t} | ClayArena`.length <= 65 ? `${t} | ClayArena` : t); };
+  /* meta description ≤ 160 (wave 3, 18.11.2026): the whole sentences that fit, else the words that fit + "…" */
+  const fitDesc = s => { s = String(s || "").replace(/\s+/g, " ").trim(); if (s.length <= 160) return s;
+    const cut = s.slice(0, 160); let end = -1; for (const m of cut.matchAll(/[.!?](?=\s|$)/g)) if (m.index + 1 >= 70 && (m.index + 1 < cut.length || /\s/.test(s[160] || ""))) end = m.index + 1;
+    return end > 0 ? s.slice(0, end) : s.slice(0, 157).replace(/\s+\S*$/, "").replace(/[\s,;:·—–-]+$/, "") + "…"; };
   const homeCrumb = L => built.home[L] ? { name: academyName(L), url: U.home(L) } : null;
   // plural forms from ui keys <base>_one|_few|_many|_other (the same keys the app uses), else "<n> <word>"
   const plural = (L, base, n, word) => { let c = "other"; try { c = new Intl.PluralRules(L).select(n); } catch (e) {} const k = `${base}_${c}`;
@@ -1555,7 +1559,7 @@ ${b.glossary_category ? `<p><a href="${esc(BASE + (L === "uk" ? "" : L + "/") + 
 ${extras}
 ${cert}
 ${cl.length && clTitle ? `<section class="st-box" id="checklist"><h2>${esc(tm(clTitle))}</h2><ul>${cl.map(c => `<li>${c.html}</li>`).join("")}</ul><p class="st-small">${esc(S(L, "checklist_print"))}</p></section>` : ""}`;
-    shell({ kind: "route", L, url, title: fitTitle(t, L, S(L, "routes")), h1: t, desc: tm(`${forT} ${nLessons(L, req.length)} · ≈ ${mins(L, minutes)}.`), index: true, alts, ogType: "website", img: ogImg(L, `route-${r.id}`),
+    shell({ kind: "route", L, url, title: fitTitle(t, L, S(L, "routes")), h1: t, desc: tm(`${forT} ${nLessons(L, req.length)} · ≈ ${mins(L, minutes)} · ${r.certificate ? `${S(L, "cert_title")}${SH.cert(L, r) ? ` «${SH.cert(L, r)}»` : ""}` : S(L, "badge_word")}.`), index: true, alts, ogType: "website", img: ogImg(L, `route-${r.id}`),
       ld: [{ "@context": "https://schema.org", "@type": "Course", name: t, description: forT, url, inLanguage: L, isAccessibleForFree: true, provider: ld.org, timeRequired: `PT${minutes}M`,
         ...(r.certificate ? { educationalCredentialAwarded: tm(certTitle) } : {}),
         hasPart: req.filter(id => lessonBuilt(id, L)).map(id => ({ "@type": "LearningResource", name: tm(view(lessons.get(id), L).title), url: U.lesson(L, id) })) }, ld.crumbs(crumbs)].filter(Boolean),
@@ -1573,7 +1577,7 @@ ${cl.length && clTitle ? `<section class="st-box" id="checklist"><h2>${esc(tm(cl
     if (!built.practice[L]) continue;
     const pu = U.practice(L), pt = S(L, "practice"), alts = LANGS.filter(l => built.practice[l]).map(l => ({ l, url: U.practice(l) }));
     const list = games.filter(g => !g.later && (built.game[g.id][L] || g.external));
-    const gameDesc = g => g.legacy && GAME_DESC[g.legacy] ? S(L, GAME_DESC[g.legacy]) : "";
+    const gameDesc = g => g.legacy && GAME_DESC[g.legacy] ? S(L, GAME_DESC[g.legacy]) : ui[L][`game_${g.id.replace(/-/g, "_")}_d`] || ui.en[`game_${g.id.replace(/-/g, "_")}_d`] ? S(L, `game_${g.id.replace(/-/g, "_")}_d`) : "";
     // the rules trainer is part of this Practice (owner decision 07.10.2026): «Тренажер правил», same name as the project bar
     // (docs/shared/nav.js NAMES.trainer = ui "rules_trainer"), no "↗"
     const card = g => g.external ? `<a class="st-card" href="${esc(U.trainer(L))}"><b>${esc(S(L, "rules_trainer"))}</b><span>${esc(S(L, "game_rules_exam_d"))}</span></a>`
@@ -1587,7 +1591,7 @@ ${exams.length ? `<h2>${esc(S(L, "route_exam"))}</h2><ul class="st-chips">${exam
       data: { page: "practice", lang: L } });
     for (const g of games) {
       if (!built.game[g.id][L]) continue;
-      const gu = U.practice(L, g.id), gt = tm(SH.game(L, g)), d = tm(gameDesc(g)) || S(L, "practice_d");
+      const gu = U.practice(L, g.id), gt = tm(SH.game(L, g)), d = tm(gameDesc(g)) ? `${tm(gameDesc(g))} ${S(L, "game_desc_tail")}` : S(L, "practice_d");
       const gc = [homeCrumb(L), { name: pt, url: pu }, { name: gt, url: gu }].filter(Boolean);
       const gb = (g.blocks || []).filter(bid => built.block[bid] && built.block[bid][L]);
       shell({ kind: "game", L, url: gu, title: fitTitle(gt, L, pt), h1: gt, desc: d, index: idx(g.index), alts: LANGS.filter(l => built.game[g.id][l]).map(l => ({ l, url: U.practice(l, g.id) })), ogType: "website", img: ogImg(L, "practice"),

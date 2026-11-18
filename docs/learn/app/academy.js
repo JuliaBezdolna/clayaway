@@ -428,10 +428,16 @@
   const shead = (id, ic, title, count) => `<div class="ac-shead"><span class="ac-sic" aria-hidden="true">${ic}</span><h2 id="${id}">${title}</h2><span class="ac-sline" aria-hidden="true"></span><span class="ac-sn">${esc(count)}</span></div>`;
   const demoNote = () => CAT.test ? `<p class="ac-test">PREVIEW BUILD — draft lessons are shown; not for publishing.</p>` : "";
 
+  /* How well a text matches the query n (wave 3, 18.11.2026): 0 the whole text, 1 a whole word, 2 the text starts with it, 3 a word
+     starts with it, 4 inside a word (uk «чок» inside «гачок»), 9 no match. Lessons and terms are sorted by it, so «Choke (чок)» and
+     «Що таке чок» come before «Trigger (спусковий гачок)». */
+  const matchQ = (s, n) => { s = norm(s).trim(); if (!s || !s.includes(n)) return 9; if (s === n) return 0; const w = s.split(/[^\p{L}\p{N}]+/u);
+    return w.includes(n) || n.includes(" ") && (" " + s + " ").includes(" " + n + " ") ? 1 : s.startsWith(n) ? 2 : w.some(x => x.startsWith(n)) ? 3 : 4; };
   /* Search: lessons from the catalog at once; glossary terms after the glossary data has loaded (on the first search). */
   function searchResults(q) {
     const n = norm(q).trim(); if (n.length < 2) return "";
-    const ls = Object.values(CAT.lessons).filter(c => c.status !== "draft" && (norm(c.title).includes(n) || norm(c.summary).includes(n))).slice(0, 8);
+    const ls = Object.values(CAT.lessons).filter(c => c.status !== "draft" && (norm(c.title).includes(n) || norm(c.summary).includes(n)))
+      .map((c, i) => [c, Math.min(matchQ(c.title, n), 4 + matchQ(c.summary, n)) * 1000 + i]).sort((a, b) => a[1] - b[1]).map(x => x[0]).slice(0, 8); // the title first
     const terms = GLO.ready ? GLO.search(n).slice(0, 6) : [];
     if (!ls.length && !terms.length) { if (!GLO.ready) return `<p class="ac-muted">${t("loading")}</p>`;
       const again = VIEW.qNone; VIEW.qNone = true; // the "think" dog moves only the first time, not on every key press
@@ -943,7 +949,7 @@
     /* Matches the English name, the local name as written (term_local, also when the label shows it once: uk «батю» finds Battue),
        and the search aliases of the language ("alt" in docs/glossary/data/i18n/<lang>.js, e.g. uk «кролик» → rabbit, whose local
        name is «заєць»). Direct matches keep their order (by the position in the label); alias-only matches come last. */
-    search(n) { const rank = x => { if (norm(x.en).includes(n) || norm(x.raw).includes(n)) { const i = norm(x.label).indexOf(n); return i < 0 ? 500 : i; }
+    search(n) { const rank = x => { if (norm(x.en).includes(n) || norm(x.raw).includes(n)) { const q = Math.min(matchQ(x.en, n), matchQ(x.raw, n), matchQ(x.local, n)), i = norm(x.label).indexOf(n); return q * 1000 + (i < 0 ? 500 : i); }
         const o = this.i18n(x.id); return ((o && o.alt) || []).some(a => norm(a).includes(n)) ? 1e6 : null; };
       return Object.keys(this.T).map(id => this.term(id)).filter(Boolean).map(x => [x, rank(x)]).filter(([, r]) => r !== null)
         .sort((a, b) => a[1] - b[1]).map(([x]) => x); } };

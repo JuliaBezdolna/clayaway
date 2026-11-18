@@ -37,6 +37,7 @@
     ]
   },
   "terms": [
+    "derogation",
     "open-ranking",
     "category",
     "junior",
@@ -199,7 +200,7 @@
       "k": "women-lady-category-p3",
       "t": "p",
       "disc": "both",
-      "en": "In special cases a shooter may be allowed to compete in a category other than the one their age gives; this permission is called a derogation. If you think you need one, ask your national federation.",
+      "en": "In special cases a shooter may be allowed to compete in a category other than the one their age gives; this permission is called a {{term:derogation|derogation}}. If you think you need one, ask your national federation.",
       "uk": "В особливих випадках стрільцеві можуть дозволити виступати не в тій категорії, яку визначає його вік; такий дозвіл називають {{term:derogation|дерогацією}}. Якщо вважаєте, що він вам потрібен, запитайте у своїй федерації."
     },
     {
@@ -745,7 +746,7 @@
     "competitions-categories-and-shoot-offs-p1": "8ae48a20",
     "women-lady-category-p1": "f1f2bff7",
     "women-lady-category-p2": "d4535c44",
-    "women-lady-category-p3": "c41490f6",
+    "women-lady-category-p3": "432ca026",
     "referee-categories-p4": "1be91542",
     "competitions-categories-and-shoot-offs-p2": "041fee96",
     "competitions-categories-and-shoot-offs-p3": "fccc86e0",
@@ -783,8 +784,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Glossary: the term 'derogation' (an authorised exception to the age rule of a category) is in docs/glossary/data/learn_terms.js now: add it to terms and link it in women-lady-category-p3 (the English changes, so update the 9 overlays of that paragraph)."
-    ]
+    "tasks": []
   }
 }

@@ -30,6 +30,7 @@
     "interpreter": []
   },
   "terms": [
+    "ladies-cut",
     "shooting-vest",
     "shoulder-pad",
     "jacket-line",
@@ -121,7 +122,7 @@
     {
       "k": "women-clothing-community-start-p1",
       "t": "p",
-      "en": "Vests come in different cuts, including cuts made for women, which allow for the chest and narrower shoulders. When the vest fits, the pad sits exactly where the stock goes and does not get in the way of the mount. In a vest that does not fit, the stock may catch on the fabric or seams.",
+      "en": "Vests come in different cuts, including {{term:ladies-cut|cuts made for women}}, which allow for the chest and narrower shoulders. When the vest fits, the pad sits exactly where the stock goes and does not get in the way of the mount. In a vest that does not fit, the stock may catch on the fabric or seams.",
       "uk": "Жилети бувають різного крою, зокрема {{term:ladies-cut|жіночого крою}}, який враховує форму грудей і вужчі плечі. Коли жилет пасує, наплічник опиняється саме там, де стає приклад, і не заважає вкладці. У жилеті не за розміром приклад може чіплятися за тканину чи шви."
     },
     {
@@ -320,7 +321,7 @@
     "gear-shooting-vest-p3": "ee5354fb",
     "gear-protection-clothes-p3": "6deb8cfc",
     "gear-shooting-vest-p4": "5491dae3",
-    "women-clothing-community-start-p1": "a57f4897",
+    "women-clothing-community-start-p1": "5d5edfa4",
     "gear-shooting-vest-p6": "f7a017d1",
     "gear-shooting-vest-kp1": "b64056c9",
     "women-clothing-community-start-kp1": "2d26989a",
@@ -337,8 +338,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Glossary: the term ladies-cut (moved in with women-clothing-community-start-p1) is in docs/glossary/data/learn_terms.js now: add it to terms and link \"ladies' cut\" / «жіночого крою» in women-clothing-community-start-p1 (the English changes, so update the 9 overlays of that paragraph)."
-    ]
+    "tasks": []
   }
 }

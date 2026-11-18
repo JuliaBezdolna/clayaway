@@ -34,6 +34,7 @@
     "interpreter": []
   },
   "terms": [
+    "spectator-area",
     "hearing-protection",
     "safety-glasses",
     "shooting-cap",
@@ -91,8 +92,8 @@
       "k": "watching-at-the-ground-p1",
       "t": "warn",
       "anchor": "safety-spectators",
-      "en": "Spectators are welcome at many shooting grounds, but people are shooting nearby, so spectators follow safety rules too. Stand only where it is allowed: in the spectator area, usually behind the stand or behind a fence or rope. Do not step in front of the firing line (the line the shooters stand on) or walk where targets fly, even if nobody seems to be shooting.",
-      "uk": "Глядачам раді на багатьох стендах, але поруч стріляють, тож глядачі теж дотримуються правил безпеки. Стійте лише там, де дозволено: у зоні для глядачів, зазвичай позаду стрілецького місця, за огорожею чи мотузкою. Не виходьте вперед за лінію стрільби (лінію, на якій стоять стрільці) і не ходіть там, де летять мішені, навіть якщо здається, що ніхто не стріляє."
+      "en": "Spectators are welcome at many shooting grounds, but people are shooting nearby, so spectators follow safety rules too. Stand only where it is allowed: in the {{term:spectator-area|spectator area}}, usually behind the stand or behind a fence or rope. Do not step in front of the firing line (the line the shooters stand on) or walk where targets fly, even if nobody seems to be shooting.",
+      "uk": "Глядачам раді на багатьох стендах, але поруч стріляють, тож глядачі теж дотримуються правил безпеки. Стійте лише там, де дозволено: у {{term:spectator-area|зоні для глядачів}}, зазвичай позаду стрілецького місця, за огорожею чи мотузкою. Не виходьте вперед за лінію стрільби (лінію, на якій стоять стрільці) і не ходіть там, де летять мішені, навіть якщо здається, що ніхто не стріляє."
     },
     {
       "k": "safety-spectators-p6",
@@ -414,7 +415,7 @@
   "h_uk": {
     "title": "9dbbc500",
     "summary": "4c491094",
-    "watching-at-the-ground-p1": "bb2946ff",
+    "watching-at-the-ground-p1": "d0fa114f",
     "safety-spectators-p6": "fe53c1fe",
     "watching-at-the-ground-p2": "adb9b7ed",
     "safety-spectators-p3": "4f7d3d96",
@@ -443,8 +444,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Glossary: the term spectator-area is in docs/glossary/data/learn_terms.js now: add it to terms and link it in watching-at-the-ground-p1 (the English changes, so update the 9 overlays of that paragraph)."
-    ]
+    "tasks": []
   }
 }

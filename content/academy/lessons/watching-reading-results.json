@@ -35,6 +35,7 @@
     ]
   },
   "terms": [
+    "scoreboard",
     "round",
     "score-sheet",
     "referee",
@@ -161,7 +162,7 @@
       "k": "watching-reading-results-p3",
       "t": "p",
       "disc": "both",
-      "en": "At international events the round scores go to a central scoreboard or an electronic system. Next to each name you usually see the score of each round and the total. So you can see not only who is leading, but also who shoots steadily and who had a bad round.",
+      "en": "At international events the round scores go to a central {{term:scoreboard|scoreboard}} or an electronic system. Next to each name you usually see the score of each round and the total. So you can see not only who is leading, but also who shoots steadily and who had a bad round.",
       "uk": "На міжнародних змаганнях результати раундів зводять на центральне {{term:scoreboard|табло}} або в електронну систему. Біля кожного імені зазвичай видно результат кожного раунду й загальну суму. Тож видно не лише лідера, а й те, хто стріляє рівно, а в кого був невдалий раунд."
     },
     {
@@ -488,7 +489,7 @@
     "referee-scoring-p1": "67cd20f8",
     "watching-reading-results-compak": "20ba60c6",
     "referee-scoring-p2": "9eed775d",
-    "watching-reading-results-p3": "e5bd1066",
+    "watching-reading-results-p3": "59f5108f",
     "watching-reading-results-p4": "bf2a6fc6",
     "watching-reading-results-p5": "7203bf5f",
     "watching-reading-results-p6": "55a141b2",
@@ -514,8 +515,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Glossary: the term 'scoreboard' (results board) is in docs/glossary/data/learn_terms.js now: add it to terms and link “scoreboard” / «табло» in watching-reading-results-p3 (the English changes, so update the 9 overlays of that paragraph)."
-    ]
+    "tasks": []
   }
 }
