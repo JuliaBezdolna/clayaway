@@ -370,7 +370,7 @@ body>.ca-off{max-width:880px;margin:28px max(16px,calc((100% - 880px) / 2)) 8px}
   .ac-toast{transition:opacity .3s}
 }
 @media print{
-  .ca-bar,.ca-hint,.ca-lang,.ca-slot,.ca-float,.ca-float-sp,#acTop,#acFoot,.ac-endnav,.ac-rbar,.ac-banner,.ac-quiz,.ac-btn{display:none!important}
+  .ca-bar,.ca-hint,.ca-lang,.ca-slot,.ca-float,.ca-float-sp,#acTop,#acFoot,.ac-endnav,.ac-rbar,.ac-banner,.ac-quiz,.ac-fix,.ac-btn{display:none!important}
   /* a printed lesson keeps the animation's still picture, heading and caption, not its buttons, tabs, sliders and results */
   .ac-anim .cs-ctl,.ac-anim .cs-tabs,.ac-anim .cs-out:not(.cs-cmp),.ac-anim .cs-words,a.ac-animark{display:none!important}
   .ac-anim{break-inside:avoid}
@@ -617,14 +617,14 @@ fieldset.ac-gq .ac-opts{clear:both}
 .ac-ltile{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));text-decoration:none;color:var(--ink);min-height:84px}
 .ac-ltile:hover{border-color:rgba(52,211,153,.55)}
 .ac-ltile.next{border-color:rgba(52,211,153,.45)}
-.ac-ltiles:not(.one) .ac-ltile.next{text-align:right;align-items:flex-end}
+.ac-ltile.next{text-align:right;align-items:flex-end} /* always on the right (Юлія, пакет А, 18.11.2026) */
 .ac-ltk{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .ac-ltile.next .ac-ltk{color:#6EE7B7}
 .ac-ltt{font-weight:700;font-size:15.5px;line-height:1.35}
 .ac-lts{font-size:13px;color:var(--muted)}
 .ac-lquiet{display:flex;flex-wrap:wrap;gap:6px 10px;margin:14px 0 0;font-size:14px;color:var(--muted)}
 .ac-lquiet a{color:var(--soft)}
-@media (max-width:560px){.ac-ltiles{grid-template-columns:1fr}.ac-ltile.next{order:-1}.ac-ltiles .ac-ltile.next{text-align:left;align-items:flex-start}}
+@media (max-width:560px){.ac-ltiles{grid-template-columns:1fr}.ac-ltile.next{order:-1}}
 
 /* ---- Topic page header, wave 2 (17.11.2026): the card of the route header + the routes as a text line ---- */
 .ac-thead .ac-lead{max-width:none}
@@ -652,3 +652,23 @@ fieldset.ac-gq .ac-opts{clear:both}
 .ac-seg button,.ac-rs-next,.ac-discsel,.ac-pills a.ac-chip{display:inline-flex;align-items:center;justify-content:center;min-height:36px;box-sizing:border-box}
 .ac-strip-nav a{width:36px;height:36px}
 .ac-inline select,label>select:not(.ac-discsel select){min-height:36px;box-sizing:border-box}
+/* «Практика ↔ навчання» (пакет А, 18.11.2026): the card «Закріпіть» under the lesson test and «Повторіть» at the bottom of a game;
+   the practice step inside a route stage */
+.ac-fix{margin:22px 0;padding:16px;border-radius:12px;border:1px solid var(--line);background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05))}
+.ac-fixh{margin-bottom:12px}
+.ac-fixk{display:block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#6EE7B7}
+.ac-fix h2{margin:2px 0 0;font-size:17px}
+.ac-fixr{display:flex;align-items:center;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+.ac-fixh+.ac-fixr{border-top:0;padding-top:0}
+.ac-fixic{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:10px;font-size:22px;background:rgba(16,185,129,.12);border:1px solid rgba(52,211,153,.35)}
+.ac-fixt{flex:1;min-width:0;display:grid;gap:2px}
+.ac-fixt b{font-size:15px;font-weight:600;line-height:1.35}
+.ac-fixd,.ac-fixm{font-size:13px;color:var(--muted);line-height:1.4}
+.ac-fixd{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ac-fixm.on{color:#6EE7B7}
+.ac-fixgo{flex:none}
+.ac-fixf{margin:4px 0 0;padding-top:10px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.ac-fixf a{color:#6EE7B7}
+@media (max-width:560px){.ac-fixr{flex-wrap:wrap}.ac-fixt{flex:1 1 calc(100% - 56px)}.ac-fixgo{margin-left:56px}}
+.ac-prow>.ac-les{border-left:2px solid rgba(52,211,153,.5)}
+.ac-prow .ac-ck{font-size:14px}

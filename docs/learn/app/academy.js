@@ -470,9 +470,15 @@
        an action («Скласти →», «Пройти →»), «🔒 після уроків» or «Виконано» on the right */
     const reqs = [
       { ok: st.lessonsOk, head: u("route_required"), d: st.done, n: st.total },
-      pass ? { ok: st.exam, head: u("route_exam"), need: u("exam_rule", { n: pass.n, p: pass.pass_pct }), exam: true, link: st.lessonsOk || st.exam ? href(`routes/${r.id}/exam/`) : null } : null,
       ...st.practice.map(p => { const x = practiceReqText(p.item), i = x.indexOf(": ");
-        return { ok: p.ok, waiting: p.waiting, head: i > 0 ? x.slice(0, i) : x, need: i > 0 ? x.slice(i + 2) : "", link: practiceReqLink(p.item) }; }) ].filter(Boolean);
+        return { ok: p.ok, waiting: p.waiting, head: i > 0 ? x.slice(0, i) : x, need: i > 0 ? x.slice(i + 2) : "", link: practiceReqLink(p.item) }; }),
+      pass ? { ok: st.exam, head: u("route_exam"), need: u("exam_rule", { n: pass.n, p: pass.pass_pct }), exam: true, link: st.lessonsOk || st.exam ? href(`routes/${r.id}/exam/`) : null } : null ].filter(Boolean);
+    /* a practice item with "stage" + "after" (routes.json) is also a step inside its stage, right after that lesson (пакет А, 18.11.2026) */
+    const pracRow = p => { const g = gameById(p.item.game); if (!g) return ""; const ok = p.ok && !p.waiting, x = practiceReqText(p.item), i = x.indexOf(": ");
+      const link = practiceReqLink(p.item), nav = link && link.startsWith(href(""));
+      return `<li class="ac-prow"><a class="ac-les${ok ? " is-done" : ""}" href="${esc(link || "#")}"${nav ? " data-nav" : ""}><span class="ac-ck" aria-hidden="true">${ok ? "✓" : "🎯"}</span><span class="ac-les-t"><b>${t("route_prac_row", { game: gameTitle(g) })}</b><span class="ac-les-m">${t("prac_trainer")} · ${esc(i > 0 ? x.slice(i + 2) : "")}${ok ? " · " + t("req_done") : ""}</span></span></a></li>`; };
+    const stageList = s => { const ps = st.practice.filter(p => p.item.stage === s.id);
+      return `<ol class="ac-lessons">${s.lessons.map((lid, i) => lessonRow(lid, { n: i + 1, route: r.id }) + ps.filter(p => p.item.after === lid).map(pracRow).join("")).join("")}</ol>`; };
     const step = (x, i) => { const done = x.ok && !x.waiting;
       const act = done ? `<span class="ac-cs-ok">${t("req_done")}</span>`
         : x.link ? `<a class="ac-btn primary ac-cs-go" href="${x.link}"${x.link.startsWith(href("")) ? " data-nav" : ""}>${x.exam ? t("req_take") : t("req_go")} →</a>`
@@ -490,8 +496,8 @@
     <ol class="ac-stages">${r.stages.map((s, i) => { const sd = s.lessons.filter(done).length, all = sd === s.lessons.length;
       return `<li class="ac-stage${all ? " is-done" : ""}" id="stage-${esc(s.id)}"><details${(!all && (i === 0 || r.stages[i - 1].lessons.every(done))) || (nx && s.lessons.includes(nx)) ? " open" : ""}>
         <summary><span class="ac-stage-n" aria-hidden="true">${all ? "✓" : i + 1}</span><span class="ac-stage-t"><b>${t("stage")} ${i + 1}. ${esc(s.title)}</b>
-        <span class="ac-meta">${plural("n_lessons", s.lessons.length)} · ~${mins(s.minutes)} · ${sd}/${s.lessons.length}${all ? " · 🏅 " + esc((badgeById(s.badge) || {}).title || "") : ""}</span></span></summary>
-        ${lessonList(s.lessons, { route: r.id })}</details></li>`; }).join("")}</ol>
+        <span class="ac-meta">${plural("n_lessons", s.lessons.length)}${st.practice.some(p => p.item.stage === s.id) ? " " + t("stage_plus_trainer") : ""} · ~${mins(s.minutes)} · ${sd}/${s.lessons.length}${all ? " · 🏅 " + esc((badgeById(s.badge) || {}).title || "") : ""}</span></span></summary>
+        ${stageList(s)}</details></li>`; }).join("")}</ol>
     ${(r.extras || []).length ? `<details class="ac-extras"><summary><h2>${t("route_extras")}</h2><span class="ac-meta">${plural("n_lessons", r.extras.length)} · ${t("route_extras_d")}</span></summary>${lessonList(r.extras, { route: r.id, summary: true })}</details>` : ""}
     <section class="ac-certbox" id="certificate" aria-labelledby="h-cert"><div class="ac-cs-head"><span class="ac-cs-ic" aria-hidden="true">${r.certificate ? "🎓" : "🏅"}</span><div><span class="ac-eyebrow">${r.certificate ? t("cert_title") : t("badge_word")}</span>
       <h2 id="h-cert">${r.certificate && r.certificate.title ? `«${esc(r.certificate.title)}»` : `${t("route_word")} «${esc(r.title)}»`}</h2></div></div>
@@ -500,6 +506,38 @@
       ${legacy ? `<p class="ac-muted">${t("cert_legacy")}</p>` : ""}
       <details class="ac-means"><summary>${t("cert_means")}</summary><p>${t("cert_means_p")}</p><p><b>${t("cert_disclaimer")}</b>${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p></details></section>
     ${r.checklist ? `<section aria-labelledby="h-chk"><h2 id="h-chk">📋 ${esc(r.checklist.title)}</h2><p class="ac-muted">${t("checklist_d")}</p><button type="button" class="ac-btn" data-act="checklist" data-v="${esc(r.id)}">🖨 ${t("checklist_print")}</button></section>` : ""}`;
+  }
+  /* «Практика ↔ навчання» (пакет А, 18.11.2026). The trainers of a lesson: the games whose topics include the lesson's topic
+     (practice.json "blocks"); the more exact one first (lessons on lead → Lead lab, on targets → Name the flight); at most 2. */
+  function gamesForLesson(c) {
+    const gs = (CAT.practice || []).filter(g => !g.later && (g.blocks || []).includes(c.block));
+    const first = c.section === "lead" ? "lead-lab" : c.block === "targets" || c.section === "flight" ? "name-the-flight" : null;
+    gs.sort((a, b) => first ? (b.id === first) - (a.id === first) : ((b.blocks || [])[0] === c.block) - ((a.blocks || [])[0] === c.block));
+    return gs.slice(0, 2); }
+  /* The card under the lesson test («Закріпіть · Тренажер до цього уроку») and at the bottom of a game («Повторіть · Уроки до цієї гри»):
+     rows with an icon tile, a title, what it is, a quiet line (result / minutes) and one button on the right. */
+  const fixCard = (id, k, h, rows, foot = "") => `<section class="ac-fix" aria-labelledby="${id}"><div class="ac-fixh"><span class="ac-fixk">${k}</span><h2 id="${id}">${h}</h2></div>${rows.join("")}${foot}</section>`;
+  const fixRow = (ic, title, desc, meta, on, btn) => `<div class="ac-fixr"><span class="ac-fixic" aria-hidden="true">${ic}</span><span class="ac-fixt"><b>${title}</b>${desc ? `<span class="ac-fixd">${desc}</span>` : ""}${meta ? `<span class="ac-fixm${on ? " on" : ""}">${meta}</span>` : ""}</span>${btn}</div>`;
+  function lessonGamesHtml(c) {
+    const gs = gamesForLesson(c); if (!gs.length) return "";
+    return fixCard("h-fix", t("fix_k"), t("fix_h"), gs.map(g => { const r = (S.games || {})[g.id], on = !!(r && r.plays);
+      const res = g.external ? t("g_result_ext") : on ? `${t("g_best", { n: r.best_pct ? r.best_pct + " %" : r.best || 0 })} · ${plural("n_plays", r.plays)}` : g.xp === false ? "" : t("g_not_played");
+      const pl = pageLink(g, `practice/${g.id}/`), url = g.external ? extUrl(g) : pl.url, nav = !g.external && !pl.en;
+      const btn = g.external ? `${t("g_open")} ↗` : g.xp === false ? `${t("g_open")} →` : on ? `${t("g_again")} →` : `${t("g_play")} →`;
+      return fixRow(icon(g.id), `${esc(gameTitle(g))}${pl.en && !g.external ? ' <span class="ac-tag" lang="en">EN</span>' : ""}`, esc(gameDesc(g)), res, on,
+        `<a class="ac-btn${on ? "" : " primary"} ac-fixgo" href="${esc(url)}"${nav ? " data-nav" : pl.en ? ' hreflang="en"' : ""} aria-label="${esc(btn.replace(/ [→↗]$/, ""))}: ${esc(gameTitle(g))}">${btn}</a>`); }));
+  }
+  /* The lessons of a game's topics that are not done yet (the starters first), at most 3, and «Усі уроки: <тема> →» */
+  function gameLessonsHtml(g) {
+    const bs = (g.blocks || []).map(blockById).filter(Boolean), ids = []; if (!bs.length) return "";
+    for (const b of bs) for (const id of [...(b.starters || []), ...P.blockLessons(b)]) if (!ids.includes(id) && L(id) && lessonHref(id)) ids.push(id);
+    const pick = ids.filter(id => !done(id)).slice(0, 3);
+    const rows = pick.map(id => { const c = L(id), h = lessonHref(id), b = blockById(c.block);
+      const meta = [`${c.minutes || 4} ${t("min")}`, c.level === 1 ? `★ ${t("start_here")}` : "", b ? esc(b.title) : ""].filter(Boolean).join(" · ");
+      return fixRow(b ? icon(b.icon) : "📘", `${esc(c.title)}${h.en ? ' <span class="ac-tag" lang="en">EN</span>' : ""}`, esc(c.summary || ""), meta, false,
+        `<a class="ac-btn primary ac-fixgo" href="${h.url}"${h.en ? ' hreflang="en"' : " data-nav"} aria-label="${t("g_read")}: ${esc(c.title)}">${t("g_read")} →</a>`); });
+    const foot = `<p class="ac-fixf">${t("rep_all")}: ${bs.map(b => `<a href="${pageLink(b, `topics/${b.id}/`).url}" data-nav>${esc(b.title)} →</a>`).join(" · ")}</p>`;
+    return fixCard("h-rep", t("rep_k"), t("rep_h"), rows, foot);
   }
   function practiceReqText(p) { const g = gameById(p.game), name = g ? gameTitle(g) : p.game;
     if (p.game === "rules-exam") return `${name}: ${u(p.mode === "short" && U.req_rules_short != null ? "req_rules_short" : "req_rules_exam", { n: p.n || 10, p: p.min_pct || 80 })}`;
@@ -575,6 +613,7 @@
     ${(D.sources || []).length ? `<section aria-labelledby="h-src"><h2 id="h-src">${t("sources")}</h2><ul class="ac-src">${D.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="${s.fitasc || /fitasc\.com/i.test(s.url) ? "nofollow noopener noreferrer" : "noopener noreferrer"}">${esc(s.title)} ↗</a></li>`).join("")}</ul></section>` : ""}
     ${D.disclaimer === "medical" || c.disclaimer === "medical" ? `<p class="ac-disclaimer">⚕ ${t("not_medical_advice")}</p>` : ""}
     <section class="ac-quiz" aria-labelledby="h-quiz" id="quiz"><h2 id="h-quiz">${t("quiz")}</h2>${quizHtml(id, D)}</section>
+    ${lessonGamesHtml(c)}
     <nav class="ac-endnav" aria-label="${t("lesson_nav")}"><div class="ac-ltiles${prev && next ? "" : " one"}">${navTile(prev, "prev", `← ${t("prev_lesson")}`)}${navTile(next, "next", `${t("next_lesson")} →`)}</div>
       <p class="ac-lquiet">${inRoute ? `<a href="${pageLink(inRoute, `routes/${inRoute.id}/`).url}" data-nav>${t("to_route")}</a>` : b ? `<a href="${pageLink(b, `topics/${b.id}/`).url}" data-nav>${esc(b.title)}</a>` : ""}<span aria-hidden="true">·</span>
       <a href="https://clayarena.com/${CA_PATH[LANG] || "en"}/contacts/" title="${esc(id)}">${t("report_error")}</a></p></nav>
@@ -805,7 +844,7 @@
     if (g.external) return `${head}<p><a class="ac-btn primary" href="${esc(extUrl(g))}">🎯 ${esc(gameTitle(g))} →</a></p>${trainerStatus()}`;
     if (g.later) return `${head}<p class="ac-note">${t("practice_soon")}</p>`;
     after(() => { if (!GAMES[id]) return; if (!VIEW.statGame) { VIEW.statGame = 1; stat("game_start", id); } gameStart(g); GAMES[id]($("acGame"), g); });
-    return `${head}<div id="acGame" class="ac-game-host"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
+    return `${head}<div id="acGame" class="ac-game-host"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>${gameLessonsHtml(g)}`;
   }
   function trainerStatus() { const tr = trainer(); if (!tr || !tr.stats) return "";
     return `<ul class="ac-reqs">${["sporting", "compak"].map(d => { const s = tr.stats[d]; return s ? `<li class="${P.trainerPass(tr, d) ? "ok" : ""}"><span aria-hidden="true">${P.trainerPass(tr, d) ? "✓" : "○"}</span> ${discName(d)}: ${t("trainer_best", { p: s.best || 0 })}${s.short_best != null && U.trainer_short_best != null ? " · " + t("trainer_short_best", { p: s.short_best }) : ""}</li>` : ""; }).join("")}</ul>`; }
