@@ -49,7 +49,8 @@ main#app[aria-busy="true"]{opacity:.6}
 /* home hero: a card as in the Glossary and the Rules (12 px, line white/10, gradient) with the search in it
    (wave 2 of the Academy plan, 16.11.2026: element of variant A of design-mockups/academy-home.html) */
 .ac-hero{padding:18px;border-radius:12px;background:radial-gradient(120% 140% at 0% 0%,rgba(6,78,59,.55),transparent 60%),var(--surface2);border:1px solid var(--line);margin-bottom:18px} /* the green glow of the first version (Юлія, 16.11.2026) */
-.ac-hero h1{font-size:26px;margin:4px 0 8px}
+.ac-hero h1{font-size:40px;line-height:1.1;letter-spacing:-.01em;margin:4px 0 10px} /* as the Rules and Glossary home (40–42 px; Юлія, 18.11.2026) */
+@media (max-width:760px){.ac-hero h1{font-size:28px}}
 .ac-hero p{color:var(--soft);font-size:15.5px;margin:0}
 .ac-hero .ac-search{margin-top:16px}
 .ac-qwrap{position:relative;display:block}
@@ -672,3 +673,10 @@ fieldset.ac-gq .ac-opts{clear:both}
 @media (max-width:560px){.ac-fixr{flex-wrap:wrap}.ac-fixt{flex:1 1 calc(100% - 56px)}.ac-fixgo{margin-left:56px}}
 .ac-prow>.ac-les{border-left:2px solid rgba(52,211,153,.5)}
 .ac-prow .ac-ck{font-size:14px}
+/* «Вперше тут?» on the home (пакет Б, 18.11.2026): the grey card .ac-fix with the text and two buttons */
+.ac-start{margin:0 0 18px}
+.ac-startp{margin:0;color:var(--soft);line-height:1.5}
+.ac-startacts{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 0}
+@media (max-width:560px){.ac-startacts .ac-btn{width:100%;justify-content:center}}
+/* the next lesson is in another topic: «Наступна тема: … →» */
+.ac-ltile.is-topic .ac-ltk{color:#FCD34D}

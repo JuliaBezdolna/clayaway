@@ -404,6 +404,11 @@
       else cont = `<a class="ac-continue" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav><span class="ac-eyebrow">${esc(r.title)}</span><b>${t("route_complete_go")}</b></a>`;
     } else if (anyDone && S.last && L(S.last)) { const nx = nextInBlocks(S.last), id = nx && !done(nx) ? nx : S.last, h = lessonHref(id);
       if (h) cont = `<a class="ac-continue" href="${h.url}"${h.en ? "" : " data-nav"}><span class="ac-eyebrow">${t("continue")}</span><b>${t("continue_last", { lesson: L(id).title })}</b></a>`; }
+    /* «Вперше тут?» (пакет Б, 18.11.2026, card A in grey): one way in for a new visitor instead of 7 routes + 13 topics + 8 trainers */
+    if (!r && !anyDone) { const r0 = routesSorted()[0], f = r0 && required(r0)[0], c0 = f && L(f), h0 = f && lessonHref(f);
+      if (c0 && h0) cont = `<section class="ac-fix ac-start" aria-labelledby="h-start1"><div class="ac-fixh"><span class="ac-fixk">${t("start_k")}</span><h2 id="h-start1">${t("start_h", { route: r0.title })}</h2></div>
+        <p class="ac-startp">${esc(r0.for)} ${plural("n_lessons", required(r0).length)} · ~${mins((r0.totals && r0.totals.minutes) || 0)} · <span aria-hidden="true">${r0.certificate ? "🎓" : "🏅"}</span> ${r0.certificate ? t("cert_title") : t("badge_word")}${r0.certificate && r0.certificate.title ? ` «${esc(r0.certificate.title)}»` : ""}. ${t("start_first", { lesson: c0.title, min: `${c0.minutes || 4} ${u("min")}` }).replace(/\.\.$/, ".")}</p>
+        <p class="ac-startacts"><a class="ac-btn primary" href="${withRoute(h0.url, r0.id)}"${h0.en ? ' hreflang="en"' : " data-nav"} data-route="${esc(r0.id)}">${t("start")}: ${esc(c0.title)} →</a><a class="ac-btn" href="${href("")}#h-who">${t("start_other")} ↓</a></p></section>`; }
     const prim = routesSorted().filter(x => x.primary), more = routesSorted().filter(x => !x.primary), games = (CAT.practice || []).filter(g => !g.later);
     setHead({ title: u("home_title"), desc: u("home_desc"), index: true, langs: LANGS });
     return `${langBanner()}${demoNote()}
@@ -454,7 +459,7 @@
       <div class="ac-rfoot"><p class="ac-rprog">${bar(d, ids.length, b.title)} <span>${t("route_progress", { done: "", total: ids.length }).replace("", `<b>${d}</b>`)}</span></p>
       <p class="ac-racts">${nx ? `<a class="ac-btn primary" href="${nh.url}"${nh.en ? ' hreflang="en"' : " data-nav"}>${d ? t("continue") : t("start")}: ${esc(L(nx).title)}${nh.en ? " (EN)" : ""} →</a>` : `<span class="ac-btn ac-rcur"><span aria-hidden="true">✓</span> ${t("topic_done")}</span>`}</p></div></header>
     ${discSwitch()}
-    <section aria-labelledby="h-start"><h2 id="h-start">★ ${t("start_here")}</h2>${lessonList(b.starters || [], { summary: true })}</section>
+    ${(b.starters || []).length ? `<section aria-labelledby="h-start"><h2 id="h-start">★ ${t("start_here")}</h2>${lessonList(b.starters, { summary: true })}</section>` : ""}
     ${b.sections.map(s => `<section id="${esc(s.id)}" aria-labelledby="h-${esc(s.id)}"><h2 id="h-${esc(s.id)}">${esc(s.title)}</h2>${lessonList(s.lessons, { summary: true })}</section>`).join("")}
     ${games.length ? `<section aria-labelledby="h-bg"><h2 id="h-bg">${t("block_games")}</h2><div class="ac-grid ac-grid-games">${games.map(g => gameCard(g)).join("")}</div></section>` : ""}
     ${b.glossary_category ? `<p><a href="${SITE}${pre(LANG)}glossary/#${esc(b.glossary_category)}">${t("block_glossary")} →</a></p>` : ""}`;
@@ -579,8 +584,8 @@
     /* End of the lesson (wave 2, 17.11.2026): tiles «← Попередній урок» / «Наступний урок →» with the titles (and the step of the
        route), then «До маршруту» and «Повідомити про помилку» as a quiet line */
     const navTile = (lid, cls, k) => { if (!lid) return ""; const h = lessonHref(lid); if (!h) return ""; const n = inRoute ? req.indexOf(lid) : -1;
-      return `<a class="ac-ltile ${cls}" href="${inRoute ? withRoute(h.url, inRoute.id) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>
-        <span class="ac-ltk">${k}</span><span class="ac-ltt">${esc(L(lid).title)}${h.en ? " (EN)" : ""}</span>${n >= 0 ? `<span class="ac-lts">${t("step_of", { n: n + 1, t: req.length })}</span>` : ""}</a>`; };
+      return `<a class="ac-ltile ${cls}${!inRoute && cls === "next" && L(lid).block !== c.block ? " is-topic" : ""}" href="${inRoute ? withRoute(h.url, inRoute.id) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>
+        <span class="ac-ltk">${!inRoute && cls === "next" && L(lid).block !== c.block && blockById(L(lid).block) ? t("next_topic", { topic: blockById(L(lid).block).title }) : k}</span><span class="ac-ltt">${esc(L(lid).title)}${h.en ? " (EN)" : ""}</span>${n >= 0 ? `<span class="ac-lts">${t("step_of", { n: n + 1, t: req.length })}</span>` : ""}</a>`; };
     /* Key points first (wave 2, lesson variant B, 16.11.2026): the card right under the header, then what comes next */
     const keyPoints = (D.key_points || []).length ? `<section class="ac-kp ac-kp-top" aria-labelledby="h-kp"><h2 id="h-kp">${t("kp_fast")}</h2><ul>${D.key_points.map(k => `<li${k.checklist ? ' class="chk"' : ""}>${k.html}</li>`).join("")}</ul>
       <p class="ac-kp-next">${(D.quiz || []).length ? t("kp_next", { min: `${c.minutes || 4} ${t("min")}`, q: plural("n_questions", D.quiz.length) }) : t("kp_next_noq", { min: `${c.minutes || 4} ${t("min")}` })}</p></section>` : "";
