@@ -680,7 +680,7 @@
   }
   function phraseHtml(p, i) {
     return `<div class="ac-phrase"><div class="ac-phrase-h"><span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span>
-      <q lang="en">${esc(p.en)}</q>${canSay(p) ? `<button type="button" class="ac-btn ac-say" data-act="say" data-v="${i}" aria-label="${t("listen")}: ${esc(p.en)}">🔊 ${t("listen")}</button>` : ""}</div>
+      <q lang="en">${esc(p.en)}</q>${canSay(p) ? `${sayBtn(`data-act="say" data-v="${i}"`, p.en)}` : ""}</div>
       <dl>${p.meaning ? `<dt>${t("meaning")}</dt><dd>${esc(p.meaning)}</dd>` : ""}${p.say ? `<dt>${t("say_it")}</dt><dd>${esc(p.say)}</dd>` : ""}</dl></div>`;
   }
   function notesHtml(notes, openForInterp) {
@@ -1029,7 +1029,7 @@
       const all = await phrasesOf(sel), field = mode === "translate" ? "say" : "meaning", pool = all.filter(p => p[field]);
       const vals = [...new Set(pool.map(p => p[field]))];
       const items = vals.length < 4 ? [] : shuffle(pool).slice(0, 10).map(p => { const opts = shuffle([p[field], ...shuffle(vals.filter(v => v !== p[field])).slice(0, 3)]);
-        return { q: `<span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span> <q lang="en">${esc(p.en)}</q> ${canSay(p) ? `<button type="button" class="ac-btn ac-say" data-say="${esc(p.en)}"${p.audio ? ` data-src="${phSrc(p)}"` : ""}>🔊 ${t("listen")}</button>` : ""}<br>${t(mode === "translate" ? "which_say" : "which_meaning")}`,
+        return { q: `<span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span> <q lang="en">${esc(p.en)}</q> ${canSay(p) ? `${sayBtn(`data-say="${esc(p.en)}"${p.audio ? ` data-src="${phSrc(p)}"` : ""}`, p.en)}` : ""}<br>${t(mode === "translate" ? "which_say" : "which_meaning")}`,
           options: opts, answer: opts.indexOf(p[field]), why: esc(mode === "translate" ? p.meaning : p.say || "") }; });
       mcRound(host.querySelector(".ac-round"), g, items, { again: () => GAMES[g.id](host, g), sig: sel + ":" + mode, view: { block: sel, mode } }); },
     /* Referee's call: "decision" questions of the rules trainer bank (one bank for the trainer and the Academy), with its
@@ -1074,7 +1074,7 @@
         if (!x) { k++; return k < session.length ? show(false) : fin(); }
         keep(flip); gameResume(g, k, session.length);
         host.innerHTML = `<p class="ac-meta">${t(own ? "cards_source" : "cards_source_all")} · ${t("cards_learnt", { n: learnt })} · ${k + 1}/${session.length}${c ? ` · ${t("cards_box", { n: c.box })}` : ""}</p>
-          <div class="ac-flash"><p class="ac-flash-en" lang="en">${esc(x.en)}</p>${"speechSynthesis" in window ? `<button type="button" class="ac-btn ac-say" data-say="${esc(x.en)}">🔊 ${t("listen")}</button>` : ""}
+          <div class="ac-flash"><p class="ac-flash-en" lang="en">${esc(x.en)}</p>${"speechSynthesis" in window ? `${sayBtn(`data-say="${esc(x.en)}"`, x.en)}` : ""}
           ${flip ? `${x.local ? `<p class="ac-flash-local"><b>${esc(x.local)}</b></p>` : ""}<p>${esc(x.short)}</p><p><a href="${x.url}">${t("glossary_page")} →</a></p>
             <p><button type="button" class="ac-btn primary" data-k="know">✓ ${t("card_know")}</button> <button type="button" class="ac-btn" data-k="again">${t("card_again")}</button></p>`
           : `<p><button type="button" class="ac-btn primary" data-k="flip">${t("card_show")}</button></p>`}</div>`;
@@ -1116,9 +1116,16 @@
   const phSrc = p => p && p.audio && p.k ? SITE + "learn/audio/" + encodeURIComponent(p.k) + ".mp3" : "";
   const canSay = p => !!(p && p.audio) || "speechSynthesis" in window;
   const speakReady = () => window.ClaySpeak ? Promise.resolve() : loadScript(SITE + "shared/speak.js");
-  function say(text, src) {
+  /* The 🔊 button is the Glossary pronunciation button (17.11.2026): a round speaker icon, the words only in aria-label / title;
+     while the phrase sounds it carries the class "on" (the outer wave pulses). Its own class ac-say, not "say": speak.js listens to
+     button.say[data-say] itself, and the Academy handles the click here, so the phrase would sound twice. */
+  const SAY_ICON = '<svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor" stroke="none"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path class="w2" d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+  const sayBtn = (attrs, text) => `<button type="button" class="ac-say" ${attrs} aria-label="${t("listen")}: ${esc(text)}" title="${t("listen")}">${SAY_ICON}</button>`;
+  function say(text, src, btn) {
     if (!src) { if (!("speechSynthesis" in window)) return; if (!localVoice()) { toast(u("no_local_voice")); return; } }
-    const go = () => { if (window.ClaySpeak) ClaySpeak(text, { rate: .95, src: src || "" }); };
+    let off = () => {};
+    if (btn) { btn.classList.add("on"); clearTimeout(btn._off); off = () => btn.classList.remove("on"); btn._off = setTimeout(off, 6000); }
+    const go = () => { if (window.ClaySpeak) ClaySpeak(text, { rate: .95, src: src || "", done: off }); else off(); };
     if (window.ClaySpeak) go(); else speakReady().then(go, () => {}); }
   try { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => {}; } catch (e) {}
 
@@ -1192,14 +1199,14 @@
         if (url.pathname === location.pathname && url.hash) return; // in-page anchor: default behaviour
         e.preventDefault(); go(url.href); return; } }
     const b = e.target.closest("[data-act],[data-say]"); if (!b) return;
-    if (b.dataset.say) { say(b.dataset.say, b.dataset.src); return; }
+    if (b.dataset.say) { say(b.dataset.say, b.dataset.src, b); return; }
     if (b.getAttribute("aria-disabled") === "true") return;
     const act = b.dataset.act, v = b.dataset.v;
     if (act === "disc") { if (S.disc !== v) stat("disc", v); S.disc = v; save(); rerender(); const nb = document.querySelector(`[data-act="disc"][data-v="${v}"]`); if (nb) nb.focus(); return; }
     if (act === "langoff") { S.lang_hint_off = true; save(); b.closest(".ac-banner").remove(); return; }
     if (act === "langgo") { const sel = $("acLang"); if (sel) goLang(sel.value); return; }
     if (act === "setroute") { if (S.routes.current !== v) stat("route", v); S.routes.current = v; save(); rerender(); toast(u("route_current")); return; }
-    if (act === "say") { const p = (VIEW.phr || [])[+v]; if (p) say(p.en, phSrc(p)); return; }
+    if (act === "say") { const p = (VIEW.phr || [])[+v]; if (p) say(p.en, phSrc(p), b); return; }
     if (act === "sim") { const sim = VIEW.sims && VIEW.sims[v], host = $("sim-" + v); if (sim && host && window.ClaySims) { b.remove(); ClaySims.mount(host, sim); } return; }
     if (act === "ans") { onAnswer(b.dataset.q, v); return; }
     if (act === "tmore") { const x = b.nextElementSibling; if (x) { x.hidden = false; const f = x.querySelector("a"); if (f) f.focus(); } b.remove(); return; }

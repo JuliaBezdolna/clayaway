@@ -110,7 +110,6 @@ a.ac-chip{color:var(--em)}
 .ac-review{border-color:rgba(251,191,36,.5);color:var(--amber)}
 .ac-upd{border-color:rgba(34,211,238,.5);color:var(--cyan)}
 .ac-tag{font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--muted);white-space:nowrap} /* a label, not a button: no frame (design rule 3) */
-.ac-phrase-h>.ac-tag{flex-basis:100%;margin-bottom:-2px} /* the role on its own line above the phrase, as the block labels */
 .ac-seg{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}
 .ac-seg-l{font-size:13px;color:var(--muted)}
 .ac-seg button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:13.5px;color:var(--soft)}
@@ -226,12 +225,31 @@ a.ac-animark{border-color:rgba(52,211,153,.45)}
 .ac-kp ul{margin:0;padding-left:20px;color:var(--soft)}.ac-kp li::marker{color:var(--em)}
 .ac-dyk{background:var(--clay-soft);border-radius:var(--r);padding:12px 18px;margin:16px 0;color:#FED7AA}.ac-dyk b{color:var(--clay)}
 .ac-phrase{border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:10px 0;background:var(--surface2)}
-.ac-phrase-h{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.ac-phrase q{font-weight:600;font-size:16.5px;flex:1 1 220px;min-width:0}
-.ac-phrase dl{margin:6px 0 0;display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 10px;font-size:14.5px;color:var(--soft)}
+/* Phrase card (18.11.2026, mockup variant D): two parts, as the Glossary term card. Above — what is said: the role, the phrase and the
+   🔊 button in a column of its own at the level of the phrase; below a thin line (the Glossary div.sep: 1 px, 16 px above, 14 px below)
+   — what it means, «Значення» and «Як перекласти» on the full width. Text never runs under the button. */
+.ac-phrase{display:grid;grid-template-columns:minmax(0,1fr) 38px;column-gap:14px;align-items:start}
+.ac-phrase-h{display:contents}
+.ac-phrase-h>.ac-tag{grid-column:1;grid-row:1;justify-self:start;margin:0 0 6px}
+.ac-phrase-h>q{grid-column:1;grid-row:2;align-self:center}
+.ac-phrase-h>.ac-say{grid-column:2;grid-row:2;align-self:center;justify-self:end}
+@media (pointer:coarse){.ac-phrase{grid-template-columns:minmax(0,1fr) 44px;column-gap:12px}}
+.ac-phrase q{font-weight:600;font-size:16.5px;min-width:0}
+.ac-phrase>dl{grid-column:1 / span 2;grid-row:3;border-top:1px solid var(--line);margin-top:16px;padding-top:14px}
+.ac-phrase>dl:empty{display:none}
+.ac-phrase dl{margin:16px 0 0;display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 10px;font-size:14.5px;color:var(--soft)}
 .ac-phrase dt{color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;padding-top:2px}
 .ac-phrase dd{margin:0}
-.ac-say{padding:4px 10px;font-size:13px}
+/* 🔊 — the Glossary pronunciation button (17.11.2026): a round speaker icon 38 px (44 on touch screens), the outer wave pulses while it sounds */
+.ac-say{display:inline-flex;align-items:center;justify-content:center;flex:none;width:38px;height:38px;padding:0;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;transition:color .15s,border-color .15s;vertical-align:middle}
+.ac-say:hover,.ac-say:focus-visible{color:var(--em);border-color:rgba(52,211,153,.5)}
+.ac-say:focus-visible{outline:2px solid var(--em);outline-offset:2px}
+.ac-say.on{color:var(--em);border-color:var(--em)}
+.ac-say.on .w2{animation:acsayw .5s ease-in-out infinite alternate}
+@keyframes acsayw{from{opacity:.25}to{opacity:1}}
+@media (pointer:coarse){.ac-say{width:44px;height:44px}}
+@media (prefers-reduced-motion:reduce){.ac-say.on .w2{animation:none}}
+@media print{.ac-say{display:none}}
 .ac-notes ul{padding-left:20px;color:var(--soft)}
 .ac-src{padding-left:20px;font-size:14.5px;color:var(--soft)}
 .ac-disclaimer{border-top:1px solid var(--line);padding-top:10px;color:var(--muted);font-size:14px}
@@ -627,11 +645,10 @@ fieldset.ac-gq .ac-opts{clear:both}
 
 /* ---- Design rule 5 (17.11.2026, variant A of the mockup): two button heights.
    42 px: every action of a page, green or outline, also in card rows («Скласти →», «Ще раз →», «Відкрити ↗»).
-   36 px: a small action repeated in rows (🔊 Прослухати, ← →, «Далі →» in the route strip), switches (discipline, lists)
+   36 px: a small action repeated in rows (← →, «Далі →» in the route strip), switches (discipline, lists)
    and the links in the lesson meta row («▶ з анімацією»), so that row stays even.
    The animation buttons (docs/shared, shared with the Glossary) are not touched. ---- */
 .ac-btn{min-height:42px;justify-content:center;line-height:1.25;box-sizing:border-box}
-.ac-btn.ac-say{min-height:36px;padding:4px 12px}
 .ac-seg button,.ac-rs-next,.ac-discsel,.ac-pills a.ac-chip{display:inline-flex;align-items:center;justify-content:center;min-height:36px;box-sizing:border-box}
 .ac-strip-nav a{width:36px;height:36px}
 .ac-inline select,label>select:not(.ac-discsel select){min-height:36px;box-sizing:border-box}
