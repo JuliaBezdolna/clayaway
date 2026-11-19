@@ -299,6 +299,8 @@ main[tabindex="-1"]:focus{outline:none}
     if (iaDone > 0 && !(ac && ac.migrated && ac.migrated["clayarena-interpreter"]) && SEC.id !== "learn" && !seen["interp-moved"])
       return ["interp-moved", `<span aria-hidden="true">${LOOK.learn[1]}</span> <a href="${esc(learnUrl)}routes/interpreter/">${esc(pick(TX.interp_moved))}</a>`];
     const tip = TX["tip_" + pageKey];
+    // the Academy first-visit tip («оберіть маршрут під себе») only for someone who has not started: no route, no lesson done (18.11.2026)
+    if (pageKey === "learn" && ac && ((ac.routes && ac.routes.current) || Object.keys(ac.done || {}).length)) return null;
     if (tip && (!seen["tip:" + pageKey] || tipShown === "tip:" + pageKey)) return ["tip:" + pageKey, `<span aria-hidden="true">${(LOOK[pageKey] || [])[1] || ""}</span> ${esc(pick(tip))}`];
     return null;
   }

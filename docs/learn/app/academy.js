@@ -482,11 +482,11 @@
     const reqs = [
       { ok: st.lessonsOk, head: u("route_required"), d: st.done, n: st.total },
       ...st.practice.map(p => { const x = practiceReqText(p.item), i = x.indexOf(": ");
-        return { ok: p.ok, waiting: p.waiting, head: i > 0 ? x.slice(0, i) : x, need: i > 0 ? x.slice(i + 2) : "", link: practiceReqLink(p.item) }; }),
+        return { ok: p.ok, waiting: p.waiting, head: i > 0 ? x.slice(0, i) : x, need: i > 0 ? x.slice(i + 2) : "", link: practiceReqLink(p.item, r.id) }; }),
       pass ? { ok: st.exam, head: u("route_exam"), need: u("exam_rule", { n: pass.n, p: pass.pass_pct }), exam: true, link: st.lessonsOk || st.exam ? href(`routes/${r.id}/exam/`) : null } : null ].filter(Boolean);
     /* a practice item with "stage" + "after" (routes.json) is also a step inside its stage, right after that lesson (пакет А, 18.11.2026) */
     const pracRow = p => { const g = gameById(p.item.game); if (!g) return ""; const ok = p.ok && !p.waiting, x = practiceReqText(p.item), i = x.indexOf(": ");
-      const link = practiceReqLink(p.item), nav = link && link.startsWith(href(""));
+      const link = practiceReqLink(p.item, r.id), nav = link && link.startsWith(href(""));
       return `<li class="ac-prow"><a class="ac-les${ok ? " is-done" : ""}" href="${esc(link || "#")}"${nav ? " data-nav" : ""}><span class="ac-ck" aria-hidden="true">${ok ? "✓" : "🎯"}</span><span class="ac-les-t"><b>${t("route_prac_row", { game: gameTitle(g) })}</b><span class="ac-les-m">${t("prac_trainer")} · ${esc(i > 0 ? x.slice(i + 2) : "")}${ok ? " · " + t("req_done") : ""}</span></span></a></li>`; };
     const stageList = s => { const ps = st.practice.filter(p => p.item.stage === s.id);
       return `<ol class="ac-lessons">${s.lessons.map((lid, i) => lessonRow(lid, { n: i + 1, route: r.id }) + ps.filter(p => p.item.after === lid).map(pracRow).join("")).join("")}</ol>`; };
@@ -515,7 +515,7 @@
       ${st.complete || st.cert ? (r.certificate ? certHtml(r, st.cert) + `<p><button type="button" class="ac-btn primary" data-act="printcert" data-v="${esc(r.id)}">🖨 ${t("cert_print")}</button> <a class="ac-btn" href="${href("progress/")}#name" data-nav>${t("cert_name")}</a></p>` : `<p class="ac-ok">🏅 ${t("badge_earned")}</p>`) : ""}
       <ol class="ac-csteps">${reqs.map(step).join("")}</ol>
       ${legacy ? `<p class="ac-muted">${t("cert_legacy")}</p>` : ""}
-      <details class="ac-means"><summary>${t("cert_means")}</summary><p>${t("cert_means_p")}</p><p><b>${t("cert_disclaimer")}</b>${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p></details></section>
+      <details class="ac-means"><summary>${t(r.certificate ? "cert_means" : "badge_means")}</summary><p>${t(r.certificate ? "cert_means_p" : "badge_means_p")}</p><p><b>${t("cert_disclaimer")}</b>${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p></details></section>
     ${r.checklist ? `<section aria-labelledby="h-chk"><h2 id="h-chk">📋 ${esc(r.checklist.title)}</h2><p class="ac-muted">${t("checklist_d")}</p><button type="button" class="ac-btn" data-act="checklist" data-v="${esc(r.id)}">🖨 ${t("checklist_print")}</button></section>` : ""}`;
   }
   /* «Практика ↔ навчання» (пакет А, 18.11.2026). The trainers of a lesson: the games whose topics include the lesson's topic
@@ -542,11 +542,13 @@
   function gameLessonsHtml(g) {
     const bs = (g.blocks || []).map(blockById).filter(Boolean), ids = []; if (!bs.length) return "";
     for (const b of bs) for (const id of [...(b.starters || []), ...P.blockLessons(b)]) if (!ids.includes(id) && L(id) && lessonHref(id)) ids.push(id);
-    const pick = ids.filter(id => !done(id)).slice(0, 3);
-    const rows = pick.map(id => { const c = L(id), h = lessonHref(id), b = blockById(c.block);
-      const meta = [`${c.minutes || 4} ${t("min")}`, c.level === 1 ? `★ ${t("start_here")}` : "", b ? esc(b.title) : ""].filter(Boolean).join(" · ");
-      return fixRow(b ? icon(b.icon) : "📘", `${esc(c.title)}${h.en ? ' <span class="ac-tag" lang="en">EN</span>' : ""}`, esc(c.summary || ""), meta, false,
-        `<a class="ac-btn primary ac-fixgo" href="${h.url}"${h.en ? ' hreflang="en"' : " data-nav"} aria-label="${t("g_read")}: ${esc(c.title)}">${t("g_read")} →</a>`); });
+    // always 3 lessons (пакет А): the ones not done first, then done ones to re-read («✓ Урок пройдено», «Перечитати →») — 18.11.2026
+    const pick = [...ids.filter(id => !done(id)), ...ids.filter(done)].slice(0, 3);
+    const rows = pick.map(id => { const c = L(id), h = lessonHref(id), b = blockById(c.block), ok = done(id);
+      const meta = [ok ? `✓ ${t("lesson_done")}` : "", `${c.minutes || 4} ${t("min")}`, c.level === 1 && !ok ? `★ ${t("start_here")}` : "", b ? esc(b.title) : ""].filter(Boolean).join(" · ");
+      const go = ok ? t("g_reread") : t("g_read");
+      return fixRow(b ? icon(b.icon) : "📘", `${esc(c.title)}${h.en ? ' <span class="ac-tag" lang="en">EN</span>' : ""}`, esc(c.summary || ""), meta, ok,
+        `<a class="ac-btn${ok ? "" : " primary"} ac-fixgo" href="${h.url}"${h.en ? ' hreflang="en"' : " data-nav"} aria-label="${go}: ${esc(c.title)}">${go} →</a>`); });
     const foot = `<p class="ac-fixf">${t("rep_all")}: ${bs.map(b => `<a href="${pageLink(b, `topics/${b.id}/`).url}" data-nav>${esc(b.title)} →</a>`).join(" · ")}</p>`;
     return fixCard("h-rep", t("rep_k"), t("rep_h"), rows, foot);
   }
@@ -556,15 +558,17 @@
     if (p.min_score != null) return `${name}: ${u("req_score", { n: p.min_score, t: p.of || 10 })}`;
     return `${name}: ${u("req_pct", { p: p.min_pct || 80 })}`; }
   /* The rules trainer opens its short test (10 questions, pass mark 80 %; route "Перші змагання") with &mode=short. */
-  function practiceReqLink(p) { const g = gameById(p.game); if (!g) return null;
-    if (!g.external) return pageLink(g, `practice/${g.id}/`).url;
+  function practiceReqLink(p, rid) { const g = gameById(p.game); if (!g) return null;
+    if (!g.external) { const x = pageLink(g, `practice/${g.id}/`).url; return rid ? withRoute(x, rid) : x; }
     const x = extUrl(g); return p.mode ? x + (x.includes("?") ? "&" : "?") + "mode=" + encodeURIComponent(p.mode) : x; }
   /* Certificate sheet (printable, A4). Name only from this device; no federation logos; the disclaimer is always on it (design §7.7). */
+  /* "YYYY-MM-DD" → the date as the page language writes it (18.11.2026); the same on the certificate and the badges */
+  function dayFmt(s) { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(s || ""); return m ? new Date(+m[1], +m[2] - 1, +m[3]).toLocaleDateString(LANG) : s || ""; }
   function certHtml(r, cert) {
-    const ex = (S.routes[r.id] || {}).exam;
+    const ex = (S.routes[r.id] || {}).exam, ct = r.certificate && r.certificate.title;
     return `<div class="ac-cert" id="cert-${esc(r.id)}">${dog("happy", { size: 56, anim: false, cls: "ac-cert-dog" })}<div class="ac-cert-logo">ClayArena</div><div class="ac-cert-k">${t("cert_title")}</div>
-      <div class="ac-cert-name">${esc(S.name || "—")}</div><p>${t("cert_route", { route: r.title })}</p>
-      <p class="ac-cert-meta">${cert ? esc(cert.date) : ""}${ex ? ` · ${t("route_exam")}: ${esc(ex.score)} %` : ""}${cert && cert.no ? ` · ${t("cert_no", { no: cert.no })}` : ""}</p>
+      ${ct ? `<div class="ac-cert-t">«${esc(ct)}»</div>` : ""}<div class="ac-cert-name">${esc(S.name || "—")}</div><p>${t("cert_route", { route: r.title })}</p>
+      <p class="ac-cert-meta">${cert ? esc(dayFmt(cert.date)) : ""}${ex ? ` · ${t("route_exam")}: ${esc(ex.score)} %` : ""}${cert && cert.no ? ` · ${t("cert_no", { no: cert.no })}` : ""}</p>
       <p class="ac-cert-d">${t("cert_disclaimer")}${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p>${cert && cert.legacy ? `<p class="ac-cert-d">${t("cert_legacy")}</p>` : ""}</div>`;
   }
 
@@ -592,6 +596,13 @@
     const navTile = (lid, cls, k) => { if (!lid) return ""; const h = lessonHref(lid); if (!h) return ""; const n = inRoute ? req.indexOf(lid) : -1;
       return `<a class="ac-ltile ${cls}${!inRoute && cls === "next" && L(lid).block !== c.block ? " is-topic" : ""}" href="${inRoute ? withRoute(h.url, inRoute.id) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>
         <span class="ac-ltk">${!inRoute && cls === "next" && L(lid).block !== c.block && blockById(L(lid).block) ? t("next_topic", { topic: blockById(L(lid).block).title }) : k}</span><span class="ac-ltt">${esc(L(lid).title)}${h.en ? " (EN)" : ""}</span>${n >= 0 ? `<span class="ac-lts">${t("step_of", { n: n + 1, t: req.length })}</span>` : ""}</a>`; };
+    /* In a route (18.11.2026): a trainer step right after this lesson (routes.json practice "after") comes before the next lesson
+       while it is not done; after the last lesson — «Далі: сертифікат маршруту» (the certificate steps of the route page). */
+    const rst = inRoute && step >= 0 ? P.routeStatus(S, CAT, inRoute, TRAINER) : null;
+    const pst = rst && rst.practice.find(p => p.item.after === id && !p.ok && !p.waiting), pg = pst && gameById(pst.item.game);
+    const nstep = pg ? { url: practiceReqLink(pst.item, inRoute.id), k: `${t("next_trainer")} →`, title: gameTitle(pg) }
+      : rst && !next && !rst.complete ? { url: `${pageLink(inRoute, `routes/${inRoute.id}/`).url}#certificate`, k: `${t("next_step")} →`, title: inRoute.certificate ? t("route_left_cert") : t("route_left_badge") } : null;
+    const stepTile = s => `<a class="ac-ltile next" href="${esc(s.url)}" data-nav><span class="ac-ltk">${s.k}</span><span class="ac-ltt">${esc(s.title)}</span></a>`;
     /* Key points first (wave 2, lesson variant B, 16.11.2026): the card right under the header, then what comes next */
     const keyPoints = (D.key_points || []).length ? `<section class="ac-kp ac-kp-top" aria-labelledby="h-kp"><h2 id="h-kp">${t("kp_fast")}</h2><ul>${D.key_points.map(k => `<li${k.checklist ? ' class="chk"' : ""}>${k.html}</li>`).join("")}</ul>
       <p class="ac-kp-next">${(D.quiz || []).length ? t("kp_next", { min: `${c.minutes || 4} ${t("min")}`, q: plural("n_questions", D.quiz.length) }) : t("kp_next_noq", { min: `${c.minutes || 4} ${t("min")}` })}</p></section>` : "";
@@ -599,7 +610,7 @@
     if (strip) after(() => { const x = document.querySelector(".ac-rstrip"); if (x) x.style.top = $("acTop").offsetHeight + "px"; });
     return `${langBanner()}${crumbs(cr.filter(Boolean), "ac-crumbs-1")}${lc.also ? alsoRoute(lc.also, id) : ""}
     ${strip ? `<div class="ac-strip ac-rstrip"><a class="ac-rs-l" href="${pageLink(inRoute, `routes/${inRoute.id}/`).url}" data-nav><span aria-hidden="true">🧭</span> ${esc(inRoute.title)} · <b title="${t("step_of", { n: step + 1, t: req.length })}">${step + 1} / ${req.length}</b><span class="ac-sr"> — ${t("step_of", { n: step + 1, t: req.length })}</span></a><span class="ac-rs-t" aria-hidden="true">${esc(c.title)}</span>
-      ${next && lessonHref(next) ? `<a class="ac-rs-next" href="${withRoute(lessonHref(next).url, inRoute.id)}"${lessonHref(next).en ? ' hreflang="en"' : " data-nav"} data-route="${esc(inRoute.id)}" aria-label="${t("next_lesson")}: ${esc(L(next).title)}">${t("next")} →</a>` : ""}<i class="ac-rs-read" aria-hidden="true"><i></i></i></div>` : ""}
+      ${nstep ? `<a class="ac-rs-next" href="${esc(nstep.url)}" data-nav aria-label="${esc(nstep.k.replace(/ →$/, ""))}: ${esc(nstep.title)}">${t("next")} →</a>` : next && lessonHref(next) ? `<a class="ac-rs-next" href="${withRoute(lessonHref(next).url, inRoute.id)}"${lessonHref(next).en ? ' hreflang="en"' : " data-nav"} data-route="${esc(inRoute.id)}" aria-label="${t("next_lesson")}: ${esc(L(next).title)}">${t("next")} →</a>` : ""}<i class="ac-rs-read" aria-hidden="true"><i></i></i></div>` : ""}
     <article class="ac-lesson" lang="${LANG}">
     <header class="ac-head">${c.block === "safety" ? dog("safety", { bubble: SAFE, size: 60, anim: !VIEW.safeDog, cls: "ac-mascot-head" }) : ""}<div class="ac-eyebrow">${b ? `<span aria-hidden="true">${icon(b.icon)}</span> ${esc(b.title)}` : ""}${sec ? " · " + esc(sec.title) : ""}</div>
       <h1 tabindex="-1">${esc(c.title)}</h1>
@@ -625,7 +636,7 @@
     ${D.disclaimer === "medical" || c.disclaimer === "medical" ? `<p class="ac-disclaimer">⚕ ${t("not_medical_advice")}</p>` : ""}
     <section class="ac-quiz" aria-labelledby="h-quiz" id="quiz"><h2 id="h-quiz">${t("quiz")}</h2>${quizHtml(id, D)}</section>
     ${lessonGamesHtml(c)}
-    <nav class="ac-endnav" aria-label="${t("lesson_nav")}"><div class="ac-ltiles${prev && next ? "" : " one"}">${navTile(prev, "prev", `← ${t("prev_lesson")}`)}${navTile(next, "next", `${t("next_lesson")} →`)}</div>
+    <nav class="ac-endnav" aria-label="${t("lesson_nav")}"><div class="ac-ltiles${prev && (next || nstep) ? "" : " one"}">${navTile(prev, "prev", `← ${t("prev_lesson")}`)}${nstep ? stepTile(nstep) : navTile(next, "next", `${t("next_lesson")} →`)}</div>
       <p class="ac-lquiet">${inRoute ? `<a href="${pageLink(inRoute, `routes/${inRoute.id}/`).url}" data-nav>${t("to_route")}</a>` : b ? `<a href="${pageLink(b, `topics/${b.id}/`).url}" data-nav>${esc(b.title)}</a>` : ""}<span aria-hidden="true">·</span>
       <a href="https://clayarena.com/${CA_PATH[LANG] || "en"}/contacts/" title="${esc(id)}">${t("report_error")}</a></p></nav>
     </article>
@@ -740,6 +751,9 @@
   }
   /* Quiz: 3 questions, options shuffled on screen (answer stored by option key, audit R-05), explanation after each answer. */
   const OPT_LET = () => LANG === "uk" ? "АБВГҐДЕ" : "ABCDEFG"; // letters of the answers (quiz games, lesson quiz)
+  /* A lesson counts as done from 2 right answers of 3 (two thirds, rounded up; 18.11.2026). A lesson done earlier stays done;
+     below the mark the test says «not counted yet» and offers «Ще раз». */
+  const quizNeed = n => Math.ceil(n * 2 / 3);
   function quizHtml(id, D) {
     const qs = D.quiz || [];
     if (!qs.length) return done(id) ? `<p class="ac-ok">✓ ${t("lesson_done")}</p>` : `<p><button type="button" class="ac-btn primary" data-act="markdone">${t("mark_done")}</button></p>`;
@@ -754,10 +768,10 @@
         <div class="ac-explain ac-explain-q${a != null ? (a === q.correct ? " ac-gfb ok" : " ac-gfb bad") : ""}" aria-live="polite">${a != null ? `${VIEW.lastQ === q.k ? dogFor(a === q.correct, { size: 66, anim: VIEW.dogAnim === q.k, cls: "ac-mascot-ex" }) : ""}<b class="ac-gfb-h">${a === q.correct ? "✓" : "✗"} ${a === q.correct ? t("correct") : t("wrong")}</b> ${esc(q.explain || "")}${q.rule_ref ? ` <a href="${esc(rulesUrl(...String(q.rule_ref).split(":")))}">${t("rules_where")} →</a>` : ""}` : ""}</div></fieldset>`; }).join("");
     const all = qs.every(q => VIEW.ans[q.k] != null), score = qs.filter(q => VIEW.ans[q.k] === q.correct).length;
     if (VIEW.dogAnim) after(() => { VIEW.dogAnim = null; }); // the dog of the last answer moves once (onAnswer), then stays still
-    const pct = Math.round(score / n * 100), C = 2 * Math.PI * 34;
-    return html + (all ? `<div class="ac-result ac-gend ac-qres${score === n ? " pass" : ""}"><svg class="ac-gring" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34"/><circle class="v${score === n ? "" : " lo"}" cx="40" cy="40" r="34" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${(C * (1 - pct / 100)).toFixed(1)}"/></svg>
-        <div><span class="ac-gend-k">${t("g_result")}</span><div class="ac-score">${t("quiz_score", { n: score, t: n })}</div><p>${t(score === n ? "quiz_res_all" : "quiz_res_some")}</p></div>${track(-1)}</div>
-        <p class="ac-gacts"><button type="button" class="ac-btn" data-act="quizagain">${t("quiz_again")}</button></p>`
+    const pct = Math.round(score / n * 100), C = 2 * Math.PI * 34, ok = score >= quizNeed(n) || done(id);
+    return html + (all ? `<div class="ac-result ac-gend ac-qres${score === n ? " pass" : ""}${ok ? "" : " fail"}"><svg class="ac-gring" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34"/><circle class="v${score === n ? "" : " lo"}" cx="40" cy="40" r="34" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${(C * (1 - pct / 100)).toFixed(1)}"/></svg>
+        <div><span class="ac-gend-k">${t("g_result")}</span><div class="ac-score">${t("quiz_score", { n: score, t: n })}</div><p>${ok ? t(score === n ? "quiz_res_all" : "quiz_res_some") : t("quiz_res_fail", { p: quizNeed(n), t: n })}</p></div>${track(-1)}</div>
+        <p class="ac-gacts"><button type="button" class="ac-btn${ok ? "" : " primary"}" data-act="quizagain">${t("quiz_again")}</button></p>`
       : done(id) ? `<p class="ac-muted">✓ ${t("lesson_done")} · ${t("quiz_best", { n: S.done[id].q, t: qs.length })}</p>` : "");
   }
   function viewUntranslated(c) {
@@ -787,9 +801,15 @@
         <p><button type="button" class="ac-btn primary" data-act="exnext"${a == null ? " disabled" : ""}>${E.i + 1 < E.qs.length ? t("next") : t("exam_finish")} →</button></p>`; }
     const ok = E.qs.filter((q, i) => E.ans[i] === q.correct).length, score = Math.round(ok / E.qs.length * 100), pass = score >= cfg.pass_pct;
     const wrong = E.qs.map((q, i) => ({ q, a: E.ans[i] })).filter(x => x.a !== x.q.correct);
-    return `${head}<div class="ac-result ${pass ? "pass" : "fail"}">${dogFor(pass, { size: 84 })}<div class="ac-score">${ok} / ${E.qs.length}</div><p>${pass ? t("exam_passed", { score }) : t("exam_failed", { score, p: cfg.pass_pct })}</p></div>
+    /* passed: say what it gave (18.11.2026) — the certificate / the badge with a link to it, or what is still missing */
+    const R = S.routes[r.id] || {}, left = st.practice.filter(p => !p.ok).map(p => esc(practiceReqText(p.item)));
+    const gotHtml = !pass ? "" : R.cert && r.certificate ? `<p class="ac-got">🎓 ${t("exam_got_cert", { cert: r.certificate.title ? `«${esc(r.certificate.title)}»` : `«${esc(r.title)}»` })}</p>`
+      : R.badge ? `<p class="ac-got">🏅 ${t("exam_got_badge", { route: esc(r.title) })}</p>`
+      : left.length ? `<p class="ac-note">${t("exam_left")}: ${left.join("; ")}</p>` : "";
+    const toCert = pass && (R.cert || R.badge) ? t(R.cert ? "cert_view" : "badge_view") : t("to_route");
+    return `${head}<div class="ac-result ${pass ? "pass" : "fail"}">${dogFor(pass, { size: 84 })}<div class="ac-score">${ok} / ${E.qs.length}</div><p>${pass ? t("exam_passed", { score }) : t("exam_failed", { score, p: cfg.pass_pct })}</p>${gotHtml}</div>
       ${wrong.length ? `<h2>${t("exam_review")}</h2>${wrong.map(x => `<div class="ac-q is-review"><p><b>${esc(x.q.q)}</b></p><p class="ac-muted">${t("exam_your")}: ${esc((x.q.options.find(o => o.k === x.a) || {}).text || "—")}</p><p class="ac-ok">✓ ${esc((x.q.options.find(o => o.k === x.q.correct) || {}).text || "")}</p><p>${esc(x.q.explain || "")}</p>${x.q.lesson && L(x.q.lesson) && lessonHref(x.q.lesson) ? `<p><a href="${lessonHref(x.q.lesson).url}" data-nav>${esc(L(x.q.lesson).title)} →</a></p>` : ""}</div>`).join("")}` : ""}
-      <p><a class="ac-btn primary" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav>${t("to_route")}</a> <button type="button" class="ac-btn" data-act="examstart" data-v="${esc(r.id)}">${t("play_again")}</button></p>`;
+      <p><a class="ac-btn primary" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav>${pass && (R.cert || R.badge) ? `${toCert} →` : toCert}</a> <button type="button" class="ac-btn" data-act="examstart" data-v="${esc(r.id)}">${t("exam_again")}</button></p>`;
   }
   async function startExam(rid) {
     const r = routeById(rid), cfg = r.certificate && r.certificate.exam ? r.certificate.exam : r.badge_only.quiz;
@@ -849,13 +869,17 @@
   function viewGame(id) {
     const g = gameById(id); if (!g) return viewNotFound();
     setHead({ title: `${gameTitle(g)} — ${u("practice")} — ${u("academy_name")}`, desc: gameDesc(g) || u("practice_lead"), index: g.index === "always", langs: LANGS });
-    const head = `${crumbs([home(), { label: u("practice"), url: href("practice/") }, { label: gameTitle(g) }])}<header class="ac-head"><div class="ac-eyebrow"><span aria-hidden="true">${icon(g.id)}</span> ${t("practice")}</div><h1 tabindex="-1">${esc(gameTitle(g))}</h1>
+    /* opened from a route step (?route=…, 18.11.2026): the crumbs lead back to the route, and under the game — the route's
+       requirement with «До маршруту» (to the certificate steps) */
+    const rq = LOC && LOC.query && LOC.query.get("route"), rr = rq && routeById(rq), rp = rr && (rr.practice || []).find(p => p.game === id);
+    const back = rp ? `<p class="ac-gback"><span><span aria-hidden="true">🧭</span> ${t("route_word")} «${esc(rr.title)}» · ${esc(practiceReqText(rp).replace(/^[^:]*:\s*/, ""))}</span> <a class="ac-btn" href="${pageLink(rr, `routes/${rr.id}/`).url}#certificate" data-nav>${t("to_route")} →</a></p>` : "";
+    const head = `${crumbs([home(), rp ? { label: rr.title, url: pageLink(rr, `routes/${rr.id}/`).url } : { label: u("practice"), url: href("practice/") }, { label: gameTitle(g) }])}<header class="ac-head"><div class="ac-eyebrow"><span aria-hidden="true">${icon(g.id)}</span> ${t("practice")}</div><h1 tabindex="-1">${esc(gameTitle(g))}</h1>
       ${gameDesc(g) ? `<p class="ac-lead">${esc(gameDesc(g))}</p>` : ""}
       ${g.xp === false && (g.known_issues || []).length ? `<p class="ac-note">${t("practice_known_issue")}</p>` : ""}</header>`;
     if (g.external) return `${head}<p><a class="ac-btn primary" href="${esc(extUrl(g))}">🎯 ${esc(gameTitle(g))} →</a></p>${trainerStatus()}`;
     if (g.later) return `${head}<p class="ac-note">${t("practice_soon")}</p>`;
     after(() => { if (!GAMES[id]) return; if (!VIEW.statGame) { VIEW.statGame = 1; stat("game_start", id); } gameStart(g); GAMES[id]($("acGame"), g); });
-    return `${head}<div id="acGame" class="ac-game-host"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>${gameLessonsHtml(g)}`;
+    return `${head}<div id="acGame" class="ac-game-host"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>${back}${gameLessonsHtml(g)}`;
   }
   function trainerStatus() { const tr = trainer(); if (!tr || !tr.stats) return "";
     return `<ul class="ac-reqs">${["sporting", "compak"].map(d => { const s = tr.stats[d]; return s ? `<li class="${P.trainerPass(tr, d) ? "ok" : ""}"><span aria-hidden="true">${P.trainerPass(tr, d) ? "✓" : "○"}</span> ${discName(d)}: ${t("trainer_best", { p: s.best || 0 })}${s.short_best != null && U.trainer_short_best != null ? " · " + t("trainer_short_best", { p: s.short_best }) : ""}</li>` : ""; }).join("")}</ul>`; }
@@ -867,26 +891,35 @@
      by group (groups of more than 8 folded); hints in the reader's language. «Перенести прогрес» as a card, «Скинути прогрес» as before. */
   function viewProgress() {
     setHead({ title: `${u("progress")} — ${u("academy_name")}`, desc: u("progress"), index: false });
-    const x = xp(), lv = P.levelOf(x.total, CAT), earned = P.earnedBadges(S, CAT, TRAINER), all = CAT.badges || [];
+    const x = xp(), lv = P.levelOf(x.total, CAT), earned = P.earnedBadges(S, CAT, TRAINER);
+    // a moved badge of an old academy (kind "legacy") counts only for those who have it: nobody else can earn it (18.11.2026)
+    const all = (CAT.badges || []).filter(b => b.kind !== "legacy" || earned.has(b.id));
     const levels = ((CAT.levels && CAT.levels.levels) || []).slice().sort((a, b) => a.min_xp - b.min_xp);
     const groups = [["misc", "badges_general"], ["practice", "practice"], ["route", "routes"], ["block", "topics"], ["stage", "badges_stages"], ["legacy", "badges_legacy"]];
     const certs = routesSorted().filter(r => (S.routes[r.id] || {}).cert), nDone = Object.keys(S.done).length;
     const cap = s => s ? s.charAt(0).toLocaleUpperCase(LANG) + s.slice(1) : s;
-    const day = s => { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(s || ""); return m ? new Date(+m[1], +m[2] - 1, +m[3]).toLocaleDateString(LANG) : s || ""; };
+    const day = dayFmt;
     const cnt = ids => [ids.filter(done).length, ids.length];
     const blockOf = Object.fromEntries((CAT.blocks || []).map(b => [b.id, b]));
     const bprog = b => { if (b.kind === "block") { const k = blockOf[b.ref]; return k ? cnt(k.sections.flatMap(s => s.lessons)) : null; }
       if (b.kind === "stage") { const [rid, sid] = String(b.ref).split("/"), r = routeById(rid), st = r && r.stages.find(s => s.id === sid); return st ? cnt(st.lessons) : null; }
       if (b.kind === "route") { const r = routeById(b.ref); return r ? cnt(required(r)) : null; } return null; };
-    const hint = b => u(b.kind === "misc" ? (b.id === "first" ? "badge_h_first" : "badge_h_returning") : "badge_h_" + b.kind);
+    // practice badges say their own rule («20 правильних відповідей у тренажері …»), not only «тренажер у розділі «Практика»»
+    const hint = b => b.kind === "practice" && U["badge_r_" + b.id] != null ? u("badge_r_" + b.id)
+      : u(b.kind === "misc" ? (b.id === "first" ? "badge_h_first" : "badge_h_returning") : "badge_h_" + b.kind);
     const short = b => { const m = /[«“„"]([^»”“"]+)[»”“"]/.exec(b.title); return (b.kind === "block" || b.kind === "route") && m ? m[1] : b.title; };
     // «Продовжити навчання»
     const rs = routesSorted().map(r => ({ r, d: required(r).filter(done).length, n: required(r).length, nx: firstUndone(r) }));
-    const cur = rs.find(z => z.r.id === S.routes.current) || rs.filter(z => z.d).sort((a, b) => b.d - a.d)[0];
+    // the current route while it has lessons left; then the started route with most done; all routes done → «Усе пройдено» (18.11.2026)
+    const left = z => z.nx || !P.routeStatus(S, CAT, z.r, TRAINER).complete;
+    const cur0 = rs.find(z => z.r.id === S.routes.current), cur = cur0 && left(cur0) ? cur0 : rs.filter(z => z.d && left(z)).sort((a, b) => b.d / b.n - a.d / a.n)[0] || cur0;
+    const allDone = nDone && rs.every(z => !left(z));
     const nh = cur && cur.nx && lessonHref(cur.nx), nl = cur && cur.nx && L(cur.nx);
     const prog = (d, n, label) => `<p class="ac-rprog">${bar(d, n, label)} <span>${t("route_progress", { done: "\u0001", total: n }).replace("\u0001", `<b>${d}</b>`)}</span></p>`;
-    const cont = cur ? `<section class="ac-pcard ac-pcont" aria-labelledby="h-cont"><span class="ac-eyebrow">${t("continue_h")}</span><h2 id="h-cont">${t("route_word")} «${esc(cur.r.title)}»</h2>
-        ${prog(cur.d, cur.n, cur.r.title)}<p class="ac-racts">${nh ? `<a class="ac-btn primary" href="${withRoute(nh.url, cur.r.id)}"${nh.en ? "" : " data-nav"} data-route="${esc(cur.r.id)}">${t("next_title", { title: nl.title })} →</a>` : ""}<a class="ac-btn" href="${href(`routes/${cur.r.id}/`)}" data-nav>${t("to_route")}</a></p></section>`
+    const cont = allDone ? `<section class="ac-pcard ac-pcont" aria-labelledby="h-cont"><span class="ac-eyebrow">${t("all_done_k")}</span><h2 id="h-cont">${t("all_done_h")}</h2><p>${t("all_done_p")}</p>
+        <p class="ac-racts"><a class="ac-btn primary" href="${href("practice/")}" data-nav>${t("practice")} →</a></p></section>`
+      : cur ? `<section class="ac-pcard ac-pcont" aria-labelledby="h-cont"><span class="ac-eyebrow">${t("continue_h")}</span><h2 id="h-cont">${t("route_word")} «${esc(cur.r.title)}»</h2>
+        ${prog(cur.d, cur.n, cur.r.title)}<p class="ac-racts">${nh ? `<a class="ac-btn primary" href="${withRoute(nh.url, cur.r.id)}"${nh.en ? "" : " data-nav"} data-route="${esc(cur.r.id)}">${t("next_title", { title: nl.title })} →</a>` : ""}<a class="ac-btn${nh ? "" : " primary"}" href="${href(`routes/${cur.r.id}/`)}${nh ? "" : "#certificate"}" data-nav>${nh ? t("to_route") : `${t("route_left_cert")} →`}</a></p></section>`
       : `<section class="ac-pcard ac-pcont" aria-labelledby="h-cont"><span class="ac-eyebrow">${t("start_h")}</span><h2 id="h-cont">${t("start_choose_h")}</h2><p class="ac-racts"><a class="ac-btn primary" href="${href("")}#h-who" data-nav>${t("choose_route")} →</a></p></section>`;
     // the nearest certificate (the current route if it gives one, else the first route that does)
     const near = !certs.length && ((cur && cur.r.certificate ? cur : null) || rs.find(z => z.r.certificate));
@@ -1078,8 +1111,11 @@
       const ms = host.querySelector('[data-k="mode"]'); if (ms) ms.onchange = e => { VIEW.mode = e.target.value; GAMES[g.id](host, g); };
       const all = await phrasesOf(sel), field = mode === "translate" ? "say" : "meaning", pool = all.filter(p => p[field]);
       const vals = [...new Set(pool.map(p => p[field]))];
-      const items = vals.length < 4 ? [] : shuffle(pool).slice(0, 10).map(p => { const opts = shuffle([p[field], ...shuffle(vals.filter(v => v !== p[field])).slice(0, 3)]);
-        return { q: `<span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span> <q lang="en">${esc(p.en)}</q> ${canSay(p) ? `${sayBtn(`data-say="${esc(p.en)}"${p.audio ? ` data-src="${phSrc(p)}"` : ""}`, p.en)}` : ""}<br>${t(mode === "translate" ? "which_say" : "which_meaning")}`,
+      // one round, no near twins («Same again» and «Good, same again»): skip a phrase whose words contain, or are inside, a picked one
+      const norm = s => " " + String(s).toLowerCase().replace(/[^a-z0-9' ]+/g, " ").replace(/\s+/g, " ").trim() + " ";
+      const distinct = list => list.reduce((a, p) => { const n = norm(p.en); if (!a.some(x => { const m = norm(x.en); return m.includes(n) || n.includes(m); })) a.push(p); return a; }, []);
+      const items = vals.length < 4 ? [] : distinct(shuffle(pool)).slice(0, 10).map(p => { const opts = shuffle([p[field], ...shuffle(vals.filter(v => v !== p[field])).slice(0, 3)]);
+        return { q: `<span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span> <q lang="en">${esc(p.en)}</q> ${canSay(p) ? `${sayBtn(`data-say="${esc(p.en)}"${p.audio ? ` data-src="${phSrc(p)}"` : ""}`, p.en)}` : ""}<br>${t(mode === "translate" ? "which_say" : U["which_meaning_" + (p.speaker || "coach")] != null ? "which_meaning_" + (p.speaker || "coach") : "which_meaning")}`,
           options: opts, answer: opts.indexOf(p[field]), why: esc(mode === "translate" ? p.meaning : p.say || "") }; });
       mcRound(host.querySelector(".ac-round"), g, items, { again: () => GAMES[g.id](host, g), sig: sel + ":" + mode, view: { block: sel, mode } }); },
     /* Referee's call: "decision" questions of the rules trainer bank (one bank for the trainer and the Academy), with its
@@ -1123,7 +1159,7 @@
       const show = flip => { const id = session[k], x = GLO.term(id), c = S.cards[id];
         if (!x) { k++; return k < session.length ? show(false) : fin(); }
         keep(flip); gameResume(g, k, session.length);
-        host.innerHTML = `<p class="ac-meta">${t(own ? "cards_source" : "cards_source_all")} · ${t("cards_learnt", { n: learnt })} · ${k + 1}/${session.length}${c ? ` · ${t("cards_box", { n: c.box })}` : ""}</p>
+        host.innerHTML = `<p class="ac-meta">${t(own ? "cards_source" : "cards_source_all")} · ${t("cards_learnt", { n: learnt })} · ${k + 1}/${session.length}${c ? ` · ${t("cards_box", { n: c.box })}` : ""}</p>${k === 0 && U.cards_rule != null ? `<p class="ac-muted ac-small">${t("cards_rule")}</p>` : ""}
           <div class="ac-flash"><p class="ac-flash-en" lang="en">${esc(x.en)}</p>${"speechSynthesis" in window ? `${sayBtn(`data-say="${esc(x.en)}"`, x.en)}` : ""}
           ${flip ? `${x.local ? `<p class="ac-flash-local"><b>${esc(x.local)}</b></p>` : ""}<p>${esc(x.short)}</p><p><a href="${x.url}">${t("glossary_page")} →</a></p>
             <p><button type="button" class="ac-btn primary" data-k="know">✓ ${t("card_know")}</button> <button type="button" class="ac-btn" data-k="again">${t("card_again")}</button></p>`
@@ -1267,7 +1303,7 @@
     if (act === "exnext") { VIEW.exam.i++; if (VIEW.exam.i >= VIEW.exam.qs.length) finishExam(); rerender(); focusMain(); window.scrollTo(0, 0); return; }
     if (act === "printcert") { const r = routeById(v); if (r && S.routes[v] && S.routes[v].cert) printHtml(certHtml(r, S.routes[v].cert)); return; }
     if (act === "checklist") { printChecklist(v).catch(() => toast(u("data_error"))); return; }
-    if (act === "savename") { S.name = String($("acName").value || "").slice(0, 80); save(); toast(u("saved")); return; }
+    if (act === "savename") { S.name = String($("acName").value || "").slice(0, 80); save(); toast(u("saved")); rerender(); return; } // the certificates show the new name at once
     if (act === "export") { P.exportCode(S).then(code => { const link = href("progress/") + "#import=" + code;
       $("acExport").innerHTML = `<p><input type="text" readonly value="${esc(link)}" id="acExpLink" aria-label="${t("progress_transfer")}"> <button type="button" class="ac-btn" data-act="copy">${t("transfer_copy")}</button></p>`; }); return; }
     if (act === "copy") { const i = $("acExpLink"); i.select(); try { navigator.clipboard.writeText(i.value).then(() => toast(u("copied")), () => document.execCommand("copy")); } catch (er) { try { document.execCommand("copy"); toast(u("copied")); } catch (e2) {} } return; }
@@ -1305,7 +1341,9 @@
     const fs = btn && btn.closest(".ac-q"); if (fs) { const ex = fs.querySelector(".ac-explain"); if (ex) announce(plainText(ex)); } // without the dog's bubble
   }
   function finish(id, score) {
-    const c = L(id), x0 = xp().total, res = P.finishLesson(S, id, score, c.rev), nq = ((VIEW.data && VIEW.data.quiz) || []).length;
+    const nq = ((VIEW.data && VIEW.data.quiz) || []).length;
+    if (nq && score < quizNeed(nq) && !done(id)) { stat("quiz", `${id}:${score}/${nq}`); return; } // not counted yet (quizHtml says so)
+    const c = L(id), x0 = xp().total, res = P.finishLesson(S, id, score, c.rev);
     if (res.first) stat("lesson_done", id);
     if (nq) stat("quiz", `${id}:${score}/${nq}`);
     const pr = refreshProgress(), gain = xp().total - x0;
