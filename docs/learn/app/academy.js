@@ -564,13 +564,66 @@
   /* Certificate sheet (printable, A4). Name only from this device; no federation logos; the disclaimer is always on it (design §7.7). */
   /* "YYYY-MM-DD" → the date as the page language writes it (18.11.2026); the same on the certificate and the badges */
   function dayFmt(s) { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(s || ""); return m ? new Date(+m[1], +m[2] - 1, +m[3]).toLocaleDateString(LANG) : s || ""; }
+  /* Design «Гільош» (certificate mockup 2, variant 1, 19.11.2026): a security-paper sheet — a guilloche frame, a rosette watermark,
+     a round seal, Cormorant Garamond (self-hosted, app/fonts). Every ornament is SVG, so it also prints with «Background graphics»
+     off; the logo is SVG too (a solid text under the gradient one for viewers that drop gradients on text). The frame and the
+     watermark are drawn for the sheet's real size (certDeco); a phone (≤ 620 px) gets a portrait card. No mascot, no gendered text. */
   function certHtml(r, cert) {
-    const ex = (S.routes[r.id] || {}).exam, ct = r.certificate && r.certificate.title;
-    return `<div class="ac-cert" id="cert-${esc(r.id)}">${dog("happy", { size: 56, anim: false, cls: "ac-cert-dog" })}<div class="ac-cert-logo">ClayArena</div><div class="ac-cert-k">${t("cert_title")}</div>
-      ${ct ? `<div class="ac-cert-t">«${esc(ct)}»</div>` : ""}<div class="ac-cert-name">${esc(S.name || "—")}</div><p>${t("cert_route", { route: r.title })}</p>
-      <p class="ac-cert-meta">${cert ? esc(dayFmt(cert.date)) : ""}${ex ? ` · ${t("route_exam")}: ${esc(ex.score)} %` : ""}${cert && cert.no ? ` · ${t("cert_no", { no: cert.no })}` : ""}</p>
-      <p class="ac-cert-d">${t("cert_disclaimer")}${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p>${cert && cert.legacy ? `<p class="ac-cert-d">${t("cert_legacy")}</p>` : ""}</div>`;
+    const ex = (S.routes[r.id] || {}).exam, ct = r.certificate && r.certificate.title, yr = cert && /^\d{4}/.exec(cert.date || "");
+    const f = (v, k) => `<div class="ac-cert-f"><b>${esc(v)}</b>${k}</div>`;
+    const left = (cert ? f(dayFmt(cert.date), t("cert_date")) : "") + (ex ? f(`${ex.score} %`, t("route_exam")) : "");
+    return `<div class="ac-cert" id="cert-${esc(r.id)}"><div class="ac-cert-in">${certLogo()}<div class="ac-cert-k">${t("cert_title")}</div>
+      ${ct ? `<div class="ac-cert-t">«${esc(ct)}»</div>` : ""}${certOrn()}<div class="ac-cert-pre">${t("cert_awarded")}</div>
+      <div class="ac-cert-name">${esc(S.name || "—")}</div><p class="ac-cert-r">${t("cert_for_route", { route: r.title })}</p>
+      <div class="ac-cert-foot"><div class="ac-cert-fl">${left}</div>${certSeal(u("cert_seal", { route: r.title, year: yr ? yr[0] : "" }), yr ? yr[0] : "")}
+      <div class="ac-cert-fr">${cert && cert.no ? f(cert.no, t("cert_no_label")) : ""}</div></div>
+      <p class="ac-cert-d">${t("cert_disclaimer")}${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p>${cert && cert.legacy ? `<p class="ac-cert-d">${t("cert_legacy")}</p>` : ""}</div></div>`;
   }
+  let certUid = 0;
+  const cf1 = v => (Math.round(v * 10) / 10).toString(), cPath = pts => "M" + pts.map(p => cf1(p[0]) + "," + cf1(p[1])).join("L") + "Z";
+  function cPolar(cx, cy, fr, steps = 360) { const pts = []; for (let i = 0; i < steps; i++) { const a = 2 * Math.PI * i / steps, r = fr(a); pts.push([cx + r * Math.cos(a), cy + r * Math.sin(a)]); } return cPath(pts); }
+  function cRosette(cx, cy, R, col, sw, layers) { let s = "";   // guilloche rosette: curves r(θ) laid over each other with a phase shift
+    for (const L of layers) for (let j = 0; j < L.n; j++) { const ph = 2 * Math.PI * j / L.n; s += `<path d="${cPolar(cx, cy, a => R * (L.r + L.a * Math.sin(L.k * a + ph)), L.steps || 360)}"/>`; }
+    return `<g fill="none" stroke="${col}" stroke-width="${sw}">${s}</g>`; }
+  function certLogo() { const id = "acl" + (++certUid);           // clayarena.com: «ClayArena» in emerald-400 → cyan-400 on black
+    return `<svg class="ac-cert-logo" viewBox="0 0 236 52" role="img" aria-label="ClayArena"><defs><linearGradient id="${id}" x1="0" x2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs><rect width="236" height="52" rx="10" fill="#000"/><g text-anchor="middle" font-family="ui-sans-serif,system-ui,'Segoe UI',Roboto,sans-serif" font-weight="800" font-size="30"><text x="118" y="36" fill="#2DD4BF" textLength="194" lengthAdjust="spacingAndGlyphs">ClayArena</text><text x="118" y="36" fill="url(#${id})" textLength="194" lengthAdjust="spacingAndGlyphs">ClayArena</text></g></svg>`; }
+  const certOrn = () => `<svg class="ac-cert-orn" viewBox="0 0 220 16" aria-hidden="true"><g stroke="#0F5E4A" fill="none" stroke-width="1"><path d="M0 8H92M128 8H220"/><path d="M20 5H92M128 5H200M20 11H92M128 11H200" stroke-width=".5"/><path d="M110 1L117 8L110 15L103 8Z" fill="#0F5E4A"/><circle cx="97" cy="8" r="2"/><circle cx="123" cy="8" r="2"/></g></svg>`;
+  function certSeal(text, year) { const id = "acs" + (++certUid), tx = text.toLocaleUpperCase(LANG) + " ·", fs = Math.min(12.5, 505 / (tx.length * .72));
+    return `<svg class="ac-cert-seal" viewBox="-100 -100 200 200" aria-hidden="true"><circle r="97" fill="none" stroke="#0F5E4A" stroke-width="1.6"/><circle r="92" fill="none" stroke="#0F5E4A" stroke-width=".6"/>
+      <defs><path id="${id}" d="M0,82 A82,82 0 1 1 0.01,82"/></defs><text font-family="'CA Cormorant SC',Georgia,serif" font-weight="600" font-size="${cf1(fs)}" fill="#0F5E4A" letter-spacing="1"><textPath href="#${id}" textLength="505" lengthAdjust="spacing">${esc(tx)}</textPath></text>
+      <circle r="72" fill="none" stroke="#0F5E4A" stroke-width=".9"/>${cRosette(0, 0, 70, "#0F5E4A", .38, [{ n: 14, r: .8, a: .17, k: 15 }, { n: 10, r: .55, a: .14, k: 10 }])}
+      <circle r="27" fill="none" stroke="#0E7490" stroke-width="1"/>${year ? `<text y="8" text-anchor="middle" font-family="'CA Cormorant',Georgia,serif" font-weight="700" font-size="23" fill="#0B1F19">${esc(year)}</text>` : ""}</svg>`; }
+  /* the rounded frame as a path: s along the perimeter → point and inward normal */
+  function cRRect(x0, y0, x1, y1, R) {
+    const W = x1 - x0 - 2 * R, H = y1 - y0 - 2 * R, A = Math.PI * R / 2, L = 2 * W + 2 * H + 4 * A;
+    const arc = (cx, cy, a0, s) => { const a = a0 + s / R, c = Math.cos(a), si = Math.sin(a); return [cx + R * c, cy + R * si, -c, -si]; };
+    return { L, at(s) { s = ((s % L) + L) % L;
+      if (s < W) return [x0 + R + s, y0, 0, 1]; s -= W; if (s < A) return arc(x1 - R, y0 + R, -Math.PI / 2, s); s -= A;
+      if (s < H) return [x1, y0 + R + s, -1, 0]; s -= H; if (s < A) return arc(x1 - R, y1 - R, 0, s); s -= A;
+      if (s < W) return [x1 - R - s, y1, 0, -1]; s -= W; if (s < A) return arc(x0 + R, y1 - R, Math.PI / 2, s); s -= A;
+      if (s < H) return [x0, y1 - R - s, 1, 0]; s -= H; return arc(x0 + R, y0 + R, Math.PI, s); } }; }
+  function cBand(rr, off, amp, waves, ph, step) { const n = Math.ceil(rr.L / step), pts = [];
+    for (let i = 0; i < n; i++) { const s = rr.L * i / n, p = rr.at(s), d = off + amp * Math.sin(2 * Math.PI * waves * s / rr.L + ph); pts.push([p[0] + p[2] * d, p[1] + p[3] * d]); }
+    return cPath(pts); }
+  function certFrame(w, h) { const u = w / 1000, sw = x => Math.max(x * u, .45).toFixed(2), ins = 26 * u, R = 34 * u, mid = 20 * u;
+    const rr = cRRect(ins, ins, w - ins, h - ins, R), wv = Math.round(rr.L / (34 * u)); let a = "", b = "";
+    for (let j = 0; j < 8; j++) a += `<path d="${cBand(rr, mid, 13 * u, wv, 2 * Math.PI * j / 8, 2.2 * u)}"/>`;
+    for (let j = 0; j < 5; j++) b += `<path d="${cBand(rr, mid, 6 * u, wv * 2, 2 * Math.PI * j / 5, 2 * u)}"/>`;
+    const wr = Math.min(w * .25, h * .34);
+    return `<g opacity=".11">${cRosette(w / 2, h * .5, wr, "#0F5E4A", sw(.55), [{ n: 14, r: .84, a: .14, k: 20, steps: 480 }, { n: 10, r: .55, a: .16, k: 12 }, { n: 8, r: .26, a: .12, k: 8 }])}</g>
+      <g fill="none" stroke="#0F5E4A" stroke-width="${sw(.55)}">${a}</g><g fill="none" stroke="#0E7490" stroke-width="${sw(.4)}" opacity=".8">${b}</g>
+      <g fill="none" stroke="#0F5E4A"><path d="${cBand(rr, -4 * u, 0, 1, 0, 6 * u)}" stroke-width="${sw(1.8)}"/><path d="${cBand(rr, 44 * u, 0, 1, 0, 6 * u)}" stroke-width="${sw(1.8)}"/><path d="${cBand(rr, 50 * u, 0, 1, 0, 6 * u)}" stroke-width="${sw(.6)}"/></g>`; }
+  /* draws (or redraws) the frame of every certificate in root; w, h force a size (the printed sheet: 277 × 186 mm) */
+  let certRO = null;
+  function certDeco(root, w0, h0) {
+    (root || document).querySelectorAll(".ac-cert").forEach(el => {
+      let svg = el.querySelector(":scope > .ac-cert-deco");
+      if (!svg) { svg = document.createElementNS("http://www.w3.org/2000/svg", "svg"); svg.setAttribute("class", "ac-cert-deco"); svg.setAttribute("aria-hidden", "true"); el.prepend(svg);
+        if (!w0 && window.ResizeObserver) { certRO = certRO || new ResizeObserver(es => es.forEach(e => { if (!document.body.classList.contains("ac-printing")) certDeco1(e.target); })); certRO.observe(el); } }
+      certDeco1(el, w0, h0); }); }
+  function certDeco1(el, w, h) { const svg = el.querySelector(":scope > .ac-cert-deco"); w = w || el.clientWidth; h = h || el.clientHeight;
+    if (!svg || !w || !h || (svg._w === w && svg._h === h)) return; svg._w = w; svg._h = h;
+    svg.setAttribute("viewBox", `0 0 ${cf1(w)} ${cf1(h)}`); svg.setAttribute("preserveAspectRatio", "none"); svg.innerHTML = certFrame(w, h); }
 
   /* ---------- 8.4 Lesson ---------- */
   function viewLesson(id) {
@@ -1185,7 +1238,7 @@
 
   /* ================================ 10. Printing (certificate, checklists, phrasebook) ================================ */
   function printHtml(html) { let el = $("acPrint"); if (!el) { el = document.createElement("div"); el.id = "acPrint"; document.body.appendChild(el); }
-    el.innerHTML = html; document.body.classList.add("ac-printing");
+    el.innerHTML = html; document.body.classList.add("ac-printing"); certDeco(el, 1047, 714); // the certificate sheet: 277 × 189 mm
     const done = () => { document.body.classList.remove("ac-printing"); el.innerHTML = ""; window.removeEventListener("afterprint", done); };
     window.addEventListener("afterprint", done); setTimeout(() => { try { window.print(); } catch (e) {} }, 50); }
   /* Route checklist: key points marked "checklist" in the route's lessons (the text is never written twice, design §2.2). */
@@ -1235,7 +1288,7 @@
       if (LOC.view === "lesson" && VIEW.data) simsConfig(VIEW.data.terms || []); }
     const html = LOC.view === "home" ? viewHome() : LOC.view === "block" ? viewBlock(LOC.id) : LOC.view === "route" ? viewRoute(LOC.id) : LOC.view === "exam" ? viewExam(LOC.id)
       : LOC.view === "lesson" ? viewLesson(LOC.id) : LOC.view === "practice" ? viewPractice() : LOC.view === "game" ? viewGame(LOC.id) : LOC.view === "progress" ? viewProgress() : viewNotFound();
-    $("app").innerHTML = html + savedLine(); APP_DONE = true; fixLinks($("app"));
+    $("app").innerHTML = html + savedLine(); APP_DONE = true; fixLinks($("app")); certDeco($("app"));
     // 🔊 without the animations on the page: ClaySpeak (speak.js) now, so the first click plays at once (section 11)
     if (!window.ClaySpeak && (LOC.view === "game" ? ["translate-the-coach", "phrasebook"].includes(LOC.id) : document.querySelector("#app .ac-say"))) speakReady().catch(() => {});
     renderTop(); renderFoot(); document.documentElement.lang = LANG;
