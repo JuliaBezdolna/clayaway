@@ -394,6 +394,7 @@ fieldset.ac-q legend{font-weight:600;font-size:16.5px;padding:0 4px;max-width:10
 .ac-rules{list-style:none;margin:6px 0;padding:0;display:grid;gap:6px}
 .ac-ruleln{display:flex;gap:10px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:9px 12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));font-size:14px;color:var(--soft);text-decoration:none}
 .ac-ruleln:hover{border-color:rgba(52,211,153,.55)}
+.ac-rmore{margin-top:4px}
 .ac-rbadge{flex:none;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6EE7B7;font-size:12px;font-weight:600;line-height:1.5;white-space:nowrap}
 .ac-quiz{scroll-margin-top:64px}
 /* «Без інтернету» (docs/shared/offline-pack.js) stands between main#app and the footer: the width and left edge of the page column */

@@ -388,6 +388,7 @@
     return `<p class="ac-meta ac-also"><a class="ac-chip" href="${esc(url)}" data-nav data-route="${esc(r.id)}">${esc(un("nav_also_route", `${r.title} · ${u("step_of", { n: n + 1, t: req.length })}`, { route: r.title, n: n + 1, t: req.length }))}</a></p>`; }
 
   /* ================================ 8. Views ================================ */
+  const RULES_SHOW = 7; // «Де це в правилах»: the first 7, the rest behind «Показати ще» (20.11.2026)
   let VIEW = {};       // transient state of the current view (quiz answers, game round…); reset on every navigation
   let AFTER = [];      // functions to run after the view's HTML is in the page (sims, games, focus)
   let APP_DONE = false; // true once the app has replaced the static content of #app (until then a data error keeps the static page)
@@ -573,7 +574,7 @@
     const f = (v, k) => `<div class="ac-cert-f"><b>${esc(v)}</b>${k}</div>`;
     const left = (cert ? f(dayFmt(cert.date), t("cert_date")) : "") + (ex ? f(`${ex.score} %`, t("route_exam")) : "");
     return `<div class="ac-cert" id="cert-${esc(r.id)}"><div class="ac-cert-in">${certLogo()}<div class="ac-cert-k">${t("cert_title")}</div>
-      ${ct ? `<div class="ac-cert-t">«${esc(ct)}»</div>` : ""}${certOrn()}<div class="ac-cert-pre">${t("cert_awarded")}</div>
+      <div class="ac-cert-t">«${esc(ct || r.title)}»</div>${certOrn()}<div class="ac-cert-pre">${t("cert_awarded")}</div>
       <div class="ac-cert-name">${esc(S.name || "—")}</div><p class="ac-cert-r">${t("cert_for_route", { route: r.title })}</p>
       <div class="ac-cert-foot"><div class="ac-cert-fl">${left}</div>${certSeal(u("cert_seal", { route: r.title, year: yr ? yr[0] : "" }), yr ? yr[0] : "")}
       <div class="ac-cert-fr">${cert && cert.no ? f(cert.no, t("cert_no_label")) : ""}</div></div>
@@ -667,7 +668,7 @@
     <article class="ac-lesson" lang="${LANG}">
     <header class="ac-head">${c.block === "safety" ? dog("safety", { bubble: SAFE, size: 60, anim: !VIEW.safeDog, cls: "ac-mascot-head" }) : ""}<div class="ac-eyebrow">${b ? `<span aria-hidden="true">${icon(b.icon)}</span> ${esc(b.title)}` : ""}${sec ? " · " + esc(sec.title) : ""}</div>
       <h1 tabindex="-1">${esc(c.title)}</h1>
-      <p class="ac-meta ac-pills"><span class="ac-minfo">${[`⏱ ${dur}`, c.level === 1 ? "★ " + t("start_here") : t("go_deeper")].map(x => `<span class="ac-chip">${x}</span>`).join(" ")} ${(c.disciplines || []).map(d => `<span class="ac-chip ac-disc-${d}">${discName(d)}</span>`).join(" ")}
+      <p class="ac-meta ac-pills"><span class="ac-minfo">${[`⏱ ${dur}`, strip ? (step === 0 ? "★ " + t("start_here") : "") : c.level === 1 ? "★ " + t("start_here") : t("go_deeper")].filter(Boolean).map(x => `<span class="ac-chip">${x}</span>`).join(" ")} ${(c.disciplines || []).map(d => `<span class="ac-chip ac-disc-${d}">${discName(d)}</span>`).join(" ")}
         ${D.review_flag === "pending" || c.review_flag === "pending" ? `<span class="ac-chip ac-review">${t("review_pending")}</span>` : ""}
         ${(VIEW.upd === undefined ? (VIEW.upd = updated(id)) : VIEW.upd) ? `<span class="ac-chip ac-upd" title="${t("lesson_updated_d")}">● ${t("lesson_updated")}</span>` : ""}
         ${(VIEW.done0 === undefined ? (VIEW.done0 = done(id)) : VIEW.done0) ? `<span class="ac-chip is-on">✓ ${t("lesson_done")}</span>` : ""}</span>
@@ -683,8 +684,8 @@
     ${(D.phrases || []).length ? `<details class="ac-panel ac-stand"${standOpen ? " open" : ""}><summary><h2>🗣 ${t("stand_talk")}</h2></summary>${D.phrases.map((p, i) => phraseHtml(p, i)).join("")}</details>` : ""}
     ${notesHtml(D.notes || [], notesOpen)}
     ${(D.terms || []).length ? `<section aria-labelledby="h-terms"><h2 id="h-terms">${t("terms")}</h2><ul class="ac-chips">${D.terms.map(x => `<li><a class="ac-chip" href="${esc(fixUrl(x.url || glossaryUrl(x.id)))}">${termHtml(x)}</a></li>`).join("")}</ul></section>` : ""}
-    ${(D.rule_refs || []).length ? `<section aria-labelledby="h-rules"><h2 id="h-rules">${t("rules_where")}</h2><ul class="ac-rules">${D.rule_refs.map(x => { const lb = x.label || x.id, m = /^(\S+\s+\d+)(?:\s+·\s+(.+))?$/.exec(lb);
-      return `<li><a class="ac-ruleln" href="${esc(fixUrl(x.url || rulesUrl(x.book, x.id)))}">${m ? `<span class="ac-rbadge">${esc(m[1])}</span>${m[2] ? `<span>${esc(m[2])}</span>` : ""}` : `<span>${esc(lb)}</span>`}</a></li>`; }).join("")}</ul></section>` : ""}
+    ${(D.rule_refs || []).length ? `<section aria-labelledby="h-rules"><h2 id="h-rules">${t("rules_where")}</h2><ul class="ac-rules">${D.rule_refs.map((x, i) => { const lb = x.label || x.id, m = /^(\S+\s+\d+)(?:\s+·\s+(.+))?$/.exec(lb);
+      return `<li${i >= RULES_SHOW ? " hidden" : ""}><a class="ac-ruleln" href="${esc(fixUrl(x.url || rulesUrl(x.book, x.id)))}">${m ? `<span class="ac-rbadge">${esc(m[1])}</span>${m[2] ? `<span>${esc(m[2])}</span>` : ""}` : `<span>${esc(lb)}</span>`}</a></li>`; }).join("")}</ul>${D.rule_refs.length > RULES_SHOW ? `<button type="button" class="ac-btn ac-rmore" data-act="rmore" aria-expanded="false">${t("show_more_n", { n: D.rule_refs.length - RULES_SHOW })}</button>` : ""}</section>` : ""}
     ${(D.sources || []).length ? `<section aria-labelledby="h-src"><h2 id="h-src">${t("sources")}</h2><ul class="ac-src">${D.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="${s.fitasc || /fitasc\.com/i.test(s.url) ? "nofollow noopener noreferrer" : "noopener noreferrer"}">${esc(s.title)} ↗</a></li>`).join("")}</ul></section>` : ""}
     ${D.disclaimer === "medical" || c.disclaimer === "medical" ? `<p class="ac-disclaimer">⚕ ${t("not_medical_advice")}</p>` : ""}
     <section class="ac-quiz" aria-labelledby="h-quiz" id="quiz"><h2 id="h-quiz">${t("quiz")}</h2>${quizHtml(id, D)}</section>
@@ -958,8 +959,14 @@
       if (b.kind === "stage") { const [rid, sid] = String(b.ref).split("/"), r = routeById(rid), st = r && r.stages.find(s => s.id === sid); return st ? cnt(st.lessons) : null; }
       if (b.kind === "route") { const r = routeById(b.ref); return r ? cnt(required(r)) : null; } return null; };
     // practice badges say their own rule («20 правильних відповідей у тренажері …»), not only «тренажер у розділі «Практика»»
-    const hint = b => b.kind === "practice" && U["badge_r_" + b.id] != null ? u("badge_r_" + b.id)
-      : u(b.kind === "misc" ? (b.id === "first" ? "badge_h_first" : "badge_h_returning") : "badge_h_" + b.kind);
+    const routeLeft = b => { const r = b.kind === "route" && routeById(b.ref); if (!r) return "";
+      const st = P.routeStatus(S, CAT, r, TRAINER), x = [];
+      if (!st.lessonsOk) x.push(u("badge_left_lessons", { d: st.done, n: st.total }));
+      if (!st.exam) x.push(u("badge_left_exam"));
+      st.practice.filter(p => !p.ok).forEach(p => x.push(practiceReqText(p.item)));
+      return x.join("; "); };
+    const hint = b => b.kind === "practice" && U["badge_r_" + b.id] != null ? u("badge_r_" + b.id) : routeLeft(b) ||
+      u(b.kind === "misc" ? (b.id === "first" ? "badge_h_first" : "badge_h_returning") : "badge_h_" + b.kind);
     const short = b => { const m = /[«“„"]([^»”“"]+)[»”“"]/.exec(b.title); return (b.kind === "block" || b.kind === "route") && m ? m[1] : b.title; };
     // «Продовжити навчання»
     const rs = routesSorted().map(r => ({ r, d: required(r).filter(done).length, n: required(r).length, nx: firstUndone(r) }));
@@ -1121,9 +1128,16 @@
     ClaySims.config({ t: k => U[k], term: id => { const x = tm[id] || UT[id] || (GLO.ready && GLO.term(id)); return x ? { en: x.en, local: LANG === "en" ? "" : x.local || "" } : null; }, onHit: null });
   }
   /* Block filter for phrase games: lessons of one block (default "Мова стенду"), loaded on demand. */
-  function blockFilter(sel) { return `<label class="ac-inline">${t("filter_block")} <select data-k="block">${blocksSorted().map(b => `<option value="${b.id}"${b.id === sel ? " selected" : ""}>${esc(b.title)}</option>`).join("")}</select></label>`; }
+  function blockFilter(sel, ok) { return `<label class="ac-inline">${t("filter_block")} <select data-k="block">${blocksSorted().filter(b => !ok || ok.has(b.id)).map(b => `<option value="${b.id}"${b.id === sel ? " selected" : ""}>${esc(b.title)}</option>`).join("")}</select></label>`; }
   /* Phrases of one block: from the phrase index phrases.json (SCHEMA.md §8d: ONE request for the whole language, cached), in block
      and lesson order. Fallback for a server without the index: the lesson files of the block (one request per lesson). */
+  /* Topics with phrases (20.11.2026): the phrase games list only topics that have enough of them, not empty ones
+     («замало матеріалу»). min = distinct values of the field the game asks (4 for a round, 1 for the phrasebook). */
+  const PB = {};
+  async function phraseBlocks(field, min) { const key = `${LANG}:${field}:${min}`; if (PB[key]) return PB[key];
+    const ok = new Set(); for (const b of blocksSorted()) { const ps = await phrasesOf(b.id); if (new Set(ps.map(p => p[field]).filter(Boolean)).size >= min) ok.add(b.id); }
+    return (PB[key] = ok); }
+  function phraseSel(ok) { const s = VIEW.block || "stand-talk"; return ok.has(s) || !ok.size ? s : blocksSorted().find(b => ok.has(b.id)).id; }
   async function phrasesOf(blockId) {
     const b = blockById(blockId); if (!b) return [];
     const ids = P.blockLessons(b), inBlock = new Set(ids);
@@ -1158,8 +1172,9 @@
       mcRound(host, g, items, { sig: "" }); },
     /* Understand / translate the coach: phrases of the lessons of one block; "meaning" (shooter) or "translate" (interpreter). */
     async "translate-the-coach"(host, g) {
-      const sel = VIEW.block || "stand-talk", mode = LANG === "en" ? "meaning" : VIEW.mode || (S.routes.current === "interpreter" ? "translate" : "meaning");
-      host.innerHTML = `<div class="ac-filters">${blockFilter(sel)}${LANG !== "en" ? `<label class="ac-inline">${t("game_mode")} <select data-k="mode"><option value="meaning"${mode === "meaning" ? " selected" : ""}>${t("mode_meaning")}</option><option value="translate"${mode === "translate" ? " selected" : ""}>${t("mode_translate")}</option></select></label>` : ""}</div><div class="ac-round"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
+      const mode = LANG === "en" ? "meaning" : VIEW.mode || (S.routes.current === "interpreter" ? "translate" : "meaning");
+      const okB = await phraseBlocks(mode === "translate" ? "say" : "meaning", 4), sel = phraseSel(okB);
+      host.innerHTML = `<div class="ac-filters">${blockFilter(sel, okB)}${LANG !== "en" ? `<label class="ac-inline">${t("game_mode")} <select data-k="mode"><option value="meaning"${mode === "meaning" ? " selected" : ""}>${t("mode_meaning")}</option><option value="translate"${mode === "translate" ? " selected" : ""}>${t("mode_translate")}</option></select></label>` : ""}</div><div class="ac-round"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
       host.querySelector('[data-k="block"]').onchange = e => { VIEW.block = e.target.value; GAMES[g.id](host, g); };
       const ms = host.querySelector('[data-k="mode"]'); if (ms) ms.onchange = e => { VIEW.mode = e.target.value; GAMES[g.id](host, g); };
       const all = await phrasesOf(sel), field = mode === "translate" ? "say" : "meaning", pool = all.filter(p => p[field]);
@@ -1227,8 +1242,8 @@
       if (!session.length) { rounds.clear(g.id); host.innerHTML = `<p class="ac-ok">✓ ${t("cards_done")}</p>`; return; }
       show(!!(sv && sv.flip)); },
     /* Phrasebook: the phrases of one block as a list to listen to and print. No XP. */
-    async phrasebook(host, g) { const sel = VIEW.block || "stand-talk";
-      host.innerHTML = `<div class="ac-filters">${blockFilter(sel)} <button type="button" class="ac-btn" data-k="print">🖨 ${t("print")}</button></div><div class="ac-pb"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
+    async phrasebook(host, g) { const okB = await phraseBlocks("meaning", 1), sel = phraseSel(okB);
+      host.innerHTML = `<div class="ac-filters">${blockFilter(sel, okB)} <button type="button" class="ac-btn" data-k="print">🖨 ${t("print")}</button></div><div class="ac-pb"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
       host.querySelector('[data-k="block"]').onchange = e => { VIEW.block = e.target.value; GAMES[g.id](host, g); };
       const list = await phrasesOf(sel), box = host.querySelector(".ac-pb");
       VIEW.phr = list; const by = {}; list.forEach((p, i) => (by[p.lesson] = by[p.lesson] || []).push([p, i]));
@@ -1348,6 +1363,7 @@
     if (act === "say") { const p = (VIEW.phr || [])[+v]; if (p) say(p.en, phSrc(p), b); return; }
     if (act === "sim") { const sim = VIEW.sims && VIEW.sims[v], host = $("sim-" + v); if (sim && host && window.ClaySims) { b.remove(); ClaySims.mount(host, sim); } return; }
     if (act === "ans") { onAnswer(b.dataset.q, v); return; }
+    if (act === "rmore") { const ul = b.previousElementSibling; if (ul) { const h = [...ul.querySelectorAll("li[hidden]")]; h.forEach(li => li.hidden = false); const f = h[0] && h[0].querySelector("a"); if (f) f.focus(); } b.remove(); return; }
     if (act === "tmore") { const x = b.nextElementSibling; if (x) { x.hidden = false; const f = x.querySelector("a"); if (f) f.focus(); } b.remove(); return; }
     if (act === "quizagain") { VIEW.ans = {}; VIEW.order = {}; VIEW.lastQ = VIEW.dogAnim = null; rerender(); const q = $("quiz"); if (q) q.scrollIntoView(); return; }
     if (act === "markdone") { finish(LOC.id, 0); rerender(); return; }

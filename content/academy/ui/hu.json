@@ -79,8 +79,8 @@
     "cards_rule": "Egy kifejezés akkor számít megtanultnak, ha háromszor „Tudom”-ot nyom szünetekkel: másnap és két nappal később.",
     "badge_r_four-methods": "találat mind a négy előretartási módszerrel",
     "badge_r_name-the-flight-10": "10/10 egy játékban",
-    "badge_r_coach-translator-20": "20 helyes válasz az összes játékban",
-    "badge_r_referees-call-20": "20 helyes válasz az összes játékban",
+    "badge_r_coach-translator-20": "20 helyes válasz ebben a játékban, az összes körben",
+    "badge_r_referees-call-20": "20 helyes válasz ebben a játékban, az összes körben",
     "badge_r_terms-50": "50 megtanult kifejezés (mindegyik: három „Tudom” különböző napokon)",
     "badge_r_rules-exam-sporting": "a szabálytréner vizsgája 80 %-kal",
     "badge_r_rules-exam-compak": "a szabálytréner vizsgája 80 %-kal",
@@ -549,6 +549,9 @@
     "quiz_res_some": "A lecke teljesítve. A hibák magyarázata a fenti kérdéseknél van.",
     "topic_word": "Téma",
     "n_more": "még {n}",
+    "show_more_n": "Még {n} megjelenítése",
+    "badge_left_lessons": "az útvonal leckéi ({d}/{n})",
+    "badge_left_exam": "az útvonal vizsgája",
     "topic_done": "Téma teljesítve"
   }
 }
