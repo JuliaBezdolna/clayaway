@@ -723,6 +723,7 @@
       case "evidence": return ""; // attached to the block it is for (see ev)
       case "sim": h = simHero(x, id); if (!h) return ""; break; // the lesson's animation, big (see simHero)
       case "figure": h = `<figure class="ac-figure"${id}>${x.html}</figure>`; break;
+      case "diagram": h = x.html || ""; break; // our own lesson diagram: the build writes the whole <figure class="dg"> (scripts/academy/diagrams.mjs)
       default: h = x.html && typeof x.html === "string" ? `<p${id}>${x.html}</p>` : ""; // unknown type from a newer build: show its text
     }
     /* A stale critical paragraph (rules, safety, anti-doping) comes in English with "Переклад оновлюється" (SCHEMA.md §5) */
