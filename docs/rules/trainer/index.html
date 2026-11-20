@@ -499,7 +499,8 @@ function homeView(){
   const quick=it("quick",t("quickS"),"");
   const short=it("short",t("shortS"),s.short_best!=null?best(s.short_best):"",{rec,note:FROM_LEARN?t("forLearn"):""});
   const r=S.paused&&S.run, resume=r?`<div class="resume" role="region" aria-label="${esc(t("unfinished"))}"><b>${t("unfinished")}</b><span>${t(modeKey(r.mode))} · ${dname(r.disc)} · ${r.i+1}/${r.qs.length}</span><button class="btn primary" data-resume="1">${t("cont")} →</button><button class="btn" data-reset="1">${t("reset")}</button></div>`:"";
-  return `<p class="back">${FROM_LEARN?learnA("")+" · ":""}${rulesA("")}</p>${resume}<div class="eyebrow">FITASC · ${d}</div><h1>${t("title").replace("{d}",d)}</h1><p class="muted">${t("lead")}</p>
+  /* no "← Академія · ← Правила FITASC" line here (Юлія 20.11.2026, journal 124): the crumbs above already lead back */
+  return `${resume}<div class="eyebrow">FITASC · ${d}</div><h1>${t("title").replace("{d}",d)}</h1><p class="muted">${t("lead")}</p>
    <div class="acc"><div class="ring" style="--p:${acc}" aria-hidden="true"><span>${s.ans?acc+"%":"—"}</span></div><p>${s.ans?`${t("sAcc")} <b>${acc}%</b> · ${t("sAns")}: <b>${s.ans}</b><br>${t("sMist")}: <b>${s.wrong.length}</b>`:t("accEmpty")}</p></div>
    <div class="lvl"><p class="cap" id="lvCap">${t("level")}</p><div class="lvtiles" role="group" aria-labelledby="lvCap">${[0,1,2,3].map(l=>{ const n=l?qs.filter(q=>q.level===l).length:qs.length, nm=l?t("l"+l):t("lvAll");
      return `<button class="${l?"":"all"}" data-level="${l}" aria-pressed="${S.level===l}"><span class="t"><b>${nm.charAt(0).toUpperCase()+nm.slice(1)}</b><span class="lvbars" aria-hidden="true">${[1,2,3].map(i=>`<i class="${l&&i<=l?"on":""}"></i>`).join("")}</span></span><span class="n"><strong>${n}</strong>${qWord(n)}</span><span class="d">${t("lvD"+l)}</span></button>`; }).join("")}</div></div>

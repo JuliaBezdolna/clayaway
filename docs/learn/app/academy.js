@@ -300,7 +300,8 @@
   const GOOD = "Good shot!", SAFE = "Safety first!", NO_DOG = ["referees-call", "rules-exam"];
   // When mascot.js is already loaded the slot is written FILLED (same SVG as ClayMascot.mount): a re-render (after every quiz answer)
   // then never shows an empty slot for a moment, which made the browser's scroll anchoring move the page (quiz test 10.2026).
-  const dog = (pose, o = {}) => { const M = window.ClayMascot, fill = M && M.svg ? M.svg(pose, { size: o.size || 0, bubble: o.bubble || "", anim: o.anim !== false }) : "";
+  const DOG_ON = false; // owner decision 20.11.2026 (journal 124): no dog in the Academy; true brings the slots back (with nav.js)
+  const dog = (pose, o = {}) => { if (!DOG_ON) return ""; const M = window.ClayMascot, fill = M && M.svg ? M.svg(pose, { size: o.size || 0, bubble: o.bubble || "", anim: o.anim !== false }) : "";
     return `<span class="ac-mascot${o.cls ? " " + o.cls : ""}${fill ? " cm-host" : ""}" data-clay-mascot="${pose}"${o.bubble ? ` data-bubble="${esc(o.bubble)}"` : ""}${o.size ? ` data-size="${o.size}"` : ""}${o.anim === false ? ' data-anim="0"' : ""} aria-hidden="true">${fill}</span>`; };
   const dogFor = (right, o = {}) => dog(right ? "happy" : "think", Object.assign({ bubble: right ? GOOD : "" }, o)); // right / wrong
   const dogOk = g => !!g && !g.external && !NO_DOG.includes(g.id);                       // Practice games that may show the dog
@@ -1008,7 +1009,7 @@
       <div class="ac-pstats"><div><span>${t("stat_lessons")}</span><b>${nDone}<small> / ${Object.keys(CAT.lessons).length}</small></b></div><div><span>${t("badges")}</span><b>${earned.size}<small> / ${all.length}</small></b></div><div><span>${t("certificates")}</span><b>${certs.length}</b></div></div>
       ${!PERSIST ? `<p class="ac-note">${t("progress_not_saved")}</p>` : ""}</header>
     ${cont}
-    ${!nDone && !certs.length && !x.total ? `<div class="ac-empty">${dog("sleep", { size: 110 })}</div>` : ""}
+    ${!nDone && !certs.length && !x.total && DOG_ON ? `<div class="ac-empty">${dog("sleep", { size: 110 })}</div>` : ""}
     <section class="ac-pcard" aria-labelledby="h-certs"><h2 id="h-certs">${I("cap")} ${t("certificates")}</h2>${certs.length ? certs.map(r => certHtml(r, S.routes[r.id].cert) + `<p><button type="button" class="ac-btn" data-act="printcert" data-v="${esc(r.id)}">${I("print")} ${t("cert_print")}</button></p>`).join("")
         : `<p class="ac-pnone">${t("cert_none")}${near ? " " + t("cert_nearest", { cert: near.r.certificate.title ? `«${near.r.certificate.title}»` : u("cert_title").toLocaleLowerCase(LANG), route: near.r.title, d: near.d, n: near.n }) : ""}</p>`}
       ${certs.length || S.name ? nameP : `<details class="ac-pname"><summary>${t("cert_name")}</summary>${nameP}</details>`}</section>

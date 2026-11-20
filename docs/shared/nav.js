@@ -143,7 +143,10 @@
      and the 404 page. Never on the rules guide, the rules spec and the rules trainer (owner 08.10.2026: they stay serious), so there
      window.ClayMascot is absent and sims.js draws no dog. A page can also opt out: <html data-mascot="off">. To show the dog in
      another section, add it to the condition below (one place). Production: the same rule in the page templates of clayarena.com. */
-  if (me && !window.ClayMascot && (SEC.nf || SEC.id === "glossary" || (SEC.id === "learn" && !SEC.sub)) && document.documentElement.getAttribute("data-mascot") !== "off") {
+  /* Owner decision 20.11.2026 (journal 124): no dog in the learning products («по-дитячому»): mascot.js is not loaded anywhere, so
+     window.ClayMascot is absent, sims.js draws no dog and the Academy writes no dog slots. To bring it back, restore the condition
+     (SEC.nf || SEC.id === "glossary" || (SEC.id === "learn" && !SEC.sub)) below. */
+  if (false && me && !window.ClayMascot && document.documentElement.getAttribute("data-mascot") !== "off") {
     try { const mj = document.createElement("script"); mj.src = ROOT + "shared/mascot.js"; mj.async = true; document.head.appendChild(mj); } catch (e) {}
   }
 
