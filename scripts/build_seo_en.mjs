@@ -39,7 +39,7 @@ ${alt(uk, en)}
 <meta property="og:locale" content="en_GB"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/${img}.png">
 <meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
 ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${CSS}.kp{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:14px 0}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}article p{font-size:17px;line-height:1.75}table{border-collapse:collapse;width:100%;font-size:14.5px}td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px}${css}</style>
+<style>${CSS}.kp{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:14px 0}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}article p{font-size:17px;line-height:1.75}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px}${css}</style>
 </head>
 <body>`;
   // Page header: the section as a breadcrumb (no second logo; the ONE ClayArena logo is in the project bar, docs/shared/nav.js)

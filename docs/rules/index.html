@@ -55,11 +55,11 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 .top-in{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:9px;display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap}
 /* Section name instead of a second logo (the ONE ClayArena logo is in the bar, docs/shared/nav.js) */
 .secname{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--ink);text-decoration:none;min-height:36px}
-.secname small{display:block;font-weight:400;font-size:11.5px;color:var(--muted)}
+.secname small{display:block;font-weight:400;font-size:12px;color:var(--muted)}
 .secname .ic{font-size:20px;color:#22D3EE;display:inline-flex}.ico{flex:none;vertical-align:-.14em}
 .spacer{flex:1}
 .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
-.seg button{border:0;background:transparent;padding:6px 12px;font-size:13.5px;color:var(--muted);white-space:nowrap;min-height:34px}
+.seg button{border:0;background:transparent;padding:6px 12px;font-size:14px;color:var(--muted);white-space:nowrap;min-height:34px}
 @media (pointer:coarse){.seg button{min-height:44px}}
 .seg button[aria-pressed="true"]{background:var(--primary);color:#fff;font-weight:600}
 .seg.disc button[aria-pressed="true"]{background:#fff;color:#030712}
@@ -87,7 +87,7 @@ p{margin:0 0 10px;max-width:72ch}
 .big .clr.on{display:grid}
 .big .clr:hover,.big .clr:focus-visible{color:#fff;background:rgba(255,255,255,.12)}
 .topics{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
-.topics button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:13.5px;color:var(--soft);min-height:38px}
+.topics button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:14px;color:var(--soft);min-height:38px}
 .topics button:hover{border-color:rgba(52,211,153,.5);color:#fff}
 .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0 0}
 @media(max-width:760px){.tiles{grid-template-columns:1fr;gap:8px}}
@@ -96,8 +96,8 @@ p{margin:0 0 10px;max-width:72ch}
 .tile.main{border-color:rgba(52,211,153,.45)}
 .tile .ic{font-size:22px;line-height:1.2;flex:none;color:#22D3EE}
 .tile>span:last-child{min-width:0}
-.tile b{display:block;font-size:15.5px}.tile span span{display:block;font-size:13px;color:var(--muted)}
-.meta{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;margin:14px 0 0}
+.tile b{display:block;font-size:16px}.tile span span{display:block;font-size:13px;color:var(--muted)}
+.meta{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;margin:14px 0 0}
 .meta a{color:var(--muted)}.meta a:hover{color:#fff}
 .btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px}
 .btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
@@ -106,16 +106,16 @@ p{margin:0 0 10px;max-width:72ch}
    the label «Відповідь» as the pill of «Що це» on a term page) */
 .ans-main{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid rgba(52,211,153,.35);border-radius:12px;padding:16px 18px}
 .ans-main .q{font-size:13px;color:var(--muted);margin-bottom:8px}.ans-main .lbl{display:inline-flex;align-items:center;margin-right:6px;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
-.ans-main .a{font-size:16.5px;line-height:1.65}
+.ans-main .a{font-size:17px;line-height:1.65}
 .refs{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-.refs button,.refs a{border:1px solid var(--line);background:rgba(255,255,255,.05);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--em);text-decoration:none}
+.refs button,.refs a{border:1px solid var(--line);background:rgba(255,255,255,.05);border-radius:999px;padding:3px 10px;font-size:13px;color:var(--em);text-decoration:none}
 .refs button.num{color:#6ee7b7;font-weight:600;letter-spacing:.04em}
 .also{font-size:13px;color:var(--muted)}
 .layout>*{min-width:0}
 .layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:26px;align-items:start;margin-top:22px}
 @media (max-width:900px){.layout{grid-template-columns:1fr}.toc{position:static!important;max-height:none!important}}
-.toc{position:sticky;top:70px;max-height:calc(100vh - 90px);overflow:auto;font-size:13.5px;padding-right:4px}
-.toc .part{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.toc{position:sticky;top:70px;max-height:calc(100vh - 90px);overflow:auto;font-size:14px;padding-right:4px}
+.toc .part{font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
 .toc button{display:block;width:100%;white-space:normal;overflow-wrap:anywhere;text-align:left;border:0;background:none;color:var(--soft);padding:4px 0 4px 10px;border-left:2px solid var(--line)}
 .toc button:hover,.toc button.on{color:#fff;border-left-color:var(--em)}
 .sec{margin-bottom:26px;scroll-margin-top:80px}
@@ -126,13 +126,13 @@ p{margin:0 0 10px;max-width:72ch}
 .item{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px;margin-bottom:10px;scroll-margin-top:80px}
 .item summary{cursor:pointer;list-style:none;padding:12px 14px;display:flex;gap:10px;align-items:flex-start}
 .item summary .ih{flex:1;min-width:0;display:grid;gap:7px}
-.item summary .ih b{font-size:16.5px;line-height:1.35}
+.item summary .ih b{font-size:17px;line-height:1.35}
 .itop{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
 .inum{display:inline-flex;align-items:center;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;white-space:nowrap}
-.iqg{display:inline-flex;align-items:center;padding:2px 9px;border-radius:999px;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);color:#FCD34D;font-size:11.5px;font-weight:600;white-space:nowrap}
+.iqg{display:inline-flex;align-items:center;padding:2px 9px;border-radius:999px;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.35);color:#FCD34D;font-size:12px;font-weight:600;white-space:nowrap}
 .secnav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0 8px}
 .secnav button{display:grid;gap:2px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;text-align:left;color:var(--ink);background:var(--surface);min-height:56px;font-weight:600}
-.secnav button small{font-size:11.5px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;font-weight:400}.secnav button.nx{text-align:right;grid-column:2}.secnav button:hover{border-color:var(--em)}
+.secnav button small{font-size:12px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;font-weight:400}.secnav button.nx{text-align:right;grid-column:2}.secnav button:hover{border-color:var(--em)}
 @media (max-width:520px){.secnav{grid-template-columns:1fr}.secnav button.nx{grid-column:1}}
 .item summary::-webkit-details-marker{display:none}
 .item summary::before{content:"+";color:var(--em);font-weight:700;width:12px;flex:none;line-height:1.6}
@@ -155,9 +155,9 @@ mark.hl{background:rgba(255,255,255,.12);color:#fff;border-radius:4px;padding:0 
 .iterms a{display:inline-block;line-height:24px;min-height:32px;padding:3px 11px;border:1px solid var(--line);border-radius:999px;color:var(--soft);text-decoration:none;font-size:13px}.iterms a:hover{border-color:var(--em);color:#fff}
 .iterms .more{font-size:12px;color:var(--muted);align-self:center;margin-right:2px}
 .gpop{position:absolute;z-index:90;width:max-content;max-width:min(320px,calc(100vw - 16px));background:#0B1120;border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:12px 14px 6px;box-shadow:0 14px 40px rgba(0,0,0,.6);font-size:14px;line-height:1.5;color:var(--soft)}
-.gpop b{display:block;color:#fff;font-size:15px;margin-bottom:4px}.gpop a{display:flex;align-items:center;min-height:40px;font-weight:600;color:var(--em);text-decoration:none}.gpop a:hover{text-decoration:underline}
+.gpop b{display:block;color:#fff;font-size:16px;margin-bottom:4px}.gpop a{display:flex;align-items:center;min-height:40px;font-weight:600;color:var(--em);text-decoration:none}.gpop a:hover{text-decoration:underline}
 @media print{.gpop{display:none!important}}
-.disclaimer{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:12.5px;color:var(--muted)}
+.disclaimer{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--muted)}
 .faqlist details{border-top:1px solid var(--line);padding:9px 0}
 .faqlist summary{cursor:pointer;font-weight:600}
 .faqlist p{margin:6px 0 0;color:var(--soft)}
@@ -180,7 +180,7 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
  .langs{display:block;position:relative;font-size:13px;flex:none}
  .langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;min-height:44px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}
  .langs summary::-webkit-details-marker{display:none}
- .langs summary::after{content:"▾";font-size:11px}
+ .langs summary::after{content:"▾";font-size:12px}
  .langs[open] summary{border-color:var(--em);color:#fff}
  .langs .menu{position:absolute;right:0;top:calc(100% + 6px);z-index:35;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;min-width:170px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
  .langs .menu button{border:0;background:none;text-align:left;color:var(--soft);padding:8px 10px;border-radius:8px;min-height:44px}
@@ -200,7 +200,7 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
  #where[aria-expanded="true"] .x{transform:rotate(180deg)}
  #whereList.open{display:block;position:fixed;left:0;right:0;top:48px;z-index:70;max-height:70vh;overflow:auto;background:#0B1120;border-bottom:1px solid var(--line);
    border-radius:0 0 16px 16px;padding:4px 16px 16px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
- #whereList .part{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
+ #whereList .part{font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
  #whereList button{display:block;width:100%;text-align:left;border:0;background:none;color:var(--soft);font-size:15px;min-height:44px;padding:8px 10px;border-left:2px solid var(--line)}
  #whereList button.on{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}
  .where-shade.open{display:block;position:fixed;inset:0;z-index:55;background:rgba(0,0,0,.55)}
@@ -473,7 +473,7 @@ function answerHTML(book){
   const I=idx(book); let h=`<div class="answer">`;
   const top=r.faq[0], topItem=r.items[0];
   if(r.lead){ const f=top.d.f; h+=`<div class="ans-main"><div class="q"><span class="lbl">${t("answer")}</span>${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?refBtn(I.byId[id]):"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdfS")} ${it.page} ↗</a>`).join("")}</div></div>`;
-    if(r.faq.length>1) h+=`<div class="also">${t("similar")}: ${r.faq.slice(1).map(x=>`<button class="btn" style="padding:2px 9px;font-size:12.5px" data-q="${esc(tx(x.d.f,"q"))}">${esc(tx(x.d.f,"q"))}</button>`).join(" ")}</div>`; }
+    if(r.faq.length>1) h+=`<div class="also">${t("similar")}: ${r.faq.slice(1).map(x=>`<button class="btn" style="padding:2px 9px;font-size:13px" data-q="${esc(tx(x.d.f,"q"))}">${esc(tx(x.d.f,"q"))}</button>`).join(" ")}</div>`; }
   if(r.items.length){ h+=`<h3 style="margin-top:6px">${t("rel")}</h3>`+r.items.slice(0,4).map((x,i)=>itemHTML(book,x.d.it,i===0&&!r.lead)).join(""); }
   return h+`</div>`;
 }

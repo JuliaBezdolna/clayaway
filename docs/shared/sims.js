@@ -320,20 +320,20 @@ function stopSims(){ SIMS.forEach(s => s.stop && s.stop()); SIMS = []; }
 const CSS = `.cs-sim{border:1px solid rgba(255,255,255,.1);border-radius:14px;overflow:hidden;background:#06101d;margin:16px 0}
 .cs-sim canvas{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;touch-action:manipulation}
 .cs-words{padding:8px 12px 2px;font-size:14px;line-height:1.45;color:#9CA3AF}.cs-words b{color:#F3F4F6}
-.cs-ctl{display:flex;gap:8px 12px;flex-wrap:wrap;align-items:center;padding:10px 12px;border-top:1px solid rgba(255,255,255,.1);font-size:13.5px;color:#D1D5DB}
+.cs-ctl{display:flex;gap:8px 12px;flex-wrap:wrap;align-items:center;padding:10px 12px;border-top:1px solid rgba(255,255,255,.1);font-size:14px;color:#D1D5DB}
 .cs-ctl label{display:flex;gap:6px;align-items:center;min-width:0;max-width:100%}.cs-ctl input[type=range]{width:110px;accent-color:#34D399}.cs-ctl input[type=checkbox]{accent-color:#FB923C}
 .cs-ctl select{background:#0B1120;color:#F3F4F6;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:5px 8px;font:inherit;min-width:0;max-width:100%;flex:1 1 auto;text-overflow:ellipsis}
 .cs-ico{flex:none}.cs-btn{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#F3F4F6;border-radius:10px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
 .cs-btn:hover{border-color:rgba(52,211,153,.5)}.cs-primary{background:#05845D;border-color:#05845D;color:#fff;font-weight:600}.cs-btn[disabled]{opacity:.45;cursor:default}
 .cs-btn:focus-visible{outline:2px solid #34D399;outline-offset:2px}
-.cs-play{min-height:44px;padding:9px 20px;font-size:15.5px}.cs-slow{min-height:44px}
+.cs-play{min-height:44px;padding:9px 20px;font-size:15px}.cs-slow{min-height:44px}
 .cs-slow[aria-pressed="true"]{border-color:#34D399;color:#34D399;background:rgba(52,211,153,.12)}
-.cs-out{padding:0 12px 12px;font-size:14px;color:#D1D5DB}.cs-out:empty{display:none}.cs-note{font-size:12.5px;color:#9CA3AF}.cs-hit{color:#34D399}.cs-miss{color:#FB923C}.cs-muted{color:#9CA3AF}
-.cs-say{padding:10px 12px 12px;font-size:14.5px;line-height:1.5;color:#E5E7EB;min-height:3.2em;border-top:1px solid rgba(255,255,255,.06)}
-.cs-scale{margin:0;padding:5px 12px 7px;font-size:12.5px;line-height:1.4;color:#9CA3AF}
+.cs-out{padding:0 12px 12px;font-size:14px;color:#D1D5DB}.cs-out:empty{display:none}.cs-note{font-size:13px;color:#9CA3AF}.cs-hit{color:#34D399}.cs-miss{color:#FB923C}.cs-muted{color:#9CA3AF}
+.cs-say{padding:10px 12px 12px;font-size:14px;line-height:1.5;color:#E5E7EB;min-height:3.2em;border-top:1px solid rgba(255,255,255,.06)}
+.cs-scale{margin:0;padding:5px 12px 7px;font-size:13px;line-height:1.4;color:#9CA3AF}
 .cs-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 -6px}.cs-tabs .cs-btn{min-height:40px}
 .cs-tie{overflow-x:auto;padding:10px 12px 2px}.cs-tie table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}.cs-tie caption{text-align:left;padding:0 0 4px}.cs-tie th,.cs-tie td{padding:6px 5px;text-align:center;border-bottom:1px solid rgba(255,255,255,.08);color:#E5E7EB;transition:background .3s}.cs-tie th{font-size:12px;color:#9CA3AF;font-weight:600}.cs-tie .cs-nm{font-weight:700}.cs-tie .cs-tc{background:rgba(34,211,238,.16)}.cs-tie .cs-w{color:#34D399;font-weight:700}.cs-tie .cs-x{color:#F87171;font-weight:700}.cs-tie tr.cs-gone td{opacity:.45}
-@media (max-width:440px){.cs-tie{padding:8px 6px 2px}.cs-tie table{font-size:12.5px}.cs-tie th,.cs-tie td{padding:5px 2px}.cs-tie th{font-size:11px}}
+@media (max-width:440px){.cs-tie{padding:8px 6px 2px}.cs-tie table{font-size:13px}.cs-tie th,.cs-tie td{padding:5px 2px}.cs-tie th{font-size:12px}}
 .cs-hero{margin:14px 0 20px}.cs-hero-h{font-weight:700;font-size:18px;color:#34D399;margin:0 0 4px}.cs-hero-w{font-size:14px;color:#9CA3AF;margin:4px 0 0}
 .cs-hero .cs-sim{margin:10px 0 0}
 .cs-cmp{overflow-x:auto}.cs-cmp table{border-collapse:collapse;width:100%;font-size:13px;margin-top:6px}.cs-cmp td,.cs-cmp th{padding:4px 6px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left;vertical-align:top}.cs-cmp th{color:#9CA3AF;font-weight:600}

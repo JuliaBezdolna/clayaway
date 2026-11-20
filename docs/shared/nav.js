@@ -206,8 +206,8 @@
 .ca-bar .ca-home{font-weight:800;margin-right:6px;background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent}
 .ca-bar .ca-home[aria-current]{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent;border-color:rgba(52,211,153,.5)}
 .ca-menu a[aria-current] b{color:#34D399}
-.ca-mk{font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:1px 5px;border-radius:5px;border:1px solid rgba(255,255,255,.3);color:#E5E7EB}
-.ca-tip{display:none;position:absolute;left:0;top:100%;margin-top:8px;z-index:40;width:max-content;max-width:300px;white-space:normal;background:#0B1120;color:#E5E7EB;border:1px solid ${color}80;border-radius:10px;padding:8px 11px;font-size:12.5px;line-height:1.4;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.ca-mk{font-size:12px;font-weight:700;letter-spacing:.04em;padding:1px 5px;border-radius:5px;border:1px solid rgba(255,255,255,.3);color:#E5E7EB}
+.ca-tip{display:none;position:absolute;left:0;top:100%;margin-top:8px;z-index:40;width:max-content;max-width:300px;white-space:normal;background:#0B1120;color:#E5E7EB;border:1px solid ${color}80;border-radius:10px;padding:8px 11px;font-size:13px;line-height:1.4;box-shadow:0 10px 30px rgba(0,0,0,.5)}
 .ca-tip::before{content:"";position:absolute;left:0;right:0;top:-10px;height:10px}
 .ca-w:last-child .ca-tip,.ca-w:nth-last-child(2) .ca-tip{left:auto;right:0}
 .ca-w:hover .ca-tip,.ca-w:focus-within .ca-tip{display:block}
@@ -218,14 +218,14 @@
 .ca-mbtn .ca-cs{color:${color}}
 .ca-menu{display:none;width:100%;padding:6px 0 8px}
 .ca-menu.on{display:block}
-.ca-menu a{display:flex;flex-wrap:wrap;gap:2px 8px;align-items:center;min-height:48px;width:100%;white-space:normal;border-radius:12px;padding:8px 12px;font-size:15px;color:#F3F4F6}
-.ca-menu a small{flex-basis:100%;font-size:12.5px;line-height:1.35;color:#9CA3AF;font-weight:400}
+.ca-menu a{display:flex;flex-wrap:wrap;gap:2px 8px;align-items:center;min-height:48px;width:100%;white-space:normal;border-radius:12px;padding:8px 12px;font-size:16px;color:#F3F4F6}
+.ca-menu a small{flex-basis:100%;font-size:13px;line-height:1.35;color:#9CA3AF;font-weight:400}
 .ca-menu li+li{margin-top:2px}
 @media (max-width:759.98px){.ca-list,.ca-bar .ca-home{display:none}.ca-mbtn{display:inline-flex}}
 @media (min-width:760px){.ca-menu,.ca-menu.on{display:none}}
 main[tabindex="-1"]:focus{outline:none}
 @media (pointer:coarse){.ca-bar a{min-height:44px}}
-.ca-hint,.ca-lang{background:#0B1120;border-bottom:1px solid rgba(255,255,255,.08);font:13.5px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#D1D5DB}
+.ca-hint,.ca-lang{background:#0B1120;border-bottom:1px solid rgba(255,255,255,.08);font:13px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#D1D5DB}
 .ca-hint>div,.ca-lang>div{max-width:1100px;margin:0 auto;padding:7px 12px;display:flex;gap:10px;align-items:center}
 .ca-tx{flex:1;min-width:0;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
 .ca-hint a,.ca-lang a{color:#fff;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:3px 10px;min-height:32px;display:inline-flex;align-items:center}
