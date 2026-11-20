@@ -19,7 +19,7 @@
      self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.map(n=>caches.delete(n))))
        .then(()=>self.registration.unregister())));
    In production (clayarena.com) this depends on question T-10 to the ClayArena team: may the product sections run a service worker. */
-const VERSION = "2"; // 2: one footer on offline.html (journal 122)
+const VERSION = "3"; // 2: one footer on offline.html (journal 122); 3: its line across the window (journal 123)
 const CORE = "clayarena-core-" + VERSION, PAGES = "clayarena-pages", FILES = "clayarena-files";
 const WAIT = 4000, MAX_PAGES = 400, MAX_FILES = 300;
 const BASE = self.registration.scope; // https://juliabezdolna.github.io/clayaway/

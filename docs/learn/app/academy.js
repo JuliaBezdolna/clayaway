@@ -1227,20 +1227,45 @@
         if (!own) ids = Object.keys(GLO.T);
         const day = today(), due = ids.filter(id => S.cards[id] && S.cards[id].due <= day), fresh = shuffle(ids.filter(id => !S.cards[id]));
         session = shuffle(due).concat(fresh).slice(0, 12); }
-      const keep = flip => rounds.set(g.id, { sig: "", k, flip: !!flip, own, items: session });
+      /* the card (design-mockups/term-cards-new.html, journal 123): both sides are drawn at once and the card turns over (no
+         motion with «reduce motion»); the progress line has one mark per card of the session (green = «Знаю», red = «Ще ні»); keys inside the game: Space turns, 1 = «Ще ні», 2 = «Знаю», V = voice.
+         The voice is the recorded Glossary file (glossary/audio/<id>.mp3, 301 of the terms), else the device voice (ClaySpeak). */
+      const marks = (sv && Array.isArray(sv.marks) ? sv.marks : []).slice(0, session.length);
+      const stageOf = c => !c ? "new" : c.box >= 5 ? "solid" : c.box >= 3 ? "known" : "learning";
+      const keep = flip => rounds.set(g.id, { sig: "", k, flip: !!flip, own, items: session, marks });
       const show = flip => { const id = session[k], x = GLO.term(id), c = S.cards[id];
         if (!x) { k++; return k < session.length ? show(false) : fin(); }
         keep(flip); gameResume(g, k, session.length);
-        host.innerHTML = `<p class="ac-meta">${t(own ? "cards_source" : "cards_source_all")} · ${t("cards_learnt", { n: learnt })} · ${k + 1}/${session.length}${c ? ` · ${t("cards_box", { n: c.box })}` : ""}</p>${k === 0 && U.cards_rule != null ? `<p class="ac-muted ac-small">${t("cards_rule")}</p>` : ""}
-          <div class="ac-flash"><p class="ac-flash-en" lang="en">${esc(x.en)}</p>${"speechSynthesis" in window ? `${sayBtn(`data-say="${esc(x.en)}"`, x.en)}` : ""}
-          ${flip ? `${x.local ? `<p class="ac-flash-local"><b>${esc(x.local)}</b></p>` : ""}<p>${esc(x.short)}</p><p><a href="${x.url}">${t("glossary_page")} →</a></p>
-            <p><button type="button" class="ac-btn primary" data-k="know">✓ ${t("card_know")}</button> <button type="button" class="ac-btn" data-k="again">${t("card_again")}</button></p>`
-          : `<p><button type="button" class="ac-btn primary" data-k="flip">${t("card_show")}</button></p>`}</div>`;
-        const q = s => host.querySelector(`[data-k="${s}"]`);
-        if (!flip) { q("flip").onclick = () => show(true); q("flip").focus(); return; }
-        const grade = know => { const cur = S.cards[id] || { box: 0 }, box = know ? Math.min(5, cur.box + 1) : 1, d = new Date(); d.setDate(d.getDate() + (know ? DAYS[box] : 0));
-          S.cards[id] = { box, due: P.today(d) }; answerXP(g, know); k++; if (k < session.length) show(false); else fin(); };
-        q("know").onclick = () => grade(true); q("again").onclick = () => grade(false); q("know").focus(); };
+        const src = SITE + "glossary/audio/" + encodeURIComponent(id) + ".mp3";
+        const pill = `<button type="button" class="ac-say ac-say-pill" data-say="${esc(x.en)}" data-src="${src}" aria-label="${t("listen")}: ${esc(x.en)}" title="${t("listen")}">${SAY_ICON}<span>${t("listen")}</span></button>`;
+        const stage = `<div class="ac-tc-top"><span class="ac-tc-stage">${t("card_stage_" + stageOf(c))}</span></div>`;
+        host.innerHTML = `<p class="ac-meta">${t(own ? "cards_source" : "cards_source_all")} · ${t("cards_learnt", { n: learnt })}</p>${k === 0 && U.cards_rule != null ? `<p class="ac-muted ac-small">${t("cards_rule")}</p>` : ""}
+          <div class="ac-tc"><div class="ac-tc-prog"><ol class="ac-tc-dots" aria-hidden="true">${session.map((s2, i) => `<li class="${marks[i] || (i === k ? "cur" : "")}"></li>`).join("")}</ol><span class="ac-tc-n">${k + 1} / ${session.length}</span></div>
+          <div class="ac-tc-scene"><div class="ac-tc-card${flip ? " is-flip" : ""}">
+            <div class="ac-tc-face ac-tc-front"${flip ? ' aria-hidden="true"' : ""}>${stage}<div class="ac-tc-mid"><p class="ac-tc-term" lang="en">${esc(x.en)}</p>${pill}</div>
+              <button type="button" class="ac-tc-flipbtn" data-k="flip"${flip ? ' tabindex="-1"' : ""}>${I("repeat")} ${t("card_flip")}</button></div>
+            <div class="ac-tc-face ac-tc-back" tabindex="-1"${flip ? "" : ' aria-hidden="true"'}>${stage}<div class="ac-tc-mid"><p class="ac-tc-term ac-tc-term-s"><span lang="en">${esc(x.en)}</span> ${sayBtn(`data-say="${esc(x.en)}" data-src="${src}"${flip ? "" : ' tabindex="-1"'}`, x.en)}</p>
+              ${x.local ? `<p class="ac-tc-local">${esc(x.local)}</p>` : ""}<p class="ac-tc-def">${esc(x.short)}</p><p class="ac-tc-link"><a href="${x.url}"${flip ? "" : ' tabindex="-1"'}>${t("glossary_page")} →</a></p></div></div></div></div>
+          <div class="ac-tc-grade"><button type="button" class="ac-tc-no" data-k="again"${flip ? "" : " disabled"}>${t("card_again")}</button>
+            <button type="button" class="ac-tc-yes" data-k="know"${flip ? "" : " disabled"}>✓ ${t("card_know")}</button></div>
+          <p class="ac-tc-keys">${t("card_keys")}</p></div>`;
+        const q = s2 => host.querySelector(`[data-k="${s2}"]`), card = host.querySelector(".ac-tc-card"), box = host.querySelector(".ac-tc");
+        const turn = () => { if (flip) return; flip = true; keep(true); card.classList.add("is-flip");
+          host.querySelector(".ac-tc-front").setAttribute("aria-hidden", "true"); host.querySelector(".ac-tc-back").removeAttribute("aria-hidden");
+          q("flip").tabIndex = -1; host.querySelectorAll(".ac-tc-back [tabindex='-1']:not(.ac-tc-back)").forEach(el => el.removeAttribute("tabindex"));
+          q("again").disabled = false; q("know").disabled = false; host.querySelector(".ac-tc-back").focus({ preventScroll: true }); };
+        const grade = know => { const cur = S.cards[id] || { box: 0 }, bx = know ? Math.min(5, cur.box + 1) : 1, d = new Date(); d.setDate(d.getDate() + (know ? DAYS[bx] : 0));
+          S.cards[id] = { box: bx, due: P.today(d) }; marks[k] = know ? "ok" : "no"; answerXP(g, know); k++; if (k < session.length) show(false); else fin(); };
+        q("flip").onclick = turn;
+        card.onclick = e => { if (!e.target.closest("button,a")) turn(); };
+        q("know").onclick = () => grade(true); q("again").onclick = () => grade(false);
+        box.onkeydown = e => { if (e.altKey || e.ctrlKey || e.metaKey) return; const key = e.key.toLowerCase();
+          if (key === " " && !flip) { e.preventDefault(); turn(); }
+          else if (flip && key === "1") { e.preventDefault(); grade(false); }
+          else if (flip && key === "2") { e.preventDefault(); grade(true); }
+          else if (key === "v") { e.preventDefault(); const b = host.querySelector(flip ? ".ac-tc-back .ac-say-pill, .ac-tc-front .ac-say-pill" : ".ac-tc-front .ac-say-pill"); if (b) say(b.dataset.say, b.dataset.src, b); } };
+        if (window.ClaySpeak == null) speakReady().catch(() => {});
+        (flip ? host.querySelector(".ac-tc-back") : q("flip")).focus({ preventScroll: true }); };
       const fin = () => { rounds.clear(g.id); if (window.ClayNav) ClayNav.clearResume("learn"); roundEnd(g, 0, 0);
         host.innerHTML = `<div class="ac-empty">${dogOk(g) ? dog("happy", { size: 64 }) : ""}<p class="ac-ok">✓ ${t("cards_done")}</p></div><p><button type="button" class="ac-btn primary" data-k="more">${t("play_again")}</button></p>`; host.querySelector('[data-k="more"]').onclick = () => { rounds.clear(g.id); GAMES[g.id](host, g); }; };
       if (!session.length) { rounds.clear(g.id); host.innerHTML = `<p class="ac-ok">✓ ${t("cards_done")}</p>`; return; }
