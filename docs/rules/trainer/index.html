@@ -190,7 +190,7 @@ p{margin:0 0 10px;max-width:70ch}
 </head>
 <body><div class="ca-slot"></div>
 <header class="top"><div class="top-in">
-  <nav class="crumbs" id="crumbs" aria-label="Навігаційний ланцюжок"><span aria-hidden="true">🎓</span><a href="../../learn/">Академія</a><span aria-hidden="true">›</span><a href="../../learn/practice/">Практика</a><span aria-hidden="true">›</span><span aria-current="page">Тренажер правил</span></nav>
+  <nav class="crumbs" id="crumbs" aria-label="Навігаційний ланцюжок"><span aria-hidden="true" data-ico="cap" style="color:#34D399;display:inline-flex"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/></svg></span><a href="../../learn/">Академія</a><span aria-hidden="true">›</span><a href="../../learn/practice/">Практика</a><span aria-hidden="true">›</span><span aria-current="page">Тренажер правил</span></nav>
   <span class="spacer"></span>
   <div class="seg disc" role="group" aria-label="Дисципліна" id="discG"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak®<span class="lg"> Sporting</span></button></div>
   <select id="tlang" aria-label="Мова" style="background:var(--surface2,#0B1120);color:var(--ink,#F3F4F6);border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:13.5px;min-height:36px"></select>
@@ -200,6 +200,11 @@ p{margin:0 0 10px;max-width:70ch}
 <script src="../data/quiz-sporting.js"></script>
 <script src="../data/quiz-compak.js"></script>
 <!-- the rules books, the term labels and the animations are loaded after the first paint: DEPS / READY in the script below -->
+<script>
+/* Line icons (scripts/icons.mjs, 20.11.2026). The copy below and <span data-ico="…"> are written by `bun scripts/sync_icons.mjs`. */
+/* icons:begin TRAINER_I cap */const TRAINER_I = {"cap":'<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/>'};/* icons:end */
+const TI = k => `<svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${TRAINER_I[k]}</svg>`;
+</script>
 <script>
 /* ClayArena · FITASC rules trainer.
    Questions: docs/rules/data/quiz-<key>.js (format rules/QUIZ_SCHEMA.md in the repository, outside docs/); every question cites rule item ids (refs)
@@ -393,7 +398,7 @@ const rulesA=(cls,d)=>`<a class="${cls}" data-rules="${d||P.disc}" href="${esc(r
 /* Breadcrumb of the header: Academy home › Academy Practice › this trainer (links of the bar: published Academy languages). */
 function crumbsHTML(){ const N=window.ClayNav&&ClayNav.link, a=N&&ClayNav.link("learn",L()), p=N&&ClayNav.link("practice",L());
   const home=a?a.url:"../../"+(L()==="uk"?"":"en/")+"learn/", prac=p?p.url:home+"practice/";
-  return `<span aria-hidden="true">🎓</span><a href="${esc(home)}"${a&&a.lang!==L()?` hreflang="${a.lang}"`:""}>${esc(a?a.name:t("learn"))}</a><span aria-hidden="true">›</span><a href="${esc(prac)}"${p&&p.lang!==L()?` hreflang="${p.lang}"`:""}>${esc(N?ClayNav.name("practice",L()):t("practice"))}</a><span aria-hidden="true">›</span><span aria-current="page">${esc(N?ClayNav.name("trainer",L()):t("svc"))}</span>`; }
+  return `<span aria-hidden="true" style="color:#34D399;display:inline-flex">${TI("cap")}</span><a href="${esc(home)}"${a&&a.lang!==L()?` hreflang="${a.lang}"`:""}>${esc(a?a.name:t("learn"))}</a><span aria-hidden="true">›</span><a href="${esc(prac)}"${p&&p.lang!==L()?` hreflang="${p.lang}"`:""}>${esc(N?ClayNav.name("practice",L()):t("practice"))}</a><span aria-hidden="true">›</span><span aria-current="page">${esc(N?ClayNav.name("trainer",L()):t("svc"))}</span>`; }
 document.addEventListener("claynav:update",()=>{ document.querySelectorAll("a[data-learn]").forEach(a=>{ a.href=learnHref(); a.textContent="← "+learnName(); });
   document.querySelectorAll("a[data-rules]").forEach(a=>{ a.href=rulesHref(a.dataset.rules); a.textContent="← "+rulesName(); });
   const c=document.getElementById("crumbs"); if(c) c.innerHTML=crumbsHTML(); saveRun(); });
@@ -473,7 +478,7 @@ function homeView(){
   const d=dname(P.disc), qs=QUIZ[P.disc]||[], s=st();
   if(!qs.length) return `<h1>${t("title").replace("{d}",d)}</h1><div class="empty">${t("none")}</div>`;
   const acc=s.ans?Math.round(s.ok/s.ans*100):0, rec=FROM_LEARN&&WANT_MODE==="short";
-  const it=(k,sub,right,opt)=>`<button class="${opt&&opt.rec?"rec":""}" data-start="${k}" ${opt&&opt.dis?"disabled":""}><span class="tx"><b>${t(modeKey(k))}</b><span>${sub}</span>${opt&&opt.note?`<small>🎓 ${opt.note}</small>`:""}</span>${right?`<em>${right}</em>`:""}</button>`;
+  const it=(k,sub,right,opt)=>`<button class="${opt&&opt.rec?"rec":""}" data-start="${k}" ${opt&&opt.dis?"disabled":""}><span class="tx"><b>${t(modeKey(k))}</b><span>${sub}</span>${opt&&opt.note?`<small>${TI("cap")} ${opt.note}</small>`:""}</span>${right?`<em>${right}</em>`:""}</button>`;
   const best=v=>`${t("best")}<strong>${v}%</strong>`;
   const quick=it("quick",t("quickS"),"");
   const short=it("short",t("shortS"),s.short_best!=null?best(s.short_best):"",{rec,note:FROM_LEARN?t("forLearn"):""});

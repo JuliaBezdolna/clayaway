@@ -73,6 +73,7 @@ import path from "node:path";
 import vm from "node:vm";
 import { createHash } from "node:crypto";
 import { BASE as SITE_BASE, LANGS, OG_LOCALE, esc, tm, legal, readFitascIndex } from "./site_common.mjs";
+import { svgIcon } from "./icons.mjs";
 import * as lint from "./academy/lint.mjs";
 import { ruleIndex, rulePath } from "./rules_paths.mjs";
 // one static page per rules chapter (scripts/rules_paths.mjs): filled when the rules data is read, used by U.rule
@@ -1349,7 +1350,7 @@ export async function buildAcademy(o = {}) {
 #app{min-height:100vh}.st-hold{display:block;width:0;height:32px}
 .st-crumbs{color:#9CA3AF;font-size:13px;margin:0 0 8px}.st-crumbs a{color:#9CA3AF}.st-crumbs a:hover{color:#F3F4F6}
 .st-langs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}.st-langs a{font-size:12px;padding:3px 9px;border:1px solid rgba(255,255,255,.1);border-radius:999px;text-decoration:none;color:#D1D5DB}.st-langs a[aria-current]{border-color:#34D399;color:#34D399}
-.st{max-width:912px;margin:0 auto;padding:0 16px 40px;overflow-wrap:break-word}.st.st-wide{max-width:912px}.st p,.st li{color:#D1D5DB}.st h2{margin:30px 0 10px}
+.st{max-width:912px;margin:0 auto;padding:0 16px 40px;overflow-wrap:break-word}.st.st-wide{max-width:912px}.st p,.st li{color:#D1D5DB}.st h2{margin:32px 0 12px}
 .st-body p{font-size:17px;line-height:1.75}.st-lead{font-size:18px}.st-small,.st-ref{font-size:13px;color:#9CA3AF!important}.st-ref a{color:#9CA3AF}
 .st-meta{font-size:13px;color:#9CA3AF;display:flex;gap:6px 10px;flex-wrap:wrap;align-items:center;margin:4px 0}
 .st-badge{display:inline-block;font-size:13px;font-weight:600;line-height:1.5;color:#D1D5DB;text-decoration:none}a.st-badge{font-size:12px;padding:1px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.18)}
@@ -1365,7 +1366,7 @@ export async function buildAcademy(o = {}) {
 .st-banner{border:1px solid rgba(251,191,36,.55);background:rgba(251,191,36,.08);color:#FBBF24!important;border-radius:12px;padding:10px 14px;margin:12px 0;font-size:14px}
 .st details{border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:2px 16px;margin:16px 0;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05))}.st details>summary{cursor:pointer;font-weight:700;padding:9px 0}.st details details{background:transparent;padding:0 12px}
 .st-ph{margin:0}.st-ph q{font-weight:700;color:#F3F4F6;quotes:none}.st-q{margin:14px 0}.st-opts{list-style:upper-alpha;padding-left:22px}
-.st-law h2{font-size:17px;margin:16px 0 6px}
+.st-law h2{font-size:20px;margin:16px 0 6px}
 .st-tw{overflow-x:auto;border:1px solid rgba(255,255,255,.1);border-radius:12px;margin:10px 0}.st table{border-collapse:collapse;width:100%;font-size:14px}.st td,.st th{border-bottom:1px solid rgba(255,255,255,.1);padding:8px 10px;text-align:left;vertical-align:top}.st th{font-size:12px;color:#9CA3AF}
 .st-chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0;padding:0;list-style:none}.st-chips a,.st-chips span{font-size:13px;text-decoration:none;color:#D1D5DB}.st-chips a{padding:3px 10px;border:1px solid rgba(255,255,255,.1);border-radius:999px}
 .st-list{list-style:none;padding:0;margin:0;display:grid;gap:10px}.st-list>li{margin:0}.st-list>li>a{font-weight:700;text-decoration:none;font-size:17px}.st-list p{margin:4px 0 0;font-size:14.5px}
@@ -1414,7 +1415,7 @@ ${(pg.ld || []).map(x => `<script type="application/ld+json">${JSON.stringify(x)
 <style>${CSS}</style>
 </head>
 <body data-academy="${esc(JSON.stringify(pg.data || {}))}">
-<header id="acTop"><div class="ac-top-in">${built.home[L] ? `<a class="ac-brand" href="${esc(U.home(L))}">` : `<span class="ac-brand">`}<span aria-hidden="true">🎓</span> <span>${esc(academyName(L))}</span>${built.home[L] ? "</a>" : "</span>"}<span class="ac-spacer"></span><span class="st-hold" aria-hidden="true"></span></div></header>
+<header id="acTop"><div class="ac-top-in">${built.home[L] ? `<a class="ac-brand" href="${esc(U.home(L))}">` : `<span class="ac-brand">`}<span aria-hidden="true">${svgIcon("cap")}</span> <span>${esc(academyName(L))}</span>${built.home[L] ? "</a>" : "</span>"}<span class="ac-spacer"></span><span class="st-hold" aria-hidden="true"></span></div></header>
 <main id="app"><div class="st${pg.wide ? " st-wide" : ""}">
 ${crumbs ? `<nav class="st-crumbs" aria-label="${esc(S(L, "breadcrumbs"))}">${crumbs}</nav>\n` : ""}${pg.body}
 </div></main>
@@ -1618,9 +1619,9 @@ ${gb.length ? `<ul class="st-chips">${gb.map(bid => `<li><a href="${esc(U.block(
     // section heading as in the app (viewHome → shead): icon tile · h2 · dividing line · count; classes from academy.css
     const shead = (ic, h, count) => `<div class="ac-shead"><span class="ac-sic" aria-hidden="true">${ic}</span><h2>${h}</h2><span class="ac-sline" aria-hidden="true"></span><span class="ac-sn">${esc(count)}</span></div>`;
     const body = `<h1>${esc(S(L, "home_hero_h1"))}</h1><p class="st-lead">${esc(tm(S(L, "home_hero_lead")))}</p>
-<section id="h-who">${shead("🧭", esc(S(L, "who_are_you")), plural(L, "n_routes", rs.length, "routes"))}<div class="st-cards">${rs.filter(r => r.primary).concat(rs.filter(r => !r.primary)).map(rcard).join("")}</div></section>
-<section id="topics">${shead("📚", esc(S(L, "topics")), plural(L, "n_topics", bs.length, "topics"))}<div class="st-cards">${bs.map(bcard).join("")}</div></section>
-${built.practice[L] ? `<section id="h-prac">${shead("🎯", `<a href="${esc(U.practice(L))}">${esc(S(L, "practice"))}</a>`, plural(L, "n_trainers", gl.length, "practice"))}<ul class="st-chips">${gl.map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_trainer"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("")}</ul></section>` : ""}
+<section id="h-who">${shead(svgIcon("compass"), esc(S(L, "who_are_you")), plural(L, "n_routes", rs.length, "routes"))}<div class="st-cards">${rs.filter(r => r.primary).concat(rs.filter(r => !r.primary)).map(rcard).join("")}</div></section>
+<section id="topics">${shead(svgIcon("layers"), esc(S(L, "topics")), plural(L, "n_topics", bs.length, "topics"))}<div class="st-cards">${bs.map(bcard).join("")}</div></section>
+${built.practice[L] ? `<section id="h-prac">${shead(svgIcon("pad"), `<a href="${esc(U.practice(L))}">${esc(S(L, "practice"))}</a>`, plural(L, "n_trainers", gl.length, "practice"))}<ul class="st-chips">${gl.map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_trainer"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("")}</ul></section>` : ""}
 <p class="st-small">${esc(S(L, "saved_local"))}</p>`;
     shell({ kind: "home", L, url, title: tm(S(L, "home_title")), h1: S(L, "home_hero_h1"), desc, index: true, alts, ogType: "website", img: ogImg(L, "home"), wide: true,
       ld: [{ "@context": "https://schema.org", "@type": "CollectionPage", name: t, description: desc, url, inLanguage: L, publisher: ld.org,

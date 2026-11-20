@@ -25,6 +25,7 @@ import { readdirSync, mkdirSync, writeFileSync, readFileSync, existsSync } from 
 import { resolve } from "path";
 import vm from "node:vm";
 import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
+import { svgIcon, SECTION_COLOR } from "./icons.mjs";
 import { buildAcademy, minifySims } from "./build_academy.mjs";
 import { checkRulesData } from "./check_rules_data.mjs";
 import { ruleIndex, rulePath } from "./rules_paths.mjs";
@@ -171,7 +172,7 @@ h3{font-size:17px;margin:20px 0 4px}.ref{font-size:12.5px;color:var(--muted)}p,l
 .src{font-size:13px;color:var(--muted)}article.item{border-top:1px solid var(--line);padding-top:4px}.faq details{border-top:1px solid var(--line);padding:9px 0}.faq summary{cursor:pointer;font-weight:600}
 .disc{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:12.5px;color:var(--muted)}
 .legal{margin:14px 0 0;font-size:12px;color:var(--muted)}.legal a{color:var(--muted)}
-nav.crumbs{font-size:14px;display:flex;flex-wrap:wrap;gap:4px 7px;align-items:center}nav.crumbs a{color:var(--soft);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}nav.crumbs a:hover{color:#fff;text-decoration:underline}nav.crumbs [aria-current]{color:var(--ink);font-weight:600}
+.ico{flex:none;vertical-align:-.14em}nav.crumbs{font-size:14px;display:flex;flex-wrap:wrap;gap:4px 7px;align-items:center}nav.crumbs a{color:var(--soft);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}nav.crumbs a:hover{color:#fff;text-decoration:underline}nav.crumbs [aria-current]{color:var(--ink);font-weight:600}
 a:focus-visible,summary:focus-visible{outline:2px solid var(--em);outline-offset:2px;border-radius:6px}
 details.langs{position:relative;font-size:13px}details.langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;min-height:34px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}details.langs summary::-webkit-details-marker{display:none}details.langs summary::after{content:"▾";font-size:11px}
 details.langs[open] summary{border-color:var(--em);color:#fff}details.langs nav{position:absolute;right:0;top:calc(100% + 6px);z-index:35;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;min-width:170px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
@@ -194,7 +195,7 @@ const crumbs = (lang, icon, items) => `<nav class="crumbs" aria-label="${BREAD[l
   + (i === items.length - 1 ? `<span aria-current="page">${esc(x.label)}</span>` : `<a href="${x.url}"${x.vl ? " data-vl" : ""}>${esc(x.label)}</a>`)).join("")}</nav>`;
 // langSwitch(cur, [{l, url}]): disclosure «🌐 Українська ▾» with the languages in the order of LANGS (works without JS)
 const langSwitch = (cur, items) => { const list = LANGS.map(l => items.find(x => x.l === l)).filter(Boolean);
-  return `<details class="langs"><summary lang="${cur}"><span aria-hidden="true">🌐</span> ${LANG_NAME[cur]}<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> · ${LANGW[cur]}</span></summary><nav aria-label="${LANGW[cur]}">${list.map(x => `<a href="${x.url}" hreflang="${x.l}" lang="${x.l}" data-setlang="${x.l}"${x.l === cur ? ' aria-current="true"' : ""}>${LANG_NAME[x.l]}</a>`).join("")}</nav></details>`; };
+  return `<details class="langs"><summary lang="${cur}"><span aria-hidden="true">${svgIcon("globe")}</span> ${LANG_NAME[cur]}<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> · ${LANGW[cur]}</span></summary><nav aria-label="${LANGW[cur]}">${list.map(x => `<a href="${x.url}" hreflang="${x.l}" lang="${x.l}" data-setlang="${x.l}"${x.l === cur ? ' aria-current="true"' : ""}>${LANG_NAME[x.l]}</a>`).join("")}</nav></details>`; };
 
 // Phone navigation of the static rules pages (wave 2, 09.11.2026; the same "you are here" line as the guide /rules/, variant B of
 // design-mockups/rules-header-toc-mobile.html). At ≤860 px the contents box above the text (220 px, its own scroll) is hidden — only
@@ -345,7 +346,7 @@ function page(key, lang) {
   const redirect = `;(function(){var M=${JSON.stringify(map)},h=decodeURIComponent(location.hash.slice(1)),m=/^(ch\\d+)-/.exec(h);if(m&&M[m[1]])location.replace(location.pathname.replace(/index\\.html$/,"")+M[m[1]]+"/"+location.search+location.hash);})()`;
   const html = `${headHTML({ lang, title, desc, url, alt: { uk: urlOf("uk", key), en: urlOf("en", key) }, ld, extra: redirect })}
 <body>
-<header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d }])}
+<header><div class="in">${crumbs(lang, svgIcon("rbook", SECTION_COLOR.rules), [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d }])}
 <span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: urlOf(o, key) }])}</div></header>
 ${whereHTML(key, T)}
 <div class="wrap">
@@ -355,7 +356,7 @@ ${whereHTML(key, T)}
 <h1>${esc(T.h1(d))}</h1>
 <p>${T.lead}</p>
 <p class="src">${T.src}: <a href="${esc(b.source.url)}" ${NF}>${T.off} ↗</a> · ${T.ed}: ${esc(b.source.edition)} · ${T.updated}: ${TODAY}</p>
-<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">🎯 ${T.trainer}</a></div>
+<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">${svgIcon("pad")} ${T.trainer}</a></div>
 <h2>${T.contents}</h2>
 ${parts.map(p => `<p class="parth">${T.part} ${esc(p)}</p>\n` + b.sections.filter(s => s.part === p).map(s => { const sl = slugOf(s);
   return `<section class="chap" id="${s.id}"><h3><small>${s.chapter ? T.ch + " " + s.chapter + " · " : ""}${T.nItems(s.items.length)}</small><a href="${sl}/">${esc(tx(s, "title"))}</a></h3>
@@ -398,7 +399,7 @@ function chapterPage(key, lang, i) {
   const secnav = `<nav class="secnav" aria-label="${T.nav}">${pv ? `<a href="../${slugOf(pv)}/"><small>${T.prev}</small>${chapName(pv, lang)}</a>` : `<a href="../"><small>←</small>${T.allCh}</a>`}${nx ? `<a class="nx" href="../${slugOf(nx)}/"><small>${T.next}</small>${chapName(nx, lang)}</a>` : `<a class="nx" href="../#faq"><small>→</small>${T.faq}</a>`}</nav>`;
   const html = `${headHTML({ lang, title, desc, url, alt: { uk: chapUrl("uk", key, s), en: chapUrl("en", key, s) }, ld })}
 <body>
-<header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d, url: "../" }, { label: chLbl }])}
+<header><div class="in">${crumbs(lang, svgIcon("rbook", SECTION_COLOR.rules), [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d, url: "../" }, { label: chLbl }])}
 <span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: chapUrl(o, key, s) }])}</div></header>
 ${whereHTML(key, T)}
 <div class="wrap">
@@ -413,7 +414,7 @@ ${s.items.map(it => itemHTML(b, it, lang, "h2", defs)).join("\n")}
 </section>
 ${faq.length ? `<div id="faq" class="faq"><h2>${T.chFaq}</h2>${faq.map(f => faqHTML(f, lang)).join("\n")}</div>` : ""}
 ${secnav}
-<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">🎯 ${T.trainer}</a></div>
+<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">${svgIcon("pad")} ${T.trainer}</a></div>
 <div class="disc">${T.disc}</div>${legal(lang)}
 </main></div>
 <script>${RULES_JS}</script>
@@ -507,7 +508,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <style>${css}${GS.CSS}${G3D.has((url.match(/\/glossary\/([^/]+)\/$/) || [])[1]) ? GL3D_CSS : ""}</style>
 </head>
 <body>
-<header><div class="in">${crumbs("uk", "📖", name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">📘 Правила FITASC</a>
+<header><div class="in">${crumbs("uk", svgIcon("gbook", SECTION_COLOR.glossary), name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">${svgIcon("rbook")} Правила FITASC</a>
 <!-- langs -->${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: enUrl }])}<!-- /langs --></div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">${body}
 <div class="disc">Глосарій ClayArena побудовано на нашому переказі регламентів FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}</main>
@@ -753,7 +754,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <style>${CSS}table{border-collapse:collapse;width:100%;font-size:14.5px}td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}th{color:var(--muted);font-size:12px;text-transform:uppercase}.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px}</style>
 </head>
 <body>
-<header><div class="in">${crumbs("uk", "📘", [{ label: "Правила FITASC", url: `${BASE}rules/?lang=uk`, vl: 1 }, { label: "Категорії" }])}<span style="flex:1"></span>${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: BASE + "rules/en/categories/" }])}</div></header>
+<header><div class="in">${crumbs("uk", svgIcon("rbook", SECTION_COLOR.rules), [{ label: "Правила FITASC", url: `${BASE}rules/?lang=uk`, vl: 1 }, { label: "Категорії" }])}<span style="flex:1"></span>${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: BASE + "rules/en/categories/" }])}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 <div class="src">FITASC · Sporting™ · Compak® Sporting</div>
 <h1>Категорії FITASC: хто такий Junior, Lady, Senior, Veteran, Master</h1>
@@ -762,7 +763,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 ${teams ? `<h2>Національні команди</h2><div class="tw"><table><thead><tr><th>Команда</th><th>Хто може</th><th>Склад</th><th>Примітка</th></tr></thead><tbody>${teams}</tbody></table></div>` : ""}
 ${(C.notes_uk || []).length ? `<ul>${C.notes_uk.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
 <p class="src">Джерело: <a href="${esc(C.source_url)}" ${NF}>FITASC — Catégories, limites d'âge ↗</a> · ${TODAY}</p>
-<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=uk">📘 Правила FITASC</a><a class="btn" href="${BASE}glossary/">📖 Глосарій</a><a class="btn" href="${BASE}learn/">🎓 Академія ClayArena</a></div>
+<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=uk">${svgIcon("rbook")} Правила FITASC</a><a class="btn" href="${BASE}glossary/">${svgIcon("gbook")} Глосарій</a><a class="btn" href="${BASE}learn/">${svgIcon("cap")} Академія ClayArena</a></div>
 <div class="disc">Наш переказ офіційних категорій FITASC. Чинним є лише текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}
 </main></body></html>`;
   mkdirSync(`${DOCS}/rules/categories`, { recursive: true });

@@ -92,8 +92,11 @@
     try { const j = await r.json(); return { v: j.v, at: Number(r.headers.get("x-clay-saved")) || 0 }; } catch (e) { return null; }
   }
   async function getList() { const r = await fetch(LIST, { cache: "no-cache", headers: { "X-Clay-Pack": "1" } }); if (!r.ok) throw new Error(r.status); return r.json(); }
+  /* line icons (scripts/icons.mjs, 20.11.2026); the copy is written by `bun scripts/sync_icons.mjs` */
+  /* icons:begin OFF_I signal down */const OFF_I = {"signal":'<path d="M3 20h.01M8 20v-4M13 20v-8M18 20V7"/>',"down":'<path d="M12 3v12M7 10l5 5 5-5M4 21h16"/>'};/* icons:end */
+  const OI = k => `<svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" style="vertical-align:-.14em">${OFF_I[k]}</svg>`;
   async function draw(state, o = {}) {
-    const P = esc(pname()), head = `<h2>📶 ${esc(S.h)}</h2>`;
+    const P = esc(pname()), head = `<h2>${OI("signal")} ${esc(S.h)}</h2>`;
     if (state === "saving") { box.innerHTML = `${head}<p>${esc(fmt(S.saving, { i: o.i, n: o.n }))}</p><div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${o.n}" aria-valuenow="${o.i}"><i style="width:${Math.round(o.i / o.n * 100)}%"></i></div><p class="m">${esc(S.keep)}</p>`; return; }
     if (state === "saved") { box.innerHTML = `${head}<p class="ok">✓ ${fmt(esc(S.saved), { p: P })}</p><p class="m">${esc(fmt(S.when, { d: date(o.at) }))}${o.upd ? " " + esc(S.upd) : ""}</p>
       <div class="row">${o.upd ? `<button class="go" data-a="save">${esc(S.update)}</button>` : ""}<button class="ln" data-a="del">${esc(S.del)}</button></div>`; return; }
@@ -101,7 +104,7 @@
     const sz = list ? `<p class="m">${fmt(esc(S.size), { p: P, mb: num(list.gz / 1048576, 1) }).replace(/≈ (\S+) /,"≈ $1 ")}</p>` : "";
     if (state === "fail") { box.innerHTML = `${head}<p>${esc(fmt(S.fail, { k: o.k }))}</p><div class="row"><button class="go" data-a="save">${esc(S.retry)}</button></div>`; return; }
     if (state === "offline") { box.innerHTML = `${head}<p class="m">${esc(S.off)}</p>`; return; }
-    box.innerHTML = `<div class="top"><div>${head}${sz}</div><button class="go" data-a="save">⬇ ${fmt(esc(S.save), { p: P })}</button></div>`;
+    box.innerHTML = `<div class="top"><div>${head}${sz}</div><button class="go" data-a="save">${OI("down")} ${fmt(esc(S.save), { p: P })}</button></div>`;
   }
   async function refresh() {
     const meta = await savedMeta();

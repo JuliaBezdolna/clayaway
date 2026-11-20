@@ -93,12 +93,14 @@
     hu: ["Adatvédelmi tájékoztató", "Jogi információk", "Kapcsolat (jogtulajdonosoknak is)"],
     fi: ["Tietosuojaseloste", "Oikeudelliset tiedot", "Yhteystiedot (myös oikeudenhaltijoille)"],
     lt: ["Privatumo politika", "Teisinė informacija", "Kontaktai (taip pat teisių turėtojams)"] };
-  /* Icons: the data carries a word (blocks.json / routes.json "icon"), the app shows an emoji (decorative, aria-hidden). */
-  const ICON = { flag: "🏁", shield: "🛡️", tool: "🧰", target: "🎯", stance: "🧍", calendar: "📅", mind: "🧠", whistle: "📣", trophy: "🏆",
-    plane: "✈️", speech: "🗣️", eye: "👁️", people: "👥", family: "👨‍👩‍👧", seedling: "🌱", medal: "🏅", child: "🧒", clipboard: "📋", heart: "💚", coach: "🧑‍🏫",
-    "lead-lab": "📐", "name-the-flight": "〰️", "translate-the-coach": "🗣️", "referees-call": "🧑‍⚖️", "term-cards": "🃏", phrasebook: "📒",
-    "rules-exam": "📝", routine: "⏱️" };
-  const icon = k => ICON[k] || "•";
+  /* Icons (20.11.2026, design-mockups/academy-icons.html, variant B): line icons of scripts/icons.mjs, one meaning each in the
+     Academy, the rules and the Glossary. The data carries the icon key (blocks.json / routes.json "icon"); the games are keyed by id.
+     The copy below is written by `bun scripts/sync_icons.mjs` — edit scripts/icons.mjs, not this line. */
+  /* icons:begin SVG_I flag shield tool clay aim dumbbell focus rbook trophy plane chat tv hands sprout medal mic parent whistle cal heart ruler flight phones scale cards note exam repeat cap pad compass layers globe search lock print check timer slider bulb warn med wrench */const SVG_I = {"flag":'<path d="M5 21V4"/><path d="M5 4h12l-2.5 4L17 12H5"/>',"shield":'<path d="M12 3 4.5 6v5.5c0 4.6 3.2 8 7.5 9.5 4.3-1.5 7.5-4.9 7.5-9.5V6z"/><path d="m9 12 2 2 4-4"/>',"tool":'<rect x="3" y="8" width="18" height="12" rx="2"/><path d="M9 8V5h6v3M3 13h18M10 13v2h4v-2"/>',"clay":'<ellipse cx="14" cy="15" rx="8" ry="2.6"/><path d="M6.3 14.4C7.3 11 10.3 9 14 9s6.7 2 7.7 5.4"/><ellipse cx="14" cy="9.6" rx="2.6" ry=".9"/><path d="M2 9.5h3M1.5 13h2.5"/>',"aim":'<circle cx="12" cy="12" r="7.5"/><circle cx="12" cy="12" r="1.2"/><path d="M12 2v5M12 17v5M2 12h5M17 12h5"/>',"dumbbell":'<path d="M6.5 6.5v11M17.5 6.5v11M3 9.5v5M21 9.5v5M6.5 12h11"/>',"focus":'<path d="M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/><circle cx="12" cy="12" r="3.5"/>',"rbook":'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/><path d="M9 7h7M9 11h5"/>',"trophy":'<path d="M8 21h8M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 6H4.5a3 3 0 0 0 3 4.5M17 6h2.5a3 3 0 0 1-3 4.5"/>',"plane":'<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.3c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',"chat":'<path d="M21 12a8.5 8.5 0 0 1-12.2 7.6L3 21l1.5-5A8.5 8.5 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/>',"tv":'<rect x="2.5" y="6" width="19" height="13" rx="2"/><path d="m8 2 4 4 4-4"/><path d="m10 10 4 2.5-4 2.5z"/>',"hands":'<path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.9-3.9a2 2 0 0 0-2.8 0l-.9.9a1 1 0 1 1-3-3l2.8-2.8a2.9 2.9 0 0 1 3.6-.4l.5.3a2 2 0 0 0 1.4.3L21 4l1 7-2 2"/><path d="M5 3 2 4l1 7 6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/>',"sprout":'<path d="M12 22V11"/><path d="M12 11C12 6.5 8.5 4 3.5 4c0 4.8 3.5 7 8.5 7z"/><path d="M12 14c0-3.8 2.8-6 7.5-6 0 3.8-2.8 6-7.5 6z"/>',"medal":'<circle cx="12" cy="15" r="6"/><path d="M7.5 2 10 9.3M16.5 2 14 9.3"/><path d="m12 12.5.9 1.8 2 .3-1.5 1.4.4 2-1.8-1-1.8 1 .4-2-1.5-1.4 2-.3z"/>',"mic":'<rect x="9" y="2.5" width="6" height="11" rx="3"/><path d="M5 10.5a7 7 0 0 0 14 0M12 17.5V21M8.5 21h7"/>',"parent":'<circle cx="8" cy="6" r="3"/><path d="M3 21v-3.5a5 5 0 0 1 10 0V21"/><circle cx="17.5" cy="11" r="2.2"/><path d="M14.5 21v-2a3 3 0 0 1 6 0v2"/>',"whistle":'<circle cx="9" cy="14" r="6"/><circle cx="9" cy="14" r="1.6"/><path d="M13.5 10H21V7H9"/>',"cal":'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M8 14h2M14 14h2M8 17.5h2"/>',"heart":'<path d="M12 20.5s-8-4.8-8-10.7A4.6 4.6 0 0 1 12 7a4.6 4.6 0 0 1 8 2.8c0 5.9-8 10.7-8 10.7z"/>',"ruler":'<path d="M3 21V3l18 18z"/><path d="M7 17v-4.5l4.5 4.5z"/><path d="M3 8h2M3 12h2"/>',"flight":'<path d="M3 20C6.5 11 12 7 20.5 6.5"/><path d="m17 3.5 3.5 3-3 3.5"/><circle cx="4" cy="19" r="1"/>',"phones":'<path d="M3.5 18v-6a8.5 8.5 0 0 1 17 0v6"/><rect x="3" y="14" width="4.5" height="7" rx="1.5"/><rect x="16.5" y="14" width="4.5" height="7" rx="1.5"/>',"scale":'<path d="M12 3v18M6 21h12M5 7h14"/><path d="m5 7-3 7a3 3 0 0 0 6 0z"/><path d="m19 7-3 7a3 3 0 0 0 6 0z"/>',"cards":'<rect x="3" y="7" width="12" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4"/>',"note":'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 3v18M12.5 8h3M12.5 12h3"/>',"exam":'<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="m8.5 15 2.5 2.5 4.5-5"/>',"repeat":'<path d="m17 2 4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="m7 22-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/>',"cap":'<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/>',"pad":'<rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M6.5 12.5h4M8.5 10.5v4"/><path d="M15.5 12h.01M18 13.5h.01"/>',"compass":'<circle cx="12" cy="12" r="9.5"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',"layers":'<path d="m12 3 9.5 5L12 13 2.5 8z"/><path d="m2.5 12.5 9.5 5 9.5-5"/><path d="m2.5 16.5 9.5 5 9.5-5"/>',"globe":'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19z"/>',"search":'<circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/>',"lock":'<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',"print":'<path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><rect x="7" y="14" width="10" height="7" rx="1"/>',"check":'<rect x="3" y="3" width="18" height="18" rx="2"/><path d="m8 12 3 3 5-6"/>',"timer":'<circle cx="12" cy="14" r="8"/><path d="M12 10v4l2.5 2.5M9.5 2h5M12 2v4"/>',"slider":'<path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/>',"bulb":'<path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/>',"warn":'<path d="M10.3 3.9 2 18a2 2 0 0 0 1.7 3h16.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/>',"med":'<path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/>',"wrench":'<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/>'};/* icons:end */
+  const I = k => `<svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${SVG_I[k]}</svg>`;
+  const GAME_IC = { "lead-lab": "ruler", "name-the-flight": "flight", "translate-the-coach": "phones", "referees-call": "scale", "term-cards": "cards",
+    phrasebook: "note", "rules-exam": "exam", routine: "repeat" };
+  const icon = k => { const x = GAME_IC[k] || k; return SVG_I[x] ? I(x) : "•"; };
   const SIM_TYPES = ["flight", "lead", "pair", "call"]; // what ClaySims.mount can draw ("call" = stand scenes: call and release, gun position, misfire)
   // the Practice games that draw animations (keep in step with SIM_GAMES in scripts/build_academy.mjs)
   const SIM_GAMES = new Set(["lead-lab", "name-the-flight", "referees-call", "term-cards"]);
@@ -227,7 +229,7 @@
     if (!sk && !document.querySelector(".ca-skip")) { sk = document.createElement("a"); sk.className = "ac-skip"; sk.href = "#app"; document.body.insertBefore(sk, $("acTop")); }
     if (sk) sk.textContent = u("skip_link");
     $("acTop").innerHTML = `<div class="ac-top-in">
-      <a class="ac-brand" href="${href("")}" data-nav><span aria-hidden="true">🎓</span> <span>${t("academy_name")}</span></a>
+      <a class="ac-brand" href="${href("")}" data-nav><span aria-hidden="true">${I("cap")}</span> <span>${t("academy_name")}</span></a>
       <span class="ac-spacer"></span>
       <a class="ac-level" href="${href("progress/")}" data-nav title="${t("progress")}"><span>${esc(lv.level.title)}</span>
         <span class="ac-bar" role="progressbar" aria-label="${t("level")}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${lv.pct}"><i style="width:${lv.pct}%"></i></span>
@@ -255,7 +257,7 @@
     return href(pathOf(LOC), l); }
   /* The one line about progress: right under the content of every page (not in the footer, where nobody finds it); on the
      Progress page itself without the link. */
-  const savedLine = () => `<p class="ac-saved"><span aria-hidden="true">🎓</span> <span>${PERSIST ? t("saved_all") : `<b>${t("progress_not_saved")}</b>`}</span>${LOC.view === "progress" ? "" : ` <a href="${href("progress/")}" data-nav>${t("progress_link")} →</a>`}</p>`;
+  const savedLine = () => `<p class="ac-saved"><span aria-hidden="true">${I("cap")}</span> <span>${PERSIST ? t("saved_all") : `<b>${t("progress_not_saved")}</b>`}</span>${LOC.view === "progress" ? "" : ` <a href="${href("progress/")}" data-nav>${t("progress_link")} →</a>`}</p>`;
   function renderFoot() {
     const p = CA_PATH[LANG] || "en", lg = LEGAL[LANG] || LEGAL.en;
     $("acFoot").innerHTML = `<div class="ac-foot-in">
@@ -272,16 +274,16 @@
     let vl = null; try { vl = JSON.parse(localStorage.getItem("clayarena-lang") || "null"); } catch (e) {}
     let pref = (LANGS.includes(vl) ? vl : null) || S.lang; if (!pref) { const n = (navigator.language || "").slice(0, 2).toLowerCase(); pref = n === "cz" ? "cs" : n; }
     if (!LANGS.includes(pref) || pref === LANG) return "";
-    return `<div class="ac-banner" lang="${pref}"><span aria-hidden="true">🌐</span> <a href="${urlInLang(pref)}" hreflang="${pref}">${LANG_NAMES[pref]} →</a>
+    return `<div class="ac-banner" lang="${pref}"><span aria-hidden="true">${I("globe")}</span> <a href="${urlInLang(pref)}" hreflang="${pref}">${LANG_NAMES[pref]} →</a>
       <button type="button" class="ac-x" data-act="langoff" aria-label="${t("close")}">✕</button></div>`;
   }
   let toastT = 0;
-  function toast(msg) { const el = $("acToast"); if (!el) return; el.textContent = msg; el.classList.add("on"); clearTimeout(toastT); toastT = setTimeout(() => el.classList.remove("on"), 2600); }
+  function toast(msg, html) { const el = $("acToast"); if (!el) return; if (html) el.innerHTML = msg; else el.textContent = msg; el.classList.add("on"); clearTimeout(toastT); toastT = setTimeout(() => el.classList.remove("on"), 2600); }
   const announce = msg => { const el = $("acLive"); if (el) { el.textContent = ""; setTimeout(() => { el.textContent = msg; }, 30); } };
   function celebrate(res) { const parts = [];
-    for (const id of res.badges || []) { const b = badgeById(id); if (b) parts.push("🏅 " + b.title); }
-    for (const id of res.certs || []) { const r = routeById(id); if (r) parts.push("🎓 " + r.title); }
-    if (parts.length) setTimeout(() => toast(parts.join(" · ")), 900); }
+    for (const id of res.badges || []) { const b = badgeById(id); if (b) parts.push(I("medal") + " " + esc(b.title)); }
+    for (const id of res.certs || []) { const r = routeById(id); if (r) parts.push(I("cap") + " " + esc(r.title)); }
+    if (parts.length) setTimeout(() => toast(parts.join(" · "), true), 900); }
 
   /* ================================ 7. Small components ================================ */
   /* ---- The Academy mascot (docs/shared/mascot.js → window.ClayMascot, loaded by docs/shared/nav.js; DEVELOPERS.md §4j).
@@ -330,7 +332,7 @@
     const pl = pageLink(r, `routes/${r.id}/`);
     return `<a class="ac-card ac-route${big ? " big" : ""}${cur ? " is-current" : ""}" href="${pl.url}"${pl.en ? ' hreflang="en"' : " data-nav"} data-route="${esc(r.id)}">
       <span class="ac-ic" aria-hidden="true">${icon(r.icon)}</span><h3>${esc(r.title)}${pl.en ? ' <span class="ac-tag" lang="en">EN</span>' : ""}</h3><p>${esc(r.for)}</p>
-      <span class="ac-meta">${plural("n_lessons", req.length)} · ~${mins((r.totals && r.totals.minutes) || req.reduce((s, id) => s + ((L(id) || {}).minutes || 0), 0))} · ${r.certificate ? "🎓 " + t("cert_title") : "🏅 " + t("badge_word")}</span>
+      <span class="ac-meta">${plural("n_lessons", req.length)} · ~${mins((r.totals && r.totals.minutes) || req.reduce((s, id) => s + ((L(id) || {}).minutes || 0), 0))} · ${r.certificate ? I("cap") + " " + t("cert_title") : I("medal") + " " + t("badge_word")}</span>
       ${d ? `<span class="ac-meta">${bar(d, req.length, r.title)} ${d}/${req.length}</span>` : ""}</a>`;
   }
   function blockCard(b) {
@@ -359,7 +361,7 @@
     return `<div class="ac-seg" role="group" aria-label="${t("my_discipline")}"><span class="ac-seg-l">${t("my_discipline")}:</span>${["both", "sporting", "compak"].map(d =>
       `<button type="button" data-act="disc" data-v="${d}" aria-pressed="${S.disc === d}">${discName(d)}</button>`).join("")}</div>`;
   }
-  const discSelect = () => `<label class="ac-chip ac-discsel"><span aria-hidden="true">🎯</span><span class="ac-sr">${t("my_discipline")}</span><select data-discsel>${["both", "sporting", "compak"].map(d =>
+  const discSelect = () => `<label class="ac-chip ac-discsel"><span aria-hidden="true">${I("slider")}</span><span class="ac-sr">${t("my_discipline")}</span><select data-discsel>${["both", "sporting", "compak"].map(d =>
     `<option value="${d}"${S.disc === d ? " selected" : ""}>${d === "both" ? t("disc_both_long") : discName(d)}</option>`).join("")}</select></label>`;
   const crumbs = (items, cls) => `<nav class="ac-crumbs${cls ? " " + cls : ""}" aria-label="${t("breadcrumbs")}"><ol>${items.map((x, i) => `<li>${x.url && i < items.length - 1 ? `<a href="${x.url}" data-nav>${esc(x.label)}</a>` : `<span${i === items.length - 1 ? ' aria-current="page"' : ""}>${esc(x.label)}</span>`}</li>`).join("")}</ol></nav>`;
   const home = () => ({ label: u("academy_name"), url: href("") });
@@ -408,21 +410,21 @@
     /* «Вперше тут?» (пакет Б, 18.11.2026, card A in grey): one way in for a new visitor instead of 7 routes + 13 topics + 8 trainers */
     if (!r && !anyDone) { const r0 = routesSorted()[0], f = r0 && required(r0)[0], c0 = f && L(f), h0 = f && lessonHref(f);
       if (c0 && h0) cont = `<section class="ac-fix ac-start" aria-labelledby="h-start1"><div class="ac-fixh"><span class="ac-fixk">${t("start_k")}</span><h2 id="h-start1">${t("start_route_h", { route: r0.title })}</h2></div>
-        <p class="ac-startp">${esc(r0.for)} ${plural("n_lessons", required(r0).length)} · ~${mins((r0.totals && r0.totals.minutes) || 0)} · <span aria-hidden="true">${r0.certificate ? "🎓" : "🏅"}</span> ${r0.certificate ? t("cert_title") : t("badge_word")}${r0.certificate && r0.certificate.title ? ` «${esc(r0.certificate.title)}»` : ""}. ${t("start_first", { lesson: c0.title, min: `${c0.minutes || 4} ${u("min")}` }).replace(/\.\.$/, ".")}</p>
+        <p class="ac-startp">${esc(r0.for)} ${plural("n_lessons", required(r0).length)} · ~${mins((r0.totals && r0.totals.minutes) || 0)} · <span aria-hidden="true">${r0.certificate ? I("cap") : I("medal")}</span> ${r0.certificate ? t("cert_title") : t("badge_word")}${r0.certificate && r0.certificate.title ? ` «${esc(r0.certificate.title)}»` : ""}. ${t("start_first", { lesson: c0.title, min: `${c0.minutes || 4} ${u("min")}` }).replace(/\.\.$/, ".")}</p>
         <p class="ac-startacts"><a class="ac-btn primary" href="${withRoute(h0.url, r0.id)}"${h0.en ? ' hreflang="en"' : " data-nav"} data-route="${esc(r0.id)}">${t("start")}: ${esc(c0.title)} →</a><a class="ac-btn" href="${href("")}#h-who">${t("start_other")} ↓</a></p></section>`; }
     const prim = routesSorted().filter(x => x.primary), more = routesSorted().filter(x => !x.primary), games = (CAT.practice || []).filter(g => !g.later);
     setHead({ title: u("home_title"), desc: u("home_desc"), index: true, langs: LANGS });
     return `${langBanner()}${demoNote()}
     <section class="ac-hero"><div class="ac-eyebrow">ClayArena · ${t("disc_sporting")} · ${t("disc_compak")}</div><h1 tabindex="-1">${t("home_hero_h1")}</h1><p>${t("home_hero_short")}</p>
       <div class="ac-search" role="search" aria-label="${t("search")}"><label for="acQ" class="ac-sr">${t("search")}</label>
-        <span class="ac-qwrap"><span class="ac-qic" aria-hidden="true">🔍</span><input id="acQ" type="search" autocomplete="off" placeholder="${t("search")}" value="${esc(VIEW.q || "")}"><button type="button" class="ac-qclr${VIEW.q ? " on" : ""}" data-qclr aria-label="${t("search_clear")}">✕</button></span>
+        <span class="ac-qwrap"><span class="ac-qic" aria-hidden="true">${I("search")}</span><input id="acQ" type="search" autocomplete="off" placeholder="${t("search")}" value="${esc(VIEW.q || "")}"><button type="button" class="ac-qclr${VIEW.q ? " on" : ""}" data-qclr aria-label="${t("search_clear")}">✕</button></span>
         <div id="acQR" aria-live="polite"></div></div></section>
     ${cont}
-    <section aria-labelledby="h-who">${shead("h-who", "🧭", t("who_are_you"), plural("n_routes", routesSorted().length))}<p class="ac-muted">${t("who_hint")}</p>
+    <section aria-labelledby="h-who">${shead("h-who", I("compass"), t("who_are_you"), plural("n_routes", routesSorted().length))}<p class="ac-muted">${t("who_hint")}</p>
       <div class="ac-grid ac-grid-routes">${prim.concat(more).map(x => routeCard(x, true)).join("")}</div></section>
-    <section aria-labelledby="h-topics" id="topics"><div class="ac-h2row">${shead("h-topics", "📚", t("topics"), plural("n_topics", blocksSorted().length))}${discSwitch()}</div>
+    <section aria-labelledby="h-topics" id="topics"><div class="ac-h2row">${shead("h-topics", I("layers"), t("topics"), plural("n_topics", blocksSorted().length))}${discSwitch()}</div>
       <div class="ac-grid ac-grid-blocks">${blocksSorted().map(blockCard).join("")}</div></section>
-    <section aria-labelledby="h-prac"><div class="ac-h2row">${shead("h-prac", "🎯", t("practice"), plural("n_trainers", games.length))}<a href="${href("practice/")}" data-nav>${t("practice_all")} →</a></div>
+    <section aria-labelledby="h-prac"><div class="ac-h2row">${shead("h-prac", I("pad"), t("practice"), plural("n_trainers", games.length))}<a href="${href("practice/")}" data-nav>${t("practice_all")} →</a></div>
       <div class="ac-grid ac-grid-games">${games.map(g => gameCard(g)).join("")}</div></section>`;
   }
   /* home section heading: icon tile · h2 · dividing line · count (the same classes on the static home, build_academy.mjs) */
@@ -488,18 +490,18 @@
     /* a practice item with "stage" + "after" (routes.json) is also a step inside its stage, right after that lesson (пакет А, 18.11.2026) */
     const pracRow = p => { const g = gameById(p.item.game); if (!g) return ""; const ok = p.ok && !p.waiting, x = practiceReqText(p.item), i = x.indexOf(": ");
       const link = practiceReqLink(p.item, r.id), nav = link && link.startsWith(href(""));
-      return `<li class="ac-prow"><a class="ac-les${ok ? " is-done" : ""}" href="${esc(link || "#")}"${nav ? " data-nav" : ""}><span class="ac-ck" aria-hidden="true">${ok ? "✓" : "🎯"}</span><span class="ac-les-t"><b>${t("route_prac_row", { game: gameTitle(g) })}</b><span class="ac-les-m">${t("prac_trainer")} · ${esc(i > 0 ? x.slice(i + 2) : "")}${ok ? " · " + t("req_done") : ""}</span></span></a></li>`; };
+      return `<li class="ac-prow"><a class="ac-les${ok ? " is-done" : ""}" href="${esc(link || "#")}"${nav ? " data-nav" : ""}><span class="ac-ck" aria-hidden="true">${ok ? "✓" : I("pad")}</span><span class="ac-les-t"><b>${t("route_prac_row", { game: gameTitle(g) })}</b><span class="ac-les-m">${t("prac_trainer")} · ${esc(i > 0 ? x.slice(i + 2) : "")}${ok ? " · " + t("req_done") : ""}</span></span></a></li>`; };
     const stageList = s => { const ps = st.practice.filter(p => p.item.stage === s.id);
       return `<ol class="ac-lessons">${s.lessons.map((lid, i) => lessonRow(lid, { n: i + 1, route: r.id }) + ps.filter(p => p.item.after === lid).map(pracRow).join("")).join("")}</ol>`; };
     const step = (x, i) => { const done = x.ok && !x.waiting;
       const act = done ? `<span class="ac-cs-ok">${t("req_done")}</span>`
         : x.link ? `<a class="ac-btn primary ac-cs-go" href="${x.link}"${x.link.startsWith(href("")) ? " data-nav" : ""}>${x.exam ? t("req_take") : t("req_go")} →</a>`
-        : x.exam ? `<span class="ac-cs-lock"><span aria-hidden="true">🔒</span> ${t("req_after_lessons")}</span>` : "";
+        : x.exam ? `<span class="ac-cs-lock"><span aria-hidden="true">${I("lock")}</span> ${t("req_after_lessons")}</span>` : "";
       return `<li class="ac-cs${done ? " ok" : ""}"><span class="ac-cs-n" aria-hidden="true">${done ? "✓" : i + 1}</span><span class="ac-cs-t"><b>${esc(x.head)}</b>${x.need ? `<span>${esc(x.need).replace(/(\d) %/g, "$1 %")}${x.waiting ? ` (${t("req_waiting")})` : ""}</span>` : ""}${x.n != null ? `<span class="ac-cs-prog">${bar(x.d, x.n, x.head)}<span>${t("route_progress", { done: "\u0001", total: x.n }).replace("\u0001", `<b>${x.d}</b>`)}</span></span>` : ""}</span>${act}</li>`; };
     return `${langBanner()}${crumbs([home(), { label: u("routes"), url: href("") + "#h-who" }, { label: r.title }])}
     <header class="ac-head ac-rhead"><div class="ac-eyebrow"><span aria-hidden="true">${icon(r.icon)}</span> ${t("route_word")}</div><h1 tabindex="-1">${esc(r.title)}</h1>
       <p class="ac-lead">${esc(r.for)}</p>
-      <p class="ac-rinfo"><span>${plural("n_lessons", st.total)}</span><span>~${mins((r.totals && r.totals.minutes) || 0)}</span><span><span aria-hidden="true">${r.certificate ? "🎓" : "🏅"}</span> ${r.certificate ? t("cert_title") : t("badge_word")}${r.certificate && r.certificate.title ? ` «${esc(r.certificate.title)}»` : ""}</span></p>
+      <p class="ac-rinfo"><span>${plural("n_lessons", st.total)}</span><span>~${mins((r.totals && r.totals.minutes) || 0)}</span><span><span aria-hidden="true">${r.certificate ? I("cap") : I("medal")}</span> ${r.certificate ? t("cert_title") : t("badge_word")}${r.certificate && r.certificate.title ? ` «${esc(r.certificate.title)}»` : ""}</span></p>
       ${r.disclaimer ? `<p class="ac-note">${esc(r.disclaimer)}</p>` : ""}
       <div class="ac-rfoot"><p class="ac-rprog">${bar(st.done, st.total, r.title)} <span>${t("route_progress", { done: "\u0001", total: st.total }).replace("\u0001", `<b>${st.done}</b>`)}</span></p>
       <p class="ac-racts">${nx ? `<a class="ac-btn primary" href="${h ? withRoute(h.url, r.id) : "#"}"${h && !h.en ? " data-nav" : ""} data-route="${esc(r.id)}">${st.done ? t("continue") : t("start_stage")} →</a>`
@@ -508,16 +510,16 @@
     <ol class="ac-stages">${r.stages.map((s, i) => { const sd = s.lessons.filter(done).length, all = sd === s.lessons.length;
       return `<li class="ac-stage${all ? " is-done" : ""}" id="stage-${esc(s.id)}"><details${(!all && (i === 0 || r.stages[i - 1].lessons.every(done))) || (nx && s.lessons.includes(nx)) ? " open" : ""}>
         <summary><span class="ac-stage-n" aria-hidden="true">${all ? "✓" : i + 1}</span><span class="ac-stage-t"><b>${t("stage")} ${i + 1}. ${esc(s.title)}</b>
-        <span class="ac-meta">${plural("n_lessons", s.lessons.length)}${st.practice.some(p => p.item.stage === s.id) ? " " + t("stage_plus_trainer") : ""} · ~${mins(s.minutes)} · ${sd}/${s.lessons.length}${all ? " · 🏅 " + esc((badgeById(s.badge) || {}).title || "") : ""}</span></span></summary>
+        <span class="ac-meta">${plural("n_lessons", s.lessons.length)}${st.practice.some(p => p.item.stage === s.id) ? " " + t("stage_plus_trainer") : ""} · ~${mins(s.minutes)} · ${sd}/${s.lessons.length}${all ? " · " + I("medal") + " " + esc((badgeById(s.badge) || {}).title || "") : ""}</span></span></summary>
         ${stageList(s)}</details></li>`; }).join("")}</ol>
     ${(r.extras || []).length ? `<details class="ac-extras"><summary><h2>${t("route_extras")}</h2><span class="ac-meta">${plural("n_lessons", r.extras.length)} · ${t("route_extras_d")}</span></summary>${lessonList(r.extras, { route: r.id, summary: true })}</details>` : ""}
-    <section class="ac-certbox" id="certificate" aria-labelledby="h-cert"><div class="ac-cs-head"><span class="ac-cs-ic" aria-hidden="true">${r.certificate ? "🎓" : "🏅"}</span><div><span class="ac-eyebrow">${r.certificate ? t("cert_title") : t("badge_word")}</span>
+    <section class="ac-certbox" id="certificate" aria-labelledby="h-cert"><div class="ac-cs-head"><span class="ac-cs-ic" aria-hidden="true">${r.certificate ? I("cap") : I("medal")}</span><div><span class="ac-eyebrow">${r.certificate ? t("cert_title") : t("badge_word")}</span>
       <h2 id="h-cert">${r.certificate && r.certificate.title ? `«${esc(r.certificate.title)}»` : `${t("route_word")} «${esc(r.title)}»`}</h2></div></div>
-      ${st.complete || st.cert ? (r.certificate ? certHtml(r, st.cert) + `<p><button type="button" class="ac-btn primary" data-act="printcert" data-v="${esc(r.id)}">🖨 ${t("cert_print")}</button> <a class="ac-btn" href="${href("progress/")}#name" data-nav>${t("cert_name")}</a></p>` : `<p class="ac-ok">🏅 ${t("badge_earned")}</p>`) : ""}
+      ${st.complete || st.cert ? (r.certificate ? certHtml(r, st.cert) + `<p><button type="button" class="ac-btn primary" data-act="printcert" data-v="${esc(r.id)}">${I("print")} ${t("cert_print")}</button> <a class="ac-btn" href="${href("progress/")}#name" data-nav>${t("cert_name")}</a></p>` : `<p class="ac-ok">${I("medal")} ${t("badge_earned")}</p>`) : ""}
       <ol class="ac-csteps">${reqs.map(step).join("")}</ol>
       ${legacy ? `<p class="ac-muted">${t("cert_legacy")}</p>` : ""}
       <details class="ac-means"><summary>${t(r.certificate ? "cert_means" : "badge_means")}</summary><p>${t(r.certificate ? "cert_means_p" : "badge_means_p")}</p><p><b>${t("cert_disclaimer")}</b>${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p></details></section>
-    ${r.checklist ? `<section aria-labelledby="h-chk"><h2 id="h-chk">📋 ${esc(r.checklist.title)}</h2><p class="ac-muted">${t("checklist_d")}</p><button type="button" class="ac-btn" data-act="checklist" data-v="${esc(r.id)}">🖨 ${t("checklist_print")}</button></section>` : ""}`;
+    ${r.checklist ? `<section aria-labelledby="h-chk"><h2 id="h-chk">${I("check")} ${esc(r.checklist.title)}</h2><p class="ac-muted">${t("checklist_d")}</p><button type="button" class="ac-btn" data-act="checklist" data-v="${esc(r.id)}">${I("print")} ${t("checklist_print")}</button></section>` : ""}`;
   }
   /* «Практика ↔ навчання» (пакет А, 18.11.2026). The trainers of a lesson: the games whose topics include the lesson's topic
      (practice.json "blocks"); the more exact one first (lessons on lead → Lead lab, on targets → Name the flight); at most 2. */
@@ -548,7 +550,7 @@
     const rows = pick.map(id => { const c = L(id), h = lessonHref(id), b = blockById(c.block), ok = done(id);
       const meta = [ok ? `✓ ${t("lesson_done")}` : "", `${c.minutes || 4} ${t("min")}`, c.level === 1 && !ok ? `★ ${t("start_here")}` : "", b ? esc(b.title) : ""].filter(Boolean).join(" · ");
       const go = ok ? t("g_reread") : t("g_read");
-      return fixRow(b ? icon(b.icon) : "📘", `${esc(c.title)}${h.en ? ' <span class="ac-tag" lang="en">EN</span>' : ""}`, esc(c.summary || ""), meta, ok,
+      return fixRow(b ? icon(b.icon) : I("exam"), `${esc(c.title)}${h.en ? ' <span class="ac-tag" lang="en">EN</span>' : ""}`, esc(c.summary || ""), meta, ok,
         `<a class="ac-btn${ok ? "" : " primary"} ac-fixgo" href="${h.url}"${h.en ? ' hreflang="en"' : " data-nav"} aria-label="${go}: ${esc(c.title)}">${go} →</a>`); });
     const foot = `<p class="ac-fixf">${t("rep_all")}: ${bs.map(b => `<a href="${pageLink(b, `topics/${b.id}/`).url}" data-nav>${esc(b.title)} →</a>`).join(" · ")}</p>`;
     return fixCard("h-rep", t("rep_k"), t("rep_h"), rows, foot);
@@ -663,31 +665,31 @@
     const multi = (c.disciplines || []).length > 1, dur = `${c.minutes || 4} ${t("min")}`, strip = !!(inRoute && step >= 0);
     if (strip) after(() => { const x = document.querySelector(".ac-rstrip"); if (x) x.style.top = $("acTop").offsetHeight + "px"; });
     return `${langBanner()}${crumbs(cr.filter(Boolean), "ac-crumbs-1")}${lc.also ? alsoRoute(lc.also, id) : ""}
-    ${strip ? `<div class="ac-strip ac-rstrip"><a class="ac-rs-l" href="${pageLink(inRoute, `routes/${inRoute.id}/`).url}" data-nav><span aria-hidden="true">🧭</span> ${esc(inRoute.title)} · <b title="${t("step_of", { n: step + 1, t: req.length })}">${step + 1} / ${req.length}</b><span class="ac-sr"> — ${t("step_of", { n: step + 1, t: req.length })}</span></a><span class="ac-rs-t" aria-hidden="true">${esc(c.title)}</span>
+    ${strip ? `<div class="ac-strip ac-rstrip"><a class="ac-rs-l" href="${pageLink(inRoute, `routes/${inRoute.id}/`).url}" data-nav><span aria-hidden="true">${I("compass")}</span> ${esc(inRoute.title)} · <b title="${t("step_of", { n: step + 1, t: req.length })}">${step + 1} / ${req.length}</b><span class="ac-sr"> — ${t("step_of", { n: step + 1, t: req.length })}</span></a><span class="ac-rs-t" aria-hidden="true">${esc(c.title)}</span>
       ${nstep ? `<a class="ac-rs-next" href="${esc(nstep.url)}" data-nav aria-label="${esc(nstep.k.replace(/ →$/, ""))}: ${esc(nstep.title)}">${t("next")} →</a>` : next && lessonHref(next) ? `<a class="ac-rs-next" href="${withRoute(lessonHref(next).url, inRoute.id)}"${lessonHref(next).en ? ' hreflang="en"' : " data-nav"} data-route="${esc(inRoute.id)}" aria-label="${t("next_lesson")}: ${esc(L(next).title)}">${t("next")} →</a>` : ""}<i class="ac-rs-read" aria-hidden="true"><i></i></i></div>` : ""}
     <article class="ac-lesson" lang="${LANG}">
     <header class="ac-head">${c.block === "safety" ? dog("safety", { bubble: SAFE, size: 60, anim: !VIEW.safeDog, cls: "ac-mascot-head" }) : ""}<div class="ac-eyebrow">${b ? `<span aria-hidden="true">${icon(b.icon)}</span> ${esc(b.title)}` : ""}${sec ? " · " + esc(sec.title) : ""}</div>
       <h1 tabindex="-1">${esc(c.title)}</h1>
-      <p class="ac-meta ac-pills"><span class="ac-minfo">${[`⏱ ${dur}`, strip ? (step === 0 ? "★ " + t("start_here") : "") : c.level === 1 ? "★ " + t("start_here") : t("go_deeper")].filter(Boolean).map(x => `<span class="ac-chip">${x}</span>`).join(" ")} ${(c.disciplines || []).map(d => `<span class="ac-chip ac-disc-${d}">${discName(d)}</span>`).join(" ")}
+      <p class="ac-meta ac-pills"><span class="ac-minfo">${[`${I("timer")} ${dur}`, strip ? (step === 0 ? "★ " + t("start_here") : "") : c.level === 1 ? "★ " + t("start_here") : t("go_deeper")].filter(Boolean).map(x => `<span class="ac-chip">${x}</span>`).join(" ")} ${(c.disciplines || []).map(d => `<span class="ac-chip ac-disc-${d}">${discName(d)}</span>`).join(" ")}
         ${D.review_flag === "pending" || c.review_flag === "pending" ? `<span class="ac-chip ac-review">${t("review_pending")}</span>` : ""}
         ${(VIEW.upd === undefined ? (VIEW.upd = updated(id)) : VIEW.upd) ? `<span class="ac-chip ac-upd" title="${t("lesson_updated_d")}">● ${t("lesson_updated")}</span>` : ""}
         ${(VIEW.done0 === undefined ? (VIEW.done0 = done(id)) : VIEW.done0) ? `<span class="ac-chip is-on">✓ ${t("lesson_done")}</span>` : ""}</span>
         ${hero ? `<a class="ac-chip ac-animark" href="#anim-${esc(hero.k)}">▶ ${t("anim_marker")}</a>` : ""}${multi ? discSelect() : ""}</p>
       ${D.summary ? `<p class="ac-lead">${esc(D.summary)}</p>` : ""}</header>
-    ${c.status === "preview" ? `<p class="ac-note">🛠 ${t("clayaway_preview")}</p>` : ""}
+    ${c.status === "preview" ? `<p class="ac-note">${I("wrench")} ${t("clayaway_preview")}</p>` : ""}
     ${c.draft || D.draft ? `<p class="ac-note ac-draft-n">Draft preview — ${t("draft_soon_p")}</p>` : ""}
     ${D.review_flag === "pending" || c.review_flag === "pending" ? `<p class="ac-note ac-review-n"><b>${t("review_pending")}.</b> ${t("review_pending_d")}</p>` : ""}
     ${keyPoints}
     <div class="ac-body">${body}</div>
     ${D.more_in_en ? `<p class="ac-note">${plural("more_in_en", D.more_in_en)}${altLangs(c).includes("en") && LANG !== "en" ? ` — <a href="${href(id + "/", "en")}" hreflang="en" lang="en">English</a>` : ""}</p>` : ""}
     ${D.did_you_know ? `<aside class="ac-dyk"><b>${t("did_you_know")}</b> ${D.did_you_know.html}</aside>` : ""}
-    ${(D.phrases || []).length ? `<details class="ac-panel ac-stand"${standOpen ? " open" : ""}><summary><h2>🗣 ${t("stand_talk")}</h2></summary>${D.phrases.map((p, i) => phraseHtml(p, i)).join("")}</details>` : ""}
+    ${(D.phrases || []).length ? `<details class="ac-panel ac-stand"${standOpen ? " open" : ""}><summary><h2>${I("chat")} ${t("stand_talk")}</h2></summary>${D.phrases.map((p, i) => phraseHtml(p, i)).join("")}</details>` : ""}
     ${notesHtml(D.notes || [], notesOpen)}
     ${(D.terms || []).length ? `<section aria-labelledby="h-terms"><h2 id="h-terms">${t("terms")}</h2><ul class="ac-chips">${D.terms.map(x => `<li><a class="ac-chip" href="${esc(fixUrl(x.url || glossaryUrl(x.id)))}">${termHtml(x)}</a></li>`).join("")}</ul></section>` : ""}
     ${(D.rule_refs || []).length ? `<section aria-labelledby="h-rules"><h2 id="h-rules">${t("rules_where")}</h2><ul class="ac-rules">${D.rule_refs.map((x, i) => { const lb = x.label || x.id, m = /^(\S+\s+\d+)(?:\s+·\s+(.+))?$/.exec(lb);
       return `<li${i >= RULES_SHOW ? " hidden" : ""}><a class="ac-ruleln" href="${esc(fixUrl(x.url || rulesUrl(x.book, x.id)))}">${m ? `<span class="ac-rbadge">${esc(m[1])}</span>${m[2] ? `<span>${esc(m[2])}</span>` : ""}` : `<span>${esc(lb)}</span>`}</a></li>`; }).join("")}</ul>${D.rule_refs.length > RULES_SHOW ? `<button type="button" class="ac-btn ac-rmore" data-act="rmore" aria-expanded="false">${t("show_more_n", { n: D.rule_refs.length - RULES_SHOW })}</button>` : ""}</section>` : ""}
     ${(D.sources || []).length ? `<section aria-labelledby="h-src"><h2 id="h-src">${t("sources")}</h2><ul class="ac-src">${D.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="${s.fitasc || /fitasc\.com/i.test(s.url) ? "nofollow noopener noreferrer" : "noopener noreferrer"}">${esc(s.title)} ↗</a></li>`).join("")}</ul></section>` : ""}
-    ${D.disclaimer === "medical" || c.disclaimer === "medical" ? `<p class="ac-disclaimer">⚕ ${t("not_medical_advice")}</p>` : ""}
+    ${D.disclaimer === "medical" || c.disclaimer === "medical" ? `<p class="ac-disclaimer">${I("med")} ${t("not_medical_advice")}</p>` : ""}
     <section class="ac-quiz" aria-labelledby="h-quiz" id="quiz"><h2 id="h-quiz">${t("quiz")}</h2>${quizHtml(id, D)}</section>
     ${lessonGamesHtml(c)}
     <nav class="ac-endnav" aria-label="${t("lesson_nav")}"><div class="ac-ltiles${prev && (next || nstep) ? "" : " one"}">${navTile(prev, "prev", `← ${t("prev_lesson")}`)}${nstep ? stepTile(nstep) : navTile(next, "next", `${t("next_lesson")} →`)}</div>
@@ -707,8 +709,8 @@
       case "h": h = `<h2 class="ac-bh" id="${esc(x.anchor || x.k)}">${x.html}</h2>`; break;
       case "draft": h = `<div class="ac-draft"${id}><div class="ac-tag">Draft · ${esc(x.role || "")} · ${esc(x.from || "")}</div><p>${x.html || ""}</p></div>`; break; // preview builds only
       case "steps": h = Array.isArray(x.html) ? `<ol class="ac-steps"${id}>${x.html.map(s => `<li>${s}</li>`).join("")}</ol>` : `<div class="ac-steps"${id}>${x.html}</div>`; break;
-      case "tip": h = `<aside class="ac-tip"${id}><b>💡 ${t("tip")}</b> ${x.html}</aside>`; break;
-      case "warn": h = `<aside class="ac-warn" role="note"${id}><b>⚠ ${t("warn")}</b> ${x.html}</aside>`; break;
+      case "tip": h = `<aside class="ac-tip"${id}><b>${I("bulb")} ${t("tip")}</b> ${x.html}</aside>`; break;
+      case "warn": h = `<aside class="ac-warn" role="note"${id}><b>${I("warn")} ${t("warn")}</b> ${x.html}</aside>`; break;
       case "compare": { const col = (d, html) => `<div class="ac-col ac-disc-${d}"><div class="ac-col-h">${discName(d)}</div>${html || ""}</div>`;
         const H = x.html && typeof x.html === "object" ? x.html : { sporting: x.sporting || "", compak: x.compak || "" };
         const side = d => S.disc !== "both" && S.disc !== d ? `<details class="ac-other"><summary><b class="ac-other-d">${discName(d)}</b> · ${esc(foldPrev({ html: H[d] }))}</summary>${col(d, H[d])}</details>` : col(d, H[d]);
@@ -857,8 +859,8 @@
     const wrong = E.qs.map((q, i) => ({ q, a: E.ans[i] })).filter(x => x.a !== x.q.correct);
     /* passed: say what it gave (18.11.2026) — the certificate / the badge with a link to it, or what is still missing */
     const R = S.routes[r.id] || {}, left = st.practice.filter(p => !p.ok).map(p => esc(practiceReqText(p.item)));
-    const gotHtml = !pass ? "" : R.cert && r.certificate ? `<p class="ac-got">🎓 ${t("exam_got_cert", { cert: r.certificate.title ? `«${esc(r.certificate.title)}»` : `«${esc(r.title)}»` })}</p>`
-      : R.badge ? `<p class="ac-got">🏅 ${t("exam_got_badge", { route: esc(r.title) })}</p>`
+    const gotHtml = !pass ? "" : R.cert && r.certificate ? `<p class="ac-got">${I("cap")} ${t("exam_got_cert", { cert: r.certificate.title ? `«${esc(r.certificate.title)}»` : `«${esc(r.title)}»` })}</p>`
+      : R.badge ? `<p class="ac-got">${I("medal")} ${t("exam_got_badge", { route: esc(r.title) })}</p>`
       : left.length ? `<p class="ac-note">${t("exam_left")}: ${left.join("; ")}</p>` : "";
     const toCert = pass && (R.cert || R.badge) ? t(R.cert ? "cert_view" : "badge_view") : t("to_route");
     return `${head}<div class="ac-result ${pass ? "pass" : "fail"}">${dogFor(pass, { size: 84 })}<div class="ac-score">${ok} / ${E.qs.length}</div><p>${pass ? t("exam_passed", { score }) : t("exam_failed", { score, p: cfg.pass_pct })}</p>${gotHtml}</div>
@@ -912,8 +914,8 @@
     const exR = routesSorted().filter(r => (r.certificate && r.certificate.exam) || r.badge_only), cur = exR.find(r => r.id === S.routes.current) || exR[0];
     const exRow = r => { const st = P.routeStatus(S, CAT, r, TRAINER), open = st.lessonsOk || st.exam;
       return `<li><a class="ac-exrow${st.exam ? " is-done" : open ? "" : " is-locked"}" href="${href(`routes/${r.id}/exam/`)}" data-nav><span class="ac-exi" aria-hidden="true">${st.exam ? "✓" : icon(r.icon)}</span><b>${esc(r.title)}</b>
-        <span class="ac-exs">${st.exam ? t("req_done") : open ? `${t("exam_open")} →` : `<span aria-hidden="true">🔒</span> ${t("req_after_lessons")} · ${st.done}/${st.total}`}</span></a></li>`; };
-    return `${langBanner()}${crumbs([home(), { label: u("practice") }])}<header class="ac-head ac-rhead ac-prhead"><div class="ac-eyebrow"><span aria-hidden="true">🎯</span> ${t("practice_eyebrow")}</div><h1 tabindex="-1">${t("practice")}</h1><p class="ac-lead">${t("practice_lead")}</p>
+        <span class="ac-exs">${st.exam ? t("req_done") : open ? `${t("exam_open")} →` : `<span aria-hidden="true">${I("lock")}</span> ${t("req_after_lessons")} · ${st.done}/${st.total}`}</span></a></li>`; };
+    return `${langBanner()}${crumbs([home(), { label: u("practice") }])}<header class="ac-head ac-rhead ac-prhead"><div class="ac-eyebrow"><span aria-hidden="true">${I("pad")}</span> ${t("practice_eyebrow")}</div><h1 tabindex="-1">${t("practice")}</h1><p class="ac-lead">${t("practice_lead")}</p>
       <div class="ac-pstats"><div><span>${t("practice_eyebrow")}</span><b>${all.filter(g => !g.later).length}</b></div><div><span>${t("st_played")}</span><b>${played}</b></div><div><span>${t("st_practice_xp")}</span><b>${gxp}</b></div></div>
       <p class="ac-prnote">${t("practice_no_rush")}</p></header>
       ${groups.map(([k, list]) => `<section class="ac-ggroup" aria-labelledby="h-${k}"><div class="ac-ggh"><h2 id="h-${k}">${t(k)}</h2>${U[k + "_d"] != null ? `<span>${t(k + "_d")}</span>` : ""}</div><div class="ac-ggrid">${list.map(card).join("")}</div></section>`).join("")}
@@ -926,11 +928,11 @@
     /* opened from a route step (?route=…, 18.11.2026): the crumbs lead back to the route, and under the game — the route's
        requirement with «До маршруту» (to the certificate steps) */
     const rq = LOC && LOC.query && LOC.query.get("route"), rr = rq && routeById(rq), rp = rr && (rr.practice || []).find(p => p.game === id);
-    const back = rp ? `<p class="ac-gback"><span><span aria-hidden="true">🧭</span> ${t("route_word")} «${esc(rr.title)}» · ${esc(practiceReqText(rp).replace(/^[^:]*:\s*/, ""))}</span> <a class="ac-btn" href="${pageLink(rr, `routes/${rr.id}/`).url}#certificate" data-nav>${t("to_route")} →</a></p>` : "";
+    const back = rp ? `<p class="ac-gback"><span><span aria-hidden="true">${I("compass")}</span> ${t("route_word")} «${esc(rr.title)}» · ${esc(practiceReqText(rp).replace(/^[^:]*:\s*/, ""))}</span> <a class="ac-btn" href="${pageLink(rr, `routes/${rr.id}/`).url}#certificate" data-nav>${t("to_route")} →</a></p>` : "";
     const head = `${crumbs([home(), rp ? { label: rr.title, url: pageLink(rr, `routes/${rr.id}/`).url } : { label: u("practice"), url: href("practice/") }, { label: gameTitle(g) }])}<header class="ac-head"><div class="ac-eyebrow"><span aria-hidden="true">${icon(g.id)}</span> ${t("practice")}</div><h1 tabindex="-1">${esc(gameTitle(g))}</h1>
       ${gameDesc(g) ? `<p class="ac-lead">${esc(gameDesc(g))}</p>` : ""}
       ${g.xp === false && (g.known_issues || []).length ? `<p class="ac-note">${t("practice_known_issue")}</p>` : ""}</header>`;
-    if (g.external) return `${head}<p><a class="ac-btn primary" href="${esc(extUrl(g))}">🎯 ${esc(gameTitle(g))} →</a></p>${trainerStatus()}`;
+    if (g.external) return `${head}<p><a class="ac-btn primary" href="${esc(extUrl(g))}">${I("pad")} ${esc(gameTitle(g))} →</a></p>${trainerStatus()}`;
     if (g.later) return `${head}<p class="ac-note">${t("practice_soon")}</p>`;
     after(() => { if (!GAMES[id]) return; if (!VIEW.statGame) { VIEW.statGame = 1; stat("game_start", id); } gameStart(g); GAMES[id]($("acGame"), g); });
     return `${head}<div id="acGame" class="ac-game-host"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>${back}${gameLessonsHtml(g)}`;
@@ -986,7 +988,7 @@
     // badges
     const medal = b => { const on = earned.has(b.id), wait = b.enabled_after && !P.gameOn(CAT, b.ref), p = !on && bprog(b);
       const tip = `${b.title} — ${on ? u("badge_got", { date: day(S.badges[b.id]) }) : hint(b) + (p ? ` · ${p[0]}/${p[1]}` : "") + (wait ? ` (${u("badge_after_fix")})` : "")}`;
-      return `<li class="ac-medal${on ? " is-on" : ""}" title="${esc(tip)}"><span class="ac-medal-c" aria-hidden="true">${on ? "🏅" : "🔒"}</span><span class="ac-medal-l">${esc(short(b))}</span>${on && S.badges[b.id] ? `<span class="ac-medal-d">${esc(day(S.badges[b.id]))}</span>` : ""}<span class="ac-sr">. ${on ? t("badge_earned") : t("badge_locked") + ": " + esc(hint(b))}</span></li>`; };
+      return `<li class="ac-medal${on ? " is-on" : ""}" title="${esc(tip)}"><span class="ac-medal-c" aria-hidden="true">${on ? I("medal") : I("lock")}</span><span class="ac-medal-l">${esc(short(b))}</span>${on && S.badges[b.id] ? `<span class="ac-medal-d">${esc(day(S.badges[b.id]))}</span>` : ""}<span class="ac-sr">. ${on ? t("badge_earned") : t("badge_locked") + ": " + esc(hint(b))}</span></li>`; };
     const cr = S.routes.current || "", inCur = b => b.kind === "stage" && String(b.ref).startsWith(cr + "/") ? 1 : 0;
     let next = all.filter(b => !earned.has(b.id) && (b.kind === "stage" || b.kind === "block")).map(b => ({ b, p: bprog(b) })).filter(z => z.p && z.p[0] > 0)
       .sort((a, b) => inCur(b.b) - inCur(a.b) || b.p[0] / b.p[1] - a.p[0] / a.p[1]).slice(0, 3);
@@ -1005,11 +1007,11 @@
       ${!PERSIST ? `<p class="ac-note">${t("progress_not_saved")}</p>` : ""}</header>
     ${cont}
     ${!nDone && !certs.length && !x.total ? `<div class="ac-empty">${dog("sleep", { size: 110 })}</div>` : ""}
-    <section class="ac-pcard" aria-labelledby="h-certs"><h2 id="h-certs">🎓 ${t("certificates")}</h2>${certs.length ? certs.map(r => certHtml(r, S.routes[r.id].cert) + `<p><button type="button" class="ac-btn" data-act="printcert" data-v="${esc(r.id)}">🖨 ${t("cert_print")}</button></p>`).join("")
+    <section class="ac-pcard" aria-labelledby="h-certs"><h2 id="h-certs">${I("cap")} ${t("certificates")}</h2>${certs.length ? certs.map(r => certHtml(r, S.routes[r.id].cert) + `<p><button type="button" class="ac-btn" data-act="printcert" data-v="${esc(r.id)}">${I("print")} ${t("cert_print")}</button></p>`).join("")
         : `<p class="ac-pnone">${t("cert_none")}${near ? " " + t("cert_nearest", { cert: near.r.certificate.title ? `«${near.r.certificate.title}»` : u("cert_title").toLocaleLowerCase(LANG), route: near.r.title, d: near.d, n: near.n }) : ""}</p>`}
       ${certs.length || S.name ? nameP : `<details class="ac-pname"><summary>${t("cert_name")}</summary>${nameP}</details>`}</section>
-    <section class="ac-pcard" aria-labelledby="h-badges"><h2 id="h-badges">🏅 ${t("badges")} <span class="ac-muted">${earned.size}/${all.length}</span></h2>
-      ${next.length ? `<h3 class="ac-h3">${t("badges_next")}</h3><ul class="ac-bnext">${next.map(z => `<li><span class="ac-medal-c" aria-hidden="true">🔒</span><span class="ac-bnext-t"><b>${esc(z.b.title)}</b><span>${esc(hint(z.b))}</span></span>${z.p ? `<span class="ac-bnext-p">${bar(z.p[0], z.p[1], z.b.title)}<span>${z.p[0]}/${z.p[1]}</span></span>` : ""}</li>`).join("")}</ul>` : ""}
+    <section class="ac-pcard" aria-labelledby="h-badges"><h2 id="h-badges">${I("medal")} ${t("badges")} <span class="ac-muted">${earned.size}/${all.length}</span></h2>
+      ${next.length ? `<h3 class="ac-h3">${t("badges_next")}</h3><ul class="ac-bnext">${next.map(z => `<li><span class="ac-medal-c" aria-hidden="true">${I("lock")}</span><span class="ac-bnext-t"><b>${esc(z.b.title)}</b><span>${esc(hint(z.b))}</span></span>${z.p ? `<span class="ac-bnext-p">${bar(z.p[0], z.p[1], z.b.title)}<span>${z.p[0]}/${z.p[1]}</span></span>` : ""}</li>`).join("")}</ul>` : ""}
       ${groups.map(groupHtml).join("")}
       <p class="ac-muted ac-small">${t("no_streaks")}</p></section>
     <section class="ac-pcard" aria-labelledby="h-tr"><h2 id="h-tr">${t("progress_transfer")}</h2><p>${t("transfer_d")}</p>
@@ -1243,7 +1245,7 @@
       show(!!(sv && sv.flip)); },
     /* Phrasebook: the phrases of one block as a list to listen to and print. No XP. */
     async phrasebook(host, g) { const okB = await phraseBlocks("meaning", 1), sel = phraseSel(okB);
-      host.innerHTML = `<div class="ac-filters">${blockFilter(sel, okB)} <button type="button" class="ac-btn" data-k="print">🖨 ${t("print")}</button></div><div class="ac-pb"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
+      host.innerHTML = `<div class="ac-filters">${blockFilter(sel, okB)} <button type="button" class="ac-btn" data-k="print">${I("print")} ${t("print")}</button></div><div class="ac-pb"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
       host.querySelector('[data-k="block"]').onchange = e => { VIEW.block = e.target.value; GAMES[g.id](host, g); };
       const list = await phrasesOf(sel), box = host.querySelector(".ac-pb");
       VIEW.phr = list; const by = {}; list.forEach((p, i) => (by[p.lesson] = by[p.lesson] || []).push([p, i]));

@@ -98,7 +98,12 @@
   };
   const BAR = ["learn", "rules", "glossary", "tours"]; // order of the bar (owner decision)
   // Section identity: each section has its own colour and icon, so a visitor sees at once that they changed section.
-  const LOOK = {learn: ["#34D399", "🎓"], rules: ["#22D3EE", "📘"], glossary: ["#A78BFA", "📖"], tours: ["#F472B6", "✈️"], trainer: ["#FBBF24", "🎯"], home: ["#34D399", ""]};
+  /* Section icons are line icons (scripts/icons.mjs, 20.11.2026), drawn in the section colour. The copy below is written by
+     `bun scripts/sync_icons.mjs` — edit scripts/icons.mjs. */
+  /* icons:begin NAV_I cap rbook gbook plane pad globe */const NAV_I = {"cap":'<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/>',"rbook":'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/><path d="M9 7h7M9 11h5"/>',"gbook":'<path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/>',"plane":'<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.3c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',"pad":'<rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M6.5 12.5h4M8.5 10.5v4"/><path d="M15.5 12h.01M18 13.5h.01"/>',"globe":'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19z"/>'};/* icons:end */
+  const ico = (k, c) => NAV_I[k] ? `<svg class="ca-ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"${c ? ` style="color:${c}"` : ""}>${NAV_I[k]}</svg>` : "";
+  const LOOK = {learn: ["#34D399", "cap"], rules: ["#22D3EE", "rbook"], glossary: ["#A78BFA", "gbook"], tours: ["#F472B6", "plane"], trainer: ["#FBBF24", "pad"], home: ["#34D399", ""]};
+  const secIc = id => LOOK[id] ? ico(LOOK[id][1], LOOK[id][0]) : "";
   // "where was I" entries written before the merge used the section "interpreter": it is the Academy now
   const secOf = s => s === "interpreter" ? "learn" : s;
   // Short texts of the bar itself (all ClayArena languages).
@@ -227,6 +232,7 @@ main[tabindex="-1"]:focus{outline:none}
 .ca-hint a:hover,.ca-lang a:hover{border-color:${color}}
 .ca-hint button,.ca-lang button{margin-left:auto;background:none;border:0;color:#9CA3AF;font:inherit;cursor:pointer;min-width:36px;min-height:36px;border-radius:8px}
 @media (pointer:coarse){.ca-hint button,.ca-lang button,.ca-hint a,.ca-lang a{min-height:44px;min-width:44px}}
+.ca-ico{vertical-align:-.14em;flex:none}
 .ca-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
 .ca-float{position:fixed;left:0;right:0;bottom:0;z-index:35;padding-bottom:env(safe-area-inset-bottom,0px);background:#0B1120;box-shadow:0 -10px 28px rgba(0,0,0,.5)}
 .ca-hint{transition:opacity .2s}.ca-hint.ca-out{opacity:0}@media (prefers-reduced-motion:reduce){.ca-hint{transition:none}}
@@ -262,7 +268,7 @@ main[tabindex="-1"]:focus{outline:none}
     name: (id, l) => { const x = link(id, l); return x ? x.name : ""; },
     full: (id, l) => { const x = link(id, l); return x ? x.full : ""; },
     desc: (id, l) => pickL((NAMES[id] || {}).d, LANGS.includes(l) ? l : VL),
-    icon: id => (LOOK[id] || [])[1] || "",
+    icon: id => secIc(id), // the section icon as inline SVG markup
     lang: () => VL, setLang, langName: l => NATIVE[l] || l, LANGS: LANGS.slice(),
     section: () => ({id: SEC.id, sub: SEC.sub || null}),
   };
@@ -282,26 +288,26 @@ main[tabindex="-1"]:focus{outline:none}
     const r = ls.get(RKEY), rs = r && secOf(r.section), closed = r && (seen["resume:" + rs] || seen["resume:" + r.section]);
     if (r && rs !== pageKey && recent(r.ts, 7) && !recent(closed, 7)) {
       const nm = r.lang && r.lang !== VL && NAMES[rs] ? pick(NAMES[rs].full || NAMES[rs].n) : r.label;
-      return ["resume:" + rs, `<span class="ca-dot" style="background:${LOOK[rs] ? LOOK[rs][0] : color}"></span>↩ ${esc(pick(TX.back))} <a href="${esc(safeUrl(r.url))}">${LOOK[rs] ? `<span aria-hidden="true">${LOOK[rs][1]}</span>&nbsp;` : ""}${esc(nm)}</a>`, Date.now()];
+      return ["resume:" + rs, `<span class="ca-dot" style="background:${LOOK[rs] ? LOOK[rs][0] : color}"></span>↩ ${esc(pick(TX.back))} <a href="${esc(safeUrl(r.url))}">${LOOK[rs] ? `<span aria-hidden="true">${secIc(rs)}</span>&nbsp;` : ""}${esc(nm)}</a>`, Date.now()];
     }
     // rules trainer mistakes, per discipline: key "clayarena-trainer" (older builds: "clayaway-trainer")
     const tr = ls.get("clayarena-trainer") || ls.get("clayaway-trainer");
     const top = tr && tr.stats ? Object.keys(DISC).map(d => [d, (((tr.stats[d] || {}).wrong) || []).length]).sort((a, b) => b[1] - a[1])[0] : null;
     if (top && top[1] >= 3 && pageKey !== "trainer" && !recent(seen["mistakes:" + top[0]], 7))
-      return ["mistakes:" + top[0], `<span aria-hidden="true">${LOOK.trainer[1]}</span> <a href="${esc(hrefFor("trainer", VL).replace(/(\?[^#]*)/, "$1&mode=mistakes") + "#" + top[0])}">${esc(pick(TX.mistakes).replace("{n}", top[1]).replace("{d}", DISC[top[0]]))}</a>`, Date.now()];
+      return ["mistakes:" + top[0], `<span aria-hidden="true">${secIc("trainer")}</span> <a href="${esc(hrefFor("trainer", VL).replace(/(\?[^#]*)/, "$1&mode=mistakes") + "#" + top[0])}">${esc(pick(TX.mistakes).replace("{n}", top[1]).replace("{d}", DISC[top[0]]))}</a>`, Date.now()];
     // Academy route in progress: docs/shared/progress.js keeps a summary in "clayarena-academy".nav = {route, title, lang, d, t, url}
     // (written by docs/learn/app/academy.js; null when there is no current route or its lessons are all done)
     const ac = ls.get("clayarena-academy"), nv = ac && ac.nav, learnUrl = hrefFor("learn", VL);
     if (nv && nv.t > 0 && nv.d < nv.t && SEC.id !== "learn" && !seen["route:" + nv.route + ":" + nv.d])
-      return ["route:" + nv.route + ":" + nv.d, `<span aria-hidden="true">${LOOK.learn[1]}</span> <a href="${esc(safeUrl(nv.url || learnUrl))}">${esc((nv.lang === VL && nv.title ? pick(TX.route).replace("{r}", nv.title) : pick(TX.route_any)).replace("{d}", nv.d).replace("{t}", nv.t))}</a>`];
+      return ["route:" + nv.route + ":" + nv.d, `<span aria-hidden="true">${secIc("learn")}</span> <a href="${esc(safeUrl(nv.url || learnUrl))}">${esc((nv.lang === VL && nv.title ? pick(TX.route).replace("{r}", nv.title) : pick(TX.route_any)).replace("{d}", nv.d).replace("{t}", nv.t))}</a>`];
     // progress of the old Interpreter Academy that the Academy has not moved yet (it moves on the first Academy visit)
     const ia = ls.get("clayarena-interpreter"), iaDone = ia && ia.done ? Object.keys(ia.done).length : 0;
     if (iaDone > 0 && !(ac && ac.migrated && ac.migrated["clayarena-interpreter"]) && SEC.id !== "learn" && !seen["interp-moved"])
-      return ["interp-moved", `<span aria-hidden="true">${LOOK.learn[1]}</span> <a href="${esc(learnUrl)}routes/interpreter/">${esc(pick(TX.interp_moved))}</a>`];
+      return ["interp-moved", `<span aria-hidden="true">${secIc("learn")}</span> <a href="${esc(learnUrl)}routes/interpreter/">${esc(pick(TX.interp_moved))}</a>`];
     const tip = TX["tip_" + pageKey];
     // the Academy first-visit tip («оберіть маршрут під себе») only for someone who has not started: no route, no lesson done (18.11.2026)
     if (pageKey === "learn" && ac && ((ac.routes && ac.routes.current) || Object.keys(ac.done || {}).length)) return null;
-    if (tip && (!seen["tip:" + pageKey] || tipShown === "tip:" + pageKey)) return ["tip:" + pageKey, `<span aria-hidden="true">${(LOOK[pageKey] || [])[1] || ""}</span> ${esc(pick(tip))}`];
+    if (tip && (!seen["tip:" + pageKey] || tipShown === "tip:" + pageKey)) return ["tip:" + pageKey, `<span aria-hidden="true">${secIc(pageKey)}</span> ${esc(pick(tip))}`];
     return null;
   }
   /* Language banner (see the header): only when the page language differs from the visitor language. The Academy app shows its own. */
@@ -309,9 +315,9 @@ main[tabindex="-1"]:focus{outline:none}
     if (PL === VL || SEC.id === "learn" && !SEC.sub || !SEC.id && !SEC.home) return null;
     const key = "lang:" + pageKey + ":" + VL, seen = ls.get("clayarena-hints") || {}; if (recent(seen[key], 30)) return null;
     const alt = l => { const a = document.querySelector(`link[rel="alternate"][hreflang="${l}"]`); return a && a.href; };
-    if (alt(VL)) return [key, `🌐 <a href="${esc(alt(VL))}" hreflang="${VL}" lang="${VL}" data-setlang="${VL}">${esc(pick(TX.also))} →</a>`];
+    if (alt(VL)) return [key, `${ico("globe")} <a href="${esc(alt(VL))}" hreflang="${VL}" lang="${VL}" data-setlang="${VL}">${esc(pick(TX.also))} →</a>`];
     const en = PL !== "en" && alt("en");
-    return [key, `🌐 <span>${esc(pick(TX.only).replace("{l}", NATIVE[PL]))}</span>${en ? ` <a href="${esc(en)}" hreflang="en" lang="en">English →</a>` : ""}`];
+    return [key, `${ico("globe")} <span>${esc(pick(TX.only).replace("{l}", NATIVE[PL]))}</span>${en ? ` <a href="${esc(en)}" hreflang="en" lang="en">English →</a>` : ""}`];
   }
   const isNarrow = () => { try { return matchMedia("(max-width: 759.98px)").matches; } catch (e) { return false; } };
   function focusBar() { const el = isNarrow() ? bar.querySelector(".ca-mbtn") : bar.querySelector(".ca-list a[aria-current]") || bar.querySelector(".ca-home"); if (el) el.focus({preventScroll: true}); } // the banner was at the bottom: no jump to the top
@@ -331,15 +337,15 @@ main[tabindex="-1"]:focus{outline:none}
     const ac = cur ? (cleanUrl(url) === cleanUrl(location.href) && !SEC.sub ? ' aria-current="page"' : ' aria-current="true"') : "";
     const mk = o !== VL ? ` <span class="ca-mk"><span aria-hidden="true">${o.toUpperCase()}</span><span class="ca-sr">(${NATIVE[o]})</span></span>` : "";
     const hl = o !== VL ? ` hreflang="${o}"` : "";
-    if (mobile) return `<li><a href="${esc(url)}"${hl}${ac}><span aria-hidden="true">${LOOK[id][1]}</span> ${esc(pick(N.n))}${mk}<small>${esc(pick(N.d))}</small></a></li>`;
-    return `<li class="ca-w"><a class="ca-it" href="${esc(url)}"${hl}${ac} aria-describedby="ca-d-${id}"><span aria-hidden="true">${LOOK[id][1]}</span> ${esc(pick(N.n))}${mk}</a><span class="ca-tip" role="tooltip" id="ca-d-${id}">${esc(pick(N.d))}</span></li>`;
+    if (mobile) return `<li><a href="${esc(url)}"${hl}${ac}><span aria-hidden="true">${secIc(id)}</span> ${esc(pick(N.n))}${mk}<small>${esc(pick(N.d))}</small></a></li>`;
+    return `<li class="ca-w"><a class="ca-it" href="${esc(url)}"${hl}${ac} aria-describedby="ca-d-${id}"><span aria-hidden="true">${secIc(id)}</span> ${esc(pick(N.n))}${mk}</a><span class="ca-tip" role="tooltip" id="ca-d-${id}">${esc(pick(N.d))}</span></li>`;
   }
   let menuOpen = false;
   function draw(){
     // the bar speaks the visitor language, which may differ from the page: lang= lets screen readers pronounce it right
     for (const el of [bar, hint, lang, skip]) el.setAttribute("lang", VL);
     const homeUrl = hrefFor("home", VL), homeCur = SEC.home ? ' aria-current="page"' : "";
-    const curName = SEC.id ? `<span class="ca-cs"> · <span aria-hidden="true">${LOOK[SEC.id][1]}</span> ${esc(pick(NAMES[SEC.id].n))}</span>` : "";
+    const curName = SEC.id ? `<span class="ca-cs"> · <span aria-hidden="true">${secIc(SEC.id)}</span> ${esc(pick(NAMES[SEC.id].n))}</span>` : "";
     bar.innerHTML = `<nav aria-label="${esc(pick(NAMES.home.full))}"><a class="ca-home" href="${esc(homeUrl)}"${homeCur}>ClayArena</a><ul class="ca-list">${BAR.map(id => itemHTML(id, false)).join("")}</ul>
       <button type="button" class="ca-mbtn" aria-expanded="${menuOpen}" aria-controls="ca-menu"><span aria-hidden="true">☰</span> <b>ClayArena</b>${curName}</button>
       <div class="ca-menu${menuOpen ? " on" : ""}" id="ca-menu"><ul><li><a href="${esc(homeUrl)}"${homeCur}><b>ClayArena</b><small>${esc(pick(NAMES.home.full))}</small></a></li>${BAR.map(id => itemHTML(id, true)).join("")}</ul></div></nav>`;

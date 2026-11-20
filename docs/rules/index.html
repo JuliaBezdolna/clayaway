@@ -56,7 +56,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 /* Section name instead of a second logo (the ONE ClayArena logo is in the bar, docs/shared/nav.js) */
 .secname{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--ink);text-decoration:none;min-height:36px}
 .secname small{display:block;font-weight:400;font-size:11.5px;color:var(--muted)}
-.secname .ic{font-size:20px}
+.secname .ic{font-size:20px;color:#22D3EE;display:inline-flex}.ico{flex:none;vertical-align:-.14em}
 .spacer{flex:1}
 .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
 .seg button{border:0;background:transparent;padding:6px 12px;font-size:13.5px;color:var(--muted);white-space:nowrap;min-height:34px}
@@ -77,7 +77,7 @@ p{margin:0 0 10px;max-width:72ch}
    above the search, the field at 584 px on a 375 px phone and 8 long example questions (434 px) under it. */
 .big{display:flex;align-items:center;gap:8px;background:#030712;border:1.5px solid rgba(52,211,153,.55);border-radius:12px;padding:4px 4px 4px 14px;margin:12px 0 10px;min-height:58px}
 .big:focus-within{border-color:var(--em);box-shadow:0 0 0 3px rgba(52,211,153,.2)}
-.big .lo{font-size:18px;color:var(--muted)}
+.big .lo{font-size:18px;color:var(--muted);display:flex}
 .big input{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);font:inherit;font-size:17px;padding:10px 0;outline:none}
 .big button[type=submit]{border:0;border-radius:12px;background:var(--primary);color:#fff;min-width:50px;min-height:50px;font-size:19px;font-weight:700}
 /* our own "clear" ✕ instead of the browser's (owner, 10.11.2026): shown while the field has text, lit on hover, no tooltip;
@@ -94,7 +94,7 @@ p{margin:0 0 10px;max-width:72ch}
 .tile{display:flex;gap:12px;align-items:flex-start;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));text-decoration:none;color:var(--ink);text-align:left;font:inherit}
 .tile:hover{border-color:rgba(52,211,153,.5)}
 .tile.main{border-color:rgba(52,211,153,.45)}
-.tile .ic{font-size:22px;line-height:1.2;flex:none}
+.tile .ic{font-size:22px;line-height:1.2;flex:none;color:#22D3EE}
 .tile>span:last-child{min-width:0}
 .tile b{display:block;font-size:15.5px}.tile span span{display:block;font-size:13px;color:var(--muted)}
 .meta{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px;margin:14px 0 0}
@@ -212,19 +212,25 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
 </head>
 <body><div class="ca-slot"></div>
 <header class="top"><div class="top-in">
-  <a class="secname" id="svc" href="./" aria-current="page"><span class="ic" aria-hidden="true">📘</span><span>Правила FITASC<small>ClayArena · довідник спортсмена</small></span></a>
+  <a class="secname" id="svc" href="./" aria-current="page"><span class="ic" aria-hidden="true" data-ico="rbook"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/><path d="M9 7h7M9 11h5"/></svg></span><span>Правила FITASC<small>ClayArena · довідник спортсмена</small></span></a>
   <span class="spacer"></span>
   <div class="seg disc" role="group" aria-label="Дисципліна" id="discG"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
   <div class="seg" role="group" aria-label="Мова" id="langG"><button data-lang="uk" lang="uk">Українська</button><button data-lang="en" lang="en">English</button></div>
-  <details class="langs" id="langD"><summary><span aria-hidden="true">🌐</span> <span id="langN">Українська</span></summary><div class="menu" role="group" aria-label="Мова"><button data-lang="uk" lang="uk">Українська</button><button data-lang="en" lang="en">English</button></div></details>
+  <details class="langs" id="langD"><summary><span aria-hidden="true" data-ico="globe"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19z"/></svg></span> <span id="langN">Українська</span></summary><div class="menu" role="group" aria-label="Мова"><button data-lang="uk" lang="uk">Українська</button><button data-lang="en" lang="en">English</button></div></details>
 </div></header>
 <div class="disc-tabs" role="group" aria-label="Дисципліна" id="discT"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
 <button type="button" id="where" aria-expanded="false" aria-controls="whereList"><span class="d"></span><span class="c"></span><span class="x" aria-hidden="true">▾</span></button>
 <div class="where-shade" id="whereShade"></div>
 <nav id="whereList" aria-label="Зміст"></nav>
 <main id="app"><noscript><p><a href="sporting/">Правила Parcours de Chasse – Sporting™</a> · <a href="compak/">Правила Compak® Sporting</a> · <a href="en/sporting/">Parcours de Chasse – Sporting™ rules (EN)</a> · <a href="en/compak/">Compak® Sporting rules (EN)</a></p></noscript></main>
-<nav id="statics" aria-label="Статичні сторінки" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · <span lang="en">English</span>: <a href="en/sporting/" hreflang="en">Sporting™</a> · <a href="en/compak/" hreflang="en">Compak® Sporting</a> · <a href="trainer/?lang=uk">🎯 Тренажер правил</a></nav>
+<nav id="statics" aria-label="Статичні сторінки" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · <span lang="en">English</span>: <a href="en/sporting/" hreflang="en">Sporting™</a> · <a href="en/compak/" hreflang="en">Compak® Sporting</a> · <a href="trainer/?lang=uk"><span aria-hidden="true" data-ico="pad"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M6.5 12.5h4M8.5 10.5v4"/><path d="M15.5 12h.01M18 13.5h.01"/></svg></span> Тренажер правил</a></nav>
 <!-- the rules books (data/sporting.js, data/compak.js, ~280 KB each) are loaded by the script below: loadBook() -->
+<script>
+/* Line icons (scripts/icons.mjs, 20.11.2026): one meaning in the Academy, the rules and the Glossary. The copy below and the
+   <span data-ico="…"> of the static HTML are written by `bun scripts/sync_icons.mjs` — edit scripts/icons.mjs. */
+/* icons:begin RULES_I rbook globe pad search users help */const RULES_I = {"rbook":'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/><path d="M9 7h7M9 11h5"/>',"globe":'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19z"/>',"pad":'<rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M6.5 12.5h4M8.5 10.5v4"/><path d="M15.5 12h.01M18 13.5h.01"/>',"search":'<circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/>',"users":'<circle cx="9" cy="8" r="3.5"/><path d="M2.5 21a6.5 6.5 0 0 1 13 0"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M21.5 21a6.5 6.5 0 0 0-3.5-5.8"/>',"help":'<circle cx="12" cy="12" r="9.5"/><path d="M9.5 9a2.5 2.5 0 1 1 3.6 2.3c-.7.3-1.1 1-1.1 1.7v.5M12 17h.01"/>'};/* icons:end */
+const RI = k => `<svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${RULES_I[k]}</svg>`;
+</script>
 <script>
 /* ClayArena · FITASC rules guide (stage 1, static).
    Data: docs/rules/data/<key>.js push one "book" each into window.RULES (format: rules/SCHEMA.md in the repository, outside docs/).
@@ -486,11 +492,11 @@ function headLang(){
 /* The line of static pages under the app, in the language shown, with the visitor language on the trainer link. */
 function staticsHTML(){
   const own=L()==="uk"?["sporting/","compak/"]:["en/sporting/","en/compak/"], oth=L()==="uk"?["en/sporting/","en/compak/"]:["sporting/","compak/"];
-  return `${t("full")}: <a href="${own[0]}">Sporting™</a> · <a href="${own[1]}">Compak® Sporting</a> · <span lang="${t("otherL")}">${t("other")}</span>: <a href="${oth[0]}" hreflang="${t("otherL")}">Sporting™</a> · <a href="${oth[1]}" hreflang="${t("otherL")}">Compak® Sporting</a> · <a href="trainer/?lang=${esc(VL())}#${S.disc}">🎯 ${t("trainer")}</a>`;
+  return `${t("full")}: <a href="${own[0]}">Sporting™</a> · <a href="${own[1]}">Compak® Sporting</a> · <span lang="${t("otherL")}">${t("other")}</span>: <a href="${oth[0]}" hreflang="${t("otherL")}">Sporting™</a> · <a href="${oth[1]}" hreflang="${t("otherL")}">Compak® Sporting</a> · <a href="trainer/?lang=${esc(VL())}#${S.disc}">${RI("pad")} ${t("trainer")}</a>`;
 }
 function render(){
   document.documentElement.lang=L()==="uk"?"uk":"en"; headLang();
-  document.getElementById("svc").innerHTML=`<span class="ic" aria-hidden="true">📘</span><span>${t("svc")}<small>${t("svcS")}</small></span>`;
+  document.getElementById("svc").innerHTML=`<span class="ic" aria-hidden="true">${RI("rbook")}</span><span>${t("svc")}<small>${t("svcS")}</small></span>`;
   document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("langG").setAttribute("aria-label",t("langG"));
   document.getElementById("discT").setAttribute("aria-label",t("discG")); document.querySelector("#langD .menu").setAttribute("aria-label",t("langG"));
   document.getElementById("langN").textContent=L()==="uk"?"Українська":"English"; document.getElementById("whereList").setAttribute("aria-label",t("toc"));
@@ -511,12 +517,12 @@ function render(){
   let parts=[]; book.sections.forEach(s=>{ if(!parts.includes(s.part)) parts.push(s.part); });
   const nf=(book.faq||[]).length;
   app.innerHTML=`${hero}
-   <form id="askf" role="search"><div class="big"><span class="lo" aria-hidden="true">🔍</span><input id="q" type="search" autocomplete="off" placeholder="${esc(t("phS"))}" aria-label="${esc(t("askL"))}" value="${esc(S.q)}"><button type="button" class="clr${S.q?" on":""}" data-clr="1" aria-label="${esc(t("clr"))}">✕</button><button type="submit" aria-label="${esc(t("ask"))}" title="${esc(t("ask"))}">→</button></div></form>
+   <form id="askf" role="search"><div class="big"><span class="lo" aria-hidden="true">${RI("search")}</span><input id="q" type="search" autocomplete="off" placeholder="${esc(t("phS"))}" aria-label="${esc(t("askL"))}" value="${esc(S.q)}"><button type="button" class="clr${S.q?" on":""}" data-clr="1" aria-label="${esc(t("clr"))}">✕</button><button type="submit" aria-label="${esc(t("ask"))}" title="${esc(t("ask"))}">→</button></div></form>
    <div class="topics"><span>${t("often")}:</span>${t("topics").map(x=>`<button type="button" data-q="${esc(x)}">${esc(x)}</button>`).join("")}</div>
    <div id="ans">${answerHTML(book)}</div>
-   <div class="tiles"><a class="tile main" href="trainer/?lang=${esc(VL())}#${S.disc}"><span class="ic" aria-hidden="true">🎯</span><span><b>${t("trainer")}</b><span>${esc(trainerLine())}</span></span></a>
-    <a class="tile" href="${L()==="uk"?"categories/":"en/categories/"}"><span class="ic" aria-hidden="true">👥</span><span><b>${t("catsT")}</b><span>${t("catsS")}</span></span></a>
-    <button type="button" class="tile" data-sec="faq"><span class="ic" aria-hidden="true">💬</span><span><b>${t("faq")}</b><span>${t("faqS").replace("{n}",nAns(nf))}</span></span></button></div>
+   <div class="tiles"><a class="tile main" href="trainer/?lang=${esc(VL())}#${S.disc}"><span class="ic" aria-hidden="true">${RI("pad")}</span><span><b>${t("trainer")}</b><span>${esc(trainerLine())}</span></span></a>
+    <a class="tile" href="${L()==="uk"?"categories/":"en/categories/"}"><span class="ic" aria-hidden="true">${RI("users")}</span><span><b>${t("catsT")}</b><span>${t("catsS")}</span></span></a>
+    <button type="button" class="tile" data-sec="faq"><span class="ic" aria-hidden="true">${RI("help")}</span><span><b>${t("faq")}</b><span>${t("faqS").replace("{n}",nAns(nf))}</span></span></button></div>
    <div class="meta"><a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} FITASC ↗</a><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a>`:""}<span>${t("checked")}</span></div>
    <div class="layout"><nav class="toc" aria-label="${t("toc")}">${parts.map(p=>`<div class="part">${t("part")} ${esc(p)}</div>`+book.sections.filter(s=>s.part===p).map(s=>`<button data-sec="${s.id}">${s.chapter?esc(s.chapter)+". ":""}${esc(tx(s,"title"))}</button>`).join("")).join("")}<div class="part">FAQ</div><button data-sec="faq">${t("faq")}</button></nav>
    <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}${secNav(book,s.id)}</section>`).join("")}

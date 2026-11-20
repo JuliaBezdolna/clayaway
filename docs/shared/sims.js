@@ -323,7 +323,7 @@ const CSS = `.cs-sim{border:1px solid rgba(255,255,255,.1);border-radius:14px;ov
 .cs-ctl{display:flex;gap:8px 12px;flex-wrap:wrap;align-items:center;padding:10px 12px;border-top:1px solid rgba(255,255,255,.1);font-size:13.5px;color:#D1D5DB}
 .cs-ctl label{display:flex;gap:6px;align-items:center;min-width:0;max-width:100%}.cs-ctl input[type=range]{width:110px;accent-color:#34D399}.cs-ctl input[type=checkbox]{accent-color:#FB923C}
 .cs-ctl select{background:#0B1120;color:#F3F4F6;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:5px 8px;font:inherit;min-width:0;max-width:100%;flex:1 1 auto;text-overflow:ellipsis}
-.cs-btn{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#F3F4F6;border-radius:10px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
+.cs-ico{flex:none}.cs-btn{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#F3F4F6;border-radius:10px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
 .cs-btn:hover{border-color:rgba(52,211,153,.5)}.cs-primary{background:#05845D;border-color:#05845D;color:#fff;font-weight:600}.cs-btn[disabled]{opacity:.45;cursor:default}
 .cs-btn:focus-visible{outline:2px solid #34D399;outline-offset:2px}
 .cs-play{min-height:44px;padding:9px 20px;font-size:15.5px}.cs-slow{min-height:44px}
@@ -373,9 +373,12 @@ function wordsBar(el){ let key = null; return (ws, cur) => { if (!el) return; co
 
 /* Shared controls: the big play / stop / replay button, the slow-motion toggle (one setting for the whole page) and the one-time
    autoplay. */
+/* line icons (scripts/icons.mjs, 20.11.2026); the copy is written by `bun scripts/sync_icons.mjs` — edit scripts/icons.mjs */
+/* icons:begin SIM_I slow aim */const SIM_I = {"slow":'<path d="M3.5 18a8.5 8.5 0 1 1 17 0"/><path d="m12 18-4-4.5"/><path d="M12 18h.01"/>',"aim":'<circle cx="12" cy="12" r="7.5"/><circle cx="12" cy="12" r="1.2"/><path d="M12 2v5M12 17v5M2 12h5M17 12h5"/>'};/* icons:end */
+const SI = k => `<svg class="cs-ico" viewBox="0 0 24 24" width="1.05em" height="1.05em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${SIM_I[k]}</svg>`;
 const slowF = () => (CFG.slow ? 2.5 : 1);
 const playBtn = key => `<button type="button" class="cs-btn cs-primary cs-play" data-play>▶ ${esc(T(key))}</button>`;
-const slowBtn = () => `<button type="button" class="cs-btn cs-slow" data-slow aria-pressed="${CFG.slow ? "true" : "false"}">🐢 ${esc(T("anim_slow"))}</button>`;
+const slowBtn = () => `<button type="button" class="cs-btn cs-slow" data-slow aria-pressed="${CFG.slow ? "true" : "false"}">${SI("slow")} ${esc(T("anim_slow"))}</button>`;
 /* while it runs the play button stops it (⏹), afterwards it replays it (↻) */
 const setPlay = (host, on) => { const b = host.querySelector("[data-play]"); if (!b) return; b.dataset.on = on ? "1" : ""; b.textContent = on ? "⏹ " + T("anim_stop") : "↻ " + T("anim_replay"); };
 const syncSlow = () => { try { document.querySelectorAll("[data-slow]").forEach(b => b.setAttribute("aria-pressed", CFG.slow ? "true" : "false")); } catch (e) {} };
@@ -1237,7 +1240,7 @@ function leadLab(host, method = "maintained", opts = {}){
   <label>${esc(T("speed"))} <input data-k="v" type="range" min="${VR[0]}" max="${VR[1]}" value="${VR[2]}"><span data-k="vv"></span></label>
   <label>${esc(T("distance"))} <input data-k="d" type="range" min="15" max="40" value="25"><span data-k="dv"></span></label>
   ${focus === "follow-through" || opts.stop ? `<label><input data-k="stop" type="checkbox"${opts.stop ? " checked" : ""}> ${esc(T("stop_gun"))}</label>` : ""}</div>
-  <div class="cs-ctl"><button type="button" class="cs-btn cs-play" data-k="demo">▶ ${esc(T("demo"))}</button><button type="button" class="cs-btn cs-primary cs-play" data-k="try">🎯 ${esc(T("try"))}</button><button type="button" class="cs-btn cs-play" data-k="shoot" disabled>${esc(T("shoot"))}</button>${slowBtn()}</div>
+  <div class="cs-ctl"><button type="button" class="cs-btn cs-play" data-k="demo">▶ ${esc(T("demo"))}</button><button type="button" class="cs-btn cs-primary cs-play" data-k="try">${SI("aim")} ${esc(T("try"))}</button><button type="button" class="cs-btn cs-play" data-k="shoot" disabled>${esc(T("shoot"))}</button>${slowBtn()}</div>
   <div class="cs-out cs-note" data-k="how"></div><div class="cs-out" data-k="out" aria-live="polite"></div>${focus === "perceived-vs-actual" ? `<div class="cs-out cs-cmp" data-k="cmp"></div>` : ""}
   <div class="cs-out cs-note">${esc(T("lab_note"))}</div></div>`;
   const q = k => host.querySelector(`[data-k="${k}"]`), cv = logical(host.querySelector("canvas"), 720, 300), c = cv.getContext("2d"), W = 720, H = 300;

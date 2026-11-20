@@ -14,7 +14,7 @@
 *{box-sizing:border-box}html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 main{max-width:720px;margin:0 auto;padding:28px 16px 60px}
-.ic{font-size:40px;line-height:1}
+.ic{font-size:40px;line-height:1;color:#34D399}
 h1{font-size:26px;line-height:1.25;margin:10px 0 8px}
 p{color:var(--soft);margin:0 0 12px}
 .btn{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border-radius:10px;background:#05845D;color:#fff;font:inherit;font-weight:600;border:0;cursor:pointer}
@@ -28,7 +28,7 @@ a:focus-visible,.btn:focus-visible{outline:2px solid var(--em);outline-offset:2p
 </head>
 <body>
 <main>
-  <div class="ic" aria-hidden="true">📶</div>
+  <div class="ic" aria-hidden="true" data-ico="signal"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 20h.01M8 20v-4M13 20v-8M18 20V7"/></svg></div>
   <h1 id="h">Немає з'єднання</h1>
   <p id="p">Цю сторінку ще не відкривали на цьому пристрої, тож без інтернету її показати не можна. Те, що вже збережено, працює і без мережі.</p>
   <button class="btn" id="retry" type="button">Спробувати ще раз</button>

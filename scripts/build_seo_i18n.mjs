@@ -14,6 +14,7 @@
 // "Learn it" links: the Academy lessons that teach the term (scripts/build_academy.mjs learnLinks): the lesson in this language
 // when it exists, else the English lesson labelled "(in English)". The Academy pages themselves are written by build_academy.mjs.
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
+import { svgIcon, SECTION_COLOR } from "./icons.mjs";
 
 const UI = {
   de: { gl: "Glossar", title: "{t} — Begriff im Wurfscheibenschießen | ClayArena Glossar", what: "Was es ist", detail: "Ausführlich", disc: "In Sporting™ und Compak® Sporting", rules: "In den Regeln", learn: "Lernen", acad_en: "ClayArena-Akademie (auf Englisch)", ia: "ClayArena Dolmetscher-Akademie", rel: "Verwandte Begriffe", local: "So sagt man", list: "Glossar des Wurfscheibenschießens — {n} Begriffe", intro: "{n} Begriffe aus Sporting™ und Compak® Sporting, einfach erklärt, mit Links zu den FITASC-Regeln.", tm: "Parcours de Chasse – Sporting™ und Compak® Sporting sind Marken der FITASC. Nur der offizielle FITASC-Text ist verbindlich.", locale: "de_DE" },
@@ -115,7 +116,7 @@ ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`
 <style>${CSS}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}${GS.CSS}${JUMP_CSS}</style>
 </head>
 <body>
-<header><div class="in">${crumbs(lang, "📖", [{ label: U.gl, url: listUrl(lang) }, { label: lb.label }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
+<header><div class="in">${crumbs(lang, svgIcon("gbook", SECTION_COLOR.glossary), [{ label: U.gl, url: listUrl(lang) }, { label: lb.label }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 ${GS.mini(lang, esc)}<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}${jumpNav(lang, { disc, rules: refs, learn, rel })}
 <section class="what-card"><h2 id="what">${U.what}</h2><p class="def">${esc(x.short)}</p>${x.long ? `<div class="sep"></div><h2>${U.detail}</h2><p class="txt">${esc(x.long)}</p>` : ""}</section>
@@ -147,7 +148,7 @@ ${alts(listUrl)}
 ${og({ lang, title, desc, url, U })}
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", ...SET, inLanguage: lang, hasDefinedTerm: GLOSS.terms.filter(t => D[t.id]).map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: termUrl(lang, t.id) })) })}</script>
 <style>${CSS}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}${GS.CSS}${LIST_CSS}</style></head>
-<body><header><div class="in">${crumbs(lang, "📖", [{ label: U.gl }])}<span style="flex:1"></span>${langBtns(lang, listUrl)}</div></header>
+<body><header><div class="in">${crumbs(lang, svgIcon("gbook", SECTION_COLOR.glossary), [{ label: U.gl }])}<span style="flex:1"></span>${langBtns(lang, listUrl)}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>${esc(fill(LIST, "n", n))}</h1><p>${esc(desc)}</p>
 ${glossaryIndexList(lang, GLOSS.terms.filter(t => D[t.id]), { cat: c => (CAT[lang] || {})[c] || c, url: t => termUrl(lang, t.id), html: t => termHtml(lang, t), short: t => D[t.id].short })}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`);
