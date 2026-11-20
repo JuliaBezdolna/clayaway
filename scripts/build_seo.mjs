@@ -24,7 +24,7 @@
 import { readdirSync, mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 import { resolve } from "path";
 import vm from "node:vm";
-import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
+import { BASE, LANGS, esc, tm, legal, foot, FOOT_CSS } from "./site_common.mjs";
 import { svgIcon, SECTION_COLOR } from "./icons.mjs";
 import { buildAcademy, minifySims } from "./build_academy.mjs";
 import { checkRulesData } from "./check_rules_data.mjs";
@@ -160,7 +160,7 @@ const NF = 'rel="nofollow noopener noreferrer" target="_blank"';
 
 const CSS = `:root{color-scheme:dark;--bg:#030712;--surface:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--ink:#F3F4F6;--soft:#D1D5DB;--muted:#9CA3AF;--em:#34D399;--primary:#05845D}
 *{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--ink);font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-a{color:var(--em)}.wrap{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:20px 72px;display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+a{color:var(--em)}.wrap{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:20px 0;display:grid;grid-template-columns:minmax(0,1fr);gap:0}
 @media all{.wrap{grid-template-columns:1fr}.toc{position:static!important;max-height:220px!important;border:1px solid var(--line);border-radius:12px;padding:6px 10px}}
 /* the section row under the ClayArena bar — the same in the three products (20.11.2026): 912 px (880 + 16 + 16), 56 px high,
    the section icon and name 16 px on the left, the controls 36 px on the right; the crumbs are a line of their own below (.crumbs-b) */
@@ -176,7 +176,9 @@ h3{font-size:17px;margin:20px 0 4px}.ref{font-size:13px;color:var(--muted)}p,li{
 .cta{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px;text-decoration:none;color:var(--ink)}.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
 .src{font-size:13px;color:var(--muted)}.eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--em)}article.item{border-top:1px solid var(--line);padding-top:4px}.faq details{border-top:1px solid var(--line);padding:9px 0}.faq summary{cursor:pointer;font-weight:600}
 .disc{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--muted)}
-.legal{margin:14px 0 0;font-size:12px;color:var(--muted)}.legal a{color:var(--muted)}
+.legal{margin:14px 0 0;font-size:13px;color:var(--muted)}.legal a{color:var(--muted)}
+${FOOT_CSS}
+/* product frame of the home title (variant A, design-mockups/hero-frames.html, journal 122; softened, design-mockups/product-colour-balance.html variant 2): one frame, the section colour only in the top stripe, the glow neutral, the eyebrow emerald as everywhere */.ca-hero{--c:#34D399;--g:rgba(6,78,59,.55);padding:18px;border-radius:12px;border:1px solid var(--line);border-top:3px solid var(--c);background:radial-gradient(120% 140% at 0% 0%,var(--g),transparent 60%),#0B1120;margin:0 0 18px}.ca-hero h1{margin:4px 0 10px}.ca-hero>p{margin:0;color:var(--soft);font-size:17px;max-width:none}.ca-hero-rules{--c:#22D3EE;--g:rgba(255,255,255,.05)}.ca-hero-gl{--c:#A78BFA;--g:rgba(255,255,255,.05)}.ca-hero .gs{margin-bottom:0}.ca-hero .gs-st:empty{min-height:0;margin:0}@media(max-width:760px){.ca-hero{padding:16px}}@media(max-width:560px){.ca-hero>p{font-size:16px}}
 .ico{flex:none;vertical-align:-.14em}nav.crumbs{font-size:13px;display:flex;flex-wrap:wrap;gap:4px 7px;align-items:center}nav.crumbs a{color:var(--soft);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}nav.crumbs a:hover{color:#fff;text-decoration:underline}nav.crumbs [aria-current]{color:var(--ink);font-weight:600}
 a:focus-visible,summary:focus-visible{outline:2px solid var(--em);outline-offset:2px;border-radius:6px}
 details.langs{position:relative;font-size:14px;flex:none}details.langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:0 12px;min-height:36px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}details.langs summary::-webkit-details-marker{display:none}details.langs summary::after{content:"▾";font-size:12px}
@@ -369,8 +371,8 @@ ${parts.map(p => `<p class="parth">${T.part} ${esc(p)}</p>\n` + b.sections.filte
   return `<section class="chap" id="${s.id}"><small class="chap-k">${s.chapter ? T.ch + " " + s.chapter + " · " : ""}${T.nItems(s.items.length)}</small><h3><a href="${sl}/">${esc(tx(s, "title"))}</a></h3>
 <ul>${s.items.map(it => `<li id="${it.id}"><a href="${sl}/#${it.id}">${esc(tx(it, "title"))}</a></li>`).join("")}</ul></section>`; }).join("\n")).join("\n")}
 <section id="faq" class="faq"><h2>${T.faq}</h2>${b.faq.map(f => faqHTML(f, lang)).join("\n")}</section>
-<div class="disc">${T.disc}</div>${legal(lang)}
-</main></div>
+
+</main></div>${foot(lang, T.disc)}
 <script>${RULES_JS}</script>
 </body>
 </html>`;
@@ -422,8 +424,8 @@ ${s.items.map(it => itemHTML(b, it, lang, "h2", defs)).join("\n")}
 ${faq.length ? `<div id="faq" class="faq"><h2>${T.chFaq}</h2>${faq.map(f => faqHTML(f, lang)).join("\n")}</div>` : ""}
 ${secnav}
 <div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">${svgIcon("pad")} ${T.trainer}</a></div>
-<div class="disc">${T.disc}</div>${legal(lang)}
-</main></div>
+
+</main></div>${foot(lang, T.disc)}
 <script>${RULES_JS}</script>
 ${defs.size ? `<script type="application/json" id="gdefs">${JSON.stringify(Object.fromEntries(defs)).replace(/</g, "\\u003c")}</script>
 <script>${GT_JS}</script>` : ""}
@@ -517,8 +519,8 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <body>
 <header><div class="in">${crumbs("uk", svgIcon("gbook", SECTION_COLOR.glossary), name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">${svgIcon("rbook")} Правила FITASC</a>
 <!-- langs -->${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: enUrl }])}<!-- /langs --></div></header>
-<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">${body}
-<div class="disc">Глосарій ClayArena побудовано на нашому переказі регламентів FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}</main>
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 0">${body}
+</main>${foot("uk", `Глосарій ClayArena побудовано на нашому переказі регламентів FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.`)}
 </body></html>`;
   const SET = { "@type": "DefinedTermSet", name: "Глосарій стендової стрільби ClayArena", url: BASE + "glossary/", inLanguage: "uk" };
   for (const t of GLOSS.terms) {
@@ -551,8 +553,8 @@ ${rel ? `<h2 id="rel">Повʼязані терміни</h2><p class="rel-row">$
   }
   { const extra = Object.keys(SUB_UK).filter(id => !GBY[id] || termLabel("uk", GBY[id]).local);
     if (extra.length) console.log(`WARNING: content/glossary/subtitles/uk.json: no term or the h1 already has a local word, subtitle not shown: ${extra.join(", ")}`); }
-  const listBody = `<div class="eyebrow">ClayArena · Sporting™ · Compak® Sporting</div><h1>Глосарій стендової стрільби</h1><p>${ukTerms(GLOSS.terms.length)} Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
-${glossaryIndexList("uk", GLOSS.terms, { cat: c => CAT_UK[c] || c, url: t => `${BASE}glossary/${t.id}/`, html: t => termHtml("uk", t), short: t => t.short_uk })}`;
+  const listBody = `
+${glossaryIndexList("uk", GLOSS.terms, { head: `<div class="eyebrow">ClayArena · Sporting™ · Compak® Sporting</div><h1>Глосарій стендової стрільби</h1><p>${ukTerms(GLOSS.terms.length)} Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>`, cat: c => CAT_UK[c] || c, url: t => `${BASE}glossary/${t.id}/`, html: t => termHtml("uk", t), short: t => t.short_uk })}`;
   writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${ukTerms(GLOSS.terms.length)} | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
     [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody, null, `${BASE}en/glossary/`).replace("</head>", `<style>${LIST_CSS}</style>\n</head>`));
   return [BASE + "glossary/", ...out];
@@ -626,7 +628,7 @@ const gsKeys = (lang, t) => {
 // (content/glossary/subtitles/uk.json, in italics: Jury — «журі змагання»). English pages: the term alone. o.html(t) gives
 // '<span lang="en">English</span> (local)' (ClayTerms.html) or plain text on the English pages; it is split here.
 // The search drop-down (glossary-search.js) puts them back into one line "English (local)".
-const LIST_CSS = ".list{columns:3 230px;column-gap:28px}.list a{padding:6px 8px;margin:0 -8px 2px;border-radius:8px;line-height:1.3}.list a:hover{background:rgba(255,255,255,.05)}"
+const LIST_CSS = "main h2[id^='cat-']{padding-bottom:8px;border-bottom:1px solid var(--line);margin:32px 0 14px}.list{columns:3 230px;column-gap:28px}.list a{padding:6px 8px;margin:0 -8px 2px;border-radius:8px;line-height:1.3}.list a:hover{background:rgba(255,255,255,.05)}"
   + ".list .en{display:block;color:var(--ink);font-weight:600}.list .lc{display:block;color:var(--muted);font-size:14px;margin-top:1px}.list .lc.sub{font-style:italic}"
   + ".list a[data-anim]::after{content:none}.list a[data-anim] .en::after{content:\"▶\";margin-left:5px;font-size:.7em;color:var(--em);vertical-align:.14em}";
 const twoLine = (lang, t, h) => { const m = /^<span lang="en">([\s\S]*?)<\/span>(?: \(([\s\S]*)\))?$/.exec(h);
@@ -635,8 +637,9 @@ const twoLine = (lang, t, h) => { const m = /^<span lang="en">([\s\S]*?)<\/span>
   return `<span class="en" lang="en">${m[1]}</span>${m[2] ? `<span class="lc">${m[2]}</span>` : sub ? `<span class="lc sub">${sub}</span>` : ""}`; };
 const glossaryIndexList = (lang, terms, o) => {
   const cats = [...new Set(terms.map(t => t.cat))], inCat = c => terms.filter(t => t.cat === c);
-  const box = GS.form(lang, cats.map(c => ({ slug: GS.catSlug(c), name: o.cat(c), n: inCat(c).length })), esc, terms.filter(t => ANIM.has(t.id)).length);
-  return box + "\n" + cats.map(c => `<h2 id="cat-${GS.catSlug(c)}">${esc(o.cat(c))}</h2><div class="list" data-cat="${GS.catSlug(c)}">${inCat(c).sort((a, b) => a.term.localeCompare(b.term)).map(t => {
+  const [box, catBox] = GS.form(lang, cats.map(c => ({ slug: GS.catSlug(c), name: o.cat(c), n: inCat(c).length })), esc, terms.filter(t => ANIM.has(t.id)).length, true);
+  // the title, the lead and the search box sit in the product frame (variant A, design-mockups/hero-frames.html, journal 122)
+  return (o.head ? `<section class="ca-hero ca-hero-gl">${o.head}${box}</section>` : box) + catBox + "\n" + cats.map(c => `<h2 id="cat-${GS.catSlug(c)}">${esc(o.cat(c))}</h2><div class="list" data-cat="${GS.catSlug(c)}">${inCat(c).sort((a, b) => a.term.localeCompare(b.term)).map(t => {
     const g = gsKeys(lang, t), d = o.short(t);
     return `<a href="${o.url(t)}" data-k="${esc(g.k.join("|"))}"${g.a.length ? ` data-a="${esc(g.a.join("|"))}"` : ""}${d ? ` data-d="${esc(d)}"` : ""}${ANIM.has(t.id) ? " data-anim" : ""}>${twoLine(lang, t, o.html(t))}</a>`; }).join("")}</div>`).join("\n"); };
 // Breadcrumbs in JSON-LD (BreadcrumbList) of the glossary term pages, all 11 languages (glossary plan, wave 8: markup, 05.11.2026;
@@ -762,7 +765,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 </head>
 <body>
 <header><div class="in">${crumbs("uk", svgIcon("rbook", SECTION_COLOR.rules), [{ label: "Правила FITASC", url: `${BASE}rules/?lang=uk`, vl: 1 }, { label: "Категорії" }])}<span style="flex:1"></span>${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: BASE + "rules/en/categories/" }])}</div></header>
-<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 0">
 <div class="src">FITASC · Sporting™ · Compak® Sporting</div>
 <h1>Категорії FITASC: хто такий Junior, Lady, Senior, Veteran, Master</h1>
 <p>Вікові категорії однакові для Parcours de Chasse – Sporting™ і Compak® Sporting. Діють з ${C.valid_from.split("-").reverse().join(".")}. Значення має лише <b>рік</b> народження, а не день і місяць. Національні й клубні змагання можуть мати власні категорії — дивіться програму змагань.</p>
@@ -771,8 +774,8 @@ ${teams ? `<h2>Національні команди</h2><div class="tw"><table>
 ${(C.notes_uk || []).length ? `<ul>${C.notes_uk.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
 <p class="src">Джерело: <a href="${esc(C.source_url)}" ${NF}>FITASC — Catégories, limites d'âge ↗</a> · ${TODAY}</p>
 <div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=uk">${svgIcon("rbook")} Правила FITASC</a><a class="btn" href="${BASE}glossary/">${svgIcon("gbook")} Глосарій</a><a class="btn" href="${BASE}learn/">${svgIcon("cap")} Академія ClayArena</a></div>
-<div class="disc">Наш переказ офіційних категорій FITASC. Чинним є лише текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}
-</main></body></html>`;
+
+</main>${foot("uk", `Наш переказ офіційних категорій FITASC. Чинним є лише текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.`)}</body></html>`;
   mkdirSync(`${DOCS}/rules/categories`, { recursive: true });
   writeFileSync(`${DOCS}/rules/categories/index.html`, html);
   return [url];

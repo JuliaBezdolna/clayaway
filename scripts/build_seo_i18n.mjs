@@ -15,6 +15,7 @@
 // when it exists, else the English lesson labelled "(in English)". The Academy pages themselves are written by build_academy.mjs.
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 import { svgIcon, SECTION_COLOR } from "./icons.mjs";
+import { foot } from "./site_common.mjs";
 
 const UI = {
   de: { gl: "Glossar", title: "{t} — Begriff im Wurfscheibenschießen | ClayArena Glossar", what: "Was ist {t}?", detail: "{t} im Detail", disc: "In Sporting™ und Compak® Sporting", rules: "In den Regeln", learn: "Lernen", acad_en: "ClayArena-Akademie (auf Englisch)", ia: "ClayArena Dolmetscher-Akademie", rel: "Verwandte Begriffe", local: "So sagt man", list: "Glossar des Wurfscheibenschießens — {n} Begriffe", intro: "{n} Begriffe aus Sporting™ und Compak® Sporting, einfach erklärt, mit Links zu den FITASC-Regeln.", tm: "Parcours de Chasse – Sporting™ und Compak® Sporting sind Marken der FITASC. Nur der offizielle FITASC-Text ist verbindlich.", locale: "de_DE" },
@@ -117,14 +118,14 @@ ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`
 </head>
 <body>
 <header><div class="in">${crumbs(lang, svgIcon("gbook", SECTION_COLOR.glossary), [{ label: U.gl, url: listUrl(lang) }, { label: lb.label }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
-<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 0">
 ${GS.mini(lang, esc)}<div class="eyebrow">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}${jumpNav(lang, { disc, rules: refs, learn, rel })}
 <section class="what-card"><h2 id="what">${U.what.replace("{t}", `<span lang="en">${esc(name)}</span>`)}</h2><p class="def">${esc(x.short)}</p>${x.long ? `<div class="sep"></div><h2>${U.detail.replace("{t}", `<span lang="en">${esc(name)}</span>`)}</h2><p class="txt">${esc(x.long)}</p>` : ""}</section>
 ${disc ? `<h2 id="disc">${U.disc}</h2><div class="duo">${disc}</div>` : ""}
 ${refs ? `<h2 id="rules">${U.rules}</h2><ul>${refs}</ul>` : ""}
 ${learn ? `<h2 id="learn">${U.learn}</h2><ul>${learn}</ul>` : ""}
 ${rel ? `<h2 id="rel">${U.rel}</h2><p class="rel-row">${rel}</p>` : ""}${catMore(lang, t, GLOSS.terms.filter(x => D[x.id]), { cat: c => (CAT[lang] || {})[c] || c, url: x => termUrl(lang, x.id), html: x => termHtml(lang, x), list: listUrl(lang), skip: (t.related || []).map(rid) })}
-<div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`;
+</main>${foot(lang, `${U.tm}`)}</body></html>`;
         mkdirSync(`${DOCS}/${lang}/glossary/${t.id}`, { recursive: true });
         writeFileSync(`${DOCS}/${lang}/glossary/${t.id}/index.html`, html);
         out.push(url);
@@ -149,9 +150,9 @@ ${og({ lang, title, desc, url, U })}
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", ...SET, inLanguage: lang, hasDefinedTerm: GLOSS.terms.filter(t => D[t.id]).map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: termUrl(lang, t.id) })) })}</script>
 <style>${CSS}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}${GS.CSS}${LIST_CSS}</style></head>
 <body><header><div class="in">${crumbs(lang, svgIcon("gbook", SECTION_COLOR.glossary), [{ label: U.gl }])}<span style="flex:1"></span>${langBtns(lang, listUrl)}</div></header>
-<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px"><div class="eyebrow">ClayArena · Sporting™ · Compak® Sporting</div><h1>${esc(fill(LIST, "n", n))}</h1><p>${esc(desc)}</p>
-${glossaryIndexList(lang, GLOSS.terms.filter(t => D[t.id]), { cat: c => (CAT[lang] || {})[c] || c, url: t => termUrl(lang, t.id), html: t => termHtml(lang, t), short: t => D[t.id].short })}
-<div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`);
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 0">
+${glossaryIndexList(lang, GLOSS.terms.filter(t => D[t.id]), { head: `<div class="eyebrow">ClayArena · Sporting™ · Compak® Sporting</div><h1>${esc(fill(LIST, "n", n))}</h1><p>${esc(desc)}</p>`, cat: c => (CAT[lang] || {})[c] || c, url: t => termUrl(lang, t.id), html: t => termHtml(lang, t), short: t => D[t.id].short })}
+</main>${foot(lang, `${U.tm}`)}</body></html>`);
       out.push(url);
     }
     // refresh hreflang on uk + en glossary pages: only the languages that have the term

@@ -83,7 +83,8 @@ nav.crumbs-b{max-width:912px;margin:14px auto 0;padding:0 16px}
 .seg button{border:0;background:transparent;padding:6px 12px;font-size:14px;color:var(--muted);white-space:nowrap}
 .seg button[aria-pressed="true"]{background:var(--primary);color:#fff;font-weight:600}
 .seg.disc button[aria-pressed="true"]{background:#fff;color:#030712}
-main{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:22px 80px}
+main{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:22px 0}
+.ca-foot{margin:48px max(16px,calc((100% - 880px) / 2)) 0;padding:16px 0 80px;border-top:1px solid var(--line);font-size:13px;line-height:1.55;color:var(--muted)}.ca-foot p{margin:0 0 8px;font-size:13px;color:var(--muted);max-width:none}.ca-foot a,.ca-foot button{color:var(--muted)}.ca-foot a:hover,.ca-foot button:hover{color:#fff}.ca-foot-langs{display:flex;flex-wrap:wrap;gap:0 14px;margin-top:4px}.ca-foot-langs:empty{display:none}.ca-foot-langs a,.ca-foot-langs button{font:inherit;font-size:13px;background:none;border:0;padding:0;cursor:pointer;text-decoration:none;min-height:32px;display:inline-flex;align-items:center}.ca-foot-langs [aria-current],.ca-foot-langs [aria-pressed="true"]{color:var(--ink);font-weight:600}@media (pointer:coarse){.ca-foot-langs a,.ca-foot-langs button{min-height:44px}}@media print{.ca-foot-langs{display:none}}
 h1,h2,h3{letter-spacing:-.01em;text-wrap:balance}
 h1{font-size:clamp(28px,4.5vw,42px);line-height:1.1;margin:0 0 8px}
 h2{font-size:20px;margin:0 0 10px}
@@ -205,6 +206,7 @@ p{margin:0 0 10px;max-width:70ch}
 </div></header>
 <nav class="crumbs crumbs-b" id="crumbs" aria-label="Навігаційний ланцюжок"><a href="../../learn/">Академія</a><span aria-hidden="true">›</span><a href="../../learn/practice/">Практика</a><span aria-hidden="true">›</span><span aria-current="page">Тренажер правил</span></nav>
 <main id="app"></main>
+<footer class="ca-foot" id="caFoot" hidden></footer>
 <script src="../data/quiz-sporting.js"></script>
 <script src="../data/quiz-compak.js"></script>
 <!-- the rules books, the term labels and the animations are loaded after the first paint: DEPS / READY in the script below -->
@@ -423,6 +425,12 @@ const optText=(q,o,i)=>{ if(o.term&&window.ClayTerms){ const T=((window.CLAYSIMS
     if(T) return ClayTerms.of({term:T[0]},{term_local:T[1]||""},L(),{en:o.en}).label; }
   return o[L()]||((OV.questions[q.id]||{}).options||[])[i]||o.en; };
 async function loadLang(l){ OV={ui:{},questions:{}}; if(l==="uk"||l==="en") return; try{ const r=await fetch(`../data/i18n/quiz-${l}.json`); if(r.ok) OV=await r.json(); }catch(e){} }
+
+/* ONE footer of the three products (journal 122): the markup of foot() in scripts/site_common.mjs, the legal texts are a copy of
+   LEGAL_TXT there; <footer id="caFoot"> stays hidden until the first full render, so it never jumps down the page */
+const LEGAL_TXT={ uk: ["Політика конфіденційності", "Правова інформація", "Контакти (зокрема для правовласників)"], en: ["Privacy policy", "Legal information", "Contacts (also for rights holders)"], de: ["Datenschutzerklärung", "Rechtliche Hinweise", "Kontakt (auch für Rechteinhaber)"], fr: ["Politique de confidentialité", "Informations légales", "Contact (y compris pour les ayants droit)"], it: ["Informativa sulla privacy", "Note legali", "Contatti (anche per i titolari dei diritti)"], cs: ["Zásady ochrany osobních údajů", "Právní informace", "Kontakty (i pro držitele práv)"], pl: ["Polityka prywatności", "Informacje prawne", "Kontakt (także dla właścicieli praw)"], pt: ["Política de privacidade", "Informação legal", "Contactos (também para titulares de direitos)"], hu: ["Adatvédelmi tájékoztató", "Jogi információk", "Kapcsolat (jogtulajdonosoknak is)"], fi: ["Tietosuojaseloste", "Oikeudelliset tiedot", "Yhteystiedot (myös oikeudenhaltijoille)"], lt: ["Privatumo politika", "Teisinė informacija", "Kontaktai (taip pat teisių turėtojams)"] };
+const footHTML=(l,langs)=>{const p=({uk:"uk-ua",de:"de-de"})[l]||"en",x=LEGAL_TXT[l]||LEGAL_TXT.en;
+  return `<p>${t("disc")}</p><p class="legal">© ${new Date().getFullYear()} ClayArena · <a href="https://clayarena.com/${p}/privacy/">${x[0]}</a> · <a href="https://clayarena.com/${p}/legal/">${x[1]}</a> · <a href="https://clayarena.com/${p}/contacts/">${x[2]}</a></p>${langs}`;};
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const st=()=>{ const s=P.stats[P.disc]=P.stats[P.disc]||{ans:0,ok:0,best:0,wrong:[]}; return s; };
 const shuffle=a=>{ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
@@ -495,8 +503,7 @@ function homeView(){
    <div class="acc"><div class="ring" style="--p:${acc}" aria-hidden="true"><span>${s.ans?acc+"%":"—"}</span></div><p>${s.ans?`${t("sAcc")} <b>${acc}%</b> · ${t("sAns")}: <b>${s.ans}</b><br>${t("sMist")}: <b>${s.wrong.length}</b>`:t("accEmpty")}</p></div>
    <div class="lvl"><p class="cap" id="lvCap">${t("level")}</p><div class="lvtiles" role="group" aria-labelledby="lvCap">${[0,1,2,3].map(l=>{ const n=l?qs.filter(q=>q.level===l).length:qs.length, nm=l?t("l"+l):t("lvAll");
      return `<button class="${l?"":"all"}" data-level="${l}" aria-pressed="${S.level===l}"><span class="t"><b>${nm.charAt(0).toUpperCase()+nm.slice(1)}</b><span class="lvbars" aria-hidden="true">${[1,2,3].map(i=>`<i class="${l&&i<=l?"on":""}"></i>`).join("")}</span></span><span class="n"><strong>${n}</strong>${qWord(n)}</span><span class="d">${t("lvD"+l)}</span></button>`; }).join("")}</div></div>
-   <div class="list">${rec?short+quick:quick+short}${it("exam",t("examS"),s.best?best(s.best):"")}${it("mistakes",s.wrong.length?t("mistS"):t("noMist"),s.wrong.length?`<strong>${s.wrong.length}</strong>`:"",{dis:!s.wrong.length})}</div>
-   <div class="disclaimer">${t("disc")}</div>`;
+   <div class="list">${rec?short+quick:quick+short}${it("exam",t("examS"),s.best?best(s.best):"")}${it("mistakes",s.wrong.length?t("mistS"):t("noMist"),s.wrong.length?`<strong>${s.wrong.length}</strong>`:"",{dis:!s.wrong.length})}</div>`;
 }
 function runView(){
   const r=S.run, q=r.qs[r.i], exam=EXAMLIKE(r.mode), answered=r.picked!=null;
@@ -530,6 +537,7 @@ function render(){
   const cr=document.getElementById("crumbs"); cr.innerHTML=crumbsHTML(); cr.setAttribute("aria-label",t("crumbs")); document.title=`${t("svc")} FITASC · ClayArena`;
   document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("tlangM").setAttribute("aria-label",t("langG"));
   document.getElementById("tlangN").textContent=LANG_NAMES[L()];
+  { const f=document.getElementById("caFoot"); f.innerHTML=footHTML(L(),`<nav class="ca-foot-langs" aria-label="${esc(t("langG"))}">${LANGS.map(l=>`<button type="button" data-tl="${l}" lang="${l}" aria-pressed="${l===L()}">${LANG_NAMES[l]}</button>`).join("")}</nav>`); f.hidden=false; }
   document.getElementById("tlangM").innerHTML=LANGS.map(l=>`<button type="button" data-tl="${l}" lang="${l}" aria-pressed="${l===L()}">${LANG_NAMES[l]}</button>`).join("");
   const sec=document.getElementById("tsec"); sec.href=learnHref(); document.getElementById("tsecN").textContent=(window.ClayNav&&ClayNav.full&&ClayNav.full("learn",L()))||"Академія ClayArena";
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===P.disc));
@@ -571,6 +579,7 @@ async function setLang(l){ if(!LANGS.includes(l)||l===P.lang) return;
   P.lang=l; store.set(P); stat("lang",P.lang); vlSet(P.lang);
   try{ const u=new URL(location.href); u.searchParams.set("lang",P.lang); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(_){} // keep ?lang (and from/mode)
   await loadLang(P.lang); render(); }
+document.getElementById("caFoot").addEventListener("click",e=>{ const b=e.target.closest("[data-tl]"); if(b) setLang(b.dataset.tl); });
 document.getElementById("tlangM").addEventListener("click",e=>{ const b=e.target.closest("[data-tl]"); if(!b) return; document.getElementById("tlangD").open=false; setLang(b.dataset.tl); });
 /* ?mode=mistakes (the bar's hint "mistakes to repeat", per discipline): start the mistakes test at once, unless a saved test waits. */
 loadLang(P.lang).then(()=>{ if(WANT_MODE==="mistakes"&&!S.run&&st().wrong.length) start("mistakes"); else render(); });

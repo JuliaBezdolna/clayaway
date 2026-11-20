@@ -100,7 +100,7 @@
   // Section identity: each section has its own colour and icon, so a visitor sees at once that they changed section.
   /* Section icons are line icons (scripts/icons.mjs, 20.11.2026), drawn in the section colour. The copy below is written by
      `bun scripts/sync_icons.mjs` — edit scripts/icons.mjs. */
-  /* icons:begin NAV_I cap rbook gbook plane pad globe */const NAV_I = {"cap":'<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/>',"rbook":'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/><path d="M9 7h7M9 11h5"/>',"gbook":'<path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/>',"plane":'<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.3c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',"pad":'<rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M6.5 12.5h4M8.5 10.5v4"/><path d="M15.5 12h.01M18 13.5h.01"/>',"globe":'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19z"/>'};/* icons:end */
+  /* icons:begin NAV_I cap rbook gbook plane pad globe up */const NAV_I = {"cap":'<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/>',"rbook":'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/><path d="M9 7h7M9 11h5"/>',"gbook":'<path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/>',"plane":'<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.3c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',"pad":'<rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M6.5 12.5h4M8.5 10.5v4"/><path d="M15.5 12h.01M18 13.5h.01"/>',"globe":'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19z"/>',"up":'<path d="M12 20V5M6 11l6-6 6 6"/>'};/* icons:end */
   const ico = (k, c) => NAV_I[k] ? `<svg class="ca-ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"${c ? ` style="color:${c}"` : ""}>${NAV_I[k]}</svg>` : "";
   const LOOK = {learn: ["#34D399", "cap"], rules: ["#22D3EE", "rbook"], glossary: ["#A78BFA", "gbook"], tours: ["#F472B6", "plane"], trainer: ["#FBBF24", "pad"], home: ["#34D399", ""]};
   const secIc = id => LOOK[id] ? ico(LOOK[id][1], LOOK[id][0]) : "";
@@ -109,6 +109,7 @@
   // Short texts of the bar itself (all ClayArena languages).
   const TX = {
     back: {en: "Back to", uk: "Повернутися:", de: "Zurück zu", fr: "Revenir à", it: "Torna a", cs: "Zpět na", pl: "Wróć do", pt: "Voltar a", hu: "Vissza ide:", fi: "Takaisin:", lt: "Grįžti į"},
+    up: {en: "Back to top", uk: "Вгору", de: "Nach oben", fr: "Haut de page", it: "Torna su", cs: "Nahoru", pl: "Do góry", pt: "Voltar ao topo", hu: "Vissza az oldal tetejére", fi: "Takaisin ylös", lt: "Į viršų"},
     close: {en: "Close", uk: "Закрити", de: "Schließen", fr: "Fermer", it: "Chiudi", cs: "Zavřít", pl: "Zamknij", pt: "Fechar", hu: "Bezárás", fi: "Sulje", lt: "Uždaryti"},
     skip: {en: "Skip to content", uk: "Перейти до змісту", de: "Zum Inhalt springen", fr: "Aller au contenu", it: "Vai al contenuto", cs: "Přejít na obsah", pl: "Przejdź do treści", pt: "Saltar para o conteúdo", hu: "Ugrás a tartalomra", fi: "Siirry sisältöön", lt: "Peršokti į turinį"},
     mistakes: {en: "Mistakes to repeat in the rules trainer ({d}): {n}", uk: "Помилок для повторення в тренажері правил ({d}): {n}", de: "Fehler zum Wiederholen im Regeltrainer ({d}): {n}", fr: "Erreurs à revoir dans l'entraîneur des règles ({d}) : {n}", it: "Errori da ripassare nell'allenatore delle regole ({d}): {n}", cs: "Chyby k zopakování v trenažéru pravidel ({d}): {n}", pl: "Błędy do powtórki w trenerze przepisów ({d}): {n}", pt: "Erros para rever no Treinador de regras ({d}): {n}", hu: "Átismétlendő hibák a szabálytrénerben ({d}): {n}", fi: "Kerrattavat virheet sääntövalmentajassa ({d}): {n}", lt: "Klaidos pakartojimui taisyklių treniruoklyje ({d}): {n}"},
@@ -239,7 +240,10 @@ main[tabindex="-1"]:focus{outline:none}
 .ca-float{position:fixed;left:0;right:0;bottom:0;z-index:35;padding-bottom:env(safe-area-inset-bottom,0px);background:#0B1120;box-shadow:0 -10px 28px rgba(0,0,0,.5)}
 .ca-hint{transition:opacity .2s}.ca-hint.ca-out{opacity:0}@media (prefers-reduced-motion:reduce){.ca-hint{transition:none}}
 .ca-float:empty{display:none}.ca-float .ca-hint,.ca-float .ca-lang{border-bottom:0;border-top:1px solid rgba(255,255,255,.14)}
-@media print{.ca-float,.ca-float-sp,.ca-slot{display:none!important}}`;
+.ca-up{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:34;width:44px;height:44px;padding:0;border-radius:50%;border:1px solid rgba(255,255,255,.18);background:#0B1120;color:#34D399;display:inline-flex;align-items:center;justify-content:center;font-size:20px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.45);transition:opacity .2s,transform .2s}
+.ca-up[hidden]{display:none}.ca-up:hover{border-color:#34D399;color:#fff}.ca-up:focus-visible{outline:2px solid #34D399;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.ca-up{transition:none}}
+@media print{.ca-float,.ca-float-sp,.ca-slot,.ca-up{display:none!important}}`;
   const st = document.createElement("style"); st.textContent = css; document.head.appendChild(st);
   const bar = document.createElement("div"); bar.className = "ca-bar";
   const hint = document.createElement("div"); hint.className = "ca-hint"; hint.setAttribute("role", "status");
@@ -384,6 +388,29 @@ main[tabindex="-1"]:focus{outline:none}
   addEventListener("resize", fit, {passive: true});
   draw();
   // apps that switch language without reloading (rules guide, trainer) change <html lang>: follow it (they also call setLang)
+  /* ---- «Вгору» (journal 122, 20.11.2026): a round button at the bottom right appears once the reader has scrolled down one full
+     screen and brings them back to the top of the page. A page shorter than two screens never scrolls that far, so it never shows
+     there. It sits above the bottom banners (.ca-float) and takes the keyboard focus to the start of the content. */
+  const up = document.createElement("button"); up.type = "button"; up.className = "ca-up"; up.hidden = true; up.innerHTML = ico("up");
+  const drawUp = () => { const s = pick(TX.up); up.setAttribute("aria-label", s); up.title = s; };
+  drawUp(); document.addEventListener("claynav:update", drawUp);
+  let upT = 0;
+  const upCheck = () => { upT = 0; const on = scrollY > innerHeight; if (up.hidden === on) up.hidden = !on;
+    const fh = float.offsetHeight; up.style.bottom = fh ? fh + 16 + "px" : ""; };
+  const upLater = () => { if (!upT) upT = setTimeout(upCheck, 120); };
+  addEventListener("scroll", upLater, {passive: true}); addEventListener("resize", upLater, {passive: true});
+  // a page opened in the middle (a link to #item, a reload that keeps the place) shows it at once, without waiting for a scroll
+  upLater(); if (document.readyState !== "complete") addEventListener("load", upLater);
+  up.addEventListener("click", () => {
+    const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    scrollTo({top: 0, behavior: calm ? "auto" : "smooth"});
+    if (target) target.focus({preventScroll: true});
+  });
+  document.body.appendChild(up);
+  /* ONE footer (journal 122): the static pages leave the language list of their footer empty (scripts/site_common.mjs, foot());
+     it gets the links of the page language menu, so the two never differ. Pages that draw their footer themselves fill it. */
+  const fl = document.querySelector("footer .ca-foot-langs:empty"), lm = document.querySelector("details.langs nav");
+  if (fl && lm) fl.innerHTML = [...lm.querySelectorAll("a[href]")].map(a => a.outerHTML).join("");
   new MutationObserver(() => { const n = pageLang(); if (n !== PL) { PL = n; if (!stored) VL = PL; draw(); } })
     .observe(document.documentElement, {attributes: true, attributeFilter: ["lang"]});
 })();

@@ -44,6 +44,20 @@ export const LEGAL_TXT = {
 export const legal = lang => { const p = CA_PATH[lang] || "en", x = LEGAL_TXT[lang] || LEGAL_TXT.en;
   return `<p class="legal">© ${new Date().getFullYear()} ClayArena · <a href="https://clayarena.com/${p}/privacy/">${x[0]}</a> · <a href="https://clayarena.com/${p}/legal/">${x[1]}</a> · <a href="https://clayarena.com/${p}/contacts/">${x[2]}</a></p>`; };
 
+// ONE footer of the three products (journal 122, 20.11.2026; before: an Academy footer across the whole window with a language
+// list, a disclaimer box + a 12 px legal line in the Glossary and the static rules pages, no legal line in the rules guide and the
+// trainer). In the 880 px column under a thin line: the product note (disclaimer), the legal line, the languages of the page. The
+// static pages leave <nav class="ca-foot-langs"> empty: docs/shared/nav.js fills it with the links of the page language menu
+// (details.langs), so the list never differs from the menu; empty (no JS) it is hidden. The Academy app (academy.js), the rules
+// guide and the trainer draw the same markup themselves. FOOT_CSS is the same block in docs/learn/app/academy.css,
+// docs/rules/index.html, docs/rules/trainer/index.html, docs/404.html and docs/offline.html: change it everywhere.
+export const FOOT_LABEL = { en: "Languages", uk: "Мови", de: "Sprachen", fr: "Langues", it: "Lingue", cs: "Jazyky", pl: "Języki", pt: "Línguas", hu: "Nyelvek", fi: "Kielet", lt: "Kalbos" };
+export const FOOT_CSS = ".ca-foot{margin:48px max(16px,calc((100% - 880px) / 2)) 0;padding:16px 0 80px;border-top:1px solid var(--line);font-size:13px;line-height:1.55;color:var(--muted)}"
+  + ".ca-foot p{margin:0 0 8px;font-size:13px;color:var(--muted);max-width:none}.ca-foot a,.ca-foot button{color:var(--muted)}.ca-foot a:hover,.ca-foot button:hover{color:#fff}"
+  + ".ca-foot-langs{display:flex;flex-wrap:wrap;gap:0 14px;margin-top:4px}.ca-foot-langs:empty{display:none}.ca-foot-langs a,.ca-foot-langs button{font:inherit;font-size:13px;background:none;border:0;padding:0;cursor:pointer;text-decoration:none;min-height:32px;display:inline-flex;align-items:center}"
+  + ".ca-foot-langs [aria-current],.ca-foot-langs [aria-pressed=\"true\"]{color:var(--ink);font-weight:600}@media (pointer:coarse){.ca-foot-langs a,.ca-foot-langs button{min-height:44px}}@media print{.ca-foot-langs{display:none}}";
+export const foot = (lang, note) => `<footer class="ca-foot"><p>${note}</p>${legal(lang)}<nav class="ca-foot-langs" aria-label="${FOOT_LABEL[lang] || FOOT_LABEL.en}"></nav></footer>`;
+
 // The FITASC_INDEX switch lives in ONE place: scripts/build_seo.mjs ("const FITASC_INDEX = false;"). Builds that run on
 // their own (bun scripts/build_academy.mjs) read it from there, so the switch is never duplicated. Unknown → false (noindex).
 export function readFitascIndex(root) {

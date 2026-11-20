@@ -65,7 +65,8 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 @media (pointer:coarse){.seg button{min-height:44px}}
 .seg button[aria-pressed="true"]{background:var(--primary);color:#fff;font-weight:600}
 .seg.disc button[aria-pressed="true"]{background:#fff;color:#030712}
-main{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:22px 80px}
+main{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:22px 0}
+.ca-foot{margin:48px max(16px,calc((100% - 880px) / 2)) 0;padding:16px 0 80px;border-top:1px solid var(--line);font-size:13px;line-height:1.55;color:var(--muted)}.ca-foot p{margin:0 0 8px;font-size:13px;color:var(--muted);max-width:none}.ca-foot a,.ca-foot button{color:var(--muted)}.ca-foot a:hover,.ca-foot button:hover{color:#fff}.ca-foot-langs{display:flex;flex-wrap:wrap;gap:0 14px;margin-top:4px}.ca-foot-langs:empty{display:none}.ca-foot-langs a,.ca-foot-langs button{font:inherit;font-size:13px;background:none;border:0;padding:0;cursor:pointer;text-decoration:none;min-height:32px;display:inline-flex;align-items:center}.ca-foot-langs [aria-current],.ca-foot-langs [aria-pressed="true"]{color:var(--ink);font-weight:600}@media (pointer:coarse){.ca-foot-langs a,.ca-foot-langs button{min-height:44px}}@media print{.ca-foot-langs{display:none}}
 h1,h2,h3{letter-spacing:-.01em;text-wrap:balance}
 h1{font-size:clamp(28px,4.5vw,42px);line-height:1.1;margin:0 0 8px}
 h2{font-size:20px;margin:0 0 10px}
@@ -73,6 +74,7 @@ h3{font-size:16px;margin:0 0 4px}
 p{margin:0 0 10px;max-width:72ch}
 .muted{color:var(--muted)}.small{font-size:13px}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--em)}
+/* product frame of the home title (variant A, design-mockups/hero-frames.html, journal 122; softened, design-mockups/product-colour-balance.html variant 2): one frame, the section colour only in the top stripe, the glow neutral, the eyebrow emerald as everywhere */.ca-hero{--c:#34D399;--g:rgba(6,78,59,.55);padding:18px;border-radius:12px;border:1px solid var(--line);border-top:3px solid var(--c);background:radial-gradient(120% 140% at 0% 0%,var(--g),transparent 60%),#0B1120;margin:0 0 18px}.ca-hero h1{margin:4px 0 10px}.ca-hero>p{margin:0;color:var(--soft);font-size:17px;max-width:none}.ca-hero-rules{--c:#22D3EE;--g:rgba(255,255,255,.05)}.ca-hero-gl{--c:#A78BFA;--g:rgba(255,255,255,.05)}@media(max-width:760px){.ca-hero{padding:16px}}@media(max-width:560px){.ca-hero>p{font-size:16px}}
 /* Top of the guide (wave 2, 10.11.2026, variant D of design-mockups/rules-home.html, put together by the owner from A and B):
    lead → one big search field + "frequently searched" topics → three tiles (trainer, age categories, all questions) → a small
    service line (official PDF, edition, quick guide, update check). Before: four service lines and the trainer/categories buttons
@@ -236,7 +238,8 @@ details.item p,details.item li,.faqlist p,.ans-main p,.ans-main .a{max-width:non
 <div class="where-shade" id="whereShade"></div>
 <nav id="whereList" aria-label="Зміст"></nav>
 <main id="app"><noscript><p><a href="sporting/">Правила Parcours de Chasse – Sporting™</a> · <a href="compak/">Правила Compak® Sporting</a> · <a href="en/sporting/">Parcours de Chasse – Sporting™ rules (EN)</a> · <a href="en/compak/">Compak® Sporting rules (EN)</a></p></noscript></main>
-<nav id="statics" aria-label="Статичні сторінки" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · <span lang="en">English</span>: <a href="en/sporting/" hreflang="en">Sporting™</a> · <a href="en/compak/" hreflang="en">Compak® Sporting</a> · <a href="trainer/?lang=uk"><span aria-hidden="true" data-ico="pad"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M6.5 12.5h4M8.5 10.5v4"/><path d="M15.5 12h.01M18 13.5h.01"/></svg></span> Тренажер правил</a></nav>
+<nav id="statics" aria-label="Статичні сторінки" style="max-width:912px;margin:0 auto;padding:0 16px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · <span lang="en">English</span>: <a href="en/sporting/" hreflang="en">Sporting™</a> · <a href="en/compak/" hreflang="en">Compak® Sporting</a> · <a href="trainer/?lang=uk"><span aria-hidden="true" data-ico="pad"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M6.5 12.5h4M8.5 10.5v4"/><path d="M15.5 12h.01M18 13.5h.01"/></svg></span> Тренажер правил</a></nav>
+<footer class="ca-foot" id="caFoot" hidden></footer>
 <!-- the rules books (data/sporting.js, data/compak.js, ~280 KB each) are loaded by the script below: loadBook() -->
 <script>
 /* Line icons (scripts/icons.mjs, 20.11.2026): one meaning in the Academy, the rules and the Glossary. The copy below and the
@@ -314,6 +317,12 @@ const VQ=(()=>{ try{ const q=new URLSearchParams(location.search).get("lang"); r
 const VL=()=>(window.ClayNav&&ClayNav.lang&&ClayNav.lang())||VQ||vlGet()||S.lang;
 if(location.hash==="#compak") S.disc="compak"; if(location.hash==="#sporting") S.disc="sporting";
 const L=()=>S.lang,t=k=>T[L()][k],tx=(o,k)=>o[k+"_"+L()]||o[k+"_en"]||"";
+
+/* ONE footer of the three products (journal 122): the markup of foot() in scripts/site_common.mjs, the legal texts are a copy of
+   LEGAL_TXT there; <footer id="caFoot"> stays hidden until the first full render, so it never jumps down the page */
+const LEGAL_TXT={ uk: ["Політика конфіденційності", "Правова інформація", "Контакти (зокрема для правовласників)"], en: ["Privacy policy", "Legal information", "Contacts (also for rights holders)"], de: ["Datenschutzerklärung", "Rechtliche Hinweise", "Kontakt (auch für Rechteinhaber)"], fr: ["Politique de confidentialité", "Informations légales", "Contact (y compris pour les ayants droit)"], it: ["Informativa sulla privacy", "Note legali", "Contatti (anche per i titolari dei diritti)"], cs: ["Zásady ochrany osobních údajů", "Právní informace", "Kontakty (i pro držitele práv)"], pl: ["Polityka prywatności", "Informacje prawne", "Kontakt (także dla właścicieli praw)"], pt: ["Política de privacidade", "Informação legal", "Contactos (também para titulares de direitos)"], hu: ["Adatvédelmi tájékoztató", "Jogi információk", "Kapcsolat (jogtulajdonosoknak is)"], fi: ["Tietosuojaseloste", "Oikeudelliset tiedot", "Yhteystiedot (myös oikeudenhaltijoille)"], lt: ["Privatumo politika", "Teisinė informacija", "Kontaktai (taip pat teisių turėtojams)"] };
+const footHTML=(l,langs)=>{const p=({uk:"uk-ua",de:"de-de"})[l]||"en",x=LEGAL_TXT[l]||LEGAL_TXT.en;
+  return `<p>${t("disc")}</p><p class="legal">© ${new Date().getFullYear()} ClayArena · <a href="https://clayarena.com/${p}/privacy/">${x[0]}</a> · <a href="https://clayarena.com/${p}/legal/">${x[1]}</a> · <a href="https://clayarena.com/${p}/contacts/">${x[2]}</a></p>${langs}`;};
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 /* Text normalisation: lower case, keep Latin + Ukrainian letters and digits. */
 const norm=s=>String(s||"").toLowerCase().replace(/[’'`]/g,"'").replace(/[^a-zа-щьюяєіїґ0-9' ]+/gi," ");
@@ -512,26 +521,30 @@ function render(){
   document.getElementById("svc").innerHTML=`<span class="ic" aria-hidden="true">${RI("rbook")}</span><span>${t("svc")}<small>${t("svcS")}</small></span>`;
   document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("langG").setAttribute("aria-label",t("langG"));
   document.getElementById("discT").setAttribute("aria-label",t("discG")); document.querySelector("#langD .menu").setAttribute("aria-label",t("langG"));
+  { const f=document.getElementById("caFoot"); f.innerHTML=footHTML(L(),`<nav class="ca-foot-langs" aria-label="${L()==="uk"?"Мови":"Languages"}">${["uk","en"].map(k=>`<button type="button" data-lang="${k}" lang="${k}" aria-pressed="${k===L()}">${k==="uk"?"Українська":"English"}</button>`).join("")}</nav>`); }
   document.getElementById("langN").textContent=L()==="uk"?"Українська":"English"; document.getElementById("whereList").setAttribute("aria-label",t("toc"));
   const sn=document.getElementById("statics"); sn.setAttribute("aria-label",t("statics")); sn.innerHTML=staticsHTML();
   document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===L()));
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===S.disc));
   const book=BOOK(S.disc), app=document.getElementById("app");
   const dname=S.disc==="sporting"?"Sporting™":"Compak® Sporting";
-  const hero=`<div class="eyebrow">FITASC · ${esc(dname)}</div><h1>${t("title").replace("{d}",esc(dname))}</h1><p class="muted">${t("lead")}</p>`;
+  /* the title, the lead and the search sit in the product frame (variant A of design-mockups/hero-frames.html, 20.11.2026, journal 122):
+     the same frame as the Academy and the Glossary homes, in the colour of the section */
+  const heroT=`<div class="eyebrow">FITASC · ${esc(dname)}</div><h1>${t("title").replace("{d}",esc(dname))}</h1><p class="muted">${t("lead")}</p>`;
+  const hero=`<section class="ca-hero ca-hero-rules">${heroT}</section>`;
   if(!book&&!DONE[S.disc]){
     /* the book is not here yet: draw the title and the lead (first load), or keep the guide shown until the other book arrives */
     if(!app.classList.contains("ready")) app.innerHTML=hero; else app.setAttribute("aria-busy","true");
     if(started){ const k=S.disc; loadBook(k).then(()=>{ if(S.disc===k){ app.removeAttribute("aria-busy"); if(S.q) S.res=search(BOOK(k)||{sections:[],faq:[],source:{}},S.q); render(); } }); }
     return;
   }
-  app.removeAttribute("aria-busy"); app.classList.add("ready");
+  app.removeAttribute("aria-busy"); app.classList.add("ready"); document.getElementById("caFoot").hidden=false;
   if(!book){ app.innerHTML=`<h1>${t("title").replace("{d}",dname)}</h1><div class="empty">${t("notReady")}</div>`; return; }
   let parts=[]; book.sections.forEach(s=>{ if(!parts.includes(s.part)) parts.push(s.part); });
   const nf=(book.faq||[]).length;
-  app.innerHTML=`${hero}
+  app.innerHTML=`<section class="ca-hero ca-hero-rules">${heroT}
    <form id="askf" role="search"><div class="big"><span class="lo" aria-hidden="true">${RI("search")}</span><input id="q" type="search" autocomplete="off" placeholder="${esc(t("phS"))}" aria-label="${esc(t("askL"))}" value="${esc(S.q)}"><button type="button" class="clr${S.q?" on":""}" data-clr="1" aria-label="${esc(t("clr"))}">✕</button></div></form>
-   <div class="topics"><span>${t("often")}:</span>${t("topics").map(x=>`<button type="button" data-q="${esc(x)}">${esc(x)}</button>`).join("")}</div>
+   <div class="topics"><span>${t("often")}:</span>${t("topics").map(x=>`<button type="button" data-q="${esc(x)}">${esc(x)}</button>`).join("")}</div></section>
    <div id="ans">${answerHTML(book)}</div>
    <div class="tiles"><a class="tile main" href="trainer/?lang=${esc(VL())}#${S.disc}"><span class="ic" aria-hidden="true">${RI("pad")}</span><span><b>${t("trainer")}</b><span>${esc(trainerLine())}</span></span></a>
     <a class="tile" href="${L()==="uk"?"categories/":"en/categories/"}"><span class="ic" aria-hidden="true">${RI("users")}</span><span><b>${t("catsT")}</b><span>${t("catsS")}</span></span></a>
@@ -539,8 +552,7 @@ function render(){
    <div class="meta"><a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} FITASC ↗</a><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a>`:""}<span>${t("checked")}</span></div>
    <div class="layout"><nav class="toc" aria-label="${t("toc")}">${parts.map(p=>`<div class="part">${t("part")} ${esc(p)}</div>`+book.sections.filter(s=>s.part===p).map(s=>`<button data-sec="${s.id}">${s.chapter?esc(s.chapter)+". ":""}${esc(tx(s,"title"))}</button>`).join("")).join("")}<div class="part">FAQ</div><button data-sec="faq">${t("faq")}</button></nav>
    <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><small class="sec-k">${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small><h2>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}${secNav(book,s.id)}</section>`).join("")}
-   <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?refBtn(idx(book).byId[id]):"").join("")}</div></details>`).join("")}</section>
-   <div class="disclaimer">${t("disc")}</div></div></div>`;
+   <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?refBtn(idx(book).byId[id]):"").join("")}</div></details>`).join("")}</section></div></div>`;
   markAns();
   whereBuild(book,parts,dname);
   if(ITEM){ const i=ITEM; ITEM=null; setTimeout(()=>jump("it-"+i),150); }

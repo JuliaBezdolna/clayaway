@@ -14,7 +14,7 @@
 //   Practice · globe language switch · search search · compass route · medal badge, route "First competitions" · lock locked ·
 //   print print · check checklist · timer lesson duration · exam lesson without a topic, rules exam · bulb tip · warn warning ·
 //   med not medical advice · wrench in preparation · chat stand talk · users rules categories · help questions and answers ·
-//   slow slow motion · aim aiming (topic "Technique", "Your turn") · signal offline · down save
+//   slow slow motion · aim aiming (topic "Technique", "Your turn") · signal offline · down save · up back to the top
 export const ICONS = {
   // topics (blocks.json "icon")
   flag: '<path d="M5 21V4"/><path d="M5 4h12l-2.5 4L17 12H5"/>',
@@ -68,7 +68,8 @@ export const ICONS = {
   help: '<circle cx="12" cy="12" r="9.5"/><path d="M9.5 9a2.5 2.5 0 1 1 3.6 2.3c-.7.3-1.1 1-1.1 1.7v.5M12 17h.01"/>',
   slow: '<path d="M3.5 18a8.5 8.5 0 1 1 17 0"/><path d="m12 18-4-4.5"/><path d="M12 18h.01"/>',
   signal: '<path d="M3 20h.01M8 20v-4M13 20v-8M18 20V7"/>',
-  down: '<path d="M12 3v12M7 10l5 5 5-5M4 21h16"/>'
+  down: '<path d="M12 3v12M7 10l5 5 5-5M4 21h16"/>',
+  up: '<path d="M12 20V5M6 11l6-6 6 6"/>'
 };
 // Section colours (the same as LOOK in docs/shared/nav.js)
 export const SECTION_COLOR = { learn: "#34D399", rules: "#22D3EE", glossary: "#A78BFA", tours: "#F472B6", trainer: "#FBBF24" };

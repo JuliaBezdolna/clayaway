@@ -262,11 +262,11 @@
   const savedLine = () => `<p class="ac-saved"><span aria-hidden="true">${I("cap")}</span> <span>${PERSIST ? t("saved_all") : `<b>${t("progress_not_saved")}</b>`}</span>${LOC.view === "progress" ? "" : ` <a href="${href("progress/")}" data-nav>${t("progress_link")} →</a>`}</p>`;
   function renderFoot() {
     const p = CA_PATH[LANG] || "en", lg = LEGAL[LANG] || LEGAL.en;
-    $("acFoot").innerHTML = `<div class="ac-foot-in">
-      <p>${t("footer")}</p>
-      <p class="ac-legal">© ${new Date().getFullYear()} ClayArena · <a href="https://clayarena.com/${p}/privacy/">${esc(lg[0])}</a> · <a href="https://clayarena.com/${p}/legal/">${esc(lg[1])}</a> · <a href="https://clayarena.com/${p}/contacts/">${esc(lg[2])}</a></p>
-      <nav aria-label="${t("language")}"><ul class="ac-langs">${LANGS.map(l => `<li><a href="${urlInLang(l)}" hreflang="${l}" lang="${l}"${l === LANG ? ' aria-current="true"' : ""}>${LANG_NAMES[l]}</a></li>`).join("")}</ul></nav>
-</div>`;
+    // ONE footer of the three products (journal 122): markup as foot() in scripts/site_common.mjs
+    $("acFoot").className = "ca-foot";
+    $("acFoot").innerHTML = `<p>${t("footer")}</p>
+      <p class="legal">© ${new Date().getFullYear()} ClayArena · <a href="https://clayarena.com/${p}/privacy/">${esc(lg[0])}</a> · <a href="https://clayarena.com/${p}/legal/">${esc(lg[1])}</a> · <a href="https://clayarena.com/${p}/contacts/">${esc(lg[2])}</a></p>
+      <nav class="ca-foot-langs" aria-label="${t("language")}">${LANGS.map(l => `<a href="${urlInLang(l)}" hreflang="${l}" lang="${l}"${l === LANG ? ' aria-current="true"' : ""}>${LANG_NAMES[l]}</a>`).join("")}</nav>`;
   }
   /* The language the reader prefers (state, old academies, browser), if it differs from this page: one banner, never a redirect. */
   function langBanner() {
@@ -1350,7 +1350,7 @@
   document.addEventListener("click", e => {
     const a = e.target.closest("a[href]");
     if (a && a.dataset.route) { if (S.routes.current !== a.dataset.route) stat("route", a.dataset.route); S.routes.current = a.dataset.route; save(); }
-    if (a && a.closest(".ac-langs, .ac-banner") && LANGS.includes(a.getAttribute("hreflang"))) { S.lang = a.getAttribute("hreflang"); save(); stat("lang", S.lang); visitorLang(S.lang); } // the reader chose a language
+    if (a && a.closest(".ca-foot-langs, .ac-banner") && LANGS.includes(a.getAttribute("hreflang"))) { S.lang = a.getAttribute("hreflang"); save(); stat("lang", S.lang); visitorLang(S.lang); } // the reader chose a language
     if (a && a.hasAttribute("data-nav") && !e.defaultPrevented && e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey && !a.target) {
       const url = new URL(a.href, location.href);
       if (url.origin === location.origin && url.href.startsWith(SITE) && parseLoc(url.href).lang === LANG && /\/learn\//.test(url.pathname)) {

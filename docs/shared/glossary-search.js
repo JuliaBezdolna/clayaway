@@ -52,6 +52,7 @@
 .gs-c span{font-size:12px;color:var(--muted)}.gs-c:hover{border-color:rgba(255,255,255,.3);color:#fff}.gs-c[aria-current="true"]{background:var(--primary);border-color:var(--primary);color:#fff}.gs-c[aria-current="true"] span{color:#fff}
 @media(max-width:760px){.gs-cats{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;margin-inline:-16px;padding-inline:16px;scrollbar-width:thin}}
 @media(pointer:coarse){.gs-c{min-height:40px}}
+.gs-fbox{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:14px 16px;margin:0 0 8px}.gs-fbox .gs-cats{margin-top:0;margin-bottom:0}.gs-fl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;max-width:none}
 .gs-st{min-height:1.65em;margin:10px 0 0;font-size:14px;color:var(--muted)}
 .gs-res{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px}.gs-res a{display:grid;gap:2px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);text-decoration:none;color:var(--soft)}
 .gs-res a:hover,.gs-res a:focus-visible{border-color:var(--em);background:rgba(52,211,153,.07);outline:none}.gs-res b{color:var(--ink);font-size:17px}.gs-res small{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.gs-res .gs-d{font-size:14px;line-height:1.5}
@@ -63,8 +64,14 @@
 
   /* form(lang, cats, esc, anim): the static markup of the box. cats = [{slug, name, n}] in page order; n = terms in the category;
      anim = how many terms of the page have an animation (the chip is left out when there are none). */
-  function form(lang, cats, esc, anim) {
+  /* split = true (glossary homes, journal 122): [the form, the category box] — the form sits in the product frame with the title,
+     the chips in their own box under it («Категорії»); the script finds the chips anywhere on the page (init below). */
+  function form(lang, cats, esc, anim, split) {
     const s = S(lang), total = cats.reduce((a, c) => a + c.n, 0);
+    const nav = `<nav class="gs-cats" aria-label="${esc(s.cats)}"><a class="gs-c" href="#gsQ" data-cat="" aria-current="true">${esc(s.all)} <span>${total}</span></a>${anim ? `<a class="gs-c gs-c-an" href="?cat=anim" data-cat="anim"><span aria-hidden="true">▶</span> ${esc(s.anim)} <span>${anim}</span></a>` : ""}${cats.map(c => `<a class="gs-c" href="#cat-${esc(c.slug)}" data-cat="${esc(c.slug)}">${esc(c.name)} <span>${c.n}</span></a>`).join("")}</nav>`;
+    if (split) return [`<form class="gs" role="search" data-gsearch data-lang="${esc(lang)}" action="">
+<label class="gs-l" for="gsQ">${esc(s.label)}</label><div class="gs-box"><input id="gsQ" class="gs-q" type="search" name="q" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" placeholder="${esc(s.ph)}"><button class="gs-x" type="button" aria-label="${esc(s.clear)}" hidden>×</button></div>
+<p class="gs-st" aria-live="polite"></p><ol class="gs-res" hidden></ol></form>`, `<div class="gs-fbox"><p class="gs-fl" aria-hidden="true">${esc(s.cats)}</p>${nav}</div>`];
     return `<form class="gs" role="search" data-gsearch data-lang="${esc(lang)}" action="">
 <label class="gs-l" for="gsQ">${esc(s.label)}</label><div class="gs-box"><input id="gsQ" class="gs-q" type="search" name="q" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" placeholder="${esc(s.ph)}"><button class="gs-x" type="button" aria-label="${esc(s.clear)}" hidden>×</button></div>
 <nav class="gs-cats" aria-label="${esc(s.cats)}"><a class="gs-c" href="#gsQ" data-cat="" aria-current="true">${esc(s.all)} <span>${total}</span></a>${anim ? `<a class="gs-c gs-c-an" href="?cat=anim" data-cat="anim"><span aria-hidden="true">▶</span> ${esc(s.anim)} <span>${anim}</span></a>` : ""}${cats.map(c => `<a class="gs-c" href="#cat-${esc(c.slug)}" data-cat="${esc(c.slug)}">${esc(c.name)} <span>${c.n}</span></a>`).join("")}</nav>
@@ -91,7 +98,7 @@
     const bare = x => latin(x).replace(/[^a-z]/g, "");
     const Q = F.querySelector(".gs-q"), X = F.querySelector(".gs-x"), ST = F.querySelector(".gs-st"), R = F.querySelector(".gs-res");
     const MINI = F.dataset.src != null, POP = F.querySelector(".gs-pop"), SRC = MINI ? new URL(F.dataset.src, location.href).href : "";
-    const chips = [...F.querySelectorAll(".gs-c")];
+    const chips = MINI ? [] : [...document.querySelectorAll(".gs-cats .gs-c")]; // in the form or in their own box (form split)
     const lists = MINI ? [] : [...document.querySelectorAll(".list[data-cat]")];
     const catName = {};
     const split = v => (v || "").split("|").map(x => x.trim()).filter(Boolean);

@@ -72,7 +72,7 @@ import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync, rmSync
 import path from "node:path";
 import vm from "node:vm";
 import { createHash } from "node:crypto";
-import { BASE as SITE_BASE, LANGS, OG_LOCALE, esc, tm, legal, readFitascIndex } from "./site_common.mjs";
+import { BASE as SITE_BASE, LANGS, OG_LOCALE, esc, tm, legal, readFitascIndex, FOOT_CSS } from "./site_common.mjs";
 import { svgIcon } from "./icons.mjs";
 import * as lint from "./academy/lint.mjs";
 import { diagramHtml, diagramProblem, DIAGRAM_CSS } from "./academy/diagrams.mjs";
@@ -1382,8 +1382,8 @@ export async function buildAcademy(o = {}) {
 .st figure{margin:16px 0}.st figure img{max-width:100%;height:auto;border-radius:12px}.st figcaption{font-size:13px;color:#9CA3AF}.st-more{font-size:14px;color:#9CA3AF!important}
 .st figure.st-anim{margin:22px 0;padding:14px 16px;border:1px solid rgba(52,211,153,.35);border-radius:12px;background:rgba(52,211,153,.05)}.st-anim-h{font-size:19px;font-weight:700;color:#34D399!important;margin:0 0 6px}.st-anim figcaption{font-size:14.5px;color:#D1D5DB}.st-b-anim{border-color:rgba(52,211,153,.55);color:#34D399}
 .st figure.st-anim:has(.st-sim:empty){display:none}
-.st-foot{max-width:912px;margin:0 auto;padding:14px 16px 56px;border-top:1px solid rgba(255,255,255,.1)}.st-foot p{font-size:13px;color:#9CA3AF}.st-foot a{color:#9CA3AF}
-@media print{.st-hold,.st-langs,.st-cta{display:none}}`;
+${FOOT_CSS}
+@media print{.st-hold,.st-cta{display:none}}`;
   const SIM_GAMES = new Set(["lead-lab", "name-the-flight", "referees-call", "term-cards"]); // keep in step with academy.js
   const PAGES = new Map(); // site-relative file → {url, L, kind, html, title, h1, desc, index, alts, lesson, img}
   const footer = L => `<p>${esc(ui[L].footer ? S(L, "footer") : ui[L].disclaimer ? S(L, "disclaimer") : S(L, "footer"))}</p>${legal(L)}`;
@@ -1393,7 +1393,7 @@ export async function buildAcademy(o = {}) {
     const alts = pg.alts || [];
     const hreflang = alts.length ? alts.map(a => `<link rel="alternate" hreflang="${a.l}" href="${esc(a.url)}">`).join("\n") + (alts.some(a => a.l === "en") ? `\n<link rel="alternate" hreflang="x-default" href="${esc(alts.find(a => a.l === "en").url)}">` : "") : "";
     const crumbs = (pg.crumbs || []).map((c, i, a) => i < a.length - 1 && c.url ? `<a href="${esc(c.url)}">${esc(c.name)}</a>` : `<span>${esc(c.name)}</span>`).join(" › ");
-    const langs = alts.length > 1 ? `<nav class="st-langs" aria-label="${esc(S(L, "language"))}">${alts.map(a => `<a href="${esc(a.url)}" hreflang="${a.l}" lang="${a.l}" data-setlang="${a.l}"${a.l === L ? ' aria-current="true"' : ""}>${esc(LANG_NAME[a.l])}</a>`).join("")}</nav>` : "";
+    const langs = alts.length > 1 ? `<nav class="ca-foot-langs" aria-label="${esc(S(L, "language"))}">${alts.map(a => `<a href="${esc(a.url)}" hreflang="${a.l}" lang="${a.l}" data-setlang="${a.l}"${a.l === L ? ' aria-current="true"' : ""}>${esc(LANG_NAME[a.l])}</a>`).join("")}</nav>` : "";
     const robots = pg.index ? "index, follow, max-image-preview:large" : "noindex, follow";
     // the animations (~110 KB) only where the page shows one: a lesson with an animation, the games of SIM_GAMES; the app
     // (docs/learn/app/academy.js, needsSims) loads them itself when in-app navigation opens such a view
@@ -1425,7 +1425,7 @@ ${(pg.ld || []).map(x => `<script type="application/ld+json">${JSON.stringify(x)
 <main id="app"><div class="st${pg.wide ? " st-wide" : ""}">
 ${crumbs ? `<nav class="st-crumbs" aria-label="${esc(S(L, "breadcrumbs"))}">${crumbs}</nav>\n` : ""}${pg.body}
 </div></main>
-<footer id="acFoot"><div class="st-foot">${langs}${footer(L)}</div></footer>
+<footer id="acFoot" class="ca-foot">${footer(L)}${langs}</footer>
 <div id="acLive" class="ac-sr" aria-live="polite"></div>
 <div id="acToast" class="ac-toast" role="status" aria-live="polite"></div>
 <script src="${up}shared/nav.js" defer></script>
