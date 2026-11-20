@@ -207,10 +207,12 @@
 .ca-bar .ca-home[aria-current]{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent;border-color:rgba(52,211,153,.5)}
 .ca-menu a[aria-current] b{color:#34D399}
 .ca-mk{font-size:12px;font-weight:700;letter-spacing:.04em;padding:1px 5px;border-radius:5px;border:1px solid rgba(255,255,255,.3);color:#E5E7EB}
-.ca-tip{display:none;position:absolute;left:0;top:100%;margin-top:8px;z-index:40;width:max-content;max-width:300px;white-space:normal;background:#0B1120;color:#E5E7EB;border:1px solid ${color}80;border-radius:10px;padding:8px 11px;font-size:13px;line-height:1.4;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.ca-tip{display:block;visibility:hidden;opacity:0;transition:opacity .12s,visibility 0s linear .12s;position:absolute;left:0;top:100%;margin-top:8px;z-index:40;width:max-content;max-width:300px;white-space:normal;background:#0B1120;color:#E5E7EB;border:1px solid ${color}80;border-radius:10px;padding:8px 11px;font-size:13px;line-height:1.4;box-shadow:0 10px 30px rgba(0,0,0,.5)}
 .ca-tip::before{content:"";position:absolute;left:0;right:0;top:-10px;height:10px}
 .ca-w:last-child .ca-tip,.ca-w:nth-last-child(2) .ca-tip{left:auto;right:0}
-.ca-w:hover .ca-tip,.ca-w:focus-within .ca-tip{display:block}
+/* the tip shows after a short pause under the pointer (0.45 s, 20.11.2026): moving along the bar no longer flashes every tip; it hides at once */
+.ca-w:hover .ca-tip{visibility:visible;opacity:1;transition:opacity .15s .45s,visibility 0s linear .45s}
+.ca-w:focus-within .ca-tip{visibility:visible;opacity:1;transition:none}
 .ca-bar.ca-esc .ca-tip{display:none!important}
 .ca-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .ca-mbtn{display:none;align-items:center;gap:8px;min-height:44px;padding:6px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.2);background:#0B1120;color:#F3F4F6;font:600 15px/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;cursor:pointer}

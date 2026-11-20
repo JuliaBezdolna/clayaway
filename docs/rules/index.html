@@ -215,7 +215,9 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
 /* the contents stay: in the free field left of the 912 px column on a wide screen (≥ 1380 px), else the «you are here» line */
 @media (min-width:1380px){.layout>nav.toc{display:block!important;position:fixed!important;top:124px;left:calc((100% - 912px) / 2 - 232px);width:216px;max-height:calc(100vh - 190px)!important;overflow:auto;z-index:5}}
 /* the answers and the rule items use the whole card */
-details.item p,details.item li,.faqlist p,.ans-main p,.ans-main .a{max-width:none}@media (max-width:560px){.langs summary .ln{display:none}}
+details.item p,details.item li,.faqlist p,.ans-main p,.ans-main .a{max-width:none}
+/* prev / next chapter: only where the contents beside the column are not shown (20.11.2026) */
+@media (min-width:1380px){.secnav{display:none!important}}@media (max-width:560px){.langs summary .ln{display:none}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 <script src="../shared/nav.js" defer></script>

@@ -215,7 +215,7 @@ const RULES_CSS = `#where,#whereList,.where-shade{display:none}
 .where-shade.open{display:block;position:fixed;inset:0;z-index:55;background:rgba(0,0,0,.55)}}
 @media print{#where,#whereList,.where-shade{display:none!important}}
 @media (min-width:1380px){html.js .wrap>.toc,.wrap>.toc{display:block!important;position:fixed!important;top:124px;left:calc((100% - 912px) / 2 - 232px);width:216px;max-height:calc(100vh - 190px)!important;overflow:auto;border:0!important;border-radius:0!important;padding:0!important;z-index:5}}
-article.item p,article.item li{max-width:none}
+article.item p,article.item li{max-width:none}/* prev / next chapter: only where the contents beside the column are not shown (20.11.2026) */@media (min-width:1380px){.secnav{display:none!important}}
 article.item{border:1px solid var(--line);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));padding:14px 16px 16px;margin:12px 0}
 .itop{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}.itop .sp{flex:1}
 .inum{display:inline-flex;align-items:center;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;white-space:nowrap}
