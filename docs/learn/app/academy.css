@@ -67,11 +67,19 @@ main#app[aria-busy="true"]{opacity:.6}
 .ac-qwrap{position:relative;display:block}
 .ac-qic{position:absolute;left:14px;top:0;bottom:0;display:flex;align-items:center;font-size:18px;line-height:1;pointer-events:none;color:var(--muted)}
 /* the search box — the same in the three products (20.11.2026): 52 px, dark, emerald frame, 🔍 left, text 17 px */
-.ac-hero .ac-search input{width:100%;margin:0;background:#030712;border:1.5px solid rgba(52,211,153,.55);border-radius:12px;padding:12px 14px 12px 44px;font-size:17px;min-height:52px;color:var(--ink)}
-.ac-hero .ac-search input:focus{outline:none;border-color:var(--em);box-shadow:0 0 0 3px rgba(52,211,153,.2)}
+.ac-hero .ac-search input,.ac-qpop .ac-search input{width:100%;margin:0;background:#030712;border:1.5px solid rgba(52,211,153,.55);border-radius:12px;padding:12px 14px 12px 44px;font-size:17px;min-height:52px;color:var(--ink)}
+.ac-hero .ac-search input:focus,.ac-qpop .ac-search input:focus{outline:none;border-color:var(--em);box-shadow:0 0 0 3px rgba(52,211,153,.2)}
 .ac-hero #acQR:not(:empty){margin-top:12px}
 /* our own clear «✕» (as in Rules FITASC): shown while the field has text, lit on hover/focus — white on white/12, rounded */
-.ac-hero .ac-search input{padding-right:54px}
+.ac-hero .ac-search input,.ac-qpop .ac-search input{padding-right:54px}
+/* the magnifier of the header and the search box under it (pages other than the home, 20.11.2026) */
+.ac-qbtn{display:inline-grid;place-items:center;flex:none;width:36px;height:36px;padding:0;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--soft);font-size:17px;cursor:pointer}
+.ac-qbtn:hover,.ac-qbtn[aria-expanded="true"]{border-color:var(--em);color:#fff}
+@media (pointer:coarse){.ac-qbtn{width:44px;height:44px}}
+.ac-qpop{position:absolute;left:0;right:0;top:100%;z-index:30;background:rgba(3,7,18,.97);border-bottom:1px solid var(--line);box-shadow:0 18px 40px rgba(0,0,0,.55)}
+.ac-qpop[hidden]{display:none}
+.ac-qpop-in{max-width:912px;margin:0 auto;padding:14px 16px 16px}
+.ac-qpop #acQR{max-height:min(60vh,520px);overflow:auto}
 .ac-search input::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
 .ac-qclr{position:absolute;right:6px;top:50%;transform:translateY(-50%);display:none;place-items:center;min-width:40px;min-height:40px;border:0;border-radius:10px;background:transparent;color:var(--muted);font-size:17px;line-height:1;transition:background .15s,color .15s}
 .ac-qclr.on{display:grid}

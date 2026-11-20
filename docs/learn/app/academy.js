@@ -231,11 +231,14 @@
     $("acTop").innerHTML = `<div class="ac-top-in">
       <a class="ac-brand" href="${href("")}" data-nav><span aria-hidden="true">${I("cap")}</span> <span>${t("academy_name")}</span></a>
       <span class="ac-spacer"></span>
+      ${LOC.view !== "home" ? `<button type="button" class="ac-qbtn" data-qopen aria-label="${t("search")}" title="${t("search")}" aria-expanded="false" aria-controls="acQPop">${I("search")}</button>` : ""}
       <a class="ac-level" href="${href("progress/")}" data-nav title="${t("progress")}"><span>${esc(lv.level.title)}</span>
         <span class="ac-bar" role="progressbar" aria-label="${t("level")}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${lv.pct}"><i style="width:${lv.pct}%"></i></span>
         <span>${x.total} ${t("xp")}</span></a>
       <details class="langs"><summary lang="${LANG}"><span aria-hidden="true">${I("globe")}</span> <span class="ln">${LANG_NAMES[LANG]}</span><span class="ac-sr"> · ${t("language")}</span></summary><nav aria-label="${t("language")}">${LANGS.map(l => `<a href="${esc(urlInLang(l))}" hreflang="${l}" lang="${l}" data-golang="${l}"${l === LANG ? ' aria-current="true"' : ""}>${LANG_NAMES[l]}</a>`).join("")}</nav></details>
-    </div>`;
+    </div>${LOC.view !== "home" ? `<div class="ac-qpop" id="acQPop" hidden><div class="ac-qpop-in"><div class="ac-search" role="search" aria-label="${t("search")}"><label for="acQ" class="ac-sr">${t("search")}</label>
+      <span class="ac-qwrap"><span class="ac-qic" aria-hidden="true">${I("search")}</span><input id="acQ" type="search" autocomplete="off" placeholder="${t("search")}"><button type="button" class="ac-qclr" data-qclr aria-label="${t("search_clear")}">✕</button></span>
+      <div id="acQR" aria-live="polite"></div></div></div></div>` : ""}`;
   }
   /* ---- Language select: changes the page only on a confirmed choice (audit ia-code-22). A pick with the mouse or finger is a
      choice; with the keyboard the arrows only move inside the list: Enter (or the "→" button that appears) opens the page. */
@@ -1386,6 +1389,16 @@
   const qClear = () => { const q = $("acQ"); if (!q) return; q.value = ""; VIEW.q = ""; const r = $("acQR"); if (r) r.innerHTML = ""; qClr(); q.focus(); };
   const qClr = () => { const q = $("acQ"), c = document.querySelector(".ac-qclr"); if (q && c) c.classList.toggle("on", !!q.value); };
   document.addEventListener("click", e => { if (e.target.closest && e.target.closest("[data-qclr]")) { e.preventDefault(); qClear(); } });
+  /* The search of the pages other than the home (20.11.2026): a magnifier in the header opens the same search box under it (the
+     same #acQ / #acQR, so typing, ✕ and Esc work as on the home); a click anywhere else on the page or Esc closes it. */
+  const qPop = on => { const p = $("acQPop"), b = document.querySelector("[data-qopen]"); if (!p || !b) return;
+    p.hidden = !on; b.setAttribute("aria-expanded", on ? "true" : "false"); if (on) { const q = $("acQ"); if (q) q.focus(); } };
+  document.addEventListener("click", e => { const el = e.target; if (!el.closest) return;
+    if (el.closest("[data-qopen]")) { e.preventDefault(); const p = $("acQPop"); qPop(!!p && p.hidden); return; }
+    const p = $("acQPop"); if (p && !p.hidden && !el.closest("#acQPop")) qPop(false); });
+  document.addEventListener("keydown", e => { const p = $("acQPop"); if (e.key !== "Escape" || !p || p.hidden) return;
+    const q = $("acQ"); if (q && q.value && e.target === q) return; // the first Esc empties the field (the handler below), the next one closes
+    qPop(false); const b = document.querySelector("[data-qopen]"); if (b) b.focus(); });
   document.addEventListener("keydown", e => { if (e.key === "Escape" && e.target.id === "acQ" && e.target.value) { e.preventDefault(); qClear(); } });
   document.addEventListener("input", e => { if (e.target.id === "acQ") { VIEW.q = e.target.value; qClr(); const r = $("acQR"); if (r) r.innerHTML = searchResults(VIEW.q);
       if (!GLO.ready && VIEW.q.trim().length >= 2) GLO.load().then(() => { const r2 = $("acQR"); if (r2) r2.innerHTML = searchResults(VIEW.q); }).catch(() => {}); } });

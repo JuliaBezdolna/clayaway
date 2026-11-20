@@ -118,7 +118,7 @@ ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`
 <body>
 <header><div class="in">${crumbs(lang, svgIcon("gbook", SECTION_COLOR.glossary), [{ label: U.gl, url: listUrl(lang) }, { label: lb.label }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
 <main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">
-${GS.mini(lang, esc)}<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}${jumpNav(lang, { disc, rules: refs, learn, rel })}
+${GS.mini(lang, esc)}<div class="eyebrow">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}${jumpNav(lang, { disc, rules: refs, learn, rel })}
 <section class="what-card"><h2 id="what">${U.what.replace("{t}", `<span lang="en">${esc(name)}</span>`)}</h2><p class="def">${esc(x.short)}</p>${x.long ? `<div class="sep"></div><h2>${U.detail.replace("{t}", `<span lang="en">${esc(name)}</span>`)}</h2><p class="txt">${esc(x.long)}</p>` : ""}</section>
 ${disc ? `<h2 id="disc">${U.disc}</h2><div class="duo">${disc}</div>` : ""}
 ${refs ? `<h2 id="rules">${U.rules}</h2><ul>${refs}</ul>` : ""}

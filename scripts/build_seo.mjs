@@ -535,7 +535,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${termHtml("uk", GBY[r])}</a>`).join(" ");
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
     const learn = ACADEMY.learnLinks(t.id, "uk").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
-    const body = `${GS.mini("uk", esc)}<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("uk", { disc, rules: refs, learn, rel })}
+    const body = `${GS.mini("uk", esc)}<div class="eyebrow">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${sub ? `<p class="h1-sub">${esc(sub)}</p>` : ""}${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("uk", { disc, rules: refs, learn, rel })}
 <section class="what-card"><h2 id="what">Що таке <span lang="en">${esc(name)}</span>?</h2><p class="def">${esc(t.short_uk)}</p>${t.long_uk ? `<div class="sep"></div><h2>Детально про <span lang="en">${esc(name)}</span></h2><p class="txt">${esc(t.long_uk)}</p>` : ""}</section>
 ${disc ? `<h2 id="disc">У Sporting™ і Compak® Sporting</h2><div class="duo">${disc}</div>` : ""}
 ${ukUsage(t) ? `<h2>Як кажуть українською</h2><p>${esc(ukUsage(t))}</p>` : ""}
