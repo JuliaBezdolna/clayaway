@@ -1,0 +1,31 @@
+var e=`https://clayarena-comments-adriano.tatet.app`,t=`ca-comments-token`,n=e=>String(e??``).replace(/[&<>"']/g,e=>({"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#39;`})[e]),r=()=>{try{return localStorage.getItem(t)||``}catch{return``}},i=e=>{try{e?localStorage.setItem(t,e):localStorage.removeItem(t)}catch{}},a=()=>(location.pathname.match(/\/glossary\/([a-z0-9-]+)/)||[])[1]||``,o=`
+.l3c [hidden]{display:none!important}
+.l3:fullscreen .l3c,.l3.l3-fs .l3c{display:none}
+.l3c ul,.l3c li{max-width:none}
+.l3c{margin:0;border-top:1px solid rgba(255,255,255,.1);background:#0a0f1a;padding:16px 18px;color:#e5e7eb;font:15px/1.55 Inter,system-ui,sans-serif}
+.l3c h3{margin:0 0 4px;font-size:18px;color:#f3f4f6}
+.l3c .sub{margin:0 0 12px;color:#9ca3af;font-size:14px}
+.l3c .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.l3c textarea{width:100%;box-sizing:border-box;min-height:84px;resize:vertical;border-radius:10px;border:1px solid #374151;background:#030712;color:#f3f4f6;padding:10px 12px;font:inherit}
+.l3c textarea:focus{outline:2px solid #34d399;outline-offset:1px}
+.l3c button{font:inherit;font-weight:600;border-radius:10px;border:1px solid #374151;background:#111827;color:#f3f4f6;padding:8px 14px;cursor:pointer}
+.l3c button.pri{background:#059669;border-color:#059669;color:#fff}
+.l3c button:disabled{opacity:.5;cursor:default}
+.l3c .chip{display:inline-flex;align-items:center;gap:6px;border-radius:999px;background:#064e3b;color:#a7f3d0;padding:3px 10px;font-size:13px;border:0;cursor:pointer;font-weight:600}
+.l3c .chip.off{background:#1f2937;color:#9ca3af}
+.l3c .msg{font-size:14px;color:#fbbf24;min-height:1em}
+.l3c ul{list-style:none;margin:14px 0 0;padding:0}
+.l3c li{border-top:1px solid rgba(255,255,255,.08);padding:10px 0}
+.l3c li .who{color:#9ca3af;font-size:13px}
+.l3c li p{margin:4px 0 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.l3c .empty{color:#9ca3af;font-size:14px}
+`;function s(t){let s=a();if(!s||t.querySelector(`.l3c`))return;if(!document.getElementById(`l3c-css`)){let e=document.createElement(`style`);e.id=`l3c-css`,e.textContent=o,document.head.appendChild(e)}let c=document.createElement(`section`);c.className=`l3c`,c.setAttribute(`aria-label`,`Коментарі стрільців`),c.innerHTML=`
+    <h3>Помітили помилку в анімації?</h3>
+    <p class="sub">Напишіть, що не так, — коментар прив'яжеться до кроку, який зараз на екрані. Читати може кожен, писати — після входу.</p>
+    <div class="auth row"></div>
+    <form class="row" hidden>
+      <button type="button" class="chip" data-attach title="Прив'язати до кроку на екрані">Крок —</button>
+      <textarea maxlength="1500" placeholder="Наприклад: на цьому кроці стрілець піднімає рушницю раніше, ніж з'явилась мішень" aria-label="Текст коментаря"></textarea>
+      <div class="row" style="width:100%;justify-content:space-between"><span class="msg" role="status"></span><button class="pri" type="submit">Надіслати</button></div>
+    </form>
+    <ul aria-live="polite"></ul>`,t.appendChild(c),c.addEventListener(`keydown`,e=>e.stopPropagation());let l=c.querySelector(`.auth`),u=c.querySelector(`form`),d=u.querySelector(`textarea`),f=u.querySelector(`[data-attach]`),p=u.querySelector(`.msg`),m=c.querySelector(`ul`),h=null,g=!0,_=()=>t.l3?.step?.()||null,v=()=>{let e=_();f.textContent=g&&e?`Крок ${e.i+1}: ${e.title}`:`Без прив'язки до кроку`,f.classList.toggle(`off`,!g||!e)};setInterval(v,500),f.addEventListener(`click`,()=>{g=!g,v()});function y(){h?(l.innerHTML=`<span class="who">Ви увійшли як <b>${n(h.name||`стрілець`)}</b></span> <button type="button" data-out>Вийти</button>`,l.querySelector(`[data-out]`).onclick=async()=>{fetch(`${e}/api/logout`,{method:`POST`,headers:{Authorization:`Bearer ${r()}`}}).catch(()=>{}),i(``),h=null,y()},u.hidden=!1,v()):(l.innerHTML=`<button type="button" class="pri" data-in>Увійти через Tatet, щоб написати</button>`,l.querySelector(`[data-in]`).onclick=b,u.hidden=!0)}function b(){window.open(`${e}/auth/start?mode=popup&origin=${encodeURIComponent(location.origin)}`,`ca-login`,`width=520,height=680`)||l.insertAdjacentHTML(`beforeend`,`<span class="msg">Браузер заблокував вікно входу — дозвольте спливні вікна для цього сайту.</span>`)}window.addEventListener(`message`,t=>{if(t.origin!==e||!t.data?.caComments)return;let r=t.data.caComments;r.token?(i(r.token),h={name:r.name,role:r.role},y(),d.focus()):r.error&&(l.innerHTML=`<span class="msg">${n(r.error)}</span>`,setTimeout(y,6e3))});async function x(){let t=r();if(!t)return y();try{let n=await fetch(`${e}/api/me`,{headers:{Authorization:`Bearer ${t}`}});n.ok?h=await n.json():(i(``),h=null)}catch{h=null}y()}function S(e){let r=document.createElement(`li`),i=new Date(e.created_at).toLocaleString(`uk`,{day:`numeric`,month:`short`,hour:`2-digit`,minute:`2-digit`});r.innerHTML=`<div class="who">${n(e.name||`Стрілець`)} · ${n(i)}</div>`+(e.step==null?``:`<button type="button" class="chip" title="Показати цей крок">Крок ${e.step+1}${e.step_title?`: ${n(e.step_title)}`:``}</button>`)+`<p>${n(e.text)}</p>`;let a=r.querySelector(`.chip`);return a&&(a.onclick=()=>t.l3?.goStep?.(e.step)),r}async function C(){try{let t=await fetch(`${e}/api/comments?page=${encodeURIComponent(s)}`),n=t.ok?await t.json():[];m.innerHTML=``,n.length||(m.innerHTML=`<li class="empty">Коментарів ще немає — будьте першим.</li>`);for(let e of n)m.appendChild(S(e))}catch{m.innerHTML=`<li class="empty">Коментарі зараз недоступні.</li>`}}u.addEventListener(`submit`,async t=>{t.preventDefault();let n=d.value.trim();if(n.length<3){p.textContent=`Напишіть хоча б кілька слів.`;return}let a=g?_():null,o=u.querySelector(`[type=submit]`);o.disabled=!0,p.textContent=``;try{let t=await fetch(`${e}/api/comments`,{method:`POST`,headers:{"Content-Type":`application/json`,Authorization:`Bearer ${r()}`},body:JSON.stringify({page:s,text:n,step:a?a.i:null,step_title:a?a.title:null})}),o=await t.json().catch(()=>({}));if(t.status===401){i(``),h=null,y();return}if(!t.ok){p.textContent=o.error||`Не вдалося надіслати.`;return}d.value=``,p.textContent=`Дякуємо! Коментар додано.`,m.querySelector(`.empty`)&&(m.innerHTML=``),m.appendChild(S(o))}catch{p.textContent=`Немає зв'язку із сервером коментарів.`}finally{o.disabled=!1}}),x(),C()}export{s as mountComments};
