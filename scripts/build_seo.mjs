@@ -160,21 +160,26 @@ const NF = 'rel="nofollow noopener noreferrer" target="_blank"';
 
 const CSS = `:root{color-scheme:dark;--bg:#030712;--surface:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--ink:#F3F4F6;--soft:#D1D5DB;--muted:#9CA3AF;--em:#34D399;--primary:#05845D}
 *{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--ink);font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-a{color:var(--em)}.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:20px 72px;display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px}
-@media(max-width:860px){.wrap{grid-template-columns:1fr}.toc{position:static!important;max-height:220px!important;border:1px solid var(--line);border-radius:12px;padding:6px 10px}}
-header{border-bottom:1px solid var(--line)}header .in{max-width:1080px;margin:0 auto;padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+a{color:var(--em)}.wrap{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:20px 72px;display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+@media all{.wrap{grid-template-columns:1fr}.toc{position:static!important;max-height:220px!important;border:1px solid var(--line);border-radius:12px;padding:6px 10px}}
+/* the section row under the ClayArena bar — the same in the three products (20.11.2026): 912 px (880 + 16 + 16), 56 px high,
+   the section icon and name 16 px on the left, the controls 36 px on the right; the crumbs are a line of their own below (.crumbs-b) */
+header{border-bottom:1px solid var(--line);background:rgba(3,7,18,.92)}header .in{max-width:912px;margin:0 auto;padding:0 16px;min-height:56px;display:flex;gap:10px;align-items:center;flex-wrap:nowrap}
+.secname{display:inline-flex;align-items:center;gap:8px;min-width:0;font-weight:700;font-size:16px;line-height:1.2;color:#F3F4F6;text-decoration:none;white-space:nowrap}.secname .sic svg{width:18px;height:18px;display:block}
+nav.crumbs-b{max-width:912px;margin:14px auto 0;padding:0 16px}
+@media (max-width:560px){details.langs summary .ln{display:none}}
 nav.crumbs{font-size:13px;color:var(--muted)}nav.crumbs a{color:var(--muted)}
 .toc{position:sticky;top:16px;align-self:start;max-height:calc(100vh - 32px);overflow:auto;font-size:14px}.toc a{display:block;color:var(--soft);text-decoration:none;padding:3px 0 3px 10px;border-left:2px solid var(--line)}.toc a:hover{border-left-color:var(--em);color:#fff}
 .toc .p{font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:12px 0 4px}
 main{min-width:0}h1{font-size:clamp(28px,4.5vw,42px);line-height:1.1;margin:8px 0 10px}h2{font-size:20px;margin:32px 0 12px}h2 small{display:block;font-size:12px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
 h3{font-size:17px;margin:20px 0 4px}.ref{font-size:13px;color:var(--muted)}p,li{color:var(--soft);max-width:72ch}main p,main li{font-size:17px}@media(max-width:560px){main p,main li{font-size:16px}.h1-sub{font-size:16px}}li::marker{color:var(--em)}
 .cta{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px;text-decoration:none;color:var(--ink)}.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
-.src{font-size:13px;color:var(--muted)}article.item{border-top:1px solid var(--line);padding-top:4px}.faq details{border-top:1px solid var(--line);padding:9px 0}.faq summary{cursor:pointer;font-weight:600}
+.src{font-size:13px;color:var(--muted)}.eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--em)}article.item{border-top:1px solid var(--line);padding-top:4px}.faq details{border-top:1px solid var(--line);padding:9px 0}.faq summary{cursor:pointer;font-weight:600}
 .disc{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--muted)}
 .legal{margin:14px 0 0;font-size:12px;color:var(--muted)}.legal a{color:var(--muted)}
 .ico{flex:none;vertical-align:-.14em}nav.crumbs{font-size:13px;display:flex;flex-wrap:wrap;gap:4px 7px;align-items:center}nav.crumbs a{color:var(--soft);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}nav.crumbs a:hover{color:#fff;text-decoration:underline}nav.crumbs [aria-current]{color:var(--ink);font-weight:600}
 a:focus-visible,summary:focus-visible{outline:2px solid var(--em);outline-offset:2px;border-radius:6px}
-details.langs{position:relative;font-size:13px}details.langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;min-height:34px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}details.langs summary::-webkit-details-marker{display:none}details.langs summary::after{content:"▾";font-size:12px}
+details.langs{position:relative;font-size:14px;flex:none}details.langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:0 12px;min-height:36px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}details.langs summary::-webkit-details-marker{display:none}details.langs summary::after{content:"▾";font-size:12px}
 details.langs[open] summary{border-color:var(--em);color:#fff}details.langs nav{position:absolute;right:0;top:calc(100% + 6px);z-index:35;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;min-width:170px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
 details.langs nav a{color:var(--soft);text-decoration:none;padding:8px 10px;border-radius:8px;min-height:40px;display:flex;align-items:center}details.langs nav a:hover{background:rgba(255,255,255,.06);color:#fff}details.langs nav a[aria-current]{color:var(--em);font-weight:700}
 @media (pointer:coarse){details.langs nav a,details.langs summary,.btn{min-height:44px}}`;
@@ -195,20 +200,22 @@ const crumbs = (lang, icon, items) => `<nav class="crumbs" aria-label="${BREAD[l
   + (i === items.length - 1 ? `<span aria-current="page">${esc(x.label)}</span>` : `<a href="${x.url}"${x.vl ? " data-vl" : ""}>${esc(x.label)}</a>`)).join("")}</nav>`;
 // langSwitch(cur, [{l, url}]): disclosure «🌐 Українська ▾» with the languages in the order of LANGS (works without JS)
 const langSwitch = (cur, items) => { const list = LANGS.map(l => items.find(x => x.l === l)).filter(Boolean);
-  return `<details class="langs"><summary lang="${cur}"><span aria-hidden="true">${svgIcon("globe")}</span> ${LANG_NAME[cur]}<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> · ${LANGW[cur]}</span></summary><nav aria-label="${LANGW[cur]}">${list.map(x => `<a href="${x.url}" hreflang="${x.l}" lang="${x.l}" data-setlang="${x.l}"${x.l === cur ? ' aria-current="true"' : ""}>${LANG_NAME[x.l]}</a>`).join("")}</nav></details>`; };
+  return `<details class="langs"><summary lang="${cur}"><span aria-hidden="true">${svgIcon("globe")}</span> <span class="ln">${LANG_NAME[cur]}</span><span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> · ${LANGW[cur]}</span></summary><nav aria-label="${LANGW[cur]}">${list.map(x => `<a href="${x.url}" hreflang="${x.l}" lang="${x.l}" data-setlang="${x.l}"${x.l === cur ? ' aria-current="true"' : ""}>${LANG_NAME[x.l]}</a>`).join("")}</nav></details>`; };
 
 // Phone navigation of the static rules pages (wave 2, 09.11.2026; the same "you are here" line as the guide /rules/, variant B of
 // design-mockups/rules-header-toc-mobile.html). At ≤860 px the contents box above the text (220 px, its own scroll) is hidden — only
 // with JS (class "js" set in <head> before the first paint, so nothing shifts; without JS the box stays). Once the title has scrolled
 // away, a thin fixed line #where names the chapter under the top edge and opens #whereList (a copy of the contents). Desktop unchanged.
 const RULES_CSS = `#where,#whereList,.where-shade{display:none}
-@media(max-width:860px){html.js .wrap>.toc{display:none}main>section[id],article.item{scroll-margin-top:60px}
-#where{display:flex;position:fixed;left:0;right:0;top:0;z-index:60;width:100%;align-items:center;gap:10px;min-height:48px;padding:6px 16px;padding-top:max(6px,env(safe-area-inset-top,0px));background:rgba(3,7,18,.95);backdrop-filter:blur(8px);border:0;border-bottom:1px solid var(--line);font:inherit;font-size:14px;color:var(--soft);text-align:left;cursor:pointer;visibility:hidden;transform:translateY(-110%);transition:transform .2s,visibility 0s .2s}
+@media all{html.js .wrap>.toc{display:none}main>section[id],article.item{scroll-margin-top:60px}
+#where{display:flex;position:fixed;left:0;right:0;top:0;z-index:60;width:100%;align-items:center;gap:10px;min-height:48px;padding:6px max(16px,calc((100% - 880px) / 2));padding-top:max(6px,env(safe-area-inset-top,0px));background:rgba(3,7,18,.95);backdrop-filter:blur(8px);border:0;border-bottom:1px solid var(--line);font:inherit;font-size:14px;color:var(--soft);text-align:left;cursor:pointer;visibility:hidden;transform:translateY(-110%);transition:transform .2s,visibility 0s .2s}
 #where.show{visibility:visible;transform:none;transition:transform .2s}#where .d{color:var(--em);font-weight:700;flex:none}#where .c{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;font-weight:600}#where .x{flex:none;color:var(--muted)}#where[aria-expanded="true"] .x{transform:rotate(180deg)}
-#whereList.open{display:block;position:fixed;left:0;right:0;top:48px;z-index:70;max-height:70vh;overflow:auto;background:#0B1120;border-bottom:1px solid var(--line);border-radius:0 0 16px 16px;padding:4px 16px 16px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+#whereList.open{display:block;position:fixed;left:0;right:0;top:48px;z-index:70;max-height:70vh;overflow:auto;background:#0B1120;border-bottom:1px solid var(--line);border-radius:0 0 16px 16px;padding:4px max(16px,calc((100% - 880px) / 2)) 16px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
 #whereList .p{font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}#whereList a{display:flex;align-items:center;min-height:44px;padding:8px 10px;color:var(--soft);text-decoration:none;font-size:16px;border-left:2px solid var(--line)}#whereList a.on{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}
 .where-shade.open{display:block;position:fixed;inset:0;z-index:55;background:rgba(0,0,0,.55)}}
 @media print{#where,#whereList,.where-shade{display:none!important}}
+@media (min-width:1380px){html.js .wrap>.toc,.wrap>.toc{display:block!important;position:fixed!important;top:124px;left:calc((100% - 912px) / 2 - 232px);width:216px;max-height:calc(100vh - 190px)!important;overflow:auto;border:0!important;border-radius:0!important;padding:0!important;z-index:5}}
+article.item p,article.item li{max-width:none}
 article.item{border:1px solid var(--line);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));padding:14px 16px 16px;margin:12px 0}
 .itop{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}.itop .sp{flex:1}
 .inum{display:inline-flex;align-items:center;padding:2px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#6ee7b7;font-size:12px;line-height:1.5;font-weight:600;letter-spacing:.04em;white-space:nowrap}
@@ -222,7 +229,7 @@ article.item h3,article.item h2{margin:10px 0 4px;font-size:20px;line-height:1.3
 .secnav a small{font-size:12px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}.secnav a.nx{text-align:right;grid-column:2}.secnav a:hover{border-color:var(--em)}
 @media(max-width:520px){.secnav{grid-template-columns:1fr}.secnav a.nx{grid-column:1}}
 @media (prefers-reduced-motion:reduce){#where{transition:none}}
-.toc a[aria-current]{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}.toc .all{margin-top:10px;font-weight:600}
+.toc a[aria-current],.toc a.on{color:#fff;border-left-color:var(--em);background:rgba(52,211,153,.07)}.toc .all{margin-top:10px;font-weight:600}
 .chap{border:1px solid var(--line);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));padding:12px 16px 14px;margin:10px 0;scroll-margin-top:60px}
 .chap h3{margin:0;font-size:17px;line-height:1.35}.chap h3 a{color:#fff;text-decoration:none}.chap h3 a:hover{text-decoration:underline}.chap>.chap-k{display:block;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;margin-bottom:2px}
 .chap ul{margin:8px 0 0;padding-left:20px;columns:2 260px;column-gap:28px}.chap li{font-size:14px;break-inside:avoid;scroll-margin-top:60px}.chap li a{color:var(--soft);text-decoration:none;padding:3px 0}.chap li+li{margin-top:3px}.chap li a:hover{color:#fff;text-decoration:underline}
@@ -232,9 +239,9 @@ article.item h3,article.item h2{margin:10px 0 4px;font-size:20px;line-height:1.3
 const RULES_JS = `(function(){var w=document.getElementById("where"),L=document.getElementById("whereList"),sh=document.getElementById("whereShade"),toc=document.querySelector(".wrap>.toc"),h1=document.querySelector("main h1");
 if(!w||!L||!toc||!h1)return;L.innerHTML=toc.innerHTML;var secs=[].slice.call(document.querySelectorAll("main>section[id]")),links=[].slice.call(L.querySelectorAll("a")),cur=null;if(!secs.length)return;
 function open(on){w.setAttribute("aria-expanded",on?"true":"false");L.classList.toggle("open",on);sh.classList.toggle("open",on);if(on){var a=L.querySelector("a.on");if(a)a.scrollIntoView({block:"center"});}}
-function tick(){var c=secs[0];secs.forEach(function(s){if(s.getBoundingClientRect().top<90)c=s;});var show=h1.getBoundingClientRect().bottom<0&&secs[0].getBoundingClientRect().top<innerHeight;
+function tick(){var c=secs[0],lim=Math.min(innerHeight*.4,320);secs.forEach(function(s){if(s.getBoundingClientRect().top<lim)c=s;});var show=h1.getBoundingClientRect().bottom<0&&secs[0].getBoundingClientRect().top<innerHeight;
 if(w.classList.contains("show")!==show){w.classList.toggle("show",show);if(!show)open(false);}if(c===cur)return;cur=c;
-links.forEach(function(a){a.classList.toggle("on",a.getAttribute("data-id")===c.id);});var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
+links.forEach(function(a){a.classList.toggle("on",a.getAttribute("data-id")===c.id);});[].forEach.call(toc.querySelectorAll("a[data-id]"),function(a){a.classList.toggle("on",a.getAttribute("data-id")===c.id);});var tb=toc.querySelector("a.on");if(tb&&toc.scrollHeight>toc.clientHeight){var y=tb.getBoundingClientRect().top-toc.getBoundingClientRect().top+toc.scrollTop;if(y<toc.scrollTop+24||y>toc.scrollTop+toc.clientHeight-48)toc.scrollTo({top:Math.max(0,y-toc.clientHeight/3),behavior:"smooth"});}var on=L.querySelector("a.on");w.querySelector(".c").textContent=on?on.textContent:"";}
 var r=0;addEventListener("scroll",function(){if(!r)r=requestAnimationFrame(function(){r=0;tick();});},{passive:true});
 w.addEventListener("click",function(){open(w.getAttribute("aria-expanded")!=="true");});sh.addEventListener("click",function(){open(false);});
 L.addEventListener("click",function(e){if(e.target.closest("a"))open(false);});
@@ -510,7 +517,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <body>
 <header><div class="in">${crumbs("uk", svgIcon("gbook", SECTION_COLOR.glossary), name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">${svgIcon("rbook")} Правила FITASC</a>
 <!-- langs -->${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: enUrl }])}<!-- /langs --></div></header>
-<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">${body}
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">${body}
 <div class="disc">Глосарій ClayArena побудовано на нашому переказі регламентів FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}</main>
 </body></html>`;
   const SET = { "@type": "DefinedTermSet", name: "Глосарій стендової стрільби ClayArena", url: BASE + "glossary/", inLanguage: "uk" };
@@ -544,7 +551,7 @@ ${rel ? `<h2 id="rel">Повʼязані терміни</h2><p class="rel-row">$
   }
   { const extra = Object.keys(SUB_UK).filter(id => !GBY[id] || termLabel("uk", GBY[id]).local);
     if (extra.length) console.log(`WARNING: content/glossary/subtitles/uk.json: no term or the h1 already has a local word, subtitle not shown: ${extra.join(", ")}`); }
-  const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${ukTerms(GLOSS.terms.length)} Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
+  const listBody = `<div class="eyebrow">ClayArena · Sporting™ · Compak® Sporting</div><h1>Глосарій стендової стрільби</h1><p>${ukTerms(GLOSS.terms.length)} Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
 ${glossaryIndexList("uk", GLOSS.terms, { cat: c => CAT_UK[c] || c, url: t => `${BASE}glossary/${t.id}/`, html: t => termHtml("uk", t), short: t => t.short_uk })}`;
   writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${ukTerms(GLOSS.terms.length)} | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
     [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody, null, `${BASE}en/glossary/`).replace("</head>", `<style>${LIST_CSS}</style>\n</head>`));
@@ -755,7 +762,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 </head>
 <body>
 <header><div class="in">${crumbs("uk", svgIcon("rbook", SECTION_COLOR.rules), [{ label: "Правила FITASC", url: `${BASE}rules/?lang=uk`, vl: 1 }, { label: "Категорії" }])}<span style="flex:1"></span>${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: BASE + "rules/en/categories/" }])}</div></header>
-<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">
 <div class="src">FITASC · Sporting™ · Compak® Sporting</div>
 <h1>Категорії FITASC: хто такий Junior, Lady, Senior, Veteran, Master</h1>
 <p>Вікові категорії однакові для Parcours de Chasse – Sporting™ і Compak® Sporting. Діють з ${C.valid_from.split("-").reverse().join(".")}. Значення має лише <b>рік</b> народження, а не день і місяць. Національні й клубні змагання можуть мати власні категорії — дивіться програму змагань.</p>
@@ -936,6 +943,19 @@ const glossMeta = { description: new Map(), title: new Map(), missing: [] };
     // The index loads terms.js with it; a term page without it gets terms.js from the search on the first search (lazy).
     if (/^(?:[a-z]{2}\/)?glossary\/(?:[a-z0-9-]+\/)?index\.html$/.test(rp) && h.includes("data-gsearch") && !h.includes("shared/glossary-search.js")) {
       h = h.replace("</body>", `${gm || h.includes("shared/terms.js") ? "" : `<script src="${rel}shared/terms.js" defer></script>`}<script src="${rel}shared/glossary-search.js" defer></script>\n</body>`); changed = true; }
+    // The section row (20.11.2026): the header keeps the section icon and name only; the crumbs go to a line of their own below it,
+    // as in the Academy. Glossary and static rule pages of every language; the rules guide and the trainer are hand-written.
+    if (/^(?:[a-z]{2}\/)?(?:glossary|rules)\//.test(rp) && !/^rules\/(?:index\.html|trainer\/)/.test(rp) && !h.includes('class="secname"')) {
+      const hm = h.match(/<header><div class="in">(<nav class="crumbs"[^>]*>)<span aria-hidden="true">([\s\S]*?<\/svg>)<\/span>([\s\S]*?)<\/nav>/);
+      if (hm) {
+        const SEP = '<span aria-hidden="true">›</span>', items = hm[3].split(SEP), fa = items[0].match(/^<a href="([^"]*)"([^>]*)>([\s\S]*?)<\/a>$/);
+        const sec = fa ? `<a class="secname" href="${fa[1]}"${fa[2]}>` : '<a class="secname" href="./" aria-current="page">';
+        const label = fa ? fa[3] : items[0].replace(/<[^>]+>/g, "");
+        h = h.replace(hm[0], `<header><div class="in">${sec}<span class="sic" aria-hidden="true">${hm[2]}</span><span>${label}</span></a>`);
+        if (items.length > 1) h = h.replace("</header>", `</header>
+${hm[1].replace('class="crumbs"', 'class="crumbs crumbs-b"')}${items.join(SEP)}</nav>`);
+        changed = true; }
+    }
     if (changed) writeFileSync(f, h);
   }
 }

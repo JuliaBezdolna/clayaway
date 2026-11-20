@@ -234,8 +234,7 @@
       <a class="ac-level" href="${href("progress/")}" data-nav title="${t("progress")}"><span>${esc(lv.level.title)}</span>
         <span class="ac-bar" role="progressbar" aria-label="${t("level")}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${lv.pct}"><i style="width:${lv.pct}%"></i></span>
         <span>${x.total} ${t("xp")}</span></a>
-      <label class="ac-langsel"><span class="ac-sr">${t("language")}</span><select id="acLang">${LANGS.map(l => `<option value="${l}" lang="${l}"${l === LANG ? " selected" : ""}>${LANG_NAMES[l]}</option>`).join("")}</select></label>
-      <button type="button" class="ac-btn ac-langgo" data-act="langgo" style="display:none" aria-label="${esc(un("nav_lang_go", u("language")))}" title="${esc(un("nav_lang_go", u("language")))}">→</button>
+      <details class="langs"><summary lang="${LANG}"><span aria-hidden="true">${I("globe")}</span> <span class="ln">${LANG_NAMES[LANG]}</span><span class="ac-sr"> · ${t("language")}</span></summary><nav aria-label="${t("language")}">${LANGS.map(l => `<a href="${esc(urlInLang(l))}" hreflang="${l}" lang="${l}" data-golang="${l}"${l === LANG ? ' aria-current="true"' : ""}>${LANG_NAMES[l]}</a>`).join("")}</nav></details>
     </div>`;
   }
   /* ---- Language select: changes the page only on a confirmed choice (audit ia-code-22). A pick with the mouse or finger is a
@@ -1390,6 +1389,10 @@
   document.addEventListener("keydown", e => { if (e.key === "Escape" && e.target.id === "acQ" && e.target.value) { e.preventDefault(); qClear(); } });
   document.addEventListener("input", e => { if (e.target.id === "acQ") { VIEW.q = e.target.value; qClr(); const r = $("acQR"); if (r) r.innerHTML = searchResults(VIEW.q);
       if (!GLO.ready && VIEW.q.trim().length >= 2) GLO.load().then(() => { const r2 = $("acQR"); if (r2) r2.innerHTML = searchResults(VIEW.q); }).catch(() => {}); } });
+  // the language menu of the header (the same «🌐 Українська ▾» as in the Glossary and the Rules, 20.11.2026): a link per language;
+  // goLang() remembers the choice (S.lang, visitor language) before it opens the page
+  document.addEventListener("click", e => { const a = e.target.closest && e.target.closest("[data-golang]"); if (!a) return;
+    const l = a.getAttribute("data-golang"); if (l === LANG) { e.preventDefault(); a.closest("details").open = false; return; } e.preventDefault(); goLang(l); });
   document.addEventListener("change", e => { if (e.target.id === "acLang") langSelChange(e.target);
     if (e.target.hasAttribute && e.target.hasAttribute("data-discsel")) { const v = e.target.value; if (S.disc !== v) stat("disc", v); S.disc = v; save(); rerender();
       const ns = document.querySelector("[data-discsel]"); if (ns) ns.focus(); } });

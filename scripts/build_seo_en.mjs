@@ -63,7 +63,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
       const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_en, `en/glossary/${t.id}/`), termCode: t.id, url: en, inDefinedTermSet: SET, inLanguage: "en" },
         crumbLd([{ name: "Glossary", url: `${BASE}en/glossary/` }, { name, url: en }])];
       const html = head({ title, desc, url: en, uk, en, ld, img: "glossary", css: GS.CSS + JUMP_CSS }) + bar(crumbs("en", svgIcon("gbook", SECTION_COLOR.glossary), [{ label: "Glossary", url: `${BASE}en/glossary/` }, { label: name }]), en, uk, true) + `
-<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">
 ${GS.mini("en", esc)}<div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}${jumpNav("en", { disc, rules: refs, learn, rel })}
 <section class="what-card"><h2 id="what">What is ${esc(name)}?</h2><p class="def">${esc(t.short_en)}</p>${t.long_en ? `<div class="sep"></div><h2>${esc(name)} in detail</h2><p class="txt">${esc(t.long_en)}</p>` : ""}</section>
 ${disc ? `<h2 id="disc">In Sporting™ and Compak® Sporting</h2><div class="duo">${disc}</div>` : ""}
@@ -79,7 +79,7 @@ ${rel ? `<h2 id="rel">Related terms</h2><p class="rel-row">${rel}</p>` : ""}${ca
     }
     writeFileSync(`${DOCS}/en/glossary/index.html`, head({ title: `Clay shooting glossary — ${GLOSS.terms.length} terms | ClayArena`, desc: "Sporting™ and Compak® Sporting terms explained in plain English, with links to the FITASC rules and to beginner lessons.", url: BASE + "en/glossary/", uk: BASE + "glossary/", en: BASE + "en/glossary/",
       ld: [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}en/glossary/${t.id}/` })) }], img: "glossary", css: GS.CSS + LIST_CSS }) + bar(crumbs("en", svgIcon("gbook", SECTION_COLOR.glossary), [{ label: "Glossary" }]), BASE + "en/glossary/", BASE + "glossary/", true) + `
-<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>Clay shooting glossary</h1><p>${GLOSS.terms.length} terms of Sporting™ and Compak® Sporting, explained in plain English with links to the FITASC rules and to ClayArena Academy lessons.</p>
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px"><div class="eyebrow">ClayArena · Sporting™ · Compak® Sporting</div><h1>Clay shooting glossary</h1><p>${GLOSS.terms.length} terms of Sporting™ and Compak® Sporting, explained in plain English with links to the FITASC rules and to ClayArena Academy lessons.</p>
 ${glossaryIndexList("en", GLOSS.terms, { cat: c => c, url: t => `${BASE}en/glossary/${t.id}/`, html: t => esc(dispTerm(t)), short: t => t.short_en })}
 <div class="disc">${TM}</div>${legal("en")}</main></body></html>`);
     patchUk(`${DOCS}/glossary/index.html`, BASE + "glossary/", BASE + "en/glossary/");
@@ -98,7 +98,7 @@ ${glossaryIndexList("en", GLOSS.terms, { cat: c => c, url: t => `${BASE}en/gloss
     const title = "FITASC categories: Junior, Lady, Men, Senior, Veteran, Master — ages | ClayArena";
     const html = head({ title, desc: `Who is a Junior, Lady, Senior, Veteran or Master in Sporting™ and Compak® Sporting: FITASC age limits from ${from} and national team rules.`, url: en, uk, en,
       ld: [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq }] }) + bar(crumbs("en", svgIcon("rbook", SECTION_COLOR.rules), [{ label: "FITASC rules", url: `${BASE}rules/?lang=en`, vl: 1 }, { label: "Categories" }]), en, uk) + `
-<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">
 <div class="src">FITASC · Sporting™ · Compak® Sporting</div><h1>FITASC categories: who is a Junior, Lady, Senior, Veteran, Master</h1>
 <p>The age categories are the same for Parcours de Chasse – Sporting™ and Compak® Sporting, valid from ${from}. Only the <b>year</b> of birth counts, not the day or month. National and club events may use their own categories — check the competition programme.</p>
 <h2>Categories and ages</h2><div class="tw"><table><thead><tr><th>Category</th><th>Age</th><th>Rule</th></tr></thead><tbody>${rows}</tbody></table></div>

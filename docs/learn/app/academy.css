@@ -37,8 +37,16 @@ h1[tabindex="-1"]:focus{outline:none}
 
 /* header (under the ClayArena project bar of nav.js) */
 #acTop{position:sticky;top:0;z-index:20;background:rgba(3,7,18,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.ac-top-in{max-width:912px;margin:0 auto;padding:8px 16px;display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap}
-.ac-brand{font-weight:700;color:var(--ink);text-decoration:none;white-space:nowrap}
+/* the section row under the ClayArena bar — the same in the three products (20.11.2026): 912 px, 56 px high, the section icon and
+   name 16 px on the left, the controls 36 px on the right */
+.ac-top-in{max-width:912px;margin:0 auto;padding:0 16px;min-height:56px;display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap}
+.ac-brand{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:16px;line-height:1.2;color:var(--ink);text-decoration:none;white-space:nowrap}.ac-brand>span[aria-hidden]{display:inline-flex;color:var(--em)}.ac-brand .ico{width:18px;height:18px}
+/* the language menu — the same as in the Glossary and the Rules (build_seo.mjs CSS) */
+details.langs{position:relative;font-size:14px;flex:none}details.langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:0 12px;min-height:36px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}details.langs summary::-webkit-details-marker{display:none}details.langs summary::after{content:"▾";font-size:12px}
+details.langs[open] summary{border-color:var(--em);color:#fff}details.langs nav{position:absolute;right:0;top:calc(100% + 6px);z-index:35;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;min-width:170px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+details.langs nav a{color:var(--soft);text-decoration:none;padding:8px 10px;border-radius:8px;min-height:40px;display:flex;align-items:center}details.langs nav a:hover{background:rgba(255,255,255,.06);color:#fff}details.langs nav a[aria-current]{color:var(--em);font-weight:700}
+@media (pointer:coarse){details.langs nav a,details.langs summary{min-height:44px}}
+@media (max-width:560px){details.langs summary .ln{display:none}}
 .ac-spacer{flex:1}
 .ac-level{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);text-decoration:none;min-width:0}
 .ac-bar{width:80px;height:6px;border-radius:3px;background:rgba(255,255,255,.1);overflow:hidden;display:inline-block}
@@ -57,8 +65,9 @@ main#app[aria-busy="true"]{opacity:.6}
 @media (max-width:560px){.ac-hero p{font-size:16px}}
 .ac-hero .ac-search{margin-top:16px}
 .ac-qwrap{position:relative;display:block}
-.ac-qic{position:absolute;left:14px;top:0;bottom:0;display:flex;align-items:center;font-size:17px;line-height:1;pointer-events:none}
-.ac-hero .ac-search input{width:100%;margin:0;background:var(--bg);border:1.5px solid rgba(52,211,153,.55);border-radius:10px;padding:13px 14px 13px 42px;font-size:16.5px;min-height:52px;color:var(--ink)}
+.ac-qic{position:absolute;left:14px;top:0;bottom:0;display:flex;align-items:center;font-size:18px;line-height:1;pointer-events:none;color:var(--muted)}
+/* the search box — the same in the three products (20.11.2026): 52 px, dark, emerald frame, 🔍 left, text 17 px */
+.ac-hero .ac-search input{width:100%;margin:0;background:#030712;border:1.5px solid rgba(52,211,153,.55);border-radius:12px;padding:12px 14px 12px 44px;font-size:17px;min-height:52px;color:var(--ink)}
 .ac-hero .ac-search input:focus{outline:none;border-color:var(--em);box-shadow:0 0 0 3px rgba(52,211,153,.2)}
 .ac-hero #acQR:not(:empty){margin-top:12px}
 /* our own clear «✕» (as in Rules FITASC): shown while the field has text, lit on hover/focus — white on white/12, rounded */
@@ -349,7 +358,7 @@ fieldset.ac-q legend{font-weight:600;font-size:17px;padding:0 4px;max-width:100%
   .ac-level .ac-bar{display:none}
   /* one-row sticky header on a phone (it took two rows, ~100 px of a 812 px screen): the name may shorten with "…", the level name
      stays on the progress page, XP and the language stay */
-  .ac-top-in{flex-wrap:nowrap;padding:6px 16px;gap:8px}
+  .ac-top-in{flex-wrap:nowrap;padding:0 16px;gap:8px}
   .ac-brand{min-width:0;overflow:hidden;text-overflow:ellipsis}
   .ac-level{flex:none}.ac-level>span:first-child{display:none}
   .ac-langsel select{max-width:34vw}

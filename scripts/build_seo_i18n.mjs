@@ -117,7 +117,7 @@ ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`
 </head>
 <body>
 <header><div class="in">${crumbs(lang, svgIcon("gbook", SECTION_COLOR.glossary), [{ label: U.gl, url: listUrl(lang) }, { label: lb.label }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
-<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px">
 ${GS.mini(lang, esc)}<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}${jumpNav(lang, { disc, rules: refs, learn, rel })}
 <section class="what-card"><h2 id="what">${U.what.replace("{t}", `<span lang="en">${esc(name)}</span>`)}</h2><p class="def">${esc(x.short)}</p>${x.long ? `<div class="sep"></div><h2>${U.detail.replace("{t}", `<span lang="en">${esc(name)}</span>`)}</h2><p class="txt">${esc(x.long)}</p>` : ""}</section>
 ${disc ? `<h2 id="disc">${U.disc}</h2><div class="duo">${disc}</div>` : ""}
@@ -149,7 +149,7 @@ ${og({ lang, title, desc, url, U })}
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", ...SET, inLanguage: lang, hasDefinedTerm: GLOSS.terms.filter(t => D[t.id]).map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: termUrl(lang, t.id) })) })}</script>
 <style>${CSS}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}${GS.CSS}${LIST_CSS}</style></head>
 <body><header><div class="in">${crumbs(lang, svgIcon("gbook", SECTION_COLOR.glossary), [{ label: U.gl }])}<span style="flex:1"></span>${langBtns(lang, listUrl)}</div></header>
-<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>${esc(fill(LIST, "n", n))}</h1><p>${esc(desc)}</p>
+<main style="max-width:912px;margin:0 auto;padding:20px 16px 72px"><div class="eyebrow">ClayArena · Sporting™ · Compak® Sporting</div><h1>${esc(fill(LIST, "n", n))}</h1><p>${esc(desc)}</p>
 ${glossaryIndexList(lang, GLOSS.terms.filter(t => D[t.id]), { cat: c => (CAT[lang] || {})[c] || c, url: t => termUrl(lang, t.id), html: t => termHtml(lang, t), short: t => D[t.id].short })}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`);
       out.push(url);

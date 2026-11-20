@@ -48,9 +48,17 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--em);outline-offset:
 /* Header (wave 2, 10.11.2026, design-mockups/rules-trainer.html variant C): not sticky; on a phone the breadcrumb is one row and
    Sporting / Compak + the language share the second (the tabs say "Compak®" there, .lg hidden). During a test the sticky line is .run. */
 .top{background:rgba(3,7,18,.9);border-bottom:1px solid var(--line)}
-.top-in{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:9px;display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap}
+/* the section row under the ClayArena bar — the same in the three products (20.11.2026): 912 px, 56 px high, the section (the
+   trainer belongs to the Academy) icon and name 16 px, the controls 36 px; the crumbs are a line of their own below (.crumbs-b) */
+.top-in{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:0;min-height:56px;display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap}
+.secname{display:inline-flex;align-items:center;gap:8px;min-width:0;font-weight:700;font-size:16px;line-height:1.2;color:var(--ink);text-decoration:none;white-space:nowrap}.secname .sic{font-size:18px;color:#34D399;display:inline-flex}
+nav.crumbs-b{max-width:912px;margin:14px auto 0;padding:0 16px}
+.langs{position:relative;font-size:14px;flex:none}.langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:0 12px;min-height:36px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}.langs summary::-webkit-details-marker{display:none}.langs summary::after{content:"▾";font-size:12px}
+.langs[open] summary{border-color:var(--em);color:#fff}.langs .menu{position:absolute;right:0;top:calc(100% + 6px);z-index:35;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;min-width:170px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.langs .menu button{border:0;background:none;text-align:left;color:var(--soft);padding:8px 10px;border-radius:8px;min-height:40px;font:inherit;cursor:pointer}.langs .menu button:hover{background:rgba(255,255,255,.06);color:#fff}.langs .menu button[aria-pressed="true"]{color:var(--em);font-weight:700}
+@media (pointer:coarse){.langs summary,.langs .menu button{min-height:44px}}@media (max-width:560px){.langs summary .ln{display:none}}
 @media(max-width:760px){
- .top-in{padding-block:8px;gap:8px}
+ .top-in{padding-block:0;gap:8px}
  .crumbs{flex-basis:100%;flex-wrap:nowrap;white-space:nowrap;overflow:hidden;font-size:13px}
  .top .spacer{display:none}
  #discG{flex:1}#discG button{flex:1;padding:6px 8px}
@@ -75,7 +83,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--em);outline-offset:
 .seg button{border:0;background:transparent;padding:6px 12px;font-size:14px;color:var(--muted);white-space:nowrap}
 .seg button[aria-pressed="true"]{background:var(--primary);color:#fff;font-weight:600}
 .seg.disc button[aria-pressed="true"]{background:#fff;color:#030712}
-main{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:22px 80px}
+main{max-width:912px;margin:0 auto;padding-inline:16px;padding-block:22px 80px}
 h1,h2,h3{letter-spacing:-.01em;text-wrap:balance}
 h1{font-size:clamp(28px,4.5vw,42px);line-height:1.1;margin:0 0 8px}
 h2{font-size:20px;margin:0 0 10px}
@@ -190,19 +198,19 @@ p{margin:0 0 10px;max-width:70ch}
 </head>
 <body><div class="ca-slot"></div>
 <header class="top"><div class="top-in">
-  <nav class="crumbs" id="crumbs" aria-label="Навігаційний ланцюжок"><span aria-hidden="true" data-ico="cap" style="color:#34D399;display:inline-flex"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/></svg></span><a href="../../learn/">Академія</a><span aria-hidden="true">›</span><a href="../../learn/practice/">Практика</a><span aria-hidden="true">›</span><span aria-current="page">Тренажер правил</span></nav>
+  <a class="secname" id="tsec" href="../../learn/"><span class="sic" aria-hidden="true" data-ico="cap"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/></svg></span><span id="tsecN">Академія ClayArena</span></a>
   <span class="spacer"></span>
   <div class="seg disc" role="group" aria-label="Дисципліна" id="discG"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak®<span class="lg"> Sporting</span></button></div>
-  <select id="tlang" aria-label="Мова" style="background:var(--surface2,#0B1120);color:var(--ink,#F3F4F6);border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:14px;min-height:36px"></select>
-  <button type="button" id="tlangGo" class="langgo" style="display:none" aria-label="Відкрити обраною мовою" title="Відкрити обраною мовою">→</button>
+  <details class="langs" id="tlangD"><summary><span aria-hidden="true" data-ico="globe"><svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19z"/></svg></span> <span class="ln" id="tlangN">Українська</span></summary><div class="menu" role="group" aria-label="Мова" id="tlangM"></div></details>
 </div></header>
+<nav class="crumbs crumbs-b" id="crumbs" aria-label="Навігаційний ланцюжок"><a href="../../learn/">Академія</a><span aria-hidden="true">›</span><a href="../../learn/practice/">Практика</a><span aria-hidden="true">›</span><span aria-current="page">Тренажер правил</span></nav>
 <main id="app"></main>
 <script src="../data/quiz-sporting.js"></script>
 <script src="../data/quiz-compak.js"></script>
 <!-- the rules books, the term labels and the animations are loaded after the first paint: DEPS / READY in the script below -->
 <script>
 /* Line icons (scripts/icons.mjs, 20.11.2026). The copy below and <span data-ico="…"> are written by `bun scripts/sync_icons.mjs`. */
-/* icons:begin TRAINER_I cap */const TRAINER_I = {"cap":'<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/>'};/* icons:end */
+/* icons:begin TRAINER_I cap globe */const TRAINER_I = {"cap":'<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.2 9 2.2 12 0v-5"/><path d="M22 9v5"/>',"globe":'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19z"/>'};/* icons:end */
 const TI = k => `<svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${TRAINER_I[k]}</svg>`;
 </script>
 <script>
@@ -398,10 +406,10 @@ const rulesA=(cls,d)=>`<a class="${cls}" data-rules="${d||P.disc}" href="${esc(r
 /* Breadcrumb of the header: Academy home › Academy Practice › this trainer (links of the bar: published Academy languages). */
 function crumbsHTML(){ const N=window.ClayNav&&ClayNav.link, a=N&&ClayNav.link("learn",L()), p=N&&ClayNav.link("practice",L());
   const home=a?a.url:"../../"+(L()==="uk"?"":"en/")+"learn/", prac=p?p.url:home+"practice/";
-  return `<span aria-hidden="true" style="color:#34D399;display:inline-flex">${TI("cap")}</span><a href="${esc(home)}"${a&&a.lang!==L()?` hreflang="${a.lang}"`:""}>${esc(a?a.name:t("learn"))}</a><span aria-hidden="true">›</span><a href="${esc(prac)}"${p&&p.lang!==L()?` hreflang="${p.lang}"`:""}>${esc(N?ClayNav.name("practice",L()):t("practice"))}</a><span aria-hidden="true">›</span><span aria-current="page">${esc(N?ClayNav.name("trainer",L()):t("svc"))}</span>`; }
+  return `<a href="${esc(home)}"${a&&a.lang!==L()?` hreflang="${a.lang}"`:""}>${esc(a?a.name:t("learn"))}</a><span aria-hidden="true">›</span><a href="${esc(prac)}"${p&&p.lang!==L()?` hreflang="${p.lang}"`:""}>${esc(N?ClayNav.name("practice",L()):t("practice"))}</a><span aria-hidden="true">›</span><span aria-current="page">${esc(N?ClayNav.name("trainer",L()):t("svc"))}</span>`; }
 document.addEventListener("claynav:update",()=>{ document.querySelectorAll("a[data-learn]").forEach(a=>{ a.href=learnHref(); a.textContent="← "+learnName(); });
   document.querySelectorAll("a[data-rules]").forEach(a=>{ a.href=rulesHref(a.dataset.rules); a.textContent="← "+rulesName(); });
-  const c=document.getElementById("crumbs"); if(c) c.innerHTML=crumbsHTML(); saveRun(); });
+  const c=document.getElementById("crumbs"); if(c) c.innerHTML=crumbsHTML(); const sn=document.getElementById("tsecN"); if(sn&&window.ClayNav&&ClayNav.full) sn.textContent=ClayNav.full("learn",L()); const sl=document.getElementById("tsec"); if(sl) sl.href=learnHref(); saveRun(); });
 const today=()=>{ const d=new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };
 /* tx(obj, field): question text / explanation / rule title in the current language (overlay for languages beyond uk/en) */
 const tx=(o,k)=>{ if(o[k+"_"+L()]) return o[k+"_"+L()]; const v=o.id&&OV.questions[o.id]; if(v){ if(k==="q"&&v.q) return v.q; if(k==="explain"&&v.explain) return v.explain; } return o[k+"_en"]||""; };
@@ -520,9 +528,10 @@ function render(){
   if(S.view!=="home"&&!ready){ loadDeps(); READY.then(render); return; } // a test or a result needs the scripts of DEPS (see READY)
   document.documentElement.lang=L();
   const cr=document.getElementById("crumbs"); cr.innerHTML=crumbsHTML(); cr.setAttribute("aria-label",t("crumbs")); document.title=`${t("svc")} FITASC · ClayArena`;
-  document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("tlang").setAttribute("aria-label",t("langG"));
-  const lg=document.getElementById("tlangGo"); lg.setAttribute("aria-label",t("langGo")); lg.title=t("langGo");
-  const sel=document.getElementById("tlang"); if(!sel.options.length) sel.innerHTML=LANGS.map(l=>`<option value="${l}">${LANG_NAMES[l]}</option>`).join(""); sel.value=L();
+  document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("tlangM").setAttribute("aria-label",t("langG"));
+  document.getElementById("tlangN").textContent=LANG_NAMES[L()];
+  document.getElementById("tlangM").innerHTML=LANGS.map(l=>`<button type="button" data-tl="${l}" lang="${l}" aria-pressed="${l===L()}">${LANG_NAMES[l]}</button>`).join("");
+  const sec=document.getElementById("tsec"); sec.href=learnHref(); document.getElementById("tsecN").textContent=(window.ClayNav&&ClayNav.full&&ClayNav.full("learn",L()))||"Академія ClayArena";
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===P.disc));
   if(window.ClaySims) ClaySims.stopSims();
   document.getElementById("app").innerHTML = S.view==="run"?runView():S.view==="result"?resultView():homeView();
@@ -557,16 +566,12 @@ document.addEventListener("click",e=>{
    a pick with the mouse or finger applies at once; with the keyboard the arrows only move in the list (a closed native select
    fires "change" on every arrow step), and Enter or the "→" button that appears applies the language. So the test page does not
    flash through other languages (and fetch their files) while a keyboard user browses the list. */
-const tSel=document.getElementById("tlang"), tGo=document.getElementById("tlangGo");
-async function setLang(l){ tGo.style.display="none"; delete tSel.dataset.kbd; if(!LANGS.includes(l)||l===P.lang){ tSel.value=L(); return; }
+/* the language menu of the header (the same «🌐 Українська ▾» as in the Academy, the Glossary and the rules guide, 20.11.2026) */
+async function setLang(l){ if(!LANGS.includes(l)||l===P.lang) return;
   P.lang=l; store.set(P); stat("lang",P.lang); vlSet(P.lang);
   try{ const u=new URL(location.href); u.searchParams.set("lang",P.lang); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(_){} // keep ?lang (and from/mode)
   await loadLang(P.lang); render(); }
-tSel.addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); setLang(tSel.value); return; }
-  if(e.key.length===1||/^(Arrow|Page|Home|End)/.test(e.key)) tSel.dataset.kbd="1"; });
-tSel.addEventListener("pointerdown",()=>{ delete tSel.dataset.kbd; });
-tSel.addEventListener("change",()=>{ if(tSel.value===L()){ tGo.style.display="none"; return; } if(tSel.dataset.kbd){ tGo.style.display=""; return; } setLang(tSel.value); });
-tGo.addEventListener("click",()=>{ setLang(tSel.value); const f=document.getElementById("tlang"); if(f) f.focus(); });
+document.getElementById("tlangM").addEventListener("click",e=>{ const b=e.target.closest("[data-tl]"); if(!b) return; document.getElementById("tlangD").open=false; setLang(b.dataset.tl); });
 /* ?mode=mistakes (the bar's hint "mistakes to repeat", per discipline): start the mistakes test at once, unless a saved test waits. */
 loadLang(P.lang).then(()=>{ if(WANT_MODE==="mistakes"&&!S.run&&st().wrong.length) start("mistakes"); else render(); });
 </script>
