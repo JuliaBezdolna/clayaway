@@ -98,7 +98,7 @@ async def lesson(ctx, base, case, fails):
             if st["wrong"] != ([] if pick == q["correct"] else [pick]): bad(f"q{i + 1}: .wrong on {st['wrong']}")
             if st["open"]: bad(f"q{i + 1}: {st['open']} options still open after the answer")
             word = ui["correct"] if pick == q["correct"] else ui["wrong"]
-            ex = norm(st["ex"])
+            ex = re.sub(r"^[✓✗]\s*", "", norm(st["ex"]))   # the new quiz card (19.11.2026) starts with the mark ✓ / ✗
             if not ex.startswith(norm(word)): bad(f"q{i + 1}: explanation does not start with {word!r}: {ex[:60]!r}")
             if norm(q.get("explain"))[:40] not in ex: bad(f"q{i + 1}: explanation text of the data is missing: {ex[:80]!r}")
             right += pick == q["correct"]

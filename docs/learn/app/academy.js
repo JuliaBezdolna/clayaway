@@ -405,7 +405,7 @@
         cont = `<a class="ac-continue" href="${h ? withRoute(h.url, r.id) : pageLink(r, `routes/${r.id}/`).url}"${h && !h.en ? " data-nav" : ""} data-route="${esc(r.id)}"><span class="ac-eyebrow">${t("continue")}</span>
           <b>${t("continue_route", { lesson: c ? c.title : nx, route: r.title, n: so ? so.index + 1 : 1, t: r.stages.length, min: c ? c.minutes : "" })}</b>${bar(st.done, st.total, r.title)}</a>`; }
       else cont = `<a class="ac-continue" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav><span class="ac-eyebrow">${esc(r.title)}</span><b>${t("route_complete_go")}</b></a>`;
-    } else if (anyDone && S.last && L(S.last)) { const nx = nextInBlocks(S.last), id = nx && !done(nx) ? nx : S.last, h = lessonHref(id);
+    } else if (anyDone && S.last && L(S.last)) { const nx = nextInBlocks(S.last), id = done(S.last) && nx && !done(nx) ? nx : S.last, h = lessonHref(id); // an unfinished last lesson: back to it (20.11.2026)
       if (h) cont = `<a class="ac-continue" href="${h.url}"${h.en ? "" : " data-nav"}><span class="ac-eyebrow">${t("continue")}</span><b>${t("continue_last", { lesson: L(id).title })}</b></a>`; }
     /* «Вперше тут?» (пакет Б, 18.11.2026, card A in grey): one way in for a new visitor instead of 7 routes + 13 topics + 8 trainers */
     if (!r && !anyDone) { const r0 = routesSorted()[0], f = r0 && required(r0)[0], c0 = f && L(f), h0 = f && lessonHref(f);
@@ -935,7 +935,7 @@
     if (g.external) return `${head}<p><a class="ac-btn primary" href="${esc(extUrl(g))}">${I("pad")} ${esc(gameTitle(g))} →</a></p>${trainerStatus()}`;
     if (g.later) return `${head}<p class="ac-note">${t("practice_soon")}</p>`;
     after(() => { if (!GAMES[id]) return; if (!VIEW.statGame) { VIEW.statGame = 1; stat("game_start", id); } gameStart(g); GAMES[id]($("acGame"), g); });
-    return `${head}<div id="acGame" class="ac-game-host"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>${back}${gameLessonsHtml(g)}`;
+    return `${head}<div id="acGame" class="ac-game-host" data-game="${esc(g.id)}"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>${back}${gameLessonsHtml(g)}`;
   }
   function trainerStatus() { const tr = trainer(); if (!tr || !tr.stats) return "";
     return `<ul class="ac-reqs">${["sporting", "compak"].map(d => { const s = tr.stats[d]; return s ? `<li class="${P.trainerPass(tr, d) ? "ok" : ""}"><span aria-hidden="true">${P.trainerPass(tr, d) ? "✓" : "○"}</span> ${discName(d)}: ${t("trainer_best", { p: s.best || 0 })}${s.short_best != null && U.trainer_short_best != null ? " · " + t("trainer_short_best", { p: s.short_best }) : ""}</li>` : ""; }).join("")}</ul>`; }
@@ -1407,8 +1407,12 @@
     VIEW.lastQ = qk; VIEW.dogAnim = qk; // the mascot stands next to the explanation of THIS answer (quizHtml)
     const qs = (VIEW.data && VIEW.data.quiz) || [];
     if (qs.every(q => VIEW.ans[q.k] != null)) finish(LOC.id, qs.filter(q => VIEW.ans[q.k] === q.correct).length);
+    const sel = `[data-act="ans"][data-q="${CSS.escape(qk)}"][data-v="${CSS.escape(ok)}"]`, b0 = document.querySelector(sel), y0 = b0 ? b0.getBoundingClientRect().top : null;
     rerender();
-    const btn = document.querySelector(`[data-act="ans"][data-q="${CSS.escape(qk)}"][data-v="${CSS.escape(ok)}"]`); if (btn) btn.focus(); // keep the keyboard place
+    const btn = document.querySelector(sel); if (btn) btn.focus({ preventScroll: true }); // keep the keyboard place
+    /* keep the pressed option where it was (20.11.2026): the dog leaves the explanation above, so that one gets shorter and the
+       rerendered page would jump up under the finger by 46–77 px (check_quiz «the pressed option jumped») */
+    if (btn && y0 != null) { const dy = btn.getBoundingClientRect().top - y0; if (Math.abs(dy) > 1) window.scrollBy(0, dy); }
     const fs = btn && btn.closest(".ac-q"); if (fs) { const ex = fs.querySelector(".ac-explain"); if (ex) announce(plainText(ex)); } // without the dog's bubble
   }
   function finish(id, score) {

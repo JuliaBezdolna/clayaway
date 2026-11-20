@@ -727,6 +727,11 @@ fieldset.ac-gq .ac-opts{clear:both}
 @media (max-width:560px){.ac-startacts .ac-btn{width:100%;justify-content:center}}
 /* the next lesson is in another topic: «Наступна тема: … →» */
 .ac-ltile.is-topic .ac-ltk{color:#FCD34D}
+/* the game box keeps about its final height while the game loads (20.11.2026, Lighthouse: «Рішення судді» CLS 0.24 on a phone —
+   the card «Уроки до цієї гри» under it jumped down by ~480 px). Values a little below the real heights (measured at 375 and 1280 px) */
+.ac-game-host[data-game="referees-call"]{min-height:400px}.ac-game-host[data-game="translate-the-coach"]{min-height:440px}
+.ac-game-host[data-game="name-the-flight"],.ac-game-host[data-game="lead-lab"],.ac-game-host[data-game="phrasebook"]{min-height:600px}.ac-game-host[data-game="term-cards"]{min-height:250px}
+@media (max-width:560px){.ac-game-host[data-game="referees-call"]{min-height:500px}.ac-game-host[data-game="translate-the-coach"]{min-height:600px}}
 /* lesson diagrams (t:"diagram", 20.11.2026) — the same text as DIAGRAM_CSS in scripts/academy/diagrams.mjs; change both */
 figure.dg{margin:20px 0 26px;padding:16px;border-radius:16px;background:#111827;border:1px solid rgba(255,255,255,.08);min-width:0}
 figure.dg .dg-h{font-size:19px;font-weight:700;color:#F3F4F6;margin:0 0 10px;max-width:none;line-height:1.35}
