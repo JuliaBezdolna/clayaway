@@ -41,7 +41,7 @@
 }
 *{box-sizing:border-box}
 html,body{margin:0}
-body{background:var(--bg);color:var(--ink);font:15.5px/1.6 var(--body)}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
 a{color:var(--em)}
 button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,a:focus-visible{outline:2px solid var(--em);outline-offset:2px}
@@ -51,7 +51,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--em);outline-offset:
 .top-in{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:9px;display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap}
 @media(max-width:760px){
  .top-in{padding-block:8px;gap:8px}
- .crumbs{flex-basis:100%;flex-wrap:nowrap;white-space:nowrap;overflow:hidden;font-size:13.5px}
+ .crumbs{flex-basis:100%;flex-wrap:nowrap;white-space:nowrap;overflow:hidden;font-size:13px}
  .top .spacer{display:none}
  #discG{flex:1}#discG button{flex:1;padding:6px 8px}
  #tlang{width:auto;max-width:130px}
@@ -59,7 +59,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--em);outline-offset:
 @media(max-width:420px){#discG .lg{display:none}}
 /* Breadcrumb «🎓 Академія › Практика › Тренажер правил» instead of a second logo: the trainer belongs to the Academy Practice
    (owner decision 07.10.2026; the ONE ClayArena logo is in the bar, docs/shared/nav.js, which highlights «Академія» here). */
-.crumbs{display:flex;align-items:center;gap:4px 7px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.crumbs{display:flex;align-items:center;gap:4px 7px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 .crumbs a{color:var(--soft);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}
 .crumbs a:hover{color:#fff;text-decoration:underline}
 .crumbs [aria-current]{color:var(--ink);font-weight:700}
@@ -77,7 +77,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--em);outline-offset:
 .seg.disc button[aria-pressed="true"]{background:#fff;color:#030712}
 main{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:22px 80px}
 h1,h2,h3{letter-spacing:-.01em;text-wrap:balance}
-h1{font-size:clamp(26px,4.5vw,40px);line-height:1.1;margin:0 0 8px}
+h1{font-size:clamp(28px,4.5vw,42px);line-height:1.1;margin:0 0 8px}
 h2{font-size:20px;margin:0 0 10px}
 p{margin:0 0 10px;max-width:70ch}
 .muted{color:var(--muted)}.small{font-size:13px}
@@ -131,7 +131,7 @@ p{margin:0 0 10px;max-width:70ch}
 .type.choice{background:rgba(255,255,255,.08);color:var(--soft)}
 /* 12.11.2026: the question and the result are cards of the Glossary: rounded 12 px, border white/10, gradient white/10 → white/5 */
 .qcard{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px;padding:20px;margin-top:10px}
-.qcard h2{font-size:19px;font-weight:600;line-height:1.45;margin:8px 0 16px}
+.qcard h2{font-size:20px;font-weight:600;line-height:1.45;margin:8px 0 16px}
 .opts{display:grid;gap:8px}
 .opts button{text-align:left;border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:12px;padding:12px 14px;font-size:15px}
 .opts button:hover:not([disabled]){border-color:rgba(52,211,153,.5)}

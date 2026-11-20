@@ -468,8 +468,8 @@
       <div class="ac-rfoot"><p class="ac-rprog">${bar(d, ids.length, b.title)} <span>${t("route_progress", { done: "", total: ids.length }).replace("", `<b>${d}</b>`)}</span></p>
       <p class="ac-racts">${nx ? `<a class="ac-btn primary" href="${nh.url}"${nh.en ? ' hreflang="en"' : " data-nav"}>${d ? t("continue") : t("start")}: ${esc(L(nx).title)}${nh.en ? " (EN)" : ""} →</a>` : `<span class="ac-btn ac-rcur"><span aria-hidden="true">✓</span> ${t("topic_done")}</span>`}</p></div></header>
     ${discSwitch()}
-    ${(b.starters || []).length ? `<section aria-labelledby="h-start"><h2 id="h-start">★ ${t("start_here")}</h2>${lessonList(b.starters, { summary: true })}</section>` : ""}
-    ${b.sections.map(s => `<section id="${esc(s.id)}" aria-labelledby="h-${esc(s.id)}"><h2 id="h-${esc(s.id)}">${esc(s.title)}</h2>${lessonList(s.lessons, { summary: true })}</section>`).join("")}
+    ${(b.starters || []).length ? `<section aria-labelledby="h-start"><h2 id="h-start" class="ac-star">${t("start_here")}</h2>${lessonList(b.starters, { summary: true })}</section>` : ""}
+    ${b.sections.map(s => `<section id="${esc(s.id)}" aria-labelledby="h-${esc(s.id)}"><h2 id="h-${esc(s.id)}">${esc(s.title === b.title ? t("stat_lessons") : s.title)}</h2>${lessonList(s.lessons, { summary: true })}</section>`).join("")}
     ${games.length ? `<section aria-labelledby="h-bg"><h2 id="h-bg">${t("block_games")}</h2><div class="ac-grid ac-grid-games">${games.map(g => gameCard(g)).join("")}</div></section>` : ""}
     ${b.glossary_category ? `<p><a href="${SITE}${pre(LANG)}glossary/#${esc(b.glossary_category)}">${t("block_glossary")} →</a></p>` : ""}`;
   }
@@ -509,12 +509,11 @@
         ${S.routes.current === r.id ? `<span class="ac-btn ac-rcur"><span aria-hidden="true">✓</span> ${t("route_current")}</span>` : `<button type="button" class="ac-btn" data-act="setroute" data-v="${esc(r.id)}">${t("route_choose")}</button>`}</p></div></header>
     <ol class="ac-stages">${r.stages.map((s, i) => { const sd = s.lessons.filter(done).length, all = sd === s.lessons.length;
       return `<li class="ac-stage${all ? " is-done" : ""}" id="stage-${esc(s.id)}"><details${(!all && (i === 0 || r.stages[i - 1].lessons.every(done))) || (nx && s.lessons.includes(nx)) ? " open" : ""}>
-        <summary><span class="ac-stage-n" aria-hidden="true">${all ? "✓" : i + 1}</span><span class="ac-stage-t"><b>${t("stage")} ${i + 1}. ${esc(s.title)}</b>
-        <span class="ac-meta">${plural("n_lessons", s.lessons.length)}${st.practice.some(p => p.item.stage === s.id) ? " " + t("stage_plus_trainer") : ""} · ~${mins(s.minutes)} · ${sd}/${s.lessons.length}${all ? " · " + I("medal") + " " + esc((badgeById(s.badge) || {}).title || "") : ""}</span></span></summary>
+        <summary><span class="ac-stage-n" aria-hidden="true">${all ? "✓" : i + 1}</span><div class="ac-stage-t"><h2 class="ac-stage-h">${t("stage")} ${i + 1}. ${esc(s.title)}</h2>
+        <span class="ac-meta">${plural("n_lessons", s.lessons.length)}${st.practice.some(p => p.item.stage === s.id) ? " " + t("stage_plus_trainer") : ""} · ~${mins(s.minutes)} · ${sd}/${s.lessons.length}${all ? " · " + I("medal") + " " + esc((badgeById(s.badge) || {}).title || "") : ""}</span></div></summary>
         ${stageList(s)}</details></li>`; }).join("")}</ol>
     ${(r.extras || []).length ? `<details class="ac-extras"><summary><h2>${t("route_extras")}</h2><span class="ac-meta">${plural("n_lessons", r.extras.length)} · ${t("route_extras_d")}</span></summary>${lessonList(r.extras, { route: r.id, summary: true })}</details>` : ""}
-    <section class="ac-certbox" id="certificate" aria-labelledby="h-cert"><div class="ac-cs-head"><span class="ac-cs-ic" aria-hidden="true">${r.certificate ? I("cap") : I("medal")}</span><div><span class="ac-eyebrow">${r.certificate ? t("cert_title") : t("badge_word")}</span>
-      <h2 id="h-cert">${r.certificate && r.certificate.title ? `«${esc(r.certificate.title)}»` : `${t("route_word")} «${esc(r.title)}»`}</h2></div></div>
+    <section class="ac-certbox" id="certificate" aria-labelledby="h-cert"><div class="ac-cs-head"><span class="ac-cs-ic" aria-hidden="true">${r.certificate ? I("cap") : I("medal")}</span><div><h2 id="h-cert"><span class="ac-eyebrow">${r.certificate ? t("cert_title") : t("badge_word")}</span> «${esc(r.certificate && r.certificate.title ? r.certificate.title : r.title)}»</h2></div></div>
       ${st.complete || st.cert ? (r.certificate ? certHtml(r, st.cert) + `<p><button type="button" class="ac-btn primary" data-act="printcert" data-v="${esc(r.id)}">${I("print")} ${t("cert_print")}</button> <a class="ac-btn" href="${href("progress/")}#name" data-nav>${t("cert_name")}</a></p>` : `<p class="ac-ok">${I("medal")} ${t("badge_earned")}</p>`) : ""}
       <ol class="ac-csteps">${reqs.map(step).join("")}</ol>
       ${legacy ? `<p class="ac-muted">${t("cert_legacy")}</p>` : ""}
@@ -846,7 +845,7 @@
     const cfg = r.certificate && r.certificate.exam ? r.certificate.exam : r.badge_only && r.badge_only.quiz; if (!cfg) return viewNotFound();
     const st = P.routeStatus(S, CAT, r, TRAINER), E = VIEW.exam;
     setHead({ title: `${u("route_exam")}: ${r.title} — ${u("academy_name")}`, desc: r.for, index: false });
-    const head = `${crumbs([home(), { label: r.title, url: pageLink(r, `routes/${r.id}/`).url }, { label: u("route_exam") }])}<header class="ac-head"><div class="ac-eyebrow">${t("route_exam")}</div><h1 tabindex="-1">${esc(r.title)}</h1>
+    const head = `${crumbs([home(), { label: r.title, url: pageLink(r, `routes/${r.id}/`).url }, { label: u("route_exam") }])}<header class="ac-head"><div class="ac-eyebrow">${t("route_word")}</div><h1 tabindex="-1">${t("route_exam")} · ${esc(r.title)}</h1>
       <p class="ac-meta">${plural("n_questions", cfg.n)} · ${t("exam_pass_mark", { p: cfg.pass_pct })}</p></header>`;
     if (!st.lessonsOk && !st.exam) return `${head}<p class="ac-note">${t("exam_locked", { d: st.done, t: st.total })}</p><p><a class="ac-btn primary" href="${pageLink(r, `routes/${r.id}/`).url}" data-nav>${t("to_route")}</a></p>`;
     if (!E) return `${head}${st.exam ? `<p class="ac-ok">✓ ${t("exam_passed", { score: S.routes[r.id].exam.score })}</p>` : ""}<p>${t("exam_intro")}</p><p><button type="button" class="ac-btn primary" data-act="examstart" data-v="${esc(r.id)}">${t("exam_start")}</button></p>`;

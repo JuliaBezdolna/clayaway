@@ -68,7 +68,7 @@
      a faint gradient); before saving — the text on the left, an outlined button on the right (no filled green button). */
   const css = `.ca-off{max-width:900px;margin:28px auto 8px;padding:14px 16px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:linear-gradient(to bottom right,rgba(255,255,255,.06),rgba(255,255,255,.02));color:#F3F4F6;font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 .ca-off .top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px}.ca-off .top .m{margin-top:2px}
-.ca-off h2{margin:0 0 6px;font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:#9CA3AF;font-weight:700}.ca-off .top h2{margin:0}
+.ca-off .h{margin:0 0 6px;font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:#9CA3AF;font-weight:700}.ca-off .top .h{margin:0}
 .ca-off p{margin:6px 0 0;color:#D1D5DB}.ca-off .m{color:#9CA3AF;font-size:13.5px}
 .ca-off .row{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-top:10px}
 .ca-off button{font:inherit;cursor:pointer;min-height:40px;border-radius:10px;padding:6px 14px}
@@ -96,7 +96,7 @@
   /* icons:begin OFF_I signal down */const OFF_I = {"signal":'<path d="M3 20h.01M8 20v-4M13 20v-8M18 20V7"/>',"down":'<path d="M12 3v12M7 10l5 5 5-5M4 21h16"/>'};/* icons:end */
   const OI = k => `<svg class="ico" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" style="vertical-align:-.14em">${OFF_I[k]}</svg>`;
   async function draw(state, o = {}) {
-    const P = esc(pname()), head = `<h2>${OI("signal")} ${esc(S.h)}</h2>`;
+    const P = esc(pname()), head = `<p class="h">${OI("signal")} ${esc(S.h)}</p>`; // a label, not a heading of the page (SEO, 20.11.2026)
     if (state === "saving") { box.innerHTML = `${head}<p>${esc(fmt(S.saving, { i: o.i, n: o.n }))}</p><div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${o.n}" aria-valuenow="${o.i}"><i style="width:${Math.round(o.i / o.n * 100)}%"></i></div><p class="m">${esc(S.keep)}</p>`; return; }
     if (state === "saved") { box.innerHTML = `${head}<p class="ok">✓ ${fmt(esc(S.saved), { p: P })}</p><p class="m">${esc(fmt(S.when, { d: date(o.at) }))}${o.upd ? " " + esc(S.upd) : ""}</p>
       <div class="row">${o.upd ? `<button class="go" data-a="save">${esc(S.update)}</button>` : ""}<button class="ln" data-a="del">${esc(S.del)}</button></div>`; return; }

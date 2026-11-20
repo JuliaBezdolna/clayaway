@@ -1357,7 +1357,7 @@ export async function buildAcademy(o = {}) {
 .st-crumbs{color:#9CA3AF;font-size:13px;margin:0 0 8px}.st-crumbs a{color:#9CA3AF}.st-crumbs a:hover{color:#F3F4F6}
 .st-langs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}.st-langs a{font-size:12px;padding:3px 9px;border:1px solid rgba(255,255,255,.1);border-radius:999px;text-decoration:none;color:#D1D5DB}.st-langs a[aria-current]{border-color:#34D399;color:#34D399}
 .st{max-width:912px;margin:0 auto;padding:0 16px 40px;overflow-wrap:break-word}.st.st-wide{max-width:912px}.st p,.st li{color:#D1D5DB}.st h2{margin:32px 0 12px}
-.st-body p{font-size:17px;line-height:1.75}.st-lead{font-size:18px}.st-small,.st-ref{font-size:13px;color:#9CA3AF!important}.st-ref a{color:#9CA3AF}
+.st-body p{font-size:17px;line-height:1.75}.st-lead{font-size:17px}@media (max-width:560px){.st-lead{font-size:16px}}.st-small,.st-ref{font-size:13px;color:#9CA3AF!important}.st-ref a{color:#9CA3AF}
 .st-meta{font-size:13px;color:#9CA3AF;display:flex;gap:6px 10px;flex-wrap:wrap;align-items:center;margin:4px 0}
 .st-badge{display:inline-block;font-size:13px;font-weight:600;line-height:1.5;color:#D1D5DB;text-decoration:none}a.st-badge{font-size:12px;padding:1px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.18)}
 .st-b-disc{border-color:rgba(34,211,238,.45);color:#22D3EE}.st-b-review{border-color:rgba(251,191,36,.55);color:#FBBF24}.st-b-soon{border-color:rgba(251,146,60,.55);color:#FB923C}.st-b-star{border-color:rgba(52,211,153,.55);color:#34D399}
@@ -1497,8 +1497,8 @@ ${needSims ? `<script src="${up}shared/sims.min.js" defer></script>
 <h1>${esc(title)}</h1>
 ${isDraft ? `<p class="st-banner">${esc(S(L, "draft_banner"))}</p>` : ""}${m.index === "preview" ? `<p class="st-banner">${esc(S(L, "clayaway_preview"))}</p>` : ""}${brief}
 ${V.body.map(x => x.html).join("\n")}
-${V.kps.length ? `<section class="st-kp"><h2>${esc(S(L, "key_points"))}</h2><ul>${V.kps.map(k => `<li${k.lang ? ` lang="${k.lang}"` : ""}>${k.x.draft ? '<span class="st-draft-h">Draft · </span>' : ""}${k.html}</li>`).join("")}</ul></section>` : ""}
-${V.dyk ? `<aside class="st-dyk"${V.dyk.lang ? ` lang="${V.dyk.lang}"` : ""}><h2>${esc(S(L, "did_you_know"))}</h2><p>${V.dyk.html}</p></aside>` : ""}
+${V.kps.length ? `<section class="st-kp"><h2>${esc(S(L, "kp_fast"))}</h2><ul>${V.kps.map(k => `<li${k.lang ? ` lang="${k.lang}"` : ""}>${k.x.draft ? '<span class="st-draft-h">Draft · </span>' : ""}${k.html}</li>`).join("")}</ul></section>` : ""}
+${V.dyk ? `<aside class="st-dyk"${V.dyk.lang ? ` lang="${V.dyk.lang}"` : ""}><p><b>${esc(S(L, "did_you_know"))}</b> ${V.dyk.html}</p></aside>` : ""}
 ${V.phrases.length ? `<details class="st-talk"${pl.block === "stand-talk" ? " open" : ""}><summary>${esc(S(L, "stand_talk"))}</summary><ul>${V.phrases.map(p => `<li><p class="st-ph"><span class="st-badge">${esc(S(L, `speaker_${p.x.speaker || "coach"}`))}</span> <q lang="en">${esc(p.x.en)}</q></p><p${p.lang ? ` lang="${p.lang}"` : ""}><b>${esc(S(L, "meaning"))}:</b> ${p.meaning}</p>${p.say && L !== "en" ? `<p><b>${esc(S(L, "say_it"))}:</b> ${p.say}</p>` : ""}</li>`).join("")}</ul></details>` : ""}
 ${Object.entries(notesBy).map(([f, list]) => `<details class="st-notes"><summary>${esc(noteLabel(f))}</summary><ul>${list.map(n => `<li${n.lang ? ` lang="${n.lang}"` : ""}>${n.html}</li>`).join("")}</ul></details>`).join("\n")}
 ${terms ? `<section><h2>${esc(S(L, "terms"))}</h2><ul class="st-chips">${terms}</ul></section>` : ""}
@@ -1530,7 +1530,7 @@ ${m.disclaimer === "medical" ? `<p class="st-small"><b>${esc(S(L, "not_medical_a
     const alts = LANGS.filter(l => built.block[b.id][l]).map(l => ({ l, url: U.block(l, b.id) }));
     const ids = blockLessons(b).filter(id => lessonBuilt(id, L));
     const sections = b.sections.map(s => { const list = s.lessons.filter(id => lessonBuilt(id, L)); if (!list.length) return ""; const starters = list.filter(id => (b.starters || []).includes(id)), deeper = list.filter(id => !(b.starters || []).includes(id));
-      return `<section id="${s.id}"><h2>${esc(tm(SH.section(L, b, s)))}</h2><ol class="st-list">${[...starters, ...deeper].map(id => lessonCard(L, id, starters.includes(id))).join("")}</ol></section>`; }).join("\n");
+      const secT = SH.section(L, b, s); return `<section id="${s.id}"><h2>${esc(tm(secT === SH.block(L, b, "title") ? S(L, "stat_lessons") : secT))}</h2><ol class="st-list">${[...starters, ...deeper].map(id => lessonCard(L, id, starters.includes(id))).join("")}</ol></section>`; }).join("\n");
     const gm = (b.practice || []).map(g => gameById[g]).filter(g => g && (built.game[g.id][L] || g.external)).map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_trainer"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("");
     const crumbs = [homeCrumb(L), { name: t, url }].filter(Boolean);
     const body = `<h1>${esc(t)}</h1><p class="st-lead">${esc(purpose)}</p><p class="st-meta"><span>${esc(nLessons(L, ids.length))}</span><span>≈ ${esc(mins(L, sumMin(ids)))}</span></p>
@@ -1557,7 +1557,8 @@ ${b.glossary_category ? `<p><a href="${esc(BASE + (L === "uk" ? "" : L + "/") + 
     const pr = (r.practice || []).map(p => { const g = gameById[p.game]; if (!g) return ""; const name = g.external ? S(L, "rules_trainer") : SH.game(L, g); const u = g.external ? U.trainer(L) + (p.mode ? `&mode=${encodeURIComponent(p.mode)}` : "") : built.game[g.id][L] ? U.practice(L, g.id) : null;
       const need = g.external && p.mode === "short" ? ` · ${S(L, "req_rules_short", { n: p.n || 10, p: p.min_pct || 80 })}` : p.min_pct ? ` · ${p.min_pct}%` : p.min_score ? ` · ${p.min_score}/${p.of}` : ""; return `<li>${u ? `<a href="${esc(u)}">${esc(tm(name || g.id))}</a>` : esc(tm(name || g.id))}${esc(need)}</li>`; }).join("");
     const certTitle = SH.cert(L, r) || (r.certificate ? S(L, "cert_route", { route: t }) : S(L, "badge_only"));
-    const cert = `<section id="certificate" class="st-box"><h2>${esc(tm(certTitle))}</h2>${ex ? `<p>${esc(S(L, "route_exam"))}: ${esc(S(L, "exam_conditions", { n: ex.n, pct: ex.pass_pct }))}</p>` : ""}${pr ? `<ul>${pr}</ul>` : ""}${r.certificate ? `<p class="st-small">${esc(S(L, "cert_disclaimer"))}${disclaimer ? " " + esc(disclaimer) : ""}</p>` : ""}${ex && built.exam[r.id][L] ? `<p><a class="st-btn" href="${esc(U.exam(L, r.id))}">${esc(S(L, "route_exam"))}</a></p>` : ""}</section>`;
+    const certH = `${S(L, r.certificate ? "cert_title" : "badge_word")} «${SH.cert(L, r) || t}»`;
+    const cert = `<section id="certificate" class="st-box"><h2>${esc(tm(certH))}</h2>${ex ? `<p>${esc(S(L, "route_exam"))}: ${esc(S(L, "exam_conditions", { n: ex.n, pct: ex.pass_pct }))}</p>` : ""}${pr ? `<ul>${pr}</ul>` : ""}${r.certificate ? `<p class="st-small">${esc(S(L, "cert_disclaimer"))}${disclaimer ? " " + esc(disclaimer) : ""}</p>` : ""}${ex && built.exam[r.id][L] ? `<p><a class="st-btn" href="${esc(U.exam(L, r.id))}">${esc(S(L, "route_exam"))}</a></p>` : ""}</section>`;
     const cl = r.checklist ? checklistOf(r, L) : [], clTitle = r.checklist ? SH.checklist(L, r) : null;
     const crumbs = [homeCrumb(L), { name: t, url }].filter(Boolean);
     const body = `<div class="st-meta"><span>${esc(S(L, "routes"))}</span></div><h1>${esc(t)}</h1><p class="st-lead">${esc(forT)}</p>${disclaimer ? `<p class="st-banner">${esc(disclaimer)}</p>` : ""}

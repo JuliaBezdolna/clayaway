@@ -47,7 +47,7 @@
 }
 *{box-sizing:border-box}
 html,body{margin:0}
-body{background:var(--bg);color:var(--ink);font:15.5px/1.6 var(--body)}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
 a{color:var(--em)}
 button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--em);outline-offset:2px}
@@ -65,8 +65,8 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 .seg.disc button[aria-pressed="true"]{background:#fff;color:#030712}
 main{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:22px 80px}
 h1,h2,h3{letter-spacing:-.01em;text-wrap:balance}
-h1{font-size:clamp(26px,4.5vw,40px);line-height:1.1;margin:0 0 8px}
-h2{font-size:21px;margin:0 0 10px}
+h1{font-size:clamp(28px,4.5vw,42px);line-height:1.1;margin:0 0 8px}
+h2{font-size:20px;margin:0 0 10px}
 h3{font-size:16px;margin:0 0 4px}
 p{margin:0 0 10px;max-width:72ch}
 .muted{color:var(--muted)}.small{font-size:13px}
@@ -119,7 +119,8 @@ p{margin:0 0 10px;max-width:72ch}
 .toc button{display:block;width:100%;white-space:normal;overflow-wrap:anywhere;text-align:left;border:0;background:none;color:var(--soft);padding:4px 0 4px 10px;border-left:2px solid var(--line)}
 .toc button:hover,.toc button.on{color:#fff;border-left-color:var(--em)}
 .sec{margin-bottom:26px;scroll-margin-top:80px}
-.sec h2 small{display:block;font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+/* the part / chapter label sits ABOVE the h2, not inside it: the heading text stays the section name (SEO, 20.11.2026) */
+.sec>.sec-k{display:block;margin-bottom:2px;font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.05em;text-transform:uppercase}
 /* rule item as a card (wave 2, 09.11.2026, variant A of design-mockups/rules-item.html, as on the static rules pages): the number
    badge from the FITASC reference (full reference in its tooltip) and "in the referees' quick guide" above the title */
 .item{background:linear-gradient(to bottom right,rgba(255,255,255,.1),rgba(255,255,255,.05));border:1px solid var(--line);border-radius:12px;margin-bottom:10px;scroll-margin-top:80px}
@@ -525,7 +526,7 @@ function render(){
     <button type="button" class="tile" data-sec="faq"><span class="ic" aria-hidden="true">${RI("help")}</span><span><b>${t("faq")}</b><span>${t("faqS").replace("{n}",nAns(nf))}</span></span></button></div>
    <div class="meta"><a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} FITASC ↗</a><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a>`:""}<span>${t("checked")}</span></div>
    <div class="layout"><nav class="toc" aria-label="${t("toc")}">${parts.map(p=>`<div class="part">${t("part")} ${esc(p)}</div>`+book.sections.filter(s=>s.part===p).map(s=>`<button data-sec="${s.id}">${s.chapter?esc(s.chapter)+". ":""}${esc(tx(s,"title"))}</button>`).join("")).join("")}<div class="part">FAQ</div><button data-sec="faq">${t("faq")}</button></nav>
-   <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}${secNav(book,s.id)}</section>`).join("")}
+   <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><small class="sec-k">${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small><h2>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}${secNav(book,s.id)}</section>`).join("")}
    <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?refBtn(idx(book).byId[id]):"").join("")}</div></details>`).join("")}</section>
    <div class="disclaimer">${t("disc")}</div></div></div>`;
   markAns();
