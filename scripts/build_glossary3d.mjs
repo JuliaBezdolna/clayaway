@@ -3,7 +3,9 @@
 // docs/shared/3d/ (built JS, CSS, models, recorded voice, blocks.json). Do not edit docs/shared/3d/ by hand.
 // This script puts the 3D block of each term of blocks.json into its glossary page, Ukrainian only for now
 // (docs/glossary/<id>/index.html: the texts and the voice are Ukrainian; other languages when translated).
-// The block goes right before the 2D animation (<div data-clay-term>) under its own heading, or before «Детально».
+// The block goes where the 2D animation was (<div data-clay-term>), or before «Детально». The 3D replaces the 2D animation of
+// docs/shared/sims.js on these pages (owner's decision, 23.11.2026): strip2d() takes out the 2D (its heading «Спробуйте самі», the
+// <div data-clay-term> and the animation scripts; speak.js stays for the 🔊 button, glossary-search.js loads terms.js itself).
 // Idempotent: a page that already has the block (class="l3") is left alone. build_seo.mjs calls it at the end;
 // it can also run alone:  bun scripts/build_glossary3d.mjs   (or node)
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
@@ -12,6 +14,11 @@ import { createHash } from "node:crypto";
 
 const DOCS = resolve(import.meta.dirname, "../docs");
 const BLOCKS = `${DOCS}/shared/3d/blocks.json`;
+const strip2d = (h, rel) => h
+  .replace(/<h2>Спробуйте самі<\/h2>\r?\n?/, "")
+  .replace(/<div data-clay-term="[^"]*"[^>]*><\/div>\r?\n?/, "")
+  .replace(/<script src="[^"]*shared\/terms\.js"><\/script><script src="[^"]*shared\/sims-text-[a-z]{2}\.js"><\/script><script src="[^"]*shared\/sims\.min\.js"><\/script><script>ClaySims\.auto\(\)<\/script>/,
+    `<script src="${rel}speak.js" defer></script>`);
 export function buildGlossary3d() {
   if (!existsSync(BLOCKS)) { console.log("glossary 3D: no docs/shared/3d/blocks.json, skipped"); return 0; }
   const blocks = JSON.parse(readFileSync(BLOCKS, "utf8"));
@@ -32,7 +39,8 @@ export function buildGlossary3d() {
       const a = h.indexOf("<h2>Подивіться в 3D</h2>"), m = h.slice(a).match(/<script type="module" src="[^"]*shared\/3d\/[^"]*"><\/script>\n/);
       if (a < 0 || !m) { console.log(`WARNING: glossary 3D: broken block on ${id}`); continue; }
       const end = a + m.index + m[0].length;
-      if (h.slice(a, end) !== block || h !== h0) { writeFileSync(f, h.slice(0, a) + block + h.slice(end)); n++; }
+      h = strip2d(h.slice(0, a) + block + h.slice(end), "../../shared/");
+      if (h !== h0) { writeFileSync(f, h); n++; }
       continue;
     }
     const sim = h.search(/<div data-clay-term="/);
